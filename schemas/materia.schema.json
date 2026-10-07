@@ -1,0 +1,281 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://curriculo-lomloe.example/schemas/materia.schema.json",
+  "title": "Materia del currículo LOMLOE",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schemaVersion",
+    "id",
+    "territorio",
+    "etapa",
+    "materia",
+    "vigencia",
+    "fuentes",
+    "introduccion",
+    "competenciasEspecificas",
+    "desarrollos",
+    "revision"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)*$" },
+    "territorio": { "type": "string", "pattern": "^[a-z]{2}-[a-z]{2}$" },
+    "etapa": { "type": "string", "enum": ["infantil", "primaria", "eso", "bachillerato"] },
+    "materia": { "$ref": "#/$defs/materia" },
+    "vigencia": { "$ref": "#/$defs/vigencia" },
+    "fuentes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/fuente" }
+    },
+    "introduccion": { "$ref": "#/$defs/parrafosLocalizados" },
+    "competenciasEspecificas": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/competenciaEspecifica" }
+    },
+    "desarrollos": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/desarrollo" }
+    },
+    "revision": { "$ref": "#/$defs/revision" }
+  },
+  "$defs": {
+    "textoLocalizado": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "pattern": "^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$" },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "parrafosLocalizados": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "pattern": "^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$" },
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "type": "string", "minLength": 1 }
+      }
+    },
+    "materia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["codigo", "nombre", "cursos"],
+      "properties": {
+        "codigo": { "type": "string", "minLength": 1 },
+        "nombre": { "$ref": "#/$defs/textoLocalizado" },
+        "cursos": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["curso", "caracter"],
+            "properties": {
+              "curso": { "type": "integer", "minimum": 1, "maximum": 6 },
+              "caracter": {
+                "type": "string",
+                "enum": ["obligatoria", "optativa", "modalidad", "via", "ambito"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "vigencia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entradaEnVigor", "aplicableDesdeCurso", "hasta", "estado"],
+      "properties": {
+        "entradaEnVigor": { "type": "string", "format": "date" },
+        "aplicableDesdeCurso": { "type": "string", "pattern": "^[0-9]{4}/[0-9]{4}$" },
+        "hasta": { "type": ["string", "null"], "format": "date" },
+        "estado": { "type": "string", "enum": ["vigente", "derogada", "parcialmente_derogada"] }
+      }
+    },
+    "fuente": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "tipo",
+        "titulo",
+        "publicacion",
+        "numero",
+        "fechaPublicacion",
+        "cve",
+        "urlOficial",
+        "urlVerificacion"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)*$" },
+        "tipo": { "type": "string", "enum": ["ley", "real_decreto", "decreto", "orden", "resolucion", "otro"] },
+        "titulo": { "type": "string", "minLength": 1 },
+        "publicacion": { "type": "string", "minLength": 1 },
+        "numero": { "type": "string", "minLength": 1 },
+        "fechaPublicacion": { "type": "string", "format": "date" },
+        "cve": { "type": "string", "minLength": 1 },
+        "urlOficial": { "type": "string", "format": "uri" },
+        "urlVerificacion": { "type": "string", "format": "uri" },
+        "anexo": { "type": "string" },
+        "paginasMateria": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["desde", "hasta"],
+          "properties": {
+            "desde": { "type": "integer", "minimum": 1 },
+            "hasta": { "type": "integer", "minimum": 1 }
+          }
+        }
+      }
+    },
+    "procedencia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fuenteRef", "paginas"],
+      "properties": {
+        "fuenteRef": { "type": "string" },
+        "paginas": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "competenciaEspecifica": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "codigoOficial",
+        "enunciado",
+        "descripcion",
+        "descriptoresOperativosRefs",
+        "procedencia"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^ce-[0-9]+$" },
+        "codigoOficial": { "type": "string", "pattern": "^[0-9]+$" },
+        "enunciado": { "$ref": "#/$defs/textoLocalizado" },
+        "descripcion": { "$ref": "#/$defs/parrafosLocalizados" },
+        "descriptoresOperativosRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[A-Z]+[0-9]+$" }
+        },
+        "procedencia": { "$ref": "#/$defs/procedencia" }
+      }
+    },
+    "desarrollo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["curso", "criteriosEvaluacion", "bloquesSaberes"],
+      "properties": {
+        "curso": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "criteriosEvaluacion": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/criterioEvaluacion" }
+        },
+        "bloquesSaberes": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/bloqueSaberes" }
+        }
+      }
+    },
+    "criterioEvaluacion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "codigoOficial",
+        "competenciaEspecificaRef",
+        "texto",
+        "saberesBasicosRefs",
+        "procedencia"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^cri-[0-9]+-[0-9]+-[0-9]+$" },
+        "codigoOficial": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+        "competenciaEspecificaRef": { "type": "string", "pattern": "^ce-[0-9]+$" },
+        "texto": { "$ref": "#/$defs/textoLocalizado" },
+        "saberesBasicosRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+$" }
+        },
+        "procedencia": { "$ref": "#/$defs/procedencia" }
+      }
+    },
+    "bloqueSaberes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["codigo", "nombre"],
+      "properties": {
+        "codigo": { "type": "string", "pattern": "^[A-Z]+$" },
+        "nombre": { "$ref": "#/$defs/textoLocalizado" },
+        "saberes": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/saberBasico" }
+        },
+        "apartados": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/apartadoSaberes" }
+        }
+      },
+      "oneOf": [
+        { "required": ["saberes"], "not": { "required": ["apartados"] } },
+        { "required": ["apartados"], "not": { "required": ["saberes"] } }
+      ]
+    },
+    "apartadoSaberes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["codigo", "nombre", "saberes"],
+      "properties": {
+        "codigo": { "type": "string", "minLength": 1 },
+        "nombre": { "$ref": "#/$defs/textoLocalizado" },
+        "saberes": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/saberBasico" }
+        }
+      }
+    },
+    "saberBasico": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "codigoOficial", "texto", "procedencia"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+$" },
+        "codigoOficial": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+$" },
+        "texto": { "$ref": "#/$defs/textoLocalizado" },
+        "procedencia": { "$ref": "#/$defs/procedencia" }
+      }
+    },
+    "revision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["estado", "fuenteComprobada", "fechaUltimaRevision", "metodo", "notas"],
+      "properties": {
+        "estado": { "type": "string", "enum": ["borrador", "revisado", "verificado"] },
+        "fuenteComprobada": { "type": "boolean" },
+        "fechaUltimaRevision": { "type": ["string", "null"], "format": "date" },
+        "metodo": { "type": "string", "minLength": 1 },
+        "notas": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}
