@@ -1,0 +1,848 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.2.0",
+  "id": "es-an.bachillerato.fisica-y-quimica",
+  "territorio": "es-an",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "FISQ",
+    "nombre": {
+      "es": "Física y Química"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-06-03",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boja-2023-104-orden-bachillerato-parte-1",
+      "tipo": "orden",
+      "titulo": "Orden de 30 de mayo de 2023, por la que se desarrolla el currículo correspondiente a la etapa de Bachillerato en la Comunidad Autónoma de Andalucía, se regulan determinados aspectos de la atención a la diversidad y a las diferencias individuales y se establece la ordenación de la evaluación del proceso de aprendizaje del alumnado",
+      "publicacion": "Boletín Oficial de la Junta de Andalucía",
+      "numero": "104",
+      "fechaPublicacion": "2023-06-02",
+      "cve": "00284744",
+      "urlOficial": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00281-9728-01_00284744.pdf",
+      "urlVerificacion": "https://www.juntadeandalucia.es/eboja/2023/104/37-verificacion",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 178,
+        "hasta": 187
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Las enseñanzas de Física y Química en Bachillerato contribuyen de forma activa a que cada estudiante adquiera una base cultural científica rica y de calidad que le permita desenvolverse con soltura en una sociedad que demanda perfiles científicos y técnicos para la investigación y para el mundo laboral. El enfoque STEM que se pretende otorgar a la materia de Física y Química prepara al alumnado de forma integrada en las ciencias, para afrontar un avance que se orienta a la consecución de los Objetivos de Desarrollo Sostenible. Muchos alumnos y alumnas ejercerán probablemente profesiones que todavía no existen en el mercado laboral actual, por lo que el currículo de esta materia es abierto y competencial, y tiene como finalidad no solo contribuir a profundizar en la adquisición de conocimientos, destrezas y actitudes de la ciencia, sino también encaminar al alumnado a diseñar su perfil personal y profesional de acuerdo a las que serán sus preferencias para el futuro. El currículo de Física y Química se organiza en tres bloques los saberes básicos. El primer bloque de saberes básicos recoge la estructura de la materia y del enlace químico, lo que es fundamental para la comprensión de estos conocimientos en este curso y el siguiente, no solo en las materias de Física y de Química, sino también en otras disciplinas científicas que se apoyan en estos contenidos como la Biología. A continuación, el bloque de reacciones químicas proporciona al alumnado un mayor número de herramientas para la realización de cálculos estequiométricos avanzados y cálculos en general con sistemas fisicoquímicos importantes, como las disoluciones y los gases ideales. Los saberes básicos propios de la Química terminan con el bloque sobre Química orgánica, que se introdujo en el último curso de la Educación Secundaria Obligatoria y que se presenta en esta etapa con una mayor profundidad, incluyendo las propiedades generales de los compuestos del carbono, dominando su nomenclatura. Esto preparará a los estudiantes para afrontar en el curso siguiente cómo es la estructura y reactividad de los mismos, algo de evidente importancia en muchos ámbitos de nuestra sociedad actual, como por ejemplo, la síntesis de fármacos y de polímeros. Los saberes de Física comienzan con un estudio profundo del bloque de cinemática. Este bloque se presenta desde un enfoque vectorial, de modo que la carga matemática de esta unidad se vaya adecuando a los requerimientos del desarrollo madurativo del alumnado. Además, comprende un mayor número de movimientos que les permite ampliar las perspectivas de esta rama de la mecánica. Igual de importante es conocer cuáles son las causas del movimiento, por eso el siguiente bloque presenta los conocimientos, destrezas y actitudes correspondientes a la estática y a la dinámica. Aprovechando el enfoque vectorial del bloque anterior, el alumnado aplica esta herramienta a describir los efectos de las fuerzas sobre partículas y sobre sólidos rígidos en lo referido al estudio del momento que produce una fuerza, deduciendo cuáles son las causas en cada caso. Por último, el bloque de energía presenta los saberes como profundización en el trabajo, la potencia y la energía mecánica y su conservación; así como en los aspectos básicos de termodinámica que le permitan entender el funcionamiento de sistemas termodinámicos simples y sus aplicaciones más inmediatas. Todo ello encaminado a comprender la importancia del concepto de energía en nuestra vida cotidiana y en relación con otras disciplinas científicas y tecnológicas. Física y Química se presenta como una propuesta integradora que afianza las bases del estudio, poniendo de manifiesto el aprendizaje competencial, despertando vocaciones científicas entre el alumnado, combinado con una metodología integradora STEM, asegura el aprendizaje significativo del alumnado de lo que resulta un mayor número de estudiantes de disciplinas científicas."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Resolver problemas y situaciones relacionados con la Física y la Química, aplicando las leyes y teorías científicas adecuadas, para comprender y explicar los fenómenos naturales y evidenciar el papel de estas ciencias en la mejora del bienestar común y en la realidad cotidiana"
+      },
+      "descripcion": {
+        "es": [
+          "Aplicar los conocimientos científicos adecuados a la explicación de los fenómenos naturales requiere la construcción de un razonamiento científico que permita la formación de pensamientos de orden superior, necesarios para la construcción de significados, lo que a su vez redunda en una mejor comprensión de dichas leyes y teorías científicas en un proceso de retroalimentación. Entender de este modo los fenómenos fisicoquímicos, implica comprender las interacciones que se producen entre cuerpos y sistemas en la naturaleza, analizarlas a la luz de las leyes y teorías fisicoquímicas, interpretar los fenómenos que se originan y utilizar herramientas científicas para la toma y registro de datos y su análisis crítico para la construcción de nuevo conocimiento científico. El desarrollo de esta competencia requiere el conocimiento de las formas y procedimientos estándares que se utilizan en la investigación científica del mundo natural y permite al alumnado, a su vez, forjar una opinión informada en los aspectos que afectan a su realidad cercana para actuar con sentido crítico en su mejora a través del conocimiento científico adquirido. Así pues, el desarrollo de esta competencia específica permite detectar los problemas del entorno cotidiano y de la realidad socioambiental global, abordándolos desde la perspectiva de la Física y de la Química, buscando soluciones sostenibles que repercutan en el bienestar social común."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM5",
+        "CPSAA1.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+        "paginas": [
+          179,
+          180
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Razonar con solvencia, usando el pensamiento científico y las destrezas relacionadas con el trabajo de la ciencia, para aplicarlos a la observación de la naturaleza y el entorno, a la formulación de preguntas e hipótesis y a la validación de las mismas a través de la experimentación, la indagación y la búsqueda de evidencias"
+      },
+      "descripcion": {
+        "es": [
+          "El alumnado ha de desarrollar habilidades para observar, desde una óptica científica, los fenómenos naturales, y para plantearse sus posibles explicaciones a partir de los procedimientos que caracterizan el trabajo científico, particularmente en las áreas de la Física y de la Química. Esta competencia específica contribuye a lograr el desempeño de investigar sobre los fenómenos naturales a través de la experimentación, la búsqueda de evidencias y el razonamiento científico, haciendo uso de los conocimientos que el alumnado adquiere en su formación. Las destrezas que ha adquirido en etapas anteriores le permiten utilizar en Bachillerato la metodología científica con mayor rigor, obteniendo conclusiones y respuestas de mayor alcance y mejor elaboradas. El alumnado competente establece continuamente relaciones entre lo meramente académico y las vivencias de su realidad cotidiana, lo que les permite encontrar las relaciones entre las leyes y las teorías que aprenden y los fenómenos que observan en el mundo que les rodea. De esta manera, las cuestiones que plantean y las hipótesis que formulan están elaboradas de acuerdo con conocimientos fundamentados, poniendo en evidencia las relaciones entre las variables que estudian en términos matemáticos y las principales leyes de la Física y la Química. Así, las conclusiones y explicaciones que se proporcionan son coherentes con las teorías científicas conocidas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CPSAA4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+        "paginas": [
+          180
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Manejar con propiedad y solvencia el flujo de información en los diferentes registros de comunicación de la ciencia como la nomenclatura de compuestos químicos, el uso del lenguaje matemático, el uso correcto de las unidades de medida, la seguridad en el trabajo experimental, para la producción e interpretación de información en diferentes formatos y a partir de fuentes diversas"
+      },
+      "descripcion": {
+        "es": [
+          "Para lograr una completa formación científica del alumnado, es necesario adecuar el nivel de exigencia al evaluar sus destrezas para la comunicación científica. Para ello, el desarrollo de esta competencia en esta etapa educativa pretende que el alumnado comprendan la información que se le proporciona sobre los fenómenos fisicoquímicos que ocurren en el mundo cotidiano, sea cual sea el formato en el que le sea proporcionada, y produzcan, asimismo, nueva información con corrección, veracidad y fidelidad, utilizando correctamente el lenguaje matemático, los sistemas de unidades, las normas de la IUPAC y la normativa de seguridad de los laboratorios científicos, con la finalidad de reconocer el valor universal del lenguaje científico en la transmisión de conocimiento. El correcto uso del lenguaje científico universal y la soltura a la hora de interpretar y producir información de carácter científico, permiten a cada estudiante crear relaciones constructivas entre la Física, la Química y las demás disciplinas científicas y no científicas, que son propias de otras áreas de conocimiento que se estudian en Bachillerato. Además, prepara a los estudiantes para establecer también conexiones con una comunidad científica activa, preocupada por conseguir una mejora de la sociedad que repercuta en aspectos tan importantes como la conservación del medioambiente y la salud individual y colectiva, lo que dota a esta competencia específica de un carácter esencial para este currículo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "STEM4",
+        "CD2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+        "paginas": [
+          180,
+          181
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar de forma autónoma, crítica y eficiente plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, consultando y seleccionando información científica veraz, creando materiales en diversos formatos y comunicando de manera efectiva en diferentes entornos de aprendizaje, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social"
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de las competencias científicas requiere el acceso a diversas fuentes de información para la selección y utilización de recursos didácticos, tanto tradicionales como digitales. En la actualidad muchos de los recursos necesarios para la enseñanza y el aprendizaje de la Física y la Química pueden encontrarse en distintas plataformas digitales de contenidos, por lo que su uso autónomo facilita el desarrollo de procesos cognitivos de nivel superior y propicia la comprensión, la elaboración de juicios, la creatividad y el desarrollo personal. Su uso crítico y eficiente implica la capacidad de seleccionar, entre los distintos recursos existentes, aquellos que resultan veraces y adecuados para las necesidades de formación, ajustados a las tareas que se están desempeñando y al tiempo disponible. A su vez, es necesaria la autonomía, responsabilidad y uso crítico de las plataformas digitales y sus diferentes entornos de aprendizaje, como, por ejemplo, las herramientas de comunicación para el trabajo colaborativo mediante el intercambio de ideas y contenidos, citando las fuentes y respetando los derechos de autor, a partir de documentos en distintos formatos, de modo que se favorezca el aprendizaje social. Para esto, es necesario que el alumnado aprenda a producir materiales tradicionales o digitales que ofrezcan un valor, no solo para sí mismos, sino también para el resto de la sociedad."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "CD1",
+        "CD3",
+        "CPSAA3.2",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+        "paginas": [
+          181
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Trabajar de forma colaborativa en equipos diversos, aplicando habilidades de coordinación, comunicación, emprendimiento y reparto equilibrado de responsabilidades, para predecir las consecuencias de los avances científicos y su influencia sobre la salud propia y comunitaria y sobre el desarrollo medioambiental sostenible"
+      },
+      "descripcion": {
+        "es": [
+          "El aprendizaje de la Física y de la Química, en lo referido a métodos de trabajo, leyes y teorías más importantes, y las relaciones entre ellas con el resto de las ciencias y la tecnología, la sociedad y el medioambiente implican que el alumnado desarrolle una actitud comprometida en el trabajo experimental y el desarrollo de proyectos de investigación en equipo, adoptando ciertas posiciones éticas y actitudes conscientes en relación con los compromisos sociales que se infieren de estas relaciones. Además, el proceso de formación en ciencias implica el trabajo activo integrado con la lectura, la escritura, la expresión oral, la Tecnología y las Matemáticas. El desarrollo de todas estas destrezas de forma integral tiene mucho más sentido si se realiza en colaboración, dentro de un grupo diverso que respete las diferencias de género, orientación, ideología, etc., en el que forman parte no solo la cooperación, sino también la comunicación, el debate y el reparto consensuado de responsabilidades. Las ideas que se plantean en el trabajo de estos equipos son validadas a través de la argumentación, siendo necesario el acuerdo común para que el colectivo las acepte, al igual que sucede en la comunidad científica, en la que el consenso es un requisito para la aceptación universal de las nuevas ideas, experimentos y descubrimientos. No se debe olvidar, por otra parte, las ventajas de desarrollar el trabajo colaborativo por la interdependencia positiva entre los miembros del equipo, la complementariedad, la responsabilidad compartida, la evaluación grupal, etc., que se fomentan a través del desarrollo de esta competencia específica."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "STEM5",
+        "CPSAA3.1",
+        "CPSAA3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+        "paginas": [
+          181,
+          182
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Participar de forma activa en la construcción colectiva y evolutiva del conocimiento científico, en su entorno cotidiano y cercano, para convertirse en agentes activos de la difusión del pensamiento científico, la aproximación escéptica a la información científica y tecnológica y la puesta en valor de la preservación del medioambiente y la salud pública, el desarrollo económico y la búsqueda de una sociedad igualitaria"
+      },
+      "descripcion": {
+        "es": [
+          "Por último, esta competencia específica pretende dotar al alumnado de la destreza para decidir con criterios científicamente fundamentados y valorar la repercusión técnica, social, económica y medioambiental de las distintas aplicaciones que tienen los avances, las investigaciones y los descubrimientos que la comunidad científica acomete en el transcurso de la historia, con la finalidad de construir ciudadanos y ciudadanas competentes comprometidos con el mundo en el que viven. El conocimiento y explicación de los aspectos más importantes para la sociedad de la ciencia y la tecnología permiten valorar críticamente cuáles son las repercusiones que tienen, y así el alumnado puede tener mejores criterios a la hora de tomar decisiones sobre los usos adecuados de los medios y productos científicos y tecnológicos que la sociedad pone a su disposición. Asimismo, esta competencia específica se desarrolla a través de la participación activa del alumnado en proyectos que involucren la toma de decisiones y la ejecución de acciones científicamente fundamentadas en su vida cotidiana y entorno social. Con ello mejora la conciencia social de la ciencia, algo tan necesario para construir una sociedad de conocimiento más avanzada."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "STEM4",
+        "STEM5",
+        "CPSAA5",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+        "paginas": [
+          182
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas en el análisis de fenómenos fisicoquímicos cotidianos, comprendiendo las causas que los producen y explicándolas utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.A.2",
+            "FISQ.1.A.3",
+            "FISQ.1.E.1",
+            "FISQ.1.F.1"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              184
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver problemas fisicoquímicos planteados a partir de situaciones cotidianas, aplicando las leyes y teorías científicas para encontrar y argumentar las soluciones, expresando adecuadamente los resultados."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.B.1",
+            "FISQ.1.B.3",
+            "FISQ.1.D.1",
+            "FISQ.1.E.3",
+            "FISQ.1.F.2",
+            "FISQ.1.F.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              184
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar situaciones problemáticas en el entorno cotidiano, emprender iniciativas y buscar soluciones sostenibles desde la Física y la Química, analizando críticamente el impacto producido en la sociedad y el medioambiente."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.B.2",
+            "FISQ.1.F.2",
+            "FISQ.1.F.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              184,
+              185
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Formular y verificar hipótesis como respuestas a diferentes problemas y observaciones, manejando con soltura el trabajo experimental, la indagación, la búsqueda de evidencias y el razonamiento lógico-matemático."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.D.3",
+            "FISQ.1.E.1",
+            "FISQ.1.F.1",
+            "FISQ.1.F.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              185
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Utilizar diferentes métodos para encontrar la respuesta a una sola cuestión u observación, cotejando los resultados obtenidos por diferentes métodos y asegurándose así de su coherencia y fiabilidad."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.A.3",
+            "FISQ.1.D.2",
+            "FISQ.1.E.1"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              185
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Integrar las leyes y teorías científicas conocidas en el desarrollo del procedimiento de la validación de las hipótesis formuladas, aplicando relaciones cualitativas y cuantitativas entre las diferentes variables, de manera que el proceso sea más fiable y coherente con el conocimiento científico adquirido."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.B.1",
+            "FISQ.1.D.1",
+            "FISQ.1.E.1",
+            "FISQ.1.F.1"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              185
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar y relacionar de manera rigurosa diferentes sistemas de unidades, empleando correctamente su notación y sus equivalencias, haciendo posible una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.B.1",
+            "FISQ.1.B.3",
+            "FISQ.1.D.1",
+            "FISQ.1.D.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              185
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Nombrar y formular correctamente sustancias simples, iones y compuestos químicos inorgánicos y orgánicos utilizando las normas de la IUPAC, como parte de un lenguaje integrador y universal para toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.A.4",
+            "FISQ.1.C.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              185
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear diferentes formatos para interpretar y expresar información relativa a un proceso fisicoquímico concreto, relacionando entre sí la información que cada uno de ellos contiene y extrayendo de él lo más relevante durante la resolución de un problema."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.D.1",
+            "FISQ.1.E.2",
+            "FISQ.1.F.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              185
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Poner en práctica los conocimientos adquiridos en la experimentación científica en laboratorio o campo, incluyendo el conocimiento de sus materiales y su normativa básica de uso, así como de las normas de seguridad propias de estos espacios, y comprendiendo la importancia en el progreso científico y emprendedor de que la experimentación sea segura, sin comprometer la integridad física propia ni colectiva."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.B.4",
+            "FISQ.1.D.1",
+            "FISQ.1.F.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              185
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interactuar con otros miembros de la comunidad educativa a través de diferentes entornos de aprendizaje, reales y virtuales, utilizando de forma autónoma y eficiente recursos variados, tradicionales y digitales, con rigor y respeto y analizando críticamente las aportaciones de todo el mundo."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.A.1",
+            "FISQ.1.B.2",
+            "FISQ.1.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              185
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma autónoma y versátil, individualmente y en equipo, en la consulta de información y la creación de contenidos, utilizando con criterio las fuentes y herramientas más fiables, y desechando las menos adecuadas, mejorando así el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.A.1",
+            "FISQ.1.B.2",
+            "FISQ.1.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              186
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Participar de manera activa en la construcción del conocimiento científico, evidenciando la presencia de la interacción, la cooperación y la evaluación entre iguales, mejorando el cuestionamiento, la reflexión y el debate al alcanzar el consenso en la resolución de un problema o situación de aprendizaje."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.A.1",
+            "FISQ.1.B.2",
+            "FISQ.1.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              186
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Construir y producir conocimientos a través del trabajo colectivo, además de explorar alternativas para superar la asimilación de conocimientos ya elaborados y encontrando momentos para el análisis, la discusión y la síntesis, obteniendo como resultado la elaboración de productos representados en informes, pósteres, presentaciones, artículos, etc."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.A.1",
+            "FISQ.1.B.2",
+            "FISQ.1.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              186
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Debatir, de manera informada y argumentada, sobre las diferentes cuestiones medioambientales, sociales y éticas relacionadas con el desarrollo de las ciencias, alcanzando un consenso sobre las consecuencias de estos avances y proponiendo soluciones creativas en común a las cuestiones planteadas."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.B.2",
+            "FISQ.1.B.4",
+            "FISQ.1.C.1",
+            "FISQ.1.F.1"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              186
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Identificar y argumentar científicamente las repercusiones de las acciones que el alumnado emprende en su vida cotidiana, analizando cómo mejorarlas como forma de participar activamente en la construcción de una sociedad mejor."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.B.2",
+            "FISQ.1.C.1",
+            "FISQ.1.D.1",
+            "FISQ.1.F.1"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              186
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar las necesidades de la sociedad sobre las que aplicar los conocimientos científicos adecuados que ayuden a mejorarla, incidiendo especialmente en aspectos importantes como la resolución de los grandes retos ambientales, el desarrollo sostenible y la promoción de la salud."
+          },
+          "saberesBasicosRefs": [
+            "FISQ.1.B.4",
+            "FISQ.1.D.1",
+            "FISQ.1.F.1"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+            "paginas": [
+              186
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Enlace químico y estructura de la materia"
+          },
+          "saberes": [
+            {
+              "id": "FISQ.1.A.1",
+              "codigoOficial": "FISQ.1.A.1",
+              "texto": {
+                "es": "Desarrollo de la tabla periódica: contribuciones históricas a su elaboración actual e importancia como herramienta predictiva de las propiedades de los elementos. Primeros intentos de clasificación de los elementos químicos: las triadas de Döbereiner y las octavas de Newlands, entre otros. Clasificaciones periódicas de Mendeleiev y Meyer. La tabla periódica actual."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  182
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.A.2",
+              "codigoOficial": "FISQ.1.A.2",
+              "texto": {
+                "es": "Estructura electrónica de los átomos: explicación de la posición de un elemento en la tabla periódica y de la variación en las propiedades de los elementos químicos de cada grupo y periodo. Los espectros atómicos y la estructura electrónica de los átomos. La configuración electrónica y el sistema periódico. Propiedades periódicas de los elementos químicos: radio atómico, energía de ionización y afinidad electrónica."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  182
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.A.3",
+              "codigoOficial": "FISQ.1.A.3",
+              "texto": {
+                "es": "Teorías sobre la estabilidad de los átomos e iones: predicción de la formación de enlaces entre los elementos, representación de estos y deducción de cuáles son las propiedades de las sustancias químicas. Comprobación a través de la observación y la experimentación. El enlace covalente: estructuras de Lewis para el enlace covalente. La polaridad de las moléculas. Fuerzas intermoleculares. Estructura y propiedades de las sustancias con enlace covalente: sustancias moleculares y redes covalentes. El enlace iónico. Cristales iónicos. Propiedades de los compuestos iónicos. El enlace metálico. Estructura y propiedades. Propiedades de las sustancias con enlace metálico."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  182
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.A.4",
+              "codigoOficial": "FISQ.1.A.4",
+              "texto": {
+                "es": "Formulación y nomenclatura de sustancias simples, iones y compuestos químicos inorgánicos (normas establecidas por la IUPAC): composición y las aplicaciones que tienen en la vida cotidiana."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  182,
+                  183
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Reacciones químicas"
+          },
+          "saberes": [
+            {
+              "id": "FISQ.1.B.1",
+              "codigoOficial": "FISQ.1.B.1",
+              "texto": {
+                "es": "Leyes fundamentales de la Química: relaciones estequiométricas en las reacciones químicas y en la composición de los compuestos. Resolución de cuestiones cuantitativas relacionadas con la Química en la vida cotidiana. Ley de Lavoisier de conservación de la masa, ley de Proust de las proporciones definidas y ley de Dalton de las proporciones múltiples. Composición centesimal de un compuesto. Cálculos estequiométricos en las reacciones químicas. Riqueza de un reactivo. Rendimiento de una reacción. Reactivo limitante y reactivo en exceso."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.B.2",
+              "codigoOficial": "FISQ.1.B.2",
+              "texto": {
+                "es": "Clasificación de las reacciones químicas: relaciones que existen entre la química y aspectos importantes de la sociedad actual como, por ejemplo, la conservación del medioambiente o el desarrollo de fármacos. Reacciones exotérmicas y endotérmicas. Reacciones de síntesis, sustitución, doble sustitución, descomposición y combustión. Observación de distintos tipos de reacciones y comprobación de su estequiometría. Importancia de las reacciones de combustión y su relación con la sostenibilidad y medio ambiente. Importancia de la industria química en la sociedad actual."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.B.3",
+              "codigoOficial": "FISQ.1.B.3",
+              "texto": {
+                "es": "Cálculo de cantidades de materia en sistemas fisicoquímicos concretos, como gases ideales o disoluciones y sus propiedades: variables mesurables propias del estado de los mismos en situaciones de la vida cotidiana. Constante de Avogrado. Concepto de mol, masa atómica, masa molecular y masa fórmula. Masa molar. Leyes de los gases ideales. Volumen molar. Condiciones normales o estándar de un gas. Ley de Dalton de las presiones parciales. Concentración de una disolución: concentración en masa, molaridad y fracción molar."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.B.4",
+              "codigoOficial": "FISQ.1.B.4",
+              "texto": {
+                "es": "Estequiometría y termoquímica de las reacciones químicas: aplicaciones en los procesos industriales más significativos de la ingeniería química. Los sistemas termodinámicos en Química. Variables de estado. Equilibrio térmico y temperatura. Procesos a volumen y presión constantes. Concepto de Entalpía. La ecuación termoquímica y los diagramas de entalpía. Determinación experimental de la entalpía de reacción. Entalpías de combustión, formación y enlace. La ley de Hess."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Química orgánica"
+          },
+          "saberes": [
+            {
+              "id": "FISQ.1.C.1",
+              "codigoOficial": "FISQ.1.C.1",
+              "texto": {
+                "es": "Propiedades Físicas y Químicas generales de los compuestos orgánicos a partir de las estructuras químicas de sus grupos funcionales: generalidades en las diferentes series homólogas y aplicaciones en el mundo real. Características del átomo de carbono. Enlaces sencillos, dobles y triples. Grupo funcional y serie homóloga. Propiedades físicas y químicas generales de los hidrocarburos, los compuestos oxigenados y los nitrogenados."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.C.2",
+              "codigoOficial": "FISQ.1.C.2",
+              "texto": {
+                "es": "Reglas de la IUPAC para formular y nombrar correctamente algunos compuestos orgánicos mono y polifuncionales (hidrocarburos, compuestos oxigenados y compuestos nitrogenados)."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Cinemática"
+          },
+          "saberes": [
+            {
+              "id": "FISQ.1.D.1",
+              "codigoOficial": "FISQ.1.D.1",
+              "texto": {
+                "es": "Variables cinemáticas en función del tiempo en los distintos movimientos que puede tener un objeto, con o sin fuerzas externas: resolución de situaciones reales relacionadas con la Física y el entorno cotidiano. Posición, desplazamiento, velocidad media e instantánea, aceleración, componentes intrínsecas de la aceleración. Carácter vectorial de estas magnitudes."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.D.2",
+              "codigoOficial": "FISQ.1.D.2",
+              "texto": {
+                "es": "Variables que influyen en un movimiento rectilíneo y circular: magnitudes y unidades empleadas. Movimientos cotidianos que presentan estos tipos de trayectoria. Clasificación de los movimientos en función del tipo de trayectorias y de las composiciones intrínsecas de la aceleración. Estudio y elaboración de gráficas de movimientos a partir de observaciones experimentales y/o simulaciones interactivas. Estudio de los movimientos rectilíneo y uniforme, rectilíneo uniformemente acelerado, circular uniforme y circular uniformemente acelerado."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.D.3",
+              "codigoOficial": "FISQ.1.D.3",
+              "texto": {
+                "es": "Relación de la trayectoria de un movimiento compuesto con las magnitudes que lo describen. Relatividad de Galileo. Composición de movimientos: tiro horizontal y tiro oblicuo."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Estática y dinámica"
+          },
+          "saberes": [
+            {
+              "id": "FISQ.1.E.1",
+              "codigoOficial": "FISQ.1.E.1",
+              "texto": {
+                "es": "Predicción, a partir de la composición vectorial, del comportamiento estático o dinámico de una partícula y un sólido rígido bajo la acción de un par de fuerzas. Composición vectorial de un sistema de fuerzas. Fuerza resultante. La fuerza peso y la fuerza normal. Centro de gravedad de los cuerpos. La fuerza de rozamiento. La fuerza tensión. Determinación experimental de fuerzas en relación con sus efectos. La fuerza elástica. Ley de Hooke. La fuerza centrípeta. Dinámica del movimiento circular. Leyes de Newton de la dinámica. Condiciones de equilibrio de traslación. Concepto de sólido rígido. Momentos y pares de fuerzas. Condiciones de equilibrio de rotación."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  183,
+                  184
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.E.2",
+              "codigoOficial": "FISQ.1.E.2",
+              "texto": {
+                "es": "Relación de la mecánica vectorial aplicada sobre una partícula o un sólido rígido con su estado de reposo o de movimiento: aplicaciones estáticas o dinámicas de la Física en otros campos, como la ingeniería o el deporte. El centro de gravedad en el cuerpo humano y su relación con el equilibrio en la práctica deportiva. El centro de gravedad en una estructura y su relación con la estabilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  184
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.E.3",
+              "codigoOficial": "FISQ.1.E.3",
+              "texto": {
+                "es": "Interpretación de las leyes de la dinámica en términos de magnitudes como el momento lineal y el impulso mecánico: aplicaciones en el mundo real. Momento lineal e impulso mecánico. Relación entre ambas magnitudes. Conservación del momento lineal. Reformulación de las leyes de la dinámica en función del concepto de momento lineal."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  184
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Energía"
+          },
+          "saberes": [
+            {
+              "id": "FISQ.1.F.1",
+              "codigoOficial": "FISQ.1.F.1",
+              "texto": {
+                "es": "Conceptos de trabajo y potencia: elaboración de hipótesis sobre el consumo energético de sistemas mecánicos o eléctricos del entorno cotidiano y su rendimiento, verificándolas experimentalmente, mediante simulaciones o a partir del razonamiento lógico-matemático. El trabajo como transferencia de energía entre los cuerpos: trabajo de una fuerza constante, interpretación gráfica del trabajo de una fuerza variable."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  184
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.F.2",
+              "codigoOficial": "FISQ.1.F.2",
+              "texto": {
+                "es": "Energía potencial y energía cinética de un sistema sencillo: aplicación a la conservación de la energía mecánica en sistemas conservativos y no conservativos y al estudio de las causas que producen el movimiento de los objetos en el mundo real. Energía cinética. Teorema del trabajo-energía. Fuerzas conservativas. Energía potencial: gravitatoria y elástica. La fuerza de rozamiento: una fuerza no conservativa. Principio de conservación de la energía mecánica en sistemas conservativos y no conservativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  184
+                ]
+              }
+            },
+            {
+              "id": "FISQ.1.F.3",
+              "codigoOficial": "FISQ.1.F.3",
+              "texto": {
+                "es": "Variables termodinámicas de un sistema en función de las condiciones: determinación de las variaciones de temperatura que experimenta y las transferencias de energía que se producen con su entorno. El calor como mecanismo de transferencia de energía entre dos cuerpos. Energía interna de un sistema. Primer principio de la termodinámica. Clasificación de los procesos termodinámicos. Conservación y degradación de la energía. Segundo principio de la termodinámica."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-1",
+                "paginas": [
+                  184
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-08",
+    "metodo": "Transcripción asistida por extracción de texto y cotejo visual completo con los PDF oficiales firmados.",
+    "notas": [
+      "Pendiente de una segunda revisión humana independiente antes de marcar el documento como verificado.",
+      "Las referencias a saberes se han normalizado para eliminar espacios y puntos finales de los códigos oficiales.",
+      "Los códigos oficiales jerárquicos se conservan con todos sus niveles cuando son referenciados por los criterios."
+    ]
+  }
+}

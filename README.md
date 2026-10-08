@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. La primera materia incluida es Física y Química de 2.º, 3.º y 4.º de ESO en Andalucía.
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 72 currículos de Andalucía: los 30 de ESO de los anexos II y III y las 42 materias del Anexo II de Bachillerato, completados en la [checklist](CHECKLIST.md).
 
 ## Visualizador de prueba
 
@@ -16,8 +16,11 @@ Después, abre `http://localhost:8000`. También se puede indicar otro documento
 
 - `data/`: documentos curriculares canónicos.
 - `schemas/`: esquemas JSON para validarlos.
+- `sources/`: PDF oficiales y catálogo de las fuentes normativas utilizadas.
 - `index.html`, `styles.css`, `app.js`: visualizador sin dependencias ni proceso de compilación.
 - `scripts/build-site.mjs`: prepara una copia publicable en `dist/`.
+
+Los desarrollos pueden incluir el campo opcional `variante`. Se usa en 4.º de ESO para distinguir Matemáticas A y Matemáticas B sin duplicar el currículo común de la materia.
 
 ## Compilar el sitio estático
 

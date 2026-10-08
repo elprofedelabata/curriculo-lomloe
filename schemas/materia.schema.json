@@ -166,7 +166,7 @@
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": { "type": "string", "pattern": "^[A-Z]+[0-9]+$" }
+          "items": { "type": "string", "pattern": "^[A-Z]+[0-9]+(?:\\.[0-9]+)?$" }
         },
         "procedencia": { "$ref": "#/$defs/procedencia" }
       }
@@ -177,6 +177,15 @@
       "required": ["curso", "criteriosEvaluacion", "bloquesSaberes"],
       "properties": {
         "curso": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "variante": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["codigo", "nombre"],
+          "properties": {
+            "codigo": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+            "nombre": { "$ref": "#/$defs/textoLocalizado" }
+          }
+        },
         "criteriosEvaluacion": {
           "type": "array",
           "minItems": 1,
@@ -201,7 +210,7 @@
         "procedencia"
       ],
       "properties": {
-        "id": { "type": "string", "pattern": "^cri-[0-9]+-[0-9]+-[0-9]+$" },
+        "id": { "type": "string", "pattern": "^cri-[0-9]+(?:-[a-z0-9]+)?-[0-9]+-[0-9]+$" },
         "codigoOficial": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
         "competenciaEspecificaRef": { "type": "string", "pattern": "^ce-[0-9]+$" },
         "texto": { "$ref": "#/$defs/textoLocalizado" },
@@ -209,7 +218,7 @@
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+$" }
+          "items": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+(?:\\.[0-9]+)*$" }
         },
         "procedencia": { "$ref": "#/$defs/procedencia" }
       }
@@ -256,8 +265,8 @@
       "additionalProperties": false,
       "required": ["id", "codigoOficial", "texto", "procedencia"],
       "properties": {
-        "id": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+$" },
-        "codigoOficial": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+$" },
+        "id": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+(?:\\.[0-9]+)*$" },
+        "codigoOficial": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+(?:\\.[0-9]+)*$" },
         "texto": { "$ref": "#/$defs/textoLocalizado" },
         "procedencia": { "$ref": "#/$defs/procedencia" }
       }

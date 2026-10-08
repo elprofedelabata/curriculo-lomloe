@@ -1,0 +1,708 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.2.0",
+  "id": "es-an.bachillerato.lenguaje-y-practica-musical",
+  "territorio": "es-an",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "LYPM",
+    "nombre": {
+      "es": "Lenguaje y Práctica Musical"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-06-03",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boja-2023-104-orden-bachillerato-parte-2",
+      "tipo": "orden",
+      "titulo": "Orden de 30 de mayo de 2023, por la que se desarrolla el currículo correspondiente a la etapa de Bachillerato en la Comunidad Autónoma de Andalucía, se regulan determinados aspectos de la atención a la diversidad y a las diferencias individuales y se establece la ordenación de la evaluación del proceso de aprendizaje del alumnado",
+      "publicacion": "Boletín Oficial de la Junta de Andalucía",
+      "numero": "104",
+      "fechaPublicacion": "2023-06-02",
+      "cve": "00284744",
+      "urlOficial": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00297-9728-02_00284744.pdf",
+      "urlVerificacion": "https://www.juntadeandalucia.es/eboja/2023/104/37-verificacion",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 49,
+        "hasta": 55
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Lenguaje y Práctica Musical proporciona al alumnado una formación que le permite profundizar en el conocimiento y el uso de la música como lenguaje universal, desarrollando habilidades perceptivas con fines expresivos y creativos. La música precisa del cultivo de la escucha, como vía natural de acceso a su apreciación, disfrute y comprensión. La identificación de elementos musicales a través de la audición requiere el desarrollo de estrategias que permitan al alumnado no solo analizar sus características, sino también reflexionar sobre las emociones inherentes a la propia percepción musical. En este sentido, es importante que el alumnado adquiera un vocabulario adecuado para describir la música y expresar sus opiniones y sentimientos. Como soporte escrito de obras musicales, la partitura se convierte en objeto de estudio de esta materia, al conectar aspectos perceptivos con su representación gráfica, ya sea de forma convencional o no convencional, posibilitando la conservación del repertorio. Asimismo, aporta información sobre la evolución del propio lenguaje a partir de su estudio comparado, facilitando la comprensión de factores socio-culturales que han incidido en su desarrollo. Además, cuando se utiliza como recurso de apoyo a la interpretación, la partitura favorece la práctica de habilidades de decodificación musical. Tanto la escucha como la representación musical escrita son medios de acceso a la obra. A través de ellos, el alumnado identifica y comprende patrones musicales que, una vez interiorizados, forman parte de su propio universo musical, pudiendo convertirse en elementos generadores de nuevas ideas. En este proceso, adquieren especial relevancia las interpretaciones y las improvisaciones en las que se utilizan la voz, el cuerpo o los instrumentos musicales, como medios para la expresión y la experimentación. De igual manera, resulta relevante la participación en proyectos colaborativos que favorezcan los procesos creativos, así como el descubrimiento de oportunidades de desarrollo personal, social, académico y profesional. En el contexto de esta materia, el uso de aplicaciones y programas informáticos para la transcripción, la grabación, la edición o la difusión musical facilitan el desarrollo de numerosos conocimientos, destrezas y actitudes. Al mismo tiempo, genera una oportunidad para la reflexión sobre la necesidad de respetar la propiedad intelectual y los derechos de autor. La materia de Lenguaje y Práctica Musical está diseñada a partir de cinco competencias específicas. La adquisición de dichas competencias específicas permitirá que el alumnado pueda reconocer y utilizar los elementos del lenguaje musical y adquirir la sensibilidad necesaria para el acercamiento a la música desde la interpretación y la creación. Al mismo tiempo, su consecución supone la adquisición de autonomía en la lectura y la ejecución del discurso musical, imprescindibles para la apreciación de gran variedad de referencias artísticas y para la conformación de un criterio musical propio, prestando especial atención al patrimonio musical andaluz y a su elemento más singular, el flamenco. Por su parte, los saberes básicos de la materia se dividen en dos bloques. El primero de ellos, «Lenguaje musical», incluye los aspectos relacionados con los fundamentos teóricos de la materia; mientras que el segundo, «Práctica musical», hace referencia a las estrategias y técnicas de escucha, de interpretación o de lectura, así como al uso de aplicaciones y programas informáticos para la edición de partituras, la producción musical y audiovisual y su difusión. Con el objetivo de facilitar la adquisición de las competencias específicas, se recomienda el diseño de situaciones de aprendizaje que incluyan actividades complejas que combinen los distintos elementos curriculares y estén vinculadas con diversos ámbitos de experiencia. El uso de piezas musicales que resulten cercanas al alumnado, como por ejemplo el Flamenco y sus fusiones, permitirá introducir un elemento motivador. A su vez, la práctica musical compartida y la realización de proyectos en los que participe el grupo fomentarán la autonomía, la iniciativa, la creatividad, la solidaridad y el respeto a la diversidad. De igual modo, la organización de tareas colaborativas para la identificación, el reconocimiento de los elementos del lenguaje musical, la lectura, la interpretación y la creación musical potenciará el desarrollo competencial, facilitando de esta forma el aprendizaje significativo entre iguales."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Cultivar la escucha activa, desarrollando estrategias de atención, para reconocer y describir con un vocabulario adecuado los elementos que forman parte de una obra y para reflexionar sobre aspectos subjetivos y emocionales inherentes a la percepción musical"
+      },
+      "descripcion": {
+        "es": [
+          "El reconocimiento y la descripción de los elementos constitutivos del lenguaje musical, a partir de la escucha activa, resultan fundamentales para la comprensión de las obras de naturaleza esencialmente sonora. La práctica de ejercicios de percepción auditiva de complejidad progresiva favorece que el alumnado desarrolle las destrezas necesarias para la identificación sonora de los elementos musicales, así como para el reconocimiento de la función de los mismos dentro del discurso musical. De esta forma, se prepara al alumnado para la interiorización de patrones musicales que pueden ser aplicados en procesos de interpretación o de creación. A partir del conocimiento del lenguaje musical, propio de las expresiones musicales cercanas a la realidad social del alumnado, como el Flamenco, se incentivará el desarrollo de sus identidades culturales, ampliando sus vivencias y su relación con una mayor variedad de géneros y estilos musicales y escénicos. En este marco, es necesario que el alumnado comprenda y utilice una terminología musical que le permita describir de forma adecuada no solamente los rasgos de la obra, sino también las sensaciones que esta le genera, profundizando en aspectos subjetivos propios de la experiencia individual ante la música. Además, la escucha de diferentes tipos de obras posibilita el desarrollo, por parte del alumnado, de actitudes de apertura hacia nuevas sonoridades, enriqueciendo sus propios gustos musicales."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CCEC1",
+        "CCEC3.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          50,
+          51
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar los elementos musicales de obras de diferentes estilos y épocas, analizando y comparando partituras con diversas grafías, para describir sus características y reflexionar sobre los factores que afectan a la evolución de la notación musical"
+      },
+      "descripcion": {
+        "es": [
+          "La identificación y comprensión de los elementos musicales: melodía, ritmo, armonía, timbre, etc., a través del análisis de partituras con diferentes grafías, permite al alumnado establecer vínculos entre el código musical escrito, la percepción auditiva de la obra y la manifestación de sentimientos e ideas artísticas. Asimismo, favorece la reflexión sobre su utilidad como medio para la conservación de la música a lo largo del tiempo. En su evolución, el lenguaje musical ha adquirido diferentes formas para atender a los principios estéticos y a las necesidades de expresión humanas. Su estudio comparativo, a través de partituras con diferente grafía, tanto las que tienen como fundamento el lenguaje de la música culta como las que utilizan como fundamento los lenguajes musicales contemporáneos, el jazz, el rock y el Flamenco, no solo aproxima al alumnado al conocimiento del código utilizado para poder descifrarlo posteriormente, sino que lo convierte en un soporte para, a través de su observación y análisis, aproximarse a factores del contexto que afectan a la creación musical y, en consecuencia, a su representación en la partitura."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CPSAA1.1",
+        "CCEC2",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          51
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Aplicar estrategias de interpretación musical, utilizando la lectura como medio de aproximación a la obra y adquiriendo de forma progresiva habilidades de decodificación e integración del lenguaje musical, para ejecutar con autonomía propuestas musicales sencillas o realizar improvisaciones"
+      },
+      "descripcion": {
+        "es": [
+          "En los procesos de interpretación musical, la lectura de partituras, con o sin apoyo de la audición, se convierte en un medio de acceso a la obra, ya que permite el reconocimiento de elementos y la interiorización de patrones musicales. En este sentido, la identificación del código musical para su aplicación práctica, se facilita cuando se complementa con procesos previos de escucha y seguimiento de la partitura. Además, a partir de los materiales musicales asimilados, se posibilita la realización de improvisaciones, individuales o colectivas, libres o dirigidas, en las que se elaboren nuevas ideas, empleando la voz, el cuerpo o diferentes instrumentos musicales. Para la elección del repertorio, se priorizarán las obras pertenecientes al ámbito cultural andaluz. Asimismo, el empleo de estos recursos requiere la adquisición de las habilidades técnicas necesarias para su uso. En consecuencia, para el logro de esta competencia es fundamental concebir el ensayo como un espacio de lectura, escucha, aprendizaje y disfrute musical compartido, pero también, de desarrollo de habilidades y destrezas expresivas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CCEC3.1",
+        "CCEC3.2",
+        "CC1",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          51,
+          52
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Realizar proyectos musicales colaborativos, planificando e implementando sus fases y asumiendo funciones diversas dentro del grupo, para favorecer procesos creativos e identificar oportunidades de desarrollo personal, social, académico y profesional"
+      },
+      "descripcion": {
+        "es": [
+          "La participación en proyectos musicales se presenta como una oportunidad para aplicar los aprendizajes propios de la materia en un marco eminentemente creativo, en el que pueden seleccionarse materiales musicales previamente trabajados, o generarse otros nuevos. Al realizar los proyectos de forma colaborativa, se promueve que el alumnado asuma diferentes funciones y que participe activamente y se comprometa en todas las fases del proceso. Esta experiencia le permitirá, de esta manera, descubrir e identificar distintas oportunidades de desarrollo personal, social, académico y profesional ligadas a la música. Para la elección de los proyectos se fomentará la utilización de obras pertenecientes al patrimonio musical andaluz. Asimismo, el desarrollo de proyectos musicales colaborativos contribuye al cultivo de actitudes de respeto ante la diversidad de opiniones, favoreciendo el crecimiento personal y social del alumnado."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "CD3",
+        "CPSAA3.2",
+        "CPSAA5",
+        "CC2",
+        "CE1",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          52
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Emplear las posibilidades que ofrecen las tecnologías digitales en el ámbito musical, utilizando herramientas de procesamiento del sonido, de producción audiovisual y de edición de partituras, para desarrollar procesos de escritura, creación y difusión musical"
+      },
+      "descripcion": {
+        "es": [
+          "Las posibilidades que ofrecen las herramientas y medios tecnológicos permiten al alumnado participar en el hecho musical, a través de procesos de edición de partituras y de producción sonora y audiovisual, utilizando diversas aplicaciones y programas informáticos. Muchos de estos recursos presentan una interfaz en otra lengua, principalmente en inglés, con lo que se favorece, al mismo tiempo, la adquisición de un lenguaje técnico musical en otro idioma. De igual forma, la difusión de las producciones musicales o audiovisuales a través de diferentes plataformas digitales en internet amplía el marco comunicativo habitual del alumnado. En este sentido, es importante que el alumnado evalúe los riesgos de los espacios virtuales utilizados, conozca las medidas de protección de datos personales y asegure el respeto a la propiedad intelectual y a los derechos de autor. La selección de las herramientas y medios tecnológicos de manera adecuada permite al alumnado participar en el proyecto artístico"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CP1",
+        "CD2",
+        "CD3",
+        "CPSAA1.1",
+        "CE1",
+        "CE3",
+        "CCEC2",
+        "CCEC4.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          52
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir los diferentes parámetros y elementos musicales de una obra, prestando especial atención a las expresiones musicales cercanas a la realidad social del alumnado, como el Flamenco, aplicando estrategias de escucha activa y utilizando un vocabulario específico adecuado."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.A.1",
+            "LYPM.1.A.5",
+            "LYPM.1.B.1"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              53
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Relacionar las sensaciones que genera la música con las características de la obra, identificando la intención comunicativa y expresiva de la audición."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.B.1"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Anotar por escrito fragmentos musicales sencillos a una voz, adaptados al nivel de dificultad, limitándose a aspectos rítmicos o melódicos, o bien tratándolos conjuntamente."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.A.1",
+            "LYPM.1.A.2",
+            "LYPM.1.B.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Describir las principales características de los elementos musicales: melodía, ritmo, armonía, timbre y otros, presentes en partituras con grafía convencional y no convencional de obras de distintos estilos y épocas, identificando y analizando sus elementos."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.A.2",
+            "LYPM.1.A.3",
+            "LYPM.1.A.4",
+            "LYPM.1.A.6"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comparar la representación de los elementos musicales en partituras con diferente grafía, reflexionando sobre los factores que inciden en la evolución de la notación musical."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.A.7",
+            "LYPM.1.A.8"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Leer, con autonomía, partituras sencillas, con o sin apoyo de la audición, prestando especial atención a obras pertenecientes al ámbito cultural andaluz."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.A.1",
+            "LYPM.1.B.4",
+            "LYPM.1.B.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Ejecutar fragmentos musicales sencillos, de forma individual o colectiva, a través de la voz, del cuerpo o de instrumentos musicales, atendiendo a las indicaciones de la partitura."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.A.1",
+            "LYPM.1.B.3",
+            "LYPM.1.B.5",
+            "LYPM.1.B.9"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar habilidades técnicas para la interpretación vocal, instrumental y coreográfica, utilizando los ensayos como espacios de escucha y de aprendizaje y aplicando estrategias de memorización musical."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.B.4",
+            "LYPM.1.B.9"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Generar ideas musicales o coreográficas sencillas, utilizando diferentes instrumentos, la voz o el cuerpo, en improvisaciones libres o dirigidas."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.B.4",
+            "LYPM.1.B.5",
+            "LYPM.1.B.9",
+            "LYPM.1.B.10"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Planificar y desarrollar proyectos musicales colaborativos, prestando especial atención a obras pertenecientes al patrimonio musical andaluz, seleccionando materiales musicales trabajados o creando otros nuevos a partir de la aplicación de los aprendizajes propios de la materia."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.B.8",
+            "LYPM.1.B.10"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Asumir diferentes funciones en la planificación y desarrollo de proyectos musicales colaborativos, participando activamente en su ejecución, valorando las aportaciones del resto de integrantes del grupo y descubriendo oportunidades de desarrollo personal, social, académico y profesional."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.B.8",
+            "LYPM.1.B.9"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              54,
+              55
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Desarrollar proyectos musicales, poniendo en práctica los aprendizajes adquiridos y utilizando herramientas de edición de partituras, de procesamiento del sonido y de producción audiovisual."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.B.6",
+            "LYPM.1.B.10"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              55
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Difundir producciones musicales y audiovisuales a través de plataformas digitales, utilizando entornos seguros y respetando la propiedad intelectual y los derechos de autor."
+          },
+          "saberesBasicosRefs": [
+            "LYPM.1.B.6",
+            "LYPM.1.B.7",
+            "LYPM.1.B.8"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              55
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Lenguaje musical"
+          },
+          "saberes": [
+            {
+              "id": "LYPM.1.A.1",
+              "codigoOficial": "LYPM.1.A.1",
+              "texto": {
+                "es": "Representación musical de los parámetros del sonido: elementos del lenguaje musical relacionados con la altura, la duración, la intensidad y el timbre."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.A.2",
+              "codigoOficial": "LYPM.1.A.2",
+              "texto": {
+                "es": "La melodía: intervalos y tipos de escalas. Registro, ámbito, diseño melódico, motivo, frase y periodo."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.A.3",
+              "codigoOficial": "LYPM.1.A.3",
+              "texto": {
+                "es": "El ritmo: compases simples, complejos y de amalgama; ritmos irregulares y libres; polirritmias y polimetrías, grupos de valoración especial. La modalidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.A.4",
+              "codigoOficial": "LYPM.1.A.4",
+              "texto": {
+                "es": "La armonía: el fenómeno físico armónico; círculo de quintas; principales funciones armónicas en la tonalidad; acordes (triadas, de 7ª y 9ª); enlaces y cadencias (perfecta, semicadencia, etc.); modulaciones y progresiones tonales."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.A.5",
+              "codigoOficial": "LYPM.1.A.5",
+              "texto": {
+                "es": "Los principios generadores de la forma musical: repetición, variación, desarrollo y contraste. Unidades estructurales. Formas simples y complejas; formas vocales e instrumentales; forma estrófica, binaria, ternaria, tema y variaciones, rondó y forma sonata; formas libres."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.A.6",
+              "codigoOficial": "LYPM.1.A.6",
+              "texto": {
+                "es": "Elementos expresivos de la música: dinámica, agógica y articulación."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.A.7",
+              "codigoOficial": "LYPM.1.A.7",
+              "texto": {
+                "es": "Los elementos musicales en la tradición musical occidental, en el flamenco, en el folclore y en las músicas populares urbanas. Células rítmicas, parones rítmico-melódico-armónicos, ostinatos, escalas especiales, texturas, agrupaciones tímbricas…"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.A.8",
+              "codigoOficial": "LYPM.1.A.8",
+              "texto": {
+                "es": "Notación convencional -grafía tradicionaly notación no convencional. Introducción a la notación de la música contemporánea."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Práctica musical"
+          },
+          "saberes": [
+            {
+              "id": "LYPM.1.B.1",
+              "codigoOficial": "LYPM.1.B.1",
+              "texto": {
+                "es": "Estrategias de escucha o visionado de obras o fragmentos musicales, incidiendo principalmente en producciones propias del patrimonio musical andaluz."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.B.2",
+              "codigoOficial": "LYPM.1.B.2",
+              "texto": {
+                "es": "Técnicas de realización escrita de dictados sencillos a una voz: solos rítmicos, melódicos o una combinación de ambos adaptados al nivel."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.B.3",
+              "codigoOficial": "LYPM.1.B.3",
+              "texto": {
+                "es": "Técnicas de interpretación a través de la voz, del cuerpo o de instrumentos musicales, con o sin acompañamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.B.4",
+              "codigoOficial": "LYPM.1.B.4",
+              "texto": {
+                "es": "Lectura, interiorización y memorización de estructuras musicales sencillas. Práctica auditiva o interpretativa de estructuras tonales y modales."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.B.5",
+              "codigoOficial": "LYPM.1.B.5",
+              "texto": {
+                "es": "Estrategias y técnicas de improvisación sobre esquemas rítmico-melódicos y armónicos establecidos o libres adaptados al nivel."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.B.6",
+              "codigoOficial": "LYPM.1.B.6",
+              "texto": {
+                "es": "Técnicas y aplicaciones informáticas de edición musical de partituras y de audio. Funcionalidades propias de las aplicaciones y programas informáticos de licencia libre."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.B.7",
+              "codigoOficial": "LYPM.1.B.7",
+              "texto": {
+                "es": "Difusión musical: protección de datos, propiedad intelectual y derechos de autoría."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.B.8",
+              "codigoOficial": "LYPM.1.B.8",
+              "texto": {
+                "es": "Utilización de medios audiovisuales e informáticos en las producciones propias para favorecer la autocrítica a través de grabaciones en diferentes soportes."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.B.9",
+              "codigoOficial": "LYPM.1.B.9",
+              "texto": {
+                "es": "Adquisición y desarrollo de habilidades y destrezas expresivas en las interpretaciones individuales y grupales."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "LYPM.1.B.10",
+              "codigoOficial": "LYPM.1.B.10",
+              "texto": {
+                "es": "Interpretaciones de obras vocales, instrumentales o coreográficas, individuales o en grupo, prestando especial atención al patrimonio musical andaluz. La música como forma de expresión."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  53
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-08",
+    "metodo": "Transcripción asistida por extracción de texto y cotejo visual completo con los PDF oficiales firmados.",
+    "notas": [
+      "Pendiente de una segunda revisión humana independiente antes de marcar el documento como verificado.",
+      "Las referencias a saberes se han normalizado para eliminar espacios y puntos finales de los códigos oficiales.",
+      "Los códigos oficiales jerárquicos se conservan con todos sus niveles cuando son referenciados por los criterios."
+    ]
+  }
+}

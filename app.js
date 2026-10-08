@@ -2,7 +2,7 @@ const DEFAULT_SOURCE = "./data/es-an/eso/materias/fisica-y-quimica.json";
 
 const state = {
   data: null,
-  course: null,
+  development: null,
   view: "competencias",
   query: "",
 };
@@ -38,6 +38,12 @@ const getText = (value) => {
   return "";
 };
 
+const developmentKey = (development) => `${Number(development.curso)}:${development.variante?.codigo || ""}`;
+const developmentLabel = (development) => {
+  const variant = getText(development?.variante?.nombre);
+  return `${development?.curso}.º ESO${variant ? ` · ${variant}` : ""}`;
+};
+
 function assertCurriculum(data) {
   const requiredArrays = ["competenciasEspecificas", "desarrollos", "fuentes"];
   if (!data || typeof data !== "object") throw new Error("El contenido no es un objeto JSON.");
@@ -50,7 +56,7 @@ function assertCurriculum(data) {
 
 function buildIndexes(data) {
   data._competencies = new Map(data.competenciasEspecificas.map((item) => [item.id, item]));
-  data._courses = new Map(data.desarrollos.map((item) => [Number(item.curso), item]));
+  data._developments = new Map(data.desarrollos.map((item) => [developmentKey(item), item]));
   data._knowledge = new Map();
   data._criteriaByKnowledge = new Map();
 
@@ -87,7 +93,7 @@ function setData(data) {
   assertCurriculum(data);
   buildIndexes(data);
   state.data = data;
-  state.course = Number(data.desarrollos[0].curso);
+  state.development = developmentKey(data.desarrollos[0]);
   state.query = "";
   elements.search.value = "";
   renderShell();
@@ -115,14 +121,19 @@ function renderShell() {
     [data.competenciasEspecificas.length, "competencias específicas"],
     [criterionCount, "criterios de evaluación"],
     [knowledgeCount, "saberes básicos"],
-    [data.desarrollos.length, "cursos disponibles"],
+    [data.desarrollos.length, "desarrollos disponibles"],
   ].map(([value, label]) => `<div class="stat"><strong>${value}</strong><span>${label}</span></div>`).join("");
 
-  elements.courseTabs.innerHTML = data.desarrollos.map((item) => `
-    <button class="course-tab${Number(item.curso) === state.course ? " is-active" : ""}" type="button"
-      role="tab" aria-selected="${Number(item.curso) === state.course}" data-course="${item.curso}">
-      ${item.curso}.º
-    </button>`).join("");
+  elements.courseTabs.innerHTML = data.desarrollos.map((item) => {
+    const key = developmentKey(item);
+    const variantCode = item.variante?.codigo ? ` ${item.variante.codigo.toUpperCase()}` : "";
+    const active = key === state.development;
+    return `<button class="course-tab${active ? " is-active" : ""}" type="button"
+      role="tab" aria-selected="${active}" data-development="${escapeHtml(key)}"
+      aria-label="${escapeHtml(developmentLabel(item))}">
+      ${item.curso}.º${escapeHtml(variantCode)}
+    </button>`;
+  }).join("");
 
   elements.sourceCard.innerHTML = `
     <strong>Fuente normativa</strong>
@@ -134,7 +145,7 @@ function renderShell() {
 
 function render() {
   document.querySelectorAll(".course-tab").forEach((button) => {
-    const active = Number(button.dataset.course) === state.course;
+    const active = button.dataset.development === state.development;
     button.classList.toggle("is-active", active);
     button.setAttribute("aria-selected", String(active));
   });
@@ -147,7 +158,7 @@ function render() {
 }
 
 function renderCompetencies() {
-  const development = state.data._courses.get(state.course);
+  const development = state.data._developments.get(state.development);
   const criteriaByCompetency = new Map();
   for (const criterion of development.criteriosEvaluacion || []) {
     const linked = criteriaByCompetency.get(criterion.competenciaEspecificaRef) || [];
@@ -164,7 +175,7 @@ function renderCompetencies() {
     return competencyCard(competency, competencyMatches ? criteria : matchingCriteria, Boolean(query));
   }).filter(Boolean);
 
-  elements.viewEyebrow.textContent = `${state.course}.º ESO · Vista relacional`;
+  elements.viewEyebrow.textContent = `${developmentLabel(development)} · Vista relacional`;
   elements.viewTitle.textContent = "Competencias y criterios";
   elements.resultCount.textContent = `${cards.length} ${cards.length === 1 ? "competencia" : "competencias"}`;
   elements.cards.innerHTML = cards.join("");
@@ -210,7 +221,7 @@ function criterionCard(criterion) {
 }
 
 function renderKnowledge() {
-  const development = state.data._courses.get(state.course);
+  const development = state.data._developments.get(state.development);
   const query = normalized(state.query);
   const blocks = (development.bloquesSaberes || []).map((block) => {
     const knowledge = (block.saberes || []).filter((item) => matches([item.id, item.codigoOficial, getText(item.texto), getText(block.nombre)], query));
@@ -219,7 +230,7 @@ function renderKnowledge() {
   }).filter(Boolean);
   const itemCount = blocks.reduce((sum, item) => sum + item.count, 0);
 
-  elements.viewEyebrow.textContent = `${state.course}.º ESO · Índice temático`;
+  elements.viewEyebrow.textContent = `${developmentLabel(development)} · Índice temático`;
   elements.viewTitle.textContent = "Saberes básicos";
   elements.resultCount.textContent = `${itemCount} ${itemCount === 1 ? "saber" : "saberes"}`;
   elements.cards.innerHTML = blocks.map((item) => item.html).join("");
@@ -244,7 +255,8 @@ function knowledgeBlock(block, knowledge, open) {
 
 function knowledgeItem(item) {
   const criteria = state.data._criteriaByKnowledge.get(item.id) || [];
-  const courseCriteria = criteria.filter((criterion) => criterion.id.startsWith(`cri-${state.course}-`));
+  const activeCriterionIds = new Set((state.data._developments.get(state.development)?.criteriosEvaluacion || []).map((criterion) => criterion.id));
+  const courseCriteria = criteria.filter((criterion) => activeCriterionIds.has(criterion.id));
   const linked = courseCriteria.length
     ? courseCriteria.map((criterion) => `<strong>${escapeHtml(criterion.codigoOficial)}</strong>`).join(", ")
     : "ninguno";
@@ -293,9 +305,9 @@ function formatDate(value) {
 }
 
 elements.courseTabs.addEventListener("click", (event) => {
-  const button = event.target.closest("[data-course]");
+  const button = event.target.closest("[data-development]");
   if (!button) return;
-  state.course = Number(button.dataset.course);
+  state.development = button.dataset.development;
   render();
 });
 

@@ -1,0 +1,2997 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.2.0",
+  "id": "es-an.eso.computacion-y-robotica",
+  "territorio": "es-an",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "CYR",
+    "nombre": {
+      "es": "Computación y Robótica"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      },
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      },
+      {
+        "curso": 3,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-06-03",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boja-2023-104-orden-eso-parte-2",
+      "tipo": "orden",
+      "titulo": "Orden de 30 de mayo de 2023, por la que se desarrolla el currículo correspondiente a la etapa de Educación Secundaria Obligatoria en la Comunidad Autónoma de Andalucía, se regulan determinados aspectos de la atención a la diversidad y a las diferencias individuales, se establece la ordenación de la evaluación del proceso de aprendizaje del alumnado y se determina el proceso de tránsito entre las diferentes etapas educativas",
+      "publicacion": "Boletín Oficial de la Junta de Andalucía",
+      "numero": "104",
+      "fechaPublicacion": "2023-06-02",
+      "cve": "00284752",
+      "urlOficial": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00246-9727-02_00284752.pdf",
+      "urlVerificacion": "https://www.juntadeandalucia.es/eboja/2023/104/36-verificacion",
+      "anexo": "III",
+      "paginasMateria": {
+        "desde": 39,
+        "hasta": 50
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Computación y Robótica es una materia del bloque de asignaturas optativas que se oferta en los cursos primero, segundo y tercero de Educación Secundaria Obligatoria. Su finalidad es permitir que los alumnos y las alumnas aprendan a idear, planificar, diseñar y crear sistemas de computación y robóticos, como herramientas que permitan cambiar el mundo, desarrollando una serie de capacidades cognitivas integradas en el denominado Pensamiento Computacional. Desde nuestra comunidad autónoma, y en virtud de la consecución de los objetivos planteados para el desarrollo sostenible de la Agenda 2030, así como especialmente para la adquisición de la competencia digital del Perfil de salida a la finalización de la etapa básica, dicha materia se antoja fundamental en un entorno cada vez más específicamente tecnificado. Esta forma de pensar promueve el razonamiento relacionado con sistemas y problemas, mediante un conjunto de técnicas y prácticas bien definidas. Se trata de un proceso basado en la creatividad, la capacidad de abstracción y el pensamiento lógico y crítico que permite, formular problemas, analizar información, modelar y automatizar soluciones, evaluarlas y generalizarlas. Además, el aprendizaje de esta materia debe fomentar una actitud de creación de prototipos y productos que ofrezcan soluciones a problemas reales identificados en la vida diaria del alumnado y en el entorno del centro docente. El objetivo, por tanto, de Computación y Robótica es unir el aprendizaje con el compromiso social. Del mismo modo, puede decirse que la computación es la disciplina dedicada al estudio, diseño y construcción de programas y sistemas informáticos, sus principios y prácticas, aplicaciones e impacto que estas tienen en nuestra sociedad. Se trata de una materia con un cuerpo de conocimiento bien establecido, que incluye un marco de trabajo centrado en la resolución de problemas y en la construcción de conocimiento. La computación, por tanto, es el motor innovador de la sociedad del conocimiento actual, situándose en el núcleo del denominado sector de actividad cuaternario, relacionado con la información. Por otro lado, la robótica es un campo de investigación multidisciplinar, en la frontera entre las ciencias de la computación y la ingeniería, cuyo objetivo es el diseño, la construcción y operación de robots, entendidos como sistemas autónomos que perciben el mundo físico y actúan en consecuencia, realizando tareas al servicio de las personas. A día de hoy, se emplean de forma generalizada, desarrollando trabajos en los que nos apoyan o incluso nos sustituyen. Por ello, las competencias específicas relacionadas con esta materia están estrechamente relacionadas con la producción de aplicaciones informáticas, móviles y web, y sistemas de computación físicos y robóticos sencillos, mediante un aprendizaje basado en la elaboración de proyectos, el desarrollo del pensamiento computacional y su aportación a la consecución de los Objetivos de Desarrollo Sostenible, así como su conexión con el mundo real. En la etapa de Educación Primaria el alumnado ya se inicia en el desarrollo de proyectos de diseño y el pensamiento computacional desde diferentes áreas para el desarrollo, entre otras, de la competencia digital. La materia de Computación y Robótica de los cursos de primero a tercero de Educación Secundaria Obligatoria parte, por lo tanto, de los niveles de desempeño adquiridos en la etapa anterior tanto en competencia digital como en competencia STEM. La competencia STEM establece una expectativa formativa para la educación obligatoria. Estas siglas expresan las iniciales de las cuatro áreas curriculares que se relacionan: Science, Technology, Engineering y Mathematics (Ciencias, Tecnología, Ingeniería y Matemáticas). Los criterios de evaluación son el elemento que valoran el grado de desarrollo de las competencias específicas, siendo formulados con una evidente orientación competencial y con un peso específico de la aplicación de los Saberes básicos, que incluyen en diversas situaciones de aprendizajes. El carácter esencialmente práctico de la materia, así como el enfoque competencial del currículo, requiere metodologías específicas que lo fomenten, como la resolución de problemas basada en el desarrollo de proyectos, la implementación de sistemas tecnológicos (eléctricos, mecánicos, robóticos, etc.), la construcción de prototipos y otras estrategias que favorezcan el uso de aplicaciones digitales para el diseño, la simulación, el dimensionado, la comunicación o la difusión de ideas o soluciones, por ejemplo. Del mismo modo, la aplicación de distintas técnicas de trabajo, complementándose entre sí, además de la diversidad de situaciones de aprendizaje que intervienen en la materia, deben promover la participación de alumnos y alumnas con una visión integral de la disciplina, resaltando su esfera social ante los desafíos y retos tecnológicos que plantea nuestra sociedad del conocimiento, para reducir la brecha digital y de género, prestando especial atención a la desaparición de estereotipos que dificultan la adquisición de competencias digitales en condiciones de igualdad y promoviendo modelos de utilidad social y desarrollo sostenible. Por tanto, al tratarse de una disciplina circunscrita dentro de un marco de trabajo intrínsecamente competencial y basado en proyectos, el proceso de enseñanza-aprendizaje en el aula debe estar basado en esos principios, al integrar de una forma natural las competencias clave y el trabajo en equipo. El aprendizaje debe ser activo y llevarse a cabo a través de actividades contextualizadas. El alumnado a su vez debe construir sus propios productos, prototipos o artefactos computacionales, atendiendo a una filosofía maker, mediante la cual el aprendizaje debe recaer en la propia acción del alumnado. A su vez, la resolución de problemas debe ser abordada en clase con la práctica de diferentes técnicas y estrategias. El fomento de la filosofía de hardware y software libre debe promoverse, priorizando el uso en el aula de programas y dispositivos de código abierto, asumidos como una forma de cultura colaborativa. Dentro de la oportuna adaptación y/o temporalidad de los distintos bloques de contenido al contexto académico, la materia se organiza en nueve bloques de saberes básicos: Introducción a la Programación, Internet de las cosas, Robótica, Desarrollo móvil, Desarrollo web, Fundamentos de la computación física, Datos masivos, Inteligencia Artificial y Ciberseguridad."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Comprender el impacto que la computación y la robótica tienen en nuestra sociedad y desarrollar el pensamiento computacional para realizar proyectos de construcción de sistemas digitales de forma sostenible."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica aborda el impacto, las aplicaciones en los diferentes ámbitos de conocimiento, beneficios, riesgos y cuestiones éticas, legales o de privacidad derivadas del uso y aplicación que la computación y la robótica tienen en nuestra sociedad. Por otro lado, también aborda el desarrollo del pensamiento computacional para aprender a resolver problemas con la ayuda de un ordenador u otros dispositivos de procesamiento, saber formularlos, analizar la información, modelar y automatizar soluciones algorítmicas, evaluarlas y generalizarlas. En este sentido, la combinación de conocimientos en pensamiento computacional, unido al desarrollo de ciertas destrezas, conlleva la construcción de sistemas digitales, que cubren el ciclo de vida, y se orientan preferentemente al desarrollo social y a la sostenibilidad, reaccionando a situaciones que se puedan producir en su entorno y solucionando problemas del mundo real de una forma creativa."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD4",
+        "CPSAA1",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          41
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Producir programas informáticos, colaborando en un equipo de trabajo y creando aplicaciones sencillas, mediante lenguaje de bloques, utilizando las principales estructuras de un lenguaje de programación para solventar un problema determinado o exhibir un comportamiento deseado."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia a producir programas informáticos plenamente funcionales utilizando las principales estructuras de un lenguaje de programación, describiendo cómo los programas implementan algoritmos y evaluando su corrección. Integrarse en un equipo de trabajo, colaborando y comunicándose de forma adecuada para conseguir un objetivo común, fomentando habilidades como la capacidad de resolución de conflictos y de llegar a acuerdos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM3",
+        "CD3",
+        "CD5",
+        "CPSAA3",
+        "CE3",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          41
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Diseñar y construir sistemas de computación físicos o robóticos sencillos, aplicando los conocimientos necesarios para desarrollar soluciones automatizadas a problemas planteados."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia, por un lado, a los procesos de diseño y construcción de sistemas de computación físicos sencillos, que conectados a Internet, generen e intercambien datos con otros dispositivos, reconociendo cuestiones relativas a la seguridad y la privacidad de los usuarios, y por otro, a la construcción de sistemas robóticos sencillos, que perciban su entorno y respondan a él de forma autónoma, para conseguir un objetivo, comprendiendo los principios básicos de ingeniería sobre los que se basan y reconociendo las diferentes tecnologías empleadas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD3",
+        "CD4",
+        "CD5",
+        "CC3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          41
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Recopilar, almacenar y procesar datos, identificando patrones y descubriendo conexiones para resolver problemas mediante la Inteligencia Artificial entendiendo cómo nos ayuda a mejorar nuestra comprensión del mundo."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia abarca los aspectos necesarios para el conocimiento de la naturaleza de las distintas tipologías de datos (siendo conscientes de la gran cantidad que se generan hoy en día), analizarlos, visualizarlos y compararlos, utilizando herramientas de análisis y visualización que permitan extraer información, presentarla y construir conocimiento. Esta competencia también hace referencia al alcance de las tecnologías emergentes como son internet de las cosas, Big Data o inteligencia artificial (IA), ya presentes en nuestras vidas de forma cotidiana, así como a su impacto en nuestra sociedad y las posibilidades que ofrece para mejorar nuestra comprensión del mundo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM5",
+        "CD1",
+        "CD4",
+        "CPSAA5",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          42
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Utilizar y crear aplicaciones informáticas y web sencillas, entendiendo su funcionamiento interno, de forma segura, responsable y respetuosa, protegiendo la identidad online y la privacidad."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia requiere el uso adecuado de aplicaciones informáticas, fomentando la responsabilidad a la hora de utilizar los servicios de intercambio y publicación de información en internet, reconociendo contenido, contactos o conductas inapropiadas y sabiendo cómo informar al respecto. Esta competencia, además, hace referencia a la creación de web conociendo el funcionamiento interno de las páginas, las aplicaciones y cómo se construyen, teniendo en cuenta además la variedad de problemas que pueden presentarse cuando se desarrolla una aplicación web."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM3",
+        "CD5",
+        "CPSAA3",
+        "CPSAA4",
+        "CPSAA5",
+        "CC3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          42
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Conocer y aplicar los principios de la ciberseguridad, adoptando hábitos y conductas de seguridad, para permitir la protección del individuo en su interacción en la red."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia aborda el impacto y la concienciación del individuo sobre la ciberseguridad y sus riesgos. Implica conocer qué prácticas y hábitos de seguridad se deben desarrollar a la hora de utilizar un sistema informático, cuando además se ponen en juego medios de transmisión de datos. También hace referencia a aspectos como la protección de datos, la privacidad o la propiedad intelectual."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM3",
+        "CD1",
+        "CD4",
+        "CD5",
+        "CPSAA3",
+        "CC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          42
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender el funcionamiento global de los sistemas de computación física, sus componentes y principales características."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.C.1",
+            "CYR.1.B.1",
+            "CYR.1.B.2",
+            "CYR.1.B.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              45
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer el papel de la robótica en nuestra sociedad, indicando el marco elemental de trabajo de los mismos."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.C.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              45
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Entender la estructura básica de un programa informático."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.A.1",
+            "CYR.1.A.3",
+            "CYR.1.A.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              45
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender los principios básicos de ingeniería en los que se basan los robots."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.C.3",
+            "CYR.1.C.4",
+            "CYR.1.C.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              45
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y resolver la variedad de problemas posibles, desarrollando un programa informático y generalizando las soluciones, tanto de forma individual como trabajando en equipo, colaborando y comunicándose de forma adecuada."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.A.1",
+            "CYR.1.A.2",
+            "CYR.1.A.3",
+            "CYR.1.A.4",
+            "CYR.1.A.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              45
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y resolver la variedad de problemas posibles desarrollando una aplicación móvil, particularizando las soluciones."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.D.1",
+            "CYR.1.D.2",
+            "CYR.1.D.4",
+            "CYR.1.D.5",
+            "CYR.1.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              45
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Ser capaz de construir un sistema de computación o robótico, promoviendo la interacción con el mundo físico en el contexto de un problema del mundo real, de forma sostenible."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.F.1",
+            "CYR.1.F.2",
+            "CYR.1.F.3",
+            "CYR.1.F.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              45
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer la naturaleza de los distintos tipos de datos generados hoy en día, siendo capaces de analizarlos, visualizarlos y compararlos, empleando a su vez un espíritu crítico y científico."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.G.1",
+            "CYR.1.G.2",
+            "CYR.1.G.3",
+            "CYR.1.G.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              45
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Comprender los principios básicos de funcionamiento de los agentes inteligentes y de las técnicas de aprendizaje automático, con objeto de aplicarlos para la resolución de situaciones mediante la Inteligencia Artificial de forma ética y responsable."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.H.1",
+            "CYR.1.H.2",
+            "CYR.1.H.3",
+            "CYR.1.H.4",
+            "CYR.1.H.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              46
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer la construcción de aplicaciones informáticas y web, entendiendo su funcionamiento interno, de forma segura, responsable y respetuosa."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.E.1",
+            "CYR.1.E.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              46
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y resolver la variedad de problemas potencialmente presentes en el desarrollo de una aplicación web, tratando de generalizar posibles soluciones."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.E.3",
+            "CYR.1.E.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              46
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Adoptar conductas y hábitos que permitan la protección del individuo en su interacción en la red."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.I.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              46
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Acceder a servicios de intercambio y publicación de información digital aplicando criterios básicos de seguridad y uso responsable."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.I.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              46
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y comprender los derechos de los materiales alojados en la web."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.I.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              46
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-4",
+          "codigoOficial": "6.4",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Adoptar conductas de seguridad activa y pasiva en la protección de datos y en el intercambio de información."
+          },
+          "saberesBasicosRefs": [
+            "CYR.1.I.1",
+            "CYR.1.I.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              46
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Introducción a la Programación"
+          },
+          "saberes": [
+            {
+              "id": "CYR.1.A.1",
+              "codigoOficial": "CYR.1.A.1",
+              "texto": {
+                "es": "Introducción a los lenguajes de programación visuales. Tipos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.A.2",
+              "codigoOficial": "CYR.1.A.2",
+              "texto": {
+                "es": "Introducción a los Lenguajes de bloques"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.A.3",
+              "codigoOficial": "CYR.1.A.3",
+              "texto": {
+                "es": "Secuencia básica de instrucciones. Concepto de algoritmo"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.A.4",
+              "codigoOficial": "CYR.1.A.4",
+              "texto": {
+                "es": "Reconocimiento de tareas repetitivas y condicionales"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.A.5",
+              "codigoOficial": "CYR.1.A.5",
+              "texto": {
+                "es": "Determinación de los elementos para la interacción con el usuario."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Internet de las cosas"
+          },
+          "saberes": [
+            {
+              "id": "CYR.1.B.1",
+              "codigoOficial": "CYR.1.B.1",
+              "texto": {
+                "es": "Definición y componentes IoT"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.B.2",
+              "codigoOficial": "CYR.1.B.2",
+              "texto": {
+                "es": "Funcionamiento de IoT"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.B.3",
+              "codigoOficial": "CYR.1.B.3",
+              "texto": {
+                "es": "Tipos de Comunicaciones de dispositivos IoT"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.B.4",
+              "codigoOficial": "CYR.1.B.4",
+              "texto": {
+                "es": "Aplicaciones de IoT."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Robótica"
+          },
+          "saberes": [
+            {
+              "id": "CYR.1.C.1",
+              "codigoOficial": "CYR.1.C.1",
+              "texto": {
+                "es": "Definición de robot"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.C.2",
+              "codigoOficial": "CYR.1.C.2",
+              "texto": {
+                "es": "Leyes de la robótica"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.C.3",
+              "codigoOficial": "CYR.1.C.3",
+              "texto": {
+                "es": "Aproximación a los componentes de un robot: sensores, efectores y actuadores"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.C.4",
+              "codigoOficial": "CYR.1.C.4",
+              "texto": {
+                "es": "Mecanismos de locomoción y manipulación"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.C.5",
+              "codigoOficial": "CYR.1.C.5",
+              "texto": {
+                "es": "Introducción a la programación de robots."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Desarrollo móvil"
+          },
+          "saberes": [
+            {
+              "id": "CYR.1.D.1",
+              "codigoOficial": "CYR.1.D.1",
+              "texto": {
+                "es": "Introducción a los IDEs de lenguajes de bloques para móviles"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.D.2",
+              "codigoOficial": "CYR.1.D.2",
+              "texto": {
+                "es": "Introducción a la programación orientada a eventos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.D.3",
+              "codigoOficial": "CYR.1.D.3",
+              "texto": {
+                "es": "Definición de eventos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.D.4",
+              "codigoOficial": "CYR.1.D.4",
+              "texto": {
+                "es": "Generadores de eventos: los sensores"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.D.5",
+              "codigoOficial": "CYR.1.D.5",
+              "texto": {
+                "es": "Introducción a las E/S: captura de eventos y su respuesta."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Desarrollo web"
+          },
+          "saberes": [
+            {
+              "id": "CYR.1.E.1",
+              "codigoOficial": "CYR.1.E.1",
+              "texto": {
+                "es": "Introducción a las páginas web"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.E.2",
+              "codigoOficial": "CYR.1.E.2",
+              "texto": {
+                "es": "Introducción a los servidores web"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.E.3",
+              "codigoOficial": "CYR.1.E.3",
+              "texto": {
+                "es": "Tipos de lenguajes para la edición de páginas web"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.E.4",
+              "codigoOficial": "CYR.1.E.4",
+              "texto": {
+                "es": "Introducción a la animación web."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Fundamentos de la computación física"
+          },
+          "saberes": [
+            {
+              "id": "CYR.1.F.1",
+              "codigoOficial": "CYR.1.F.1",
+              "texto": {
+                "es": "Introducción a los sistemas de computación"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.F.2",
+              "codigoOficial": "CYR.1.F.2",
+              "texto": {
+                "es": "Concepto de microcontroladores"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.F.3",
+              "codigoOficial": "CYR.1.F.3",
+              "texto": {
+                "es": "Introducción al Hardware y Software"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.F.4",
+              "codigoOficial": "CYR.1.F.4",
+              "texto": {
+                "es": "Introducción a la seguridad eléctrica."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Datos masivos"
+          },
+          "saberes": [
+            {
+              "id": "CYR.1.G.1",
+              "codigoOficial": "CYR.1.G.1",
+              "texto": {
+                "es": "Introducción al Big data"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.G.2",
+              "codigoOficial": "CYR.1.G.2",
+              "texto": {
+                "es": "Visualización, transporte y almacenaje de datos generados"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.G.3",
+              "codigoOficial": "CYR.1.G.3",
+              "texto": {
+                "es": "Entrada y Salida de datos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.G.4",
+              "codigoOficial": "CYR.1.G.4",
+              "texto": {
+                "es": "Introducción a los metadatos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "H",
+          "nombre": {
+            "es": "Inteligencia Artificial"
+          },
+          "saberes": [
+            {
+              "id": "CYR.1.H.1",
+              "codigoOficial": "CYR.1.H.1",
+              "texto": {
+                "es": "Definición de la Inteligencia Artificial"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.H.2",
+              "codigoOficial": "CYR.1.H.2",
+              "texto": {
+                "es": "Introducción a la ética y responsabilidad social en el uso de IA"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.H.3",
+              "codigoOficial": "CYR.1.H.3",
+              "texto": {
+                "es": "Agentes inteligentes simples"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.H.4",
+              "codigoOficial": "CYR.1.H.4",
+              "texto": {
+                "es": "Aprendizaje automático"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.H.5",
+              "codigoOficial": "CYR.1.H.5",
+              "texto": {
+                "es": "Tipos de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "I",
+          "nombre": {
+            "es": "Ciberseguridad"
+          },
+          "saberes": [
+            {
+              "id": "CYR.1.I.1",
+              "codigoOficial": "CYR.1.I.1",
+              "texto": {
+                "es": "Seguridad activa y pasiva"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.I.2",
+              "codigoOficial": "CYR.1.I.2",
+              "texto": {
+                "es": "Exposición de los usuarios"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.I.3",
+              "codigoOficial": "CYR.1.I.3",
+              "texto": {
+                "es": "Peligros en Internet"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.I.4",
+              "codigoOficial": "CYR.1.I.4",
+              "texto": {
+                "es": "Interacción básica de plataformas virtuales"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.1.I.5",
+              "codigoOficial": "CYR.1.I.5",
+              "texto": {
+                "es": "Introducción al concepto de propiedad intelectual"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender el funcionamiento de los sistemas de computación física, sus componentes y principales características."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.C.1",
+            "CYR.2.B.1",
+            "CYR.2.B.2",
+            "CYR.2.B.3",
+            "CYR.2.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              46
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer el papel de la robótica en nuestra sociedad, conociendo las aplicaciones más comunes."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.C.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              46
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Entender cómo funciona un programa informático, la manera de elaborarlo y sus principales componentes."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.A.1",
+            "CYR.2.A.2",
+            "CYR.2.A.3",
+            "CYR.2.A.4",
+            "CYR.2.A.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              47
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender los principios de ingeniería en los que se basan los robots, su funcionamiento, componentes y características."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.C.1",
+            "CYR.2.C.3",
+            "CYR.2.C.4",
+            "CYR.2.C.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              47
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y resolver la variedad de problemas posibles, desarrollando un programa informático y generalizando las soluciones, tanto de forma individual como trabajando en equipo, colaborando y comunicándose de forma adecuada."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.A.1",
+            "CYR.2.A.2",
+            "CYR.2.A.3",
+            "CYR.2.A.4",
+            "CYR.2.A.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              47
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Entender el funcionamiento interno de las aplicaciones móviles y cómo se construyen, dando respuesta a las posibles demandas del escenario a resolver."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.A.3",
+            "CYR.2.A.4",
+            "CYR.2.D.1",
+            "CYR.2.D.2",
+            "CYR.2.D.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              47
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y resolver la variedad de problemas posibles desarrollando una aplicación móvil y generalizando las soluciones."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.D.1",
+            "CYR.2.D.2",
+            "CYR.2.D.4",
+            "CYR.2.D.5",
+            "CYR.2.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              47
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Ser capaz de construir un sistema de computación o robótico, promoviendo la interacción con el mundo físico en el contexto de un problema del mundo real, de forma sostenible."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.F.1",
+            "CYR.2.F.2",
+            "CYR.2.F.3",
+            "CYR.2.F.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              47
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer las aplicaciones actuales del Big Data, así como la naturaleza de los distintos tipos de datos y metadatos generados, siendo capaces de analizarlos, visualizarlos y compararlos, empleando a su vez un espíritu crítico y científico."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.G.1",
+            "CYR.2.G.2",
+            "CYR.2.G.3",
+            "CYR.2.G.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              47
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Comprender los principios básicos de funcionamiento de los agentes inteligentes y de las técnicas de aprendizaje automático, con objeto de aplicarlos para la resolución de situaciones mediante la Inteligencia Artificial de forma ética y responsable."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.H.1",
+            "CYR.2.H.2",
+            "CYR.2.H.3",
+            "CYR.2.H.4",
+            "CYR.2.H.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              47
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer la construcción de aplicaciones informáticas y web, entendiendo su funcionamiento interno, de forma segura, responsable y respetuosa."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.E.1",
+            "CYR.2.E.2",
+            "CYR.2.E.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              48
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y resolver la variedad de problemas potencialmente presentes en el desarrollo de una aplicación web, tratando de generalizar posibles soluciones."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.E.3",
+            "CYR.2.E.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              48
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Adoptar conductas y hábitos que permitan la protección activa del individuo en su interacción en la red."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.I.1",
+            "CYR.2.I.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              48
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Acceder a servicios de intercambio y publicación de información digital aplicando criterios de seguridad y uso responsable."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.I.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              48
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y comprender los derechos de los materiales alojados en la Internet."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.I.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              48
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-4",
+          "codigoOficial": "6.4",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Adoptar conductas de seguridad activa y pasiva en la protección de datos y en el intercambio de información."
+          },
+          "saberesBasicosRefs": [
+            "CYR.2.I.2",
+            "CYR.2.I.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              48
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Introducción a la Programación"
+          },
+          "saberes": [
+            {
+              "id": "CYR.2.A.1",
+              "codigoOficial": "CYR.2.A.1",
+              "texto": {
+                "es": "Lenguajes de programación visuales: ventajas e inconvenientes"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.A.2",
+              "codigoOficial": "CYR.2.A.2",
+              "texto": {
+                "es": "Elementos de los programas con lenguaje de bloques"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.A.3",
+              "codigoOficial": "CYR.2.A.3",
+              "texto": {
+                "es": "Secuencia de instrucciones. Medios de expresión de algoritmos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.A.4",
+              "codigoOficial": "CYR.2.A.4",
+              "texto": {
+                "es": "Generación de tareas repetitivas y condicionales"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.A.5",
+              "codigoOficial": "CYR.2.A.5",
+              "texto": {
+                "es": "Pantallas de interacción con el usuario."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Internet de las cosas"
+          },
+          "saberes": [
+            {
+              "id": "CYR.2.B.1",
+              "codigoOficial": "CYR.2.B.1",
+              "texto": {
+                "es": "Clasificación de los sensores IoT"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.B.2",
+              "codigoOficial": "CYR.2.B.2",
+              "texto": {
+                "es": "Conexión dispositivo a dispositivos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.B.3",
+              "codigoOficial": "CYR.2.B.3",
+              "texto": {
+                "es": "Conexión BLE (Bluetooth Low Energy)"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.B.4",
+              "codigoOficial": "CYR.2.B.4",
+              "texto": {
+                "es": "Aplicaciones de IoT industrial."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Robótica"
+          },
+          "saberes": [
+            {
+              "id": "CYR.2.C.1",
+              "codigoOficial": "CYR.2.C.1",
+              "texto": {
+                "es": "Clasificación de robots: industriales y de servicios"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.C.2",
+              "codigoOficial": "CYR.2.C.2",
+              "texto": {
+                "es": "Aplicaciones de los robots"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.C.3",
+              "codigoOficial": "CYR.2.C.3",
+              "texto": {
+                "es": "Componentes: Sensores, efectores y actuadores"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.C.4",
+              "codigoOficial": "CYR.2.C.4",
+              "texto": {
+                "es": "Robots móviles:aplicaciones"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.C.5",
+              "codigoOficial": "CYR.2.C.5",
+              "texto": {
+                "es": "Programación con lenguajes de bloques."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Desarrollo móvil"
+          },
+          "saberes": [
+            {
+              "id": "CYR.2.D.1",
+              "codigoOficial": "CYR.2.D.1",
+              "texto": {
+                "es": "Ejemplos de IDEs de lenguajes de bloques para móviles"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.D.2",
+              "codigoOficial": "CYR.2.D.2",
+              "texto": {
+                "es": "Programación orientada a eventos: características, ventajas e inconvenientes"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.D.3",
+              "codigoOficial": "CYR.2.D.3",
+              "texto": {
+                "es": "Dependencia de eventos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.D.4",
+              "codigoOficial": "CYR.2.D.4",
+              "texto": {
+                "es": "Tipos de eventos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.D.5",
+              "codigoOficial": "CYR.2.D.5",
+              "texto": {
+                "es": "Descripción de eventos de E/S."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Desarrollo web"
+          },
+          "saberes": [
+            {
+              "id": "CYR.2.E.1",
+              "codigoOficial": "CYR.2.E.1",
+              "texto": {
+                "es": "Estructura básica de una página web"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.E.2",
+              "codigoOficial": "CYR.2.E.2",
+              "texto": {
+                "es": "Servidores web: funcionamiento"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.E.3",
+              "codigoOficial": "CYR.2.E.3",
+              "texto": {
+                "es": "Lenguajes para la edición de páginas web: diferencias"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.E.4",
+              "codigoOficial": "CYR.2.E.4",
+              "texto": {
+                "es": "Tipos de animación web."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Fundamentos de la computación física"
+          },
+          "saberes": [
+            {
+              "id": "CYR.2.F.1",
+              "codigoOficial": "CYR.2.F.1",
+              "texto": {
+                "es": "Sistemas de computación: tipologías"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.F.2",
+              "codigoOficial": "CYR.2.F.2",
+              "texto": {
+                "es": "Microcontroladores: historia"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.F.3",
+              "codigoOficial": "CYR.2.F.3",
+              "texto": {
+                "es": "Hardware: periféricos de entrada y salida. Software: de base y de aplicación"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.F.4",
+              "codigoOficial": "CYR.2.F.4",
+              "texto": {
+                "es": "Seguridad eléctrica: sistemas de alimentación ininterrumpida (SAI)."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Datos masivos"
+          },
+          "saberes": [
+            {
+              "id": "CYR.2.G.1",
+              "codigoOficial": "CYR.2.G.1",
+              "texto": {
+                "es": "Aplicaciones del Big data"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.G.2",
+              "codigoOficial": "CYR.2.G.2",
+              "texto": {
+                "es": "Datos cualitativos y cuantitativos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.G.3",
+              "codigoOficial": "CYR.2.G.3",
+              "texto": {
+                "es": "Distinción entre datos y metadatos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.G.4",
+              "codigoOficial": "CYR.2.G.4",
+              "texto": {
+                "es": "Ciclo de vida de los metadatos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "H",
+          "nombre": {
+            "es": "Inteligencia Artificial"
+          },
+          "saberes": [
+            {
+              "id": "CYR.2.H.1",
+              "codigoOficial": "CYR.2.H.1",
+              "texto": {
+                "es": "Historia de la Inteligencia Artificial"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.H.2",
+              "codigoOficial": "CYR.2.H.2",
+              "texto": {
+                "es": "Ética y responsabilidad social en el uso de IA: análisis"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.H.3",
+              "codigoOficial": "CYR.2.H.3",
+              "texto": {
+                "es": "Agentes inteligentes simples: tipologías"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.H.4",
+              "codigoOficial": "CYR.2.H.4",
+              "texto": {
+                "es": "Aprendizaje automático: usos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.H.5",
+              "codigoOficial": "CYR.2.H.5",
+              "texto": {
+                "es": "Aprendizaje supervisado y no supervisado:aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "I",
+          "nombre": {
+            "es": "Ciberseguridad"
+          },
+          "saberes": [
+            {
+              "id": "CYR.2.I.1",
+              "codigoOficial": "CYR.2.I.1",
+              "texto": {
+                "es": "Privacidad e identidad"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.I.2",
+              "codigoOficial": "CYR.2.I.2",
+              "texto": {
+                "es": "Tipología de los diferentes riesgos por la exposición de los usuarios"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.I.3",
+              "codigoOficial": "CYR.2.I.3",
+              "texto": {
+                "es": "Concepto de Malware y antimalware"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.I.4",
+              "codigoOficial": "CYR.2.I.4",
+              "texto": {
+                "es": "Interacción de plataformas virtuales: vulnerabilidades"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.2.I.5",
+              "codigoOficial": "CYR.2.I.5",
+              "texto": {
+                "es": "Protección de la propiedad intelectual"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender el funcionamiento de los sistemas de computación física, sus componentes y principales características."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.C.1",
+            "CYR.3.B.1",
+            "CYR.3.B.2",
+            "CYR.3.B.3",
+            "CYR.3.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              48
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer los conceptos básicos de la robótica, así como las configuraciones morfológicas más comunes."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.C.1",
+            "CYR.3.C.2",
+            "CYR.3.C.3",
+            "CYR.3.C.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              48
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Entender cómo funciona un programa informático, la manera de elaborarlo y sus principales componentes."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.A.1",
+            "CYR.3.A.2",
+            "CYR.3.A.3",
+            "CYR.3.A.4",
+            "CYR.3.A.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              48
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender los principios de ingeniería en los que se basan los robots, su funcionamiento, componentes y características."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.C.1",
+            "CYR.3.C.2",
+            "CYR.3.C.3",
+            "CYR.3.C.4",
+            "CYR.3.C.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y resolver la variedad de problemas posibles, desarrollando un programa informático y generalizando las soluciones, tanto de forma individual como trabajando en equipo, colaborando y comunicándose de forma adecuada."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.A.1",
+            "CYR.3.A.2",
+            "CYR.3.A.3",
+            "CYR.3.A.4",
+            "CYR.3.A.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Entender el funcionamiento interno de las aplicaciones móviles y cómo se construyen, dando respuesta a las posibles demandas del escenario a resolver."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.A.3",
+            "CYR.3.A.4",
+            "CYR.3.D.1",
+            "CYR.3.D.2",
+            "CYR.3.D.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y resolver la variedad de problemas posibles desarrollando una aplicación móvil y generalizando las soluciones."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.D.1",
+            "CYR.3.D.2",
+            "CYR.3.D.4",
+            "CYR.3.D.5",
+            "CYR.3.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Ser capaz de construir un sistema de computación o robótico, promoviendo la interacción con el mundo físico en el contexto de un problema del mundo real, de forma sostenible."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.F.1",
+            "CYR.3.F.2",
+            "CYR.3.F.3",
+            "CYR.3.F.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer la naturaleza de los distintos tipos metadatos generados hoy en día, siendo capaces de entender su ciclo de vida, empleando a su vez un espíritu crítico y científico."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.G.1",
+            "CYR.3.G.2",
+            "CYR.3.G.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Comprender los principios básicos de funcionamiento de los agentes inteligentes y de las técnicas de aprendizaje automático, con objeto de aplicarlos para la resolución de situaciones mediante la Inteligencia Artificial"
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.H.1",
+            "CYR.3.H.2",
+            "CYR.3.H.3",
+            "CYR.3.H.4",
+            "CYR.3.H.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Comprender los principios de funcionamiento del Data Scraping."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.G.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer la construcción de aplicaciones informáticas y web, entendiendo su funcionamiento interno, de forma segura, responsable y respetuosa."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.E.1",
+            "CYR.3.E.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y resolver la variedad de problemas potencialmente presentes en el desarrollo de una aplicación web, tratando de generalizar posibles soluciones."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.E.3",
+            "CYR.3.E.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Adoptar conductas y hábitos que permitan la protección activa del individuo en su interacción en la red."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.I.1",
+            "CYR.3.I.2",
+            "CYR.3.I.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Acceder a servicios de intercambio y publicación de información digital aplicando criterios de seguridad y uso responsable."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.I.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y comprender la propiedad intelectual de los materiales alojados en la Internet."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.I.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-4",
+          "codigoOficial": "6.4",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Conocer las estrategias de ciberseguridad que garantizan protección a los usuarios de Internet."
+          },
+          "saberesBasicosRefs": [
+            "CYR.3.I.2",
+            "CYR.3.I.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              50
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Introducción a la Programación"
+          },
+          "saberes": [
+            {
+              "id": "CYR.3.A.1",
+              "codigoOficial": "CYR.3.A.1",
+              "texto": {
+                "es": "Conexión de los lenguajes de programación visuales con los lenguajes de programación textuales"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.A.2",
+              "codigoOficial": "CYR.3.A.2",
+              "texto": {
+                "es": "Generación de programas con especificaciones básicas en lenguajes de bloques"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.A.3",
+              "codigoOficial": "CYR.3.A.3",
+              "texto": {
+                "es": "Secuencia de instrucciones. Implementación de algoritmos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.A.4",
+              "codigoOficial": "CYR.3.A.4",
+              "texto": {
+                "es": "Bucles y condicionales anidadas básicas"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.A.5",
+              "codigoOficial": "CYR.3.A.5",
+              "texto": {
+                "es": "Entornos de interacción con el usuario."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Internet de las cosas"
+          },
+          "saberes": [
+            {
+              "id": "CYR.3.B.1",
+              "codigoOficial": "CYR.3.B.1",
+              "texto": {
+                "es": "Aplicaciones de los sensores IoT"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.B.2",
+              "codigoOficial": "CYR.3.B.2",
+              "texto": {
+                "es": "Conexión de dispositivo a la nube"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.B.3",
+              "codigoOficial": "CYR.3.B.3",
+              "texto": {
+                "es": "Características básicas de los protocolos de comunicación: Zigbee, Bluetooth (BLE), Z-Wave, etc"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.B.4",
+              "codigoOficial": "CYR.3.B.4",
+              "texto": {
+                "es": "Aplicaciones móviles IoT."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Robótica"
+          },
+          "saberes": [
+            {
+              "id": "CYR.3.C.1",
+              "codigoOficial": "CYR.3.C.1",
+              "texto": {
+                "es": "Concepto de grado de libertad"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.C.2",
+              "codigoOficial": "CYR.3.C.2",
+              "texto": {
+                "es": "Tipología de las articulaciones"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.C.3",
+              "codigoOficial": "CYR.3.C.3",
+              "texto": {
+                "es": "Configuraciones morfológicas y parámetros característicos de los robots industriales"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.C.4",
+              "codigoOficial": "CYR.3.C.4",
+              "texto": {
+                "es": "Análasis de los AGV (Automated Guided Vehicles)"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.C.5",
+              "codigoOficial": "CYR.3.C.5",
+              "texto": {
+                "es": "Programación con lenguaje de texto de microprocesadores."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Desarrollo móvil"
+          },
+          "saberes": [
+            {
+              "id": "CYR.3.D.1",
+              "codigoOficial": "CYR.3.D.1",
+              "texto": {
+                "es": "Uso básico de IDEs de lenguajes de bloques para móviles"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.D.2",
+              "codigoOficial": "CYR.3.D.2",
+              "texto": {
+                "es": "Programación orientada a eventos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.D.3",
+              "codigoOficial": "CYR.3.D.3",
+              "texto": {
+                "es": "Definición de eventos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.D.4",
+              "codigoOficial": "CYR.3.D.4",
+              "texto": {
+                "es": "Generadores de eventos: los sensores"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.D.5",
+              "codigoOficial": "CYR.3.D.5",
+              "texto": {
+                "es": "E/S: captura de eventos y su respuesta."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Desarrollo web"
+          },
+          "saberes": [
+            {
+              "id": "CYR.3.E.1",
+              "codigoOficial": "CYR.3.E.1",
+              "texto": {
+                "es": "Análisis de la estructura de las páginas web"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.E.2",
+              "codigoOficial": "CYR.3.E.2",
+              "texto": {
+                "es": "Servidores web: tipología"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.E.3",
+              "codigoOficial": "CYR.3.E.3",
+              "texto": {
+                "es": "Formatos de animación web"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.E.4",
+              "codigoOficial": "CYR.3.E.4",
+              "texto": {
+                "es": "Herramientas de animación web."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  43
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Fundamentos de la computación física"
+          },
+          "saberes": [
+            {
+              "id": "CYR.3.F.1",
+              "codigoOficial": "CYR.3.F.1",
+              "texto": {
+                "es": "Sistemas de computación: aplicaciones"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.F.2",
+              "codigoOficial": "CYR.3.F.2",
+              "texto": {
+                "es": "Microcontroladores: tipología"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.F.3",
+              "codigoOficial": "CYR.3.F.3",
+              "texto": {
+                "es": "Hardware: clasificación de los componentes y Software: ciclo de vida"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.F.4",
+              "codigoOficial": "CYR.3.F.4",
+              "texto": {
+                "es": "Seguridad eléctrica: cortafuegos o firewall de hardware, y módulos de seguridad de hardware (HSM)."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Datos masivos"
+          },
+          "saberes": [
+            {
+              "id": "CYR.3.G.1",
+              "codigoOficial": "CYR.3.G.1",
+              "texto": {
+                "es": "Clasificación de los metadatos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.G.2",
+              "codigoOficial": "CYR.3.G.2",
+              "texto": {
+                "es": "Uso de Metadatos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.G.3",
+              "codigoOficial": "CYR.3.G.3",
+              "texto": {
+                "es": "Almacenamiento de Metadatos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.G.4",
+              "codigoOficial": "CYR.3.G.4",
+              "texto": {
+                "es": "Data scraping."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "H",
+          "nombre": {
+            "es": "Inteligencia Artificial"
+          },
+          "saberes": [
+            {
+              "id": "CYR.3.H.1",
+              "codigoOficial": "CYR.3.H.1",
+              "texto": {
+                "es": "Situación actual de la Inteligencia Artificial"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.H.2",
+              "codigoOficial": "CYR.3.H.2",
+              "texto": {
+                "es": "Ética y responsabilidad social en el uso de IA: análisis y consecuencias del mal uso"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.H.3",
+              "codigoOficial": "CYR.3.H.3",
+              "texto": {
+                "es": "Agentes inteligentes simples:funcionamiento"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.H.4",
+              "codigoOficial": "CYR.3.H.4",
+              "texto": {
+                "es": "Aprendizaje automático: casos prácticos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.H.5",
+              "codigoOficial": "CYR.3.H.5",
+              "texto": {
+                "es": "Aprendizaje por refuerzo: aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "I",
+          "nombre": {
+            "es": "Ciberseguridad"
+          },
+          "saberes": [
+            {
+              "id": "CYR.3.I.1",
+              "codigoOficial": "CYR.3.I.1",
+              "texto": {
+                "es": "Cibereguridad: tipologías"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.I.2",
+              "codigoOficial": "CYR.3.I.2",
+              "texto": {
+                "es": "Ciberseguridad: necesidad y concienciación"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.I.3",
+              "codigoOficial": "CYR.3.I.3",
+              "texto": {
+                "es": "Tipos de Malware y antimalware: protección"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.I.4",
+              "codigoOficial": "CYR.3.I.4",
+              "texto": {
+                "es": "Interacción de plataformas virtuales: soluciones"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CYR.3.I.5",
+              "codigoOficial": "CYR.3.I.5",
+              "texto": {
+                "es": "Ley de propiedad intelectual"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-08",
+    "metodo": "Transcripción asistida por extracción de texto y cotejo visual completo con el PDF oficial firmado.",
+    "notas": [
+      "Pendiente de una segunda revisión humana independiente antes de marcar el documento como verificado.",
+      "Las referencias a saberes se han normalizado para eliminar espacios y puntos finales de los códigos oficiales.",
+      "Los códigos oficiales jerárquicos se conservan con todos sus niveles cuando son referenciados por los criterios.",
+      "Se conserva la numeración oficial de primer curso, que pasa del criterio 2.1 al 2.3 sin incluir un criterio 2.2.",
+      "El descriptor CL3 impreso en la primera competencia se normaliza como CCL3.",
+      "En la columna de primer curso, los saberes del bloque E están impresos como CYR.3.E.1 a CYR.3.E.4; se normalizan como CYR.1.E.1 a CYR.1.E.4 por el encabezado de columna y por las referencias de sus criterios."
+    ]
+  }
+}

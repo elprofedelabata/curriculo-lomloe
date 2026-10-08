@@ -1,0 +1,844 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.2.0",
+  "id": "es-an.eso.dibujo-tecnico",
+  "territorio": "es-an",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "DBT",
+    "nombre": {
+      "es": "Dibujo Técnico"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-06-03",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boja-2023-104-orden-eso-parte-2",
+      "tipo": "orden",
+      "titulo": "Orden de 30 de mayo de 2023, por la que se desarrolla el currículo correspondiente a la etapa de Educación Secundaria Obligatoria en la Comunidad Autónoma de Andalucía, se regulan determinados aspectos de la atención a la diversidad y a las diferencias individuales, se establece la ordenación de la evaluación del proceso de aprendizaje del alumnado y se determina el proceso de tránsito entre las diferentes etapas educativas",
+      "publicacion": "Boletín Oficial de la Junta de Andalucía",
+      "numero": "104",
+      "fechaPublicacion": "2023-06-02",
+      "cve": "00284752",
+      "urlOficial": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00246-9727-02_00284752.pdf",
+      "urlVerificacion": "https://www.juntadeandalucia.es/eboja/2023/104/36-verificacion",
+      "anexo": "III",
+      "paginasMateria": {
+        "desde": 75,
+        "hasta": 80
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La comprensión y representación de la realidad que nos rodea son de gran importancia, en general, en toda la educación básica. En este sentido, el Dibujo Técnico, como disciplina de comunicación gráfica objetiva, permite representar formas con rigor y precisión, desarrolla la creatividad y enriquece las posibilidades de expresión del alumnado; estimula el razonamiento lógico para la resolución de problemas e integra conocimientos científicos y destrezas artísticas. Se trata, pues, de una disciplina basada fundamentalmente en el análisis y comprensión del entorno para poder construir un pensamiento activo y crítico. Además, su carácter práctico facilita la adquisición de la competencia personal, social y de aprender a aprender así como la responsabilidad tanto en el trabajo individual como en grupo, dotando al alumnado de mecanismos de gestión emocional y permitiendo también la educación en el ejercicio de la tolerancia y de la libertad, dentro de los principios democráticos de la convivencia. Mediante la realización de esbozos, bocetos o croquis a mano alzada se desarrolla la capacidad de observación y la creatividad del alumnado, favoreciendo el desarrollo de otros modos de expresión y comunicación. Si a esto le añadimos los instrumentos para comunicarnos de manera gráfica y objetiva, así como para expresar y difundir ideas o proyectos de acuerdo a convenciones, se desarrollan, además, destrezas tecnológicas y competencias digitales útiles para abordar la educación postobligatoria o los retos de la sociedad actual. Por tanto, la materia de Dibujo Técnico de 4º de ESO pretende iniciar al alumnado en la representación del espacio tridimensional sobre el plano por medio de la resolución de problemas y la realización de proyectos, tanto individuales como en grupo, de forma estandarizada y aceptada por todos, dotando al alumnado de un conjunto de competencias específicas diseñadas para: apreciar y analizar el entorno y el arte identificando las estructuras geométricas; resolver problemas gráfico-matemáticos aplicando los fundamentos de la geometría plana; desarrollar la visión espacial para recrear la realidad tridimensional por medio de los distintos sistemas de representación; formalizar diseños normalizados y presentar proyectos técnicos colaborativos; aplicar, investigar y experimentar con programas específicos de diseño asistido por ordenador. Una materia con un marcado carácter multidisciplinar y funcional, susceptible de fomentar metodologías interactivas que implican al alumnado en su propio aprendizaje y que promuevan la experimentación y la capacitación para el ejercicio de actividades profesionales. De este modo, los saberes básicos se organizan en torno a cinco bloques interrelacionados: el bloque «Fundamentos de la Geometría», plantea la relación del Dibujo Técnico con las Matemáticas, así como la presencia de la Geometría en las formas naturales, obras patrimoniales y representaciones artísticas del pasado y presente, abordando el estudio de los principios geométricos de manera práctica y teórica. El bloque “Geometría Plana” aborda la resolución de problemas sobre el plano e identifica su aparición y su utilidad en diferentes contextos prácticos. El bloque «Geometría descriptiva» pretende la introducción a los saberes necesarios para representar gráficamente la realidad espacial, con el fin de expresar con precisión con el fin de expresar con precisión el espacio que nos rodea. Con el bloque «Normalización y documentación gráfica de proyectos» se introduce al alumnado en los saberes necesarios para visualizar y comunicar la forma y las dimensiones de los objetos de forma inequívoca, siguiendo las normas UNE e ISO. El bloque «Herramientas digitales para dibujo» presenta al alumnado el uso de diferentes programas y herramientas digitales en proyectos artísticos o de diseño, adquiriendo un conocimiento básico que le permita experimentar y, posteriormente y de forma autónoma, actualizar continuamente sus habilidades digitales y técnicas implicadas. El alcance formativo de esta materia, por tanto, se dirige a la preparación del alumnado en estrategias de razonamiento lógico, gráfico y visión espacial, el uso de la terminología específica, la toma de datos y la interpretación de resultados, para alcanzar el Perfil de salida adecuado que le ayude a afrontar retos y desafíos de la sociedad del siglo XXI, así como garantizar el acceso universal y permanente al aprendizaje, facilitando la motivación para la continuidad de sus estudios posteriores."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Observar, analizar y valorar la presencia de la geometría en la naturaleza, en el entorno y en el arte, identificando sus estructuras geométricas."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia a la capacidad de identificar y analizar la presencia de estructuras geométricas subyacentes en el arte del pasado y del presente, en la naturaleza y en el entorno construido, y de reconocer su papel relevante como elemento compositivo y generador de ideas y formas. Se trata, por tanto, de abordar el estudio de la geometría a través de la exploración y el descubrimiento, de analizar el uso de curvas, polígonos y transformaciones geométricas en el contexto de las culturas en las que se han empleado, para llegar a un conocimiento más amplio y rico de las manifestaciones artísticas del pasado y presente. Esta amplitud de conocimiento favorecerá que el alumnado disfrute con el análisis y la identificación de las formas y estructuras geométricas presentes tanto en producciones artísticas como en su entorno construido, contribuyendo a la puesta en valor de la riqueza de nuestro patrimonio."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CPSAA3",
+        "CC1",
+        "CCEC1",
+        "CCEC2",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          77
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Realizar propuestas gráficas utilizando tanto el dibujo a mano alzada como el dibujo técnico y elaborando trazados y composiciones en el plano."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia aborda el estudio de la Geometría Plana a través de conceptos, propiedades, relaciones y construcciones fundamentales. Proporciona herramientas para la resolución de algunos problemas matemáticos de manera gráfica, valorando aspectos como la precisión, claridad y el trabajo bien hecho."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM2",
+        "CPSAA1",
+        "CPSAA3",
+        "CPSAA5",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          77
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Desarrollar la visión espacial analizando el espacio tridimensional y su representación en el plano en proyectos artísticos y técnicos sencillos."
+      },
+      "descripcion": {
+        "es": [
+          "Persigue el desarrollo de la visión espacial y del inicio en algunas de las aplicaciones de los Sistemas de Representación derivados de la Geometría Descriptiva que son necesarios en todos los procesos constructivos, artísticos y de diseño, ya que cualquier proceso proyectual requiere el conocimiento de los métodos que permitan determinar, a partir de su representación, sus verdaderas magnitudes, formas y relaciones espaciales entre ellas. Esta competencia se vincula, por una parte, con la capacidad para representar figuras planas y cuerpos, y por la otra, con la de expresar y calcular las soluciones a problemas geométricos en el espacio."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM3",
+        "STEM4",
+        "CPSAA3",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          77
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Formalizar diseños técnicos aplicando las normas UNE e ISO y valorando las mismas como lenguaje universal facilitador de la cooperación internacional."
+      },
+      "descripcion": {
+        "es": [
+          "El dibujo normalizado es el principal vehículo de comunicación entre los distintos agentes del proceso constructivo, posibilitando desde una primera expresión de posibles soluciones mediante bocetos y croquis, hasta la formalización final por medio de planos técnicos. Esta competencia específica está asociada a funciones instrumentales de análisis, expresión y comunicación, así como al conocimiento de unas normas y simbología establecidas, las normas UNE e ISO, así como a la iniciación del alumnado en el desarrollo de la documentación gráfica de proyectos técnicos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM3",
+        "STEM4",
+        "CPSAA3",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          77
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Hacer uso de las herramientas digitales y aplicaciones específicas de dibujo, en 2D y 3D, para la creación artística."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia comporta la adquisición de un conocimiento práctico e instrumental de las principales herramientas y técnicas de dibujo y modelado en dos y tres dimensiones de manera transversal al resto de saberes de la materia. Implica el uso de dispositivos digitales como herramientas de aplicación en el proceso creativo, su incorporación para la experimentación en diferentes disciplinas y tendencias artísticas, y como instrumento de gestión y presentación de proyectos de diseño gráfico, de objetos y de espacios."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CPSAA5",
+        "CE3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+        "paginas": [
+          78
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer diferentes tipos de estructuras, formas y relaciones geométricas en la naturaleza, el entorno, el arte y el diseño."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.A.1",
+            "DBT.4.A.2",
+            "DBT.4.A.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              79
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar la importancia de la geometría en la Historia del Arte, especialmente en el Patrimonio Artístico Andaluz."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.A.3",
+            "DBT.4.A.4",
+            "DBT.4.A.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              79
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar mediante la realización de bocetos y croquis a mano alzada la geometría interna de formas bidimensionales."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.A.1",
+            "DBT.4.A.4",
+            "DBT.4.A.5",
+            "DBT.4.B.1",
+            "DBT.4.B.2",
+            "DBT.4.B.3",
+            "DBT.4.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              79
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Dibujar formas geométricas poligonales y curvilíneas, resolver tangencias básicas y transformaciones geométricas."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.A.2",
+            "DBT.4.A.5",
+            "DBT.4.B.1",
+            "DBT.4.B.2",
+            "DBT.4.B.3",
+            "DBT.4.B.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              79
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Presentar el trabajo realizado con limpieza y precisión en el trazado, tanto a mano alzada como en el trazado geométrico."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.A.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              79
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diferenciar las características de los distintos sistemas de representación."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.A.2",
+            "DBT.4.C.1",
+            "DBT.4.C.2",
+            "DBT.4.C.4",
+            "DBT.4.C.5",
+            "DBT.4.C.6"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Dibujar objetos y espacios sencillos mediante los distintos sistemas de representación."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.C.1",
+            "DBT.4.C.2",
+            "DBT.4.C.3",
+            "DBT.4.C.4",
+            "DBT.4.C.5",
+            "DBT.4.C.6"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Aplicar rigor, limpieza y precisión en la representación gráfica de la geometría descriptiva."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.A.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Representar objetos sencillos a través de bocetos y croquis, aplicando la creatividad unida a la corrección técnica."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.A.1",
+            "DBT.4.A.4",
+            "DBT.4.D.1",
+            "DBT.4.D.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Representar objetos sencillos mediante sus vistas acotadas aplicando la normalización vigente."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.D.1",
+            "DBT.4.D.2",
+            "DBT.4.D.3",
+            "DBT.4.D.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Representar un modelo tridimensional de un objeto o espacio, partiendo de su representación técnica y normalizada."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.D.1",
+            "DBT.4.D.4",
+            "DBT.4.D.5"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Aplicar los principios de precisión y limpieza en la normalización, haciendo un uso correcto del material técnico necesario"
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.A.5",
+            "DBT.4.D.2"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Adquirir destrezas en el manejo de herramientas y técnicas de dibujo digital en 2D, aplicándolos a la realización de proyectos creativos."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.E.1",
+            "DBT.4.E.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Iniciarse en el modelado en 3D mediante el diseño de propuestas que incorporen volúmenes sencillos."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.E.2",
+            "DBT.4.E.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Desarrollar un proyecto artístico utilizando las herramientas digitales más apropiadas, hasta su concreción física o digital."
+          },
+          "saberesBasicosRefs": [
+            "DBT.4.E.1",
+            "DBT.4.E.2",
+            "DBT.4.E.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+            "paginas": [
+              80
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Fundamentos de la Geometría"
+          },
+          "saberes": [
+            {
+              "id": "DBT.4.A.1",
+              "codigoOficial": "DBT.4.A.1",
+              "texto": {
+                "es": "La geometría en la naturaleza y en el entorno. Observación directa e indirecta"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.A.2",
+              "codigoOficial": "DBT.4.A.2",
+              "texto": {
+                "es": "Aplicación del dibujo técnico como elemento de comunicación gráfica y generador de formas"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.A.3",
+              "codigoOficial": "DBT.4.A.3",
+              "texto": {
+                "es": "Desarrollo histórico del Dibujo Técnico. Referencias en el Patrimonio Cultural Andaluz"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.A.4",
+              "codigoOficial": "DBT.4.A.4",
+              "texto": {
+                "es": "Presencia de la geometría en las distintas expresiones artísticas (patrimonio arquitectónico, diseño gráfico, cómic, diseño industrial, pintura, etc.). Referentes en el Patrimonio Artístico Andaluz"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.A.5",
+              "codigoOficial": "DBT.4.A.5",
+              "texto": {
+                "es": "Precisión, claridad y limpieza en las ejecuciones. Uso correcto de los materiales propios del Dibujo Técnico. B Geometría plana"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "B"
+          },
+          "saberes": [
+            {
+              "id": "DBT.4.B.1",
+              "codigoOficial": "DBT.4.B.1",
+              "texto": {
+                "es": "Conceptos y trazados elementales en el plano. Construcciones poligonales. Clasificación de polígonos. Triángulos, cuadriláteros, polígonos regulares y polígonos estrellados. Aplicación de trazados fundamentales para el diseño de redes modulares"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.B.2",
+              "codigoOficial": "DBT.4.B.2",
+              "texto": {
+                "es": "Proporcionalidad, razón de proporción, reglas de proporción. Equivalencia y semejanza"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.B.3",
+              "codigoOficial": "DBT.4.B.3",
+              "texto": {
+                "es": "Transformaciones geométricas en el plano"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.B.4",
+              "codigoOficial": "DBT.4.B.4",
+              "texto": {
+                "es": "Geometría curvilínea, tangencias básicas y enlaces. Definición y trazados. C Geometría descriptiva"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "C"
+          },
+          "saberes": [
+            {
+              "id": "DBT.4.C.1",
+              "codigoOficial": "DBT.4.C.1",
+              "texto": {
+                "es": "Tipos de proyección y de sistemas de representación y su aplicación"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.C.2",
+              "codigoOficial": "DBT.4.C.2",
+              "texto": {
+                "es": "Sistema diédrico: representación de punto, recta y plano"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.C.3",
+              "codigoOficial": "DBT.4.C.3",
+              "texto": {
+                "es": "Sistema diédrico: Relaciones entre elementos: intersecciones, paralelismo y perpendicularidad"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.C.4",
+              "codigoOficial": "DBT.4.C.4",
+              "texto": {
+                "es": "Proyecciones diédricas de sólidos geométricos sencillos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.C.5",
+              "codigoOficial": "DBT.4.C.5",
+              "texto": {
+                "es": "Sistema axonométrico, ortogonal y oblicuo. Perspectivas isométrica y caballera. Representación de sólidos geométricos sencillos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.C.6",
+              "codigoOficial": "DBT.4.C.6",
+              "texto": {
+                "es": "Sistema cónico: fundamentos y elementos del sistema. Perspectiva frontal. Representación de sólidos geométricos y espacios sencillos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  78
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Normalización y documentación gráfica de proyectos"
+          },
+          "saberes": [
+            {
+              "id": "DBT.4.D.1",
+              "codigoOficial": "DBT.4.D.1",
+              "texto": {
+                "es": "Escalas y formatos. Representación del entorno según finalidad"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.D.2",
+              "codigoOficial": "DBT.4.D.2",
+              "texto": {
+                "es": "Concepto de normalización. Las normas fundamentales UNE e ISO"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.D.3",
+              "codigoOficial": "DBT.4.D.3",
+              "texto": {
+                "es": "Representación de cuerpos y piezas industriales sencillas. Vistas principales"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.D.4",
+              "codigoOficial": "DBT.4.D.4",
+              "texto": {
+                "es": "Acotación. Tipos de líneas y grosores"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.D.5",
+              "codigoOficial": "DBT.4.D.5",
+              "texto": {
+                "es": "Aplicación del lenguaje técnico en la creación de un proyecto tridimensional, desde el boceto hasta la materialización."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  79
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Herramientas digitales para dibujo"
+          },
+          "saberes": [
+            {
+              "id": "DBT.4.E.1",
+              "codigoOficial": "DBT.4.E.1",
+              "texto": {
+                "es": "Iniciación al dibujo digital en 2D y 3D. Aplicaciones informáticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.E.2",
+              "codigoOficial": "DBT.4.E.2",
+              "texto": {
+                "es": "Generación de volúmenes básicos"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "DBT.4.E.3",
+              "codigoOficial": "DBT.4.E.3",
+              "texto": {
+                "es": "Creación digital de un proyecto artístico"
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-eso-parte-2",
+                "paginas": [
+                  79
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-08",
+    "metodo": "Transcripción asistida por extracción de texto y cotejo visual completo con el PDF oficial firmado.",
+    "notas": [
+      "Pendiente de una segunda revisión humana independiente antes de marcar el documento como verificado.",
+      "Las referencias a saberes se han normalizado para eliminar espacios y puntos finales de los códigos oficiales.",
+      "Los códigos oficiales jerárquicos se conservan con todos sus niveles cuando son referenciados por los criterios."
+    ]
+  }
+}
