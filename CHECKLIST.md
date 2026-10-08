@@ -11,10 +11,10 @@ Una materia se marca como terminada cuando:
 ## Progreso
 
 - **Total:** 88 currículos
-- **Terminados:** 72
-- **Pendientes:** 16
+- **Terminados:** 88
+- **Pendientes:** 0
 - **ESO:** 30 de 30
-- **Bachillerato:** 42 de 58
+- **Bachillerato:** 58 de 58
 
 ## ESO
 
@@ -103,22 +103,22 @@ Una materia se marca como terminada cuando:
 
 ### Anexo III — Materias optativas propias de Andalucía
 
-- [ ] Actividad Física, Salud y Sociedad — 2.º
-- [ ] Anatomía Aplicada — 1.º
-- [ ] Antropología y Sociología — 1.º
-- [ ] Ciencias de la Tierra y del Medio Ambiente — 2.º
-- [ ] Creación Digital y Pensamiento Computacional — 1.º
-- [ ] Cultura Emprendedora y Empresarial — 1.º
-- [ ] Educación para la Convivencia Democrática — I y II
-- [ ] Electrotecnia — 2.º
-- [ ] Finanzas y Economía — 2.º
-- [ ] Fundamentos de Administración y Gestión — 2.º
-- [ ] Imagen y Sonido — 2.º
-- [ ] Mitología Clásica — 2.º
-- [ ] Patrimonio Cultural y Artístico de Andalucía — 1.º
-- [ ] Programación y Computación — 2.º
-- [ ] Psicología — 2.º
-- [ ] Tecnologías de la Información y Comunicación — I y II
+- [x] Actividad Física, Salud y Sociedad — 2.º — [JSON](data/es-an/bachillerato/materias/actividad-fisica-salud-y-sociedad.json)
+- [x] Anatomía Aplicada — 1.º — [JSON](data/es-an/bachillerato/materias/anatomia-aplicada.json)
+- [x] Antropología y Sociología — 1.º — [JSON](data/es-an/bachillerato/materias/antropologia-y-sociologia.json)
+- [x] Ciencias de la Tierra y del Medio Ambiente — 2.º — [JSON](data/es-an/bachillerato/materias/ciencias-de-la-tierra-y-del-medio-ambiente.json)
+- [x] Creación Digital y Pensamiento Computacional — 1.º — [JSON](data/es-an/bachillerato/materias/creacion-digital-y-pensamiento-computacional.json)
+- [x] Cultura Emprendedora y Empresarial — 1.º — [JSON](data/es-an/bachillerato/materias/cultura-emprendedora-y-empresarial.json)
+- [x] Educación para la Convivencia Democrática — I y II — [JSON](data/es-an/bachillerato/materias/educacion-para-la-convivencia-democratica.json)
+- [x] Electrotecnia — 2.º — [JSON](data/es-an/bachillerato/materias/electrotecnia.json)
+- [x] Finanzas y Economía — 2.º — [JSON](data/es-an/bachillerato/materias/finanzas-y-economia.json)
+- [x] Fundamentos de Administración y Gestión — 2.º — [JSON](data/es-an/bachillerato/materias/fundamentos-de-administracion-y-gestion.json)
+- [x] Imagen y Sonido — 2.º — [JSON](data/es-an/bachillerato/materias/imagen-y-sonido.json)
+- [x] Mitología Clásica — 2.º — [JSON](data/es-an/bachillerato/materias/mitologia-clasica.json)
+- [x] Patrimonio Cultural y Artístico de Andalucía — 1.º — [JSON](data/es-an/bachillerato/materias/patrimonio-cultural-y-artistico-de-andalucia.json)
+- [x] Programación y Computación — 2.º — [JSON](data/es-an/bachillerato/materias/programacion-y-computacion.json)
+- [x] Psicología — 2.º — [JSON](data/es-an/bachillerato/materias/psicologia.json)
+- [x] Tecnologías de la Información y Comunicación — I y II — [JSON](data/es-an/bachillerato/materias/tecnologias-de-la-informacion-y-comunicacion.json)
 
 ## Notas de alcance
 

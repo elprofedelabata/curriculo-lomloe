@@ -1,0 +1,784 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.2.0",
+  "id": "es-an.bachillerato.finanzas-y-economia",
+  "territorio": "es-an",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "FYEC",
+    "nombre": {
+      "es": "Finanzas y Economía"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-06-03",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boja-2023-104-orden-bachillerato-parte-2",
+      "tipo": "orden",
+      "titulo": "Orden de 30 de mayo de 2023, por la que se desarrolla el currículo correspondiente a la etapa de Bachillerato en la Comunidad Autónoma de Andalucía, se regulan determinados aspectos de la atención a la diversidad y a las diferencias individuales y se establece la ordenación de la evaluación del proceso de aprendizaje del alumnado",
+      "publicacion": "Boletín Oficial de la Junta de Andalucía",
+      "numero": "104",
+      "fechaPublicacion": "2023-06-02",
+      "cve": "00284744",
+      "urlOficial": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00297-9728-02_00284744.pdf",
+      "urlVerificacion": "https://www.juntadeandalucia.es/eboja/2023/104/37-verificacion",
+      "anexo": "III",
+      "paginasMateria": {
+        "desde": 207,
+        "hasta": 213
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La economía está presente en todos los aspectos de la vida, de ahí la importancia de que el alumnado adquiera conocimientos económicos y financieros que le permitan estar informado y realizar una adecuada gestión de los recursos individuales y colectivos, contribuyendo a fomentar la mejora en su calidad de vida, el progreso y el bienestar social. En la actualidad, la economía y las finanzas, además de dar a conocer los elementos y las reglas que explican los acontecimientos económicos y las consecuencias que se derivan de las decisiones financieras, proyectan valores relacionados con, entre otros, la solidaridad entre personas, la importancia de la sostenibilidad o la gestión de los recursos y de la desigualdad. En este sentido, juega un papel importante la presencia de la persona emprendedora que integra, por un lado, una formación económica y financiera y, por otro, una visión que la anima a buscar oportunidades e ideas que contribuyan a satisfacer las necesidades detectadas en el entorno, desarrollando estrategias para llevar esas ideas a la acción. Así, genera valor para los demás, innova y contribuye a mejorar el bienestar personal, social y cultural. La finalidad educativa de la materia Finanzas y Economía está en consonancia con la Recomendación del Consejo, de 22 de mayo de 2018, relativa a las competencias clave para el aprendizaje permanente, que refiere la necesidad de introducir en la educación herramientas que permitan lograr que lo aprendido se pueda aplicar en tiempo real, y que genere nuevas ideas, nuevas teorías, nuevos productos y nuevos conocimientos. Esta materia pretende que el alumnado analice de forma crítica y reflexiva las consecuencias de las decisiones financieras y de inversión, adquiriendo destrezas en relación a los métodos y análisis empleados en los mercados financieros; que se sensibilice y comprometa con la consecución de los Objetivos de Desarrollo Sostenible; que conozca los aspectos esenciales de una investigación económica empleando metodologías cuantitativas y cualitativas, comprendiendo la relevancia que ha adquirido el método experimental en su desarrollo y que identifique y valore las habilidades y competencias que caracterizan a las personas emprendedoras, para hacerlas suyas en la medida en que así lo necesiten. La presente materia tiene como finalidad fomentar la educación económico-financiera del alumnado. Su misión es contribuir a dotar a la ciudadanía de instrumentos para comprender mejor la dimensión económica de la realidad e impulsar proyectos que compatibilicen la eficiencia económica, la generación de empleo, la libertad política y el bienestar personal y social. Desde finales de los años ochenta, el proceso de globalización, el uso de las tecnologías de la información y la comunicación, la creciente libertad de movimientos de los capitales y los procesos de integración económica, han dado lugar a mercados financieros de creciente complejidad. En ellos la ciudadanía tiene que adoptar decisiones financieras que requieren conocer las condiciones de los productos contratados y sus características. Además, las sucesivas crisis económicas han mostrado las repercusiones que, para las economías domésticas, las empresas y el sector público, tienen los procesos de endeudamiento. Afectan a la vida cotidiana de las personas y a la viabilidad de las organizaciones y de las instituciones, y requieren comprender en profundidad las variables que explican su evolución y los mecanismos para tomar decisiones basadas en la prudencia y en la viabilidad. Los saberes básicos se organizan en cuatro bloques. El primero se vincula a aspectos relacionados con las decisiones financieras básicas. El segundo bloque describe y analiza las operaciones habitualmente empleadas por las entidades financieras. El tercer bloque se centra en los mercados financieros y los productos que estos ofertan, y el cuarto bloque de saberes estudia el desarrollo de destrezas vinculadas a la investigación económica, empleando métodos cuantitativos y cualitativos, así como a la realización de experimentos en ese ámbito. Se pretende que la concreción curricular se realice desde una perspectiva teórico-práctica, aplicando los saberes al análisis de casos e investigaciones sobre contextos personales, empresariales y sociales, de forma objetiva. Conocer y debatir estrategias personales, empresariales y de otras instituciones y organizaciones, a partir del estudio de casos reales y significativos, permitirán que el alumnado tome conciencia de la importancia de potenciar las cualidades propias y de los demás y fomentar actitudes de investigación, esfuerzo, constancia y superación, viendo en estos elementos un aporte de valor tanto individual como colectivo en el camino hacia el aprendizaje y el logro."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Tomar conciencia de la importancia del análisis personal, empresarial o social antes de la toma de decisiones financieras o de inversión, llevando a cabo la resolución de problemas financieros en el caso de rentas, préstamos y empréstitos comerciales, para planificar adecuadamente los aspectos financieros de la vida personal y de las organizaciones"
+      },
+      "descripcion": {
+        "es": [
+          "La realidad económica y financiera actual es compleja, así como la solución a los problemas y la toma de decisiones en este ámbito, debido a que intervienen muchas variables. Por ello, es importante que el alumnado, a través del estudio y el análisis reflexivo, consiga resolver problemas financieros poniendo en conexión esta práctica con la toma de decisiones financieras. Esta conexión proporciona una visión más completa del mundo, permite tomar decisiones que afectan a las finanzas personales y de las organizaciones de modo fundamentado, comprender mejor los cambios en el entorno económico y social y proponer soluciones integrales a problemas financieros como corresponde a ciudadanos responsables, autónomos y comprometidos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CPSAA4",
+        "CE1",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          209
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar las características, ventajas e inconvenientes de los principales productos y mercados financieros y aplicar técnicas sencillas para conocer la viabilidad de proyectos financieros, combinando diferentes fuentes de financiación"
+      },
+      "descripcion": {
+        "es": [
+          "Los mercados financieros, así como los productos que ofrecen, responden a las cambiantes necesidades económicas de la sociedad actual, por lo que resulta necesario distinguir sus características y los métodos para analizar la viabilidad de los proyectos que se pretendan emprender. Se fomentará el estudio del comportamiento humano, a partir de pequeños ensayos o representaciones, donde parte del alumnado interprete el papel que juegan los agentes económicos, mientras que la otra parte actúe como observadora, registrando las consecuencias del supuesto estudiado, permitiéndose que todos ellos adquieran conciencia del funcionamiento de los mercados financieros."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          209
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Comprender las características básicas de las diferentes metodologías de investigación y experimentación económicas, aplicándolas a la realización de indagaciones sencillas que permitan abordar de un modo científico la comprensión de la realidad y el análisis de las consecuencias y la viabilidad de las intervenciones de los diferentes agentes, para profundizar en la comprensión de los problemas sociales y valorar la relevancia de la evaluación del impacto social de la actividad empresarial, de las conductas de los consumidores y de las políticas públicas"
+      },
+      "descripcion": {
+        "es": [
+          "La economía es una ciencia social que emplea métodos de investigación cuantitativos, cualitativos y experimentales. La recopilación de datos económicos, su análisis y exposición, la aplicación del análisis de casos o la realización de experimentos económicos sencillos son instrumentos de comprensión de la realidad económica y social que presentan un elevado potencial para desarrollar un número importante de competencias de modo simultáneo. Mediante el diseño y la implementación de estos métodos de investigación, el alumnado desarrollará proyectos para comprender aspectos como los cambios del entorno genérico y específico de la actividad empresarial, la segmentación de los mercados o el impacto en el entorno de las iniciativas de responsabilidad social empresarial, de las modificaciones de los hábitos de los consumidores o de las políticas públicas. La presentación de los resultados de modo personal y en formato digital le permitirá desarrollar diferentes competencias de modo simultáneo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPAAS4",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          209,
+          210
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Implementar técnicas de emprendimiento personal como la gestión de la inteligencia emocional, así como valorar la importancia del emprendimiento empresarial y social para crear renta y empleo y mejorar el bienestar social, diseñando, con sentido ético y solidario, estrategias de emprendimiento innovadoras y sostenibles que den respuesta a las necesidades locales, andaluzas, españolas y globales detectadas"
+      },
+      "descripcion": {
+        "es": [
+          "Analizar el perfil del emprendedor actual requiere reflexionar sobre las competencias personales y sociales que son deseables, pero también valorar y tener en cuenta otros aspectos psicológicos que influyen en el desarrollo de su figura, como las creencias limitantes que obstaculizan el desarrollo de las habilidades que conforman la inteligencia emocional. Es conveniente acercar al alumnado a personas emprendedoras reales, para de esta forma saber reconocer esas cualidades y competencias, de modo que pueda aprender de ellas y evaluar en qué medida es capaz de adquirirlas o potenciarlas con formación y entrenamiento, para aplicarlas en su vida cotidiana."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD3",
+        "CPSAA1.1",
+        "CPSAA3.2",
+        "CPSAA5",
+        "CC4",
+        "CE1",
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          210
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar las variables relevantes para tomar decisiones de financiación y de inversión en contextos personales, empresariales y sociales, comprendiendo las diferencias entre activos reales y financieros."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.A.1",
+            "FYEC.2.A.2",
+            "FYEC.2.A.3",
+            "FYEC.2.A.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Aplicar las leyes de capitalización simple y compuesta a la resolución de problemas."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.A.1",
+            "FYEC.2.A.2",
+            "FYEC.2.A.3",
+            "FYEC.2.A.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Calcular operaciones de intercambio de capitales con vencimientos distintos."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.A.1",
+            "FYEC.2.A.2",
+            "FYEC.2.A.3",
+            "FYEC.2.A.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar la importancia de comprender las operaciones financieras para planificar las decisiones financieras de las personas y de las organizaciones a lo largo de las diferentes etapas de su vida."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.A.1",
+            "FYEC.2.A.2",
+            "FYEC.2.A.3",
+            "FYEC.2.A.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Describir, tipificar y calcular el valor financiero en problemas de rentas."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.B.1",
+            "FYEC.2.B.2",
+            "FYEC.2.B.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer los elementos y garantías del proceso financiero de la amortización de préstamos."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.B.1",
+            "FYEC.2.B.2",
+            "FYEC.2.B.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Confeccionar e interpretar tablas descriptivas de operaciones de préstamos empleando los métodos más habituales de amortización."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.B.1",
+            "FYEC.2.B.2",
+            "FYEC.2.B.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-4",
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar los rasgos básicos de operaciones de empréstitos comerciales interpretando documentos relacionados con ellos."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.B.1",
+            "FYEC.2.B.2",
+            "FYEC.2.B.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Describir las características de los principales productos financieros que oferta el mercado financiero, comprendiendo su relevancia para la planificación de las actividades de las personas y las organizaciones y valorando las implicaciones éticas de las decisiones financieras."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.C.1",
+            "FYEC.2.C.2",
+            "FYEC.2.C.3",
+            "FYEC.2.C.4",
+            "FYEC.2.C.5",
+            "FYEC.2.C.6",
+            "FYEC.2.C.7"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              211,
+              212
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Describir las principales características del mercado primario y del mercado de negociación, simulando operaciones en carteras de diferente composición (renta fija, renta variable y mixta) y comprendiendo las relaciones entre rentabilidad, riesgo, plazo y liquidez."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.C.1",
+            "FYEC.2.C.2",
+            "FYEC.2.C.3",
+            "FYEC.2.C.4",
+            "FYEC.2.C.5",
+            "FYEC.2.C.6",
+            "FYEC.2.C.7"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              212
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar, mediante distintos métodos, la viabilidad de proyectos financieros personales y de organizaciones."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.C.1",
+            "FYEC.2.C.2",
+            "FYEC.2.C.3",
+            "FYEC.2.C.4",
+            "FYEC.2.C.5",
+            "FYEC.2.C.6",
+            "FYEC.2.C.7"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              212
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Comprender las dinámicas de los procesos de especulación, valorando sus repercusiones sobre las condiciones de vida de las personas y de las sociedades."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.C.1",
+            "FYEC.2.C.2",
+            "FYEC.2.C.3",
+            "FYEC.2.C.4",
+            "FYEC.2.C.5",
+            "FYEC.2.C.6",
+            "FYEC.2.C.7"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              212
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diferenciar las características de las principales modalidades de investigación económica."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.D.1",
+            "FYEC.2.D.2",
+            "FYEC.2.D.3",
+            "FYEC.2.D.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              212
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar, llevar a cabo y exponer los resultados de una investigación sobre un problema económico o social que emplee datos, analice algún caso relevante relacionado con asuntos empresariales o financieros o lleve a cabo un experimento ilustrativo de principios económicos."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.D.1",
+            "FYEC.2.D.2",
+            "FYEC.2.D.3",
+            "FYEC.2.D.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              212
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reconocer el valor del trabajo en equipo."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.D.1",
+            "FYEC.2.D.2",
+            "FYEC.2.D.3",
+            "FYEC.2.D.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              212
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Valorar la relevancia de la investigación económica en la comprensión de la realidad local, regional, estatal y global, en la validación científica de modelos, en la evaluación de políticas públicas y en el estudio de la viabilidad de propuestas de soluciones a los problemas sociales."
+          },
+          "saberesBasicosRefs": [
+            "FYEC.2.D.1",
+            "FYEC.2.D.2",
+            "FYEC.2.D.3",
+            "FYEC.2.D.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              212
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Decisiones financieras básicas"
+          },
+          "saberes": [
+            {
+              "id": "FYEC.2.A.1",
+              "codigoOficial": "FYEC.2.A.1",
+              "texto": {
+                "es": "Planificación y decisiones financieras."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.A.2",
+              "codigoOficial": "FYEC.2.A.2",
+              "texto": {
+                "es": "Capitalización simple y compuesta."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.A.3",
+              "codigoOficial": "FYEC.2.A.3",
+              "texto": {
+                "es": "Equivalencia financiera."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.A.4",
+              "codigoOficial": "FYEC.2.A.4",
+              "texto": {
+                "es": "Gestión de cuentas corrientes."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Otras operaciones financieras"
+          },
+          "saberes": [
+            {
+              "id": "FYEC.2.B.1",
+              "codigoOficial": "FYEC.2.B.1",
+              "texto": {
+                "es": "Rentas y resolución de problemas financieros."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.B.2",
+              "codigoOficial": "FYEC.2.B.2",
+              "texto": {
+                "es": "Métodos de amortización de préstamos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.B.3",
+              "codigoOficial": "FYEC.2.B.3",
+              "texto": {
+                "es": "Empréstitos comerciales."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Mercados financieros"
+          },
+          "saberes": [
+            {
+              "id": "FYEC.2.C.1",
+              "codigoOficial": "FYEC.2.C.1",
+              "texto": {
+                "es": "Productos financieros."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.C.2",
+              "codigoOficial": "FYEC.2.C.2",
+              "texto": {
+                "es": "El mercado primario."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.C.3",
+              "codigoOficial": "FYEC.2.C.3",
+              "texto": {
+                "es": "El mercado secundario: la renta fija, variable y mixta."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.C.4",
+              "codigoOficial": "FYEC.2.C.4",
+              "texto": {
+                "es": "Fondos de inversión, planes de pensiones y seguros."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.C.5",
+              "codigoOficial": "FYEC.2.C.5",
+              "texto": {
+                "es": "Proyectos de viabilidad financiera."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.C.6",
+              "codigoOficial": "FYEC.2.C.6",
+              "texto": {
+                "es": "Burbujas financieras y crisis económicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.C.7",
+              "codigoOficial": "FYEC.2.C.7",
+              "texto": {
+                "es": "Finanzas éticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Economía aplicada"
+          },
+          "saberes": [
+            {
+              "id": "FYEC.2.D.1",
+              "codigoOficial": "FYEC.2.D.1",
+              "texto": {
+                "es": "Tratamiento de datos e investigaciones cuantitativas."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.D.2",
+              "codigoOficial": "FYEC.2.D.2",
+              "texto": {
+                "es": "Análisis de casos y otros métodos cualitativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.D.3",
+              "codigoOficial": "FYEC.2.D.3",
+              "texto": {
+                "es": "Experimentos económicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  211
+                ]
+              }
+            },
+            {
+              "id": "FYEC.2.D.4",
+              "codigoOficial": "FYEC.2.D.4",
+              "texto": {
+                "es": "Proyecto de investigación sobre temas económicos y empresariales."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  211
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-08",
+    "metodo": "Transcripción asistida por extracción de texto y cotejo visual completo con los PDF oficiales firmados.",
+    "notas": []
+  }
+}

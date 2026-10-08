@@ -1,0 +1,954 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.2.0",
+  "id": "es-an.bachillerato.anatomia-aplicada",
+  "territorio": "es-an",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "AAPL",
+    "nombre": {
+      "es": "Anatomía Aplicada"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-06-03",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boja-2023-104-orden-bachillerato-parte-2",
+      "tipo": "orden",
+      "titulo": "Orden de 30 de mayo de 2023, por la que se desarrolla el currículo correspondiente a la etapa de Bachillerato en la Comunidad Autónoma de Andalucía, se regulan determinados aspectos de la atención a la diversidad y a las diferencias individuales y se establece la ordenación de la evaluación del proceso de aprendizaje del alumnado",
+      "publicacion": "Boletín Oficial de la Junta de Andalucía",
+      "numero": "104",
+      "fechaPublicacion": "2023-06-02",
+      "cve": "00284744",
+      "urlOficial": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00297-9728-02_00284744.pdf",
+      "urlVerificacion": "https://www.juntadeandalucia.es/eboja/2023/104/37-verificacion",
+      "anexo": "III",
+      "paginasMateria": {
+        "desde": 165,
+        "hasta": 171
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El conocimiento aplicado supone la utilización de los saberes básicos para la interpretación de hechos concretos de la realidad y la resolución de cuestiones o problemas que se plantean. En este sentido, la materia de Anatomía Aplicada ofrece una oportunidad única para potenciar el aprendizaje significativo del alumnado, tanto por girar en torno al conocimiento del propio cuerpo -con el interés e implicación emocional que conllevacomo por la aproximación metodológica que realiza, aplicándolo a situaciones vivenciales concretas. Esta materia, que tiene como epicentro las cuestiones anatómicas, requiere de un tratamiento transversal, integrador, interdisciplinar, nutriéndose de otras materias que igualmente se ocupan del cuerpo humano, tales como la Física, la Fisiología, la Biomecánica, y las Ciencias de la Actividad Física. Todo lo anterior se aborda desde la premisa de generar una ciudadanía con hábitos de vida activos y saludables. Esta visión integrada y aplicada del conocimiento del propio cuerpo se construye desde la adquisición de las competencias específicas propias del pensamiento riguroso, científico, para interpretar la realidad, así como de aquellas que permiten buscar y adquirir información de diversas fuentes, incluida la que emana de la interpretación de la propia experiencia. Estas competencias específicas se complementan con aquellas otras que posibilitan la utilización de esta información en la resolución de problemas reales, permitiendo la génesis de planes de actividad, unidas a las competencias específicas que dotan al alumnado de sensibilidad hacia los hábitos de vida saludables y la vocación de ser agente de cambio en su entorno próximo. La materia de Anatomía Aplicada contribuye al desarrollo de las competencias clave de manera interrelacionada. Por una parte, promueve de forma directa el desarrollo de la competencia matemática y ciencia y tecnología (STEM), ya que al tratarse de una materia científica, presenta una reflexión crítica de los aspectos científicos relacionados con la misma, generando además actitudes de respeto hacia el propio cuerpo, rechazando las actividades que lo deterioran y fomentando en el alumnado hábitos y prácticas de vida sana y ordenada, que repercuten en un buen estado de salud que le permitirán mejorar su calidad de vida y posible influencia en su vida laboral contribuyendo con ello a la competencia ciudadana. El aspecto matemático también está presente en la materia mediante el uso de herramientas básicas como gráficos, estadísticas, porcentajes, tasas, índices, de tanta utilidad real en la vida cotidiana. Asimismo, potencia la investigación a partir de fuentes bibliográficas, así como la comunicación oral y escrita, por lo que contribuye al desarrollo de la competencia en comunicación lingüística. A su vez, también se impulsa la competencia digital, puesto que es habitual el uso de las nuevas tecnologías para la búsqueda de información y el trabajo de forma colaborativa. Anatomía Aplicada colabora en el desarrollo de la competencia personal, social y de aprender a aprender, ya que intenta que el alumnado interiorice su propio aprendizaje, indicando qué partes de su organismo se ven afectadas en una lesión y cómo se podría resolver el problema, además de plantearse cuáles han podido ser las causas de las mismas, lo que llevaría a su prevención. Los saberes básicos de esta materia se organizan en tres grandes bloques: en el primero, «Conocimiento general del cuerpo humano», se incluyen aquellos relacionados con el estudio básico del cuerpo y sus sistemas, así como la relación de los mismos con las funciones vitales. En el segundo bloque, «Acción y movimiento», los saberes básicos analizan distintos aspectos de la acción motora, desde el estudio del sistema nervioso y su control sobre el movimiento, pasando por el estudio del sistema locomotor y sus patologías relacionadas con el deporte. Por último, en el tercer bloque, «Funciones vitales y salud», se hace un repaso de los sistemas corporales relacionados con las funciones vitales, así como los hábitos necesarios para el cuidado y promoción de la salud. Estos saberes han de trabajarse de forma competencial, estimulando el desarrollo de las competencias específicas y, por tanto, de las competencias clave."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Analizar y comprender desde una perspectiva sistémica la estructura y funcionamiento del cuerpo humano, explicándolo desde el conocimiento de sus sistemas y aparatos para interpretar la conexión de estas estructuras y su interacción con el entorno"
+      },
+      "descripcion": {
+        "es": [
+          "El conocimiento singular, aislado, de cada uno de los sistemas del cuerpo humano no es suficiente para una comprensión real y práctica de sus características y funcionamiento. Entender sus relaciones y la unidad funcional que conforma a nivel global (y de forma específica para la ejecución de cada una de sus funciones) nos aproxima a una interpretación significativa, aplicada y útil. El alumnado, desde este conocimiento que le aporta la materia, podrá analizar y entender las respuestas del cuerpo humano a los acontecimientos vitales, así como construir una imagen corporal ajustada de sí mismo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          166,
+          167
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Recolectar, interpretar y transmitir información, argumentando con precisión y rigor, y dominando la terminología básica, sobre las funciones esenciales del cuerpo humano, en especial sobre la nutrición, producción energética, la relación con el entorno y el movimiento; observando su funcionamiento en situaciones de la vida cotidiana para la interpretación de la realidad"
+      },
+      "descripcion": {
+        "es": [
+          "La materia de Anatomía Aplicada no trata problemas abstractos fuera de contexto o construye un conocimiento teórico sobre la anatomía y funcionamiento del propio cuerpo, sino, muy al contrario, intenta explicar hechos habituales y vivenciados cotidianamente. La experiencia se convierte en fuente de conocimiento cuando se accede a ella con el rigor y método necesario para garantizar la fiabilidad de los datos, siendo capaz de generar información veraz con ello. Esta competencia propia del conocimiento científico, es, a la vez, un seguro frente a teorías o errores fundamentales que inciden en la interpretación de la realidad próxima, experiencial. La comunicación, para ser precisa y eficaz, requiere en cada campo el uso correcto de la terminología propia del mismo, garantizando la precisión y calidad del acto comunicativo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          167
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Localizar y utilizar fuentes fiables de información, contrastando su veracidad para resolver preguntas relevantes comúnmente extendidas o planteadas autónomamente sobre la anatomía o fisiología humana y los hábitos de vida y encauzando las respuestas hacia la sensibilización y adquisición de hábitos de vida saludables"
+      },
+      "descripcion": {
+        "es": [
+          "Todo conocimiento aplicado pierde su sentido si no conduce a un objetivo plausible que redunde en beneficio del individuo y la sociedad. En una sociedad del conocimiento, plagada de información, no toda contrastada y fiable, esta materia intenta dotar de competencia al alumnado para resolver cuestiones sobre la anatomía y fisiología humana que, no solo se plantea el alumnado por sí mismo, sino que son tópicos con un elevado nivel de tratamiento y difusión. Se trata, por tanto, no solo de dotar de capacidad de análisis crítico a la abundante información disponible sobre estos tópicos, y de ser eficaz y fiable en la búsqueda de información útil, sino de orientar el interés del alumnado hacia aquella información que redundará en su calidad de vida, sensibilizándolo con las conductas que la favorezcan y provocando rechazo hacia las que le son contrarias."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA2",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          167
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Diseñar, promover y ejecutar iniciativas encaminadas a la adopción de medidas conducentes a la mejora de la salud individual y colectiva desde el conocimiento estructural y funcional del cuerpo humano, fomentando hábitos de vida activos y saludables"
+      },
+      "descripcion": {
+        "es": [
+          "El análisis crítico y la comprensión de los fenómenos asociados al conocimiento anatómico y funcional del cuerpo humano no es el objetivo final de la materia de Anatomía Aplicada, sino el paso necesario que conduce a la acción. Esta acción implica por sí misma una actitud proactiva hacia los hábitos de vida saludables y debe de configurarse con dos características más: ser planificada, es decir, organizada en fases de intervención, y tener una vocación no solo individual, sino colectiva, entendiendo la salud como un ecosistema donde todos los elementos, incluidos los otros, son agentes activos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD3",
+        "CPSAA1.2",
+        "CPSAA2",
+        "CPSAA3.2",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          167,
+          168
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Afrontar y resolver con autonomía problemas simples prácticos de tipo anatómico y funcional que se le plantean en su actividad cotidiana, aplicando los conocimientos adquiridos sobre el cuerpo humano y el movimiento en sus distintas manifestaciones para incorporarlo a la vida diaria"
+      },
+      "descripcion": {
+        "es": [
+          "Anatomía, ergonomía, biomecánica o fisiología aportan un conocimiento aplicado no solo a actividades puntuales, sino a aquellas que incorporamos habitualmente a nuestra vida diaria. Es en estas actividades cotidianas, donde realizamos movimientos, nos exigimos esfuerzos o adoptamos posturas repetidas y donde se dilucidan los parámetros de una vida saludable. La materia debe contribuir a resolver cada una de estas situaciones, a veces alteradas por circunstancias puntuales o cronificadas, con base en los conocimientos adquiridos y con el objetivo de preservar y mejorar la salud."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CPSAA1.1",
+        "CPSAA1.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+        "paginas": [
+          168
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Interpretar el funcionamiento del cuerpo humano como unidad anatómica y funcional, reconociendo los distintos niveles de integración y participación de los sistemas corporales."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.A.1",
+            "AAPL.1.A.2",
+            "AAPL.1.A.4"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              170
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender y relacionar los distintos elementos anatómicos que conforman los sistemas corporales."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.B.1",
+            "AAPL.1.C.2",
+            "AAPL.1.C.9",
+            "AAPL.1.C.12",
+            "AAPL.1.C.15",
+            "AAPL.1.C.16"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              170
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y comprender los mecanismos básicos de funcionamiento de los aparatos y sistemas corporales, así como su asociación con otros en torno a sus funciones básicas aplicadas."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.B.2",
+            "AAPL.1.B.5",
+            "AAPL.1.B.6",
+            "AAPL.1.C.2",
+            "AAPL.1.C.9",
+            "AAPL.1.C.12",
+            "AAPL.1.C.15",
+            "AAPL.1.C.16"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              170
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Manejar destrezas tales como el uso del microscopio y las técnicas de disección para una mejor comprensión de la anatomía humana."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.A.3",
+            "AAPL.1.A.7"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              170
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar los métodos de las ciencias empíricas para la recopilación rigurosa de datos de la realidad observada, así como aquellos conducentes a la organización e interpretación de los mismos."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.B.7",
+            "AAPL.1.C.5",
+            "AAPL.1.C.6"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              170
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Manejar con precisión metodológica la terminología específica de las ciencias utilizadas para la descripción de los sistemas corporales y las funciones básicas que realizan."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.C.1",
+            "AAPL.1.C.13"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              170
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Buscar, seleccionar y ordenar de forma sistemática información útil sobre el conocimiento de la anatomía y fisiología humana, identificando fuentes fiables, y realizando un análisis crítico y aplicado a situaciones específicas."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.A.5",
+            "AAPL.1.A.6",
+            "AAPL.1.B.12",
+            "AAPL.1.C.3"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              170,
+              171
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Contrastar y justificar la información relacionada con los problemas habitualmente planteados que implican el conocimiento del funcionamiento del cuerpo humano, identificando creencias infundadas, bulos, falacias interesadas o simplemente, razonamientos no fundamentados."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.C.4",
+            "AAPL.1.C.14"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              171
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Mantener una actitud crítica y activa frente a informaciones contrarias a la salud individual y colectiva, y producir información favorable a los hábitos adecuados para la consecución de un estilo de vida saludable."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.C.4",
+            "AAPL.1.C.7",
+            "AAPL.1.C.10",
+            "AAPL.1.C.11",
+            "AAPL.1.C.14"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              171
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Planificar y poner en práctica proyectos activos, de impacto en su entorno social, imbricados en el cuidado de la salud y el fomento de estilos de vida activos."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.C.8",
+            "AAPL.1.C.10",
+            "AAPL.1.C.11",
+            "AAPL.1.C.14"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              171
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer y aplicar principios básicos de ergonomía e higiene postural en las actividades de la vida cotidiana."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.B.9",
+            "AAPL.1.B.11"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              171
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Adoptar medidas de seguridad e higiene postural en las actividades colectivas e individuales que organiza o en las que se participa."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.B.10",
+            "AAPL.1.B.11",
+            "AAPL.1.B.12"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              171
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Analizar y comprender los fundamentos de sus acciones motrices, tanto de la vida cotidiana como de prácticas deportivas o expresivas."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.B.3",
+            "AAPL.1.B.4",
+            "AAPL.1.B.8",
+            "AAPL.1.B.9"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              171
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Adaptar o modificar, si fuera necesario, sus actividades cotidianas, en especial las motoras, a sus condiciones anatómicas y fisiológicas, convirtiéndolas en eficientes y fuentes de bienestar."
+          },
+          "saberesBasicosRefs": [
+            "AAPL.1.B.10",
+            "AAPL.1.B.11"
+          ],
+          "procedencia": {
+            "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+            "paginas": [
+              171
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Conocimiento general del cuerpo humano"
+          },
+          "saberes": [
+            {
+              "id": "AAPL.1.A.1",
+              "codigoOficial": "AAPL.1.A.1",
+              "texto": {
+                "es": "Identificación de los niveles de organización del cuerpo humano y comprensión de las características de cada una de las unidades estructurales y funcionales."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.A.2",
+              "codigoOficial": "AAPL.1.A.2",
+              "texto": {
+                "es": "Reconocimiento de la estructura general de la célula humana, mediante el análisis de los diferentes orgánulos que posee y de sus funciones vitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.A.3",
+              "codigoOficial": "AAPL.1.A.3",
+              "texto": {
+                "es": "Manejo del microscopio óptico, así como de microscopios virtuales para el análisis de tejidos humanos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.A.4",
+              "codigoOficial": "AAPL.1.A.4",
+              "texto": {
+                "es": "Comprensión de cómo el funcionamiento del cuerpo humano es el resultado de la integración anatómica y funcional."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.A.5",
+              "codigoOficial": "AAPL.1.A.5",
+              "texto": {
+                "es": "Comprensión de cómo ha tenido lugar la indagación e investigación del cuerpo humano desde la Antigua Grecia hasta nuestros días, como proceso para la construcción de los nuevos paradigmas de interpretación."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.A.6",
+              "codigoOficial": "AAPL.1.A.6",
+              "texto": {
+                "es": "Desarrollo de destrezas en el manejo de aplicaciones y dispositivos digitales utilizados para el conocimiento del cuerpo humano, su control, seguimiento y apoyo de los sistemas vitales básicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.A.7",
+              "codigoOficial": "AAPL.1.A.7",
+              "texto": {
+                "es": "Desarrollo de destrezas en la disección de órganos para la mejor comprensión de la anatomía humana."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Acción y movimiento"
+          },
+          "saberes": [
+            {
+              "id": "AAPL.1.B.1",
+              "codigoOficial": "AAPL.1.B.1",
+              "texto": {
+                "es": "Análisis del sistema osteo-articular mediante la descripción de los diferentes tipos de huesos y sus características, la identificación de los diferentes tipos de articulaciones con sus partes y grados de movimiento, así como la implicación articular en los movimientos básicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.2",
+              "codigoOficial": "AAPL.1.B.2",
+              "texto": {
+                "es": "Reconocimiento del músculo como órgano efector del movimiento a través del estudio de la fisiología de la contracción muscular voluntaria."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.3",
+              "codigoOficial": "AAPL.1.B.3",
+              "texto": {
+                "es": "Comprensión de las características del movimiento humano mediante el análisis de patrones motores básicos, deportivos y expresivos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.4",
+              "codigoOficial": "AAPL.1.B.4",
+              "texto": {
+                "es": "Interpretación de las bases de la biomecánica del movimiento estableciendo relaciones con los principios anatómicos funcionales."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  168,
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.5",
+              "codigoOficial": "AAPL.1.B.5",
+              "texto": {
+                "es": "Reconocimiento del sistema nervioso como organizador de la acción motora, mediante el estudio de los mecanismos neurológicos que controlan la acción voluntaria y refleja."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.6",
+              "codigoOficial": "AAPL.1.B.6",
+              "texto": {
+                "es": "Análisis del sistema sensorial, mediante el estudio de los órganos receptores y su relación con los diferentes tipos de estímulos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.7",
+              "codigoOficial": "AAPL.1.B.7",
+              "texto": {
+                "es": "Desarrollo de destrezas para realizar los cálculos espacio-temporales asociados al movimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.8",
+              "codigoOficial": "AAPL.1.B.8",
+              "texto": {
+                "es": "Identificación de las capacidades coordinativas como componentes cualitativos del movimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.9",
+              "codigoOficial": "AAPL.1.B.9",
+              "texto": {
+                "es": "Análisis de las adaptaciones del aparato locomotor como resultado de la práctica sistematizada de actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.10",
+              "codigoOficial": "AAPL.1.B.10",
+              "texto": {
+                "es": "Identificación de las patologías más frecuentes del aparato locomotor, tales como dismetría, artritis, fibromialgia o hernia discal, estableciendo relaciones entre estas y la actividad física sistematizada."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.11",
+              "codigoOficial": "AAPL.1.B.11",
+              "texto": {
+                "es": "Desarrollo de hábitos saludables de higiene postural, poniendo especial interés en los cuidados ergonómicos en el ámbito escolar y laboral."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.B.12",
+              "codigoOficial": "AAPL.1.B.12",
+              "texto": {
+                "es": "Búsqueda de información, sobre los distintos tipos de actividades deportivas, analizando sus características, las diferentes exigencias que tienen sobre los sistemas corporales, así como las lesiones más frecuentes."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Funciones vitales y salud"
+          },
+          "saberes": [
+            {
+              "id": "AAPL.1.C.1",
+              "codigoOficial": "AAPL.1.C.1",
+              "texto": {
+                "es": "Diferenciación entre los procesos de alimentación y nutrición."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.2",
+              "codigoOficial": "AAPL.1.C.2",
+              "texto": {
+                "es": "Análisis de los procesos de digestión y absorción de los alimentos y nutrientes, estableciendo relaciones con los órganos implicados."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.3",
+              "codigoOficial": "AAPL.1.C.3",
+              "texto": {
+                "es": "Análisis de los tipos de alimentos y nutrientes según la información dada en la rueda de los alimentos."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.4",
+              "codigoOficial": "AAPL.1.C.4",
+              "texto": {
+                "es": "Reconocimiento y análisis de la dieta mediterránea como base tradicional de la alimentación andaluza, usándola como modelo en la elaboración de pautas para una dieta saludable y equilibrada, identificando algunos tópicos erróneos sobre nutrición."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.5",
+              "codigoOficial": "AAPL.1.C.5",
+              "texto": {
+                "es": "Desarrollo de destrezas para el cálculo de la ingesta y del gasto calórico (balance energético)."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.6",
+              "codigoOficial": "AAPL.1.C.6",
+              "texto": {
+                "es": "Desarrollo de estrategias para la comprensión de los sistemas de producción energética celular, estableciendo diferencias entre el metabolismo aeróbico y anaeróbico."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.7",
+              "codigoOficial": "AAPL.1.C.7",
+              "texto": {
+                "es": "Identificación de trastornos del comportamiento nutricional, poniendo especial atención en las dietas restrictivas, la anorexia, la bulimia y la obesidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.8",
+              "codigoOficial": "AAPL.1.C.8",
+              "texto": {
+                "es": "Reconocimiento de la diabetes tipo II como enfermedad relacionada con la obesidad, valorando que su control y mejora tienen lugar a través de la dieta y el ejercicio físico."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.9",
+              "codigoOficial": "AAPL.1.C.9",
+              "texto": {
+                "es": "Conocimiento del sistema respiratorio, mediante el análisis de los órganos que lo componen, su funcionamiento y adaptación al esfuerzo físico."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.10",
+              "codigoOficial": "AAPL.1.C.10",
+              "texto": {
+                "es": "Sensibilización sobre cómo algunos hábitos perjudiciales para el sistema respiratorio derivan en algunas patologías como el cáncer de pulmón."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.11",
+              "codigoOficial": "AAPL.1.C.11",
+              "texto": {
+                "es": "Desarrollo de estrategias para inculcar una educación respiratoria, relacionándola con el cuidado de la voz, la actividad física y el control emocional."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.12",
+              "codigoOficial": "AAPL.1.C.12",
+              "texto": {
+                "es": "Conocimiento del sistema cardiovascular mediante el análisis de los órganos que lo componen y su funcionamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.13",
+              "codigoOficial": "AAPL.1.C.13",
+              "texto": {
+                "es": "Manejo de conceptos básicos relacionados con el sistema cardiovascular, como frecuencia cardíaca, volumen sistólico, hematocrito o sistema circulatorio periférico."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.14",
+              "codigoOficial": "AAPL.1.C.14",
+              "texto": {
+                "es": "Análisis de las principales patologías del sistema circulatorio, poniendo especial atención al infarto de miocardio y valorando pautas y hábitos de vida saludables que traten de evitarlas."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.15",
+              "codigoOficial": "AAPL.1.C.15",
+              "texto": {
+                "es": "Identificación del sistema neuroendocrino en la regulación del organismo mediante el conocimiento de las glándulas endocrinas, las hormonas que producen y su intervención en los procesos vitales, así como su relación con la actividad física y el control de las emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            },
+            {
+              "id": "AAPL.1.C.16",
+              "codigoOficial": "AAPL.1.C.16",
+              "texto": {
+                "es": "Análisis de las causas que originan desequilibrios hormonales y comprensión de los efectos ocasionados en el organismo."
+              },
+              "procedencia": {
+                "fuenteRef": "boja-2023-104-orden-bachillerato-parte-2",
+                "paginas": [
+                  169
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-08",
+    "metodo": "Transcripción asistida por extracción de texto y cotejo visual completo con los PDF oficiales firmados.",
+    "notas": []
+  }
+}

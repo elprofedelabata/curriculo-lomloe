@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 72 currículos de Andalucía: los 30 de ESO de los anexos II y III y las 42 materias del Anexo II de Bachillerato, completados en la [checklist](CHECKLIST.md).
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye los 88 currículos de Andalucía recogidos en los anexos II y III de ESO y Bachillerato, completados en la [checklist](CHECKLIST.md). Las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
 
 ## Visualizador de prueba
 
