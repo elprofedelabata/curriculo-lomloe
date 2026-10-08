@@ -30,28 +30,42 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 
 El alcance actual llega hasta CFGB. Más adelante se podrá estudiar la incorporación del resto de enseñanzas de Formación Profesional.
 
-## Visualizador de prueba
+## Sitio web
 
-El visor estático demuestra cómo una aplicación puede descargar el JSON, resolver sus referencias y recorrer el currículo en ambos sentidos.
+La publicación en GitHub Pages ofrece tres niveles de consulta:
+
+- [portada y progreso general](https://elprofedelabata.github.io/curriculo-lomloe/);
+- colecciones por territorio y etapa, como [Andalucía · ESO](https://elprofedelabata.github.io/curriculo-lomloe/es-an/eso/);
+- una página interactiva por materia, con incidencias, fuentes y descarga directa del JSON.
+
+El sitio genera también un [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) para que otras aplicaciones descubran todos los currículos publicados sin mantener una lista manual.
+
+## Desarrollo local
+
+Genera y valida el sitio estático:
 
 ```powershell
-python -m http.server 8000
+node scripts/build-site.mjs
+node scripts/validate-site.mjs
 ```
 
-Después, abre `http://localhost:8000`. También se puede indicar otro documento compatible mediante `?src=URL_DEL_JSON` o cargar un archivo desde la propia interfaz.
+Después sirve el directorio generado:
+
+```powershell
+python -m http.server 8000 --directory dist
+```
+
+Abre `http://localhost:8000`. También se puede indicar un documento compatible mediante `?src=URL_DEL_JSON`.
 
 ## Estructura
 
 - `data/`: documentos curriculares canónicos.
 - `schemas/`: esquemas JSON para validarlos.
 - `sources/`: PDF oficiales y catálogo de las fuentes normativas utilizadas.
-- `index.html`, `styles.css`, `app.js`: visualizador sin dependencias ni proceso de compilación.
-- `scripts/build-site.mjs`: prepara una copia publicable en `dist/`.
+- `INCIDENCIAS.md`: registro único de discrepancias y decisiones de revisión.
+- `index.html`, `styles.css`, `app.js`: plantilla y aplicación web sin dependencias externas.
+- `scripts/build-site.mjs`: genera el catálogo y todas las páginas estáticas en `dist/`.
+- `scripts/validate-site.mjs`: comprueba rutas, datos y relaciones del sitio generado.
+- `.github/workflows/pages.yml`: valida y publica GitHub Pages automáticamente desde `main`.
 
 Los desarrollos pueden incluir el campo opcional `variante`. Se usa en 4.º de ESO para distinguir Matemáticas A y Matemáticas B sin duplicar el currículo común de la materia.
-
-## Compilar el sitio estático
-
-```powershell
-node scripts/build-site.mjs
-```
