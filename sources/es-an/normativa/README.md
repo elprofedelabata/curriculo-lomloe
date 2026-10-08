@@ -1,9 +1,11 @@
 # Fuentes oficiales de Andalucía
 
-Corpus normativo de partida para estructurar en JSON los currículos LOMLOE de Educación Secundaria Obligatoria y Bachillerato en Andalucía.
+Corpus normativo de partida para estructurar en JSON los currículos LOMLOE de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato en Andalucía.
 
 ## Organización
 
+- infantil/: decreto de ordenación y orden curricular de Educación Infantil.
+- primaria/: decreto de ordenación y orden curricular de Educación Primaria.
 - eso/: decreto de ordenación y los dos PDF que forman la orden curricular de ESO.
 - bachillerato/: decreto de ordenación, corrección de errores y los dos PDF que forman la orden curricular de Bachillerato.
 - actualizaciones/: disposiciones posteriores que modifican las normas anteriores.
@@ -11,7 +13,7 @@ Corpus normativo de partida para estructurar en JSON los currículos LOMLOE de E
 
 Los archivos marcados como «parte 1 de 2» y «parte 2 de 2» son una única disposición publicada por el BOJA en dos PDF. Deben procesarse en ese orden y conservar su paginación original.
 
-La Orden de 31 de agosto de 2026 modifica aspectos organizativos y de evaluación de las órdenes de ESO y Bachillerato de 2023, pero no sustituye sus anexos de competencias, criterios de evaluación y saberes básicos.
+La Orden de 31 de agosto de 2026 modifica aspectos organizativos y de evaluación de las órdenes de Primaria, ESO y Bachillerato de 2023, pero no sustituye sus anexos de competencias, criterios de evaluación y saberes básicos.
 
 ## Criterios de conservación
 

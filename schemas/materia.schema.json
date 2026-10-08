@@ -216,7 +216,7 @@
         "texto": { "$ref": "#/$defs/textoLocalizado" },
         "saberesBasicosRefs": {
           "type": "array",
-          "minItems": 1,
+          "description": "Referencias explícitas publicadas para el criterio; puede estar vacío cuando la fuente no asocia saberes.",
           "uniqueItems": true,
           "items": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+(?:\\.[0-9]+)*$" }
         },
