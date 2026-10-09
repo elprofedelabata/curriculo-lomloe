@@ -6,57 +6,41 @@
     <base href="./" />
     <meta
       name="description"
-      content="Currículos LOMLOE estructurados en JSON, documentados y listos para reutilizar."
+      content="Currículos LOMLOE de las comunidades autónomas, estructurados en JSON y listos para reutilizar."
     />
-    <meta name="theme-color" content="#075440" />
+    <meta name="theme-color" content="#0b6049" />
     <title>Currículo LOMLOE en JSON</title>
     <link rel="stylesheet" href="./styles.css" />
     <script src="./app.js" defer></script>
   </head>
-  <body data-page="home">
-    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <body>
+    <a class="skip-link" href="#explorar">Saltar al explorador</a>
 
     <header class="site-header">
       <a class="brand" href="./" aria-label="Inicio de Currículo LOMLOE">
         <span class="brand-mark" aria-hidden="true">CL</span>
         <span>
           <strong>Currículo LOMLOE</strong>
-          <small>Datos abiertos en JSON</small>
+          <small>JSON abierto y reutilizable</small>
         </span>
       </a>
-      <nav class="main-nav" aria-label="Navegación principal">
-        <a href="./#progreso">Progreso</a>
-        <a href="es-an/eso/">ESO</a>
-        <a href="es-an/bachillerato/">Bachillerato</a>
-        <a class="nav-github" href="https://github.com/elprofedelabata/curriculo-lomloe">GitHub ↗</a>
+      <nav aria-label="Navegación principal">
+        <a href="#explorar">Explorar</a>
+        <a href="#proyecto">El proyecto</a>
+        <a class="github-link" href="https://github.com/elprofedelabata/curriculo-lomloe">GitHub ↗</a>
       </nav>
     </header>
 
     <main id="contenido">
-      <div class="page-loading" role="status">
-        <span class="loader" aria-hidden="true"></span>
-        Preparando el catálogo curricular…
+      <div class="loading" role="status">
+        <span aria-hidden="true"></span>
+        Cargando el catálogo…
       </div>
     </main>
 
     <footer>
-      <div>
-        <strong>Currículo LOMLOE en JSON</strong>
-        <p>Datos estructurados a partir de publicaciones oficiales.</p>
-      </div>
-      <div class="footer-links">
-        <a href="https://github.com/elprofedelabata/curriculo-lomloe">Repositorio</a>
-        <a href="https://github.com/elprofedelabata/curriculo-lomloe/issues/new">Informar de un error</a>
-      </div>
+      <p><strong>Currículo LOMLOE en JSON</strong><br />Datos estructurados a partir de publicaciones oficiales.</p>
+      <p><a href="https://github.com/elprofedelabata/curriculo-lomloe/issues/new">Informar de un error ↗</a></p>
     </footer>
-
-    <dialog id="error-dialog">
-      <form method="dialog">
-        <div class="dialog-mark" aria-hidden="true">!</div>
-        <h2>No se pudo cargar la página</h2>
-        <p id="error-message"></p>
-        <button class="button" value="close">Cerrar</button>
-      </form>
-    </dialog>
   </body>
 </html>

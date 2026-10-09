@@ -32,11 +32,12 @@ El alcance actual llega hasta CFGB. Más adelante se podrá estudiar la incorpor
 
 ## Sitio web
 
-La publicación en GitHub Pages ofrece tres niveles de consulta:
+La [aplicación de página única](https://elprofedelabata.github.io/curriculo-lomloe/) permite elegir comunidad y etapa para consultar, sin salir de la portada:
 
-- [portada y progreso general](https://elprofedelabata.github.io/curriculo-lomloe/);
-- colecciones por territorio y etapa, como [Andalucía · ESO](https://elprofedelabata.github.io/curriculo-lomloe/es-an/eso/);
-- una página interactiva por materia, con incidencias, fuentes y descarga directa del JSON.
+- los enlaces directos a cada currículo JSON;
+- sus cursos, métricas y estado de revisión;
+- las fuentes oficiales y los PDF archivados;
+- las incidencias documentadas y su resolución.
 
 El sitio genera también un [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) para que otras aplicaciones descubran todos los currículos publicados sin mantener una lista manual.
 
@@ -55,7 +56,7 @@ Después sirve el directorio generado:
 python -m http.server 8000 --directory dist
 ```
 
-Abre `http://localhost:8000`. También se puede indicar un documento compatible mediante `?src=URL_DEL_JSON`.
+Abre `http://localhost:8000`. La selección se conserva en la URL mediante los parámetros `territorio`, `etapa` y, opcionalmente, `materia`.
 
 ## Estructura
 
@@ -64,7 +65,7 @@ Abre `http://localhost:8000`. También se puede indicar un documento compatible 
 - `sources/`: PDF oficiales y catálogo de las fuentes normativas utilizadas.
 - `INCIDENCIAS.md`: registro único de discrepancias y decisiones de revisión.
 - `index.html`, `styles.css`, `app.js`: plantilla y aplicación web sin dependencias externas.
-- `scripts/build-site.mjs`: genera el catálogo y todas las páginas estáticas en `dist/`.
+- `scripts/build-site.mjs`: genera la aplicación de página única, el catálogo y los datos publicables en `dist/`.
 - `scripts/validate-site.mjs`: comprueba rutas, datos y relaciones del sitio generado.
 - `.github/workflows/pages.yml`: valida y publica GitHub Pages automáticamente desde `main`.
 

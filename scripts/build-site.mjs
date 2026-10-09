@@ -34,7 +34,6 @@ const communityCodes = new Map([
   ["La Rioja", "es-ri"],
 ]);
 
-const template = await readFile(resolve(root, "index.html"), "utf8");
 const readme = await readFile(resolve(root, "README.md"), "utf8");
 const incidentMarkdown = await readFile(resolve(root, "INCIDENCIAS.md"), "utf8");
 const sourceCatalog = JSON.parse(await readFile(resolve(root, "sources/es-an/normativa/catalogo.json"), "utf8"));
@@ -71,7 +70,7 @@ for (const stage of ["eso", "bachillerato"]) {
       vigencia: document.vigencia,
       revision: document.revision,
       jsonPath,
-      pagePath: `es-an/${stage}/${slug}/`,
+      appPath: `?territorio=${document.territorio}&etapa=${stage}&materia=${slug}#explorar`,
       anexos: [...new Set(document.fuentes.map((source) => source.anexo).filter(Boolean))],
       fuentes: document.fuentes.map((source) => ({
         id: source.id,
@@ -105,7 +104,7 @@ const stages = ["eso", "bachillerato"].map((stage) => {
     codigo: stage,
     nombre: stageNames[stage],
     estado: "completo",
-    pagePath: `es-an/${stage}/`,
+    appPath: `?territorio=es-an&etapa=${stage}#explorar`,
     materias: stageMatters.length,
     incidencias: stageIncidents.length,
     fuentes: sourceCatalog.documentos.filter((source) => source.etapas.includes(stage)).length,
@@ -114,14 +113,14 @@ const stages = ["eso", "bachillerato"].map((stage) => {
 });
 
 const catalog = {
-  version: "1.0.0",
+  version: "1.1.0",
   proyecto: {
     nombre: "Currículo LOMLOE en JSON",
     repositorio: repoUrl,
     sitio: siteUrl,
     descripcion: "Currículos oficiales estructurados, revisados y listos para reutilizar.",
   },
-  territorios: [{ codigo: sourceCatalog.territorio, nombre: sourceCatalog.nombre }],
+  territorios: parseProgress(readme).map((territory) => ({ codigo: territory.territorio, nombre: territory.nombre })),
   etapas: stages,
   materias: matters.sort((a, b) => a.nombre.localeCompare(b.nombre, "es")),
   incidencias: incidents,
@@ -132,7 +131,7 @@ const catalog = {
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 
-for (const file of ["styles.css", "app.js"]) {
+for (const file of ["index.html", "styles.css", "app.js"]) {
   await cp(resolve(root, file), resolve(dist, file));
 }
 await cp(resolve(root, "data"), resolve(dist, "data"), { recursive: true });
@@ -142,48 +141,10 @@ await writeFile(resolve(dist, "catalogo.json"), `${JSON.stringify(catalog, null,
 await writeFile(resolve(dist, ".nojekyll"), "");
 await writeFile(resolve(dist, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n`);
 
-await writePage("index.html", pageHtml({ type: "home", base: "./" }));
-
-for (const stage of stages) {
-  await writePage(
-    `${stage.pagePath}index.html`,
-    pageHtml({
-      type: "stage",
-      base: "../../",
-      territorio: stage.territorio,
-      etapa: stage.codigo,
-      title: `${stage.territorioNombre} · ${stage.nombre} | Currículo LOMLOE`,
-      description: `${stage.materias} currículos de ${stage.nombre} de ${stage.territorioNombre}, con fuentes, incidencias y descarga en JSON.`,
-    }),
-  );
-}
-
-for (const matter of matters) {
-  await writePage(
-    `${matter.pagePath}index.html`,
-    pageHtml({
-      type: "matter",
-      base: "../../../",
-      territorio: matter.territorio,
-      etapa: matter.etapa,
-      materia: matter.slug,
-      title: `${matter.nombre} · ${stageNames[matter.etapa]} | Currículo LOMLOE`,
-      description: `Currículo de ${matter.nombre} de ${stageNames[matter.etapa]} en Andalucía: competencias, criterios, saberes, incidencias y JSON.`,
-    }),
-  );
-}
-
-const routes = ["", ...stages.map((stage) => stage.pagePath), ...matters.map((matter) => matter.pagePath)];
-const sitemap = [
-  '<?xml version="1.0" encoding="UTF-8"?>',
-  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-  ...routes.map((route) => `  <url><loc>${siteUrl}/${route}</loc></url>`),
-  "</urlset>",
-  "",
-].join("\n");
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${siteUrl}/</loc></url>\n</urlset>\n`;
 await writeFile(resolve(dist, "sitemap.xml"), sitemap);
 
-console.log(`Sitio preparado: ${matters.length} materias, ${stages.length} etapas y ${incidents.length} incidencias.`);
+console.log(`SPA preparada: ${matters.length} materias, ${stages.length} etapas publicadas y ${incidents.length} incidencias.`);
 
 function collectKnowledge(development) {
   return (development.bloquesSaberes || []).flatMap((block) => [
@@ -233,40 +194,4 @@ function progressStatus(value) {
   if (value.startsWith("📚")) return { estado: "fuentes", etiqueta: "Fuentes recopiladas" };
   if (value.startsWith("🚧")) return { estado: "en-curso", etiqueta: "En curso" };
   return { estado: "pendiente", etiqueta: "Pendiente" };
-}
-
-function pageHtml({ type, base, territorio = "", etapa = "", materia = "", title, description }) {
-  const attributes = [
-    `data-page="${type}"`,
-    territorio && `data-territorio="${territorio}"`,
-    etapa && `data-etapa="${etapa}"`,
-    materia && `data-materia="${materia}"`,
-  ].filter(Boolean).join(" ");
-
-  let html = template
-    .replace('<base href="./" />', `<base href="${base}" />`)
-    .replace('<body data-page="home">', `<body ${attributes}>`);
-  if (title) html = html.replace("<title>Currículo LOMLOE en JSON</title>", `<title>${escapeHtml(title)}</title>`);
-  if (description) {
-    html = html.replace(
-      "Currículos LOMLOE estructurados en JSON, documentados y listos para reutilizar.",
-      escapeHtml(description),
-    );
-  }
-  return html;
-}
-
-async function writePage(relativePath, content) {
-  const target = resolve(dist, relativePath);
-  await mkdir(resolve(target, ".."), { recursive: true });
-  await writeFile(target, content);
-}
-
-function escapeHtml(value) {
-  return String(value).replace(/[&<>\"]/g, (character) => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '\"': "&quot;",
-  })[character]);
 }

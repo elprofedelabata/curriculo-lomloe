@@ -6,7 +6,8 @@ const dist = resolve(root, "dist");
 const catalog = JSON.parse(await readFile(resolve(dist, "catalogo.json"), "utf8"));
 const failures = [];
 
-check(catalog.version === "1.0.0", "Versión inesperada del catálogo.");
+check(catalog.version === "1.1.0", "Versión inesperada del catálogo.");
+check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
 check(catalog.etapas.length === 2, `Se esperaban 2 etapas publicadas y hay ${catalog.etapas.length}.`);
 check(catalog.materias.length === 88, `Se esperaban 88 materias y hay ${catalog.materias.length}.`);
@@ -17,31 +18,50 @@ check(catalog.incidencias.every((item) => item.revisada), "Hay incidencias sin r
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");
 
-await exists("index.html");
-await exists("app.js");
-await exists("styles.css");
-await exists("schemas/materia.schema.json");
-await exists("sitemap.xml");
-await exists("robots.txt");
-await exists(".nojekyll");
+for (const file of [
+  "index.html",
+  "app.js",
+  "styles.css",
+  "catalogo.json",
+  "schemas/materia.schema.json",
+  "sitemap.xml",
+  "robots.txt",
+  ".nojekyll",
+]) {
+  await exists(file);
+}
+
+const html = await readFile(resolve(dist, "index.html"), "utf8");
+check(html.includes('id="explorar"') || html.includes('href="#explorar"'), "La portada no enlaza el explorador.");
+check(html.includes('src="./app.js"'), "La portada no carga la aplicación.");
+check(!html.includes('data-page="'), "La portada conserva atributos del antiguo sistema multipágina.");
+
+const sitemap = await readFile(resolve(dist, "sitemap.xml"), "utf8");
+check((sitemap.match(/<url>/g) || []).length === 1, "El sitemap debe contener solo la aplicación principal.");
 
 for (const stage of catalog.etapas) {
-  await exists(`${stage.pagePath}index.html`);
-  const html = await readFile(resolve(dist, stage.pagePath, "index.html"), "utf8");
-  check(html.includes('data-page="stage"'), `La página ${stage.pagePath} no está marcada como etapa.`);
-  check(html.includes('<base href="../../" />'), `Base incorrecta en ${stage.pagePath}.`);
+  check(
+    stage.appPath === `?territorio=${stage.territorio}&etapa=${stage.codigo}#explorar`,
+    `Ruta de aplicación incorrecta para ${stage.territorio}.${stage.codigo}.`,
+  );
+  check(!("pagePath" in stage), `La etapa ${stage.codigo} conserva una ruta multipágina obsoleta.`);
 }
 
 for (const matter of catalog.materias) {
   await exists(matter.jsonPath);
-  await exists(`${matter.pagePath}index.html`);
   const data = JSON.parse(await readFile(resolve(dist, matter.jsonPath), "utf8"));
   check(data.id === matter.id, `El ID de ${matter.jsonPath} no coincide con el catálogo.`);
-  const html = await readFile(resolve(dist, matter.pagePath, "index.html"), "utf8");
-  check(html.includes('data-page="matter"'), `La página ${matter.pagePath} no está marcada como materia.`);
-  check(html.includes('<base href="../../../" />'), `Base incorrecta en ${matter.pagePath}.`);
+  check(
+    matter.appPath === `?territorio=${matter.territorio}&etapa=${matter.etapa}&materia=${matter.slug}#explorar`,
+    `Ruta de aplicación incorrecta para ${matter.id}.`,
+  );
+  check(!("pagePath" in matter), `La materia ${matter.id} conserva una ruta multipágina obsoleta.`);
+
   for (const incidentId of matter.incidencias) {
-    check(catalog.incidencias.some((incident) => incident.id === incidentId), `Incidencia inexistente ${incidentId} en ${matter.id}.`);
+    check(
+      catalog.incidencias.some((incident) => incident.id === incidentId),
+      `Incidencia inexistente ${incidentId} en ${matter.id}.`,
+    );
   }
 }
 
@@ -51,7 +71,7 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Sitio válido: ${catalog.materias.length} materias, ${catalog.etapas.length} etapas, ${catalog.incidencias.length} incidencias y ${catalog.progreso.length} comunidades.`);
+console.log(`SPA válida: ${catalog.materias.length} materias, ${catalog.etapas.length} etapas publicadas, ${catalog.incidencias.length} incidencias y ${catalog.progreso.length} comunidades.`);
 
 function check(condition, message) {
   if (!condition) failures.push(message);
