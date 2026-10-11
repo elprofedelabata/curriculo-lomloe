@@ -1,6 +1,6 @@
 # Checklist de currículos de Andalucía
 
-Seguimiento de los currículos que se convertirán a JSON para **ESO y Bachillerato** a partir de la Orden de 30 de mayo de 2023.
+Seguimiento de los currículos que se convertirán a JSON para **Infantil, Primaria, ESO y Bachillerato** a partir de las órdenes de 30 de mayo de 2023.
 
 Una materia se marca como terminada cuando:
 
@@ -10,11 +10,33 @@ Una materia se marca como terminada cuando:
 
 ## Progreso
 
-- **Total:** 88 currículos
-- **Terminados:** 88
+- **Total:** 98 currículos
+- **Terminados:** 98
 - **Pendientes:** 0
+- **Infantil:** 3 de 3
+- **Primaria:** 7 de 7
 - **ESO:** 30 de 30
 - **Bachillerato:** 58 de 58
+
+## Infantil
+
+### Anexo II — Áreas de Educación Infantil
+
+- [x] Crecimiento en Armonía — primer y segundo ciclo — [JSON](data/es-an/infantil/materias/crecimiento-en-armonia.json)
+- [x] Descubrimiento y Exploración del Entorno — primer y segundo ciclo — [JSON](data/es-an/infantil/materias/descubrimiento-y-exploracion-del-entorno.json)
+- [x] Comunicación y Representación de la Realidad — primer y segundo ciclo — [JSON](data/es-an/infantil/materias/comunicacion-y-representacion-de-la-realidad.json)
+
+## Primaria
+
+### Anexo II — Áreas de Educación Primaria
+
+- [x] Conocimiento del Medio Natural, Social y Cultural — 1.º a 6.º — [JSON](data/es-an/primaria/materias/conocimiento-del-medio-natural-social-y-cultural.json)
+- [x] Educación Artística — 1.º a 6.º — [JSON](data/es-an/primaria/materias/educacion-artistica.json)
+- [x] Educación Física — 1.º a 6.º — [JSON](data/es-an/primaria/materias/educacion-fisica.json)
+- [x] Educación en Valores Cívicos y Éticos — 6.º — [JSON](data/es-an/primaria/materias/educacion-en-valores-civicos-y-eticos.json)
+- [x] Lengua Castellana y Literatura — 1.º a 6.º — [JSON](data/es-an/primaria/materias/lengua-castellana-y-literatura.json)
+- [x] Primera y Segunda Lengua Extranjera — 1.º a 6.º — [JSON](data/es-an/primaria/materias/primera-y-segunda-lengua-extranjera.json)
+- [x] Matemáticas — 1.º a 6.º — [JSON](data/es-an/primaria/materias/matematicas.json)
 
 ## ESO
 
@@ -128,6 +150,8 @@ Una materia se marca como terminada cuando:
 
 ## Fuentes oficiales locales
 
+- [Infantil](sources/es-an/normativa/infantil/2023-05-30-orden-curriculo-infantil.pdf)
+- [Primaria](sources/es-an/normativa/primaria/2023-05-30-orden-curriculo-primaria.pdf)
 - [ESO, parte 1](sources/es-an/normativa/eso/2023-05-30-orden-curriculo-eso-parte-1.pdf)
 - [ESO, parte 2](sources/es-an/normativa/eso/2023-05-30-orden-curriculo-eso-parte-2.pdf)
 - [Bachillerato, parte 1](sources/es-an/normativa/bachillerato/2023-05-30-orden-curriculo-bachillerato-parte-1.pdf)

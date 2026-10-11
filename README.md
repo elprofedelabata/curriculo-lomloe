@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye los 88 currículos de Andalucía recogidos en los anexos II y III de ESO y Bachillerato, completados en la [checklist](CHECKLIST.md). Las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 98 currículos de Andalucía: las tres áreas de Infantil, las siete áreas de Primaria y los 88 recogidos en los anexos II y III de ESO y Bachillerato. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
 
 ## Progreso del proyecto
 
@@ -8,7 +8,7 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 
 | Comunidad autónoma | Infantil | Primaria | ESO | Bachillerato | CFGB |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| Andalucía | 📚 | 📚 | ✅ 30/30 | ✅ 58/58 | ⬜ |
+| Andalucía | ✅ 3/3 | ✅ 7/7 | ✅ 30/30 | ✅ 58/58 | ⬜ |
 | Aragón | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Principado de Asturias | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Illes Balears | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |

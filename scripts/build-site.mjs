@@ -41,7 +41,7 @@ const sourceCatalog = JSON.parse(await readFile(resolve(root, "sources/es-an/nor
 const incidents = parseIncidents(incidentMarkdown);
 const matters = [];
 
-for (const stage of ["eso", "bachillerato"]) {
+for (const stage of ["infantil", "primaria", "eso", "bachillerato"]) {
   const directory = resolve(root, `data/es-an/${stage}/materias`);
   const files = (await readdir(directory)).filter((file) => file.endsWith(".json")).sort();
   for (const file of files) {
@@ -53,10 +53,9 @@ for (const stage of ["eso", "bachillerato"]) {
       (total, development) => total + (development.criteriosEvaluacion?.length || 0),
       0,
     );
-    const knowledgeCount = document.desarrollos.reduce(
-      (total, development) => total + collectKnowledge(development).length,
-      0,
-    );
+    const knowledgeCount = new Set(
+      document.desarrollos.flatMap((development) => collectKnowledge(development).map((knowledge) => knowledge.id)),
+    ).size;
 
     matters.push({
       id: document.id,
@@ -65,7 +64,8 @@ for (const stage of ["eso", "bachillerato"]) {
       etapa: stage,
       nombre: document.materia.nombre.es,
       codigo: document.materia.codigo,
-      cursos: document.materia.cursos,
+      cursos: document.materia.cursos || [],
+      ciclos: document.materia.ciclos || [],
       schemaVersion: document.schemaVersion,
       vigencia: document.vigencia,
       revision: document.revision,
@@ -94,7 +94,9 @@ for (const stage of ["eso", "bachillerato"]) {
   }
 }
 
-const stages = ["eso", "bachillerato"].map((stage) => {
+const progress = parseProgress(readme);
+
+const stages = ["infantil", "primaria", "eso", "bachillerato"].map((stage) => {
   const stageMatters = matters.filter((matter) => matter.etapa === stage);
   const stageIncidents = incidents.filter((incident) => incident.etapa === stage);
   const revisions = stageMatters.map((matter) => matter.revision?.fechaUltimaRevision).filter(Boolean).sort();
@@ -103,7 +105,7 @@ const stages = ["eso", "bachillerato"].map((stage) => {
     territorioNombre: "Andalucía",
     codigo: stage,
     nombre: stageNames[stage],
-    estado: "completo",
+    estado: progress.find((territory) => territory.territorio === "es-an")?.etapas[stage]?.estado || "pendiente",
     appPath: `?territorio=es-an&etapa=${stage}#explorar`,
     materias: stageMatters.length,
     incidencias: stageIncidents.length,
@@ -113,7 +115,7 @@ const stages = ["eso", "bachillerato"].map((stage) => {
 });
 
 const catalog = {
-  version: "1.1.0",
+  version: "1.4.0",
   proyecto: {
     nombre: "Currículo LOMLOE en JSON",
     repositorio: repoUrl,
@@ -125,7 +127,7 @@ const catalog = {
   materias: matters.sort((a, b) => a.nombre.localeCompare(b.nombre, "es")),
   incidencias: incidents,
   documentosNormativos: sourceCatalog.documentos,
-  progreso: parseProgress(readme),
+  progreso: progress,
 };
 
 await rm(dist, { recursive: true, force: true });
@@ -154,12 +156,12 @@ function collectKnowledge(development) {
 }
 
 function parseIncidents(markdown) {
-  const pattern = /^\| \[(?<review>[^\]]*)\] \| (?<id>(?:BACH|ESO)-\d{3}) \| \[(?<matter>[^\]]+)\]\((?<path>[^)]+)\) \| (?<issue>.*?) \| (?<decision>.*?) \|$/;
+  const pattern = /^\| \[(?<review>[^\]]*)\] \| (?<id>(?:INF|PRIM|BACH|ESO)-\d{3}) \| \[(?<matter>[^\]]+)\]\((?<path>[^)]+)\) \| (?<issue>.*?) \| (?<decision>.*?) \|$/;
   return markdown.split(/\r?\n/).flatMap((line) => {
     const match = line.match(pattern);
     if (!match) return [];
     const jsonPath = match.groups.path.replaceAll("\\", "/");
-    const pathMatch = jsonPath.match(/^data\/es-an\/(?<stage>eso|bachillerato)\/materias\/(?<slug>[^/]+)\.json$/);
+    const pathMatch = jsonPath.match(/^data\/es-an\/(?<stage>infantil|primaria|eso|bachillerato)\/materias\/(?<slug>[^/]+)\.json$/);
     if (!pathMatch) throw new Error(`Ruta de incidencia no reconocida: ${jsonPath}`);
     return [{
       id: match.groups.id,

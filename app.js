@@ -192,6 +192,8 @@ function renderResults(catalog, territory) {
     (item) => item.territorio === territory.territorio && item.etapa === state.stage,
   );
   const stageName = STAGE_LONG_NAMES[state.stage];
+  const reviewedIncidents = incidents.filter((incident) => incident.revisada).length;
+  const pendingIncidents = incidents.length - reviewedIncidents;
 
   document.querySelector("#results").innerHTML = `
     <div class="results-heading">
@@ -226,7 +228,7 @@ function renderResults(catalog, territory) {
 
     ${incidents.length ? `
       <p class="stage-note">
-        Esta etapa tiene ${incidents.length} ${incidents.length === 1 ? "incidencia revisada" : "incidencias revisadas"}.
+        Esta etapa tiene ${incidents.length} ${incidents.length === 1 ? "incidencia" : "incidencias"}: ${reviewedIncidents} ${reviewedIncidents === 1 ? "revisada" : "revisadas"} y ${pendingIncidents} ${pendingIncidents === 1 ? "pendiente" : "pendientes"}.
         <a href="${REPOSITORY_URL}/blob/main/INCIDENCIAS.md">Ver el informe completo ↗</a>
       </p>
     ` : ""}
@@ -288,10 +290,15 @@ function stageButton(catalog, territory, code, label) {
 function matterCard(catalog, matter) {
   const incidents = catalog.incidencias.filter((item) => matter.incidencias.includes(item.id));
   const sources = uniqueBy(matter.fuentes, "id");
-  const courses = matter.cursos.map((item) => {
-    const character = item.caracter ? ` · ${item.caracter}` : "";
-    return `<span>${courseLabel(matter.etapa, item.curso)}${escapeHtml(character)}</span>`;
-  }).join("");
+  const levels = matter.ciclos?.length
+    ? matter.ciclos.map((item) => {
+        const character = item.caracter ? ` · ${item.caracter}` : "";
+        return `<span>${cycleLabel(item.ciclo)}${escapeHtml(character)}</span>`;
+      }).join("")
+    : (matter.cursos || []).map((item) => {
+        const character = item.caracter ? ` · ${item.caracter}` : "";
+        return `<span>${courseLabel(matter.etapa, item.curso)}${escapeHtml(character)}</span>`;
+      }).join("");
   const opened = state.matter === matter.slug ? " open" : "";
 
   return `
@@ -300,7 +307,7 @@ function matterCard(catalog, matter) {
         <div>
           <p class="matter-code">${escapeHtml(matter.codigo || "Materia")} · Anexo ${escapeHtml(matter.anexos.join(", ") || "—")}</p>
           <h3>${escapeHtml(matter.nombre)}</h3>
-          <div class="chips">${courses}</div>
+          <div class="chips">${levels}</div>
         </div>
         <a class="json-link" href="${escapeHtml(matter.jsonPath)}">JSON <span>↗</span></a>
       </div>
@@ -355,7 +362,7 @@ function matterSource(catalog, source, territoryCode) {
 function incidentCard(incident) {
   return `
     <article class="incident">
-      <strong>${escapeHtml(incident.id)}</strong>
+      <strong>${escapeHtml(incident.id)} · ${incident.revisada ? "Revisada" : "Pendiente de revisión"}</strong>
       <p>${escapeHtml(incident.incidencia)}</p>
       <p><b>Decisión:</b> ${escapeHtml(incident.decision)}</p>
     </article>
@@ -416,6 +423,12 @@ function updateUrl() {
 
 function uniqueBy(items, key) {
   return [...new Map(items.map((item) => [item[key], item])).values()];
+}
+
+function cycleLabel(cycle) {
+  if (cycle === 1) return "Primer ciclo";
+  if (cycle === 2) return "Segundo ciclo";
+  return `${cycle}.º ciclo`;
 }
 
 function courseLabel(stage, course) {

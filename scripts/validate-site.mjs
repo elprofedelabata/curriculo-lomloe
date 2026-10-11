@@ -6,15 +6,17 @@ const dist = resolve(root, "dist");
 const catalog = JSON.parse(await readFile(resolve(dist, "catalogo.json"), "utf8"));
 const failures = [];
 
-check(catalog.version === "1.1.0", "Versión inesperada del catálogo.");
+check(catalog.version === "1.4.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
-check(catalog.etapas.length === 2, `Se esperaban 2 etapas publicadas y hay ${catalog.etapas.length}.`);
-check(catalog.materias.length === 88, `Se esperaban 88 materias y hay ${catalog.materias.length}.`);
+check(catalog.etapas.length === 4, `Se esperaban 4 etapas publicadas y hay ${catalog.etapas.length}.`);
+check(catalog.materias.length === 98, `Se esperaban 98 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.filter((item) => item.etapa === "infantil").length === 3, "El catálogo de Infantil no contiene 3 áreas.");
+check(catalog.materias.filter((item) => item.etapa === "primaria").length === 7, "El catálogo de Primaria no contiene 7 materias.");
 check(catalog.materias.filter((item) => item.etapa === "eso").length === 30, "El catálogo de ESO no contiene 30 materias.");
 check(catalog.materias.filter((item) => item.etapa === "bachillerato").length === 58, "El catálogo de Bachillerato no contiene 58 materias.");
-check(catalog.incidencias.length === 35, `Se esperaban 35 incidencias y hay ${catalog.incidencias.length}.`);
-check(catalog.incidencias.every((item) => item.revisada), "Hay incidencias sin revisar en el catálogo publicado.");
+check(catalog.incidencias.length === 75, `Se esperaban 75 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");
 
