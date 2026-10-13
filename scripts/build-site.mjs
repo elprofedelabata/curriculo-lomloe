@@ -41,7 +41,7 @@ const sourceCatalog = JSON.parse(await readFile(resolve(root, "sources/es-an/nor
 const incidents = parseIncidents(incidentMarkdown);
 const matters = [];
 
-for (const stage of ["infantil", "primaria", "eso", "bachillerato"]) {
+for (const stage of ["infantil", "primaria", "eso", "bachillerato", "cfgb"]) {
   const directory = resolve(root, `data/es-an/${stage}/materias`);
   const files = (await readdir(directory)).filter((file) => file.endsWith(".json")).sort();
   for (const file of files) {
@@ -96,7 +96,7 @@ for (const stage of ["infantil", "primaria", "eso", "bachillerato"]) {
 
 const progress = parseProgress(readme);
 
-const stages = ["infantil", "primaria", "eso", "bachillerato"].map((stage) => {
+const stages = ["infantil", "primaria", "eso", "bachillerato", "cfgb"].map((stage) => {
   const stageMatters = matters.filter((matter) => matter.etapa === stage);
   const stageIncidents = incidents.filter((incident) => incident.etapa === stage);
   const revisions = stageMatters.map((matter) => matter.revision?.fechaUltimaRevision).filter(Boolean).sort();
@@ -156,12 +156,12 @@ function collectKnowledge(development) {
 }
 
 function parseIncidents(markdown) {
-  const pattern = /^\| \[(?<review>[^\]]*)\] \| (?<id>(?:INF|PRIM|BACH|ESO)-\d{3}) \| \[(?<matter>[^\]]+)\]\((?<path>[^)]+)\) \| (?<issue>.*?) \| (?<decision>.*?) \|$/;
+  const pattern = /^\| \[(?<review>[^\]]*)\] \| (?<id>(?:INF|PRIM|BACH|ESO|CFGB)-\d{3}) \| \[(?<matter>[^\]]+)\]\((?<path>[^)]+)\) \| (?<issue>.*?) \| (?<decision>.*?) \|$/;
   return markdown.split(/\r?\n/).flatMap((line) => {
     const match = line.match(pattern);
     if (!match) return [];
     const jsonPath = match.groups.path.replaceAll("\\", "/");
-    const pathMatch = jsonPath.match(/^data\/es-an\/(?<stage>infantil|primaria|eso|bachillerato)\/materias\/(?<slug>[^/]+)\.json$/);
+    const pathMatch = jsonPath.match(/^data\/es-an\/(?<stage>infantil|primaria|eso|bachillerato|cfgb)\/materias\/(?<slug>[^/]+)\.json$/);
     if (!pathMatch) throw new Error(`Ruta de incidencia no reconocida: ${jsonPath}`);
     return [{
       id: match.groups.id,

@@ -1,6 +1,6 @@
 # Checklist de currículos de Andalucía
 
-Seguimiento de los currículos que se convertirán a JSON para **Infantil, Primaria, ESO y Bachillerato** a partir de las órdenes de 30 de mayo de 2023.
+Seguimiento de los currículos que se convertirán a JSON para **Infantil, Primaria, ESO, Bachillerato y CFGB** a partir de las órdenes de 30 de mayo de 2023.
 
 Una materia se marca como terminada cuando:
 
@@ -10,13 +10,14 @@ Una materia se marca como terminada cuando:
 
 ## Progreso
 
-- **Total:** 98 currículos
-- **Terminados:** 98
+- **Total:** 100 currículos
+- **Terminados:** 100
 - **Pendientes:** 0
 - **Infantil:** 3 de 3
 - **Primaria:** 7 de 7
 - **ESO:** 30 de 30
 - **Bachillerato:** 58 de 58
+- **CFGB:** 2 de 2
 
 ## Infantil
 
@@ -142,6 +143,13 @@ Una materia se marca como terminada cuando:
 - [x] Psicología — 2.º — [JSON](data/es-an/bachillerato/materias/psicologia.json)
 - [x] Tecnologías de la Información y Comunicación — I y II — [JSON](data/es-an/bachillerato/materias/tecnologias-de-la-informacion-y-comunicacion.json)
 
+## CFGB
+
+### Anexo V — Ámbitos comunes de los ciclos formativos de grado básico
+
+- [x] Ciencias Aplicadas — 1.º y 2.º — [JSON](data/es-an/cfgb/materias/ciencias-aplicadas.json)
+- [x] Comunicación y Ciencias Sociales — 1.º y 2.º — [JSON](data/es-an/cfgb/materias/comunicacion-y-ciencias-sociales.json)
+
 ## Notas de alcance
 
 - **Primera y Segunda Lengua Extranjera** comparten el desarrollo curricular denominado «Lengua Extranjera»; por eso aparecen en una sola casilla por etapa.
@@ -156,3 +164,4 @@ Una materia se marca como terminada cuando:
 - [ESO, parte 2](sources/es-an/normativa/eso/2023-05-30-orden-curriculo-eso-parte-2.pdf)
 - [Bachillerato, parte 1](sources/es-an/normativa/bachillerato/2023-05-30-orden-curriculo-bachillerato-parte-1.pdf)
 - [Bachillerato, parte 2](sources/es-an/normativa/bachillerato/2023-05-30-orden-curriculo-bachillerato-parte-2.pdf)
+- [CFGB, anexo V en la Orden de ESO, parte 2](sources/es-an/normativa/eso/2023-05-30-orden-curriculo-eso-parte-2.pdf)

@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 98 currículos de Andalucía: las tres áreas de Infantil, las siete áreas de Primaria y los 88 recogidos en los anexos II y III de ESO y Bachillerato. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 100 currículos revisados de Andalucía: Infantil, Primaria, ESO, Bachillerato y los dos ámbitos comunes de CFGB. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
 
 ## Progreso del proyecto
 
@@ -8,7 +8,7 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 
 | Comunidad autónoma | Infantil | Primaria | ESO | Bachillerato | CFGB |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| Andalucía | ✅ 3/3 | ✅ 7/7 | ✅ 30/30 | ✅ 58/58 | ⬜ |
+| Andalucía | ✅ 3/3 | ✅ 7/7 | ✅ 30/30 | ✅ 58/58 | ✅ 2/2 |
 | Aragón | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Principado de Asturias | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Illes Balears | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -28,7 +28,7 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 
 **Leyenda:** ✅ currículo completo y revisado · 📚 fuentes oficiales recopiladas · 🚧 conversión en curso · ⬜ pendiente.
 
-El alcance actual llega hasta CFGB. Más adelante se podrá estudiar la incorporación del resto de enseñanzas de Formación Profesional.
+En CFGB se incluyen los ámbitos comunes de Ciencias Aplicadas y Comunicación y Ciencias Sociales del anexo V de la Orden de 30 de mayo de 2023. Los dos ámbitos cuentan con JSON revisados; los módulos profesionales quedan fuera de este alcance. Más adelante se podrá estudiar la incorporación del resto de enseñanzas de Formación Profesional.
 
 ## Sitio web
 

@@ -23,7 +23,7 @@
     "schemaVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
     "id": { "type": "string", "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)*$" },
     "territorio": { "type": "string", "pattern": "^[a-z]{2}-[a-z]{2}$" },
-    "etapa": { "type": "string", "enum": ["infantil", "primaria", "eso", "bachillerato"] },
+    "etapa": { "type": "string", "enum": ["infantil", "primaria", "eso", "bachillerato", "cfgb"] },
     "materia": { "$ref": "#/$defs/materia" },
     "vigencia": { "$ref": "#/$defs/vigencia" },
     "fuentes": {

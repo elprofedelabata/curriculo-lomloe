@@ -99,6 +99,14 @@ Este archivo es el registro único de incidencias del proyecto. Los JSON curricu
 | [X] | ESO-011 | [Lengua Castellana y Literatura](data/es-an/eso/materias/lengua-castellana-y-literatura.json) | El código `CL.4.B.1` aparece sin la L inicial. | Se normaliza como `LCL.4.B.1`, forma utilizada por los criterios. |
 | [X] | ESO-012 | [Cultura del Flamenco](data/es-an/eso/materias/cultura-del-flamenco.json) | El código aparece como `CF.A.3.6`. | Se normaliza como `CF.3.A.6`, conforme a la estructura del resto de saberes. |
 
+## CFGB — incidencias de revisión
+
+| Revisada | ID | Materia | Incidencia | Decisión aplicada |
+| --- | --- | --- | --- | --- |
+| [X] | CFGB-001 | [Ciencias Aplicadas](data/es-an/cfgb/materias/ciencias-aplicadas.json) | La competencia específica 1 imprime `CCCEC1` como descriptor del Perfil de salida. | Se normaliza como `CCEC1`, código válido del descriptor. |
+| [X] | CFGB-002 | [Comunicación y Ciencias Sociales](data/es-an/cfgb/materias/comunicacion-y-ciencias-sociales.json) | El criterio `1.2` de 2.º referencia `ACS.1.A.3`, un saber codificado para 1.º. | Se considera una errata y se normaliza como `ACS.2.A.3`, el saber correspondiente de 2.º. |
+| [X] | CFGB-003 | [Comunicación y Ciencias Sociales](data/es-an/cfgb/materias/comunicacion-y-ciencias-sociales.json) | El criterio `5.2` de 2.º imprime `ACS.2 B.2.4` y `ACS.2 B.2.5`, sin el punto tras el curso. | Se normalizan como `ACS.2.B.2.4` y `ACS.2.B.2.5` para resolver las referencias a los saberes publicados. |
+
 ## Fuentes para el cotejo
 
 - [Orden de Infantil](sources/es-an/normativa/infantil/2023-05-30-orden-curriculo-infantil.pdf)

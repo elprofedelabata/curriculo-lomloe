@@ -202,14 +202,14 @@ function renderResults(catalog, territory) {
         <h2>${escapeHtml(stageName)}</h2>
         <p>${resultDescription(progress, matters, documents)}</p>
       </div>
-      ${matters.length ? `<div class="result-total"><strong>${matters.length}</strong><span>materias</span></div>` : ""}
+      ${matters.length ? `<div class="result-total"><strong>${matters.length}</strong><span>${state.stage === "cfgb" ? "ámbitos" : "materias"}</span></div>` : ""}
     </div>
 
     ${matters.length ? `
       <div class="list-toolbar">
         <label>
-          <span class="sr-only">Buscar una materia</span>
-          <input data-role="matter-search" type="search" placeholder="Buscar materia…" value="${escapeHtml(state.query)}" autocomplete="off">
+          <span class="sr-only">Buscar ${state.stage === "cfgb" ? "un ámbito" : "una materia"}</span>
+          <input data-role="matter-search" type="search" placeholder="Buscar ${state.stage === "cfgb" ? "ámbito" : "materia"}…" value="${escapeHtml(state.query)}" autocomplete="off">
         </label>
         <span id="match-count"></span>
       </div>
@@ -251,7 +251,7 @@ function renderMatterList(catalog) {
   count.textContent = `${matters.length} ${matters.length === 1 ? "resultado" : "resultados"}`;
   list.innerHTML = matters.length
     ? matters.map((matter) => matterCard(catalog, matter)).join("")
-    : `<div class="empty-search">No hay materias que coincidan con la búsqueda.</div>`;
+    : `<div class="empty-search">No hay ${state.stage === "cfgb" ? "ámbitos" : "materias"} que coincidan con la búsqueda.</div>`;
 }
 
 function communityButton(catalog, territory) {
@@ -277,7 +277,7 @@ function stageButton(catalog, territory, code, label) {
     (item) => item.territorio === territory.territorio && item.etapa === code,
   ).length;
   const selected = state.stage === code;
-  const detail = count ? `${count} materias` : progress.etiqueta;
+  const detail = count ? `${count} ${code === "cfgb" ? "ámbitos" : "materias"}` : progress.etiqueta;
 
   return `
     <button class="stage-button ${selected ? "is-selected" : ""}" type="button" data-stage="${code}" aria-pressed="${selected}">
@@ -400,7 +400,9 @@ function emptyStage(progress) {
 
 function resultDescription(progress, matters, documents) {
   if (matters.length) {
-    return `${matters.length} currículos revisados, con acceso directo al JSON y a su documentación.`;
+    const reviewed = matters.filter((item) => ["revisado", "verificado"].includes(item.revision?.estado)).length;
+    if (reviewed === matters.length) return `${matters.length} currículos revisados, con acceso directo al JSON y a su documentación.`;
+    return `${matters.length} currículos disponibles, ${reviewed} revisados y ${matters.length - reviewed} en borrador.`;
   }
   if (progress?.estado === "fuentes" && documents.length) {
     return `${documents.length} documentos oficiales recopilados; los archivos JSON están pendientes.`;
@@ -434,6 +436,7 @@ function cycleLabel(cycle) {
 function courseLabel(stage, course) {
   if (stage === "eso") return `${course}.º ESO`;
   if (stage === "bachillerato") return `${course}.º Bachillerato`;
+  if (stage === "cfgb") return `${course}.º CFGB`;
   return `${course}.º`;
 }
 

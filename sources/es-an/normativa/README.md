@@ -1,6 +1,6 @@
 # Fuentes oficiales de Andalucía
 
-Corpus normativo de partida para estructurar en JSON los currículos LOMLOE de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato en Andalucía.
+Corpus normativo de partida para estructurar en JSON los currículos LOMLOE de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria, Bachillerato y Ciclos Formativos de Grado Básico en Andalucía.
 
 ## Organización
 
@@ -8,10 +8,13 @@ Corpus normativo de partida para estructurar en JSON los currículos LOMLOE de E
 - primaria/: decreto de ordenación y orden curricular de Educación Primaria.
 - eso/: decreto de ordenación y los dos PDF que forman la orden curricular de ESO.
 - bachillerato/: decreto de ordenación, corrección de errores y los dos PDF que forman la orden curricular de Bachillerato.
+- cfgb/: normativa vigente de ordenación, evaluación y formación en empresa de los grados D y E aplicable a CFGB.
 - actualizaciones/: disposiciones posteriores que modifican las normas anteriores.
 - catalogo.json: inventario legible por máquinas con procedencia, CVE, URL, número de páginas y SHA-256.
 
 Los archivos marcados como «parte 1 de 2» y «parte 2 de 2» son una única disposición publicada por el BOJA en dos PDF. Deben procesarse en ese orden y conservar su paginación original.
+
+El currículo de los ámbitos comunes de CFGB se publica en el Anexo V de la Orden de ESO de 30 de mayo de 2023, ya conservada en `eso/`. No se duplica ese PDF: el catálogo lo relaciona con ambas etapas. El proyecto extrae los dos ámbitos comunes de ese anexo; los módulos profesionales de cada título se tratarán, en su caso, dentro de una futura ampliación dedicada a FP.
 
 La Orden de 31 de agosto de 2026 modifica aspectos organizativos y de evaluación de las órdenes de Primaria, ESO y Bachillerato de 2023, pero no sustituye sus anexos de competencias, criterios de evaluación y saberes básicos.
 
