@@ -41,6 +41,18 @@ La [aplicación de página única](https://elprofedelabata.github.io/curriculo-l
 
 El sitio genera también un [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) para que otras aplicaciones descubran todos los currículos publicados sin mantener una lista manual.
 
+## Uso directo de los datos
+
+Cada currículo tiene una URL pública a su archivo JSON, sin necesidad de clave ni de una API propia. Por ejemplo, el ámbito de [Ciencias Aplicadas de CFGB](https://elprofedelabata.github.io/curriculo-lomloe/data/es-an/cfgb/materias/ciencias-aplicadas.json) puede leerse desde JavaScript así:
+
+```js
+const url = "https://elprofedelabata.github.io/curriculo-lomloe/data/es-an/cfgb/materias/ciencias-aplicadas.json";
+const curriculo = await fetch(url).then((respuesta) => respuesta.json());
+console.log(curriculo.materia.nombre.es);
+```
+
+Para localizar los demás archivos y consultar su etapa, estado de revisión y fuentes, utiliza el [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) generado por el sitio.
+
 ## Desarrollo local
 
 Genera y valida el sitio estático:
