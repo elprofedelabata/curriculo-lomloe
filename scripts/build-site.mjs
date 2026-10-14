@@ -36,10 +36,16 @@ const communityCodes = new Map([
 ]);
 
 const readme = await readFile(resolve(root, "README.md"), "utf8");
-const incidentMarkdown = await readFile(resolve(root, "INCIDENCIAS.md"), "utf8");
+const incidentFiles = (await readdir(resolve(root, "incidencias"), { withFileTypes: true }))
+  .filter((entry) => entry.isFile() && /^es-[a-z]{2}\.md$/.test(entry.name))
+  .map((entry) => entry.name)
+  .sort();
+const incidentMarkdowns = await Promise.all(
+  incidentFiles.map((filename) => readFile(resolve(root, "incidencias", filename), "utf8")),
+);
 const stageCodes = ["infantil", "primaria", "eso", "bachillerato", "cfgb"];
 const progress = parseProgress(readme);
-const incidents = parseIncidents(incidentMarkdown);
+const incidents = incidentMarkdowns.flatMap(parseIncidents);
 const matters = [];
 const sourceCatalogs = new Map();
 
@@ -210,7 +216,7 @@ function parseIncidents(markdown) {
   return markdown.split(/\r?\n/).flatMap((line) => {
     const match = line.match(pattern);
     if (!match) return [];
-    const jsonPath = match.groups.path.replaceAll("\\", "/");
+    const jsonPath = match.groups.path.replaceAll("\\", "/").replace(/^(\.\.\/)+/, "");
     const pathMatch = jsonPath.match(/^data\/(?<territory>es-[a-z]{2})\/(?<stage>infantil|primaria|eso|bachillerato|cfgb)\/materias\/(?<slug>[^/]+)\.json$/);
     if (!pathMatch) throw new Error(`Ruta de incidencia no reconocida: ${jsonPath}`);
     return [{

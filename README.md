@@ -71,7 +71,8 @@ Abre `http://localhost:8000` para previsualizar la portada.
 - `data/`: documentos curriculares canónicos.
 - `schemas/`: esquemas JSON para validarlos.
 - `sources/`: PDF oficiales y catálogo de las fuentes normativas utilizadas.
-- `INCIDENCIAS.md`: registro único de discrepancias y decisiones de revisión.
+- `INCIDENCIAS.md`: índice general de incidencias.
+- `incidencias/`: registros de discrepancias y decisiones de revisión separados por comunidad autónoma.
 - `index.html`, `styles.css` y `site.js`: portada y desplegable de Andalucía; `app.js` conserva el prototipo anterior, pero no se carga ni se publica.
 - `scripts/build-site.mjs`: genera el sitio estático, el catálogo y los datos publicables en `dist/`.
 - `scripts/validate-site.mjs`: comprueba rutas, datos y relaciones del sitio generado.

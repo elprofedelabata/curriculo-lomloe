@@ -64,7 +64,8 @@ check(siteJs.includes('button.disabled = preview'), "Las subcarpetas de maqueta 
 check(siteJs.includes('fetch("./catalogo.json")') && siteJs.includes('renderMatterCard') && siteJs.includes('renderDocuments'), "El modal debe obtener y listar los datos del catálogo.");
 check(siteJs.includes('writeStageRoute') && siteJs.includes('syncFromLocation'), "Faltan las rutas compartibles de las etapas.");
 check(siteJs.includes('create("span", "matter-code", matter.codigo)') && siteJs.includes('jsonLink.prepend(createJsonIcon())'), "Cada materia debe mostrar su abreviatura y el icono SVG del JSON.");
-check(siteJs.includes('makeActionLink("Publicación oficial"') && siteJs.includes('makeActionLink("PDF archivado"') && siteJs.includes('makeActionLink("Consultar INCIDENCIAS.md"'), "Normativa e incidencias deben enlazarse como botones con iconos.");
+check(siteJs.includes('makeActionLink("Publicación oficial"') && siteJs.includes('makeActionLink("PDF archivado"') && siteJs.includes('makeActionLink("Consultar incidencias"'), "Normativa e incidencias deben enlazarse como botones con iconos.");
+check(siteJs.includes('"/blob/main/incidencias/" + territoryCode + ".md"'), "El modal debe enlazar el registro de incidencias de la comunidad seleccionada.");
 check(siteJs.includes('actions.append(makeActionLink("Publicación oficial"') && siteJs.includes('actions.append(makeActionLink("PDF archivado"'), "Las fuentes desplegables deben usar los mismos botones con iconos.");
 const css = await readFile(resolve(dist, "styles.css"), "utf8");
 const styleHash = createHash("sha256").update(css).digest("hex").slice(0, 12);

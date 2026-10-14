@@ -117,7 +117,7 @@ function renderStage(catalog, territoryCode, stageCode, matterSlug) {
   list.replaceChildren(...matters.map((matter) => renderMatterCard(catalog, matter)));
   if (!matters.length) list.append(create("p", "modal-message", "Todavía no hay currículos publicados."));
   currentView = { matterSlug };
-  modalContent.replaceChildren(section, renderDocuments(documents, territoryCode), renderIncidentsNote(incidents));
+  modalContent.replaceChildren(section, renderDocuments(documents, territoryCode), renderIncidentsNote(incidents, territoryCode));
 
   if (matterSlug) {
     const selected = [...list.querySelectorAll(".matter-item")].find((item) => item.dataset.matter === matterSlug);
@@ -228,15 +228,15 @@ function renderDocuments(documents, territoryCode) {
   return section;
 }
 
-function renderIncidentsNote(incidents) {
+function renderIncidentsNote(incidents, territoryCode) {
   const section = create("section", "modal-section modal-incidents");
   section.append(create("h3", "", "Registro de incidencias"));
   section.append(create("p", "modal-muted",
     incidents.length
-      ? "Las decisiones de revisión de esta etapa están documentadas en el informe general."
+      ? "Las decisiones de revisión de esta etapa están documentadas en el registro de la comunidad."
       : "No hay incidencias registradas para esta etapa."
   ));
-  section.append(makeActionLink("Consultar INCIDENCIAS.md", REPOSITORY_URL + "/blob/main/INCIDENCIAS.md", "incidents"));
+  section.append(makeActionLink("Consultar incidencias", REPOSITORY_URL + "/blob/main/incidencias/" + territoryCode + ".md", "incidents"));
   return section;
 }
 
