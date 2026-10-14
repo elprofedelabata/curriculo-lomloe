@@ -3,44 +3,124 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="./" />
     <meta
       name="description"
-      content="Currículos LOMLOE de las comunidades autónomas, estructurados en JSON y listos para reutilizar."
+      content="Currículos LOMLOE de las comunidades autónomas en JSON abierto, trazable y listo para reutilizar."
     />
-    <meta name="theme-color" content="#0b6049" />
+    <meta name="theme-color" content="#f7f8f5" />
     <title>Currículo LOMLOE en JSON</title>
     <link rel="stylesheet" href="./styles.css" />
-    <script src="./app.js" defer></script>
+    <script src="./site.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#explorar">Saltar al explorador</a>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-    <header class="site-header">
-      <a class="brand" href="./" aria-label="Inicio de Currículo LOMLOE">
-        <span class="brand-mark" aria-hidden="true">CL</span>
-        <span>
-          <strong>Currículo LOMLOE</strong>
-          <small>JSON abierto y reutilizable</small>
-        </span>
-      </a>
-      <nav aria-label="Navegación principal">
-        <a href="#explorar">Explorar</a>
-        <a href="#proyecto">El proyecto</a>
-        <a class="github-link" href="https://github.com/elprofedelabata/curriculo-lomloe">GitHub ↗</a>
-      </nav>
-    </header>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="./" aria-label="Currículo LOMLOE, inicio">
+          <span class="brand-mark" aria-hidden="true">{ }</span>
+          <span>currículo<span class="brand-dot">.</span>lomloe</span>
+        </a>
+        <a class="github-link" href="https://github.com/elprofedelabata/curriculo-lomloe">
+          Ver en GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </header>
 
-    <main id="contenido">
-      <div class="loading" role="status">
-        <span aria-hidden="true"></span>
-        Cargando el catálogo…
+      <main id="contenido" tabindex="-1">
+        <section class="intro" aria-labelledby="intro-title">
+          <h1 id="intro-title">Currículo LOMLOE <span>en JSON</span></h1>
+          <p class="intro-copy">
+            Este proyecto recopila los currículos LOMLOE publicados por las comunidades
+            autónomas y los transforma en archivos JSON para facilitar su consulta y reutilización.
+          </p>
+          <p class="intro-copy intro-copy--second">
+            Las fuentes oficiales y las incidencias se documentan junto a los datos. El objetivo
+            es cubrir Infantil, Primaria, ESO, Bachillerato y los ámbitos comunes de CFGB en todas
+            las comunidades. Andalucía es la primera completada.
+          </p>
+        </section>
+
+        <section class="communities" aria-labelledby="communities-title">
+          <h2 class="section-heading" id="communities-title">Comunidades autónomas</h2>
+
+          <ul class="folder-grid" aria-label="Comunidades autónomas">
+            <li class="folder-card folder-card--available" data-community="es-an">
+              <button class="folder-card-toggle" type="button" aria-expanded="false" aria-controls="community-stages" aria-label="Mostrar etapas de Andalucía">
+                <span class="folder-name">Andalucía</span>
+                <span class="folder-code">es-an</span>
+              </button>
+            </li>
+            <li class="folder-card folder-card--available" data-community="es-ar">
+              <button class="folder-card-toggle" type="button" aria-expanded="false" aria-controls="community-stages" aria-label="Mostrar etapas de Aragón">
+                <span class="folder-name">Aragón</span>
+                <span class="folder-code">es-ar</span>
+              </button>
+            </li>
+            <li class="folder-card folder-card--preview" data-community="es-as">
+              <button class="folder-card-toggle" type="button" aria-expanded="false" aria-controls="community-stages" aria-label="Mostrar maqueta de etapas de Principado de Asturias">
+                <span class="folder-name">Principado de Asturias</span>
+                <span class="folder-code">es-as</span>
+              </button>
+            </li>
+            <li class="folder-card folder-card--preview" data-community="es-ib">
+              <button class="folder-card-toggle" type="button" aria-expanded="false" aria-controls="community-stages" aria-label="Mostrar maqueta de etapas de Illes Balears">
+                <span class="folder-name">Illes Balears</span>
+                <span class="folder-code">es-ib</span>
+              </button>
+            </li>
+            <li class="folder-card folder-card--preview" data-community="es-cn">
+              <button class="folder-card-toggle" type="button" aria-expanded="false" aria-controls="community-stages" aria-label="Mostrar maqueta de etapas de Canarias">
+                <span class="folder-name">Canarias</span>
+                <span class="folder-code">es-cn</span>
+              </button>
+            </li>
+            <li class="community-expansion" id="community-stages" hidden>
+              <section aria-labelledby="community-stages-title">
+                <h3 id="community-stages-title">Etapas educativas de Andalucía</h3>
+                <p class="preview-note" hidden>Vista de prueba: aún no hay datos de esta comunidad.</p>
+                <ul class="stage-grid" aria-label="Etapas educativas de Andalucía">
+                  <li class="stage-card" data-stage="infantil"><button class="stage-card-button" type="button" aria-haspopup="dialog"><span>Educación Infantil</span></button></li>
+                  <li class="stage-card" data-stage="primaria"><button class="stage-card-button" type="button" aria-haspopup="dialog"><span>Educación Primaria</span></button></li>
+                  <li class="stage-card" data-stage="eso"><button class="stage-card-button" type="button" aria-haspopup="dialog"><span>ESO</span></button></li>
+                  <li class="stage-card" data-stage="bachillerato"><button class="stage-card-button" type="button" aria-haspopup="dialog"><span>Bachillerato</span></button></li>
+                  <li class="stage-card" data-stage="cfgb"><button class="stage-card-button" type="button" aria-haspopup="dialog"><span>CFGB</span></button></li>
+                </ul>
+              </section>
+            </li>
+            <li class="folder-card folder-card--disabled" data-community="es-cb"><span class="folder-name">Cantabria</span><span class="folder-code">es-cb</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-cm"><span class="folder-name">Castilla-La Mancha</span><span class="folder-code">es-cm</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-cl"><span class="folder-name">Castilla y León</span><span class="folder-code">es-cl</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-ct"><span class="folder-name">Cataluña</span><span class="folder-code">es-ct</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-vc"><span class="folder-name">Comunitat Valenciana</span><span class="folder-code">es-vc</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-ex"><span class="folder-name">Extremadura</span><span class="folder-code">es-ex</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-ga"><span class="folder-name">Galicia</span><span class="folder-code">es-ga</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-md"><span class="folder-name">Comunidad de Madrid</span><span class="folder-code">es-md</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-mc"><span class="folder-name">Región de Murcia</span><span class="folder-code">es-mc</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-nc"><span class="folder-name">Comunidad Foral de Navarra</span><span class="folder-code">es-nc</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-pv"><span class="folder-name">País Vasco</span><span class="folder-code">es-pv</span></li>
+            <li class="folder-card folder-card--disabled" data-community="es-ri"><span class="folder-name">La Rioja</span><span class="folder-code">es-ri</span></li>
+          </ul>
+        </section>
+
+      </main>
+
+      <footer class="site-footer">
+        <p>Un proyecto abierto e independiente, basado en publicaciones oficiales.</p>
+        <div class="footer-links">
+          <a href="https://github.com/elprofedelabata/curriculo-lomloe/blob/main/assets/flags/README.md">Créditos de las banderas ↗</a>
+          <a href="https://github.com/elprofedelabata/curriculo-lomloe">Código y datos en GitHub ↗</a>
+        </div>
+      </footer>
+    </div>
+
+    <dialog class="stage-modal" id="stage-modal" aria-labelledby="stage-modal-title">
+      <div class="stage-modal-panel">
+        <header class="stage-modal-header">
+          <h2 id="stage-modal-title"></h2>
+          <button class="stage-modal-close" type="button" aria-label="Cerrar ventana">&times;</button>
+        </header>
+        <div class="stage-modal-content"></div>
       </div>
-    </main>
-
-    <footer>
-      <p><strong>Currículo LOMLOE en JSON</strong><br />Datos estructurados a partir de publicaciones oficiales.</p>
-      <p><a href="https://github.com/elprofedelabata/curriculo-lomloe/issues/new">Informar de un error ↗</a></p>
-    </footer>
+    </dialog>
   </body>
 </html>

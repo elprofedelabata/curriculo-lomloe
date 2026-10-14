@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { basename, join, relative, resolve } from "node:path";
 
@@ -36,106 +37,155 @@ const communityCodes = new Map([
 
 const readme = await readFile(resolve(root, "README.md"), "utf8");
 const incidentMarkdown = await readFile(resolve(root, "INCIDENCIAS.md"), "utf8");
-const sourceCatalog = JSON.parse(await readFile(resolve(root, "sources/es-an/normativa/catalogo.json"), "utf8"));
-
+const stageCodes = ["infantil", "primaria", "eso", "bachillerato", "cfgb"];
+const progress = parseProgress(readme);
 const incidents = parseIncidents(incidentMarkdown);
 const matters = [];
+const sourceCatalogs = new Map();
 
-for (const stage of ["infantil", "primaria", "eso", "bachillerato", "cfgb"]) {
-  const directory = resolve(root, `data/es-an/${stage}/materias`);
-  const files = (await readdir(directory)).filter((file) => file.endsWith(".json")).sort();
-  for (const file of files) {
-    const document = JSON.parse(await readFile(resolve(directory, file), "utf8"));
-    const slug = basename(file, ".json");
-    const jsonPath = `data/es-an/${stage}/materias/${file}`;
-    const matterIncidents = incidents.filter((incident) => incident.jsonPath === jsonPath);
-    const criteriaCount = document.desarrollos.reduce(
-      (total, development) => total + (development.criteriosEvaluacion?.length || 0),
-      0,
-    );
-    const knowledgeCount = new Set(
-      document.desarrollos.flatMap((development) => collectKnowledge(development).map((knowledge) => knowledge.id)),
-    ).size;
+const territoryDirectories = (await readdir(resolve(root, "data"), { withFileTypes: true }))
+  .filter((entry) => entry.isDirectory() && /^es-[a-z]{2}$/.test(entry.name))
+  .map((entry) => entry.name)
+  .sort();
 
-    matters.push({
-      id: document.id,
-      slug,
-      territorio: document.territorio,
-      etapa: stage,
-      nombre: document.materia.nombre.es,
-      codigo: document.materia.codigo,
-      cursos: document.materia.cursos || [],
-      ciclos: document.materia.ciclos || [],
-      schemaVersion: document.schemaVersion,
-      vigencia: document.vigencia,
-      revision: document.revision,
-      jsonPath,
-      appPath: `?territorio=${document.territorio}&etapa=${stage}&materia=${slug}#explorar`,
-      anexos: [...new Set(document.fuentes.map((source) => source.anexo).filter(Boolean))],
-      fuentes: document.fuentes.map((source) => ({
-        id: source.id,
-        titulo: source.titulo,
-        publicacion: source.publicacion,
-        numero: source.numero,
-        fechaPublicacion: source.fechaPublicacion,
-        urlOficial: source.urlOficial,
-        urlVerificacion: source.urlVerificacion,
-        anexo: source.anexo,
-        paginasMateria: source.paginasMateria,
-      })),
-      incidencias: matterIncidents.map((incident) => incident.id),
-      estadisticas: {
-        competencias: document.competenciasEspecificas.length,
-        criterios: criteriaCount,
-        saberes: knowledgeCount,
-        desarrollos: document.desarrollos.length,
-      },
-    });
+for (const territoryCode of territoryDirectories) {
+  const sourceCatalogPath = resolve(root, `sources/${territoryCode}/normativa/catalogo.json`);
+  try {
+    sourceCatalogs.set(territoryCode, JSON.parse(await readFile(sourceCatalogPath, "utf8")));
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+
+  for (const stage of stageCodes) {
+    const directory = resolve(root, `data/${territoryCode}/${stage}/materias`);
+    let files;
+    try {
+      files = (await readdir(directory)).filter((file) => file.endsWith(".json")).sort();
+    } catch (error) {
+      if (error.code === "ENOENT") continue;
+      throw error;
+    }
+
+    for (const file of files) {
+      const document = JSON.parse(await readFile(resolve(directory, file), "utf8"));
+      const slug = basename(file, ".json");
+      const jsonPath = `data/${territoryCode}/${stage}/materias/${file}`;
+      const matterIncidents = incidents.filter((incident) => incident.jsonPath === jsonPath);
+      const criteriaCount = document.desarrollos.reduce(
+        (total, development) => total + (development.criteriosEvaluacion?.length || 0),
+        0,
+      );
+      const knowledgeCount = new Set(
+        document.desarrollos.flatMap((development) => collectKnowledge(development).map((knowledge) => knowledge.id)),
+      ).size;
+
+      matters.push({
+        id: document.id,
+        slug,
+        territorio: document.territorio,
+        etapa: stage,
+        nombre: document.materia.nombre.es,
+        codigo: document.materia.codigo,
+        cursos: document.materia.cursos || [],
+        ciclos: document.materia.ciclos || [],
+        schemaVersion: document.schemaVersion,
+        vigencia: document.vigencia,
+        revision: document.revision,
+        jsonPath,
+        appPath: `?territorio=${document.territorio}&etapa=${stage}&materia=${slug}#${document.territorio}`,
+        anexos: [...new Set(document.fuentes.map((source) => source.anexo).filter(Boolean))],
+        fuentes: document.fuentes.map((source) => ({
+          id: source.id,
+          titulo: source.titulo,
+          publicacion: source.publicacion,
+          numero: source.numero,
+          fechaPublicacion: source.fechaPublicacion,
+          urlOficial: source.urlOficial,
+          urlVerificacion: source.urlVerificacion,
+          anexo: source.anexo,
+          paginasMateria: source.paginasMateria,
+        })),
+        incidencias: matterIncidents.map((incident) => incident.id),
+        estadisticas: {
+          competencias: document.competenciasEspecificas.length,
+          criterios: criteriaCount,
+          saberes: knowledgeCount,
+          desarrollos: document.desarrollos.length,
+        },
+      });
+    }
   }
 }
 
-const progress = parseProgress(readme);
-
-const stages = ["infantil", "primaria", "eso", "bachillerato", "cfgb"].map((stage) => {
-  const stageMatters = matters.filter((matter) => matter.etapa === stage);
-  const stageIncidents = incidents.filter((incident) => incident.etapa === stage);
-  const revisions = stageMatters.map((matter) => matter.revision?.fechaUltimaRevision).filter(Boolean).sort();
-  return {
-    territorio: "es-an",
-    territorioNombre: "Andalucía",
-    codigo: stage,
-    nombre: stageNames[stage],
-    estado: progress.find((territory) => territory.territorio === "es-an")?.etapas[stage]?.estado || "pendiente",
-    appPath: `?territorio=es-an&etapa=${stage}#explorar`,
-    materias: stageMatters.length,
-    incidencias: stageIncidents.length,
-    fuentes: sourceCatalog.documentos.filter((source) => source.etapas.includes(stage)).length,
-    ultimaRevision: revisions.at(-1) || sourceCatalog.fechaActualizacion,
-  };
+const stages = [...sourceCatalogs.entries()].flatMap(([territoryCode, sourceCatalog]) => {
+  const territoryProgress = progress.find((territory) => territory.territorio === territoryCode);
+  return stageCodes.map((stage) => {
+    const stageMatters = matters.filter((matter) => matter.territorio === territoryCode && matter.etapa === stage);
+    const stageIncidents = incidents.filter((incident) => incident.territorio === territoryCode && incident.etapa === stage);
+    const revisions = stageMatters.map((matter) => matter.revision?.fechaUltimaRevision).filter(Boolean).sort();
+    return {
+      territorio: territoryCode,
+      territorioNombre: territoryProgress?.nombre || sourceCatalog.nombre || territoryCode,
+      codigo: stage,
+      nombre: stageNames[stage],
+      estado: territoryProgress?.etapas[stage]?.estado || "pendiente",
+      appPath: `?territorio=${territoryCode}&etapa=${stage}#${territoryCode}`,
+      materias: stageMatters.length,
+      incidencias: stageIncidents.length,
+      fuentes: sourceCatalog.documentos.filter((source) => source.etapas.includes(stage)).length,
+      ultimaRevision: revisions.at(-1) || sourceCatalog.fechaActualizacion,
+    };
+  });
 });
 
+const sourceDocuments = [...sourceCatalogs.entries()].flatMap(([territoryCode, sourceCatalog]) =>
+  sourceCatalog.documentos.map((document) => ({ territorio: document.territorio || territoryCode, ...document })),
+);
 const catalog = {
-  version: "1.4.0",
+  version: "1.5.0",
   proyecto: {
     nombre: "Currículo LOMLOE en JSON",
     repositorio: repoUrl,
     sitio: siteUrl,
-    descripcion: "Currículos oficiales estructurados, revisados y listos para reutilizar.",
+    descripcion: "Currículos oficiales estructurados, trazables y listos para reutilizar.",
   },
   territorios: parseProgress(readme).map((territory) => ({ codigo: territory.territorio, nombre: territory.nombre })),
   etapas: stages,
   materias: matters.sort((a, b) => a.nombre.localeCompare(b.nombre, "es")),
   incidencias: incidents,
-  documentosNormativos: sourceCatalog.documentos,
+  documentosNormativos: sourceDocuments,
   progreso: progress,
 };
 
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 
-for (const file of ["index.html", "styles.css", "app.js"]) {
+for (const file of ["index.html", "styles.css", "site.js"]) {
   await cp(resolve(root, file), resolve(dist, file));
 }
+
+const scriptHash = createHash("sha256")
+  .update(await readFile(resolve(root, "site.js")))
+  .digest("hex")
+  .slice(0, 12);
+const styleHash = createHash("sha256")
+  .update(await readFile(resolve(root, "styles.css")))
+  .digest("hex")
+  .slice(0, 12);
+const indexPath = resolve(dist, "index.html");
+const indexHtml = await readFile(indexPath, "utf8");
+const scriptTag = '<script src="./site.js" defer></script>';
+const styleTag = '<link rel="stylesheet" href="./styles.css" />';
+if (!indexHtml.includes(scriptTag) || !indexHtml.includes(styleTag)) {
+  throw new Error("No se encontraron los recursos de la página en index.html.");
+}
+await writeFile(
+  indexPath,
+  indexHtml
+    .replace(scriptTag, '<script src="./site.js?v=' + scriptHash + '" defer></script>')
+    .replace(styleTag, '<link rel="stylesheet" href="./styles.css?v=' + styleHash + '" />'),
+);
+await cp(resolve(root, "assets"), resolve(dist, "assets"), { recursive: true });
 await cp(resolve(root, "data"), resolve(dist, "data"), { recursive: true });
 await cp(resolve(root, "schemas"), resolve(dist, "schemas"), { recursive: true });
 
@@ -146,7 +196,7 @@ await writeFile(resolve(dist, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${siteUrl}/</loc></url>\n</urlset>\n`;
 await writeFile(resolve(dist, "sitemap.xml"), sitemap);
 
-console.log(`SPA preparada: ${matters.length} materias, ${stages.length} etapas publicadas y ${incidents.length} incidencias.`);
+console.log(`Sitio estático preparado: ${matters.length} materias, ${stages.length} etapas publicadas y ${incidents.length} incidencias.`);
 
 function collectKnowledge(development) {
   return (development.bloquesSaberes || []).flatMap((block) => [
@@ -156,19 +206,19 @@ function collectKnowledge(development) {
 }
 
 function parseIncidents(markdown) {
-  const pattern = /^\| \[(?<review>[^\]]*)\] \| (?<id>(?:INF|PRIM|BACH|ESO|CFGB)-\d{3}) \| \[(?<matter>[^\]]+)\]\((?<path>[^)]+)\) \| (?<issue>.*?) \| (?<decision>.*?) \|$/;
+  const pattern = /^\| \[(?<review>[^\]]*)\] \| (?<id>[A-Z]+(?:-[A-Z]+)*-\d{3}) \| \[(?<matter>[^\]]+)\]\((?<path>[^)]+)\) \| (?<issue>.*?) \| (?<decision>.*?) \|$/;
   return markdown.split(/\r?\n/).flatMap((line) => {
     const match = line.match(pattern);
     if (!match) return [];
     const jsonPath = match.groups.path.replaceAll("\\", "/");
-    const pathMatch = jsonPath.match(/^data\/es-an\/(?<stage>infantil|primaria|eso|bachillerato|cfgb)\/materias\/(?<slug>[^/]+)\.json$/);
+    const pathMatch = jsonPath.match(/^data\/(?<territory>es-[a-z]{2})\/(?<stage>infantil|primaria|eso|bachillerato|cfgb)\/materias\/(?<slug>[^/]+)\.json$/);
     if (!pathMatch) throw new Error(`Ruta de incidencia no reconocida: ${jsonPath}`);
     return [{
       id: match.groups.id,
       revisada: match.groups.review.trim().toUpperCase() === "X",
       materia: match.groups.matter,
       materiaSlug: pathMatch.groups.slug,
-      territorio: "es-an",
+      territorio: pathMatch.groups.territory,
       etapa: pathMatch.groups.stage,
       jsonPath,
       incidencia: match.groups.issue,
@@ -193,6 +243,7 @@ function parseProgress(markdown) {
 
 function progressStatus(value) {
   if (value.startsWith("✅")) return { estado: "completo", etiqueta: value.replace(/^✅\s*/, "") };
+  if (value.startsWith("📝")) return { estado: "en-revision", etiqueta: `${value.replace(/^📝\s*/, "")} en revisión` };
   if (value.startsWith("📚")) return { estado: "fuentes", etiqueta: "Fuentes recopiladas" };
   if (value.startsWith("🚧")) return { estado: "en-curso", etiqueta: "En curso" };
   return { estado: "pendiente", etiqueta: "Pendiente" };

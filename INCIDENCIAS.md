@@ -25,6 +25,7 @@ Este archivo es el registro único de incidencias del proyecto. Los JSON curricu
 | [X] | INF-015 | [Comunicación y Representación de la Realidad](data/es-an/infantil/materias/comunicacion-y-representacion-de-la-realidad.json) | El criterio `3.7` del segundo ciclo repite «Expresarse de manera creativa» dentro de la misma oración. | Se conserva una sola aparición de la expresión. |
 | [X] | INF-016 | [Comunicación y Representación de la Realidad](data/es-an/infantil/materias/comunicacion-y-representacion-de-la-realidad.json) | El criterio `3.7` del segundo ciclo, dedicado a herramientas digitales, se asocia a `CRR.02.H.01`–`CRR.02.H.04`; `H.04` no existe y el bloque digital es el `I`, que sí contiene cuatro saberes. | Se normaliza el conjunto como `CRR.02.I.01`–`CRR.02.I.04`. |
 | [X] | INF-017 | [Comunicación y Representación de la Realidad](data/es-an/infantil/materias/comunicacion-y-representacion-de-la-realidad.json) | El criterio `5.4` del segundo ciclo contiene «con especial cuidado al consumo responsable». | Se conserva sin cambios la redacción publicada, aunque resulte extraña. |
+| [X] | INF-018 | [Descubrimiento y Exploración del Entorno](data/es-an/infantil/materias/descubrimiento-y-exploracion-del-entorno.json) | La introducción contiene la errata «hábitos ecosaludabes». | Se corrige como «hábitos ecosaludables». |
 
 ## Primaria — incidencias revisadas
 
@@ -81,8 +82,13 @@ Este archivo es el registro único de incidencias del proyecto. Los JSON curricu
 | [X] | BACH-012 | [Patrimonio Cultural y Artístico de Andalucía](data/es-an/bachillerato/materias/patrimonio-cultural-y-artistico-de-andalucia.json) | La tabla imprime la competencia específica 2 como «2 Identifica…», sin punto tras el número. | Se registra con el código oficial `2`, siguiendo la estructura común. |
 | [X] | BACH-013 | [Programación y Computación](data/es-an/bachillerato/materias/programacion-y-computacion.json) | La competencia específica 2 dice «y analizar cómo» en la tabla y «analizando cómo» en el desarrollo narrativo. | Se adopta la redacción del desarrollo narrativo. |
 | [X] | BACH-014 | [Tecnologías de la Información y Comunicación](data/es-an/bachillerato/materias/tecnologias-de-la-informacion-y-comunicacion.json) | Los criterios 2.1 y 2.2 de primer curso referencian `TICO.1.B1` y `TICO.1.B2`, sin el punto de separación del nivel jerárquico. | Se normalizan como `TICO.1.B.1` y `TICO.1.B.2`. |
+| [X] | BACH-015 | [Latín](data/es-an/bachillerato/materias/latin.json) | El criterio `2.2` de segundo curso imprime «atlas,correctores» sin espacio tras la coma. | Se añade el espacio: «atlas, correctores». |
+| [X] | BACH-016 | [Literatura Universal](data/es-an/bachillerato/materias/literatura-universal.json) | El saber `LITU.1.A.3.4` imprime «siglo XVIII:Montesquieu» sin espacio tras los dos puntos. | Se añade el espacio: «siglo XVIII: Montesquieu». |
+| [X] | BACH-017 | [Matemáticas Generales](data/es-an/bachillerato/materias/matematicas-generales.json) | La introducción imprime «conocimiento matemático,que» sin espacio tras la coma. | Se añade el espacio: «conocimiento matemático, que». |
+| [X] | BACH-018 | [Movimientos Culturales y Artísticos](data/es-an/bachillerato/materias/movimientos-culturales-y-artisticos.json) | La introducción contiene «mediados y,en», «desarrollo de a materia» y un acento grave ante «propondrán». | Se corrigen como «mediados y, en», «desarrollo de la materia» y «se propondrán». |
+| [X] | BACH-019 | [Antropología y Sociología](data/es-an/bachillerato/materias/antropologia-y-sociologia.json) | La introducción presenta una enumeración rota tras «que se abordan. estudio» y omite el espacio en «investigación,análisis». | Se recompone la enumeración con dos puntos y punto y coma, y se añade el espacio en «investigación, análisis». |
 
-## ESO — incidencias revisadas
+## ESO — incidencias de revisión
 
 | Revisada | ID | Materia | Incidencia | Decisión aplicada |
 | --- | --- | --- | --- | --- |
@@ -98,6 +104,25 @@ Este archivo es el registro único de incidencias del proyecto. Los JSON curricu
 | [X] | ESO-010 | [Educación en Valores Cívicos y Éticos](data/es-an/eso/materias/educacion-en-valores-civicos-y-eticos.json) | La competencia específica 1 emplea literalmente «autonocimiento». | Se corrige la errata como «autoconocimiento». |
 | [X] | ESO-011 | [Lengua Castellana y Literatura](data/es-an/eso/materias/lengua-castellana-y-literatura.json) | El código `CL.4.B.1` aparece sin la L inicial. | Se normaliza como `LCL.4.B.1`, forma utilizada por los criterios. |
 | [X] | ESO-012 | [Cultura del Flamenco](data/es-an/eso/materias/cultura-del-flamenco.json) | El código aparece como `CF.A.3.6`. | Se normaliza como `CF.3.A.6`, conforme a la estructura del resto de saberes. |
+| [X] | ESO-013 | [Ámbito Científico-Tecnológico](data/es-an/eso/materias/ambito-cientifico-tecnologico.json) | La competencia específica 2 incluye una coma tras «matemáticos» en el desarrollo narrativo, pero no en la tabla. | Pendiente de revisión; se adopta provisionalmente la redacción narrativa. |
+| [X] | ESO-014 | [Ámbito Científico-Tecnológico](data/es-an/eso/materias/ambito-cientifico-tecnologico.json) | La competencia específica 8 incluye una coma tras «computacional» en el desarrollo narrativo, pero no en la tabla. | Pendiente de revisión; se adopta provisionalmente la redacción narrativa. |
+| [X] | ESO-015 | [Ámbito Científico-Tecnológico](data/es-an/eso/materias/ambito-cientifico-tecnologico.json) | La competencia específica 9 contiene «de forma individual y colectiva» en el desarrollo narrativo, expresión omitida en la tabla. | Pendiente de revisión; se adopta provisionalmente la redacción narrativa. |
+| [X] | ESO-016 | [Ámbito Científico-Tecnológico](data/es-an/eso/materias/ambito-cientifico-tecnologico.json) | La competencia específica 10 presenta diferencias de puntuación y coordinación entre el desarrollo narrativo y la tabla («digitales, analizando…» y «personal y resolver…»). | Pendiente de revisión; se adopta provisionalmente la redacción narrativa. |
+| [X] | ESO-017 | [Ámbito Lingüístico y Social](data/es-an/eso/materias/ambito-linguistico-y-social.json) | La competencia específica 1 contiene «valorando las variedades dialectales» en el desarrollo narrativo y «valorando variedades dialectales» en la tabla. | Pendiente de revisión; se adopta provisionalmente la redacción narrativa. |
+| [X] | ESO-018 | [Ámbito Lingüístico y Social](data/es-an/eso/materias/ambito-linguistico-y-social.json) | La competencia específica 2 se refiere a «textos orales y multimodales» en el desarrollo narrativo y a «textos orales, escritos y multimodales» en la tabla. | Se adopta la redacción más completa de la tabla, incluyendo «escritos». |
+| [X] | ESO-019 | [Ámbito Lingüístico y Social](data/es-an/eso/materias/ambito-linguistico-y-social.json) | La competencia específica 3 se refiere a «textos orales y multimodales» en el desarrollo narrativo y a «textos orales, escritos y multimodales» en la tabla. | Se adopta la redacción más completa de la tabla, incluyendo «escritos». |
+| [X] | ESO-020 | [Ámbito Lingüístico y Social](data/es-an/eso/materias/ambito-linguistico-y-social.json) | La competencia específica 5 incluye una coma antes de «usando estrategias» en el desarrollo narrativo, pero no en la tabla. | Pendiente de revisión; se adopta provisionalmente la redacción narrativa. |
+| [X] | ESO-021 | [Ámbito Científico-Tecnológico](data/es-an/eso/materias/ambito-cientifico-tecnologico.json) | El saber «Movimientos y transformaciones» del primer curso aparece como `ACT.2.C.3`, aunque pertenece al bloque `ACT.1.C` y los criterios lo referencian como `ACT.1.C.3`. | Se corrige el código del saber como `ACT.1.C.3`; las referencias de los criterios 1.1 y 1.2 quedan resueltas. |
+| [X] | ESO-022 | [Ámbito Científico-Tecnológico](data/es-an/eso/materias/ambito-cientifico-tecnologico.json) | El criterio 5.2 de segundo curso del programa referencia `ACT.1.L.5` y `ACT.1.L.6`, aunque los saberes publicados para ese curso son `ACT.2.L.5` y `ACT.2.L.6`. | Se corrige la nomenclatura como `ACT.2.L.5` y `ACT.2.L.6`, correspondiente al segundo curso del programa. |
+| [X] | ESO-023 | [Ámbito Científico-Tecnológico](data/es-an/eso/materias/ambito-cientifico-tecnologico.json) | El criterio 6.2 de segundo curso del programa referencia `ACT.1.G.5` y `ACT.1.G.6`, aunque los saberes correspondientes son `ACT.2.G.5` y `ACT.2.G.6`. | Se corrige la nomenclatura como `ACT.2.G.5` y `ACT.2.G.6`, correspondiente al segundo curso del programa. |
+| [X] | ESO-024 | [Ámbito Científico-Tecnológico](data/es-an/eso/materias/ambito-cientifico-tecnologico.json) | El criterio 7.1 de segundo curso del programa imprime `ACT.2.K1`, sin el punto entre bloque y saber. | Pendiente de revisión; se normaliza provisionalmente como `ACT.2.K.1` para mantener la estructura de códigos. |
+| [X] | ESO-025 | [Ámbito Científico-Tecnológico](data/es-an/eso/materias/ambito-cientifico-tecnologico.json) | El encabezado del bloque M aparece como «La célula..», con dos puntos finales. | Pendiente de revisión; el bloque se representa provisionalmente como «La célula», sin la puntuación redundante. |
+| [X] | ESO-026 | [Filosofía](data/es-an/eso/materias/filosofia.json) | El criterio `1.1` contiene «al mundo que le lo rodea». | Se elimina el pronombre duplicado y se conserva «al mundo que lo rodea». |
+| [X] | ESO-027 | [Geografía e Historia](data/es-an/eso/materias/geografia-e-historia.json) | El criterio `8.2` de primero y el saber `GEH.3.B.8` contienen dos puntos finales consecutivos. | Se sustituye cada doble punto por un único punto. |
+| [X] | ESO-028 | [Lengua Castellana y Literatura](data/es-an/eso/materias/lengua-castellana-y-literatura.json) | El criterio `8.3` de cuarto termina con dos puntos consecutivos. | Se conserva un único punto final. |
+| [X] | ESO-029 | [Computación y Robótica](data/es-an/eso/materias/computacion-y-robotica.json) | Tres saberes omiten el espacio tras los dos puntos en «Robots móviles:aplicaciones», «Aprendizaje supervisado y no supervisado:aplicaciones» y «Agentes inteligentes simples:funcionamiento». | Se añade el espacio tras los dos puntos en los tres saberes. |
+| [X] | ESO-030 | [Lengua Castellana y Literatura](data/es-an/eso/materias/lengua-castellana-y-literatura.json) | El criterio `1.1` de primero se imprime como `1..1`, con dos puntos consecutivos en el código. | Se normaliza el código como `1.1`. |
+| [X] | ESO-031 | [Matemáticas](data/es-an/eso/materias/matematicas.json) | El criterio `2.2` de tercero se imprime como `.2.2`, con un punto inicial espurio. | Se normaliza el código como `2.2`. |
 
 ## CFGB — incidencias de revisión
 
@@ -106,7 +131,19 @@ Este archivo es el registro único de incidencias del proyecto. Los JSON curricu
 | [X] | CFGB-001 | [Ciencias Aplicadas](data/es-an/cfgb/materias/ciencias-aplicadas.json) | La competencia específica 1 imprime `CCCEC1` como descriptor del Perfil de salida. | Se normaliza como `CCEC1`, código válido del descriptor. |
 | [X] | CFGB-002 | [Comunicación y Ciencias Sociales](data/es-an/cfgb/materias/comunicacion-y-ciencias-sociales.json) | El criterio `1.2` de 2.º referencia `ACS.1.A.3`, un saber codificado para 1.º. | Se considera una errata y se normaliza como `ACS.2.A.3`, el saber correspondiente de 2.º. |
 | [X] | CFGB-003 | [Comunicación y Ciencias Sociales](data/es-an/cfgb/materias/comunicacion-y-ciencias-sociales.json) | El criterio `5.2` de 2.º imprime `ACS.2 B.2.4` y `ACS.2 B.2.5`, sin el punto tras el curso. | Se normalizan como `ACS.2.B.2.4` y `ACS.2.B.2.5` para resolver las referencias a los saberes publicados. |
+| [X] | CFGB-004 | [Ciencias Aplicadas](data/es-an/cfgb/materias/ciencias-aplicadas.json) | El texto publicado contiene un doble punto tras «medio ambiente» y omite o desplaza espacios en «ideas ajenas ,», «desarrollo,como» y «π,etc.». | Se normaliza la puntuación como «medio ambiente.», «ideas ajenas,», «desarrollo, como» y «π, etc.». |
 
+## Aragón — Infantil — incidencias pendientes
+
+| Revisada | ID | Materia | Incidencia | Decisión aplicada |
+| --- | --- | --- | --- | --- |
+| [ ] | AR-INF-001 | [Crecimiento en Armonía](data/es-ar/infantil/materias/crecimiento-en-armonia.json) | El desarrollo de la competencia específica 1 contiene «superar restos» en un contexto referido a afrontar desafíos motores. | Pendiente de revisión; se conserva provisionalmente la redacción publicada. |
+| [ ] | AR-INF-002 | [Crecimiento en Armonía](data/es-ar/infantil/materias/crecimiento-en-armonia.json) | El desarrollo de la competencia específica 2 contiene «vinculadas al desarrollo del “yo” y a conocimiento de las normas». | Pendiente de revisión; se conserva provisionalmente la redacción publicada. |
+| [ ] | AR-INF-003 | [Crecimiento en Armonía](data/es-ar/infantil/materias/crecimiento-en-armonia.json) | El desarrollo de la competencia específica 2 contiene «la confianza en los demás o que incide». | Pendiente de revisión; se conserva provisionalmente la redacción publicada. |
+| [ ] | AR-INF-004 | [Descubrimiento y Exploración del Entorno](data/es-ar/infantil/materias/descubrimiento-y-exploracion-del-entorno.json) | La introducción contiene «y partir de la identificación», sin la preposición «a». | Pendiente de revisión; se conserva provisionalmente la redacción publicada. |
+| [ ] | AR-INF-005 | [Descubrimiento y Exploración del Entorno](data/es-ar/infantil/materias/descubrimiento-y-exploracion-del-entorno.json) | La introducción contiene «hábitos ecosaludabes». | Pendiente de revisión; se conserva provisionalmente la redacción publicada. |
+| [ ] | AR-INF-006 | [Descubrimiento y Exploración del Entorno](data/es-ar/infantil/materias/descubrimiento-y-exploracion-del-entorno.json) | El criterio `3.1` del primer ciclo dice «mostrando respeto hacia ello y hacia los animales», aunque el antecedente es plural («los elementos naturales del entorno»). | Pendiente de revisión; se conserva provisionalmente la redacción publicada. |
+| [ ] | AR-INF-007 | [Descubrimiento y Exploración del Entorno](data/es-ar/infantil/materias/descubrimiento-y-exploracion-del-entorno.json) | El saber estable `DEE.2.A.07` imprime dos comas consecutivas entre «calendario» y «antes». | Pendiente de revisión; se conserva provisionalmente la puntuación publicada. |
 ## Fuentes para el cotejo
 
 - [Orden de Infantil](sources/es-an/normativa/infantil/2023-05-30-orden-curriculo-infantil.pdf)
@@ -115,6 +152,7 @@ Este archivo es el registro único de incidencias del proyecto. Los JSON curricu
 - [Orden de ESO, parte 2](sources/es-an/normativa/eso/2023-05-30-orden-curriculo-eso-parte-2.pdf)
 - [Orden de Bachillerato, parte 1](sources/es-an/normativa/bachillerato/2023-05-30-orden-curriculo-bachillerato-parte-1.pdf)
 - [Orden de Bachillerato, parte 2](sources/es-an/normativa/bachillerato/2023-05-30-orden-curriculo-bachillerato-parte-2.pdf)
+- [Orden de Infantil de Aragón](sources/es-ar/normativa/infantil/2022-06-13-orden-ecd-853-2022-curriculo-infantil.pdf)
 
 ## Convenciones generales
 

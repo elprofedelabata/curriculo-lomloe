@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 100 currículos revisados de Andalucía: Infantil, Primaria, ESO, Bachillerato y los dos ámbitos comunes de CFGB. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye los 102 currículos revisados de Andalucía, además de los tres currículos de Educación Infantil de Aragón en fase de revisión. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
 
 ## Progreso del proyecto
 
@@ -8,8 +8,8 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 
 | Comunidad autónoma | Infantil | Primaria | ESO | Bachillerato | CFGB |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| Andalucía | ✅ 3/3 | ✅ 7/7 | ✅ 30/30 | ✅ 58/58 | ✅ 2/2 |
-| Aragón | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| Andalucía | ✅ 3/3 | ✅ 7/7 | ✅ 32/32 | ✅ 58/58 | ✅ 2/2 |
+| Aragón | 📝 0/3 | 📚 | 📚 | 📚 | 📚 |
 | Principado de Asturias | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Illes Balears | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Canarias | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -26,20 +26,15 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 | País Vasco | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | La Rioja | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 
-**Leyenda:** ✅ currículo completo y revisado · 📚 fuentes oficiales recopiladas · 🚧 conversión en curso · ⬜ pendiente.
+**Leyenda:** ✅ currículo completo y revisado · 📝 JSON generado pendiente de revisión · 📚 fuentes oficiales recopiladas · 🚧 conversión en curso · ⬜ pendiente.
 
 En CFGB se incluyen los ámbitos comunes de Ciencias Aplicadas y Comunicación y Ciencias Sociales del anexo V de la Orden de 30 de mayo de 2023. Los dos ámbitos cuentan con JSON revisados; los módulos profesionales quedan fuera de este alcance. Más adelante se podrá estudiar la incorporación del resto de enseñanzas de Formación Profesional.
 
 ## Sitio web
 
-La [aplicación de página única](https://elprofedelabata.github.io/curriculo-lomloe/) permite elegir comunidad y etapa para consultar, sin salir de la portada:
+La [portada](https://elprofedelabata.github.io/curriculo-lomloe/) presenta el proyecto y las 17 comunidades autónomas en una cuadrícula de carpetas. La carpeta de Andalucía despliega, dentro de la misma cuadrícula, las cinco etapas educativas. Cada etapa de Andalucía abre una lista sencilla de materias o ámbitos, con acceso directo a los JSON y detalles desplegables de fuentes e incidencias. Sus enlaces se pueden compartir para abrir una etapa o una materia concreta. Aragón ya cuenta con sus fuentes oficiales recopiladas y con los tres JSON de Infantil en revisión; Asturias, Illes Balears y Canarias también siguen disponibles solo como maquetas. Los archivos JSON continúan accesibles directamente y el sitio genera un [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) para descubrirlos sin mantener una lista manual.
 
-- los enlaces directos a cada currículo JSON;
-- sus cursos, métricas y estado de revisión;
-- las fuentes oficiales y los PDF archivados;
-- las incidencias documentadas y su resolución.
-
-El sitio genera también un [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) para que otras aplicaciones descubran todos los currículos publicados sin mantener una lista manual.
+Las banderas de las carpetas se sirven desde el propio repositorio; sus fuentes y licencias están en [assets/flags/README.md](assets/flags/README.md).
 
 ## Uso directo de los datos
 
@@ -68,16 +63,17 @@ Después sirve el directorio generado:
 python -m http.server 8000 --directory dist
 ```
 
-Abre `http://localhost:8000`. La selección se conserva en la URL mediante los parámetros `territorio`, `etapa` y, opcionalmente, `materia`.
+Abre `http://localhost:8000` para previsualizar la portada.
 
 ## Estructura
 
+- `assets/flags/`: miniaturas de las banderas y sus créditos.
 - `data/`: documentos curriculares canónicos.
 - `schemas/`: esquemas JSON para validarlos.
 - `sources/`: PDF oficiales y catálogo de las fuentes normativas utilizadas.
 - `INCIDENCIAS.md`: registro único de discrepancias y decisiones de revisión.
-- `index.html`, `styles.css`, `app.js`: plantilla y aplicación web sin dependencias externas.
-- `scripts/build-site.mjs`: genera la aplicación de página única, el catálogo y los datos publicables en `dist/`.
+- `index.html`, `styles.css` y `site.js`: portada y desplegable de Andalucía; `app.js` conserva el prototipo anterior, pero no se carga ni se publica.
+- `scripts/build-site.mjs`: genera el sitio estático, el catálogo y los datos publicables en `dist/`.
 - `scripts/validate-site.mjs`: comprueba rutas, datos y relaciones del sitio generado.
 - `.github/workflows/pages.yml`: valida y publica GitHub Pages automáticamente desde `main`.
 

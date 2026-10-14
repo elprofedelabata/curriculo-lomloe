@@ -184,7 +184,7 @@
         "descripcion": { "$ref": "#/$defs/parrafosLocalizados" },
         "descriptoresOperativosRefs": {
           "type": "array",
-          "minItems": 1,
+          "description": "Referencias explícitas publicadas para la competencia; puede estar vacío cuando la fuente no enumera descriptores operativos.",
           "uniqueItems": true,
           "items": { "type": "string", "pattern": "^[A-Z]+[0-9]+(?:\\.[0-9]+)?$" }
         },
@@ -243,7 +243,7 @@
           "type": "array",
           "description": "Referencias explícitas publicadas para el criterio; puede estar vacío cuando la fuente no asocia saberes.",
           "uniqueItems": true,
-          "items": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+(?:\\.[0-9]+)*$" }
+          "items": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-ZÑ]\\.[0-9]+(?:\\.[0-9]+)*$" }
         },
         "procedencia": { "$ref": "#/$defs/procedencia" }
       }
@@ -253,7 +253,7 @@
       "additionalProperties": false,
       "required": ["codigo", "nombre"],
       "properties": {
-        "codigo": { "type": "string", "pattern": "^[A-Z]+$" },
+        "codigo": { "type": "string", "pattern": "^[A-ZÑ]+$" },
         "nombre": { "$ref": "#/$defs/textoLocalizado" },
         "saberes": {
           "type": "array",
@@ -290,8 +290,12 @@
       "additionalProperties": false,
       "required": ["id", "codigoOficial", "texto", "procedencia"],
       "properties": {
-        "id": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+(?:\\.[0-9]+)*$" },
-        "codigoOficial": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-Z]\\.[0-9]+(?:\\.[0-9]+)*$" },
+        "id": { "type": "string", "pattern": "^[A-Z]+\\.[0-9]+\\.[A-ZÑ]\\.[0-9]+(?:\\.[0-9]+)*$" },
+        "codigoOficial": {
+          "type": ["string", "null"],
+          "description": "Código publicado por la fuente; null cuando el saber no tiene código oficial individualizado.",
+          "pattern": "^[A-Z]+\\.[0-9]+\\.[A-ZÑ]\\.[0-9]+(?:\\.[0-9]+)*$"
+        },
         "texto": { "$ref": "#/$defs/textoLocalizado" },
         "procedencia": { "$ref": "#/$defs/procedencia" }
       }
