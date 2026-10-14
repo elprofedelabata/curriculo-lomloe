@@ -12,10 +12,10 @@ Una materia o ámbito se marca como terminado cuando:
 ## Progreso global
 
 - **Total inventariado:** 218 currículos
-- **Terminados:** 102
-- **Pendientes:** 116
+- **Terminados:** 105
+- **Pendientes:** 113
 - **Andalucía:** 102 de 102
-- **Aragón:** 0 de 116
+- **Aragón:** 3 de 116
 
 ## Andalucía
 
@@ -190,9 +190,9 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 ### Progreso
 
 - **Total:** 116 currículos
-- **Terminados:** 0
-- **Pendientes:** 116
-- **Infantil:** 0 de 3
+- **Terminados:** 3
+- **Pendientes:** 113
+- **Infantil:** 3 de 3
 - **Primaria:** 0 de 14
 - **ESO:** 0 de 38
 - **Bachillerato:** 0 de 59
@@ -202,9 +202,9 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 #### Anexo II — Áreas de Educación Infantil
 
-- [ ] Crecimiento en Armonía — [JSON en revisión](data/es-ar/infantil/materias/crecimiento-en-armonia.json)
-- [ ] Descubrimiento y Exploración del Entorno — [JSON en revisión](data/es-ar/infantil/materias/descubrimiento-y-exploracion-del-entorno.json)
-- [ ] Comunicación y Representación de la Realidad — [JSON en revisión](data/es-ar/infantil/materias/comunicacion-y-representacion-de-la-realidad.json)
+- [x] Crecimiento en Armonía — [JSON](data/es-ar/infantil/materias/crecimiento-en-armonia.json)
+- [x] Descubrimiento y Exploración del Entorno — [JSON](data/es-ar/infantil/materias/descubrimiento-y-exploracion-del-entorno.json)
+- [x] Comunicación y Representación de la Realidad — [JSON](data/es-ar/infantil/materias/comunicacion-y-representacion-de-la-realidad.json)
 
 ### Primaria
 

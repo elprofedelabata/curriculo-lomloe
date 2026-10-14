@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye los 102 currículos revisados de Andalucía, además de los tres currículos de Educación Infantil de Aragón en fase de revisión. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye los 102 currículos revisados de Andalucía y los tres currículos de Educación Infantil de Aragón. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
 
 ## Progreso del proyecto
 
@@ -9,7 +9,7 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 | Comunidad autónoma | Infantil | Primaria | ESO | Bachillerato | CFGB |
 | --- | :---: | :---: | :---: | :---: | :---: |
 | Andalucía | ✅ 3/3 | ✅ 7/7 | ✅ 32/32 | ✅ 58/58 | ✅ 2/2 |
-| Aragón | 📝 0/3 | 📚 | 📚 | 📚 | 📚 |
+| Aragón | ✅ 3/3 | 📚 | 📚 | 📚 | 📚 |
 | Principado de Asturias | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Illes Balears | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Canarias | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -79,3 +79,9 @@ Abre `http://localhost:8000` para previsualizar la portada.
 - `.github/workflows/pages.yml`: valida y publica GitHub Pages automáticamente desde `main`.
 
 Los desarrollos pueden incluir el campo opcional `variante`. Se usa en 4.º de ESO para distinguir Matemáticas A y Matemáticas B sin duplicar el currículo común de la materia.
+
+## Identificadores internos y códigos oficiales
+
+El campo `codigoOficial` reproduce únicamente una nomenclatura publicada expresamente por la normativa. Cuando la fuente no asigna un código individual a un elemento, su valor es `null`.
+
+El campo `id` siempre contiene un identificador estable del proyecto. En currículos como Educación Infantil de Aragón, donde los saberes se publican como listas sin numeración individual, se construye con la abreviatura oficial del área, el ciclo, el bloque y la posición del saber. Por ejemplo, `DEE.2.A.07` identifica internamente el séptimo saber del bloque A del segundo ciclo de Descubrimiento y Exploración del Entorno. Este identificador no debe interpretarse como un código oficial.

@@ -7,7 +7,7 @@ Cada comunidad autónoma mantiene su propio archivo para que la revisión pueda 
 | Comunidad autónoma | Registro | Revisadas | Pendientes |
 | --- | --- | ---: | ---: |
 | Andalucía | [Consultar incidencias](incidencias/es-an.md) | 104 | 0 |
-| Aragón | [Consultar incidencias](incidencias/es-ar.md) | 0 | 7 |
+| Aragón | [Consultar incidencias](incidencias/es-ar.md) | 7 | 0 |
 
 ## Convenciones generales
 
