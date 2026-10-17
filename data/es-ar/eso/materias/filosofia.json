@@ -1,0 +1,715 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.eso.filosofia",
+  "territorio": "es-ar",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "FI",
+    "nombre": {
+      "es": "Filosofía"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-156-orden-ecd-1172-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1172/2022, de 2 de agosto, por la que se aprueban el currículo y las características de la evaluación de la Educación Secundaria Obligatoria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-11",
+      "cve": "1234469220606",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234469220606&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926624&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 327,
+        "hasta": 341
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Filosofía proporciona al alumnado la posibilidad de profundizar en una reflexión que se asienta en la curiosidad inherente al ser humano, así como en la actitud radical y crítica ante el conocimiento de sí y de la realidad en que vive. En caso de haber optado por la materia de Introducción al pensamiento filosófico en 3ºESO, el alumnado cuenta con la posibilidad de cursar un ciclo filosófico iniciado en la ESO y culminado en Bachillerato. Imprescindible en adolescentes que tendrán que prepararse para vivir en la sociedad actual marcada por la incertidumbre, desde la capacidad de asombro, la creatividad, el interés por la investigación y la responsabilidad individual y colectiva. En todo caso, la materia de Filosofía aplicada de 4º ESO tiene sentido propio, autónomo, respecto a estas materias, ya que está diseñada para el aprovechamiento del alumnado, independientemente de su posterior itinerario de estudios y de las decisiones que vaya a tomar respecto a su futuro. En definitiva, permite que el alumnado que no continúe con los estudios de bachillerato no pase por el sistema educativo sin conocer la disciplina que más ha aportado a la constitución y organización ética, política y científica de nuestras sociedades.",
+      "La dimensión aplicada de esta materia pretende articular el carácter teórico y práctico de la misma, atendiendo a los propósitos mencionados en las competencias específicas, las cuales en su conjunto contribuyen al desarrollo integral de nuestro alumnado. Estas pretenden capacitar al alumnado para comprender la capacidad humanizadora de la filosofía a través de la identificación y formulación de problemas filosóficos que están presentes en nuestra tradición cultural y en nuestra vida, reconociendo la necesidad de abordarlas en una vida racional y libre. Propiciar también una actitud curiosa, investigadora, que utilice rigurosa y críticamente la información y busque el conocimiento objetivo. Potenciar su capacidad para argumentar correctamente en la práctica del diálogo filosófico, esencial en el reconocimiento de lo diferente y la práctica democrática. Asimismo, capacitarlo para articular distintas disciplinas en torno a problemas filosóficos desde los que poder transformar nuestro mundo. Por otra parte, las competencias específicas de Filosofía de 4ºESO permiten al alumnado participar en iniciativas formadoras que se articulan en el propio centro educativo como programas relacionados con la biblioteca, el plan lector, plan de igualdad o proyectos de centro interdisciplinares. Del mismo modo, le animan a tomar parte de otras iniciativas fuera de las aulas y organizadas por diferentes instituciones y sociedades de la comunidad autónoma de Aragón como la Olimpiada Aragonesa de Filosofía o la Sociedad Aragonesa de Filosofía.",
+      "Por lo que a los criterios de evaluación se refiere, estos se formulan en relación directa a cada una de las competencias específicas y han de entenderse como herramientas de diagnóstico y mejora en relación con el nivel de desempeño que se espera de la adquisición de aquellas. Es por ello que, en relación con los saberes básicos, deben atender tanto a los procesos como a los propios productos del aprendizaje, requiriendo para su adecuada ejecución de instrumentos de evaluación variados y ajustables a los distintos contextos y situaciones de aprendizaje en que haya de concretarse el desarrollo de las competencias.",
+      "Los saberes básicos se distribuyen en tres bloques que ofrecen una visión básica de los principales problemas filosóficos. Sin embargo, según la idiosincrasia del alumnado, el contexto educativo u otros criterios pedagógicos, se podrá profundizar en unos más que en otros, además de agruparlos y articularlos a conveniencia. El primer bloque presenta cuestiones filosóficas relacionadas con la actividad filosófica y lo que aporta a los seres humanos. El segundo bloque presenta algunas de las preguntas fundamentales sobre el conocimiento y la realidad. El tercer bloque se centra en los problemas filosóficos de la acción transformadora del ser humano desde la ética, la filosofía política y la estética. En el diseño y distribución de bloques y saberes se ha buscado el equilibrio y el diálogo entre planteamientos diversos, en buena parte propuestos por pensadores y pensadoras de nuestro tiempo.",
+      "La actitud y el saber filosóficos deben provocar la experiencia del descubrimiento de los interrogantes filosóficos, lo que motivará la búsqueda del conocimiento y la construcción rigurosa de los propios posicionamientos personales. Desde esta base, la reflexión filosófica contribuye valiosamente a orientar la vida y a actuar para transformar la realidad dada. La naturaleza dialógica, participativa, interdisciplinar, creativa y comprometida de la actividad filosófica, promueve que el alumnado desarrolle la autonomía personal y el ejercicio crítico, comprometido y",
+      "responsable de la ciudadanía democrática."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar problemas y formular preguntas acerca del fundamento y sentido de la realidad y de la existencia humana, a partir del análisis e interpretación tanto de problemas de actualidad como de diferentes formas de expresión filosófica y cultural, para comprender que una vida reflexiva y consciente de sí necesita afrontarlas."
+      },
+      "descripcion": {
+        "es": [
+          "La admiración ante el hecho mismo de existir suscita cuestiones filosóficas esenciales que reflexionan sobre el fundamento y sentido de la existencia. La Filosofía proporciona al alumnado la forma y el procedimiento para reconocerlas y articularlas desde las inquietudes propias de la adolescencia. Con un planteamiento dialógico, el lenguaje específico de la filosofía y la riqueza conceptual de su tradición le facilita el análisis y expresión de las mismas. Partiendo de la experiencia problemática del mundo, el alumnado reconocerá y analizará las cuestiones filosóficas sobre la realidad, la entidad e identidad humana y sus dimensiones teórica, práctica y estética, en documentos filosóficos y otro tipo de productos culturales (textos de otros saberes, documentos audiovisuales, manifestaciones artísticas, producciones tecnológicas) El objetivo primordial es tomar conciencia del valor humanizador de las cuestiones filosóficas y de la necesidad de afrontarlas en una vida propiamente humana, es decir, consciente de sí, reflexiva y crítica.",
+          "Esta competencia específica se conecta con las siguientes competencias específicas de otras materias: CE.IF.1 de Iniciación a la Filosofía, ya que supone una profundización en la capacidad del alumnado para detectar problemas y formular cuestiones filosóficas en la comprensión reflexiva de su propia realidad. En este mismo sentido, también se vincula con CE.EVCE.1 de Educación en Valores Cívicos y éticos. En muchas ocasiones son productos artísticos y culturales los que suscitan los problemas filosóficos, por lo que está vinculada con CE.EPVA.1 y CE.EPVA.3 de Educación plástica, Visual y Artística, CE.EA.1 de Expresión artística.",
+          "Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL2, STEM2, CD1, CPSAA3, CPSAA4, CC1, CC3, CE1, CCEC1, CCEC2.",
+          "Competencia específica de la materia Filosofía 2:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          328
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Buscar, interpretar y transmitir correctamente información relativa a cuestiones filosóficas, a partir del empleo contrastado y riguroso de fuentes, así como de procedimientos elementales de investigación y comunicación, para fomentar una actitud indagadora, autónoma y creativa en el ámbito de la reflexión filosófica."
+      },
+      "descripcion": {
+        "es": [
+          "Los problemas filosóficos por sí mismos promueven la curiosidad y la búsqueda de conocimiento, tarea que las nuevas tecnologías de la información solo aparentemente simplifican. La investigación filosófica enseña al alumnado criterios de búsqueda para seleccionar, organizar y evaluar información segura y relevante de cualquier medio y referida a cualquier entorno. A dominar estrategias para procesar dicha información una vez realizado el análisis, la recensión y la interpretación de la misma, evitando su mera reproducción. A servirse de procedimientos para elaborar y comunicar el conocimiento adquirido a través de diferentes creaciones como textos, presentaciones, disertaciones filosóficas, dilemas morales, documentos audiovisuales, etc. A contrastar dialógicamente los resultados de su indagación para seguir construyendo cooperativamente el proceso de búsqueda de conocimiento. El objetivo es que el alumnado movido por los problemas filosóficos desarrolle trabajos de investigación filosófica con procedimientos dialógicos, científicos y constructivos para desarrollar la autonomía intelectual y su madurez",
+          "personal.",
+          "Esta competencia específica se conecta con las siguientes competencias específicas de otras materias: Supone una profundización en la capacidad del alumnado para investigar sobre problemas filosóficos y construir una posición ante los mismos, con procedimientos objetivos y racionales y con una gestión crítica y eficaz de recursos digitales. Por ello, se vincula con CE.IF.2 de Iniciación a la Filosofía, también se vincula con CE.EVCE.1 de Educación en Valores Cívicos y éticos, CE.D.2 de Digitalización y CE.EPVA.4 de Educación Plástica, Visual y Artística, CE.LCL.4, CE.LCL.5, CE.LCL.6 de Lengua Castellana y Literatura, CE.M.3 de Matemáticas, CE.TD.2 de Tecnología y Digitalización, CE.T.5 de Tecnología.",
+          "Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL2, CCL3, CCL5, STEM1, STEM4, CD1, CD2, CD3, CPSAA3, CPSAA4, CPSAA5, CC1, CC4, CE3, CCEC2, CCEC4. Competencia específica de la materia Filosofía 3:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          328,
+          329
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Practicar el diálogo filosófico con actitud crítica y tolerancia, utilizando adecuadamente los argumentos en la exposición razonada de las ideas, para apreciar el carácter plural de las concepciones filosóficas, practicar la gestión de las emociones y promover el ejercicio de una ciudadanía respetuosa, comprometida, activa y democrática."
+      },
+      "descripcion": {
+        "es": [
+          "El diálogo filosófico es inherente al ejercicio de filosofar y a la práctica de una ciudadanía democrática. Exige voluntad de entendimiento y de llegar a acuerdos, respeto y tolerancia hacia posiciones diferentes a la defendida, reconocimiento del valor que tiene “disentir”. Además, el diálogo filosófico exige racionalidad, actitud crítica, objetividad y lógica en la construcción y exposición de las ideas, lo que implica el dominio de los procedimientos de argumentación como competencia transversal que posibilita pensar y comunicar con rigor en el ámbito filosófico, científico y cotidiano. El diálogo filosófico constituye una forma de aprendizaje cooperativo que incorpora la incertidumbre, la toma de conciencia y superación de los errores, la generosidad intelectual o la apertura a nuevos interrogantes. El objetivo es que el alumnado incorpore el diálogo filosófico como herramienta de crecimiento personal en relación con otras personas, de indagación filosófica y construcción del conocimiento, de ejercicio democrático de ciudadanía.",
+          "Esta competencia específica se conecta con las siguientes competencias específicas de otras materias: CE.IF.3 de Iniciación a la Filosofía, ya que supone una profundización en todas las habilidades descritas como propias del diálogo filosófico. En este sentido, también se vincula con CE.EVCE.2 y CE.EV.EC.3 de Educación en Valores Cívicos y éticos, CE.D.4 de Digitalización, CE.EE.5.2 de Economía y emprendimiento, CE.FOPP.1, CE.FOPP3 de Formación y Orientación Persona y Profesional, CE.GH.6, CE.GH.7 de Geografía e Historia, CE.LCL.3 de Lengua Castellana y literatura, CE.M.10 de Matemáticas.",
+          "Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL5, CP3, STEM1, CD3, CPSAA1, CPSAA2, CPSAA3, CPSAA4, CPSAA5, CC2, CC3, CE2, CE3, CCEC3, CCEC4. Competencia específica de la materia Filosofía 4:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          329
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Adquirir una perspectiva filosófica global de cuestiones fundamentales y de actualidad que permita relacionar coherentemente los saberes de diferentes disciplinas con criterio, para poder afrontarlas de modo crítico, creativo y transformador, especialmente sensible a sus dimensiones ética, política y estética."
+      },
+      "descripcion": {
+        "es": [
+          "La filosofía es un saber holístico y sistemático del conocimiento referido a la experiencia humana. De ella surgieron las diferentes ciencias, mediante un largo proceso en que fueron especializando investigaciones y metodología. Es esencial el carácter vertebrador de la filosofía, capaz de relacionar los enfoques que diferentes disciplinas dan a un",
+          "mismo problema, para abordar la complejidad de los problemas contemporáneos que retan al ser humano. Problemas vinculados al desarrollo tecnológico o a la digitalización del entorno pueden comprenderse con mayor profundidad y actitud crítica integrando conocimientos de diferentes disciplinas científicas y culturales con concepciones antropológicas, éticas, políticas o estéticas de la reflexión filosófica. El objetivo es impulsar un entendimiento integral, sistémico, interdisciplinar y transdisciplinar que prepare al alumnado para afrontar con espíritu crítico un siglo XXI que puede llegar a transformar sustancialmente la realidad, el ser humano y la vida tal y como la hemos entendido hasta ahora.",
+          "Esta competencia específica se conecta con las siguientes competencias específicas de otras materias: CE.IF.4 de Iniciación a la Filosofía, ya que supone una profundización en la capacidad de articular diferentes problemas de la experiencia humana desde la reflexión filosófica, incluida la adecuada estima de uno mismo, las demás personas y la naturaleza. El carácter holístico de esta competencia específica que prepara a nuestro alumnado para afrontar críticamente los desafíos de su tiempo, la vincula también con CE.EVCE.3 y CE.EV.EC.4 de Educación en Valores Cívicos y éticos, con CE.BG.3 de Biología y Geología, CE.D.4 de Digitalización, CE.EF2 de Educación Física, CE.EPVA.6 de Educación Plástica, Visual y Artística, CE.EA.1 de Expresión Artística, CE.FOPP3, CE.FOPP.4 de Formación y Orientación Personal y Profesional, CE.GH.6, CE.GH.7 de Geografía e Historia, CE.L.5 de Latín, CE.LCL.10 de Lengua Castellana y Literatura, CE.M.6 de Matemáticas, CE.MU.4 de Música, CE.TD.6 de Tecnología y Digitalización.",
+          "Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL5, CP3, STEM3, STEM5, CD2, CD3, CPSAA3, CPSAA5, CC2, CC4, CE3, CCEC1, CCEC4."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          329,
+          330
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y formular los problemas filosóficos y su trascendencia mediante el análisis de los mismos, a través del trabajo con textos y otros medios de expresión, tanto filosófica como de cualquier otro ámbito cultural."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              330
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender la necesidad de afrontar los problemas filosóficos en la vida del ser humano y en la propia vida."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              330
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Practicar los procedimientos elementales de la investigación filosófica: buscar eficientemente información fiable, organizarla con claridad, analizarla, interpretarla y evaluarla con criterio, producirla y comunicarla adecuadamente, a través de medios digitales o más tradicionales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              330
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Desarrollar una actitud filosófica indagadora, mediante el diseño, elaboración y comunicación pública de productos originales (tales como trabajos de investigación, disertaciones, comentarios de texto u otros)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              330
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Producir y evaluar discursos argumentativos, orales y escritos, acerca de cuestiones y problemas filosóficos, demostrando un uso correcto de normas lógicas y argumentativas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              330
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Detectar y evitar modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis, explicando la naturaleza de dichas falacias y sesgos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              330
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reconocer la importancia de la cooperación, el compromiso con la verdad, el respeto a la pluralidad, esenciales en una ciudadanía democrática y el rechazo de toda actitud discriminatoria o arbitraria, aplicando el diálogo filosófico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              330
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Afrontar temas complejos, fundamentales y de actualidad, de modo interdisciplinar, sistémico y transformador, utilizando conceptos, ideas y procedimientos provenientes de distintos campos del saber, articularlos críticamente desde una perspectiva filosófica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              331
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Desarrollar la propia autonomía mediante el análisis filosófico de problemas éticos, políticos, estéticos, fundamentales y de actualidad, considerando con actitud crítica las distintas posiciones en diálogo con las propias."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              331
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "La Filosofía como saber humanizador"
+          },
+          "saberes": [
+            {
+              "id": "FI.4.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ser humano y origen de la Filosofía:"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Por qué la Filosofía no es mitología y tampoco es ciencia? ¿Qué aporta a los seres humanos?"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Desde cuándo filosofan los seres humanos? Primeras explicaciones filosóficas. Presocráticos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Por qué la democracia de Pericles introdujo nuevas reflexiones filosóficas? Sócrates y los sofistas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Y las filósofas? Diotima, Aspasia, Hiparquia e Hipatia. Ser Individuo humano:"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herencia, naturaleza y cultura ¿Cuánto de todo ello en mí? Hominización y humanización. El desafío transhumanista."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Qué se espera de mí? Sexo, género y roles sociales. El feminismo existencialista de Simone de Beauvoir. Judith Butler."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Somos razón o pasión? El superhombre de Nietzsche."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Nacemos humanos o nos hacemos humanos? J. P. Sartre, la existencia precede a la esencia. Ser humano en sociedad:"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.10",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Qué le debo a mi relación con los otros? El mundo común de Marina Garcés."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.11",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Puedo crear, innovar, superarme, a través de la cultura? ¿Qué aporta la cultura digital al ser humano? Ser humano según Yuval Noah Harari"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            },
+            {
+              "id": "FI.4.A.12",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Todo vale en sociedad o solo lo que marca la cultura a la que pertenezco? Etnocentrismo, relativismo cultural. El concepto de “aporofobia” en Adela Cortina."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  332
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Conocer y pensar la realidad."
+          },
+          "saberes": [
+            {
+              "id": "FI.4.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conocimiento y verdad:"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Qué es razonar y argumentar correctamente? Introducción a la lógica informal. Falacias."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Quién construye la verdad? Una verdad para una razón patriarcal. Crítica de la razón patriarcal de Celia Amorós. Teoría de la doble verdad de Ana de Miguel."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Está el conocimiento al servicio del poder? Relación entre Ciencia, Tecnología y Sociedad. Conocimiento como forma de control. La escuela de Frankfurt."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Y si el ser humano ha renunciado al conocimiento de la verdad? Escepticismo, Relativismo. Posverdad y democracia. Z. Bauman y Myriam Revault."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Existe un saber poético dador de conocimiento? La razón poética de María Zambrano. La razón estética y la poesía de Chantal Maillard. Realidad como problema filosófico:"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.B.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Nada es lo que parece? Apariencia y realidad. Del mito de la caverna y la duda cartesiana al cerebro en una cubeta, de Hilary Putnam."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.B.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Qué tipo de realidad es el tiempo? ¿Y el cambio? ¿Todo sucede por necesidad, azar o libertad?"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.B.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Creer en Dios es la solución? El problema filosófico de la existencia de Dios. Teísmo, deísmo, panteísmo, ateísmo y agnosticismo. El agnosticismo de Miguel de Unamuno. La espiritualidad comprometida en Simone Weil."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La acción transformadora"
+          },
+          "saberes": [
+            {
+              "id": "FI.4.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acción Ética:"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Cómo hemos de actuar? El ser humano como sujeto moral. La importancia del diálogo ético. El pensamiento de Emilio Lledó."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Podemos desarrollar nuestra autonomía moral? Los dilemas morales como habilidad ética hacia la autonomía moral. La propuesta ética de Michael Sandel."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Cómo orienta mis acciones la virtud? ¿Y el deber? Principales teorías éticas de la tradición filosófica: Éticas de la virtud y éticas del deber."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Tenemos que pensar en los efectos que tienen mis acciones en los demás? Éticas contemporáneas de la Justicia, de mínimos y de la acción comunicativa."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.C.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Puedo cambiar el mundo con mis acciones? Éticas aplicadas: La ética altruista y animalista de Peter Singer. El ecofeminismo de Alicia Puleo y Vandana Shiva. Acción política:"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.C.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Cómo se relacionan la ética y la política? El ser humano como transformador social. La Igualdad según Rosa Luxemburgo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333
+                ]
+              }
+            },
+            {
+              "id": "FI.4.C.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Hasta dónde puede llegar la rebelión ante lo injusto? El hombre rebelde de A. Camus. ¿Podemos ser cómplices del mal que sufren otros? La teoría del mal banal de Hannah Arendt."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  333,
+                  334
+                ]
+              }
+            },
+            {
+              "id": "FI.4.C.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Tienen capacidad transformadora las utopías? ¿Se dirigen las sociedades humanas hacia distopías? G. Orwell, A. Huxley, M."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  334
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

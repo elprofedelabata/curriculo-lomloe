@@ -210,66 +210,66 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 #### Anexo II — Áreas de conocimiento de Educación Primaria
 
-- [ ] Atención educativa
-- [ ] Ciencias de la Naturaleza
-- [ ] Ciencias Sociales
-- [ ] Educación en Valores Cívicos y Éticos
-- [ ] Educación Física
-- [ ] Educación Plástica y Visual
-- [ ] Lengua Castellana y Literatura
-- [ ] Lengua Extranjera: Alemán
-- [ ] Lengua Extranjera: Francés
-- [ ] Lengua Extranjera: Inglés
-- [ ] Lengua propia de Aragón: Aragonés
-- [ ] Lengua propia de Aragón: Catalán
-- [ ] Matemáticas
-- [ ] Música y Danza
+- [ ] Atención educativa — [JSON en revisión](data/es-ar/primaria/materias/atencion-educativa.json)
+- [ ] Ciencias de la Naturaleza — [JSON en revisión](data/es-ar/primaria/materias/ciencias-de-la-naturaleza.json)
+- [ ] Ciencias Sociales — [JSON en revisión](data/es-ar/primaria/materias/ciencias-sociales.json)
+- [ ] Educación en Valores Cívicos y Éticos — [JSON en revisión](data/es-ar/primaria/materias/educacion-en-valores-civicos-y-eticos.json)
+- [ ] Educación Física — [JSON en revisión](data/es-ar/primaria/materias/educacion-fisica.json)
+- [ ] Educación Plástica y Visual — [JSON en revisión](data/es-ar/primaria/materias/educacion-plastica-y-visual.json)
+- [ ] Lengua Castellana y Literatura — [JSON en revisión](data/es-ar/primaria/materias/lengua-castellana-y-literatura.json)
+- [ ] Lengua Extranjera: Alemán — [JSON en revisión](data/es-ar/primaria/materias/lengua-extranjera-aleman.json)
+- [ ] Lengua Extranjera: Francés — [JSON en revisión](data/es-ar/primaria/materias/lengua-extranjera-frances.json)
+- [ ] Lengua Extranjera: Inglés — [JSON en revisión](data/es-ar/primaria/materias/lengua-extranjera-ingles.json)
+- [ ] Lengua propia de Aragón: Aragonés — [JSON en revisión](data/es-ar/primaria/materias/lengua-propia-aragones.json)
+- [ ] Lengua propia de Aragón: Catalán — [JSON en revisión](data/es-ar/primaria/materias/lengua-propia-catalan.json)
+- [ ] Matemáticas — [JSON en revisión](data/es-ar/primaria/materias/matematicas.json)
+- [ ] Música y Danza — [JSON en revisión](data/es-ar/primaria/materias/musica-y-danza.json)
 
 ### ESO
 
 #### Anexo II — Materias de Educación Secundaria Obligatoria
 
-- [ ] Atención educativa
-- [ ] Artes Escénicas y Danza
-- [ ] Biología y Geología
-- [ ] Cultura Científica
-- [ ] Cultura Clásica
-- [ ] Cultura y Patrimonio de Aragón
-- [ ] Digitalización
-- [ ] Economía Social
-- [ ] Economía y Emprendimiento
-- [ ] Educación en Valores Cívicos y Éticos
-- [ ] Educación Física
-- [ ] Educación Plástica, Visual y Audiovisual
-- [ ] Expresión Artística
-- [ ] Filosofía
-- [ ] Física y Química
-- [ ] Formación y Orientación Personal y Profesional
-- [ ] Geografía e Historia
-- [ ] Iniciación a la Filosofía
-- [ ] Laboratorio de Refuerzo de Competencias Clave
-- [ ] Latín
-- [ ] Lengua Castellana y Literatura
-- [ ] Lengua Extranjera: Alemán
-- [ ] Lengua Extranjera: Francés
-- [ ] Lengua Extranjera: Inglés
-- [ ] Lenguas Propias de Aragón: Aragonés
-- [ ] Lenguas Propias de Aragón: Catalán
-- [ ] Matemáticas
-- [ ] Matemáticas para la Toma de Decisiones
-- [ ] Música
-- [ ] Oratoria y Escritura
-- [ ] Programación y Robótica
-- [ ] Segunda Lengua Extranjera: Alemán
-- [ ] Segunda Lengua Extranjera: Francés
-- [ ] Tecnología
-- [ ] Tecnología y Digitalización
+- [ ] Atención educativa — [JSON en revisión](data/es-ar/eso/materias/atencion-educativa.json)
+- [ ] Artes Escénicas y Danza — [JSON en revisión](data/es-ar/eso/materias/artes-escenicas-y-danza.json)
+- [ ] Biología y Geología — [JSON en revisión](data/es-ar/eso/materias/biologia-y-geologia.json)
+- [ ] Cultura Científica — [JSON en revisión](data/es-ar/eso/materias/cultura-cientifica.json)
+- [ ] Cultura Clásica — [JSON en revisión](data/es-ar/eso/materias/cultura-clasica.json)
+- [ ] Cultura y Patrimonio de Aragón — [JSON en revisión](data/es-ar/eso/materias/cultura-y-patrimonio-de-aragon.json)
+- [ ] Digitalización — [JSON en revisión](data/es-ar/eso/materias/digitalizacion.json)
+- [ ] Economía Social — [JSON en revisión](data/es-ar/eso/materias/economia-social.json)
+- [ ] Economía y Emprendimiento — [JSON en revisión](data/es-ar/eso/materias/economia-y-emprendimiento.json)
+- [ ] Educación en Valores Cívicos y Éticos — [JSON en revisión](data/es-ar/eso/materias/educacion-en-valores-civicos-y-eticos.json)
+- [ ] Educación Física — [JSON en revisión](data/es-ar/eso/materias/educacion-fisica.json)
+- [ ] Educación Plástica, Visual y Audiovisual — [JSON en revisión](data/es-ar/eso/materias/educacion-plastica-visual-y-audiovisual.json)
+- [ ] Expresión Artística — [JSON en revisión](data/es-ar/eso/materias/expresion-artistica.json)
+- [ ] Filosofía — [JSON en revisión](data/es-ar/eso/materias/filosofia.json)
+- [ ] Física y Química — [JSON en revisión](data/es-ar/eso/materias/fisica-y-quimica.json)
+- [ ] Formación y Orientación Personal y Profesional — [JSON en revisión](data/es-ar/eso/materias/formacion-y-orientacion-personal-y-profesional.json)
+- [ ] Geografía e Historia — [JSON en revisión](data/es-ar/eso/materias/geografia-e-historia.json)
+- [ ] Iniciación a la Filosofía — [JSON en revisión](data/es-ar/eso/materias/iniciacion-a-la-filosofia.json)
+- [ ] Laboratorio de Refuerzo de Competencias Clave — [JSON en revisión](data/es-ar/eso/materias/laboratorio-de-refuerzo-de-competencias-clave.json)
+- [ ] Latín — [JSON en revisión](data/es-ar/eso/materias/latin.json)
+- [ ] Lengua Castellana y Literatura — [JSON en revisión](data/es-ar/eso/materias/lengua-castellana-y-literatura.json)
+- [ ] Lengua Extranjera: Alemán — [JSON en revisión](data/es-ar/eso/materias/lengua-extranjera-aleman.json)
+- [ ] Lengua Extranjera: Francés — [JSON en revisión](data/es-ar/eso/materias/lengua-extranjera-frances.json)
+- [ ] Lengua Extranjera: Inglés — [JSON en revisión](data/es-ar/eso/materias/lengua-extranjera-ingles.json)
+- [ ] Lenguas Propias de Aragón: Aragonés — [JSON en revisión](data/es-ar/eso/materias/lenguas-propias-aragones.json)
+- [ ] Lenguas Propias de Aragón: Catalán — [JSON en revisión](data/es-ar/eso/materias/lenguas-propias-catalan.json)
+- [ ] Matemáticas — [JSON en revisión](data/es-ar/eso/materias/matematicas.json)
+- [ ] Matemáticas para la Toma de Decisiones — [JSON en revisión](data/es-ar/eso/materias/matematicas-para-la-toma-de-decisiones.json)
+- [ ] Música — [JSON en revisión](data/es-ar/eso/materias/musica.json)
+- [ ] Oratoria y Escritura — [JSON en revisión](data/es-ar/eso/materias/oratoria-y-escritura.json)
+- [ ] Programación y Robótica — [JSON en revisión](data/es-ar/eso/materias/programacion-y-robotica.json)
+- [ ] Segunda Lengua Extranjera: Alemán — [JSON en revisión](data/es-ar/eso/materias/segunda-lengua-extranjera-aleman.json)
+- [ ] Segunda Lengua Extranjera: Francés — [JSON en revisión](data/es-ar/eso/materias/segunda-lengua-extranjera-frances.json)
+- [ ] Tecnología — [JSON en revisión](data/es-ar/eso/materias/tecnologia.json)
+- [ ] Tecnología y Digitalización — [JSON en revisión](data/es-ar/eso/materias/tecnologia-y-digitalizacion.json)
 
 #### Anexo II — Ámbitos del programa de Diversificación Curricular
 
-- [ ] Ámbito Científico-Tecnológico
-- [ ] Ámbito Lingüístico y Social
-- [ ] Ámbito Práctico
+- [ ] Ámbito Científico-Tecnológico — [JSON en revisión](data/es-ar/eso/materias/ambito-cientifico-tecnologico.json)
+- [ ] Ámbito Lingüístico y Social — [JSON en revisión](data/es-ar/eso/materias/ambito-linguistico-y-social.json)
+- [ ] Ámbito Práctico — [JSON en revisión](data/es-ar/eso/materias/ambito-practico.json)
 
 ### Bachillerato
 

@@ -294,7 +294,7 @@
         "codigoOficial": {
           "type": ["string", "null"],
           "description": "Código publicado por la fuente; null cuando el saber no tiene código oficial individualizado.",
-          "pattern": "^[A-Z]+\\.[0-9]+\\.[A-ZÑ]\\.[0-9]+(?:\\.[0-9]+)*$"
+          "pattern": "^(?:[A-Z]+\\.[0-9]+\\.[A-ZÑ]\\.[0-9]+(?:\\.[0-9]+)*|[A-Za-z][0-9]+)$"
         },
         "texto": { "$ref": "#/$defs/textoLocalizado" },
         "procedencia": { "$ref": "#/$defs/procedencia" }

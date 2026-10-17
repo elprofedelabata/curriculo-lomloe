@@ -1,0 +1,2105 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.primaria.ciencias-sociales",
+  "territorio": "es-ar",
+  "etapa": "primaria",
+  "materia": {
+    "codigo": "CS",
+    "nombre": {
+      "es": "Ciencias Sociales"
+    },
+    "ciclos": [
+      {
+        "ciclo": 1,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 2,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 3,
+        "caracter": "obligatoria"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2024-08-08",
+    "aplicableDesdeCurso": "2024/2025",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-145-orden-ecd-1112-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1112/2022, de 18 de julio, por la que se aprueban el currículo y las características de la evaluación de la Educación Primaria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "145",
+      "fechaPublicacion": "2022-07-27",
+      "cve": "1232424620909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1232424620909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926319&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II"
+    },
+    {
+      "id": "boa-2024-153-orden-ecd-866-2024",
+      "tipo": "orden",
+      "titulo": "Orden ECD/866/2024, de 25 de julio, por la que se modifica la Orden ECD/1112/2022, de 18 de julio",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "153",
+      "fechaPublicacion": "2024-08-07",
+      "cve": "1346299020404",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1346299020404&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007942919&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 31,
+        "hasta": 59
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Los retos del siglo XXI demandan que nuestro sistema educativo proporcione las herramientas para que el alumnado pueda desarrollar su proyecto vital con garantías de éxito. El área de conocimiento de Ciencias Sociales se concibe como un ámbito con el objetivo de que los niños y niñas lleguen a ser personas activas, responsables y respetuosas con el mundo en el que viven y puedan transformarlo, de acuerdo con principios éticos y sostenibles fundados en los valores democráticos.",
+      "En una sociedad cada vez más diversa y cambiante es imprescindible fomentar nuevas formas de sentir, de pensar y de actuar. El descubrimiento de su devenir a través del tiempo y la interpretación de la acción humana como responsable del cambio, implica que el alumnado tenga que adoptar un conocimiento de sí mismo y del entorno que le rodea desde una perspectiva sistémica, para construir un mundo más justo, solidario, igualitario y sostenible. Supone también, el reconocimiento de la diversidad como riqueza multicultural, la resolución pacífica de conflictos y la aplicación crítica de los mecanismos democráticos de participación ciudadana, todo ello fundamentado en la Declaración Universal de los Derechos Humanos, en los Derechos del Niño, en los principios constitucionales, los valores del europeísmo y el compromiso cívico y social.",
+      "Por todo ello, el alumnado debe adquirir conceptos, destrezas y actitudes relacionadas con el uso seguro y fiable de las fuentes de información y con la educación para el desarrollo sostenible y la ciudadanía global, que incluye entre otros: el conocimiento e impulso para trabajar a favor de la consecución de los Objetivos de Desarrollo Sostenible, el respeto por la diversidad étnico-cultural o afectivo-sexual, la cohesión social, el espíritu emprendedor, la valoración y conservación del patrimonio, el emprendimiento social y ambiental y la defensa de la igualdad efectiva entre mujeres y hombres, todo ello siempre dentro del respeto a los derechos humanos establecidos por la ONU.",
+      "En el primer ciclo, es importante tener en cuenta que la etapa anterior, Educación Infantil, no tiene un carácter obligatorio, lo que implica que hay que adaptarse a un alumnado diverso, tanto en las circunstancias personales, que condicionan los contextos educativos, como en las formas de acceder al proceso de enseñanza y aprendizaje y en el bagaje de conocimientos previos. Por ello es necesario generar interés en el alumnado, acercándole al descubrimiento, la observación e indagación de los distintos elementos geográficos, históricos, sociales y culturales del mundo que les rodea.",
+      "El área de conocimiento de Ciencias Sociales engloba diferentes disciplinas y se relaciona con otras áreas de conocimiento del currículo, lo que favorece un aprendizaje holístico y competencial. Para determinar las competencias específicas, que son el eje vertebrador del currículo, se han tomado como referencia, los objetivos generales de la etapa y el Perfil de salida del alumnado al término de la enseñanza básica.",
+      "La evaluación de las competencias específicas se realiza a través de los criterios de evaluación, y miden tanto los resultados como los procesos, de una manera abierta, flexible e interconectada dentro del currículo, a través de la adquisición de los saberes básicos. Los saberes básicos, por su parte, se estructuran en tres bloques, que deberán aplicarse en diferentes contextos reales para alcanzar el logro de las competencias específicas del área de conocimiento.",
+      "El bloque A, Cultura científica: iniciación a la actividad científica en Ciencias Sociales, contribuye a valorar las Ciencias Sociales como disciplinas de investigación acercándose a los procesos de construcción el conocimiento geográfico e histórico. Desarrolla los procedimientos propios de las Ciencias Sociales, y particularmente de la Geografía y la Historia, que contribuyen al desarrollo de un pensamiento crítico. Así, en este bloque es fundamental la observación directa del entorno, la búsqueda y comparación de información, el análisis de fuentes y la representación gráfica del espacio y del tiempo a través de mapas temáticos, ejes cronológicos o líneas del tiempo, gráficos, sistemas de información geográfica, etc. Los procedimientos conllevan un trabajo reflexivo sobre aspectos complejos del pensamiento geográfico e histórico, de los cuales algunos pueden iniciarse en un nivel básico en estas edades, como la interrelación entre diferentes fenómenos o procesos, la percepción de la sucesión y la simultaneidad, la multicausalidad y las",
+      "consecuencias, la relevancia histórica, cambio-permanencia (y ligado a esto el principio de agencia, quién/es impulsan los cambios), etc. Dentro de este bloque, otro eje importante es la utilización de tecnologías para la comunicación científica, esto es, para que el alumnado prepare y presente sus propias producciones o trabajos utilizando",
+      "herramientas tecnológicas adecuadas para cada tarea, alcanzando así competencias digitales (Carretero et al., 2017; Waring y Hartshone, 2020).En este sentido, se promueve la introducción progresiva del uso de visualizadores cartográficos (como, por ejemplo, IberPix), Sistemas de Información Geográfica (como Google Earth) relacionados con las Ciencias Sociales o de programas ofimáticos con los que representar datos sencillos o presentar resultados de trabajos escolares.",
+      "El bloque B, Sociedades y territorios, presta atención a los retos y situaciones del presente y del entorno local y global, introduciéndose en el mundo en que vivimos de una manera más cívica, democrática, solidaria, sostenible y comprometida. Permite elaborar una interpretación personal del mundo, utilizando el pensamiento histórico y las relaciones de causalidad, simultaneidad y sucesión como medio para entender la evolución de las sociedades a lo largo del tiempo y del espacio. Para ello, dadas las edades del alumnado, hay que incidir en la sucesión de etapas a fin de sentar las bases de una visión diacrónica sobre la que construir más adelante una perspectiva histórica integrada. Por último, ayuda a que el alumnado conozca las interacciones entre las actividades humanas y el medio natural y social, así como el impacto ambiental que generan, para involucrar al alumnado en la adquisición de hábitos de vida sostenible y en la participación de actividades que pongan en valor los cuidados y permitan avanzar hacia los Objetivos de Desarrollo Sostenible de manera consciente y contextualizada.",
+      "Es importante señalar que las Ciencias Sociales se complementan con el área de conocimiento de Ciencias de la Naturaleza, aportando esta última el conocimiento sobre el entorno natural y los fenómenos biológicos, geológicos y físicos y químicos, entre otros. Dada la decisión de dividir Conocimiento del Medio Natural, Social y Cultural en dos áreas de conocimiento, se ha decidido no sobrecargarlas en lo referido a las Competencias Específicas y saberes básicos que se especifican en el Real Decreto 157/2022 por el que se establecen las enseñanzas mínimas de la Educación Primaria. Por ese motivo, ante la programación y la secuenciación de los saberes básicos y las competencias implicadas en estas nuevas áreas de conocimiento, se sugiere al profesorado diseñar situaciones de aprendizaje que permitan abordar conjuntamente los elementos curriculares pertenecientes a cada una de ellas, dada su complementariedad, especialmente al abordar la enseñanza desde el entorno del alumnado. Las situaciones de aprendizaje han de ser un espacio abierto que fomente la curiosidad del alumnado y la observación analítica para construir su posición personal ante la realidad, una posición que ha de ser potencialmente transformadora de la realidad social existente."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar las características de los diferentes elementos o sistemas del medio social y cultural, analizando su organización y propiedades, y estableciendo relaciones entre los mismos, para reconocer el valor del patrimonio cultural, conservarlo, mejorarlo y emprender acciones para un uso responsable."
+      },
+      "descripcion": {
+        "es": [
+          "Conocer los diferentes elementos y sistemas que forman el medio social y cultural es el primer paso para comprender y valorar su riqueza y diversidad. Por eso, esta competencia persigue que el alumnado, no solo conozca los diferentes elementos del medio que le rodea, sino que establezca relaciones entre los mismos. De esta forma, se persigue el objetivo de que el alumnado conozca, comprenda, respete, valore y proteja el medio desde la perspectiva del espacio y tiempo. Permite visibilizar los problemas relacionados con el uso del espacio y sus transformaciones, los cambios y adaptaciones protagonizadas por los humanos a través del tiempo para sus necesidades; y las distintas organizaciones sociales que han ido desarrollándose. Esta competencia implica el uso de estrategias de recogida de información propias de las Ciencias Sociales, lo que supone trabajar competencias digitales y de selección documental, así como aquellas relacionadas con la observación y registro de datos.",
+          "La toma de conciencia del continuo uso y explotación de los recursos del territorio han de favorecer que el alumnado",
+          "desarrolle acciones de uso, conservación y mejora del patrimonio cultural, considerándolo como un bien común. Además, debe promover el compromiso y la propuesta de actuaciones originales y éticas que respondan a retos sociales y culturales planteados.",
+          "Esta competencia se relaciona con otras competencias específicas dentro de la materia como CE.CS.6, CE.CS.7, CE.CM8. Presenta relación con Ciencias de la Naturaleza y sus competencias CE.CN.1, CE.CN.2 y CE.CN.3, ya que el planteamiento de preguntas, la puesta en marcha de estrategias para dar respuesta a las mismas, la observación y descripción del entorno y su relación con las acciones humanas vinculan estas competencias entre sí. Por otra parte, la competencia relacionada con el uso de dispositivos se relaciona con el uso de geolocalizadores para la interpretación y resolución de problemas.",
+          "Presenta también relación Educación Física en sus competencias CE.EF.4, CE.EF.5, vinculando el entorno social con la práctica deportiva. La competencia CE.EVCE.3 de la materia de Educación en Valores Cívicos y Éticos permite conectar las interrelaciones entre individuo, sociedad y naturaleza. En el contexto comunicativo (en Lengua Castellana y Literatura, Lengua extranjera o Lenguas Propias de Aragón –Aragonés y Catalán- en contextos plurilingües) se vincula con competencias relacionadas con la comunicación oral y escrita predominantemente con CE.LCL.3, CE.LCL.4, CE.LCL.5, CE.LE.2, CE.LE.3., CE.LPA.6 y CE.LPC.7.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: STEM4, STEM5, CD1, CC4, CE1, CCEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+        "paginas": [
+          32,
+          33
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Analizar críticamente las causas y consecuencias de la intervención humana en el entorno, integrando los puntos de vista social, económico, cultural, tecnológico y ambiental, para favorecer la capacidad para afrontar problemas, buscar soluciones y actuar de manera individual y colaborativa en su resolución, poniendo en práctica hábitos de vida sostenibles y consecuentes con el respeto, cuidado y protección de las personas y del planeta."
+      },
+      "descripcion": {
+        "es": [
+          "Conocer cómo ha evolucionado la interacción del ser humano con el mundo que lo rodea en el uso y aprovechamiento de los bienes comunes mediante procesos tecnológicos cada vez más avanzados resulta esencial para que el alumnado reflexione y sea consciente de los límites de la biosfera, de los problemas asociados al consumo acelerado de bienes y al establecimiento de un modelo energético basado en los combustibles fósiles. De esta manera poder afrontar los retos y desafíos de la sociedad contemporánea desde la perspectiva de la sostenibilidad.",
+          "Comprender las relaciones de interdependencia y ecodependencia, así como la importancia que tienen para nosotros, como seres sociales dependientes, los cuidados que nos aporta la comunidad, es el punto de partida para poder identificar y profundizar en las diferentes problemáticas que plantea el modelo de sociedad actual y su impacto a nivel local y global. Es preciso, por tanto, dotar al alumnado de herramientas que faciliten su empoderamiento como agentes de cambio ecosocial desde una perspectiva emprendedora y una actitud crítica y cooperativa. Esto supone que diseñen, participen y se involucren en actividades que permitan avanzar hacia los objetivos de desarrollo sostenible de manera consciente y contextualizada. Así serán participes de la construcción de modelos de relación y convivencia basados en la empatía, la cooperación y el respeto a las personas y al planeta.",
+          "La valoración de la relación existente entre ciencia, tecnología y sociedad implica el desarrollo de una visión sistémica en el alumnado, aspecto que hace que se relacione, principalmente con competencias relacionadas con la identificación del entorno, sus características, sus cambios asociados a las acciones humanas (CE.CS.1) o la participación en el entorno y la sociedad desde el respeto (CE.CS.5).",
+          "El uso adecuado de recursos digitales (CE.CN.1), el planteamiento de cuestiones y la emisión de explicaciones y el conocimiento del papel de la ciencia en la sociedad (CE.CN.2), la resolución de problemas de diseño (CE.CN.3), hacen",
+          "que esta competencia tenga especial vinculación con las Ciencias de la Naturaleza. La capacidad de investigar sobre diferentes manifestaciones culturales, relacionada con CE.EA.2 de las materias de Música y Danza y Educación Plástica y Visual, permite ampliar la mirada al mundo y favorece el desarrollo del pensamiento crítico. La valoración y la",
+          "actuación desde el respeto hacia el entorno natural y social se desarrolla con la competencia CE.EF.5 de Educación Física y en las CE.EVCE.2 y CE.EVCE.3 de Educación en Valores Cívicos y Éticos. Por último, el análisis crítico, de nuevo, requiere de competencias comunicativas y, en ocasiones, de la interpretación de datos numéricos, por lo que de nuevo se relaciona con las áreas de conocimiento de Lengua Castellana y Literatura (CE.LCL.2, CE.LCL.3, CE.LCL.4, CE.LCL.5), Lengua Extranjera (CE.LE.1, CE.LE.2, CE.LE.3), Lenguas Propias de Aragón -Aragonés y Catalán- (CE.LPA.1, CE.LPA.4, CE.LPC.3, CE.LPC.5) y Matemáticas (CE.M.1).",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL5, STEM2, STEM5, CPSAA4, CC1, CC3, CC4, CE1."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM2",
+        "STEM5",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+        "paginas": [
+          33,
+          34
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Observar, comprender e interpretar continuidades y cambios del medio social y cultural, analizando relaciones de causalidad, simultaneidad y sucesión para explicar y valorar las relaciones entre diferentes elementos y acontecimientos."
+      },
+      "descripcion": {
+        "es": [
+          "Conocer los rasgos de las distintas sociedades a lo largo del tiempo y el papel que mujeres y hombres han desempeñado en las mismas, como protagonistas individuales y colectivos de la historia, ha de servir al alumnado para relacionar las diferentes épocas e identificar las acciones y hechos más destacados en cada una de ellas. Los elementos y manifestaciones culturales de cada sociedad son la expresión de complejas relaciones económicas, sociales y políticas, así como de los valores, creencias e ideas que las sustentan, pero también de sus múltiples identidades, del talento de sus integrantes, y de las relaciones con otras culturas. Comprender esa red dinámica de interacciones es el trasfondo de toda interpretación y valor crítico del pasado.",
+          "De otro lado, el conocimiento y la contextualización de acontecimientos relevantes desde un punto de vista histórico resulta fundamental para que el alumnado comprenda la forma en la que el pasado contribuye en la configuración del presente. La investigación de tales acontecimientos, estableciendo relaciones de causalidad, simultaneidad y sucesión entre ellos, e identificando los aspectos dinámicos y los más estables (cambio-permanencia), permite al individuo una mayor y mejor comprensión de sí mismo, de sus relaciones con los demás y con el entorno, y lo dispone en la mejor situación para adoptar una actitud objetiva y analítica con respecto a la actualidad y para asumir un compromiso responsable y consciente con respecto a los retos del futuro.",
+          "Esta competencia específica tiene una vinculación con la CE.CS.1, ya que la observación e interpretación de cambios requiere del conocimiento de los elementos presentes en el medio. Asimismo, se relaciona con CE.CS.4 y CE.CS.5. La capacidad de interpretación de cambios y la evaluación de las relaciones causa-efecto presentes en el medio permiten una comprensión más profunda de las acciones relacionadas con el respeto y la valoración de la diversidad.",
+          "Asimismo, se relaciona con competencias específicas de otras materias como CE.EVCE.3 de Educación en Valores Cívicos y Éticos, sobre las relaciones entre individuo, sociedad y naturaleza, CE.CEA.1 de Música y Danza y Educación Plástica y Visual CE.EF.4 de Educación Física, que relacionan manifestaciones artísticas y físico-deportivas, aspecto que permite valorar e interpretar cambios en el medio social y cultural. También se conecta con CE.LCL.1, CE.LCL.6, CE.LE.6, relacionadas con el reconocimiento de la diversidad y el uso de fuentes de información contrastada, fomentado la valoración, desde diferentes perspectivas, de los acontecimientos del medio social y cultural. Finalmente, se conecta con Lenguas Propias de Aragón -Aragonés y Catalán- (CE.LPA.6 y CE.LPC.7)",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL3, STEM4, CPSAA4, CC1,",
+          "CC3, CE2, CCEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM4",
+        "CPSAA4",
+        "CC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+        "paginas": [
+          34,
+          35
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Reconocer y valorar la diversidad y la igualdad de género, mostrando empatía y respeto por otras culturas y reflexionando sobre cuestiones éticas, para contribuir al bienestar individual y colectivo de una sociedad en continua transformación y al logro de los valores de la integración europea."
+      },
+      "descripcion": {
+        "es": [
+          "La diversidad es un rasgo característico de las sociedades contemporáneas y plantea retos para la vida en democracia. El análisis comparativo entre diferentes sociedades y territorios en el mundo muestra la coexistencia de distintas formas de organización social y política derivados de diversos factores geográficos, económicos, históricos y culturales. La realidad multicultural del entorno favorece la toma de conciencia de la diversidad y riqueza patrimonial existente, promoviendo una actitud de respeto y diálogo con personas y culturas diferentes. La interconexión mundial, los procesos de integración como el de la Unión Europea y los movimientos migratorios contactan con esta realidad múltiple y diversa, que es necesario afrontar desde los principios de igualdad, de respeto a los derechos humanos y del niño y desde los valores del europeísmo, para prevenir prejuicios y actitudes discriminatorias y favorecer la inclusión y la cohesión social.",
+          "En el seno de la sociedad nos encontramos además con otros tipos de diversidad, asociados al género, la edad, las creencias, la identidad, la orientación sexual o a la situación funcional de las personas, que precisan de actitudes basadas en el respeto, la tolerancia y la inclusión. Especial importancia cobran los comportamientos relativos a la igualdad entre mujeres y hombres, que debe implicar acciones comprometidas para evitar toda actitud discriminatoria. Todos estos comportamientos y valores deben desarrollarse en el entorno familiar y social del alumnado, a través del ejercicio de una ciudadanía activa y responsable.",
+          "Esta competencia se relaciona predominantemente con las competencias específicas CE.CS.1 y CE.CS.3 dentro del área de conocimiento. El conocimiento de la organización de entorno, la comprensión de los cambios presentes en el medio social y cultural y la participación desde el respeto, tienen conexiones con el reconocimiento y valoración de la diversidad social y cultural. Asimismo, la competencia específica CE.CS.5, relacionada con la participación desde el respeto, se relaciona con esta competencia desde el desarrollo de actitudes basadas en el respeto, la tolerancia y la inclusión.",
+          "Desde otras materias esta competencia se relaciona principalmente con CE.EF.3 de Educación Física, CE.MD.2 y CE.EPV.2 en Música y Danza y Educación Plástica y Visual, CE.EVCE.4 de Educación en Valores Cívicos y Éticos, CE.CN.4 en Ciencias de la Naturaleza, CE.LCL.1 de Lengua Castellana y Literatura, CE.LE.6 de Lengua Extranjera, CE.LPC.7 de Lenguas Propias de Aragón: Catalán, CE.LPA.6 de Lenguas Propias de Aragón: Aragonés y CE.M.6. de Matemáticas, relacionadas con el desarrollo de habilidades sociales desde el respeto y la igualdad y el reconocimiento de la diversidad.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CP3, CPSAA3, CC1, CC2, CC3, CCEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CP3",
+        "CPSAA3",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+        "paginas": [
+          35
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Participar en el entorno y la vida social de forma eficaz y constructiva desde el respeto a los valores democráticos, los derechos humanos y de la infancia y los principios y valores de la Constitución española y la Unión Europea, valorando la función del Estado y sus instituciones en el mantenimiento de la paz y la seguridad para generar interacciones respetuosas y equitativas y promover la resolución pacífica y dialogada de los conflictos."
+      },
+      "descripcion": {
+        "es": [
+          "Comprender la organización y funcionamiento de una sociedad en su territorio y valorar el papel de las administraciones en la garantía de los servicios públicos es fundamental para la educación ciudadana. La sociedad",
+          "democrática demanda una ciudadanía comprometida y crítica que participe de manera activa en el ámbito escolar y en otras actividades que tengan influencia en el bienestar de la comunidad. En este marco de convivencia, el alumnado debe tomar conciencia de la importancia de las normas de conducta social, la movilidad sostenible, y la distribución de derechos y responsabilidades entre personas de manera igualitaria y dialogada, desarrollando habilidades de comunicación, escucha activa, pensamiento crítico y de resolución pacífica de conflictos, valorando la seguridad y la defensa como un compromiso cívico y solidario al servicio de la paz.",
+          "Los principios y valores de la Constitución española y La Unión Europea, junto a los del Estado y las instituciones democráticas, implican el ejercicio de una ciudadanía activa que contribuya a mantener y cumplir sus obligaciones cívicas, y favorezca la justicia social, la dignidad humana, la libertad, la igualdad, el Estado de Derecho y el respeto de los derechos humanos y de las minorías étnicas y culturales, y una cultura de paz. La adopción consciente de valores como la equidad, el respeto, la justicia, la solidaridad y la igualdad entre mujeres y hombres preparan al alumnado para afrontar los retos y desafíos del siglo XXI.",
+          "Esta competencia específica tiene vinculaciones con las competencias específicas CE.CS2, CE.CS3 y CE.CS4, tal y como se ha concretado en competencias anteriores. La participación en el entorno requiere de la realización de un análisis crítico sobre las acciones humanas, vinculada con la competencia CE.CS2; de la comprensión de determinados acontecimientos, asociado con la competencia CE.CS3 y; del reconocimiento y valoración de la diversidad que se relaciona con la competencia CE.CS4.",
+          "Se vincula también con competencias de otras áreas de conocimiento como Ciencias de la Naturaleza y su competencia CE.CM.2. La participación social requiere de estrategias para comprender los fenómenos del entorno natural y ser críticos en la toma de decisiones. Se relaciona también con otras competencias como CE.MD.4 y CE.EPV.4 de Música y Danza y Educación Plástica y Visual, CE.EVCE.2 en de Educación en Valores Cívicos y Éticos, CE.EF.3 en Educación Física, CE.LCL.1 en Lengua Castellana y Literatura, CE.LE.6 de Legua Extranjera, CE.LPA.6 y CE.LPC.7 de Lenguas Propias de Aragón (Aragonés y Catalán) y CE.M.7 de Matemáticas. Todas estas competencias específicas se relacionan con la participación en el diseño de producciones culturales y artísticas, la actuación desde el respeto, la valoración de la diversidad lingüística como fuente de cultura o el desarrollo de destrezas sociales.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL5, CPSAA1, CC1, CC2, CC3, CCEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CPSAA1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+        "paginas": [
+          35,
+          36
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Plantear y dar respuesta a cuestiones científicas sencillas, relacionadas con las Ciencias Sociales, utilizando diferentes fuentes, técnicas, instrumentos y habilidades propias del pensamiento científico, para interpretar y explicar hechos y fenómenos que ocurren en el medio natural, social y cultural."
+      },
+      "descripcion": {
+        "es": [
+          "Los enfoques didácticos para la enseñanza de las ciencias sociales han de partir de la curiosidad del alumnado por comprender el mundo que le rodea y las sociedades históricas. Por tanto, el alumnado ha de poder obtener, analizar y clasificar la información obtenida de fuentes de diferente naturaleza (orales, escritas, objetos, etc.), sobre hechos y fenómenos relacionados con los saberes básicos.",
+          "Para que esta forma de trabajo genere verdaderos aprendizajes, el docente, por su parte, debe asumir el papel de facilitador y guía, proporcionando al alumnado las condiciones, pautas, estrategias y materiales didácticos que favorezcan estas destrezas. De este modo, además, se estimula el interés por la adquisición de nuevos aprendizajes y el pensamiento crítico.",
+          "Los elementos incluidos en esta competencia requieren de habilidades lingüísticas, por tanto, tienen relación con la materia de Lengua Castellana y Literatura en competencias como CE.LCL.2, CE.LCL.3, CE.LCL.4, CE.LCL.5, vinculadas con la comprensión lectora y la comunicación oral y escrita. En el caso de contextos plurilingües se trabajarían competencias específicas relacionadas con Lengua Extranjera como CE.LE.1, CE.LE.2, CE.LE.3, CE.LE.4 y con Lenguas Propias de Aragón (Aragonés y Catalán), mediante CE.LPA.4 y CE.LPC.5. También se encuentra en relación directa con la CE.CN.1 de Ciencias de la Naturaleza si se utilizan medios digitales para la obtención, procesamiento y presentación de la información y con la CE.CN.2 cuando se plantee la explicación de fenómenos que ocurran en el entorno físico del alumnado",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL1, CCL2, CCL3, CD1, CD2, CC4."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+        "paginas": [
+          36,
+          37
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "ciclo": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Iniciarse en el reconocimiento de las características, organización y propiedades de los elementos del medio social y cultural a través de la observación del entorno de forma pautada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              37
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer conexiones sencillas y directas entre diferentes elementos del medio social y cultural."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              37
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Mostrar actitudes de respeto para el disfrute del patrimonio cultural material e inmaterial, reconociéndolo como un bien común."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              37
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Mostrar estilos de vida sostenible y valorar la importancia del respeto, los cuidados, la corresponsabilidad y la protección de los elementos y seres del planeta, identificando la relación de la vida de las personas con sus acciones sobre los elementos y recursos del medio."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Localizar espacios geográficos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Ordenar temporalmente hechos del entorno personal, familiar y social y cultural cercano, empleando nociones de medida y sucesión básicas y representaciones gráficas adecuadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer personas y grupos sociales relevantes de la historia y formas de vida del pasado relacionados con la historia familiar, local y del entorno social y cultural, incorporando la perspectiva de género."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Extraer información de fuentes históricas sencillas (testimonios orales de familiares, objetos personales) de diferente naturaleza."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Localizar los hitos geográficos principales en su entorno inmediato (barrio, escuela)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Recoger información acerca de manifestaciones culturales del propio entorno, mostrando respeto, identificando y valorando su diversidad y riqueza, y apreciándolas como fuente de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reconocer modelos positivos en el entorno cercano mostrando actitudes que fomenten la igualdad de género y las conductas no sexistas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer acuerdos de forma dialógica y democrática como parte de grupos próximos a su entorno, identificando las responsabilidades y empleando un lenguaje inclusivo y no violento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar instituciones cercanas, señalando y valorando las funciones que realizan en pro de una buena convivencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer e interiorizar normas básicas para la convivencia en el uso de espacios públicos, especialmente como peatones o como usuarios de los medios de locomoción, tomando conciencia de la importancia de la movilidad segura, saludable y sostenible de tanto para las personas como para el planeta."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Formular preguntas mostrando curiosidad por el entorno más próximo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Buscar información sencilla de forma guiada de diferentes fuentes seguras y fiables, utilizándola en trabajos relacionados con el medio natural, social y cultural."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Utilizar fuentes de diferente naturaleza para realizar tareas sencillas de indagación, sobre aspectos geográficos o históricos vinculados a su entorno próximo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-4",
+          "codigoOficial": "6.4",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Presentar los resultados de las indagaciones o trabajos escolares sobre ciencias sociales de forma oral o gráfica con ayuda de un guion."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Cultura científica: iniciación a la actividad científica en Ciencias Sociales"
+          },
+          "saberes": [
+            {
+              "id": "CS.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Exploración y observación guiada del entorno físico y social, con especial interés en el patrimonio, el paisaje y la organización de la localidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                "paginas": [
+                  42
+                ]
+              }
+            },
+            {
+              "id": "CS.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inicio al trabajo con fuentes. Uso de objetos y artefactos de la vida cotidiana como fuentes para reflexionar sobre el cambio y la continuidad, las causas y consecuencias."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                "paginas": [
+                  42
+                ]
+              }
+            },
+            {
+              "id": "CS.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inicio en la representación gráfica del espacio (lectura o Inicio a la representación gráfica del espacio y del tiempo. Utilización de mapas, croquis o planos sencillos o visualización a través de sistemas de información geográfica como Google Earth o similares. Elaboración de líneas temporales sencillas, árboles genealógicos, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                "paginas": [
+                  42
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sociedades y territorios"
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Retos del mundo actual"
+              },
+              "saberes": [
+                {
+                  "id": "CS.1.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Retos sobre situaciones cotidianas. Categorías espaciales. Funciones básicas del pensamiento espacial y temporal para la interacción con el medio y la resolución de situaciones de la vida cotidiana. Itinerarios y trayectos, desplazamientos y viajes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      42
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La diversidad de las poblaciones en el entorno físico y sociocultural."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      42
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Sociedades en el tiempo"
+              },
+              "saberes": [
+                {
+                  "id": "CS.1.B.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La percepción del tiempo. Categorías temporales básicas. Medida del tiempo en la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El ciclo vital y las relaciones intergeneracionales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Recursos y medios analógicos y digitales. Las fuentes orales y la memoria colectiva. La historia local y la biografía familiar, hombres y mujeres como sujetos de la historia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Las expresiones y producciones artísticas a través del tiempo. El patrimonio material e inmaterial local y del contexto sociocultural del alumnado. Las lenguas propias de Aragón (aragonés y catalán)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.3",
+              "nombre": {
+                "es": "Alfabetización cívica"
+              },
+              "saberes": [
+                {
+                  "id": "CS.1.B.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La vida en colectividad. La familia. Diversidad familiar. Compromisos, participación y normas en el entorno familiar, vecinal y escolar. Prevención, gestión y resolución dialogada de conflictos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Habilidades emocionales (conciencia y regulación emocional; autovaloración) y comunicativas (verbales, no verbales, y conversacionales; la escucha activa)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La vida en sociedad. Espacios, recursos y servicios del entorno. Formas y modos de interacción social en espacios públicos desde una perspectiva de género."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.3.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Identidad y diversidad cultural: existencia de realidades diferentes y aproximación a las distintas etnoculturas presentes en el entorno. La convivencia con los demás y el rechazo a las actitudes discriminatorias. Cultura de paz y no violencia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.3.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ocupación y trabajo. Identificación de las principales actividades profesionales y laborales de mujeres y hombres en el entorno."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.3.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Igualdad de género y conducta no sexista."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.3.7",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Seguridad vial. La ciudad como espacio de convivencia. Normas básicas en los desplazamientos como peatones y usuarios de los medios de locomoción."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.4",
+              "nombre": {
+                "es": "Conciencia ecosocial"
+              },
+              "saberes": [
+                {
+                  "id": "CS.1.B.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conocimiento de nuestro entorno. Paisajes naturales y paisajes humanizados, y sus elementos. La acción humana sobre el medio y sus consecuencias."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relación entre el ser humano y el medio."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.4.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Responsabilidad ecosocial. Acciones para la conservación, mejora y uso sostenible de los bienes comunes. El maltrato animal y su prevención."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.1.B.4.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estilos de vida sostenible. El uso responsable del agua, la movilidad segura, saludable y sostenible, y la prevención y gestión de los residuos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      43
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar las características, organización y propiedades de los elementos del medio social y cultural a través de la observación del entorno y de otros recursos y utilizando las herramientas y procesos adecuados de forma pautada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              37
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar conexiones sencillas entre diferentes elementos del medio social y cultural mostrando comprensión de las relaciones que se establecen."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              37
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar y proteger el patrimonio cultural material e inmaterial, considerándolo un bien común, adoptando conductas respetuosas para su disfrute y proponiendo acciones para su conservación y mejora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              37
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar problemas ecosociales, proponer posibles soluciones y poner en práctica estilos de vida sostenible, reconociendo comportamientos respetuosos de cuidado, corresponsabilidad y protección del entorno y uso sostenible de los recursos naturales, y expresando los cambios positivos y negativos causados en el medio por la acción humana."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Localizar y analizar espacialmente, utilizando nociones básicas de cartografía y representación del espacio mediante mapas, proyecciones y modelos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar hechos del entorno social y cultural y ordenarlos temporalmente empleando las nociones de causalidad, simultaneidad y sucesión y utilizando representaciones gráficas adecuadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer personas, grupos sociales relevantes y formas de vida de las sociedades históricas desde la Prehistoria hasta la actualidad, incorporando la perspectiva de género y ubicándolas en su etapa cronológica, distinguiendo simultaneidadsucesión y cambio-permanencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Extraer información de fuentes históricas de diferente naturaleza"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Localizar los hitos geográficos principales de su localidad y de Aragón, analizando sus fuentes de información, sus modelos y estructuras espaciales (de localización, distribución, extensión, relación…)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38,
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar la importancia demográfica, cultural y económica de las migraciones en la actualidad, valorando con respeto y empatía el aporte de la diversidad cultural al bienestar individual y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Valorar positivamente las acciones que fomentan la igualdad de género y las conductas no sexistas reconociendo modelos positivos a lo largo de la historia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Realizar actividades en el contexto de la comunidad escolar, asumiendo responsabilidades y estableciendo acuerdos de forma dialogada y democrática y empleando un lenguaje inclusivo y no violento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer los principales órganos de gobierno y funciones de diversas administraciones y servicios públicos, valorando de forma crítica su funcionamiento y gestión para la seguridad integral ciudadana y la participación democrática."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Interiorizar las normas básicas para el uso de espacios públicos como peatones y usuarios de los medios de locomoción, identificando las principales señales de tráfico y tomando conciencia de la importancia de la movilidad segura, saludable y sostenible tanto para las personas como para el planeta."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39,
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Formular preguntas mostrando curiosidad por el medio natural, social y cultural cercano."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Buscar información sencilla de forma guiada procedente de recursos específicos de las Ciencias Sociales, utilizándola en trabajos relacionados con el medio natural, social y cultural."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Utilizar fuentes de diferente naturaleza para realizar tareas sencillas de indagación, sobre aspectos geográficos o históricos de culturas representativas de las diferentes etapas cronológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-4",
+          "codigoOficial": "6.4",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Presentar los resultados de las indagaciones o trabajos escolares sobre ciencias sociales de forma oral o escrita utilizando léxico específico básico de las disciplinas de Ciencias Sociales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Cultura científica: iniciación a la actividad científica en Ciencias Sociales"
+          },
+          "saberes": [
+            {
+              "id": "CS.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación a la investigación y a los métodos de trabajo para la realización de proyectos, que analicen hechos, asuntos y temas de la vida cotidiana o de relevancia actual desde una perspectiva histórica, contextualizándolos en la época correspondiente desde la Prehistoria a la Edad Contemporánea, como son la supervivencia y la alimentación, la vivienda, los intercambios comerciales (de dónde viene el dinero, los trabajos no remunerados), la explotación de bienes comunes y recursos, los avances técnicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CS.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las fuentes históricas: clasificación y utilización de las distintas fuentes (orales, escritas, patrimoniales) como vía para el análisis de los cambios y permanencias en la localidad a lo largo de la historia. Las huellas de la historia en lugares, edificios, objetos, oficios o tradiciones de la localidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "CS.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La representación gráfica del espacio y del tiempo. Comparación de mapas y planos de diferentes escalas. Representaciones gráficas y visuales del clima y los paisajes. Las Tecnologías de la Información Geográfica (TIG)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sociedades y territorios"
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Retos del mundo actual"
+              },
+              "saberes": [
+                {
+                  "id": "CS.2.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conocimiento del espacio. Representación de la Tierra a través del globo terráqueo, los mapas y otros recursos analógicos y digitales. Mapas y planos en distintas escalas. Técnicas de orientación mediante la observación de los elementos del medio físico y otros medios de localización espacial.)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      44,
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El clima y el paisaje. gráfica. Relación entre las zonas climáticas y la diversidad de paisajes. El medio físico de Aragón. Distribución territorial de Aragón."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Retos demográficos. Ocupación y distribución de la población en el espacio y análisis de los principales problemas y retos demográficos. Representación gráfica y cartográfica de la población. La organización del territorio en Aragón y rasgos básicos de España y en Europa."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Desigualdad social y acceso a los recursos. Usos del espacio por el ser humano y evolución de las actividades productivas. El valor, el control del dinero y medios de pago. De la supervivencia a la sobreproducción."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Sociedades en el tiempo"
+              },
+              "saberes": [
+                {
+                  "id": "CS.2.B.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El tiempo histórico. Nociones temporales y cronología. Representación gráfica del tiempo (líneas del tiempo y ejes cronológicos)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ubicación temporal de las grandes etapas históricas en ejes cronológicos. Características civilizaciones representativas de las grandes etapas cronológicas, en las referentes a España y Aragón."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La acción de las mujeres y los hombres como sujetos Interpretación del papel de los individuos y de los sociales, relaciones, conflictos, creencias y condicionantes época histórica. Las personas como agentes/motor de"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Introducción a las expresiones artísticas y contextualización histórica, incluyendo una perspectiva función del arte y la cultura en el mundo a lo largo etapas históricas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.2.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ejemplos destacados del patrimonio natural y cultural Los espacios protegidos, culturales y naturales, parques elementos patrimoniales protegidos. Patrimonio inmaterial. Su uso, cuidado y conservación. Las lenguas Aragón (aragonés y catalán)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.3",
+              "nombre": {
+                "es": "Alfabetización cívica"
+              },
+              "saberes": [
+                {
+                  "id": "CS.2.B.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Compromisos y normas para la vida en sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Las costumbres, tradiciones y manifestaciones etnoculturales entorno. Respeto por la diversidad cultural, los derechos la cohesión social. La cultura de paz y no violencia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La organización política y territorial de Aragón y rasgos España."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.3.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Organización y funcionamiento de la sociedad. instituciones y entidades del entorno local, regional servicios públicos que prestan. Estructura administrativa aspectos básicos de la España."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.3.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Seguridad vial. La ciudad como espacio de convivencia. circulación, señales y marcas viales. Movilidad segura, sostenible como peatones y usuarios de los medios"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.4",
+              "nombre": {
+                "es": "Conciencia ecosocial"
+              },
+              "saberes": [
+                {
+                  "id": "CS.2.B.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Riesgos ambientales y el cambio climático. Introducción causas y consecuencias del cambio climático ambientales, y su impacto en los paisajes de la Tierra. mitigación y adaptación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Responsabilidad ecosocial. Ecodependencia e interdependencia entre personas, sociedades y medio natural."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.4.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ciudadanía geográfica espacial."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      45
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.4.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Desequilibrios territoriales"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      46
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.4.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La transformación y la degradación de los ecosistemas por acción humana. Conservación y protección de maltrato animal y su prevención."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      46
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.2.B.4.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estilos de vida sostenible. El consumo responsable, y la energía, la movilidad sostenible y la gestión de los"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      46
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar y analizar las características, organización y propiedades de los elementos del medio social y cultural a través de la observación del entorno y de otros recursos y utilizando las herramientas y procesos adecuados de forma pautada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              37
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Establecer conexiones sencillas entre diferentes elementos del medio social y cultural mostrando comprensión de las relaciones que se establecen."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              37
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar, proteger y mostrar actitudes de conservación y mejora del patrimonio cultural (material e inmaterial) a través de propuestas y acciones que reflejen compromisos y conductas en favor de la sostenibilidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              37
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Adoptar estilos de vida sostenible y consecuentes con el respeto, los cuidados, la corresponsabilidad y la protección de los elementos y seres del planeta, a partir del análisis crítico de la intervención humana en el entorno."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Adoptar una actitud emprendedora en la búsqueda, contraste y evaluación de propuestas para afrontar problemas ecosociales, buscar soluciones y actuar para su resolución, a partir del análisis de las causas y consecuencias de la intervención humana en el entorno."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Localizar y analizar espacialmente lugares geográficos, utilizando nociones básicas de cartografía y representación del espacio mediante mapas, proyecciones y modelos digitales, y herramientas básicas para representar información en ellos como gráficos, imágenes o tablas interactivas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-4",
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar problemas ligados al desarrollo sostenible, analizarlos y extraer conclusiones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural, situando cronológicamente los hechos u otras formas de representaciones gráficas temporales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer personas, grupos sociales relevantes y formas de vida, acontecimientos y procesos relevantes de las sociedades históricas desde la Prehistoria hasta la actualidad, incorporando la perspectiva de género, situándolas cronológicamente e identificando rasgos significativos sociales en distintas épocas de la historia, distinguiendo simultaneidad-sucesión, cambiopermanencia y estableciendo relaciones de interrelación y de causa-consecuencia sencillas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              38,
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Extraer información de fuentes históricas de diferente naturaleza comparándolas entre sí."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Localizar los hitos geográficos principales de España y Europa, analizando sus fuentes de información, sus modelos y estructuras espaciales (de localización, distribución, extensión, relación…)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar los procesos geográficos, históricos y culturales que han conformado la sociedad actual, valorando la diversidad etnocultural o afectivo-sexual y la cohesión social y mostrando empatía y respeto por otras culturas y la igualdad de género."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Adoptar actitudes de igualdad de género y conductas no sexistas, analizando y contrastando diferentes modelos en nuestra sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Resolver de forma pacífica y dialogada los conflictos, promoviendo una interacción respetuosa y equitativa a partir del lenguaje inclusivo y no violento, explicando y ejercitando principales normas, derechos, deberes y libertades que forman parte de la Constitución española, y de la de Unión Europea, y conociendo la función que el Estado y sus instituciones desempeñan en el mantenimiento de la paz y la seguridad integral ciudadana y el reconocimiento de las víctimas de violencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Explicar el funcionamiento general de los órganos de gobierno del Municipio, de la Comarca, de las Comunidades Autónomas, del Estado español y de la Unión Europea, valorando sus funciones y la gestión de los servicios públicos para la ciudadanía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              39,
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer e interiorizar normas y sistemas de seguridad como peatones, usuarios de bicicletas, patinetes y de los medios de locomoción, conociendo las señales de tráfico y tomando conciencia de la importancia de la movilidad sostenible de las personas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Formular preguntas mostrando curiosidad por el medio natural, social o cultural y sus cambios a lo largo del tiempo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Buscar información sencilla de forma guiada procedente de recursos tecnológicos específicos de las Ciencias Sociales, utilizándola en trabajos relacionados con el medio natural, social y cultural."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Utilizar y comparar fuentes de diferente naturaleza para realizar tareas sencillas de indagación, sobre aspectos geográficos o históricos de culturas representativas de las diferentes etapas cronológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-4",
+          "codigoOficial": "6.4",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Presentar los resultados o conclusiones de indagaciones o trabajos escolares, utilizando léxico específico de las ciencias sociales y representaciones gráficas propias de estas disciplinas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+            "paginas": [
+              40
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Cultura científica: iniciación a la actividad científica en Ciencias Sociales"
+          },
+          "saberes": [
+            {
+              "id": "CS.3.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de competencias del pensamiento histórico."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "CS.3.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las fuentes históricas: clasificación y utilización de fuentes de distinta naturaleza (orales, escritas, materiales, iconográficas, etc)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "CS.3.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Representación gráfica, visual y cartográfica a través de medios y recursos analógicos y digitales usando las Tecnologías de la Información Geográfica (TIG). Representación gráfica del tiempo (líneas temporales, mapas históricos, etc.)"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                "paginas": [
+                  46
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "4. Conciencia ecosocial:"
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Retos del mundo actual"
+              },
+              "saberes": [
+                {
+                  "id": "CS.3.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El clima y el planeta. Introducción a la dinámica atmosférica y a las grandes áreas climáticas del mundo. Los principales ecosistemas y sus paisajes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El entorno natural. La diversidad geográfica de España y de Europa."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Migraciones y diversidad cultural. Las principales variables demográficas y su representación gráfica. Los comportamientos de la población y su evolución. Los movimientos migratorios y apreciación de la diversidad cultural. Contraste entre zonas urbanas y despoblación rural."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ciudadanía activa. Fundamentos y principios para la organización política y gestión del territorio en España y Europa. Participación social y ciudadana. Ciudadanía europea."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.1.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Igualdad de género y conductas no sexistas. Crítica de los estereotipos y roles en los distintos ámbitos: académico, profesional, social y cultural. Acciones para la igualdad efectiva de mujeres y hombres."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Sociedades en el tiempo"
+              },
+              "saberes": [
+                {
+                  "id": "CS.3.B.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Acontecimientos y procesos históricos relevantes en la historia del mundo desde la Prehistoria a la actualidad, el papel representado por los sujetos históricos (individuales y colectivos), acontecimientos y procesos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Principales hitos de la evolución histórica de Aragón y de España"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El patrimonio natural y cultural material e inmaterial de Aragón y España como bien y recurso; su uso, cuidado y conservación. Las lenguas propias de Aragón (aragonés y catalán)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El papel de las mujeres en la historia y los principales movimientos en defensa de sus derechos. Situación actual y retos de futuro en la igualdad de género. Otros movimientos en defensa de los derechos de diferentes colectivos sociales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.2.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Profundización en la función del arte y la cultura. Las expresiones artísticas y culturales y su contextualización histórica, incluyendo una perspectiva de género."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.2.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La memoria democrática. Análisis multicausal del proceso de construcción de la democracia en España. La Constitución de 1978."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.3",
+              "nombre": {
+                "es": "Alfabetización cívica"
+              },
+              "saberes": [
+                {
+                  "id": "CS.3.B.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Historia y cultura de las minorías étnico-culturales presentes en nuestro país, particularmente las propias del pueblo gitano. Reconocimiento de la diversidad cultural y lingüística de Aragón y de España."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los principios y valores de los derechos humanos y de la infancia y la Constitución española, derechos y deberes de la ciudadanía. La contribución del Estado y sus instituciones a la paz, la seguridad integral y la cooperación internacional para el desarrollo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La cultura de paz y no violencia. El pensamiento crítico como herramienta para el análisis de los conflictos de intereses. El reconocimiento de las víctimas de la violencia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      47
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.3.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La organización política. Principales entidades políticas y administrativas del entorno local, autonómico y nacional en Aragón y España. Sistemas de representación y de participación política."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      48
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.3.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Fórmulas para la participación de la ciudadanía en la vida pública en Aragón, España y Europa."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      48
+                    ]
+                  }
+                },
+                {
+                  "id": "CS.3.B.3.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aragón, España y Europa. Las principales instituciones de Aragón, España y de la Unión Europea, de sus valores y de sus funciones. Los ámbitos de acción de las instituciones autonómicas, estatales y europeas y su repercusión en el entorno."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2024-153-orden-ecd-866-2024",
+                    "paginas": [
+                      48
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-15",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por ciclos, conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null.",
+      "En el criterio del tercer ciclo situado después de 2.3 dentro de CE.CS.2 se corrige el código impreso 6.4 como 2.4; la decisión está documentada en AR-PRIM-001."
+    ]
+  }
+}

@@ -1,0 +1,1385 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.eso.economia-social",
+  "territorio": "es-ar",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "ES",
+    "nombre": {
+      "es": "Economía Social"
+    },
+    "cursos": [
+      {
+        "curso": 3,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-156-orden-ecd-1172-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1172/2022, de 2 de agosto, por la que se aprueban el currículo y las características de la evaluación de la Educación Secundaria Obligatoria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-11",
+      "cve": "1234469220606",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234469220606&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926624&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 169,
+        "hasta": 187
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "En las sociedades contemporáneas la ciudadanía toma decisiones económicas a diario, actúa como consumidora y ahorradora. Son trabajadores y contribuyentes al sistema fiscal haciendo uso de los bienes y servicios públicos. A la vez, son votantes y, en ocasiones, se integran en organizaciones políticas o sindicales y tienen que comprender propuestas de política económica, fiscal y monetaria que afectarán a su vida y al sistema de derechos y libertades que fundamenta la legitimidad del sistema social.",
+      "El estudio y la formación en Economía son absolutamente necesarios para la comprensión de la realidad. Cualquier persona necesita conocer las reglas básicas que explican los acontecimientos económicos y el lenguaje específico utilizado por los economistas y medios de comunicación para analizarlos.",
+      "Economía social es una materia que aboga por un modelo que haga compatible la actividad económica con el interés general y el funcionamiento democrático. Los agentes participantes no buscan como objetivo principal maximizar el beneficio, sino estar al servicio de las personas incorporando principios y valores universales como equidad, justicia, fraternidad económica, solidaridad social y democracia directa a fin de aspirar a ser un instrumento de transformación social. El enfoque de esta asignatura no es configurar la economía a través de la selección de conceptos económicos, sino propiciar la reflexión acerca de problemas económicos cercanos al alumnado para que conforme sus decisiones individuales consciente de su repercusión social.",
+      "El profesorado debe facilitar instrumentos científicos y técnicos que permitan conocer la dimensión económica de la realidad social desde un punto de vista individual y colectivo a fin de que la disciplina de la Economía esté en el centro de la mejora del bienestar individual y social.",
+      "Además, es necesario que el profesorado incorpore ideas, intereses, significados y valores del alumnado en función del contexto sociocultural donde se desenvuelve; es decir, teniendo en consideración la realidad aragonesa, provincial, comarcal y del municipio. La asignatura se puede enfocar a través del desarrollo de un proyecto de colaboración con la comunidad para la aplicación práctica de las competencias específicas en la realidad próxima. Este proyecto se realizará, siempre que sea posible, mediante la colaboración con entidades públicas o privadas que desarrollen una labor solidaria en el territorio. Bajo la tutela del profesorado y durante la adquisición de los distintos contenidos, será posible que el alumnado desarrolle las competencias a través del proyecto.",
+      "Economía social está planteada como materia de opción del tercer curso de educación secundaria obligatoria, garantizando que el alumnado profundice y adquiera la capacidad de manejar la propia vida económica de forma racional y solidaria entendiendo al individuo como un agente que convive en sociedad.",
+      "La adquisición de las competencias específicas se evaluará a través de los criterios de evaluación. Acompañando a estos criterios se han recopilado un conjunto de saberes que integran destrezas y actitudes que ayudarán a la adquisición de las competencias específicas a lo largo de la etapa. Dichos sentidos permiten emplear los saberes de una manera funcional proporcionando la flexibilidad necesaria para establecer conexiones entre los diferentes saberes. Debe tenerse en cuenta que la organización en el currículo no implica ninguna temporalización ni orden cronológico en su tratamiento en el aula.",
+      "Las competencias específicas se relacionan entre sí y han sido agrupadas en torno a cuatro bloques de saberes según su naturaleza: ciudadanía solidaria (1,2,3), finanzas éticas (4,5,6), consumo responsable (7,8,9) y proyecto solidario (10). Cada competencia específica se relaciona con las competencias claves y los descriptores del perfil de salida. La asignatura de Economía social desarrolla los siguientes: competencia en comunicación lingüística (CCL), competencia matemática y competencia en ciencia (CMCT), tecnología e ingeniería (STEM), competencia digital (CD), competencia personal, social y de aprender a aprender (CPSAA), competencia ciudadana (CC), competencia emprendedora (CE) y competencia en conciencia y expresión culturales (CCEC).",
+      "El primer bloque “ciudadanía responsable” tiene como objetivo conocer y tomar conciencia del impacto social y",
+      "ambiental que las actuaciones económicas tienen en el entorno, de modo que la economía social sea una herramienta y una oportunidad de transformación social. En este apartado se abordan las relaciones institucionales de las personas entre sí y con entidades sociales, ciudadanas, democráticas y solidarias que contribuyen al desarrollo sostenible.",
+      "Ofrece la oportunidad de conocer la existencia de un amplio abanico de entidades en funcionamiento de economía social, cívicas, democráticas y solidarias que permiten dar solución a los problemas personales y sociales que surgen a lo largo de la vida. Es decir, desarrolla el conocimiento de los principios de un modelo económico basado en la solidaridad y la corresponsabilidad, sustentado en los principios de equidad, justicia, fraternidad económica, solidaridad y el funcionamiento democrático.",
+      "Por último, trata de aportar una primera visión de la organización real de los diferentes agentes económicos, políticos y sociales incidiendo en la importancia del estado de bienestar y el papel que juega en nuestras vidas, determinando los derechos de la ciudadanía en un marco donde se combate la desigualdad y se persiguen los Objetivos de Desarrollo Sostenible.",
+      "El segundo bloque, “finanzas éticas”, desarrolla el conocimiento básico que establece PISA para fomentar una ciudadanía con criterio financiero, además de la motivación y confianza para aplicarlos y comprenderlos con el fin de tomar decisiones concretas en diferentes contextos que permitan mejorar el bienestar financiero individual de manera solidaria integrado en una sociedad. El tercer bloque de “consumo responsable” promueve una educación para el desarrollo sostenible, entendido como aquel que satisface las necesidades de la generación presente sin comprometer la capacidad para las generaciones futuras. Para ello, es necesario conocer las conductas de consumidores y empresas cuando interactúan en diferentes tipos de mercados poniendo en valor el comercio local y las actividades económicas más próximas.",
+      "El cuarto bloque será el planteamiento de un “proyecto solidario” prioritariamente, y si es posible, mediante la colaboración con una entidad pública o privada que desarrolle actuaciones sociales y solidarias en el entorno. El fin de este proyecto es enfocar todos los conocimientos, actitudes y destrezas que se desarrollan durante el curso para aplicarlo a la realidad creando valor en el territorio. La metodología de aprendizaje basado en servicios permite un abanico de posibilidades para desarrollar la competencia y criterios correspondientes a este bloque. Tanto las competencias específicas, los criterios de evaluación como los saberes básicos están diseñados para constituir un todo que facilite el planteamiento de tareas complejas, individuales o colectivas, en diferentes contextos, significativas y relevantes, permitiendo desarrollar los aspectos fundamentales de la Economía. En definitiva, se trata de recibir una formación impartida por profesorado científica y didácticamente especializado en un contexto educativo de contenidos, estrategias de actuación, actitudes críticas y competencias que son esenciales a lo largo de la vida.",
+      "Se propone realizar la concreción curricular de esta materia desde una perspectiva teórico-práctica planteando los saberes mediante un enfoque socioconstructivista. El alumnado será capaz de catalizar el conocimiento del día al día para construir el saber al producirse la interacción del conocimiento científico y cotidiano; es decir, esta materia trata de ampliar la reflexión sobre las actividades económicas desde la perspectiva de investigar sobre el medio y adquirir la formación necesaria para desenvolverse en las sociedades democráticas contribuyendo de modo efectivo al desarrollo económico."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Entender la organización política del país y los organismos internacionales más relevantes adquiriendo una visión global de las instituciones y normas generales que hacen posible la convivencia en seguridad y paz a fin de la consecución del desarrollo sostenible."
+      },
+      "descripcion": {
+        "es": [
+          "El conocimiento de los principios de un modelo económico basado en la solidaridad y la corresponsabilidad,",
+          "sustentado en los principios de equidad, justicia, fraternidad económica, solidaridad y el funcionamiento democrático. Las normas que se establecen en democracia parten de la necesidad de convivir en paz consiguiendo un desarrollo sostenible para toda la ciudadanía que aporte seguridad y red de apoyo mutuo con el objetivo de mejorar la vida de todas las personas. Se considera necesario conocer la función de las instituciones públicas, su organización y",
+          "renovación, así como los cauces de participación ciudadana. Ser conscientes del funcionamiento de la vida en sociedad como estructura nos permite sentirnos parte activa y no meros receptores de obligaciones y/o derechos.",
+          "La modernización de las administraciones y su adaptación a las nuevas tecnologías ha desarrollado una nueva relación con la administración por medio de aplicaciones que son necesarias para las cuestiones burocráticas fundamentales.",
+          "Esta competencia específica se vincula con CE.ES.2. y CE.ES.3. correspondientes al bloque de saberes A - “Ciudadanía solidaria” – con el fin de participar en la sociedad de forma individual bajo una perspectiva solidaria.",
+          "Vinculación con CE de otras materias:",
+          "Educación en Valores Cívicos y Éticos CE.EVCE.2. para el conocimiento de normas y valores éticos que rigen la sociedad.",
+          "Geografía e Historia CE.GH.5. y CE.GH.9. que trata sobre el conocimiento de los valores democráticos que cimentan nuestro Estado de Derecho y el logro de la igualdad y redistribución de la renta.",
+          "CCL2, CC1, CC2, CC3, CC4, CE3, CCEC1",
+          "Competencia específica de la materia Economía social 2:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          170,
+          171
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Comprender el estado de bienestar como garante democrático de los derechos sociales básicos, analizar las fuentes de ingresos y gastos del Estado; así como determinar el impacto para la sociedad de la desigualdad de la renta y estudiar las herramientas de redistribución."
+      },
+      "descripcion": {
+        "es": [
+          "La “Economía del Bienestar” es entendida como la disciplina encargada de diseñar los instrumentos del sector público que permiten financiar y establecer políticas redistributivas mediante ingresos tributarios para sostener el suministro de bienes públicos, pago de subsidios o pensiones.",
+          "Se define ciudadanía como conjunto de prácticas jurídicas políticas, económicas y culturales que conforman a una persona como miembro competente de la sociedad y que, como consecuencia, configuran los flujos de recursos hacia las personas y los grupos sociales. El ejercicio de la ciudadanía debe ser activa y transformadora comprometida con la gestión equitativa para lograr el desarrollo económico y social.",
+          "Esta competencia específica se vincula con CE.ES.1. y CE.ES.3. correspondientes al bloque de saberes A - “Ciudadanía solidaria” – con el fin de participar en la sociedad de forma individual bajo una perspectiva solidaria.",
+          "Vinculación con CE de otras materias:",
+          "Educación en Valores Cívicos y Éticos CE.EVCE.2. para el conocimiento de normas y valores éticos que rigen la sociedad.",
+          "Geografía e Historia CE.GH.5. que trata sobre el conocimiento de los valores democráticos que cimentan nuestro Estado de Derecho.",
+          "CCL2, CCL5, CD1, CC1, CC2, CC3, CC4, CE1",
+          "Competencia específica de la materia Economía social 3:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          171
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar problemas sociales del entorno, la implicación individual en la sociedad y plantear soluciones"
+      },
+      "descripcion": {
+        "es": [
+          "relacionándolas con los Objetivos de Desarrollo Sostenible.",
+          "Una sociedad tan dinámica y flexible como la actual requiere de una gestión autoconsciente de los proyectos empleando criterios racionales y éticos. Es necesaria la formación especializada en el empleo de los instrumentos destinados a la gestión de proyectos transformadores de la realidad social.",
+          "El pacto para alcanzar los Objetivos de Desarrollo Sostenible establecidos en la Agenda 2030 es de necesaria aplicación en todos los niveles. El alumnado valorará este proceso desde un punto de vista analítico y no solamente descriptivo, proponiendo cambios en las acciones cotidianas para el logro de estos objetivos.",
+          "Esta competencia específica se vincula con CE.ES.1. y CE.ES.2. correspondientes al bloque de saberes A - “Ciudadanía responsable” – con el fin de participar en la sociedad de forma individual bajo una perspectiva solidaria.",
+          "Vinculación con CE de otras materias:",
+          "Economía y Emprendimiento CE.EE.3. en la búsqueda de soluciones innovadoras y sostenibles que den respuestas a las necesidades locales y globales detectadas.",
+          "Geografía e Historia CE.GH.3. que trata con perspectiva histórica los desafíos para buscar de manera innovadora los retos presentes.",
+          "CCL2, CD2, CPSAA1, CC3, CC4, CE1, CE2, CE3",
+          "Competencia específica de la materia Economía social 4:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          171,
+          172
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Reconocer el funcionamiento del dinero, fenómenos monetarios básicos y las principales instituciones financieras."
+      },
+      "descripcion": {
+        "es": [
+          "El dinero es la unidad que permite la acumulación y el intercambio en la sociedad. Su funcionamiento es desconocido y en torno a él existen instituciones financieras que desempeñan un papel fundamental en su circulación rigiéndose por unas normas dentro de un marco ético que facilita unas relaciones adecuadas entre las personas.",
+          "Antes de gestionar las finanzas personales, es necesario reconocer la función dinero como instrumento de pago y conocer su funcionamiento.",
+          "Esta competencia específica se vincula con CE.ES.5. y CE.ES.6. correspondientes al bloque de saberes B - “Finanzas éticas” – con el fin de tratar con perspectiva social las finanzas personales.",
+          "Vinculación con CE de otras materias:",
+          "Economía y Emprendimiento CE.EE.6. permite que el alumnado comprenda previamente conceptos de finanzas personales antes que aplicarlas al proyecto empresarial.",
+          "CCL2, CCL3, CD1, CPSAA2, CPSAA4, CC3, CC4, CCEC3",
+          "Competencia específica de la materia Economía social 5:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          172
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Investigar sobre los productos financieros básicos como las cuentas y tarjetas bancarias, préstamos e"
+      },
+      "descripcion": {
+        "es": [
+          "hipotecas y otros productos de inversión bajo el prisma de la banca ética.",
+          "El alumnado deberá indagar sobre los productos financieros básicos y conocer los diferentes tipos de inversiones, realizará juicios éticos y propuestas de soluciones concretas a partir de datos sobre situaciones financieras específicas. El surgimiento de nuevos modos de inversión, como pueden ser las criptomonedas u otros, hace que sea vital el conocimiento de las herramientas generales para analizar la viabilidad de una inversión y su repercusión social.",
+          "Esta competencia específica se vincula con CE.ES.4. y CE.ES.6. correspondientes al bloque de saberes B - “Finanzas éticas” – con el fin de tratar con perspectiva social las finanzas personales.",
+          "Vinculación con CE de otras materias:",
+          "Economía y Emprendimiento CE.EE.6. permite que el alumnado comprenda previamente conceptos de finanzas personales antes que aplicarlas al proyecto empresarial.",
+          "Matemáticas CE.M.6. permitiendo al alumnado aplicar al mundo real los conceptos matemáticos aprendidos.",
+          "CCL3, STEM 1, CD1, CD4, CC3, CC4, CE1",
+          "Competencia específica de la materia Economía social 6:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          172,
+          173
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Realizar un presupuesto personal distinguiendo entre los diferentes tipos de ingresos y gastos, controlar su grado de cumplimiento y las posibles necesidades de adaptación; además, expresar una actitud positiva hacia en ahorro empleándolo solidariamente como medio para alcanzar objetivos individuales y sociales."
+      },
+      "descripcion": {
+        "es": [
+          "Poner en valor el ahorro y la planificación del presupuesto desde edades tempranas hace que el alumnado desarrolle un hábito positivo y conozca herramientas útiles para enfrentarse a su desarrollo personal de modo determinante desde su primera incorporación a la vida académica y profesional. A través de esta competencia, se adquiere la capacidad de gestionar un presupuesto personal, identifica las posibles fuentes de ingresos y planifica los gastos personales clasificándolos según su naturaleza empleando el ahorro de manera ética y solidaria.",
+          "Esta competencia específica se vincula con CE.ES.4. y CE.ES.5. correspondientes al bloque de saberes B - “Finanzas éticas” – con el fin de tratar con perspectiva social las finanzas personales.",
+          "Vinculación con CE de otras materias:",
+          "Economía y Emprendimiento CE.EE.6. permite que el alumnado comprenda previamente conceptos de finanzas personales antes que aplicarlas al proyecto empresarial.",
+          "Matemáticas CE.M.6. permitiendo al alumnado aplicar al mundo real los conceptos matemáticos aprendidos.",
+          "CD1, CD2, STEM3, STEM4, CPSAA1, CPSAA5, CE3",
+          "Competencia específica de la materia Economía social 7:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          173
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Asimilar el consumo responsable valorando las repercusiones de las decisiones individuales en la sociedad."
+      },
+      "descripcion": {
+        "es": [
+          "El alumnado debe valorar la repercusión que las decisiones individuales causan en nuestro entorno inmediato. En esta etapa es necesaria una educación para el consumo que habilite para una defensa activa de los derechos de la ciudadanía ante abusos o prácticas comerciales irregulares; conocer los derechos que asisten a usuarios, comprender",
+          "las condiciones de los contratos y ser conscientes de las técnicas de marketing que emplean las empresas bajo la reflexión sobre las actitudes que cuestionen el consumo irracional.",
+          "Esta competencia específica se vincula con CE.ES.8 y CE.ES.9 correspondientes al bloque de saberes C - “Consumo responsable” – a fin de valorar las repercusiones de los actos individuales sobre la sociedad con el objetivo de perseguir un consumo sostenible y solidario.",
+          "Vinculación con CE de otras materias:",
+          "Biología y Geología CE.BG.5 con el fin de incidir en el análisis de los efectos de determinadas acciones sobre el medio ambiente y la salud para promover y adoptar hábitos compatibles con un desarrollo sostenible.",
+          "Educación en Valores Cívicos y Éticos CE.EVCE.3. y CE.EVCE.4. entendiendo la naturaleza interconectada e inter y ecodependiente de las actividades humanas, mediante la identificación y análisis de problemas a fin de promover hábitos y actitudes éticamente comprometidos con el logro de formas de vida sostenibles.",
+          "Matemáticas CE.M.2. a fin de analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando las respuestas obtenidas, para verificar su validez e idoneidad desde el punto de vista matemático y su repercusión global.",
+          "CCL2, CCL3, CD1, CD3, CD4, CC3, CC4, CE2",
+          "Competencia específica de la materia Economía social 8:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          173,
+          174
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Analizar las implicaciones sociales del comercio local y evaluar las actividades económicas del entorno."
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de la capacidad de observación real del entorno dota al alumnado de herramientas para obtener una visión desde lo local a lo global. El conocimiento de la actividad económica más próxima consigue que se reflexione sobre las propias decisiones para el fomento y la valoración de las repercusiones que tiene en la economía. El alumnado debe desarrollar la conciencia necesaria sobre los procedimientos de la generación de valor añadido que realiza el comercio local y de proximidad, así como los efectos sobre las condiciones de vida de las personas. Esta materia persigue la comprensión de que las conductas personales del entorno próximo pueden tener repercusiones en ámbitos más amplios, tanto ambientales como en otros vinculados con la solidaridad interpersonal e intergeneracional.",
+          "Esta competencia específica se vincula con CE.ES.7. y CE.ES.9. correspondientes al bloque de saberes C - “Consumo responsable” – a fin de valorar las repercusiones de los actos individuales sobre la sociedad con el objetivo de perseguir un consumo sostenible y solidario.",
+          "Vinculación con CE de otras materias:",
+          "Digitalización CE.D.4. a fin de ejercer una ciudadanía digital crítica, conociendo las posibles acciones que se realizan en la red, e identificando sus repercusiones, para hacer un uso activo, responsable y ético de la tecnología. Educación en Valores Cívicos y Éticos CE.EVCE.3. entendiendo la naturaleza interconectada e inter y ecodependiente de las actividades humanas que supone el compromiso con el comercio justo.",
+          "CCL5, CD4, CPSAA3, CPSAA4, CPSAA5, CC4, CE2",
+          "Competencia específica de la materia Economía social 9:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          174,
+          175
+        ]
+      }
+    },
+    {
+      "id": "ce-9",
+      "codigoOficial": "9",
+      "enunciado": {
+        "es": "Conocer los trámites más básicos sobre consumo y reclamaciones en diferentes ámbitos."
+      },
+      "descripcion": {
+        "es": [
+          "A partir de esta competencia, el alumnado pretende alcanzar el conocimiento necesario para identificar y comprender el contenido de documentos cotidianos con el fin de perseguir un acceso a la información para toda la ciudadanía de forma que se consiga la equidad combatiendo la vulnerabilidad del consumidor.",
+          "Esta competencia específica se vincula con CE.ES.7. y CE.ES.8. correspondientes al bloque de saberes C - “Consumo responsable” – a fin de valorar las repercusiones de los actos individuales sobre la sociedad con el objetivo de perseguir un consumo sostenible y solidario.",
+          "Vinculación con CE de otras materias:",
+          "Digitalización CE.D.4. a fin de ejercer una ciudadanía digital crítica, conociendo las posibles acciones a realizar en la red identificando sus repercusiones para hacer un uso activo, responsable y ético de la tecnología.",
+          "Lengua Castellana y Literatura CE.LCL.2. con la identificación de noticias falsas, interpretación de textos escritos y orales.",
+          "CCL2, CCL5, STEM 4, CD1, CD5, CC4, CE2",
+          "Competencia específica de la materia Economía social 10:"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          175
+        ]
+      }
+    },
+    {
+      "id": "ce-10",
+      "codigoOficial": "10",
+      "enunciado": {
+        "es": "Diseñar un proyecto solidario que genere valor en el entorno."
+      },
+      "descripcion": {
+        "es": [
+          "La situación actual requiere de una ciudadanía capaz de detectar problemas sociales u oportunidades a fin de dar viabilidad a soluciones asociativas concretas o a negocios que creen empleo y bienestar para contribuir al progreso del entorno. Se debe incentivar la formación de ciudadanos y ciudadanas comprometidos con el desarrollo armónico y sostenible de las personas en el medio. A partir de las ideas y conceptos desarrollados en el curso, se resolverá un problema real detectado aplicando las técnicas de organización del trabajo en equipo y distribución de tareas, además de la resolución de conflictos interpersonales que deberán afrontar. Se valorará de forma positiva la posibilidad de colaborar con una entidad o institución próxima que desarrolle proyectos sociales y/o solidarios.",
+          "Esta competencia específica se vincula con las otras nueve competencias de la materia de Economía social para dar sentido global a todos los conceptos asimilados durante los diferentes bloques comprendiendo la economía desde una perspectiva social y altruista.",
+          "Vinculación con CE de otras materias:",
+          "Economía y Emprendimiento CE.EE.3. en la búsqueda de soluciones innovadoras y sostenibles que den respuestas a las necesidades locales y globales detectadas.",
+          "Educación en Valores Cívicos y Éticos CE. EVCE.3. y CE. EVCE.4. entendiendo la naturaleza interconectada e inter y ecodependiente de las actividades humanas, mediante la identificación y análisis de problemas a fin de promover hábitos y actitudes éticamente comprometidos con el logro de formas de vida sostenibles.",
+          "Matemáticas CE.M.2. a fin de analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando las respuestas obtenidas, para verificar su validez e idoneidad desde el punto de vista matemático y su repercusión global.",
+          "Digitalización CE.D.4. a fin de ejercer una ciudadanía digital crítica, conociendo las posibles acciones a realizar en la red identificando sus repercusiones para hacer un uso activo, responsable y ético de la tecnología.",
+          "CCL5, STEM 3, STEM5, CD3, CPSAA1, CPSAA4, CPSAA5, CC3, CE1, CE2, CE3,"
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          175,
+          176
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender la organización territorial y política del país."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar la necesidad de normas de convivencia pactadas y consensuadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer los cauces de participación ciudadana."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Investigar sobre aplicaciones y herramientas de la administración electrónica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer el significado de estado de bienestar relacionándolo con servicios públicos cotidianos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar los ingresos y gastos del Estado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Reconocer la importancia del sistema público de Seguridad Social describiendo su funcionamiento básico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-4",
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar los impuestos básicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Comprender los Objetivos de Desarrollo Sostenible y valorar su importancia en el futuro desarrollo de la economía y la sociedad, analizando la actuación que se están llevando a cabo en el entorno en aras de su consecución y cumplimiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar problemas cercanos concretos y plantear soluciones sostenibles de acuerdo con los ODS."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer el origen del dinero y sus funciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Describir fenómenos monetarios básicos y su repercusión social."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar las diferentes cuentas y tarjetas bancarias que existen, así como los nuevos modelos de pago reconociendo las ventajas e inconvenientes para cada una de las alternativas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Valorar el riesgo de la rentabilidad de los préstamos, hipotecas y otros tipos de inversión analizando su repercusión individual y social."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reconocer la necesidad de examinar detenidamente los productos financieros."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Elaborar con herramientas informáticas el seguimiento de un presupuesto o plan financiero personalizado, identificando cada uno de los ingresos y gastos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Comprender las necesidades de planificación del ahorro y manejo de los asuntos financieros a lo largo de la vida."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              176
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar las ventajas e inconvenientes del endeudamiento valorando el riesgo y selección de la decisión más adecuada para cada momento. Reconoce la repercusión social de la deuda."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Entender el consumo como un acto consciente, premeditado y crítico sujeto a la presión de la publicidad y otros agentes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Identificar los derechos de los consumidores, instituciones y oficinas que se dedican a la atención al consumidor."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-7-3",
+          "codigoOficial": "7.3",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Reconocer las estafas de consumo más recurrentes y el procedimiento para denunciarlas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Reconocer los sectores y las actividades económicas más importantes del entorno."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Investigar sobre el comercio local y evaluar su valor social."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-8-3",
+          "codigoOficial": "8.3",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Examinar las marcas de identidad propias como pueden ser las denominaciones de origen y otros sellos de calidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-9-1",
+          "codigoOficial": "9.1",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Distinguir facturas de diferentes sectores."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-9-2",
+          "codigoOficial": "9.2",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Conocer la estructura de un contrato y sus cláusulas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-10-1",
+          "codigoOficial": "10.1",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Aplicar técnicas de gestión de manera colaborativa, buscando la efectividad de sus actos y con criterios de eficiencia, optimizando el uso de los recursos a su alcance para lograr el objetivo planteado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-10-2",
+          "codigoOficial": "10.2",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Planifica y organiza el trabajo para ejecutarlo. Toma las decisiones en su área de acción y colabora en la planificación del resto del equipo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-10-3",
+          "codigoOficial": "10.3",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Presentar los resultados obtenidos utilizando formatos digitales interpretando gráficos y datos concretos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        },
+        {
+          "id": "cri-3-10-4",
+          "codigoOficial": "10.4",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Internalizar los aprendizajes a lo largo del proceso de esta materia y reflexionar sobre la adquisición de las competencias específicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              177
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Ciudadanía solidaria"
+          },
+          "apartados": [
+            {
+              "codigo": "A.1",
+              "nombre": {
+                "es": "Instituciones públicas y su relación con la ciudadanía."
+              },
+              "saberes": [
+                {
+                  "id": "ES.3.A.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Concepto de Estado y su organización básica."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.A.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Utilización de herramientas de participación ciudadana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.A.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Gestión de la relación de la administración pública con los ciudadanos y las ciudadanas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.A.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Implicaciones de los derechos básicos de la ciudadanía y la responsabilidad con la administración."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.2",
+              "nombre": {
+                "es": "Estado de bienestar y educación tributaria"
+              },
+              "saberes": [
+                {
+                  "id": "ES.3.A.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Definición de estado de bienestar y Seguridad Social."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.A.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento de los impuestos básicos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.A.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de los impuestos relacionándolos con los bienes y servicios públicos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.A.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Análisis e interpretación de las políticas de redistribución de la renta."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.3",
+              "nombre": {
+                "es": "Objetivos de Desarrollo Sostenible (ODS)"
+              },
+              "saberes": [
+                {
+                  "id": "ES.3.A.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conocimiento de los Objetivos de Desarrollo Sostenible (ODS) y su implicación en la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.A.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de los ODS en las acciones cotidianas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.A.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reflexión ética sobre los ODS en la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Finanzas éticas"
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Dinero y transacciones monetarias"
+              },
+              "saberes": [
+                {
+                  "id": "ES.3.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Concepto de dinero y sus funciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Fenómenos de inflación y deflación. Tipos de interés."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Interpretación de textos periodísticos sobre fenómenos monetarios básicos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Análisis de la realidad económica reconociendo los efectos negativos y/o positivos de las políticas monetarias sobre la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      178
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Banca ética"
+              },
+              "saberes": [
+                {
+                  "id": "ES.3.B.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Definición de préstamo, hipoteca y otros productos de inversión nuevos y tradicionales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Investigación de los diferentes productos bancarios y modos de pago."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Evaluación de alternativas de inversión."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Interpretación de los diferentes productos financieros discerniendo entre riesgo y rentabilidad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.2.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reflexión ética del valor individual y social de los productos financieros."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.3",
+              "nombre": {
+                "es": "Presupuesto personal"
+              },
+              "saberes": [
+                {
+                  "id": "ES.3.B.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Distinción entre ingresos, gastos fijos, gastos variables y ahorro."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Elaboración de un presupuesto financiero doméstico."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de las herramientas para el ahorro personal, así como el control del gasto y del endeudamiento."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.B.3.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Análisis de la repercusión social que tiene el ahorro y el endeudamiento personal en la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Consumo responsable"
+          },
+          "apartados": [
+            {
+              "codigo": "C.1",
+              "nombre": {
+                "es": "Consumo y sostenibilidad"
+              },
+              "saberes": [
+                {
+                  "id": "ES.3.C.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conocimiento del consumo responsable."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.C.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación del consumo responsable de forma individual y la implicación social de los actos del individuo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.C.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reflexión ética sobre la necesidad de un consumo responsable en la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.2",
+              "nombre": {
+                "es": "Comercio local y actividad económica del entorno"
+              },
+              "saberes": [
+                {
+                  "id": "ES.3.C.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Identificación de los sectores más importantes del entorno."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.C.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación del consumo responsable en el comercio local e interpretación de los indicadores de la actividad económica próxima."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.C.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Implicaciones sociales del comercio local y de la actividad económica."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.3",
+              "nombre": {
+                "es": "Leer y entender documentos sobre trámites cotidianos"
+              },
+              "saberes": [
+                {
+                  "id": "ES.3.C.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Concepto de factura y contrato."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.C.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de trámites económicos cotidianos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                },
+                {
+                  "id": "ES.3.C.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Análisis sobre la necesidad de procesar información económica para alcanzar la equidad en la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      179
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Proyecto solidario"
+          },
+          "saberes": [
+            {
+              "id": "ES.3.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conocimiento de las cooperativas y asociaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  179
+                ]
+              }
+            },
+            {
+              "id": "ES.3.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Realización de negociaciones y asignación de roles."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  179
+                ]
+              }
+            },
+            {
+              "id": "ES.3.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Resolución de trámites administrativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  179
+                ]
+              }
+            },
+            {
+              "id": "ES.3.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Análisis y consecución de objetivos sociales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  179
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

@@ -1,0 +1,1909 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.eso.fisica-y-quimica",
+  "territorio": "es-ar",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "FQ",
+    "nombre": {
+      "es": "Física y Química"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 3,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-156-orden-ecd-1172-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1172/2022, de 2 de agosto, por la que se aprueban el currículo y las características de la evaluación de la Educación Secundaria Obligatoria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-11",
+      "cve": "1234469220606",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234469220606&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926624&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 341,
+        "hasta": 376
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La formación integral del alumnado requiere de una alfabetización científica en la etapa de la Educación Secundaria, como continuidad a los aprendizajes de las ciencias de la naturaleza en Educación Primaria, pero con un nivel de profundización mayor en las diferentes áreas de conocimiento de la ciencia. En esta alfabetización científica, disciplinas como la Física y la Química juegan un papel decisivo para comprender el funcionamiento del universo y las leyes que lo gobiernan, y proporciona a los alumnos y alumnas los conocimientos, destrezas y actitudes de la ciencia que les permiten desenvolverse con criterio fundamentado en un mundo en continuo desarrollo científico, tecnológico, económico y social, promoviendo acciones y conductas que provoquen cambios hacia un mundo más justo e igualitario.",
+      "El desarrollo curricular de la materia de Física y Química en la Educación Secundaria responde al marco competencial de la LOMLOE, por lo tanto, contribuye al desarrollo de las competencias clave y de los objetivos de etapa que en ella se han definido para la Educación Secundaria Obligatoria. Las competencias clave reflejadas en el Perfil de salida del alumnado al término de la enseñanza básica se concretan para la materia de Física y Química en sus competencias específicas, un conjunto de competencias relacionadas entre sí y definidas por la necesidad de contribuir al desarrollo de las competencias clave a través de esta materia. Son estas competencias específicas las que justifican cuáles son el resto de los elementos del currículo de la materia de Física y Química en la Educación Secundaria Obligatoria, necesarios para responder con precisión a dos de las necesidades curriculares del alumnado: los saberes básicos de la materia y los criterios de evaluación de los mismos. Todos ellos están definidos de manera competencial para asegurar el desarrollo de las competencias clave más allá de una memorización de contenidos, porque solo de esta forma el alumnado será capaz de desarrollar el pensamiento científico para enfrentarse a los posibles problemas de la sociedad que le rodea y disfrutar de un conocimiento más profundo del mundo.",
+      "Por este motivo, Física y Química en la Educación Secundaria Obligatoria, materia englobada en lo que se conoce como disciplinas STEM, propone el uso de las metodologías propias de la ciencia, abordadas a través del trabajo cooperativo interdisciplinar, y su relación con el desarrollo socioeconómico, que estén enfocadas a la formación de alumnos y alumnas competentes comprometidos con los retos del mundo actual y los objetivos de desarrollo sostenible y que proporcionen a la materia un enfoque constructivo, crítico y emprendedor.",
+      "La evaluación de las competencias específicas se realiza teniendo en cuenta los criterios de evaluación. Las competencias específicas se enlazan con los descriptores del perfil competencial de salida del alumnado al finalizar la enseñanza básica. Con ello, el currículo de Física y Química pretende que la evaluación de los alumnos y alumnas vaya más allá de la comprobación de que han memorizado conceptos, enfocándose más bien al desempeño de los procesos cognitivos asociados al pensamiento científico competencial.",
+      "En cuanto a los saberes básicos de esta materia, contemplan conocimientos, destrezas y actitudes básicas de estas áreas de conocimiento y se encuentran estructurados en los que tradicionalmente han sido los grandes bloques de conocimiento de la Física y la Química: la materia, la energía, la interacción y el cambio. Además, este currículo propone la existencia de un bloque de saberes comunes que hace referencia a las metodologías de la ciencia y a su importancia en el desarrollo de estas áreas de conocimiento. En este bloque se establece además la relación de la ciencia con una de sus herramientas más potentes, las matemáticas, que ofrecen un lenguaje de comunicación formal y que incluyen los conocimientos previos del alumnado y los que se adquieren a lo largo de esta etapa educativa. Se incide en el papel destacado de las mujeres a lo largo de la historia de la Ciencia como forma de ponerlo en valor y fomentar nuevas vocaciones femeninas hacia el campo de las ciencias experimentales y la tecnología.",
+      "En el bloque de la materia los alumnos y alumnas trabajarán los conocimientos básicos sobre la constitución interna de las sustancias, describiendo cómo es la estructura de los elementos y de los compuestos químicos y las propiedades macroscópicas y microscópicas de la materia, preparándose para profundizar en estos contenidos en cursos posteriores.",
+      "Con el bloque de energía el alumnado profundiza en los conocimientos que adquirió en la Educación Primaria, como las fuentes de energía y sus usos prácticos, o los conceptos básicos acerca de las formas de energía. Adquiere, además,",
+      "en esta etapa las destrezas y las actitudes que están relacionadas con el desarrollo social y económico del mundo real y sus implicaciones medioambientales.",
+      "En el bloque de interacción se describen cuáles son los efectos principales de las interacciones fundamentales de la naturaleza y el estudio básico de las principales fuerzas del mundo natural, así como sus aplicaciones prácticas en campos tales como la astronomía, el deporte, la ingeniería, la arquitectura o el diseño.",
+      "Por último, el bloque de los cambios aborda las principales transformaciones físicas y químicas de los sistemas materiales y naturales, así como los ejemplos más frecuentes del entorno y sus aplicaciones y contribuciones a la creación de un mundo mejor.",
+      "Todos estos elementos curriculares, competencias específicas, criterios de evaluación y saberes básicos, están relacionados entre sí formando un todo que dota al currículo de esta materia de un sentido integrado y holístico, relación a la que también debería aspirar cualquier programación de aula.",
+      "La construcción de la ciencia y el desarrollo del pensamiento científico durante todas las etapas del desarrollo del alumnado parte del planteamiento de cuestiones científicas basadas en la observación directa o indirecta del mundo en situaciones y contextos habituales, en su intento de explicación a partir del conocimiento, de la búsqueda de evidencias y de la indagación y en la correcta interpretación de la información que a diario llega al público en diferentes formatos y a partir de diferentes fuentes. Por eso, el enfoque que se le dé a esta materia a lo largo de esta etapa educativa debe incluir un tratamiento experimental y práctico que amplíe la experiencia de los alumnos y alumnas más allá de lo académico y les permita hacer conexiones con sus situaciones cotidianas, lo que contribuirá de forma significativa a que todos desarrollen las destrezas características de la ciencia. De esta manera se pretende potenciar la creación de vocaciones científicas en los alumnos y alumnas para conseguir que haya un número mayor de estudiantes que opten por continuar su formación en itinerarios científicos en las etapas educativas posteriores y proporcionar a su vez una completa base científica para el alumnado que desee cursar itinerarios no científicos."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Comprender y relacionar los motivos por los que ocurren los principales fenómenos fisicoquímicos del entorno, explicándolos en términos de las leyes y teorías científicas adecuadas, para resolver problemas con el fin de aplicarlas para mejorar la realidad cercana y la calidad de vida humana."
+      },
+      "descripcion": {
+        "es": [
+          "La esencia del pensamiento científico es comprender cuáles son los porqués de los fenómenos que ocurren en el medio natural para tratar de explicarlos a través de las leyes físicas y químicas adecuadas. Comprenderlos implica entender las causas que los originan y su naturaleza, permitiendo al alumnado actuar con sentido crítico para mejorar, en la medida de lo posible, la realidad cercana a través de la ciencia.",
+          "El desarrollo de esta competencia específica conlleva hacerse preguntas para comprender cómo es la naturaleza del entorno, cuáles son las interacciones que se producen entre los distintos sistemas materiales y cuáles son las causas y las consecuencias de las mismas. Esta comprensión dota al alumnado de fundamentos críticos para la toma de decisiones, activa los procesos de resolución de problemas y, a su vez, posibilita la creación de nuevo conocimiento científico a través de la interpretación de fenómenos, el uso de herramientas científicas y el análisis de los resultados que se obtienen. Todos estos procesos están relacionados con el resto de competencias específicas y se engloban en el desarrollo del pensamiento científico, cuestión especialmente importante en la formación integral de personas competentes. Por tanto, para el desarrollo de esta competencia, el individuo requiere un conocimiento de las formas y procedimientos estándar que se utilizan en la investigación científica y su relación con el mundo natural.",
+          "Esta competencia, como la CE.FQ.2., se enmarca en la puesta en valor del Método Científico como la mejor forma conocida de avanzar en el conocimiento del mundo que nos rodea. Si en esta se pone el énfasis en plantearse preguntas que conduzcan al alumnado a comprender mejor cómo es su entorno, en la CE.FQ.2 se relacionan las",
+          "destrezas propias de la metodología científica. Esta competencia no se puede desarrollar en toda su amplitud sin tener en cuenta la CE.FQ.5. que sitúa al trabajo colaborativo en un lugar destacado para la mejora de la sociedad, las aplicaciones y repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible del medio ambiente, por ende, la realidad cercana y la calidad de vida humana.",
+          "La materia de Física y Química colabora con el resto de las materias al conocimiento del entorno y en este sentido, esta competencia se relaciona con muchas otras competencias específicas de otras materias. Su vinculación es más estrecha con competencias específicas de la materia de Biología y Geología, como la CE.BG.2. que también requiere el tratamiento correcto de la información para responder preguntas. También se relaciona con la competencia CE.GH.3, ya que son interdependientes, siendo necesario conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del tiempo, identificando las causas y consecuencia de los cambios producidos y los problemas a los que se enfrentan en la actualidad, para abordar los fenómenos fisicoquímicos relacionados con ellos, así como contar con las leyes y teorías científicas para comprenderlos y encontrar soluciones.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL1, STEM1, STEM2, STEM4, CPSAA4.",
+          "Competencia específica de la materia Física y Química 2:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          342,
+          343
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando hipótesis para explicarlas y demostrando dichas hipótesis a través de la experimentación científica, la indagación y la búsqueda de evidencias, para desarrollar los razonamientos propios del pensamiento científico y mejorar las destrezas en el uso de las metodologías científicas."
+      },
+      "descripcion": {
+        "es": [
+          "Una característica inherente a la ciencia y al desarrollo del pensamiento científico en la adolescencia es la curiosidad por conocer y describir los fenómenos naturales. Dotar al alumnado de competencias científicas implica trabajar con las metodologías propias de la ciencia y reconocer su importancia en la sociedad. El alumnado que desarrolla esta competencia debe observar, formular hipótesis y aplicar la experimentación, la indagación y la búsqueda de evidencias para comprobarlas y predecir posibles cambios.",
+          "Utilizar el bagaje propio de los conocimientos que el alumnado adquiere a medida que progresa en su formación básica y contar con una completa colección de recursos científicos, tales como las técnicas de laboratorio o de tratamiento y selección de la información, suponen un apoyo fundamental para la mejora de esta competencia. El alumnado que desarrolla esta competencia emplea los mecanismos del pensamiento científico para interaccionar con la realidad cotidiana y tiene la capacidad de analizar, razonada y críticamente, la información que proviene de las observaciones de su entorno, o que recibe por cualquier otro medio, y expresarla y argumentarla en términos científicos.",
+          "Esta competencia se relaciona con la CE.FQ.1., así como con la CE.FQ.3. al considerarse necesario el uso de los lenguajes para el desarrollo de la investigación en todas sus fases. La formulación de hipótesis, su demostración a través de la experimentación, la indagación y la búsqueda de evidencias requieren del manejo con soltura del lenguaje científico.",
+          "Otras materias también contribuyen al desarrollo de esta competencia, como Biología y Geología a través de la CE- BG.4. en la que se plantea que, ante el planteamiento de hipótesis, como la interpretación de datos y resultados, o el diseño experimental requieren aplicar el pensamiento lógico-formal.",
+          "Por otra parte, esta competencia implica la utilización de la indagación, como lo hace la CE.GH.3., que propone el aprendizaje a través de proyectos, retos o problemas como un modo de aprendizaje que otorga al alumnado el",
+          "protagonismo en la construcción del conocimiento y un papel activo en la generación de contenidos por medio de procesos y estrategias de indagación e investigación, a través del manejo de distintas formas de representación gráfica.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL1, CCL3, STEM1, STEM2, CD1, CPSAA4, CE1, CCEC3.",
+          "Competencia específica de la materia Física y Química 3:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CE1",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          343,
+          344
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Manejar con soltura las reglas y normas básicas de la física y la química en lo referente al lenguaje de la IUPAC, al lenguaje matemático, al empleo de unidades de medida correctas, al uso seguro del laboratorio y a la interpretación y producción de datos e información en diferentes formatos y fuentes, para reconocer el carácter universal y transversal del lenguaje científico y la necesidad de una comunicación fiable en investigación y ciencia entre diferentes países y culturas."
+      },
+      "descripcion": {
+        "es": [
+          "La interpretación y la transmisión de información con corrección juegan un papel muy importante en la construcción del pensamiento científico, pues otorgan al alumnado la capacidad de comunicarse en el lenguaje universal de la ciencia, más allá de las fronteras geográficas y culturales del mundo. Con el desarrollo de esta competencia se pretende que el alumnado se familiarice con los flujos de información multidireccionales característicos de las disciplinas científicas y con las normas que toda la comunidad científica reconoce como universales para establecer comunicaciones efectivas englobadas en un entorno que asegure la salud y el desarrollo medioambiental sostenible. Entre los distintos formatos y fuentes, el alumnado debe ser capaz de interpretar y producir datos en forma de textos, enunciados, tablas, gráficas, informes, manuales, diagramas, fórmulas, esquemas, modelos, símbolos, etc. Además, esta competencia requiere que el alumnado evalúe la calidad de los datos, así como que reconozca la importancia de la investigación previa a un estudio científico.",
+          "Con esta competencia específica se desea fomentar la adquisición de conocimientos, destrezas y actitudes relacionadas con el carácter interdisciplinar de la ciencia, la aplicación de normas, la interrelación de variables, la argumentación, la valoración de la importancia de utilizar un lenguaje universal, la valoración de la diversidad, el respeto hacia las normas y acuerdos establecidos, hacia uno mismo, hacia los demás y hacia el medio ambiente, etc., que son fundamentales en los ámbitos científicos por formar parte de un entorno social y comunitario más amplio.",
+          "Los conocimientos, destrezas y actitudes implícitos en esta competencia tienen conexión con otras competencias específicas de la materia de Física y Química, como CE.FQ.1. y CE.FQ.2. El uso correcto de las unidades de medida, así como del resto de elementos propios del lenguaje científico, son fundamentales para conseguir el desarrollo de estas competencias al constituir la base para la elaboración de preguntas relevantes y a partir de ellas colaborar en los procesos de investigación utilizando un lenguaje común que permita una comunicación fluida y eficaz.",
+          "De la misma forma, competencias específicas de las materias de Lengua Castellana (CE.LC.2., CE.LC.3., CE.LC.5.), Lengua Extranjera (CE.LE.1.) y Matemáticas (CE.M.9.), contribuyen en su conjunto a conseguir procesos de comunicación eficaces al enfocarse en la comprensión y la producción de textos utilizando códigos compartidos y reglas comunes básicas para avanzar en otras competencias.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: STEM4, STEM5, CD3, CPSAA2, CC1, CCEC2, CCEC4.",
+          "Competencia específica de la materia Física y Química 4:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "STEM5",
+        "CD3",
+        "CPSAA2",
+        "CC1",
+        "CCEC2",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          344
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social,"
+      },
+      "descripcion": {
+        "es": [
+          "mediante la consulta de información, la creación de materiales y la comunicación efectiva en los diferentes entornos de aprendizaje.",
+          "Los recursos, tanto tradicionales como digitales, adquieren un papel crucial en el proceso de enseñanza y aprendizaje en general, y en la adquisición de competencias en particular, pues un recurso bien seleccionado facilita el desarrollo de procesos cognitivos de nivel superior y propicia la comprensión, la creatividad y el desarrollo personal y social del alumnado. La importancia de los recursos, no solo utilizados para la consulta de información, sino también para otros fines como la creación de materiales didácticos o la comunicación efectiva con otros miembros de su entorno de aprendizaje, dota al alumnado de herramientas para adaptarse a una sociedad que actualmente demanda personas integradas y comprometidas con su entorno.",
+          "Es por este motivo por lo que esta competencia específica también pretende que el alumno o alumna maneje con soltura recursos y técnicas variadas de colaboración y cooperación, que analice su entorno y localice en él ciertas necesidades que le permitan idear, diseñar y fabricar productos que ofrezcan un valor para uno mismo y para los demás.",
+          "Esta competencia se relaciona de forma transversal con casi todas las demás competencias específicas pertenecientes a ésta y a otras materias. Un ejemplo es su relación con la CE.FQ.5 de esta misma materia, cuya estrategia principal es el trabajo colaborativo, el cual se facilita enormemente con el dominio de los recursos y plataformas digitales. Otro ejemplo es su estrecha vinculación con la competencia específica CE.FQ.3 ya que es imprescindible hacer un uso sostenible, crítico y responsable de las tecnologías digitales para procesar y crear correctamente la información científica en diferentes formatos.",
+          "En cuanto a las competencias específicas relacionadas con otras materias, queda patente el vínculo con la CE.LC.2 de la materia Lengua Castellana en la que se valora la necesidad de comprender e interpretar con actitud crítica diferentes tipos de información para participar en diferentes contextos de manera activa e informada y poder construir conocimiento. Además, también es importante señalar la relación con la CE.EE.6 de la materia Economía, emprendimiento, que aborda el proceso de creación de ideas y soluciones valiosas y toma decisiones, de manera razonada, para la creación de prototipos innovadores.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL2, CCL3, STEM4, CD1, CD2, CPSAA3, CE3, CCEC4.",
+          "Competencia específica de la materia Física y Química 5:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          344,
+          345
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento entre iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para comprender la importancia de la ciencia en la mejora de la sociedad, las aplicaciones y repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible del medio ambiente."
+      },
+      "descripcion": {
+        "es": [
+          "Las disciplinas científicas se caracterizan por conformar un todo de saberes integrados e interrelacionados entre sí. Del mismo modo, las personas dedicadas a la ciencia desarrollan destrezas de trabajo en equipo, pues la colaboración, la empatía, la asertividad, la garantía de la equidad entre mujeres y hombres y la cooperación son la base de la construcción del conocimiento científico en toda sociedad. El alumnado competente estará habituado a las formas de trabajo y a las técnicas más habituales del conjunto de las disciplinas científicas, pues esa es la forma de conseguir, a través del emprendimiento, integrarse en una sociedad que evoluciona. El trabajo en equipo sirve para unir puntos de vista diferentes y crear modelos de investigación unificados que forman parte del progreso de la ciencia.",
+          "El desarrollo de esta competencia específica crea un vínculo de compromiso entre el alumno o alumna y su equipo,",
+          "así como con el entorno que le rodea, lo que le habilita para entender cuáles son las situaciones y los problemas más importantes de la sociedad actual y cómo mejorarla, cómo actuar para la mejora de la salud propia y comunitaria y",
+          "cuáles son los estilos de vida que le permiten actuar de forma sostenible para la conservación del medio ambiente desde un punto de vista científico y tecnológico.",
+          "El trabajo colaborativo permite incorporar al propio aprendizaje las perspectivas y las experiencias de los demás para poder participar activamente en el trabajo en grupo empleando estrategias cooperativas, aspecto que comparte con competencias específicas de esta materia como la CE.FQ.4. Por otra parte, el vínculo que se crea entre el alumnado con el entorno que le rodea, le permite emprender acciones fundamentadas científicamente para mejorar ese entorno de forma sostenible aplicando principios de ética y seguridad de la misma forma que se aplica mediante la CE.FQ.3",
+          "En relación a otras materias, esta competencia se vincula con la CE.BG.5 de Biología y Geología, que analiza los efectos de las acciones del ser humano sobre el medio ambiente y la salud y promueve hábitos compatibles con un desarrollo sostenible. Otro aspecto de esta competencia, como es la promoción del crecimiento entre iguales, tiene relación con cualquier materia. De hecho, en la competencia específica CE.M.11 de Matemáticas, se valora la colaboración activa y la construcción de relaciones mediante equipos heterogéneos, en los que se respeten las diferentes opiniones y se produzca una comunicación efectiva, crítica y creativa. Asimismo, la puesta en práctica del trabajo en equipo hace imprescindible el uso ético de la comunicación como herramienta al servicio de la convivencia democrática y de la resolución de conflictos utilizando la argumentación fundamentada y respetuosa con flexibilidad para cambiar las propias concepciones a la vista de los datos aportados por otras personas, competencia que se relaciona con la CE.BG.1 de Biología y Geología.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL5, CP3, STEM3, STEM5, CD3, CPSAA3, CC3, CE2.",
+          "Competencia específica de la materia Física y Química 6:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP3",
+        "STEM3",
+        "STEM5",
+        "CD3",
+        "CPSAA3",
+        "CC3",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          345,
+          346
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y evolución, en la que no solo participan las personas dedicadas a ella, sino que también requiere de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el avance tecnológico, económico, ambiental y social."
+      },
+      "descripcion": {
+        "es": [
+          "Para completar el desarrollo competencial de la materia de Física y Química, el alumno o alumna debe asumir que la ciencia no es un proceso finalizado, sino que está en una continua construcción recíproca con la tecnología y la sociedad. La búsqueda de nuevas explicaciones, la mejora de procedimientos, los nuevos descubrimientos científicos, etc. influyen sobre la sociedad, y conocer de forma global los impactos que la ciencia produce sobre ella es fundamental en la elección del camino correcto para el desarrollo. En esta línea, el alumnado competente debe tener en cuenta valores como la importancia de los avances científicos por y para una sociedad demandante, los límites de la ciencia, las cuestiones éticas y la confianza en los científicos y en su actividad.",
+          "Todo esto forma parte de una conciencia social en la que no solo interviene la comunidad científica, sino que requiere de la participación de toda la sociedad puesto que implica un avance individual y social conjunto.",
+          "Esta competencia específica se relaciona con otras pertenecientes a la misma materia como la CE.FQ.3 en cuanto a la necesidad de usar la lengua de manera apropiada y adecuada para producir información científica en diferentes formatos y fuentes. También se relaciona con la CE.FQ.1 en el conocimiento de los procesos relativos al tratamiento de la información para llegar a conclusiones fiables.",
+          "En cuanto a la relación con las competencias de otras materias, se relaciona con CE.GH.7 de la materia Geografía e",
+          "Historia, por la creación de una conciencia social que nos haga partícipes a todos del progreso y de la conservación del patrimonio; con la competencia CE.EE.3 de la materia Economía y Emprendimiento, por el análisis del impacto que podemos generar en el entorno y la adopción de soluciones; con la competencia CE.M.2 de la materia de Matemáticas, en la que se realizan análisis de soluciones a problemas, evaluando las respuestas y su repercusión global.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: STEM2, STEM5, CD4, CPSAA1, CPSAA4, CC4, CCEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CPSAA4",
+        "CC4",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          346,
+          347
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar, comprender y explicar los fenómenos fisicoquímicos cotidianos más relevantes a partir de los principios, teorías y leyes científicas adecuadas, expresándolos, de manera argumentada, utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              347
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver los problemas fisicoquímicos planteados utilizando las leyes y teorías científicas adecuadas, razonando los procedimientos utilizados para encontrar las soluciones y expresando adecuadamente los resultados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              347
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir en el entorno inmediato situaciones problemáticas reales de índole científica y emprender iniciativas en las que la ciencia, y en particular la física y la química, pueden contribuir a su solución, analizando críticamente su impacto en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              347
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear las metodologías propias de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones a las que se pueda dar respuesta a través de la indagación, la deducción, el trabajo experimental y el razonamiento lógicomatemático, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar, de acuerdo con la naturaleza de las cuestiones que se traten, la mejor manera de comprobar o refutar las hipótesis formuladas, diseñando estrategias de indagación y búsqueda de evidencias que permitan obtener conclusiones y respuestas ajustadas a la naturaleza de la pregunta formulada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas conocidas al formular cuestiones e hipótesis, siendo coherente con el conocimiento científico existente y diseñando los procedimientos experimentales o deductivos necesarios para resolverlas o comprobarlas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear datos en diferentes formatos para interpretar y comunicar información relativa a un proceso fisicoquímico concreto, relacionando entre sí lo que cada uno de ellos contiene, y extrayendo en cada caso lo más relevante para la resolución de un problema."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar adecuadamente las reglas básicas de la física y la química, incluyendo el uso de unidades de medida, las herramientas matemáticas y las reglas de nomenclatura, consiguiendo una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Poner en práctica las normas de uso de los espacios específicos de la ciencia, como el laboratorio de Física y Química, asegurando la salud propia y colectiva, la conservación sostenible del medio ambiente y el cuidado de las instalaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo y la interacción con otros miembros de la comunidad educativa, con respeto hacia docentes y estudiantes y analizando críticamente las aportaciones de cada participante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma adecuada con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando con criterio las fuentes más fiables y desechando las menos adecuadas y mejorando el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas, emprendiendo actividades de cooperación como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emprender, de forma guiada y de acuerdo a la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, que la ciencia es un proceso en permanente construcción y las repercusiones mutuas de la ciencia actual con la tecnología, la sociedad y el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar en el entorno las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad, entendiendo la capacidad de la ciencia para darles solución sostenible a través de la implicación de toda la ciudadanía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las destrezas científicas básicas"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Metodologías de la investigación científica: identificación y formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las mismas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  352
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo experimental y proyectos de investigación: estrategias en la resolución de problemas y en el desarrollo de investigaciones mediante la indagación, la deducción, la búsqueda de evidencias y el razonamiento lógico-matemático, haciendo inferencias válidas de las observaciones y obteniendo conclusiones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  352,
+                  353
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales: materiales, sustancias y herramientas tecnológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  353
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso de cada espacio, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en redes y el respeto hacia el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  353
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje científico: unidades del Sistema Internacional y sus símbolos. Herramientas matemáticas básicas en diferentes escenarios científicos y de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  353
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de interpretación y producción de información científica utilizando diferentes formatos y diferentes medios: desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  353
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos y actuales de la física y la química para el avance y la mejora de la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  353
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La materia"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Teoría cinético-molecular: aplicación a observaciones sobre la materia explicando sus propiedades, los estados de agregación, los cambios de estado y la formación de mezclas y disoluciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  353,
+                  354
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Experimentos relacionados con los sistemas materiales: conocimiento y descripción de sus propiedades, su composición y su clasificación."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  354
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura atómica: desarrollo histórico de los modelos atómicos, existencia, formación y propiedades de los isótopos y ordenación de los elementos en la tabla periódica."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  354
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nomenclatura: participación de un lenguaje científico común y universal formulando y nombrando sustancias simples, iones monoatómicos y compuestos binarios mediante las reglas de nomenclatura de la IUPAC."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  354
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La interacción"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Predicción de movimientos sencillos a partir de los conceptos de la cinemática, formulando hipótesis comprobables sobre valores futuros de estas magnitudes, validándolas a través del cálculo numérico, la interpretación de gráficas o el trabajo experimental."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  354
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las fuerzas como agentes de cambio: relación de los efectos de las fuerzas, tanto en el estado de movimiento o de reposo de un cuerpo como produciendo deformaciones en los sistemas sobre los que actúan."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  354
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de las leyes de Newton: observación de situaciones cotidianas y de laboratorio que permiten entender cómo se comportan los sistemas materiales ante la acción de las fuerzas y predecir los efectos de estas en situaciones cotidianas y de seguridad vial."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  355
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fenómenos gravitatorios eléctricos y magnéticos: experimentos sencillos que evidencian la relación con las fuerzas de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  355
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño y comprobación experimental de hipótesis relacionadas con el uso doméstico e industrial de la energía en sus distintas formas, las transformaciones entre ellas, las principales formas de ahorro energético y el concepto de ahorro energético."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  355
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "La energía"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía: formulación de cuestiones e hipótesis sobre la energía, propiedades y manifestaciones que la describan como la causa de todos los procesos de cambio."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  355
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño y comprobación experimental de hipótesis relacionadas con el uso doméstico e industrial de la energía en sus distintas formas y las transformaciones entre ellas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  355
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elaboración fundamentada de hipótesis sobre el medio ambiente y la sostenibilidad a partir de las diferencias entre fuentes de energía renovables y no renovables."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  355
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Efectos del calor sobre la materia: análisis de los efectos y aplicación en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  355
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.D.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Naturaleza eléctrica de la materia: electrización de los cuerpos, circuitos eléctricos y la obtención de energía eléctrica. Concienciación sobre la necesidad del ahorro energético y la conservación sostenible del medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  355
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "El cambio"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los sistemas materiales: análisis de los diferentes tipos de cambios que experimentan, relacionando las causas que los producen con las consecuencias que tienen."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  355
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar, comprender y explicar los fenómenos fisicoquímicos cotidianos más relevantes a partir de los principios, teorías y leyes científicas adecuadas, expresándolos, de manera argumentada, utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              347
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver los problemas fisicoquímicos planteados utilizando las leyes y teorías científicas adecuadas, razonando los procedimientos utilizados para encontrar las soluciones y expresando adecuadamente los resultados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              347
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir en el entorno inmediato situaciones problemáticas reales de índole científica y emprender iniciativas en las que la ciencia, y en particular la física y la química, pueden contribuir a su solución, analizando críticamente su impacto en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              347
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear las metodologías propias de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones a las que se pueda dar respuesta a través de la indagación, la deducción, el trabajo experimental y el razonamiento lógicomatemático, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar, de acuerdo con la naturaleza de las cuestiones que se traten, la mejor manera de comprobar o refutar las hipótesis formuladas, diseñando estrategias de indagación y búsqueda de evidencias que permitan obtener conclusiones y respuestas ajustadas a la naturaleza de la pregunta formulada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas conocidas al formular cuestiones e hipótesis, siendo coherente con el conocimiento científico existente y diseñando los procedimientos experimentales o deductivos necesarios para resolverlas o comprobarlas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear datos en diferentes formatos para interpretar y comunicar información relativa a un proceso fisicoquímico concreto, relacionando entre sí lo que cada uno de ellos contiene, y extrayendo en cada caso lo más relevante para la resolución de un problema."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar adecuadamente las reglas básicas de la física y la química, incluyendo el uso de unidades de medida, las herramientas matemáticas y las reglas de nomenclatura, consiguiendo una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Poner en práctica las normas de uso de los espacios específicos de la ciencia, como el laboratorio de Física y Química, asegurando la salud propia y colectiva, la conservación sostenible del medio ambiente y el cuidado de las instalaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo y la interacción con otros miembros de la comunidad educativa, con respeto hacia docentes y estudiantes y analizando críticamente las aportaciones de cada participante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma adecuada con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando con criterio las fuentes más fiables y desechando las menos adecuadas y mejorando el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas, emprendiendo actividades de cooperación como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emprender, de forma guiada y de acuerdo a la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, que la ciencia es un proceso en permanente construcción y las repercusiones mutuas de la ciencia actual con la tecnología, la sociedad y el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar en el entorno las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad, entendiendo la capacidad de la ciencia para darles solución sostenible a través de la implicación de toda la ciudadanía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las destrezas científicas básicas"
+          },
+          "saberes": [
+            {
+              "id": "FQ.3.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Metodologías de la investigación científica: identificación y formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las mismas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  356
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo experimental y proyectos de investigación: estrategias en la resolución de problemas y en el desarrollo de investigaciones mediante la indagación, la deducción, la búsqueda de evidencias y el razonamiento lógico-matemático, haciendo inferencias válidas de las observaciones y obteniendo conclusiones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  356
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales: materiales, sustancias y herramientas tecnológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  356
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso de cada espacio, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en redes y el respeto hacia el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  356
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje científico: unidades del Sistema Internacional y sus símbolos. Herramientas matemáticas básicas en diferentes escenarios científicos y de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  356
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de interpretación y producción de información científica utilizando diferentes formatos y diferentes medios: desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  356
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos y actuales de la física y la química para el avance y la mejora de la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  356
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La materia"
+          },
+          "saberes": [
+            {
+              "id": "FQ.3.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Teoría cinético-molecular: aplicación a observaciones sobre la materia explicando sus propiedades, los estados de agregación, los cambios de estado y la formación de mezclas y disoluciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  357
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Experimentos relacionados con los sistemas materiales: conocimiento y descripción de sus propiedades, su composición y su clasificación."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  357
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura atómica: desarrollo histórico de los modelos atómicos, existencia, formación y propiedades de los isótopos y ordenación de los elementos en la tabla periódica."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  357
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales compuestos químicos: su formación y sus propiedades físicas y atómicas, valoración de sus aplicaciones. Masa atómica y masa molecular."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  357
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nomenclatura: participación de un lenguaje científico común y universal formulando y nombrando sustancias simples, iones monoatómicos y compuestos binarios mediante las reglas de nomenclatura de la IUPAC."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  357
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "El cambio"
+          },
+          "saberes": [
+            {
+              "id": "FQ.3.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los sistemas materiales: análisis de los diferentes tipos de cambios que experimentan, relacionando las causas que los producen con las consecuencias que tienen."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  357
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Interpretación macroscópica y microscópica de las reacciones químicas: explicación de las relaciones de la química con el medio ambiente, la tecnología y la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  357
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ley de conservación de la masa y de la ley de las proporciones definidas: aplicación de estas leyes como evidencias experimentales que permiten validar el modelo atómico-molecular de la materia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  358
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Factores que afectan a las reacciones químicas: predicción cualitativa de la evolución de las reacciones, entendiendo su importancia en la resolución de problemas actuales por parte de la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  358
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender y explicar con rigor los fenómenos fisicoquímicos cotidianos a partir de los principios, teorías y leyes científicas adecuadas, expresándolos de manera argumentada, utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              347
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver problemas fisicoquímicos planteados mediante las leyes y teorías científicas adecuadas, razonando los procedimientos utilizados para encontrar las soluciones y expresando los resultados con corrección y precisión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              347
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir situaciones problemáticas reales de índole científica y emprender iniciativas colaborativas en las que la ciencia, y en particular la física y la química, pueden contribuir a su solución, analizando críticamente su impacto en la sociedad y el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              347
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear las metodologías propias de la ciencia en la identificación y descripción de fenómenos científicos a partir de situaciones tanto observadas en el mundo natural como planteadas a través de enunciados con información textual, gráfica o numérica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Predecir, para las cuestiones planteadas, respuestas que se puedan comprobar con las herramientas y conocimientos adquiridos, tanto de forma experimental como deductiva, aplicando el razonamiento lógico-matemático en su proceso de validación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas más importantes para validar hipótesis de manera informada y coherente con el conocimiento científico existente, diseñando los procedimientos experimentales o deductivos necesarios para resolverlas y analizar los resultados críticamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear fuentes variadas, fiables y seguras para seleccionar, interpretar, organizar y comunicar información relativa a un proceso fisicoquímico concreto, relacionando entre sí lo que cada una de ellas contiene, extrayendo en cada caso lo más relevante para la resolución de un problema y desechando todo lo que sea irrelevante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar adecuadamente las reglas básicas de la física y la química, incluyendo el uso correcto de varios sistemas de unidades, las herramientas matemáticas necesarias y las reglas de nomenclatura avanzadas, consiguiendo una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, como el laboratorio de Física y Química, asegurando la salud propia y colectiva, la conservación sostenible del medio ambiente y el cuidado por las instalaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar de forma eficiente recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo y la interacción con otros miembros de la comunidad educativa, de forma rigurosa y respetuosa y analizando críticamente las aportaciones de todos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma versátil con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando y empleando con criterio las fuentes y herramientas más fiables, desechando las menos adecuadas y mejorando el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              348
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas, emprendiendo actividades de cooperación e iniciando el uso de las estrategias propias del trabajo colaborativo, como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emprender, de forma autónoma y de acuerdo a la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico de los avances científicos logrados por mujeres y hombres, así como de situaciones y contextos actuales (líneas de investigación, instituciones científicas, etc.), que la ciencia es un proceso en permanente construcción y las repercusiones e implicaciones sociales, económicas y medioambientales de la ciencia actual en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad, entendiendo la capacidad de la ciencia para darles solución sostenible a través de la implicación de toda la ciudadanía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              349
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las destrezas científicas básicas"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo experimental y proyectos de investigación: estrategias en la resolución de problemas y el tratamiento del error mediante la indagación, la deducción, la búsqueda de evidencias y el razonamiento lógico-matemático, haciendo inferencias válidas de las observaciones y obteniendo conclusiones que vayan más allá de las condiciones experimentales para aplicarlas a nuevos escenarios."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  358
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales: materiales, sustancias y herramientas tecnológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  358
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso de cada espacio, asegurando y protegiendo así la saludo propia y comunitaria, la seguridad en redes y el respeto hacia el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  358
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje científico: manejo adecuado de distintos sistemas de unidades y sus símbolos. Herramientas matemáticas adecuadas en diferentes escenarios científicos y de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  358
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de interpretación y producción de información científica en diferentes formatos y a partir de diferentes medios: desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  358
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos y actuales de la física y la química para el avance y la mejora de la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  358
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La materia"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas materiales: resolución de problemas y situaciones de aprendizaje diversas sobre las disoluciones y los gases, entre otros sistemas materiales significativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  359
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelos atómicos: desarrollo histórico de los principales modelos atómicos clásicos y cuánticos y descripción de las partículas subatómicas, estableciendo su relación con los avances de la física y de la química."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  359
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura electrónica de los átomos: configuración electrónica de un átomo y su relación con la posición del mismo en la tabla periódica y con sus propiedades fisicoquímicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  359
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Compuestos químicos: su formación, propiedades físicas y químicas y valoración de su utilidad e importancia en otros campos como la ingeniería o el deporte."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  359
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuantificación de la cantidad de materia: cálculo de la cantidad de sustancia de sistemas materiales de diferente naturaleza, manejando con soltura las diferentes formas de medida y expresión de la misma en el entorno científico."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  359
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nomenclatura inorgánica: denominación de sustancias simples, iones y compuestos químicos binarios y ternarios mediante las normas de la IUPAC."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  359
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción a la nomenclatura orgánica: denominación de compuestos orgánicos monofuncionales a partir de las normas de la IUPAC como base para entender la gran variedad de compuestos del entorno basados en el carbono."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  359
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La interacción"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Predicción y comprobación, utilizando la experimentación y el razonamiento matemático, de las principales magnitudes, ecuaciones y gráficas que describen el movimiento de un cuerpo, relacionándolo con situaciones cotidianas y con la mejora de la calidad de vida."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  359
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La fuerza como agente de cambios en los cuerpos: principio fundamental de la Física que se aplica a otros campos como el diseño, el deporte o la ingeniería."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Carácter vectorial de las fuerzas: uso del álgebra vectorial básica para la realización gráfica y numérica de operaciones con fuerzas y su aplicación a la resolución de problemas relacionados con sistemas sometidos a conjuntos de fuerzas, valorando su importancia en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales fuerzas del entorno cotidiano: reconocimiento del peso, la normal, el rozamiento, la tensión o el empuje, y su uso en la explicación de fenómenos físicos en distintos escenarios."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ley de la gravitación universal: atracción entre los cuerpos que componen el universo. Concepto de peso."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.C.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuerzas y presión en los fluidos: efectos de las fuerzas y la presión sobre los líquidos y los gases, estudiando los principios fundamentales que las describen."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "La energía"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía: formulación y comprobación Los conceptos de energía, calor, de hipótesis sobre las distintas formas y aplicaciones de la energía a partir de sus propiedades y del principio de conservación, como base para la experimentación y la resolución de problemas relacionados con la energía mecánica en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Transferencias de energía: el trabajo y el calor como formas de transferencia de energía entre sistemas relacionados con las fuerzas o la diferencia de temperatura. La luz y el sonido como ondas que transfieren energía."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía en nuestro mundo: estimación de la energía consumida en la vida cotidiana mediante la búsqueda de información contrastada, la experimentación y el razonamiento científico, comprendiendo la importancia de la energía en la sociedad, su producción y su uso responsable."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "El cambio"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Reacciones químicas: ajustes de reacciones químicas y realización de predicciones cualitativas y cuantitativas basadas en la estequiometría, relacionándolas con procesos fisicoquímicos de la industria, el medio ambiente y la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Descripción cualitativa de reacciones químicas de interés: reacciones de combustión, neutralización y procesos electroquímicos sencillos, valorando las implicaciones que tienen en la tecnología, la sociedad o el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  360,
+                  361
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Factores que influyen en la velocidad de las reacciones químicas: comprensión de cómo ocurre la reordenación de los átomos, aplicando modelos como la teoría de colisiones y realización de predicciones en los procesos cotidianos más importantes."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  361
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

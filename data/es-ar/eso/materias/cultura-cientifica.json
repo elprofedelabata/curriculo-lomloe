@@ -1,0 +1,894 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.eso.cultura-cientifica",
+  "territorio": "es-ar",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "CC",
+    "nombre": {
+      "es": "Cultura Científica"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-156-orden-ecd-1172-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1172/2022, de 2 de agosto, por la que se aprueban el currículo y las características de la evaluación de la Educación Secundaria Obligatoria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-11",
+      "cve": "1234469220606",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234469220606&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926624&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 97,
+        "hasta": 116
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "En 1985, el informe de la Royal Society titulado “The Public Understanding of Science” (Bodmer & Otros, 1985) señalaba que “todo el mundo necesita alguna comprensión de la ciencia, sus logros y sus limitaciones “, y que los actores sociales implicados deben involucrarse activamente en dicho cometido. Desde entonces, la idea de la necesidad de una “Cultura Científica” ha tomado carta de naturaleza dentro de los sistemas educativos como un elemento fundamental para alcanzar esa comprensión. Las posibilidades de conseguir un mundo más justo y más respetuoso con nuestro planeta Tierra dependen no solo de la ciencia que consigamos crear, sino también de cómo logremos integrarla en el resto de nuestra cultura. Así que no solo debemos actuar para mejorar nuestra capacidad científica, sino también nuestra Cultura Científica. (Quintanilla, 2010)",
+      "Paralelamente a esta importancia creciente, el concepto “Cultura Científica” ha ido modificándose, y enriqueciéndose en matices. En la actualidad no se puede considerar que se limite a poseer y transmitir información sobre la “ciencia de manual”, sino que pretende proporcionar una comprensión contextual de la ciencia y la tecnología que ofrezca a los estudiantes las bases intelectuales para una ciudadanía responsable (Sanz Merino & López Cerezo, 2012). Este debe ser, por tanto, el objetivo de la materia “Cultura Científica” dentro del currículo de Educación Secundaria. En este sentido los mismos autores consideran que la Cultura Científica “se ha de entender, además, fundamentalmente y de un modo general, como una variedad de la educación en valores y como una preparación para la participación cívica “, y proponen que debe incluir conceptos científicos y habilidades procedimentales que sean útiles en las vidas cotidianas de los alumnos y de las alumnas, y también en tanto que les permitan tomar decisiones como ciudadanos, aspectos societarios locales: en cuestiones y problemáticas que emergen en sus entornos más próximos (familiares, escolares, comunitarios, etc.), atender a problemas globales, a los asuntos que conciernen a todo el planeta, como son los medioambientales o los relacionados con los límites del crecimiento industrial, en general y dar a conocer la naturaleza y el alcance de una amplia variedad de ciencias e ingenierías, en tanto que ello despierte las aptitudes de los estudiantes o llame su interés hacia distintas carreras científico-tecnológicas actuales (Sanz Merino & López Cerezo, 2012). La materia, por tanto, no va dirigida específicamente al alumnado que ya tiene una clara vocación científica, sino a todo el alumnado, en tanto que futuros ciudadanos responsables.",
+      "Entre otras aportaciones, la materia de Cultura Científica de la ESO transmite la importancia de entender la ciencia como una herramienta fundamental para el funcionamiento de la sociedad y para el desarrollo futuro de la humanidad.",
+      "La enseñanza-aprendizaje de esta materia también permite consolidar los hábitos de estudio, fomentar la tolerancia, solidaridad y cooperación y promover el perfeccionamiento lingüístico, al ser la colaboración y comunicación parte esencial de las metodologías de trabajo científico. Desde esta materia se promoverá que dicha comunicación y colaboración se realice utilizando diferentes formatos y vías, destacando entre estos los espacios virtuales de trabajo remoto. Asimismo, el estudio y análisis del trabajo de los y las científicas a lo largo de la historia permite fomentar el trato igualitario y el rechazo hacia actitudes de discriminación basadas en el género. Del mismo modo, la naturaleza científica de esta materia contribuye a despertar en el alumnado el espíritu creativo y emprendedor que es la esencia misma de todas las ciencias. Promoverá, por tanto, la investigación mediante la observación de campo, la experimentación y la búsqueda en diferentes fuentes para resolver cuestiones o contrastar hipótesis de forma tanto individual como colaborativa. Las principales fuentes fiables de información son accesibles a través de Internet donde conviven con informaciones sesgadas, incompletas o falsas, fomentándose también desde estas materias el uso responsable y crítico de las tecnologías de la información y la comunicación."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Reconocer los motivos por los que ocurren los principales fenómenos naturales, a partir de situaciones"
+      },
+      "descripcion": {
+        "es": [
+          "cotidianas, y explicarlos en términos de las leyes y teorías científicas adecuadas.",
+          "La esencia del pensamiento científico es comprender cuáles son las causas de los fenómenos que ocurren en el medio natural para tratar de explicarlos a través de las leyes y teorías científicas adecuadas. Comprenderlos implica entender las causas que los originan y su naturaleza, y otorga al alumnado la capacidad de actuar con sentido crítico para mejorar, en la medida de lo posible, la realidad cercana a través de la ciencia. El desarrollo de esta competencia específica conlleva hacerse preguntas para comprender cómo es la naturaleza del entorno, cuáles son las interacciones que se producen entre los distintos sistemas materiales y cuáles son las causas y las consecuencias de las mismas. Esta comprensión dota al alumnado de fundamentos críticos para la toma de decisiones, activa los procesos de resolución de problemas y, a su vez, posibilita la creación de nuevo conocimiento científico a través de la interpretación de fenómenos, el uso de herramientas científicas y el análisis de los resultados que se obtienen. Todos estos procesos están relacionados con el resto de competencias específicas y se engloban en el desarrollo del pensamiento científico, cuestión especialmente importante en la formación integral de alumnos y de alumnas competentes. Por tanto, para el desarrollo de esta competencia, el individuo requiere un conocimiento de las formas y procedimientos estándar que se utilizan en la investigación científica y su relación con el mundo natural.",
+          "Esta competencia, está especialmente vinculada a la CE.FQ.1. y se enmarca en la puesta en valor de los métodos de la ciencia como la mejor forma conocida de avanzar en el conocimiento del mundo que nos rodea. Se vincula también con la CE.FQ.2.: Si en esta se pone el énfasis en plantearse preguntas que conduzcan al estudiante a comprender mejor cómo es su entorno, en la CE.FQ.2 se relacionan las destrezas propias de la metodología científica. Esta competencia no se puede desarrollar en toda su amplitud sin tener en cuenta la CE.CC.8. que sitúa al trabajo colaborativo en un lugar destacado para la mejora de la sociedad, las aplicaciones y repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible del medio ambiente, por ende, la realidad cercana y la calidad de vida humana. La materia de Cultura Científica colabora con el resto de materias al conocimiento del entorno y en este sentido, esta competencia se relaciona con muchas otras competencias específicas de otras materias. Su vinculación es más estrecha con competencias específicas de la materia de Biología y Geología, como la CE.BG.2. que también requiere el tratamiento correcto de la información para responder preguntas. También se relaciona con la competencia CE.GH.3, ya que son interdependientes, siendo necesario conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del tiempo, identificando las causas y consecuencia de los cambios producidos y los problemas a los que se enfrentan en la actualidad, para abordar los fenómenos fisicoquímicos relacionados con ellos, así como contar con las leyes y teorías científicas para comprenderlos y encontrar soluciones.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL1, STEM2, STEM4, CD1, CPSAA4, CC3 y CCCEC1.",
+          "Competencia específica de la materia Cultura Científica 2:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CPSAA4",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          97,
+          98
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar, localizar y seleccionar información, contrastando su veracidad, organizándola y evaluándola críticamente para resolver preguntas relacionadas con las ciencias y con su impacto en la vida cotidiana y en el desarrollo de la sociedad"
+      },
+      "descripcion": {
+        "es": [
+          "La participación activa en la sociedad y el desarrollo profesional y personal de un individuo con frecuencia conllevan la adquisición de nuevos saberes y competencias que suelen comenzar con la búsqueda, selección y recopilación de información relevante de diferentes fuentes para establecer las bases cognitivas de dicho aprendizaje. Además, en la sociedad actual existe un continuo bombardeo de información que no siempre refleja la realidad. Los datos con base científica se encuentran en ocasiones entremezclados con bulos, hechos infundados y creencias",
+          "pseudocientíficas. Es, por tanto, imprescindible desarrollar el sentido crítico y las destrezas necesarias para evaluar y clasificar la información y conocer y distinguir las fuentes fidedignas de aquellas de dudosa fiabilidad. Por ello, esta competencia específica prepara al alumnado para su autonomía profesional y personal futuras y para que contribuya positivamente en una sociedad democrática.",
+          "Identificar, localizar y seleccionar información exige comprender e interpretar textos orales o escritos multimodales reconociendo el sentido global, las ideas principales y las secundarias, identificando la intención y el punto de vista del emisor y contrastando las fuentes de información evaluando fiabilidad, pertinencia y evitando la manipulación y la desinformación, lo que enlaza directamente con las competencias específicas CE.LCTL.2, CE.LCTL.4 y CE.LCTL.6 de Lengua Castellana y Literatura. Por supuesto, esta competencia se relaciona estrechamente con la CE.BG.2, que no es sino su concreción en el ámbito de la Biología y la Geología. Para una gestión adecuada de la información es necesario un uso óptimo y responsable de los recursos digitales y por ello se relaciona con competencias específicas de Economía y Emprendimiento y Digitalización. Incentivar una actitud crítica frente a la desinformación fomenta el espíritu de iniciativa y desarrolla las destrezas necesarias para la toma responsable de decisiones, que liga esta competencia con la materia de Formación y Orientación Personal y Profesional. Por otro lado, los procesos de ciencias biológicas y geológicas requieren a menudo de la recopilación de hechos históricos, lo que relaciona esta competencia específica con las CE.GH.1, CE.GH.2, CE.GH.3 y CE.GH.5 de Geografía e Historia.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida CCL2, CCL3, CP1, STEM4, CD1, CPSAA4. Competencia específica de la materia Cultura Científica 3:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CP1",
+        "STEM4",
+        "CD1",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          98,
+          99
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Interpretar y transmitir información y datos científicos, y argumentar sobre ellos utilizando diferentes formatos y utilizando lenguaje verbal o gráfico apropiado, para adquirir y afianzar conocimientos y analizar conceptos y procesos del entorno social y cultural."
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo científico es un proceso que rara vez es fruto del trabajo de sujetos aislados y que requiere, por tanto, del intercambio de información y de la cooperación entre individuos, organizaciones e incluso países. Compartir información es una forma de acelerar el progreso humano al extender y diversificar los pilares sobre los que se sustenta. Además, todo proceso de investigación científica debe comenzar con la recopilación y análisis crítico de las publicaciones en el área de estudio construyéndose los nuevos conocimientos sobre los cimientos de los ya existentes. Asimismo, el avance vertiginoso de la ciencia y la tecnología es el motor de importantes cambios sociales que se dan cada vez con más frecuencia y con impactos más palpables. Por ello, la participación activa del alumnado en la sociedad exige cada vez más la comprensión de los últimos descubrimientos y avances científicos y tecnológicos para interpretar y evaluar críticamente, a la luz de estos, la información que inunda los medios de comunicación con el fin de extraer conclusiones propias, tomar decisiones coherentes y establecer interacciones comunicativas constructivas, utilizando la argumentación fundamentada y respetuosa con flexibilidad para cambiar las propias concepciones a la vista de los datos y posturas aportados por otras personas. Finalmente, la comprensión de los fenómenos científicos se refleja, también, en la capacidad para transmitirlos a los demás. Argumentar sobre cuestiones científicas, participar en debates o en toma de decisiones relacionadas con cuestiones que tengan relación con la ciencia, exige que la ciudadanía sea capaz de expresar, de una forma apropiada, sus ideas y los conocimientos en los que estas se basan.",
+          "Esta competencia se encuentra estrechamente relacionada con otras similares del área de Biología y Geología, como la CE.BG.1, que supone su aplicación a este ámbito temático. Se relaciona, en general, con la planificación y desarrollo de proyectos de investigación, que constituye la competencia específica CE.BG3, y necesita de la capacidad de",
+          "identificar, localizar y seleccionar información contrastada, organizándola y evaluándola críticamente, lo que constituye la CE.BG.2. Además, se establecen vínculos con otras materias como Matemáticas y Tecnología y Digitalización, en el tratamiento y procesamiento de datos experimentales y su posterior análisis mediante el uso de las herramientas digitales en la comunicación y difusión de conclusiones, donde también será decisiva la aportación de la Lengua Castellana, en la producción de textos orales y escritos coherentes, cohesionados y con el registro adecuado.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL1, CCL2, CCL5, CP1, STEM4, CD1, CPSAA4, CC4, CCEC3.",
+          "Competencia específica de la materia Cultura Científica 4:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "CP1",
+        "STEM4",
+        "CD1",
+        "CPSAA4",
+        "CC4",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          99,
+          100
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar el razonamiento, el pensamiento y las prácticas científicas, para resolver problemas o dar explicación a procesos de la vida cotidiana relacionados con la ciencia, analizando críticamente las respuestas y soluciones y reformulando el procedimiento, si fuera necesario."
+      },
+      "descripcion": {
+        "es": [
+          "Las ciencias experimentales son disciplinas empíricas, pero con frecuencia recurren al razonamiento lógico y la metodología matemática para crear modelos, resolver cuestiones y problemas y validar los resultados o soluciones obtenidas. Tanto el planteamiento de hipótesis, como la interpretación de datos y resultados, o el diseño experimental requieren aplicar el pensamiento lógico-formal.",
+          "Asimismo, es frecuente que en determinadas ciencias empíricas se obtengan evidencias indirectas de la realidad, que deben interpretarse según la lógica para establecer modelos de un proceso biológico o geológico. Además, determinados saberes básicos del ámbito científico, deben trabajarse utilizando la resolución de problemas como método didáctico de preferencia. En el mismo sentido, la aplicación de los principios científicos a la vida cotidiana supone, en muchas ocasiones, utilizarlos para resolver problemas prácticos. Cabe destacar que potenciar esta competencia específica supone desarrollar en el alumnado destrezas aplicables a diferentes situaciones de la vida. Por ejemplo, la actitud crítica se basa en gran parte en la capacidad de razonar utilizando datos o información conocidos. Esta, a su vez, constituye un mecanismo de protección contra las pseudociencias, o los saberes populares infundados.",
+          "Esta competencia específica se relaciona con las otras competencias específicas CE.BG.4, CE.BG.5 y CE.BG.6 de esta materia, pues para analizar el riesgo geológico o los efectos de las acciones humanas sobre el cambio climático o sobre la salud es necesario un pensamiento computacional que permita la resolución de problemas. En cuanto a la relación con otras materias, existe una clara conexión con las Matemáticas que proporcionan herramientas de análisis y pensamiento computacional especialmente con LA CE.M.5. Y conecta con la Tecnología y Digitalización en el uso de dispositivos y herramientas digitales que ayuden al uso del razonamiento para la resolución de problemas.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: STEM1, STEM2, CPSAA5 y CE1. Competencia específica de la materia Cultura Científica 5:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CPSAA5",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          100
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social,"
+      },
+      "descripcion": {
+        "es": [
+          "mediante la consulta de información, la creación de materiales y la comunicación efectiva en los diferentes entornos de aprendizaje.",
+          "Los recursos, tanto tradicionales como digitales, adquieren un papel crucial en el proceso de enseñanza y aprendizaje en general, y en la adquisición de competencias en particular, pues un recurso bien seleccionado facilita el desarrollo de procesos cognitivos de nivel superior y propicia la comprensión, la creatividad y el desarrollo personal y grupal social del alumnado. La importancia de los recursos, no solo utilizados para la consulta de información, sino también para otros fines como la creación de materiales didácticos o la comunicación efectiva con otros miembros de su entorno de aprendizaje, dota al alumnado de herramientas para adaptarse a una sociedad que actualmente demanda personas integradas y comprometidas con su entorno. Es por este motivo por lo que esta competencia específica también pretende que el alumno o la alumna manejen con soltura recursos y técnicas variadas de colaboración y cooperación, que analice su entorno y localice en él ciertas necesidades que le permitan idear, diseñar y fabricar productos que ofrezcan un valor para uno mismo y para los demás.",
+          "Esta competencia se relaciona de forma directa con la competencia CE.FQ.4. Asimismo, se relaciona de forma transversal con casi todas las demás competencias específicas pertenecientes a ésta y a otras materias. Un ejemplo es su relación con las competencias CE.CC.6 y CE.FQ.5, cuya estrategia principal es el trabajo colaborativo, el cual se facilita enormemente con el dominio de los recursos y plataformas digitales. Otro ejemplo es su estrecha vinculación con la competencia específica CE.FQ.3 ya que es imprescindible hacer un uso sostenible, crítico y responsable de las tecnologías digitales para procesar y crear correctamente la información científica en diferentes formatos. En cuanto a las competencias específicas relacionadas con otras materias, queda patente el vínculo con la CE.LC.2 de la materia Lengua Castellana en la que se valora la necesidad de comprender e interpretar con actitud crítica diferentes tipos de información para participar en diferentes contextos de manera activa e informada y poder construir conocimiento. Además, también es importante señalar la relación con la CE.EE.6 de la materia Economía, emprendimiento, que aborda el proceso de creación de ideas y soluciones valiosas y toma decisiones, de manera razonada, para la creación de prototipos innovadores.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL2, CCL3, STEM4, CD1, CD2, CPSAA3, CE3.",
+          "Competencia específica de la materia Cultura Científica 6:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          100,
+          101
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Utilizar las estrategias propias del trabajo colaborativo que permitan potenciar el crecimiento entre iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para comprender la importancia de la ciencia en la mejora de la sociedad, las aplicaciones y repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible del medio ambiente."
+      },
+      "descripcion": {
+        "es": [
+          "Las disciplinas científicas se caracterizan por conformar un todo de saberes integrados e interrelacionados entre sí. Del mismo modo, las personas dedicadas a la ciencia desarrollan capacidades destrezas de trabajo en equipo, pues la colaboración, la empatía, la asertividad, la garantía de la equidad entre mujeres y hombres y la cooperación son la base de la construcción del conocimiento científico en toda sociedad. El alumnado competente estará habituado a las formas de trabajo y a las técnicas más habituales del conjunto de las disciplinas científicas, pues esa es la forma de conseguir, a través del emprendimiento, integrarse en una sociedad que evoluciona. El trabajo en equipo sirve para unir puntos de vista diferentes y crear modelos de investigación unificados que forman parte del progreso de la ciencia. El desarrollo de esta competencia específica crea un vínculo de compromiso entre el alumnado o alumna y su equipo, así como con el entorno que le rodea, lo que le habilita para entender cuáles son las situaciones y los problemas más importantes de la sociedad actual y cómo mejorarla, cómo actuar para la mejora de la salud propia y comunitaria y",
+          "cuáles son los hábitos estilos de vida que le permitan permiten actuar de forma sostenible para la conservación del medio ambiente desde un punto de vista científico y tecnológico.",
+          "Los métodos de trabajo de la ciencia son, en el fondo, comunes a las diferentes disciplinas que incluyen. Por ello no es de extrañar que esta competencia se vincule, específicamente, a otras de materias de esta área de conocimiento, como la CE.FQ.5. El trabajo colaborativo permite incorporar al propio aprendizaje las perspectivas y las experiencias de los demás para poder participar activamente en el trabajo en grupo empleando estrategias cooperativas, aspecto que comparte con competencias específicas de esta materia y de otras del ámbito científico como la CE.CC.4. Por otra parte, el vínculo que se crea entre el alumnado con el entorno que le rodea, le permite emprender acciones fundamentadas científicamente para mejorar ese entorno de forma sostenible aplicando principios de ética y seguridad de la misma forma que se aplica mediante la CE.FQ.3 En relación a otras materias, esta competencia se vincula con la CE.BG.5 de Biología y Geología, que analiza los efectos de las acciones del ser humano sobre el medio ambiente y la salud y promueve hábitos compatibles con un desarrollo sostenible. Otro aspecto de esta competencia, como es la promoción del crecimiento entre iguales, tiene relación con cualquier materia. De hecho, en la competencia específica CE.M.11 de Matemáticas, se valora la colaboración activa y la construcción de relaciones mediante equipos heterogéneos, en los que se respeten las diferentes opiniones y se produzca una comunicación efectiva, crítica y creativa. Asimismo, la puesta en práctica del trabajo en equipo hace imprescindible el uso ético de la comunicación como herramienta al servicio de la convivencia democrática y de la resolución de conflictos utilizando la argumentación fundamentada y respetuosa con flexibilidad para cambiar las propias concepciones a la vista de los datos aportados por otras personas, competencia que se relaciona con la CE.BG.1 de Biología y Geología.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL5, STEM3, STEM5, CD3, CPSAA3, CC3. Competencia específica de la materia Cultura Científica 7:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM3",
+        "STEM5",
+        "CD3",
+        "CPSAA3",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          101,
+          102
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Analizar los efectos de determinadas acciones sobre la salud, el medio ambiente natural y social y el patrimonio cultural, basándose en los fundamentos científicos, para promover, adoptar y valorar hábitos que mejoren la salud individual y colectiva, eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar el patrimonio cultural."
+      },
+      "descripcion": {
+        "es": [
+          "Con demasiada frecuencia, las acciones del ser humano provocan daños sobre nuestro entorno que están provocando la pérdida irreversible de recursos naturales o impactos de consecuencias difíciles de evitar sobre nuestro entorno. Por desgracia, en muchas ocasiones estos efectos son la consecuencia de un uso inadecuado de los conocimientos científicos y tecnológicos. Conocer la ciencia supone también valorar críticamente los efectos negativos de una aplicación inadecuada de la misma, así como de sus limitaciones. Afortunadamente, determinadas acciones pueden contribuir a mejorar el estado del medio ambiente y también de nuestra salud a corto y largo plazo.",
+          "Para promover hábitos hacia un desarrollo sostenible y la mejora de la salud en la sociedad, es necesario luchar contra la desinformación contrastando la veracidad de la información, lo que conecta directamente con las competencias específicas CE.BG.2 y CE.BG.3, pues el desarrollo de proyectos de investigación servirá para un aprendizaje más significativo. Enlazando, a su vez, con el análisis sistémico del paisaje desde una perspectiva geológica y biológica, o sea, con la CE.BG.6 de esta materia. Los saberes básicos del cuerpo humano y la salud conectan con la CE.D.2 de Digitalización al ayudar al análisis de hábitos que fomenten el bienestar digital como una correcta postura de trabajo y una iluminación adecuada, y con las CE.EF.1, CE.EF.4 y CE.EF.5 de Educación Física, pues analizar los efectos de determinadas acciones sobre el medio ambiente y la salud fomenta un estilo de vida activo, saludable, sostenible y ecosocialmente responsable.",
+          "Se encuentra ligada estrechamente con la materia de Educación en Valores Cívicos y Éticos por la necesidad de actuar e interactuar de acuerdo con normas y valores que regulen la vida comunitaria para una convivencia comprometida con el bien común, entendiendo a la naturaleza como un sistema ecodependiente de las actividades humanas y fomentando una adecuada estima y empatía por uno mismo y con el entorno. Por otro lado, el análisis de los efectos",
+          "de determinadas acciones sobre la salud y el medio ambiente va íntimamente ligado a la aplicación de determinadas reacciones y fenómenos fisicoquímicos, por lo que también conecta con las CE.FQ.2 y CE.FQ.3 de Física y Química y al uso de herramientas matemáticas, que conectan con la CE.M.7 de Matemáticas. Al tiempo que exige tratar con datos históricos para establecer relaciones intergeneracionales en una sociedad global y sostenible, por lo que esta competencia específica está asociada a la materia de Geografía e Historia con sus CE.GH.1, CE.GH.3, CE.GH.8 y CE.GH.9 y de igual modo con la CE.L.5 de la materia de Latín, pues la cultura romana es testimonio de estilos de construcción y conservación. Por último, Tecnología y Digitalización ofrecen la posibilidad de un análisis colaborativo que necesita del uso de herramientas digitales de comunicación y análisis.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL3, STEM5, CPSAA2, CC4, CE1.",
+          "Competencia específica de la materia Cultura Científica 8:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM5",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          102,
+          103
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y evolución, en la que no solo participan las personas dedicadas a la ciencia, sino que también requiere de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el avance tecnológico, económico, ambiental y social."
+      },
+      "descripcion": {
+        "es": [
+          "Para comprender adecuadamente lo que significa la ciencia, el alumno o la alumna deben asumir que la no es un proceso finalizado, sino que está en una continua construcción recíproca con la tecnología y la sociedad. La búsqueda de nuevas explicaciones, la mejora de procedimientos, los nuevos descubrimientos científicos, etc. influyen sobre la sociedad, y conocer de forma global los impactos que la ciencia produce sobre ella es fundamental en la elección del camino correcto para el desarrollo. En esta línea, el alumnado competente debe tener en cuenta valores como la importancia de los avances científicos por y para una sociedad demandante, los límites de la ciencia, las cuestiones éticas y la confianza en los científicos y en su actividad. Todo esto forma parte de una conciencia social en la que no solo interviene la comunidad científica, sino que requiere de la participación de toda la sociedad puesto que implica un avance individual y social conjunto.",
+          "Esta competencia específica se relaciona directamente con la CE.FQ.6 así como con otras pertenecientes a la misma materia como la CE.FQ.3 en cuanto a la necesidad de usar la lengua de manera apropiada y adecuada para producir información científica en diferentes formatos y fuentes o de otras asignaturas del área científica como la CE.BG.3. También se relaciona con la CE.FQ.1 en el conocimiento de los procesos relativos al tratamiento de la información para llegar a conclusiones fiables. En cuanto a la relación con las competencias de otras materias, se relaciona con CE.GH.7 de la materia Geografía e Historia, por la creación de una conciencia social que nos haga partícipes a todos del progreso y de la conservación del patrimonio; con la competencia CE.EE.3 de la materia Economía y Emprendimiento, por el análisis del impacto que podemos generar en el entorno y la adopción de soluciones; con la competencia CE.M.2 de la materia de Matemáticas, en la que se realizan análisis de soluciones a problemas, evaluando las respuestas y su repercusión global.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CP1, STEM2, STEM5, CPSAA4, CC4, CCEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CP1",
+        "STEM2",
+        "STEM5",
+        "CPSAA4",
+        "CC4",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          103
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Diferenciar entre explicaciones científicas y no científicas de los fenómenos naturales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              104
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Explicar los fenómenos naturales más relevantes en términos de principios, teorías y leyes científicos adecuados como estrategia en la toma de decisiones fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              104
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver cuestiones y profundizar en aspectos relacionados con los saberes del ámbito de la ciencia localizando, seleccionando, organizando y analizando críticamente la información de distintas fuentes citándolas con respeto por la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              104
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Contrastar la veracidad de la información sobre temas relacionados con los saberes del ámbito de la ciencia utilizando fuentes fiables adoptando una actitud crítica y escéptica hacia informaciones sin una base científica como pseudociencias, teorías conspiratorias, creencias infundadas, bulos, etc."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              104
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar conceptos y procesos relacionados con los saberes científicos interpretando información en diferentes formatos (modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos, páginas web...), manteniendo una actitud crítica, obteniendo conclusiones y formando opiniones propias fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              104
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Facilitar la comprensión y análisis de opiniones propias fundamentadas y de información relacionada con los saberes del ámbito de las ciencias, transmitiéndola de forma clara y rigurosa utilizando la terminología y el formato adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos, contenidos digitales...)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              104
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar y explicar fenómenos científicos representándolos mediante el diseño y la realización de modelos y diagramas, utilizando, cuando sea necesario, los pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              104
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas o dar explicación a procesos científicos utilizando conocimientos, datos e información aportados, el razonamiento lógico, el pensamiento computacional o recursos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              105
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema sobre fenómenos científicos y cambiar los procedimientos utilizados o conclusiones si dicha solución no fuese viable o ante nuevos datos aportados con posterioridad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              105
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Utilizar de forma eficiente recursos variados, tradicionales y digitales, para mejorar la interacción con otros miembros de la comunidad educativa, de forma rigurosa y respetuosa y analizando críticamente las aportaciones de todos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              105
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Trabajar de forma versátil con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando y empleando con criterio las fuentes y herramientas más fiables y desechando las menos adecuadas para la mejora del aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              105
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas emprendiendo actividades de cooperación e iniciando el uso de las estrategias propias del trabajo colaborativo, como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              105
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Emprender, de forma autónoma y de acuerdo a la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              105
+            ]
+          }
+        },
+        {
+          "id": "cri-4-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Relacionar con fundamentos científicos la preservación de la biodiversidad, la conservación del medio ambiente, la protección de los seres vivos del entorno, el desarrollo sostenible, la calidad de vida y el patrimonio cultural."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              105
+            ]
+          }
+        },
+        {
+          "id": "cri-4-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Proponer y adoptar hábitos sostenibles analizando de una manera crítica las actividades propias y ajenas y basándose en los propios razonamientos, conocimientos adquiridos e información disponible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              105
+            ]
+          }
+        },
+        {
+          "id": "cri-4-7-3",
+          "codigoOficial": "7.3",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Evaluar los efectos de determinadas acciones individuales sobre el organismo y el medio natural y social y proponer hábitos saludables y sostenibles basados en los conocimientos adquiridos y la información disponible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              105
+            ]
+          }
+        },
+        {
+          "id": "cri-4-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Justificar la contribución de la ciencia a la sociedad y la labor de los hombres y mujeres dedicados a su desarrollo, entendiendo la investigación como una labor colectiva en constante evolución fruto de la interacción entre la ciencia, la tecnología, la sociedad y el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              106
+            ]
+          }
+        },
+        {
+          "id": "cri-4-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico de los avances científicos logrados por mujeres y hombres y de situaciones y contextos actuales (líneas de investigación, instituciones científicas y hombres y mujeres en ellas, aplicaciones directas, etc.), que la ciencia es un proceso en permanente construcción y las repercusiones e implicaciones sociales, económicas y medioambientales de la ciencia actual en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              106
+            ]
+          }
+        },
+        {
+          "id": "cri-4-8-3",
+          "codigoOficial": "8.3",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Detectar las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad para entender la capacidad de la ciencia para darles solución sostenible a través de la implicación de toda la ciudadanía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              106
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Naturaleza de la ciencia"
+          },
+          "saberes": [
+            {
+              "id": "CC.4.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto y métodos de la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño de controles experimentales (positivos y negativos) y argumentación sobre su esencialidad para obtener resultados objetivos y fiables en un experimento."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Experimentación para responder a una cuestión científica determinada utilizando los instrumentos y espacios (laboratorio, aulas, entorno…) de forma adecuada y precisa."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ciencia y pseudociencias."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relaciones de la ciencia con la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Instituciones científicas en España y Aragón. La carrera científica."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ciencia ciudadana."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Ciencia y comunicación"
+          },
+          "saberes": [
+            {
+              "id": "CC.4.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Funciones de la comunicación en la ciencia"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Niveles de comunicación de la ciencia: investigación, difusión, divulgación e información general"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los elementos de un artículo científico y su función comunicativa"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Uso de herramientas de comunicación de información: gráficos, tablas, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de las citas y referencias"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Reconocimiento y utilización de fuentes veraces de información científica."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.B.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de utilización de herramientas digitales para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas en diferentes formatos (presentación, gráfica, vídeo, póster, informe…)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La repercusión de la ciencia"
+          },
+          "saberes": [
+            {
+              "id": "CC.4.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Análisis de algún principio científico que tenga aplicación directa Más que una lista en la vida cotidiana del alumnado."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Análisis de algún principio científico o de algún tema de actualidad científica que genere debate en la sociedad actual"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Papel de las grandes científicas y científicos en el desarrollo de las ciencias biológicas y geológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            },
+            {
+              "id": "CC.4.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Análisis de la evolución histórica de un descubrimiento científico determinado."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  107
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Ciencia y futuro: contribución a los ODS"
+          },
+          "saberes": [
+            {
+              "id": "CC.4.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los ODS como modelo de desarrollo para el futuro."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  108
+                ]
+              }
+            },
+            {
+              "id": "CC.4.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La posible aportación de la ciencia al logro de los objetivos de desarrollo sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  108
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

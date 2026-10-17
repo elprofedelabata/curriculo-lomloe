@@ -1,0 +1,606 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.eso.programacion-y-robotica",
+  "territorio": "es-ar",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "PR",
+    "nombre": {
+      "es": "Programación y Robótica"
+    },
+    "cursos": [
+      {
+        "curso": 3,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-156-orden-ecd-1172-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1172/2022, de 2 de agosto, por la que se aprueban el currículo y las características de la evaluación de la Educación Secundaria Obligatoria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-11",
+      "cve": "1234469220606",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234469220606&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926624&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 854,
+        "hasta": 869
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Programación y Robótica es una materia de libre configuración autonómica que se oferta en tercer curso de Educación Secundaria Obligatoria.",
+      "La finalidad de la materia Programación y Robótica es estimular la capacidad creadora del alumnado, poniéndole enfrente de situaciones problemáticas reales, y facilitándole los conocimientos y las herramientas técnicas necesarias para su resolución mediante los principios del pensamiento computacional y la programación.",
+      "Por su naturaleza eminentemente práctica combina gran cantidad de ingredientes, todos ellos indispensables en un tipo de aprendizaje que implica al alumnado y lo vuelve un agente activo: metodología de proyectos, resolución de problemas basados en situaciones reales, desarrollo del pensamiento computacional para modelizar y prediseñar, creación de prototipos, trabajo en equipo, aproximación multidisciplinar a problemas complejos, capacidad de comunicar procesos y resultados con lenguajes adecuados y aprendizaje-servicio en la búsqueda de soluciones constructivas para la comunidad (Battle, 2020).",
+      "Todo ello con la finalidad de, por un lado, ayudar al alumnado a comprender mejor el mundo que le rodea, conocer los principios de funcionamiento de los dispositivos digitales de su entorno, para configurarlos mejor e incluso modificarlos para adaptarlos a sus necesidades tal y como establecen los principios del software libre (Stallmann & Sanz, 2004). Por otro lado, ayudarle a contribuir a la transformación del entorno desde habilidades como la creación de software y sistemas físicos que, extrayendo información del mismo, produzcan los comportamientos que se deseen, siempre sin olvidar la perspectiva de adquirir competencias útiles que le permitan analizar críticamente la realidad y transformarla, uniendo el aprendizaje con el compromiso social (Aprendizaje-Servicio).",
+      "La materia nos permitirá reforzar y ampliar la mirada de los saberes relacionados ya vistos en la materia de Tecnología y Digitalización tanto de segundo curso como la de ese mismo curso y al mismo tiempo incrementar el tiempo de aplicación práctica de esos contenidos, lo que redundará en una mejor comprensión y posibilidades de que permanezcan de forma competencial en el alumnado en el futuro (Ruiz, 2020).",
+      "En esta materia, al igual que sucede en Tecnología y Digitalización, se hace perentoria la necesidad de introducir curricularmente la perspectiva de género si atendemos a los datos contundentes de informes como el de la Unesco (2019), que constatan la infrarrepresentación de las mujeres en las vocaciones científico-tecnológicas, cifras que se vuelven realmente escandalosas en el caso de las Tecnologías digitales y de la programación. Es necesario impulsar las vocaciones STEM en ambos sexos desde las etapas escolares tempranas para conseguir que exista representatividad suficiente en estos campos donde se aborda la resolución de problemas. Para ello habrá que incluir de forma intencional referentes femeninos, y evitar los lugares comunes y sesgos anclados culturalmente acerca de la inclinación “natural” de unos y otras. De otra forma corremos el riesgo de que los problemas del cincuenta por ciento de la humanidad queden invisibilizados por su falta de presencia en los lugares donde se discuten sus soluciones. Como sociedad tampoco podemos permitirnos el lujo de perder toda la creatividad y potencial humano que supondría prescindir de la mitad de la humanidad en los campos de la tecnología y la programación, y la importancia de estimularlo desde edades tempranas e impulsarlo desde el ámbito escolar."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Abordar problemas tecnológicos con autonomía y actitud creativa, aplicando conocimientos"
+      },
+      "descripcion": {
+        "es": [
+          "interdisciplinares y trabajando de forma cooperativa y colaborativa, para diseñar y planificar soluciones a un problema o necesidad de forma eficaz, innovadora y sostenible.",
+          "Esta competencia se asocia con dos de los pilares estructurales de la materia, como son la creatividad y el emprendimiento, ya que aporta técnicas y herramientas al alumnado para idear y diseñar soluciones a problemas definidos que tienen que cumplir una serie de requisitos, y lo orienta en la organización de las tareas que deberá desempeñar de manera personal o en grupo a lo largo del proceso de resolución creativa del problema. El desarrollo de esta competencia implica la planificación, la previsión de recursos sostenibles necesarios y el fomento del trabajo cooperativo en todo el proceso. Las metodologías o marcos de resolución de problemas tecnológicos requieren la puesta en marcha de una serie de actuaciones o fases secuenciales o cíclicas que marcan la dinámica del trabajo personal y en grupo. Abordar retos con el fin de obtener resultados concretos, garantizando el equilibrio entre el crecimiento económico, bienestar social y ambiental, aportando soluciones viables e idóneas, supone una actitud emprendedora que estimula la creatividad y la capacidad de innovación. Asimismo, se promueven la autoevaluación y la coevaluación, estimando los resultados obtenidos a fin de continuar con ciclos de mejora continua. En este sentido, la combinación de conocimientos con ciertas destrezas y actitudes de carácter interdisciplinar, tales como la autonomía, la innovación, la creatividad, la valoración crítica de resultados, el trabajo cooperativo y colaborativo, la resiliencia y el emprendimiento, resultan imprescindibles para obtener resultados eficaces en la resolución de problemas.",
+          "Esta competencia específica está relacionada con otras que apliquen el trabajo cooperativo y colaborativo, así como que fomenten una actitud emprendedora en el aula, como por ejemplo la CE.EE.2, CE.EE.7, CE.FQ.5 y CE.M.10. Por otra parte, está relacionado con aquellas CE que trabajan en la resolución de problemas con el fin de mejorar la realidad cercana y la calidad de vida humana, aplicando conocimientos interdisciplinares relacionados con la ciencia y la tecnología, como la CE.FQ.1 y CE.D.1. Finalmente, esta competencia tiene una clara continuidad con las CE de la materia Tecnología que se imparte en cuarto curso.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL1, STEM1, STEM3, CD3, CPSAA3, CPSAA5, CE1, CE3.",
+          "Competencia específica de la materia Programación y Robótica 2:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM3",
+        "CD3",
+        "CPSAA3",
+        "CPSAA5",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          854,
+          855
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares utilizando operadores, sistemas eléctricos y electrónicos y herramientas, teniendo en cuenta la planificación y el diseño previo, para construir o fabricar soluciones tecnológicas sostenibles que den respuesta a necesidades en diferentes contextos."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia, por un lado, a los procesos de construcción manual y la fabricación mecánica y, por otro, a la aplicación de los conocimientos relativos a operadores y sistemas tecnológicos (estructurales, mecánicos, eléctricos y electrónicos) necesarios para construir o fabricar prototipos en función de un diseño y planificación previos. Las distintas actuaciones que se desencadenan en el proceso creativo llevan consigo la intervención de conocimientos interdisciplinares e integrados.",
+          "Asimismo, la aplicación de las normas de seguridad e higiene en el uso de materiales, herramientas y máquinas es fundamental para la salud del alumnado, y evita los riesgos inherentes a muchas de las técnicas que se deben emplear. Por otro lado, esta competencia requiere del desarrollo de habilidades y destrezas relacionadas con el uso de las herramientas, recursos e instrumentos necesarios (herramientas y máquinas manuales y digitales) y de actitudes vinculadas con la superación de dificultades, así como la motivación y el interés por el trabajo y la calidad del mismo.",
+          "Esta competencia específica está relacionada con la CE.M.6, que aplica términos matemáticos para la resolución de problemas en situaciones diversas, con la CE.EE.7 que trata sobre la construcción y análisis de prototipos para",
+          "contribuir al desarrollo personal y colectivo. Además, esta competencia tiene una clara continuidad con las CE de la materia Tecnología que se imparte en cuarto curso.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: STEM2, STEM3, STEM5, CD5, CPSAA1, CE3, CCEC3.",
+          "Competencia específica de la materia Programación y Robótica 3:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD5",
+        "CPSAA1",
+        "CE3",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          855,
+          856
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Describir, representar e intercambiar ideas o soluciones a problemas tecnológicos o digitales, utilizando medios de representación, simbología y vocabulario adecuados, así como los instrumentos y recursos disponibles y valorando la utilidad de las herramientas digitales, para comunicar y difundir información y propuestas."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia abarca los aspectos necesarios para la comunicación y expresión de ideas. Hace referencia a la exposición de propuestas, representación de diseños, manifestación de opiniones, etc. Asimismo, incluye la comunicación y difusión de documentación técnica relativa al proyecto. En este aspecto se debe tener en cuenta la utilización de herramientas digitales tanto en la elaboración de la información como en la comunicación.",
+          "Esta competencia requiere del uso adecuado del lenguaje y de la incorporación de la expresión gráfica y la terminología tecnológica, matemática y científica adecuada en las exposiciones, garantizando así la comunicación eficaz entre emisor y receptor. Ello implica una actitud responsable y de respeto hacia los protocolos establecidos en el trabajo cooperativo y colaborativo, extensible tanto al contexto presencial como a las actuaciones en la red, lo que supone interactuar mediante herramientas digitales, como plataformas virtuales o redes sociales, para comunicarse, compartir datos e información y trabajar colaborativamente, aplicando los códigos de comunicación y comportamiento específicos del ámbito digital: la denominada etiqueta digital.",
+          "Esta competencia específica está relacionada con las CE que trabajan la comunicación y difusión de ideas, como por ejemplo las CE.D.2, CE.D.3, CE.LCL.3, CE.M.8 y CE.EE.5. Además, esta competencia tiene una clara continuidad con las CE de la materia Tecnología que se imparte en cuarto curso.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CCL1, STEM4, CD3, CCEC3, CCEC4.",
+          "Competencia específica de la materia Programación y Robótica 4:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM4",
+        "CD3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          856
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Desarrollar algoritmos y aplicaciones informáticas en distintos entornos, aplicando los principios del pensamiento computacional e incorporando las tecnologías emergentes, para crear soluciones a problemas concretos, automatizar procesos y aplicarlos en sistemas de control o en robótica."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia a la aplicación de los principios del pensamiento computacional en el proceso creativo, es decir, implica la puesta en marcha de procesos ordenados que incluyen la descomposición del problema planteado, la estructuración de la información, la modelización del problema, la secuenciación del proceso y el diseño de algoritmos para implementarlos en un programa informático. De esta forma, la competencia está enfocada al",
+          "diseño y activación de algoritmos planteados para lograr un objetivo concreto. Ejemplos de este objetivo serían el desarrollo de una aplicación informática, la automatización de un proceso o el desarrollo del sistema de control de una máquina en la que intervengan distintas entradas y salidas; es decir, la aplicación de la tecnología digital en el control de objetos o máquinas, automatizando rutinas y facilitando la interacción con los objetos, incluyendo así, los",
+          "sistemas controlados mediante la programación de una tarjeta controladora o los sistemas robóticos. De este modo, se presenta una oportunidad de aprendizaje integral de la materia, en la que se engloban los diferentes aspectos del diseño y construcción de soluciones tecnológicas en las que intervienen tanto elementos digitales como no digitales.",
+          "Además, se debe considerar el alcance de las tecnologías emergentes como son el internet de las cosas (IoT), el big data o la inteligencia artificial (IA), ya presentes en nuestras vidas de forma cotidiana. Las herramientas actuales permiten la incorporación de las mismas en el proceso creativo, aproximándolas al alumnado y proporcionando un enfoque técnico de sus fundamentos.",
+          "Esta competencia específica está relacionada con aquellas competencias que utilicen el razonamiento y el pensamiento computacional para resolver problemas de la vida cotidiana o dar respuesta a ellos de forma crítica, como por ejemplo la CE.M.4 y la CE.BG.4. Además, tiene una clara continuidad con las CE de la materia Tecnología que se imparte en cuarto curso.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: CP2, STEM1, STEM3, CD5, CPSAA5, CE3.",
+          "Competencia específica de la materia Programación y Robótica 5:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CP2",
+        "STEM1",
+        "STEM3",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          856,
+          857
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Hacer un uso responsable y ético de la tecnología, mostrando interés por un desarrollo sostenible, identificando sus repercusiones y valorando la contribución de las tecnologías emergentes, para identificar las aportaciones y el impacto del desarrollo tecnológico en la sociedad y en el entorno."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica hace referencia a la utilización de la tecnología con actitud ética, responsable y sostenible y a la habilidad para analizar y valorar el desarrollo tecnológico y su influencia en la sociedad y en la sostenibilidad ambiental. Se refiere también a la comprensión del proceso por el que la tecnología ha ido resolviendo las necesidades de las personas a lo largo de la historia, incluyendo las aportaciones de la tecnología tanto a la mejora de las condiciones de vida como al diseño de soluciones para reducir el impacto que su propio uso puede provocar en la sociedad y en la sostenibilidad ambiental. La eclosión de nuevas tecnologías digitales y su uso generalizado y cotidiano hace necesario el análisis y valoración de la contribución de estas tecnologías emergentes al desarrollo sostenible, aspecto esencial para ejercer una ciudadanía digital responsable y en el que esta competencia específica se focaliza. En esta línea, se incluye la valoración de las condiciones y consecuencias ecosociales del desarrollo tecnológico, así como los cambios ocasionados en la vida social y organización del trabajo por la implantación de tecnologías de la comunicación, robótica, inteligencia artificial, etc. En definitiva, el desarrollo de esta competencia específica implica que el alumnado desarrolle actitudes de interés y curiosidad por la evolución de las tecnologías digitales, a la vez que por el desarrollo sostenible y el uso ético de las mismas. En concreto, en esta materia, esta competencia se vincula especialmente con la utilización de hardware y software de código abierto, que permite superar la brecha digital y asegurar la accesibilidad de todos y todas a tecnologías de última generación, así como la posibilidad de estudiarlo, aprender de él y posteriormente modificarlo para adaptarlo a nuestras necesidades.",
+          "Esta competencia específica está relacionada con las que trabajan los efectos de determinadas acciones y sus repercusiones sobre el medio ambiente, como por ejemplo la CE.BG.5, CE.EE.3, CE.FQ.5 y CE.GH.3. Además, esta competencia tiene una clara continuidad con las CE de la materia Tecnología que se imparte en cuarto curso.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida: STEM2, STEM5, CD4, CC4."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          857,
+          858
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Idear y diseñar soluciones eficaces, innovadoras y sostenibles a problemas definidos, aplicando conceptos, técnicas y procedimientos interdisciplinares, así como criterios de sostenibilidad, con actitud emprendedora, perseverante y creativa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              858
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Seleccionar, planificar y organizar los materiales y herramientas, así como las tareas necesarias para la construcción de una solución a un problema planteado, trabajando individualmente o en grupo de manera cooperativa y colaborativa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              858
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Fabricar objetos o sistemas robóticos mediante la manipulación y conformación de materiales, empleando herramientas y máquinas adecuadas, aplicando los fundamentos de estructuras, mecanismos, electricidad y fundamentalmente electrónica, respetando las normas de seguridad y salud correspondientes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              858
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Representar y comunicar el proceso de creación de un producto desde su diseño hasta su difusión, elaborando documentación técnica y gráfica con la ayuda de herramientas digitales, empleando los formatos y el vocabulario técnico adecuados, de manera colaborativa, tanto presencialmente como en remoto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              858
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y diagramas de flujo, aplicando los elementos y técnicas de programación de manera creativa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              858
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Programar aplicaciones sencillas para distintos dispositivos (ordenadores, dispositivos móviles y otros) empleando los elementos de programación de manera apropiada y aplicando herramientas de edición, así como módulos de inteligencia artificial que añadan funcionalidades a la solución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              858
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Automatizar procesos, máquinas y objetos de manera autónoma, con conexión a internet, mediante el análisis, construcción y programación de robots y sistemas de control."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              858
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reconocer la influencia de la actividad tecnológica en la sociedad y en la sostenibilidad ambiental a lo largo de su historia, identificando sus aportaciones y repercusiones y valorando su importancia para el desarrollo sostenible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              858
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar las aportaciones de las tecnologías emergentes al bienestar, a la igualdad social y a la disminución del impacto ambiental, haciendo un uso responsable y ético de las mismas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              858
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proceso de resolución de problemas"
+          },
+          "saberes": [
+            {
+              "id": "PR.3.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias, técnicas y marcos de resolución de problemas en diferentes contextos y sus fases."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  859
+                ]
+              }
+            },
+            {
+              "id": "PR.3.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de búsqueda crítica de información durante la investigación y definición de problemas planteados."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  859
+                ]
+              }
+            },
+            {
+              "id": "PR.3.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electricidad y electrónica básica para el montaje de esquemas y circuitos físicos o simulados. Interpretación, diseño y aplicación en proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas y técnicas de manipulación y mecanizado de materiales para la construcción de objetos y prototipos. Respeto de las normas de seguridad e higiene."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Emprendimiento, resiliencia, perseverancia y creatividad para abordar problemas desde una perspectiva interdisciplinar."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Comunicación y difusión de ideas"
+          },
+          "saberes": [
+            {
+              "id": "PR.3.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades básicas de comunicación interpersonal: vocabulario técnico apropiado y pautas de conducta propias del entorno virtual (etiqueta digital)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicaciones CAD en dos dimensiones para la representación de esquemas, circuitos, planos y objetos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas digitales para la elaboración, publicación y difusión de documentación técnica e información multimedia relativa a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Pensamiento computacional, programación y robótica"
+          },
+          "saberes": [
+            {
+              "id": "PR.3.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Algorítmica y diagramas de flujo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicaciones informáticas sencillas para ordenadores: Programación por bloques."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicaciones informáticas para ordenadores y dispositivos móviles."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas de control programado. Montaje físico y/o uso de simuladores y programación sencilla de dispositivos. Wearables. Internet de las cosas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fundamentos de la robótica. Montaje, control programado de robots de manera física o por medio de simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.C.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza e iniciativa: el error, la reevaluación y la depuración de errores como parte del proceso de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Tecnología sostenible"
+          },
+          "saberes": [
+            {
+              "id": "PR.3.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Desarrollo tecnológico: creatividad, innovación, investigación, obsolescencia e impacto social y ambiental. Ética y aplicaciones de las tecnologías emergentes."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            },
+            {
+              "id": "PR.3.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tecnología sostenible. Valoración crítica de la contribución a la consecución de los Objetivos de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                "paginas": [
+                  860
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

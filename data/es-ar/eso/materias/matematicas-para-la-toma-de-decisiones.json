@@ -1,0 +1,1245 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.eso.matematicas-para-la-toma-de-decisiones",
+  "territorio": "es-ar",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "MTD",
+    "nombre": {
+      "es": "Matemáticas para la Toma de Decisiones"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-156-orden-ecd-1172-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1172/2022, de 2 de agosto, por la que se aprueban el currículo y las características de la evaluación de la Educación Secundaria Obligatoria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-11",
+      "cve": "1234469220606",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234469220606&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926624&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 784,
+        "hasta": 801
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Las matemáticas surgen de la necesidad de controlar el mundo que nos rodea. Como señala Bishop (1991), el origen de la actividad matemática del ser humano se encuentra en actividades cotidianas como contar, medir, localizar, diseñar, jugar o explicar. Todas estas acciones están relacionadas con distintos posibles modos de interacción del ser humano con su entorno. Las matemáticas constituyen un lenguaje mediante el cual abstraer y modelizar dicho entorno. Expresar la realidad en términos matemáticos nos permite analizarla, comprenderla y explicarla.",
+      "De este modo, no es casual que la ciencia moderna, especialmente desde el siglo XVIII en adelante, haga uso del lenguaje y de las herramientas proporcionadas por las matemáticas. Por su parte, la tecnología, entendida como el aprovechamiento práctico del conocimiento científico, tiene también necesariamente una fuerte componente matemática. La relación entre las matemáticas y la ciencia y la tecnología es, de hecho, bidireccional. Los avances científico-tecnológicos son, en muchas ocasiones, fuente de inspiración y motivación para el desarrollo de nuevas herramientas matemáticas.",
+      "Además, en la sociedad actual están cobrando cada vez mayor importancia herramientas tecnológicas cuyo origen y fundamentación son esencialmente matemáticas. Actividades como realizar una búsqueda en internet, comprar y realizar un pago en una plataforma online, utilizar sistemas web de cartografía y navegación, etc. son cotidianas para una buena parte del alumnado, que las utilizan en buena medida de forma acrítica, como una caja negra, sin conocer apenas nada sobre su funcionamiento interno.",
+      "Por todo lo anterior, resulta imprescindible incluir en el currículum conocimientos y destrezas que logren dotar al alumnado de herramientas que les permitan desarrollarse plenamente y de forma eficaz en un entorno de creciente digitalización. Así, es necesario desarrollar en el alumnado competencias que le doten de la capacidad de desenvolverse satisfactoriamente en contextos en los que el Big Data, el Machine Learning, los algoritmos basados en inteligencia artificial, las presencia en redes sociales, etc. juegan un papel cada vez más relevante. Todos estos elementos comparten una fuerte componente matemática. Esta materia está orientada a sentar en el alumnado las bases fundamentales para el desarrollo de algunas de las competencias necesarias para ejercer la ciudadanía con garantías en este contexto, comprendiendo los fundamentos de herramientas que se utilizan cotidianamente y, por tanto, siendo capaces de evaluar sus ventajas y su utilidad; pero también sus inconvenientes y peligros potenciales. Todo esto implica abordar conceptos relacionados con la matemática discreta, la modelización, o el pensamiento algorítmico y computacional que no se abordan en una materia obligatoria de matemáticas generales.",
+      "Las tres primeras competencias específicas de esta materia se corresponden con cada uno de los tres saberes básicos en torno a los cuales se estructurará la misma. En todas ellas juegan un papel central la identificación y puesta en valor de las matemáticas presentes en situaciones de la vida real, la modelización, la transferencia razonada de resultados entre las situaciones y la comunicación de los resultados obtenidos. La cuarta competencia específica, de carácter transversal a todos los saberes considerados, está vinculada con la necesidad de utilizar de forma esencial y significativa herramientas informáticas para abordar los problemas propios de la materia. Todas estas competencias están estrecha y directamente relacionadas, como no podría ser de otro modo, con las competencias específicas de la materia de matemáticas. También existen importantes vínculos con otras materias como la tecnología, la tecnología y digitalización o la economía y emprendimiento. Así pues, esta materia puede contribuir de forma especialmente significativa al desarrollo de algunas de las competencias clave (STEM, CD) y de forma también relevante al de algunas otras (CCL, CC).",
+      "La adquisición de las competencias específicas se evaluará a través de una serie de criterios de evaluación que pretenden reflejar los conocimientos, destrezas y actitudes que conforman los distintos saberes básicos que ayudarán a la adquisición de dichas competencias específicas. Los saberes se han organizado en tres grandes bloques: aritmética modular y criptografía, teoría de grafos y teoría de juegos. Estos tres bloques, pueden ser abordados de forma independiente, si bien guardan una relación que permite establecer conexiones entre ellos y también con",
+      "conocimientos previos del alumnado, tanto de la materia de matemáticas como de otras mencionadas anteriormente. En particular, hacemos notar que cada uno de estos tres bloques contribuye en cierta medida a la adquisición de destrezas relacionadas con varios de los siete diferentes sentidos que estructuran el currículum de la materia obligatoria de matemáticas.",
+      "El bloque dedicado a la aritmética modular y la criptografía, a partir de conocimientos previos del alumnado, presenta algunos de los fundamentos de la tecnología digital. La aritmética básica es un campo en el que surgen de manera natural un buen número de conjeturas y propiedades que estudiar con ayuda de medios informáticos. Además, la aritmética modular se encuentra en la base del tratamiento informático de datos y la criptografía resulta indispensable en un mundo en el que la identidad digital es casi equivalente a la identidad real de una persona.",
+      "En el bloque dedicado a la teoría de grafos se aborda un objeto matemático cuya introducción resulta sencilla, pero cuyas aplicaciones abarcan múltiples y muy variadas situaciones. Estos contenidos permiten trabajar aspectos relacionados con la argumentación de forma bastante similar a lo que sucede en la geometría, pero proporcionando un contexto de aplicaciones más próximas a los intereses actuales del alumnado. La resolución de problemas reales mediante teoría de grafos motiva a su vez de forma muy clara y directa el uso de algoritmos sin los cuales la búsqueda de solución resulta casi inabordable.",
+      "En el bloque dedicado a la teoría de juegos se proporcionan herramientas para modelizar situaciones de conflicto muy habituales en áreas de conocimiento cuya relación con las matemáticas queda a veces fuera del ámbito escolar (economía, política, etc.) y en las que la toma de decisiones juega un papel fundamental. Además, al tratar este tipo de situaciones con información imperfecta surgen contextos en los que la presencia del azar tiene su origen en el desconocimiento y no necesariamente en la naturaleza aleatoria de los fenómenos involucrados.",
+      "El pensamiento computacional, el diseño y aplicación de algoritmos, así como su análisis deben estar presentes de manera sustancial a lo largo de los tres bloques. El uso de herramientas informáticas debe ser constante para representar objetos y situaciones, para formular conjeturas y ponerlas a prueba y para encontrar soluciones a problemas de forma efectiva y constructiva. Tanto las competencias específicas, como los criterios de evaluación y los distintos saberes básicos están diseñados para constituir un todo que facilite el planteamiento de tareas complejas, individuales o colectivas, en diferentes contextos, significativas y relevantes permitiendo desarrollar los aspectos fundamentales de las matemáticas a la vez que se muestra su papel central como herramienta en la resolución de problemas y se potencia su valor y su uso como lenguaje en el que expresar la realidad.",
+      "Finalmente, los tres bloques de saberes básicos que se han diseñado guardan una cierta independencia entre ellos. Es decir, pueden ser relacionados, pero también son susceptibles de ser abordados individualmente de forma autónoma. Esto permite que los docentes y las docentes, si lo consideran conveniente, puedan adaptar los contenidos de la materia a los posibles intereses específicos del alumnado centrándose de forma específica solo en algunos de dichos bloques."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Reconocer la importancia de la aritmética modular en un contexto tecnológico y digital, comprendiendo la necesidad y los fundamentos básicos de algoritmos de codificación sencillos y siendo capaz de aplicarlos de forma efectiva en situaciones concretas."
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de la informática y de las tecnologías digitales está basado en la posibilidad de expresar cualquier tipo de información (gráfica, sonora, etc.) en términos numéricos. Para comenzar a entender estos procesos es pues indispensable disponer de conocimientos aritméticos especializados y razonar en términos finitos, propios del lenguaje computacional. Esto supone el planteamiento de problemas aritméticos que se alejan de las situaciones escolares que el alumnado asocia a la aritmética, así como la necesidad de reflexionar sobre qué significa resolver un problema y el diseño de distintas estrategias en función de las herramientas disponibles y los objetivos planteados.",
+          "El desarrollo de esta competencia conlleva la sistematización de conocimientos aritméticos básicos que el alumnado ha abordado de manera informal desde la educación primaria. En particular, se trata de avanzar hacia un tratamiento más combinatorio y propio de la matemática discreta. También surge la necesidad de discutir sobre la existencia de",
+          "soluciones de ecuaciones y congruencias comprendiendo que, en ocasiones, solo estamos interesados en determinar la existencia y no necesariamente en encontrar la solución. Además, supone que los alumnos y las alumnas comprendan los fundamentos aritméticos de las tecnologías digitales que manejan en su día a día y aprecien la necesidad de desarrollar e implementar medidas de seguridad y privacidad en las comunicaciones.",
+          "Esta competencia específica está vinculada con diversas competencias de la materia de matemáticas. Muchos de los contenidos tratados tienen una clara y marcada componente algorítmica y computacional, que se vincula con la competencia CE.M.4. Adicionalmente, la necesidad de utilizar distintas técnicas y conceptos matemáticos vincula esta competencia con CE.M.5. Del mismo modo, se espera que esta competencia contribuya a que los alumnos y las alumnas perciban la base matemática subyacente a muchas de las herramientas informáticas con las que se manejan en el día a día, en clara relación con la competencia CE.M.6.",
+          "Por otro lado, y más allá de la materia de matemáticas, la aplicación práctica de algoritmos sencillos de codificación está claramente vinculada con otras competencias específicas de la materia de tecnología y digitalización; en particular con CE.TD.5.",
+          "Esta competencia específica se conecta con los siguientes descriptores del perfil de salida: STEM1, STEM2, STEM4, CD1, CD4, CD5, CPSAA5, CC3.",
+          "Competencia específica de la materia matemáticas para la toma de decisiones 2:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD4",
+        "CD5",
+        "CPSAA5",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          785,
+          786
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar la utilidad de la teoría de grafos para modelizar situaciones y problemas reales de la vida cotidiana y de materias del ámbito científico y tecnológico, empleándola para explorar distintas formas de proceder y para obtener y comunicar posibles soluciones."
+      },
+      "descripcion": {
+        "es": [
+          "Multitud de situaciones en las que las relaciones entre objetos juegan un papel central pueden modelizarse mediante la teoría de grafos. Lo mismo sucede con un buen número de procesos de carácter iterativo o algorítmico. El alumnado está muy familiarizado con un buen número de estas situaciones presentes a menudo en aplicaciones informáticas que utiliza a diario. Para entender el funcionamiento de estos procesos se requiere de un conocimiento básico de los conceptos, propiedades y algoritmos subyacentes que permita no solo la comprensión de dichos procesos, sino también el análisis crítico de los mismos.",
+          "El desarrollo de esta competencia conlleva la capacidad del alumnado de modelizar situaciones variadas en los términos matemáticos de la teoría de grafos, siendo capaz de identificar, seleccionar y aplicar las herramientas y los enfoques más adecuados en función de las características de la situación concreta. Los alumnos y las alumnas deben ser capaces de transferir la información de forma bidireccional entre la situación y el modelo, expresando verbalmente, razonando y argumentando las conclusiones obtenidas. Además, se debe comprender la necesidad de encontrar soluciones de forma efectiva, aun cuando los grafos considerados sean grandes, y que hacerlo implica disponer de algoritmos para encontrar dichas soluciones toda vez que se conoce su existencia o para buscarlas de forma exploratoria si no es el caso. En particular, esto también supone constatar el papel indispensable dela herramientas computacionales en la resolución de problemas reales.",
+          "Esta competencia específica está vinculada con diversas competencias de la materia de matemáticas. El énfasis puesto en el uso de la teoría de grafos como herramienta para modelizar situaciones enlaza directamente con la competencia CE.M.1, mientras que el uso de los métodos y técnicas asociados conllevan una clara relación con la competencia CE.M.2. Por su parte, el uso de la teoría de grafos en contextos intramatemáticos está vinculada con la competencia",
+          "CE.M.5. Además, la identificación de la presencia de la teoría de grafos en multitud de situaciones de la vida real entronca de forma clara con la competencia CE.M.6; mientras que la comunicación de las soluciones obtenidas en como resultado del proceso de modelización involucra a la competencia CE.M.8.",
+          "La presencia y el aporte significativo de la teoría de grafos tanto en la planificación y el análisis de distintos procesos tecnológicos, así como en la solución de problemas asociados a los mismos vinculan esta competencia con competencias específicas de la materia de tecnología como CE.T.1 y CE.T.6. Los grafos juegan un papel fundamental en el diseño de algoritmos, lo que relaciona esta competencia con la competencia específica CE.TD.5 de la materia de tecnología y digitalización. Del mismo modo, conceptos y técnicas propios de la teoría de grafos sirven como base al funcionamiento de múltiples dispositivos y aplicaciones informáticas comunes en la vida diaria. Esto enlaza directamente con la competencia específica CE.TD.6.",
+          "Esta competencia específica se conecta con los siguientes descriptores del perfil de salida: CCL1, STEM1, STEM2, STEM4, CD1, CD5, CPSAA3, CPSAA4, CPSAA5, CC3, CC4, CE1, CE2, CE3.",
+          "Competencia específica de la materia matemáticas para la toma de decisiones 3:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD5",
+        "CPSAA3",
+        "CPSAA4",
+        "CPSAA5",
+        "CC3",
+        "CC4",
+        "CE1",
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          786,
+          787
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Utilizar la teoría de juegos para modelizar situaciones y problemas reales de la vida cotidiana y de materias del ámbito de las ciencias sociales y de la economía, reconociendo su aplicación a la toma de decisiones y obteniendo y expresando soluciones posibles en situaciones diversas."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia a la aplicación de procesos y técnicas propios del razonamiento matemático en situaciones de conflicto en las que dos o más partes con intereses diversos deben decidir cómo actuar, de tal modo que el resultado obtenido par cada parte no depende solo de su propia acción, sino también de las de los demás. Esto supone el conocimiento de una terminología especializada y la construcción de un aparataje conceptual adecuados, que son nuevos para el alumnado. Además de ello, resulta necesario poner en juego diversas competencias y saberes relacionados con la modelización y representación, la organización y análisis de datos, las relaciones y funciones, el pensamiento computacional, etc. El desarrollo de esta competencia conlleva la capacidad del alumnado de modelizar situaciones de conflicto en los términos matemáticos de la teoría de juegos, siendo capaz de identificar, seleccionar y aplicar las herramientas y los enfoques más adecuados en función de las características de la situación concreta. Además, los y las alumnas deben ser capaces de transferir la información de forma bidireccional entre la situación y el modelo, expresando verbalmente, razonando y argumentando las conclusiones obtenidas como resultado de la aplicación de las técnicas propias de la teoría de juegos a la situación estudiada, gestionando adecuada la presencia del azar cuando sea necesario.",
+          "Esta competencia específica está vinculada con diversas competencias de la materia de matemáticas. El énfasis puesto en el uso de la teoría de juegos como herramienta para modelizar situaciones enlaza directamente con la competencia CE.M.1, mientras que el uso de los métodos y técnicas asociados conllevan una clara relación con la competencia CE.M.2. Por su parte, la constatación de la presencia y el uso dentro de la teoría de juegos de ideas provenientes de la teoría de grafos o del cálculo de probabilidades está vinculada con la competencia CE.M.5. Además, la identificación de la presencia de la teoría de juegos en multitud de situaciones de la vida real entronca de forma clara con la competencia CE.M.6; mientras que la comunicación de las soluciones obtenidas en como resultado del proceso de modelización involucra a la competencia CE.M.8.",
+          "Por su parte, la teoría de juegos es una herramienta muy habitual en el ámbito de la economía y de la toma de decisiones empresariales. Los comportamientos estratégicos basados en la toma de decisiones racionales y bien fundamentadas son esenciales para un emprendimiento exitoso. En consecuencia, esta competencia está directamente relacionada con competencias específicas de la materia de economía y emprendimiento como pueden ser CE.EE.1 o CE.EE.6.",
+          "Esta competencia específica se conecta con los siguientes descriptores del perfil de salida: CCL1, CCL2, STEM1, STEM2, STEM4, CD1, CD5, CPSAA1, CPSAA5, CC3, CC4, CE2, CE3.",
+          "Competencia específica de la materia matemáticas para la toma de decisiones 4:"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD5",
+        "CPSAA1",
+        "CPSAA5",
+        "CC3",
+        "CC4",
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          787,
+          788
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Emplear herramientas de cálculo simbólico u otras herramientas digitales para representar resultados y procedimientos, explorar, conjeturar y comprobar propiedades, y resolver problemas, desarrollando e implementando algoritmos matemáticos sencillos."
+      },
+      "descripcion": {
+        "es": [
+          "Las herramientas informáticas juegan un papel fundamental en el desarrollo científico, técnico y tecnológico actual. Más allá de su ubicuidad en la vida cotidiana, la utilización de los ordenadores ha permitido abordar problemas cuya resolución requiere, necesariamente, del manejo de grandes cantidades de datos. Los alumnos y las alumnas deben ser conscientes de este hecho y han de apreciar las múltiples posibilidades que les aportan las herramientas tecnológicas a su alcance para resolver los problemas que se les plantean, pero también sus debilidades y la necesidad de un análisis previo que permita abordar la situación en términos computacionales.",
+          "El desarrollo de esta competencia conlleva el uso de herramientas informáticas de forma significativa con diferentes funciones. Desde la mera representación de objetos, pasando por la exploración de conjeturas y propiedades, hasta el diseño y la implementación de algoritmos sencillos. Esto supone, en muchas ocasiones, abordar los problemas de un modo específico distinto al que se utilizaría en caso de resolverlos sin el uso de tecnología. No obstante, debe señalarse la riqueza de un abordaje complementario en el que la tecnología complementa al pensamiento abstracto, y los razonamientos teóricos proporcionan una guía para el abordaje del problema con medios informáticos.",
+          "Esta competencia específica está vinculada con diversas competencias de la materia de matemáticas. En particular, la interpretación y resolución de problemas, y el análisis de las soluciones mediante herramientas y técnicas informáticas se vincula directamente con las competencias específicas CE.M.1 y CE.M.2. El uso exploratorio de ese mismo tipo de herramientas se relaciona con CE.M.3., y su utilización orientada a la representación o visualización se relaciona con CE.M.7. El desarrollo e implementación de algoritmos está directamente relacionado con elementos propios del pensamiento computacional y, por tanto, con la competencia específica CE.M.4.",
+          "Esta relación con el pensamiento computacional es la que vincula esta competencia específica con competencias específicas de la materia de tecnología. En particular con aquellas relacionadas con la resolución automatizada de problemas, CE.T.4, y con el aprovechamiento de herramientas digitales, CE.T.5. Eventualmente podría plantearse la posibilidad de diseñar y desarrollar algoritmos propios, lo que enlazaría con competencias de la materia de tecnología y digitalización como CE.TD.5 y CE.TD.7.",
+          "Esta competencia específica se conecta con los siguientes descriptores del perfil de salida: CCL3, STEM1, STEM2, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CPSAA5, CCEC4."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA4",
+        "CPSAA5",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+        "paginas": [
+          788
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Aplicar el algoritmo de Euclides para calcular el m.c.d. de dos números y para obtener la expresión de la identidad de Bezout."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver ecuaciones diofánticas lineales en una y dos variables, estudiando previamente la existencia de solución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Poseer los fundamentos necesarios para trabajar módulo un entero m, sabiendo las diferentes propiedades que surgen según m sea primo o no."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver de forma constructiva sistemas de congruencias lineales con una incógnita, estudiando previamente la existencia de solución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-5",
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer y determinar unidades y divisores de cero en Z/mZ para cualquier m."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-6",
+          "codigoOficial": "1.6",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Aplicar el pequeño teorema de Fermat para estudiar la primalidad de un entero dado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-7",
+          "codigoOficial": "1.7",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer, idear y aplicar algoritmos de cifrado de sustitución y polialfabéticos sencillos, entendiendo sus vulnerabilidades."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-8",
+          "codigoOficial": "1.8",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer los fundamentos y vulnerabilidades del algoritmo RSA, aplicándolo en casos sencillos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar propiedades y tipos de grafos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Clasificar grafos según distintos criterios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Formular definiciones de las principales propiedades y familias de grafos haciendo uso de lenguaje especializado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-4",
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Proporcionar argumentos y/o contraejemplos acerca de la existencia, o no, de ciertos tipos de grafos y respecto al cumplimiento, o no, de determinadas propiedades."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-5",
+          "codigoOficial": "2.5",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Utilizar grafos para modelizar matemáticamente situaciones de la vida cotidiana, la ciencia y la tecnología."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-6",
+          "codigoOficial": "2.6",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Proponer situaciones y problemas reales susceptibles de ser modelizados utilizando la teoría de grafos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-7",
+          "codigoOficial": "2.7",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar adecuadamente algoritmos sencillos sobre grafos, reflexionando sobre su eficiencia y transfiriendo el resultado a la situación real de partida."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer la terminología básica propia de la teoría de juegos y utilizarla adecuadamente en situaciones oportunas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar la forma de representación apropiada para modelizar un juego o una situación determinada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Comprender los conceptos de estrategia (pura y mixta) y de punto de equilibrio, así como su interpretación en situaciones concretas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver juegos de dos jugadores, suma cero e información perfecta mediante retropropagación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-5",
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver completamente juegos de dos jugadores y suma cero dados en forma normal en el caso 2 × 2."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-6",
+          "codigoOficial": "3.6",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Expresar y comunicar los resultados de la resolución de un juego (ganancias, pérdidas, estrategias ganadores, etc.) en los términos del contexto concreto en que se está trabajando."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              789
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Formular conjeturas acerca de propiedades de los números enteros y estudiar su posible veracidad o falsedad de forma computacional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              790
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar herramientas informáticas para explorar propiedades de grafos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              790
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar algoritmos propios para resolver problemas aritméticos en Z y en Z/mZ."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              790
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Expresar en pseudocódigo los algoritmos aritméticos sencillos diseñados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              790
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-5",
+          "codigoOficial": "4.5",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar y comprender el funcionamiento de algoritmos sencillos expresados en pseudocódigo en contextos de aritmética, teoría de grafos y teoría de juegos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+            "paginas": [
+              790
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Aritmética modular y criptografía"
+          },
+          "apartados": [
+            {
+              "codigo": "A.1",
+              "nombre": {
+                "es": "Aritmética en Z"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.A.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La relación de divisibilidad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Máximo común divisor y mínimo común múltiplo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Algoritmo de Euclides. Identidad de Bezout."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Números primos. El teorema fundamental de la aritmética."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.1.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ecuaciones diofánticas lineales. Resolución completa de los casos con una y dos variables."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.2",
+              "nombre": {
+                "es": "Aritmética modular"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.A.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La relación de congruencia módulo un entero m. Propiedades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Inversos multiplicativos. Existencia y cálculo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de congruencias lineales con una incógnita."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de sistemas de congruencias lineales con una incógnita. El teorema chino de los restos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.3",
+              "nombre": {
+                "es": "El conjunto Z/mZ"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.A.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El conjunto de clases módulo m."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Unidades y divisores de cero. La función phi de Euler."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Orden de un elemento."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.3.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El pequeño teorema de Fermat y el teorema de Euler."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.4",
+              "nombre": {
+                "es": "Criptografía"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.A.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Esteganografía y criptografía. Origen, utilidad y aplicaciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cifrados de sustitución y polialfabéticos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.4.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cifrados simétricos y asimétricos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.A.4.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El algoritmo RSA."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      792
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Teoría de grafos"
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Definición, conceptos y"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "propiedades básicas:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Definición intuitiva de grafo. Vértices y aristas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Representaciones pictóricas. Isomorfismo de grafos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Grafos dirigidos. Grafos ponderados."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.1.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Subgrafos. Ciclos y caminos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.1.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conexión. Grafos bipartitos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.1.7",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Planaridad y coloreabilidad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Tipos y familias de grafos"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.B.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Grafo ciclo y grafo camino."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Grafos completos. Grafos bipartitos completos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Árboles."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Grafos eulerianos y hamiltonianos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.3",
+              "nombre": {
+                "es": "Algoritmos de grafos"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.B.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El algoritmo voraz de coloración."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El algoritmo de Fleury."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.B.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El algoritmo de Dijkstra."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Teoría de juegos"
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Definiciones básicas"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.C.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Concepto de juego."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.C.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Juegos de azar y deterministas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.C.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Información perfecta e imperfecta."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.C.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Vector de pagos. Juegos de suma cero."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Formas de representar un juego"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.C.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Forma extensiva. Árbol del juego."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      793
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.C.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Forma normal. Estrategias. Representación tabular del juego."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      794
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.3",
+              "nombre": {
+                "es": "Juegos de dos jugadores con suma"
+              },
+              "saberes": [
+                {
+                  "id": "MTD.4.C.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "cero:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      794
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.C.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de juegos de dos jugadores, suma cero e información perfecta dados en forma extensiva. Retropropagación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      794
+                    ]
+                  }
+                },
+                {
+                  "id": "MTD.4.C.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de juegos de dos jugadores y suma cero dados en forma normal. Estrategias puras, dominación y puntos silla. Estudio completo en el caso 2 × 2. Estrategias mixtas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      794
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

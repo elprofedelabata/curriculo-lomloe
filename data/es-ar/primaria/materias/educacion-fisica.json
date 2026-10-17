@@ -1,0 +1,2658 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.primaria.educacion-fisica",
+  "territorio": "es-ar",
+  "etapa": "primaria",
+  "materia": {
+    "codigo": "EF",
+    "nombre": {
+      "es": "Educación Física"
+    },
+    "ciclos": [
+      {
+        "ciclo": 1,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 2,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 3,
+        "caracter": "obligatoria"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-07-28",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-145-orden-ecd-1112-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1112/2022, de 18 de julio, por la que se aprueban el currículo y las características de la evaluación de la Educación Primaria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "145",
+      "fechaPublicacion": "2022-07-27",
+      "cve": "1232424620909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1232424620909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926319&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 125,
+        "hasta": 166
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El sistema educativo actual, orientado al desarrollo integral del futuro ciudadano del siglo XXI, debe dar importancia a la única área del currículum que posibilita que la totalidad del alumnado descubra de manera activa, el patrimonio cultural inmaterial que representan las actividades físicas, deportivas y artístico-expresivas, impulsando un estilo de vida activo y saludable.",
+      "La Educación Física (EF) persigue el desarrollo de la persona en su globalidad, lo que implica aspectos motores, biológicos, cognitivos, de relación interpersonal y afectivo-emocionales. De forma más específica, y dado que toda ella se apoya en las acciones motrices, hará hincapié en el desarrollo de las capacidades y recursos necesarios para la adquisición y perfeccionamiento de las conductas motrices. Enriqueciendo esta idea, deberemos potenciar la integración de actitudes ecosocialmente responsables, los valores, la autorregulación emocional, la cultura, los beneficios para la salud (tanto a nivel individual como social), fomentando una actividad física orientada hacia una participación autónoma, satisfactoria y prolongada a lo largo de toda la vida. A partir de esta nueva idea de Educación Física de calidad, al profesional de la Educación Física se le propone un nuevo rol como educador, facilitador y promotor de una educación activa.",
+      "La Educación Física tendrá como finalidades que el alumnado: a) educar las conductas motrices, así como las capacidades y potencialidades necesarias para su adquisición, perfeccionamiento y adaptación, en contextos y actividades variadas; b) el descubrimiento activo de la cultura motriz que representan las AFDAE (Actividades físicas, deportivas y artístico-expresivas); c) adoptar principios de ciudadanía y valores que le permitan interactuar con otros en los contextos sociales de práctica de actividad física; d) impulsar un estilo de vida saludable fomentando una actividad física orientada hacia una participación autónoma, satisfactoria y prolongada a lo largo de toda la vida.",
+      "Las competencias establecidas en el Perfil de salida del alumnado al término de la enseñanza básica, en su adecuación a la etapa de Educación Primaria, junto con los Objetivos Generales de la Etapa, han concretado el marco de actuación para definir las competencias específicas del área. Este elemento curricular se convierte en el referente a seguir para dar forma a la Educación física que se pretende desarrollar: más competencial, más actual y alineada con las necesidades de la ciudadanía para afrontar los retos y desafíos presentes.",
+      "Las competencias específicas del área de Educación física en la etapa de Educación Primaria recogen y sintetizan estos retos, abordando la motricidad de forma más estructurada para dar continuidad a los logros y avances experimentados por los estudiantes durante la etapa de Educación Infantil (a través de situaciones motrices individuales, que exijan adaptar su motricidad a entornos y/o elementos variados y desconocidos, de colaboración y/o oposición y con intención artística o expresiva, a través de propuestas de improvisación y/o creación).",
+      "Para alcanzar estas nuevas competencias específicas, se presentan seis bloques de saberes básicos que se organizan en torno a las tres dimensiones con las que se estableció la Orden de 16 de junio de 2014 (Julián, Abarca-Sos, Zaragoza y Aibar (2016) y Arnold (1991)) para el desarrollo curricular del área de Educación física.",
+      "- La Dimensión I está relacionada con los dominios de acción motriz y está conectada con la pedagogía de las conductas motrices. Esta dimensión se desarrollará mediante el Bloque A: Resolución de problemas en situaciones motrices.",
+      "- La Dimensión II está relacionada con la cultura, el autoconocimiento, los valores y la sostenibilidad. Es afín a una pedagogía a través/desde las conductas motrices. Esta dimensión se desarrollará a través del el Bloque B: Manifestaciones de la cultura motriz, el Bloque C: Autorregulación emocional e interacción social en situaciones motrices y el Bloque D: Interacción eficiente y sostenible con el entorno.",
+      "- La Dimensión III relacionada con el desarrollo de identidades activas a través de la construcción de una vida saludable. Está vinculada con aprendizajes transversales para la Educación Física. Esta dimensión se potenciará mediante el Bloque E: Organización y gestión de la actividad física y el Bloque F: Vida activa y saludable.",
+      "Esta organización invita al profesorado a concretar un plan de acción intencional para el área de Educación Física en su contexto a partir de la siguiente explicación.",
+      "La “Dimensión I. Dominios de acción motriz” intenta dar continuidad a currículums anteriores de nuestra comunidad autónoma (Orden de 6 de mayo de 2005 y Orden de 16 de junio de 2014) pero dando mayor flexibilidad en la organización a cada contexto desarrollando el Bloque A: Resolución de problemas en situaciones motrices. Éstos serán individuales, de oposición, de cooperación, de colaboración-oposición, en el medio natural y con intenciones artísticas o expresivas. Esta dimensión y este bloque con los seis dominios de acción configuran los ejes específicos de la educación física escolar, ya que nos permitirán transferir saberes comunes dentro un itinerario de enseñanzaaprendizaje al agrupar situaciones y actividades con rasgos comunes de lógica interna.",
+      "La “Dimensión II. Cultura, autoconocimiento, valores y sostenibilidad” estará presente mediante el Bloque B: Manifestaciones de la cultura motriz, donde se abarcan dos componentes: el conocimiento de la cultura motriz tradicional, la cultura artístico-expresiva contemporánea y el deporte como manifestación cultural, desde una perspectiva integradora que incluya ejemplos de personas y culturas con diferentes realidades. También en el Bloque C: Autorregulación emocional e interacción social en situaciones motrices. Este bloque se centra, por un lado, en el desarrollo de los procesos dirigidos a regular la respuesta emocional del alumnado ante situaciones derivadas de la práctica motriz; y por otro, incide sobre el desarrollo de las habilidades sociales y el fomento de las relaciones constructivas e inclusivas entre los participantes y por último en la resolución de conflictos de manera dialógica. Y finalmente en el Bloque D: Interacción eficiente y sostenible con el entorno, ya que incide sobre la interacción con el medio natural y urbano desde una triple vertiente: su uso desde la motricidad, su conservación desde una visión sostenible y su carácter compartido desde una perspectiva comunitaria del entorno.",
+      "La “Dimensión III. El desarrollo de identidades activas a través de la construcción de una vida saludable” tendrá su incidencia en el Bloque E: Organización y gestión de la actividad física y aborda tres componentes diferenciados: la higiene y la salud postural, el establecimiento de rutinas de activación-calentamiento y de vuelta a la calma, la actuación ante lesiones o situaciones de riesgo en la práctica y el Inicio de la autogestión de las cualidades físicas a través de proyectos con criterios saludables. Por último, en el Bloque F: Vida activa y saludable aborda la salud desde una perspectiva global (física, mental y social) poniendo en valor dos conceptos básicos como son el de la salutogénesis y el de la salud basada en activos. Esto conlleva la construcción de una identidad activa a través del respeto de la imagen corporal propia y de los demás y de la identificación de comportamientos saludables.",
+      "A partir de esta descripción y de las premisas iniciales establecidas, para organizar la propuesta educativa en la etapa de Educación Primaria, la Dimensión I (relacionado con los dominios de acción motriz) deberá ser la base fundamental sobre la que construirla. Se perseguirá que el alumnado reciba a lo largo de la etapa un tratamiento adecuado del área de Educación Física a través de un trabajo sistemático (todos los cursos), equilibrado (parecido número de sesiones) y contextualizado (ajustado a las posibilidades del centro y del entorno) de los diferentes tipos de experiencias motrices, ya que de lo contrario no estaremos aprovechando al máximo las posibilidades educativas que nos ofrece el área.",
+      "A las actividades seleccionadas se le sumará la Dimensión II para enriquecerlas desde la cultura, el autoconocimiento, los valores y la sostenibilidad para desarrollar las diferentes unidades didácticas de cada curso. Un ejemplo de la combinación de las dimensiones I y II sería en una unidad didáctica de la actividad de “tenis” que se desarrolle en cuarto de Educación Primaria: estaría asociada a la Dimensión I y al “Bloque A: Resolución de problemas en situaciones motrices” para mejorar aspectos motrices de oposición relacionados con la gestión del espacio propio y el espacio adverso; para enriquecerlo con la Dimensión II, elegimos el “Bloque C: Autorregulación emocional e interacción social en situaciones motrices” para profundizar en aspectos como el respeto al adversario, control de impulsos ante situaciones de pérdida de punto, colaborar en la organización del material... La Dimensión II puede abordarse de manera específica por ejemplo en lo relacionado con la transmisión de la cultura relacionado con el juego de tradición y popular, en la que tiene una idiosincrasia propia. Se deberá huir de propuestas sustentadas en criterios que no reflejan la realidad cultural del alumnado (es decir, el autoconocimiento, los valores y la sostenibilidad) diluyendo la contextualización de los aprendizajes y el trabajo competencial.",
+      "La Dimensión III podrá tener, por su carácter transversal, un apoyo tanto en la Dimensión I como en la Dimensión II o ser trabajada de manera independiente de las anteriores. Por ejemplo, una combinación de las Dimensiones I, II y III",
+      "podría ser una unidad didáctica en carrera de larga duración para cuarto de Educación Primaria en la que: desarrollamos la Dimensión I con el “Bloque A: Resolución de problemas en situaciones motrices” relacionada con una actividad individual, como es el atletismo y las pruebas de larga duración para mejorar aspectos relacionados con la",
+      "gestión del ritmo uniforme; lo enriquecemos con la Dimensión II y con el “Bloque B: Manifestaciones de la cultura motriz” ya que les vamos pedir que analicemos las pruebas populares de su contexto si son o no para todos y para todas. Finalmente, la inclusión de la Dimensión III y del “Bloque E: Organización y gestión de la actividad física” iría encaminada a confeccionar un proyecto de aprendizaje que buscara la autogestión de la resistencia durante un tiempo prolongado (de 15 a 25 minutos) en un evento deportivo en nuestro contexto próximo. La Dimensión III puede abordarse de manera específica cuando, por ejemplo, les solicitamos analizar su semana habitual de práctica de actividad física o de hábitos saludables y que analicen las barreras y los facilitadores para determinar un estilo de vida activo y saludable.",
+      "La vinculación con otras áreas es evidente y plausible. Por ello, es recomendable que el desarrollo de las distintas situaciones de aprendizaje atienda a esta particularidad e incorpore enfoques interdisciplinares en la medida en que sea posible. Es por todo ello que las decisiones que se tomen desde la concreción de este currículum irán encaminadas a desarrollar una alfabetización física en el alumnado y en el contexto próximo. Ya sea de forma individual o en grupo, deberemos construir experiencias que fomenten interacciones positivas a través de la comprensión, la interpretación, la creación y la comunicación.",
+      "Finalmente, como docentes, estamos en una posición única y privilegiada para facilitar el potencial de cada individuo, proporcionando un entorno de aprendizaje que valore sus logros, desarrolle su confianza, su competencia y su motivación para que le capacite a tomar decisiones saludables para él y para su entorno social."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Adaptar la motricidad (esquema corporal, las capacidades físicas, perceptivo-motrices y coordinativas, las habilidades y destrezas motrices, aplicando procesos de percepción, decisión y ejecución) en diferentes situaciones de aprendizaje, para dar una respuesta ajustada a las demandas de proyectos de aprendizaje relacionadas con actividades conectadas con el contexto social próximo."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia implica la adquisición, enriquecimiento y perfeccionamiento de las conductas motrices. Estas se manifiestan a través de las diferentes y variadas situaciones motrices que los docentes proponen para conseguir aprendizajes. Como sabemos, no todas las situaciones motrices movilizan las mismas conductas motrices y, por lo tanto, los mismos aprendizajes. En función de la lógica interna las situaciones motrices las podemos organizar en experiencias corporales diferenciadas y que representan diferentes tipos de situaciones motrices a los que pueden enfrentarse el alumnado. Esta organización recibe el nombre de “Dominios de Acción Motriz” (Parlebas, 2001, Larraz, 2004). Estas ideas adaptadas al contexto escolar ya han sido plasmadas en otros currículums de nuestra comunidad autónoma (Orden de 6 de mayo de 2005 y Orden de 16 de junio de 2014). Las acciones motrices que se deben operativizar en actividades, configurando itinerarios de enseñanza-aprendizaje, durante la etapa de Educación Primaria son individuales, de oposición, de cooperación, de colaboración-oposición, en el medio natural y con intenciones artísticas o expresivas.",
+          "Para desarrollar las diferentes acciones motrices tenemos diferentes actividades potenciales que irán configurando las propuestas curriculares. Las acciones motrices individuales a través del atletismo (carreras de velocidad, obstáculos, relevos y de larga duración; lanzamientos peso, martillo, vortex y jabalinas adaptadas; salto de altura, longitud, multisaltos), la natación (estilos, zambullidas, juegos acuáticos, retos acuáticos combinados, salvamento y socorrismo (pruebas combinadas, arrastres de maniquís, nado con obstáculos), etc.) y la gimnasia deportiva (como combinación de acciones prioritarias como rodar, girar, saltar, equilibrarse, desplazarse, etc.), el patinaje (en línea, patines 2-2, monopatines, patinetes, tablas rodantes, etc.) entre otras. Las acciones motrices de oposición le corresponden las actividades de enfrentamiento en los que puede existir contacto corporal entre los adversarios",
+          "(juegos de contacto corporal, juegos de lucha, juegos de oposición, judo suelo, esgrima, kendo,) o actividades modificadas de cancha dividida (mini tenis, bádminton, raquetas, indiaka, tenis de mesa, juegos de cancha dividida, combinación de actividades con redes a diferentes alturas, etc.), entre otras. Las acciones motrices de cooperación se pueden desarrollar a partir de los juegos cooperativos, los desafíos físicos cooperativos, los cuentos motores",
+          "cooperativos, entre otras. Las acciones de colaboración-oposición pueden abordarse desde juegos en grupo, juegos de estrategia, deportes adaptados y emergentes (kin-ball, dodgeball, colphol, touchball, etc.), juegos y deportes modificados basados en la comprensión (TeachingGamesforUnderstanding-TGfU) como los juegos de bate y carrera (béisbol, entre otros), los juegos de cancha dividida (voleibol, entre otros) y los juegos de invasión (como hockey, baloncesto, korfball, balonmano, rugby, fútbol, entre otros), desarrollar iniciativas pedagógicas dentro del modelo de educación deportiva (Sport Education-SE). Las acciones motrices en el medio natural tienen en el senderismo, la marcha nórdica, las rutas en BTT, las acampadas, las actividades de orientación, los grandes juegos en la naturaleza, el esquí nórdico (y otras modalidades), la trepa (que puede evolucionar hacia la escalada), etc. las prácticas físicas que pueden realizarse para abordarlas. Y por último, las acciones motrices con intenciones artísticas o expresivas tenemos la expresión corporal desde la danza creación y otras actividades más específicas como el acrosport, circo (malabares, clown, mimo y otras técnicas), actividades rítmicas, natación sincronizada, danza contemporánea, danzas urbanas y étnicas, juego dramático e improvisación teatral, teatro de sombras, etc. Finalmente, siempre que se hagan con un componente creativo: bailes y danzas colectivas (del mundo y tradicionales autonómicas), bailes de salón, etc.",
+          "Para que las actividades propuestas a lo largo de la etapa tengan un alto potencial competencial, deberán reunir los siguientes criterios: relevancia cultural en el contexto próximo, posibilidad de participar en eventos o situaciones sociales de referencia, conexión con elementos transversales, argumentos afectivos que influyen en el aprendizaje del alumnado (intereses y necesidades del alumnado), potencial interdisciplinar, implicación de agentes de la comunidad educativa y posibilidad de ser reutilizados en otras situaciones y momentos.",
+          "Esta competencia específica podría vincularse a las CE.EF.2., CE.EF.3., CE.EF.4. y CE.EF.5.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida, en su adecuación a la etapa de Educación Primaria: STEM1, CPSAA4, CPSAA5."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "CPSAA4",
+        "CPSAA5"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+        "paginas": [
+          127,
+          128
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Practicar y reconocer diferentes manifestaciones lúdicas, físico-deportivas y artístico-expresivas propias de la cultura motriz, valorando su influencia y sus aportaciones estéticas y creativas a la cultura tradicional y contemporánea, para integrarlas en las situaciones motrices y para realizar proyectos de aprendizaje conectados con el contexto social próximo."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia implica construir la identidad personal y social desde una práctica vivenciada que integra expresiones culturales como el juego, el deporte, la danza y otras actividades artístico-expresivas vinculadas con la motricidad, asumiendo que forman parte del patrimonio cultural y que han de ser objeto de reconocimiento, preservación, mejora y disfrute. En un mundo globalizado y marcado por los movimientos migratorios esto supone enriquecer el acervo común con las aportaciones de las diferentes etnias y culturas que convergen en un espacio sociohistórico, desde el mestizaje cultural asociado a la interculturalidad.",
+          "Existen numerosos ejemplos en los que desarrollar esta competencia. Así, la cultura motriz tradicional podría abordarse a través de dos tipos de prácticas. Los juegos tradicionales y los juegos populares (duelos de equipos, juegos paradójicos, juegos donde los jugadores pueden cambiar de equipo, etc.) por un lado. Y por otro, lo relacionado con las actividades artístico-expresivas las que serían las actividades sociales estandarizadas (bailes de salón y danzas del mundo y tradicionales autonómicas, etc.). Finalmente, en lo que respecta al deporte como manifestación cultural podríamos analizarlo como fenómeno social, analizar la importancia del “deporte para todos y todas”, analizar eventos deportivos próximos desde los valores que transmite, analizar los eventos deportivos populares y multinacionales como las olimpiadas y las paraolimpiadas, valorar críticamente películas en el que la temática sea el deporte, análisis",
+          "de campañas publicitarias, realización de debates sobre ciertos estereotipos de género aún presentes los medios de comunicación y cómo evitarlos, etc.",
+          "Esta competencia específica podría vincularse a las CE.EF.1., CE.EF.3. y CE.EF.5.",
+          "Vinculación con el Perfil de etapa Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida, en su adecuación a la etapa de Educación Primaria: CC3, CCEC1, CCEC2, CCEC3, CCEC4."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+        "paginas": [
+          128,
+          129
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Desarrollar procesos de autorregulación e interacción en la práctica motriz, con actitud empática e inclusiva, haciendo uso de habilidades personales y sociales y actitudes de cooperación, respeto, trabajo en equipo y deportividad, con independencia de las diferencias étnico-culturales, sociales, de género y de habilidad de los participantes, para contribuir a la convivencia y al compromiso ético en los diferentes espacios conectados con el contexto social próximo."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica se sitúa en el punto de convergencia entre lo personal, lo social y lo ético. Desde ella se ponen en juego las capacidades volitivas al servicio de metas personales o de equipo, especialmente en contextos que requieren de esfuerzo y perseverancia, activando la automotivación y la actitud positiva para afrontar retos, regulando la impulsividad, tolerando la frustración y perseverando ante las dificultades. Dentro del plano personal, también conlleva la identificación de las emociones que se viven en el seno de la práctica motriz, la expresión positiva de estas y su gestión adecuada para saber controlar y reconducir las emociones desagradables y hacerlas más placenteras.",
+          "El plano colectivo implica poner en juego habilidades sociales para afrontar la interacción con las personas con las que se converge en la práctica motriz. Se trata de dialogar, debatir, contrastar ideas y ponerse de acuerdo para resolver situaciones, expresar propuestas, pensamientos y emociones, escuchar activamente y actuar con asertividad. Requiere que el alumnado afronte los conflictos de forma dialógica, contemplando también la perspectiva de las otras personas implicadas y buscando soluciones justas que satisfagan las necesidades mínimas de las partes implicadas. Este tipo de situaciones implican desarrollar un cierto grado de empatía y actuar desde la prosocialidad, a través de acciones que buscan también el bienestar ajeno, valorando la realidad asociada a la práctica motriz y actuando sobre ella desde parámetros de libertad ejercida con responsabilidad, equidad, inclusión, respeto, solidaridad, cooperación, justicia y paz.",
+          "Esta competencia específica podría vincularse a las CE.EF.1., CE.EF.2. y CE.EF.5.",
+          "Vinculación con el Perfil de etapa Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida, en su adecuación a la etapa de Educación Primaria: CCL1, CCL5, CPSAA1, CPSAA3, CPSAA5, CC2, CC3."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "CPSAA1",
+        "CPSAA3",
+        "CPSAA5",
+        "CC2",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+        "paginas": [
+          129
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Valorar diferentes espacios naturales y urbanos como contextos de práctica motriz, interactuando en ellos y comprendiendo la importancia de su conservación desde un enfoque sostenible, adoptando medidas de responsabilidad individual durante la práctica de juegos, actividades físico-deportivas y artístico-expresivas, para realizar una práctica eficiente y respetuosa con el entorno y participar en su cuidado y mejora."
+      },
+      "descripcion": {
+        "es": [
+          "La adopción de hábitos sostenibles con el medio ambiente y su conservación debe comenzar a producirse ya en esta etapa, incidiendo especialmente en aquellos gestos y conductas sencillas que cada uno puede hacer para contribuir al",
+          "bien común. Este enfoque encuentra, en las actividades físico-deportivas y artístico-expresivas, un contexto muy favorable para mostrar el potencial que ofrece el entorno, ya sea natural o urbano, para el desarrollo de este tipo de prácticas.",
+          "Esta competencia implica desarrollar conocimientos, habilidades y actitudes para interactuar con el medio, participar en su preservación y mejora, y contribuir, desde lo local, a la sostenibilidad a escala global. Así, en lo que respecta a los entornos urbanos, existen manifestaciones como el patinaje o la danza urbana, entre otros, que pueden constituir opciones interesantes. En lo relativo al medio natural, según la ubicación del centro, sus posibilidades contextuales y la disponibilidad de acceso que tenga a distintos emplazamientos naturales tanto terrestres como, en su caso, acuáticos, es posible encontrar una variada gama de contextos de aplicación, desde el senderismo, la escalada, el esquí, las actividades acuáticas, la orientación (también en espacios urbanos), el cicloturismo o las rutas BTT. El potencial interdisciplinar que posee esta competencia es alto para desarrollar propuestas educativas que impliquen a diferentes contextos y activos cercanos al centro.",
+          "Esta competencia específica podría vincularse a las CE.EF.1, CE.EF.3 y CE.EF.5.",
+          "Vinculación con el Perfil de etapa Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida, en su adecuación a la etapa de Educación Primaria: STEM5, CC2, CC4, CE1, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM5",
+        "CC2",
+        "CC4",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+        "paginas": [
+          129,
+          130
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Desarrollar un estilo de vida activo y saludable a través de un proceso de construcción social compartido, practicando regularmente actividades físico-deportivas y artístico-expresivas, que le capacite a tomar decisiones saludables (físicas, emocionales y sociales), para él o para ella y para su entorno social que contribuyan a su bienestar."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica se encuentra alineada con los retos del siglo XXI y con los Objetivos de Desarrollo Sostenible. Su adquisición se alcanzará a través de la participación activa en una variada gama de propuestas físicodeportivas y artístico-expresivas que, además de proporcionar al alumnado un amplio bagaje de experimentación motriz, le darán la oportunidad de conocer estrategias para vivenciar la práctica en coherencia con los referentes que sirven de base para la promoción de la salud física, emocional y social.",
+          "Esta competencia de carácter transversal impregna a la globalidad del área de Educación física y está basada en el Modelo Pedagógico de Educación Física relacionada con la salud (EFRS) (Julián, Peiró-Velert, Zaragoza-Casterad y Aibar-Solana, 2021). Se construye a partir de dos ideas clave. La primera está relacionada con el concepto de salutogénesis y que transmite el concepto de que cada persona debe tomar sus decisiones con respecto a su salud. La segunda, en la salud basada en activos y que pone en valor la intersectorialidad, la salud positiva, el bienestar, la participación, la equidad y la orientación a los determinantes de la salud que el desarrollo de un estilo de vida. Los temas abordados son la higiene y la salud postural, el establecimiento de rutinas de activación-calentamiento y de vuelta a la calma, la actuación ante lesiones o situaciones de riesgo en la práctica, el inicio de la autogestión de las cualidades físicas a través de proyectos con criterios saludables y la construcción de la identidad activa a través del respeto de la imagen corporal propia y de los demás y de la identificación de comportamientos saludables.",
+          "Esta competencia específica podría vincularse especialmente a las CE.EF.1., CE.EF.2., CE.EF.3. y CE.EF.4.",
+          "Esta competencia específica se conecta con los siguientes descriptores del Perfil de salida, en su adecuación a la etapa de Educación Primaria: STEM2, STEM5, CPSAA2, CPSAA5, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CPSAA2",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+        "paginas": [
+          130
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "ciclo": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender y resolver acciones motrices individuales con la ayuda docente (por ejemplo, desplazamientos, saltos, giros equilibrios, o combinación de ellos) ajustando los movimientos corporales a un proyecto personal."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender la lógica de las situaciones planteadas y resolver, con la ayuda docente, situaciones en las que se realicen acciones motrices de oposición (por ejemplo, luctatorias, situaciones motrices globales de cancha dividida, u otras)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender y resolver acciones motrices, con la ayuda docente, ajustando los movimientos corporales a las situaciones de cooperación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender y resolver acciones motrices, con la ayuda docente, de forma coordinada y equilibrada, ajustando los movimientos corporales a diferentes cambios de las condiciones de las situaciones colaboración-oposición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-5",
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender y resolver, con la ayuda docente, acciones motrices para decodificar información y adaptar su motricidad de forma segura a situaciones con poca incertidumbre en contextos de centro o próximos al mismo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-6",
+          "codigoOficial": "1.6",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Improvisar y crear pequeñas producciones artístico-expresivas, utilizando los recursos expresivos del cuerpo (motricidad expresiva, simbolización y comunicación) de forma elemental (uso de la inmovilidad, los niveles, trayectorias, tipos de desplazamiento para bailar, principio y fin claros, etc.) y cuando corresponda, los recursos propios de cada actividad artísticoexpresiva (pasos, figuras, hazañas, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Participar activamente en juegos y otras manifestaciones artístico-expresivas de carácter cultural propias del entorno, valorando su componente lúdico-festivo y disfrutando de su puesta en práctica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y valorar los logros de distintos referentes del deporte de ambos géneros, reconociendo el esfuerzo, la dedicación y los sacrificios requeridos para alcanzar dichos éxitos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar las emociones que se producen durante el juego, intentando gestionarlas y disfrutando de la actividad física."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Respetar las normas consensuadas, así como las reglas de juego y actuar desde los parámetros de la deportividad y el juego limpio, aceptando las características y niveles de los participantes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Participar en las prácticas motrices cotidianas, comenzando a desarrollar habilidades sociales de acogida, inclusión, ayuda y cooperación, iniciándose en la resolución de conflictos personales de forma dialógica y justa, y mostrando un compromiso activo frente a las actuaciones discriminatorias y de violencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Participar de forma segura del entorno natural y urbano conociendo otros usos desde la motricidad y adoptando actitudes de respeto, cuidado y conservación hacia acciones ellos durante el desarrollo de distintas aplicando prácticas lúdico-recreativas en contextos ambiental. terrestres o acuáticos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Explorar las posibilidades de la propia motricidad a través del juego, aplicando en distintas situaciones cotidianas medidas básicas de cuidado de la salud personal: higiene corporal, educación postural y atuendo deportivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Participar en juegos de activación y vuelta a la calma reconociendo su utilidad para adaptar el cuerpo a la actividad física y evitar lesiones, manteniendo la calma y sabiendo cómo actuar en caso de que se produzca algún accidente en contextos de práctica motriz."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Realizar pequeños proyectos personales o de grupo que impliquen el inicio en el conocimiento personal sobre sus capacidades físicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-4",
+          "codigoOficial": "5.4",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer los valores positivos que fomenta la práctica motriz compartida reconociendo, vivenciando y disfrutando sus beneficios en contextos variados e inclusivos y respetando a todos los participantes con independencia de sus diferencias individuales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-5",
+          "codigoOficial": "5.5",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar comportamientos saludables conociendo sus beneficios para el establecimiento de un estilo de vida saludable."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Resolución de problemas en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices individuales. Principios para actuar metódicamente: emitir hipótesis de acción, identificar constantes, anticipar las acciones que hay que realizar, seleccionar las formas de hacer más apropiadas, resolver problemas. Perfeccionamiento y combinación de acciones motrices elementales para construir otras de mayor complejidad en situaciones y medios variados."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  137
+                ]
+              }
+            },
+            {
+              "id": "EF.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices de oposición. Información visual (juegos con raqueta: visión puntual, periférica, espacios libres...) y kinestésica (juegos de lucha: percepción del tono muscular, del equilibrio y desequilibrio, del centro de gravedad...). Principios y reglas de acción para superar al adversario (colocación en el terreno, utilización de la fuerza del oponente, alternancia...)"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  137
+                ]
+              }
+            },
+            {
+              "id": "EF.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices de cooperación: la colaboración, la sincronización, la disponibilidad. Encadenamiento y coordinación de acciones grupales. Sincronización de acciones. Utilización de estrategias básicas de juego (anticipación). Práctica de actividades cooperativas que supongan un esfuerzo conjunto. Verbalización de reglas de acuerdo con las posibilidades del alumnado y respetando los principios de seguridad. Toma de informaciones y referencias pertinentes para construir un desplazamiento razonado y reflexionado. Adopción de una motricidad adaptada y específica para ajustarse a un medio variado y, a veces, variable (natural o reproducido) y para manejar instrumentos o materiales que produzcan problemas acción para la colaboración con compañeros y compañeras para conseguir un objetivo común."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  137
+                ]
+              }
+            },
+            {
+              "id": "EF.1.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices de colaboración-oposición: roles que vinculan interacciones posibles, relaciones con espacios y tiempos o uso de objetos. Explicación a posteriori de la propia acción, la de sus compañeros, compañeras y oponentes. Aplicación del repertorio de acciones motrices como portador y no portador del móvil (pelota), en ataque y en defensa. Ajuste de las conductas para hacerlas más eficaces (anticipar, actuar rápido, cambiar de ritmo...). Elaboración y utilización de estrategias de acción colectiva de ataque y defensa, enunciando reglas de acción para buscar la eficacia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  137
+                ]
+              }
+            },
+            {
+              "id": "EF.1.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices en el medio natural: características y modalidades de utilización del material y el equipo para la realización de actividades en el medio natural, incluido el de seguridad. Preparación y realización de un proyecto de acción en el medio natural (excursión, acampada, cicloturismo, orientación) de acuerdo con las posibilidades del alumnado y respetando los principios de seguridad. Toma de informaciones y referencias pertinentes para construir un desplazamiento razonado y reflexionado. Adopción de una motricidad adaptada y específica para ajustarse a un medio variado y, a veces, variable (natural o reproducido) y para manejar instrumentos o materiales que produzcan problemas de equilibrio. Gestión para llevar a buen término una actividad con economía y eficacia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  137,
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices con intención artística o expresiva: el cuerpo como instrumento de expresión y comunicación. Algunas manifestaciones expresivas relacionadas con estas actividades: la expresión corporal, la dramatización, la(s) danza(s), la gimnasia rítmica. Espacio propio, próximo y común o coreográfico. Utilización de los recursos expresivos del cuerpo y el movimiento (energía, espacio y tiempo) para la creación, expresión y comunicación de imágenes, ideas, estados de ánimo, sentimientos, emociones, roles, actitudes, tramas… Ejecución con precisión de formas motrices (desplazamientos, pasos, gestos, figuras...) y evoluciones en el espacio (formaciones, coreografías...) ajustadas al ritmo o soporte sonoro. Participación en la construcción, estructuración y ejecución de una producción colectiva, previendo roles y tareas de cada uno."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Manifestaciones de la cultura motriz"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aportaciones de la cultura motriz a la herencia cultural. Los juegos populares y tradicionales como manifestación de la propia cultura y su potencial intercultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aportaciones de la cultura motriz a la herencia cultural. Las danzas como manifestación de la propia cultura y su potencial intercultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conocimiento de nombres de juegos populares y tradicionales. Deporte y perspectiva de género: referentes en el deporte de distintos géneros."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El juego y el deporte: reglamento"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Autorregulación emocional e interacción social en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión emocional: estrategias de identificación, experimentación y manifestación de emociones, pensamientos y sentimientos a partir de experiencias motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades sociales: verbalización de emociones derivadas de la interacción en contextos motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Respeto de las reglas de juego."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conductas que favorezcan la convivencia, inclusivas y de respeto a los demás, en situaciones motrices: estrategias de identificación de conductas contrarias a la convivencia o discriminatorias."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Roles de trabajo en las actividades relacionadas con las diferentes situaciones motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.C.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conciencia de los efectos producidos tras la realización de acciones motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Interacción eficiente y sostenible con el entorno"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso: educación vial para peatones. Normas de uso de la Este bloque pertenece vía pública. Movilidad sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Posibilidades motrices de los espacios de juego y esparcimiento infantil."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El material y sus posibilidades de uso para el desarrollo de la motricidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Realización de actividades físicas en el medio natural y urbano."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            },
+            {
+              "id": "EF.1.D.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado del entorno próximo, como servicio a la comunidad, durante la práctica de actividad física en el medio natural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  138
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Organización y gestión de la actividad física"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Preparación de la práctica motriz: vestimenta deportiva y hábitos generales de higiene corporal."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            },
+            {
+              "id": "EF.1.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado del material utilizado en la actividad a desarrollar."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            },
+            {
+              "id": "EF.1.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención de accidentes en las prácticas motrices: juegos de activación, calentamiento y vuelta a la calma."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            },
+            {
+              "id": "EF.1.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Preparación de mochilas para la piscina, senderismo, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            },
+            {
+              "id": "EF.1.E.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Participación en proyectos motores sencillos: objetivos o metas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Vida activa y saludable"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.F.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud física: efectos físicos beneficiosos de un estilo de vida activo. Alimentación saludable e hidratación. Educación postural en situaciones cotidianas. Cuidado del cuerpo: higiene personal y el descanso tras la actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            },
+            {
+              "id": "EF.1.F.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud social: la actividad física como práctica social saludable. Derechos de los niños y niñas en el deporte escolar. Respeto hacia todas las personas con independencia de sus características personales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            },
+            {
+              "id": "EF.1.F.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud mental: bienestar personal y en el entorno a través de la motricidad. Autoconocimiento e identificación de fortalezas y debilidades en todos los ámbitos (social, físico y mental)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Integrar diferentes acciones motrices individuales para realizar proyectos de acción tendentes a mejorar sus resultados (por ejemplo, atletismo, natación, etc.) y/o diseñar y realizar un encadenamiento motriz (por ejemplo, gimnasia deportiva, patines, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Encadenar acciones que le permitan resolver y analizar diferentes situaciones de juego en las que se movilicen diferentes acciones motrices de oposición (por (tácticos ejemplo, luctatorias, de cancha dividida u ejemplo, otras). otras)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Encadenar acciones para resolver situaciones de retos cooperativos asumiendo diferentes roles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Encadenar acciones para resolver situaciones modificadas de colaboraciónoposición asumiendo los diferentes roles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-5",
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Combinar acciones motrices con la ayuda docente, para decodificar información y adaptar su motricidad de forma segura para realizar recorridos con incertidumbre en el medio, aprovechando las posibilidades del centro escolar, y modulando determinados aspectos (por ejemplo, el tipo de desplazamiento, el espacio, el número de señales, el grado de incertidumbre, la duración, el uso o no de equipos o vehículos, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131,
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-6",
+          "codigoOficial": "1.6",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Improvisar y crear producciones artístico-expresivas en grupo, utilizando los recursos expresivos del cuerpo (motricidad expresiva, simbolización y comunicación), prestando especial atención a las relaciones que se establecen en el alumnado respecto al espacio, al tiempo (unísono, cascada, alternancia...), contacto corporal y roles, y cuando corresponda, utilizando los recursos propios de cada actividad artístico-expresiva (pasos, figuras, hazañas, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Participar activamente en juegos motores y otras manifestaciones artísticoexpresivas con arraigo en la cultura propia, tradicional o actual, así como otros procedentes de diversas culturas, contextualizando su origen, su aparición y su transmisión a lo largo del tiempo y valorando su importancia, repercusión e influencia en las sociedades pasadas y presentes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Asumir una visión abierta del deporte a partir del conocimiento de distintas ligas femeninas, masculinas o mixtas, acercándose al deporte organizado (escolar, amateur y profesional) e identificando y rechazando comportamientos contrarios a la convivencia independientemente del contexto en el que tengan lugar."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Mostrar una disposición positiva hacia la práctica física y hacia el esfuerzo, controlando la impulsividad y las emociones negativas que surjan en contextos de actividad motriz."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Respetar las normas consensuadas en clase, así como las reglas de juego y actuar desde los parámetros de la deportividad y el juego limpio, valorando la aportación de los participantes (deportistas, árbitros-juez, entrenadores u otros roles que formen parte de la dinámica establecida)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar habilidades sociales de acogida, inclusión, ayuda y cooperación al participar en prácticas motrices variadas, resolviendo los conflictos individuales y colectivos de forma dialógica y justa, y mostrando un compromiso activo frente a los estereotipos, las actuaciones discriminatorias y de violencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Desarrollar una práctica motriz segura en contextos naturales y urbanos de carácter terrestre o acuático, adecuando las al análisis de cada situación, medidas de conservación comunitaria"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Aplicar medidas de educación postural, higiene corporal y preparación de la práctica motriz, asumiendo responsabilidades (e.g atuendo) y generando hábitos y rutinas en situaciones cotidianas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Tomar medidas de precaución y prevención de lesiones en relación con la conservación y al mantenimiento del material en el marco de distintas prácticas físico-deportivas, conociendo protocolos básicos de actuación ante accidentes que se puedan producir en este contexto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Participar en proyectos que conlleven a la autogestión de sus capacidades físicas, siendo capaces de regular y dosificar la intensidad y la duración del esfuerzo acorde con sus posibilidades y dentro de unos criterios saludables."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-4",
+          "codigoOficial": "5.4",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reconocer la propia imagen corporal y la de los demás, aceptando y respetando las diferencias individuales que puedan existir, superando y rechazando las conductas discriminatorias que se puedan producir en contextos de práctica motriz."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-5",
+          "codigoOficial": "5.5",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Analizar comportamientos saludables en función de diferentes momentos (del día, de la semana o del año) para establecer acciones (personales, colectivas o sociales) que le ayuden a adoptar un estilo de vida saludable."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Resolución de problemas en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices individuales. Principios para actuar metódicamente: emitir hipótesis de acción, identificar constantes, anticipar las acciones que hay que realizar, seleccionar las formas de hacer más apropiadas, resolver problemas. Perfeccionamiento y combinación de acciones motrices elementales para construir otras de mayor complejidad en situaciones y medios variados."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            },
+            {
+              "id": "EF.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices de oposición. Información visual (juegos con raqueta: visión puntual, periférica, espacios libres...) y kinestésica (juegos de lucha: percepción del tono muscular, del equilibrio y desequilibrio, del centro de gravedad...). Principios y reglas de acción para superar al adversario (colocación en el terreno, utilización de la fuerza del oponente, alternancia...)"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139
+                ]
+              }
+            },
+            {
+              "id": "EF.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices de cooperación: la colaboración, la sincronización, la disponibilidad. Encadenamiento y coordinación de acciones grupales. Sincronización de acciones. Utilización de estrategias básicas de juego (anticipación). Práctica de actividades cooperativas que supongan un esfuerzo conjunto. Verbalización de reglas de acuerdo con las posibilidades del alumnado y respetando los principios de seguridad. Toma de informaciones y referencias pertinentes para construir un desplazamiento razonado y reflexionado. Adopción de una motricidad adaptada y específica para ajustarse a un medio variado y, a veces, variable (natural o reproducido) y para manejar instrumentos o materiales que produzcan problemas acción para la colaboración con compañeros y compañeras para conseguir un objetivo común."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  139,
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices de colaboración-oposición: roles que vinculan interacciones posibles, relaciones con espacios y tiempos o uso de objetos. Explicación a posteriori de la propia acción, la de sus compañeros, compañeras y oponentes. Aplicación del repertorio de acciones motrices como portador y no portador del móvil (pelota), en ataque y en defensa. Ajuste de las conductas para hacerlas más eficaces (anticipar, actuar rápido, cambiar de ritmo...). Elaboración y utilización de estrategias de acción colectiva de ataque y defensa, enunciando reglas de acción para buscar la eficacia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices en el medio natural: características y modalidades de utilización del material y el equipo para la realización de actividades en el medio natural, incluido el de seguridad. Preparación y realización de un proyecto de acción en el medio natural (excursión, acampada, cicloturismo, orientación) de acuerdo con las posibilidades del alumnado y respetando los principios de seguridad. Toma de informaciones y referencias pertinentes para construir un desplazamiento razonado y reflexionado. Adopción de una motricidad adaptada y específica para ajustarse a un medio variado y, a veces, variable (natural o reproducido) y para manejar instrumentos o materiales que produzcan problemas de equilibrio. Gestión para llevar a buen término una actividad con economía y eficacia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices con intención artística o expresiva: el cuerpo como instrumento de expresión y comunicación. Algunas manifestaciones expresivas relacionadas con estas actividades: la expresión corporal, la dramatización, la(s) danza(s), la gimnasia rítmica. Espacio propio, próximo y común o coreográfico. Utilización de los recursos expresivos del cuerpo y el movimiento (energía, espacio y tiempo) para la creación, expresión y comunicación de imágenes, ideas, estados de ánimo, sentimientos, emociones, roles, actitudes, tramas… Ejecución con precisión de formas motrices (desplazamientos, pasos, gestos, figuras...) y evoluciones en el espacio (formaciones, coreografías...) ajustadas al ritmo o soporte sonoro. Participación en la construcción, estructuración y ejecución de una producción colectiva, previendo roles y tareas de cada uno."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Manifestaciones de la cultura motriz"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aportaciones de la cultura motriz a la herencia cultural. Los juegos populares y tradicionales como manifestación de la propia cultura y su potencial intercultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aportaciones de la cultura motriz a la herencia cultural. Las danzas como manifestación de la propia cultura y su potencial intercultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conocimiento de nombres de juegos populares y tradicionales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Deporte y perspectiva de género: ligas masculinas, femeninas y mixtas de distintos deportes. Referentes en el deporte de distintos géneros."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El juego y el deporte: reglamento."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Autorregulación emocional e interacción social en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión emocional: reconocimiento de emociones propias, pensamientos y sentimientos a partir de experiencias motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades sociales: escucha activa y estrategias de negociación para la resolución de conflictos en contextos motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de deportividad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conductas contrarias a la convivencia, discriminatorias o sexistas, en situaciones motrices (discriminación por cuestiones de competencia motriz, raza, género u otras): estrategias de identificación y efectos negativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  140
+                ]
+              }
+            },
+            {
+              "id": "EF.2.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Dominio de las emociones en un ámbito de las actividades en el medio natural con incertidumbre (impulsivo-reflexivo, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Interacción eficiente y sostenible con el entorno"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso: educación vial para peatones, patinetes, bicicletas, Este bloque pertenece etc. Movilidad sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Espacios naturales en el contexto urbano: uso, disfrute y mantenimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estado del material para actividades en el medio natural: valoración previa y actuación ante desperfectos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención y sensibilización sobre la generación de residuos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.D.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Realización de actividades físicas en el medio natural y urbano."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.D.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado del entorno como servicio a la comunidad, durante la práctica de actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Organización y gestión de la actividad física"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado y preparación del material según la actividad a desarrollar. Este bloque pertenece"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Pautas de higiene personal relacionados con la actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elección de la práctica física: usos y fines. Respeto a las elecciones de los demás."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención de accidentes en las prácticas motrices: mecanismos de prevención y control corporal para la prevención de lesiones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.E.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Protocolo de actuación antes accidentes. Técnicas PAS (proteger, ayudar, socorrer) u otras."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.E.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Planificación y autorregulación de proyectos motores: mecanismos básicos para ejecutar lo planificado."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Vida activa y saludable"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.F.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud física: efectos físicos y psicológicos beneficiosos de un estilo de vida activo. Características de alimentos naturales, procesados y ultraprocesados. Educación postural en acciones motrices habituales. Factores básicos que inciden en el cuidado del cuerpo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141
+                ]
+              }
+            },
+            {
+              "id": "EF.2.F.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud social: la actividad física como hábito y alternativa saludable frente a formas de ocio nocivas. Límites para evitar una competitividad desmedida. Aceptación de distintas tipologías corporales, para practicar, en igualdad, diversidad de actividades físico-deportivas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  141,
+                  142
+                ]
+              }
+            },
+            {
+              "id": "EF.2.F.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud mental: respeto y aceptación del propio cuerpo. Autoconocimiento e identificación de fortalezas y debilidades o posibilidades y limitaciones en todos los ámbitos (social, físico y mental)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  142
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Combinar acciones motrices individuales para implicarse en proyectos de acción tendentes a mejorar sus resultados (por ejemplo, atletismo, carrera de larga duración, natación, etc.) y/o planificar un encadenamiento para realizar producciones con cierto grado de dificultad (por ejemplo, gimnasia deportiva, patines, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Encadenar acciones motrices durante el juego para resolver, analizar, valorar y perfeccionar diferentes situaciones motrices y técnicos) de oposición (por luctatorias, de cancha dividida u"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Utilizar los recursos adecuados para resolver con éxito situaciones motrices de cooperación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Utilizar los recursos adecuados para resolver con éxito situaciones básicas de táctica individual y colectiva en diferentes situaciones motrices colaboraciónoposición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-5",
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Combinar acciones motrices con autonomía para decodificar información y adaptar su motricidad de forma segura para realizar recorridos con incertidumbre en el medio, aprovechando las posibilidades del centro escolar, y modulando determinados aspectos (por ejemplo, el tipo de desplazamiento, el espacio, el número de señales, el grado de incertidumbre, la duración, el uso o no de equipos o vehículos, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              131,
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-6",
+          "codigoOficial": "1.6",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Improvisar y crear de forma autónoma una producción artístico-expresiva individual o grupal, utilizando recursos expresivos que requieren un mayor control del cuerpo (uso de las calidades de movimiento, desequilibrios, etc.) y una motricidad más simbólica, estética e inhabitual y cuando corresponda, utilizando los recursos propios de cada actividad artístico-expresiva (pasos, figuras, hazañas, etc.)"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Participar activamente en juegos motores y otras manifestaciones artísticoexpresivas con arraigo en la cultura propia, tradicional o actual, así como otros procedentes de diversas culturas, reconociendo y transmitiendo su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas con orígenes diferentes para favorecer su conservación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar el deporte como fenómeno cultural analizando críticamente los estereotipos de género y los comportamientos sexistas que a veces suceden en su contexto, rechazándolos y adoptando actitudes que eviten su reproducción en el futuro."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              132
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Participar en actividades de carácter motor, desde la autorregulación de su actuación, con predisposición, esfuerzo, perseverancia y mentalidad de crecimiento, controlando la impulsividad, gestionando las emociones y expresándolas de forma asertiva."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Respetar las normas consensuadas, así como las reglas de juego, y actuar desde los parámetros de la deportividad y el juego limpio, reconociendo las actuaciones de deportistas, árbitros-juez, entrenadores u otros roles que formen parte de la dinámica establecida."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Afianzar habilidades sociales en la realización de prácticas motrices, utilizando el diálogo en la resolución de conflictos y el respeto ante la diversidad (género, afectivosexual, origen nacional, étnico, socioeconómica o competencia motriz), y mostrando una actitud crítica y un compromiso activo frente a los estereotipos, las actuaciones discriminatorias y la violencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar los espacios naturales y/o del entorno próximo respetando la flora y la fauna del lugar, haciendo un buen uso de las instalaciones y/o servicios que ofrece con una perspectiva eco sostenible y del cuidado del entorno."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              133
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Integrar rutinas de higiene personal establecidas en las sesiones de Educación Física, interiorizando las pautas propias de una práctica motriz saludable y segura."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Adoptar medidas de seguridad antes, durante y después de la práctica de actividad física, reconociendo los riesgos y sabiendo actuar con seguridad ante un accidente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Implicarse en proyectos (personales, de clase, de centro o sociales) que conlleven la autogestión de sus capacidades físicas, siendo capaces de regular y dosificar la intensidad y la duración del esfuerzo acorde con sus posibilidades y dentro de unos criterios saludables."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-4",
+          "codigoOficial": "5.4",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar conductas inapropiadas vinculadas al ámbito corporal, la actividad física y el deporte, que resultan perjudiciales para la salud o afectan negativamente a la convivencia, adoptando posturas de rechazo a la discriminación y a los estereotipos de género, y evitando activamente su reproducción."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-5",
+          "codigoOficial": "5.5",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Evaluar de forma global su estilo de vida (cantidad y tipo de actividades, horas de sueño, alimentación, etc.) para tomar decisiones reales encaminadas a mejorar su bienestar."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+            "paginas": [
+              134
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Resolución de problemas en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices individuales. Principios para actuar metódicamente: emitir hipótesis de acción, identificar constantes, anticipar las acciones que hay que realizar, seleccionar las formas de hacer más apropiadas, resolver problemas. Perfeccionamiento y combinación de acciones motrices elementales para construir otras de mayor complejidad en situaciones y medios variados."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  142
+                ]
+              }
+            },
+            {
+              "id": "EF.3.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices de oposición. Información visual (juegos con raqueta: visión puntual, periférica, espacios libres...) y kinestésica (juegos de lucha: percepción del tono muscular, del equilibrio y desequilibrio, del centro de gravedad...). Principios y reglas de acción para superar al adversario (colocación en el terreno, utilización de la fuerza del oponente, alternancia...)"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  142
+                ]
+              }
+            },
+            {
+              "id": "EF.3.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices de cooperación: la colaboración, la sincronización, la disponibilidad. Encadenamiento y coordinación de acciones grupales. Sincronización de acciones. Utilización de estrategias básicas de juego (anticipación). Práctica de actividades cooperativas que supongan un esfuerzo conjunto. Verbalización de reglas de acuerdo con las posibilidades del alumnado y respetando los principios de seguridad. Toma de informaciones y referencias pertinentes para construir un desplazamiento razonado y reflexionado. Adopción de una motricidad adaptada y específica para ajustarse a un medio variado y, a veces, variable (natural o reproducido) y para manejar instrumentos o materiales que produzcan problemas acción para la colaboración con compañeros y compañeras para conseguir un objetivo común."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  142
+                ]
+              }
+            },
+            {
+              "id": "EF.3.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices de colaboración-oposición: roles que vinculan interacciones posibles, relaciones con espacios y tiempos o uso de objetos. Explicación a posteriori de la propia acción, la de sus compañeros, compañeras y oponentes. Aplicación del repertorio de acciones motrices como portador y no portador del móvil (pelota), en ataque y en defensa. Ajuste de las conductas para hacerlas más eficaces (anticipar, actuar rápido, cambiar de ritmo...). Elaboración y utilización de estrategias de acción colectiva de ataque y defensa, enunciando reglas de acción para buscar la eficacia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  142
+                ]
+              }
+            },
+            {
+              "id": "EF.3.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices en el medio natural: características y modalidades de utilización del material y el equipo para la realización de actividades en el medio natural, incluido el de seguridad. Preparación y realización de un proyecto de acción en el medio natural (excursión, acampada, cicloturismo, orientación) de acuerdo con las posibilidades del alumnado y respetando los principios de seguridad. Toma de informaciones y referencias pertinentes para construir un desplazamiento razonado y reflexionado. Adopción de una motricidad adaptada y específica para ajustarse a un medio variado y, a veces, variable (natural o reproducido) y para manejar instrumentos o materiales que produzcan problemas de equilibrio. Gestión para llevar a buen término una actividad con economía y eficacia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  142
+                ]
+              }
+            },
+            {
+              "id": "EF.3.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acciones motrices con intención artística o expresiva: el cuerpo como instrumento de expresión y comunicación. Algunas manifestaciones expresivas relacionadas con estas actividades: la expresión corporal, la dramatización, la(s) danza(s), la gimnasia rítmica. Espacio propio, próximo y común o coreográfico. Utilización de los recursos expresivos del cuerpo y el movimiento (energía, espacio y tiempo) para la creación, expresión y comunicación de imágenes, ideas, estados de ánimo, sentimientos, emociones, roles, actitudes, tramas… Ejecución con precisión de formas motrices (desplazamientos, pasos, gestos, figuras...) y evoluciones en el espacio (formaciones, coreografías...) ajustadas al ritmo o soporte sonoro. Participación en la construcción, estructuración y ejecución de una producción colectiva, previendo roles y tareas de cada uno."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  142,
+                  143
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Manifestaciones de la cultura motriz"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aportaciones de la cultura motriz a la herencia cultural. Los juegos populares y tradicionales como manifestación de la propia cultura y su potencial intercultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aportaciones de la cultura motriz a la herencia cultural. Las danzas como manifestación de la propia cultura y su potencial intercultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de los juegos tradicionales aragoneses como prácticas culturales de nuestro entorno."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conocimiento de nombres de juegos populares y tradicionales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El juego como manifestación social y cultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El ritmo y la organización temporal: la pulsación, la frase musical, el acento, la estructura rítmica… Formas motrices: desplazamientos y pasos (marcha, «salticado», galope...), figuras, gestos, posiciones…"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Realización de danzas folclóricas, juegos danzados y otras producciones corporales propias de Aragón."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de las danzas folclóricas aragonesas como componente de nuestro patrimonio cultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Deporte y perspectiva de género: sexismo en el deporte amateur y profesional."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.10",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Deportes olímpicos y paralímpicos, instituciones e historia asociada a los Juegos Olímpicos y Paralímpicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.11",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas, reglas de juegos y deportes y su posible evolución o adaptación."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Autorregulación emocional e interacción social en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión emocional: ansiedad, enfado desmedido en situaciones motrices. Estrategias de afrontamiento y gestión."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades sociales: estrategias de trabajo en equipo para la resolución constructiva de conflictos en situaciones motrices colectivas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de fairplay o “juego limpio”."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Identificación y rechazo de conductas contrarias a la convivencia en situaciones motrices (discriminación)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza en el trabajo individual, por parejas o en grupo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aceptación de la dimensión afectiva unida a la oposición: las caídas, los contactos con el otro, el enfrentamiento, la combatibilidad…"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Disfrute del placer de jugar, independientemente de los resultados alcanzados."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de las posibilidades como equipo y de la participación de cada uno de sus miembros con independencia del resultado obtenido."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aceptación del reto que supone oponerse a otros en situaciones de juego sin que ello derive en actitudes de rivalidad o menosprecio."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.10",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Responsabilidad, cooperación y autonomía para desenvolverse en un medio no habitual con espíritu de aventura y convivencia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.11",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Dominio de las emociones en un ámbito de las actividades en el medio natural con incertidumbre (impulsivo-reflexivo; solidaridad, positividad, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.12",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Control de la emoción y sus efectos para representar en público y para atreverse a expresar las emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  143
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.13",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Colaboración en el proceso creativo, estableciendo relaciones positivas dentro del grupo, búsqueda de consensos, interés por las producciones de los demás, y aceptando las críticas constructivas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Interacción eficiente y sostenible con el entorno"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso: la educación vial actuando como peatones o utilizando artilugios (bicicletas, patinetes, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de acciones con respecto al fomento del transporte activo y sostenible: bicicletas, patines, patinetes."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Previsión de riesgos de accidente durante la práctica en el medio natural: valoración previa y actuación."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Construcción y reutilización de materiales para la práctica motriz. Realización de actividades físicas en el medio natural y urbano."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado del entorno como servicio a la comunidad, durante la práctica de actividad física en el medio natural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Respeto y conservación del entorno, la naturaleza, las instalaciones y el material tanto propio como común."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Espíritu crítico ante el deterioro del medio natural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Contemplación y disfrute de la belleza natural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Organización y gestión de la actividad física"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Usos y finalidades: catárticos, lúdico-recreativos, competitivos y agonísticos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actitudes consumistas en torno al equipamiento. Análisis crítico de la adquisición de material para la práctica físico-deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hábitos autónomos de higiene corporal en acciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Planificación y autorregulación de proyectos motores: seguimiento y valoración durante el proceso y del resultado."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención de accidentes en las prácticas motrices: calentamiento general y vuelta a la calma. Importancia de respetar las normas de seguridad. Compromiso de responsabilidad hacia la seguridad propia y de los demás."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actuaciones básicas ante accidentes durante la práctica de actividades físicas. Posición lateral de seguridad. Técnicas PAS (proteger, ayudar, socorrer)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Respeto a las propias limitaciones y restricción de los deseos cuando impliquen un riesgo o un peligro para la salud."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Efectos de la actividad física en el proceso de desarrollo, en la salud y en la mejora de las capacidades físicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Descubrimiento, a través de la práctica, de los grandes factores de la condición física general. Estimulación de las funciones respiratorias y circulatorias."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.10",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión eficaz de la energía en función del tipo de esfuerzo solicitado."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.11",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Toma de conciencia de los riesgos y actuación con seguridad para uno mismo y para los demás."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Vida activa y saludable"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.F.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud física: efectos físicos, psicológicos y sociales beneficiosos del estilo de vida activo. Impacto de alimentos ultraprocesados y bebidas energéticas o azucaradas. Educación postural en acciones motrices específicas. Responsabilidad personal en el cuidado del cuerpo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  144,
+                  145
+                ]
+              }
+            },
+            {
+              "id": "EF.3.F.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud social: aproximación a los efectos de los malos hábitos relacionados con la salud e influencia en la práctica de actividad física. La exigencia del deporte profesional. Aceptación de distintas tipologías corporales, para practicar en igualdad, diversidad de actividades físico-deportivas. Estereotipos corporales, de género y competencia motriz."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  145
+                ]
+              }
+            },
+            {
+              "id": "EF.3.F.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud mental: Consolidación y ajuste realista del autoconcepto, teniendo en cuenta la perspectiva de género. Respeto y aceptación del propio cuerpo y del aspecto corporal de los demás."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  145
+                ]
+              }
+            },
+            {
+              "id": "EF.3.F.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Interés por participar en la organización y desarrollo de proyectos de acción tales como encuentros deportivos entre escuelas del medio rural, fiestas de juegos tradicionales aragoneses, juegos deportivos para grupos de alumnado de diferentes clases..."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  145
+                ]
+              }
+            },
+            {
+              "id": "EF.3.F.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Barreras y facilitadores para cumplir las recomendaciones internacionales sobre comportamientos saludables."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-145-orden-ecd-1112-2022",
+                "paginas": [
+                  145
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-15",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por ciclos, conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}
