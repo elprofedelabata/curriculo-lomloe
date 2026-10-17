@@ -47,6 +47,16 @@ Registro de las incidencias detectadas durante la extracción y revisión del cu
 | [X] | AR-BACH-008 | [Proyecto de Investigación e Innovación Integrado](../data/es-ar/bachillerato/materias/proyecto-de-investigacion-e-innovacion-integrado.json) | En la página 167 del PDF de modificación de 2024, la cabecera del cuarto bloque de criterios dice «CE.UE.4», sigla correspondiente a Unión Europea, aunque el enunciado y los criterios «4.x» pertenecen al Proyecto Integrado. | Se interpreta como una errata de copia y pega y se vinculan los criterios «4.x» a la competencia 4 del Proyecto Integrado («CE.PI.4»). |
 | [X] | AR-BACH-009 | [Cultura Audiovisual](../data/es-ar/bachillerato/materias/cultura-audiovisual.json) | Tras la descripción de los bloques de saberes, la página 196 del PDF comienza directamente la tabla de concreción sin publicar el rótulo «III.2. Concreción de los saberes básicos». | Se interpreta la tabla como la concreción curricular de Cultura Audiovisual y se extraen sus cuatro bloques completos. |
 
+
+## CFGB — incidencias revisadas
+
+| Revisada | ID | Materia | Incidencia | Decisión aplicada |
+| --- | --- | --- | --- | --- |
+| [X] | AR-CFGB-001 | [Ciencias Aplicadas](../data/es-ar/cfgb/materias/ciencias-aplicadas.json) | En la página 1094 del PDF de la Orden ECD/1172/2022, una referencia interna de la competencia 1 aparece como `C3.CCAA.8`, aunque el resto del currículo utiliza el prefijo `CE.CCAA`. | Se normaliza como `CE.CCAA.8`, interpretando el carácter `3` como una errata tipográfica. |
+| [X] | AR-CFGB-002 | [Ciencias Aplicadas](../data/es-ar/cfgb/materias/ciencias-aplicadas.json) | En la página 1100, el criterio `4.1` concatena tras su primera oración el texto completo del criterio `3.2`, y el criterio `4.2` reproduce el texto de `3.3`. El Real Decreto 217/2022 publica para la competencia 4 dos criterios propios y coherentes con su enunciado. | Se reconstruyen `4.1` y `4.2` con la redacción del anexo V del Real Decreto 217/2022 y se atribuye su procedencia a esa fuente estatal. |
+| [X] | AR-CFGB-003 | [Comunicación y Ciencias Sociales](../data/es-ar/cfgb/materias/comunicacion-y-ciencias-sociales.json) | En la introducción de la página 1119 se alude a los «retos del siglo XX», aunque el contexto curricular y el Perfil de salida se refieren a los retos actuales del siglo XXI. | Se corrige la referencia como «retos del siglo XXI». |
+| [X] | AR-CFGB-004 | [Comunicación y Ciencias Sociales](../data/es-ar/cfgb/materias/comunicacion-y-ciencias-sociales.json) | El criterio `2.2`, en la página 1125, contiene la expresión «la lucha contra el cambio el climático». | Se elimina el artículo duplicado y se normaliza como «la lucha contra el cambio climático». |
+
 ## Fuentes para el cotejo
 
 - [Orden de Infantil de Aragón](../sources/es-ar/normativa/infantil/2022-06-13-orden-ecd-853-2022-curriculo-infantil.pdf)
@@ -56,3 +66,5 @@ Registro de las incidencias detectadas durante la extracción y revisión del cu
 - [Modificación de ESO de 2024](../sources/es-ar/normativa/actualizaciones/2024-07-25-orden-ecd-867-2024-modifica-eso.pdf)
 - [Orden de Bachillerato de Aragón](../sources/es-ar/normativa/bachillerato/2022-08-03-orden-ecd-1173-2022-curriculo-bachillerato.pdf)
 - [Modificación de Bachillerato de 2024](../sources/es-ar/normativa/actualizaciones/2024-07-25-orden-ecd-886-2024-modifica-bachillerato.pdf)
+- [Orden de CFGB de Aragón](../sources/es-ar/normativa/cfgb/2024-07-25-orden-ecd-841-2024-curriculos-cfgb.pdf)
+- [Real Decreto 217/2022, anexo V](https://www.boe.es/buscar/pdf/2022/BOE-A-2022-4975-consolidado.pdf)

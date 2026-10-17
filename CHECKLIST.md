@@ -339,8 +339,8 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 #### Anexo II de la Orden de ESO — Ámbitos comunes de los ciclos formativos de grado básico
 
-- [ ] Ámbito de Ciencias Aplicadas
-- [ ] Ámbito de Comunicación y Ciencias Sociales
+- [ ] Ámbito de Ciencias Aplicadas — [JSON en revisión](data/es-ar/cfgb/materias/ciencias-aplicadas.json)
+- [ ] Ámbito de Comunicación y Ciencias Sociales — [JSON en revisión](data/es-ar/cfgb/materias/comunicacion-y-ciencias-sociales.json)
 
 ### Notas de alcance
 
