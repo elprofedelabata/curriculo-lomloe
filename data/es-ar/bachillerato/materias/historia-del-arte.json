@@ -1,0 +1,842 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.bachillerato.historia-del-arte",
+  "territorio": "es-ar",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "HA",
+    "nombre": {
+      "es": "Historia del Arte"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2024-08-08",
+    "aplicableDesdeCurso": "2024/2025",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-157-orden-ecd-1173-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1173/2022, de 3 de agosto, por la que se aprueban el currículo y las características de la evaluación del Bachillerato y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "157",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "1234566820909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234566820909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926626&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II"
+    },
+    {
+      "id": "boa-2024-154-orden-ecd-886-2024",
+      "tipo": "orden",
+      "titulo": "Orden ECD/886/2024, de 25 de julio, por la que se modifica la Orden ECD/1173/2022, de 3 de agosto",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "154",
+      "fechaPublicacion": "2024-08-08",
+      "cve": "1346524500505",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1346524500505&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007942966&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 67,
+        "hasta": 89
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El objeto de la materia de “Historia del Arte” es el análisis del hecho artístico en sus múltiples facetas y dimensiones, no solo desde una perspectiva histórica, mediante la contextualización cultural y temporal de estilos, obras y artistas, sino, entendiéndolo como una manifestación de la inteligencia y la creatividad humana que, a través del lenguaje y la actividad artística, se empeña en comprender y mejorar la realidad que nos rodea.",
+      "La “Historia del Arte”, materia con la que el alumnado ha tomado ya contacto en la Educación Secundaria Obligatoria a través de los contenidos de materias como Geografía e Historia, Lengua y Literatura, Filosofía, Latín, Música y Educación Plástica, Visual y Audiovisual, está estrechamente vinculada con el logro de los objetivos de etapa y el desarrollo de las competencias clave, especialmente en lo que compete al cultivo de la sensibilidad artística y al desarrollo de criterios estéticos, entendidos ambos como aspectos esenciales de la formación integral del alumnado y de su enriquecimiento cultural y personal. Dicha formación, en tanto que implica la comprensión de la forma en que ideas y emociones se comunican de forma creativa a través de diversas manifestaciones artísticas y culturales, se relaciona directamente con la competencia en conciencia y expresión culturales. De un modo más indirecto, pero no menos decisivo, el aprendizaje de la historia del arte contribuye al logro de la madurez intelectual y emocional del alumnado, favoreciendo la formación de una imagen ajustada de sí mismo, proporcionándole el conocimiento de códigos y lenguajes en los que reconocerse y expresarse, y promoviendo el desarrollo de su propio juicio, a la par que de una actitud dialogante y respetuosa con respecto a opiniones, gustos y expresiones diferentes a los propios. Además, la contribución de esta materia a las competencias y objetivos mencionados ha de procurar no solo un conocimiento más profundo de las realidades del mundo contemporáneo y de su significado estético, sino de algunas de las claves más importantes para entender la cultura audiovisual de nuestro tiempo, así como la adopción de una actitud crítica, cuidadosa y constructiva con respecto a la interpretación, protección y mejora del patrimonio cultural y del entorno social y natural.",
+      "Las materia está estructurada en torno a tres ejes fundamentales: el análisis, la comprensión histórica y la apreciación crítica de las principales manifestaciones artísticas y de sus relaciones con el resto de dimensiones y aspectos de la cultura y la experiencia humana; la incorporación de la perspectiva de género y, por ello, entre otros aspectos, de la visibilización de las mujeres creadoras habitualmente excluidas del canon dominante; y la educación para la preservación, mejora y uso sostenible del patrimonio artístico, entendido como elemento de desarrollo económico, social, ambiental y cultural.",
+      "Las competencias específicas incluyen el reconocimiento y análisis de las diversas manifestaciones estéticas, el empleo básico de los lenguajes artísticos y del vocabulario de la disciplina, la identificación de las diversas funciones atribuibles a la producción artística, así como su mayor o menor vinculación con diferentes movimientos, géneros, estilos, épocas y artistas, la apreciación de cambios estéticos en las representaciones del ser humano, la comprensión contextualizada de las creaciones culturales como reflejo de la sociedad que las ha generado, el conocimiento y protección del patrimonio, y, por último, a la ya citada incorporación de la perspectiva de género al estudio histórico del arte.",
+      "En cuanto a los criterios de evaluación, estos están diseñados para comprobar el grado de consecución de las competencias específicas y, en conexión con los saberes básicos, están también orientados al logro de los objetivos del Bachillerato y de las competencias clave. La aplicación de los mismos supone la necesidad de adaptar las metodologías y acciones educativas, implementando estrategias en las que se ejerciten tanto los procesos instrumentales como las actitudes, e integrando en ellas las pautas metodológicas propias de la historia del arte. Dichos criterios suponen igualmente el diseño de instrumentos múltiples y diferentes con que, teniendo en cuenta la diversidad e individualidad del alumnado, valorar de forma diferenciada las acciones delimitadas por las competencias.",
+      "Los saberes básicos se agrupan, a su vez, en cuatro bloques y han sido concebidos para que puedan abordarse desde distintos enfoques didácticos y metodológicos. Así, se han organizado por criterios temáticos, sin ser un obstáculo para que sea posible realizar una aproximación a estos saberes siguiendo un orden cronológico, o combinando ambos",
+      "aspectos. En el primer bloque, “Aproximación a la Historia del Arte”, se presentan saberes relacionados con la complejidad de la definición del objeto de estudio y su evolución en el tiempo, el lenguaje artístico como forma de expresión y comunicación, el reto de la interpretación y el juicio estético, el vocabulario y la terminología específicos",
+      "que el alumnado debe saber utilizar, así como las técnicas del comentario histórico-artístico. El trabajo con respecto a estos saberes puede concebirse como preámbulo al curso, o bien como actividad a desarrollar a lo largo del mismo.",
+      "En el segundo bloque, “El arte y sus funciones a lo largo de la historia”, los saberes tratan, desde una perspectiva integradora, las funciones y significados de la actividad artística a lo largo del tiempo. Dicha actividad y las obras de arte a ella debidas constituyen un valioso documento para conocer las culturas que han caracterizado las distintas sociedades humanas a lo largo de distintas épocas. Es por ello que resulta imprescindible el estudio de la obra de arte en su contexto como punto de partida para analizar los factores históricos que intervienen en el proceso de su creación. Se pretende, con todo ello, que el alumnado comprenda el carácter multidimensional y complejo de la relación entre la actividad artística y los fenómenos políticos, sociales, económicos e ideológicos, así como entre dicha actividad y la subjetividad de las personas creadoras, planteando, asimismo, el problema del carácter autónomo y de la propia entidad de la obra de arte.",
+      "En el tercer bloque, “Dimensión individual y social del arte”, los saberes seleccionados profundizan sobre el papel del arte como expresión de la identidad y de los sentimientos de pertenencia. Se trata aquí de identificar y comprender todos aquellos elementos visuales, icónicos y simbólicos que, presentes en todas las culturas, definen la identidad individual y colectiva de una sociedad. Además, se examina críticamente la participación de las mujeres y se otorga relevancia a la visibilidad a las artistas que han estado marginadas de un canon tradicionalmente concebido desde una perspectiva androcéntrica.",
+      "Por último, en el cuarto y último bloque, “Realidad, espacio y territorio en el arte”, agrupa saberes relacionados con la concepción del arte como representación y reflejo de la realidad, tales como la creación del espacio arquitectónico, el dominio de la perspectiva en la pintura, el urbanismo, y la relación del arte y el patrimonio artístico con la naturaleza y el desarrollo sostenible.",
+      "Finalmente, conviene subrayar que el enfoque competencial del Bachillerato y de la materia de “Historia del Arte” posibilita diseñar situaciones y contextos de aprendizaje más activos en los que dotar de mayor protagonismo al alumnado y promover el trabajo en equipo, los procesos de indagación e investigación, la creatividad y la transferencia del conocimiento adquirido. Se invita, así, a elaborar propuestas didácticas y metodologías integradoras en las que se apliquen el análisis, la interpretación y la valoración personal y argumentada, el diálogo y la colaboración con los demás y con otras materias, el uso crítico, ético y responsable de la información, el respeto al patrimonio y a la diversidad de expresiones culturales, y la concepción del conocimiento y el aprendizaje como motor del desarrollo personal, social y cultural, y como garantía para afrontar con éxito los retos y desafíos del siglo XXI."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar diferentes concepciones del arte a lo largo de la historia, seleccionando y analizando información de forma crítica, para valorar la diversidad de manifestaciones artísticas como producto de la creatividad humana y fomentar el respeto por las mismas."
+      },
+      "descripcion": {
+        "es": [
+          "Todas las estrategias y procesos relacionados con la búsqueda, selección, tratamiento y análisis de la información resultan indispensables para el aprendizaje y adquisición de nuevos saberes. Por lo que se hace necesario que el alumnado se ejercite en ellos, procurando un grado suficiente de manejo crítico de fuentes, de precisión en la recogida de datos y de tratamiento contrastado de la información a partir del análisis crítico y riguroso de la misma. Este proceso ha de culminar con la elaboración de síntesis, resúmenes, informes, reseñas o reelaboraciones propias a través de los que organizar, interiorizar y comunicar lo aprendido de forma precisa y creativa.",
+          "Otro elemento fundamental es la delimitación de su campo de estudio, algo ligado tanto a los cambios históricos que",
+          "se han dado en la comprensión de este como a la evolución del significado de sus conceptos fundamentales, empezando por la propia noción de «obra de arte». En último término, es esencial que el alumnado reconozca la",
+          "diversidad y heterogeneidad, tanto diacrónica como sincrónica de los criterios estéticos, identificando aquellos que son propios a diferentes culturas, sociedades y artistas. A este respecto, se ha de prestar especial atención al ámbito del arte contemporáneo, de manera que, más allá de las distinciones clásicas, se identifique y aprecie formas de expresión ligadas a los modos actuales de producción y comunicación, tales como el cómic, el arte urbano, el videoarte o el arte digital, entre otros.",
+          "Esta competencia tiene vinculación con las competencias internas CE.HA.2, CE.HA.3 yCE.HA.4, en cuanto el alumnado debe reconocer la diversidad y heterogeneidad del arte y apreciar la gran variedad de expresiones y estilos creativos. También se relaciona con la competencia CE.HA.5que ahonda en la concepción de la creación artística como expresión de la creatividad humana.",
+          "Esta competencia específica se relaciona fundamentalmente con otras competencias de las materias de Lengua Castellana y Literatura e Historia de la Filosofía. La competencia CE.LCL.6de Lengua y Literatura insta al alumnado a seleccionar y contrastar información procedente de diferentes fuentes, evaluando su fiabilidad y pertinencia. En este mismo sentido, la competencia CE.HF.1 de Filosofía, pretende conseguir que el alumnado busque, analice, interprete, produzca y transmita información relativa a hechos histórico-filosóficos a partir del uso crítico y seguro de fuentes y el dominio de técnicas básicas de investigación. Por tanto, en ambas encontramos la necesidad de seleccionar y analizar la información de forma crítica. En relación con la identificación de distintas concepciones del arte, la podríamos relacionar con la competencia específica CE.HF.5 de Historia de la Filosofía que supone un análisis de distintas concepciones a partir de la interpretación de textos y otros modos de expresión cultural, históricamente dados, para afrontarlos a partir de la reflexión crítica sobre el conocimiento de lo aportado por la tradición. De manera tangencial también la podríamos relacionar con la competencia CE.LCL.10 de Lengua y Literatura, por fomentar el respeto en la expresión de las opiniones y poner las prácticas comunicativas al servicio de la convivencia democrática.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL3, CPSAA4, CC1, CC3, CCEC1, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          68,
+          69
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Reconocer los diversos lenguajes artísticos como una forma de comunicación y expresión de ideas, deseos y emociones, utilizando con corrección la terminología y el vocabulario específico de la materia, para expresar con coherencia y fluidez sus propios juicios y sentimientos y mostrar respeto y empatía por los juicios y expresiones de los demás."
+      },
+      "descripcion": {
+        "es": [
+          "Resulta especialmente relevante que el alumnado reconozca los diversos lenguajes artísticos como una forma de comunicación y expresión estética, con reglas y pautas propias, que se originan, vulneran y recrean de muy variados modos a tenor de cada época, cultura, género, estilo o artista individual. Estas reglas pueden referirse a patrones formales y pautas técnicas (simetría, proporción, equilibrio de la composición, tensión entre elementos, ruptura con las propias pautas, etc.), que conviene que se reconozcan. En cualquier caso, el alumnado ha de comprender que la experiencia artística precisa, en muchas ocasiones, del conocimiento previo de los códigos representativos y lenguajes plásticos con los que opera cada arte y cada artista.",
+          "Por otro lado, es necesario que el alumnado conozca y utilice con propiedad y corrección la terminología y el vocabulario propio de la materia, lo que le va a permitir realizar y comunicar sus propios comentarios artísticos, trabajos de investigación o reflexiones personales, con fluidez y rigor, tanto en formatos digitales como en otros más tradicionales. El objetivo es que el alumnado pueda expresar y comunicar de forma solvente y original, ideas y juicios propios, construir e integrar nuevos conocimientos, movilizar los saberes que ya tiene adquiridos, así como participar",
+          "con actitud cooperativa en situaciones comunicativas relacionadas con el ámbito artístico, respetando siempre la diversidad de percepciones y opiniones que cabe experimentar y expresar ante la obra de arte.",
+          "Esta competencia se conecta con todas las competencias internas posteriores (CE.HA.3, CE.HA.4, CE.HA.5, CE.HA.6,CE.HA.7 yCE.HA.8) dado que insta al alumnado a conocer y utilizar con propiedad la terminología y el vocabulario específico de la materia. Asimismo, se relaciona con las competencias CE.HA.1 yCE.HA.4, en cuanto el alumnado debe reconocer diversos lenguajes artísticos como una forma de comunicación y expresión estética. Por último, se podría vincular con las competencias CE.HA.1 y CE.HA.3, por promover la expresión de juicios estéticos respetando siempre la diversidad de percepciones y opiniones ante la obra de arte.",
+          "Esta competencia específica tiene una relación clara y directa con la competencia CE.MCA.3 de la materia Movimientos culturales y artísticos. Ambas plantean explorar los diversos lenguajes artísticos desde una perspectiva activa y crítica. Asimismo, se relaciona con la competencia CE.MCA.5 de la misma, porque ambas se acercan a las expresiones artísticas como un medio de comunicación para expresar ideas, sentimientos y emociones, proponiendo una observación activa y mostrando empatía hacia las creaciones ajenas. Se puede conectar también con la competencia E.LCL.2, de Lengua y Literatura, porque en ambas competencias se busca comprender la diversidad de lenguajes tratando de extraer el mensaje que el emisor trata de transmitir para formar una opinión y ensanchar las posibilidades de disfrutar de las obras y empatizar con sus autores. Asimismo, en cuanto la competencia hace referencia a la utilización correcta de la terminología y el vocabulario de la materia, la podemos relacionar con la competencia CE.LCL.3 de la misma materia que presta una atención preferente al rigor, fluidez, coherencia, cohesión y al empleo de un registro adecuado en el uso del lenguaje.",
+          "Vinculación con los descriptores de las competencias clave",
+          "Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL5, CD1, CPSAA1.2, CPSAA5, CC1, CE3, CCEC2, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          69,
+          70
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Distinguir las distintas funciones del arte a lo largo de la historia, analizando la dimensión religiosa, ideológica, política, social, económica, expresiva y propiamente estética de la obra de arte, de su producción y su percepción, para promover una apreciación global y un juicio crítico e informado de los mismos."
+      },
+      "descripcion": {
+        "es": [
+          "La producción artística ha adquirido a menudo, de manera intencionada o no, diferentes funciones. Así, el arte ha podido instrumentalizarse en sus orígenes y aún hoy como proceso mágico y ritual. Se ha empleado también como lenguaje para la transmisión de determinadas ideas, creencias y doctrinas religiosas. Ha servido, en ocasiones, a Estados, colectivos e individuos como medio de influencia y control, tanto para generar conformidad con el orden social, como para subvertirlo y transformarlo. Ha sido igualmente utilizado como elemento de cohesión social y representación identitaria de grupos y colectividades. Se ha concebido como actividad económica, confundiéndose, en la actualidad, con procesos como el diseño industrial o la publicidad. Se ha interpretado también como modo de expresión de la subjetividad y los sentimientos. Por último, ha sido entendida, desde la época moderna, como una actividad esencialmente autónoma, sin subordinación posible a ninguna otra función salvo la de recrearse a sí misma, para volver a vincularse a una concepción problemática y diversa de la realidad en algunas de las corrientes artísticas postmodernos.",
+          "Así, es importante que el alumnado identifique y contextualice históricamente las relaciones complejas entre la producción artística y las mentalidades, intereses y acciones de los Estados y otros grupos de poder, de las distintas clases y grupos sociales, así como de las empresas y de otras instancias o sujetos individuales o colectivos, incidiendo en las que se establecen, a día de hoy, en el marco de una cultura audiovisual dominada desde los medios y redes de",
+          "comunicación. El objetivo último es comprender la producción y percepción artística como un proceso histórico complejo, vinculado a distintos contextos, intenciones y funcionalidades que resultan finalmente plasmadas en la propia obra de arte.",
+          "Esta competencia tiene vinculación con las competencias internas CE.HA.2, CE.HA.5 y CE.HA.6, en cuanto pretende comprender las distintas funciones del arte, analizando la producción y percepción artística como un proceso histórico complejo vinculado a distintos contextos. También se relaciona con la competencia CE.HA.2 porque resulta esencial que el alumnado conozca y utilice con propiedad la terminología propia de la materia. Asimismo, aboga por una apreciación global del arte y la expresión de un juicio crítico e informado lo cual se relaciona con la competencia CE.HA.3.",
+          "Relacionamos esta competencia fundamentalmente con la CE.HE.5 de Historia de España, porque ambas se centran en el análisis del papel de las creencias, ideologías y el uso del poder, a través del estudio de las diversas fuentes para posteriormente emitir un juicio crítico valorando la diversidad cultural y mostrando actitudes respetuosas. En cuanto análisis de las distintas dimensiones (religiosa, ideológica, política, social y económica…) también se puede relacionar con la competencia CE.HF.5 de Historia de la Filosofía ya que plantea el estudio de problemas filosóficos a través de distintas épocas y concepciones, mediante el análisis e interpretación de obras para afrontar tales problemas a partir de la reflexión crítica. Por último, la podemos relacionar también con la competencia CE.MCA.3 de la materia de Movimientos culturales y artísticos por su interés en explorar los diversos lenguajes y valores artísticos para comprender sus especificidades e intencionalidades y descubrir posibles referentes comunes. Y con la competencia CE.MCA.1 de la misma materia, dado que plantea una reflexión sobre el contexto histórico y aspectos singulares de las manifestaciones artísticas, para descubrirlos en tanto que representativos del espíritu de una época.",
+          "Vinculación con los descriptores de las competencias clave",
+          "Esta competencia específica se conecta con los siguientes descriptores: CPSAA1.2, CPSAA4, CC1, CC3, CCEC1, CCEC2, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          70,
+          71
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Identificar y caracterizar los principales movimientos artísticos a lo largo de la historia, reconociendo las relaciones de influencia, préstamo, continuidad y ruptura que se producen entre ellos, para comprender los mecanismos que rigen la evolución de la historia del arte y fomentar el respeto y aprecio de las manifestaciones artísticas de cualquier época y cultura."
+      },
+      "descripcion": {
+        "es": [
+          "Al final de la etapa de Bachillerato, el alumnado debe haber adquirido una visión general sobre las distintas etapas y movimientos que conforman la historia del arte. Se trata en ese sentido de ir caracterizándolos en sus rasgos esenciales, estableciendo relaciones entre ellos, identificando semejanzas y diferencias y sistematizando de modo crítico la información básica en torno a los mismos. La dificultad de abarcar, dada su amplitud, toda esta secuencia histórica, hace necesaria una selección equilibrada de elementos temáticos que favorezca una aproximación general al desarrollo de la historia del arte, propiciando una concepción global del mismo en la que se complemente la secuenciación lineal con un análisis transversal relativo a las funciones, valores y significados atribuibles a la creación y la experiencia artísticas.",
+          "Se concederá, así, especial atención a las relaciones de influencia y los mecanismos de reproducción que hacen que un movimiento artístico se prolongue en el tiempo, como ocurre en la relación entre el arte griego y el romano, que perviva en sí mismo, como el arte islámico, o que, mediante una ruptura, dé lugar a un movimiento nuevo, como es el caso del Neoclasicismo y el Romanticismo. La propia reflexión sobre el lenguaje artístico ayudará al alumnado a entender por qué a un estilo le sigue otro, muchas veces contrapuesto, o por qué dos estilos conviven en el tiempo. Por otro lado, se trata también de identificar las continuas influencias que se dan entre el pasado y el presente,",
+          "retomándose en ocasiones, y con otros lenguajes, ciertos elementos del pasado, y rompiendo, en otros casos, con él, para dar lugar, de forma progresiva o más abrupta, a nuevos movimientos artísticos.",
+          "Esta competencia se vincula con todas las competencias internas posteriores CE.HA.5, CE.HA.6, CE.HA.7 y CE.HA.8 dado que pretende identificar y caracterizar los rasgos esenciales de los principales movimientos artísticos, un saber que trataremos de aplicar y afianzar en las competencias posteriores. También se relaciona con la competencia CE. HA.2 porque para poder caracterizar los movimientos artísticos debemos conocer los distintos lenguajes artísticos y es indispensable que el alumnado conozca y utilice con propiedad el vocabulario específico de la materia. Además, en cuanto la competencia propugna fomentar el respeto y aprecio de las manifestaciones de cualquier época y cultura la relacionamos con las competencias CE.HA.1 y CE.HA.7.",
+          "Relacionamos esta competencia con la competencia CE.MCA.1 de la materia de Movimientos culturales y artísticos porque ambas plantean identificar y caracterizar los principales movimientos artísticos a partir del análisis de distintas manifestaciones identificando semejanzas y diferencias y sistematizando de forma crítica la información. También se relaciona con la competencia CE.MCA.4. de la misma materia, que se centra en comprender la evolución artísticocultural, para construir una cultura amplia, que desarrolle la sensibilidad artística y el deleite estético. Precisamente en ese matiz de reconocer la evolución a lo largo de la historia la podemos relacionar también con la competencia CE.HF.5 de Historia de la Filosofía que propone reconocer el modo en que se han planteado sucesivamente, a través de distintas épocas y concepciones, los mismos problemas filosóficos. Finalmente, en el aspecto de fomentar el respeto y aprecio de las manifestaciones artísticas la relacionamos con la CE.HE.8 de Historia de España que pone de manifiesto la necesidad de valorar el patrimonio histórico y cultural como legado y expresión de la memoria colectiva, identificando los significados y usos.",
+          "Vinculación con los descriptores de las competencias clave",
+          "Esta competencia específica se conecta con los siguientes descriptores: CPSAA4, CC1, CC2, CC3, CCEC1, CCEC2, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          71,
+          72
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Identificar y contextualizar espacial y temporalmente a las más relevantes manifestaciones y personalidades artísticas, analizando su entorno social, político y cultural, y sus aspectos biográficos, para valorar las obras y a sus artistas como expresión de su época y ámbito social, apreciar su creatividad y promover el conocimiento de diversas formas de expresión estética."
+      },
+      "descripcion": {
+        "es": [
+          "Es importante que el alumnado identifique las obras más significativas de distintos artistas y movimientos artísticos. Se trata de analizar aquellas que, por su significación y su repercusión a lo largo del tiempo, han marcado un hito en la historia del arte. Es igualmente importante que en la delimitación de las obras y en el proceso mismo del análisis se eviten criterios que, por su carácter ideológico, eurocéntrico, sexista o, en general, discriminatorio, supongan un sesgo injustificado. Para evitarlo, es conveniente infundir una visión global y libre de prejuicios de la historia del arte, examinando y apreciando obras de otras culturas, o aquellas que, pese a su interés y calidad, hayan sido marginadas de los cánones al uso. Esto mismo es extensible a artistas que, por diversos motivos, y pese al valor reconocido de su obra, hayan sido olvidados por la historiografía.",
+          "Por otro lado, uno de los ejes de la materia debe ser entender las creaciones artísticas como expresión de la actividad humana y sus circunstancias en determinada cultura y momento histórico. El estudio de una obra de arte adquiere, así, todo su significado cuando se la pone en relación con su contexto sociocultural y con la biografía de su autor. Conviene, además, tener en cuenta el carácter bidireccional de dicha relación, de manera que, si bien ninguna obra puede ser plenamente entendida sin considerar los factores y circunstancias espaciotemporales y biográficos que",
+          "intervinieron en su creación, el estudio de la obra de arte resulta igualmente un factor a tener en cuenta para el conocimiento de la época, la cultura y la personalidad que la gestó.",
+          "Esta competencia se vincula con la competencia interna CE.HA.8, porque en la elección de las personalidades artísticas incluiremos aquellas artistas más señeras, algunas de las cuales fueron invisibilizadas. También se relaciona con las CE.HA.3 yCE.HA.4, dado que pretende que el alumnado analice el entorno social, político y cultural de los artistas e identifique las obras más significativas de distintos creadores y movimientos artísticos. Asimismo, la relacionamos con la competencia CE.HA.2 porque resulta crucial manejar un vocabulario específico para poder abordar el estudio de los artistas y sus obras.",
+          "Vinculamos esta competencia específica principalmente a las competencias externas CE.MCA.4, CE.MCA.1. y CE.MCA.2. de la materia Movimientos culturales y artísticos, por enfatizar la necesidad de reconocer la implicación de los artistas, reflexionar sobre su contexto histórico y aspectos singulares, así como valorar la libertad creativa y de expresión de cualquier forma de creación. De manera secundaria se puede relacionar con la competencia de Geografía CE.G.2 puesto que para contextualizar espacialmente tanto a las obras como a sus creadores debemos comprender la complejidad del espacio geográfico. Y con la competencia CE.HF.6 de Historia de la Filosofía por abordar los diversos intentos de respuesta que se han presentado históricamente en la cultura.",
+          "Vinculación con los descriptores de las competencias clave",
+          "Esta competencia específica se conecta con los siguientes descriptores: CPSAA3.1, CPSAA4, CC1, CC2, CC3, CCEC1, CCEC2, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          72,
+          73
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Conocer y valorar el patrimonio artístico en el ámbito local, nacional y mundial, analizando ejemplos concretos de su aprovechamiento y sus funciones, para contribuir a su conservación, su uso comprometido a favor de la consecución de los Objetivos de Desarrollo Sostenible, su promoción como elemento conformador de la identidad individual y colectiva, y como dinamizador de la cultura y la economía."
+      },
+      "descripcion": {
+        "es": [
+          "El reconocimiento del patrimonio artístico como un elemento que nos ha sido legado por las generaciones pasadas y la necesidad de su conservación, su uso sostenible y su promoción, representan un imperativo fundamental para cualquier sociedad y cultura. En este sentido, el papel de la materia de “Historia del Arte” resulta crucial, pues difícilmente podemos valorar algo que no conocemos. Se trata, pues, de que el alumnado tome conciencia, a través del análisis pormenorizado de casos concretos, del valor simbólico y de la importancia social, ambiental y material del patrimonio artístico y cultural, de la complejidad y el mérito del trabajo de los profesionales encargados de su mantenimiento, y de aquellas repercusiones ecosociales que supone su conservación y puesta en valor.",
+          "La expresión de la identidad y de los sentimientos de pertenencia es una de las funciones atribuibles al arte en prácticamente todas las épocas y culturas, pues este suele reflejar en gran medida aquellos elementos visuales, icónicos y simbólicos que definen las singularidades y creencias colectivas. Es importante, pues, que el alumnado reflexione de forma crítica y dialogada acerca de cómo el arte genera y transmite tales sentimientos y creencias a distintas escalas, siendo instrumentalizado, en ocasiones, como un medio propagandístico de representación y de educación al servicio del Estado u otros grupos, mediante la creación, por ejemplo, de instituciones académicas y museísticas.",
+          "Esta competencia se relaciona con la competencia interna CE.HA.5 dado que en ella se persigue identificar las creaciones artísticas más importantes a escala mundial analizando ejemplos de obras de arte concretos. También con",
+          "la competencia CE.HA.3 por analizar las funciones que subyacen en las manifestaciones artísticas para emitir un juicio crítico sobre su conservación. También la relacionamos con las competenciasCE.HA.2yCE.HA.4 por la necesidad de",
+          "contar con una terminología adecuada y un conocimiento de las etapas y movimientos artísticos para poder valorar el patrimonio.",
+          "De forma prioritaria esta competencia se relaciona con dos de la materia de Historia de España. En primer lugar, con la competencia CE.HE.8 dado que en ambas se plantea la necesidad de valorar el patrimonio histórico y cultural como legado y expresión de la memoria colectiva, para el desarrollo de la iniciativa, del trabajo en equipo, de la creatividad y de la implicación en cuestiones de interés social y cultural. Y con la competenciaCE.HE.2 porque ambas abordan el tema de la diversidad identitaria y propugnan respetar los sentimientos de pertenencia. También la relacionamos estrechamente con las competencias CE.MCA.2y CE.MCA.1 de la materia Movimientos Culturales y artísticos que enfatizan el valor social del patrimonio, y lo considera fundamental como conformador de la identidad y del espíritu de una época. Asimismo, se puede relacionar de manera tangencial con las siguientes competencias CE.LCL.1 de Lengua y Literatura que también valora la diversidad cultural como fuente del patrimonio. Y en cuanto propone el análisis pormenorizado de un caso concreto la podemos relacionar con las competenciasCE.HF.7. que propone analizar problemas fundamentales y de actualidad, la competencia CE.G7 de la materia de Geografía que propone abordar situaciones del pasado, del presente o del futuro, reorientando eficazmente decisiones y estrategias de trabajo individual o en equipo, para aportar soluciones innovadoras a contextos en transformación y fomentar el aprendizaje permanente.",
+          "Vinculación con los descriptores de las competencias clave",
+          "Esta competencia específica se conecta con los siguientes descriptores: CPSAA4, CC1, CC2, CC3, CE1, CCEC1, CCEC2, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          73,
+          74
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Distinguir y describir los cambios estéticos y los diferentes cánones de belleza a lo largo de la historia del arte, realizando análisis comparativos entre obras de diversos estilos, épocas y lugares, para formarse una imagen ajustada de sí mismo y consolidar una madurez personal que permita mostrar sensibilidad y respeto hacia la diversidad superando estereotipos y prejuicios."
+      },
+      "descripcion": {
+        "es": [
+          "La historia del arte es uno de los mejores escenarios en los que formar al alumnado para el logro de un adecuado concepto de sí mismo, a través, por ejemplo, de la reflexión sobre las distintas formas de representación humana a lo largo del tiempo. Esta necesidad de hacerse visible, proyectarse e identificarse a través de la imagen es una constante histórico-cultural que conduce a la pregunta recurrente acerca de las formas y propósitos de dicha representación. Es necesario pues que, a través del análisis de géneros como el retrato y otros, se promueva en el alumnado la captación de la psicología y la mirada interior de los personajes, tanto de figuras destacadas de la historia como de personas o grupos de diferentes estratos sociales, la expresión de la diversidad de razas y etnias, o el reflejo del ciclo vital desde la infancia hasta la vejez y la muerte.",
+          "Todo lo anterior puede relacionarse, a su vez, con el concepto de belleza y sus opuestos y con su evolución histórica. De este modo, a través del análisis comparativo de obras de distintos periodos, el alumnado puede reconocer cómo han ido cambiando la idea de belleza y los cánones de valoración estética, adquiriendo una concepción compleja y no dogmática de las ideas estéticas y dando ocasión al desarrollo de su propio criterio y gusto. Otro de los propósitos de este análisis es contribuir a que el alumnado adopte un concepto ajustado y asertivo de su propia imagen física, a la vez que una actitud de respeto y reconocimiento de la diversidad humana, tanto en su aspectos psíquicos y físicos como en cuanto a sus manifestaciones culturales, rechazando todo tipo de prejuicios y estereotipos discriminatorios.",
+          "Esta competencia se vincula a la competencia interna CE.HA.4 en cuanto pretende estudiar la evolución y los cambios",
+          "estéticos en los diferentes movimientos artísticos a lo largo del tiempo. Además, resulta fundamental para realizar análisis comparados de diferentes obras conocer los estilos artísticos y sus relaciones de influencia, préstamo, continuidad y ruptura. También se vincula a la competencia CE.HA.2 dado que resulta indispensable que el alumnado",
+          "utilice con corrección el vocabulario propio de la materia. Asimismo, la podemos conectar con la competencia CE.HA.8. porque uno de sus propósitos es rechazar todo tipo de prejuicios y estereotipos discriminatorios.",
+          "Esta competencia se relaciona de manera prioritaria con la competencia externa CE.MCA.1. de la materia Movimientos culturales y artísticos dado que ambas proponen analizar producciones de distintos movimientos culturales y artísticos, reflexionando de forma abierta sobre su contexto histórico y aspectos singulares. Además, se podría relacionar con la competencia CE.MCA.2 de la misma materia en cuanto por un lado incide en la importancia de la libertad creativa y de la expresión en las producciones culturales y artísticas de cualquier tipo y época, y por otro ahonda en la importancia de la propia identidad. También la podemos relacionar de manera secundaria con la competencia CE.LCL.1 en su interés por mostrar sensibilidad y respeto hacia la diversidad plurilingüe y pluricultural de España.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CPSAA1.1, CPSAA3.1, CPSAA4, CC1, CC3, CCEC1, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          74,
+          75
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Integrar la perspectiva de género en el estudio de la historia del arte, analizando el papel que ha ocupado la mujer y la imagen que de ella se ha dado en los diferentes estilos y movimientos artísticos, para visibilizar a las artistas y promover la igualdad efectiva entre mujeres y hombres."
+      },
+      "descripcion": {
+        "es": [
+          "La historiografía del arte, gestada a partir de mediados del siglo XVIII, relegó a la mujer de las distintas disciplinas artísticas, negando y ocultando su capacidad creadora, como constata la escasa presencia femenina en las colecciones de los grandes museos. La materia de “Historia del Arte” puede ser una herramienta muy útil para invertir esta tendencia, recuperando y valorando aquellas figuras artísticas que han sido injustificadamente marginadas del canon del arte por su simple condición de mujer.",
+          "Por otra parte, analizando los estereotipos y símbolos relacionados con la mujer y el ámbito femenino en obras de arte en se representan espacios, roles, actividades y modos de vida, se pueden contextualizar y comprender mejor las relaciones entre ambos sexos a lo largo de la historia. Se trata así de promover en el alumnado actitudes críticas y de rechazo hacia el sexismo y la discriminación de la mujer, a partir de un análisis crítico de aquellas representaciones y de su función como generadoras de conformidad social.",
+          "En todas las competencias internas se apuesta por el respeto a la diversidad y la superación de estereotipos y prejuicios. Vinculamos prioritariamente esta competencia con la competencia interna CE.HA.5 dado que la elección de las más relevantes personalidades artísticas debe necesariamente incluir la perspectiva de género para poder ofrecer modelos femeninos al alumnado. Con respecto al análisis que plantea del papel de la mujer y su imagen lo relacionamos con la competencia CE.HA.7 que analiza los diferentes cánones de belleza de manera comparativa a lo largo de la historia potenciando el respeto hacia la pluralidad. También se vincula a las competencias CE.HA.2 yCE.HA.4 que se consideran competencias necesarias para que el alumnado pueda realizar y comunicar sus análisis con rigor y precisión.",
+          "En todas las materias del currículo se promueve activamente la igualdad y corresponsabilidad efectiva entre mujeres y hombres. Relacionamos esta competencia de manera primordial con la competencia CE.HE.7. de la materia Historia de España porque ambas tratan de integrar la perspectiva de género en el análisis de la realidad para reconocer su presencia en la historia y promover la igualdad efectiva entre hombres y mujeres. También la relacionamos con la competencia CE.LCL.10 de Lengua y Literatura que hace referencia explícita a la igualdad de derechos de todas las",
+          "personas y a la necesidad de utilizar un lenguaje no discriminatorio y desterrarlos abusos de poder a través de la palabra, para favorecer un uso no solo eficaz sino también ético y democrático del lenguaje. También la podemos",
+          "relacionar con la competencia CE.HF.7. de la materia Historia de la Filosofía que propone analizar problemas fundamentales y de actualidad mediante la exposición crítica, para desarrollar la autonomía de juicio y promover actitudes y acciones cívica y éticamente consecuentes. Y con la competencia CE.HE.4. porque aboga por tomar conciencia de la diversidad social a través del análisis multidisciplinar de los cambios y continuidades de la sociedad española, para valorar el alcance de las medidas adoptadas y los progresos y limitaciones para avanzar en la igualdad.",
+          "Vinculación con los descriptores de las competencias clave",
+          "Esta competencia específica se conecta con los siguientes descriptores: CCL5, CPSAA3.1, CC1, CC2, CC3, CCEC1, CCEC2, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          75,
+          76
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar y respetar la diversidad de manifestaciones artísticas a partir de la investigación y el debate en torno a las diferentes concepciones del arte y el análisis de obras concretas sobre las que comprobar la pertinencia de dichas concepciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar y expresar con coherencia y fluidez juicios y emociones propios acerca de las obras de arte y mostrar respeto y empatía por los juicios y expresiones de los demás, utilizando la terminología y el vocabulario específico de la materia y demostrando un conocimiento básico de los diversos lenguajes artísticos aprendidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Distinguir y analizar las funciones y las dimensiones religiosa, ideológica, política, social, económica, expresiva y propiamente estética de las obras de arte, demostrando una comprensión y un juicio crítico y fundamentado de las mismas y de su producción y su percepción."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer y explicar las principales manifestaciones y movimientos artísticos, identificando y analizando su contexto cultural, su vinculación con las funciones atribuibles al arte, sus características estilísticas fundamentales y su desarrollo en el tiempo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reconocer los mecanismos que rigen la evolución de la historia del arte a partir del análisis comparativo de obras de diversas épocas y de la explicación de las relaciones de influencia, préstamos, continuidad y ruptura que se producen entre estilos, autores y movimientos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Elaborar comentarios histórico-artísticos de distintas obras de arte a partir del conocimiento crítico y argumentado de su contexto histórico, sus funciones y su relevancia social, política y cultural, valorando y respetando distintas obras y formas de manifestaciones artísticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar y analizar la complejidad del proceso de creación artística, elaborando reseñas biográficas sobre las figuras más destacadas y atendiendo a aquellos aspectos personales que faciliten la comprensión del significado y del valor de la obra, tomando conciencia del papel del artista en el proceso creador."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Comprender la importancia de la conservación y promoción del patrimonio artístico, investigando acerca de los procesos de adquisición, conservación, exhibición y uso sostenible de obras de arte, así como sobre el impacto positivo y negativo de las acciones humanas sobre ellas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              77
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar el papel conformador de la identidad individual y colectiva que poseen el arte y el patrimonio artístico, analizando las autorrepresentaciones humanas y el uso de recursos estéticos e iconográficos en la generación y el mantenimiento de los vínculos grupales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              77
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Elaborar argumentos propios acerca de la noción de la belleza, comparando cánones y obras de diversos tipos, estilos, épocas y lugares, apreciando la diversidad como fuente de enriquecimiento, superando estereotipos y prejuicios y promoviendo la formación de una imagen ajustada de sí mismo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              77
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Conocer las principales figuras femeninas de la historia del arte, dando visibilidad a la mujer como artista, analizando el contexto político, social y cultural en el que desarrollaron su producción artística y reconociendo su esfuerzo por hacerse valer en él."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              77
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Conocer y analizar críticamente la imagen que se ha dado de la mujer en la historia del arte mediante el análisis comparativo de obras de distintas épocas y culturas en las que se representen figuras, roles, símbolos y temas relacionados con la feminidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              77
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Aproximación a la Historia del Arte."
+          },
+          "saberes": [
+            {
+              "id": "HA.2.A.1",
+              "codigoOficial": "A1",
+              "texto": {
+                "es": "El debate sobre la definición de arte. El concepto del arte a lo largo de la historia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  80
+                ]
+              }
+            },
+            {
+              "id": "HA.2.A.2",
+              "codigoOficial": "A2",
+              "texto": {
+                "es": "El lenguaje artístico: el arte como forma de comunicación. La variedad de códigos y lenguajes. Símbolos e iconografía en el arte. La subjetividad creadora. El problema de la interpretación. El juicio estético."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  80
+                ]
+              }
+            },
+            {
+              "id": "HA.2.A.3",
+              "codigoOficial": "A3",
+              "texto": {
+                "es": "Terminología y vocabulario específico del arte en la arquitectura y las artes plásticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  80
+                ]
+              }
+            },
+            {
+              "id": "HA.2.A.4",
+              "codigoOficial": "A4",
+              "texto": {
+                "es": "Herramientas para el análisis de la obra de arte: elementos técnicos, formales, y estilísticos. Estudio iconográfico y significado, identificación, contextualización y relevancia de la obra en su época y referente para producciones posteriores. El análisis comparativo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  80
+                ]
+              }
+            },
+            {
+              "id": "HA.2.A.5",
+              "codigoOficial": "A5",
+              "texto": {
+                "es": "Influencias, préstamos, continuidades y rupturas en la historia del arte con una clasificación sencilla por etapas. Variedad de expresiones y estilos creativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "HA.2.A.6",
+              "codigoOficial": "A6",
+              "texto": {
+                "es": "Forma y función en el arte: de la artesanía al diseño el camino hacia el reconocimiento social. Otras figuras relacionadas con el mundo del arte: mecenas, marchantes, coleccionistas, restauradores y conservadores, el espectador."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  81
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "El arte y sus funciones a lo largo de la historia."
+          },
+          "saberes": [
+            {
+              "id": "HA.2.B.1",
+              "codigoOficial": "B1",
+              "texto": {
+                "es": "El arte como instrumento mágico-ritual a lo largo de la historia a través de la pintura parietal y arte mueble de la Prehistoria."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.2",
+              "codigoOficial": "B2",
+              "texto": {
+                "es": "El arte como dispositivo de dominación y control: desde las primeras civilizaciones urbanas hasta la sociedad contemporánea como muestra la capacidad técnica de las primeras civilizaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.3",
+              "codigoOficial": "B3",
+              "texto": {
+                "es": "El arte y su valor propagandístico: desde el Mundo Antiguo hasta la actual sociedad de consumo con la difusión de un ideal de belleza griego y la aportación plástica del arte romano."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.4",
+              "codigoOficial": "B4",
+              "texto": {
+                "es": "El arte y su función didáctica y religiosa en las sociedades teocéntricas aplicado al arte medieval."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  81,
+                  82
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.5",
+              "codigoOficial": "B5",
+              "texto": {
+                "es": "Arte, mecenazgo y coleccionismo como elementos de diferenciación social a partir del siglo XV, durante el Renacimiento y el Barroco."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.6",
+              "codigoOficial": "B6",
+              "texto": {
+                "es": "El arte como medio de progreso, crítica y transformación sociocultural desde el pensamiento ilustrado hasta la actualidad con Goya como pionero de la modernidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.7",
+              "codigoOficial": "B7",
+              "texto": {
+                "es": "El arte como idioma de sentimientos y emociones tanto para los creadores como para el observador. Las manifestaciones artísticas en relación con el mundo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.8",
+              "codigoOficial": "B8",
+              "texto": {
+                "es": "El arte como expresión de los avances tecnológicos: desde la Revolución Industrial hasta la era digital."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Dimensión individual y social del arte."
+          },
+          "saberes": [
+            {
+              "id": "HA.2.C.1",
+              "codigoOficial": "C1",
+              "texto": {
+                "es": "Arte e identidad individual: la necesidad de representarnos. La imagen del cuerpo humano. El género del retrato. La evolución en la imagen del artista."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "HA.2.C.2",
+              "codigoOficial": "C2",
+              "texto": {
+                "es": "Arte e identidad colectiva: escuelas, regionalismos y búsqueda de identidad a través de las manifestaciones artísticas más próximas en el espacio."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "HA.2.C.3",
+              "codigoOficial": "C3",
+              "texto": {
+                "es": "La representación de la mujer en el arte desde una perspectiva crítica y como reflejo de la mentalidad de la época."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "HA.2.C.4",
+              "codigoOficial": "C4",
+              "texto": {
+                "es": "La mujer como artista. La lucha por la visibilidad a lo largo de la Historia del Arte especialmente desde el Renacimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Realidad, espacio y territorio en el arte."
+          },
+          "saberes": [
+            {
+              "id": "HA.2.D.1",
+              "codigoOficial": "D1",
+              "texto": {
+                "es": "Arte y realidad: imitación e interpretación. La revolución de la fotografía y el cine como expresión artística. Clasificación de las Artes."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.2",
+              "codigoOficial": "D2",
+              "texto": {
+                "es": "Arquitectura y espacio: la creación de espacios arquitectónicos en la medida que permite diferenciar espacios, influencias culturales y artísticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.3",
+              "codigoOficial": "D3",
+              "texto": {
+                "es": "Pintura y perspectiva: la conquista de la tercera dimensión."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  83
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.4",
+              "codigoOficial": "D4",
+              "texto": {
+                "es": "Escultura: espacio y volumen."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  83
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.5",
+              "codigoOficial": "D5",
+              "texto": {
+                "es": "Arte e intervención en el territorio: el urbanismo como arte y reflejo de una época y una cultura."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  83
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.6",
+              "codigoOficial": "D6",
+              "texto": {
+                "es": "Arte y su nueva relación con el medio ambiente. La naturaleza y la representación de las emociones. Arquitectura, urbanismo y diseño sostenible. La contribución del arte a los Objetivos de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  83
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.7",
+              "codigoOficial": "D7",
+              "texto": {
+                "es": "El patrimonio artístico: preservación, conservación y usos sostenibles. Museografía y museología."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  83
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

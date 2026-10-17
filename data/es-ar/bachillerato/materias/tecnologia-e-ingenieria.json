@@ -1,0 +1,1287 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.bachillerato.tecnologia-e-ingenieria",
+  "territorio": "es-ar",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "TI",
+    "nombre": {
+      "es": "Tecnología e Ingeniería"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      },
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-157-orden-ecd-1173-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1173/2022, de 3 de agosto, por la que se aprueban el currículo y las características de la evaluación del Bachillerato y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "157",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "1234566820909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234566820909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926626&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 1258,
+        "hasta": 1275
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "En la sociedad actual, el desarrollo de la tecnología por parte de las ingenierías se ha convertido en uno de los ejes en torno a los cuales se articula la evolución sociocultural. En los últimos tiempos, la tecnología, entendida como el conjunto de conocimientos y técnicas que pretenden dar solución a las necesidades, ha ido incrementando su relevancia en diferentes ámbitos de la sociedad, desde la generación de bienes básicos hasta las comunicaciones. En definitiva, se pretende mejorar el bienestar y las estructuras económicas sociales y ayudar a mitigar las desigualdades presentes en la sociedad actual, evitando generar nuevas brechas cognitivas, sociales, de género o generacionales. Se tratan así, aspectos relacionados con los desafíos que el siglo XXI plantea para garantizar la igualdad de oportunidades a nivel local y global.",
+      "En una evolución hacia un mundo más justo y equilibrado, conviene prestar atención a los mecanismos de la sociedad tecnológica, analizando y valorando la sostenibilidad de los sistemas de producción, el uso de los diferentes materiales y fuentes de energía, tanto en el ámbito industrial como doméstico o de servicios.",
+      "Para ello, la ciudadanía necesita disponer de un conjunto de saberes científicos y técnicos que sirvan de base para adoptar actitudes críticas y constructivas ante ciertas cuestiones y ser capaces de actuar de modo responsable, creativo, eficaz y comprometido con el fin de dar solución a las necesidades que se plantean.",
+      "En este sentido, la materia de Tecnología e Ingeniería pretende aunar los saberes científicos y técnicos con un enfoque competencial para contribuir a la consecución de los objetivos de la etapa de Bachillerato y a la adquisición de las correspondientes competencias clave del alumnado. A este respecto, desarrolla aspectos técnicos relacionados con la competencia matemática y competencias en ciencia, tecnología e ingeniería, competencia digital, así como con otros saberes transversales asociados a la competencia lingüística, a la competencia personal, social y aprender a aprender, a la competencia emprendedora, a la competencia ciudadana y a la competencia en conciencia y expresiones culturales.",
+      "Las competencias específicas se orientan a que el alumnado, mediante proyectos de diseño e investigación, fabrique, automatice y mejore productos y sistemas de calidad que den respuesta a problemas planteados, transfiriendo saberes de otras disciplinas con un enfoque ético y sostenible. Todo ello se implanta acercando al alumnado, desde un enfoque inclusivo y con perspectiva de género, al entorno formativo y laboral propio de la actividad tecnológica e ingenieril. Así mismo, se contribuye a la promoción de vocaciones en el ámbito tecnológico entre alumnas y alumnos, avanzando un paso en relación a la etapa anterior, especialmente en lo relacionado con saberes técnicos y con una actitud más comprometida y responsable, impulsando el emprendimiento, la colaboración y la implicación local y global con un desarrollo tecnológico accesible y sostenible. La resolución de problemas interdisciplinares ligados a situaciones reales, mediante soluciones tecnológicas, se constituye como eje vertebrador y refleja el enfoque competencial de la materia.",
+      "En este sentido, se facilitará al alumnado un conocimiento panorámico del entorno productivo, teniendo en cuenta la realidad y abordando todo aquello que implica la existencia de un producto, desde su creación, su ciclo de vida y otros aspectos relacionados. Este conocimiento abre un amplio campo de posibilidades al facilitar la comprensión del proceso de diseño y desarrollo desde un punto de vista industrial, así como a través de la aplicación de las nuevas filosofías makero DIY (“hazlo tú mismo”) de prototipado a medida o bajo demanda.",
+      "La coherencia y continuidad con etapas anteriores se hace explícita, especialmente en las materias de “Tecnología y Digitalización” y “Tecnología” de Educación Secundaria Obligatoria, estableciendo entre ellas una gradación en el nivel de complejidad, en lo relativo a la creación de soluciones tecnológicas que den respuesta a problemas planteados mediante la aplicación del método de proyectos y otras técnicas.",
+      "Los criterios de evaluación en esta materia se formulan con una evidente orientación competencial y establecen una gradación entre primero y segundo de Bachillerato, haciendo especial hincapié en la participación en proyectos",
+      "durante el primer nivel de la etapa y en la elaboración de proyectos de investigación e innovación en el último.",
+      "La materia se articula en torno a seis bloques de saberes básicos, cuyos contenidos deben interrelacionarse a través del desarrollo de situaciones de aprendizaje competenciales y actividades o proyectos de carácter práctico.",
+      "El bloque “Proyectos de investigación y desarrollo” se centra en la metodología de proyectos, dirigida a la ideación y creación de productos, así como su ciclo de vida.",
+      "El bloque “Materiales y fabricación” aborda los criterios de selección de materiales y las técnicas más apropiadas para su transformación y elaboración de soluciones tecnológicas sostenibles.",
+      "Los bloques “Sistemas mecánicos” y “Sistemas eléctricos y electrónicos” hacen referencia a elementos, mecanismos y sistemas que puedan servir de base para la realización de proyectos o ideación de soluciones técnicas.",
+      "Los bloques “Sistemas informáticos. Programación” y “Sistemas informáticos emergentes” presentan saberes relacionados con la informática, como la programación textual y las tecnologías emergentes, para su aplicación a proyectos técnicos.",
+      "El bloque “Sistemas automáticos” aborda la actualización de sistemas técnicos para su control automático mediante simulación o montaje, contemplando además las potencialidades que ofrecen las tecnologías emergentes en sistemas de control.",
+      "El bloque “Tecnología sostenible”, aporta al alumnado una visión de la materia alineada con algunas metas de los Objetivos de Desarrollo Sostenible.",
+      "Con el objetivo de conferir un enfoque competencial a la materia, es conveniente que los saberes puedan confluir en proyectos que supongan situaciones de aprendizaje contextualizadas, en las que el alumnado pueda aplicar sus conocimientos y destrezas para dar solución a una necesidad concreta, que puede emerger de un contexto personal, social o cultural, a nivel local o global con una actitud de compromiso creciente. De este modo, se favorece la creación de vínculos entre el entorno educativo y otros sectores sociales, económicos o de investigación.",
+      "A tenor de este enfoque competencial y práctico, la propuesta de situaciones de aprendizaje ligadas a proyectos interdisciplinares en las que el alumnado pueda explorar, descubrir, experimentar y reflexionar desde la práctica en un espacio que permita incorporar técnicas de trabajo, prototipado rápido y fabricación offline, a modo de taller o laboratorio de fabricación, supone una opción que aporta un gran potencial de desarrollo, en consonancia con las demandas de nuestra sociedad y de nuestro sistema productivo.",
+      "En esta materia se hace perentoria la necesidad de introducir curricularmente la perspectiva de género si atendemos a los datos contundentes de informes como el de la Unesco (2019), que constatan la infrarrepresentación de las mujeres en las vocaciones científico-tecnológicas. Es necesario impulsar las vocaciones STEM en ambos sexos desde las etapas escolares tempranas para conseguir que exista representatividad suficiente en estos campos donde se aborda la resolución de problemas. Para ello habrá que incluir de forma intencional referentes femeninos, y evitar los lugares comunes y sesgos anclados culturalmente acerca de la inclinación “natural” de unos y otras. De otra forma corremos el riesgo de que los problemas del cincuenta por ciento de la humanidad queden invisibilizados por su falta de presencia en los lugares donde se discuten sus soluciones. Como sociedad tampoco podemos permitirnos el lujo de perder toda la creatividad y potencial humano que supondría prescindir de la mitad de la humanidad en los campos de la tecnología y la programación, y la importancia de estimularlo desde edades tempranas e impulsarlo desde el ámbito escolar."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Coordinar y desarrollar proyectos de investigación con una actitud crítica y emprendedora, implementando estrategias y técnicas eficientes de resolución de problemas y comunicando los resultados de manera adecuada, para crear y mejorar productos y sistemas de manera continua."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica plantea, tanto la participación del alumnado en la resolución de problemas técnicos, como la coordinación y gestión de proyectos cooperativos y colaborativos. Esto implica, entre otros aspectos, mostrar empatía, establecer y mantener relaciones positivas, ejercitar la escucha activa y la comunicación asertiva,",
+          "identificando y gestionando las emociones en el proceso de aprendizaje, reconociendo las fuentes de estrés y siendo perseverante en la consecución de los objetivos.",
+          "Además, se incorporan técnicas específicas de investigación, facilitadoras del proceso de ideación y de toma de decisiones, así como estrategias iterativas para organizar y planificar las tareas a desarrollar por los equipos, resolviendo de partida una solución inicial básica que, en varias fases, será completada a nivel funcional estableciendo prioridades. En este aspecto, el método DesignThinking y las metodologías Agile son de uso habitual en las empresas tecnológicas, aportando una mayor flexibilidad ante cualquier cambio en las demandas de los clientes. Se contempla también la mejora continua de productos como planteamiento de partida de proyectos a desarrollar, fiel reflejo de lo que ocurre en el ámbito industrial y donde es una de las principales dinámicas empleadas. Asimismo, debe fomentarse la ruptura de estereotipos e ideas preconcebidas sobre las materias tecnológicas asociadas a cuestiones individuales, como por ejemplo las de género o la aptitud para las materias tecnológicas, con una actitud de resiliencia y proactividad ante nuevos retos tecnológicos.",
+          "En esta competencia específica cabe resaltar la investigación como un acercamiento a proyectos de I+D+I, de forma crítica y creativa, donde la correcta referenciación de información y la elaboración de documentación técnica, adquieren gran importancia. A este respecto, el desarrollo de esta competencia conlleva expresar hechos, ideas, conceptos y procedimientos complejos verbal, analítica y gráficamente, de forma veraz y precisa utilizando la terminología adecuada, para comunicar y difundir las ideas y las soluciones generadas.",
+          "Esta competencia específica está relacionada con otras que apliquen el trabajo cooperativo y colaborativo, así como fomenten una actitud emprendedora en el aula, como por ejemplo la CE.B.4, CE.BGCA.4, CE.CG.5, CE.PA.1, CE.PA.2, CE.TEGP.4. Por otra parte, está relacionado con aquellas CE que trabajan en la resolución de problemas con el fin de mejorar la realidad cercana y la calidad de vida humana, aplicando conocimientos interdisciplinares relacionados con la ciencia y la tecnología, como la CE.F.5 y CE.FQ.5, CE.GCA.4, CE.M.1, CE.M.3, CE.M.9, CE.MCS.1, CE.MCS.3, CE.MCS.9, CE.MG.1, CE.MG.3, CE.MG.6, CE.MG.9.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, STEM3, STEM4, CD1, CD3, CD5, CPSAA1, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          1259,
+          1260
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Seleccionar materiales y elaborar estudios de impacto, aplicando criterios técnicos y de sostenibilidad para fabricar productos de calidad que den respuesta a problemas y tareas planteados, desde un enfoque responsable y ético."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia se refiere a la capacidad para seleccionar los materiales más adecuados para la creación de productos en función de sus características, así como realizar la evaluación del impacto ambiental generado.",
+          "A la hora de determinar los materiales se atenderá a criterios relativos a sus propiedades técnicas (aspectos como dureza, resistencia, conductividad eléctrica, aislamiento térmico, etc.). Así mismo, el alumnado tendrá en cuenta aspectos relacionados con la capacidad para ser conformados aplicando una u otra técnica, según sea conveniente para el diseño final del producto. De igual modo, se deben considerar los criterios relativos a la capacidad del material para ser tratado, modificado o aleado con el fin de mejorar las características del mismo. Por último, el alumnado, valorará aspectos de sostenibilidad para determinar qué materiales son los más apropiados en relación a, por ejemplo, la contaminación generada y el consumo energético durante todo su ciclo de vida (desde su extracción hasta su aplicación final en la creación de productos) o la capacidad de reciclaje al finalizar su ciclo de vida, la biodegradabilidad",
+          "del material y otros aspectos vinculados con el uso controlado de recursos o con la relación que se establece entre los materiales y las personas que finalmente hacen uso del producto.",
+          "Esta competencia específica está relacionada con otras que estudien la Ciencia de materiales, como la CE.CG.1. Por otra parte, está relacionado con aquellas CE que estudian el impacto ambiental y la sostenibilidad de productos como la CE.B.5, CE.BGCA.5, CE.GCA.5, CE.PA.2. Por último, también se relacionaría con aquellas CE que estudian la calidad de los productos fabricados como son la CE.D.5 y CE.D.6.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM2, STEM5, CD1, CD2, CPSAA1.1, CPSAA4, CC4, CE1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          1260,
+          1261
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Utilizar las herramientas digitales adecuadas, analizando sus posibilidades, configurándolas de acuerdo a sus necesidades y aplicando conocimientos interdisciplinares, para resolver tareas, así como para realizar la presentación de los resultados de una manera óptima."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia aborda los aspectos relativos a la incorporación de la digitalización en el proceso habitual del aprendizaje en esta etapa. Continuando con las habilidades adquiridas en la etapa anterior, se amplía y refuerza el empleo de herramientas digitales en las tareas asociadas a la materia. Por ejemplo, las actividades asociadas a la investigación, búsqueda y selección de información o el análisis de productos y sistemas tecnológicos, requieren un buen uso de herramientas de búsqueda de información valorando su procedencia, contrastando su veracidad y haciendo un análisis crítico de la misma, contribuyendo con ello al desarrollo de la alfabetización informacional. Así mismo, el trabajo colaborativo, la comunicación de ideas o la difusión y presentación de trabajos, afianzan nuevos aprendizajes e implican el conocimiento de las características de las herramientas de comunicación disponibles, sus aplicaciones, opciones y funcionalidades, dependiendo del contexto. De manera similar, el proceso de diseño y creación se complementa con un elenco de programas que permiten el dimensionado, la simulación, la programación y control de sistemas o la fabricación de productos.",
+          "En suma, el uso y aplicación de las herramientas digitales, con el fin de facilitar el transcurso de creación de soluciones y de mejorar los resultados, se convierten en instrumentos esenciales en cualquiera de las fases del proceso, tanto las relativas a la gestión, al diseño o al desarrollo de soluciones tecnológicas, como las relativas a la resolución práctica de ejercicios sencillos o a la elaboración y difusión de documentación técnica relativa a los proyectos.",
+          "Esta competencia específica está especialmente relacionada con las competencias específicas de la materia de Informática CE.I.1, CE.I.2, CE.I.3, CE.I.4, CE.I.5 y CE.I.6. Además, está relacionada con aquellas relativas al trabajo en entornos digitales, como son la CE.CA.1, CE.CA.2, CE.CA.3, CE.CA.4, CE.DT.5, CE.DTAPD.5.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM4, CD1, CD2, CD3, CD5, CPSAA5, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          1261
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Generar conocimientos y mejorar destrezas técnicas, transfiriendo y aplicando saberes de otras disciplinas científicas con actitud creativa, para calcular y resolver problemas o dar respuesta a necesidades de los distintos ámbitos de la ingeniería."
+      },
+      "descripcion": {
+        "es": [
+          "La resolución de un simple ejercicio o de un complejo problema tecnológico requiere de la aplicación de técnicas, procedimientos y saberes que ofrecen las diferentes disciplinas científicas. Esta competencia específica tiene como objetivo, por un lado, que el alumnado utilice las herramientas adquiridas en matemáticas o los fundamentos de la",
+          "física o la química para calcular magnitudes y variables de problemas mecánicos, eléctricos, electrónicos, automatización o para desarrollar programas, y por otro, que se utilice la experimentación, a través de montajes o simulaciones, como herramienta de consolidación de los conocimientos adquiridos. Esa transferencia de saberes aplicada a nuevos y diversos problemas o situaciones, permite ampliar los conocimientos del alumnado y fomentar la competencia de aprender a aprender.",
+          "Esta competencia específica está especialmente relacionada con las de Física, Química, Matemáticas e Informática: CE.F.1, CE.FQ.1, CE.M.1, CE.M.4, CE.M.6, CE.MCS.1, CE.MCS.4, CE.MCS.6, CE.MG.1, CE.MG.4, CE.MG.6, CE.Q.1 y CE.I.3. También está relacionada con aquellas relativas a la experimentación, como la CE.F.5 y la CE.Q.5.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM3, STEM4, CD2, CD5, CPSAA5, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          1261,
+          1262
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Diseñar, crear y evaluar sistemas tecnológicos, aplicando conocimientos de la regulación automática, el control programado y las posibilidades que ofrecen las tecnologías emergentes, para estudiar, controlar y automatizar tareas en sistemas tecnológicos y robóticos."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica hace referencia a la habilitación de productos o soluciones tecnológicas para que puedan ejecutar ciertas tareas de forma autónoma. Se trata de incorporar elementos de regulación automática o de control programado en los diseños, permitiendo acciones sencillas en máquinas o sistemas tecnológicos. En este sentido, se incluyen, por ejemplo, el control en desplazamientos o movimientos de los elementos de un robot, el accionamiento regulado de actuadores, como pueden ser lámparas o motores, la estabilidad de los valores de magnitudes concretas, etc. De esta manera, se posibilita que el alumnado automatice tareas en máquinas y en robots mediante la implementación de programas adecuados en tarjetas de control.",
+          "En esta línea de actuación cabe destacar el papel de las tecnologías emergentes (Inteligencia Artificial, Internet de las cosas, Big Data, etc.), aplicadas al control de objetos.",
+          "Esta competencia específica se relaciona especialmente con las de la materia de Informática CE.I.3 y CE.I.5 y con aquellas de otras materias que tratan la automatización de procesos, la robótica y el pensamiento computacional, como son la CE.DT.5, CE.DTAPD.5, CE.M.4, CE.MCS.4 y CE.MG.4. Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM3, CD2, CD3, CD5, CPSAA1, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          1262
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar y comprender sistemas tecnológicos de los distintos ámbitos de la ingeniería, estudiando sus características, consumo y eficiencia energética, para evaluar el uso responsable y sostenible que se hace de la tecnología."
+      },
+      "descripcion": {
+        "es": [
+          "El objetivo que persigue esta competencia específica es dotar al alumnado de un criterio informado sobre el uso e",
+          "impacto de la energía en la sociedad y en el medioambiente, mediante la adquisición de una visión general de los diferentes sistemas energéticos, los agentes que intervienen y aspectos básicos relacionados con los suministros domésticos. De manera complementaria, se pretende dotar al alumnado de los criterios a emplear en la evaluación de impacto social y ambiental ligado a proyectos de diversa índole.",
+          "Para el desarrollo de esta competencia se abordan, por un lado, los sistemas de generación, transporte, distribución de la energía y el suministro, así como el funcionamiento de los mercados energéticos y, por otro lado, el estudio de instalaciones en viviendas, de máquinas térmicas y de fundamentos de regulación automática, contemplando criterios relacionados con la eficiencia y el ahorro energético, que permita al alumnado hacer un uso responsable y sostenible de la tecnología.",
+          "Esta competencia específica se relaciona con aquellas que tratan la sostenibilidad y la eficiencia energética, como son la CE.B.5, CE.D.6, CE.E.5, CE.F.5, CE.FQ.5, CE.G.1, CE.G.2, CE.MCA.5, CE.Q.5.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM2, STEM5, CD1, CD3, CD4, CPSAA4, CC4, CE1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          1262,
+          1263
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Investigar y diseñar proyectos que muestren de forma gráfica la creación y mejora de un producto, seleccionando, referenciando e interpretando información relacionada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar en el desarrollo, gestión y coordinación de proyectos de creación y mejora continua de productos viables y socialmente responsables, identificando mejoras y creando prototipos mediante un proceso iterativo, con actitud crítica, creativa y emprendedora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Colaborar en tareas tecnológicas, escuchando el razonamiento de los demás, aportando al equipo a través del rol asignado y fomentando el bienestar grupal y las relaciones saludables e inclusivas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Elaborar documentación técnica con precisión y rigor, generando diagramas funcionales y utilizando medios manuales y aplicaciones digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-5",
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar de manera eficaz y organizada las ideas y soluciones tecnológicas, empleando el soporte, la terminología y el rigor apropiados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Determinar el ciclo de vida de un producto, planificando y aplicando medidas de control de calidad en sus distintas etapas, desde el diseño a la comercialización, teniendo en consideración estrategias de mejora continua."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263,
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar los materiales, tradicionales o de nueva generación, adecuados para la fabricación de productos de calidad basándose en sus características técnicas y atendiendo a criterios de sostenibilidad de manera responsable y ética."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Fabricar modelos o prototipos empleando las técnicas de fabricación más adecuadas y aplicando los criterios técnicos y de sostenibilidad necesarios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver tareas propuestas y funciones asignadas, mediante el uso y configuración de diferentes herramientas digitales de manera óptima y autónoma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar la presentación de proyectos empleando herramientas digitales adecuadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas asociados a sistemas e instalaciones mecánicas, aplicando fundamentos de mecanismos transmisión y transformación de movimientos, soporte y unión al desarrollo de montajes o simulaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas asociados a sistemas e instalaciones eléctricas y electrónicas, aplicando fundamentos de corriente continua y máquinas eléctricas al desarrollo de montajes o simulaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Controlar el funcionamiento de sistemas tecnológicos y robóticos, utilizando lenguajes de programación informática y aplicando las posibilidades que ofrecen las tecnologías emergentes, tales como Inteligencia artificial, internet de las cosas, Big Data..."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Automatizar, programar y evaluar movimientos de robots, mediante la modelización, la aplicación de algoritmos sencillos y el uso de herramientas informáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y comprender conceptos básicos de programación textual, mostrando el progreso paso a paso de la ejecución de un programa a partir de un estado inicial y prediciendo su estado final tras la ejecución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Evaluar los distintos sistemas de generación de energía eléctrica y mercados energéticos, estudiando sus características, calculando sus magnitudes y valorando su eficiencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar las diferentes instalaciones de una vivienda desde el punto de vista de su eficiencia energética, buscando aquellas opciones más comprometidas con la sostenibilidad y fomentando un uso responsable de las mismas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1265
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyectos de investigación y desarrollo"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de gestión y desarrollo de proyectos: diagramas de Gantt, metodologías Agile. Técnicas de investigación e ideación: DesignThinking. Técnicas de trabajo en equipo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1266
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Productos: Ciclo de vida. Estrategias de mejora continua. Planificación y desarrollo de diseño y comercialización. Logística, transporte y distribución. Metrología y normalización. Control de calidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1266
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Expresión gráfica. Aplicaciones CAD- CAE-CAM. Diagramas funcionales, esquemas y croquis."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1266
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Emprendimiento, resiliencia, perseverancia y creatividad para abordar problemas desde una perspectiva interdisciplinar."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1266
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza e iniciativa. Identificación y gestión de emociones. El error y la reevaluación como parte del proceso de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1266
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Materiales y fabricación"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Materiales técnicos y nuevos materiales. Clasificación y criterios de sostenibilidad. Selección y aplicaciones características."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1266
+                ]
+              }
+            },
+            {
+              "id": "TI.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de fabricación: Prototipado rápido y bajo demanda. Fabricación digital aplicada a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1266
+                ]
+              }
+            },
+            {
+              "id": "TI.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de seguridad e higiene en el trabajo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1266
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sistemas mecánicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mecanismos de transmisión y transformación de movimientos. Soportes y unión de elementos mecánicos. Diseño, cálculo, montaje y experimentación física o simulada. Aplicación práctica a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1266,
+                  1267
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas eléctricos y electrónicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Circuitos y máquinas eléctricas de corriente continua. Interpretación y representación esquematizada de circuitos, cálculo, montaje y experimentación física o simulada. Aplicación a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sistemas informáticos. Programación"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fundamentos de la programación textual. Características, elementos y lenguajes."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Proceso de desarrollo: edición, compilación o interpretación, ejecución, pruebas y depuración. Creación de programas para la resolución de problemas. Modularización."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tecnologías emergentes: internet de las cosas. Aplicación a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Protocolos de comunicación de redes de dispositivos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sistemas automáticos"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.F.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas de control. Conceptos y elementos. Modelización de sistemas sencillos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Automatización programada de procesos. Diseño, programación, construcción y simulación o montaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas de supervisión (SCADA). Telemetría y monitorización."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de las tecnologías emergentes a los sistemas de control."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robótica: modelización de movimientos y acciones mecánicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Tecnología sostenible"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.G.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas y mercados energéticos. Consumo energético sostenible, técnicas y criterios de ahorro. Suministros domésticos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            },
+            {
+              "id": "TI.1.G.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Instalaciones en viviendas: eléctricas, de agua y climatización, de comunicación y domóticas. Energías renovables, eficiencia energética y sostenibilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1267
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Desarrollar proyectos de investigación e innovación con el fin de crear y mejorar productos de forma continua, utilizando modelos de gestión cooperativos y flexibles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar y difundir de forma clara y comprensible proyectos elaborados y presentarlos con la documentación técnica necesaria."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Perseverar en la consecución de objetivos en situaciones de incertidumbre, identificando y gestionando emociones, aceptando y aprendiendo de la crítica razonada y utilizando el error como parte del proceso de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar la idoneidad de los materiales técnicos en la fabricación de productos sostenibles y de calidad, estudiando su estructura interna, propiedades, tratamientos de modificación y mejora de sus propiedades."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1263,
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar informes sencillos de evaluación de impacto ambiental, de manera fundamentada y estructurada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver problemas asociados a las distintas fases del desarrollo y gestión de un proyecto (diseño, simulación y montaje y presentación), utilizando las herramientas adecuadas que proveen las aplicaciones digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Calcular y montar estructuras sencillas, estudiando los tipos de cargas a los que se puedan ver sometidas y su estabilidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar las máquinas térmicas: máquinas frigoríficas, bombas de calor y motores térmicos, comprendiendo su funcionamiento y realizando simulaciones y cálculos básicos sobre su eficiencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y solucionar esquemas de sistemas neumáticos e hidráulicos, a través de montajes o simulaciones, comprendiendo y documentando el funcionamiento de cada uno de sus elementos y del sistema en su totalidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y resolver circuitos de corriente alterna, mediante montajes o simulaciones, identificando sus elementos y comprendiendo su funcionamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-5",
+          "codigoOficial": "4.5",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Experimentar y diseñar circuitos combinacionales y secuenciales físicos y simulados aplicando fundamentos de la electrónica digital, comprendiendo su funcionamiento en el diseño de soluciones tecnológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comprender y simular el funcionamiento de los procesos tecnológicos basados en sistemas automáticos de lazo abierto y cerrado, aplicando técnicas de simplificación y analizando su estabilidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y evaluar sistemas informáticos emergentes y sus implicaciones en la seguridad de los datos, analizando modelos existentes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1264
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar los distintos sistemas de ingeniería desde el punto de vista de la responsabilidad social y la sostenibilidad, estudiando las características de eficiencia energética asociadas a los materiales y a los procesos de fabricación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              1265
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyectos de investigación y desarrollo"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión y desarrollo de proyectos. Técnicas y estrategias de trabajo en equipo. Metodologías Agile: tipos, características y aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1268
+                ]
+              }
+            },
+            {
+              "id": "TI.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Difusión y comunicación de documentación técnica. Elaboración, referenciación y presentación."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1268
+                ]
+              }
+            },
+            {
+              "id": "TI.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza e iniciativa. Identificación y gestión de emociones. El error y la reevaluación como parte del proceso de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1268
+                ]
+              }
+            },
+            {
+              "id": "TI.2.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Emprendimiento, resiliencia, perseverancia y creatividad para abordar problemas desde una perspectiva interdisciplinar."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1268
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Materiales y fabricación"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura interna. Propiedades y procedimientos de ensayo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1268
+                ]
+              }
+            },
+            {
+              "id": "TI.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de diseño y tratamientos de modificación y mejora delas propiedades y sostenibilidad de los materiales. Técnicas de fabricación industrial."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1268
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sistemas mecánicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructuras sencillas. Tipos de cargas, estabilidad y cálculos básicos. Montaje o simulación de ejemplos sencillos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1268
+                ]
+              }
+            },
+            {
+              "id": "TI.2.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Máquinas térmicas: máquina frigorífica, bomba de calor y motores térmicos. Cálculos básicos, simulación y aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1268
+                ]
+              }
+            },
+            {
+              "id": "TI.2.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Neumática e hidráulica: componentes y principios físicos. Descripción y análisis. Esquemas característicos de aplicación. Diseño y montaje físico o simulado."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1268
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas eléctricos y electrónicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Circuitos de corriente alterna. Triángulo En cursos anteriores se ha estudiado de potencias. Cálculo, montaje o simulación."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1269
+                ]
+              }
+            },
+            {
+              "id": "TI.2.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica digital combinacional. Diseño y simplificación: mapas de Karnaugh. Experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1269
+                ]
+              }
+            },
+            {
+              "id": "TI.2.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica digital secuencial. Experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1269
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sistemas informáticos emergentes"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inteligencia artificial, big data, bases de Durante este curso se propone datos distribuidas y ciberseguridad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1269
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sistemas automáticos"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.F.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Álgebra de bloques y simplificación de sistemas. Estabilidad. Experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1269
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Tecnología sostenible"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.G.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Impacto social y ambiental. Informes de Se pretende que este bloque de evaluación. Valoración crítica de la sostenibilidad en el uso de la tecnología."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  1269
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

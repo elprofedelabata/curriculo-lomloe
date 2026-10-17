@@ -1,0 +1,1071 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.bachillerato.dibujo-tecnico",
+  "territorio": "es-ar",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "DT",
+    "nombre": {
+      "es": "Dibujo Técnico"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      },
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-157-orden-ecd-1173-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1173/2022, de 3 de agosto, por la que se aprueban el currículo y las características de la evaluación del Bachillerato y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "157",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "1234566820909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234566820909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926626&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 261,
+        "hasta": 281
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El dibujo técnico constituye un medio de expresión y comunicación convencional para cualquier proyecto cuyo fin sea la creación y fabricación de un producto, siendo un aspecto imprescindible del desarrollo tecnológico. Dota al alumnado de un instrumento eficiente para comunicarse de manera gráfica y objetiva y para expresar y difundir ideas o proyectos de acuerdo a convenciones que garantizan su interpretación fiable y precisa. Para favorecer esta forma de expresión, la materia Dibujo Técnico desarrolla la visión espacial del alumnado al representar el espacio tridimensional sobre el plano, por medio de la resolución de problemas y de la realización de proyectos tanto individuales como en grupo. También potencia la capacidad de análisis, la creatividad, la autonomía y el pensamiento divergente, favoreciendo actitudes de respeto y empatía. El carácter integrador y multidisciplinar de la materia favorece una metodología activa y participativa, de aprendizaje por descubrimiento, de experimentación sobre la base de resolución de problemas prácticos, o mediante la participación en proyectos interdisciplinares, contribuyendo tanto al desarrollo de las competencias clave correspondientes, como a la adquisición de los objetivos de etapa. Se abordan también retos del siglo XXI de forma integrada durante los dos años de Bachillerato, como el compromiso ciudadano en el ámbito local y global, la confianza en el conocimiento como motor del desarrollo, el aprovechamiento crítico, ético y responsable de la cultura digital, el consumo responsable y la valoración de la diversidad personal y cultural.",
+      "Para contribuir a lo citado anteriormente, esta materia desarrolla un conjunto de competencias específicas diseñadas para apreciar y analizar obras de arquitectura e ingeniería desde el punto de vista de sus estructuras y elementos técnicos; resolver problemas gráfico-matemáticos aplicando razonamientos inductivos, deductivos y lógicos que pongan en práctica los fundamentos de la geometría plana; desarrollar la visión espacial para recrear la realidad tridimensional por medio del sistema de representación más apropiado a la finalidad de la comunicación gráfica; formalizar diseños y presentar proyectos técnicos colaborativos siguiendo la normativa a aplicar e investigar y experimentar con programas específicos de diseño asistido por ordenador.",
+      "En este sentido, el desarrollo de un razonamiento espacial adecuado a la hora de interpretar las construcciones en distintos sistemas de representación supone cierta complejidad para el alumnado. Los programas y aplicaciones CAD ofrecen grandes posibilidades, desde una mayor precisión y rapidez, hasta la mejora de la creatividad y la visión espacial mediante modelos 3D. Por otro lado, estas herramientas ayudan a diversificar las técnicas a emplear y agilizar el ritmo de las actividades complementando los trazados en soportes tradicionales y con instrumentos habituales (por ejemplo, tiza, escuadra, cartabón y compás) por los generados con estas aplicaciones. Todo ello, permitirá incorporar interacciones y dinamismo en las construcciones tradicionales que no son posibles con medios convencionales, pudiendo mostrar movimientos, giros, cambios de plano y, en definitiva, una representación más precisa de los cuerpos geométricos y sus propiedades en el espacio.",
+      "Los criterios de evaluación son el elemento curricular que evalúa el nivel de consecución de las competencias específicas y se formulan con una evidente orientación competencial mediante la movilización de saberes básicos y la valoración de destrezas y actitudes como la autonomía y el autoaprendizaje, el rigor en los razonamientos, la claridad y la precisión en los trazados.",
+      "A lo largo de los dos cursos de Bachillerato los saberes adquieren un grado de dificultad y profundización progresiva, iniciándose el alumnado, en el primer curso, en el conocimiento de conceptos importantes a la hora de establecer procesos y razonamientos aplicables a la resolución de problemas o que son soporte de otros posteriores, para gradualmente en el segundo curso, ir adquiriendo un conocimiento más amplio sobre esta disciplina.",
+      "Los saberes básicos se organizan en torno a cuatro bloques interrelacionados e íntimamente ligados a las competencias específicas:",
+      "En el bloque “Fundamentos geométricos” el alumnado aborda la resolución de problemas sobre el plano e identifica",
+      "su aparición y su utilidad en diferentes contextos. También se plantea la relación del dibujo técnico y las matemáticas y la presencia de la geometría en las formas de la arquitectura e ingeniería.",
+      "En el bloque “Geometría proyectiva” se pretende que el alumnado adquiera los saberes necesarios para representar gráficamente la realidad espacial, con el fin de expresar con precisión las soluciones a un problema constructivo o de interpretarlas para su ejecución.",
+      "En el bloque “Normalización y documentación gráfica de proyectos” se dota al alumnado de los saberes necesarios para visualizar y comunicar la forma y dimensiones de los objetos de forma inequívoca siguiendo las normas UNE e ISO, con el fin de elaborar y presentar, de forma individual o en grupo, proyectos sencillos de ingeniería o arquitectura. Por último, en el bloque “Sistemas CAD”, se pretende que el alumnado aplique las técnicas de representación gráfica adquiridas utilizando programas de diseño asistido por ordenador; su desarrollo, por tanto, debe hacerse de forma transversal en todos los bloques de saberes y a lo largo de toda la etapa.",
+      "El alcance formativo de esta materia se dirige a la preparación del futuro profesional y personal del alumnado por medio del manejo de técnicas gráficas con medios tradicionales y digitales, así como la adquisición e implementación de estrategias como el razonamiento lógico, la visión espacial, el uso de la terminología específica, la toma de datos y la interpretación de resultados necesarios en estudios posteriores, todo ello desde un enfoque inclusivo, no sexista y haciendo especial hincapié en la superación de la brecha de género que existe actualmente en los estudios técnicos."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar elementos o conjuntos arquitectónicos y de ingeniería, empleando recursos asociados a la percepción, estudio, construcción e investigación de formas para analizar las estructuras geométricas y los elementos técnicos utilizados."
+      },
+      "descripcion": {
+        "es": [
+          "El dibujo técnico ha ocupado y ocupa un lugar importante en la cultura; esta disciplina está presente en las obras de arquitectura y de ingeniería de todos los tiempos, no solo por el papel que desempeña en su concepción y producción, sino también como parte de su expresión artística. El análisis y estudio fundamental de las estructuras y elementos geométricos de obras del pasado y presente, desde la perspectiva de género y la diversidad cultural, contribuirá al proceso de apreciación y diseño de objetos y espacios que posean rigor técnico y sensibilidad expresiva.",
+          "Esta competencia específica se conecta con las competencias 2 y 3 de esta misma materia, ya que, para realizar un análisis de las estructuras geométricas es importante conocer los principios de la geometría plana y tridimensional.",
+          "Se relaciona con las competencias específicas de otras materias. Con Dibujo Artístico ya que comparten ámbitos disciplinares comunes desde el punto de vista de la interpretación. También conecta con las competencias de la materia de Diseño, porque sus elementos son indispensables para un conocimiento integral de la apreciación cultural.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL2, STEM4, CD1, CPSAA4, CC1, CEC1 y CEC2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          262
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Utilizar razonamientos inductivos, deductivos y lógicos en problemas de índole gráfico-matemáticos, aplicando fundamentos de la geometría plana para resolver gráficamente operaciones matemáticas, relaciones, construcciones y transformaciones."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia aborda el estudio de la geometría plana aplicada al dibujo arquitectónico e ingenieril a través de conceptos, propiedades, relaciones y construcciones fundamentales. Proporciona herramientas para la resolución de",
+          "problemas matemáticos de cierta complejidad de manera gráfica, aplicando métodos inductivos y deductivos con rigor y valorando aspectos como la precisión, claridad y el trabajo bien hecho.",
+          "Esta competencia específica se conecta con las competencias 3 y 5 de esta misma materia, puesto que la aplicación de los fundamentos geométricos es necesaria para su aplicación en geometría descriptiva y la representación del dibujo mediante herramientas digitales. Las competencias específicas de la materia de matemáticas se vinculan con la CE.D.2pues los trazados dibujo técnico exigen y facilitan el desarrollo de habilidades relacionadas con la formulación de hipótesis, la observación, la reflexión, el análisis, la extracción de conclusiones, argumentación y establecimiento de conexión entre ideas para el aprendizaje matemático. También conecta con las competencias de la materia de diseño, ya que los trazados fundamentales son un recurso indispensable para la generación de proyectos relacionados con la creación de productos.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL2, STEM1, STEM2, STEM4, CPSAA1, CPSAA5, CE2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          262,
+          263
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Desarrollar la visión espacial, utilizando la geometría descriptiva en proyectos sencillos, considerando la importancia del dibujo en arquitectura e ingenierías para resolver problemas e interpretar y recrear gráficamente la realidad tridimensional sobre la superficie del plano."
+      },
+      "descripcion": {
+        "es": [
+          "Los sistemas de representación derivados de la geometría descriptiva son necesarios en todos los procesos constructivos, ya que cualquier proceso proyectual requiere el conocimiento de los métodos que permitan determinar, a partir de su representación, sus verdaderas magnitudes, formas y relaciones espaciales entre ellas. Esta competencia se vincula, por una parte, con la capacidad para representar figuras planas y cuerpos, y por la otra, con la de expresar y calcular las soluciones a problemas geométricos en el espacio, aplicando para todo ello conocimientos técnicos específicos, reflexionando sobre el proceso realizado y el resultado obtenido.",
+          "Esta competencia específica se conecta con las competencias 5 de esta misma materia, ya que la aplicación de la geometría descriptiva es necesaria para la representación del dibujo mediante herramientas digitales.",
+          "Se vincula con las competencias específicas de la materia Dibujo Artístico, porque la geometría descriptiva es un recurso para la representación de la realidad, la expresión de ideas y el análisis de las formas y los espacios. También conecta con las competencias de la materia de volumen puesto que el dibujo técnico es una forma de expresión fundamental para el lenguaje tridimensional y la elaboración de sus proyectos.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM4, CPSAA1, CPSAA5, CE2 y CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          263
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Formalizar y definir diseños técnicos aplicando las normas UNE e ISO de manera apropiada, valorando la importancia que tiene el croquis para documentar gráficamente proyectos arquitectónicos e ingenieriles."
+      },
+      "descripcion": {
+        "es": [
+          "El dibujo normalizado es el principal vehículo de comunicación entre los distintos agentes del proceso constructivo, posibilitando desde una primera expresión de posibles soluciones mediante bocetos y croquis hasta la formalización final por medio de planos de taller y/o de construcción. También se contempla su relación con otros componentes",
+          "mediante la elaboración de planos de montaje sencillos. Esta competencia específica está asociada a funciones instrumentales de análisis, expresión y comunicación. Por otra parte, y para que esta comunicación sea efectiva, debe vincularse necesariamente al conocimiento de unas normas y simbología establecidas, las normas UNE e ISO, e iniciar al alumnado en el desarrollo de la documentación gráfica de proyectos técnicos.",
+          "Esta competencia específica se conecta con la competencia 5 de esta misma materia, porque la aplicación de la normativa UNE e ISO es necesaria para la representación del dibujo mediante herramientas digitales.",
+          "También se vincula con la competencia específica de la materia de Proyecto artístico, ya que es un elemento clave para la generación de ideas.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL2, STEM1, STEM4, CD2, CPSAA1, CPSAA6, CPSAA5, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          263,
+          264
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Investigar, experimentar y representar digitalmente elementos, planos y esquemas técnicos mediante el uso de programas específicos CAD de manera individual o grupal, apreciando su uso en las profesiones actuales, para virtualizar objetos y espacios en dos dimensiones y tres dimensiones."
+      },
+      "descripcion": {
+        "es": [
+          "Las soluciones gráficas que aportan los sistemas CAD forman parte de una realidad ya cotidiana en los procesos de creación de proyectos de ingeniería o arquitectura. Atendiendo a esta realidad, esta competencia aporta una base formativa sobre los procesos, mecanismos y posibilidades que ofrecen las herramientas digitales en esta disciplina. En este sentido, debe integrarse como una aplicación transversal a los saberes de la materia relacionados con la representación en el plano y en el espacio. De este modo, esta competencia favorece una iniciación al uso y aprovechamiento de las potencialidades de estas herramientas digitales en el alumnado.",
+          "Esta competencia específica se conecta con la competencia específica de la materia de dibujo artístico y con la de la materia de Dibujo técnico aplicado a las artes plásticas y el diseño, puesto que todas ellas se integran y aprovechan las posibilidades que ofrecen las herramientas digitales como recurso de expresión de ideas.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM2, STEM3, STEM4, CD1, CD2, CD3, CE3, CEC4."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          264
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar, a lo largo de la historia, la relación entre las matemáticas y el dibujo geométrico valorando su importancia en diferentes campos como la arquitectura o la ingeniería, desde la perspectiva de género y la diversidad cultural, empleando adecuadamente el vocabulario específico técnico y artístico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Solucionar gráficamente cálculos matemáticos y transformaciones básicas aplicando conceptos y propiedades de la geometría plana."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Trazar gráficamente construcciones poligonales basándose en sus propiedades y mostrando interés por la precisión, claridad y limpieza."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver gráficamente tangencias y trazar curvas aplicando sus propiedades con rigor en su ejecución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Representar en sistema diédrico elementos básicos en el espacio determinando su relación de pertenencia, posición y distancia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Definir elementos y figuras planas en sistemas axonométricos valorando su importancia como métodos de representación espacial."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Representar e interpretar elementos básicos en el sistema de planos acotados haciendo uso de sus fundamentos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Dibujar elementos en el espacio empleando la perspectiva cónica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-5",
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Valorar el rigor gráfico del proceso; la claridad, la precisión y el proceso de resolución y construcción gráfica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Documentar gráficamente objetos sencillos mediante sus vistas acotadas aplicando la normativa UNE e ISO en la utilización de sintaxis, escalas y formatos, valorando la importancia de usar un lenguaje técnico común."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar el croquis y el boceto como elementos de reflexión en la aproximación e indagación de alternativas y soluciones a los procesos de trabajo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Crear figuras planas y tridimensionales mediante programas de dibujo vectorial, usando las herramientas que aportan y las técnicas asociadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              266
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Recrear virtualmente piezas en tres dimensiones aplicando operaciones algebraicas entre primitivas para la presentación de proyectos en grupo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              266
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Fundamentos geométricos"
+          },
+          "saberes": [
+            {
+              "id": "DT.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Desarrollo histórico del dibujo técnico. Campos de acción y aplicaciones: dibujo arquitectónico, mecánico, eléctrico y electrónico, geológico, urbanístico, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Orígenes de la geometría. Thales, Pitágoras, Euclides, Hipatia de Alejandría."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de lugar geométrico. Arco capaz. Aplicaciones de los lugares geométricos a las construcciones fundamentales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ángulos. Operaciones con segmentos y ángulos. Ángulos de la circunferencia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Proporcionalidad, equivalencia y semejanza."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Triángulos, cuadriláteros y polígonos regulares. Propiedades y métodos de construcción."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Transformaciones geométricas. Traslación. Giro. Simetría. Homotecia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.A.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tangencias básicas. Curvas técnicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.A.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Interés por el rigor en los razonamientos y precisión, claridad y limpieza en las ejecuciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Geometría proyectiva"
+          },
+          "saberes": [
+            {
+              "id": "DT.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fundamentos de la geometría proyectiva. El logro de los conocimientos"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistema diédrico: Representación de punto, recta y plano. Trazas con planos de proyección. Determinación del plano. Pertenencia."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relaciones entre elementos: Intersecciones, paralelismo y perpendicularidad. Obtención de distancias."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistema axonométrico, ortogonal y oblicuo. Perspectivas isométrica y caballera. Disposición de los ejes y uso de los coeficientes de reducción. Elementos básicos: punto, recta, plano."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistema de planos acotados. Fundamentos y elementos básicos. Identificación de elementos para su interpretación en planos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            },
+            {
+              "id": "DT.1.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistema cónico: fundamentos y elementos del sistema. Perspectiva frontal y oblicua."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  267
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Normalización y documentación gráfica de proyectos."
+          },
+          "saberes": [
+            {
+              "id": "DT.1.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Escalas numéricas y gráficas. Construcción En este bloque es importante y uso."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  268
+                ]
+              }
+            },
+            {
+              "id": "DT.1.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Formatos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  268
+                ]
+              }
+            },
+            {
+              "id": "DT.1.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de normalización. Las normas fundamentales UNE e ISO. Aplicaciones de la normalización: simbología industrial y arquitectónica."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  268
+                ]
+              }
+            },
+            {
+              "id": "DT.1.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elección de vistas necesarias. Líneas normalizadas. Acotación."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  268
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas CAD."
+          },
+          "saberes": [
+            {
+              "id": "DT.1.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicaciones vectoriales 2D-3D."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  268
+                ]
+              }
+            },
+            {
+              "id": "DT.1.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fundamentos de diseño de piezas en tres dimensiones."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  268
+                ]
+              }
+            },
+            {
+              "id": "DT.1.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelado de caja. Operaciones básicas con primitivas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  268
+                ]
+              }
+            },
+            {
+              "id": "DT.1.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicaciones de trabajo en grupo para conformar piezas complejas a partir de otras más sencillas. III.3. Descripción de los diferentes bloques"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  268,
+                  269
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar la evolución de las estructuras geométricas y elementos técnicos en la arquitectura e ingeniería contemporáneas, valorando la influencia del progreso tecnológico y de las técnicas digitales de representación y modelado en los campos de la arquitectura y la ingeniería."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Construir figuras planas aplicando transformaciones geométricas y valorando su utilidad en los sistemas de representación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver tangencias aplicando los conceptos de potencia con una actitud de rigor en la ejecución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Trazar curvas cónicas y sus rectas tangentes aplicando propiedades y métodos de construcción, mostrando interés por la precisión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver problemas geométricos mediante abatimientos, giros y cambios de plano, reflexionando sobre los métodos utilizados y los resultados obtenidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Representar cuerpos geométricos y de revolución aplicando los fundamentos del sistema diédrico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Recrear la realidad tridimensional mediante la representación de sólidos en perspectivas axonométricas y cónica, aplicando los conocimientos específicos de dichos sistemas de representación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar proyectos gráficos sencillos mediante el sistema de planos acotados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-5",
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Valorar el rigor gráfico del proceso; la claridad, la precisión y el proceso de resolución y construcción gráfica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Elaborar la documentación gráfica apropiada a proyectos de diferentes campos, formalizando y definiendo diseños técnicos empleando croquis y planos conforme a la normativa UNE e ISO."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              265
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Integrar el soporte digital en la representación de objetos y construcciones mediante aplicaciones CAD valorando las posibilidades que estas herramientas aportan al dibujo y al trabajo colaborativo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              266
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Fundamentos geométricos"
+          },
+          "saberes": [
+            {
+              "id": "DT.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La geometría en la arquitectura e ingeniería desde la revolución industrial. Los avances en el desarrollo tecnológico y en las técnicas digitales aplicadas a la construcción de nuevas formas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  269
+                ]
+              }
+            },
+            {
+              "id": "DT.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Transformaciones geométricas: Homología y afinidad. Aplicación para la"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  269
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Geometría proyectiva"
+          },
+          "saberes": [
+            {
+              "id": "DT.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistema diédrico: Figuras contenidas en planos. Abatimientos y verdaderas magnitudes. Giros y cambios de plano. Aplicaciones. Representación de cuerpos geométricos: prismas y pirámides. Secciones planas y verdaderas magnitudes de la sección. Representación de cuerpos de revolución rectos: cilindros y conos. Representación de poliedros regulares: tetraedro, hexaedro y octaedro."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  270
+                ]
+              }
+            },
+            {
+              "id": "DT.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistema axonométrico, ortogonal y oblicuo. Representación de figuras y sólidos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  270
+                ]
+              }
+            },
+            {
+              "id": "DT.2.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistema de planos acotados. Resolución de problemas de cubiertas sencillas. Representación de perfiles o secciones de terreno a partir de sus curvas de nivel."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  270
+                ]
+              }
+            },
+            {
+              "id": "DT.2.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Perspectiva cónica. Representación de sólidos y formas tridimensionales a partir de sus vistas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  270
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Normalización y documentación gráfica de proyectos"
+          },
+          "saberes": [
+            {
+              "id": "DT.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Representación de cuerpos y piezas industriales sencillas. Croquis y planos de taller. Cortes, secciones y roturas. Perspectivas normalizadas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  270
+                ]
+              }
+            },
+            {
+              "id": "DT.2.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño, ecología y sostenibilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  270
+                ]
+              }
+            },
+            {
+              "id": "DT.2.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Proyectos en colaboración. Elaboración de la documentación gráfica de un proyecto ingenieril o arquitectónico sencillo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  270
+                ]
+              }
+            },
+            {
+              "id": "DT.2.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Planos de montaje sencillos. Elaboración e interpretación."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  271
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas CAD"
+          },
+          "saberes": [
+            {
+              "id": "DT.2.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicaciones CAD. Construcciones gráficas El soporte de sistemas CAD en soporte digital."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  271
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

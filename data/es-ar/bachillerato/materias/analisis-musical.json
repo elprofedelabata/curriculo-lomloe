@@ -1,0 +1,870 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.bachillerato.analisis-musical",
+  "territorio": "es-ar",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "AM",
+    "nombre": {
+      "es": "Análisis Musical"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      },
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-157-orden-ecd-1173-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1173/2022, de 3 de agosto, por la que se aprueban el currículo y las características de la evaluación del Bachillerato y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "157",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "1234566820909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234566820909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926626&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 68,
+        "hasta": 96
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Análisis Musical proporciona al alumnado una formación que le permite desarrollar sus habilidades perceptivas para identificar los elementos que forman parte de las obras musicales y, a partir de ahí, profundizar en su comprensión global. Esto implica examinarlas desde un punto de vista crítico y estético, estableciendo relaciones entre la propuesta musical y el contexto histórico-social en el que fue creada. Además, la materia permite descubrir aspectos relacionados con la incidencia de la música en el oyente y su utilización como medio terapéutico o su uso en combinación con otras manifestaciones artísticas.",
+      "La materia, que supone una continuación y una especialización de los conocimientos, destrezas y actitudes adquiridos durante las etapas educativas anteriores, se estructura en dos cursos. En el primero, se establecen las bases para el conocimiento de los elementos del análisis musical, de la forma musical y de los principios compositivos fundamentales. En el segundo, se profundiza en esos aprendizajes y se introducen aspectos histórico-estéticos.",
+      "A través de la escucha activa y el estudio de partituras, el alumnado de la materia de Análisis Musical identifica las características de diferentes obras, pudiendo establecer relaciones entre sus elementos. En este proceso analítico se familiariza, por un lado, con procedimientos compositivos tales como la repetición, la variación, la imitación o el desarrollo; y, por otro, con la identificación de los rasgos estilísticos que permiten asociar las obras con un autor o autora, un género o un contexto musical determinado. El hecho de aprender a analizar una propuesta musical no solo permite al alumnado aproximarse al procedimiento y a los mecanismos de deconstrucción de una obra, sino que le dota de las herramientas necesarias para comprender el conjunto de la propuesta y saber utilizar, en diferentes contextos, los elementos que la conforman. Asimismo, a partir de ese proceso de análisis, el alumnado puede expresar una opinión fundamentada a través de reseñas, comentarios o críticas musicales, utilizando un vocabulario adecuado y difundiendo el resultado a través de diversos medios, analógicos y digitales, respetando los derechos de autor y la propiedad intelectual.",
+      "La interiorización de los aprendizajes de la materia, a partir del reconocimiento y la reproducción de patrones musicales, ya sean melódicos, rítmicos, armónicos o formales, permite al alumnado contar con recursos aplicables a procesos de creación o improvisación de obras sencillas, generando nuevas ideas sonoras.",
+      "En su desarrollo, se presta especial atención, por un lado, a las posibilidades que ofrecen las tecnologías digitales destinadas a la composición musical; y por otro, a los beneficios educativos derivados de la organización de proyectos creativos grupales en los que el alumnado planifica, aporta ideas, respeta las opiniones de los demás y asume diferentes funciones.",
+      "Completa la materia el descubrimiento de los usos que se hacen de la música para, de forma consciente, influir en el oyente, ya sea con fines terapéuticos o con otra funcionalidad vinculada a su utilización en ámbitos no estrictamente musicales.",
+      "Todos estos aprendizajes se organizan en torno a cinco competencias específicas que han sido diseñadas a partir de las competencias clave del Bachillerato y de los objetivos de la etapa. Dichas competencias específicas permiten que el alumnado aplique procesos de análisis musical para descubrir, comprender y utilizar la música como medio de expresión, desarrollar un espíritu crítico y conocer su incidencia en el ser humano.",
+      "Los criterios de evaluación se han formulado teniendo en cuenta los conocimientos, destrezas y actitudes que se pretende que alcance el alumnado, con la finalidad de determinar el nivel de logro de las competencias específicas con las que se relacionan.",
+      "Los saberes básicos se estructuran en cuatro bloques que se reparten entre los dos cursos en los que se imparte la materia. En el primer curso, los bloques de saberes básicos se refieren al análisis musical y a la forma musical. El bloque de «Iniciación al análisis musical» se centra en la aplicación de la escucha activa y el estudio de partituras para",
+      "reconocer los elementos de la música y la relación que existe entre ellos dentro del discurso musical. Además, se incluyen aspectos relativos al uso de recursos digitales para la elaboración de reseñas y la difusión musical. El segundo bloque, «La forma musical», aglutina aquellos saberes referentes a los diferentes elementos estructurales, formas",
+      "musicales básicas, procedimientos compositivos y funciones de la música en vinculación con otras manifestaciones artísticas.",
+      "En el segundo curso, se incluyen dos bloques de saberes básicos que abordan las técnicas de análisis y los géneros musicales. En el que lleva por título «Técnicas de análisis musical», se recogen procedimientos útiles para la realización de análisis de obras musicales, de comentarios y críticas musicales, así como el uso de recursos digitales para la investigación, la composición y la difusión musical. A su vez, en el bloque denominado «Géneros musicales», se introducen saberes relacionados con las características sonoras, formas y géneros musicales desde la Edad Media hasta la actualidad, y con la utilización de la música con fines terapéuticos.",
+      "En la materia de Análisis Musical se plantearán situaciones de aprendizaje que requieran reflexión y acción, así como una actitud abierta y colaborativa, con la intención de que el alumnado adquiera los instrumentos, técnicas y estrategias necesarias para desarrollar sus habilidades perceptivas y profundizar en la comprensión global del hecho musical. Estas situaciones deben estar vinculadas a contextos reales que favorezcan un aprendizaje significativo, y han de permitir la adquisición de conocimientos, destrezas y actitudes que el alumnado pueda aplicar fuera del entorno del aula."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Analizar los elementos musicales de diferentes obras, utilizando la escucha activa y el estudio de partituras, para describir sus características y establecer comparaciones."
+      },
+      "descripcion": {
+        "es": [
+          "La identificación, a través del análisis y a partir de la escucha activa o del estudio de partituras, de los elementos que constituyen una obra musical y de la función que estos realizan dentro de la composición resulta fundamental para la comprensión de la misma.",
+          "Junto a este análisis, la descripción de las características de los elementos que constituyen la obra (ritmo, melodía, armonía, timbre, texto, componentes expresivos, etc.) potencia la conexión entre los aprendizajes sobre teoría musical y su reconocimiento perceptivo, proporcionando, además, la posibilidad de realizar comparaciones entre los rasgos que definen diversas composiciones.",
+          "Asimismo, la detección de analogías y diferencias entre obras musicales creadas en diferentes contextos y pertenecientes a géneros y estilos variados permite al alumnado el acceso a un universo sonoro amplio que posibilita el enriquecimiento de sus gustos musicales y la ampliación de su repertorio artístico.",
+          "Competencias internas Esta competencia es fundamental para las restantes de la materia. La identificación y análisis de los elementos musicales que conforman una obra musical son la base para su posterior asociación con las distintas estructuras, géneros y estilos (CE.AM.2), así como para poder apoyar los argumentos que sostienen cualquier comentario crítico sobre la misma utilizando la terminología más adecuada (CE.AM.3), para poder crear y componer a partir de ellos (CE.AM.4), o incluso para servir de sustento al uso terapéutico de una obra, en función de cómo sus características pueden influir en el oyente (CE.AM.5).",
+          "Competencias externas",
+          "CE.LPM.1; CE.LPM.2. La vinculación entre las materias de Análisis Musical y de Lenguaje y Práctica Musical se fundamenta en que, en ambas, los elementos musicales constituyen la base, tanto para su desarrollo conceptual o",
+          "terminológico, como para su identificación a través de la escucha activa.",
+          "CE.CTV.1. Para un correcto análisis de una obra vocal a través de la escucha activa, se hace imprescindible un conocimiento profundo y una capacidad de identificación de sus elementos musicales, que permitan su disección en distintas facetas, un mayor disfrute, y una asociación con diversos estilos musicales.",
+          "CE.HMD.1. Las características propias de cada periodo musical, derivan de una evolución en la presencia de procesos compositivos y elementos musicales distintivos de cada momento histórico o género. En ambas asignaturas se hace imprescindible el conocerlos e identificarlos correctamente. CE.HA.2. La música es un lenguaje artístico, y sus elementos musicales brindan la base y la terminología que permitirá una descripción y un juicio coherente de las características de cualquier obra analizada.",
+          "CE.FA.3. Esta competencia referida a una obra de arte en general, es perfectamente aplicable a una obra musical.",
+          "CE.CLC.4. Cuando se trabaja sobre obras vocales, el análisis y comprensión de la vinculación entre texto y música, une esta competencia a aquellas propias del ámbito lingüístico encaminadas a interpretar, identificar el sentido general y la intencionalidad en textos escritos.",
+          "CE.M.6.; CE.MCS.6. Estas competencias buscan identificar las conexiones entre las matemáticas y otras disciplinas. La música ofrece una aplicación real de una base matemática fundamentada en conceptos como la simetría, la proporción y su relación con los efectos físicos que emanan de estas relaciones (proporcionalidad rítmica, inversión de acordes, fenómeno físico-armónico, etc.).",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL2, CPSAA5, CC1, CCEC1, CCEC2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          69,
+          70
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Establecer relaciones entre los elementos musicales de una composición, a través del análisis de su estructura y de los procedimientos compositivos utilizados, para asociar la obra con un género, un estilo y un contexto de creación."
+      },
+      "descripcion": {
+        "es": [
+          "En el discurso musical se establecen relaciones entre los distintos elementos que forman parte de una obra. Quienes componen han utilizado procedimientos (repetición, variación, contraste, desarrollo, etc.) que determinan en gran medida la naturaleza de dichas relaciones y la estructura o forma resultante. Su análisis no solo permite profundizar en la comprensión de las técnicas compositivas empleadas, sino que, además, favorece la construcción de una visión global de la obra musical a través de la interrelación que se produce entre los diversos componentes y los factores contextuales y estilísticos que inciden en el resultado musical final. En este marco, el desarrollo de investigaciones a partir de fuentes de información tanto analógicas como digitales sobre el autor o autora y el contexto de creación contribuye a un mejor desarrollo de esta competencia.",
+          "Finalmente, el alumnado podrá asociar los rasgos distintivos de una composición con los estilos y los géneros que se han ido desarrollando a lo largo de la historia de la música, así como con determinadas formas-tipo de especial relevancia que han ido evolucionando a lo largo del tiempo.",
+          "Competencias internas",
+          "La posibilidad de relacionar elementos musicales nace de la capacidad para su identificación (CE.AM.1). Asimismo, estas relaciones conforman una estructura musical y encuadran a las obras en un contexto histórico, creando la base para una crítica o comentario analítico fundamentado (CE.AM.3). Por último, una de las maneras más efectivas de asimilar las características inherentes a un determinado estilo, consiste en la creación e interpretación de pequeñas",
+          "obras que las ejemplifiquen o imiten (CE.AM.4).",
+          "Competencias externas",
+          "CE.LPM.2. Uno de los objetivos de esta competencia es la asignación de características y elementos musicales a obras de diferentes estilos y épocas, analizando y comparando partituras con diversas grafías.",
+          "CE.HMD.1. En Análisis se busca identificar características musicales, apreciando su evolución a lo largo de la historia, reconociendo sus rasgos estilísticos y función en un determinado contexto.",
+          "CE.CTV.1. Es importante desarrollar la habilidad de disfrutar de diversos estilos musicales e identificarlos a través de las características percibidas a través de la escucha activa.",
+          "CE.FA.1; CE.FA.3; CE.FA.4. Existe una clara conexión con varias competencias de la materia de Fundamentos Artísticos, aplicadas al mundo musical. Se busca identificar, comparar y relacionar características propias de diversas obras pertenecientes a distintos estilos, caracterizándolos para su identificación, reconociendo su evolución en el tiempo y su dependencia del contexto en que surgieron, y ampliando las posibilidades de disfrute del arte.",
+          "CE.HA.1; CE.HA.4; CE.HA.5. La identificación y comparación de los distintos estilos artísticos también es aplicable a los estilos musicales, reconociendo las relaciones de influencia, préstamo, continuidad y ruptura entre ellos, comprendiendo la evolución y apreciando las obras de distintas épocas y culturas.",
+          "CE.MCA.1. Las obras y géneros musicales más cercanos en el tiempo suelen ser más accesibles para el alumnado. Por ello pueden servir como base de comparación o de motivación para, a través de su análisis y reflexión crítica, valorar y comprender mejor las obras artísticas de distintos momentos históricos.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL2, CD1, CPSAA4, CC1, CCEC1, CCEC2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          70,
+          71
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Elaborar comentarios y críticas musicales sobre las obras analizadas, utilizando una terminología adecuada y consultando distintas fuentes de información, para expresar juicios personales fundamentados y contribuir a la difusión del patrimonio musical a través de los medios disponibles."
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de habilidades de identificación, análisis y descripción de elementos musicales, así como de comparación entre diversas obras e interpretaciones, aporta al alumnado la terminología y las herramientas necesarias para expresar, de manera fundamentada, su valoración personal sobre la creación o sobre la interpretación de una obra determinada.",
+          "Estos comentarios personales se verán enriquecidos por la puesta en común en clase de diferentes puntos de vista argumentados y por la información obtenida a través de la consulta de distintas fuentes fiables. La lectura de críticas publicadas en periódicos generalistas o revistas especializadas permitirá, además, reflexionar sobre la estructura y el vocabulario utilizado en este tipo de textos y ofrecerá modelos y ejemplos para las reseñas, comentarios o críticas musicales que el alumnado podrá elaborar y difundir a través de medios analógicos o digitales. Dado que la elaboración de dichos textos conlleva en muchos casos la reelaboración de la información consultada, se promocionará el respeto a los derechos de autor y a la propiedad intelectual.",
+          "Competencias internas La elaboración de comentarios sobre una obra musical deberá partir de la observación y análisis de los elementos musicales que la conforman (CE.AM.1), así como de las relaciones formales e históricas existentes entre los mismos (CE.AM.2).",
+          "Competencias externas",
+          "CE.AE.1, CE.AE.5. La valoración crítica de distintas manifestaciones escénicas de cualquier época a partir de sus características, o del público destinatario es un punto de encuentro entre las Artes Escénicas y el Análisis Musical, más teniendo en cuenta que la presencia de la música es destacable en la mayor parte de las primeras.",
+          "CE.HMD.5. Para elaborar juicios personales en una crítica musical, se precisa de la utilización de una terminología adecuada que permita crear opiniones fundamentadas. La Historia de la Música y la Danza se centra en el campo común de la evolución de estas artes, lo que permite desarrollar la capacidad comunicativa sobre el hecho musical. CE.HMD.4. Una correcta utilización de las fuentes de información, verificando su fiabilidad, serán la base para una labor de investigación sobre la autoría y las creaciones pertenecientes a distintas épocas históricas. Esta necesidad de dominar la búsqueda, selección, autonomía, transformación en conocimiento, verificación y fiabilidad en la recopilación de informaciones es compartida por muchas materias.",
+          "Un buen comentario o crítica no sólo precisa de identificar unos argumentos adecuados, sino que es fundamental el dominio en el uso con rigor de la construcción y exposición de los mismos. En varias materias del ámbito lingüístico, se trabaja la manera correcta de presentar formalmente el género discursivo que se precisa para una crítica o comentario en general: CE.LCL.4, CE.LCL.5, CE.LCL.6, CE.FI.3, CE.HF.2. Por otro lado, otras asignaturas, se centran en sus propios campos y especificidades: CE.FQ.4, CE.F.4, CE.BGCA.2, CE.B.2, CE.FI.2, CE.CG.6.",
+          "CE.LCL.6. El respeto a la propiedad intelectual es un factor primordial para un buen proceso investigador, así como para la elaboración de cualquier comentario, juicio o documentación.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, CD3, CPSAA4, CC1, CE3, CCEC3.1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          71,
+          72
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar los procedimientos compositivos fundamentales y las tecnologías digitales, empleando los elementos y las estructuras musicales más adecuadas, para crear obras sencillas y realizar improvisaciones."
+      },
+      "descripcion": {
+        "es": [
+          "Comprender la música a través de su visión analítica permite al alumnado reconocer los elementos sobre los que se construye la obra. Al mismo tiempo, favorece la interiorización de fórmulas rítmicas, melódicas o armónicas a través de la reproducción de patrones que, una vez analizados, pueden ser utilizados en procesos creativos como base para generar nuevas ideas. En este marco, la aplicación de los procedimientos compositivos fundamentales facilita la construcción de nuevas obras en contextos donde se integre ese nuevo material musical en el proceso creativo.",
+          "La creación de piezas sencillas o la realización de improvisaciones, utilizando la interpretación vocal, corporal o instrumental, implican la aplicación de aprendizajes de la materia con una finalidad expresiva. Para ello, deben considerarse, además, las posibilidades que ofrecen las tecnologías digitales vinculadas a los procesos de creación musical.",
+          "Se promueve así la puesta en práctica de aprendizajes relacionados con los procedimientos compositivos fundamentales a la vez que se cultiva el desarrollo de las capacidades expresivas y de actitudes de emprendimiento, a través de la participación en proyectos musicales grupales en los que el alumnado asume diferentes funciones y respeta las aportaciones e ideas de los demás.",
+          "Competencias internas",
+          "Aún a un nivel básico, la creación de obras musicales con una finalidad expresiva y utilizando procedimientos propios de distintos estilos y contextos históricos supone un conocimiento previo de las estructuras (CE.AM.2) y elementos",
+          "musicales (CE.AM.1) más adecuados para su consecución. Asimismo, requiere de entender el efecto emocional que determinados procesos compositivos pueden generar en el espectador (CE.AM.5).",
+          "Competencias externas",
+          "CE.CTV.2, CE.CTV.3. Análisis Musical comparte con otras materias el interés por la interpretación, creación e improvisación de obras musicales, diferenciándose en los recursos a utilizar o en la complejidad de las creaciones. Es evidente que la voz es uno de los medios más inmediatos para estos fines.",
+          "CE.HMD.3. La interpretación, aunque sea de pequeños fragmentos, es una de las formas más efectivas de interiorizar y asimilar las estructuras y las características inherentes a cada estilo o género musical, ya que al vivenciarlo, se entiende desde la propia experiencia. CE.CTV.4, CE.CA.2, CE.CA.3, CE.FA.7. En la mayoría de los casos, la interpretación musical no se entiende como un hecho individual y aislado, sino que conlleva un trabajo colaborativo grupal, en que cada persona deberá asumir un rol dentro del engranaje del conjunto. Si unimos esta característica propia de la música a la combinación de ésta con otras artes, vinculamos esta competencia con los proyectos creativos escénicos o audiovisuales en que colaboran varias artes, ya sean individuales o grupales, asumiendo el papel que corresponda a la música en la obra en su totalidad, su faceta expresiva, y las distintas fases de desarrollo del proyecto, desde la planificación al resultado final.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, STEM1, CD3, CPSAA3.1, CPSAA3.2, CE3, CCEC3.1, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          72,
+          73
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Investigar sobre los usos de la música con fines terapéuticos y en combinación con otras formas de expresión artística, utilizando diferentes fuentes de información y analizando las características musicales de las obras, para entender de qué forma inciden determinados rasgos musicales en la salud y en las emociones."
+      },
+      "descripcion": {
+        "es": [
+          "Tradicionalmente se ha enfocado el análisis musical en la comprensión de la obra en su contexto de creación, sin hacer hincapié en el efecto que la música puede generar en quien la percibe.",
+          "El uso de la música como medio terapéutico ha sido objeto de numerosas investigaciones en las últimas décadas, existiendo evidencias del beneficio que produce en personas con problemas físicos, cognitivos, psicológicos o sociales. Esto supone una oportunidad para que el alumnado enriquezca su visión analítica de la música a través de la identificación de las características de aquella utilizada con fines terapéuticos y su incidencia en la salud y en las emociones. Para ello, será necesario desarrollar procesos de investigación del repertorio seleccionado, utilizando fuentes de información fiables.",
+          "Asimismo, el análisis de las características y de las funciones que cumple la música en combinación con otras artes como el cine, la danza o el teatro, permitirá al alumnado reconocer e interiorizar recursos musicales que generan ambientes emocionales diversos, para, posteriormente, utilizarlos en el desarrollo de propuestas creativas que combinen la música con otras formas de expresión artística.",
+          "Competencias internas",
+          "Citando al cineasta Ingmar Bergman “Sólo la música me dio la oportunidad de revelar mis emociones”, observamos el potencial inherente a la música para expresar y para generar respuestas en el oyente. El conocimiento de qué respuesta emocional produce en el espectador la utilización de determinados elementos musicales o la combinación de los mismos, es fundamental para poder comprender el efecto de la música, tanto como una práctica de mejora de la salud, como con su función de complementar la expresividad de otras formas artísticas. Resulta evidente pues, que el alumnado deberá conocer previamente los elementos constituyentes de la música (CE.AM.1).",
+          "Competencias externas",
+          "CE.AE.2. El punto de partida de esta competencia es entender qué reacción generan ciertos elementos del sistema musical, y qué función expresiva o significativa se puede derivar de su uso",
+          "CE.HMD.2. Desde sus orígenes, la música se ha utilizado en combinación con otras manifestaciones artísticas en una simbiosis expresiva que genera un conjunto más capaz de impresionar en los sentidos del espectador.",
+          "CE.FQ.5. La segunda faceta que se intenta potenciar con esta competencia es el uso terapéutico y favorecedor de la salud que puede representar la música, y el trabajo individual o grupal para identificar los factores que lo hacen posible.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL3, STEM4, CD1, CD3, CPSAA4, CCEC2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          73,
+          74
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los elementos que constituyen una obra musical y su función dentro de la composición a través de la escucha activa y con apoyo de la partitura."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              74
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Describir las características musicales básicas de una obra a partir de la escucha activa y el estudio de partituras, analizando sus elementos constitutivos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              74
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar, de forma guiada, obras musicales, identificando la estructura formal y los procedimientos compositivos utilizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              74
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Asociar las obras analizadas con su contexto de creación, investigando sobre su autor o autora y su época."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              74
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Expresar de forma correcta y ordenada una opinión propia, informada y fundamentada, sobre las obras analizadas, utilizando un vocabulario musical adecuado. tanto de forma oral como escrita, y utilizando diversos medios analógicos y digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Publicar reseñas musicales en los medios disponibles, analógicos y digitales, respetando los derechos de autor y la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reproducir patrones melódicos, rítmicos, armónicos y formales de obras analizadas, aplicando estrategias de memorización y utilizando la interpretación vocal, corporal o instrumental en proyectos musicales grupales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Generar nuevas ideas musicales, combinando patrones melódicos, rítmicos, armónicos y formales previamente analizados e interiorizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar, de forma guiada, las tecnologías digitales en la composición musical."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Colaborar con una actitud de interés y cooperación en los proyectos musicales grupales, respetando al resto de miembros del grupo, sus roles y su trabajo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar las funciones que cumple la música cuando se asocia con otras formas de expresión (cine, teatro, danza...), analizando sus características y el efecto que genera en el espectador."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Iniciación al análisis musical"
+          },
+          "saberes": [
+            {
+              "id": "AM.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La escucha activa y el estudio de partituras como soportes para el análisis."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "AM.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elementos básicos de la música y la relación entre ellos: ritmo, tempo, melodía, armonía, textura, timbre, dinámica y agógica."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "AM.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de análisis auditivo de obras de diferentes estilos y géneros."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "AM.1.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de análisis de los elementos musicales de la partitura con apoyo de la audición."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "AM.1.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Reseñas musicales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "AM.1.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Recursos digitales para la investigación, la composición y la difusión musical."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  79
+                ]
+              }
+            },
+            {
+              "id": "AM.1.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Derechos de autor y propiedad intelectual."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  79
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La forma musical"
+          },
+          "saberes": [
+            {
+              "id": "AM.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elementos estructurales: célula, motivo, frase y semifrase, período, sección y movimiento. Ritmo melódico y armónico. Cadencias."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  80,
+                  81
+                ]
+              }
+            },
+            {
+              "id": "AM.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Formas simples, formas compuestas y libres. Formas-tipo. Representación de esquemas formales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  80,
+                  81
+                ]
+              }
+            },
+            {
+              "id": "AM.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Procedimientos compositivos fundamentales: repetición, variación, contraste y desarrollo."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  80,
+                  81
+                ]
+              }
+            },
+            {
+              "id": "AM.1.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Función de la música en combinación con otras manifestaciones artísticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  80,
+                  81
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Describir las características musicales de una obra a partir de la escucha activa y el estudio de partituras, analizando sus elementos constitutivos y la función que estos cumplen dentro de la composición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              74
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comparar los elementos constitutivos y las características musicales de diferentes obras, estableciendo analogías y diferencias entre ellas, a partir de la escucha activa y del estudio de partituras."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              74
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Distinguir los principales géneros y estilos musicales que se desarrollan en la historia, analizando los factores que inciden en la evolución de las formas musicales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              74
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Asociar las obras analizadas con un género, un estilo y un contexto de creación determinados, identificando, de forma autónoma, la estructura formal y los procedimientos compositivos utilizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              74
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Expresar de forma correcta y ordenada juicios personales sobre las obras analizadas, argumentando la opinión propia y utilizando una terminología musical adecuada. Es igual que 3.1. pero con otras palabras y dividiéndola en dos: una para argumentar lo observado, y otra lo investigado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Justificar la opinión propia sobre las obras analizadas, investigando y seleccionando la información más pertinente a partir de medios analógicos y digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Publicar críticas musicales y comentarios propios en los medios disponibles, analógicos y digitales, respetando los derechos de autor y la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Realizar improvisaciones sencillas o pequeñas composiciones, en proyectos musicales grupales, utilizando los procedimientos compositivos fundamentales y aplicando patrones melódicos, rítmicos, armónicos y formales previamente analizados e interiorizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar, de forma eficaz, las tecnologías digitales en la composición musical."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Analizar los usos terapéuticos de la música y cómo inciden determinados rasgos musicales en la salud y las emociones, a partir de la información obtenida en fuentes de información fiables."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Describir las características de la música que se utiliza con fines terapéuticos, analizando ejemplos de obras y relacionando sus rasgos con posibles efectos en el oyente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              75
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Técnicas de análisis musical"
+          },
+          "saberes": [
+            {
+              "id": "AM.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La comparación como técnica analítica."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "AM.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de análisis de audición y de partituras."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "AM.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas para el análisis del contexto de creación. El pensamiento de la persona creadora, los condicionantes contextuales y la interpretación de la obra."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "AM.2.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Comentarios y críticas musicales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "AM.2.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Recursos digitales para la investigación, la composición y la difusión musical."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "AM.2.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Derechos de autor y propiedad intelectual."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  81
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Géneros musicales"
+          },
+          "saberes": [
+            {
+              "id": "AM.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las características sonoras y estilísticas de la música desde la Edad Media hasta la actualidad. Evolución organológica."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "AM.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las formas y los géneros musicales desde la Edad Media hasta la actualidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "AM.2.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Uso de la música con fines terapéuticos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  82
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

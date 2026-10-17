@@ -1,0 +1,2341 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.bachillerato.matematicas",
+  "territorio": "es-ar",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "M",
+    "nombre": {
+      "es": "Matemáticas"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      },
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-157-orden-ecd-1173-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1173/2022, de 3 de agosto, por la que se aprueban el currículo y las características de la evaluación del Bachillerato y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "157",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "1234566820909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234566820909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926626&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 967,
+        "hasta": 1013
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Las matemáticas constituyen uno de los mayores logros culturales e intelectuales de la humanidad. A lo largo de la historia, las diferentes culturas se han esforzado en describir la naturaleza utilizando las matemáticas y en transmitir todo el conocimiento adquirido a las generaciones futuras. Hoy en día, ese patrimonio intelectual adquiere un valor fundamental ya que los grandes retos globales, como el respeto al medio ambiente, la eficiencia energética o la industrialización inclusiva y sostenible, a los que la sociedad tendrá que hacer frente, requieren de un alumnado capaz de adaptarse a las condiciones cambiantes, de aprender de forma autónoma, de modelizar situaciones, de explorar nuevas vías de investigación y de usar la tecnología de forma efectiva. Por tanto, resulta imprescindible para la ciudadanía del s. XXI la utilización de conocimientos y destrezas matemáticas como el razonamiento, la modelización, el pensamiento computacional o la resolución de problemas.",
+      "El desarrollo curricular de Matemáticas I y II se orienta a la consecución de los objetivos generales de la etapa, prestando una especial atención al desarrollo y la adquisición de las competencias clave conceptualizadas en los descriptores operativos de Bachillerato que el alumnado debe conseguir al finalizar la etapa. Así, la interpretación de los problemas y la comunicación de los procedimientos y resultados están relacionadas con la competencia en comunicación lingüística y con la competencia plurilingüe. El sentido de la iniciativa, el emprendimiento al establecer un plan de trabajo en revisión y modificación continua enlazan con la competencia emprendedora. La toma de decisiones o la adaptación ante situaciones de incertidumbre son componentes propios de la competencia personal, social y de aprender a aprender. El uso de herramientas digitales en el tratamiento de la información y en la resolución de problemas entronca directamente con la competencia digital en cuyo desarrollo las matemáticas han jugado un papel fundamental. El razonamiento y la argumentación, la modelización y el pensamiento computacional son elementos característicos de la competencia STEM. Las conexiones establecidas entre las matemáticas y otras materias, y la resolución de problemas en contextos sociales, están relacionados con la competencia ciudadana. Por otro lado, el mismo conocimiento matemático como expresión universal de la cultura contribuye a la competencia en conciencia y expresión culturales.",
+      "En continuidad con la Educación Secundaria Obligatoria, los ejes principales de las competencias específicas de Matemáticas I y II son la comprensión efectiva de conceptos y procedimientos matemáticos junto con las actitudes propias del quehacermatemático, que permitan construir una base conceptual sólida a partir de la resolución de problemas, del razonamiento y de la investigación matemática, especialmente enfocados a la interpretación y análisis de cuestiones de la ciencia y la tecnología. Las competencias específicas se centran en los procesos que mejor permiten al alumnado desarrollar destrezas como la resolución de problemas, el razonamiento y la argumentación, la representación y la comunicación, junto con las destrezas socioafectivas. Por este motivo recorren los procesos de resolución de problemas, razonamiento y prueba, conexiones, comunicación y representación, además del desarrollo socioafectivo.",
+      "La resolución de problemas y la investigación matemática son dos componentes fundamentales en la enseñanza de las matemáticas, ya que permiten emplear los procesos cognitivos inherentes a esta materia para abordar y resolver situaciones relacionadas con la ciencia y la tecnología, desarrollando el razonamiento, la creatividad y el pensamiento abstracto. Las competencias específicas de resolución de problemas, razonamiento y prueba, y conexiones están diseñadas para adquirir los procesos propios de la investigación matemática como son la formulación de preguntas, el establecimiento de conjeturas, la justificación y la generalización, la conexión entre las diferentes ideas matemáticas y el reconocimiento de conceptos y procedimientos propios de las matemáticas en otras materias, particularmente en las ciencias y en la tecnología. Debe resaltarse el carácter instrumental de las matemáticas como herramienta fundamental para materias científicas, sociales, tecnológicas, humanísticas y artísticas. Otros aspectos importantes de la educación matemática son la comunicación y la representación. El proceso de comunicación ayuda a dar significado y permanencia a las ideas al hacerlas públicas. Por otro lado, para entender y utilizar las ideas matemáticas es fundamental la forma en que estas se representan. Por ello, se incluyen dos",
+      "competencias específicas enfocadas a la adquisición de los procesos de comunicación y representación tanto de conceptos como de procedimientos matemáticos.",
+      "Con el fin de asegurar que todo el alumnado pueda hacer uso de los conceptos y de las relaciones matemáticas fundamentales, y también llegue a experimentar su belleza e importancia, se ha incluido una competencia específica relacionada con el aspecto emocional, social y personal de las matemáticas. Se pretende contribuir, de este modo, a desterrar ideas preconcebidas en la sociedad, como la creencia de que solo quien posee un talento innato puede aprender, usar y disfrutar de las matemáticas, o falsos estereotipos fuertemente arraigados, por ejemplo, los relacionados con cuestiones de género.",
+      "La adquisición de las competencias específicas se valorará con los criterios de evaluación, que ponen el foco en la puesta en acción de las competencias frente a la memorización de conceptos o la reproducción rutinaria de procedimientos.",
+      "Acompañando a las competencias específicas y a los criterios de evaluación se incluye el conjunto de saberes básicos que integran conocimientos, destrezas y actitudes. Dada la naturaleza de las competencias, en algunos casos la graduación de los criterios de evaluación entre los cursos primero y segundo se realiza a través de los saberes básicos. Estos han sido agrupados en bloques denominados «sentidos» como el conjunto de destrezas relacionadas con el dominio en contexto de contenidos numéricos, métricos, geométricos, algebraicos, estocásticos y socioafectivos que permiten emplear estos contenidos de una manera funcional y con confianza en la resolución de problemas o en la realización de tareas. Es importante destacar que el orden de aparición de los sentidos y, dentro de ellos, de los saberes no supone ninguna secuenciación.",
+      "El sentido numérico se caracteriza por la aplicación del conocimiento sobre numeración y cálculo en distintos contextos, y por el desarrollo de destrezas y modos de hacer y de pensar basados en la comprensión, la representación y el uso flexible de los números, de objetos matemáticos formados por números y de las operaciones. El sentido de la medida se centra en la comprensión y comparación de atributos de losobjetos del mundo que nos rodea, así como de la medida de la incertidumbre. El sentido espacial comprende los aspectos geométricos de nuestro entorno; identificar relaciones entre ellos, ubicarlos, clasificarlos o razonar con ellos son elementos fundamentales del aprendizaje de la geometría. El sentido algebraico proporciona el lenguaje en el que se comunican las matemáticas. Por ejemplo, son características de este sentido ver lo general en lo particular, reconocer relaciones de dependencia entre variables y expresarlas mediante diferentes representaciones, así como modelizar situaciones matemáticas o del mundo real con expresiones simbólicas. El pensamiento computacional y la modelización se han incorporado en este bloque, pero no deben interpretarse como exclusivos del mismo, sino que deben desarrollarse también en el resto de los bloques de saberes. El sentido estocástico comprende el análisis y la interpretación de datos, la elaboración de conjeturas y la toma de decisiones a partir de la información estadística, su valoración crítica y la comprensión y comunicación de fenómenos aleatorios en una amplia variedad de situaciones. Por último, el sentido socioafectivo implica la adquisición y aplicación de conocimientos, destrezas y actitudes necesarias para entender y manejar las emociones que aparecen en el proceso de aprendizaje de las matemáticas, además de adquirir estrategias para el trabajo matemático en equipo. Este sentido no debe trabajarse de forma aislada, sino a lo largo del desarrollo de la materia.",
+      "Las matemáticas no son una colección de saberes separados e inconexos, sino que constituyen un campo integrado de conocimiento. El conjunto de competencias específicas, criterios de evaluación y saberes básicos están diseñados para constituir un todo que facilite el planteamiento de tareas sencillas o complejas, individuales o colectivas, dentro del propio cuerpo de las Matemáticas o multidisciplinares. El uso de herramientas digitales para investigar, interpretar y analizar juega un papel esencial, ya que procesos y operaciones que con anterioridad requerían sofisticados métodos manuales pueden abordarse en la actualidad de forma sencilla mediante el uso de calculadoras, hojas de cálculo, programas de geometría dinámica u otro software específico, favoreciendo el razonamiento frente a los aprendizajes memorísticos y rutinarios."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Modelizar y resolver problemas de la vida cotidiana y de la ciencia y la tecnología aplicando diferentes estrategias y formas de razonamiento para obtener posibles soluciones."
+      },
+      "descripcion": {
+        "es": [
+          "La modelización y la resolución de problemas constituyen un eje fundamental en el aprendizaje de las matemáticas, ya que son procesos centrales en la construcción del conocimiento matemático. La comprensión de una situación o problema es siempre el primer paso hacia su exploración o resolución. Una buena representación o visualización del problema ayuda a su interpretación, así como a la identificación de los datos y las relaciones más relevantes.",
+          "El desarrollo de esta competencia conlleva los procesos de formulación del problema; la sistematización en la búsqueda de datos u objetos relevantes y sus relaciones; su codificación al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático; la creación de modelos abstractos de situaciones reales, y el uso de estrategias de resolución, como la analogía con otros problemas, estimación, ensayo y error, resolverlo de manera inversa (ir hacia atrás), la descomposición en problemas más sencillos o la utilización de técnicas heurísticas, entre otras. Estos procesos aplicados en contextos diversos pueden motivar el aprendizaje y establecer unos cimientos cognitivos sólidos que permitan construir conceptos y experimentar las matemáticas como herramienta para describir, analizar y ampliar la comprensión de situaciones de la vida cotidiana o de la Ciencia y la Tecnología. Asimismo, la resolución de un problema con distintas estrategias permite comparar las ventajas relativas a cada una de ellas. A través de la discusión de los estudiantes en la tarea de resolución de problemas se favorece la construcción de significados compartidos y la mejora del aprendizaje. Los contextos, en la resolución de problemas, proporcionan un amplio abanico de posibilidades para la integración de las distintas experiencias y aprendizajes del alumnado, así como de las diferentes competencias con una perspectiva global, fomentando el respeto mutuo y la cooperación entre iguales, con especial atención a la igualdad de género, la inclusión y la diversidad personal y cultural. Ofrecen una oportunidad para integrar las ocho competencias clave e incluir el planteamiento de los grandes problemas medioambientales y sociales de nuestro mundo o problemas de consumo responsable en su realidad cercana, fomentando que el alumnado se haga partícipe de los mismos y desarrolle la actitud necesaria para implicarse activamente en su futuro.",
+          "Las competencias específicas CE.M.1., CE.M.2., CE.M.3. y CE.M.4. están directamente relacionadas con la resolución de problemas y la modelización matemática en contextos diversos, por lo tanto, su desarrollo se vincula de forma natural. El desarrollo de esta competencia también tiene, por tanto, una íntima relación con las competencias específicas CE.M.5., CE.M.6. y CE.M.7., que lleva a relacionar los saberes de la materia de matemáticas entre sí y con los de las otras materias, desde un enfoque globalizador. Asimismo, esta competencia está vinculada con el CE.M.8. porque el desarrollo de ésta conlleva procesos de formulación del problema y de verbalización acerca del proceso de resolución realizado y de la validez de las soluciones encontradas. Por último, está relacionada con la competencia específica CE.M.9. en la gestión de las emociones que surgen cuando nos enfrentamos a un problema. También es obvio que tiene especial vinculación con otras competencias específicas de las asignaturas Matemáticas aplicadas a las Ciencias Sociales y Matemáticas Generales de otras modalidades de Bachillerato, en particular con CE.MCS.1 y CE.MG.1.",
+          "Sin ánimo de exhaustividad, se identifican vínculos con competencias de asignaturas del primer curso: de Biología, Geología y Ciencias Ambientales, como la CE.BGCA.4. (buscar y utilizar estrategias en la resolución de problemas analizando críticamente las soluciones y respuestas halladas y reformulando el procedimiento si fuera necesario…), de Física y Química, como la CE.FQ.1. (resolver problemas y situaciones relacionados con la física y la química…), de Tecnología e Ingeniería I, como la CE.TI.4. (generar conocimientos y mejorar destrezas técnicas, transfiriendo y aplicando saberes de otras disciplinas científicas con actitud creativa, para calcular, y resolver problemas…), y del segundo curso: de Biología, como la CE.B.4. (plantear y resolver problemas, buscando y utilizando las estrategias adecuadas, analizando críticamente las soluciones y reformulando el procedimiento si fuera necesario…), de Física, como CE.F.1. (utilizar las teorías, principios y leyes que rigen los procesos físicos más importantes, considerando su base experimental y desarrollo matemático en la resolución de problemas…) y la CE.F.5. (aplicar técnicas de trabajo e",
+          "indagación propias de la física, así como la experimentación, el razonamiento lógico-matemático y la cooperación, en la resolución de problemas y la interpretación de situaciones relacionadas…), de Geología y Ciencias Ambientales, como la CE.GCA.4. (plantear y resolver problemas, buscando y utilizando las estrategias adecuadas, analizando críticamente las soluciones y reformulando el procedimiento si fuera necesario…), y de Química, como la",
+          "CE.Q.5. (aplicar técnicas de trabajo propias de las ciencias experimentales y el razonamiento lógico-matemático en la resolución de problemas de química y en la interpretación de situaciones relacionadas…).",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM3, CD2, CD5, CPSAA4, CPSAA5, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          968,
+          969,
+          970
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Verificar la validez de las posibles soluciones de un problema empleando el razonamiento y la argumentación para contrastar su idoneidad."
+      },
+      "descripcion": {
+        "es": [
+          "Tras la resolución de un problema, el alumnado tiende a dar por finalizada la actividad omitiendo una parte importante y resulta muy constructiva. El análisis de las soluciones obtenidas en la resolución de un problema potencia la reflexión crítica, el razonamiento y la argumentación. La interpretación de las soluciones y conclusiones obtenidas, considerando además de la validez matemática diferentes perspectivas como la sostenibilidad, el consumo responsable, la equidad, la no discriminación o la igualdad de género, entre otras, ayuda a tomar decisiones razonadas y a evaluar las estrategias. Además, el análisis de la solución o soluciones así como el camino realizado para resolver un problema ayuda a consolidar los conocimientos y desarrollar aptitudes para la resolución de problemas (Polya, 1965, Schoenfeld, 1985; Mason et al., 2010). Los razonamientos científico y matemático serán las herramientas principales para realizar esa validación, pero también lo son la lectura atenta, la realización de preguntas adecuadas, la elección de estrategias para verificar la pertinencia de las soluciones obtenidas según la situación planteada, la conciencia sobre los propios progresos y la autoevaluación.",
+          "El desarrollo de esta competencia conlleva procesos reflexivos propios de la metacognición como la autoevaluación y la coevaluación, el uso eficaz de herramientas digitales, la verbalización o la descripción del proceso y la selección entre diferentes modos de comprobación de soluciones o de estrategias para validarlas y evaluar su alcance.",
+          "Las competencias específicas CE.M.1., CE.M.2., CE.M.3. y CE.M.4. están directamente relacionadas con la resolución de problemas y la modelización matemática en contextos diversos, por lo tanto, su desarrollo se vincula de forma natural. El desarrollo de esta competencia también tiene, por tanto, una íntima relación con las competencias específicas CE.M.5., CE.M.6. y CE.M.7., que lleva a relacionar los saberes de la materia de matemáticas entre sí y con los de las otras materias, desde un enfoque globalizador. Asimismo, esta competencia está vinculada con el CE.M.8. porque el desarrollo de ésta conlleva procesos de formulación del problema y de verbalización acerca del proceso de resolución realizado y de la validez de las soluciones encontradas. Por último, está relacionada con la competencia específica CE.M.9. en la gestión de las emociones que surgen cuando nos enfrentamos a un problema. También es obvio que tiene especial vinculación con otras competencias específicas de las asignaturas Matemáticas aplicadas a las Ciencias Sociales y Matemáticas Generales de otras modalidades de Bachillerato, en particular con CE.MCS.2 y CE.MG.2.",
+          "Sin ánimo de exhaustividad, se identifican vínculos con competencias de asignaturas del primer curso: deBiología, Geología y Ciencias Ambientales, como la CE.BGCA.4. (buscar y utilizar estrategias en la resolución de problemas analizando críticamente las soluciones y respuestas halladas y reformulando el procedimiento si fuera necesario…), del segundo curso: de Biología, como la CE.B.4. (plantear y resolver problemas, buscando y utilizando las estrategias adecuadas, analizando críticamente las soluciones y reformulando el procedimiento si fuera necesario…), y de Geología y Ciencias Ambientales, como la CE.GCA.4. (plantear y resolver problemas, buscando y utilizando las estrategias adecuadas, analizando críticamente las soluciones…).",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, CD3, CPSAA4, CC3, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          970,
+          971
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Formular o investigar conjeturas o problemas, utilizando el razonamiento, la argumentación, la creatividad y el uso de herramientas tecnológicas, para generar nuevo conocimiento matemático."
+      },
+      "descripcion": {
+        "es": [
+          "La formulación de conjeturas y la generación de problemas de contenido matemático son dos componentes importantes y significativos del currículo de Matemáticas y están consideradas una parte esencial del quehacer matemático. Probar o refutar conjeturas con contenido matemático sobre una situación planteada o sobre un problema ya resuelto implica plantear nuevas preguntas, así como la reformulación del problema durante el proceso de investigación.",
+          "Cuando el alumnado genera problemas o realiza preguntas, mejora el razonamiento y la reflexión al tiempo que construye su propio conocimiento, lo que se traduce en un alto nivel de compromiso y curiosidad, así como de entusiasmo hacia el proceso de aprendizaje de las matemáticas.",
+          "El desarrollo de esta competencia puede fomentar un pensamiento más diverso y flexible, mejorar la destreza para resolver problemas en distintos contextos y establecer puentes entre situaciones concretas y las abstracciones matemáticas.",
+          "Esta competencia se relaciona con todas las competencias específicas de la materia de Matemáticas. En especial, tiene una conexión muy cercana con las competencias de resolución de problemas, CE.M.1 y CE.M.2, con CE.M.4, que incide en otro tipo de razonamiento, y con CE.M.8 que aborda aspectos de comunicación matemática. También es obvio que tiene especial vinculación con todas las competencias específicas de las asignaturas Matemáticas aplicadas a las Ciencias Sociales y Matemáticas Generales de otras modalidades de Bachillerato, en particular con CE.MCS.3 y CE.MG.3.",
+          "Por otro lado, el desarrollo de esta competencia matemática en razonamiento y argumentación debería tener como objetivo adicional que el alumnado la ponga en juego en el ámbito de su vida cotidiana y en otras materias. Los vínculos que establezcan con competencias de otras materias deberían facilitar la transferencia a otros contextos y modos de razonamiento. Sin ánimo de ser exhaustivo, el razonamiento matemático, la argumentación y la formulación de preguntas y verificación de conjeturas es básico en el desarrollo del pensamiento científico para averiguar las causas que originan los fenómenos del mundo natural y por eso tiene vínculos evidentes con competencias específicas de las materias del Bachillerato de Ciencias y Tecnologías, como CE.FQ.2 de Física y Química de 1º de Bachillerato y CE.F.1., CE.F.5. y CE.Q.5 de las materias de Física y de Química para 2º de Bachillerato. Además, también se relaciona con CE.BGCA.3 y CE.BGCA.4. de Biología, Geología y Ciencias Ambientales de 1º de Bachillerato y con CE.B.3., CE.B.4, CE.GCA.4. de las materias de Biología y de Geología y Ciencias Ambientales de 2º de Bachillerato. También existen conexiones con el resto de materias del Bachillerato de Ciencias y Tecnología a través de CE.DT.2. de Dibujo Técnico, y con CE.TI.4. de Tecnología e Ingeniería. Finalmente, destacamos la relación con CE.CG.4. de la materia Ciencias Generales de la modalidad de Bachillerato General. Por último, los aspectos referidos al desarrollo de la argumentación que afectan a esta competencia también se relacionan con competencias de materias comunes como CE.FI.3., CE.HF.2., CE.LCL.3., CE.LCLT.5., CE.LEI.2. y CE.LEF.2.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, STEM1, STEM2, CD1, CD2, CD3, CD5, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          971
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar el pensamiento computacional de forma eficaz, modificando, creando y generalizando algoritmos que"
+      },
+      "descripcion": {
+        "es": [
+          "resuelvan problemas mediante el uso de las matemáticas, para modelizar y resolver situaciones de la vida cotidiana y del ámbito de la ciencia y la tecnología.",
+          "El pensamiento computacional entronca directamente con la resolución de problemas y el planteamiento de procedimientos algorítmicos. Con el objetivo de llegar a una solución del problema que pueda ser ejecutada por un sistema informático, será necesario utilizar la abstracción para identificar los aspectos más relevantes y descomponer el problema en tareas más simples que se puedan codificar en un lenguaje apropiado. Asimismo, los procesos del pensamiento computacional pueden culminar con la generalización. Llevar el pensamiento computacional a la vida diaria y al ámbito de la ciencia y la tecnología supone relacionar las necesidades de modelado y simulación con las posibilidades de su tratamiento informatizado.",
+          "El desarrollo de esta competencia conlleva la creación de modelos abstractos de situaciones cotidianas y del ámbito de la ciencia y la tecnología, su automatización y la codificación en un lenguaje fácil de interpretar de forma automática.",
+          "Por su naturaleza el pensamiento computacional está vinculado con el resto de las competencias específicas, si bien más estrechamente con la CE.M.1, CE.M.2, CE.M.3, CE.M.5 y CE.M.7 ya que permite modelar de forma dinámica situaciones tanto de conceptos y relaciones matemáticas como situaciones contextualizadas del ámbito de la Ciencia y la Tecnología en la que haya que manejar grandes cantidades de datos. Otra característica importante del pensamiento computacional es también la simulación y que permite investigar, conjeturar, hacerse preguntas y buscar diferentes estrategias y soluciones, verificando la validez de las mismas. Por ello, colabora a elaborar argumentos para justificar la respuesta con un cierto rigor matemático y poderla comunicar de forma individual y colectiva vinculándose así con la CE.M.8. También es obvio que tiene especial vinculación con otras competencias específicas de las asignaturas Matemáticas aplicadas a las Ciencias Sociales y Matemáticas Generales de otras modalidades de Bachillerato, en particular con CE.MCS.4 y CE.MG.4.",
+          "Se identifican vínculos con competencias de la materia de ciencias generales como la CE.CG.4 (Aplicar el pensamiento científico y los razonamientos lógico-matemáticos, mediante la búsqueda y selección de estrategias y herramientas apropiadas, para resolver problemas relacionados con las ciencias experimentales); con la materia de Dibujo Técnico en la CE.DT.2 (Utilizar razonamientos inductivos, deductivos y lógicos en problemas de índole gráfico-matemáticos, aplicando fundamentos de la geometría plana para resolver gráficamente operaciones matemáticas, relaciones, construcciones y transformaciones) y con la materia de Física y Química la CE.FQ.4 (Utilizar de forma autónoma, crítica y eficiente plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, consultando y seleccionando información científica veraz, creando materiales en diversos formatos y comunicando de manera efectiva en diferentes entornos de aprendizaje, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social.), o también en CE.TI.5 (Diseñar, crear y evaluar sistemas tecnológicos, aplicando conocimientos de programación informática, regulación automática y control, así como las posibilidades que ofrecen las tecnologías emergentes, para estudiar, controlar y automatizar tareas.\"",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM3, CD2, CD3, CD5, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          971,
+          972
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Establecer, investigar y utilizar conexiones entre las diferentes ideas matemáticas estableciendo vínculos entre conceptos, procedimientos, argumentos y modelos para dar significado y estructurar el aprendizaje matemático."
+      },
+      "descripcion": {
+        "es": [
+          "Establecer conexiones entre las diferentes ideas matemáticas proporciona una comprensión más profunda de cómo varios enfoques de un mismo problema pueden producir resultados equivalentes. El alumnado puede utilizar ideas",
+          "procedentes de un contexto para probar o refutar conjeturas generadas en otro contexto diferente y, al conectar las ideas matemáticas, puede desarrollar una mayor comprensión de los conceptos, procedimientos y argumentos. Percibir las matemáticas como un todo implica estudiar sus conexiones internas y reflexionar sobre ellas, tanto las",
+          "existentes entre los bloques de saberes como entre las matemáticas de un mismo o distintos niveles, o las de diferentes etapas educativas.",
+          "El desarrollo de esta competencia conlleva enlazar las nuevas ideas matemáticas con ideas previas, reconocer y utilizar las conexiones entre ellas en la resolución de problemas y comprender cómo unas ideas se construyen sobre otras para formar un todo integrado.",
+          "Esta competencia trata de evitar una excesiva compartimentación en temas, lecciones o bloques, para buscar que el estudiante interiorice ya en esta etapa de acercamiento a una matemática más avanzada una cohesión entre todos los diversos sentidos matemáticos, dando margen al alumnado para reflexionar sobre las situaciones presentadas y aportar soluciones que no necesariamente tienen que estar completamente ligadas al contenido que se esté trabajando en ese momento. Las competencias más vinculadas con esta competencia son las CE.M.1 (Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas…) y CE.M.2 (Analizar las soluciones de un problema usando diferentes técnicas y herramientas…) y la CE.M.6 (Descubrir los vínculos con otras materias y profundizar en sus conexiones…).También es obvio que tiene especial vinculación con otras competencias específicas de las asignaturas Matemáticas aplicadas a las Ciencias Sociales y Matemáticas Generales de otras modalidades de Bachillerato, en particular con CE.MCS.5 y CE.MG.5.",
+          "Adquirir esta competencia implica tener una visión global de las matemáticas lo que hace que estas tengan una aplicación mucho más potente en otras materias, particularmente en las de tipo científico como CE.FQ.1 (explicar los fenómenos fisicoquímicos en términos de las leyes científicas adecuadas) o CE.BG.1 (Interpretar y transmitir información y datos científicos, argumentando sobre ellos…) pero también en otras como CE.T.2. (Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares…).",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM3, CD2, CD3, CCEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          972,
+          973
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Descubrir los vínculos de las matemáticas con otras materias y profundizar en sus conexiones, interrelacionando conceptos y procedimientos, para modelizar, resolver problemas y desarrollar la capacidad crítica, creativa e innovadora en situaciones diversas."
+      },
+      "descripcion": {
+        "es": [
+          "Observar relaciones y establecer conexiones matemáticas es un aspecto clave del quehacer matemático. La profundización en los conocimientos matemáticos y en la destreza para utilizar un amplio conjunto de representaciones, así como en el establecimiento de conexiones entre las matemáticas y otras materias, especialmente con las ciencias y la tecnología confieren al alumnado un gran potencial para resolver problemas en situaciones diversas.",
+          "Estas conexiones también deberían ampliarse a las actitudes propias del quehacer matemático de forma que estas puedan ser transferidas a otras materias y contextos. En esta competencia juega un papel relevante la aplicación de las herramientas tecnológicas en el descubrimiento de nuevas conexiones.",
+          "El desarrollo de esta competencia conlleva el establecimiento de conexiones entre ideas, conceptos y procedimientos matemáticos, otras materias y la vida real. Asimismo, implica el uso de herramientas tecnológicas y su aplicación en la resolución de problemas en situaciones diversas, valorando la contribución de las matemáticas a la resolución de los grandes retos y objetivos ecosociales, tanto a lo largo de la historia como en la actualidad.",
+          "Para identificar las matemáticas en otras materias es necesario ser consciente de lo que las matemáticas aportan al conjunto de saberes que se adquieren en la etapa, así como su carácter instrumental como herramienta en ramas del conocimiento científico-tecnológico, social, humanístico y artístico. Por ello, aun teniendo conexión con todas las",
+          "demás, las conexiones fundamentales se dan con CE.M.1 (modelizar problemas de la vida cotidiana), CE.M.2 (analizar las soluciones de un problema), CE.M.3 (conjeturar) y CE.M.4 (pensamiento computacional) y CE.M.8 (comunicar) ya que para desarrollarla es necesario trabajar con herramientas tecnológicas de diferentes tipos que faciliten el trabajo con grandes cantidades de datos, que faciliten la visualización de ideas y que permitan invertir el tiempo de trabajo en generar preguntas e investigar estrategias para darles respuesta estando atentos a las relaciones y vínculos con otras materias diversas de conocimiento y finalmente ser capaces de comunicar los resultados obtenidos.También es obvio que tiene especial vinculación con otras competencias específicas de las asignaturas Matemáticas aplicadas a las Ciencias Sociales y Matemáticas Generales de otras modalidades de Bachillerato, en particular con CE.MCS.6 y CE.MG.6.",
+          "En esta asignatura son las asignaturas del campo científico las que más vinculación pueden tener con esta competencia matemática, en particular en el caso de Física y Química, la CE.FQ.1 (explicar los fenómenos fisicoquímicos en términos de las leyes científicas adecuadas) y Biología y Geología, la CE.BG.1 (Interpretar y transmitir información y datos científicos, argumentando sobre ellos…). Las leyes científicas acostumbran a tener una formulación matemática, lo que hace necesario que el alumnado sea consciente de la necesidad de manejar bien la estructura matemática de que se trate para comprender bien el fenómeno físico de que se trate, modelizarlo adecuadamente y no cometer errores de interpretación de los resultados.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, CD2, CPSAA5, CC4, CE2, CE3, CCEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          973,
+          974
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Representar conceptos, procedimientos e información matemáticos seleccionando diferentes tecnologías, para visualizar ideas y estructurar razonamientos matemáticos."
+      },
+      "descripcion": {
+        "es": [
+          "Las representaciones de conceptos, procedimientos e información matemática facilitan el razonamiento y la demostración, se utilizan para visualizar ideas matemáticas, examinar relaciones y contrastar la validez de las respuestas, y se encuentran en el centro de la comunicación matemática. El desarrollo de esta competencia conlleva el aprendizaje de nuevas formas de representación matemática y la mejora del conocimiento sobre su utilización, recalcando las maneras en que representaciones distintas de los mismos objetos pueden transmitir diferentes informaciones y mostrando la importancia de seleccionar representaciones adecuadas a cada tarea.",
+          "Esta competencia se vincula con la CE.M.5 que conlleva el establecimiento de conexiones entre ideas, conceptos y procedimientos matemáticos, que representados de diversas formas usando variadas herramientas tecnológicas, permite fomentar un pensamiento más flexible y diverso, mejorando el razonamiento y estrategias (CE.M.1 y CE.M.4), la argumentación (CE.M.3) y la comunicación de los resultados obtenidos (CE.M.8). También es obvio que tiene especial vinculación con otras competencias específicas de las asignaturas Matemáticas aplicadas a las Ciencias Sociales y Matemáticas Generales de otras modalidades de Bachillerato, en particular con CE.MCS.7 y CE.MG.7.",
+          "Dominar esta competencia implica saber seleccionar aquella información que es adecuada y coherente de entre todas aquellas de las que están a disposición. Aunque en esta asignatura tiene un carácter evidentemente matemático, no deja de ser una competencia que conecta con las de otras materias en las que se requiere analizar fuentes de información que incluyen elementos matemáticos para tomar decisiones o valorar estrategias, como por ejemplo CE.DT.2 (Utilizar razonamientos inductivos, deductivos y lógicos en problemas de índole gráfico-matemáticos,",
+          "aplicando fundamentos de la geometría plana…), CE.DT.3 (Desarrollar la visión espacial, utilizando la geometría descriptiva …) y CE.CG.4 (Aplicar el pensamiento científico y los razonamientos lógico-matemáticos, mediante la búsqueda y selección de estrategias y herramientas apropiadas, para resolver problemas relacionados con las ciencias experimentales).",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM3, CD1, CD2, CD5, CE3, CCEC4.1, CCEC4.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          974,
+          975
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Comunicar de forma individual y colectiva conceptos, procedimientos y argumentos matemáticos, usando lenguaje oral, escrito o gráfico, utilizando la terminología matemática apropiada, para dar significado y coherencia a las ideas matemáticas."
+      },
+      "descripcion": {
+        "es": [
+          "En la sociedad de la información se hace cada día más patente la necesidad de una comunicación clara y veraz, tanto oralmente como por escrito. Interactuar con otros ofrece la posibilidad de intercambiar ideas y reflexionar sobre ellas, colaborar, cooperar, generar y afianzar nuevos conocimientos convirtiendo la comunicación en un elemento indispensable en el aprendizaje de las matemáticas.",
+          "El desarrollo de esta competencia conlleva expresar públicamente hechos, ideas, conceptos y procedimientos complejos verbal, analítica y gráficamente, de forma veraz y precisa, utilizando la terminología matemática adecuada, con el fin de dar significado y permanencia a los aprendizajes.",
+          "La comunicación de hechos matemáticos está relacionada principalmente con la producción de argumentos matemáticos en sentido amplio, lo que enlaza por un lado con la CE.M.7 (Representar ideas matemáticas), la CE.M.3 (razonamiento y argumentación aplicadas a la formulación de conjeturas) y la CE.M.4 (organización de datos vía el pensamiento computacional). También es obvio que tiene especial vinculación con otras competencias específicas de las asignaturas Matemáticas aplicadas a las Ciencias Sociales y Matemáticas Generales de otras modalidades de Bachillerato, en particular con CE.MCS.8 y CE.MG.8. En otras materias como Tecnología y Digitalización (CE.TD.4) se busca intercambiar ideas o soluciones a problemas tecnológicos o digitales y comunicar y difundir información y propuestas; también en Economía y Emprendimiento (CE.EE.5) se trata de presentar y exponer ideas utilizando estrategias comunicativas con una comunicación efectiva y respetuosa. En ambos casos, las ideas tecnológicas o económicas pueden tener un fuerte componente matemático. Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores de las competencias clave de la etapa: CCL1, CCL3, CP1, STEM2, STEM4, CD2, CD3, CE3, CCEC3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ce-9",
+      "codigoOficial": "9",
+      "enunciado": {
+        "es": "Utilizar destrezas personales y sociales, identificando y gestionando las propias emociones, respetando las de los demás y organizando activamente el trabajo en equipos heterogéneos, aprendiendo del error como parte del proceso de aprendizaje y afrontando situaciones de incertidumbre, para perseverar en la consecución de objetivos en el aprendizaje de las matemáticas."
+      },
+      "descripcion": {
+        "es": [
+          "La resolución de problemas o de retos más globales en los que intervienen las matemáticas representa a menudo un desafío que involucra multitud de emociones que conviene gestionar correctamente. Las destrezas socioafectivas dentro del aprendizaje de las matemáticas fomentan el bienestar del alumnado, la regulación emocional y el interés por su estudio.",
+          "Por otro lado, trabajar los valores de respeto, igualdad o resolución pacífica de conflictos, al tiempo que se superan retos matemáticos de forma individual o en equipo, permite mejorar la autoconfianza y normalizar situaciones de",
+          "convivencia en igualdad, creando relaciones y entornos de trabajo saludables. Asimismo, fomenta la ruptura de estereotipos e ideas preconcebidas sobre las matemáticas asociadas a cuestiones individuales como, por ejemplo, las relacionadas con el género o con la existencia de una aptitud innata para las matemáticas.",
+          "El desarrollo de esta competencia conlleva identificar y gestionar las propias emociones en el proceso de aprendizaje de las matemáticas, reconocer las fuentes de estrés, ser perseverante en la consecución de los objetivos, pensar de forma crítica y creativa, crear resiliencia y mantener una actitud proactiva ante nuevos retos matemáticos. Asimismo, implica mostrar empatía por los demás, establecer y mantener relaciones positivas, ejercitar la escucha activa y la comunicación asertiva en el trabajo en equipo y tomar decisiones responsables.",
+          "Esta competencia se vincula con todas las competencias de la materia a través de los procesos de resolución de problemas. Es obvio que también tiene vinculación con las competencias específicas CE.MCS.9 y CE.MG.9 de las asignaturas Matemáticas aplicadas a las Ciencias Sociales y Matemáticas Generales de otras modalidades de Bachillerato.",
+          "Sin ánimo de exhaustividad, se relaciona también con otras competencias específicas de materias comunes como CE.EF.2, CE.EF.3, CE.FI.5, CE.LCL.10, CE.LE.3 o CE.HE.7. También está relacionada con competencias de otras materias del Bachillerato de Ciencias y Tecnología como CE.FQ.5 o CE.TI.1. Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CP3, STEM5, CPSAA1.1, CPSAA1.2, CPSAA3.1, CPSAA3.2, CC2, CC3, CE2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          975,
+          976
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Manejar algunas estrategias y herramientas, incluidas las digitales, en la modelización y resolución de problemas de la vida cotidiana y de la ciencia y la tecnología, evaluando su eficiencia en cada caso."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              977
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Obtener todas las posibles soluciones matemáticas de problemas de la vida cotidiana y de la ciencia y la tecnología, describiendo el procedimiento utilizado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              977
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprobar la validez matemática de las posibles soluciones de un problema, utilizando el razonamiento y la argumentación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              977
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar la solución más adecuada de un problema en función del contexto (de sostenibilidad, de consumo responsable, equidad), usando el razonamiento y la argumentación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              977
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Adquirir nuevo conocimiento matemático a partir de la formulación de conjeturas y problemas de forma guiada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear herramientas tecnológicas adecuadas en la formulación o investigación de conjeturas o problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y resolver situaciones problematizadas de la vida cotidiana y de la ciencia y la tecnología, utilizando el pensamiento computacional, modificando y creando algoritmos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Manifestar una visión matemática integrada, investigando y conectando las diferentes ideas matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Resolver problemas en contextos matemáticos estableciendo y aplicando conexiones entre las diferentes ideas matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Resolver problemas en situaciones diversas, utilizando procesos matemáticos, estableciendo y aplicando conexiones entre el mundo real, otras materias y las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              979
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar la aportación de las matemáticas al progreso de la humanidad, reflexionando sobre su contribución en la propuesta de soluciones a situaciones complejas y a los retos científicos y tecnológicos que se plantean en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              979
+            ]
+          }
+        },
+        {
+          "id": "cri-1-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Representar ideas matemáticas estructurando diferentes razonamientos matemáticos y seleccionando las tecnologías más adecuadas para la resolución de problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              979
+            ]
+          }
+        },
+        {
+          "id": "cri-1-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Seleccionar y utilizar diversas formas de representación valorando su utilidad para compartir información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              979
+            ]
+          }
+        },
+        {
+          "id": "cri-1-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Mostrar organización al comunicar las ideas matemáticas empleando el soporte, la terminología y el rigor apropiados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        },
+        {
+          "id": "cri-1-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Reconocer y emplear el lenguaje matemático en diferentes contextos, comunicando la información con precisión y rigor."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        },
+        {
+          "id": "cri-1-9-3",
+          "codigoOficial": "9.3",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "atiende a las interacciones en el plano social donde la formación de en cuenta para generar una cultura de aula inclusiva. Así, en la formación que, cuando se divide al alumnado en grupos homogéneos, se constata en cambio, no supone mejora para los que tienen un ritmo mayor. Por otro al arbitrio del alumnado, lo único que se consigue es reproducir el statu razones, la formación de grupos visiblemente aleatorios de trabajo, con una desemboca en un clima de trabajo participativo e inclusivo. La relación de exige la creación de un clima afectivo de seguridad en el aula y que fomente resolución de problemas en matemáticas forme parte activa de la construcción Estos criterios ponen de manifiesto, más que nunca, el carácter formativo socioafectivo permita que el alumnado reciba información sobre cómo bloqueos y desesperaciones forman parte natural de la resolución de problemas, retos matemáticos que proporcione indicaciones con el propósito que desarrolle se ponen en juego en las situaciones de aprendizaje. También esta evaluación de adaptar las secuencias didácticas y alinear los procesos de enseñanza Para la aplicación del criterio 9.1 se pueden emplear instrumentos específicos, 2000a, 2000b), de manera que el alumnado exprese con un pictograma de sí mismo como resolutor de problemas, al mismo tiempo que se recogen organizar charlas de aula y adaptar las secuencias de enseñanza y aprendizaje. interacción, se pueden emplear listas de observación para evaluar el criterio recojan, entre otros aspectos, la perseverancia en la resolución de problemas, seguidos, la confianza en sus capacidades, etc. Para la aplicación del criterio las que se recoja, entre otros aspectos, la aceptación de puntos de vista compresión de los conceptos y la comunicación de éstos en relación con Matemáticas I"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        },
+        {
+          "id": "cri-1-9-1",
+          "codigoOficial": "9.1",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Afrontar las situaciones de incertidumbre identificando y gestionando emociones y aceptando y aprendiendo del error como parte del proceso de aprendizaje de las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        },
+        {
+          "id": "cri-1-9-2",
+          "codigoOficial": "9.2",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Mostrar una actitud positiva y perseverante, aceptando y aprendiendo de la crítica razonada al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "apartados": [
+            {
+              "codigo": "A.1",
+              "nombre": {
+                "es": "Sentido de las operaciones"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.A.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Adición y producto escalar de vectores: propiedades y representaciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      986
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.A.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para operar con números reales y vectores: cálculo mental o escrito en los casos sencillos y con herramientas tecnológicas en los casos más complicados."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      986
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.A.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Logaritmos: comprensión y utilización de sus relaciones para simplificar y resolver problemas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      986
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.2",
+              "nombre": {
+                "es": "Relaciones"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.A.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los números complejos como soluciones de ecuaciones polinómicas que carecen de raíces reales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      987
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.A.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conjuntos de vectores: estructura, comprensión y propiedades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      987
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Medición"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cálculo de longitudes y medidas angulares: uso de la trigonometría."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      987
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Cambio"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.B.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Límites: estimación y cálculo a partir de una tabla, un gráfico o una expresión algebraica."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      988
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.B.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Continuidad de funciones: aplicación de límites en el estudio de la continuidad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      988
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.B.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Derivada de una función: definición a partir del estudio del cambio en diferentes contextos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      988
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido espacial"
+          },
+          "apartados": [
+            {
+              "codigo": "C.1",
+              "nombre": {
+                "es": "Formas geométricas de dos"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.C.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "dimensiones:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.C.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Objetos geométricos de dos dimensiones: análisis de las propiedades y determinación de sus atributos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.C.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de problemas relativos a objetos geométricos en el plano representados con coordenadas cartesianas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.2",
+              "nombre": {
+                "es": "Localización y sistemas de"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.C.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "representación:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.C.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones de objetos geométricos en el plano: representación y exploración con ayuda de herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.C.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Expresiones algebraicas de objetos geométricos: selección de la más adecuada en función de la situación a resolver."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.C.2.4",
+                  "codigoOficial": "C3",
+                  "texto": {
+                    "es": "Visualización, razonamiento y modelización geométrica:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.C.2.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Representación de objetos geométricos en el plano mediante herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.C.2.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Modelos matemáticos (geométricos, algebraicos, grafos) en la resolución de problemas en el plano. Conexiones con otras disciplinas y áreas de interés."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.C.2.7",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conjeturas geométricas en el plano: validación por medio de la deducción y la demostración de teoremas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.C.2.8",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Modelización de la posición y el movimiento de un objeto en el plano mediante vectores."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      989
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido algebraico"
+          },
+          "apartados": [
+            {
+              "codigo": "D.1",
+              "nombre": {
+                "es": "Patrones"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.D.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Generalización de patrones en situaciones sencillas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      990
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.2",
+              "nombre": {
+                "es": "Modelo matemático"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.D.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones cuantitativas en situaciones sencillas: estrategias de identificación y determinación de la clase o clases de funciones que pueden modelizarlas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      991
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.D.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ecuaciones, inecuaciones y sistemas: modelización de situaciones en diversos contextos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      991
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.3",
+              "nombre": {
+                "es": "Igualdad y desigualdad"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.D.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de ecuaciones, inecuaciones y sistemas de ecuaciones e inecuaciones no lineales en diferentes contextos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      991
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.4",
+              "nombre": {
+                "es": "Relaciones y funciones"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.D.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Análisis, representación e interpretación de relaciones mediante herramientas tecnológicas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      992
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.D.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Propiedades de las distintas clases de funciones, incluyendo, polinómicas, exponenciales, irracionales, racionales sencillas, logarítmicas, trigonométricas y a trozos: comprensión y comparación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      992
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.D.4.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Álgebra simbólica en la representación y explicación de relaciones matemáticas de la Ciencia y la Tecnología."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      992
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.5",
+              "nombre": {
+                "es": "Pensamiento computacional"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.D.5.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Formulación, resolución y análisis de problemas de la vida cotidiana y de la Ciencia y la Tecnología con las herramientas o los programas más adecuados."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      993
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.D.5.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Comparación de algoritmos alternativos para el mismo problema mediante el razonamiento lógico."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      993
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "apartados": [
+            {
+              "codigo": "E.1",
+              "nombre": {
+                "es": "Organización y análisis de datos: El análisis de la dependencia entre"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.E.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Organización de los datos procedentes de variables bidimensionales: distribución conjunta y distribuciones marginales y condicionadas. Análisis de la dependencia estadística."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      993
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.E.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estudio de la relación entre dos variables mediante la regresión lineal o cuadrática: valoración gráfica de la pertinencia del ajuste.Diferencia entre correlación y causalidad"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      993
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.E.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Coeficientes de correlación lineal y de determinación: cuantificación de la relación lineal, predicción y valoración de su fiabilidad en contextos científicos y tecnológicos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      993
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.E.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Calculadora, hoja de cálculo o software específico en el análisis de datos estadísticos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      993
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "E.2",
+              "nombre": {
+                "es": "Incertidumbre"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.E.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      994
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.E.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estimación de la probabilidad a partir del concepto de frecuencia relativa."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      994
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.E.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cálculo de probabilidades en experimentos simples: la regla de Laplace en situaciones de equiprobabilidad y en combinación con diferentes técnicas de recuento."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      994
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "E.3",
+              "nombre": {
+                "es": "Inferencia"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.E.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Análisis de muestras unidimensionales y bidimensionales con herramientas tecnológicas con el fin de emitir juicios y tomar decisiones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      994
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sentido socioafectivo"
+          },
+          "apartados": [
+            {
+              "codigo": "F.1",
+              "nombre": {
+                "es": "Creencias, actitudes y"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.F.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "emociones:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      995
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.F.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Destrezas de autoconciencia encaminadas a reconocer emociones propias, afrontando eventuales situaciones de estrés y ansiedad en el aprendizaje de las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      995
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.F.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Tratamiento del error, individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      995
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "F.2",
+              "nombre": {
+                "es": "Trabajo en equipo, toma de"
+              },
+              "saberes": [
+                {
+                  "id": "M.1.F.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "decisiones, inclusión, respeto y diversidad:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      995
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.F.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento y aceptación de diversos planteamientos en la resolución de problemas y tareas matemáticas, transformando los enfoques de los demás en nuevas y mejoradas estrategias propias, mostrando empatía y respeto en el proceso."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      995
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.F.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Técnicas y estrategias de trabajo en equipo para la resolución de problemas y tareas matemáticas, en equipos heterogéneos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      995
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.F.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud y prestación de ayuda cuando sea necesario."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      995
+                    ]
+                  }
+                },
+                {
+                  "id": "M.1.F.2.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo largo de la historia en el avance de la ciencia y la tecnología."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      995
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Manejar diferentes estrategias y herramientas, incluidas las digitales, que modelizan y resuelven problemas de la vida cotidiana y de la ciencia y la tecnología, seleccionando las más adecuadas según su eficiencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              977
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Obtener todas las posibles soluciones matemáticas de problemas de la vida cotidiana y de la ciencia y la tecnología, describiendo el procedimiento utilizado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              977
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Demostrar la validez matemática de las posibles soluciones de un problema utilizando el razonamiento y la argumentación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              977
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar la solución más adecuada de un problema en función del contexto (de sostenibilidad, de consumo responsable, equidad...) usando el razonamiento y la argumentación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              977
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Adquirir nuevo conocimiento matemático mediante la formulación, razonamiento y justificación de conjeturas y problemas de forma autónoma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Integrar el uso de herramientas tecnológicas en la formulación o investigación de conjeturas y problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar, modelizar y resolver situaciones problematizadas de la vida cotidiana y de la ciencia y la tecnología, utilizando el pensamiento computacional, modificando, creando y generalizando algoritmos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Demostrar una visión matemática integrada, investigando y conectando las diferentes ideas matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Resolver problemas en contextos matemáticos estableciendo y aplicando conexiones entre las diferentes ideas matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              978
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Resolver problemas en situaciones diversas, utilizando procesos matemáticos, estableciendo y aplicando conexiones entre el mundo real, otras materias y las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              979
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar la aportación de las matemáticas al progreso de la humanidad, reflexionando sobre su contribución en la propuesta de soluciones a situaciones complejas y a los retos científicos y tecnológicos que se plantean en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              979
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Representar ideas matemáticas estructurando diferentes razonamientos matemáticos y seleccionando las tecnologías más adecuadas para la resolución de problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              979
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Seleccionar y utilizar diversas formas de representación valorando su utilidad para compartir información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              979
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Mostrar organización al comunicar las ideas matemáticas empleando el soporte, la terminología y el rigor apropiados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Reconocer y emplear el lenguaje matemático en diferentes contextos, comunicando la información con precisión y rigor."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        },
+        {
+          "id": "cri-2-9-2",
+          "codigoOficial": "9.2",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Mostrar una actitud positiva y perseverante, aceptando y aprendiendo de la crítica razonada al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        },
+        {
+          "id": "cri-2-9-3",
+          "codigoOficial": "9.3",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Trabajar en tareas matemáticas de forma activa en equipos heterogéneos, respetando las emociones y experiencias de los demás, escuchando su razonamiento, aplicando las habilidades sociales más propicias y fomentando el bienestar del equipo y las relaciones saludables."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        },
+        {
+          "id": "cri-2-9-1",
+          "codigoOficial": "9.1",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Afrontar las situaciones de incertidumbre y tomar decisiones evaluando distintas opciones, identificando y gestionando emociones, y aceptando y aprendiendo del error como parte del proceso de aprendizaje de las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              980
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "apartados": [
+            {
+              "codigo": "A.1",
+              "nombre": {
+                "es": "Sentido de las operaciones"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.A.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Adición y producto de vectores y matrices: interpretación, comprensión y uso adecuado de las propiedades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      996
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.A.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para operar con números reales, vectores y matrices: cálculo mental o escrito en los casos sencillos y con herramientas tecnológicas en los casos más complicados."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      996
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.2",
+              "nombre": {
+                "es": "Relaciones"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.A.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conjuntos de vectores: estructura, comprensión y propiedades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      996
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Medición"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de problemas que impliquen medidas de longitud, superficie o volumen en un sistema de coordenadas cartesianas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      996
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.B.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Interpretación de la integral definida como el área bajo una curva."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      996
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.B.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cálculo de áreas bajo una curva: técnicas elementales para el cálculo de primitivas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      996
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.B.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Técnicas para la aplicación del concepto de integral a la resolución de problemas que impliquen cálculo de superficies planas o volúmenes de revolución."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      996
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Cambio"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.B.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Derivadas: interpretación y aplicación al cálculo de límites."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      997
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.B.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de los conceptos de límite, continuidad y derivabilidad a la representación y al estudio de situaciones susceptibles de ser modelizadas mediante funciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      997
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.B.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La derivada como razón de cambio en la resolución de problemas de optimización en contextos diversos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      997
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido espacial"
+          },
+          "apartados": [
+            {
+              "codigo": "C.1",
+              "nombre": {
+                "es": "Formas geométricas de dos y"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.C.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "tres dimensiones:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      998
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.C.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Objetos geométricos de tres dimensiones: análisis de las propiedades y determinación de sus atributos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      998
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.C.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de problemas relativos a objetos geométricos en el espacio representados con coordenadas cartesianas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      998
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.2",
+              "nombre": {
+                "es": "Localización y sistemas de"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.C.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "representación:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      998
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.C.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones de objetos geométricos en el espacio: representación y exploración con ayuda de herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      998
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.C.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Expresiones algebraicas de los objetos geométricos en el espacio: selección de la más adecuada en función de la situación a resolver."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      998
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.C.2.4",
+                  "codigoOficial": "C3",
+                  "texto": {
+                    "es": "Visualización, razonamiento y modelización geométrica:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      998
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.C.2.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Representación de objetos geométricos en el espacio mediante herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      998
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.C.2.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Modelos matemáticos (geométricos, algebraicos...) para resolver problemas en el espacio. Conexiones con otras disciplinas y áreas de interés."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      999
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.C.2.7",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conjeturas geométricas en el espacio: validación por medio de la deducción y la demostración de teoremas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      999
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.C.2.8",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Modelización de la posición y el movimiento de un objeto en el espacio utilizando vectores."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      999
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido algebraico"
+          },
+          "apartados": [
+            {
+              "codigo": "D.1",
+              "nombre": {
+                "es": "Patrones"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.D.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Generalización de patrones en situaciones diversas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      999
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.2",
+              "nombre": {
+                "es": "Modelo matemático"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.D.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones cuantitativas en situaciones complejas: estrategias identificación y determinación de la clase o clases de funciones que pueden modelizarlas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      999
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.D.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Sistemas de ecuaciones: modelización de situaciones en diversos contextos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      999
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.D.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Técnicas y uso de matrices para, al menos, modelizar situaciones en las que aparezcan sistemas de ecuaciones lineales o grafos"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      999
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.3",
+              "nombre": {
+                "es": "Igualdad y desigualdad"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.D.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Formas equivalentes de expresiones algebraicas en la resolución de sistemas de ecuaciones e inecuaciones, mediante cálculo mental, algoritmos de lápiz papel, y con herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      999
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.D.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de sistemas de ecuaciones en diferentes contextos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      999
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.4",
+              "nombre": {
+                "es": "Relaciones y funciones"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.D.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Representación, análisis e interpretación de funciones con herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1000
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.D.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Propiedades de las distintas clases de funciones: comprensión y comparación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1000
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.5",
+              "nombre": {
+                "es": "Pensamiento computacional"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.D.5.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Formulación, resolución y análisis de problemas de la vida cotidiana y de la Ciencia y la Tecnología empleando las herramientas o los programas más adecuados."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1001
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.D.5.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Análisis algorítmico de las propiedades de las operaciones con matrices, los determinantes y la resolución de sistemas de ecuaciones lineales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1001
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "apartados": [
+            {
+              "codigo": "E.1",
+              "nombre": {
+                "es": "Incertidumbre"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.E.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La probabilidad como medida de la incertidumbre asociada a fenómenos estocásticos: interpretación subjetiva, clásica y frecuentista"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1001
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.E.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cálculo de probabilidades en experimentos compuestos. Probabilidad condicionada e independencia entre sucesos aleatorios. Diagramas de árbol y tablas de contingencia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1001
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.E.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Teoremas de la probabilidad total y de Bayes: resolución de problemas e interpretación del teorema de Bayes para actualizar la probabilidad a partir de la observación y la experimentación y la toma de decisiones en condiciones de incertidumbre."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1001
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "E.2",
+              "nombre": {
+                "es": "Distribuciones de probabilidad"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.E.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Variables aleatorias discretas y continuas. Parámetros de la distribución."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1002
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.E.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Modelización de fenómenos estocásticos mediante las distribuciones de probabilidad binomial y normal. Cálculo de probabilidades asociadas mediante herramientas tecnológicas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1002
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sentido socioafectivo"
+          },
+          "apartados": [
+            {
+              "codigo": "F.1",
+              "nombre": {
+                "es": "Creencias, actitudes y"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.F.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "emociones:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1002
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.F.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Destrezas de autoconciencia encaminadas a reconocer emociones propias, afrontando eventuales situaciones de estrés y ansiedad en el aprendizaje de las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1002
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.F.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Tratamiento del error, individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1002
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "F.2",
+              "nombre": {
+                "es": "Trabajo en equipo, toma de"
+              },
+              "saberes": [
+                {
+                  "id": "M.2.F.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "decisiones, inclusión, respeto y diversidad:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1003
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.F.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Destrezas para evaluar diferentes opciones y tomar decisiones en la resolución de problemas y tareas matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1003
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.F.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Destrezas sociales y de comunicación efectivas para el éxito en el aprendizaje de las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1003
+                    ]
+                  }
+                },
+                {
+                  "id": "M.2.F.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo largo de la historia en el avance de la ciencia y la tecnología."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      1003
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

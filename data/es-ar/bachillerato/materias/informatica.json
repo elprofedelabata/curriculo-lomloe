@@ -1,0 +1,1301 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.bachillerato.informatica",
+  "territorio": "es-ar",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "I",
+    "nombre": {
+      "es": "Informática"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      },
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-157-orden-ecd-1173-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1173/2022, de 3 de agosto, por la que se aprueban el currículo y las características de la evaluación del Bachillerato y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "157",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "1234566820909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234566820909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926626&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 711,
+        "hasta": 739
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Es difícil concebir, en la actualidad, un desarrollo tanto social como empresarial sin participación de la Informática, ya que se considera, de manera generalizada, un factor clave para la innovación tecnológica y la competitividad. Es fundamental, por ello, conseguir que la ciudadanía disponga de las suficientes competencias digitales que le capaciten para el aprovechamiento de las ventajas que las tecnologías le brindan, pero, también, es necesario disponer de ciudadanos cualificados para satisfacer la demanda que tanto la sociedad como la empresa tendrá para el desarrollo de los sistemas informáticos necesarios.",
+      "La formación digital con materias en la etapa obligatoria con relación con la Digitalización, ha permitido que el alumnado alcance con una cierta solidez una competencia digital, espíritu crítico en el uso de tecnologías, y un conocimiento amplio de las posibilidades que la Informática ofrece a la sociedad.",
+      "La etapa de Bachillerato persigue afianzar en todo el alumnado, mediante la transversalidad, dichas competencias digitales. Sin embargo, al igual que se establece en la Agenda España Digital 2025 con sus líneas 3, centrada en las competencias digitales, y la línea 7, centrada en fomentar las vocaciones en especialistas en Tecnologías digitales, se debe distinguir la competencia en una cierta área del saber del conocimiento sólido y profundo de la disciplina que subyace en esas aptitudes competenciales. Lo mismo sucede con las competencias digitales y con el conocimiento de la ciencia que sustenta dichas competencias: la Informática.",
+      "Tal y como se expresa en el informe (CODII 2018), “la adquisición de la competencia digital busca que el alumnado sea competente en el uso de la Informática, es decir, que sepa manejar los dispositivos digitales (computadores, tabletas, consolas de juegos, teléfonos móviles, etc.) y sus programas. Son conocimientos de carácter práctico, que no precisan unos grandes conocimientos conceptuales o procedimentales. La adquisición de esta segunda clase de conocimientos es el objetivo de la Informática propiamente dicha, que facilitaría un uso más eficaz de la competencia digital.”",
+      "Es necesario que los ciudadanos del futuro conozcan la disciplina Informática para manejarse en una sociedad cada vez más digital en todos los sentidos, independientemente de su futuro profesional. La educación en Informática es fundamental para formar a los ciudadanos del mañana, no sólo por el impacto del pensamiento computacional y las competencias digitales en la empleabilidad, sino en la vida diaria, al estar inmersos en un proceso de transición digital acelerada.",
+      "Por ello, el propósito de la materia de Informática es, además de aumentar en el alumnado su nivel de competencia digital, dotarlo de un conocimiento fundamental de la disciplina Informática, cubriendo gran parte de las materias que informes como (ACM e IEEE Computing Society 2013) proponen y que abarcan la arquitectura de computadores, redes y comunicaciones, gestión de la información, seguridad o programación, entre otras.",
+      "Es, además, necesario introducir curricularmente la perspectiva de género, si atendemos a los datos contundentes de informes como el de la Unesco (2019), que constatan la infrarrepresentación de las mujeres en las vocaciones científico-tecnológicas, cifras que se vuelven realmente escandalosas en el caso de las Tecnologías digitales y la programación. Es necesario continuar impulsando en Bachillerato la vocación en ciencias como la Informática en ambos sexos, impulso que comienza desde las etapas escolares tempranas, para conseguir que exista representatividad suficiente en estos campos donde se aborda la resolución de problemas. Para ello habrá que incluir de forma intencional referentes femeninos, y evitar los lugares comunes y sesgos anclados culturalmente acerca de la inclinación “natural” de unos y otras.",
+      "También, y con el objetivo de conferir un enfoque competencial a la materia, es conveniente que los saberes puedan confluir en proyectos que supongan situaciones de aprendizaje contextualizadas, en las que el alumnado pueda aplicar sus conocimientos y destrezas para dar solución a una necesidad concreta, que puede emerger de un contexto personal, social o cultural, a nivel local o global con una actitud de compromiso creciente. De este modo, se favorece la creación de vínculos entre el entorno educativo y otros sectores sociales, económicos o de investigación.",
+      "A tenor de este enfoque competencial y práctico, la propuesta de situaciones de aprendizaje ligadas a proyectos interdisciplinares en las que el alumnado pueda explorar, descubrir, experimentar y reflexionar desde la práctica en un espacio que permita incorporar técnicas de trabajo, prototipado rápido y fabricación offline, a modo de taller o",
+      "laboratorio de fabricación, supone una opción que aporta un gran potencial de desarrollo, en consonancia con las demandas de nuestra sociedad y de nuestro sistema productivo.",
+      "La materia se articula en torno a seis bloques de saberes básicos, cuyos contenidos deben interrelacionarse a través del desarrollo de situaciones de aprendizaje competenciales y actividades o proyectos de carácter práctico.",
+      "El bloque «Computadores y sistemas operativos» comprende una serie de saberes básicos imprescindibles para el resto de bloques. El conocimiento de los componentes básicos del denominado sistema informático, hardware y software, es esencial en la materia de Informática. Este conocimiento abarca tanto la arquitectura y componentes de dispositivos hardware como de la instalación y configuración de los sistemas operativos (software). Se persigue conocer la evolución histórica de la tecnología de los computadores y de las tendencias futuras. El bloque de «Redes de computadores e internet» detalla la evolución histórica de la red Internet, desde su origen en ARPANET hasta la actualidad. Contiene los saberes básicos para comprender cuáles son las componentes tanto físicas como lógicas que intervienen en el funcionamiento de las redes basadas en los protocolos TCP/IP y los saberes prácticos que permitirán realizar el montaje y configuración de redes locales sencillas, comprendiendo, de esta manera, aquellas más habituales, tanto en los hogares como en los entornos de trabajo.",
+      "Se extiende el conocimiento de las redes de computadores a la red pública y global Internet partiendo del origen de la World Wide Web hasta su evolución en la web 2.0. Se recogen en este bloque los conceptos y tecnologías básicas que permiten la creación de las páginas web, como es el lenguaje HTML y los lenguajes de scripting, así como su uso para crear páginas web sencillas. El bloque de «Programación» introduce al alumnado en el pensamiento computacional, con el análisis de problemas sencillos cuya solución puede ser llevada a un computador. Se sientan las bases de las fases del desarrollo de software y se introducen lenguajes de modelización, así como las estructuras básicas que componen un programa para computador: secuencia, selección e iteración.",
+      "En este bloque de contenidos se continúa con las nociones de pensamiento computacional, centrándose en el paradigma de programación orientado a objetos. Tras mostrar los principios básicos de la programación Orientada a Objetos, se introducen lenguajes de modelización como UML y, en particular, los diagramas de actividad y de clases, que serán la base para el análisis y diseño de soluciones a ser implementadas en lenguajes textuales utilizando entornos de desarrollo libres.",
+      "El bloque «Datos» está enfocado, en una primera aproximación, en la gestión de los datos que pueda ser de utilidad para el alumnado, desde un sencillo manejo de las herramientas que proporciona el software de hoja de cálculo hasta el diseño completo de una base de datos relacional sencilla y su implementación en un sistema gestor de bases de datos.",
+      "Este bloque también incluye una introducción a los datos masivos o big data, que se está convirtiendo en un fenómeno que está cambiando las sociedades y los modelos de negocio de las empresas. Esta revolución de datos masivos se sustenta en la capacidad que tienen nuestros dispositivos móviles de generar y captar datos, las posibilidades que ofrece el internet de las cosas, y el poder actual de las redes sociales.",
+      "El bloque «Inteligencia artificial» incluye una introducción conceptual e histórica al campo de la inteligencia artificial, junto con la definición de los elementos básicos de un sistema de este tipo. También es necesario conocer su impacto en la sociedad, a nivel ético, legal y sostenible.",
+      "También engloba la descripción de los bloques básicos de un sistema de inteligencia artificial: percepción, actuación, representación, razonamiento, aprendizaje, motivación, inteligencia colectiva y sostenibilidad/ética/aspectos legales; identificándolos en un caso de uso concreto.",
+      "En el bloque «Seguridad Informática», el alumnado aprenderá qué es aquello que debe proteger: los dispositivos, el software, los datos, las comunicaciones y su propia persona en lo que refiere a su interacción con la red.",
+      "De igual forma, aprenderá de qué debe protegerse, conociendo las posibles amenazas para un sistema de computación y como defenderse de las mismas, desde las medidas para el control de acceso a dispositivos y comunicaciones, como aquellas para la protección de los datos y las aplicaciones, asegurando tanto la confidencialidad como la integridad de los mismos.",
+      "También se familiarizará al alumnado con conceptos relacionados con la seguridad Informática necesarios para comprender el mundo que nos rodea y las noticias diarias, especialmente relevantes son en el momento actual, los antivirus, la criptografía, las criptomonedas y la tecnología blockchain."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Conocer la evolución histórica de la Informática y el origen de los computadores, así como los conceptos básicos de hardware y software como elementos de un sistema informático que procesa información, realizando el montaje y configuración de dichos elementos."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia al conocimiento de los distintos elementos y tecnologías que se han utilizado a lo largo de la historia y que culminaron con la “invención” del computador para el procesamiento de la información.",
+          "La competencia engloba aspectos técnicos relativos al hardware y al software de los sistemas informáticos, tanto computadores como dispositivos móviles. El objetivo que persigue esta competencia específica es dotar al alumnado de destrezas relativas al montaje y mantenimiento de dispositivos, al ajuste de los mismos y la configuración del software requerido para su uso.",
+          "También se incluyen aspectos más conceptuales en cuanto a las líneas de investigación en los computadores del futuro y el conocimiento de los distintos tipos de licencias de software existentes.",
+          "Esta competencia está relacionada con el resto de competencias específicas de esta materia, ya que constituye la base tecnológica sobre la que se desarrollan el resto.",
+          "En cuanto a competencias específicas de otras materias, está relacionada con las competencias CE.TI.3 y CE.TI.5 de la materia Tecnología e Ingeniería, ya que dichas competencias hacen referencia al uso y creación de sistemas informáticos. Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM3, CD1, CD2, CD3, CD5, CPSAA1.1, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          713
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Conocer las componentes básicas y fundamentos técnicos de funcionamiento de las redes con las que interactúa, así como los servicios habituales de la red Internet, instalando, configurando y usando dichas redes y servicios aplicando competencias propias para la resolución de problemas."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia al conocimiento de la evolución de las redes Informáticas hasta la red global Internet y los servicios que ofrece.",
+          "Recoge aspectos técnicos relativos a las componentes hardware que forman las redes, así como aquellos aspectos",
+          "lógicos que rigen su funcionamiento. El alumnado debe adquirir destrezas relativas al montaje y mantenimiento de redes y servicios, su uso, configuración y la resolución de problemas.",
+          "Esta competencia está relacionada con la competencia CE.I.1. ya que los conceptos de hardware y software que trata dicha competencia son utilizados en el estudio de las redes de computadores e internet. Asimismo, se relaciona con la competencia CE.I.6. en lo que hace referencia a la seguridad Informática en el uso de internet.",
+          "En cuanto a competencias específicas de otras materias, está relacionada con las competencias CE.TI.3 y CE.TI.5 de la materia Tecnología e Ingeniería, ya que dichas competencias hacen referencia al uso y creación de sistemas informáticos.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM3, CD1, CD2, CD3, CD4, CD5, CPSAA1.2, CPSAA2.2, CPSAA3.1, CPSAA3.2, CE1, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          713,
+          714
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Aplicar el pensamiento computacional para analizar, diseñar e implementar sistemas de computación en entornos diversos: computadores, entorno web, dispositivos móviles y sistemas físicos y aplicar procedimientos rigurosos de prueba y depuración de programas, así como de resolución de problemas en todas las fases de desarrollo de software."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia al pensamiento computacional y a su aplicación a la resolución de problemas, haciendo hincapié en las diferentes fases de la programación, especialmente en la implementación.",
+          "El desarrollo de software es una competencia cada día más necesaria en el mercado laboral e, incluso, en la vida diaria. Aprender a programar refuerza capacidades y habilidades como la resolución de problemas, las capacidades lógicas y espaciales, el nivel de abstracción, la atención y la concentración.",
+          "Esta competencia está relacionada con el resto de competencias específicas de la materia, ya que la programación se utiliza en todos los ámbitos que abarcan dichas competencias.",
+          "En cuanto a competencias específicas de otras materias, está relacionada con las competencias CE.TI.3 y CE.TI.5 de la materia Tecnología e Ingeniería, ya que dichas competencias hacen referencia al uso y creación de sistemas informáticos, que están muy relacionadas con el pensamiento computacional.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM3, CD5."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          714
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar un software de hoja de cálculo para el manejo sencillo de información, realizar el diseño completo de una base de datos relacional sencilla plasmado en un sistema gestor de bases de datos relacional en entorno ofimático, y conocer y comprender la noción de datos masivos, así como las oportunidades y riesgos, tanto sociales como personales, de su tratamiento."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica plantea, tanto el manejo de datos que pueden ser de utilidad para el alumnado, como el conocimiento del concepto de datos masivos. El entorno y volumen de dichos datos es sustancialmente distinto, ya que en el primer caso estamos hablando de datos almacenados localmente en un computador; mientras que en el",
+          "segundo caso se hace referencia a una gran cantidad de datos que están almacenados en la nube.",
+          "El manejo de los datos almacenados localmente se puede realizar de manera sencilla mediante un software de hoja de cálculo como herramienta de obtención de información, o bien mediante el diseño completo de una base de datos relacional. Este diseño completo incluye una primera abstracción de un problema sencillo del mundo real descrito en lenguaje natural, cuyo primer producto es un diagrama entidad-interrelación que representa el diseño conceptual de la base de datos.",
+          "Este modelo conceptual se debe transformar en un modelo lógico relacional que se pueda implementar en un sistema gestor de bases de datos, utilizando todas las herramientas que incluye dicho software, tanto en la interfaz gráfica como la utilización del lenguaje SQL para la manipulación de datos. En el caso del tratamiento de datos masivos, big data, esta competencia específica tiene como objetivo que el alumnado reconozca la presencia y la generación continua de datos digitales, sus implicaciones y sus repercusiones en la sociedad, fomentando una actitud crítica y responsable en el uso de dispositivos, aplicaciones y redes sociales obtenida a partir del estudio de sus fortalezas y debilidades.",
+          "Esta competencia específica está relacionada con la competencia CE.I.1. ya que se abordan temas relacionados con el uso de software específico para el tratamiento de bases de datos. En el ámbito de los datos masivos, se relaciona con la competencia específica CE.I.5 ya que en el tratamiento del big data se pueden utilizar técnicas de inteligencia artificial. En cuanto a competencias específicas de otras materias, está relacionada con las competencias CE.TI.3 y CE.TI.5 de la materia Tecnología e Ingeniería, ya que dichas competencias hacen referencia al uso y creación de sistemas informáticos.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD4, CD5, CPSAA4, CE1, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          714,
+          715
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Comprender los principios básicos de funcionamiento de la inteligencia artificial y su impacto en nuestra sociedad, conocer los diferentes elementos de la inteligencia artificial y los bloques básicos para ser capaces de construir sistemas sencillos: uno de aprendizaje automático y otro que interactúe con el mundo real a través de un dispositivo móvil que abarque como mínimo los bloques de percepción y actuación."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia a los conceptos fundamentales en los que se basa la inteligencia artificial con sus aplicaciones actuales, pero también conociendo su evolución histórica desde los trabajos iniciales de Alan Turing. También es necesario identificar los diferentes elementos de inteligencia artificial existentes y sus implicaciones en la sociedad actual.",
+          "De todos estos elementos, se tratan con más detalle los sistemas de aprendizaje automático, identificando sus diferentes tipos y realizando la construcción de un sistema sencillo de aprendizaje automático (Lane, 2021).",
+          "En esta competencia se incluye también el estudio de los bloques básicos de un sistema de inteligencia artificial: percepción, actuación, representación, razonamiento, aprendizaje, motivación, inteligencia colectiva y sostenibilidad/ética/aspectos legales. El objetivo final es el diseño de un sistema sencillo para dispositivos móviles en el que se utilicen como mínimo técnicas de percepción y actuación (Bellas, F. Duro, R.,2022).",
+          "La competencia engloba aspectos conceptuales para la descripción de los fundamentos básicos de la inteligencia artificial y aspectos prácticos en el diseño de los sistemas inteligentes.",
+          "Esta competencia específica está relacionada con la competencia CE.I.3. ya que se utiliza la programación para el diseño de sistemas de inteligencia artificial. Asimismo, se relaciona con competencia CE.I.4 en el ámbito del uso de la inteligencia artificial en el tratamiento de los datos masivos.",
+          "En cuanto a competencias específicas de otras materias, está relacionada con las competencias CE.TI.3 y CE.TI.5 de la materia Tecnología e Ingeniería, ya que dichas competencias hacen referencia al uso y creación de sistemas informáticos.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM2, STEM3, CD1, CD4, CD5, CPSAA3.2, CE1, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          715,
+          716
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Conocer y saber aplicar los principios fundamentales de la seguridad Informática y desarrollar hábitos que fomenten el bienestar digital, aplicando medidas preventivas y correctivas, para proteger dispositivos, comunicaciones, datos personales y la propia salud en relación con la tecnología."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia a la necesidad de desenvolvernos con seguridad y bienestar en nuestra vida digital.",
+          "Comprender las medidas de seguridad que han de adoptarse para cuidar dispositivos, datos personales y la salud individual. La estrecha interacción que se tiene de forma habitual con la tecnología y con los dispositivos aumenta la exposición a riesgos, amenazas y ataques. Por eso, el alumnado debe adquirir hábitos que le permitan preservar y cuidar su bienestar y su identidad digital, aprendiendo a protegerse ante posibles amenazas que supongan un riesgo para la salud física y mental y adquiriendo pautas adecuadas de respuesta, eligiendo la mejor opción y evaluando el bienestar individual y colectivo.",
+          "Problemas como las fake news, los virus informáticos y los ciber-robos están muy presentes en nuestro día a día, en parte, porque la ciudadanía aún no está preparada para protegerse de estos nuevos peligros, o no comprenden nuevas tecnologías, como las cadenas de bloques, cosa que debemos evitar en el futuro.",
+          "Esta competencia está relacionada con las competencias CE.I.1 y CE.I.2, ya que los conocimientos y hábitos desarrollados en ellas necesitan ser ampliados con conceptos como la seguridad Informática y el bienestar digital que se tratan en esta competencia.",
+          "En cuanto a competencias específicas de otras materias, está relacionada con las competencias CE.TI.3 y CE.TI.5 de la materia Tecnología e Ingeniería, ya que dichas competencias hacen referencia al uso y creación de sistemas informáticos.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CD3, CD4, CD5."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          716
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer la evolución de los elementos tecnológicos que han surgido información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Situar en el tiempo el “nacimiento” del computador como se conoce investigación de los computadores del futuro."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los distintos elementos hardware que forman parte de un montaje básico"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Instalar y mantener sistemas operativos configurando sus funciones en un dispositivo móvil."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-5",
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer las características que distinguen al software privativo del"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-6",
+          "codigoOficial": "1.6",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Evaluar los distintos tipos de licencias de software."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer la evolución histórica de la red, entendiendo su necesidad y propósito, así como la importancia actual de la misma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprender el concepto de red de dispositivos e identificar los elementos físicos (hardware) y lógicos (software) de una red doméstica, así como el propósito y función de los mismos"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y comprender la necesidad de las distintas arquitecturas de red existentes y en particular, la arquitectura basada en la pila de protocolos TCP/IP."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-4",
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conectar dispositivos, configurar y gestionar redes locales aplicando los conocimientos y procesos asociados a sistemas de comunicación alámbrica e inalámbrica con una actitud proactiva."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-5",
+          "codigoOficial": "2.5",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Utilizar recursos compartidos en red, configurando accesos y privilegios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer y aplicar las estructuras más básicas de los lenguajes de programación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717,
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Comprender las diferentes fases del desarrollo de software, aplicándolas a pequeños problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar el pensamiento computacional y aplicar metodologías de análisis top-down para el diseño modular."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer las herramientas que nos suministra el software de hoja de cálculo para la obtención de información almacenada en forma de tabla."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar el diagrama entidad-interrelación para representar el modelo conceptual de datos de una situación sencilla del mundo real descrita en lenguaje natural."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer los conceptos fundamentales del modelo de datos relacional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Transformar el modelo conceptual de datos a un modelo de datos relacional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-5",
+          "codigoOficial": "4.5",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar un sistema gestor de bases de datos relacionales en entorno ofimático para implementar el modelo relacional obtenido, incluyendo la creación de formularios, informes y consultas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-6",
+          "codigoOficial": "4.6",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar consultas en lenguaje SQL para la manipulación de datos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Definir el concepto de inteligencia artificial y conocer su evolución histórica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar los diferentes campos de aplicación de la inteligencia artificial y conocer las consecuencias sociales de su uso en niveles como: la igualdad de raza y género, el desempleo, la toma de decisiones morales y la influencia en la privacidad de los usuarios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-4",
+          "codigoOficial": "5.4",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer las implicaciones legales del uso de sistemas autónomos e inteligentes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-5",
+          "codigoOficial": "5.5",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Distinguir los distintos elementos de inteligencia artificial: visión artificial y procesamiento de imágenes, procesamiento del lenguaje natural, reconocimiento de voz, robótica inteligente y aprendizaje automático."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-6",
+          "codigoOficial": "5.6",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer el funcionamiento de los sistemas de aprendizaje automático, identificar los tipos de sistemas de aprendizaje automático."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-7",
+          "codigoOficial": "5.7",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Diseñar un sistema sencillo e inteligente de aprendizaje automático que reconozca voz, imágenes o texto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Saber desenvolverse en el uso diario de las nuevas tecnologías con también ante errores de software o hardware y ante el mal uso de la tecnología."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              719
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Conocer la evolución histórica de la criptografía, a lo largo de toda entendiendo su necesidad y propósito, así como la importancia actual de"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              719
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Identificar y saber reaccionar ante situaciones relacionadas con las nuevas la mejor solución entre diversas opciones, desarrollando prácticas saludables como colectivo. II. Saberes básicos"
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              719
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Computadores y sistemas operativos"
+          },
+          "saberes": [
+            {
+              "id": "I.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Evolución histórica de la Informática. La necesidad de procesamiento Informática y computador. Componentes de un sistema informático: hardware y software. Representación de la información. Hardware: computador y periféricos. Unidades funcionales de un computador. Tipos de periféricos. Elementos de un computador personal. Dispositivos móviles. Montaje y resolución de problemas. Software: sistema operativo y aplicaciones. Objetivos y funciones básicas de un sistema operativo. Software privativo vs software libre. Sistemas operativos actuales según el dispositivo. Tipos de licencias de software. Instalación y configuración de sistemas operativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  721
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Redes de computadores e Internet"
+          },
+          "saberes": [
+            {
+              "id": "I.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Visión histórica: de ARPANET a la Internet ubicua/web 3.0. Concepto de red. Introducción a los elementos físicos y lógicos. Tipos de red. Protocolos de red. Arquitecturas: modelo OSI vs Pila de protocolos TCP/IP. Parte física: elementos básicos de una instalación de red de área local. Tarjeta de red; cableado; switch; router. Instalación de redes domésticas sencillas. Parte lógica: protocolos TCP/IP; dirección IP, tipos. Puerta de enlace. Servicios DHCP y DNS. Configuración de redes TCP/IP en sistemas operativos. Compartir recursos en red"
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  722
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Programación"
+          },
+          "saberes": [
+            {
+              "id": "I.1.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Lenguajes de programación: historia, Al hacer una explicación de los lenguajes tipos y funcionamiento. Introducción en soportes físicos, como una tarjeta a la programación estructurada. Elementos de un programa: datos, variables, constantes, funciones básicas, condicionales, bucles, operaciones aritméticas y lógicas. Algoritmos y estructuras de resolución de problemas sencillos. Fases del proceso de desarrollo de software. Técnicas de análisis para resolver problemas. Diseño de aplicaciones. Diagramas de flujo. Pensamiento computacional. Diseño modular de programas: subprogramas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  722,
+                  723
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Datos"
+          },
+          "saberes": [
+            {
+              "id": "I.1.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tratamiento de datos con una hoja de cálculo. Conceptos fundamentales: tabla, registro, campo, campo/s clave. Obtención de información mediante ordenación, filtros y subtotales. Introducción a los modelos de datos: del modelo entidad-interrelación al modelo relacional. Conceptos básicos del modelo de datos relacional: relación, atributo, tupla, clave primaria y clave ajena. Sistemas Gestores de Bases de Datos Relacionales: definición de tablas, relaciones entre tablas, formularios, consultas e informes. Lenguaje SQL como lenguaje de manipulación de datos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  723
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Inteligencia artificial"
+          },
+          "saberes": [
+            {
+              "id": "I.1.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inteligencia artificial: definición, contexto histórico y aplicaciones. La inteligencia artificial en la sociedad: impacto, ética, responsabilidad social, beneficios y posibles riesgos. Elementos de inteligencia artificial: visión artificial y procesamiento de imágenes, procesamiento del lenguaje natural, reconocimiento de voz, robótica inteligente y aprendizaje automático. Aprendizaje automático: cómo funciona, tipos, aprendizaje profundo. Diseño de un sistema de aprendizaje automático."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  723,
+                  724
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer la evolución de la red Internet, desde el nacimiento de la WWW hasta la web 2.0, entendiendo sus aportaciones, así como la importancia actual de la misma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprender y usar las tecnologías propias de la WWW para la creación de páginas web sencillas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y usar los distintos servicios sociales y colaborativos propios de la web 2.0, y utilizarlos en función de las necesidades personales y de los proyectos de trabajo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-4",
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Instalar en servidores locales servicios propios de la web 2.0, configurando accesos y creando entornos locales de trabajo colaborativo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer y aplicar las estructuras más básicas de la programación orientada a objetos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              717,
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer y usar distintos entornos de desarrollo, lenguajes de programación y lenguajes de modelado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar sencillas páginas web, con interactividad mediante lenguajes de scripting."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Implementar sencillas aplicaciones para dispositivos móviles, diseñando las interfaces adecuadas según la aplicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-5",
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Montar y programar sistemas físicos que reaccionen a estados de su entorno."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer el concepto y las características de datos masivos. big data, y su relevancia en la sociedad actual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Identificar y reconocer la presencia de fuentes de datos masivas en su entorno en forma de sensores, dispositivos o información en la red Internet."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Evaluar las oportunidades y riesgos que puede tener el uso del tratamiento masivo de datos gestionados de manera abierta o privativa, usando para ellos ejemplos y situaciones concretas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Ser consciente de la importancia de la huella digital que deja cada individuo con los datos que genera y comparte, y establecer una actitud crítica para preservar la privacidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-5",
+          "codigoOficial": "4.5",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Recopilar información de algún sistema de datos abiertos para generar una visualización gráfica de dicha información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-6",
+          "codigoOficial": "4.6",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar técnicas de raspado de datos, data scraping, para crear nueva información y contenidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer los componentes/bloques básicos de un sistema de inteligencia artificial en el contexto del entorno con el que interactúa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Seleccionar un ejemplo de sistema inteligente e identificar los bloques básicos del sistema."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Diseñar un sistema inteligente sencillo, con el uso de dispositivos móviles, que comprenda como mínimo los bloques de percepción y actuación utilizando los sensores y actuadores básicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              718
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Redes de computadores e Internet"
+          },
+          "saberes": [
+            {
+              "id": "I.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "De la World Wide Web a la Web Social: Origen de la WWW. Tecnologías básicas de los documentos de hipertexto. El lenguaje de la WWW: HTML. Lenguajes de scripting. Herramientas de creación y publicación de contenidos en la web. La web social: origen, características y servicios fundamentales. La web como plataforma. Servicios propios de la web social. Uso de gestores de contenidos. Instalación en servidores propios."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  724,
+                  725
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Programación"
+          },
+          "saberes": [
+            {
+              "id": "I.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción a la programación orientada a objetos. Principios básicos: abstracción, encapsulación, herencia, polimorfismo. Lenguajes de modelización: UML. Diagrama de actividades y diagrama de clases. Entornos y lenguajes de desarrollo orientado a objetos. Análisis, diseño e implementación de programas sencillos. Prueba de programas. Herramientas de depuración. Programación para dispositivos móviles y entornos físicos. Interfaces de usuario. E/S. Sensores y actuadores."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  725
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Datos"
+          },
+          "saberes": [
+            {
+              "id": "I.2.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Big data: características, volumen de En la actividad diaria generamos datos generados, visualización, transporte y almacenaje de los datos. Recogida, análisis y generación de datos. Dispositivos que generan e interactúan con los datos. Las redes sociales como fuente de datos personales. Oportunidades y riesgos del tratamiento masivo de datos personales. La oportunidad de innovación mediante el uso de datos abiertos públicos. Periodismo de datos y data scraping."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  726
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Inteligencia Artificial"
+          },
+          "saberes": [
+            {
+              "id": "I.2.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Bloques básicos de un sistema de inteligencia artificial: percepción, representación, razonamiento, aprendizaje y actuación. Diseño de un sistema inteligente con uso como mínimo de los bloques de percepción y actuación."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  727
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Seguridad Informática"
+          },
+          "apartados": [
+            {
+              "codigo": "F.1",
+              "nombre": {
+                "es": "Concepto y principios de la"
+              },
+              "saberes": [
+                {
+                  "id": "I.2.F.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "seguridad Informática. Definición de seguridad activa y pasiva."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                },
+                {
+                  "id": "I.2.F.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Seguridad activa: uso de contraseñas seguras, encriptación de datos y uso de software de seguridad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                },
+                {
+                  "id": "I.2.F.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Seguridad pasiva: dispositivos físicos de protección, elaboración de copias de seguridad y particiones del disco duro."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "F.2",
+              "nombre": {
+                "es": "Riesgos en el uso de equipos"
+              },
+              "saberes": [
+                {
+                  "id": "I.2.F.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "informáticos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                },
+                {
+                  "id": "I.2.F.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Tipos de malware y de virus. Instalación y uso de programas antimalware, antivirus y antiespías."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                },
+                {
+                  "id": "I.2.F.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Importancia de la actualización del software. Control de acceso: usuarios, roles, privilegios."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                },
+                {
+                  "id": "I.2.F.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Copias de seguridad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                },
+                {
+                  "id": "I.2.F.2.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aseguramiento de las comunicaciones: configuración de dispositivos hardware de comunicaciones. Estándares de seguridad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                },
+                {
+                  "id": "I.2.F.2.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Privacidad. Protección de la identidad digital. Relación sana con la red. Netiqueta."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                },
+                {
+                  "id": "I.2.F.2.7",
+                  "codigoOficial": "F3",
+                  "texto": {
+                    "es": "Criptografía: Historia desde la antigüedad al blockchain y las criptomonedas, tipos de cifrado, criptografía asimétrica."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      727
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

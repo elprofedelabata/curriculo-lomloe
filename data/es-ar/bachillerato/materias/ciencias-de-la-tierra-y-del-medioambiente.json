@@ -1,0 +1,1861 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.bachillerato.ciencias-de-la-tierra-y-del-medioambiente",
+  "territorio": "es-ar",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "CTM",
+    "nombre": {
+      "es": "Ciencias de la Tierra y del Medioambiente"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-157-orden-ecd-1173-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1173/2022, de 3 de agosto, por la que se aprueban el currículo y las características de la evaluación del Bachillerato y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "157",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "1234566820909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234566820909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926626&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 142,
+        "hasta": 158
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La asignatura de Ciencias de la Tierra y del Medioambiente aporta al alumnado los conocimientos necesarios para una comprensión rigurosa de los principales retos ambientales a los que la humanidad se enfrenta en la actualidad. Los contenidos son aptos para cualquier modalidad de bachillerato y responden a la creciente demanda por parte del alumnado de conocimientos relativos a la compleja situación ambiental en que nos encontramos. Los saberes básicos de la materia se estructuran en cinco bloques. El primero de ellos pretende acercar al alumnado los aspectos fundamentales de la ecología como ciencia multidisciplinar que, desde su aparición, se ha dedicado al estudio de los ecosistemas de nuestro planeta. Se incluyen también los métodos de estudio que habitualmente se usan en esta disciplina como son la modelización matemática y la dinámica de sistemas. Estos aspectos resultan necesarios para comprender el resto de bloques.",
+      "En el segundo bloque se profundiza en algunos de los aspectos más relevantes de la interacción humana con el medio en el que nos encontramos comenzando por una visión general de las etapas por las que nuestra especie ha pasado a lo largo de su existencia. De especial relevancia resulta el estudio de los impactos ambientales generados sobre los recursos naturales, incluida la biodiversidad, así como el desarrollo sostenible, alternativas al mismo y posibles soluciones ante los retos ambientales a los que nos enfrentamos actualmente. A modo de ejemplo, se revisan algunos accidentes ambientales planetarios y sus efectos. Se estudia la prevención, gestión y corrección de riesgos. Por último, se analizan las diferentes posturas humanas frente a la crisis ambiental y los conflictos de intereses entre colectivos humanos. El alumnado deberá asumir que no existen soluciones sencillas ni aquellas libres de incertidumbres.",
+      "El tercer bloque sobre derecho y políticas ambientales, sin pretender ser enciclopédico, se muestran algunas leyes europeas, españolas y aragonesas ambientales. También el carácter transversal de la protección ambiental que el contexto europeo obliga a todas las leyes, ordenación y gestión pública. Se da a conocer el catálogo de especies amenazadas e invasoras y los espacios naturales protegidos de Aragón. Se explica la Evaluación de Impacto Ambiental, sus etapas, cuándo y cómo se debe aplicar. También se presentan los sistemas de gestión y auditoría ambiental (EMAS e ISO 14.000) para empresas y administraciones. Los últimos y más relevantes acuerdos internacionales se dan a conocer, así como su repercusión en España. Además, se destaca el relevante papel del Seprona y los Agentes de Protección de la Naturaleza, en la vigilancia del cumplimiento de las leyes ambientales. Sobre políticas ambientales, se explican los incentivos económicos mediante impuestos que graven actividades contaminantes y ayudas a aquellas más sostenibles, las ecoetiquetas y el ecoblanqueo. Finalmente, se revisa en qué consiste la economía circular, sus ventajas y limitaciones.",
+      "Se incluye un bloque en el que se presentan los efectos en la salud de la contaminación, pero también del actual modelo agroalimentario. Se plantea el concepto de salud planetaria y se buscan paralelismos entre ésta y las derivadas en la salud humana.",
+      "Por último, se introducen algunos aspectos ambientales de la geología y de la ingeniería. Se dan a conocer algunos riesgos geológicos, los recursos energéticos y minerales geológicos, y su gestión. El uso y gestión de las aguas naturales, las conexiones entre aguas superficiales y subterráneas y los efectos de la sobreexplotación y la contaminación son abordados en esta parte. Se muestran algunos sistemas de control y vigilancia ambiental y su repercusión, como los que emplean las confederaciones hidrográficas (SAIH) y la red automática de calidad del aire de Zaragoza. También se revisa la gestión y tratamiento de aguas y residuos, la reducción, valorización y depósito. Se da a conocer el análisis del ciclo de vida y ecodiseño de productos y servicios, y qué herramientas tenemos para minimizar el impacto en la producción de bienes y servicios."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Comprender y explicar los diversos procesos que se producen en nuestro planeta utilizando los conocimientos científicos adecuados, para adquirir una visión holística del funcionamiento del medio natural."
+      },
+      "descripcion": {
+        "es": [
+          "Comprender los procesos del entorno e interpretarlos a la luz de los principios, leyes y teorías científicas fundamentales resulta esencial para el desarrollo de la competencia científica. A su vez, con esta competencia específica se contribuye a desarrollar el pensamiento científico, lo cual es clave para la creación de nuevos conocimientos.",
+          "Por otro lado, la aplicación de los conocimientos está en línea con los principios del aprendizaje STEM, que pretende adoptar un enfoque global de las ciencias como un todo integrado lo cual resulta esencial en el estudio del medio ambiente. El alumnado que cursa esta materia aprende a relacionar conceptos, encontrando en ella los conocimientos, destrezas y actitudes necesarios para una alfabetización científica general enfocada en el conocimiento del medio en el que vive y su protección.",
+          "Se vincula con las competencias específicas CE.CTM.2 de la propia materia ya que es fundamental comprender los procesos para poder argumentar sobre ellos y adoptar del mismo modo una actitud crítica (CE.CTM.3) Se pueden encontrar competencias similares en otras materias como en Geología (CE. GCA.4), Ciencias Generales (CE.CCG.2) o Biología (CE.B.4). Se vincula a su vez con la competencia CE.M.6 de Matemáticas ya que al igual que en la presente se busca a través de vínculos con otras áreas de conocimiento la visión holística a la que en la presente se hace referencia. La comprensión e interpretación de textos de diversa naturaleza intención y fiabilidad aparecen en las competencias CE.LCL.2 y CE.LCL.4 de Lengua Castellana y Literatura.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL2, CP1, STEM1, STEM2, STEM4, CD1 y CPSAA1.1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          142,
+          143
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Argumentar sobre la importancia de los hábitos sostenibles y saludables, basándose en fundamentos científicos, para adoptarlos y promoverlos en su entorno."
+      },
+      "descripcion": {
+        "es": [
+          "Actualmente uno de los mayores y más importantes retos a los que se enfrenta la humanidad es la degradación medioambiental que amenaza con poner en peligro el desarrollo económico y la sociedad de bienestar. Una condición indispensable para abordar este desafío es adoptar un modelo de desarrollo sostenible. Para ello, es esencial que la ciudadanía comprenda su dependencia del medio natural para así valorar la importancia de su conservación y actuar de forma consecuente y comprometida con este objetivo. Cabe también destacar que la adopción de hábitos sostenibles es sinónimo de mantenimiento y mejora de la salud, pues existe un estrecho vínculo entre el bienestar humano y la conservación de los pilares sobre los que este se sustenta.",
+          "La adquisición y desarrollo de esta competencia específica permitirá al alumnado comprender, a través del conocimiento del funcionamiento de su propio organismo y de los ecosistemas, la relación entre la salud, la conservación del medio ambiente y el desarrollo económico y social y convertirse así en personas comprometidas y críticas con los problemas de su tiempo.",
+          "Esta competencia específica está estrechamente relacionada con CE.CTM.1 y CE.CTM.3 de la propia materia, tal y como se indica en la competencia anterior.",
+          "Por otro lado, esta competencia se relaciona con las de otras materias que ponen el foco en la búsqueda y/o análisis",
+          "de la sostenibilidad en las conductas humanas de diversa índole y en la adopción de hábitos de vida saludables. Tal es el caso de la competencia específica CE.CCG.3. de Ciencias Generales, CE.B.5 de Biología, Geografía (CE.G.1 y CE.G.2), Historia de España (CE.HE.3), Historia del Mundo Contemporáneo (CE.HMC.5 y CE.HMC.6), Proyectos artísticos (CE.PA.10) y Educación Física (CE.EF.4) entre otras materias.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL2, STEM2, STEM4, CD2, CPSAA2, CC4 y CEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          143,
+          144
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Adoptar una actitud crítica basada en argumentos científicos relevantes, de actualidad y contrastables respecto a la situación medioambiental actual y los diferentes modelos de desarrollo, siendo capaz de comunicarlos eficazmente."
+      },
+      "descripcion": {
+        "es": [
+          "La situación medioambiental actual y los diversos modelos de desarrollo económico son temas que pueden resultar controvertidos, siendo de vital importancia para las generaciones futuras. Ser capaces de discernir entre información confiable y de relevancia respecto a estos temas resulta fundamental para la formación global de la persona así como para poder tomar decisiones correctamente motivadas en la vida diaria. Comprender los diferentes modelos de desarrollo de las sociedad y llegar a la conclusión, propia e informada, de que una condición indispensable para abordar este desafío es adoptar un modelo de desarrollo sostenible es primordial. Para ello, es esencial comprender nuestra dependencia del medio natural para así valorar la importancia de su conservación y actuar de forma consecuente y comprometida con este objetivo. Cabe también destacar que la adopción de hábitos sostenibles es sinónimo de mantenimiento y mejora de la salud, pues existe un estrecho vínculo entre el bienestar humano y la conservación de los pilares sobre los que este se sustenta.",
+          "La adquisición y desarrollo de esta competencia específica permitirá al alumnado comprender la necesidad de adquirir un modelo de desarrollo sostenible y de comunicarlo eficazmente a personas de su entorno con argumentos científicamente válidos.",
+          "Se vincula con las competencias CE.CTM.1, CE.CTM.2 y CE.CTM.4 de la propia materia ya que a través de ellas se consigue llegar a una comprensión de la situación medioambiental actual necesaria para poder tener una actitud crítica frente a la misma. La competencia CE.CTM.5 añade la singularidad de las situaciones propias de la comunidad de Aragón pudiendo adoptar dicha actitud crítica frente a las mismas.",
+          "Esta competencia específica se relaciona con las de otras materias que buscan la adopción de una actitud y, por ende, de un pensamiento crítico frente a la situación ambiental actual como es el caso de la CE.GCA.2 de Geología y CE.CCG.6 de Ciencias Generales.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL2, CCL3, CCL5, STEM2, STEM4, STEM5, CD1, CPSAA2, CPSSS.4, CC4 y CEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          144
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Comprender que el actual sistema económico no es sostenible a medio plazo y que un colapso económico y humano planetario es bastante razonable si no se toman medidas drásticas en la dirección correcta."
+      },
+      "descripcion": {
+        "es": [
+          "La sobreexposición mediática a informaciones relativas al cambio global ha tenido como consecuencia la asunción por parte de las administraciones y empresas de parte del discurso de sostenibilidad. Por desgracia, la parte asumida no conlleva drásticos cambios, ya que se admite que con un pequeño maquillaje se contenta a las presiones ecologistas. Por ello, conviene que el alumnado entienda que el actual sistema económico, basado en el consumismo, el",
+          "productivismo, en la obsolescencia programada, y en el crecimiento infinito del consumo de energía, materias primas, especies y territorios, está teniendo unas consecuencias severas, muchas de ellas irreversibles para el planeta pero también para la ciudadanía. Un nuevo modelo socioeconómico es obligado ante la crisis global.",
+          "La ciencia nos permite desarrollar modelos y simulaciones sobre futuros posibles. En todos ellos se prevé una reducción drástica de la población consecuencia del agotamiento de recursos naturales y de una creciente contaminación.",
+          "Por ello esta competencia específica pretende una reflexión sobre cómo hábitos de consumo, ocio, alimentación, viajes, etc, están teniendo ya efectos sociales e individuales. Además, mira más allá y propone la recuperación de hábitos que hace pocas generaciones eran frecuentes y que, a la postre, volverán a suponer mejoras colectivas y personales a medio y largo plazo. Se analizan tendencias como el movimiento lento, la simplicidad voluntaria, el ruralismo y el decrecimiento.",
+          "Esta competencia supone, de alguna manera, una recapitulación final de todas las anteriores (CE.CTM.1, CE.CTM.2 y CE.CTM.3), puesto que todos los elementos tratados previamente permiten alcanzar el conocimiento de la necesidad de superar el actual sistema socioeconómico mundial por otro sostenible que está por venir.",
+          "Además, y debido al eclecticismo de esta competencia tiene vínculos con la competencia específica CE.CG.3 de Ciencias Generales, la CE.FI.3, CE.FI.4 y CE.FI.8 de Filosofía, la competencia CE.G.1 de Geografía y las CE.HMC.2, CE.HMC.3, CE.HMC.5 y CE.HMC.6 de Historia del Mundo Contemporáneo.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL2, CCL5, STEM1, STEM2, STEM5, CPSAA3, CPSAA5, CC3, CC4 y CEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          144,
+          145
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Conocer y valorar el patrimonio natural aragonés y la necesidad de su conservación."
+      },
+      "descripcion": {
+        "es": [
+          "La Comunidad Autónoma de Aragón tiene una importante riqueza en cuanto a su patrimonio se refiere. Para conseguir que dicho patrimonio sea puesto en valor, protegido y conservado de forma efectiva es esencial que sea conocido. Es por ello que cuando hablamos de medioambiente que se conozca cual es la situación actual del patrimonio natural de Aragón es el punto de partida ya que, además, hacer referencia a situaciones reales, posiblemente conocidas e incluso cercanas para el alumnado le lleva a una mejor comprensión de los estudiado y a una mayor concienciación sobre la problemática existente.",
+          "Esta competencia específica pretende, por tanto, que el alumnado conozca el patrimonio natural aragonés, si no es su totalidad sí en parte, la legislación que lo protege y la necesidad de dicha protección bien por los servicios que nos aporta o simplemente por la conservación de los ecosistemas y sus singularidades. En esta competencia no solo cabe el patrimonio natural, sino también otros tipos de patrimonio como el agroalimentario.",
+          "Los objetivos de conservación actuales están estrechamente relacionados con la sostenibilidad de los usos que se desarrollan en los ecosistemas y por lo tanto en los Espacios Naturales Protegidos. Para comprender los citados aspectos se requiere una comprensión de los fenómenos que se dan en la naturaleza. Todo ello implica una conexión directa con las competencias específicas CE.CTM.1 y CE.CTM.3 de la propia materia.",
+          "Por otro lado esta competencia se relaciona con las de otras materias que ponen el foco en la conservación del medioambiente como es la CE.BGCA.5. de Biología, Geología y Ciencias Ambientales de primero de bachillerato o la CE.EF.4 de Educación Física.",
+          "Vinculación con los descriptores de las competencias clave",
+          "Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL2, STEM2, STEM4, CPSSS.4, CC4 y CEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          145,
+          146
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y explicar fenómenos del entorno, representándolos mediante expresiones, tablas, gráficas, modelos, simulaciones, diagramas u otros formatos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Explicar fenómenos que ocurren en el entorno, utilizando principios, leyes y teorías de las ciencias de la naturaleza."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Explicar, utilizando los fundamentos científicos adecuados, los elementos y procesos básicos que se dan en los ecosistemas terrestres."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Adoptar y promover hábitos compatibles con un modelo de desarrollo sostenible y valorar su importancia utilizando fundamentos científicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Adoptar y promover hábitos saludables y valorar su importancia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Explica de forma clara las razones por las cuales se ha llegado a la situación ambiental actual y la necesidad de un cambio en el sentido del desarrollo sostenible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Discernir entre argumentos científicos válidos y no válidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Aplicar modelos simples de dinámica de sistemas e interpretarlos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer aquellos hábitos que hace 50 años hacían a las sociedades más sostenibles y cómo los avances científicos y tecnológicos nos pueden ayudar a recuperar sostenibilidad sin perder prácticamente calidad de vida, aunque cambiando considerablemente hábitos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer el concepto de límite de un sistema físico-químico y que el agotamiento de los recursos no es algo opcional o elegible, sino que obedece a leyes naturales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conoce elementos del patrimonio natural aragonés tales como Espacios Naturales Protegidos, Especies Catalogadas, Lugares de Interés Geológico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comprende la importancia de la conservación del patrimonio natural, así como de los servicios que nos proporcionan."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conoce los objetivos de la conservación del patrimonio natural y cultural."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              146
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Ecología: conceptos fundamentales y métodos de estudio."
+          },
+          "apartados": [
+            {
+              "codigo": "A.1",
+              "nombre": {
+                "es": "Ciencias y de la Tierra y del Medioambiente"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.A.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Importancia de su estudio."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Disciplinas y aspectos de las mismas que abarca."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.2",
+              "nombre": {
+                "es": "Ecología fundamental"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.A.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Concepto de ecología y etimología de la palabra."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Concepto de ecosistema. Componentes de los ecosistemas: bióticos (biocenosis y comunidad, nicho ecológico, niveles tróficos) abióticos (biotopo, hábitat, factores ambientales)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Tipos de ecosistemas: diferencias entre ecosistemas acuáticos y terrestres."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El suelo: concepto, estructura e importancia para los ecosistemas y la producción primaria. El suelo y la agricultura."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.2.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los ecosistemas más característicos de Aragón: singularidades e importancia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.3",
+              "nombre": {
+                "es": "El funcionamiento de los ecosistemas"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.A.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Las relaciones tróficas intraespecíficas e interespecíficas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Representación de las relaciones tróficas: redes y cadenas tróficas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El flujo de materia y energía a través de los ecosistemas y las redes tróficas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.3.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los ciclos biogeoquímicos del carbono, fósforo y nitrógeno. Importancia de estos elementos para los ecosistemas. Principales alteraciones con origen antrópico de dichos ciclos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.3.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Dinámica de los ecosistemas. Sucesiones ecológicas: tipos, características y ejemplos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.4",
+              "nombre": {
+                "es": "Modelización y estudio de los ecosistemas."
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.A.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Concepto y tipos de sistemas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Concepto de modelización."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.4.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La modelización de ecosistemas mediante modelos matemáticos. Modelo depredador-presa. Ejemplos de modelos multivariantes y su utilidad como predictores de los parámetros ecosistémicos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.A.4.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La teoría de sistemas en el estudio de los ecosistemas. Creación de modelos teóricos simples."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.5",
+              "nombre": {
+                "es": "Reduccionismos y holismo: concepto e importancia"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.A.5.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "de la elección del enfoque en los estudios ambientales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Interacción del ser humano y el medio."
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Historia ambiental humana"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Principales etapas"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Predicciones sobre el futuro ambiental de nuestro planeta."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Los recursos naturales"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.B.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Clasificación de los recursos naturales: renovables, potencialmente renovables y no renovables. Definición y ejemplos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      148
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Problemática asociada a la sobreexplotación de los recursos y soluciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.3",
+              "nombre": {
+                "es": "Impactos generados sobre la biodiversidad."
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.B.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Definición y ejemplos.Principales causas de la pérdida de biodiversidad: destrucción y fragmentación de hábitats e introducción de especies invasoras."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Bioacumulación y eutrofización."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Corredores e infraestructuras verdes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.4",
+              "nombre": {
+                "es": "Accidentes ambientales históricos de gran"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.B.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "repercusión:"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Bhopal, Minamata, Chernóbil, Aznalcóllar, Prestige e Inquinosa (Alto Aragón)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.7",
+              "nombre": {
+                "es": "Modelos de desarrollo."
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.B.7.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Alternativas a la problemática ambiental y conflictos de intereses: desarrollismo, conservacionismo y sostenibilidad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.7.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Economía y medioambiente."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.7.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Sostenibilidad económica frente a colapso económico y ambiental, posibles respuestas: decrecimiento."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.7.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Huella ecológica y día de la Sobrecapacidad de la Tierra."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.8",
+              "nombre": {
+                "es": "Cambio global: principales características y"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.B.8.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "repercusiones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.8.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Retos demográficos, económicos, agrícolas, ganaderos, forestales, energéticos, climáticos, materiales y urbanísticos"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.9",
+              "nombre": {
+                "es": "Nuevas y viejas soluciones frente a los retos"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.B.9.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "ambientales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.B.9.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Producción y consumo local, simplicidad de vida voluntaria, ruralismo, movimiento lento y otras formas para vivir de forma sostenible."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      149
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Derecho y políticas medioambientales"
+          },
+          "apartados": [
+            {
+              "codigo": "C.1",
+              "nombre": {
+                "es": "La importancia de las políticas y legislación"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "ambiental."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.2",
+              "nombre": {
+                "es": "La política de medio ambiente en la UE: principios"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "generales y marco básico."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.3",
+              "nombre": {
+                "es": "Legislación ambiental europea, española y"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "aragonesa."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los artículos 11 y 191 a 193 del Tratado de Funcionamiento de la Unión Europea."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Directivas europeas relativas al medio ambiente."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.3.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Artículo 45 de la Constitución Española."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.3.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La Ley 42/2007 de 13 de diciembre, del Patrimonio Natural y de la Biodiversidad. Inventarios de Patrimonio Natural y Biodiversidad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.3.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El Catálogo Español de Especies Amenazas. La necesidad de conservación de las especies. El catálogo Aragonés."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.3.7",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Catálogo Español de Especies Exóticas Invasoras. Especies Invasoras presentes en Aragón: su repercusión sobre los ecosistemas y la economía."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.3.8",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Convenios internacionales relativos a la conservación de la biodiversidad: RAMSAR, CITES, Berna, Bonn."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.4",
+              "nombre": {
+                "es": "Espacios Naturales Protegidos"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Tipología y modalidad de protección. Figuras de protección internacionales, europeas, nacionales y aragonesas (la Red Natural de Aragón)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ejemplos relevantes españoles y aragoneses."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.5",
+              "nombre": {
+                "es": "Evaluación de Impacto Ambiental (EIA)."
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.5.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Definición. Etapas de una EIA: Estudio de Impacto Ambiental, Declaración de Impacto Ambiental, medidas de control y seguimiento."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.5.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Actividades que requieren EIA."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.6",
+              "nombre": {
+                "es": "Sistemas de gestión y auditoría ambiental."
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.6.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Definición."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.6.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Norma ISO 14.001. Características generales, beneficios y limitaciones ambientales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.6.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Certificación europea EMAS. Características generales, beneficios y limitaciones ambientales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.7",
+              "nombre": {
+                "es": "Principales acuerdos internacionales."
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.7.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Protocolo de Montreal (1987)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.7.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Declaración de Río (1992)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.7.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Acuerdo de París (2015)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.8",
+              "nombre": {
+                "es": "Agenda 2030 y ODS"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.8.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Repaso de los ODS. Aplicación en España, Aragón, municipios, universidades y centros educativos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.9",
+              "nombre": {
+                "es": "Participación ciudadana"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.9.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "ONG ambientales. Diversidad, ejemplos e importancia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      150
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.10",
+              "nombre": {
+                "es": "Fuerzas y cuerpos de seguridad ambiental"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.10.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Seprona y Agentes de Protección de la Naturaleza"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.11",
+              "nombre": {
+                "es": "Medidas políticas para afrontar los retos"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.C.11.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "ambientales"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.11.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Medidas en el transporte, urbanismo, agroindustria, energías, contra la obsolescencia programada, a favor de la sostenibilidad intergeneracional e intrageneracional."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.C.11.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Impuestos y ayudas ambientales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Salud, alimentación y medioambiente"
+          },
+          "apartados": [
+            {
+              "codigo": "D.1",
+              "nombre": {
+                "es": "Efectos en la salud de la contaminación"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.D.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Efectos de la contaminación atmosférica"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Efectos de la contaminación hídrica"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Efectos de la contaminación biológica"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Efectos de la contaminación acústica"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.1.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Efectos de las radiaciones ionizantes y no ionizantes"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.2",
+              "nombre": {
+                "es": "Alimentación y salud"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.D.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Efectos ambientales y en la salud individual de la dieta de los países desarrollados. Alternativas saludables."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.3",
+              "nombre": {
+                "es": "Salud planetaria y salud humana"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.D.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Teoría Gaia. Ejemplos de homeostasis planetaria en la regulación del clima."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Interacciones entre salud planetaria y salud humana: revisión de ejemplos conocidos (contaminación, bioinvasiones, calentamiento global y agujero de la capa de ozono)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Nexos entre deforestación, bioinvasiones y ganadería industrial con la proliferación de epidemias."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.3.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Definición de epidemia, endemia y pandemia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.3.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Definición de zoonosis, efectos del cambio global en su dispersión."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.3.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Enfermedades tropicales. Efectos del calentamiento global y de la globalización en su expansión."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.4",
+              "nombre": {
+                "es": "Agricultura y Ganadería"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.D.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Tipos de agricultura: tradicional, industrial, integrada y biológica. Efectos ambientales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Tipos de ganadería: nómada, extensiva, intensiva. Efectos ambientales y en la salud humana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.5",
+              "nombre": {
+                "es": "Producción local"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.D.5.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los productos km 0. Costes ambientales ocultos de los productos procedentes de largas distancias."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.5.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Beneficios de la producción local en las sociedades rurales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.5.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Recuperación de variedades autóctonas adaptadas al clima local. Beneficios ambientales y culturales (gastronomía, productos artesanos, turismo cultural)"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.6",
+              "nombre": {
+                "es": "Nuevas tecnologías aplicadas a la agricultura"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.D.6.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Transgénicos. Ventajas e inconvenientes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      151
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.6.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Riegos localizados, empleo de aguas residuales depuradas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.6.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Control biológico de las plagas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.7",
+              "nombre": {
+                "es": "Patrimonio agroalimentario de Aragón."
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.D.7.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Alimentos aragoneses con denominación de origen (DO)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.7.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Productos aragoneses alimentarios, variedades autóctonas. La Red de Semillas de Aragón."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.D.7.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Patrimonio cultural agroalimentario y lucha contra la despoblación rural."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Geología, ingeniería y medioambiente."
+          },
+          "apartados": [
+            {
+              "codigo": "E.1",
+              "nombre": {
+                "es": "Riesgos geológicos"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.E.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Terremotos, volcanes, inundaciones, movimientos de ladera, colapsos y subsidencias y dinámica litoral. Caracterización, predicción, prevención y corrección."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "E.2",
+              "nombre": {
+                "es": "Recursos geológicos"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.E.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Recursos geológicos energéticos: combustibles fósiles (carbón, petróleo y gas), uranio, geotermia. Impactos ambientales de su aprovechamiento."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.E.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Recursos geológicos minerales. Impactos ambientales de la minería en galería, a cielo abierto, canteras y graveras."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "E.3",
+              "nombre": {
+                "es": "El agotamiento de los recursos geológicos"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.E.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El pico de Hubbert para ilustrar el agotamiento de los recursos geológicos no renovables."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "E.4",
+              "nombre": {
+                "es": "El agua potable como recurso potencialmente"
+              },
+              "saberes": [
+                {
+                  "id": "CTM.2.E.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "renovable"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                },
+                {
+                  "id": "CTM.2.E.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Uso insostenible del agua, efectos de la contaminación y de la sobreexplotación de aguas naturales en su escasez."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                    "paginas": [
+                      152
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

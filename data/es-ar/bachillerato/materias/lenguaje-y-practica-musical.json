@@ -1,0 +1,612 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.bachillerato.lenguaje-y-practica-musical",
+  "territorio": "es-ar",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "LPM",
+    "nombre": {
+      "es": "Lenguaje y Práctica Musical"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-12",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-157-orden-ecd-1173-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1173/2022, de 3 de agosto, por la que se aprueban el currículo y las características de la evaluación del Bachillerato y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "157",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "1234566820909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234566820909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926626&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 869,
+        "hasta": 879
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Lenguaje y Práctica Musical proporciona al alumnado una formación que le permite profundizar en el conocimiento y el uso de la música como lenguaje universal, desarrollando habilidades perceptivas con fines expresivos y creativos.",
+      "La música precisa del cultivo de la escucha como vı ́a natural de acceso a su apreciación, disfrute y comprensión. La identificación de elementos musicales a través de la audición requiere el desarrollo de estrategias que permitan al alumnado no solo analizar sus caracterı ́sticas, sino también reflexionar sobre las emociones inherentes a la propia percepción musical. En este sentido, es importante que el alumnado adquiera un vocabulario adecuado para describir la música y expresar sus opiniones y sentimientos.",
+      "Como soporte escrito de obras musicales, la partitura se convierte en objeto de estudio de esta materia al conectar aspectos perceptivos con su representación gráfica, ya sea de forma convencional o no convencional, posibilitando la conservación del repertorio. Asimismo, aporta información sobre la evolución del propio lenguaje a partir de su estudio comparado, facilitando la comprensión de factores socio-culturales que han incidido en su desarrollo. Además, cuando se utiliza como recurso de apoyo a la interpretación, la partitura favorece la práctica de habilidades de decodificación musical.",
+      "Tanto la escucha como la representación musical escrita son medios de acceso a la obra. A través de ellos, el alumnado identifica y comprende patrones musicales que, una vez interiorizados, forman parte de su propio universo musical, pudiendo convertirse en elementos generadores de nuevas ideas. En este proceso, adquieren especial relevancia las interpretaciones y las improvisaciones en las que se utilizan la voz, el cuerpo o los instrumentos musicales como medios para la expresión y la experimentación. Igualmente relevante es la participación en proyectos colaborativos que favorezcan los procesos creativos, ası ́ como el descubrimiento de oportunidades de desarrollo personal, social, académico y profesional.",
+      "En el contexto de esta materia, el uso de aplicaciones y programas informáticos para la transcripción, la grabación, la edición o la difusión musical facilitan el desarrollo de numerosos conocimientos, destrezas y actitudes. Al mismo tiempo, genera una oportunidad para la reflexión sobre la necesidad de respetar la propiedad intelectual y los derechos de autor.",
+      "La materia de Lenguaje y Práctica Musical está diseñ ada a partir de cinco competencias especı ́ficas que están vinculadas con los objetivos de la etapa, ası ́ como con las competencias clave previstas para el Bachillerato, especialmente con la competencia en conciencia y expresión culturales. La adquisición de dichas competencias especı ́ficas permitirá que el alumnado pueda reconocer y utilizar los elementos del lenguaje musical y adquirir la sensibilidad necesaria para el acercamiento a la música desde la interpretación y la creación. Al mismo tiempo, su consecución supone la adquisición de autonomı ́a en la lectura y la ejecución del discurso musical, imprescindibles para la apreciación de gran variedad de referencias artı ́sticas y para la conformación de un criterio musical propio.",
+      "Los criterios de evaluación planteados, que se desprenden de forma directa de las competencias especı ́ficas, sirven para determinar el nivel competencial adquirido por el alumnado y están diseñ ados para aplicarse a partir de instrumentos de evaluación variados.",
+      "Por su parte, los saberes básicos de la materia se dividen en dos bloques. El primero de ellos, «Lenguaje musical», incluye los aspectos relacionados con el lenguaje musical como fundamento teórico de la materia; mientras que el segundo, «Práctica musical», hace referencia a las estrategias y técnicas de escucha, de interpretación o de lectura, ası ́ como al uso de aplicaciones y programas informáticos para la edición de partituras, la producción musical y audiovisual y su difusión.",
+      "Con el objetivo de facilitar la adquisición de las competencias especı ́ficas, se recomienda el diseñ o de situaciones de aprendizaje que incluyan actividades complejas que combinen los distintos elementos curriculares y estén vinculadas",
+      "con diversos ámbitos de experiencia. El uso de música que resulte cercana al alumnado permitirá introducir un elemento motivador. A su vez, la práctica musical compartida y la realización de proyectos en los que participe el grupo fomentarán la autonomı ́a, la iniciativa, la creatividad, la solidaridad y el respeto a la diversidad. De igual modo, la",
+      "organización de tareas colaborativas para la identificación, el reconocimiento de los elementos del lenguaje musical, la lectura, la interpretación y la creación musical potenciará el desarrollo competencial facilitando el aprendizaje significativo entre iguales."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Cultivar la escucha activa, desarrollando estrategias de atención, para reconocer y describir con un vocabulario adecuado los elementos que forman parte de una obra y para reflexionar sobre aspectos subjetivos y emocionales inherentes a la percepción musical."
+      },
+      "descripcion": {
+        "es": [
+          "El reconocimiento y la descripción de los elementos constitutivos del lenguaje musical, a partir de la escucha activa, resultan fundamentales para la comprensión de las obras. La práctica de ejercicios de percepción auditiva de complejidad progresiva favorece que el alumnado desarrolle las destrezas necesarias para la identificación sonora de los elementos musicales, así como para el reconocimiento de la función de los mismos dentro del discurso musical. De esta forma, se prepara al alumnado para la interiorización de patrones musicales que pueden ser aplicados en procesos de interpretación o de creación.",
+          "En este marco, es necesario que el alumnado comprenda y utilice una terminología musical que le permita describir de forma adecuada, no solamente los rasgos de la obra, sino también las sensaciones que esta le genera, profundizando en aspectos subjetivos propios de la experiencia individual ante la música.",
+          "Además, la escucha de diferentes tipos de obras posibilita el desarrollo por parte del alumnado de actitudes de apertura hacia nuevas sonoridades, enriqueciendo sus propios gustos musicales.",
+          "Esta competencia específica se relaciona con la competencia externa CCEC2. Esta competencia permite que el alumnado, a través de la recepción activa de la obra musical, desarrolle el gusto por el proceso auditivo a través del análisis de las especificidades e intencionalidad de la obra. Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, STEM2, CPSAA1.1, CPSAA3.1, CCEC1, CCEC3.1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          870
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar los elementos musicales de obras de diferentes estilos y épocas, analizando y comparando partituras con diversas grafías, para describir sus características y reflexionar sobre los factores que afectan a la evolución de la notación musical."
+      },
+      "descripcion": {
+        "es": [
+          "La identificación y comprensión de los elementos musicales (melodía, ritmo, armonía, timbre, etc.), a través del análisis de partituras con diferentes grafías, permite al alumnado establecer vínculos entre el código musical escrito y la percepción auditiva de la obra. Asimismo, favorece la reflexión sobre su utilidad como medio para la conservación de la música a lo largo del tiempo.",
+          "En su evolución, el lenguaje musical ha adquirido diferentes formas para atender a los principios estéticos y a las necesidades de expresión humanas. Su estudio comparativo, a través de partituras con diferente grafía, no solo aproxima al alumnado al conocimiento del código utilizado para poder decodificarlo posteriormente, sino que lo",
+          "convierte en un soporte para, a través de su observación y análisis, aproximarse a factores del contexto que afectan a la creación musical y, en consecuencia, a su representación en la partitura.",
+          "Esta competencia específica se vincula con la competencia clave externas STEM1. Esta competencia hace referencia a uno de los procedimientos intelectuales más importantes que debe desarrollar el alumnado de este nivel de bachillerato, como es el proceso de inducción y deducción. Ambos procesos deben aplicarse en el conocimiento y práctica del lenguaje musical. No hay que olvidar que la música se basa en proporciones matemáticas y parte de un fenómeno físico acústico como es el sonido.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL2, STEM2, CPSAA1.1, CCEC2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          870,
+          871
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Aplicar estrategias de interpretación musical, utilizando la lectura como medio de aproximación a la obra y adquiriendo de forma progresiva habilidades de decodificación e integración del lenguaje musical, para realizar improvisaciones o ejecutar con autonomía propuestas musicales sencillas."
+      },
+      "descripcion": {
+        "es": [
+          "En los procesos de interpretación musical, la lectura de partituras, con o sin apoyo de la audición, se convierte en un medio de acceso a la obra, ya que permite el reconocimiento de elementos y la interiorización de patrones musicales. En este sentido, la identificación del código musical para su aplicación práctica, se facilita cuando se complementa con procesos previos de escucha y seguimiento de la partitura. Además, a partir de los materiales musicales asimilados, se posibilita la realización de improvisaciones, individuales o colectivas, libres o dirigidas, en las que se elaboren nuevas ideas, empleando la voz, el cuerpo o diferentes instrumentos musicales.",
+          "Asimismo, el empleo de estos recursos requiere la adquisición de las habilidades técnicas necesarias para su uso. En consecuencia, para el logro de esta competencia es fundamental concebir el ensayo como un espacio de lectura, escucha, aprendizaje y disfrute musical compartido, pero también de desarrollo de habilidades y destrezas expresivas.",
+          "Esta competencia específica se vincula con la competencia CEAM4. El conocimiento de las estructuras básicas y la utilización de las tecnologías digitales pueden ayudar al alumnado en la creación y la interpretación musical.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL2, CPSAA1.1, CPSAA1.2, CCEC3.1, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          871
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Realizar proyectos musicales colaborativos, planificando e implementando sus fases y asumiendo funciones diversas dentro del grupo, para favorecer procesos creativos e identificar oportunidades de desarrollo personal, social, académico y profesional."
+      },
+      "descripcion": {
+        "es": [
+          "La participación en proyectos musicales se presenta como una oportunidad para aplicar los aprendizajes propios de la materia en un marco eminentemente creativo, en el que pueden seleccionarse materiales musicales previamente trabajados o generar otros nuevos.",
+          "Al realizar los proyectos de forma colaborativa, se promueve que el alumnado asuma diferentes funciones y que participe activamente y se comprometa en todas las fases del proceso. Esta experiencia le permitirá, de esta manera, descubrir e identificar distintas oportunidades de desarrollo personal, social, académico y profesional ligadas a la",
+          "música.",
+          "Asimismo, el desarrollo de proyectos musicales colaborativos contribuye al cultivo de actitudes de respeto ante la diversidad de opiniones, favoreciendo el crecimiento personal y social del alumnado.",
+          "Vinculación con otras competencias externas Esta competencia específica se vincula con las competencias clave externas CCEC3.1 y CCEC3.2. A través de estas dos competencias, el alumnado podrá expresar ideas, emociones, opiniones o sentimientos de forma individual o colectiva, a través de un proceso de creación de sus propias producciones artísticas, reafirmando su identidad personal y su compromiso colaborativo y empático en las actividades grupales.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM3, CD3, CPSAA3.2, CPSAA5, CC2, CE1, CE3, CCEC4.1, CCEC4.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          871,
+          872
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Emplear las posibilidades que ofrecen las tecnologías digitales en el ámbito musical, utilizando herramientas de procesamiento del sonido, de producción audiovisual y de edición de partituras, para desarrollar procesos de escritura, creación y difusión musical."
+      },
+      "descripcion": {
+        "es": [
+          "Las posibilidades que ofrecen las herramientas y medios tecnológicos permiten al alumnado participar en el hecho musical a través de procesos de edición de partituras y de producción sonora y audiovisual, utilizando diversas aplicaciones y programas informáticos. Muchos de estos recursos presentan una interfaz en otra lengua, principalmente en inglés, con lo que se favorece, al mismo tiempo, la adquisición de un lenguaje técnico musical en otro idioma.",
+          "De igual forma, la difusión de las producciones musicales o audiovisuales a través de diferentes plataformas digitales en internet amplía el marco comunicativo habitual del alumnado. En este sentido, es importante que el alumnado evalúe los riesgos de los espacios virtuales utilizados, conozca las medidas de protección de datos personales y asegure el respeto a la propiedad intelectual y a los derechos de autor.",
+          "Esta competencia específica se vincula con la competencia clave externa CD1. Esta competencia permite al alumnado adentrarse en un proceso fundamental para su formación integral, como es el saber buscar información avanzada sobre el mundo de la música y hacerlo con criterios objetivos. La selección de datos relevantes y verdaderos, así como la organización de los mismos, será el paso previo para que cualquier proceso creativo resulte eficaz y significativo. Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CP1, CD2, CD3, CPSAA1.1, CE1, CE3, CCEC2, CCEC4.1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+        "paginas": [
+          872
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir los diferentes parámetros y elementos musicales de una obra, aplicando estrategias de escucha activa y utilizando un vocabulario específico adecuado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Describir las sensaciones que genera la música y su posible vinculación con las características de la obra, reflexionando sobre aspectos subjetivos inherentes a la escucha musical."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Describir las principales características de los elementos musicales (melodía, ritmo, armonía, timbre, etc.) presentes en partituras con grafía convencional y no convencional de obras de distintos estilos y épocas, identificando y analizando sus elementos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comparar la representación de los elementos musicales en partituras con diferente grafía, reflexionando sobre los factores que inciden en la evolución de la notación musical."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Leer, con autonomía, partituras sencillas, con o sin apoyo de la audición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Ejecutar fragmentos musicales sencillos, de forma individual o colectiva, a través de la voz, del cuerpo o de instrumentos musicales, atendiendo a las indicaciones de la partitura."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar habilidades técnicas para la interpretación vocal, instrumental y coreográfica, utilizando los ensayos como espacios de escucha y de aprendizaje y aplicando estrategias de memorización musical."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Generar ideas musicales o coreográficas sencillas, utilizando diferentes instrumentos, la voz o el cuerpo, en improvisaciones libres o dirigidas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Planificar y desarrollar proyectos musicales colaborativos, seleccionando materiales musicales trabajados o creando otros nuevos a partir de la aplicación de los aprendizajes propios de la materia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Asumir diferentes funciones en la planificación y desarrollo de proyectos musicales colaborativos, participando activamente en su ejecución, valorando las aportaciones del resto de integrantes del grupo y descubriendo oportunidades de desarrollo personal, social, académico y profesional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Desarrollar proyectos musicales, poniendo en práctica los aprendizajes adquiridos y utilizando herramientas de edición de partituras, de procesamiento del sonido y de producción audiovisual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Difundir producciones musicales y audiovisuales a través de plataformas digitales, utilizando entornos seguros y respetando la propiedad intelectual y los derechos de autor."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+            "paginas": [
+              873
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Lenguaje musical"
+          },
+          "saberes": [
+            {
+              "id": "LPM.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Representación musical de los parámetros del sonido."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La melodía: intervalos y tipos de escalas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El ritmo: compases; ritmos irregulares y libres; polirritmias y polimetrías, grupos de valoración especial."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La armonía: el fenómeno físico armónico; círculo de quintas; principales funciones armónicas en la tonalidad; acordes; enlaces y cadencias; modulaciones y progresiones tonales. La modalidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La forma musical: unidades estructurales; formas simples y complejas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elementos expresivos de la mú sica: diná mica, agó gica y articulació n."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los elementos musicales en la tradición musical occidental, en el folclore y en las músicas populares urbanas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Notació n convencional (grafı ́a tradicional) y notació n no convencional (introducció n a la notació n de la mú sica contemporá nea)."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Práctica musical"
+          },
+          "saberes": [
+            {
+              "id": "LPM.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de escucha o visionado de obras o fragmentos musicales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de realización escrita de dictados sencillos a una voz."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de interpretación a través de la voz, del cuerpo o de instrumentos musicales, con o sin acompañamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Lectura, interiorización y memorización de estructuras musicales sencillas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Práctica auditiva o interpretativa de estructuras tonales y modales."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias y técnicas de improvisación sobre esquemas rítmicomelódicos y armónicos establecidos o libres adaptados al nivel."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Té cnicas y aplicaciones informá ticas de edició n y producció n sonora, musical y audiovisual. Funcionalidades propias de las aplicaciones y programas informá ticos de licencia libre."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Difusión musical: protección de datos, propiedad intelectual y derechos de autoría."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La mú sica como forma de expresió n."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2022-157-orden-ecd-1173-2022",
+                "paginas": [
+                  874
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

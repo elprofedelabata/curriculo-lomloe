@@ -1,0 +1,669 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-ar.bachillerato.geografia",
+  "territorio": "es-ar",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "G",
+    "nombre": {
+      "es": "Geografía"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2024-08-08",
+    "aplicableDesdeCurso": "2024/2025",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boa-2022-157-orden-ecd-1173-2022",
+      "tipo": "orden",
+      "titulo": "Orden ECD/1173/2022, de 3 de agosto, por la que se aprueban el currículo y las características de la evaluación del Bachillerato y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "157",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "1234566820909",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1234566820909&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007926626&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II"
+    },
+    {
+      "id": "boa-2024-154-orden-ecd-886-2024",
+      "tipo": "orden",
+      "titulo": "Orden ECD/886/2024, de 25 de julio, por la que se modifica la Orden ECD/1173/2022, de 3 de agosto",
+      "publicacion": "Boletín Oficial de Aragón",
+      "numero": "154",
+      "fechaPublicacion": "2024-08-08",
+      "cve": "1346524500505",
+      "urlOficial": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1346524500505&type=pdf",
+      "urlVerificacion": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?BASE=BOLE&CMD=VERDOC&DOCN=007942966&SEC=BUSQUEDA_AVANZADA&SEPARADOR=",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 42,
+        "hasta": 67
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La geografía explora las complejas interacciones e interdependencias entre las personas y el territorio, contribuyendo al descubrimiento del espacio en el que viven, desde la referencia del entorno local a un contexto global, sirviendo también de guía para comprender una realidad ecosocial en constante transformación y encontrar nuestro lugar en el mundo, reconociendo límites y buscando oportunidades ante los retos del siglo XXI.",
+      "El espacio geográfico es el objeto de estudio de la geografía, cuya finalidad es la comprensión y explicación holística de los procesos naturales y humanos que van modelando ese territorio a lo largo del tiempo. Como seres con conciencia espaciotemporal, las personas precisan de esa interpretación de la realidad que les rodea, más allá de la percepción personal y colectiva del territorio y del momento y estructura social en los que se desarrollan las experiencias vitales. En esta materia de bachillerato, la escala de análisis geográfico se centra en España, aunque dentro de una perspectiva europea y global, necesaria para conocer y valorar críticamente las realidades del mundo contemporáneo.",
+      "La comprensión de esas realidades próximas y globales es esencial para la construcción de la personalidad e identidad de los alumnos y de las alumnas, así como para comprender y respetar las identidades ajenas. Además, debe constituir la base para ejercer una ciudadanía crítica desde los valores democráticos, el respeto por los derechos fundamentales y el ejercicio de la responsabilidad cívica a la hora de construir una sociedad justa y equitativa en sintonía con los Objetivos de Desarrollo Sostenible (en adelante ODS).",
+      "La geografía, por su naturaleza práctica, permite al alumnado desenvolverse en el uso responsable de las tecnologías de la información y la comunicación gracias a las funcionalidades de las Tecnologías de la Información Geográfica (en adelante TIG). Las TIG, además de constituir un recurso básico para desarrollar investigaciones individuales y en equipo, permiten plantear el tratamiento interdisciplinar del territorio y, como herramienta de diagnóstico, presentar y comunicar eficientemente conclusiones y propuestas de mejora en el entorno social del alumnado desde su análisis crítico, fomentando su madurez y participación cívica. La aplicabilidad de la materia de “Geografía” la convierte en una disciplina clave de la sociedad del conocimiento y del emprendimiento social.",
+      "En un contexto de constantes y profundas transformaciones a escala global y local, la materia de “Geografía” debe aportar una visión integral del medio natural y la sociedad de España, tratando de despertar la curiosidad innata a toda persona y lograr el disfrute de los conocimientos geográficos. Con tal fin, las competencias específicas se fundamentan en un aprendizaje basado en la investigación de los fenómenos naturales y humanos que se desarrollan en el territorio. Estos fenómenos afectan a la vida cotidiana de las sociedades actuales y representan, algunos de ellos, retos clave para afrontar el futuro, igual que, en ocasiones, también constituyeron desafíos en el pasado. Las respuestas a estos retos ecosociales desde el pensamiento geográfico requieren de la aplicación de saberes basados en el rigor científico, la movilización de estrategias y el compromiso ético con la sostenibilidad y la solidaridad en la resolución de problemas.",
+      "Por todo ello, el estudio de la geografía de España debe contribuir al desarrollo personal y a la madurez del alumnado, conformando su identidad y fortaleciendo su empatía al asumir que vivimos en una sociedad diversa y con desequilibrios sociales y territoriales que precisan de un desarrollo sostenible. Como personas formadas y comprometidas con el entorno en el que viven, los alumnos y las alumnas deben aplicar las competencias específicas y los saberes básicos adquiridos para emprender acciones individuales y colectivas que materialicen su capacidad de transformarlo desde criterios éticos basados en los valores que compartimos.",
+      "La materia de “Geografía” contribuye a alcanzar los objetivos generales de la etapa de Bachillerato y a la adquisición de las competencias clave, y permite el desarrollo del pensamiento geográfico del alumnado iniciado en la etapa anterior con la materia de Geografía e Historia. Además, promueve su desarrollo en contextos interdisciplinares y en otros cercanos a las experiencias personales, que deben aprovecharse para enriquecer el entorno de aprendizaje del alumnado, tanto de manera individual como grupal, conectando con sus intereses y atendiendo a necesidades",
+      "específicas.",
+      "Los criterios de evaluación, derivados de las competencias específicas y asociados a los saberes básicos propuestos, fomentan la participación activa del alumnado en su propio proceso de aprendizaje, la investigación aplicada, tanto individualmente como en equipo, la elaboración de creaciones propias, contextualizadas y relevantes, y la comunicación eficiente en público. Todo ello desde la valoración crítica y ética del proceso de aprendizaje y el compromiso con la transformación de su entorno vital, el respeto a los Derechos Humanos y el principio de sostenibilidad.",
+      "Los saberes básicos se estructuran en tres bloques que deben tratarse desde sus tres dimensiones de conocimientos, destrezas, y actitudes y valores. Las transferencias entre estas tres dimensiones y la imbricación de los tres bloques son primordiales para enfocar la materia de un modo práctico y fomentar el tratamiento transversal de estos bloques.",
+      "El bloque, «España, Europa y la globalización», agrupa los saberes necesarios para asumir la especificidad y diversidad de España y su situación en los contextos mundial y europeo, y valorar la importancia de su pertenencia a la Unión Europea. El bloque, «La sostenibilidad del medio físico de España», propone saberes que ponen en valor la diversidad del relieve, del clima, de la vegetación, de los suelos y de la hidrografía de España. Finalmente, el bloque «La ordenación del territorio en el enfoque ecosocial», integra saberes sobre el análisis geográfico de los aprovechamientos de los recursos naturales, tratando a las actividades económicas y a la población como el principal factor transformador del territorio, profundizando en las causas y consecuencias de estos procesos y comparando los desequilibrios territoriales resultantes, introduciendo la perspectiva de la sostenibilidad y valorando el impacto de las políticas comunitarias. Es esencial subrayar el tratamiento integrador que la geografía da a los fenómenos espaciales, recordando que la síntesis es un objetivo irrenunciable del pensamiento geográfico, al que deben contribuir el enfoque interdisciplinar y la dimensión ecosocial.",
+      "La materia de “Geografía” es abierta y flexible para que, tomando como eje vertebrador las competencias específicas y los saberes básicos, el profesorado pueda adaptar sus situaciones de aprendizaje a contextos de todo tipo, convirtiendo las posibles respuestas a los retos ecosociales de España y del mundo en un incentivo para el aprendizaje activo del alumnado, para el desarrollo del pensamiento geográfico y para la valoración de la geografía como saber aplicado. En definitiva, para promover la capacidad transformadora de todo saber desde la responsabilidad cívica basada en la autonomía personal y el respeto a las personas y al medio ambiente en el contexto actual de cambios e incertidumbres."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Reconocer los retos ecosociales actuales y futuros de España, debatiendo desde la perspectiva geográfica sobre los mensajes recibidos a través de canales oficiales y extraoficiales, formales e informales, y desarrollando el pensamiento crítico, para transformar patrones de consumo insostenibles y adoptar estilos de vida saludables."
+      },
+      "descripcion": {
+        "es": [
+          "El reconocimiento por parte del alumnado de los problemas ecosociales a los que se enfrenta la sociedad española supone saber identificarlos y tomar conciencia de la responsabilidad individual y colectiva ante desafíos como la emergencia climática, el reto demográfico o la gestión de recursos limitados. Son situaciones de ecodependencia que afectan al medio natural y a los grupos humanos y que en ocasiones siguen procesos a escala global. Una ciudadanía informada debe mantener debates en los que se sometan a juicio crítico los mensajes que se reciban desde medios oficiales o informales, previniendo la difusión de aquellas que sean informaciones falsas o en las que se detecte la manipulación interesada.",
+          "Los argumentos que se esgrimen en cualquier debate público o privado deberían construirse desde la fundamentación científica que aporta el pensamiento geográfico, rechazando cualquier opinión no avalada por datos fiables, accesibles y contrastados. El desarrollo del pensamiento espacial crítico constituye el mayor activo para una ciudadanía formada",
+          "e informada que reúna las condiciones necesarias para sopesar respuestas éticas ante los retos actuales y futuros, anticipándose a consecuencias no deseadas. Asimismo, el alumnado debería llegar a reflexionar con rigor sobre su capacidad de adaptación a nuevas situaciones, y sobre la transformación de patrones de consumo insostenibles y para",
+          "adoptar estilos de vida saludables en beneficio propio y del bien común, y en consonancia con los Objetivos de Desarrollo Sostenible.",
+          "Esta competencia tiene vinculación con las competencias internas CE.G.4 y CE.G.5 por cuanto el proceso de globalización establece un complejo marco de relaciones internacionales entre países y sus sistemas económicos que incide directamente en la realidad social, económica y territorial de España, integrada dentro de la estructura sociopolítica de la Unión Europea (UE), e inmersa en un constante proceso de cambio y adaptación a este entorno internacional altamente dinámico. A este respecto la forma de abordar con garantías el reconocimiento de los problemas ecosociales de la sociedad española, tanto a nivel personal como en el debate público, consiste en el conocimiento y aplicación de las Tecnologías de la Información Geográfica (TIG), así como de otros métodos y técnicas propios y de ciencias afines, lo que permitirá al alumnado formar su propio criterio en base a conocimientos científicos, acotando los hechos geográficos, definiendo los problemas y proponiendo soluciones creativas a problemas reales.",
+          "A su vez esta competencia está relacionada con diversas competencias externas. En el caso de la materia de Lengua Castellana y Literatura está conectada con las competencias CE.LCL.2, CE.LCL.4 y CE.LCL.6, por cuanto el alumnado deberá seleccionar y contrastar información procedente de diferentes fuentes así como comprender, interpretar y valorar textos escritos, con sentido crítico y diferentes propósitos de lectura, con especial atención a textos académicos y de los medios de comunicación, identificando el punto de vista y la intención del emisor y valorado su fiabilidad, su forma y su contenido, para construir conocimiento y formarse opinión. También está relacionada con las competencias matemáticas CE.MCS.1 y CE.MCS.6 por cuanto el manejo de fuentes de información numéricas, su análisis, así como el propio planteamiento y solución de problemas geográficos requiere, en no pocas ocasiones, de una buena base matemática, permitiendo con ello descubrir la relación entre la geografía y las matemáticas, profundizando en sus conexiones, interrelacionando conceptos y procedimientos, con el fin de resolver problemas reales con criterio propio, técnicas apropiadas y capacidad crítica, creativa e innovadora. Por supuesto su vinculación con la Historia de España también es evidente en relación con la competencia CE.HE.3 al permitir analizar y valorar la idea de progreso desde la perspectiva del bienestar social y de la sostenibilidad mediante la interpretación de los factores modernizadores de la economía española, usando métodos cuantitativos y el análisis crítico de las desigualdades sociales y territoriales, al tiempo que se considera el emprendimiento, la innovación y el aprendizaje como elementos esenciales de un entorno geográfico, económico y social en constante transformación.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, CCL3, CD4, STEM5, CPSAA2, CPSAA4, CC1, CC4, CE1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          43,
+          44
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Comprender la complejidad del espacio geográfico, mediante la interpretación de fuentes de información visuales, para apreciar la riqueza de los paisajes naturales y humanizados y valorar la sostenibilidad como principio de las relaciones entre los ecosistemas naturales y la acción humana."
+      },
+      "descripcion": {
+        "es": [
+          "La comprensión del espacio geográfico implica asumir su complejidad como sistema en el que se combinan elementos abióticos, bióticos y la acción humana. La teoría general de sistemas aporta los conceptos necesarios para entender la imbricación de esos componentes y sus relaciones. Todo sistema está integrado por subsistemas que, una vez desagregados, facilitan un análisis pormenorizado de sus características, lo que lleva a resolver el problema de la escala de análisis. Desde lo local a lo global, dicha escala permite delimitar el campo o parcela de estudio.",
+          "La interpretación de imágenes ayuda a despertar la curiosidad del alumnado por territorios desconocidos y a redescubrir lugares familiares, generando creativamente sus propios recursos visuales, incluyendo croquis y bocetos. Como complemento a la observación de paisajes, que también puede ser directa sobre el terreno, la cartografía y los gráficos son valiosas fuentes de información visual. Educar la mirada geográfica conlleva también desarrollar el aprecio",
+          "por el rico patrimonio paisajístico que atesora España. La sostenibilidad debe incorporarse como criterio para juzgar críticamente la relación entre medio natural y acción antrópica y promover el equilibrio entre ambos.",
+          "Esta competencia tiene vinculación con las competencias internas CE.G.3 y CEG.4 ya que el alumnado debe tener conocimiento de la diversidad natural de España y su singularidad geográfica dentro del continente europeo, sabiendo identificar los aspectos relevantes del relieve, el clima, la hidrografía y la biodiversidad natural del país, y su resultado en la configuración de los paisajes tanto naturales como humanizados, utilizando para ello las Tecnologías de la Información Geográfica (TIG) así como otros métodos y técnicas propios de la geografía o de otras ciencias afines, especialmente la observación directa sobre el terreno, la cartografía y todo tipo de gráficos, sin perder de vista la necesidad de sostener toda esta riqueza ambiental.",
+          "Por su parte esta competencia está relacionada con varias competencias externas. En el caso de la materia de Biología, Geología y Ciencias Ambientales con las competencias CE.BGCA.2, CE.BGCA.5 y CE.BGCA.6, por cuanto el alumnado debe localizar y utilizar fuentes fiables para abordar cuestiones relacionadas con las ciencias biológicas, geológicas y medioambientales, que tienen una clara plasmación territorial y que hacen necesario el recurso a estos conocimientos para un adecuado planteamiento geográfico, basado en la interdisciplinariedad y la interrelación de saberes. A este respecto el conocimiento del relieve de nuestro país requiere de unas adecuadas nociones geológicas, del mismo modo que todo lo que tiene que ver con la protección de los paisajes y la gestión ambiental tiene de forma inherente una dimensión espacial y geográfica incuestionable. En este sentido la preocupación por el conocimiento y la conservación del patrimonio artístico, antropológico y humano en diferentes ámbitos y a diferentes escalas también tiene una dimensión geográfica que entronca con la competencia CE.HA.6 de la materia Historia del Arte. Las posibilidades pedagógicas y didácticas de la elaboración de bocetos, croquis y alguna cartografía básica constituye una aportación relevante de la geografía a la formación del alumnado que conecta con las competencias CE.DA.3 de la materia Dibujo Artístico, para analizar, interpretar y representar la realidad utilizando recursos elementales y la sintaxis del dibujo, al tiempo que conecta con algunos aspectos de la materia de Dibujo Técnico como la competencia CE.DT.3.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM4, STEM5, CD1, CC1, CC4, CE1, CCEC1, CCEC2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          44,
+          45
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar la diversidad natural de España y su singularidad geográfica dentro de Europa, a través de la comparación de características comunes y específicas del relieve, el clima, la hidrografía y la biodiversidad, para reflexionar sobre la percepción personal del espacio."
+      },
+      "descripcion": {
+        "es": [
+          "El análisis de la diversidad natural de España adquiere sentido al examinar la gran variedad de ecosistemas terrestres y acuáticos existentes y que tienen su reflejo en la red de espacios naturales protegidos. Su singularidad a escala europea le confiere un lugar destacado dentro de la Red Natura 2000. Tal biodiversidad se explica por la interacción particular en cada área de los factores físicos que afectan a la Península Ibérica, a los archipiélagos de Baleares y de Canarias y al resto de territorios.",
+          "Desde el rigor que impone el método comparativo, basado en la búsqueda de analogías y diferencias, todo análisis geográfico debe partir de datos y cálculos fiables que puedan ser contrastados a la hora de describir las características y la distribución de unidades geomorfológicas, climáticas, vegetales e hídricas. Tradicionalmente el medio natural ha servido para construir la percepción que cada persona tiene del territorio y de su existencia, condicionando vínculos y sentimientos de pertenencia a uno o varios lugares. En una sociedad predominantemente urbana de pasado rural",
+          "reciente, la reflexión sobre los conflictos en los usos del territorio, así como sobre la identidad individual y colectiva, debe construirse desde el respeto a los demás y la aceptación de identidades múltiples.",
+          "Esta competencia tiene vinculación con las competencias internas CE.G.2 y CEG.4 ya que permite comprender la complejidad del espacio geográfico español a partir de la riqueza de sus paisajes naturales y humanizados, la importancia de su conservación sostenible, y la valoración personal de esta riqueza ambiental mediante el uso y la interpretación de fuentes de información visuales, asociadas a las Tecnologías de la Información Geográfica (TIG) y a otros métodos y técnicas propios de la geografía o de otras ciencias afines, especialmente la observación directa sobre el terreno, la cartografía y todo tipo de gráficos.",
+          "Esta competencia específica tiene una clara relación con otras competencias externas como son las competencias CE.BGCA.2, CE.BGCA.5 y CE.BGCA.6 de la materia de Biología, Geología y Ciencias Ambientales, que permiten tratar cuestiones relacionadas con las ciencias biológicas, geológicas y medioambientales desde una perspectiva territorial y geográfica. En este sentido, el conocimiento del relieve de nuestro país requiere de unas adecuadas nociones geológicas, al igual que ocurre con la dimensión espacial y geográfica de la protección de la naturaleza y la gestión ambiental. En relación con la percepción personal del espacio, es importante la conexión con la competencia CE.HE.4 de la materia Historia de España, para tomar conciencia de la diversidad social a través del análisis multidisciplinar de los cambios y continuidades de la sociedad española a lo largo del tiempo, la evolución de la población, los niveles y modos de vida, las condiciones laborales y los movimientos y conflictos sociales, con el fin de contextualizar adecuadamente el paso de la sociedad rural a la urbana y el papel del espacio en esta transformación tanto social como individual.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM1, STEM4, CPSAA3.1, CC1, CC3, CEC1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          45,
+          46
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Aplicar las Tecnologías de la Información Geográfica (TIG), métodos y técnicas propios o de ciencias afines, localizando fenómenos naturales y humanos, y argumentando con rigor sus límites o categorías, para resolver eficientemente el problema de la escala en cualquier análisis o propuesta de actuación."
+      },
+      "descripcion": {
+        "es": [
+          "La aplicación eficiente de los métodos propios de la geografía y de cualquier ciencia afín implica su uso práctico para observar, representar y explicar los fenómenos físicos y humanos que se desarrollan en el territorio. Por sus características integradoras y su potencial visual como fuente de información y recurso creativo, las Tecnologías de la Información Geográfica (TIG) deben adoptar una posición preferente como herramienta manejada competentemente por el alumnado.",
+          "La distribución y localización de fenómenos físicos y humanos de todo tipo y a diferentes escalas, así como su evolución en el tiempo, son principios básicos de la geografía sobre los que se articula el pensamiento espacial. Las TIG deben desplegar su potencial para lograrlo, mediante el uso de mapas interactivos y recursos que faciliten argumentos para justificar la extensión de cada fenómeno. Es decir, delimitando regiones, categorías o tipologías, y reflexionando sobre el problema de los límites y de las áreas de transición. Ante fenómenos naturales y humanos complejos y en continua transformación, la iniciativa para aportar soluciones creativas a problemas reales desde el conocimiento riguroso es parte esencial del compromiso cívico.",
+          "La competencia tiene vinculación con la competencia interna CE.G.7 ya que la utilización de las Tecnologías de la Información Geográfica (TIG), así como otros métodos y técnicas propios de la geografía o de otras ciencias afines, requiere la utilización de conocimientos previos, nuevos y de otros campos del saber para aprovechar el potencial educativo, de reflexión y toma de decisiones de este tipo de herramientas con gran capacidad de presentación gráfica y comunicación.",
+          "A su vez puede conectar con las competencias externas CE.DA.3 de la materia Dibujo Artístico y CE.DT.3. de Dibujo Técnico, por cuanto la competencia en la elaboración de bocetos, croquis y alguna cartografía básica constituye una",
+          "aportación relevante de la geografía a la formación del alumnado en cuanto a visión espacial, selección de elementos territoriales significativos, síntesis geográfica y comunicación visual.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL1, STEM1, STEM2, CD1, CD2, CD5, CC3, CE1, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          46,
+          47
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Asumir la globalización como contexto que enmarca la evolución de los sistemas económicos y los comportamientos sociales recientes, investigando sus relaciones de causa y efecto y creando productos propios que demuestren la interconexión y la interdependencia a todas las escalas, para promover el respeto a la dignidad humana y al medio ambiente como base de una ciudadanía global."
+      },
+      "descripcion": {
+        "es": [
+          "Al entender que el fenómeno de la globalización es determinante en las complejas relaciones existentes entre los países y sus sistemas económicos, se puede poner en su contexto la evolución reciente de las actividades económicas en España y en la Unión Europea en todos sus sectores. Igualmente, se han producido transformaciones socioculturales de gran impacto sobre la distribución espacial de la población y los comportamientos demográficos.",
+          "La investigación de los factores causantes de estas transformaciones y de sus consecuencias sobre el territorio y la sociedad abre un rico campo de indagación de estas ecodependencias. Las relaciones de interdependencia e interconexión pueden demostrarse de forma inductiva, especialmente mediante el estudio de casos o situacionesproblema cercanas y relevantes para el alumnado. Por ejemplo, el origen de bienes o servicios producidos y consumidos fuera y dentro de España, o las consecuencias de la asimilación de ideas, comportamientos y estilos de vida ajenos a prácticas tradicionales. Al llegar al análisis de los efectos positivos y negativos de la globalización, el respeto a la dignidad humana debe primar como valor ético para el ejercicio de una ciudadanía global y comprometida con el medio ambiente.",
+          "Esta competencia tiene vinculación con las competencias internas CE.G.1 y CEG.6 por cuanto el contexto general de la globalización enmarca los retos ecosociales tanto presentes como futuros de España a todos los niveles y escalas, condicionando no sólo los aspectos económicos, sino todo lo que tiene que ver con la organización territorial y la evolución de la sociedad y sus transformaciones socioculturales. A este respecto, se debe tener en cuenta que sobre la base de los desequilibrios territoriales tradicionales de nuestro país la globalización actúa de forma intensa y permanente, transformando la estructura sociolaboral y demográfica y generando nuevas realidades, potenciales y desequilibrios que es preciso abordar con realismo y visión crítica.",
+          "Esta competencia específica tiene una clara relación con la competencia externa CE.HE.6 de la materia Historia de España, ya que permite abordar la relevancia geoestratégica de España y su conexión con la historia mundial en el pasado, en el momento actual y de cara al futuro, teniendo muy presente el papel clave de la pertenencia de nuestro país a la UE y a la OTAN, así como la especial relación con Latinoamérica y el ámbito Mediterráneo, especialmente con la zona del Magreb. Esta visión histórica y geoestratégica se ve completada por la competencia externa CE.E.5 de la materia Economía, que permite comprender los retos y desafíos a los que se enfrenta la economía actual, analizando el impacto de la globalización económica, la nueva economía y la revolución digital en la sociedad española, europea y mundial, al tiempo que se plantean iniciativas que fomenten la equidad, la justicia y la sostenibilidad en un mundo cada vez más interconectado donde los movimientos migratorios internacionales, los intercambios económicos recurrentes y la inestabilidad del sistema financiero son una constante que incide constantemente desde lo global en todos los planos de la vida nacional y local.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL5, STEM1, STEM5, CD4, CPSAA3.1, CC2, CC3, CC4, CE1, CCEC4.1."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          47,
+          48
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Explicar de forma crítica los desequilibrios territoriales de España y de su estructura sociolaboral y demográfica, reconociendo los procesos y las decisiones que han contribuido a las desigualdades presentes, para reforzar la conciencia de solidaridad y el compromiso con los mecanismos de cooperación y cohesión españoles y europeos."
+      },
+      "descripcion": {
+        "es": [
+          "La explicación crítica de los desequilibrios socioeconómicos y demográficos de España parte de un diagnóstico riguroso del desigual reparto de los recursos naturales y humanos a escala nacional y autonómica. Requiere entender las disparidades en el tejido productivo por tamaño relativo, grado de especialización, capitalización o innovación, así como, conocer el reparto espacial de la población y su composición por sexo, edad y por la diferente estructura sociolaboral existente, prestando atención al reto demográfico que suponen el envejecimiento de la población, los movimientos migratorios, la despoblación rural y las aglomeraciones urbanas.",
+          "El reconocimiento de los factores de localización de cada actividad productiva, incluyendo las decisiones políticas y empresariales, y de las causas de los procesos socioeconómicos recientes y de las tendencias actuales y futuras, se argumenta con las razones objetivas de la actual desigual distribución de la riqueza, de la población y del acceso a ciertos servicios públicos y privados. La finalidad es consolidar en el alumnado la solidaridad y la cooperación como valores constitucionales y europeístas para lograr la cohesión a través de las políticas redistributivas de ordenación del territorio y de desarrollo regional.",
+          "Esta competencia específica tiene vinculación con las competencias internas CE.G.1, CE.G.2, CE.G.3 y CEG.5 ya que la explicación crítica de los desequilibrios territoriales del país y su evolución demográfica y sociolaboral requiere el adecuado conocimiento de la complejidad territorial del país, tanto de su diversidad natural como de las transformaciones antrópicas, teniendo en cuenta los cambios profundos que están experimentando los sistemas económicos y los comportamientos sociales en el marco de la globalización mundial.",
+          "Esta competencia específica tiene una clara relación con las competencias externas CE.HE.3, CE.HE.4 y CE.HE.6 de la materia Historia de España, que se centran en analizar la idea de progreso desde la perspectiva del bienestar social y de la sostenibilidad a través de la interpretación de los factores modernizadores de la economía española, tomando conciencia de la diversidad social a través del análisis multidisciplinar de los cambios y continuidades de la sociedad española a lo largo del tiempo (evolución de la población, los niveles y modos de vida, las condiciones laborales, los movimientos y conflictos sociales), valorando los logros alcanzados hasta el momento en términos de igualdad, bienestar, justicia y cohesión social. Todo ello sin olvidar el complejo marco geoestratégico mundial, las fuertes inercias de transformación que se viven en el momento actual y la posición de España dentro de la UE y otros marcos clave de referencia (OTAN, Hispanoamérica, Mediterráneo).",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: STEM4, CPSAA1.2, CPSAA3.1, CC1, CC2, CC3, CE1, CE2, CCEC3.2."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          48
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Movilizar conocimientos previos, nuevos y de otros campos del saber al abordar situaciones del pasado, del presente o del futuro, reorientando eficazmente decisiones y estrategias de trabajo individual o en equipo, para aportar soluciones innovadoras a contextos en transformación y fomentar el aprendizaje permanente."
+      },
+      "descripcion": {
+        "es": [
+          "La reflexión sobre el propio aprendizaje es clave como objetivo metacognitivo. Lograr este conocimiento de las",
+          "posibilidades y limitaciones propias debe servir para construir la autoestima necesaria con la que implicarse y ser protagonista en la resolución de retos ecosociales reales y cercanos y, por tanto, para incorporarse a la vida activa y ejercer funciones sociales. La planificación es un proceso fundamental que implica movilizar conocimientos previos, nuevos y de otros ámbitos. También supone poner en acción herramientas como cuestionarse situaciones, plantear",
+          "hipótesis, recoger datos, organizar sistemáticamente la información recogida, tratarla, contrastarla con otras evidencias y extraer conclusiones justificadas.",
+          "Muchas de estas estrategias deben ser negociadas con otras personas al trabajar en equipo mediante técnicas de discusión y deliberación para revisar y generar productos consensuados. El fin de estos saberes y la aportación del pensamiento geográfico es desarrollar el autoaprendizaje permanente y el compromiso cívico activo, tanto a la hora de prever y evaluar consecuencias, como a la de priorizar acciones a problemas relevantes o plantear respuestas innovadoras.",
+          "Esta competencia específica tiene vinculación con todas las otras competencias internas de la materia, dado su carácter integrador de conocimientos diversos sobre una misma base territorial, propia de la síntesis geográfica, y que constituye un rasgo distintivo del pensamiento geográfico. No obstante su relación con la competencia CE.G.4 es, en cierta medida, mayor, por cuanto al aplicar las Tecnologías de la Información Geográfica (TIG), así como otros métodos y técnicas propios o de ciencias afines, al estudio geográfico, y al proceder a localizar fenómenos naturales y humanos argumentando con rigor sus límites o categorías y reflexionando sobre su representación gráfica, constituye un gran instrumento para trabajar de forma individual o en equipo, analizando situaciones complejas y aportando soluciones adecuadas a contextos de cambio.",
+          "Esta competencia tiene una clara relación con la competencia externa CE.HF.7 de la materia Historia de la Filosofía, ya que propone analizar problemas fundamentales y de actualidad mediante la exposición crítica de distintas posiciones relevantes para la comprensión y discusión de dichos problemas, al tiempo que permite desarrollar la autonomía de juicio y promover actitudes y acciones tanto cívica como éticamente consecuentes.",
+          "Vinculación con los descriptores de las competencias clave Esta competencia específica se conecta con los siguientes descriptores: CCL5, STEM1, CPSAA1.1, CPSAA1.2, CPSAA3.2, CPSAA5, CC3, CE1, CE3."
+        ]
+      },
+      "descriptoresOperativosRefs": [],
+      "procedencia": {
+        "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+        "paginas": [
+          48,
+          49
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Cuestionar modos de vida insostenibles mediante el análisis geográfico de todo tipo de fuentes de información que trate de los retos ecosociales presentes y futuros, y desde argumentos fundados en la relevancia y necesidad de las acciones para afrontarlos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Debatir sobre los retos naturales y sociales de España de forma comprometida y respetuosa con opiniones ajenas, utilizando estrategias orales con apoyo digital de gráficos, imágenes y cartografía, y manejando datos rigurosos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar todo impacto de la acción antrópica desde el principio de sostenibilidad, reconociendo la complejidad sistémica del medio natural y de las propias actividades humanas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              49
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Extraer información de paisajes naturales y humanizados, analizando fuentes visuales, distinguiendo elementos geográficos e interpretando la influencia e interrelaciones de factores físicos y humanos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reflexionar sobre la percepción del espacio geográfico, localizando y reconociendo en mapas regiones geomorfológicas y bioclimáticas con características comunes y específicas, destacando su aportación a la sostenibilidad del medio."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar la diversidad y singularidad de paisajes naturales, comparando su distribución, características y contrastes a escala autonómica, de España y de Europa, así como formas humanas de relación con esos entornos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Emplear la escala apropiada para localizar o representar, con apoyo de las TIG, cualquier fenómeno físico o humano, justificando los métodos y datos elegidos, y la delimitación de regiones o categorías de análisis, así como de áreas de transición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Crear productos propios individuales o en grupo con fines explicativos comunicando diagnósticos, proponiendo hipótesis o conclusiones, y aplicando las TIG."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Valorar la dignidad humana analizando críticamente las consecuencias de nuestras acciones sobre las condiciones laborales y de vida, tanto en España como en otros países, investigando el sistema de relaciones económicas globalizadas y los sectores económicos, y planteando soluciones razonables."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Expresar la necesidad de preservar el medio ambiente, indagando sobre los impactos de los modos de producción, distribución y consumo a escala local y global, y proponiendo actuaciones de mejora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Justificar la necesidad de los mecanismos de compensación de las desigualdades individuales y territoriales, identificando los procesos pasados y recientes, así como sus causas y consecuencias sociolaborales y demográficas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Argumentar sobre el origen de los desequilibrios socioeconómicos de España y Europa, analizando los factores de localización de las actividades económicas y de la población en una sociedad terciarizada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Reelaborar saberes sobre fenómenos naturales y humanos relevantes a diferentes escalas y en nuevos contextos, aplicando el pensamiento geográfico, movilizando y revisando críticamente conocimientos previos y nuevos, diagnosticando problemas y oportunidades, y razonando sobre posibles previsiones y soluciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+            "paginas": [
+              50
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "España, Europa y la globalización"
+          },
+          "saberes": [
+            {
+              "id": "G.2.A.1",
+              "codigoOficial": "A1",
+              "texto": {
+                "es": "España: localización y situación geográfica en el mundo a través de mapas de relieve, bioclimáticos y políticos. Posición relativa de España en el mundo según diferentes indicadores socioeconómicos. Geoposicionamiento y dispositivos móviles."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "G.2.A.2",
+              "codigoOficial": "A2",
+              "texto": {
+                "es": "España en el mundo. España ante la globalización: amenazas y oportunidades. Contexto geopolítico mundial y participación en organismos internacionales. Cooperación internacional y misiones en el exterior. Diagnóstico de los compromisos con los Objetivos de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  53
+                ]
+              }
+            },
+            {
+              "id": "G.2.A.3",
+              "codigoOficial": "A3",
+              "texto": {
+                "es": "España en Europa: localización de países y aspectos naturales. La Unión Europea en la actualidad: su influencia en situaciones cotidianas. Análisis de desequilibrios territoriales y políticas de cohesión a través del uso de mapas y de indicadores socioeconómicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  54
+                ]
+              }
+            },
+            {
+              "id": "G.2.A.4",
+              "codigoOficial": "A4",
+              "texto": {
+                "es": "Organización administrativa de España. El estudio de los desequilibrios territoriales nacionales y autonómicos. Utilidad del Atlas Nacional de España y de los indicadores socioeconómicos oficiales. Gestión y ordenación del territorio: el debate sobre las políticas de cohesión y desarrollo regional. Situación actual y proyecciones del estado del bienestar."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  54
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La sostenibilidad del medio físico de España"
+          },
+          "saberes": [
+            {
+              "id": "G.2.B.1",
+              "codigoOficial": "B1",
+              "texto": {
+                "es": "Factores físicos y diversidad de paisajes y ecosistemas. Análisis de los condicionantes geomorfológicos, bioclimáticos, edáficos, hídricos y relativos a las actividades humanas y prevención de los riesgos asociados para las personas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "G.2.B.2",
+              "codigoOficial": "B2",
+              "texto": {
+                "es": "Diversidad climática de España. Análisis comparativos de distribución y representación de climas. Emergencia climática: cambios en los patrones termopluviométricos; causas, consecuencias y medidas de mitigación y adaptación. Estrategias de interpretación del tiempo y alertas meteorológicas; webs y aplicaciones móviles."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "G.2.B.3",
+              "codigoOficial": "B3",
+              "texto": {
+                "es": "Biodiversidad, suelos y red hídrica. Características por regiones naturales. Impacto de las actividades humanas y efectos sobre las mismas: pérdida de biodiversidad, de suelos y gestión del agua. Interpretación de imágenes, cartografía y datos. Riesgos generados por las personas."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  56
+                ]
+              }
+            },
+            {
+              "id": "G.2.B.4",
+              "codigoOficial": "B4",
+              "texto": {
+                "es": "Políticas ambientales en España y la Unión Europea: uso de herramientas de diagnóstico. La red de Espacios Naturales Protegidos y la red Natura 2000. El debate sobre los cambios del modelo de desarrollo: el principio de sostenibilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  56
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La ordenación del territorio en el enfoque ecosocial"
+          },
+          "saberes": [
+            {
+              "id": "G.2.C.1",
+              "codigoOficial": "C1",
+              "texto": {
+                "es": "La población española: análisis de su estructura y desequilibrios. Interpretación causal de datos, gráficos y mapas: tendencias pasadas, presentes y proyecciones. Ventajas e inconvenientes de los movimientos migratorios; el respeto por la diversidad étnica y cultural. El reto demográfico: envejecimiento y despoblación rural."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "G.2.C.2",
+              "codigoOficial": "C2",
+              "texto": {
+                "es": "Los espacios urbanos en España: las grandes concentraciones urbanas en un contexto europeo y mundial. Funciones de la ciudad y relaciones de interdependencia con el territorio. Estructura urbana a través de los planos: repercusiones sobre las formas de vida y los impactos medioambientales. Modelos de ciudades sostenibles. El uso del espacio público. La movilidad segura, saludable y sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  58
+                ]
+              }
+            },
+            {
+              "id": "G.2.C.3",
+              "codigoOficial": "C3",
+              "texto": {
+                "es": "Los espacios rurales. Identificación de los paisajes agrarios. Transformaciones de las actividades agropecuarias: prácticas sostenibles e insostenibles. El valor socioambiental y económico de los productos agroalimentarios y forestales de cercanía: indagación de huellas ecológicas y de la estructura sociolaboral. Influencia de la actual Política Agraria Común en el desarrollo rural y la sostenibilidad. Estudio de casos: etiquetados diferenciados, ecológico, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "G.2.C.4",
+              "codigoOficial": "C4",
+              "texto": {
+                "es": "Los recursos marinos y la transformación del litoral: pesca, acuicultura y otros aprovechamientos. Sostenibilidad y Política Pesquera Común. Estudio de casos: marisqueo, pesca de bajura y altura, acuicultura, sobreexplotación de caladeros, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "G.2.C.5",
+              "codigoOficial": "C5",
+              "texto": {
+                "es": "Los espacios industriales. Transformaciones en las actividades industriales y los paisajes: materias primas y fuentes de energía. Evaluación de huellas ecológicas; dependencia y transición energéticas; estructura del tejido industrial, sociolaboral y de empleo indirecto. Impacto de la deslocalización sobre sectores de la industria española. Estudio de casos: construcción, automovilístico, agroalimentario, etc., y factores de localización. El debate sobre la influencia de las políticas de la Unión Europea y la globalización."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "G.2.C.6",
+              "codigoOficial": "C6",
+              "texto": {
+                "es": "Los espacios terciarizados. El modelo de economía circular y los servicios: relaciones entre producción, distribución y venta. Análisis crítico de huellas ecológicas, estructura sociolaboral, responsabilidad social corporativa y de los consumidores. Estudio de casos: competitividad y desequilibrios en transporte, comercio, turismo, servicios esenciales, etc. y factores de localización. Modelos insostenibles de servicios y alternativas. La economía digital: impacto de la «economía colaborativa» y nuevos modelos de negocio en el contexto global y de la Unión Europea."
+              },
+              "procedencia": {
+                "fuenteRef": "boa-2024-154-orden-ecd-886-2024",
+                "paginas": [
+                  61
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-17",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",
+      "Los identificadores del proyecto no sustituyen a la nomenclatura oficial; codigoOficial solo recoge códigos impresos expresamente en la fuente.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Cuando los saberes se publican como listas sin numeración individual, se asigna un id interno estable y codigoOficial queda a null."
+    ]
+  }
+}

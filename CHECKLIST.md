@@ -275,65 +275,65 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 #### Anexo II — Materias de Bachillerato
 
-- [ ] Artes Escénicas
-- [ ] Análisis Musical
-- [ ] Anatomía Aplicada
-- [ ] Biología
-- [ ] Biología, Geología y Ciencias Ambientales
-- [ ] Ciencias de la Tierra y del Medioambiente
-- [ ] Ciencias Generales
-- [ ] Coro y Técnica Vocal
-- [ ] Cultura Audiovisual
-- [ ] Cultura y Patrimonio de Aragón
-- [ ] Dibujo Artístico
-- [ ] Dibujo Técnico
-- [ ] Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño
-- [ ] Diseño
-- [ ] Economía
-- [ ] Economía, Emprendimiento y Actividad Empresarial
-- [ ] Educación Física
-- [ ] Educación Física y Vida Activa
-- [ ] Educación para la Ciudadanía y los Derechos Humanos
-- [ ] Empresa y Diseño de Modelos de Negocio
-- [ ] Filosofía
-- [ ] Física
-- [ ] Física y Química
-- [ ] Fundamentos Artísticos
-- [ ] Fundamentos de Administración y Gestión
-- [ ] Geografía
-- [ ] Geología y Ciencias Ambientales
-- [ ] Griego
-- [ ] Historia de España
-- [ ] Historia de la Filosofía
-- [ ] Historia de la Música y de la Danza
-- [ ] Historia del Arte
-- [ ] Historia del Mundo Contemporáneo
-- [ ] Imagen y Sonido
-- [ ] Informática
-- [ ] Latín
-- [ ] Lengua Castellana y Literatura
-- [ ] Lengua Extranjera: Alemán
-- [ ] Lengua Extranjera: Francés
-- [ ] Lengua Extranjera: Inglés
-- [ ] Lenguaje y Práctica Musical
-- [ ] Lenguas Propias de Aragón: Aragonés
-- [ ] Lenguas Propias de Aragón: Catalán
-- [ ] Literatura Dramática
-- [ ] Literatura Universal
-- [ ] Matemáticas
-- [ ] Matemáticas Aplicadas a las Ciencias Sociales
-- [ ] Matemáticas Generales
-- [ ] Movimientos Culturales y Artísticos
-- [ ] Oratoria
-- [ ] Proyectos Artísticos
-- [ ] Proyecto de Investigación e Innovación Integrado
-- [ ] Psicología
-- [ ] Química
-- [ ] Sociedad, Medioambiente y Territorios Sostenibles
-- [ ] Técnicas de Expresión Gráfico-Plástica
-- [ ] Tecnología e Ingeniería
-- [ ] Unión Europea
-- [ ] Volumen
+- [ ] Artes Escénicas — [JSON en revisión](data/es-ar/bachillerato/materias/artes-escenicas.json)
+- [ ] Análisis Musical — [JSON en revisión](data/es-ar/bachillerato/materias/analisis-musical.json)
+- [ ] Anatomía Aplicada — [JSON en revisión](data/es-ar/bachillerato/materias/anatomia-aplicada.json)
+- [ ] Biología — [JSON en revisión](data/es-ar/bachillerato/materias/biologia.json)
+- [ ] Biología, Geología y Ciencias Ambientales — [JSON en revisión](data/es-ar/bachillerato/materias/biologia-geologia-y-ciencias-ambientales.json)
+- [ ] Ciencias de la Tierra y del Medioambiente — [JSON en revisión](data/es-ar/bachillerato/materias/ciencias-de-la-tierra-y-del-medioambiente.json)
+- [ ] Ciencias Generales — [JSON en revisión](data/es-ar/bachillerato/materias/ciencias-generales.json)
+- [ ] Coro y Técnica Vocal — [JSON en revisión](data/es-ar/bachillerato/materias/coro-y-tecnica-vocal.json)
+- [ ] Cultura Audiovisual — [JSON en revisión](data/es-ar/bachillerato/materias/cultura-audiovisual.json)
+- [ ] Cultura y Patrimonio de Aragón — [JSON en revisión](data/es-ar/bachillerato/materias/cultura-y-patrimonio-de-aragon.json)
+- [ ] Dibujo Artístico — [JSON en revisión](data/es-ar/bachillerato/materias/dibujo-artistico.json)
+- [ ] Dibujo Técnico — [JSON en revisión](data/es-ar/bachillerato/materias/dibujo-tecnico.json)
+- [ ] Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño — [JSON en revisión](data/es-ar/bachillerato/materias/dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno.json)
+- [ ] Diseño — [JSON en revisión](data/es-ar/bachillerato/materias/diseno.json)
+- [ ] Economía — [JSON en revisión](data/es-ar/bachillerato/materias/economia.json)
+- [ ] Economía, Emprendimiento y Actividad Empresarial — [JSON en revisión](data/es-ar/bachillerato/materias/economia-emprendimiento-y-actividad-empresarial.json)
+- [ ] Educación Física — [JSON en revisión](data/es-ar/bachillerato/materias/educacion-fisica.json)
+- [ ] Educación Física y Vida Activa — [JSON en revisión](data/es-ar/bachillerato/materias/educacion-fisica-y-vida-activa.json)
+- [ ] Educación para la Ciudadanía y los Derechos Humanos — [JSON en revisión](data/es-ar/bachillerato/materias/educacion-para-la-ciudadania-y-los-derechos-humanos.json)
+- [ ] Empresa y Diseño de Modelos de Negocio — [JSON en revisión](data/es-ar/bachillerato/materias/empresa-y-diseno-de-modelos-de-negocio.json)
+- [ ] Filosofía — [JSON en revisión](data/es-ar/bachillerato/materias/filosofia.json)
+- [ ] Física — [JSON en revisión](data/es-ar/bachillerato/materias/fisica.json)
+- [ ] Física y Química — [JSON en revisión](data/es-ar/bachillerato/materias/fisica-y-quimica.json)
+- [ ] Fundamentos Artísticos — [JSON en revisión](data/es-ar/bachillerato/materias/fundamentos-artisticos.json)
+- [ ] Fundamentos de Administración y Gestión — [JSON en revisión](data/es-ar/bachillerato/materias/fundamentos-de-administracion-y-gestion.json)
+- [ ] Geografía — [JSON en revisión](data/es-ar/bachillerato/materias/geografia.json)
+- [ ] Geología y Ciencias Ambientales — [JSON en revisión](data/es-ar/bachillerato/materias/geologia-y-ciencias-ambientales.json)
+- [ ] Griego — [JSON en revisión](data/es-ar/bachillerato/materias/griego.json)
+- [ ] Historia de España — [JSON en revisión](data/es-ar/bachillerato/materias/historia-de-espana.json)
+- [ ] Historia de la Filosofía — [JSON en revisión](data/es-ar/bachillerato/materias/historia-de-la-filosofia.json)
+- [ ] Historia de la Música y de la Danza — [JSON en revisión](data/es-ar/bachillerato/materias/historia-de-la-musica-y-de-la-danza.json)
+- [ ] Historia del Arte — [JSON en revisión](data/es-ar/bachillerato/materias/historia-del-arte.json)
+- [ ] Historia del Mundo Contemporáneo — [JSON en revisión](data/es-ar/bachillerato/materias/historia-del-mundo-contemporaneo.json)
+- [ ] Imagen y Sonido — [JSON en revisión](data/es-ar/bachillerato/materias/imagen-y-sonido.json)
+- [ ] Informática — [JSON en revisión](data/es-ar/bachillerato/materias/informatica.json)
+- [ ] Latín — [JSON en revisión](data/es-ar/bachillerato/materias/latin.json)
+- [ ] Lengua Castellana y Literatura — [JSON en revisión](data/es-ar/bachillerato/materias/lengua-castellana-y-literatura.json)
+- [ ] Lengua Extranjera: Alemán — [JSON en revisión](data/es-ar/bachillerato/materias/lengua-extranjera-aleman.json)
+- [ ] Lengua Extranjera: Francés — [JSON en revisión](data/es-ar/bachillerato/materias/lengua-extranjera-frances.json)
+- [ ] Lengua Extranjera: Inglés — [JSON en revisión](data/es-ar/bachillerato/materias/lengua-extranjera-ingles.json)
+- [ ] Lenguaje y Práctica Musical — [JSON en revisión](data/es-ar/bachillerato/materias/lenguaje-y-practica-musical.json)
+- [ ] Lenguas Propias de Aragón: Aragonés — [JSON en revisión](data/es-ar/bachillerato/materias/lenguas-propias-de-aragon-aragones.json)
+- [ ] Lenguas Propias de Aragón: Catalán — [JSON en revisión](data/es-ar/bachillerato/materias/lenguas-propias-de-aragon-catalan.json)
+- [ ] Literatura Dramática — [JSON en revisión](data/es-ar/bachillerato/materias/literatura-dramatica.json)
+- [ ] Literatura Universal — [JSON en revisión](data/es-ar/bachillerato/materias/literatura-universal.json)
+- [ ] Matemáticas — [JSON en revisión](data/es-ar/bachillerato/materias/matematicas.json)
+- [ ] Matemáticas Aplicadas a las Ciencias Sociales — [JSON en revisión](data/es-ar/bachillerato/materias/matematicas-aplicadas-a-las-ciencias-sociales.json)
+- [ ] Matemáticas Generales — [JSON en revisión](data/es-ar/bachillerato/materias/matematicas-generales.json)
+- [ ] Movimientos Culturales y Artísticos — [JSON en revisión](data/es-ar/bachillerato/materias/movimientos-culturales-y-artisticos.json)
+- [ ] Oratoria — [JSON en revisión](data/es-ar/bachillerato/materias/oratoria.json)
+- [ ] Proyectos Artísticos — [JSON en revisión](data/es-ar/bachillerato/materias/proyectos-artisticos.json)
+- [ ] Proyecto de Investigación e Innovación Integrado — [JSON en revisión](data/es-ar/bachillerato/materias/proyecto-de-investigacion-e-innovacion-integrado.json)
+- [ ] Psicología — [JSON en revisión](data/es-ar/bachillerato/materias/psicologia.json)
+- [ ] Química — [JSON en revisión](data/es-ar/bachillerato/materias/quimica.json)
+- [ ] Sociedad, Medioambiente y Territorios Sostenibles — [JSON en revisión](data/es-ar/bachillerato/materias/sociedad-medioambiente-y-territorios-sostenibles.json)
+- [ ] Técnicas de Expresión Gráfico-Plástica — [JSON en revisión](data/es-ar/bachillerato/materias/tecnicas-de-expresion-grafico-plastica.json)
+- [ ] Tecnología e Ingeniería — [JSON en revisión](data/es-ar/bachillerato/materias/tecnologia-e-ingenieria.json)
+- [ ] Unión Europea — [JSON en revisión](data/es-ar/bachillerato/materias/union-europea.json)
+- [ ] Volumen — [JSON en revisión](data/es-ar/bachillerato/materias/volumen.json)
 
 ### CFGB
 
