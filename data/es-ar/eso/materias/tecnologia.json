@@ -569,20 +569,7 @@
                   "id": "T.4.A.3.2",
                   "codigoOficial": null,
                   "texto": {
-                    "es": "Técnicas de fabricación manual y mecánica. Aplicaciones prácticas."
-                  },
-                  "procedencia": {
-                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
-                    "paginas": [
-                      939
-                    ]
-                  }
-                },
-                {
-                  "id": "T.4.A.3.3",
-                  "codigoOficial": null,
-                  "texto": {
-                    "es": "Técnicas de fabricación digital. Impresión en tres dimensiones y corte. Aplicaciones prácticas."
+                    "es": "Técnicas de fabricación manual y mecánica."
                   },
                   "procedencia": {
                     "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
@@ -634,46 +621,61 @@
           "nombre": {
             "es": "Operadores tecnológicos"
           },
-          "saberes": [
+          "apartados": [
             {
-              "id": "T.4.B.1",
-              "codigoOficial": null,
-              "texto": {
-                "es": "Electrónica analógica. Componentes básicos, simbología, análisis y montaje físico y simulado de circuitos elementales."
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Neumática básica. Circuitos."
               },
-              "procedencia": {
-                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
-                "paginas": [
-                  939
-                ]
-              }
+              "saberes": [
+                {
+                  "id": "T.4.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Elementos mecánicos, electrónicos y neumáticos aplicados a la robótica. Montaje físico o simulado."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      940
+                    ]
+                  }
+                }
+              ]
             },
             {
-              "id": "T.4.B.2",
-              "codigoOficial": null,
-              "texto": {
-                "es": "Electrónica digital básica. Neumática básica. Circuitos."
+              "codigo": "B.0",
+              "nombre": {
+                "es": "Saberes generales"
               },
-              "procedencia": {
-                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
-                "paginas": [
-                  939,
-                  940
-                ]
-              }
-            },
-            {
-              "id": "T.4.B.3",
-              "codigoOficial": null,
-              "texto": {
-                "es": "Elementos mecánicos, electrónicos y neumáticos aplicados a la robótica. Montaje físico o simulado."
-              },
-              "procedencia": {
-                "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
-                "paginas": [
-                  940
-                ]
-              }
+              "saberes": [
+                {
+                  "id": "T.4.B.0.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Electrónica analógica. Componentes básicos, simbología, análisis y montaje físico y simulado de circuitos elementales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      939
+                    ]
+                  }
+                },
+                {
+                  "id": "T.4.B.0.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Electrónica digital básica."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boa-2022-156-orden-ecd-1172-2022",
+                    "paginas": [
+                      939
+                    ]
+                  }
+                }
+              ]
             }
           ]
         },
@@ -803,7 +805,7 @@
   "revision": {
     "estado": "borrador",
     "fuenteComprobada": true,
-    "fechaUltimaRevision": "2026-10-17",
+    "fechaUltimaRevision": "2026-10-18",
     "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
     "notas": [
       "Los desarrollos se organizan por cursos y variantes conforme a las tablas publicadas por la norma aragonesa.",

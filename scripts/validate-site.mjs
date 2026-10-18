@@ -22,7 +22,7 @@ check(catalog.materias.filter((item) => item.etapa === "bachillerato").length ==
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "bachillerato").length === 59, "El catálogo de Aragón no contiene sus 59 currículos de Bachillerato.");
 check(catalog.materias.filter((item) => item.etapa === "cfgb").length === 4, "El catálogo de CFGB no contiene 4 ámbitos territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "cfgb").length === 2, "El catálogo de Aragón no contiene sus 2 ámbitos de CFGB.");
-check(catalog.incidencias.length === 130, `Se esperaban 130 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 132, `Se esperaban 132 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");
