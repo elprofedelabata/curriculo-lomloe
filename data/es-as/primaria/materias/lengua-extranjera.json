@@ -1,0 +1,1802 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.primaria.lengua-extranjera",
+  "territorio": "es-as",
+  "etapa": "primaria",
+  "materia": {
+    "codigo": "LE",
+    "nombre": {
+      "es": "Lengua Extranjera"
+    },
+    "ciclos": [
+      {
+        "ciclo": 1,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 2,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 3,
+        "caracter": "obligatoria"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-156-decreto-57-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 57/2022, de 5 de agosto, por el que se regula la ordenación y se establece el currículo de la Educación Primaria en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "2022-06337",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/08/12/2022-06337.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/08/12/2022-06337.pdf",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 108,
+        "hasta": 122
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El mundo está inmerso en un proceso de transformación constante y acelerado en el que las distancias cada vez son más pequeñas llevándonos a un entorno de globalización, que posibilita interconexiones que habrían sido inconcebibles en tiempos no tan lejanos. Es fundamental que la ciudadanía del futuro, que se está formando en nuestros centros educativos, desarrolle todas aquellas competencias que les posibiliten aprovechar las oportunidades que les brinda esta nueva situación de cercanía global.",
+      "Dado ese continuo avance, el área de Lengua Extranjera se ha vuelto una herramienta indispensable, ya que la habilidad para comunicarnos en un país extranjero de manera efectiva se construye desde edades tempranas, desarrollando una habilidad comunicativa oral y escrita, utilizando la interacción y la mediación como estrategias de comunicación.",
+      "Estudiar en otro país, participar en proyectos de investigación, en equipos multidisciplinares o multinacionales y desarrollar su futuro profesional en el extranjero son posibilidades reales a los ojos de la juventud. Para poder sacar todo el rendimiento a todas y cada una de esas posibilidades puede que el conocimiento de una lengua extranjera sea la necesidad más acuciante. El hecho de poder comunicar tus ideas, sentimientos y pensamientos a otras personas y, de la misma forma, entender lo que los demás nos tienen que transmitir es una habilidad imprescindible para el futuro de nuestro sistema.",
+      "La adquisición de la Lengua Extranjera integra diferentes aspectos tal y como se puede comprobar más adelante en la estructura del propio currículo. Por un lado, es innegable la dimensión comunicativa, estrechamente relacionada con la Competencia en Comunicación Lingüística, que incluye todas las habilidades relativas a los cuatro grandes bloques establecidos en el Marco Común Europeo de Referencia de las Lenguas en su última edición de abril de 2020 (Recepción, Producción, Interacción y Mediación). Pero no son menos importantes las otras dos dimensiones establecidas en el presente documento como son el Plurilingüismo y la Interculturalidad.",
+      "Las competencias específicas del área de Lengua Extranjera en la Educación Primaria, en muchos casos, constituyen el punto de partida en el aprendizaje formal de idiomas. Estas competencias específicas del área de Lengua Extranjera también incluyen el fomento del aprecio por la diversidad lingüística, artística y cultural entre el alumnado con el fin de que aprenda a gestionar situaciones comunicativas interculturales.",
+      "El estado español es diverso, marcado por la existencia de varias lenguas como modo de comunicación entre sus habitantes. En el Principado de Asturias, la mayoría de nuestro alumnado dispone de un perfil lingüístico individual compuesto por el conocimiento y la comprensión de más de una lengua y poseen un respeto y un aprecio hacia las distintas lenguas, siendo capaces de manejar diferentes registros lingüísticos en diferentes situaciones y con diferentes interlocutores.",
+      "El área de Lengua Extranjera debe aprovechar esta diversidad lingüística ya existente para favorecer la empatía y despertar el interés por otras realidades culturales y sociales y facilitar la competencia comunicativa intercultural a partir de la relación con personas de habla extranjera, partiendo de posiciones de respeto hacia las mismas, sus costumbres y su cultura.",
+      "La adquisición de las competencias específicas se comprobará mediante los criterios de evaluación, que son los referentes que nos indican los niveles de desempeño en las diferentes habilidades que conforman cada competencia específica.",
+      "Los saberes básicos sugeridos para alcanzar el desarrollo de las competencias específicas se han estructurado en tres bloques «Comunicación», «Plurilingüismo» e «Interculturalidad».",
+      "Los saberes básicos del bloque «Comunicación» son todos aquellos contenidos vinculados con el aspecto más lingüístico de la asignatura (sintaxis, morfología, léxico, funciones comunicativas, convenciones y patrones).",
+      "El bloque «Plurilingüismo» está dedicado a todas las estrategias que el alumnado debe poner en práctica para analizar las similitudes y diferencias entre la lengua a aprender y las que forman parte de su perfil lingüístico individual y así obtener un conocimiento más práctico del uso de las lenguas estableciendo relaciones lógicas que le faciliten su aprendizaje y uso.",
+      "El bloque «Interculturalidad» es en el que podemos encontrar todos los aspectos sociales y culturales característicos y diferenciales de aquellos países en los que se habla la lengua extranjera. Se trata de trabajar en este bloque la apreciación hacia formas culturales diferentes de las conocidas tratando de despertar en el alumnado una curiosidad hacia diferentes formas culturales siempre desde el respeto y valorando la diferencia como algo enriquecedor.",
+      "El enfoque, la nivelación y la definición de los distintos elementos del currículo están planteados a partir de las actividades de lengua y las competencias que establece el Consejo de Europa en el MCER.",
+      "El foco hacia el que se dirige el aprendizaje de la Lengua Extranjera es un desarrollo competencial del alumnado, capaz de desenvolverse en las diferentes situaciones de aprendizaje que surgirán a lo largo del proceso, imitando en la medida de lo posible aquellas situaciones reales en las que el alumno o alumna empleará la lengua extranjera como vehículo de comunicación e interacción social. Este desarrollo competencial no enriquece solamente en términos lingüísticos, sino también en el ámbito social, académico y personal del alumnado.",
+      "La dimensión social del uso del lenguaje en todos sus ámbitos hace que podamos entender cómo, mediante la interacción con el entorno, se provee del marco de desarrollo en el que el alumnado debe encontrar el sentido y el objetivo por el cual el aprendizaje de la lengua extranjera le ofrecerá una mayor cantidad de recursos para acceder, relacionarse y aprovechar todas las posibilidades de crecimiento, investigación y desarrollo personal que se le puedan ir apareciendo.",
+      "El proceso de enseñanza aprendizaje se desarrolla al mismo ritmo que la sociedad lo hace. Ello implica que no solo las habilidades y actitudes del alumnado deben ir a la par de este desarrollo, sino también las capacidades de los docentes deben mantenerse en continua mejora y enriquecimiento. Las necesidades de la sociedad hoy en día no se parecen a las que se daban hace unas décadas, por lo que, una adaptación del proceso, las metodologías y las situaciones de aprendizaje a la diversidad del siglo XXI es indispensable para que el aprendizaje competencial y desarrollo personal de nuestros alumnos y alumnas sea eficaz y de valor.",
+      "Metodología El proceso de enseñanza-aprendizaje de la lengua extranjera, como cualquier otro proceso de este tipo, debe partir de una planificación rigurosa de lo que se pretende conseguir en la que se establezcan, de una manera clara, los objetivos o metas, los recursos que son necesarios, las metodologías más adecuadas y la manera en la que va a evaluarse el aprendizaje, así como el método a emplear para utilizar esa información en beneficio del propio proceso.",
+      "Los métodos didácticos que se vayan a utilizar deberán elegirse en función de lo que se sabe que es óptimo para alcanzar las metas propuestas y en función de los condicionantes en los que tiene lugar la enseñanza. Estos métodos habrán de dirigirse no solamente al «saber» sino también al «saber hacer», ya que es desde esa perspectiva desde la que el alumnado adquiere el enfoque y la perspectiva de la aplicación del conocimiento en diferentes contextos y situaciones.",
+      "El aprendizaje de una Lengua Extranjera contribuye al desarrollo de la Competencia en Comunicación Lingüística (CCL) a través de la comprensión y producción de textos orales, escritos o multimodales, así como la mediación e interacción con hablantes de dicho idioma, intercambiando información con otro alumnado mediante notas, mensajería instantánea, cartas, correo electrónico, etc.",
+      "El conocimiento de esta segunda lengua contribuye a favorecer la Competencia Plurilingüe (CP) reconociendo la diversidad de perfiles lingüísticos y culturales existentes en nuestra sociedad y experimentando estrategias para comunicarse en las distintas lenguas, promoviendo una actitud respetuosa e inclusiva hacia otras culturas y el rechazo hacia cualquier tipo de discriminación.",
+      "Esta área contribuye a la adquisición de la Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM) trabajando sobre el medio ambiente, la sostenibilidad y la salud mediante diferentes enfoques, utilizando la terminología apropiada y las nuevas tecnologías y, de forma más específica, con trabajo en situaciones espaciales, indicaciones para realizar desplazamientos, la expresión de las horas o la conciencia del paso del tiempo, así como la conversión de unidades de medida de diferentes sistemas utilizados en países de habla inglesa o los diferentes tipos de divisa.",
+      "El área de Lengua extranjera contribuye al desarrollo de la Competencia Digital (CD) ya que es lengua principal en el campo de la tecnología. Lenguajes de programación basados en la lengua inglesa utilizan conjunciones o expresiones habituales en instrucciones de automatización. El vocabulario unido a herramientas tecnológicas está ligado a la lengua inglesa, ocasionando que algunas expresiones sean incorporadas a la lengua castellana.",
+      "El área potencia la Competencia Personal, Social y de Aprender a Aprender (CPSAA) incorporando diferentes estrategias de comprensión y producción de mensajes que el alumnado puede aplicar para superar las barreras lingüísticas. El apoyo en el lenguaje no verbal para una mejor comprensión de los mensajes es una estrategia fundamental para la superación de obstáculos a la hora de comunicarse. Esto mejora la capacidad para trabajar en grupo, asumiendo responsabilidades y desarrollando habilidades de trabajo cooperativo.",
+      "El aprendizaje de una lengua extranjera permite el desarrollo de la Competencia Ciudadana (CC) reflexionando sobre problemas éticos, comprendiendo los lazos existentes entre ser humano y medio ambiente fomentando una relación respetuosa entre ambos, favoreciendo así la consecución de los Objetivos de Desarrollo Sostenible planteados en la Agenda 2030. El conocimiento y comprensión de la lengua y la cultura fortalece los componentes de tolerancia y respeto propios de la sociedad que queremos y debemos construir.",
+      "Esta área potencia la Competencia Emprendedora (CE) asumiendo el riesgo a equivocarse, planificando y gestionando lo que se quiere transmitir, tanto de forma oral como escrita y siendo conscientes del contexto en el que se desarrolla la comunicación. La toma de decisiones pone en auge la creatividad, cooperando con iguales, pero también a nivel individual; favorece descubrir fortalezas y debilidades propias que ayudan a reconocer sus propias necesidades.",
+      "Cuando aprendemos un nuevo idioma desarrollamos la Competencia en Conciencia y Expresiones Culturales (CCEC) conociendo parte de una cultura, ampliando nuestra visión del mundo e interactuando con la sociedad. Una lengua forma parte de su patrimonio cultural, y viceversa. A través de las canciones, rimas, trabalenguas o lecturas propias de las tradiciones, y descubriendo la cultura de los diferentes países de habla inglesa, se trabaja directamente sobre esta competencia.",
+      "Tomando de la mano el rápido avance que están desarrollando las nuevas tecnologías, los enfoques toman una perspectiva cada vez más digital, como el portfolio sugerido por el Marco Común Europeo de referencia para las lenguas, que el alumnado puede desarrollar.",
+      "La metodología debe tener en cuenta propuestas y modelos organizativos que, generalizados al contexto de aula, permitan la presencia, la participación y el aprendizaje de todo el alumnado. Por ello, se debe buscar la personalización de la respuesta educativa, teniendo en cuenta el Diseño Universal para el Aprendizaje (DUA). Este diseño se basa en tres principios que contempla múltiples formas de implicación o motivación para la tarea (por qué se aprende), múltiples formas de representación de la información (el qué se aprende) y múltiples formas de expresión del aprendizaje (cómo se aprende), de manera que se conecte con los centros de interés del alumnado, así como con la programación multinivel de saberes básicos del área. Este diseño promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado.",
+      "Como facilitadores y guías durante este proceso debemos aprender a identificar cuáles son estos centros de interés o motivacionales para intentar aprovecharlos y poder incluirlos de manera directa o indirecta como disparadores de la motivación y la atención en el aula. La motivación propicia la participación, la participación establece una interacción no solo con el entorno de aula, sino que puede ayudar a traspasar sus fronteras haciendo que el alumnado emprenda acciones de investigación, debate y colaboración más allá de los límites físicos del centro educativo.",
+      "Los aprendizajes de los alumnos y alumnas deben tener un carácter secuencial, que fomenten un desarrollo competencial desde el nivel que posean para ir progresivamente elevando estos aprendizajes hasta la cumbre de su potencial. La implicación docente es el eje central en esta cuestión, lo que hace necesario la existencia de una buena coordinación entre los docentes. Si podemos encontrar momentos en los que se lleve a cabo una reflexión común y compartida sobre la eficacia de las diferentes propuestas metodológicas con criterios comunes y consensuados, estaremos dotando de una estructura sólida y de referencia para el alumnado.",
+      "De la misma manera, debemos tener en cuenta la atención a la diversidad y el respeto por los distintos ritmos y estilos de aprendizaje mediante prácticas de trabajo individual o cooperativo. Hay que tener en cuenta las circunstancias y el contexto del aula en la que se van a poner en práctica, con las potencialidades y limitaciones personales, de recursos y herramientas a las que podamos tener acceso, haciendo que método y aplicación sean lo más cercanos a la realidad que vamos a ver y tener que enfrentar en nuestros centros escolares.",
+      "El día a día está repleto de necesidades comunicativas, de mediación e interacción, que requieren una visión activa e interactiva de los aprendizajes. Los métodos que se vayan a usar deben intentar enfocarse a la realización de tareas o situaciones de aprendizaje, planteadas con un objetivo concreto para que el alumnado sea capaz de entender y ver la conexión con su realidad tanto a nivel aplicativo inmediato o cercano como de aquel que en el futuro pueda presentársele.",
+      "Una de las realidades que el alumnado experimenta habitualmente tiene que ver con los medios digitales y audiovisuales. Mediante ellos descubre otros idiomas y costumbres y se abre la puerta y posibilidad de aprender sobre aquello que ven o sobre aquellas personas con las que interactúan. De este modo, el alumnado entiende de una manera real la necesidad por el respeto por otras culturas.",
+      "El alumnado se convierte en aprendiz activo y autónomo cuando comienza a crear sus propios recursos que sirven de ayuda para otros aprendizajes. Podemos así enseñarles estrategias para la creación de un banco de recursos de los cuales puedan disponer para andamiar su aprendizaje. Nuestra labor docente también se encaminará a que aprendan a usar esos recursos cuando les sean necesarios.",
+      "Cuando el alumnado es capaz de ofrecer ayuda a un compañero o compañera de clase está realizando una labor de reflexión sobre su propio conocimiento que va a tener un fuerte impacto de carácter positivo en su propio aprendizaje.",
+      "Una de las fuentes de conocimientos, experiencias y creatividad clave es la lectura. Fomentando la lectura estamos impulsando a nuestros alumnos y alumnas a desarrollar su creatividad, conocer mundos inimaginables y despertar la curiosidad por la experiencia y vivencia de nuevos retos, así como la posibilidad de consultar las vivencias de otros.",
+      "Tener a disposición una biblioteca de aula en la que el alumnado pueda encontrar libros que presenten historias en la lengua extranjera con temática que despierte su interés o con aquellas que sean de su agrado en diferentes formatos, facilitará el desarrollo de su perfil competencial, pudiendo llegar a acompañar la lectura de una producción.",
+      "Ejemplos como los microrrelatos o narraciones colaborativas pueden ser de interés para nuestro alumnado además de ofrecer una oportunidad excelente para una aplicación dinámica de la lengua extranjera.",
+      "Fomentando un Programa de Acompañamiento Lingüístico en el que un auxiliar nativo comparta una o varias sesiones semanales con el alumnado se establece una influencia positiva y un input de carácter inigualable en las aulas, donde la motivación se dispara y el desarrollo competencial se vivencia en una realidad lingüística innegable. Verse en la necesidad de explicarle al asistente las peculiaridades de su propia cultura, les obligará a organizar su pensamiento y a buscar en su repertorio lingüístico aquellas estructuras y palabras que le ayuden a transmitir lo deseado.",
+      "El uso de estrategias o metodologías de aprendizaje en las que el intercambio comunicativo dinámico favorezca la aplicación de las destrezas lingüísticas parte de sumergir al alumnado en situaciones donde la utilización de los diferentes recursos lingüísticos que están incorporando se vean como necesarios: el roleplaying o la gamificación son dos ejemplos de metodología que favorecen la aparición y participación interactiva y continuada en un entorno de experimentación en el que aprender del error permite al alumnado «Aprender a Aprender»."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Comprender el sentido general e información específica y predecible de textos breves y sencillos, expresados de forma clara y en la lengua estándar, haciendo uso de diversas estrategias y recurriendo, cuando sea necesario, al uso de distintos tipos de apoyo, para desarrollar el repertorio lingüístico y para responder a necesidades comunicativas cotidianas."
+      },
+      "descripcion": {
+        "es": [
+          "La comprensión supone recibir y procesar información, lo que conlleva el enriquecimiento del repertorio lingüístico individual. En la etapa de la Educación Primaria, la comprensión es una destreza comunicativa que se debe desarrollar a partir de textos breves y sencillos, orales, escritos y multimodales, sobre temas cotidianos, de relevancia personal para el alumnado, y expresados de forma clara y usando la lengua estándar. La comprensión, en este nivel, implica entender el sentido general e información específica y predecible para satisfacer necesidades comunicativas relacionadas con prioridades inmediatas del alumnado. Para ello, se deben activar las estrategias más adecuadas al desarrollo psicoevolutivo y a las necesidades del alumnado, con el fin de facilitar la comprensión de la información expresada en los textos y de entender enunciados cortos y sencillos, con ayuda, si fuera necesario, de distintos tipos de apoyo. Entre las estrategias de comprensión más útiles para el alumnado se encuentran el lenguaje no verbal, las imágenes, la repetición o la relectura, así como la transferencia e integración de los conocimientos, las destrezas y las actitudes de las lenguas que conforman su repertorio lingüístico. Incluye la interpretación de formas de representación básicas (escritura, imagen, gráficos, tablas, sonidos, gestos, etc.), así como la información contextual (elementos extralingüísticos) y cotextual (elementos lingüísticos) que le permita comprobar la hipótesis inicial acerca del sentido global del texto, así como plantear hipótesis alternativas si fuera necesario. Además de dichas estrategias, la búsqueda de información, en soportes tanto analógicos como digitales, constituye un método de gran utilidad para la comprensión, pues permite contrastar, validar y sustentar la información. Los procesos de comprensión requieren contextos dialógicos, que favorezcan la construcción de un saber conjunto y que estimulen la identificación de prejuicios y estereotipos de cualquier tipo, así como el interés genuino por las diferencias y similitudes etnoculturales."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CP1",
+        "CP2",
+        "STEM1",
+        "CD1",
+        "CPSAA5",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-156-decreto-57-2022",
+        "paginas": [
+          112
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Producir textos sencillos de manera comprensible y estructurada, mediante el empleo de estrategias como la planificación o la compensación, para expresar mensajes breves relacionados con necesidades inmediatas y responder a propósitos comunicativos cotidianos."
+      },
+      "descripcion": {
+        "es": [
+          "La producción engloba tanto la expresión oral como la escrita y la multimodal. En esta etapa, la producción debe dar lugar a la redacción y la exposición de textos breves y sencillos, planificados, sobre temas cotidianos y de relevancia personal para el alumnado, y expresados con creatividad y claridad. La producción, en diversos formatos y soportes, puede incluir en esta etapa la exposición de una pequeña descripción o anécdota sencilla, una presentación formal de extensión breve o una narración sencilla de textos que expresen hechos y sentimientos cotidianos, mediante herramientas digitales y analógicas, así como la búsqueda guiada de información en internet como fuente de documentación. En su formato multimodal, la producción incluye el uso conjunto de diferentes recursos para producir significado (escritura, imagen, sonido, gestos, etc.) y la selección guiada y la aplicación del más adecuado en función de la tarea.",
+          "Las actividades vinculadas con la producción de textos cumplen funciones importantes en los ámbitos personal, social y educativo, y existe un valor social y cívico concreto asociado a ellas. La destreza en las producciones más formales en diferentes soportes no se adquiere de forma natural, sino que es producto del proceso de aprendizaje. En esta etapa tiene lugar el primer acercamiento a las producciones formales, lo que supone un aprendizaje guiado de aspectos formales básicos de cariz más lingüístico, sociolingüístico y pragmático; de las expectativas y convenciones más comunes asociadas al género empleado; de herramientas sencillas de producción; y del soporte utilizado. Las estrategias que permiten la mejora de la producción, tanto formal como informal, en la Educación Primaria comprenden, entre otras, la planificación y la compensación a través del lenguaje verbal y no verbal."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CP1",
+        "CP2",
+        "STEM1",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-156-decreto-57-2022",
+        "paginas": [
+          113
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Interactuar con otras personas usando expresiones cotidianas, recurriendo a estrategias de cooperación y empleando recursos analógicos y digitales, para responder a necesidades inmediatas de su interés en intercambios comunicativos respetuosos con las normas de cortesía."
+      },
+      "descripcion": {
+        "es": [
+          "La interacción implica a dos o más participantes en la construcción de un discurso. Se considera el origen de la comunicación y comprende funciones interpersonales, cooperativas y transaccionales. En la interacción entran en juego la cortesía lingüística y la etiqueta digital, los elementos verbales y no verbales de la comunicación, así como la adecuación a los distintos géneros dialógicos más frecuentes, tanto orales como escritos y multimodales, en contextos analógicos y virtuales. En esta etapa de la educación se espera que los intercambios de información sean breves y sencillos y aborden temas cotidianos, predecibles y de relevancia personal para el alumnado.",
+          "Esta competencia específica es fundamental en el aprendizaje, pues incluye estrategias de inicio, mantenimiento o conclusión de conversaciones básicas, así como estrategias elementales para indicar que no se ha entendido el mensaje y para solicitar repetición. Además, la adquisición de las normas y principios que rigen la cortesía lingüística y la etiqueta digital prepara para el ejercicio de una ciudadanía democrática, responsable, respetuosa, inclusiva, segura y activa."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP1",
+        "CP2",
+        "STEM1",
+        "CPSAA3",
+        "CC3",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-156-decreto-57-2022",
+        "paginas": [
+          114
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Mediar en situaciones predecibles, usando estrategias y conocimientos para procesar y transmitir información básica y sencilla, con el fin de facilitar la comunicación."
+      },
+      "descripcion": {
+        "es": [
+          "La mediación es la actividad del lenguaje consistente en explicar y facilitar la comprensión de mensajes o textos a partir de estrategias como la reformulación, de manera oral o escrita. En la mediación, el alumnado debe actuar como agente social encargado de crear puentes y ayudar a construir o expresar mensajes de forma dialógica o expositiva, no solo entre lenguas distintas, sino también entre distintas modalidades o registros dentro de una misma lengua. En la Educación Primaria, la mediación está orientada al procesamiento y la transmisión de información básica y sencilla entre usuarios o a partir de textos sobre asuntos cotidianos y de relevancia personal, conocidos previamente por el alumnado, pudiendo emplear tanto medios convencionales como aplicaciones o plataformas virtuales para interpretar y compartir contenidos.",
+          "La mediación favorece el desarrollo del pensamiento estratégico del alumnado, en tanto que supone que este elija adecuadamente destrezas y estrategias de su repertorio para lograr una comunicación eficaz, pero también para favorecer la participación propia y de otras personas en entornos cooperativos de intercambios de información. Asimismo, implica reconocer los recursos disponibles y promover la motivación del resto y la empatía, comprendiendo y respetando las diferentes motivaciones, ideas y circunstancias personales. Por ello, se espera que el alumnado muestre empatía, y respeto y desarrolle relaciones en igualdad como elementos clave para una adecuada mediación en este nivel."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP1",
+        "CP2",
+        "CP3",
+        "STEM1",
+        "CPSAA1",
+        "CPSAA3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-156-decreto-57-2022",
+        "paginas": [
+          115
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Reconocer y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando sobre su funcionamiento e identificando las estrategias y conocimientos propios, para mejorar la respuesta a necesidades comunicativas concretas en situaciones conocidas."
+      },
+      "descripcion": {
+        "es": [
+          "El uso del repertorio lingüístico y la reflexión sobre su funcionamiento están vinculados con el enfoque plurilingüe de la adquisición de lenguas. El enfoque plurilingüe parte del hecho de que las experiencias del alumnado con las lenguas que conoce sirven de base para la ampliación y mejora del aprendizaje de lenguas nuevas y lo ayudan a desarrollar y enriquecer su repertorio lingüístico plurilingüe y su curiosidad y sensibilización cultural. En la Educación Primaria el alumnado se inicia en esa reflexión sobre las lenguas y empieza a establecer las relaciones entre las distintas lenguas de sus repertorios individuales, analizando sus semejanzas y diferencias con el fin de ampliar los conocimientos y estrategias en las lenguas que los conforman. De este modo, se favorece el aprendizaje de nuevas lenguas y se mejora la competencia comunicativa. La reflexión sobre las lenguas y su funcionamiento implica que el alumnado entienda sus relaciones, pero, además, contribuye a que identifique las fortalezas y carencias propias en el terreno lingüístico y comunicativo, tomando conciencia de los conocimientos y estrategias de que dispone. En este sentido, supone también la puesta en marcha de destrezas básicas para hacer frente a la incertidumbre, el sentido de la iniciativa y la perseverancia en la consecución de los objetivos o la toma de decisiones.",
+          "Además, el conocimiento de distintas lenguas permite reconocer y apreciar la diversidad lingüística de la sociedad como un aspecto cotidiano y positivo. La selección, configuración y aplicación de los dispositivos y herramientas, tanto analógicas como digitales, para la construcción e integración de nuevos contenidos sobre el repertorio lingüístico propio pueden facilitar la adquisición y mejora del aprendizaje de otras lenguas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CP2",
+        "STEM1",
+        "CD2",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-156-decreto-57-2022",
+        "paginas": [
+          116,
+          117
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Apreciar y respetar la diversidad lingüística, cultural y artística a partir de la lengua extranjera identificando y valorando las diferencias y semejanzas entre lenguas y culturas, para aprender a gestionar situaciones interculturales."
+      },
+      "descripcion": {
+        "es": [
+          "La interculturalidad supone experimentar la diversidad lingüística, cultural y artística del entorno, reconociéndola y valorándola como fuente de riqueza social. En la Educación Primaria, la interculturalidad, que favorece el entendimiento con el resto de personas merece una atención específica porque, a diferencia de otros aspectos, es probable que no se encuentre en la experiencia previa del alumnado y que su percepción esté distorsionada por los estereotipos y constituya el origen de ciertos tipos de discriminación. El reconocimiento, el aprecio y la valoración de la diversidad deben permitir al alumnado aprender a gestionar situaciones interculturales cotidianas.",
+          "La conciencia de la diversidad proporciona al alumnado la posibilidad de relacionar distintas culturas. Además, sienta las bases para el desarrollo de una sensibilidad artística y cultural, y la capacidad de identificar y utilizar una gran variedad de estrategias que le permitan establecer relaciones con personas de otras culturas. Las situaciones interculturales que se pueden plantear en la etapa de la Educación Primaria durante la enseñanza de la lengua extranjera permiten al alumnado abrirse a nuevas experiencias, ideas, sociedades y culturas, mostrando interés y respeto por lo diferente; relativizar la propia perspectiva; además de distanciarse y rechazar las actitudes sustentadas sobre cualquier tipo de discriminación o refuerzo de estereotipos, mostrando interés por comprender elementos culturales y lingüísticos básicos que fomenten la convivencia pacífica, el respeto por los demás, la sostenibilidad y el ejercicio de la ciudadanía democrática."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP3",
+        "CPSAA1",
+        "CPSAA3",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-156-decreto-57-2022",
+        "paginas": [
+          117,
+          118
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "ciclo": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer e interpretar palabras y expresiones habituales en textos orales, escritos y multimodales breves y sencillos sobre temas frecuentes y cotidianos de relevancia personal próximos a su experiencia, expresados de forma comprensible, clara, sencilla y directa, y en lengua estándar."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              112
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Seleccionar y aplicar de forma guiada estrategias elementales en situaciones comunicativas cotidianas y de relevancia para el alumnado con el fin de captar la idea global e identificar elementos específicos con ayuda de elementos lingüísticos y no lingüísticos del contexto y el cotexto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              112
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Expresar oralmente frases cortas y sencillas con información básica sobre asuntos cotidianos y de relevancia para el alumnado, utilizando de forma guiada recursos verbales y no verbales, recurriendo a modelos y estructuras previamente presentados y prestando atención al ritmo, la acentuación y la entonación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Escribir palabras, expresiones conocidas y frases a partir de modelos y con una finalidad específica, a través de herramientas analógicas y digitales, usando léxico y estructuras elementales sobre asuntos cotidianos y de relevancia personal para el alumnado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar y aplicar, de forma guiada, estrategias básicas para producir mensajes breves y sencillos adecuados a las intenciones comunicativas usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Participar, de forma guiada, en situaciones interactivas elementales sobre temas cotidianos, preparadas previamente, a través de diversos soportes, apoyándose en recursos tales como la repetición, el ritmo pausado o el lenguaje no verbal, y mostrando empatía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              115
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Seleccionar y utilizar, de forma guiada y en entornos próximos, estrategias elementales para saludar, despedirse y presentarse; expresar mensajes sencillos y breves; y formular y contestar preguntas básicas para la comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              115
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y explicar, de forma guiada, información básica de conceptos, comunicaciones y textos breves y sencillos en situaciones en las que atender a la diversidad, mostrando empatía e interés por las interlocutoras e interlocutores y por los problemas de entendimiento en su entorno inmediato, apoyándose en diversos recursos y soportes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comparar y contrastar similitudes y diferencias evidentes entre distintas lenguas, reflexionando, de forma guiada, sobre aspectos elementales de su funcionamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar y aplicar, de forma guiada, conocimientos y estrategias de mejora de su capacidad de comunicar y de aprender la lengua extranjera, con apoyo de otros participantes y de soportes analógicos y digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar y explicar, de manera guiada, progresos y dificultades elementales en el proceso de aprendizaje de la lengua extranjera."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Mostrar interés por la comunicación intercultural, identificando y analizando, de forma guiada, las discriminaciones, los prejuicios y los estereotipos más comunes, en situaciones cotidianas y habituales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y apreciar la diversidad lingüística y cultural relacionada con la lengua extranjera, mostrando interés por conocer sus elementos culturales y lingüísticos elementales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              118
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Comunicación"
+          },
+          "saberes": [
+            {
+              "id": "LE.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza en el uso de la lengua extranjera."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "LE.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación en las estrategias elementales para la comprensión y la producción de textos orales, escritos y multimodales breves, sencillos y contextualizados."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "LE.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Funciones comunicativas elementales adecuadas al ámbito y al contexto: saludar, despedirse, presentar y presentarse; identificar las características de personas, objetos y lugares; responder a preguntas concretas sobre cuestiones cotidianas; expresar el tiempo, la cantidad y el espacio."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelos contextuales elementales en la comprensión y producción de textos orales, escritos y multimodales, breves y sencillos, tales como felicitaciones, notas, listas o avisos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Unidades lingüísticas elementales y significados asociados a dichas estructuras tales como expresión de la entidad y sus propiedades, cantidad y número, afirmación, exclamación, negación, interrogación."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Léxico elemental y de interés para el alumnado relativo a relaciones interpersonales básicas, vivienda, lugares y entornos cercanos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación en patrones sonoros y acentuales elementales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.A.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación en convenciones ortográficas elementales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.A.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Convenciones y estrategias conversacionales elementales, en formato síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, preguntar y responder, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.A.10",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas analógicas y digitales elementales para la comprensión y producción oral, escrita y multimodal."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Plurilingüismo"
+          },
+          "saberes": [
+            {
+              "id": "LE.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias y técnicas elementales de detección de las carencias comunicativas y las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las demás lenguas del repertorio lingüístico propio."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación en las estrategias elementales para identificar y utilizar unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Interculturalidad"
+          },
+          "saberes": [
+            {
+              "id": "LE.1.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La lengua extranjera como medio de comunicación y relación con personas de otros países."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aspectos socioculturales y sociolingüísticos elementales y más significativos relativos a las costumbres y la vida cotidiana en países donde se habla la lengua extranjera."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación en las estrategias básicas de uso común para entender y apreciar la diversidad lingüística, cultural y artística, a partir de valores ecosociales y democráticos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.1.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación en las estrategias básicas de detección de usos discriminatorios del lenguaje verbal y no verbal."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer e interpretar el sentido global, así como palabras y frases previamente indicadas, en textos orales, escritos y multimodales, breves y sencillos, sobre temas frecuentes y cotidianos de relevancia personal y próximos a su experiencia, así como de textos de ficción adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible, clara y en lengua estándar a través de distintos soportes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              112
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Seleccionar y aplicar, de forma guiada, estrategias adecuadas en situaciones comunicativas cotidianas y de relevancia para el alumnado, para captar el sentido global y procesar informaciones explícitas en textos breves y sencillos sobre temas familiares."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Expresar oralmente frases cortas con información básica sobre asuntos cotidianos y de relevancia para el alumnado, utilizando, de forma guiada, recursos verbales y no verbales, prestando atención al ritmo, la acentuación y la entonación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Redactar textos muy breves y sencillos, con adecuación a la situación comunicativa propuesta, a partir de modelos y a través de herramientas analógicas y digitales, usando estructuras y léxico elemental sobre asuntos cotidianos y de relevancia personal para el alumnado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar y aplicar, de forma guiada, estrategias para producir mensajes breves y sencillos adecuados a las intenciones comunicativas, usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Participar en situaciones interactivas breves y sencillas sobre temas cotidianos, de relevancia personal próximos a su experiencia, preparadas previamente, a través de diversos soportes, apoyándose en recursos tales como la repetición, el ritmo pausado o el lenguaje no verbal, y mostrando empatía y respeto por la cortesía lingüística y la etiqueta digital."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              115
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Seleccionar y utilizar, de forma guiada y en situaciones cotidianas, estrategias elementales para saludar, despedirse y presentarse; expresar mensajes breves; y formular y contestar preguntas sencillas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              115
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y explicar textos, conceptos y comunicaciones breves y sencillas, de forma guiada, en situaciones en las que atender a la diversidad, mostrando empatía e interés por las interlocutoras e interlocutores y por los problemas de entendimiento en su entorno más próximo, apoyándose en diversos recursos y soportes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Seleccionar y aplicar, de forma guiada, estrategias elementales que ayuden a crear puentes y faciliten la comprensión y producción de información y la comunicación, usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comparar y contrastar las similitudes y diferencias entre distintas lenguas reflexionando, de forma guiada, sobre aspectos básicos de su funcionamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Utilizar y diferenciar, de forma guiada, los conocimientos y estrategias de mejora de su capacidad de comunicar y de aprender la lengua extranjera, con apoyo de la expresión oral y escrita además de soportes analógicos y digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Registrar y aplicar, de manera guiada, los progresos y dificultades elementales en el proceso de aprendizaje de la lengua extranjera, reconociendo los aspectos que ayudan a mejorar y participando en actividades de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Actuar con respeto en situaciones interculturales, identificando y comparando semejanzas y diferencias elementales entre lenguas y culturas, y mostrando rechazo frente a discriminaciones, prejuicios y estereotipos de cualquier tipo en contextos comunicativos cotidianos y habituales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y apreciar la diversidad lingüística, cultural y artística propia de países donde se habla la lengua extranjera como fuente de enriquecimiento personal, mostrando interés por comprender elementos culturales y lingüísticos elementales y habituales que fomenten la convivencia pacífica y el respeto hacia las personas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Seleccionar y aplicar, de forma guiada, estrategias básicas para entender y apreciar los aspectos más relevantes de la diversidad lingüística, cultural y artística."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              118
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Comunicación"
+          },
+          "saberes": [
+            {
+              "id": "LE.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza y reflexión sobre el aprendizaje. El error como parte integrante del proceso."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias básicas de uso común para la comprensión y la producción de textos orales, escritos y multimodales breves, sencillos y contextualizados."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conocimientos, destrezas y actitudes elementales que permiten iniciarse en actividades de mediación en situaciones cotidianas básicas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Funciones comunicativas básicas de uso común adecuadas al ámbito y al contexto: saludar, despedirse, presentar y presentarse; describir personas, objetos y lugares; pedir e intercambiar información sobre cuestiones cotidianas; describir rutinas; dar indicaciones e instrucciones; expresar el tiempo, la cantidad y el espacio."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelos contextuales y géneros discursivos básicos de uso común en la comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios tales como folletos, instrucciones, normas, avisos o conversaciones reguladoras de la convivencia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Unidades lingüísticas básicas de uso común y significados asociados a dichas estructuras, tales como expresión de la entidad y sus propiedades, cantidad y número, espacio y las relaciones espaciales, afirmación, exclamación, negación, interrogación."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Léxico elemental y de interés para el alumnado relativo a relaciones interpersonales próximas, vivienda, lugares y entornos cercanos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Patrones sonoros, acentuales y de entonación básicos de uso común, y funciones comunicativas generales asociadas a dichos patrones."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Convenciones ortográficas básicas de uso común y significados asociados a los formatos y elementos gráficos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.10",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Convenciones y estrategias conversacionales básicas de uso común, en formato síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar indicaciones, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.11",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Recursos para el aprendizaje y estrategias elementales de búsqueda guiada de información en medios analógicos y digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.A.12",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas analógicas y digitales básicas de uso común para la comprensión, producción y coproducción oral, escrita y multimodal; y plataformas virtuales de interacción, cooperación y colaboración educativa."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Plurilingüismo"
+          },
+          "saberes": [
+            {
+              "id": "LE.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias y técnicas de compensación de las carencias comunicativas para responder a una necesidad elemental, a pesar de las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las demás lenguas del repertorio lingüístico propio."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias básicas de uso común para identificar, retener, recuperar y utilizar unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación en estrategias y herramientas básicas de autoevaluación y coevaluación, analógicas y digitales, individuales y cooperativas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Léxico y expresiones elementales para comprender enunciados sobre la comunicación, la lengua y el aprendizaje (metalenguaje)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Interculturalidad"
+          },
+          "saberes": [
+            {
+              "id": "LE.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La lengua extranjera como medio de comunicación y relación con personas de otros países, y como medio para conocer culturas y modos de vida diferentes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Interés en la participación en intercambios comunicativos planificados, a través de diferentes medios, con estudiantes de la lengua extranjera."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aspectos socioculturales y sociolingüísticos más significativos relativos a las costumbres, la vida cotidiana y las relaciones interpersonales básicas en países donde se habla la lengua extranjera."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  120
+                ]
+              }
+            },
+            {
+              "id": "LE.2.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias básicas de uso común para entender y apreciar la diversidad lingüística, cultural y artística, a partir de valores ecosociales y democráticos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.2.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias básicas de uso común de detección de usos discriminatorios del lenguaje verbal y no verbal."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer, interpretar y analizar el sentido global, así como palabras y frases específicas de textos orales, escritos y multimodales breves y sencillos sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, así como de textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible, clara y en lengua estándar a través de distintos soportes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Seleccionar, organizar y aplicar, de forma guiada, estrategias y conocimientos adecuados en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global y procesar informaciones explícitas en textos diversos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Expresar oralmente textos breves y sencillos, previamente preparados, sobre asuntos cotidianos y de relevancia para el alumnado, utilizando, de forma guiada, recursos verbales y no verbales, y usando formas y estructuras básicas y de uso frecuente propias de la lengua extranjera."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Organizar y redactar textos breves y sencillos, previamente preparados, con adecuación a la situación comunicativa propuesta, a través de herramientas analógicas y digitales, y usando estructuras y léxico básico de uso común sobre asuntos cotidianos y frecuentes, de relevancia personal para el alumnado y próximos a su experiencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar, organizar y aplicar, de forma guiada, conocimientos y estrategias para preparar y producir textos adecuados a las intenciones comunicativas, las características contextuales y la tipología textual, usando, con ayuda, recursos físicos o digitales en función de la tarea y las necesidades de cada momento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Planificar y participar en situaciones interactivas breves y sencillas sobre temas cotidianos, de relevancia personal y próximos a su experiencia, a través de diversos soportes, apoyándose en recursos tales como la repetición, el ritmo pausado o el lenguaje no verbal, y mostrando empatía y respeto por la cortesía lingüística y la etiqueta digital, así como por las diferentes necesidades, ideas y motivaciones de los interlocutores e interlocutoras."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              115
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Seleccionar, organizar y utilizar, de forma guiada y en situaciones cotidianas, estrategias elementales para saludar, despedirse y presentarse; formular y contestar preguntas sencillas; expresar mensajes, e iniciar y terminar la comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              115
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Inferir y explicar textos, conceptos y comunicaciones breves y sencillas, de forma guiada, en situaciones en las que atender a la diversidad, mostrando respeto, empatía y actitud igualitaria, por las interlocutoras e interlocutores y por las lenguas empleadas, e interés por participar en la solución de problemas de intercomprensión y de entendimiento en su entorno próximo, apoyándose en diversos recursos y soportes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Seleccionar y aplicar, de forma guiada, estrategias básicas que ayuden a crear puentes y faciliten la comprensión y producciones de información y la comunicación, adecuadas a las intenciones comunicativas, usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comparar y contrastar las similitudes y diferencias entre distintas lenguas reflexionando de manera progresivamente autónoma sobre aspectos básicos de su funcionamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Utilizar y diferenciar de forma progresivamente autónoma los conocimientos y estrategias de mejora de su capacidad de comunicar y de aprender la lengua extranjera, con apoyo de otros participantes y de soportes analógicos y digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Registrar y utilizar, de manera guiada, los progresos y dificultades en el proceso de aprendizaje de la lengua extranjera, reconociendo los aspectos que ayudan a mejorar y realizando actividades de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL) o en un diario de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Actuar con aprecio y respeto en situaciones interculturales, construyendo vínculos entre las diferentes lenguas y culturas, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo en contextos comunicativos cotidianos y habituales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Aceptar y respetar la diversidad lingüística, cultural y artística propia de países donde se habla la lengua extranjera como fuente de enriquecimiento personal, mostrando interés por comprender elementos culturales y lingüísticos básicos que fomenten la sostenibilidad y la democracia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Seleccionar y aplicar, de forma guiada, estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-156-decreto-57-2022",
+            "paginas": [
+              118
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Comunicación"
+          },
+          "saberes": [
+            {
+              "id": "LE.3.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza. El error como instrumento de mejora."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias básicas para la comprensión, la planificación y la producción de textos orales, escritos y multimodales breves, sencillos y contextualizados."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conocimientos, destrezas y actitudes que permiten iniciarse en actividades de mediación en situaciones cotidianas básicas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Funciones comunicativas básicas adecuadas al ámbito y al contexto: saludar, despedirse, presentar y presentarse; describir personas, objetos y lugares; situar eventos en el tiempo; situar objetos, personas y lugares en el espacio; pedir e intercambiar información sobre cuestiones cotidianas; describir rutinas; dar indicaciones e instrucciones; expresar la pertenencia y la cantidad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelos contextuales y géneros discursivos básicos en la comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios: características y reconocimiento del contexto, organización y estructuración según la estructura interna."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Unidades lingüísticas básicas y significados asociados a dichas unidades, tales como expresión de la entidad y sus propiedades, cantidad y número, el espacio y las relaciones espaciales, el tiempo, la afirmación, la negación, la interrogación y la exclamación, relaciones lógicas elementales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Léxico básico y de interés para el alumnado relativo a identificación personal, relaciones interpersonales próximas, lugares y entornos cercanos, ocio y tiempo libre, vida cotidiana."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Patrones sonoros, acentuales, rítmicos y de entonación básicos, y funciones comunicativas generales asociadas a dichos patrones."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Convenciones ortográficas básicas y significados asociados a los formatos y elementos gráficos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.10",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Convenciones y estrategias conversacionales básicas, en formato síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar aclaraciones y explicaciones, comparar y contrastar, colaborar, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.11",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Recursos para el aprendizaje y estrategias para la búsqueda guiada de información en medios analógicos y digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.12",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Propiedad intelectual de las fuentes consultadas y contenidos utilizados."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "LE.3.A.13",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas analógicas y digitales básicas para la comprensión, producción y coproducción oral, escrita y multimodal, y plataformas virtuales de interacción, cooperación y colaboración educativa (aulas virtuales, videoconferencias, herramientas digitales colaborativas...) para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de la lengua extranjera."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Plurilingüismo"
+          },
+          "saberes": [
+            {
+              "id": "LE.3.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias y técnicas de compensación de las carencias comunicativas para responder eficazmente a una necesidad concreta, a pesar de las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las demás lenguas del repertorio lingüístico propio."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "LE.3.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias básicas para identificar, organizar, retener, recuperar y utilizar unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "LE.3.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias y herramientas básicas de autoevaluación y coevaluación, analógicas y digitales, individuales y cooperativas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "LE.3.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Léxico y expresiones básicos para comprender enunciados sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "LE.3.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Comparación elemental entre lenguas a partir de elementos de la lengua extranjera y otras lenguas: origen y parentescos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Interculturalidad"
+          },
+          "saberes": [
+            {
+              "id": "LE.3.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La lengua extranjera como medio de comunicación y relación con personas de otros países, como forma de acceder a nueva información y como medio para conocer culturas y modos de vida diferentes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "LE.3.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración positiva e interés por establecer contactos y comunicarse a través de diferentes medios con hablantes o estudiantes de la lengua extranjera."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "LE.3.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aspectos socioculturales y sociolingüísticos básicos relativos a las costumbres, la vida cotidiana y las relaciones interpersonales, las convenciones sociales básicas de uso común, el lenguaje no verbal, la cortesía lingüística y la etiqueta digital propias de países donde se habla la lengua extranjera."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "LE.3.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística, a partir de valores ecosociales y democráticos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "LE.3.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de detección de usos discriminatorios del lenguaje verbal y no verbal."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-156-decreto-57-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-20",
+    "metodo": "Extracción estructurada desde la publicación oficial, comprobación automática de integridad y revisión manual de incidencias.",
+    "notas": [
+      "Los desarrollos se organizan por ciclos, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

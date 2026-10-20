@@ -11,11 +11,12 @@ Una materia o ámbito se marca como terminado cuando:
 
 ## Progreso global
 
-- **Total inventariado:** 218 currículos
-- **Terminados:** 105
+- **Total inventariado:** 231 currículos
+- **Terminados:** 118
 - **Pendientes:** 113
 - **Andalucía:** 102 de 102
 - **Aragón:** 3 de 116
+- **Principado de Asturias:** 13 de 13 inventariados
 
 ## Andalucía
 
@@ -361,3 +362,44 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 - [Bachillerato — modificación de 2024](sources/es-ar/normativa/actualizaciones/2024-07-25-orden-ecd-886-2024-modifica-bachillerato.pdf)
 - [Bachillerato — modificación de 2025](sources/es-ar/normativa/actualizaciones/2025-06-24-orden-ecd-739-2025-modifica-bachillerato.pdf)
 - [CFGB — Orden ECD/841/2024](sources/es-ar/normativa/cfgb/2024-07-25-orden-ecd-841-2024-curriculos-cfgb.pdf)
+
+## Principado de Asturias
+
+### Progreso
+
+- **Total inventariado:** 13 currículos
+- **Terminados:** 13
+- **Pendientes:** 0
+- **Infantil:** 3 de 3
+- **Primaria:** 10 de 10
+- **ESO, Bachillerato y CFGB:** pendientes de inventariar y convertir
+
+### Infantil
+
+#### Anexo II — Áreas de Educación Infantil
+
+- [x] Comunicación y Representación de la Realidad — [JSON](data/es-as/infantil/materias/comunicacion-y-representacion-de-la-realidad.json)
+- [x] Crecimiento en Armonía — [JSON](data/es-as/infantil/materias/crecimiento-en-armonia.json)
+- [x] Descubrimiento y Exploración del Entorno — [JSON](data/es-as/infantil/materias/descubrimiento-y-exploracion-del-entorno.json)
+
+### Primaria
+
+#### Anexo II — Áreas de Educación Primaria
+
+- [x] Ciencias de la Naturaleza — primer a tercer ciclo — [JSON](data/es-as/primaria/materias/ciencias-de-la-naturaleza.json)
+- [x] Ciencias Sociales — primer a tercer ciclo — [JSON](data/es-as/primaria/materias/ciencias-sociales.json)
+- [x] Educación Artística — primer a tercer ciclo — [JSON](data/es-as/primaria/materias/educacion-artistica.json)
+- [x] Educación Física — primer a tercer ciclo — [JSON](data/es-as/primaria/materias/educacion-fisica.json)
+- [x] Educación en Valores Cívicos y Éticos — 6.º — [JSON](data/es-as/primaria/materias/educacion-en-valores-civicos-y-eticos.json)
+- [x] Lengua Castellana y Literatura — primer a tercer ciclo — [JSON](data/es-as/primaria/materias/lengua-castellana-y-literatura.json)
+- [x] Lengua Extranjera — primer a tercer ciclo — [JSON](data/es-as/primaria/materias/lengua-extranjera.json)
+- [x] Matemáticas — primer a tercer ciclo — [JSON](data/es-as/primaria/materias/matematicas.json)
+- [x] Lengua Asturiana y Literatura — primer a tercer ciclo, optativa — [JSON](data/es-as/primaria/materias/lengua-asturiana-y-literatura.json)
+- [x] Cultura Asturiana — primer a tercer ciclo, optativa — [JSON](data/es-as/primaria/materias/cultura-asturiana.json)
+
+### Fuentes oficiales locales
+
+- [Catálogo completo y huellas de los documentos](sources/es-as/normativa/catalogo.json)
+- [Infantil — Decreto 56/2022](sources/es-as/normativa/infantil/2022-08-05-decreto-56-2022-curriculo-infantil.pdf)
+- [Primaria — Decreto 57/2022](sources/es-as/normativa/primaria/2022-08-05-decreto-57-2022-curriculo-primaria.pdf)
+- [Infantil — modificación mediante el Decreto 104/2025](sources/es-as/normativa/actualizaciones/2025-08-25-decreto-104-2025-modifica-curriculo-infantil.pdf)

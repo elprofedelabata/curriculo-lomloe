@@ -10,19 +10,21 @@ const failures = [];
 check(catalog.version === "1.5.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
-check(catalog.etapas.length === 10, `Se esperaban 10 etapas territoriales y hay ${catalog.etapas.length}.`);
-check(catalog.materias.length === 218, `Se esperaban 218 materias y hay ${catalog.materias.length}.`);
-check(catalog.materias.filter((item) => item.etapa === "infantil").length === 6, "El catálogo de Infantil no contiene 6 áreas territoriales.");
+check(catalog.etapas.length === 15, `Se esperaban 15 etapas territoriales y hay ${catalog.etapas.length}.`);
+check(catalog.materias.length === 231, `Se esperaban 231 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.filter((item) => item.etapa === "infantil").length === 9, "El catálogo de Infantil no contiene 9 áreas territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "infantil").length === 3, "El catálogo de Aragón no contiene sus 3 áreas de Infantil.");
-check(catalog.materias.filter((item) => item.etapa === "primaria").length === 21, "El catálogo de Primaria no contiene 21 materias territoriales.");
+check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "infantil").length === 3, "El catálogo de Asturias no contiene sus 3 áreas de Infantil.");
+check(catalog.materias.filter((item) => item.etapa === "primaria").length === 31, "El catálogo de Primaria no contiene 31 materias territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "primaria").length === 14, "El catálogo de Aragón no contiene sus 14 currículos de Primaria.");
+check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "primaria").length === 10, "El catálogo de Asturias no contiene sus 10 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.etapa === "eso").length === 70, "El catálogo de ESO no contiene 70 materias territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "eso").length === 38, "El catálogo de Aragón no contiene sus 38 currículos de ESO.");
 check(catalog.materias.filter((item) => item.etapa === "bachillerato").length === 117, "El catálogo de Bachillerato no contiene 117 materias territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "bachillerato").length === 59, "El catálogo de Aragón no contiene sus 59 currículos de Bachillerato.");
 check(catalog.materias.filter((item) => item.etapa === "cfgb").length === 4, "El catálogo de CFGB no contiene 4 ámbitos territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "cfgb").length === 2, "El catálogo de Aragón no contiene sus 2 ámbitos de CFGB.");
-check(catalog.incidencias.length === 132, `Se esperaban 132 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 150, `Se esperaban 150 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");
@@ -101,10 +103,11 @@ check(folderCodes.length === catalog.territorios.length, "La portada no muestra 
 check(new Set(folderCodes).size === catalog.territorios.length, "Hay carpetas de comunidad duplicadas.");
 check(html.includes('<li class="folder-card folder-card--available" data-community="es-an">'), "Andalucía no aparece como disponible.");
 check(html.includes('<li class="folder-card folder-card--available" data-community="es-ar">'), "Aragón no aparece como disponible.");
-for (const code of ["es-as", "es-ib", "es-cn"]) {
+check(html.includes('<li class="folder-card folder-card--available" data-community="es-as">'), "Asturias no aparece como disponible.");
+for (const code of ["es-ib", "es-cn"]) {
   check(html.includes('<li class="folder-card folder-card--preview" data-community="' + code + '">'), 'Falta la carpeta temporal ' + code + '.');
 }
-check((html.match(/folder-card--preview/g) || []).length === 3, "Debe haber tres carpetas temporales.");
+check((html.match(/folder-card--preview/g) || []).length === 2, "Debe haber dos carpetas temporales.");
 check((html.match(/folder-card--disabled/g) || []).length === 12, "Las 12 carpetas restantes deben estar deshabilitadas.");
 check(!html.includes('es-an ·'), "La carpeta de Andalucía debe mostrar solo su código.");
 for (const territory of catalog.territorios) {
