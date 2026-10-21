@@ -1,0 +1,722 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.bachillerato.geografia",
+  "territorio": "es-as",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "G",
+    "nombre": {
+      "es": "Geografía"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-60-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 60/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de Bachillerato en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06714",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "anexo": "II.a",
+      "paginasMateria": {
+        "desde": 215,
+        "hasta": 223
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La geografía explora la interacción entre las personas y el territorio, contribuyendo al descubrimiento del espacio en el que vivimos, desde el entorno local a un contexto global, para comprender la realidad cambiante del siglo XXI. Los procesos naturales y humanos que van modelando el espacio a lo largo del tiempo son el objeto de estudio, con la finalidad de entender e interpretar su acción.",
+      "En esta materia de segundo curso de Bachillerato, la escala de análisis geográfico se centra en España y Asturias, aunque dentro de una perspectiva europea y mundial, necesaria para conocer y valorar críticamente las realidades del mundo contemporáneo. La comprensión de esas realidades próximas y globales es esencial para la construcción de la personalidad del alumnado a la hora de conformar la identidad propia y respetar la ajena. Además, debe constituir la base para ejercer una ciudadanía crítica, desde los valores democráticos, el respeto de los derechos fundamentales y la responsabilidad cívica a la hora de construir una sociedad justa y equitativa en sintonía con los Objetivos de Desarrollo Sostenible.",
+      "La geografía, por su naturaleza práctica, permite al alumnado desenvolverse en el uso responsable de las tecnologías de la información y la comunicación gracias a las funcionalidades de las Tecnologías de la Información Geográfica (TIG). Las TIG, además de constituir un recurso básico para desarrollar investigaciones individuales y en equipo, permiten plantear el tratamiento interdisciplinar del territorio y, como herramienta de diagnóstico, presentar y comunicar eficientemente conclusiones y propuestas de mejora en el entorno social del alumnado desde su análisis crítico, fomentando su madurez y participación cívica. La aplicabilidad de la materia de Geografía la convierte en una disciplina clave de la sociedad del conocimiento y del emprendimiento social.",
+      "En un contexto de constantes y profundas transformaciones a escala global y local, la materia de Geografía debe aportar una visión integral del medio natural y la sociedad de España y Asturias, tratando de despertar la curiosidad innata a toda persona y lograr el disfrute de los conocimientos geográficos. Con tal fin, las competencias específicas se fundamentan en un aprendizaje basado en la investigación de los fenómenos naturales y humanos que se desarrollan en el territorio. Estos fenómenos afectan a la vida cotidiana de las sociedades actuales y representan, algunos de ellos, retos clave para afrontar el futuro, igual que, en ocasiones, también constituyeron desafíos en el pasado. Las respuestas a estos retos ecosociales desde el pensamiento geográfico requieren de la aplicación de saberes basados en el rigor científico, la movilización de estrategias y el compromiso ético con la sostenibilidad y la solidaridad en la resolución de problemas.",
+      "Por todo ello, el estudio de la geografía de España y Asturias debe contribuir al desarrollo personal y a la madurez del alumnado, conformando su identidad y fortaleciendo su empatía al asumir que vivimos en una sociedad diversa y con desequilibrios sociales y territoriales que precisan de un desarrollo sostenible. Como personas formadas y comprometidas con el entorno en el que viven, los alumnos y las alumnas deben aplicar las competencias específicas y los saberes básicos adquiridos para emprender acciones individuales y colectivas que materialicen su capacidad de transformarlo desde criterios éticos basados en los valores que compartimos.",
+      "La materia de Geografía contribuye a alcanzar los objetivos generales de la etapa de Bachillerato y a la adquisición de las competencias clave, y permite el desarrollo del pensamiento geográfico del alumnado iniciado en la etapa anterior con la materia de Geografía e Historia. Además, promueve su desarrollo en contextos interdisciplinares y en otros cercanos a las experiencias personales, que deben aprovecharse para enriquecer el entorno de aprendizaje del alumnado, tanto de manera individual como grupal, conectando con sus intereses y atendiendo a sus necesidades específicas.",
+      "Los criterios de evaluación, derivados de las competencias específicas y asociados a los saberes básicos propuestos, fomentan la participación activa del alumnado en su propio proceso de aprendizaje, la investigación aplicada, tanto individualmente como en equipo, la elaboración de creaciones propias, contextualizadas y relevantes, y la comunicación eficiente en público. Todo ello desde la valoración crítica y ética del proceso de aprendizaje y el compromiso con la transformación de su entorno vital, el respeto a los Derechos Humanos y el principio de sostenibilidad.",
+      "Los saberes básicos se estructuran en tres bloques que deben tratarse desde sus tres dimensiones de conocimientos, destrezas, actitudes y valores. Las transferencias entre estas tres dimensiones y la imbricación de los tres bloques son primordiales para enfocar la materia de un modo práctico y fomentar el tratamiento transversal de estos bloques.",
+      "El bloque «España, Europa y la globalización», agrupa los saberes necesarios para asumir la especificidad y diversidad de España y su situación en los contextos mundial y europeo, y valorar la importancia de su pertenencia a la Unión Europea.",
+      "El bloque «La sostenibilidad del medio físico de España», propone saberes que ponen en valor la diversidad del relieve, del clima, de la vegetación, de los suelos y de la hidrografía de España.",
+      "Finalmente, el bloque «La ordenación del territorio en el enfoque ecosocial», integra saberes sobre el análisis geográfico de los aprovechamientos de los recursos naturales, tratando a las actividades económicas y a la población como el principal factor transformador del territorio, profundizando en las causas y consecuencias de estos procesos y comparando los desequilibrios territoriales resultantes, introduciendo la perspectiva de la sostenibilidad y valorando el impacto de las políticas comunitarias.",
+      "Es esencial subrayar el tratamiento integrador que la geografía da a los fenómenos espaciales, recordando que la síntesis es un objetivo irrenunciable del pensamiento geográfico, al que deben contribuir el enfoque interdisciplinar y la dimensión ecosocial.",
+      "La materia de Geografía es abierta y flexible para que, tomando como eje vertebrador las competencias específicas y los saberes básicos, el profesorado pueda adaptar sus situaciones de aprendizaje a contextos de todo tipo, convirtiendo las posibles respuestas a los retos ecosociales de Asturias, de España y del mundo en un incentivo para el aprendizaje activo del alumnado, para el desarrollo del pensamiento geográfico y para la valoración de la geografía como saber aplicado. En definitiva, para promover la capacidad transformadora de todo saber desde la responsabilidad cívica basada en la autonomía personal y el respeto a las personas y al medio ambiente en el contexto actual de cambios e incertidumbres.",
+      "Metodología",
+      "Las orientaciones metodológicas que se describen a continuación deben estar orientadas al ejercicio de una ciudadanía activa basada en un aprendizaje competencial teniendo en cuenta los diferentes ritmos de aprendizaje del alumnado, mediante la utilización de métodos que favorezcan su capacidad de autoaprendizaje y promuevan el trabajo en equipo. Para la adquisición y desarrollo, tanto de las competencias clave como de las competencias específicas, se planificarán situaciones de aprendizaje, en coordinación con el resto del equipo docente, de acuerdo a los principios que, con carácter orientativo, se recogen en este decreto.",
+      "Esta materia permite trabajar la interacción entre las personas y el territorio, atendiendo a la Ley para la recuperación de la memoria democrática en el Principado de Asturias, mediante actividades extraescolares que refuercen los contenidos curriculares con la realización de visitas a rutas y lugares de memoria de la Guerra Civil, la Dictadura y la Transición. Del mismo modo, se hace necesario reconocer el censo de víctimas y personas desaparecidas en la Guerra Civil, la localización, exhumación e identificación de víctimas de ejecuciones extrajudiciales, arbitrarias o sumarias, del régimen franquista, y los mapas de las áreas donde se localizan los restos de los desaparecidos, así como condenar la violencia y la represión ejercida contra las mujeres por el hecho de ser mujeres.",
+      "A continuación, se explica la forma en que contribuye la materia a la consecución de cada competencia clave a partir de los descriptores operativos del nivel de adquisición esperado al término del Bachillerato.",
+      "La materia de Geografía contribuye a la adquisición de la Competencia en Comunicación Lingüística (CCL) mediante la participación del alumnado en interacciones comunicativas con actitud cooperativa, expresadas de forma oral, escrita y multimodal con fluidez, coherencia y corrección. La información procedente de diferentes fuentes –textos, gráficos, imágenes, mapas– será localizada, seleccionada y contrastada desde un punto de vista crítico para evitar los riesgos de manipulación y desinformación, comunicándola de manera clara y rigurosa. Las prácticas comunicativas se pondrán al servicio de la convivencia democrática y la igualdad de derechos rechazando los abusos de poder a través del lenguaje y su uso discriminatorio para favorecer un uso ético.",
+      "La Competencia Matemática y competencia en Ciencia, Tecnología e Ingeniería (STEM) se desarrolla al utilizar Tecnologías de la Información Geográfica (TIG) así como métodos inductivos y deductivos propios del razonamiento matemático en el cálculo de tasas, la aplicación de nociones de estadística básica, el uso de escalas numéricas y gráficas, el recurso a representaciones graficas diversas, etc. El alumnado deberá interpretar y transmitir los elementos más relevantes de sus investigaciones de forma clara y precisa, en diferentes formatos (gráficos, tablas, diagramas, fórmulas, esquemas, símbolos...), planeando acciones fundamentadas científicamente para preservar el medio ambiente y transformar el entorno de forma sostenible.",
+      "La Competencia Digital (CD) se moviliza a través del proceso de enseñanza y aprendizaje de la Geografía mediante la utilización de las Tecnologías de la Información y la Comunicación (TIC). Los dispositivos digitales, herramientas, aplicaciones y servicios en línea se incorporarán al entorno personal de aprendizaje para comunicarse, trabajar colaborativamente y compartir información con el objetivo de ejercer una ciudadanía digital activa, cívica y reflexiva. Las soluciones tecnológicas a necesidades concretas deben mostrar interés por su desarrollo sostenible y su uso ético.",
+      "La contribución a la adquisición de la Competencia Social, Personal y de Aprender a Aprender (CPSSA) desde esta materia se realiza potenciando la personalidad autónoma del alumnado para que adopte un estilo de vida sostenible con el fin de construir un mundo más saludable. Se trata de consolidar la empatía y la independencia desarrollando la inteligencia mediante la comparación, análisis, evaluación y síntesis de información extraída de medios de comunicación como la prensa, la radio, la televisión, Internet, multimedia..., para obtener conclusiones lógicas de forma autónoma, valorando la fiabilidad de las fuentes geográficas. Se buscará la consecución de objetivos compartidos de forma grupal relacionando diferentes campos de conocimiento.",
+      "La materia de Geografía contribuye de forma decisiva al desarrollo y consolidación de la Competencia Ciudadana (CC) estableciendo una interacción pacífica y respetuosa con las demás personas y con el entorno a partir de un análisis crítico de la huella ecológica de las acciones humanas; conociendo y asumiendo de forma crítica y consecuente los ideales y valores relativos al proceso de integración europeo, la Constitución española, los derechos humanos y el logro de una ciudadanía mundial. Desde esta materia se fomenta en el alumnado la necesidad de aceptar con actitud dialogante la complejidad de los movimientos migratorios y de las distintas opiniones sobre la organización territorial y política, rechazando todo tipo de discriminación y violencia, y promoviendo activamente la igualdad efectiva entre mujeres y hombres. La visita a lugares de memoria, incluida en la Ley para la recuperación de la memoria democrática en el Principado de Asturias, contribuye a desarrollar en el alumnado la comprensión de los acontecimientos y la reflexión ética sobre los mismos visitando los espacios donde se produjeron hechos relevantes de nuestro pasado.",
+      "La Competencia Emprendedora (CE) se adquiere con la materia de Geografía porque esta materia evalúa la sostenibilidad de los proyectos comprobando el impacto que pueden suponer para el entorno y los transfiere a contextos globales y locales aplicando estrategias y destrezas que agilicen el trabajo colaborativo y en equipo, para reunir y optimizar los recursos necesarios, que lleven a la acción una experiencia o iniciativa emprendedora de valor.",
+      "La contribución de la materia a la Competencia de Conciencia y Expresiones Culturales (CCEC) resulta evidente por la influencia de la herencia cultural sobre el paisaje geográfico que se manifiesta en la diversidad medioambiental, cultural y artística de los distintos espacios objeto de estudio. Se percibirán las manifestaciones artísticas y culturales del patrimonio en distintos contextos, medios y soportes mediante una postura activa de conservación, recepción y deleite.",
+      "Para alcanzar y desarrollar las competencias anteriormente expuestas, en el desarrollo del proceso de enseñanza-aprendizaje de la materia, se manejarán métodos que tengan en cuenta los diferentes ritmos del aprendizaje del alumnado, que favorezcan la capacidad de aprender de forma autónoma y promuevan el trabajo en equipo.",
+      "Las situaciones de aprendizaje son un conjunto de tareas y actividades significativas, complejas y articuladas que deben estar planificadas, relacionadas y vinculadas a situaciones reales y experiencias familiares del alumnado. Estas situaciones permiten integrar todos los elementos del proceso de enseñanza-aprendizaje competencial vinculándolas con proyectos interdisciplinares, debiendo estar relacionados con el contexto personal, social, educativo y profesional del alumnado.",
+      "La confección de situaciones de aprendizaje combinará diversas metodologías diseñando tareas relevantes para el alumnado a partir de problemas espaciales, propiciando la elaboración de un proyecto de trabajo de forma cooperativa y utilizando tanto imágenes como recursos gráficos para la expresión de conceptos e ideas con la finalidad de que el alumnado aprenda a reflexionar y a percibir el espacio geográfico.",
+      "El aprendizaje-servicio, propuesta educativa que combina el aprendizaje con el compromiso social, en la que el alumnado aprende a trabajar en necesidades reales del entorno con la finalidad de mejorarlo, permitirá el compromiso social y el trabajo interdisciplinar y posibilitará la interacción de distintas materias mediante el trabajo común del profesorado.",
+      "La ciencia geográfica se basa en el estudio de espacios donde interactúan factores naturales y humanos en un momento histórico determinado, siendo necesario habituar al alumnado a la lectura y crítica de los medios de comunicación social en los que se reflejan el contexto político, económico y cultural y en el que se enmarcan los territorios objeto de estudio. Es por ello por lo que resulta especialmente pertinente incidir en los condicionantes que afectan a la estructura sociolaboral del espacio rural, industrial y terciarizado, con atención especial a la desigualdad de género, valorando y analizando críticamente las desigualdades existentes entre las oportunidades de mujeres y hombres, reconociendo e impulsando la igualdad real y la no discriminación por razón alguna de identidad de género o condición o circunstancia personal o social.",
+      "La utilización de imágenes, de recursos audiovisuales y Tecnologías de la Información Geográfica (TIG), así como la realización de salidas al campo, son instrumentos básicos en el proceso de enseñanza y aprendizaje, puesto que el punto de partida debe ser la observación directa del paisaje para analizarlo, explicarlo y comprenderlo en toda su complejidad. En el desarrollo de estas situaciones relacionadas con el contexto personal, social, educativo y profesional del alumnado, los bloques de saberes no deben verse como independientes, y, por lo tanto, las competencias específicas se trabajarán en conjunto, proporcionando al alumnado una perspectiva real de las aplicaciones formativas y profesionales de la geografía."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Reconocer los retos ecosociales actuales y futuros de España, debatiendo desde la perspectiva geográfica sobre los mensajes recibidos a través de canales oficiales y extraoficiales, formales e informales, y desarrollando el pensamiento crítico, para transformar patrones de consumo insostenibles y adoptar estilos de vida saludables."
+      },
+      "descripcion": {
+        "es": [
+          "El reconocimiento por parte del alumnado de los problemas ecosociales a los que se enfrenta la sociedad española supone saber identificarlos y tomar conciencia de la responsabilidad individual y colectiva ante desafíos como la emergencia climática, el reto demográfico o la gestión de recursos limitados. Son situaciones de ecodependencia que afectan al medio natural y a los grupos humanos y que en ocasiones siguen procesos a escala global. Una ciudadanía informada debe mantener debates en los que se sometan a juicio crítico los mensajes que se reciban desde medios oficiales o informales, previniendo la difusión de aquellas que sean informaciones falsas o en las que se detecte la manipulación interesada. Los argumentos que se esgrimen en cualquier debate público o privado deberían construirse desde la fundamentación científica que aporta el pensamiento geográfico, rechazando cualquier opinión no avalada por datos fiables, accesibles y contrastados. El desarrollo del pensamiento espacial crítico constituye el mayor activo para una ciudadanía formada e informada que reúna las condiciones necesarias para sopesar respuestas éticas ante los retos actuales y futuros, anticipándose a consecuencias no deseadas. Asimismo, el alumnado debería llegar a reflexionar con rigor sobre su capacidad de adaptación a nuevas situaciones, y sobre la transformación de patrones de consumo insostenibles y para adoptar estilos de vida saludables en beneficio propio y del bien común, y en consonancia con los Objetivos de Desarrollo Sostenible."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "CD4",
+        "STEM5",
+        "CPSAA2",
+        "CPSAA4",
+        "CC1",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          218
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Comprender la complejidad del espacio geográfico, mediante la interpretación de fuentes de información visuales, para apreciar la riqueza de los paisajes naturales y humanizados y valorar la sostenibilidad como principio de las relaciones entre los ecosistemas naturales y la acción humana."
+      },
+      "descripcion": {
+        "es": [
+          "La comprensión del espacio geográfico implica asumir su complejidad como sistema en el que se combinan elementos abióticos, bióticos y la acción humana. La teoría general de sistemas aporta los conceptos necesarios para entender la imbricación de esos componentes y sus relaciones. Todo sistema está integrado por subsistemas que, una vez desagregados, facilitan un análisis pormenorizado de sus características, lo que lleva a resolver el problema de la escala de análisis. Desde lo local a lo global, dicha escala permite delimitar el campo o parcela de estudio. La interpretación de imágenes ayuda a despertar la curiosidad del alumnado por territorios desconocidos y a redescubrir lugares familiares, generando creativamente sus propios recursos visuales, incluyendo croquis y bocetos. Como complemento a la observación de paisajes, que también puede ser directa sobre el terreno, la cartografía y los gráficos son valiosas fuentes de información visual. Educar la mirada geográfica conlleva también desarrollar el aprecio por el rico patrimonio paisajístico que atesora España. La sostenibilidad debe incorporarse como criterio para juzgar críticamente la relación entre medio natural y acción antrópica y promover el equilibrio entre ambos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CC1",
+        "CC4",
+        "CE1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          219
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar la diversidad natural de España y su singularidad geográfica dentro de Europa, a través de la comparación de características comunes y específicas del relieve, el clima, la hidrografía y la biodiversidad, para reflexionar sobre la percepción personal del espacio."
+      },
+      "descripcion": {
+        "es": [
+          "El análisis de la diversidad natural de España adquiere sentido al examinar la gran variedad de ecosistemas terrestres y acuáticos existentes y que tienen su reflejo en la red de espacios naturales protegidos. Su singularidad a escala europea le confiere un lugar destacado dentro de la Red Natura 2000. Tal biodiversidad se explica por la interacción particular en cada área de los factores físicos que afectan a la Península Ibérica, a los archipiélagos de Baleares y de Canarias y al resto de territorios. Desde el rigor que impone el método comparativo, basado en la búsqueda de analogías y diferencias, todo análisis geográfico debe partir de datos y cálculos fiables que puedan ser contrastados a la hora de describir las características y la distribución de unidades geomorfológicas, climáticas, vegetales e hídricas. Tradicionalmente el medio natural ha servido para construir la percepción que cada persona tiene del territorio y de su existencia, condicionando vínculos y sentimientos de pertenencia a uno o varios lugares. En una sociedad predominantemente urbana de pasado rural reciente, la reflexión sobre los conflictos en los usos del territorio, así como sobre la identidad individual y colectiva, debe construirse desde el respeto al resto de las personas y la aceptación de identidades múltiples."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CPSAA3.1",
+        "CC1",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          219
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Aplicar las Tecnologías de la Información Geográfica (TIG), métodos y técnicas propios o de ciencias afines, localizando fenómenos naturales y humanos, y argumentando con rigor sus límites o categorías, para resolver eficientemente el problema de la escala en cualquier análisis o propuesta de actuación."
+      },
+      "descripcion": {
+        "es": [
+          "La aplicación eficiente de los métodos propios de la geografía y de cualquier ciencia afín implica su uso práctico para observar, representar y explicar los fenómenos físicos y humanos que se desarrollan en el territorio. Por sus características integradoras y su potencial visual como fuente de información y recurso creativo, las TIG deben adoptar una posición preferente como herramienta manejada competentemente por el alumnado.",
+          "La distribución y localización de fenómenos físicos y humanos de todo tipo y a diferentes escalas, así como su evolución en el tiempo, son principios básicos de la geografía sobre los que se articula el pensamiento espacial. Las TIG deben desplegar su potencial para lograrlo, mediante el uso de mapas interactivos y recursos que faciliten argumentos para justificar la extensión de cada fenómeno. Es decir, delimitando regiones, categorías o tipologías, y reflexionando sobre el problema de los límites y de las áreas de transición. Ante fenómenos naturales y humanos complejos y en continua transformación, la iniciativa para aportar soluciones creativas a problemas reales desde el conocimiento riguroso es parte esencial del compromiso cívico."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD2",
+        "CD5",
+        "CC3",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          220
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Asumir la globalización como contexto que enmarca la evolución de los sistemas económicos y los comportamientos sociales recientes, investigando sus relaciones de causa y efecto y creando productos propios que demuestren la interconexión y la interdependencia a todas las escalas, para promover el respeto a la dignidad humana y al medio ambiente como base de una ciudadanía global."
+      },
+      "descripcion": {
+        "es": [
+          "Al entender que el fenómeno de la globalización es determinante en las complejas relaciones existentes entre los países y sus sistemas económicos, se puede poner en su contexto la evolución reciente de las actividades económicas en España y en la Unión Europea en todos sus sectores. Igualmente, se han producido transformaciones socioculturales de gran impacto sobre la distribución espacial de la población y los comportamientos demográficos.",
+          "La investigación de los factores causantes de estas transformaciones y de sus consecuencias sobre el territorio y la sociedad abre un rico campo de indagación de estas ecodependencias. Las relaciones de interdependencia e interconexión pueden demostrarse de forma inductiva, especialmente mediante el estudio de casos o situaciones-problema cercanas y relevantes para el alumnado. Por ejemplo, el origen de bienes o servicios producidos y consumidos fuera y dentro de España, o las consecuencias de la asimilación de ideas, comportamientos y estilos de vida ajenos a prácticas tradicionales. Al llegar al análisis de los efectos positivos y negativos de la globalización, el respeto a la dignidad humana debe primar como valor ético para el ejercicio de una ciudadanía global y comprometida con el medio ambiente."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM1",
+        "STEM5",
+        "CD4",
+        "CPSAA3.1",
+        "CC2",
+        "CC3",
+        "CC4",
+        "CE1",
+        "CCEC4.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          220,
+          221
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Explicar de forma crítica los desequilibrios territoriales de España y de su estructura sociolaboral y demográfica, reconociendo los procesos y las decisiones que han contribuido a las desigualdades presentes, para reforzar la conciencia de solidaridad y el compromiso con los mecanismos de cooperación y cohesión españoles y europeos."
+      },
+      "descripcion": {
+        "es": [
+          "La explicación crítica de los desequilibrios socioeconómicos y demográficos de España parte de un diagnóstico riguroso del desigual reparto de los recursos naturales y humanos a escala nacional y autonómica. Requiere entender las disparidades en el tejido productivo por tamaño relativo, grado de especialización, capitalización o innovación, así como, conocer el reparto espacial de la población y su composición por sexo, edad y por la diferente estructura sociolaboral existente, prestando atención al reto demográfico que suponen el envejecimiento de la población, los movimientos migratorios, la despoblación rural y las aglomeraciones urbanas.",
+          "El reconocimiento de los factores de localización de cada actividad productiva, incluyendo las decisiones políticas y empresariales, y de las causas de los procesos socioeconómicos recientes y de las tendencias actuales y futuras, se argumenta con las razones objetivas de la actual desigual distribución de la riqueza, de la población y del acceso a ciertos servicios públicos y privados. La finalidad es consolidar en el alumnado la solidaridad y la cooperación como valores constitucionales y europeístas para lograr la cohesión a través de las políticas redistributivas de ordenación del territorio y de desarrollo regional."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CE1",
+        "CE2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          221
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Movilizar conocimientos previos, nuevos y de otros campos del saber al abordar situaciones del pasado, del presente o del futuro, reorientando eficazmente decisiones y estrategias de trabajo individual o en equipo, para aportar soluciones innovadoras a contextos en transformación y fomentar el aprendizaje permanente."
+      },
+      "descripcion": {
+        "es": [
+          "La reflexión sobre el propio aprendizaje es clave como objetivo metacognitivo. Lograr este conocimiento de las posibilidades y limitaciones propias debe servir para construir la autoestima necesaria con la que implicarse y ser protagonista en la resolución de retos ecosociales reales y cercanos y, por tanto, para incorporarse a la vida activa y ejercer funciones sociales. La planificación es un proceso fundamental que implica movilizar conocimientos previos, nuevos y de otros ámbitos. También supone poner en acción herramientas como cuestionarse situaciones, plantear hipótesis, recoger datos, organizar sistemáticamente la información recogida, tratarla, contrastarla con otras evidencias y extraer conclusiones justificadas.",
+          "Muchas de estas estrategias deben ser negociadas con otras personas al trabajar en equipo mediante técnicas de discusión y deliberación para revisar y generar productos consensuados. El fin de estos saberes y la aportación del pensamiento geográfico es desarrollar el autoaprendizaje permanente y el compromiso cívico activo, tanto a la hora de prever y evaluar consecuencias, como a la de priorizar acciones a problemas relevantes o plantear respuestas innovadoras."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM1",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA3.2",
+        "CPSAA5",
+        "CC3",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          221,
+          222
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Cuestionar modos de vida insostenibles mediante el análisis geográfico de todo tipo de fuentes de información que trate de los retos ecosociales presentes y futuros, y desde argumentos fundados en la relevancia y necesidad de las acciones para afrontarlos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              219
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Debatir sobre los retos naturales y sociales de España de forma comprometida y respetuosa con opiniones ajenas, utilizando estrategias orales con apoyo digital de gráficos, imágenes y cartografía, y manejando datos rigurosos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              219
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar todo impacto de la acción antrópica desde el principio de sostenibilidad, reconociendo la complejidad sistémica del medio natural y delas propias actividades humanas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              219
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Extraer información de paisajes naturales y humanizados, analizando fuentes visuales, distinguiendo elementos geográficos e interpretando la influencia e interrelaciones de factores físicos y humanos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              219
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reflexionar sobre la percepción del espacio geográfico, localizando y reconociendo en mapas regiones geomorfológicas y bioclimáticas con características comunes y específicas, destacando su aportación a la sostenibilidad del medio."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              220
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar la diversidad y singularidad de paisajes naturales, comparando su distribución, características y contrastes a escala autonómica, de España y de Europa, así como formas humanas de relación con esos entornos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              220
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Emplear la escala apropiada para localizar o representar, con apoyo de las TIG, cualquier fenómeno físico o humano, justificando los métodos y datos elegidos, y la delimitación de regiones o categorías de análisis, así como deáreas de transición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              220
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Crear productos propios individuales o en grupo con fines explicativos comunicando diagnósticos, proponiendo hipótesis o conclusiones, y aplicando las TIG."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              220
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Valorar la dignidad humana analizando críticamente las consecuencias de nuestras acciones sobre las condiciones laborales y de vida, tanto en España como en otros países, investigando el sistema de relaciones económicas globalizadas y los sectores económicos, y planteando soluciones razonables."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              221
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Expresar la necesidad de preservar el medio ambiente, indagando sobre los impactos de los modos de producción, distribución y consumo a escala local y global, y proponiendo actuaciones de mejora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              221
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Justificar la necesidad de los mecanismos de compensación de las desigualdades individuales y territoriales, identificando los procesos pasados y recientes, así como sus causas y consecuencias sociolaborales y demográficas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              221
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Argumentar sobre el origen de los desequilibrios socioeconómicos de España y Europa, analizando los factores de localización de las actividades económicas y de la población en una sociedad terciarizada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              221
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Reelaborar saberes sobre fenómenos naturales y humanos relevantes a diferentes escalas y en nuevos contextos, aplicando el pensamiento geográfico, movilizando y revisando críticamente conocimientos previos y nuevos, diagnosticando problemas y oportunidades, y razonando sobre posibles previsiones y soluciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              222
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "España, Europa y la globalización"
+          },
+          "saberes": [
+            {
+              "id": "G.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "España y Asturias: localización y situación geográfica en el mundo a través de mapas de relieve, bioclimáticos y políticos. Posición relativa de España y de Asturias en el mundo en diferentes indicadores socioeconómicos. Geoposicionamiento y dispositivos móviles."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  222
+                ]
+              }
+            },
+            {
+              "id": "G.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "España en el mundo. España ante la globalización: amenazas y oportunidades. Contexto geopolítico mundial y participación en organismos internacionales. Cooperación internacional y misiones en el exterior. Diagnóstico de los compromisos con los Objetivos de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  222
+                ]
+              }
+            },
+            {
+              "id": "G.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "España en Europa: localización de países y aspectos naturales. La Unión Europea en la actualidad: su influencia en situaciones cotidianas. Análisis de desequilibrios territoriales y políticas de cohesión a través del uso de mapas y de indicadores socioeconómicos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  222
+                ]
+              }
+            },
+            {
+              "id": "G.2.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Organización administrativa de España. El estudio de los desequilibrios territoriales nacionales y autonómicos. Utilidad del Atlas Nacional de España y de los indicadores socioeconómicos oficiales. Gestión y ordenación del territorio: el debate sobre las políticas de cohesión y desarrollo regional. Situación actual y proyecciones del estado del bienestar. El Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  222
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La sostenibilidad del medio físico de España"
+          },
+          "saberes": [
+            {
+              "id": "G.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Factores físicos y diversidad de paisajes y ecosistemas. Análisis de los condicionantes geomorfológicos, bioclimáticos, edáficos, hídricos y relativos a las actividades humanas y prevención de los riesgos asociados para las personas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  222
+                ]
+              }
+            },
+            {
+              "id": "G.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversidad climática de España y Asturias. Análisis comparativos de distribución y representación de climas. Emergencia climática: cambios en los patrones termopluviométricos; causas, consecuencias y medidas de mitigación y adaptación. Estrategias de interpretación del tiempo y alertas meteorológicas; webs y aplicaciones móviles."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  222
+                ]
+              }
+            },
+            {
+              "id": "G.2.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Biodiversidad, suelos y red hídrica. Características por regiones naturales. Impacto de las actividades humanas y efectos sobre las mismas: pérdida de biodiversidad, de suelos y gestión del agua. Interpretación de imágenes, cartografía y datos. Riesgos generados por las personas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  222
+                ]
+              }
+            },
+            {
+              "id": "G.2.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Políticas ambientales en Asturias, España y la Unión Europea: uso de herramientas de diagnóstico. La red de Espacios Naturales Protegidos y la red Natura 2000. El debate sobre los cambios del modelo de desarrollo: el principio de sostenibilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  222
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La ordenación del territorio en el enfoque ecosocial"
+          },
+          "apartados": [
+            {
+              "codigo": "C.1",
+              "nombre": {
+                "es": "Saberes generales"
+              },
+              "saberes": [
+                {
+                  "id": "G.2.C.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La población española y asturiana: análisis de su estructura y desequilibrios. Interpretación causal de datos, gráficos y mapas: tendencias pasadas, presentes y proyecciones. Ventajas e inconvenientes de los movimientos migratorios; el respeto por la diversidad étnica y cultural. El reto demográfico:envejecimiento y despoblación rural."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      222
+                    ]
+                  }
+                },
+                {
+                  "id": "G.2.C.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los espacios urbanos en España y Asturias: las grandes concentraciones urbanas en un contexto europeo y mundial. Funciones de la ciudad y relaciones de interdependencia con el territorio."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      222
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "C.2",
+              "nombre": {
+                "es": "Estructura urbana a través de los planos: repercusiones sobre las formas de vida y los impactos medioambientales. Modelos de ciudades sostenibles. El uso del espacio público. La movilidad segura, saludable y sostenible"
+              },
+              "saberes": [
+                {
+                  "id": "G.2.C.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los espacios rurales. Identificación de los paisajes agrarios. Transformaciones de las actividades agropecuarias: prácticas sostenibles e insostenibles. El valor socioambiental y económico de los productos agroalimentarios y forestales de cercanía: indagación de huellas ecológicas y de la estructura sociolaboral con atención especial a la desigualdad de género. Influencia de la actual Política Agraria Común en el desarrollo rural y la sostenibilidad. Estudio de casos: etiquetados diferenciados, ecológico, etc. Los espacios rurales en Asturias."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      223
+                    ]
+                  }
+                },
+                {
+                  "id": "G.2.C.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los recursos marinos y la transformación del litoral: pesca, acuicultura y otros aprovechamientos. Sostenibilidad y Política Pesquera Común. Estudio de casos: marisqueo, pesca de bajura y altura, acuicultura, sobreexplotación de caladeros, etc. La pesca en Asturias."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      223
+                    ]
+                  }
+                },
+                {
+                  "id": "G.2.C.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los espacios industriales. Transformaciones en las actividades industriales y los paisajes: materias primas y fuentes de energía. Evaluación de huellas ecológicas; dependencia y transición energéticas; estructura del tejido industrial, sociolaboral con atención especial a la desigualdad de género y de empleo indirecto. Impacto de la deslocalización sobre sectores de la industria española. Estudio de casos: construcción, automovilístico, agroalimentario, etc., y factores de localización. El debate sobre la influencia de las políticas de la Unión Europea y la globalización. Los espacios industriales en Asturias."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      223
+                    ]
+                  }
+                },
+                {
+                  "id": "G.2.C.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Los espacios terciarizados. El modelo de economía circular y los servicios: relaciones entre producción, distribución y venta. Análisis crítico de huellas ecológicas, estructura sociolaboral con atención especial a la desigualdad de género, responsabilidad social corporativa y de los consumidores. Estudio de casos: competitividad y desequilibrios en transporte, comercio, turismo, servicios esenciales, etc. y factores de localización. Modelos insostenibles de servicios y alternativas. La economía digital: impacto de la «economía colaborativa» y nuevos modelos de negocio en el contexto global y de la Unión Europea. Los espacios terciarizados en Asturias; la importancia de los espacios de memoria según la Ley para la recuperación de la memoria democrática en el Principado de Asturias."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      223
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-21",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

@@ -1,0 +1,1367 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.bachillerato.tecnologia-e-ingenieria",
+  "territorio": "es-as",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "TI",
+    "nombre": {
+      "es": "Tecnología e Ingeniería"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      },
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-60-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 60/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de Bachillerato en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06714",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "anexo": "II.a",
+      "paginasMateria": {
+        "desde": 435,
+        "hasta": 448
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El desarrollo de la tecnología por parte de las ingenierías se ha convertido en uno de los ejes en torno a los cuales se articula la evolución sociocultural. En los últimos tiempos, la tecnología, entendida como el conjunto de conocimientos y técnicas que pretenden dar solución a las necesidades, ha ido incrementando su relevancia en diferentes ámbitos de la sociedad, desde la generación de bienes básicos hasta las comunicaciones, ayudando a mitigar las desigualdades presentes en la sociedad actual y evitando generar nuevas brechas cognitivas, sociales, de género o generacionales, aspectos relacionados con los desafíos que el siglo XXI plantea para garantizar la igualdad de oportunidades a nivel local y global.",
+      "El análisis y la valoración de la sostenibilidad de los sistemas de producción y el uso de los diferentes materiales y fuentes de energía, tanto en el ámbito industrial como doméstico o de servicios, son imprescindibles para la evolución hacia un mundo más justo y equilibrado.",
+      "Para que esta evolución pueda ser llevada a cabo, la ciudadanía necesita aplicar un conjunto de saberes científicos y técnicos que sirvan de base para adoptar actitudes críticas y constructivas ante los problemas planteados y sus posibles alternativas. Además, esta debe ser capaz de actuar de modo responsable, creativo y eficaz con el fin de dar solución a las necesidades que se plantean.",
+      "En este sentido, la materia de Tecnología e Ingeniería pretende aunar los saberes científicos y técnicos con un enfoque competencial para contribuir a la consecución de los objetivos de la etapa de Bachillerato y a la adquisición de las correspondientes competencias clave del alumnado. A este respecto, desarrolla aspectos técnicos relacionados con la competencia matemática y competencias en ciencia, tecnología e ingeniería, competencia digital, así como con otros saberes transversales asociados a la competencia lingüística, a la competencia personal, social y aprender a aprender, a la competencia emprendedora, a la competencia ciudadana y a la competencia en conciencia y expresiones culturales.",
+      "Las competencias específicas se orientan a que el alumnado mediante proyectos de diseño e investigación fabrique, automatice y mejore productos y sistemas de calidad que den respuesta a problemas planteados, transfiriendo saberes de otras disciplinas con un enfoque ético y sostenible. Acercando al alumnado al entorno formativo y laboral propio de la actividad tecnológica e ingenieril. Asimismo, se contribuye a la promoción de vocaciones en el ámbito tecnológico entre los alumnos y alumnas, avanzando un paso en relación a la etapa anterior, especialmente en lo relacionado con saberes técnicos y con una actitud más comprometida y responsable, impulsando el emprendimiento, la colaboración y la implicación local y global con un desarrollo tecnológico sostenible. La resolución de problemas interdisciplinares ligados a situaciones reales, mediante soluciones tecnológicas, se constituye como eje vertebrador y refleja el enfoque competencial de la materia.",
+      "En este sentido, se facilitará al alumnado un conocimiento panorámico del entorno productivo, teniendo en cuenta la realidad y todos los aspectos relacionados con la existencia de un producto, desde su creación hasta su desecho, teniendo siempre presente su ciclo de vida y su impacto medioambiental. Este conocimiento abre un amplio campo de posibilidades al facilitar la comprensión del proceso de diseño y desarrollo desde un punto de vista industrial, así como a través de la aplicación de las nuevas filosofías maker o DiY (hazlo tú mismo) de prototipado a medida o bajo demanda.",
+      "La coherencia y continuidad con etapas anteriores se hace explícita, especialmente en las materias de Tecnología y Digitalización y Tecnología de Educación Secundaria Obligatoria, estableciendo entre ellas una gradación en el nivel de complejidad, en lo relativo a la creación de soluciones tecnológicas que den respuesta a problemas planteados mediante la aplicación del método de proyectos y otras técnicas.",
+      "Los criterios de evaluación en esta materia se formulan con una evidente orientación competencial y establecen una gradación entre primero y segundo de Bachillerato, haciendo especial hincapié en la participación en proyectos durante el primer nivel de la etapa y en la elaboración de proyectos de investigación e innovación en el último.",
+      "La materia se articula en torno a seis bloques de saberes básicos, cuyos contenidos deben interrelacionarse a través del desarrollo de situaciones de aprendizaje competenciales y actividades o proyectos de carácter práctico:",
+      "El bloque «Proyectos de investigación y desarrollo» se centra en la metodología de proyectos, dirigida a la ideación y creación de productos, así como su ciclo de vida.",
+      "El bloque «Materiales y fabricación» aborda los criterios de selección de materiales y las técnicas más apropiadas para su transformación y para la elaboración de soluciones tecnológicas sostenibles.",
+      "Los bloques «Sistemas mecánicos» y «Sistemas eléctricos y electrónicos» hacen referencia a elementos, mecanismos y sistemas que puedan servir de base para la realización de proyectos o ideación de soluciones técnicas.",
+      "El bloque «Sistemas informáticos» presenta saberes relacionados con la informática, como la programación textual y las tecnologías emergentes, para su aplicación a proyectos técnicos.",
+      "El bloque «Sistemas automáticos» aborda la actualización de sistemas técnicos para su control automático mediante simulación o montaje, contemplando además las potencialidades que ofrecen las tecnologías emergentes en sistemas de control.",
+      "El bloque «Tecnología sostenible», aporta al alumnado una visión de la materia alineada con algunas metas de los Objetivos de Desarrollo Sostenible.",
+      "Es importante abordar el enfoque competencial de la materia mediante proyectos o situaciones de aprendizaje contextualizados, en los que el alumnado pueda aplicar sus conocimientos y destrezas para dar soluciones a necesidades concretas. La aplicación a un contexto personal, social o cultural en el entorno productivo o industrial asturiano favorecerá el acercamiento al entorno próximo del alumnado, aumentando la comprensión de los mecanismos socioeconómicos que le rodean y promoviendo actitudes de compromiso.",
+      "A tenor de este enfoque competencial y práctico, la propuesta de situaciones de aprendizaje ligadas a proyectos interdisciplinares en las que el alumnado pueda explorar, descubrir, experimentar y reflexionar desde la práctica en un espacio que permita incorporar técnicas de trabajo, prototipado rápido y fabricación offline, a modo de taller o laboratorio de fabricación, supone una opción que aporta un gran potencial de desarrollo, en consonancia con las demandas de nuestra sociedad y de nuestro sistema productivo.",
+      "Metodología",
+      "La enseñanza de la materia Tecnología e Ingeniería tiene como finalidad el desarrollo en el alumnado de las siguientes competencias clave: Competencia en Comunicación Lingüística (CCL), Competencia Plurilingüe (CP), Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM), Competencia Digital (CD), Competencia Personal, Social y de Aprender a Aprender (CPSAA), Competencia Ciudadana (CC), Competencia Emprendedora (CE) y Competencia en Conciencia y Expresión Culturales (CCEC).",
+      "La materia Tecnología e Ingeniería contribuye a que los y las alumnas progresen en el grado de desarrollo de las competencias que, de acuerdo con el Perfil de salida del alumnado al término de la enseñanza básica, debe haberse alcanzado al finalizar la Educación Secundaria Obligatoria.",
+      "La contribución a la Competencia en Comunicación Lingüística se realiza con la utilización de textos en múltiples modalidades, formatos y soportes; para que les sirvan en la exposición de ideas y en la resolución de los problemas tecnológicos planteados. Se fomenta tanto de forma oral, mediante exposiciones o intervenciones ante el resto del grupo, como de forma escrita, mediante la producción de textos en diferentes soportes, utilizando la terminología propia de la materia y un uso no sexista del lenguaje.",
+      "Desde la materia se contribuye a desarrollar la Competencia Plurilingüe mediante la utilización de terminología científica en otras lenguas para su comprensión en textos científicos, técnicos y también a través del uso de lenguajes de programación.",
+      "La adquisición de la Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería se trabaja al aplicar el razonamiento matemático para describir e interpretar los elementos y procesos de la tecnología industrial; al emitir juicios fundados en los resultados y en el análisis de gráficos y representaciones matemáticas, y la posterior toma de decisiones en las soluciones tecnológicas de forma responsable y sostenible. El uso instrumental de herramientas matemáticas está especialmente presente en esta materia, como en la medición y el cálculo de magnitudes, la lectura e interpretación de gráficos y la resolución de problemas basados en la aplicación de expresiones matemáticas, referidas a principios y fenómenos físicos, que resuelven problemas tecnológicos. La competencia en ciencia se trabaja con la utilización del método y el pensamiento científico en la resolución de problemas y situaciones de aprendizaje que lo requieran, mediante la observación, experimentación y comprensión de los fenómenos físicos y leyes presentes en los diferentes ámbitos de la materia. La competencia en tecnología e ingeniería se alcanza mediante el estudio, desarrollo y aplicación de materiales, herramientas, técnicas, máquinas, sistemas tecnológicos, programas y aplicaciones con espíritu crítico, respetando las normas de seguridad e higiene en el trabajo, aplicando el consumo responsable de los recursos e incentivando la reutilización y el reciclaje. Desde la materia se deben fomentar las vocaciones científicas y técnicas contribuyendo a incrementar la visibilidad de la mujer en este campo, haciendo especial hincapié en la importancia de la eliminación de estereotipos y en la igualdad de oportunidades.",
+      "Se contribuye, además, al desarrollo de la Competencia Digital en la medida en que los aprendizajes asociados al acceso y utilización de la información inciden en la confianza del uso de ordenadores y otros dispositivos, para resolver los problemas tecnológicos de un modo eficiente, haciendo un uso autónomo de estas tecnologías para localizar, procesar, elaborar, almacenar y presentar información en distintos soportes. La búsqueda y selección de información fiable, el uso seguro y responsable de los dispositivos y aplicaciones, la creación de programas aplicados a la automatización de procesos, la utilización de simuladores y el uso de entornos colaborativos en línea son también contribuciones de la materia al desarrollo de esta competencia.",
+      "La Competencia Personal, Social y de Aprender a Aprender se desarrolla trabajando con autonomía y creatividad, mediante la obtención, análisis y selección de información útil para la resolución de problemas tecnológicos, reflexionando sobre los problemas y la búsqueda de soluciones, colaborando de forma constructiva en el trabajo en grupo, expresando empatía y afrontando los conflictos en un contexto integrador. Igualmente, se aprende a aprender a través de la búsqueda de soluciones a problemas tecnológicos gestionando eficazmente la información y el tiempo.",
+      "Se contribuye a la Competencia Ciudadana al adquirir conocimientos técnicos y estrategias de resolución de problemas en armonía con las necesidades sociales y el desarrollo sostenible. El conocimiento técnico ofrece una perspectiva apropiada para contribuir a abordar los cambios tecnológicos en la sociedad actual, tales como avances en automatización, selección y uso de materiales y fuentes de energía compatibles con el desarrollo sostenible y la organización social del trabajo, siempre desde una actitud responsable y constructiva, así como de respeto por las normas democráticas y de convivencia social.",
+      "La materia Tecnología e Ingeniería contribuye, asimismo, a la competencia emprendedora a través de la creatividad, el pensamiento crítico y la resolución de problemas, fomentando la iniciativa personal y de grupo, la perseverancia y la habilidad de trabajar de manera colaborativa en la planificación y desarrollo de proyectos tecnológicos. La motivación, la participación, el respeto y la valoración de las ideas de cada integrante del grupo conducirá a que la toma de decisiones sirva para gestionar eficazmente los recursos y los procesos.",
+      "La materia desarrolla la Competencia Conciencia y Expresión Culturales en tanto que las diferentes fases de resolución de problemas tecnológicos contribuyen a poner en funcionamiento la iniciativa, la imaginación y la creatividad a la vez que se desarrollan actitudes de valoración de la libertad de expresión, del derecho a la diversidad cultural, y de la realización de experiencias artísticas compartidas. Asimismo, la materia fomenta actitudes personales de interés, reconocimiento y respeto por las diferentes manifestaciones artísticas y culturales y por la conservación del patrimonio.",
+      "Dado el contenido eminentemente práctico de la materia Tecnología e Ingeniería y la gran importancia que se otorga al trabajo manipulativo y creativo en el desarrollo de proyectos en el aula taller, se considera fundamental establecer ratios que garanticen al profesorado conseguir una completa supervisión respecto al cumplimiento de las normas tanto de seguridad como de higiene por parte del alumnado. Así mismo, la dotación de los talleres debe ser acorde a los proyectos que se desarrollen en ellos, tanto en la disposición de material fungible como de herramientas y maquinaria necesarias.",
+      "El carácter de la materia conlleva además la utilización y el manejo de dispositivos digitales como ordenadores, tabletas electrónicas, etc., donde los alumnos y las alumnas realicen tareas prácticas. Para que dichas actividades se puedan desarrollar de forma que garanticen la adquisición de las distintas competencias y la evaluación del alumnado en condiciones de equidad, es necesario disponer de un ordenador o dispositivo por estudiante en un aula conectada y dotada adecuadamente de los medios técnicos necesarios.",
+      "Para alcanzar y desarrollar las competencias anteriormente expuestas, en el proceso de enseñanza y aprendizaje, se tendrán en cuenta las siguientes recomendaciones metodológicas.",
+      "La metodología de la materia debe de ser flexible, abierta, activa y participativa con el alumnado como protagonista de su aprendizaje. El profesorado debe asumir responsabilidades como dinamizador de un proceso de enseñanza-aprendizaje basado en el autoaprendizaje y adaptado a las condiciones, capacidades y necesidades personales del alumnado. Debe motivar al alumnado con ejemplos prácticos y reales que favorezcan su actividad y protagonismo y que le permitan experimentar, razonar, relacionar y aplicar sus conocimientos para adoptar decisiones conducentes a las soluciones.",
+      "Se deben procurar aprendizajes significativos y funcionales, de modo que el alumnado relacione los nuevos aprendizajes con los ya adquiridos y con aplicaciones próximas de la vida real, fomentando, de este modo, habilidades y estrategias para aprender a aprender, combinando los métodos expositivos con los de indagación, realizando actividades de análisis, aplicación y simulación práctica de los diferentes bloques de contenidos.",
+      "El trabajo en grupo, el estudio de casos, o el aprendizaje basado en problemas, proporcionan al alumnado la oportunidad de adoptar un papel activo en su proceso de aprendizaje, capacitándole para aprender de forma autónoma y también, con otras y de otras personas, y por tanto para trabajar en equipo, resolver problemas y situaciones conflictivas, aplicar el conocimiento en contextos variados, así como para localizar recursos. Deben ser sujetos activos capacitados para identificar necesidades de aprendizaje, investigar, resolver problemas y, en definitiva, aprender.",
+      "Las actividades se plantearán posibilitando la participación individual y el trabajo en equipo del alumnado de forma igualitaria, en un ambiente de diálogo, tolerancia, respeto, cooperación y convivencia. Se presentarán de forma atractiva y apropiada de acuerdo con las competencias y saberes que se han de desarrollar, comenzando con actividades de introducción, para facilitar los conocimientos básicos que proporcionen seguridad al alumnado. Cuando se aprecie cierto grado de dominio, se pasará a trabajar actividades de profundización, de aplicación y de síntesis. En todas estas actividades se incidirá en el análisis de aspectos experimentales relacionados con instalaciones, procesos, materiales, máquinas y transformaciones cotidianas, para poder extrapolarlas posteriormente al entorno industrial.",
+      "La formación del alumnado debe tener en cuenta el fomento de la educación en valores y la igualdad efectiva de derechos y oportunidades entre hombres y mujeres, fomentando el desarrollo afectivo y socio-emocional del alumnado.",
+      "El proceso de enseñanza y aprendizaje conlleva necesariamente procesos de análisis y reflexión que posibiliten la mejora continua de la práctica docente, para responder a las necesidades en cada momento.",
+      "La digitalización de los saberes y procesos tecnológicos, su utilización tanto en la elaboración de documentación como en la resolución de problemas y proyectos debe ser un eje vertebrador de los mismos. Se debe preparar al alumnado para el tránsito a un mundo laboral cada vez más digitalizado. En este sentido, el profesorado debe contribuir al desarrollo de estrategias y formas de aprendizaje que utilicen las tecnologías digitales y a la formación de ciudadanos digitalmente competentes y que sean capaces de utilizar estas herramientas en su entorno personal, social y profesional de forma crítica y sostenible.",
+      "La materia por su alto contenido técnico y práctico debe facilitar, promover y ayudar a fomentar estilos de vida saludables, respetar los derechos humanos, favorecer la igualdad de género, educar en una cultura de paz y no violencia, valorar la diversidad cultural y contribuir a desarrollar aprendizajes y actitudes que trabajen los objetivos de desarrollo sostenible.",
+      "La metodología de la materia pretende, entre otras cosas, el fomento de la reflexión y el pensamiento crítico del alumnado; la contextualización de los aprendizajes; la alternancia de diferentes tipos de actuaciones, actividades y situaciones de aprendizaje; la potenciación de la investigación, la experimentación, la lectura y el tratamiento de la información; la utilización de agrupamientos heterogéneos en el aula y el reforzamiento del trabajo colaborativo.",
+      "Las situaciones de aprendizaje son un conjunto de actividades o tareas complejas que implican el despliegue por parte del alumnado de actuaciones asociadas a competencias clave y competencias específicas y que, además, contribuyen a su adquisición y desarrollo. Estas situaciones es preciso contextualizarlas en torno al contexto personal, social, educativo y profesional del alumnado. El trabajo por situaciones de aprendizaje no se plantea como una actividad suplementaria a los contenidos u objetivos de aprendizaje, sino como una guía que interrelaciona la adquisición de conocimientos con la solución creativa de problemas reales. Las actividades que formen parte de estas situaciones deberán estar ligadas al currículo, planeadas para desarrollarse en un periodo de tiempo limitado y vinculadas con el trabajo académico diario.",
+      "En todo momento el alumno y la alumna deben ser conocedores del tipo de trabajo que se va a realizar, los tiempos, los contenidos y el resultado final; de esa forma, podrán opinar y modificar o destacar cuestiones de ese proceso que lleven a una mejor consecución del objetivo final.",
+      "Por este motivo es necesaria la incorporación de metodologías activas que se irán aplicando según las necesidades del contenido que se trabaje en cada momento.",
+      "La metodología debe tener en cuenta propuestas y modelos organizativos que, generalizados al contexto de aula, permitan la presencia, la participación y el aprendizaje de todo el alumnado. Por ello, se debe buscar la personalización de la respuesta educativa, teniendo en cuenta el Diseño Universal para el Aprendizaje (DUA). Este diseño se basa en tres principios que contempla múltiples formas de implicación o motivación para la tarea (por qué se aprende), múltiples formas de representación de la información (el qué se aprende) y múltiples formas de expresión del aprendizaje (cómo se aprende), de manera que se conecte con los centros de interés del alumnado, así como con la programación multinivel de saberes básicos del área. Este diseño promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado. La diversidad y heterogeneidad del alumnado presente en el aula han de entenderse como factores enriquecedores del proceso de enseñanza-aprendizaje y es a través de los principios, del Diseño Universal para el Aprendizaje (DUA), como se puede lograr la equidad para todo el alumnado.",
+      "A continuación, se realiza una aproximación a algunas de las metodologías más utilizadas, aunque no debemos entenderlas como elementos aislados sino como elementos que se complementan y que deben estar integrados en las situaciones de aprendizaje: enseñanza no directiva, aprendizaje basado en tareas, aprendizaje basado en proyectos, aprendizaje cooperativo, codocencia, trabajo interdisciplinar, aula invertida, gamificación, pensamiento visual, pensamiento computacional y aprendizaje-servicio.",
+      "En la Enseñanza No Directiva el profesorado interviene para ayudar a destacar el problema mientras que son los alumnos y las alumnas quienes tienen que buscar las soluciones. El papel del profesorado es el de facilitador y es una de las metodologías de trabajo que se recomiendan en esta materia para llevar a cabo las diferentes tareas planteadas en las situaciones de aprendizaje.",
+      "El aprendizaje basado en tareas en la enseñanza gira en torno a problemas situados en un contexto relevante para el alumnado. En esta metodología el problema o tarea es el punto de partida para la adquisición e integración de los nuevos conocimientos. El alumnado investiga y el o la docente aporta información cuando sea necesario. Se plantean situaciones abiertas que pueden tener múltiples soluciones, para ello, se deben buscar tareas o problemas de la vida real, planteados como retos, y el alumnado debe identificar qué conocimientos necesita para solucionarlos. Lo importante es el proceso, que incluye, además del trabajo en grupos cooperativos, la toma de decisiones, la planificación de estrategias, la creatividad, el pensamiento crítico, el aprendizaje autodirigido, las habilidades de comunicación y argumentación, la presentación de la información, la autoevaluación, la conciencia del propio aprendizaje, el desarrollo en valores, etc.",
+      "El aprendizaje basado en proyectos plantea situaciones de aprendizaje relativamente abiertas donde el alumnado participa en el diseño de un plan de trabajo, debe tratar la información pertinente y realizar una síntesis final que presente el producto pactado. Se pretende ayudar a organizar el pensamiento favoreciendo la reflexión, la crítica, la elaboración de hipótesis y la tarea investigadora. Esta materia, por su fuerte componente práctico, es muy adecuada para implementar esta metodología, con la que se consigue integrar diversos temas de contenido relevante, trabajar estrategias de búsqueda estableciendo criterios según la confiabilidad de las fuentes, relacionar el proyecto con problemas de otras materias o de la vida diaria, integrar las habilidades académicas con las habilidades manuales y sociales, gestionar un protagonismo compartido donde predomine la actitud de cooperación, fomentar la autoestima del alumnado como componente imprescindible de un grupo y finalmente, ayudar a la consecución de las competencias clave. Para la puesta en práctica de la metodología de aprendizaje basado en proyectos, se deben realizar las siguientes etapas consecutivas:",
+      "- El planteamiento del problema o situación de aprendizaje en el que el primer paso es identificar la necesidad y, a continuación, fijar las condiciones que debe reunir el producto final.",
+      "- La búsqueda de información sobre el problema planteado es una etapa necesaria; implica investigar sobre soluciones existentes, sobre cómo se puede resolver, los saberes científicos necesarios para llevarlo a cabo, las técnicas, los materiales, los operadores... Para localizar toda esta información podrán utilizarse de forma combinada tanto recursos implementados por el profesorado, como Internet o la biblioteca de aula o la escolar. El uso de programas informáticos para ir recopilando y almacenando la información útil permite ir perfilando la memoria técnica que, junto con el objeto o sistema construido, constituyen el producto final. Este proceso de búsqueda sirve para fomentar la lectura como hábito imprescindible para el desarrollo de la comprensión lectora y de la expresión oral y escrita.",
+      "- La realización de diseños previos empezando por el boceto, para transmitir las ideas individuales al resto del grupo, y terminando con un croquis o un dibujo delineado, para detallar la idea definitiva, facilita la expresión y concreción de las ideas. La utilización de programas de diseño permitirá ir completando y concretando la idea de cara a su posterior construcción.",
+      "- La planificación consiste en la elaboración de un plan de actuación en el que se detallarán las operaciones que habrá que llevar a cabo, la persona responsable de realizarlas, el tiempo estimado... El uso de tablas o modelos digitales permite integrar la digitalización en esta etapa.",
+      "- La construcción del objeto debe realizarse a partir de la documentación previamente elaborada a lo largo del proceso y cualquier variación sobre la planificación debe quedar debidamente documentada.",
+      "- La evaluación del resultado y del proceso llevado a cabo servirá, por un lado, para autoevaluar su propio trabajo y, por otro, para valorar si existen soluciones mejores o más adecuadas.",
+      "- La realización de la memoria técnica y la presentación de la solución mediante la utilización de medios digitales favorecerá la asimilación de todo el proceso y de sus contenidos. Además, contribuirá, por medio de la elaboración de la documentación con herramientas informáticas, a la mejora de la competencia comunicativa, al uso adecuado de las tecnologías de la información y la comunicación y al fomento de la educación cívica al escuchar y respetar las soluciones presentadas por el resto del alumnado. La toma de fotografías o pequeños vídeos durante las diferentes fases y su inclusión en la presentación será de gran utilidad para comprender e interiorizar el proceso llevado a cabo.",
+      "El aprendizaje cooperativo trata de diseñar situaciones en las que la interdependencia de las personas integrantes del grupo sea efectiva, necesitando la cooperación de todo el equipo para lograr los objetivos de la tarea. Este tipo de aprendizaje es de especial importancia durante todo el proceso de búsqueda de información, planificación y construcción, así como en la evaluación del objeto o sistema construido, pues cada miembro del grupo tiene diferentes habilidades y el uso conjunto de ellas permitirá llevar el proyecto a buen término.",
+      "La codocencia implica la presencia de dos o más docentes en el aula, permite atender la diversidad, trabajar la igualdad de oportunidades diversificando las propuestas de enseñanza aprendizaje, permitiendo un acompañamiento inclusivo del alumnado en función de las necesidades del aula. Esta metodología es de especial utilidad para llevar a cabo la parte práctica de la materia, dada la diversidad del alumnado y la necesidad de tener un ambiente de trabajo controlado y seguro en el que cada estudiante halle respuesta a sus dudas o inseguridades de manera rápida y personalizada.",
+      "El trabajo interdisciplinar consiste en un trabajo común entre el profesorado, teniendo presente la interacción de las distintas materias, de sus conceptos, de su metodología, de sus procedimientos y de la organización de la enseñanza, contribuyendo de este modo al desarrollo de las competencias en el alumnado. Como ejemplo, el trabajo coordinado con el departamento de dibujo permitirá optimizar el uso de herramientas manuales o digitales de forma que a la hora de ejecutar la fase de diseño del proyecto el alumnado ya disponga de las destrezas necesarias. La coordinación con los departamentos de ciencias permitirá el estudio previo de aquellos conocimientos científicos que vayan a ser trabajados en el proyecto.",
+      "En el aula invertida (flipped classroom) se transfiere el trabajo de determinados procesos de aprendizaje fuera del aula y se utiliza el tiempo lectivo, junto con la experiencia del docente, para facilitar y potenciar otros procesos de adquisición y práctica de conocimientos. La búsqueda de información y el diseño de soluciones individuales pueden ser trasladadas fuera del aula; de esta manera, el tiempo de clase puede ser utilizado para que el docente o la docente revise, proponga cambios o mejoras y guíe el trabajo realizado en la dirección adecuada.",
+      "La gamificación introduce los mecanismos y el potencial estimulador de los juegos en la práctica pedagógica, potenciando el trabajo competitivo tanto individual como en equipo con el objetivo de mejorar los resultados e incentivar al alumnado. La creación mediante aplicaciones informáticas de juegos de preguntas y respuestas sobre los conocimientos científicos, las herramientas o las técnicas involucradas en la ejecución de la situación de aprendizaje ayudará al alumnado a afianzar y reforzar sus competencias. Cada tarea llevada a cabo puede plantearse mediante un desafío que conlleve una acumulación de bonificaciones, puntos extra, premios o beneficios...",
+      "El pensamiento visual (visual thinking) se basa en la utilización de recursos gráficos para la expresión de conceptos e ideas. En tecnología las representaciones gráficas y las imágenes se utilizan para que la mente pueda comprenderlas de una forma más eficiente, no tanto para comunicar mejor como para que el alumnado aprenda a pensar, interpretando, sintetizando y simplificando sin las limitaciones del lenguaje verbal. Parte de los conocimientos científicos o técnicos necesarios para llevar a cabo el proyecto pueden ser expresados, por parte del propio alumnado, mediante la utilización de herramientas digitales que le permitan afianzar las ideas o conceptos clave y que, posteriormente, pueden ser utilizadas para la presentación al resto del grupo del objeto o sistema construido.",
+      "Con el pensamiento computacional los estudiantes desarrollan habilidades relacionadas con la resolución de problemas, tratando de resolver situaciones de aprendizaje con instrumentos de secuenciación mediante la manipulación y experimentación con distintos elementos tecnológicos, con independencia de los contenidos trabajados. El pensamiento computacional puede complementar al método de proyectos. De hecho, las fases pueden ser aplicadas en el diseño y creación de un programa cuya ejecución resuelva el problema planteado.",
+      "El aprendizaje-servicio es una metodología que combina la enseñanza con el compromiso social. Ante una necesidad social, y sin dejar de lado el currículo, el alumnado emprende una tarea de servicio a la comunidad, aplicando y consolidando saberes y competencias, poniendo el acento en los valores y actitudes. La tecnología aporta un amplio elenco de posibilidades en este sentido, como puede ser la automatización de algunas tareas o procesos, las aplicaciones al bienestar personal y social, a la comunicación o al desarrollo de soluciones de monitorización de parámetros medioambientales."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Coordinar y desarrollar proyectos de investigación con una actitud crítica y emprendedora, implementando estrategias y técnicas eficientes de resolución de problemas y comunicando los resultados de manera adecuada, para crear y mejorar productos y sistemas de manera continua."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica plantea, tanto la participación del alumnado en la resolución de problemas técnicos, como la coordinación y gestión de proyectos cooperativos y colaborativos. Esto implica, entre otros aspectos, mostrar empatía, establecer y mantener relaciones positivas, ejercitar la escucha activa y la comunicación asertiva, identificando y gestionando las emociones en el proceso de aprendizaje, reconociendo las fuentes de estrés y siendo perseverante en la consecución de los objetivos.",
+          "Además, se incorporan técnicas específicas de investigación, facilitadoras del proceso de ideación y de toma de decisiones, así como estrategias iterativas para organizar y planificar las tareas a desarrollar por los equipos, resolviendo de partida una solución inicial básica que, en varias fases, será completada a nivel funcional estableciendo prioridades. En este aspecto, el método design thinking y las metodologías agile son de uso habitual en las empresas tecnológicas, aportando una mayor flexibilidad ante cualquier cambio en las demandas de los clientes. Se contempla también la mejora continua de productos como planteamiento de partida de proyectos a desarrollar, fiel reflejo de lo que ocurre en el ámbito industrial y donde es una de las principales dinámicas empleadas. Asimismo, debe fomentarse la ruptura de estereotipos e ideas preconcebidas sobre las materias tecnológicas asociadas a cuestiones individuales, como por ejemplo las de género o la aptitud para las materias tecnológicas, con una actitud de resiliencia y proactividad ante nuevos retos tecnológicos.",
+          "En esta competencia específica cabe resaltar la investigación como un acercamiento a proyectos de I+D+I, de forma crítica y creativa, donde la correcta referenciación de información y la elaboración de documentación técnica, adquieren gran importancia. A este respecto, el desarrollo de esta competencia conlleva expresar hechos, ideas, conceptos y procedimientos complejos verbal, analítica y gráficamente, de forma veraz y precisa utilizando la terminología adecuada, para comunicar y difundir las ideas y las soluciones generadas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          441,
+          442
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Seleccionar materiales y elaborar estudios de impacto, aplicando criterios técnicos y de sostenibilidad para fabricar productos de calidad que den respuesta a problemas y tareas planteados, desde un enfoque responsable y ético."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia se refiere a la capacidad para seleccionar los materiales más adecuados para la creación de productos en función de sus características, así como realizar la evaluación del impacto ambiental generado.",
+          "A la hora de determinar los materiales se atenderá a criterios relativos a sus propiedades técnicas (aspectos como dureza, resistencia, conductividad eléctrica, aislamiento térmico, etc.). Así mismo, el alumnado tendrá en cuenta aspectos relacionados con la capacidad para ser conformados aplicando una u otra técnica, según sea conveniente para el diseño final del producto. De igual modo, se deben considerar los criterios relativos a la capacidad del material para ser tratado, modificado o aleado con el fin de mejorar las características del mismo. Por último, el alumnado, valorará aspectos de sostenibilidad para determinar qué materiales son los más apropiados en relación a, por ejemplo, la contaminación generada y el consumo energético durante todo su ciclo de vida (desde su extracción hasta su aplicación final en la creación de productos) o la capacidad de reciclaje al finalizar su ciclo de vida, la biodegradabilidad del material y otros aspectos vinculados con el uso controlado de recursos o con la relación que se establece entre los materiales y las personas que finalmente hacen uso del producto."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA4",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          442,
+          443
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Utilizar las herramientas digitales adecuadas, analizando sus posibilidades, configurándolas de acuerdo a sus necesidades y aplicando conocimientos interdisciplinares, para resolver tareas, así como para realizar la presentación de los resultados de una manera óptima."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia aborda los aspectos relativos a la incorporación de la digitalización en el proceso habitual del aprendizaje en esta etapa. Continuando con las habilidades adquiridas en la etapa anterior, se amplía y refuerza el empleo de herramientas digitales en las tareas asociadas a la materia. Por ejemplo, las actividades asociadas a la investigación, búsqueda y selección de información o el análisis de productos y sistemas tecnológicos, requieren un buen uso de herramientas de búsqueda de información valorando su procedencia, contrastando su veracidad y haciendo un análisis crítico de la misma, contribuyendo con ello al desarrollo de la alfabetización informacional. Así mismo, el trabajo colaborativo, la comunicación de ideas o la difusión y presentación de trabajos, afianzan nuevos aprendizajes e implican el conocimiento de las características de las herramientas de comunicación disponibles, sus aplicaciones, opciones y funcionalidades, dependiendo del contexto. De manera similar, el proceso de diseño y creación se complementa con un elenco de programas informáticos que permiten el dimensionado, la simulación, la programación y control de sistemas o la fabricación de productos.",
+          "En suma, el uso y aplicación de las herramientas digitales, con el fin de facilitar el transcurso de creación de soluciones y de mejorar los resultados, se convierten en instrumentos esenciales en cualquiera de las fases del proceso, tanto las relativas a la gestión, al diseño o al desarrollo de soluciones tecnológicas, como las relativas a la resolución práctica de ejercicios sencillos o a la elaboración y difusión de documentación técnica relativa a los proyectos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          443,
+          444
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Generar conocimientos y mejorar destrezas técnicas, transfiriendo y aplicando saberes de otras disciplinas científicas con actitud creativa, para calcular, y resolver problemas o dar respuesta a necesidades de los distintos ámbitos de la ingeniería."
+      },
+      "descripcion": {
+        "es": [
+          "La resolución de un simple ejercicio o de un complejo problema tecnológico requiere de la aplicación de técnicas, procedimientos y saberes que ofrecen las diferentes disciplinas científicas. Esta competencia específica tiene como objetivo, por un lado, que el alumnado utilice las herramientas adquiridas en matemáticas o los fundamentos de la física o la química para calcular magnitudes y variables de problemas mecánicos, eléctricos y electrónicos, y, por otro, que se utilice la experimentación, a través de montajes o simulaciones, como herramienta de consolidación de los conocimientos adquiridos. Esa transferencia de saberes aplicada a nuevos y diversos problemas o situaciones, permite ampliar los conocimientos del alumnado y fomentar la competencia de aprender a aprender."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          444
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Diseñar, crear y evaluar sistemas tecnológicos, aplicando conocimientos de programación informática, regulación automática y control, así como las posibilidades que ofrecen las tecnologías emergentes, para estudiar, controlar y automatizar tareas."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica hace referencia a la habilitación de productos o soluciones digitales en la ejecución de ciertas acciones de forma autónoma. Por un lado, consiste en crear aplicaciones informáticas que automaticen o simplifiquen tareas a los usuarios y, por otro, se trata de incorporar elementos de regulación automática o de control programado en los diseños, permitiendo actuaciones sencillas en máquinas o sistemas tecnológicos. En este sentido, se incluyen, por ejemplo, el control en desplazamientos o movimientos de los elementos de un robot, el accionamiento regulado de actuadores, como pueden ser lámparas o motores, la estabilidad de los valores de magnitudes concretas, etc. De esta manera, se posibilita que el alumnado automatice tareas en máquinas y en robots mediante la implementación de pequeños programas informáticos ejecutables en tarjetas de control.",
+          "En esta línea de actuación cabe destacar el papel de los sistemas emergentes aplicados (inteligencia artificial, internet de las cosas, big data, etc.)."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          445
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar y comprender sistemas tecnológicos de los distintos ámbitos de la ingeniería, estudiando sus características, consumo y eficiencia energética, para evaluar el uso responsable y sostenible que se hace de la tecnología."
+      },
+      "descripcion": {
+        "es": [
+          "El objetivo que persigue esta competencia específica es dotar al alumnado de un criterio informado sobre el uso e impacto de la energía en la sociedad y en el medioambiente, mediante la adquisición de una visión general de los diferentes sistemas energéticos, los agentes que intervienen y aspectos básicos relacionados con los suministros domésticos. De manera complementaria, se pretende dotar al alumnado de los criterios a emplear en la evaluación de impacto social y ambiental ligado a proyectos de diversa índole.",
+          "Para el desarrollo de esta competencia se abordan, por un lado, los sistemas de generación, transporte, distribución y suministro de energía, así como el funcionamiento de los mercados energéticos y, por otro lado, el estudio de instalaciones en viviendas, de máquinas térmicas y de fundamentos de regulación automática, contemplando criterios relacionados con la eficiencia y el ahorro energético, que permita al alumnado hacer un uso responsable y sostenible de la tecnología."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CD4",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          445,
+          446
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Investigar y diseñar proyectos que muestren de forma gráfica la creación y mejora de un producto, seleccionando, referenciando e interpretando información relacionada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              442
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar en el desarrollo, gestión y coordinación de proyectos de creación y mejora continua de productos viables y socialmente responsables, identificando mejoras y creando prototipos mediante un proceso iterativo, con actitud crítica, creativa y emprendedora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              442
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Colaborar en tareas tecnológicas, escuchando el razonamiento de otras personas, aportando al equipo a través del rol asignado y fomentando el bienestar grupal y las relaciones saludables e inclusivas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              442
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Elaborar documentación técnica con precisión y rigor, generando diagramas funcionales y utilizando medios manuales y aplicaciones digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              442
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-5",
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar de manera eficaz y organizada las ideas y soluciones tecnológicas, empleando el soporte, la terminología y el rigor apropiados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              442
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Determinar el ciclo de vida de un producto, planificando y aplicando medidas de control de calidad en sus distintas etapas, desde el diseño a la comercialización, teniendo en consideración estrategias de mejora continua."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              443
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar los materiales, tradicionales o de nueva generación, adecuados para la fabricación de productos de calidad basándose en sus características técnicas y atendiendo a criterios de sostenibilidad de manera responsable y ética."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              443
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Fabricar modelos o prototipos empleando las técnicas de fabricación más adecuadas y aplicando los criterios técnicos y de sostenibilidad necesarios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              443
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver tareas propuestas y funciones asignadas, mediante el uso y configuración de diferentes herramientas digitales de manera óptima y autónoma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              444
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar la presentación de proyectos empleando herramientas digitales adecuadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              444
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas asociados a sistemas e instalaciones mecánicas, aplicando fundamentos de mecanismos transmisión y transformación de movimientos, soporte y unión al desarrollo de montajes o simulaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              444
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas asociados a sistemas e instalaciones eléctricas y electrónicas, aplicando fundamentos de corriente continua y máquinas eléctricas al desarrollo de montajes o simulaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              444
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Controlar el funcionamiento de sistemas tecnológicos y robóticos, utilizando lenguajes de programación informática y aplicando las posibilidades que ofrecen las tecnologías emergentes, tales como Inteligencia Artificial, internet de las cosas, big data..."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              445
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Automatizar, programar y evaluar movimientos de robots, mediante su modelización y aplicando algoritmos sencillos y el uso de herramientas informáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              445
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y comprender conceptos básicos de programación textual, mostrando el progreso paso a paso de la ejecución de un programa a partir de un estado inicial y prediciendo su estado final tras la ejecución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              445
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Evaluar los distintos sistemas de generación de energía eléctrica y mercados energéticos, estudiando sus características, calculando sus magnitudes y valorando su eficiencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              446
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar las diferentes instalaciones de una vivienda desde el punto de vista de su eficiencia energética, buscando aquellas opciones más comprometidas con la sostenibilidad y fomentando un uso responsable de las mismas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              446
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyectos de investigación y desarrollo"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de gestión y desarrollo de proyectos: diagramas de Gantt, metodologías Agile. Técnicas de investigación e ideación: design thinking. Técnicas de trabajo en equipo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  446
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Productos: Ciclo de vida. Estrategias de mejora continua. Planificación y desarrollo de diseño y comercialización. Logística, transporte y distribución. Metrología y normalización. Control de calidad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  446
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Expresión gráfica. Aplicaciones CAD-CAE-CAM. Diagramas funcionales, esquemas y croquis."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  446
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Emprendimiento, resiliencia, perseverancia y creatividad para abordar problemas desde una perspectiva interdisciplinar."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  446
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza e iniciativa. Identificación y gestión de emociones. El error y la reevaluación como parte del proceso de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  446
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Materiales y fabricación"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Materiales técnicos y nuevos materiales. Clasificación y criterios de sostenibilidad. Selección y aplicaciones características. La industria metalúrgica asturiana."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  446
+                ]
+              }
+            },
+            {
+              "id": "TI.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de fabricación: prototipado rápido y bajo demanda. Fabricación digital aplicada a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  446
+                ]
+              }
+            },
+            {
+              "id": "TI.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de seguridad e higiene en el trabajo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  446
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sistemas mecánicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mecanismos de transmisión y transformación de movimientos. Soportes y unión de elementos mecánicos. Diseño, cálculo, montaje y experimentación física o simulada. Aplicación práctica a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  446
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas eléctricos y electrónicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Circuitos y máquinas eléctricas de corriente continua. Interpretación y representación esquematizada de circuitos, cálculo, montaje y experimentación física o simulada. Aplicación a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sistemas informáticos. Programación"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fundamentos de la programación textual. Características, elementos y lenguajes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Proceso de desarrollo: edición, compilación o interpretación, ejecución, pruebas y depuración. Creación de programas para la resolución de problemas. Modularización."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tecnologías emergentes: internet de las cosas. Aplicación a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Protocolos de comunicación de redes de dispositivos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sistemas automáticos"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.F.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas de control. Conceptos y elementos. Modelización de sistemas sencillos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Automatización programada de procesos. Diseño, programación, construcción y simulación o montaje."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas de supervisión (SCADA). Telemetría y monitorización."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de las tecnologías emergentes a los sistemas de control."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robótica. Modelización de movimientos y acciones mecánicas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Tecnología sostenible"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.G.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas y mercados energéticos. Consumo energético sostenible, técnicas y criterios de ahorro. Suministros domésticos. Contextualización en el caso de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.1.G.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Instalaciones en viviendas: eléctricas, de agua y climatización, de comunicación y domóticas. Energías renovables, eficiencia energética y sostenibilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Desarrollar proyectos de investigación e innovación con el fin de crear y mejorar productos de forma continua, utilizando modelos de gestión cooperativos y flexibles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              442
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar y difundir de forma clara y comprensible proyectos elaborados y presentarlos con la documentación técnica necesaria."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              442
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Perseverar en la consecución de objetivos en situaciones de incertidumbre, identificando y gestionando emociones, aceptando y aprendiendo de la crítica razonada y utilizando el error como parte del proceso de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              442
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar la idoneidad de los materiales técnicos en la fabricación de productos sostenibles y de calidad, estudiando su estructura interna, propiedades, tratamientos de modificación y mejora de sus propiedades."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              443
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar informes sencillos de evaluación de impacto ambiental, de manera fundamentada y estructurada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              443
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver problemas asociados a las distintas fases del desarrollo y gestión de un proyecto (diseño, simulación y montaje y presentación), utilizando las herramientas adecuadas que proveen las aplicaciones digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              444
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Calcular y montar estructuras sencillas, estudiando los tipos de cargas a los que se puedan ver sometidas y su estabilidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              444
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar las máquinas térmicas: máquinas frigoríficas, bombas de calor y motores térmicos, comprendiendo su funcionamiento y realizando simulaciones y cálculos básicos sobre su eficiencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              444
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y solucionar esquemas de sistemas neumáticos e hidráulicos, a través de montajes o simulaciones, comprendiendo y documentando el funcionamiento de cada uno de sus elementos y del sistema en su totalidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              444
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y resolver circuitos de corriente alterna, mediante montajes o simulaciones, identificando sus elementos y comprendiendo su funcionamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              444
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-5",
+          "codigoOficial": "4.5",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Experimentar y diseñar circuitos combinacionales y secuenciales físicos y simulados aplicando fundamentos de la electrónica digital, comprendiendo su funcionamiento en el diseño de soluciones tecnológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              445
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comprender y simular el funcionamiento de los procesos tecnológicos basados en sistemas automáticos de lazo abierto y cerrado, aplicando técnicas de simplificación y analizando su estabilidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              445
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y evaluar sistemas informáticos emergentes y sus implicaciones en la seguridad de los datos, analizando modelos existentes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              445
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar los distintos sistemas de ingeniería desde el punto de vista de la responsabilidad social y la sostenibilidad, estudiando las características de eficiencia energética asociadas a los materiales y a los procesos de fabricación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              446
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyectos de investigación y desarrollo"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión y desarrollo de proyectos. Técnicas y estrategias de trabajo en equipo. Metodologías Agile: tipos, características y aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Difusión y comunicación de documentación técnica. Elaboración, referenciación y presentación."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza e iniciativa. Identificación y gestión de emociones. El error y la reevaluación como parte del proceso de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.2.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Emprendimiento, resiliencia, perseverancia y creatividad para abordar problemas desde una perspectiva interdisciplinar."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Materiales y fabricación"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura interna. Propiedades y procedimientos de ensayo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de diseño y tratamientos de modificación y mejora de las propiedades y sostenibilidad de los materiales. Técnicas de fabricación industrial. Entorno industrial asturiano."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sistemas mecánicos."
+          },
+          "saberes": [
+            {
+              "id": "TI.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructuras sencillas. Tipos de cargas, estabilidad y cálculos básicos. Montaje o simulación de ejemplos sencillos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.2.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Máquinas térmicas: máquina frigorífica, bomba de calor y motores térmicos. Cálculos básicos, simulación y aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            },
+            {
+              "id": "TI.2.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Neumática e hidráulica: componentes y principios físicos. Descripción y análisis. Esquemas característicos de aplicación. Diseño y montaje físico o simulado."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  447
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas eléctricos y electrónicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Circuitos de corriente alterna. Triángulo de potencias. Cálculo, montaje o simulación."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  448
+                ]
+              }
+            },
+            {
+              "id": "TI.2.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica digital combinacional. Diseño y simplificación: mapas de Karnaugh. Experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  448
+                ]
+              }
+            },
+            {
+              "id": "TI.2.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica digital secuencial. Experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  448
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sistemas informáticos emergentes"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inteligencia artificial, big data, bases de datos distribuidas y ciberseguridad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  448
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sistemas automáticos."
+          },
+          "saberes": [
+            {
+              "id": "TI.2.F.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Álgebra de bloques y simplificación de sistemas. Estabilidad. Experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  448
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Tecnología sostenible"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.G.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Impacto social y ambiental. Informes de evaluación. Valoración crítica de las tecnologías desde el punto de vista de la sostenibilidad ecosocial. Desarrollo sostenible en Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  448
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-21",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

@@ -1,0 +1,993 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.bachillerato.historia-de-espana",
+  "territorio": "es-as",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "HE",
+    "nombre": {
+      "es": "Historia de España"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "obligatoria"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-60-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 60/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de Bachillerato en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06714",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "anexo": "II.a",
+      "paginasMateria": {
+        "desde": 249,
+        "hasta": 260
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Historia de España es común para todas las modalidades de Bachillerato. Su estudio es esencial para conocer las experiencias individuales y colectivas de las mujeres y hombres que nos precedieron, comprender los procesos históricos que han dado lugar a la configuración del actual estado español y ayudar al alumnado a observar, interpretar y comprender el presente, situándoles de forma responsable ante los principales retos y problemas a los que deben enfrentarse en el siglo XXI, tarea esencial para el ejercicio de su madurez intelectual y humana.",
+      "La aproximación a la metodología histórica introduce al alumnado en un conocimiento del pasado basado en el rigor científico. Acceder, contrastar e interpretar fuentes históricas y documentos historiográficos le permitirá entender que la Historia, como disciplina, no es un ámbito de conocimiento cerrado, sino que es objeto de continua revisión y, por tanto, que está en permanente construcción. En este sentido, la materia adquiere un papel fundamental para el ejercicio del espíritu crítico con la finalidad de prevenir la desinformación, contribuyendo decisivamente a la formación de ciudadanos y ciudadanas responsables, conscientes de sus derechos y obligaciones.",
+      "El análisis del pasado constituye una referencia imprescindible para entender el mundo actual y conforma un rico legado que se debe apreciar, conservar y transmitir, como memoria colectiva de las distintas generaciones que nos han precedido y como fuente de aprendizaje para los que nos van a suceder. Sirve para que el alumnado tome conciencia de los factores que condicionan la actuación humana y el papel que juegan en la historia determinados elementos como las creencias y las ideologías. Ayuda a desarrollar entre el alumnado una especial sensibilidad hacia la sociedad presente y su problemática, aprendiendo a valorar los avances hasta llegar al actual estado social y de derecho en el que se fundamenta nuestra convivencia democrática, desde una concepción participativa, sintiéndose sujeto activo, como parte implicada de su entorno, colaborando en su mejora y contribuyendo, desde sus posibilidades, a una sociedad más justa, equitativa y cohesionada.",
+      "Las competencias específicas se han estructurado en torno a los vectores que constituyen los principales centros de interés en el presente, que definen las estrategias para aprender del pasado y que resultan relevantes para orientar nuestro porvenir. Se pretende con ello destacar el valor funcional y significativo del aprendizaje de la Historia de España y de los saberes que ofrece, dotándolos de un sentido práctico, y relacionados con el entorno real del alumnado.",
+      "La libertad, el primero de esos ejes vertebradores, ofrece una perspectiva nada lineal que atraviesa toda la época contemporánea hasta nuestros días, recogiendo la trayectoria de nuestra memoria democrática hasta la Constitución de 1978 y los retos actuales y futuros a los que puede enfrentarse nuestra democracia. Las identidades nacionales y regionales se proyectan más atrás en el tiempo, como las creencias y las ideologías, que tanta trascendencia tienen y han tenido a lo largo de la historia, conectan procesos históricos diversos y resultan esenciales para destacar, antes que lo que nos separa y diferencia, los elementos que nos unen, para favorecer el diálogo y la convivencia. El progreso y el crecimiento económico, desde la perspectiva de la sostenibilidad, la cohesión territorial y la justicia social, así como la visión de la diversidad social o de la igualdad de género a lo largo del tiempo, se han convertido en campos fundamentales para el estudio de la historia y el análisis del presente.",
+      "El marco comparativo con la historia de otros países del mundo occidental, las relaciones internacionales y la conexión del territorio español con los grandes procesos históricos, constituye también un vector imprescindible para la interpretación de su evolución y desarrollo, analizar sus analogías y singularidades, destacando aquellas etapas históricas en las que sus instituciones, colectivos e individuos han tenido un especial protagonismo. Otra de las competencias específicas, que es transversal, subraya la expresión práctica y metodológica del pensamiento histórico y del aprendizaje activo que debe llevar a cabo el alumnado.",
+      "Los criterios de evaluación conjugan las competencias específicas con los saberes básicos y van orientados al logro de los objetivos del Bachillerato y de las competencias clave. Suponen por tanto una adaptación de las metodologías y acciones educativas para este tipo de aprendizaje por parte del alumnado, utilizando estrategias en las que ejerciten tanto los procesos instrumentales como las actitudes, utilizando las bases metodológicas del pensamiento histórico en la construcción del conocimiento. Todo ello implica disponer de nuevos instrumentos para valorar un conjunto amplio y diverso de acciones, teniendo en cuenta la diversidad e individualidad del alumnado.",
+      "Los saberes básicos se agrupan en tres bloques: «Sociedades en el tiempo», «Retos del mundo actual» y «Compromiso cívico». Siguen la misma denominación que en la materia de Historia del Mundo Contemporáneo de primer curso de Bachillerato, dando así continuidad y coherencia a los principios que guían y orientan a estas materias. La organización de estos saberes se asienta alrededor de los ejes y claves conceptuales que estructuran las competencias específicas y tienen una clara intencionalidad temática, incidiendo en aquellos aspectos o elementos que resultan más relevantes de cada época histórica, aunque no mantengan una disposición cronológica. Se relacionan los saberes básicos de la España contemporánea y actual, que cuentan con mayor presencia, con los de etapas históricas anteriores. Se pretende incidir con ello en el carácter funcional de los aprendizajes y en la conexión del pasado más lejano con las épocas más recientes. Los hechos y acontecimientos deben plantearse contextualizados en su momento histórico, evitando una visión presentista, caracterizando debidamente cada etapa de la historia y situándola adecuadamente en la línea del tiempo.",
+      "El bloque «Sociedades en el tiempo» está orientado a la aplicación de los procedimientos y las técnicas propios de la historia. Los saberes básicos se organizan en torno a los principales procesos históricos de la Historia de España, contextualizando y mostrando la conexión de los fenómenos analizados con el presente.",
+      "El bloque «Retos del mundo actual» presta especial atención a los desafíos y problemas del presente y del entorno local y global, destinado a despertar en el alumnado una mirada crítica y responsable. A través de este enfoque se pretende despertar la conciencia histórica sobre problemas, conflictos e incertidumbres actuales. Se persigue con ello que los juicios propios y la capacidad de diálogo y de debate estén fundamentados y argumentados, previniendo la desinformación, la falta de criterio y las actitudes intolerantes.",
+      "El tercer bloque de saberes básicos, «Compromiso cívico», subraya la importancia de valores, actitudes y otros ámbitos asociados al desarrollo personal del alumnado. Estas dimensiones son fundamentales para la formación integral, tanto por el sentido que otorga al resto de los saberes, a los que complementa y da significado, como por su proyección social y ciudadana.",
+      "El enfoque competencial del Bachillerato y de la Historia de España abre nuevas oportunidades y posibilidades para crear escenarios de aprendizaje más activos, en los que dotar de mayor protagonismo al alumnado, que permitan el trabajo en equipo, los procesos de indagación e investigación, la creatividad y la transferencia del conocimiento adquirido.",
+      "Tal enfoque y dichos escenarios son, también, el marco adecuado para plantear propuestas interdisciplinares en las que trabajar de manera coordinada con otras áreas de conocimiento, de manera que se facilite la interconexión de los saberes y se permita que se afiancen. En el centro de atención debe primar el ejercicio de una ciudadanía informada y consciente, que valora la trayectoria de un país con una democracia consolidada, aunque crítica con respecto a la desigualdad y las expectativas incumplidas, así como la consecución de un alumnado respetuoso que destaque la importancia de la convivencia y de las actitudes dialogantes, comprometido con la mejora de la comunidad y del entorno, y dispuesto a afrontar los retos que le depare el siglo XXI.",
+      "Metodología",
+      "Las orientaciones metodológicas que se describen a continuación deben estar encaminadas al ejercicio de una ciudadanía activa basada en un aprendizaje competencial teniendo en cuenta los diferentes ritmos de aprendizaje del alumnado, mediante la utilización de métodos que favorezcan su capacidad de autoaprendizaje y promuevan el trabajo en equipo. Para la adquisición y desarrollo, tanto de las competencias clave como de las competencias específicas, se planificarán situaciones de aprendizaje, en coordinación con el resto del equipo docente, de acuerdo con los principios que, con carácter orientativo, se recogen en este decreto.",
+      "Por su propia naturaleza, la materia de Historia de España contribuye de manera notoria a la adquisición de la Competencia en Comunicación Lingüística (CCL) a través de la expresión oral, escrita, audiovisual y multimodal. El alumnado está en permanente contacto con textos de diversa naturaleza, lo que facilitará la adquisición de habilidades para el uso de distintos tipos de discurso, tales como la narración, la disertación, la descripción y la argumentación. Los alumnos y las alumnas desarrollarán esta competencia mediante la lectura de fuentes históricas e historiográficas, la realización de exposiciones orales de sus propias producciones, la participación en debates, así como a través de la elaboración de comentarios de textos históricos y el análisis crítico de fuentes documentales. También a través de la elaboración de trabajos de investigación que requieren localizar, seleccionar y contrastar diversas fuentes de información y un tratamiento fiable y veraz para evitar la manipulación.",
+      "La materia contribuye a la adquisición de la Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM), en la medida en que el estudio de determinados procesos históricos precisa necesariamente del empleo de aplicaciones informáticas, el manejo de datos estadísticos y recursos digitales, además de diferentes tipos de representaciones gráficas. La correcta lectura, análisis e interpretación de estas fuentes contribuye a la comprensión de los procesos históricos y permite la construcción de nuevos aprendizajes.",
+      "La Competencia Digital (CD) está presente en el proceso enseñanza y aprendizaje de la materia de dos formas diferentes. Por un lado, las tecnologías digitales se han convertido en un medio imprescindible, tanto para las nuevas modalidades de trabajo como para la participación en la sociedad. Internet es una herramienta eficaz y rápida para acceder a multitud de contenidos digitales en diferentes formatos, pero no toda la información obtenida es válida y es necesario poseer herramientas para discernir la fiabilidad de estos contenidos. El alumnado debe saber buscar, pero también seleccionar las búsquedas y analizar la información obtenida aplicando criterios de validez. Por otro lado, el dominio de herramientas ofimáticas y de software multimedia facilita la producción y presentación de contenidos y su organización para una posterior reutilización.",
+      "La Competencia Personal, Social y de Aprender a Aprender (CPSAA) implica la habilidad de la reflexión para el autoconocimiento, la aceptación y el crecimiento personal; pero también implica la gestión del tiempo, la colaboración constructiva y la resiliencia. En este proceso, el estudio de la Historia de España contribuye a fomentar el razonamiento crítico y la capacidad de reflexión. Asimismo, facilita el desarrollo de la competencia a través de la búsqueda, selección, análisis, síntesis e interpretación crítica de la información obtenida a través de diversas fuentes. Sin olvidar el papel que desempeña la participación del alumnado en las tareas del aula y la realización de trabajos y proyectos, individuales o en grupo, que permiten compartir distintas estrategias de aprendizaje.",
+      "Por lo que se refiere a la Competencia Ciudadana (CC), comprender y analizar de manera crítica la realidad histórica y actual, desde ambas perspectivas, es un elemento intrínseco a la materia de Historia de España. El estudio de la evolución de las estructuras sociales y de los avances que se han producido a lo largo del tiempo ilustra la comprensión de su carácter dinámico y promueve la adquisición de un conocimiento crítico de conceptos básicos como democracia, justicia, igualdad, ciudadanía, derechos humanos o la no discriminación; además, de forma paralela, se integra su formulación a lo largo de nuestra historia constitucional. De esta manera, el alumnado desarrollará el aprecio por valores cívicos esenciales en nuestros días, como la búsqueda del bienestar social, la solidaridad, la democracia, el respeto por la diversidad, la interculturalidad y los derechos humanos, al tiempo que se aleja de prejuicios y rechaza la discriminación por razones de sexo, origen, creencia o cualquier otra circunstancia. La materia también contribuye a potenciar el estudio crítico de la sociedad en su contexto histórico, fomentando la empatía y la importancia que tiene implicarse en la resolución de problemas, siempre dentro de un marco democrático, a través del respeto y la tolerancia.",
+      "Por lo que respecta a la Competencia Emprendedora (CE), la vertiente más práctica de la materia puede estimular la iniciativa emprendedora, la capacidad de pensar de forma creativa, la búsqueda de soluciones innovadoras y la toma de decisiones con sentido crítico y ético mediante la realización de debates, trabajos o proyectos, considerando siempre estas experiencias una oportunidad para aprender.",
+      "En relación con la Competencia en Conciencia y Expresión Culturales (CCEC), partimos del hecho de que la obtención de conocimientos culturales, españoles y asturianos, junto al estudio de su evolución dentro del contexto histórico correspondiente, constituye una pieza muy valiosa en la reconstrucción de una visión del pasado integral y crítica. Asimismo, ayuda a que el alumnado comprenda, aprecie y defienda nuestro patrimonio cultural e histórico-artístico, al tiempo que toma conciencia de cómo se ha ido forjando a lo largo de la historia y de la multiculturalidad española, evitando visiones reduccionistas y unívocas; y permite que se adquieran destrezas perceptivas, comunicativas, relacionadas con la sensibilidad y con el sentido estético. De este modo, se promoverá que el alumnado participe en la vida cultural, con espíritu crítico y con una actitud abierta y respetuosa.",
+      "Para lograr el desarrollo de las competencias anteriormente expuestas, el proceso de enseñanza y aprendizaje partirá de una rigurosa planificación teniendo en cuenta el contexto sociocultural, la disponibilidad de recursos y las peculiaridades del alumnado, así como los condicionantes asociados a la propia naturaleza de la materia. Una metodología activa, contextualizada y secuenciada despertará y mantendrá la motivación del alumnado, así como el interés por intervenir en el desarrollo del proceso de enseñanza y aprendizaje.",
+      "La acción didáctica debe comenzar con la detección del nivel competencial inicial del alumnado, para poder construir los nuevos aprendizajes sobre la base existente. Se debe tener en consideración que el alumnado, cada vez con más frecuencia, se aproxima a los hechos históricos de manera acrítica accediendo sin filtros a contenidos desde Internet, plataformas digitales y redes sociales, pero rara vez desde estudios científicamente contrastados. Para detectar los conocimientos previos del alumnado se podrán llevar a cabo todo tipo de estrategias que fomenten su participación, como debates, encuestas u otras tareas cuyos resultados permitan discernir qué tipo de actividades se han de utilizar para la adquisición de los saberes básicos.",
+      "Las tareas propuestas en el proceso de enseñanza y aprendizaje deberán favorecer la capacidad del alumnado para aprender de forma autónoma, para trabajar en equipo y para aplicar los métodos de investigación apropiados, procurando que se conviertan en protagonistas activos en la construcción de su propio conocimiento. Esta propuesta se puede realizar desde un punto de vista individual, sin embargo, el trabajo cooperativo resulta especialmente enriquecedor pues, partiendo del carácter singular y heterogéneo del alumnado, se desarrollan estrategias de socialización.",
+      "Asimismo, se desarrollarán acciones formativas que estimulen el interés y el hábito de la lectura y la capacidad de expresarse correctamente en público. Se favorecerá el ejercicio de la crítica, estimulando el interés del alumnado, ya sea con perspectiva histórica, cultural o social, como pilar básico del comportamiento democrático.",
+      "El profesorado planteará situaciones de aprendizaje que contribuyan a la adquisición y desarrollo de las competencias. Las situaciones de aprendizaje son un conjunto de actividades significativas, complejas y articuladas que deben estar planificadas, relacionadas y vinculadas a situaciones reales y a experiencias familiares del alumnado. Estas situaciones son una herramienta metodológica esencial ya que permiten integrar todos los elementos del proceso de enseñanzaaprendizaje competencial vinculándolas con proyectos interdisciplinares, debiendo estar relacionados con el contexto personal, social, educativo y profesional del alumnado.",
+      "Se evitarán las interpretaciones parciales de los hechos y procesos históricos así como el abuso de clases expositivas, especialmente la transmisión unidireccional. Es necesario impulsar metodologías de trabajo activas como el aprendizaje basado en proyectos, el aprendizaje cooperativo, la codocencia o la gamificación, sin olvidar aquellas tareas que tanto aportan a la comprensión de la historia como la lectura comprensiva, la elaboración de líneas del tiempo, la realización de esquemas, la interpretación de mapas que reflejen la evolución de determinados procesos históricos, así como los comentarios de documentos históricos de diversa naturaleza: oral, escrita, cartográfica, icónica, estadística o audiovisual.",
+      "Se establecerán relaciones entre los contenidos y la realidad actual y cotidiana, en especial con los elementos más cercanos al entorno del alumnado y a sus propias vivencias, promoviendo la aplicación de lo aprendido a la vida real. Deberán incorporarse al proceso de enseñanza y aprendizaje principios y valores como la educación cívica, la defensa de un desarrollo sostenible y, de manera especial, la igualdad efectiva entre hombres y mujeres, fomentando una formación libre de estereotipos y utilizando un lenguaje exento de prejuicios, inclusivo y no sexista.",
+      "Es conveniente, también, potenciar dinámicas de trabajo en las que se respeten las diferencias individuales, evitando la exclusión de opiniones o cualquier otra práctica discriminatoria. Del mismo modo, se debe velar por el establecimiento de procedimientos de exposición y debate basados en una actitud de trabajo, estudio cooperativo, tolerancia y respeto."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Valorar los movimientos y acciones que han promovido las libertades en la historia de España, utilizando términos y conceptos históricos, a través del análisis comparado de los distintos regímenes políticos, para reconocer el legado democrático de la Constitución de 1978 como fundamento de nuestra convivencia y garantía de nuestros derechos."
+      },
+      "descripcion": {
+        "es": [
+          "La Constitución de 1978 inició la etapa de convivencia pacífica y democrática más larga y duradera de la historia de España. El alumnado debe concebir el estado social y de derecho actual no solo como resultado del entendimiento y de la acción de determinados hombres y mujeres comprometidos con la libertad, sino también como el fruto del ejercicio diario de una ciudadanía activa, identificada con sus principios e inspirada en sus valores. De este modo, se ha de interpretar la memoria democrática, no solo como efecto directo de la experiencia histórica de la Transición, sino como resultado del complejo camino que el constitucionalismo ha recorrido desde 1812. Todo esto implica considerar la historia como un proceso no lineal, de avances y retrocesos, valorando lo que las distintas culturas políticas han aportado al afianzamiento del parlamentarismo y al establecimiento de la democracia. Para ello resulta necesario desarrollar estrategias comparativas sobre los distintos regímenes políticos que se han ido sucediendo desde el fin del absolutismo y el reinado de Isabel II hasta la Restauración y la Constitución de 1931, así como la correcta utilización de aquellos términos y conceptos históricos, políticos y jurídicos que permitan definir su naturaleza y contextualizar sus dinámicas y logros. Por otro lado, se persigue el reconocimiento y la interpretación de los diferentes significados asignados al concepto de libertad, así como el análisis de los distintos y, a veces, contrapuestos intereses presentes en ellos, de manera que el alumnado entienda que la libertad, como principio inherente del ser humano, implica una actitud crítica y exigente ante el cumplimiento de sus principios y aspiraciones dentro del propio marco constitucional."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CC1",
+        "CC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          253
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Reconocer y valorar la diversidad identitaria de nuestro país, por medio del contraste de la información y la revisión crítica de fuentes, tomando conciencia del papel que juega en la actualidad, para respetar los sentimientos de pertenencia, la existencia de identidades múltiples, y las normas y los símbolos que establece nuestro marco común de convivencia."
+      },
+      "descripcion": {
+        "es": [
+          "La definición constitucional de la nación española y el reconocimiento de otras identidades exigen el estudio de los procesos de nacionalización que se dan a raíz de la incorporación del concepto de soberanía nacional, y del uso de la historia para justificarlos. Una ciudadanía informada y crítica debe ser capaz de interpretar discursos e ideas diferentes, incluyendo aquellos que son contrarios a los suyos propios, y defender la solidaridad y la cohesión como base de la convivencia, así como el respeto a los símbolos y normas comunes. La coexistencia de identidades, especialmente las que tienen que ver con el sentimiento nacional, es uno de los hechos que más interés despierta en la actualidad y que más tensión ha provocado en la sociedad española de las últimas décadas. Como fenómeno político y cultural, exige en el alumnado una aproximación rigurosa en cuanto a su contextualización histórica, a través del análisis crítico de fuentes y de la interpretación rigurosa de las mismas. Es también necesario que pueda describir el origen y la evolución del Estado nacional, así como de los distintos nacionalismos y regionalismos, articulados en movimientos políticos y culturales a partir del siglo XIX. Igualmente, ha de poder identificar el origen de la idea de España y de otras identidades territoriales a través de los textos, desde sus primeras formulaciones y a través de su evolución en el tiempo. Por otro lado, respetar los distintos sentimientos de pertenencia implica tratarlos en sus diferentes escalas y dimensiones, y trabajar sobre la compatibilidad de identidades múltiples, valorando la riqueza de sus diferentes expresiones y manifestaciones. Finalmente, tomar conciencia histórica de la articulación y organización territorial del estado implica reconocer las acciones orientadas a la centralización administrativa y política desde el nacimiento del Estado Moderno, los conflictos que ha generado y los modelos alternativos a dicha centralización."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "CPSAA3.1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          254
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar y valorar la idea de progreso desde la perspectiva del bienestar social y de la sostenibilidad, a través de la interpretación de los factores modernizadores de la economía española, el uso de métodos cuantitativos y el análisis crítico de las desigualdades sociales y territoriales, para considerar el emprendimiento, la innovación y el aprendizaje permanente como elementos fundamentales en un entorno económico y profesional en constante cambio."
+      },
+      "descripcion": {
+        "es": [
+          "El alumnado debe concebir que la sostenibilidad y el conjunto de los Objetivos de Desarrollo Sostenible constituyen un principio inexcusable tanto a nivel local como global, y tanto para afrontar la emergencia climática como para alcanzar los niveles mínimos de justicia social. Una perspectiva que implique una mirada crítica a la idea del progreso, a sus planteamientos filosóficos y económicos y a sus derivaciones políticas, debe considerar las consecuencias que ha generado un crecimiento económico que, históricamente, no ha tenido en cuenta entre sus prioridades ni la distribución de la riqueza ni los efectos ambientales. El estudio de la modernización económica exige, pues, poner en contacto las estructuras a largo plazo, que en España se han mantenido desde la época medieval, como es el caso de la propiedad de la tierra, con otras a medio y corto plazo, vinculándolas con coyunturas concretas como los elevados costes por la implicación en los conflictos bélicos de la época moderna, el comercio colonial o las políticas comerciales. También se debe prestar especial atención al estudio comparativo de la evolución del capitalismo y la industrialización en España con la de otros países europeos que nos sirven de referencia, a través del análisis de los respectivos ritmos de crecimiento. Manejar ese cuadro de magnitudes supone, además, el ejercicio de habilidades econométricas, el uso de bases estadísticas, la lectura de gráficos, el manejo de datos y recursos digitales y el empleo de aplicaciones informáticas. Dicha tarea exige igualmente el desarrollo de la aptitud interpretativa y de relación, con objeto de poder asociar los factores económicos con la desigualdad social y territorial, y de percibir la velocidad de los cambios del mundo actual, fenómenos estos que demandan una ciudadanía resiliente, innovadora, emprendedora y comprometida con la mejora de la humanidad y del planeta."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CD2",
+        "CPSAA1.2",
+        "CPSAA2",
+        "CC1",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          254,
+          255
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Tomar conciencia de la diversidad social a través del análisis multidisciplinar de los cambios y continuidades de la sociedad española a lo largo del tiempo, la evolución de la población, los niveles y modos de vida, las condiciones laborales y los movimientos y conflictos sociales, para valorar el alcance de las medidas adoptadas y los progresos y limitaciones para avanzar en la igualdad, el bienestar, la justicia y la cohesión social."
+      },
+      "descripcion": {
+        "es": [
+          "El incremento de los niveles de equidad e igualdad constituye el criterio ético desde el que valorar el desarrollo humano de un país y medir el alcance de sus logros sociales. El alumnado debe percibir la gran heterogeneidad y complejidad de la sociedad española a lo largo de su historia, algo que resulta necesario analizar para entender su evolución demográfica, los desequilibrios territoriales y el desigual acceso a los recursos, a los derechos y a la participación en el poder. Para ello precisa combinar el estudio histórico con las aportaciones de disciplinas como son, entre otras, la antropología, la psicología social, las ciencias políticas o la sociología, con objeto de interpretar las distintas respuestas, individuales y colectivas, que se dan ante situaciones de adversidad, incumplimiento de expectativas o ante la percepción de la injusticia. Una interpretación esta que debe centrarse en el sujeto y en las experiencias colectivas, en los modos de vida, las mentalidades, la estructura cultural y las emociones, por medio del análisis de fuentes documentales literarias o audiovisuales, a través de la lectura de publicaciones y de la prensa de época, así como de la consulta de bibliotecas y hemerotecas digitales, con el fin de percibir la multiplicidad de acciones de protesta que se han producido tanto en el mundo agrario como en el urbano, desde las sociedades del Antiguo Régimen al proletariado industrial y otros movimientos sociales más recientes. Resultará igualmente necesario atender a las medidas que desde el estado y otras instituciones se han adoptado para gestionar los conflictos, paliar las desigualdades, neutralizar la tensión social o reprimir las alteraciones del orden, generando en el alumnado una perspectiva que le lleve a valorar la progresiva ampliación de los derechos laborales y sociales, la inclusión de las minorías y la cohesión de una sociedad múltiple y diversa, combatiendo todo tipo de discriminación."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL4",
+        "STEM4",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          255
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Analizar críticamente el papel de las creencias y de las ideologías en la articulación social, en el uso del poder y en la configuración de identidades y proyectos políticos contrapuestos, a través del estudio de fuentes primarias y textos historiográficos y la fundamentación de juicios propios, para debatir sobre problemas actuales, transferir conocimiento, valorar la diversidad cultural y mostrar actitudes respetuosas ante ideas legítimas diferentes a las propias."
+      },
+      "descripcion": {
+        "es": [
+          "Las creencias y las ideologías han constituido uno de los principales ejes vertebradores de la sociedad, a partir de los cuales se han generado los más importantes espacios de sociabilidad, de creación de vínculos y de identidades colectivas. El alumnado debe identificar los cambios en las creencias y prácticas religiosas, las formas de pensamiento y las concepciones políticas que han ido emergiendo y transformándose desde la etapa del absolutismo y el Estado liberal hasta la actual sociedad democrática. A través de la lectura de manifiestos, artículos de prensa o debates parlamentarios debe poder inferir los proyectos políticos que motivaron los enfrentamientos entre facciones, partidos y movimientos políticos de la época contemporánea, desde el carlismo y las distintas fuerzas monárquicas al republicanismo y las ideologías revolucionarias. Especial interés cobra, por su significación histórica y el intenso debate social que suscita, el proceso reformista y democratizador que emprendió la II República, así como las reacciones antidemocráticas que se generaron ante su avance y el golpe de estado que supuso su fin. Resulta necesario que el alumnado forme juicios propios argumentados en fuentes fiables y en trabajos históricos contrastados, que eviten la desinformación y favorezcan el diálogo. La Guerra Civil y el Franquismo dan cuenta del grado de violencia que pueden adquirir los conflictos y de las consecuencias del uso dictatorial del poder, hechos estos, traumáticos y dolorosos, que deben conocerse con rigor para que nunca más vuelvan a producirse. Analizar este complejo entramado de corrientes ideológicas y luchas políticas requiere, en fin, la aproximación a la historiografía y al modo con el que las historiadoras y los historiadores tratan de explicarlo mediante la aplicación de métodos, conceptos y marcos teóricos, con rigor y honestidad."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM4",
+        "CPSAA3.1",
+        "CPSAA4",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          256
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Interpretar el valor geoestratégico de España y su conexión con la historia mundial, señalando las analogías y singularidades de su evolución histórica en un contexto global cambiante, por medio de la búsqueda y el tratamiento de información, para avalar los compromisos de nuestro país en materia de cooperación y seguridad, promover actitudes solidarias y asumir los valores del europeísmo."
+      },
+      "descripcion": {
+        "es": [
+          "Una aproximación comprensiva a la historia de España debe partir de una visión espacial y cartográfica, deduciendo cómo su ubicación le ha permitido formar parte de los principales itinerarios históricos de la humanidad y de los procesos clave que han ocurrido en torno a sus dimensiones geográficas: el Mediterráneo, el Atlántico y la Europa continental. Valorar e interpretar el legado histórico y cultural permite al alumnado conectar el presente con el pasado, identificando el papel que han jugado las relaciones internacionales en un mundo cada vez más interconectado. Esto precisa del manejo de un marco comparativo que evite caer en una imagen singular de la evolución histórica española basada en mitos y estereotipos, como la leyenda negra o la idea de decadencia tras el fin del imperio y las sucesivas crisis coloniales, que lo alejan de su contexto interpretativo. El estudio de este conjunto amplio de temas históricos requiere de procesos inductivos basados en el ejercicio de la autonomía y la madurez personal, y en el desarrollo de procesos avanzados de búsqueda, selección y tratamiento crítico de la información, que permitan al alumnado elaborar su propio conocimiento en distintos formatos, tales como informes, esquemas, porfolios y síntesis. Una mirada histórica desde el presente debe incluir también un análisis del papel que representa la España de hoy en el mundo, asumiendo los compromisos que supone su pertenencia a la Unión Europea y a otros organismos internacionales, y promoviendo en el alumnado una conciencia de seguridad y cooperación nacional e internacional, reconociendo los instrumentos de los que dispone el Estado para preservar los derechos, libertades y bienestar de la ciudadanía, y valorando el papel de instituciones y entidades dedicadas a la cooperación y la ayuda humanitaria."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "CPSAA1.1",
+        "CPSAA4",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          257
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Incorporar la perspectiva de género en el análisis de la España actual y de su historia, a través de la contextualización histórica de fuentes literarias y artísticas y la investigación sobre el movimiento feminista, para reconocer su presencia en la historia y promover actitudes en defensa de la igualdad efectiva de mujeres y hombres."
+      },
+      "descripcion": {
+        "es": [
+          "La perspectiva de género responde a una exigencia ética en las sociedades contemporáneas y tiene por objeto comprender cuál es la situación real de la igualdad entre mujeres y hombres en la España actual, valorar los avances conseguidos y plantear los retos del futuro. Incorporar esta visión a los estudios históricos permite al alumnado situar en un lugar central nuevos conceptos en el estudio de las relaciones sociales, analizando los mecanismos de dominación, control, subordinación y sumisión que se han mantenido a lo largo de la historia. Identificar la ausencia de la mujer, tanto a título individual como colectivo, en la narrativa histórica, exige explorar nuevas fuentes, especialmente literarias y artísticas, y también orales. En ellas, y a través del análisis de estereotipos, símbolos e iconografías relacionados con la mujer y el mundo femenino, en las que se representen espacios, actividades, roles, conductas, imágenes y modos de vida, se pueden contextualizar temporal y espacialmente las relaciones de género y visibilizar su presencia en la historia. Todo ello supone también el rescate de aquellas mujeres que fueron capaces de superar el silencio y el olvido, dotándolas de un protagonismo que la historia escrita les ha negado relegándolas a personajes secundarios e irrelevantes. Finalmente, el estudio de las luchas por la emancipación y de los movimientos feministas permite analizar sus estrategias de acción, su conexión con determinadas culturas políticas y movimientos sociales, identificar sus antagonistas y asociar sus logros a la modernización del país, mostrando una compleja trayectoria que debe promover actitudes informadas frente a la situación secular de desigualdad entre hombres y mujeres."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL4",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          257,
+          258
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Valorar el patrimonio histórico y cultural como legado y expresión de la memoria colectiva, identificando los significados y usos públicos que reciben determinados acontecimientos y procesos del pasado, por medio del análisis de la historiografía y del pensamiento histórico, para el desarrollo de la iniciativa, del trabajo en equipo, de la creatividad y de la implicación en cuestiones de interés social y cultural."
+      },
+      "descripcion": {
+        "es": [
+          "El alumnado debe conocer que la historia se concibe como un proceso abierto y en constante revisión que se interpreta en función de las preocupaciones e intereses de la sociedad en cada momento. Así, investigando los fines, intereses y usos que, por parte de diferentes entidades e instituciones han condicionado el conocimiento histórico a lo largo del tiempo, se enriquece el conocimiento del pasado. El alumnado debe comprender que los cambios metodológicos e historiográficos responden, en gran medida, a las transformaciones que se producen en el presente y al modo en el que la investigación puede aportar ideas y soluciones relativas a los retos a los que nos enfrentamos. Esta visión funcional y crítica debe incorporarse al aprendizaje de la Historia de España, integrando el pensamiento histórico y sus métodos a través de la realización de proyectos orientados a una finalidad social o cultural determinada, preferentemente conectada con el entorno real, generándose así planteamientos que acerquen al alumnado a una perspectiva de la «historia desde abajo», así como a «talleres de historia» que le lleven a poner en práctica los procesos de indagación y de investigación. De este modo se consigue identificar el legado histórico como un bien común en cuya construcción y puesta en valor debe participar la comunidad, conservando la memoria colectiva a través del contacto y la solidaridad entre las generaciones. Se trata también aquí de señalar aquellos problemas ecosociales que más preocupan en la actualidad y tomar conciencia histórica de los mismos, elaborando productos creativos y eficaces, transfiriendo ese conocimiento y despertando el interés social. El patrimonio histórico y cultural adquiere, en fin, una nueva dimensión al contextualizar y al contrastar sus diferentes significados, asumiendo como una responsabilidad individual y colectiva su conservación y su utilización para el fortalecimiento de la cohesión social."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC1",
+        "CC3",
+        "CE3",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          258
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer el legado democrático y las acciones en favor de la libertad, identificando y comparando los distintos regímenes políticos y sus respectivos textos constitucionales, desde la quiebra del absolutismo y los inicios de la España liberal a la actualidad, utilizando adecuadamente términos y conceptos históricos valorando el grado y alcance de los derechos y libertades que reconocen y la aplicación efectiva de los mismos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              253
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar y valorar el papel de la Transición en el establecimiento de la democracia actual y la Constitución de 1978 como fundamento y garantía de los derechos y libertades de las españolas y los españoles, a través de la elaboración de juicios propios acerca de los principales debates que afectan al sistema constitucional, mediante el dominio de procesos de búsqueda y tratamiento de la información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              253
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Contrastar la información y desarrollar procesos de crítica de fuentes analizando el origen y la evolución de las identidades nacionales y regionales que se han formado a lo largo de la historia de España, reconociendo la pluralidad identitaria de nuestro país y respetando los distintos sentimientos de pertenencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              254
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar los distintos procesos políticos, culturales y administrativos que han tenido lugar en la formación del Estado y en la construcción de la nación española, analizando críticamente los logros y resultados de las acciones llevadas a cabo y las reacciones generadas, conociendo y respetando tanto las identidades múltiples como los símbolos y normas comunes que conforman el marco actual de convivencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              254
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar la evolución económica de España, sus ritmos y ciclos de crecimiento, valiéndose del manejo de datos, representaciones gráficas y recursos digitales, interpretando su particular proceso de modernización en el contexto de los países del entorno y los debates historiográficos sobre su desarrollo industrial, considerando el emprendimiento, la innovación y el aprendizaje permanente como formas de afrontar los retos de un entorno económico y profesional en constante cambio."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              255
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Entender los distintos significados de la idea del progreso en sus contextos históricos, desarrollando el estudio multicausal de los modelos de desarrollo económico aplicados a la España contemporánea y analizando críticamente la idea de modernización, valorando sus efectos en relación a la desigualdad social, los desequilibrios territoriales, la degradación ambiental y las relaciones de dependencia, así como reflejando actitudes en favor de los Objetivos de Desarrollo Sostenible y los comportamientos ecosociales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              255
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Describir las grandes transformaciones sociales y los diferentes modos de organización y participación política que se han producido en España desde el paso del Antiguo Régimen a la nueva sociedad burguesa, analizando el surgimiento y evolución del concepto de ciudadanía y de las nuevas formas de sociabilidad, utilizando adecuadamente términos históricos y conceptos historiográficos, e identificando las desigualdades y la concentración del poder en determinados grupos sociales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              255
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar de manera multidisciplinar la diversidad y la desigualdad social existente en la historia contemporánea de España, la evolución de la población y los cambios en las condiciones y modos de vida, interpretando las causas y motivos de la conflictividad social y su articulación en distintos movimientos sociales, considerando la acción motivada de los sujetos y las medidas de distinto tipo adoptadas por el estado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              256
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Deducir a través del estudio crítico de noticias y datos estadísticos la evolución del estado social, identificando los logros y retrocesos experimentados y las medidas adoptadas por el estado hasta el presente, la evolución de los niveles de vida y de bienestar, así como los límites y retos de futuro, desde una perspectiva solidaria en favor de los colectivos más vulnerables."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              256
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Referir el papel que han representado las creencias religiosas y las instituciones eclesiásticas en la configuración territorial y política de España, considerando críticamente aquellos momentos en los que ha primado la uniformidad y la intolerancia contra las minorías étnicas, religiosas o culturales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              256
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Generar opiniones argumentadas, debatir y transferir ideas y conocimientos sobre la función que han desempeñado las ideologías en la articulación social y política de la España contemporánea, comprendiendo y contextualizando dichos fenómenos a través de la lectura de textos historiográficos e identificando las principales culturas políticas que han ido sucediéndose, sus formas de organización y los diferentes proyectos políticos que representaban, expresando actitudes respetuosas ante ideas diferentes a las propias."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              256
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emplear el rigor metodológico de la historia en el estudio de las grandes reformas estructurales que acometió la II República, identificando sus logros y las reacciones antidemocráticas que se produjeron y que derivaron en el golpe de Estado de 1936, aproximándose a la historiografía sobre la Guerra Civil y al marco conceptual del estudio de los sistemas totalitarios y autoritarios a través de la interpretación de la evolución del Franquismo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              256
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Señalar los retos globales y los principales compromisos del Estado español en la esfera internacional, así como los que se derivan de su integración en la Unión Europea, a través de procesos de búsqueda, selección y tratamiento de la información, así como del reconocimiento de los valores de la cooperación, la seguridad nacional e internacional, la sostenibilidad, la solidaridad, el europeísmo y el ejercicio de una ciudadanía ética digital."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              257
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer el valor geoestratégico de la península Ibérica, identificando el rico legado histórico y cultural generado a raíz de su conexión con procesos históricos relevantes, caracterizando las especificidades y singularidades de su evolución con respecto a otros países europeos y los estereotipos asociados a las mismas, así como la influencia de las relaciones internacionales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              257
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Introducir la perspectiva de género en la observación y análisis de la realidad histórica y actual, identificando los mecanismos de dominación que han generado y mantenido la desigualdad entre hombres y mujeres, así como los roles asignados y los espacios de actividad ocupados tradicionalmente por la mujer."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              258
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Constatar el papel relegado de la mujer en la historia analizando fuentes literarias y artísticas, valorando las acciones en favor de la emancipación de la mujer y del movimiento feminista y recuperando figuras individuales y colectivas como protagonistas silenciadas y omitidas de la historia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              258
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Realizar trabajos de indagación e investigación, iniciándose en la metodología histórica y la historiografía, mediante la generación de productos relacionados con la memoria colectiva sobre acontecimientos, personajes o elementos patrimoniales de interés social o cultural del entorno local, considerando el patrimonio histórico como un bien común que se debe proteger."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              258
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sociedades en el tiempo"
+          },
+          "apartados": [
+            {
+              "codigo": "A.1",
+              "nombre": {
+                "es": "Saberes generales"
+              },
+              "saberes": [
+                {
+                  "id": "HE.2.A.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El trabajo de las historiadoras e historiadores, la historiografía y la metodología histórica."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      258
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.2",
+              "nombre": {
+                "es": "Conciencia histórica y conexión entre el pasado y el presente. Usos públicos de la Historia: las interpretaciones historiográficas sobre determinados procesos y acontecimientos relevantes de la historia de España y el análisis de los conocimientos históricos presentes en los debates de la sociedad actual"
+              },
+              "saberes": [
+                {
+                  "id": "HE.2.A.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El significado geoestratégico de la península Ibérica y la importancia del legado histórico y cultural. El Mediterráneo, el Atlántico y la Europa continental en las raíces de la historia contemporánea."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El proceso de construcción nacional en España. De la centralización política y administrativa a la formación y desarrollo del estado liberal."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El significado de la monarquía hispánica y de la herencia colonial en la España contemporánea. Estereotipos y singularidades de la historia de España en el contexto internacional."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Religión, iglesia y estado. El papel del catolicismo en la configuración cultural y política de España y en los movimientos políticos y sociales. La situación de las minorías religiosas. Las relaciones entre la Iglesia y el Estado liberal. El nacionalcatolicismo. Laicismo, librepensamiento y secularización. El anticlericalismo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estudio comparado de los regímenes liberales y del constitucionalismo en España: de los inicios del régimen liberal y la constitución de 1812, los orígenes de la democracia, hasta la Constitución democrática de 1931. Términos y conceptos de la historia para el estudio de los sistemas políticos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.6",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ideologías y culturas políticas en la España contemporánea: conflictividad, sistemas políticos y usos del poder. Estudio de textos y contextos de las facciones, partidos y movimientos políticos, desde el carlismo y las distintas fuerzas monárquicas al republicanismo y el obrerismo revolucionario. El movimiento obrero en Asturias. El papel de los exilios en la España contemporánea y su contribución a la construcción de la Europa de las libertades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.7",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La transición al capitalismo en España. Los debates historiográficos acerca de la industrialización del país y de su dependencia exterior. El modelo de desarrollo económico español, ritmos y ciclos de crecimiento. Dificultades logísticas, materiales y humanas para la industrialización de Asturias."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.8",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cambios sociales y nuevas formas de sociabilidad: interpretaciones sobre la transformación de la sociedad estamental y el desarrollo del nuevo concepto de ciudadanía."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.9",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Trabajo y condiciones de vida. La evolución de la sociedad española. Población, familias y ciclos de vida. Servidumbre señorial, proletarización industrial, el nacimiento de las clases medias y el estado del bienestar."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.10",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Mundo rural y mundo urbano. Relaciones de interdependencia y de reciprocidad entre el campo y la ciudad desde una perspectiva histórica. De la sociedad agraria al éxodo rural y a la España vaciada."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.11",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La lucha por la igualdad y la justicia social: conflictividad, movimientos sociales y asociacionismo obrero. La acción del sujeto en la historia. La acción del estado y las políticas sociales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.12",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La II República y la transformación democrática de España: las grandes reformas estructurales y el origen histórico de las mismas. Realizaciones sociales, políticas y culturales; reacciones antidemocráticas contra las reformas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.13",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "El golpe de estado de 1936, la Guerra Civil y el Franquismo: aproximación a la historiografía sobre el conflicto y al marco conceptual de los sistemas totalitarios y autoritarios. Fundamentos ideológicos del régimen franquista, relaciones internacionales y etapas políticas y económicas. La represión, la resistencia, el exilio y los movimientos de protesta contra la dictadura por la recuperación de los valores, derechos y libertades democráticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                },
+                {
+                  "id": "HE.2.A.2.14",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Mecanismos de dominación, roles de género, espacios de actividad y escenarios de sociabilidad de las mujeres en la historia de España. Protagonistas femeninas individuales y colectivas. La lucha por la emancipación de la mujer y los movimientos feministas. Fuentes literarias y artísticas en los estudios de género."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      259
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Retos del mundo actual"
+          },
+          "saberes": [
+            {
+              "id": "HE.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Memoria democrática: reconocimiento de las acciones y movimientos en favor de la libertad en la historia contemporánea de España, conciencia de los hechos traumáticos y dolorosos del pasado y del deber de no repetirlos. Reconocimiento, reparación y dignificación de las víctimas de la violencia y del terrorismo en España. Las políticas de memoria en España. Los lugares de memoria. Ley para la recuperación de la memoria democrática en el Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La cuestión nacional: conciencia histórica y crítica de fuentes para abordar el origen y la evolución de los nacionalismos y regionalismos en la España contemporánea. Evolución histórica del regionalismo asturiano."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Crecimiento económico y sostenibilidad: manejo de datos, aplicaciones y gráficos para el análisis de la evolución de la economía española y asturiana desde el Desarrollismo a la actualidad. Desequilibrios sociales, territoriales y ambientales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La Transición y la Constitución de 1978: identificación de los retos, logros, dificultades y resistencias del fin de la dictadura y el establecimiento de la democracia. La normalización democrática y la amenaza del terrorismo. El Estatuto de Autonomía del Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "España en Europa: derivaciones económicas, sociales y políticas del proceso de integración en la Unión Europea, situación actual y expectativas de futuro."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "España y el mundo: la contribución de España a la seguridad y cooperación mundial y su participación en los organismos internacionales. El compromiso institucional, social y ciudadano ante los Objetivos de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Compromiso cívico"
+          },
+          "saberes": [
+            {
+              "id": "HE.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conciencia democrática: conocimiento de los principios y normas constitucionales, ejercicio de los valores cívicos y participación ciudadana."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Identidad y sentimientos de pertenencia: reconocimiento de las identidades múltiples y de los símbolos y normas comunes del estado español."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Comportamiento ecosocial: compromiso con los Objetivos de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ciudadanía ética digital: respeto a la propiedad intelectual. Participación y ejercicio de la ciudadanía global a través de las tecnologías digitales. Prevención y defensa ante la desinformación y la manipulación."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los valores del europeísmo: principios que guían la idea de la Unión Europea y actitud participativa ante los programas y proyectos comunitarios."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.C.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Solidaridad y cooperación: los grandes desafíos que afectan a España y al mundo y conductas tendentes al compromiso social, el asociacionismo y el voluntariado."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.C.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La cultura de seguridad nacional e internacional; instrumentos estatales e internacionales para preservar los derechos, las libertades y el bienestar de la ciudadanía."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            },
+            {
+              "id": "HE.2.C.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conservación y difusión del patrimonio histórico: el valor patrimonial, social y cultural de la memoria colectiva. Los espacios de memoria en la Ley para la recuperación de la memoria democrática en el Principado de Asturias. Archivos, museos y centros de divulgación e interpretación histórica, estatales y autonómicos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  260
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-21",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

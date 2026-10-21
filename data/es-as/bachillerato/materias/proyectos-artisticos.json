@@ -1,0 +1,596 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.bachillerato.proyectos-artisticos",
+  "territorio": "es-as",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "PA",
+    "nombre": {
+      "es": "Proyectos Artísticos"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-60-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 60/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de Bachillerato en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06714",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "anexo": "II.a",
+      "paginasMateria": {
+        "desde": 410,
+        "hasta": 418
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El arte es fundamental para la cultura de una sociedad, abarca todos los aspectos de nuestra experiencia social y sensorial y conforma nuestro bagaje histórico y cultural. Las obras artísticas que contemplamos, la ropa que llevamos, los edificios u objetos que nos rodean, las imágenes que consumimos, son parte de lo que llamamos experiencia estética.",
+      "La materia de Proyectos Artísticos combina una concepción del arte centrada en la expresión personal, que es la que se trabaja en la etapa educativa anterior, en las materias propias de nuestra disciplina: Educación plástica, visual y audiovisual y Expresión artística, con otra en la que resulta fundamental la concreción de los objetivos y finalidades que se plantean en la ejecución de un proyecto artístico, incidiendo, especialmente, en la planificación y gestión del mismo, así como en el efecto que este pueda tener en el entorno físico más cercano o en otras parcelas de la realidad accesibles a través de Internet o de las redes sociales. Se pone, así, el énfasis tanto en el proceso como en el resultado.",
+      "Al hablar de proyectos, se hace aquí referencia a una amplia gama de posibilidades, que van desde los microproyectos que interactúan entre sí a un gran proyecto que se realice durante todo el curso, pasando por fórmulas mixtas que se adapten mejor a las necesidades y particularidades de cada grupo y de cada centro educativo. En todos los casos, ha de entenderse el proyecto como un entorno interdisciplinar que favorece la puesta en práctica de las competencias y la activación de los saberes básicos de esta y otras materias que conforman la etapa.",
+      "Esta materia aporta los conocimientos necesarios para comprender el hecho artístico en toda su complejidad, tanto en sus manifestaciones pasadas como en su vertiente contemporánea, observándolo siempre desde una perspectiva de género. A través de los conocimientos adquiridos el alumnado podrá apreciar con mayor profundidad el valor del patrimonio artístico, fomentando actitudes de respeto hacia el mismo. Su finalidad es también la experimentación con los materiales, técnicas, enfoques y medios tecnológicos que hacen posible la creación, generando en nuestro alumnado soluciones diferentes y propias para hacer factibles las posibilidades expresivas que se pueden generar en un proyecto artístico, desarrollando ideas propias que se deben plasmar en obras técnica y conceptualmente adecuadas, multimodales y con múltiples soportes. Asimismo, aborda el entendimiento de la potencialidad del hecho artístico para transformar la sociedad, facilitando la adquisición de las competencias para contribuir al ejercicio de una ciudadanía responsable, democrática e igualitaria. La creación de entornos favorables al desarrollo de proyectos artísticos y entornos creativos, fomenta la igualdad efectiva entre todas las personas, sin atender a ningún tipo de condicionante social, personal o de género.",
+      "La materia incluye cinco competencias específicas que emanan de las competencias clave y los objetivos establecidos para el Bachillerato, e implican desempeños íntimamente relacionados entre sí, por lo que han de ser abordados de manera globalizada. Estas competencias específicas permiten al alumnado desarrollar un criterio de selección de propuestas de proyectos artísticos, realizables y acordes con la intención expresiva o funcional y con el marco de recepción previsto. Le permiten, además, planificar adecuadamente las fases y el proceso de trabajo para conseguir un resultado ajustado a los plazos, a las características del espacio y, en su caso, al presupuesto previsto. Posibilitan también la realización efectiva de los proyectos con vistas a expresar la intención con la que fueron creados y a provocar un determinado efecto en el entorno. Asimismo, favorecen la puesta en común de las distintas fases del proceso para evaluar la marcha del proyecto, incorporar aportaciones de mejora y optimizar su repercusión. Por último, facilitan el correcto tratamiento de la documentación que ha de dejar constancia del proyecto, de su resultado y de su recepción.",
+      "Los criterios de evaluación se han formulado teniendo en cuenta los conocimientos, destrezas y actitudes que se pretende que active el alumnado, con la finalidad de determinar el nivel de logro de las competencias específicas con las que se relacionan.",
+      "Dado que en esta materia se invita al alumnado a asumir la doble función de artista y gestor cultural, los saberes básicos se organizan en dos bloques. El primero «Desarrollo de la creatividad», se recogen las técnicas y las estrategias que permiten superar el bloqueo creativo y fomentar la creatividad, entendiendo la misma como una destreza personal y una herramienta para la expresión artística.",
+      "El segundo «Gestión de proyectos artísticos», se incluyen saberes relacionados con la metodología proyectual, la sostenibilidad y el impacto de los proyectos artísticos, el emprendimiento cultural y otras oportunidades de desarrollo ligadas a este ámbito, así como las estrategias, técnicas y soportes de documentación, registro y archivo.",
+      "Estos dos bloques tienen mucha relación entre sí. Debemos fomentar entre nuestro alumnado la capacidad creativa, para sentar las bases de la expresión personal, siempre orientada al crecimiento individual pero vinculada con la sociedad, entendiendo las posibilidades del arte como generador de productos de valor social, cultural o financiero.",
+      "Transversalmente a estos saberes se trabajarán temas como el compromiso social de ciudadanía en el ámbito local y global, el aprovechamiento crítico, ético y responsable de la cultura digital, la creación de proyectos sostenibles, la gestión responsable de los residuos y la seguridad, toxicidad e impacto medioambiental de los mismos, contribuyendo así a una formación global y una educación ambiental del alumnado, acorde a los objetivos de la agenda 2030. También se fomentarán la prevención de la violencia de género y los valores inherentes al principio de igualdad de trato y no discriminación por cualquier condición o circunstancia personal o social. Por otra parte, se propondrán proyectos que incidan en la valoración crítica de los mensajes o situaciones que puedan mostrar rasgos sexistas, discriminatorios o violentos y que fomenten la reflexión sobre el papel desempeñado por mujeres y hombres en los distintos contextos socioeconómicos, políticos y culturales, contribuyendo de este modo a la prevención de la violencia de género y a una formación en valores de igualdad y no discriminación por cualquier condición o circunstancia personal o social. Asimismo, se pondrá especial énfasis en las manifestaciones artísticas vinculadas al lenguaje audiovisual del contexto asturiano, sus características y su potencialidad, tomando en consideración la realidad en la que está inmerso el alumnado.",
+      "Metodología",
+      "En la materia de Proyectos Artísticos se plantearán unas situaciones de enseñanza/aprendizaje que requieran de una continua acción, reflexión y actitud abierta y colaborativa, con la intención de que el alumnado construya una cultura y práctica artística igualitaria, personal y sostenible. De esta forma, la adquisición de las competencias específicas se realizará combinando conocimientos, destrezas y actitudes, siempre partiendo del «Perfil de salida», que marca la adquisición y desarrollo de las competencias que todo alumno o alumna debe haber adquirido y desarrollado al término de la Educación Básica. Los descriptores operativos marcarán los niveles de adquisición y serán el marco referencial a partir del cual se concretan las competencias específicas de la materia.",
+      "Se espera que las situaciones de aprendizaje promuevan, a través de ejemplos de buenas prácticas, la transformación del centro educativo en un vivero de iniciativas artísticas abiertas al entorno social, físico o virtual, más cercano. En este contexto, los proyectos podrán hacerse eco de las inquietudes que afecten a dicho entorno en cada momento, defendiendo, por ejemplo, la libertad de expresión, fomentando la participación democrática o la igualdad efectiva entre mujeres y hombres, o dando visibilidad y voz a los grupos sociales más desfavorecidos. El objetivo es generar situaciones de aprendizaje vinculadas a contextos cercanos al alumnado que favorezcan el aprendizaje significativo y despierten su curiosidad e interés, desarrollando así su creatividad y autonomía, su autoestima y su identidad personal, libre de estereotipos de género. Se diseñarán situaciones de enseñanza/aprendizaje en las que se desarrollen el pensamiento divergente y el sentido crítico del alumnado, apoyándose sobre la diversidad de las manifestaciones culturales y artísticas que les afectan y con las que conviven (música, audiovisual, publicidad, series, moda, etc.). Sólo partiendo de temáticas cercanas a nuestro alumnado y favoreciendo la interacción con otras materias conseguiremos construir nuevos aprendizajes que afronten los retos del siglo XXI, relacionados con el interés común, la paz, la sostenibilidad o la convivencia democrática, cimentada en la igualdad. Asimismo, el impacto social solo podrá determinarse y evaluarse desde un conocimiento crítico de la realidad del mundo actual, y un compromiso con la sostenibilidad medioambiental. Finalmente, los proyectos artísticos son el contexto idóneo para el desarrollo práctico de la creatividad y el sentido del emprendimiento.",
+      "Esta materia contribuye claramente a la Competencia en Comunicación Lingüística (CCL) ya que permite integrar el lenguaje oral o escrito con otros lenguajes artísticos (cómic, vídeo, cine, diseño gráfico, grafiti, etc.), permitiendo la reflexión sobre esa relación multimodal y ampliando la comunicación hacia la alfabetización múltiple. Dota de herramientas para comunicarse creativamente y también apoya el desarrollo del pensamiento propio y la construcción crítica de conocimiento, vinculada a la reflexión creativa. Aprender a mirar pone en juego el discurso, el argumento, la escucha activa, el diálogo. La expresión de las propias ideas, experiencias y emociones favorece la interacción y el intercambio comunicativo igualitario y no sexista o discriminatorio a través del lenguaje plástico. Por último, la búsqueda y el tratamiento crítico de la información constituirán un aspecto clave en el desarrollo de cualquier proyecto artístico.",
+      "La materia contribuye también a la Competencia Plurilingüe (CP). La terminología específica de las técnicas y procesos artísticos utiliza palabras de otras lenguas, que se utilizarán de forma habitual en el aula. El arte es una herramienta universal, fundamental en la comprensión global e intercultural y en relación con lo desconocido e imprevisto. Establece diálogo entre culturas y sociedades, integrando dimensiones históricas para valorar y respetar diversidad cultural o lingüística de la sociedad y fomentando la convivencia democrática.",
+      "La contribución de la materia Proyectos Artísticos a la Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM) tiene que ver con el método científico de observación, análisis y posterior reflexión que se emplea en el desarrollo de cualquier proyecto artístico. Asimismo, introduce valores de sostenibilidad y reciclaje en cuanto a la utilización de materiales para las creaciones propias, así como el análisis de obras ajenas. La materia también debe contribuir a que el alumnado adquiera un punto de vista científico en lo relativo a la toma de medidas, acotación y escala para la realización de prototipos, conociendo las aportaciones tanto de hombres como de mujeres en esta disciplina, intentando superar los prejuicios de género, demostrando que no existen profesiones masculinas o femeninas.",
+      "En cuanto a la Competencia Digital (CD), desde esta materia se potenciará el uso activo y creativo de las aplicaciones informáticas, no solo para buscar y procesar información sino también para componer textos, imágenes y productos audiovisuales digitales, entendiéndolas como instrumentos para la comunicación multimodal, pero fomentando una actitud crítica hacia la utilización del medio digital, en la transmisión de contenidos negativos, discriminatorios, vejatorios, sexistas o el fomento de la violencia hacia las mujeres, ya que nuestras alumnas y alumnos conforman su identidad a través de la comunicación y la información digital.",
+      "Debemos entrenar una mirada proactiva y crítica para corregir situaciones de desigualdad o discriminación digital desde una perspectiva de género, entendiendo que las aportaciones artísticas suponen buenas oportunidades para reflexionar sobre los factores de impacto sociocultural, formal e informal y su influencia en el acceso de niñas y jóvenes a la tecnología y las ciencias.",
+      "Esta materia favorece la reflexión sobre los procesos y experimentación creativa, así como la aceptación personal y el propio autoconocimiento, logrando un crecimiento individual y posibilitando el reconocimiento de la diversidad cultural y de la identidad personal y sexual. De esta forma se contribuye a la Competencia Personal, Social y de Aprender a Aprender (CPSAA). El arte y los procesos artísticos se ocupan de la emoción, de lo simbólico, de la identidad, pero también propician la convivencia, el buen trato igualitario, la solidaridad, el trabajo colaborativo. Mejoran las relaciones interpersonales, aumentan el pensamiento crítico, la comprensión de la realidad, etc., asimismo potencian el cambio social, crean lazos y vínculos humanos y propician actitudes como el respeto, la tolerancia, la flexibilidad, la aceptación de diferencias o la superación de prejuicios. Debemos propiciar que los y las adolescentes sean, a través de sus creaciones, agentes de cambio en la construcción de una sociedad igualitaria. No podemos hablar de bienestar individual o colectivo sin que exista una igualdad entre mujeres y hombres.",
+      "La contribución de la materia a la Competencia Ciudadana (CC) es clara si entendemos que el arte y los proyectos artísticos generan una participación activa en la sociedad, promoviendo unos valores democráticos e igualitarios y por lo tanto una ciudadanía responsable, crítica y sensible, capaz de imaginar futuros posibles. Comprender y analizar, tanto en las obras de arte propias o ajenas como en las imágenes que nos rodean, cómo se reproduce el sexismo, tanto a nivel individual como colectivo (brecha salarial, falta de corresponsabilidad, invisibilidad de las mujeres, violencia de género, etc.) y fomentar una mirada crítica ante las desigualdades y discriminaciones de género conduce a nuevas formas de construirnos y de relacionarnos más justas, democráticas e igualitarias.",
+      "La creatividad e iniciativa propias necesarias en el proceso de elaboración de cada proyecto o actividad artística, desde la planificación hasta la ejecución, exige la toma de iniciativa y de decisiones constantes, afianzando la identidad y autonomía, haciéndose de esta manera una valiosa aportación a la Competencia Emprendedora (CE). El proceso creador nos enfrenta a la capacidad de pensar y proyectar algo que no existe, pero también al papel en blanco, a la pregunta, a la necesidad de equivocarse para seguir avanzando, a la frustración generada por las dificultades del proceso, a la reflexión. El entrenamiento de la mirada crítica para analizar y evaluar el entorno, para detectar necesidades y oportunidades favorece la transformación de ideas en actos creativos o innovadores, generando resultados de valor social, cultural o financiero. Para lo que serán necesarias capacidades como la iniciativa personal o la creatividad e imaginación, el pensamiento estratégico, la reflexión ética, crítica y constructiva. El alumnado deberá organizar, comunicar, presentar, representar, participar, negociar, gestionar recursos, delegar, tomar decisiones, evaluar, autoevaluar, etc., despertando así la disposición a aprender, a arriesgar, a afrontar la incertidumbre.",
+      "En cuanto a la Competencia en Conciencia y Expresión Culturales (CCEC), la materia de Proyectos Artísticos desarrolla enormemente la sensibilidad y el sentido estéticos para conocer, comprender, apreciar y valorar con espíritu crítico y con actitud abierta y respetuosa autores y autoras, obras, géneros y estilos de diversas manifestaciones artístico-culturales, relacionándolos con la sociedad en la que se crean, aprendiendo a disfrutarlas, conservarlas y considerarlas parte de la riqueza y patrimonio cultural. También aporta respeto y comprensión en las ideas propias y ajenas, logrando un enriquecimiento de la identidad individual y colectiva. La incorporación de la perspectiva de género al análisis cultural y artístico es indispensable para comprender con mayor profundidad las sociedades pasadas y presentes. Si enfocamos el Arte y la Cultura centrándonos en las aportaciones de los hombres y sin tener en cuenta la de las mujeres estaremos educando a nuestro alumnado en una visión parcial e interesada del conocimiento. Los chicos y chicas deben adquirir conciencia de los huecos y ausencias femeninas presentes en el conocimiento.",
+      "La metodología debe tener en cuenta propuestas y modelos organizativos que, generalizados al contexto de aula, permitan la presencia, la participación y el aprendizaje de todo el alumnado. Por ello, se debe buscar la personalización de la respuesta educativa, teniendo en cuenta el Diseño Universal para el Aprendizaje (DUA). Este diseño se basa en tres principios que contempla múltiples formas de implicación o motivación para la tarea (por qué se aprende), múltiples formas de representación de la información (el qué se aprende) y múltiples formas de expresión del aprendizaje (cómo se aprende), de manera que se conecte con los centros de interés del alumnado, así como con la programación multinivel de saberes básicos del área. Este diseño promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado. La diversidad y heterogeneidad del alumnado presente en el aula han de entenderse como factores enriquecedores del proceso de enseñanza-aprendizaje y es a través de los principios, del Diseño Universal para el Aprendizaje (DUA), como se puede lograr la equidad para todo el alumnado.",
+      "Los principios metodológicos llevan asociado un enfoque constructivista en la adquisición de conocimientos, integrando los saberes básicos con unos objetivos claros, pero permitiendo la observación y la experimentación durante el proceso. Deben proponerse dinámicas participativas diversas, que permitan al alumnado organizar exposiciones, desarrollar proyectos, actividades o tareas variadas, favoreciendo diferentes tipos de agrupamientos, desde el trabajo individual al trabajo en grupos, cooperativo o colaborativo, permitiendo asumir responsabilidades personales y grupales. El trabajo por proyectos, propio del proceso creativo y de esta materia en particular, permite el desarrollo de habilidades comunicativas, cívicas, organizativas y el desarrollo competencial de los alumnos y alumnas. Para ello la figura docente se convierte en promotora y facilitadora de esas situaciones de aprendizaje, intentando formar a lo largo de la etapa un alumnado creativo, sensible, activo, reflexivo, crítico y autónomo. En este contexto metodológico son recomendables los instrumentos que posibiliten la evaluación continua y formativa, que permitan compartir resultados de aprendizaje, haciendo al alumnado partícipe en el seguimiento y evaluación de sus propios logros, favoreciendo la metacognición mediante la autoevaluación o la coevaluación.",
+      "Así planteadas, las situaciones constituyen, alineándose con los principios del Diseño Universal de Aprendizaje, oportunidades de aprendizaje flexibles y accesibles que se ajustan a las necesidades, las características y los diferentes ritmos de aprendizaje de todo el alumnado, contribuyendo por lo tanto a la equidad y la calidad educativa.",
+      "Mención especial requiere la creatividad, necesaria en el proceso creativo o en la realización de proyectos artísticos, ya que es indispensable en esta materia. Se debe potenciar al máximo la capacidad creadora, muy ligada a la capacidad de enfrentarse a problemas, a conflictos, a la incertidumbre, a situaciones impredecibles, etc.",
+      "La materia de Proyectos Artísticos contribuye al desarrollo de las competencias clave del currículo, entendidas como capacidades que ha de desarrollar el alumnado para aplicar de forma integrada los saberes básicos de la materia con el fin de lograr la realización satisfactoria de las actividades propuestas."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Generar y perfeccionar ideas de proyecto, consultando distintas fuentes, experimentando con técnicas y estrategias creativas, elaborando bocetos y maquetas, y valorando críticamente la relevancia artística, la viabilidad y la sostenibilidad de esas ideas, para desarrollar la creatividad y aprender a seleccionar una propuesta concreta, realizable y acorde con la intención expresiva o funcional y con las características del marco de recepción previsto."
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de la creatividad es un desempeño fundamental de esta materia. El alumnado debe descubrir, de una manera práctica, que la creatividad es una herramienta para la expresión artística y también una destreza personal de aplicación en los distintos ámbitos de la vida. En este sentido, contrariamente a lo que se desprende de ciertos mitos o ideas preconcebidas que conviene desmontar, la creatividad puede desarrollarse, por ejemplo, a través de diversas técnicas y estrategias, incluidas aquellas que facilitan la superación del bloqueo creativo; o a partir de distintos estímulos y referentes hallados en la observación activa del entorno o en la consulta de fuentes iconográficas o documentales.",
+          "La exploración y la experimentación contribuyen a la generación de ideas de proyecto en las que, para descartarlas o perfeccionarlas, se ha de profundizar mediante la realización de bocetos, croquis, maquetas, pruebas de color o de selección de materiales, etc. Estas ideas han de tener en cuenta las pautas que hayan podido ser establecidas y deben responder a una necesidad o a una intención previamente determinada o definida durante ese mismo proceso de generación de ideas, en función del contexto social y de las características de las personas a las que se dirigen.",
+          "Una vez que, de manera individual o colectiva, se han generado, descartado y perfeccionado distintas ideas de proyecto, se debe proceder a la selección de la propuesta que se va a realizar atendiendo a su relevancia artística, a su viabilidad, a su sostenibilidad y a su adecuación a la intención expresiva o funcional, así como al marco de recepción previsto."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CE3",
+        "CCEC3.2",
+        "CCEC4.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          414,
+          415
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Planificar adecuadamente las fases y el proceso de trabajo de un proyecto artístico, considerando los recursos disponibles y evaluando su sostenibilidad, para conseguir un resultado ajustado a los plazos, a las características del espacio y, en su caso, al presupuesto previsto."
+      },
+      "descripcion": {
+        "es": [
+          "La adecuada planificación de las fases y del proceso de trabajo de un proyecto artístico condiciona su desarrollo y su resultado final. Esta planificación proporciona una visión global de lo que se pretende hacer, del modo y del lugar en que se quiere llevar a cabo, de los recursos materiales y económicos con los que se cuenta, de las personas que participarán y de las funciones que realizarán, así como del resultado y de la repercusión que se desean obtener tanto desde el punto de vista artístico como desde el personal y el social.",
+          "La planificación de los proyectos ha de ser rigurosa y realista, pero también creativa y flexible. Se ha de garantizar el cumplimiento de los plazos y la adecuación a los recursos y a los espacios. Se ha de asegurar también el respeto al medioambiente y la sostenibilidad de aquellos resultados que se espera que sigan ejerciendo impacto una vez finalizado el proyecto. Ahora bien, la organización del plan de trabajo no debe resultar un impedimento para el desarrollo de la creatividad, pues esta ayudará a encontrar soluciones originales e innovadoras a las distintas dificultades que puedan surgir. Junto al desarrollo del pensamiento creativo, el proceso de trabajo contribuirá a afianzar el espíritu emprendedor del alumnado con actitudes de creatividad, flexibilidad, iniciativa, trabajo en equipo, autoconfianza y sentido crítico."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "CD3",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC4",
+        "CE1",
+        "CE2",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          415
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Realizar proyectos artísticos, individuales o colectivos, asumiendo diferentes funciones, seleccionando espacios, técnicas, medios y soportes, e identificando oportunidades de desarrollo personal, social, académico y profesional, para expresar una intención expresiva o funcional y provocar un determinado efecto en el entorno."
+      },
+      "descripcion": {
+        "es": [
+          "La realización efectiva de proyectos artísticos, individuales o colectivos, conlleva, entre otras tareas, la correcta selección de espacios, técnicas, medios y soportes, así como el reparto de las distintas funciones que hay que desempeñar en las diferentes fases del proceso. Para que estas y otras decisiones relativas, por ejemplo, a posibles modificaciones de la planificación inicial sean acertadas, se han de determinar previamente tanto la intención expresiva o funcional del proyecto como los efectos que se espera que este tenga en el entorno. La falta de coherencia de las decisiones con estos elementos esenciales del proyecto puede poner en riesgo el éxito de la empresa.",
+          "Por otro lado, la identificación y la asunción de diversas tareas y funciones en la ejecución del proyecto favorecerán el descubrimiento de oportunidades de desarrollo personal, social, académico y profesional ligadas al ámbito artístico, incluidas las relativas al emprendimiento cultural. Estas oportunidades cuentan con el valor añadido que aporta la creatividad."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CD3",
+        "CPSAA1.2",
+        "CPSAA3.2",
+        "CC3",
+        "CE1",
+        "CE3",
+        "CCEC3.1",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          415,
+          416
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Compartir, con actitud abierta y respetuosa, las distintas fases del proyecto, intercambiando ideas, comentarios y opiniones con diversas personas, incluido el público receptor, para evaluar la marcha del proyecto, incorporar aportaciones de mejora y optimizar su repercusión en el entorno."
+      },
+      "descripcion": {
+        "es": [
+          "La puesta en común de las distintas fases del proyecto y el intercambio de ideas, comentarios y opiniones al respecto, ya sea entre sus responsables o con otras personas, permite asegurar la evaluación interna y externa de los avances realizados y del logro de la intención inicial planteada, así como incorporar, en su caso, posibles aportaciones de mejora.",
+          "Son especialmente relevantes las reacciones del público receptor. Por esta razón, conviene hacerlo partícipe del proyecto, diversificando los medios y soportes de comunicación y difusión, y planteando mecanismos que, por un lado, faciliten la comprensión del sentido y de la simbología del proyecto y, por otro, recojan las ideas, los sentimientos y las emociones que ha experimentado ante la propuesta artística. En este sentido, cabe recordar que la visualización del proceso de creación y de las dificultades encontradas durante el proyecto mejora la comprensión del resultado final y, por tanto, optimiza su repercusión en el entorno.",
+          "Con este mismo objetivo, a la hora de concebir el proyecto, puede tenerse en cuenta la posibilidad de recurrir a referentes cercanos o a elementos del patrimonio local, ya que esto permite ubicar – física o simbólicamente– al público receptor en un entorno familiar, generando un horizonte de expectativas que, por afinidad o contraste, aporta relieve al proyecto. Los significados y la simbología de los referentes cercanos o de los elementos del patrimonio local se combinarán con los del proyecto artístico, generando nuevas oportunidades para el entorno."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "CD2",
+        "CPSAA5",
+        "CC3",
+        "CE3",
+        "CCEC2",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          416
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Tratar correctamente la documentación de un proyecto artístico, seleccionando las fuentes más adecuadas, elaborando los documentos necesarios, registrando el proceso creativo y archivando adecuadamente todo el material, para dejar constancia de las distintas fases del proyecto, de su resultado y de su recepción."
+      },
+      "descripcion": {
+        "es": [
+          "El tratamiento de la documentación, tanto física como digital, es un componente esencial de todo proyecto artístico. Esta competencia incide en ese aspecto, considerando tres grandes vertientes en lo relativo a los documentos –textuales, visuales, sonoros, audiovisuales o de cualquier otro tipo– que hayan podido ser utilizados o generados en el marco del proyecto: por una parte, todos aquellos que aportan una base teórica, informativa o inspiradora; por otra, los que han sido elaborados para dar respuesta a las necesidades concretas de cada una de las fases del proyecto; y, por último, los que registran el proceso creativo, así como el resultado y la recepción del mismo.",
+          "Las tareas asociadas a esta competencia comprenden la selección de fuentes, medios y soportes; la elaboración de documentos; la organización del material; el registro reflexivo del proceso y de su resultado y recepción; así como el archivo ordenado, accesible y fácilmente recuperable de toda la documentación."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CPSAA5",
+        "CCEC2",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          417
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Generar y perfeccionar ideas de proyecto, consultando distintas fuentes, elaborando bocetos y maquetas, y experimentando con las técnicas y estrategias artísticas más adecuadas en cada caso."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              415
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Seleccionar una propuesta concreta para un proyecto, justificando su relevancia artística, su viabilidad, su sostenibilidad y su adecuación a la intención con la que fue concebida y a las características del marco de recepción previsto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              415
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Establecer el plan de trabajo de un proyecto artístico, organizando correctamente sus fases, evaluando su sostenibilidad y ajustándolo a los plazos, a las características del espacio y, en su caso, al presupuesto previsto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              415
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Proponer soluciones creativas en la organización de un proyecto artístico, buscando el máximo aprovechamiento de los recursos disponibles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              415
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Participar activamente en la realización de proyectos artísticos, individuales o colectivos, asumiendo diferentes funciones y seleccionando los espacios, las técnicas, los medios y los soportes más adecuados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              416
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Explicar, de forma razonada, la intención expresiva o funcional de un proyecto artístico, detallando los efectos que se espera que este tenga en el entorno."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              416
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Argumentar las decisiones relativas a la ejecución del proyecto, asegurando la coherencia de estas decisiones con la intención expresiva o funcional y con los efectos esperados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              416
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar oportunidades de desarrollo personal, social, académico o profesional relacionadas con el ámbito artístico, comprendiendo su valor añadido y expresando la opinión personal de forma crítica y respetuosa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              416
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Compartir, a través de diversos medios y soportes, las distintas fases del proyecto, poniéndolo en relación con el resultado final esperado y recabando, de manera abierta y respetuosa, las críticas, los comentarios y las aportaciones de mejora formuladas por distintas personas, incluido el público receptor."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              417
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Valorar las críticas, los comentarios y las aportaciones de mejora recibidas, incorporando de manera justificada aquellas que redunden en beneficio del proyecto y de su repercusión en el entorno."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              417
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Evaluar la repercusión que el proyecto ha tenido en el entorno, considerando las valoraciones del público receptor y analizando el logro de la intención inicial planteada, así como la pertinencia de las soluciones puestas en práctica ante las dificultades afrontadas a lo largo del proceso."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              417
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Seleccionar diversas fuentes para la elaboración del proyecto, justificando su utilidad teórica, informativa o inspiradora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              417
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Elaborar la documentación necesaria para desarrollar un proyecto artístico, considerando las posibilidades de aplicación y ajustándose a los modelos más adecuados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              417
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Registrar las distintas fases del proyecto, adoptando un enfoque reflexivo y de autoevaluación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              417
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-4",
+          "codigoOficial": "5.4",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Archivar correctamente la documentación, garantizando la accesibilidad y la facilidad de su recuperación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              417
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Desarrollo de la creatividad"
+          },
+          "saberes": [
+            {
+              "id": "PA.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La creatividad como destreza personal y herramienta para la expresión artística."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  417
+                ]
+              }
+            },
+            {
+              "id": "PA.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias y técnicas de fomento y desarrollo de la creatividad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  417
+                ]
+              }
+            },
+            {
+              "id": "PA.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de superación del bloqueo creativo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  417
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Gestión de proyectos artísticos"
+          },
+          "saberes": [
+            {
+              "id": "PA.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Metodología proyectual. Generación y selección de propuestas. Planificación, gestión y evaluación de proyectos artísticos. Difusión de resultados."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  417
+                ]
+              }
+            },
+            {
+              "id": "PA.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de trabajo en equipo. Distribución de tareas y liderazgo compartido. Resolución de conflictos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  418
+                ]
+              }
+            },
+            {
+              "id": "PA.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias, técnicas y soportes de documentación, registro y archivo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  418
+                ]
+              }
+            },
+            {
+              "id": "PA.1.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sostenibilidad e impacto de los proyectos artísticos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  418
+                ]
+              }
+            },
+            {
+              "id": "PA.1.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Oportunidades de desarrollo personal, social, académico y profesional relacionadas con el ámbito artístico. El emprendimiento cultural."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  418
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-21",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

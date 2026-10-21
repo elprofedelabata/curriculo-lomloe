@@ -1,0 +1,934 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.bachillerato.anatomia-aplicada",
+  "territorio": "es-as",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "AA",
+    "nombre": {
+      "es": "Anatomía Aplicada"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-60-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 60/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de Bachillerato en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06714",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "anexo": "II.a",
+      "paginasMateria": {
+        "desde": 455,
+        "hasta": 465
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia Anatomía Aplicada trabaja una variedad de saberes científicos que permitirán profundizar en la comprensión del funcionamiento del cuerpo y la motricidad humana, y su relación con la actividad física y las manifestaciones artísticas y deportivas, así como con la salud. De este modo, favorece la adquisición de conocimientos, actitudes y destrezas vinculadas con las ciencias de la salud, desde una perspectiva crítica, incidiendo en la importancia de la consolidación de hábitos saludables que favorezcan el bienestar físico y mental, y que supongan un medio de desarrollo personal y social",
+      "La materia tratará de presentar una amplia gama de alternativas representativas de la versatilidad de la disciplina, que sirva para acercar al alumnado a una serie de profesiones y posibilidades de estudio, ya sea en el ámbito universitario, en el de la formación profesional o en el de las enseñanzas deportivas, vinculadas con las ciencias de la salud y la actividad física, desde una perspectiva funcional, artística o deportiva.",
+      "Esta materia integra diversas disciplinas tales como la anatomía, la fisiología, la biomecánica, la biología, la bioquímica, la fisioterapia, la medicina y el deporte con un enfoque integrador que permite comprender el cuerpo humano desde el punto de vista biológico general, pero al mismo tiempo experimental, contribuyendo a la mejora del rendimiento físico y artístico, ayudando a la promoción de la salud y ejerciendo una función preventiva de ciertos procesos patológicos. El cuerpo humano y los movimientos que es capaz de realizar son medios de expresión y comunicación y por ello, comprender sus estructuras anatómicas y fisiológicas proporciona al alumnado la base necesaria para que, en unos márgenes saludables, pueda mejorar su rendimiento tanto en su vida diaria como en el proceso creativo y en las técnicas de ejecución artística.",
+      "Los descriptores de las competencias clave establecidos para el Bachillerato, junto con los objetivos de esta etapa, establecen el punto de partida para la definición de las competencias específicas de esta materia. En ellos se recogen y sintetizan líneas de trabajo que buscan consolidar un estilo de vida activo y saludable que permita al alumnado perpetuar a lo largo de su vida hábitos vinculados con la planificación autónoma y la autorregulación de su práctica física, así como con las estructuras y funciones del cuerpo humano más relacionadas con la acción motriz y su rendimiento, como son el sistema locomotor, el cardiopulmonar, los aparatos y sistemas implicados en la nutrición como sistemas de obtención y aporte de energía o los sistemas de control y regulación, estudiando la estructura y función de cada uno de los órganos que los forman. Las competencias específicas son el referente a seguir para dar forma a la materia que se ha configurado de una forma más competencial, actual y alineada con los retos del siglo XXI y los Objetivos de Desarrollo Sostenible de la Agenda 2030.",
+      "El currículo de la materia, que aborda aprendizajes significativos, funcionales y de interés para el alumnado, está organizado en torno a la adquisición de unas competencias específicas que proponen que el alumnado analice de forma crítica y reflexiva sobre procesos relacionados con la anatomía y el funcionamiento del cuerpo humano; que emprenda proyectos de investigación que integren el funcionamiento del cuerpo humano, la actividad física y su relación con un estilo de vida saludable; que diseñe y vivencie experiencias corporales y consolide actitudes de superación y desarrollo de su identidad personal; que analice críticamente las interacciones socio-culturales y su efecto sobre la salud con un enfoque proactivo; que implemente actuaciones vinculadas a la salud y el bienestar social que permitan dar respuesta a necesidades locales y globales, difundiendo acciones transformadoras que movilicen el conocimiento científico como motor de cambio social.",
+      "Los criterios de evaluación se han formulado teniendo en cuenta los conocimientos, destrezas y actitudes que se pretende que alcance el alumnado, con la finalidad de determinar el nivel de logro de las competencias específicas con las que se relacionan. La relación existen entre los criterios de evaluación y los saberes básicos de la materia permitirá integrar y contextualizar la evaluación en el seno de las situaciones de aprendizaje a lo largo del curso.",
+      "Los saberes básicos se organizan en cinco bloques en los que se desarrollan aspectos como el conocimiento científico del cuerpo humano, sistemas humanos relacionados con la actividad física y la salud y el tratamiento de estrategias de profundización integrales en temas relacionados con la fisiología corporal y la mejora de la salud.",
+      "El primero, bloque A, «Organización del cuerpo humano», aborda saberes básicos relacionados con los niveles de organización de la materia, la homeostasis, así como la organización básica del cuerpo humano y sus funciones vitales.",
+      "El bloque B, «El aparato locomotor y su movimiento», trata en una primera parte del estudio del aparato locomotor trabajando el sistema muscular y el sistema óseo anatómica y fisiológicamente, así como otros aspectos relacionados con la preparación física y el mantenimiento de la salud. En la segunda parte se estudia la anatomía funcional, laδbiomecánica y la cinética del aparato locomotor, para la mejora del rendimiento y bienestar físico. δδAdemás, se realiza un análisis de las principales lesiones y patologías que afectan al aparato locomotor y de la actitud postural.",
+      "El bloque C, «Aporte y utilización de energía en el cuerpo humano», incorpora los conceptos anatómicos y fisiológicos más relevantes del sistema cardiovascular, el aparato respiratorio y el aparato digestivo y trata los procesos metabólicos relacionados con la producción de la energía necesaria para el mantenimiento de la vida y la generación de actividad física, así como los procesos de nutrición.",
+      "El bloque D, «Sistemas de control y coordinación del cuerpo humano» hace referencia a la importancia del sistema nervioso en los procesos de percepción, control y ejecución que subyacen a la respuesta motriz del cuerpo humano, así como a la incidencia del sistema endocrino en su desenvolvimiento.",
+      "El bloque E, «Actividad física y salud» se centra en la importancia de los hábitos saludables relacionados con el cuerpo y el movimiento, analizando sus repercusiones en la salud física y emocional, así como el impulso de acciones transformadoras orientadas a la mejora de la salud comunitaria.",
+      "Metodología",
+      "La metodología debe impulsar en el alumnado autonomía y desarrollo personal pleno que le permita asumir responsabilidades y crear sus propios medios de aprendizaje, desarrollar y experimentar técnicas novedosas de expresión y comunicación corporal basadas en el conocimiento de las bases anatómico-fisiológicas del movimiento y, finalmente, generar producciones propias.",
+      "Esta materia, a través de un enfoque metodológico competencial contribuirá a facilitar la consolidación y ampliación de las competencias clave, con el objeto de aplicar de manera integrada los saberes asociados a situaciones cotidianas para encontrar soluciones reales y contextualizadas a las cuestiones planteadas en beneficio de la salud individual y colectiva.",
+      "El análisis del perfil competencial de Anatomía Aplicada, como elemento de reflexión, permitirá identificar y concretar, a través del análisis de los descriptores operativos, las interacciones entre las competencias específicas y los criterios de evaluación, definiendo la contribución al desarrollo de las competencias clave de nuestra materia",
+      "La materia de Anatomía Aplicada contribuirá de forma evidente al desarrollo y adquisición de la Competencia en Comunicación Lingüística (CCL), promoviendo la búsqueda y análisis de información mediante la ejecución de trabajos escritos y exposiciones orales, usando diversas modalidades de comunicación, así como la participación en debates, utilizando en todo momento y con rigor el lenguaje científico específico de la materia de manera positiva, exenta de prejuicios, inclusiva y no sexista, donde prevalezca el diálogo de forma crítica y constructiva.",
+      "La Competencia Plurilingüe (CP) implica utilizar lenguas diferentes, tanto orales como signadas, de forma adecuada para activar el aprendizaje, la comunicación y la inclusión. Dentro de las fuentes de información científica es frecuente el uso de documentos elaborados en otros idiomas, lo que a su vez contribuirá también al desarrollo de una mayor tolerancia y respeto hacia las diferencias, además de despertar la curiosidad y fomentar la motivación para aprender otras lenguas.",
+      "En cuanto a la Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM), la materia contribuye de forma fundamental a su adquisición mediante la utilización de métodos propios del razonamiento científico, así como con el desarrollo de las estrategias necesarias para la resolución y análisis de problemas y soluciones. Mediante esta competencia se fomenta el pensamiento científico para explicar, comprender y reproducir experimentalmente las respuestas de nuestro cuerpo a fenómenos que impliquen a las estructuras y al funcionamiento del organismo humano, siendo el método científico el motor del proceso. Se impulsará asimismo la adopción de una actitud crítica sobre el alcance y las limitaciones de la ciencia aplicada, que promueva en el alumnado el desarrollo de acciones fundamentadas científicamente para preservar la salud, transformando su entorno próximo en saludable, valorando la huella global de las distintas acciones personales e identificando los efectos beneficiosos sobre la salud física, emocional y social.",
+      "La Competencia Digital (CD) tiene un tratamiento específico en esta materia a través del uso de las tecnologías de la relación, la información y la comunicación. La utilización y desarrollo de aplicaciones virtuales interactivas sobre anatomía permiten la realización de prácticas, que por razones de infraestructura no serían viables, a la vez que sirven de apoyo a la visualización de experiencias sencillas. Es importante reseñar el uso de Internet para la obtención de información, así como de las plataformas sociales para comunicarse y trabajar de forma colaborativa compartiendo datos e información de manera segura y responsable, identificando y conociendo los riesgos que conllevan.",
+      "Respecto a la Competencia Personal, Social y de Aprender a Aprender (CPSAA), se desarrolla cuando el alumnado se convierte en protagonista del proceso de enseñanza-aprendizaje y conoce y controla sus propios mecanismos de aprendizaje, incorporando su perspectiva y las experiencias de otras personas mediante el trabajo en equipo. La distribución de las tareas de forma equitativa y la resolución de conflictos aportan la motivación y la confianza, cruciales para la adquisición de esta competencia, aprendiendo de los errores en el proceso de construcción del conocimiento científico y consiguiendo así superar los estereotipos, prejuicios y discriminaciones por razón de sexo, origen social o creencia y contribuyendo a una mejor percepción de autoeficacia y confianza esenciales para aplicar esta capacidad en otros contextos de la vida.",
+      "Esta materia favorece también la adquisición de la Competencia Ciudadana (CC), pues contribuye a capacitar al alumnado como ciudadanos y ciudadanas responsables logrando los conocimientos esenciales sobre nuestra sociedad mediante el desarrollo de las destrezas necesarias para identificar problemas de su entorno, analizar y reflexionar sobre sus experiencias personales, obtener, interpretar y valorar información relevante, elaborar propuestas que, en definitiva, le permitan desenvolverse con responsabilidad, autonomía y actitudes respetuosas que precisen juicios críticos sobre hechos científicos que se desarrollan a lo largo de los tiempos. Asimismo, en el alumnado se fomenta la comprensión y el análisis de criterios éticos asociados a esta materia, favoreciendo actitudes activas de escucha, diálogo, solidaridad, participación y empatía, así como el desarrollo de una conciencia tanto de su propia identidad como de las injusticias, problemas y desigualdades de las sociedades contemporáneas.",
+      "Esta materia contribuye a la Competencia Emprendedora (CE) mediante el desarrollo de destrezas que favorezcan la identificación de oportunidades y el desarrollo de ideas de forma creativa, evaluando las consecuencias y el impacto de las opiniones, oportunidades y el propio comportamiento a través del trabajo colaborativo en el proceso de creación y la toma de decisiones de forma razonada y compartida, mediante propuestas innovadoras teniendo en cuenta el ámbito personal, social, cultural y económico.",
+      "Por último, esta materia utilizará el conocimiento del organismo humano y del funcionamiento del propio cuerpo para tomar decisiones fundamentadas relativas a la práctica de actividades físicas, deportivas o artísticas con la aplicación de estrategias coherentes con los procedimientos de las ciencias, valorando la capacidad creadora, a través de diversos códigos expresivos; la expresión corporal como expresión integral de distintos lenguajes y sus aportaciones en las actividades físicas y artísticas facilitará el desarrollo de un pensamiento crítico, apreciando la dimensión cultural de la ciencia en la formación integral de las personas y valorando sus repercusiones en la sociedad, lo cual promueve el desarrollo de la Competencia en Conciencia y Expresión Culturales (CCEC).",
+      "Para conseguir que el proceso de enseñanza y aprendizaje en la materia Anatomía Aplicada durante el Bachillerato permita colaborar a la consolidación y el desarrollo de las competencias señaladas se tendrán en cuenta las recomendaciones metodológicas que se proponen a continuación.",
+      "En este contexto, el aprendizaje competencial se puede implementar a través de numerosas opciones metodológicas entre las que se encuentran el aprendizaje cooperativo, el estilo actitudinal, el aprendizaje servicio, el aula invertida, el aprendizaje basado en el pensamiento o el aprendizaje basado en proyectos, entre otros, a los que se debe dar relevancia en el día a día por el carácter participativo y de aprendizaje que generan en el alumnado. Sin embargo, otras opciones metodológicas basadas en la exposición y la reproducción podrían ser utilizadas en función de los saberes, el alumnado y el contexto en el que se aplican; pero, sobre todo, teniendo claro por qué y para qué se utilizan.",
+      "La metodología debe tener en cuenta propuestas y modelos organizativos que, generalizados al contexto de aula, permitan la presencia, la participación y el aprendizaje de todo el alumnado. Por ello, se debe buscar la personalización de la respuesta educativa, teniendo en cuenta el Diseño Universal para el Aprendizaje (DUA). Este diseño se basa en tres principios que contempla múltiples formas de implicación o motivación para la tarea (por qué se aprende), múltiples formas de representación de la información (el qué se aprende) y múltiples formas de expresión del aprendizaje (cómo se aprende), de manera que se conecte con los centros de interés del alumnado, así como con la programación multinivel de saberes básicos del área. Este diseño promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado. La diversidad y heterogeneidad del alumnado presente en el aula han de entenderse como factores enriquecedores del proceso de enseñanza-aprendizaje y es a través de los principios, del Diseño Universal para el Aprendizaje (DUA), como se puede lograr la equidad para todo el alumnado.",
+      "La evaluación competencial, continua, formativa y compartida se convierte en una herramienta impulsora de estas capacidades y de estos valores, una evaluación educativa y democrática centrada en la mejora y el aprendizaje que fomente la participación del alumnado y refuerce la responsabilidad compartida. δEn Anatomía Aplicada, como en el resto de las materias, es fundamental que el proceso de evaluación competencial se diseñe y conciba al servicio del aprendizaje; ello requiere de una alta coherencia respecto al diseño de las tareas de enseñanza-aprendizaje y de evaluación, cuanto más se aproximen entre sí más cerca estaremos de una evaluación para y en el aprendizaje.",
+      "La relación existente entre los criterios de evaluación y los saberes básicos permitirá integrar la evaluación en el proceso de enseñanza-aprendizaje, e implementarla en el seno de las situaciones, tareas o proyectos que se vayan diseñando a lo largo del curso, más allá de actividades aisladas, discontinuas o puntuales.",
+      "La intervención didáctica en el aula de Anatomía Aplicada deberá favorecer el desarrollo competencial del alumnado a través de procesos de enseñanza-aprendizaje activos, dinámicos y significativos, basados en evidencias científicas, que faciliten que el alumnado comprenda e interiorice los conceptos claves y las relaciones entre diferentes elementos propios de la materia, movilice esos saberes básicos y los conecte con la vida cotidiana. Se potenciará la relación de los saberes de diferentes materias para abordar problemas complejos. Se fomentarán las implicaciones personales y sociales que derivan del conocimiento de la materia y el interés por profundizar en el conocimiento presentado.",
+      "Las situaciones de aprendizaje en las que la materia de Anatomía Aplicada participará, constituyen una herramienta esencial desde el punto de vista metodológico para integrar todos los elementos del proceso de enseñanza-aprendizaje competencial. Esto se conseguirá mediante el diseño de tareas y actividades significativas y relevantes para resolver problemas de manera creativa y cooperativa, reforzando la autoestima, la autonomía, la motivación y la iniciativa, la reflexión crítica y la responsabilidad. Para que sean eficaces deberían abarcar un contexto personal, social y educativo, con el que el alumnado esté familiarizado, y contener tareas, con unos objetivos claros y precisos, que incrementen los aprendizajes de la materia y los conecten con otros aprendizajes y con la vida real. Además, es conveniente que se ofrezca al alumnado cierta flexibilidad en la elección de los soportes documentales, fomentando procesos pedagógicos plásticos y accesibles que se ajusten a las necesidades, las características y los diferentes ritmos de aprendizaje del alumnado y que favorezcan su autonomía.",
+      "El carácter multidisciplinar y experimental de la materia de Anatomía Aplicada permite la elaboración de tareas complejas abiertas, investigaciones y proyectos con la participación de otros departamentos, la colaboración con otras instituciones y confiando en el conocimiento científico como motor de transformación social."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Seleccionar, interpretar y transmitir información contrastada y relevante, de forma crítica, utilizando diversos formatos de forma autónoma y creativa, para analizar conceptos, resolver cuestiones o dar explicación a procesos relacionados con la anatomía y el funcionamiento del cuerpo humano."
+      },
+      "descripcion": {
+        "es": [
+          "El conocimiento y la alfabetización científica son unas herramientas fundamentales para la mejora de la calidad de vida de las personas. Por ello, es esencial la comunicación de los avances y descubrimientos científicos, producto del trabajo interdisciplinar de equipos colaborativos, contribuyendo a la construcción, revisión y ampliación del conocimiento científico y utilizándolo para conseguir una sociedad desarrollada y moderna. Asimismo, el acceso a la información se realiza mayoritariamente a través de Internet promoviendo el uso de diferentes plataformas digitales de búsqueda y transmisión del conocimiento.",
+          "Desde la materia de Anatomía Aplicada se busca que el alumnado consolide las destrezas necesarias para extraer las ideas más importantes de una información científica en distintos formatos: texto, imágenes, tablas, gráficos... y su divulgación de manera sencilla creativa, crítica y veraz, utilizando soportes variados tanto de forma analógica como digital, contribuyendo a combatir las informaciones pseudocientíficas. En ello, juega un papel fundamental la utilización de dicha información para la creación de una opinión propia razonada y basada en evidencias científicas, ampliándola en el debate con las demás personas.",
+          "Por otro lado, la interpretación de los procesos que ocurren en el cuerpo humano y su relación con la actividad física permiten la aplicación contextualizada de los conocimientos científicos, contribuyendo a una formación integral de las alumnas y los alumnos. Por ello, se busca movilizar los aprendizajes interdisciplinares del alumnado para aplicarlos al conocimiento de la estructura y el funcionamiento de su propio cuerpo, entendiendo sus componentes como un todo y analizando de manera crítica los beneficios de una práctica física correcta para el desarrollo de estilos de vida saludable.",
+          "En definitiva, la transmisión del conocimiento científico va acompañada, no solo de los aprendizajes específicos, sino también de una actitud abierta y democrática que contribuya al desarrollo profesional y al bienestar personal y social del alumnado."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP1",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC3",
+        "CCEC4.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          459,
+          460
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Diseñar, promover y desarrollar trabajos de investigación o divulgación, utilizando las metodologías propias de la ciencia y cooperando cuando sea necesario, para indagar en aspectos relacionados con el funcionamiento del cuerpo humano, la actividad física y su relación con un estilo de vida saludable."
+      },
+      "descripcion": {
+        "es": [
+          "El conocimiento científico se construye a partir de evidencias obtenidas de la observación objetiva y la experimentación y su finalidad en esta materia es explicar el funcionamiento del cuerpo humano y relacionarlo con la promoción de la salud.",
+          "Los métodos científicos aplicados se basan en la formulación de preguntas sobre la anatomía y la fisiología del cuerpo humano, la actividad física y cuestiones de salud individual y colectiva, el diseño adecuado de técnicas para poder responderlas y la su ejecución adecuada y precisa la interpretación y análisis de los resultados, la obtención de conclusiones y la comunicación.",
+          "Plantear situaciones en las que el alumnado tenga la oportunidad de aplicar los pasos del método científico contribuye a desarrollar en él la curiosidad, el sentido crítico, la creatividad y el espíritu emprendedor. Además, permite comprender en profundidad la diferencia entre una impresión u opinión y una evidencia, afrontando con mente abierta y perspicaz diferentes informaciones y aceptando y respondiendo adecuadamente ante la incertidumbre.",
+          "Los trabajos cooperativos fomentan en el alumnado el desarrollo de habilidades de liderazgo y de trabajo en equipo, la asunción de responsabilidades, la empatía, la interacción social y la igualdad de oportunidades.",
+          "En definitiva, estas destrezas, no solo son esenciales para el desarrollo de una carrera científica, sino también para favorecer la resiliencia ante diferentes retos y contribuyen a formar ciudadanas y ciudadanos plenamente integrados a nivel profesional, social o personal."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CPSAA3.2",
+        "CPSAA5",
+        "CC3",
+        "CE1",
+        "CCEC4.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          460,
+          461
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Explorar y vivenciar la corporalidad, diseñando propuestas que impliquen una mejora del rendimiento físico y control motor, la capacidad expresiva o la creatividad motriz, para consolidar actitudes de superación y favorecer el desarrollo de su identidad personal, valorando la diversidad cultural como fuente de riqueza."
+      },
+      "descripcion": {
+        "es": [
+          "El carácter procedimental e interdisciplinar de la materia permite, a través del trabajo experimental y vivencial, despertar la curiosidad del alumnado por el funcionamiento de su propio cuerpo, con el fin último de aprender a cuidarlo, respetarlo, valorarlo y mejorar su funcionalidad y rendimiento, en favor de una ciudadanía con el sentido crítico necesario para poder protegerse de tendencias perjudiciales inherentes a la sociedad siglo XXI.",
+          "El empoderamiento de la ciudadanía en materia de salud física y mental se verá favorecido a través del trabajo que promueva procesos reflexivos desde la colaboración, la empatía y el respeto a la diversidad personal y cultural, que permita al alumnado analizar con perspectiva crítica el papel de la corporalidad en movimiento y sus implicaciones socioculturales presentes en variadas manifestaciones deportivas, expresivas y artísticas: desde la danza, el teatro, los bailes, hasta las performances como expresión personal o de denuncia social, entre otras muchas tendencias expresivas y vivenciales de la corporalidad.",
+          "Desde la reflexión y desde la vivencia se fomentará que el alumnado tome conciencia de los estereotipos corporales presentes en diferentes conductas y comportamientos que condicionan la salud física y mental, la expresión corporal, la sexualidad, y la gestión, vivencia y aceptación de emociones.",
+          "Cobrarán importancia la gestión y práctica de proyectos motores que les permita desarrollar destrezas para afrontar la propia salud física y mental, abordando situaciones como la fatiga, el sobre-entrenamiento y sus repercusiones en la salud o disfrutando y practicando propuestas de actividades saludables para el cuerpo y mente, la gestión de conflictos y emociones, la comunicación a través de la expresión corporal, las dramatizaciones o las performances, como ejemplo del amplio abanico de recursos que podemos considerar para implementar esta competencia."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CPSAA1.2",
+        "CPSAA2",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC1",
+        "CE2",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          461
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Analizar críticamente los efectos de determinadas acciones o conductas sobre la salud, basándose en los fundamentos de la biología, la fisiología y la anatomía patológica, para promover y adoptar hábitos saludables que permitan mantener y mejorar la salud individual y colectiva, construyendo entornos más saludables, seguros y en condiciones de igualdad."
+      },
+      "descripcion": {
+        "es": [
+          "El concepto de salud humana y su significado e implementación deben ser de extrema importancia en cualquier sociedad. El estudio del cuerpo humano, de su anatomía y fisiología, fomenta la adquisición de hábitos de vida saludable lo que beneficia a la salud individual y colectiva.",
+          "El conocimiento científico de los procesos que ocurren en el cuerpo humano y su interpretación son esenciales para explicar el funcionamiento coordinado del mismo y los cambios ante situaciones de actividad física. Este conocimiento y la comprensión de los principales factores de riesgo y protección para la salud pueden ayudar a aumentar la responsabilidad individual y consolidar unos hábitos de vida saludable, tanto a nivel físico, psicológico y social, en una etapa como la adolescencia, en la que la persona se encuentra aún en pleno desarrollo físico, cognitivo, emocional y social. El carácter práctico de la materia permite, a través del trabajo experimental y de la realización de proyectos de investigación, despertar la curiosidad del alumnado por el funcionamiento de su propio cuerpo, con el fin último de aprender a cuidarlo, respetarlo y valorarlo. El objetivo final es conseguir, a través del sistema educativo, una ciudadanía con el sentido crítico necesario para poder protegerse de las tendencias dañinas habituales en los países desarrollados del siglo XXI como el consumismo, el sedentarismo, la dieta con alto contenido en grasas y azúcares, las adicciones o los comportamientos impulsivos, potenciándose así la salud y la calidad de vida.",
+          "Esta competencia se desarrolla también mediante el trabajo cooperativo fomentando un proceso reflexivo y la toma de decisiones consensuadas, con la puesta en práctica de estrategias metacognitivas que permitan la detección de errores como medida esencial en el proceso de autoevaluación, incrementando la motivación y la autoestima del alumno o la alumna."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM5",
+        "CPSAA1.2",
+        "CPSAA2",
+        "CPSAA5",
+        "CC1",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          462
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Construir ideas y soluciones innovadoras y sostenibles de manera colaborativa, con sentido ético, solidario y equitativo, para dar respuesta a las necesidades locales y globales detectadas en materia de salud pública, diseñando, implementando y difundiendo acciones transformadoras, que utilicen el conocimiento científico como motor de cambio social."
+      },
+      "descripcion": {
+        "es": [
+          "En esta etapa, el alumnado de Bachillerato estará en disposición de apreciar la importancia de los valores sociales relacionados con la solidaridad, la generosidad o la empatía para construir entornos de convivencia éticos e igualitarios comprometidos con las necesidades individuales y colectivas, donde la salud pública y el bienestar social juegan un papel primordial.",
+          "Este bagaje permitirá que nuestro alumnado pueda movilizar el conocimiento científico y sus destrezas previas en las experiencias de aprendizaje que se diseñen, las cuales deben abordar retos complejos que exijan soluciones abiertas, con capacidad transformadora, que supongan un impacto positivo en la salud y bienestar de la comunidad educativa y del entorno, otorgando un alto enfoque prosocial a la experiencia educativa.",
+          "Desde una mirada crítica, el alumnado pondrá en marcha el procedimiento científico para evaluar e identificar necesidades y carencias en los distintos niveles de la salud individual y colectiva, en temas relacionados con la higiene postural, la nutrición, el descanso, la movilidad y el transporte activo, la eco-sostenibilidad, el ocio pasivo, el consumo digital seguro, etc. Este análisis servirá de punto de partida para emprender acciones de mejora y concienciación de la comunidad educativa mediante la planificación y organización de campañas de difusión de información, conferencias, mesas redondas, debates, tertulias de radio o podcast, incluso mediante la publicación de infografías y recursos digitales.",
+          "El impulso altruista de la salud colectiva en la comunidad escolar del siglo XXI también podrá tener su expresión a través de la dinamización de recreos activos, la organización de desayunos saludables, la planificación de talleres encaminados a la promoción de la salud emocional o la preparación y gestión de dinámicas de interacción social.",
+          "Asimismo, los proyectos de concienciación o la organización de eventos solidarios en el ámbito de la donación, la discapacidad o el apoyo hacia personas dependientes, constituirán posibles líneas de aprendizaje que enfatizan visión del individuo como agente social promotor de cambios en favor de un mundo más saludable, solidario y empático."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD5",
+        "CPSAA2",
+        "CPSAA3.1",
+        "CPSAA5",
+        "CC4",
+        "CE1",
+        "CE2",
+        "CE3",
+        "CCEC4.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          463
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar críticamente conceptos y procesos relacionados con los saberes de Anatomía Aplicada, seleccionando e interpretando información en diferentes formatos (textos, gráficos, esquemas, modelos, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              460
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar informaciones y opiniones razonadas relacionadas con los saberes de Anatomía Aplicada, transmitiéndolas de forma clara y rigurosa, utilizando el vocabulario científico y diferentes herramientas digitales y formatos (textos, gráficos, esquemas, modelos, contenidos digitales, etc.) y respondiendo de manera fundamentada y precisa a las cuestiones que puedan surgir durante el proceso."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              460
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Argumentar sobre aspectos relacionados con los saberes de Anatomía Aplicada considerando los puntos fuertes y débiles de diferentes posturas de forma razonada y crítica, y con actitud abierta y respetuosa ante las opiniones de otras personas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              460
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Contrastar y justificar la veracidad de la información relacionada con los saberes de Anatomía Aplicada utilizando fuentes fiables, adoptando una actitud crítica hacia informaciones sin base científica, como bulos, pseudociencias, etc."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              460
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-5",
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Plantear y resolver cuestiones y generar contenidos relacionados con los saberes de Anatomía Aplicada, de forma creativa y autónoma localizando y citando las fuentes de información de forma respetuosa con la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              460
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Diseñar, planificar y realizar trabajos de investigación o divulgación relacionados con los saberes de Anatomía Aplicada, siguiendo los pasos del método científico, evaluando la fiabilidad de los resultados y presentando las conclusiones obtenidas utilizando el formato adecuado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              461
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Cooperar dentro de los proyectos planteados, asumiendo responsablemente una función concreta, respetando la diversidad y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              461
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Argumentar sobre la importancia de la ciencia en el estudio de la anatomía humana y sus aplicaciones en la sociedad, destacando la labor de las personas que contribuyen a mejorar el conocimiento en este campo, especialmente el papel de la mujer, y entendiendo la investigación como una labor colectiva influida por el contexto social y los recursos económicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              461
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar proyectos de carácter individual o colaborativo, utilizando técnicas plásticas, visuales, audiovisuales, sonoras y corporales, experimentando los conocimientos de la Anatomía Aplicada y valorando la diversidad cultural como fuente de riqueza."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              462
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear de manera autónoma aplicaciones y dispositivos digitales relacionados con la gestión de elementos vinculados con el rendimiento motriz, la capacidad expresiva o la creatividad, identificando las posibles trasferencias al ámbito profesional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              462
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Poner en práctica habilidades sociales y destrezas personales de comunicación abierta, motivación, cooperación e innovación desarrollando una actitud proactiva desde el respeto y consideración hacia el resto de miembros del equipo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              462
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar las causas y consecuencias de las principales enfermedades y problemas de salud basándose en fundamentos y datos científicos y en los saberes de Anatomía Aplicada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              462
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Explicar fenómenos y procesos relacionados con el funcionamiento del cuerpo humano a través del planteamiento y la resolución de problemas, y el análisis de diversas situaciones fisiológicas y patológicas, mediante la búsqueda de información y utilización de las estrategias y los recursos adecuados a cada situación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              462
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Identificar y evaluar la incidencia en el organismo de determinadas pautas de alimentación, ejercicio y educación postural y sus repercusiones sobre la salud mental y física reconociendo los factores personales, sociales y económicos determinantes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              462
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Proponer la adopción de hábitos de vida saludables a través del diseño y aplicación de proyectos de mejora y prevención, analizando las acciones propias y ajenas, con actitud crítica y basándose en los fundamentos de las disciplinas relacionadas con la materia de Anatomía Aplicada, los conocimientos adquiridos y la información disponible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              462
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Utilizar estrategias de análisis razonado de las fortalezas y debilidades personales y ajenas, en las situaciones cotidianas, gestionando la información obtenida sobre las necesidades detectadas como base de conversión de las ideas y posibles soluciones en acciones, con sentido ético y solidario, en favor de un acceso equitativo a la salud."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              463
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Contribuir al acceso equitativo a la salud con visión creativa, emprendedora y actitud de servicio a otras personas, mediante el diseño, participación y difusión de acciones locales y globales que generen oportunidades de mejora en el entorno próximo e impliquen a la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              463
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Valorar la contribución de las acciones y soluciones planteadas, tanto para el aprendizaje como para el desarrollo personal y colectivo, evaluando de manera crítica y ética todas las fases del proceso llevado a cabo, así como la adecuación de las estrategias empleadas en el desarrollo del mismo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              463
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Organización del cuerpo humano"
+          },
+          "saberes": [
+            {
+              "id": "AA.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los niveles de organización del cuerpo humano y su relación con el funcionamiento general del organismo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  463
+                ]
+              }
+            },
+            {
+              "id": "AA.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los órganos, sistemas y aparatos relacionados con el movimiento humano, el desempeño motriz y la coordinación."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  463
+                ]
+              }
+            },
+            {
+              "id": "AA.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diagramas y modelos de organización corporal, antropometría básica, biotipos y cánones de medida. Los ejes y planos en diferentes movimientos deportivos o expresivos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "El aparato locomotor y su movimiento"
+          },
+          "saberes": [
+            {
+              "id": "AA.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La estructura de los componentes del sistema locomotor y su relación con el movimiento y el mantenimiento de la postura. El mecanismo de contracción muscular y los sistemas de palancas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El análisis biomecánico, anatómico funcional y cinético de movimientos basados en la técnica deportiva y artística para la mejora del rendimiento y bienestar físico. Herramientas digitales para el estudio de los diferentes movimientos deportivos y expresivos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Adaptaciones agudas y crónicas del aparato locomotor al esfuerzo físico como base de los sistemas de mejora de la condición física y la salud."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La evolución filogenética y ontogénica del ser humano en cuestiones relacionadas con la actitud postural para entender sus posibles patologías y elaboración de protocolos de valoración postural."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La fisiopatología de las principales lesiones del aparato locomotor. La prevención de lesiones en las actividades físico-deportivas y expresivas: pautas, recomendaciones, uso de materiales específicos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Aporte y utilización de energía en el cuerpo humano"
+          },
+          "saberes": [
+            {
+              "id": "AA.1.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El funcionamiento del sistema cardiovascular durante el reposo y la actividad física. Estudio del latido cardíaco y el pulso."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El funcionamiento del sistema respiratorio durante el reposo y la actividad física o artística. Estudio del volumen, la capacidad y la ventilación pulmonares."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Adaptaciones agudas y crónicas del sistema cardiovascular y respiratorio al esfuerzo físico como base de los sistemas de mejora de la condición física y la salud. Las zonas óptimas de funcionamiento cardíaco y pulmonar durante el trabajo físico y artístico."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura y función de los aparatos y órganos que intervienen en el proceso de ingesta, digestión de alimentos y absorción de nutrientes, y su relación con el rendimiento durante la actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las principales vías metabólicas aeróbicas y anaeróbicas productoras de energía en el cuerpo humano y su utilización en el funcionamiento del organismo durante el ejercicio físico y artístico."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.C.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La fisiopatología de las principales lesiones del sistema cardiopulmonar. La prevención de estas patologías: pauta y recomendaciones. Investigación de casos concretos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas de control y coordinación humanos"
+          },
+          "saberes": [
+            {
+              "id": "AA.1.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los componentes del sistema nervioso y su participación en la génesis, el control, la organización y la regulación de los movimientos involuntarios y voluntarios. Importancia de la comunicación visual, auditiva y kinestésica en actividades motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El papel del sistema nervioso en los mecanismos de percepción, decisión y ejecución que intervienen en la acción motora. El control del movimiento y la gestión de refuerzos e informaciones relacionadas con el control del cuerpo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El funcionamiento del sistema endocrino y su repercusión en el control y la regulación del rendimiento físico. La importancia de las hormonas y el proceso de termorregulación corporal en la práctica de actividades físicas y artísticas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La coordinación y la agilidad en modelos de ejecución técnica y artística determinantes del éxito en el movimiento. El papel del entrenamiento y ensayo de las cualidades perceptivo-motrices y coordinativas para la mejora de la calidad del movimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  464
+                ]
+              }
+            },
+            {
+              "id": "AA.1.D.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La función del sistema nervioso y el sistema endocrino como reguladores de las funciones de otros aparatos y sistemas del cuerpo humano."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  465
+                ]
+              }
+            },
+            {
+              "id": "AA.1.D.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los elementos de la calidad del movimiento en la expresión corporal. El estudio y la experimentación del cuerpo y el movimiento a través del uso de aplicaciones digitales que permitan analizar y mejorar las habilidades básicas como recurso de expresión y comunicación."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  465
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Actividad física y salud"
+          },
+          "saberes": [
+            {
+              "id": "AA.1.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El concepto de salud y los factores que la condicionan. Salud comunitaria. Equidad en salud. Concepto de salud en el marco de la sociedad del bienestar. Ámbitos de la salud: físico, mental, social y emocional."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  465
+                ]
+              }
+            },
+            {
+              "id": "AA.1.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El cuidado del cuerpo humano y su correcto funcionamiento como requisito imprescindible para alcanzar un estado óptimo de salud y de rendimiento físico y artístico. Hábitos saludables y nocivos relacionados con los diferentes órganos y sistemas del cuerpo humano, y el análisis crítico de su impacto en la salud. Los beneficios de llevar un estilo de vida físicamente activo para la salud. Prevención de enfermedades."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  465
+                ]
+              }
+            },
+            {
+              "id": "AA.1.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de una adecuada alimentación y sus efectos positivos en la salud. El diseño de dietas personalizadas, teniendo en cuenta características individuales, la hidratación y la actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  465
+                ]
+              }
+            },
+            {
+              "id": "AA.1.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los factores de riesgo (edad, sexo, factores sociales y económicos...) de los trastornos del comportamiento nutricional y su repercusión en la salud física y emocional. Los factores sociales y su influencia en los trastornos del comportamiento nutricional. Los estereotipos, cánones y mitos corporales y su repercusión en la salud emocional."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  465
+                ]
+              }
+            },
+            {
+              "id": "AA.1.E.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La influencia de la aptitud física y el estado físico emocional sobre la salud. Los principales métodos de evaluación de la aptitud física y del estado físico-emocional. Herramientas digitales al servicio de la evaluación de la salud."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  465
+                ]
+              }
+            },
+            {
+              "id": "AA.1.E.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los principios generales del desarrollo de las capacidades físicas y artísticas o de expresión corporal, y aplicación de los principales métodos de entrenamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  465
+                ]
+              }
+            },
+            {
+              "id": "AA.1.E.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La solidaridad en el campo de la salud. Diseño, organización y difusión de campañas, eventos y proyectos en beneficio de la comunidad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  465
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-21",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

@@ -1,0 +1,1253 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.bachillerato.matematicas-generales",
+  "territorio": "es-as",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "MG",
+    "nombre": {
+      "es": "Matemáticas Generales"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-60-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 60/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de Bachillerato en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06714",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "anexo": "II.a",
+      "paginasMateria": {
+        "desde": 391,
+        "hasta": 402
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El desarrollo vertiginoso del mundo actual hace necesario que el alumnado analice e interprete la realidad para poder adaptarse a unas condiciones llenas de incertidumbre, además de disponer de las competencias necesarias para aprender de forma autónoma. Las matemáticas desempeñan un papel fundamental para modelizar, analizar y comprender los fenómenos de múltiples campos de conocimiento: sociales, educativos, científicos, económicos, etc. Las competencias matemáticas comprenden, además de las ideas y elementos matemáticos, destrezas de resolución de problemas, de razonamiento matemático y de comunicación extrapolables a contextos no matemáticos.",
+      "Matemáticas Generales es una materia obligatoria de la modalidad general del Bachillerato que contribuye a la consecución de los objetivos generales de la etapa, prestando una especial atención al desarrollo y a la adquisición de las competencias clave conceptualizadas en los descriptores operativos de Bachillerato que el alumnado debe conseguir al finalizar la etapa. En esta modalidad, el objetivo del conocimiento matemático debe ser la aplicación de las matemáticas a la interpretación y análisis de situaciones problemáticas en diversos contextos reales, que faciliten al alumnado afrontar los desafíos del s. XXI como ciudadanos informados y comprometidos. Debe resaltarse el carácter instrumental de las matemáticas como herramienta fundamental para áreas de conocimiento científico, social, tecnológico, humanístico y artístico.",
+      "Los ejes fundamentales que articulan las competencias específicas de la materia son, en continuidad con el currículo de la Educación Secundaria Obligatoria, la resolución de problemas y el análisis e interpretación de la información. Además, se aborda el razonamiento matemático; el establecimiento de conexiones, prestando especial atención en esta materia a diversos contextos no matemáticos, a su relación con otras materias y con la realidad, y a la comunicación matemática. Con el fin de asegurar que todo el alumnado pueda hacer uso de los conceptos y de las relaciones matemáticas fundamentales, y que también llegue a experimentar la belleza y la utilidad de las matemáticas, desterrando ideas preconcebidas y estereotipos fuertemente arraigados en la sociedad, se ha incluido una competencia específica relacionada con el aspecto emocional, social y personal del alumnado con respecto al aprendizaje de esta materia.",
+      "Las Matemáticas Generales contribuyen al desarrollo de la Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería a través del razonamiento y la argumentación, la modelización y el pensamiento computacional. Además, favorecen la búsqueda de la belleza o la armonía, así como en la descripción de múltiples manifestaciones artísticas como la pintura, la arquitectura o la música, contribuyendo así a la competencia en conciencia y expresión culturales. Estimulan la búsqueda de soluciones emprendedoras y creativas a los problemas, aportando valor a la competencia emprendedora. Contribuyen a la formación intelectual del alumnado y al análisis de situaciones sociales, lo que permite desarrollar el sentido crítico y la competencia ciudadana. El uso de herramientas digitales en el tratamiento de la información y en la resolución de problemas entronca directamente con la competencia digital en cuyo desarrollo las matemáticas han jugado un papel fundamental. La comunicación desempeña un papel central en el razonamiento matemático, en tanto que es necesaria para la interpretación de enunciados y la transmisión de resultados. Por último, cabe destacar el valor formativo de esta materia en la competencia personal, social y de aprender a aprender, puesto que dota de herramientas instrumentales que permiten construir nuevos conocimientos.",
+      "A partir de la resolución de problemas, se deben proporcionar estrategias de razonamiento y representación matemática que sean aplicables a diversos contextos. Áreas como la economía, la sociología, el equilibrio medioambiental, la ciencia, la salud o la tecnología deben servir para el enriquecimiento de los contextos de los problemas formulados. Pero también estos deben basarse en contextos de áreas que aparentemente están más alejadas de las matemáticas: la lingüística, la geografía o la investigación histórica también deben ser fuente de enriquecimiento de los mismos. Por otro lado, no deben olvidarse los contextos personales y profesionales, como problemas relacionados con las finanzas personales o la interpretación de información numérica compleja en facturas o folletos publicitarios. Es importante que se exploren y analicen los vínculos de esta materia con otras disciplinas con el fin de dar sentido a los conceptos y al pensamiento matemático.",
+      "Los criterios de evaluación formulados se destinan a conocer el grado de adquisición de las competencias específicas, lo que debe guiar el proceso de enseñanza-aprendizaje, de forma que este se oriente a la puesta en acción de las competencias frente a la memorización de conceptos o la reproducción rutinaria de procedimientos, para que el aprendizaje tenga sentido y sea verdaderamente significativo.",
+      "La adquisición de las competencias específicas se podrá evaluar a partir de la movilización de diversos saberes básicos, que han sido distribuidos en los bloques que se han definido para el currículo de las áreas y materias de matemáticas en las etapas anteriores, denominados «sentidos», proporcionando así coherencia al conjunto del currículo: en el sentido numérico se afianza el manejo y comprensión del número, incluyendo técnicas de recuento más complejas, a la vez que se profundiza en la comprensión de información numérica presente en diversos contextos sociales y científicos. En el sentido de la medida se profundiza en el análisis del cambio en diferentes contextos, así como en la medida de la incertidumbre. En el sentido espacial se presenta la teoría de grafos como una herramienta con importantes aplicaciones en la visualización y modelización de problemas en diversos contextos. En el sentido algebraico se recogen situaciones y fenómenos que pueden modelizarse mediante ecuaciones y funciones con el apoyo de herramientas tecnológicas. El pensamiento computacional y la modelización se han incorporado en este bloque, pero no deben interpretarse como exclusivos del mismo, sino que deben desarrollarse también en el resto de los bloques de saberes. En el sentido estocástico se afianzan destrezas de análisis e interpretación de datos, el manejo de la incertidumbre y la modelización de fenómenos aleatorios. Por último, los saberes correspondientes al sentido socioafectivo deben tratarse de forma integrada con los correspondientes a los otros sentidos, cuestión de especial interés para el alumnado que curse la modalidad general de Bachillerato. Debe potenciarse el trabajo en equipo, aceptando la diversidad y fomentando actitudes que respeten la inclusión y la no discriminación. Aprender de los errores y desarrollar la tolerancia a la frustración cobran especial importancia en esta etapa educativa. Es importante destacar que el orden de aparición de los sentidos y, dentro de ellos, de los saberes no supone ninguna secuenciación.",
+      "La adquisición de las competencias específicas y el desarrollo de los saberes básicos deben tener en cuenta las nuevas formas de hacer y pensar matemáticas. El papel que en la actualidad desempeñan las herramientas tecnológicas y la facilidad de acceso a dispositivos cada vez más potentes están cambiando los procedimientos en matemáticas. Procesos y operaciones que requerían métodos sofisticados de solución manual, pueden abordarse en la actualidad de forma sencilla mediante el uso de calculadoras, hojas de cálculo, programas de geometría dinámica y otras herramientas digitales. Esta posibilidad hace que la enseñanza pueda centrarse en el afianzamiento de los conceptos y actitudes básicas de la materia, y en la profundización en el uso de las matemáticas para interpretar y analizar situaciones, resolver problemas en diferentes contextos y utilizar instrumentos sencillos de cálculo y medida, prestando menor atención a los procedimientos manuales y repetitivos. En este sentido, el aprendizaje debe orientarse preferentemente hacia la interpretación y el análisis de fenómenos y la adquisición del razonamiento matemático, huyendo de prácticas que conlleven aprendizajes memorísticos y rutinarios.",
+      "Metodología",
+      "La importancia de las matemáticas como herramienta para conocer e interpretar la realidad, y como entorno para expresar todo tipo de fenómenos, permite asegurar que desde esta disciplina se deben potenciar procesos de enseñanza-aprendizaje diversos y adaptables al contexto cotidiano del alumnado.",
+      "Las diferentes metodologías empleadas en el desarrollo de esta materia deberán adaptarse a las necesidades propias de cada grupo de estudiantes potenciando metodologías activas, que son aquellas que promueven una mayor participación del alumnado y las que generan aprendizajes significativos, más profundos y duraderos, desde un planteamiento integrador e inclusivo, que permita al alumnado ser capaz de enfrentarse a variedad de situaciones de aprendizaje contextualizadas. Tendrán en cuenta, por tanto, diferentes aspectos del currículo.",
+      "Incardinar las matemáticas en la vida cotidiana, mostrando su funcionalidad, para dar respuesta a situaciones cotidianas, generando preguntas y aplicando saberes y estrategias conocidos, es parte del eje conductor de la Ley Orgánica de Educación. Se trata de que el alumnado adquiera saberes reconociendo su utilidad, comprendiendo su significado y siendo capaces de aplicarlos a situaciones de la vida cotidiana iniciando un proceso de realización de cálculos en progresiva complejidad.",
+      "La contribución a la adquisición de la Competencia en Comunicación Lingüística (CCL) se da en la medida en que se trabaja el diálogo, la expresión, la comprensión y la producción de textos con contenido matemático de forma oral, escrita y multimodal en distintos ámbitos y contextos, así como seleccionando, transformando y contrastando información procedente de diferentes fuentes y en diversos formatos, interpretándola críticamente, evaluando su fiabilidad y respetando la propiedad intelectual.",
+      "La materia de Matemáticas permite una comunicación universal. La terminología específica empleada y su etimología acercan al alumnado al conocimiento de otras lenguas, incluidas las clásicas, fomentando el respeto por la diversidad lingüística y cultural presente en la sociedad e integrando esta diversidad para fomentar la cohesión social. Se relaciona de este modo con la Competencia Plurilingüe (CP).",
+      "Esta materia posibilita en todos y cada uno de sus aspectos la adquisición de la Competencia Matemática a partir del conocimiento de los contenidos y de la variedad de procedimientos susceptibles de ser empleados, siendo un instrumento imprescindible en el desarrollo del pensamiento del alumnado. La Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM), está íntimamente relacionada con la materia de Matemáticas, utilizando métodos propios del razonamiento matemático y empleando diferentes estrategias para la resolución de problemas, y analizando críticamente las soluciones; utilizando el pensamiento científico para entender y explicar los fenómenos que ocurren a nuestro alrededor; planteando modelos y evaluando su eficiencia; interpretando y transmitiendo razonamientos, demostraciones, métodos y resultados científicos, matemáticos y tecnológicos en diferentes formatos y de forma clara y precisa.",
+      "La adquisición de la Competencia Digital (CD) se desarrolla en la materia fomentando un uso crítico, respetuoso y seguro de las tecnologías digitales, usando criterios fiables y de calidad en la búsqueda de información, reelaborando la información obtenida, siendo consciente de los derechos de autor y desarrollando soluciones tecnológicas innovadoras a los problemas planteados.",
+      "Esta materia contribuye al desarrollo de la Competencia Personal, Social y de Aprender a Aprender (CPSAA) potenciando la resiliencia, la autonomía y la motivación hacia el aprendizaje, a través del trabajo en grupo o individual, incluyendo la autoevaluación en el proceso de aprendizaje.",
+      "También contribuye a la adquisición de la Competencia Ciudadana (CC) fomentando el análisis crítico y la argumentación con actitud dialogante, respeto por la diversidad y rechazando todo tipo de discriminación; así como la participación en actividades grupales con actitud democrática.",
+      "Así mismo, esta materia colabora en gran medida en la adquisición de la Competencia Emprendedora (CE) analizando las consecuencias de un cambio en las condiciones iniciales de un problema, proponiendo soluciones de forma razonada, desarrollando estrategias, tanto de autoconocimiento y autoeficacia como de trabajo colaborativo, para resolver con sentido crítico situaciones problemáticas que planteen una optimización de recursos, que lleven a la acción una experiencia o iniciativa emprendedora de valor, y apreciando la importancia de la experiencia del fracaso y del éxito.",
+      "Esta materia contribuye a la adquisición de la Competencia en Conciencia y Expresión Culturales (CCEC) al fomentar la expresión de ideas, opiniones, sentimientos y emociones de manera creativa y abierta; así como utilizando la presencia de las matemáticas en la cultura y en el arte para estimular el conocimiento, aprecio y respeto por el patrimonio cultural y artístico de cualquier época, en particular el asturiano.",
+      "Las orientaciones metodológicas que aquí se recogen tienen como finalidad ayudar al profesorado en su labor pedagógica que, en esta etapa, deberá permitir la adquisición y logro por parte del alumnado de las competencias indispensables para su futuro formativo y profesional y capacitarlo para el acceso a la educación superior.",
+      "El alumnado cursará esta materia con seguridad y confianza, consiguiendo formación, madurez intelectual y humana, conocimientos y destrezas que le permita progresar en su desarrollo personal y social e incorporarse a la vida activa y a estudios posteriores. Se potenciarán prácticas de aprendizaje menos memorísticas y rutinarias, favoreciendo la utilización de recursos, fundamentalmente tecnológicos, con propuestas centradas en la comprensión, la interpretación y el análisis de fenómenos, la resolución de problemas y la potenciación del razonamiento matemático, incluido el pensamiento computacional.",
+      "Será necesario incidir en el papel de las matemáticas como medio de interpretación de la realidad, traducir la realidad a un lenguaje matemático y aplicar los conocimientos matemáticos de forma comprensiva, recalcando la funcionalidad de los aprendizajes y fomentando la creatividad para enfrentarse a nuevas situaciones. Es importante que la situación de aprendizaje parta de una situación problemática, que pueda tener diversos enfoques, que permita formular preguntas y seleccionar las estrategias adecuadas para, tras sencillos razonamientos y algunos cálculos, llegar a la solución procediendo en todo momento a explicar los procesos y el significado de los resultados.",
+      "La resolución de problemas, como eje vertebrador en el desarrollo de la competencia STEM, es uno de los objetivos fundamentales en el aprendizaje de las Matemáticas. Proponer situaciones de aprendizaje centradas en la resolución de problemas permitirá generar actitudes de cuestionamiento, perseverancia, autonomía, iniciativa personal, flexibilidad, coherencia y sentido crítico que contribuyen a que el alumnado esté mejor preparado para afrontar los desafíos de una sociedad en continuo cambio y que le va a exigir tomar decisiones responsables y fundamentadas ante diversas problemáticas, tanto de tipo social como cívico, empleando sus conocimientos matemáticos y en ocasiones, adquiriendo nociones matemáticas nuevas, verificando la validez de las posibles soluciones y empleando el razonamiento y la argumentación.",
+      "Deberán plantearse situaciones en las que sea preciso aplicar aquellas destrezas y actitudes que permiten razonar matemáticamente, comprender una argumentación matemática y expresarse y comunicarse en el lenguaje precisado (matemático, cotidiano u otros) para potenciar el desarrollo de la competencia en comunicación lingüística y plurilingüe. En este proceso se favorecerá la adquisición de la competencia ciudadana en tanto que se utilizarán las herramientas de apoyo adecuadas, y se integrará el conocimiento matemático con otros tipos de conocimiento para dar respuesta a las situaciones extraídas de la realidad. No se trata tanto de que los estudiantes hayan de realizar complicados cálculos y desarrollar complejos procedimientos, como de que sean capaces de enfrentarse a problemas abiertos, en los que han de buscar información, seleccionarla, valorarla y analizarla críticamente, elegir estrategias, aplicar las herramientas matemáticas adecuadas para obtener, interpretar y expresar adecuadamente sus resultados verificando su coherencia.",
+      "También debe potenciarse la investigación e insistir en las conexiones entre las diferentes ideas matemáticas y con otras áreas del conocimiento, estableciendo vínculos entre saberes para resolver problemas en situaciones diversas.",
+      "Se potenciará el dominio del lenguaje, el cotidiano y el específico de la materia, para comprender situaciones contextualizadas, modelizando y resolviendo problemas, y comunicar, de forma individual y colectiva, empleando el soporte, la terminología y el rigor apropiados.",
+      "El uso correcto del lenguaje matemático permite al alumnado organizar y consolidar su pensamiento matemático. En este sentido, que el alumnado sepa expresar, tanto de forma oral como escrita, los procedimientos utilizados en la resolución de determinado problema, ejercicio o trabajo realizado, las conjeturas que ha llevado a cabo o los errores y rectificaciones realizadas pueden ayudar a afianzar su capacidad de razonamiento y argumentación, así como desarrollar el pensamiento crítico necesario en todo proceso de conocimiento.",
+      "Las Matemáticas no son una rama de conocimiento desconectada del resto de saberes. Se debe reconocer la relevancia del conocimiento matemático para interpretar, comprender y valorar la realidad, estableciendo relaciones entre las matemáticas y otras áreas del saber, y el entorno social, cultural o económico. La vida cotidiana del alumnado transcurre en Asturias. En este sentido, muchos contenidos de las ciencias sociales y ambientales referidos al Principado de Asturias pueden ser analizados desde una perspectiva matemática, contribuyendo a un análisis crítico y más objetivo de nuestro entorno social.",
+      "Que el alumnado conozca hechos, descubrimientos y personajes de la historia de las matemáticas puede ayudar a apreciar las matemáticas como ciencia que se desarrolla y avanza tanto de forma independiente como en relación con otros saberes, respondiendo a las preguntas que estos le plantean. Respecto al conocimiento matemático en sí, el alumnado debe llegar a entender que las matemáticas constituyen un campo integrado de conocimiento. La realización de ejercicios en los que diversas partes entren a formar parte o que puedan resolverse con distintos métodos matemáticos es una de las herramientas posibles.",
+      "El alumnado debe llegar a entender que las matemáticas son un producto cultural universal que se ha gestado a lo largo de la historia con las aportaciones de hombres y mujeres de distintas lenguas y culturas.",
+      "Se potenciará la capacidad de apreciar el conocimiento y el desarrollo histórico de las matemáticas como un proceso cambiante y dinámico, adoptando actitudes de solidaridad, tolerancia y respeto, contribuyendo así a la formación personal y al enriquecimiento cultural. Detrás de toda expresión cultural y artística hay un planteamiento que incluye multitud de aspectos matemáticos, pasando por la resolución de problemas, que permite al alumnado apreciar las diferentes expresiones culturales y artísticas.",
+      "Se facilitará la realización de trabajos de investigación, monográficos, interdisciplinares, etc. que impliquen la coordinación de varios departamentos didácticos, presentando las matemáticas como un saber en continuo desarrollo y conectado con otros saberes.",
+      "Se fomentará la realización de trabajos en equipo aprovechando las individualidades en favor de un propósito mayor, en los que cada miembro ha de realizar tareas concretas en grupos heterogéneos con roles asignados para, dentro de un plazo, contribuir con sugerencias a los planteamientos y estrategias de resolución y asumir con actitudes de creatividad, flexibilidad, iniciativa, autoconfianza y sentido crítico su responsabilidad en todo el proceso, favoreciendo el debate, la distribución de tareas, la definición de objetivos y la presentación de resultados finales comunicados en el formato más adecuado y fomentando el bienestar grupal, las relaciones saludables y la igualdad de roles.",
+      "En consonancia con el mundo digital en que vivimos, los recursos, en especial los tecnológicos, favorecen propuestas menos centradas en la repetición de procedimientos y facilitan el conocimiento y el manejo de los saberes implicados. Los distintos recursos tecnológicos pueden ser una de las herramientas para identificar, comprender, analizar, representar, visualizar, realizar cálculos complejos y estructurar procesos e ideas matemáticas.",
+      "Se propondrán situaciones de aprendizaje en las que el alumnado deba realizar una búsqueda selectiva de datos e información, manejarlos de forma comprensiva con el apoyo de aquellos medios tecnológicos (calculadoras, programas de geometría dinámica, hojas de cálculo, sistemas de álgebra computacional,...) que eviten la realización de cálculos complejos, que favorezcan el razonamiento matemático y que ayuden a encontrar y valorar la respuesta a las preguntas planteadas.",
+      "Finalmente, no se debe olvidar la atención a la diversidad y el carácter inclusivo de la educación. El aprendizaje es un proceso influido por factores de diverso tipo tales como los intereses personales, las emociones o el ritmo de aprendizaje de cada estudiante, que deben ser atendidos, fomentando la autonomía personal, la educación en el respeto a la diferencia o la igualdad efectiva entre hombres y mujeres. Para ello será necesario prestar atención a las distintas actitudes en clase, fomentando la participación del alumnado y animándolo a exponer sus ideas sin miedo al error. La realización de tareas con distinto nivel de dificultad puede servir para que el alumnado, independientemente de su ritmo de aprendizaje, alcance los objetivos propuestos, así como para afianzar su confianza y autoestima."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Modelizar y resolver problemas de la vida cotidiana y de diversos ámbitos aplicando diferentes estrategias y formas de razonamiento, con ayuda de herramientas tecnológicas, para obtener posibles soluciones."
+      },
+      "descripcion": {
+        "es": [
+          "La modelización y la resolución de problemas constituyen un eje fundamental en el aprendizaje de las matemáticas, ya que son procesos centrales en la construcción del conocimiento matemático. Estos procesos aplicados en contextos diversos y con la utilización de herramientas tecnológicas pueden motivar el aprendizaje y establecer unos cimientos cognitivos sólidos que permitan construir conceptos y experimentar las matemáticas como herramienta para describir, analizar y ampliar la comprensión de situaciones de la vida cotidiana.",
+          "El desarrollo de esta competencia conlleva los procesos de formulación del problema; la sistematización en la búsqueda de datos u objetos relevantes y sus relaciones; su codificación al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático; la creación de modelos abstractos de situaciones reales y el uso de estrategias heurísticas de resolución, como la analogía con otros problemas, estimación, ensayo y error, resolverlo de manera inversa (ir hacia atrás) o la descomposición en problemas más sencillos, entre otras."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          396
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Verificar la validez de las posibles soluciones de un problema empleando el razonamiento y la argumentación para contrastar su idoneidad."
+      },
+      "descripcion": {
+        "es": [
+          "El análisis de las soluciones obtenidas en la resolución de un problema potencia la reflexión crítica, el razonamiento y la argumentación. La interpretación de las soluciones y conclusiones obtenidas, considerando, además de la validez matemática, diferentes perspectivas como la sostenibilidad, el consumo responsable, la equidad, la no discriminación o la igualdad de género, entre otras, ayuda a tomar decisiones razonadas y a evaluar las estrategias.",
+          "El desarrollo de esta competencia conlleva procesos reflexivos propios de la metacognición como la autoevaluación y la coevaluación, el uso eficaz de herramientas digitales, la verbalización o la descripción del proceso y la selección entre diferentes modos de comprobación de soluciones o de estrategias para validar las soluciones y evaluar su alcance."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD2",
+        "CD3",
+        "CPSAA3.1",
+        "CC3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          396
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Generar preguntas de tipo matemático aplicando saberes y estrategias conocidas para dar respuesta a situaciones problemáticas de la vida cotidiana."
+      },
+      "descripcion": {
+        "es": [
+          "La generación de preguntas de contenido matemático es otro componente importante y significativo del currículo de Matemáticas Generales y está considerada una parte esencial del quehacer matemático. Generar preguntas con contenido matemático sobre una situación problematizada, sobre un conjunto de datos o sobre un problema ya resuelto implica la creación de nuevos problemas con el objetivo de explorar una situación determinada, así como la reformulación del mismo durante el proceso de resolución.",
+          "Cuando el alumnado genera preguntas, mejora el razonamiento y la reflexión al tiempo que construye su propio conocimiento. Esto se traduce en un alto nivel de compromiso y curiosidad, así como de progresivo entusiasmo hacia el proceso de aprendizaje de las matemáticas.",
+          "El desarrollo de esta competencia puede fomentar un pensamiento más diverso y flexible, mejorar la destreza para resolver problemas en distintos contextos, establecer puentes entre situaciones concretas y los modelos matemáticos y enriquecer y consolidar los conceptos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD2",
+        "CD5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          396,
+          397
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar el pensamiento computacional de forma eficaz, modificando y creando algoritmos que resuelvan problemas mediante el uso de las matemáticas, para modelizar y resolver situaciones de la vida cotidiana y de diversos ámbitos."
+      },
+      "descripcion": {
+        "es": [
+          "El pensamiento computacional entronca directamente con la resolución de problemas y el planteamiento de procedimientos algorítmicos. Con el objetivo de llegar a una solución del problema que pueda ser ejecutada por un sistema informático será necesario utilizar la abstracción para identificar los aspectos más relevantes y descomponer el problema en tareas más simples que se puedan codificar en un lenguaje apropiado. Llevar el pensamiento computacional a la vida diaria supone relacionar las necesidades de modelado y simulación con las posibilidades de su tratamiento informatizado.",
+          "El desarrollo de esta competencia conlleva la creación de modelos abstractos de situaciones cotidianas y de diversos ámbitos, su automatización y la codificación en un lenguaje fácil de interpretar de forma automática."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          397
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Establecer, investigar y utilizar conexiones entre las diferentes ideas matemáticas estableciendo vínculos entre conceptos, procedimientos, argumentos y modelos para dar significado y estructurar el aprendizaje matemático."
+      },
+      "descripcion": {
+        "es": [
+          "Establecer conexiones entre las diferentes ideas matemáticas proporciona una comprensión más profunda de cómo varios enfoques de un mismo problema pueden producir resultados equivalentes. El alumnado puede utilizar ideas procedentes de un contexto para probar o refutar conjeturas generadas en otro y, al conectar las ideas matemáticas, puede desarrollar una mayor comprensión de los problemas. Percibir las Matemáticas como un todo implica estudiar sus conexiones internas y reflexionar sobre ellas, tanto las existentes entre los bloques de saberes del propio curso como de diferentes etapas educativas.",
+          "El desarrollo de esta competencia conlleva enlazar las nuevas ideas matemáticas con ideas previas, reconocer y utilizar las conexiones entre ellas en la resolución de problemas y comprender cómo unas ideas se construyen sobre otras para formar un todo integrado."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          397,
+          398
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Descubrir los vínculos de las matemáticas con otras áreas de conocimiento y profundizar en sus conexiones, interrelacionando conceptos y procedimientos, para modelizar, resolver problemas y desarrollar la capacidad crítica, creativa e innovadora en situaciones diversas."
+      },
+      "descripcion": {
+        "es": [
+          "Observar relaciones y establecer conexiones matemáticas es un aspecto clave del quehacer matemático. La profundización en los conocimientos matemáticos y en la destreza para utilizar un amplio conjunto de representaciones, así como en el establecimiento de conexiones entre las matemáticas y otras áreas de conocimiento, confieren al alumnado un gran potencial para resolver problemas en situaciones diversas.",
+          "Estas conexiones también deberían ampliarse a las actitudes propias del quehacer matemático de forma que estas puedan ser transferidas a otras materias y contextos. En esta competencia juega un papel relevante la aplicación de las herramientas tecnológicas en el descubrimiento de nuevas conexiones.",
+          "El desarrollo de esta competencia conlleva el establecimiento de conexiones entre ideas, conceptos y procedimientos matemáticos, otras áreas de conocimiento y la vida real. Asimismo, implica el uso de herramientas tecnológicas, así como su aplicación en la resolución de problemas en situaciones diversas valorando la contribución de las matemáticas a la resolución de los grandes retos y objetivos ecosociales, tanto a lo largo de la historia como en la actualidad."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD3",
+        "CD5",
+        "CC4",
+        "CE2",
+        "CE3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          398
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Representar conceptos, procedimientos e información matemáticos seleccionando diferentes tecnologías, para visualizar ideas y estructurar razonamientos matemáticos."
+      },
+      "descripcion": {
+        "es": [
+          "Las representaciones de conceptos, procedimientos e información matemáticos facilitan el razonamiento y la demostración, se utilizan para visualizar ideas matemáticas, examinar relaciones y contrastar la validez de las respuestas y se encuentran en el centro de la comunicación matemática.",
+          "El desarrollo de esta competencia conlleva el aprendizaje de nuevas formas de representación matemática y la mejora del conocimiento sobre su utilización de forma eficaz, recalcando las maneras en que representaciones distintas de los mismos objetos pueden transmitir diferentes informaciones y mostrando la importancia de seleccionar representaciones adecuadas a cada tarea."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD5",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          398,
+          399
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Comunicar las ideas matemáticas, de forma individual y colectiva, empleando el soporte, la terminología y el rigor apropiados, para organizar y consolidar el pensamiento matemático."
+      },
+      "descripcion": {
+        "es": [
+          "En la sociedad de la información se hace cada día más patente la necesidad de una comunicación clara y veraz, tanto oralmente como por escrito. Interactuar con otras personas ofrece la posibilidad de intercambiar ideas y reflexionar sobre ellas, colaborar, cooperar, generar y afianzar nuevos conocimientos convirtiendo la comunicación en un elemento indispensable en el aprendizaje de las matemáticas.",
+          "El desarrollo de esta competencia conlleva expresar públicamente hechos, ideas, conceptos y procedimientos complejos de forma oral y escrita, analítica y gráficamente, con veracidad y precisión, utilizando la terminología matemática adecuada, con el fin de dar significado y permanencia a los aprendizajes."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "CP1",
+        "STEM2",
+        "STEM4",
+        "CD2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          399
+        ]
+      }
+    },
+    {
+      "id": "ce-9",
+      "codigoOficial": "9",
+      "enunciado": {
+        "es": "Utilizar destrezas personales y sociales, identificando y gestionando las propias emociones y respetando las ajenas y organizando activamente el trabajo en equipos heterogéneos, aprendiendo del error como parte del proceso de aprendizaje y afrontando situaciones de incertidumbre, para perseverar en la consecución de objetivos en el aprendizaje de las matemáticas."
+      },
+      "descripcion": {
+        "es": [
+          "La resolución de problemas o de retos más globales en los que intervienen las matemáticas representa a menudo un desafío que involucra multitud de emociones que conviene gestionar correctamente. Las destrezas socioafectivas dentro del aprendizaje de las matemáticas fomentan el bienestar del alumnado, la regulación emocional y el interés por su estudio.",
+          "Por otro lado, trabajar los valores de respeto, igualdad o resolución pacífica de conflictos, al tiempo que se superan retos matemáticos de forma individual o en equipo, permite mejorar la autoconfianza y normalizar situaciones de convivencia en igualdad, creando relaciones y entornos de trabajo saludables. Asimismo, fomenta la ruptura de estereotipos e ideas preconcebidas sobre las matemáticas asociadas a cuestiones individuales, como por ejemplo las relacionadas con el género o con la existencia de una aptitud innata para las matemáticas.",
+          "El desarrollo de esta competencia conlleva identificar y gestionar las propias emociones en el proceso de aprendizaje de las matemáticas, reconocer las fuentes de estrés, ser perseverante en la consecución de los objetivos, pensar de forma crítica y creativa, crear resiliencia y mantener una actitud proactiva ante nuevos retos matemáticos. Asimismo, implica mostrar empatía por otras personas, establecer y mantener relaciones positivas, ejercitar la escucha activa y la comunicación asertiva en el trabajo en equipo y tomar decisiones responsables."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CP3",
+        "STEM5",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC2",
+        "CC3",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          399
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Emplear diferentes estrategias y herramientas, incluidas las digitales, que resuelvan problemas de la vida cotidiana y de ámbitos diversos, seleccionando la más adecuada en cada caso."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              396
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Obtener todas las posibles soluciones matemáticas de problemas de la vida cotidiana y de ámbitos diversos, describiendo el procedimiento realizado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              396
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprobar la validez matemática de las posibles soluciones de un problema, utilizando el razonamiento, la argumentación y las herramientas digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              396
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar la solución más adecuada de un problema en función del contexto (sostenibilidad, consumo responsable, equidad) usando el razonamiento y la argumentación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              396
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Adquirir nuevo conocimiento matemático mediante la formulación de preguntas de naturaleza matemática de forma autónoma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              397
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear herramientas tecnológicas adecuadas en la formulación o investigación de preguntas o problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              397
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar, modelizar y resolver situaciones problematizadas de ámbitos diversos, utilizando el pensamiento computacional, modificando o creando algoritmos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              397
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Manifestar una visión matemática integrada, investigando y conectando las diferentes ideas matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              398
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Resolver problemas, estableciendo y aplicando conexiones entre las diferentes ideas matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              398
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Resolver problemas en situaciones diversas, utilizando procesos matemáticos, estableciendo y aplicando conexiones entre el mundo real, otras áreas de conocimiento y las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              398
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar la aportación de las matemáticas al progreso de la humanidad, reflexionando sobre su contribución en la propuesta de soluciones a situaciones complejas y a los retos que se plantean en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              398
+            ]
+          }
+        },
+        {
+          "id": "cri-1-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Representar ideas matemáticas estructurando diferentes razonamientos matemáticos y seleccionando las tecnologías más adecuadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              399
+            ]
+          }
+        },
+        {
+          "id": "cri-1-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Seleccionar y utilizar diversas formas de representación, valorando su utilidad para compartir información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              399
+            ]
+          }
+        },
+        {
+          "id": "cri-1-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Mostrar organización al comunicar las ideas matemáticas, empleando el soporte, la terminología y el rigor apropiados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              399
+            ]
+          }
+        },
+        {
+          "id": "cri-1-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Reconocer y emplear el lenguaje matemático en diferentes contextos, comunicando la información con precisión y rigor."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              399
+            ]
+          }
+        },
+        {
+          "id": "cri-1-9-1",
+          "codigoOficial": "9.1",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Afrontar las situaciones de incertidumbre, y tomar decisiones evaluando distintas opciones identificando y gestionando emociones y aceptando y aprendiendo del error como parte del proceso de aprendizaje de las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              400
+            ]
+          }
+        },
+        {
+          "id": "cri-1-9-2",
+          "codigoOficial": "9.2",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Mostrar una actitud positiva y perseverante, aceptando y aprendiendo de la crítica razonada, al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              400
+            ]
+          }
+        },
+        {
+          "id": "cri-1-9-3",
+          "codigoOficial": "9.3",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Participar en tareas matemáticas de forma activa en equipos heterogéneos, respetando las emociones y experiencias de las demás personas, escuchando su razonamiento, identificando las habilidades sociales más propicias y fomentando el bienestar del equipo y las relaciones saludables."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              400
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "apartados": [
+            {
+              "codigo": "A.1",
+              "nombre": {
+                "es": "Conteo"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.A.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reglas y estrategias para determinar el cardinal de conjuntos finitos en problemas de la vida cotidiana: uso de los principios de comparación, adición, multiplicación y división, del palomar y de inclusión-exclusión."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.2",
+              "nombre": {
+                "es": "Sentido de las operaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.A.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Interpretación de la información numérica en documentos de la vida cotidiana: tablas, diagramas, documentos financieros, facturas, nóminas, noticias, etc."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.A.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Herramientas tecnológicas y digitales en la resolución de problemas numéricos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.3",
+              "nombre": {
+                "es": "Relaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.A.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Razones, proporciones, porcentajes y tasas: comprensión, relación y aplicación en problemas en contextos diversos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.4",
+              "nombre": {
+                "es": "Educación financiera"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.A.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Razonamiento proporcional en la resolución de problemas financieros: medios de pago con cobro de intereses, cuotas, comisiones, cambios de divisas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "apartados": [
+            {
+              "codigo": "B.1",
+              "nombre": {
+                "es": "Medición"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.B.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "B.2",
+              "nombre": {
+                "es": "Cambio"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.B.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estudio de la variación absoluta y de la variación media."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.B.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Concepto de derivada: definición a partir del estudio del cambio en diferentes contextos. Análisis e interpretación con medios tecnológicos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido espacial"
+          },
+          "apartados": [
+            {
+              "codigo": "C.1",
+              "nombre": {
+                "es": "Visualización, razonamiento y modelización geométrica"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.C.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Grafos: representación de situaciones de la vida cotidiana mediante diferentes tipos de grafos (dirigidos, planos, ponderados, árboles, etc.). Fórmula de Euler."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.C.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Grafos eulerianos y hamiltonianos: resolución de problemas de caminos y circuitos. Coloración de grafos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      400
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.C.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución del problema del camino mínimo en diferentes contextos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido algebraico y pensamiento computacional"
+          },
+          "apartados": [
+            {
+              "codigo": "D.1",
+              "nombre": {
+                "es": "Patrones"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.D.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Generalización de patrones en situaciones sencillas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.2",
+              "nombre": {
+                "es": "Modelo matemático"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.D.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Funciones lineales, cuadráticas, racionales sencillas, exponenciales, logarítmicas, a trozos y periódicas: modelización de situaciones del mundo real con herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.D.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Programación lineal: modelización de problemas reales y resolución mediante herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.3",
+              "nombre": {
+                "es": "Igualdad y desigualdad"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.D.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de sistemas de ecuaciones e inecuaciones en diferentes contextos mediante herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.4",
+              "nombre": {
+                "es": "Relaciones y funciones"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.D.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Propiedades de las clases de funciones, incluyendo lineales, cuadráticas, racionales sencillas, exponenciales y logarítmicas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "D.5",
+              "nombre": {
+                "es": "Pensamiento computacional"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.D.5.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Formulación, resolución, análisis, representación e interpretación de relaciones y problemas de la vida cotidiana y de distintos ámbitos utilizando algoritmos, programas y herramientas tecnológicas adecuados."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "apartados": [
+            {
+              "codigo": "E.1",
+              "nombre": {
+                "es": "Organización y análisis de datos"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.E.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Interpretación y análisis de información estadística en diversos contextos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.E.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Organización de los datos procedente de variables bidimensionales: distribución conjunta, distribuciones marginales y condicionadas. Análisis de la dependencia estadística."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.E.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estudio de la relación entre dos variables mediante la regresión lineal y cuadrática: valoración gráfica de la pertinencia del ajuste. Diferencia entre correlación y causalidad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.E.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Coeficientes de correlación lineal y de determinación: cuantificación de la relación lineal, predicción y valoración de su fiabilidad en contextos científicos, económicos, sociales, etc."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.E.1.5",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Calculadora, hoja de cálculo o software específico en el análisis de datos estadísticos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "E.2",
+              "nombre": {
+                "es": "Incertidumbre"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.E.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cálculo de probabilidades en experimentos simples y compuestos en problemas de la vida cotidiana. Probabilidad condicionada e independencia entre sucesos aleatorios. Diagramas de árbol y tablas de contingencia. Teorema de la probabilidad total."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "E.3",
+              "nombre": {
+                "es": "Distribuciones de probabilidad"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.E.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Distribuciones de probabilidad uniforme (discreta y continua), binomial y normal. Cálculo de probabilidades asociadas mediante herramientas tecnológicas: aplicación a la resolución de problemas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      401
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "E.4",
+              "nombre": {
+                "es": "Inferencia"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.E.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Selección de muestras representativas. Técnicas sencillas de muestreo. Discusión de la validez de una estimación en función de la representatividad de la muestra."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      402
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.E.4.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Diseño de estudios estadísticos relacionados con diversos contextos utilizando herramientas digitales. Representatividad de una muestra."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      402
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sentido socioafectivo"
+          },
+          "apartados": [
+            {
+              "codigo": "F.1",
+              "nombre": {
+                "es": "Creencias, actitudes y emociones"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.F.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Destrezas de autoconciencia encaminadas a reconocer emociones propias, afrontando eventuales situaciones de estrés y ansiedad en el aprendizaje de las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      402
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.F.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Tratamiento del error, individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      402
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "F.2",
+              "nombre": {
+                "es": "Trabajo en equipo y toma de decisiones"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.F.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Destrezas básicas para evaluar opciones y tomar decisiones en la resolución de problemas y tareas matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      402
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.F.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Técnicas y estrategias de trabajo en equipo para la resolución de problemas y tareas matemáticas, en grupos heterogéneos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      402
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "F.3",
+              "nombre": {
+                "es": "Inclusión, respeto y diversidad"
+              },
+              "saberes": [
+                {
+                  "id": "MG.1.F.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud y prestación de ayuda cuando sea necesario."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      402
+                    ]
+                  }
+                },
+                {
+                  "id": "MG.1.F.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo largo de la historia en el avance de la humanidad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                    "paginas": [
+                      402
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-21",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

@@ -1,0 +1,845 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.bachillerato.historia-del-arte",
+  "territorio": "es-as",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "HA",
+    "nombre": {
+      "es": "Historia del Arte"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-60-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 60/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de Bachillerato en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06714",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06714.pdf",
+      "anexo": "II.a",
+      "paginasMateria": {
+        "desde": 239,
+        "hasta": 249
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La Historia del Arte se basa en el análisis del hecho artístico en sus múltiples facetas y dimensiones, no sólo desde una perspectiva histórica, sino, más aún, entendiéndolo como una manifestación de la inteligencia y la creatividad humana que, a través del lenguaje y la actividad artística, se empeña en comprender y mejorar la realidad que nos rodea. El conocimiento de las manifestaciones artísticas de distintas culturas y épocas permite comprender la diversidad humana y la riqueza de nuestro planeta, impulsando el diálogo entre culturas y formando al alumnado en valores cívicos que le permitan ejercer una ciudadanía activa propia del siglo XXI.",
+      "La Historia del Arte es una materia que empieza su trayectoria durante la Educación Secundaria incorporando contenidos en diversas materias, estando estrechamente vinculada con el logro de los objetivos de etapa y el desarrollo de las competencias clave del Bachillerato, al ahondar en la sensibilidad artística y en el desarrollo del criterio estético, entendidos como aspectos esenciales de la formación integral del alumnado y de su enriquecimiento cultural y personal. Así, se relaciona directamente con la Competencia en Conciencia y Expresión Culturales.",
+      "El aprendizaje de esta materia contribuye, además, al logro de la madurez intelectual y emocional del alumnado. Tanto el análisis de la representación del cuerpo humano como la comunicación de las emociones, intereses y preocupaciones de los seres humanos, como individuos y como sociedad, que muestran las creaciones artísticas, favorece en nuestro alumnado la formación de una imagen ajustada su propia persona y el conocimiento de los lenguajes artísticos como un medio para expresarse.",
+      "La materia se estructura en torno a tres ejes. En primer lugar, el arte permite conocer los sistemas de valores, las creencias, tradiciones y modos de pensamiento de las sociedades que lo generan. El análisis de las creaciones artísticas permite al alumnado desarrollar una actitud crítica, dialogante y respetuosa con respecto a gustos, expresiones y culturas diferentes a las suyas. La materia promueve un conocimiento de las sociedades y culturas del pasado, además de las distintas realidades del mundo contemporáneo y su significado estético.",
+      "En segundo lugar, el estudio de las creaciones artísticas promoverá en nuestro alumnado la adopción de una actitud crítica, cuidadosa y constructiva con respecto a la interpretación, protección y mejora del patrimonio cultural y del entorno social y natural.",
+      "Además, la materia incorpora como tercer eje la perspectiva de género. Por un lado, se estudiará la representación del cuerpo de la mujer como objeto de la obra artística, analizando los cánones y valores que expresa dicha obra. Por otro lado, se estudiará a las mujeres como artistas, examinando los retos que han superado para desarrollar sus creaciones en el seno de culturas androcéntricas.",
+      "Las competencias específicas se convierten en el referente a seguir para dar forma a esta materia que se pretende sea más competencial y actual, en línea con las necesidades de la ciudadanía del siglo XXI. Constituyen el elemento de conexión entre el perfil competencial del alumnado al término del Bachillerato y los saberes básicos de la materia junto con los criterios de evaluación. Así, las competencias específicas se orientan al reconocimiento de la diversidad de manifestaciones artísticas, a la comprensión contextualizada de las más significativas obras de arte como reflejo de la sociedad que las ha generado, al conocimiento y protección del patrimonio, y la ya citada incorporación de la perspectiva de género al estudio histórico del arte.",
+      "Para cada competencia específica se definen unos criterios de evaluación que constituyen los referentes que indican los niveles de desempeño esperados en el alumnado en las diferentes situaciones o tareas a las que se refieren. Los criterios de evaluación conjugan las competencias específicas con los saberes básicos y están orientados al logro de los objetivos del Bachillerato y de las competencias clave. La aplicación de dichos criterios supone la necesidad de adaptar las metodologías y acciones educativas, implementando estrategias en las que se ejerciten tanto los procesos instrumentales como las actitudes, e integrando en ellas las pautas metodológicas propias de la historia del arte.",
+      "Para adquirir y desarrollar estas nuevas competencias específicas, el currículo de la materia de Historia del Arte se estructura en torno a cuatro bloques de saberes básicos, que deberán desarrollarse en distintos contextos generándose situaciones de aprendizaje variadas. Como consecuencia de ello, tanto éstas como los proyectos o tareas que se diseñen, deberán evitar estar centrados exclusivamente en un único bloque, tratando de integrar saberes básicos de manera transversal.",
+      "En el primer bloque, «Aproximación a la Historia del Arte», se afronta el problema de la definición del objeto de estudio y su evolución en el tiempo, el lenguaje artístico como forma de expresión y comunicación, el reto de la interpretación y el juicio estético, el vocabulario y la terminología específicos que el alumnado debe saber utilizar, y las técnicas del comentario histórico-artístico. El trabajo con respecto a estos saberes puede concebirse como preámbulo al curso, o bien como actividad a desarrollar a lo largo del mismo.",
+      "En el segundo bloque, «El arte y sus funciones a lo largo de la historia», se tratan, desde una perspectiva integradora, las funciones y significados de la actividad artística a lo largo del tiempo. Dicha actividad y las obras de arte a ella debidas constituyen un valioso documento para conocer las culturas que han caracterizado las distintas sociedades humanas a lo largo de distintas épocas. Es por ello que resulta imprescindible el estudio de la obra de arte en su contexto como punto de partida para analizar los factores históricos que intervienen en el proceso de su creación. Se pretende, con todo ello, que el alumnado comprenda el carácter multidimensional y complejo de la relación entre la actividad artística y los fenómenos políticos, sociales, económicos e ideológicos, así como entre dicha actividad y la subjetividad de las personas creadoras, planteando, asimismo, el problema del carácter autónomo y de la propia entidad de la obra de arte.",
+      "En el tercer bloque, «Dimensión individual y social del arte», se analiza el papel del arte como expresión de la identidad y de los sentimientos de pertenencia. Se trata aquí de identificar y comprender todos aquellos elementos visuales, icónicos y simbólicos que, presentes en todas las culturas, definen la identidad individual y colectiva de una sociedad. Además, se examina críticamente la participación de las mujeres y se otorga relevancia a la visibilidad de las artistas que han estado marginadas de un canon tradicionalmente concebido desde una perspectiva androcéntrica.",
+      "Por último, en el cuarto y último bloque, «Realidad, espacio y territorio en el arte», se reflexiona sobre la concepción del arte como representación y reflejo de la realidad. Se abordan saberes relacionados con la creación del espacio arquitectónico, el dominio de la perspectiva en la pintura, el urbanismo y la relación del arte y el patrimonio artístico con la naturaleza y el desarrollo sostenible.",
+      "Para el desarrollo de esta materia, se seleccionarán creaciones artísticas y artistas que ejemplifiquen los saberes básicos enmarcados en los bloques citados. Del mismo modo, se acercarán los saberes básicos a la realidad más próxima de nuestro alumnado, preferentemente en el concejo o bien en el ámbito de Asturias. Igualmente, a lo largo del curso, se elegirán momentos para visitar museos, salas de exposiciones u obras de arte in situ. De esta manera, se contribuye a su formación como observadores y observadoras de las creaciones artísticas, desarrollando su juicio estético y su interés por la conservación y conocimiento del patrimonio cultural y artístico.",
+      "Metodología",
+      "Las orientaciones metodológicas que se describen a continuación deben estar orientadas al ejercicio de una ciudanía activa basada en un aprendizaje competencial teniendo en cuenta los diferentes ritmos de aprendizaje del alumnado, mediante la utilización de métodos que favorezcan su capacidad de autoaprendizaje y promuevan el trabajo en equipo. Para la adquisición y desarrollo, tanto de las competencias clave como de las competencias específicas, se planificarán situaciones de aprendizaje, en coordinación con el resto del equipo docente, de acuerdo a los principios que, con carácter orientativo, se recogen en este decreto.",
+      "Para esta materia se toman como referencia los principios pedagógicos propios de la enseñanza participativa e interactiva, en la que se asigna al alumnado un protagonismo creciente en el proceso de construcción de su propio conocimiento y corresponde al profesorado la tarea de adecuar su actividad a las singularidades del alumnado y a la realidad en la que está inmerso.",
+      "Por eso, se buscará siempre que sea posible un acercamiento a las distintas épocas y estilos artísticos a partir del contexto asturiano yendo de lo local a lo global. Dispone el Principado de Asturias de relevantes manifestaciones artísticas con las que ejemplificar los bloques de saberes básicos de esta materia, siendo relevante el acercamiento a los monumentos in situ y a los museos de la comunidad autónoma para que el alumnado adquiera conciencia de la trascendencia social que tiene la conservación y difusión de las expresiones culturales de su entorno inmediato en tanto que manifestaciones materiales e irremplazables de una identidad cultural colectiva.",
+      "Esta materia permite incluir en el proceso de enseñanza aprendizaje los principios de la coeducación, no solo estudiando a las principales artistas de cada etapa y estilo, sino también analizando las dificultades a las que han tenido que enfrentarse para poder desarrollar sus creaciones, así como las causas de su invisibilización a lo largo de la Historia. Del mismo modo, esta materia permite analizar de modo crítico cómo se ha representado a hombres y mujeres a lo largo de distintas épocas y en diferentes lugares, atendiendo a los cánones de belleza y al papel, valores y roles establecidos para cada género.",
+      "Asimismo, y atendiendo a la Ley para la recuperación de la memoria democrática en el Principado de Asturias, esta materia permite trabajar el arte del siglo XX, discerniendo el impacto que supone en la creación artística la Guerra Civil y la Dictadura, tanto en la represión de artistas como en los nuevos valores estéticos que impone un sistema dictatorial. Del mismo modo, se hace necesario reconocer el papel activo de artistas que denuncian en sus obras las violaciones de derechos humanos cometidos en estos periodos, existiendo numerosos ejemplos en el Principado de Asturias.",
+      "Además, la materia permite analizar y comprender la creación artística como un vector de memoria, mediante actividades extraescolares que refuercen los contenidos curriculares con la realización de visitas a espacios de memoria de la Guerra Civil, la Dictadura y la Transición, reflexionando sobre las manifestaciones artísticas que conmemoran lo sucedido y configuran la memoria colectiva de la sociedad que las crea en conexión con los valores democráticos.",
+      "El proceso de enseñanza y aprendizaje estará orientado al desarrollo y consolidación de las competencias clave dotando al alumnado de mayor protagonismo, promoviendo tanto el trabajo en equipo como los procesos de indagación e investigación. Así se le proporcionará la formación, madurez y habilidad necesarias para que pueda desenvolverse con solvencia en cometidos sociales diversos y, asimismo, incorporarse a la vida activa con responsabilidad para afrontar distintos retos.",
+      "La contribución de esta materia al desarrollo de la Competencia en Comunicación Lingüística (CCL) se realizará potenciando la capacidad comunicativa del alumnado, tanto en su expresión oral como en su expresión signada, escrita o multimodal. El enfoque competencial de la materia posibilita la reflexión crítica a través de la realización de lecturas comprensivas, la interrelación y el contraste de fuentes diversas y la ordenación sinóptica del pensamiento mediante resúmenes, cuadros, esquemas o mapas conceptuales. Los aprendizajes adquiridos con estos procedimientos se deben concretar, a través de soportes audiovisuales y multimodales en ejercicios de síntesis, recensiones de textos, análisis de obras, informes monográficos y trabajos de investigación, en los que se fomente la creatividad del alumnado y se genere una interacción comunicativa basada en actitudes de cooperación y respeto. Del mismo modo se formará al alumnado en la igualdad de derechos de todas las personas, desterrando los usos discriminatorios de la lengua, así como los abusos de poder a través de la misma favoreciendo un uso ético del lenguaje. Para ello, en la planificación educativa se contemplarán actividades como la realización de debates, diálogos y exposiciones públicas, en los que se insistirá en la conveniencia de exponer las ideas propias y defenderlas con respeto y tolerancia. Asimismo, la visibilización de las mujeres en la Historia del Arte contribuirá a que el alumnado adquiera un uso no sexista del lenguaje.",
+      "El desarrollo de la Competencia Digital (CD) se fomenta a través del uso del ordenador y de otros dispositivos digitales, como fuentes de búsqueda avanzada y de tratamiento de la información. La red permite el acceso a sitios especializados, blogs, enciclopedias virtuales, páginas web y visitas virtuales a monumentos, ciudades, galerías y museos. Así, el docente o la docente guiará al alumnado en la realización de búsquedas avanzadas atendiendo a criterios de validez, calidad, actualidad y fiabilidad. Además, orientará al alumnado en la organización del almacenamiento de la información de una manera segura y adecuada para referenciarla posteriormente. La incorporación de estos recursos a la metodología y el adiestramiento en el uso reflexivo y responsable de los mismos permiten a nuestro alumnado formarse como ciudadanía digital activa, desarrollando un uso ético de las tecnologías digitales.",
+      "La Competencia Personal, Social y de Aprender a Aprender (CPSAA) se consolida trabajando destrezas que fomentan en el alumnado aptitudes personales como la creatividad, el optimismo, la resiliencia, la autoeficacia y la autonomía funcional, cualidades necesarias para desarrollar una personalidad autónoma, gestionando los cambios, la participación social y su propia actividad. Compete al profesorado establecer dinámicas de aula que favorezcan la implicación consciente del alumnado en el grupo, mostrando sensibilidad y empatía hacia las emociones y experiencias del resto para que desarrolle una personalidad empática e independiente y desarrolle su inteligencia. Para favorecer su madurez personal y social, la acción educativa tendrá como objetivo implicarlo en la planificación a largo plazo, la evaluación de los procesos, la relación de los distintos campos del conocimiento, el análisis crítico de los medios de comunicación, la valoración de fuentes atendiendo a su fiabilidad y la transmisión del conocimiento. Por ello, cobra gran importancia la planificación de actividades que favorezcan su reflexión personal y el trabajo en equipo, desde presupuestos cooperativos y constructivos.",
+      "La materia contribuye a la consolidación de la Competencia Ciudadana (CC) con el fomento de actitudes de respeto y tolerancia hacia las creaciones ajenas y la valoración crítica de las manifestaciones artísticas. Una perspectiva humanista y ética de la materia contribuye a la visión del hecho creativo desprovisto de prejuicios o descalificaciones discriminatorias, ya sea por motivos ideológicos, de exclusión social, religiosos o sexistas, con atención particular al principio de igualdad entre mujeres y hombres, y visibilizando a las artistas en la historia del arte. Así, a través del análisis y comentario de distintas manifestaciones artísticas reflexionará sobre las normas, ideas y valores de las distintas sociedades a lo largo de la historia, contribuyendo a su madurez personal y social. Del mismo modo, a través de actividades grupales se fomentarán actitudes basadas en los principios y procedimientos democráticos, como son el diálogo y el rechazo a todo tipo de discriminación o violencia.",
+      "Desde esta materia se fomenta la Competencia Emprendedora (CE) al permitir que el alumnado vislumbre en toda su dimensión las múltiples oportunidades académicas, profesionales y laborales que su conocimiento proporciona, ya sea en el mercado del arte, ya sea en los ámbitos de la investigación, de la exposición pública, de la custodia o de la divulgación de las manifestaciones artísticas existentes. Del mismo modo, al realizar investigaciones y trabajos cooperativos, el alumnado ha de colaborar con otras personas desarrollando tanto habilidades de negociación y comunicación como estrategias de planificación, toma de decisiones, gestión y evaluación, considerando una oportunidad para aprender tanto la experiencia de éxito como de fracaso. Asimismo, al estudiar y reflexionar sobre el patrimonio artístico, el alumnado evaluará necesidades y oportunidades con un sentido crítico y ético, considerando el impacto que puedan tener las acciones humanas sobre el patrimonio y el entorno.",
+      "Finalmente, la materia contribuye a la Competencia en Conciencia y Expresión Culturales (CCEC) al reflexionar de forma crítica sobre el valor del patrimonio cultural y artístico a lo largo de la historia, tanto en el ámbito autonómico, como nacional e internacional. Del mismo modo, al analizar y comentar las creaciones artísticas a lo largo del tiempo atendiendo a la intencionalidad y funciones de las mismas, el alumnado desarrolla actitudes críticas y respetuosas hacia la obra de arte como expresión colectiva e individual. Asimismo, el conocimiento y análisis de los lenguajes artísticos permite el desarrollo de la autoestima, la empatía, la imaginación y la creatividad.",
+      "Para alcanzar y desarrollar las competencias anteriormente expuestas, en el proceso de enseñanza y aprendizaje deberán estar presentes actividades educativas que favorezcan la capacidad del alumnado para aprender de forma autónoma, trabajar en equipo y aplicar métodos de investigación apropiados, en los que el alumnado se convierta en protagonista en la construcción de su conocimiento. Será necesario impulsar metodologías de trabajo activas como el aprendizaje basado en proyectos, el aprendizaje cooperativo, la codocencia o la gamificación. En este proceso se debe favorecer la crítica y el respeto hacia otras sociedades y culturas, así como hacia las ideas ajenas, como pilar básico del comportamiento democrático.",
+      "Las creaciones artísticas son reflejo de la persona que las crea, pero también de la sociedad en la que se generan, por eso es necesario analizar los condicionantes históricos y sociales que rodean a dicha manifestación artística. Es, pues, necesario habituar al alumnado en la lectura crítica y reflexiva del pasado, analizando las desigualdades existentes y las discriminaciones generadas por razón de género, raza o cualquier otra condición o circunstancia personal o social, reconociendo e impulsando la igualdad real.",
+      "En consecuencia, para la adquisición de las competencias específicas de la materia se plantearán situaciones de aprendizaje consistentes en un conjunto de actividades significativas, complejas y articuladas que deben estar planificadas, relacionadas y vinculadas a experiencias reales y familiares del alumnado. De este modo, conforman una herramienta metodológica esencial ya que permiten integrar todos los elementos del proceso de enseñanza-aprendizaje competencial, vinculándolas con proyectos interdisciplinares, debiendo estar relacionadas con el contexto personal, social, educativo y profesional del alumnado.",
+      "En el desarrollo de estas tareas y proyectos, los saberes no deben verse como independientes, sino que pueden interrelacionarse entre sí. Siguiendo esta idea, el bloque «Aproximación a la historia del arte» puede trabajarse a lo largo del curso, mientras que el resto de los bloques se interconectan atendiendo a diversas dimensiones de las creaciones artísticas."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar diferentes concepciones del arte a lo largo de la historia, seleccionando y analizando información de forma crítica, para valorar la diversidad de manifestaciones artísticas como producto de la creatividad humana y fomentar el respeto por las mismas."
+      },
+      "descripcion": {
+        "es": [
+          "Todas las estrategias y procesos relacionados con la búsqueda, selección, tratamiento y análisis de la información resultan indispensables para el aprendizaje y adquisición de nuevos saberes. Por lo que se hace necesario que el alumnado se ejercite en ellos, procurando un grado suficiente de manejo crítico de fuentes, de precisión en la recogida de datos y de tratamiento contrastado de la información a partir del análisis crítico y riguroso de la misma. Este proceso ha de culminar con la elaboración de síntesis, resúmenes, informes, reseñas o reelaboraciones propias a través de los que organizar, interiorizar y comunicar lo aprendido de forma precisa y creativa.",
+          "Otro elemento fundamental es la delimitación de su campo de estudio, algo ligado tanto a los cambios históricos que se han dado en la comprensión de este como a la evolución del significado de sus conceptos fundamentales, empezando por la propia noción de «obra de arte». En último término, es esencial que el alumnado reconozca la diversidad y heterogeneidad, tanto diacrónica como sincrónica de los criterios estéticos, identificando aquellos que son propios a diferentes culturas, sociedades y artistas. A este respecto, se habrá de prestar especial atención al ámbito del arte contemporáneo, de manera que, más allá de las distinciones clásicas, se identifique y aprecie formas de expresión ligadas a los modos actuales de producción y comunicación, tales como el cómic, el arte urbano, el videoarte o el arte digital, entre otros."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          243,
+          244
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Reconocer los diversos lenguajes artísticos como una forma de comunicación y expresión de ideas, deseos y emociones, utilizando con corrección la terminología y el vocabulario específico de la materia, para expresar con coherencia y fluidez sus propios juicios y sentimientos y mostrar respeto y empatía por los juicios y expresiones de las demás personas."
+      },
+      "descripcion": {
+        "es": [
+          "Resulta especialmente relevante que el alumnado reconozca los diversos lenguajes artísticos como una forma de comunicación y expresión estética, con reglas y pautas propias, que se originan, vulneran y recrean de muy variados modos, a tenor de cada época, cultura, género, estilo o artista individual. Estas reglas pueden referirse a patrones formales y pautas técnicas (simetría, proporción, equilibrio de la composición, tensión entre elementos, ruptura con las propias pautas, etc.) que conviene que se reconozcan. En cualquier caso, el alumnado ha de comprender que la experiencia artística precisa, en muchas ocasiones, del conocimiento previo de los códigos representativos y lenguajes plásticos con los que opera cada arte y cada artista.",
+          "Por otro lado, es necesario que el alumnado conozca y utilice con propiedad y corrección la terminología y el vocabulario propio de la materia, lo que le va a permitir realizar y comunicar sus propios comentarios artísticos, trabajos de investigación o reflexiones personales, con fluidez y rigor, tanto en formatos digitales como en otros más tradicionales. El objetivo es que el alumnado pueda expresar y comunicar de forma solvente y original ideas y juicios propios, construir e integrar nuevos conocimientos, movilizar los saberes que ya tiene adquiridos, así como participar con actitud cooperativa en situaciones comunicativas relacionadas con el ámbito artístico, respetando siempre la diversidad de percepciones y opiniones que cabe experimentar y expresar ante la obra de arte."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "CD1",
+        "CPSAA1.2",
+        "CPSAA5",
+        "CC1",
+        "CE3",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          244
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Distinguir las distintas funciones del arte a lo largo de la historia, analizando la dimensión religiosa, ideológica, política, social, económica, expresiva y propiamente estética de la obra de arte, de su producción y su percepción, para promover una apreciación global y un juicio crítico e informado de los mismos."
+      },
+      "descripcion": {
+        "es": [
+          "La producción artística ha adquirido a menudo, de manera intencionada o no, diferentes funciones. Así, el arte ha podido instrumentalizarse en sus orígenes y aún hoy como proceso mágico y ritual. Se ha empleado también como lenguaje para la transmisión de determinadas ideas, creencias y doctrinas religiosas. Ha servido, en ocasiones, a Estados, colectivos e individuos como medio de influencia y control, tanto para generar conformidad con el orden social, como para subvertirlo y transformarlo. Ha sido igualmente utilizado como elemento de cohesión social y representación identitaria de grupos y colectividades. Se ha concebido como actividad económica, confundiéndose, en la actualidad, con procesos como el diseño industrial o la publicidad. Se ha interpretado también como modo de expresión de la subjetividad y los sentimientos. Por último, ha sido entendida, desde la época moderna, como una actividad esencialmente autónoma, sin subordinación posible a ninguna otra función salvo la de recrearse a sí misma, para volver a vincularse a una concepción problemática y diversa de la realidad en algunas de las corrientes y artistas postmodernos.",
+          "Así, es importante que el alumnado identifique y contextualice históricamente las relaciones complejas entre la producción artística y las mentalidades, intereses y acciones de los Estados y otros grupos de poder, de las distintas clases y grupos sociales, así como de las empresas y de otras instancias o sujetos individuales o colectivos, incidiendo en las que se establecen, a día de hoy, en el marco de una cultura audiovisual dominada desde los medios y redes de comunicación. El objetivo último es comprender la producción y percepción artística como un proceso histórico complejo, vinculado a distintos contextos, intenciones y funcionalidades que resultan finalmente plasmadas en la propia obra de arte."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA1.2",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          244,
+          245
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Identificar y caracterizar los principales movimientos artísticos a lo largo de la historia, reconociendo las relaciones de influencia, préstamo, continuidad y ruptura que se producen entre ellos, para comprender los mecanismos que rigen la evolución de la historia del arte y fomentar el respeto y aprecio de las manifestaciones artísticas de cualquier época y cultura."
+      },
+      "descripcion": {
+        "es": [
+          "Al final de la etapa de Bachillerato, el alumnado debe haber adquirido una visión general sobre las distintas etapas y movimientos que conforman la historia del arte. Se trata en ese sentido de ir caracterizándolos en sus rasgos esenciales, estableciendo relaciones entre ellos, identificando semejanzas y diferencias y sistematizando de modo crítico la información básica en torno a los mismos. La dificultad de abarcar, dada su amplitud, toda esta secuencia histórica, hace necesaria una selección equilibrada de elementos temáticos que favorezca una aproximación general al desarrollo de la historia del arte, propiciando una concepción global del mismo en la que se complemente la secuenciación lineal con un análisis transversal relativo a las funciones, valores y significados atribuibles a la creación y la experiencia artísticas.",
+          "Se concederá, así, especial atención a las relaciones de influencia y los mecanismos de reproducción que hacen que un movimiento artístico se prolongue en el tiempo, como ocurre en la relación entre el arte griego y el romano, que perviva en sí mismo, como el arte islámico, o que, mediante una ruptura, dé lugar a un movimiento nuevo, como es el caso del Neoclasicismo y el Romanticismo. La propia reflexión sobre el lenguaje artístico ayudará al alumnado a entender por qué a un estilo le sigue otro, muchas veces contrapuesto, o por qué dos estilos conviven en el tiempo. Por otro lado, se trata también de identificar las continuas influencias que se dan entre el pasado y el presente, retomándose en ocasiones, y con otros lenguajes, ciertos elementos del pasado, y rompiendo, en otros casos con él para dar lugar, de forma progresiva o más abrupta, a nuevos movimientos artísticos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA4",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          245
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Identificar y contextualizar espacial y temporalmente las más relevantes manifestaciones y personalidades artísticas, analizando su entorno social, político y cultural, y sus aspectos biográficos, para valorar las obras y a sus artistas como expresión de su época y ámbito social, apreciar su creatividad y promover el conocimiento de diversas formas de expresión estética."
+      },
+      "descripcion": {
+        "es": [
+          "Es importante que el alumnado identifique y analice las obras más significativas de diferentes artistas y movimientos artísticos. Se trata de analizar aquellas que, por su significación y su repercusión a lo largo del tiempo, han marcado un hito en la historia del arte. Es igualmente importante que en la delimitación de las obras y en el proceso mismo del análisis se eviten criterios que, por su carácter ideológico, eurocéntrico, sexista o, en general, discriminatorio, supongan un sesgo injustificado. Para evitarlo es conveniente infundir una visión global y libre de prejuicios de la historia del arte, examinando y apreciando obras de otras culturas o aquellas que, pese a su interés y calidad, hayan sido marginadas de los cánones al uso. Esto mismo es extensible a artistas que, por diversos motivos, y pese al valor reconocido de su obra, hayan sido olvidados por la historiografía.",
+          "Por otro lado, uno de los ejes de la materia debe ser entender las creaciones artísticas como expresión de la actividad humana y sus circunstancias en determinada cultura y momento histórico. El estudio de una obra de arte adquiere, así, todo su significado cuando se la pone en relación con su contexto sociocultural y con la biografía de su autor. Conviene, además, tener en cuenta el carácter bidireccional de dicha relación, de manera que, si bien ninguna obra puede ser plenamente entendida sin considerar los factores y circunstancias espaciotemporales y biográficos que intervinieron en su creación, el estudio de la obra de arte resulta igualmente un factor a tener en cuenta para el conocimiento de la época, la cultura y la personalidad que la gestó."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA3.1",
+        "CPSAA4",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          246
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Conocer y valorar el patrimonio artístico en el ámbito local, nacional y mundial, analizando ejemplos concretos de su aprovechamiento y sus funciones, para contribuir a su conservación, su uso comprometido a favor de la consecución de los Objetivos de Desarrollo Sostenible, su promoción como elemento conformador de la identidad individual y colectiva, y como dinamizador de la cultura y la economía."
+      },
+      "descripcion": {
+        "es": [
+          "El reconocimiento del patrimonio artístico como un elemento que nos ha sido legado por las generaciones pasadas y la necesidad de su conservación, su uso sostenible y su promoción, representan un imperativo fundamental para cualquier sociedad y cultura. En este sentido, el papel de la materia de Historia del Arte resulta crucial, pues difícilmente podemos valorar algo que no conocemos. Se trata, pues, de que el alumnado tome conciencia, a través del análisis pormenorizado de casos concretos, del valor simbólico y de la importancia social, ambiental y material del patrimonio artístico y cultural, de la complejidad y el mérito de la comunidad profesional encargada de su mantenimiento, y de aquellas repercusiones ecosociales que supone su conservación y puesta en valor.",
+          "La expresión de la identidad y de los sentimientos de pertenencia es una de las funciones atribuibles al arte en prácticamente todas las épocas y culturas, pues este suele reflejar en gran medida aquellos elementos visuales, icónicos y simbólicos que definen las singularidades y creencias colectivas. Es importante, pues, que el alumnado reflexione de forma crítica y dialogada acerca de cómo el arte genera y transmite tales sentimientos y creencias a distintas escalas, siendo instrumentalizado, en ocasiones, como un medio propagandístico de representación y de educación al servicio del Estado u otros grupos, mediante la creación, por ejemplo, de instituciones académicas y museísticas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA4",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CE1",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          246,
+          247
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Distinguir y describir los cambios estéticos y los diferentes cánones de belleza a lo largo de la historia del arte, realizando análisis comparativos entre obras de diversos estilos, épocas y lugares, para formarse una imagen propia ajustada y consolidar una madurez personal que permita mostrar sensibilidad y respeto hacia la diversidad superando estereotipos y prejuicios."
+      },
+      "descripcion": {
+        "es": [
+          "La historia del arte es uno de los mejores escenarios en los que formar al alumnado para el logro de un adecuado concepto de sí mismo, a través, por ejemplo, de la reflexión sobre las distintas formas de representación humana a lo largo del tiempo. Esta necesidad de hacerse visible, proyectarse e identificarse a través de la imagen es una constante histórico-cultural que conduce a la pregunta recurrente acerca de las formas y propósitos de dicha representación. Es necesario pues que, a través del análisis de géneros como el retrato y otros, se promueva en el alumnado la captación de la psicología y la mirada interior de los personajes, tanto de figuras destacadas de la historia como de personas o grupos de diferentes estratos sociales, la expresión de la diversidad de razas y etnias, o el reflejo del ciclo vital desde la infancia hasta la vejez y la muerte.",
+          "Todo lo anterior puede relacionarse, a su vez, con el concepto de belleza y sus opuestos y con su evolución histórica. De este modo, a través del análisis comparativo de obras de distintos periodos, el alumnado puede reconocer cómo han ido cambiando la idea de belleza y los cánones de valoración estética, adquiriendo una concepción compleja y no dogmática de las ideas estéticas y dando ocasión al desarrollo de su propio criterio y gusto. Otro de los propósitos de este análisis es contribuir a que el alumnado adopte un concepto ajustado y asertivo de su propia imagen física, a la vez que una actitud de respeto y reconocimiento de la diversidad humana, tanto en su aspectos psíquicos y físicos como en cuanto a sus manifestaciones culturales, rechazando todo tipo de prejuicios y estereotipos discriminatorios."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          247
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Integrar la perspectiva de género en el estudio de la historia del arte, analizando el papel que ha ocupado la mujer y la imagen que de ella se ha dado en los diferentes estilos y movimientos artísticos, para visibilizar a las artistas y promover la igualdad efectiva entre mujeres y hombres."
+      },
+      "descripcion": {
+        "es": [
+          "La historiografía del arte, gestada a partir de mediados del siglo XVIII, relegó a la mujer de las distintas disciplinas artísticas, negando y ocultando su capacidad creadora, como constata la escasa presencia femenina en las colecciones de los grandes museos. La materia de Historia del Arte puede ser una herramienta muy útil para invertir esta tendencia, recuperando y valorando aquellas figuras artísticas que han sido injustificadamente marginadas del canon del arte por su simple condición de mujer.",
+          "Por otra parte, analizando los estereotipos y símbolos relacionados con la mujer y el ámbito femenino en obras de arte en que se representan espacios, roles, actividades y modos de vida, se pueden contextualizar y comprender mejor las relaciones entre ambos sexos a lo largo de la historia. Se trata así de promover en el alumnado actitudes críticas y de rechazo hacia el sexismo y la discriminación de la mujer, a partir de un análisis crítico de aquellas representaciones y de su función como generadoras de conformidad social."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CPSAA3.1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-60-2022",
+        "paginas": [
+          247,
+          248
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar y respetar la diversidad de manifestaciones artísticas a partir de la investigación y el debate en torno a las diferentes concepciones del arte y el análisis de obras concretas sobre las que comprobar la pertinencia de dichas concepciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              244
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar y expresar con coherencia y fluidez juicios y emociones propios acerca de las obras de arte y mostrar respeto y empatía por los juicios y expresiones de las demás personas, utilizando la terminología y el vocabulario específico de la materia y demostrando un conocimiento básico de los diversos lenguajes artísticos aprendidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              244
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Distinguir y analizar las funciones y las dimensiones religiosa, ideológica, política, social, económica, expresiva y propiamente estética de las obras de arte, demostrando una comprensión y un juicio crítico y fundamentado de las mismas y de su producción y su percepción."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              245
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer y explicar las principales manifestaciones y movimientos artísticos, identificando y analizando su contexto cultural, su vinculación con las funciones atribuibles al arte, sus características estilísticas fundamentales y su desarrollo en el tiempo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              246
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reconocer los mecanismos que rigen la evolución de la historia del arte a partir del análisis comparativo de obras de diversas épocas y de la explicación de las relaciones de influencia, préstamos, continuidad y ruptura que se producen entre estilos, autoras, autores y movimientos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              246
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Elaborar comentarios histórico-artísticos de distintas obras de arte a partir del conocimiento crítico y argumentado de su contexto histórico, sus funciones y su relevancia social, política y cultural, valorando y respetando distintas obras y formas de manifestaciones artísticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              246
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar y analizar la complejidad del proceso de creación artística, elaborando reseñas biográficas sobre las figuras más destacadas y atendiendo a aquellos aspectos personales que faciliten la comprensión del significado y del valor de la obra, tomando conciencia del papel de la artista y del artista en el proceso creador."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              246
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Comprender la importancia de la conservación y promoción del patrimonio artístico, investigando acerca de los procesos de adquisición, conservación, exhibición y uso sostenible de obras de arte, así como sobre el impacto positivo y negativo de las acciones humanas sobre ellas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              247
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar el papel conformador de la identidad individual y colectiva que poseen el arte y el patrimonio artístico, analizando las autorrepresentaciones humanas y el uso de recursos estéticos e iconográficos en la generación y el mantenimiento de los vínculos grupales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              247
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Elaborar argumentos propios acerca de la noción de belleza, comparando cánones y obras de diversos tipos, estilos, épocas y lugares, apreciando la diversidad como fuente de enriquecimiento, superando estereotipos y prejuicios y promoviendo la formación de una imagen propia ajustada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              247
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Conocer las principales figuras femeninas de la historia del arte, dando visibilidad a la mujer como artista, analizando el contexto político, social y cultural en el que desarrollaron su producción artística y reconociendo su esfuerzo por hacerse valer en él."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              248
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Conocer y analizar críticamente la imagen que se ha dado de la mujer en la historia del arte mediante el análisis comparativo de obras de distintas épocas y culturas en las que se representen figuras, roles, símbolos y temas relacionados con la feminidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-60-2022",
+            "paginas": [
+              248
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Aproximación a la Historia del Arte"
+          },
+          "saberes": [
+            {
+              "id": "HA.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El debate sobre la definición de arte. El concepto del arte a lo largo de la historia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje artístico: el arte como forma de comunicación. La variedad de códigos y lenguajes. Símbolos e iconografía en el arte. La subjetividad creadora. La complejidad de la interpretación. El juicio estético."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Terminología y vocabulario específico del arte en la arquitectura y las artes plásticas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas para el análisis de la obra de arte: elementos técnicos, formales y estilísticos. Estudio iconográfico y significado, identificación, contextualización y relevancia de la obra. El análisis comparativo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Influencias, préstamos, continuidades y rupturas en la Historia del Arte."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "El arte y sus funciones a la largo de la historia"
+          },
+          "saberes": [
+            {
+              "id": "HA.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como instrumento mágico-ritual a lo largo de la historia. El arte rupestre cantábrico."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como dispositivo de dominación y control: desde las primeras civilizaciones urbanas hasta la sociedad contemporánea."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte y su valor propagandístico: desde el Mundo Antiguo hasta la actual sociedad de consumo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte y su función didáctica y religiosa en las sociedades teocéntricas. El arte prerrománico asturiano."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte, mecenazgo y coleccionismo como elementos de diferenciación social."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como medio de progreso, crítica y transformación sociocultural desde el pensamiento ilustrado hasta la actualidad. El arte asturiano del siglo XX en el contexto de la Guerra Civil y la Dictadura franquista."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como idioma de sentimientos y emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  248
+                ]
+              }
+            },
+            {
+              "id": "HA.2.B.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como expresión de los avances tecnológicos: desde la Revolución Industrial hasta la era digital."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Dimensión individual y social del arte"
+          },
+          "saberes": [
+            {
+              "id": "HA.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte e identidad individual: la necesidad de representarnos. La imagen del cuerpo humano. El género del retrato. La evolución en la imagen de la artista y del artista."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            },
+            {
+              "id": "HA.2.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte e identidad colectiva: escuelas, regionalismos y búsqueda de identidad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            },
+            {
+              "id": "HA.2.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La representación de la mujer en el arte desde una perspectiva crítica."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            },
+            {
+              "id": "HA.2.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La mujer como artista. La lucha por la visibilidad a lo largo de la historia del arte."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Realidad, espacio y territorio en el arte"
+          },
+          "saberes": [
+            {
+              "id": "HA.2.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte y realidad: imitación e interpretación. La revolución de la fotografía y el cine."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arquitectura y espacio: la creación de espacios arquitectónicos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Pintura y perspectiva: la conquista de la tercera dimensión."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte e intervención en el territorio: el urbanismo como arte."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte y medio ambiente. La naturaleza y la representación de las emociones. Arquitectura, urbanismo y diseño sostenible. La contribución del arte a los Objetivos de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            },
+            {
+              "id": "HA.2.D.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El patrimonio artístico: preservación, conservación y usos sostenibles. Museografía y museología. Los espacios de memoria en la Ley para la recuperación de la memoria democrática en el Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-60-2022",
+                "paginas": [
+                  249
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-21",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}
