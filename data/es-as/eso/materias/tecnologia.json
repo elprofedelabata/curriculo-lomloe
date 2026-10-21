@@ -1,0 +1,842 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.eso.tecnologia",
+  "territorio": "es-as",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "TEC",
+    "nombre": {
+      "es": "Tecnología"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-59-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 59/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de la Educación Secundaria Obligatoria en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06713",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 288,
+        "hasta": 301
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Tecnología contribuye a dar respuesta a las necesidades y problemas del ser humano frente a los desafíos y retos tecnológicos que plantea la sociedad actual. Esta materia servirá de base no solo para comprender la evolución social, sino también para poder actuar con criterios técnicos, científicos y éticos en el ejercicio de una ciudadanía responsable y activa, utilizando la generación del conocimiento como motor de desarrollo y fomentando la participación del alumnado en igualdad con una visión integral de la disciplina, resaltando su aspecto social. En este sentido, los retos del siglo XXI orientan el desarrollo en esta materia como aspecto esencial en la formación del alumnado. Así se abordan aspectos económicos, sociales y ambientales relacionados con la influencia del desarrollo tecnológico, y de la automatización y robotización, tanto en la organización del trabajo como en otros ámbitos de la sociedad útiles para la gestión de la incertidumbre ante situaciones de inequidad y exclusión, favoreciendo la igualdad de oportunidades entre mujeres y hombres. Asimismo, la sostenibilidad está muy ligada a los procesos de fabricación, a la correcta selección de materiales y técnicas de manipulación y a los sistemas de control que permiten optimizar los recursos. Por otro lado, la tecnología proporciona medios esenciales para abordar los Objetivos de Desarrollo Sostenible como el acceso universal a la energía y la comunicación, así como a la educación, a la alimentación y la salud, incluida la afectivo-sexual, entre otros. La accesibilidad es también un componente necesario del proceso tecnológico, pues, quien diseña ha de tener en cuenta las diferentes necesidades, contemplando la diversidad y favoreciendo así la inclusión efectiva de todas las personas en una sociedad moderna y plural.",
+      "La materia Tecnología da continuidad tanto al abordaje transversal de la disciplina durante la etapa de Educación Primaria, donde el alumnado se inicia en el desarrollo de proyectos de diseño y en el pensamiento computacional, como a la materia de Tecnología y Digitalización en la etapa de Educación Secundaria Obligatoria. Permite, además, profundizar en la adquisición de competencias, así como desarrollar una actitud emprendedora de cara a estudios posteriores o al desempeño de actividades profesionales.",
+      "El carácter interdisciplinar de la materia contribuye a la adquisición de los objetivos de etapa y de los descriptores de las distintas competencias clave que conforman el Perfil de salida del alumnado al término de la enseñanza básica. Ambos elementos –los objetivos de etapa y el Perfil de salida– orientan las competencias específicas de la materia. Los ejes vertebradores sobre los que se asientan dichas competencias específicas son: la naturaleza transversal propia de la tecnología; el impulso de la colaboración y el trabajo en equipo; el pensamiento computacional y sus implicaciones en la automatización y en la conexión de dispositivos a internet; así como el fomento de actitudes como la creatividad, la perseverancia, la responsabilidad en el desarrollo tecnológico sostenible o el emprendimiento incorporando las tecnologías digitales. Cabe destacar la resolución de problemas interdisciplinares como eje vertebrador de la materia y refleja el enfoque competencial de la misma.",
+      "Los criterios de evaluación son el elemento que sirven para valorar el grado de adquisición de las competencias específicas y están formulados con una orientación competencial.",
+      "La materia se organiza en cuatro bloques de saberes básicos interrelacionados: «Proceso de resolución de problemas»; «Operadores tecnológicos»; «Pensamiento computacional, automatización y robótica» y «Tecnología sostenible».",
+      "La puesta en práctica del bloque «Proceso de resolución de problemas», mediante estrategias y metodologías para un aprendizaje basado en el desarrollo de proyectos, incorpora técnicas actuales adaptadas del mundo empresarial e industrial, en consonancia con las tendencias educativas de otros países. Si bien se da una gran importancia a las fases de investigación, ideación, diseño y fabricación, también se incluye un adecuado tratamiento de la fase de presentación y comunicación de resultados, como un aspecto clave para la difusión de los trabajos realizados.",
+      "El bloque de «Operadores tecnológicos», aplicado a proyectos, ofrece una visión sobre los elementos mecánicos y electrónicos que permiten resolver problemas mediante técnicas de control digital en situaciones reales.",
+      "El bloque de «Pensamiento computacional, automatización y robótica» establece las bases, no solamente para entender, sino también para saber diseñar e implementar sistemas de control programado, así como programar ordenadores o dispositivos móviles. La incorporación de módulos de inteligencia artificial y técnicas de ingeniería de datos ofrecen aquí un valor añadido. En esta misma línea, la integración de telecomunicaciones en los sistemas de control abre la puerta al internet de las cosas y permite su uso en aplicaciones prácticas pudiendo dar respuesta a las necesidades personales o colectivas.",
+      "Por último, el bloque de «Tecnología sostenible» incluye los saberes necesarios para la aplicación de criterios de sostenibilidad en el uso de materiales, el diseño de procesos y en cuestiones energéticas; reconociendo la importancia de la diversidad personal, social y cultural e incidiendo sobre temas como las comunidades abiertas de aprendizaje y los servicios a la comunidad con un compromiso activo tanto en el ámbito local como en el global.",
+      "La materia se plantea en el último curso de la etapa de enseñanza obligatoria desde una perspectiva competencial y eminentemente práctica, basada en la idea de aprender haciendo. Esta idea consiste en propiciar un entorno adecuado para que el alumnado tenga la oportunidad de llevar a cabo ciertas tareas mientras explora, descubre, experimenta, aplica y reflexiona sobre lo que hace. La propuesta de situaciones de aprendizaje desarrolladas en un taller o laboratorio de fabricación, entendido como un espacio para materializar los proyectos interdisciplinares con un enfoque competencial y práctico, que permita incorporar técnicas de trabajo, prototipado rápido y fabricación offline con sistemas de impresión en tres dimensiones y otras herramientas de fabricación digital, favorece la implicación del alumnado en su proceso de aprendizaje y, por lo tanto, este será más significativo y duradero.",
+      "En este sentido, resulta conveniente tener presente que el desarrollo de proyectos tecnológicos supone una opción muy adecuada como elemento vertebrador de los saberes básicos de la materia de Tecnología.",
+      "Metodología",
+      "La enseñanza de la materia Tecnología tiene como finalidad el desarrollo en el alumnado de las siguientes competencias clave: Competencia en Comunicación Lingüística (CCL), Competencia Plurilingüe (CP), Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM), Competencia Digital (CD), Competencia Personal, Social y de Aprender a Aprender (CPSAA), Competencia Ciudadana (CC), Competencia Emprendedora (CE) y Competencia en Conciencia y Expresión Culturales (CCEC).",
+      "La materia Tecnología contribuye a que el alumnado adquiera las competencias establecidas en el Perfil de salida al finalizar la Educación Secundaria Obligatoria, sirviendo como base de enlace con estudios posteriores, bien sea en Formación Profesional o Bachillerato.",
+      "La materia contribuye a la consecución de la Competencia en Comunicación Lingüística a través de la adquisición de vocabulario específico, de la utilización de la expresión oral y escrita para expresar las ideas o las argumentaciones que han de ser utilizadas en los procesos de búsqueda, análisis, selección, resumen y comunicación de información y soluciones a los problemas tecnológicos planteados. La lectura, interpretación, redacción y exposición de informes y documentos técnicos en diferentes formatos y soportes contribuyen al conocimiento y a la capacidad de utilización de diferentes tipos de textos y sus estructuras formales. Además, en el contexto de la realización de trabajos de investigación se pueden utilizar distintos formatos de presentación en los que se debe usar apropiadamente el lenguaje y emplear un vocabulario adecuado. La comunicación lingüística está también presente en las actividades que requieren trabajo en grupo, donde los alumnos y las alumnas tienen que exponer sus ideas, defenderlas y argumentarlas, así como escuchar las de las demás personas para debatir la idoneidad de todas ellas.",
+      "La Competencia Plurilingüe también se trabaja en esta materia pues parte de los programas informáticos no tienen versión castellana, por lo que deben utilizarse en su idioma original. Además, en el mundo global que nos rodea Internet ofrece una gran variedad de fuentes en otras lenguas que dan acceso a información técnica de gran utilidad para la materia.",
+      "La adquisición de la Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería se trabaja al aplicar el razonamiento matemático a través de la resolución de problemas basados en la aplicación de expresiones matemáticas referidas a principios y fenómenos físicos; para ello se recurrirá al método y pensamiento científico, generándose situaciones de aprendizaje en los distintos bloques de saberes de la materia. La adquisición de dicha competencia se apoyará en el estudio y aplicación de materiales, componentes electrónicos, neumáticos, herramientas, máquinas, técnicas, programas y aplicaciones de forma crítica, responsable y sostenible, respetando las normas de seguridad e higiene en el trabajo, facilitando la incorporación de la mujer en dicho campo, fortaleciendo la eliminación de estereotipos y en igualdad de condiciones.",
+      "El trabajo en equipo, el compartir y publicar documentación, el uso frecuente de las tecnologías de la información y la comunicación proporcionan una oportunidad especial para desarrollar la Competencia Digital. Los aprendizajes se ven fuertemente contextualizados mediante el desarrollo de las capacidades que permiten comprender los sistemas de comunicación, que proporcionan habilidades para integrar, reelaborar y producir información, susceptible de publicar e intercambiar con otras personas, en diversos formatos y por medios diferentes, aplicando medidas de seguridad y uso responsable. Además, debe destacarse en relación con el desarrollo de esta competencia la importancia del uso de herramientas de simulación de procesos tecnológicos. Por otro lado, el estudio y análisis del funcionamiento de los ordenadores, equipos informáticos y otros dispositivos, así como los elementos físicos necesarios para el establecimiento y gestión de redes intercomunicadas o la elección del componente apropiado para una determinada función, el análisis del funcionamiento de los distintos dispositivos y la instalación y configuración de aplicaciones inciden notablemente en la adquisición de dicha competencia.",
+      "A la adquisición de la Competencia Personal, Social y Aprender a Aprender se contribuye aplicando una metodología basada en el proceso de resolución de problemas, en el montaje, simulación y estudio de objetos, sistemas o entornos tecnológicos. Estas propuestas metodológicas proporcionan habilidades y estrategias cognitivas y promueven actitudes y valores necesarios para el aprendizaje. El trabajo en equipo y la metodología de trabajo por proyectos contribuyen al desarrollo de las relaciones interpersonales, al aprendizaje autónomo y a la autoevaluación.",
+      "La contribución de la materia a la adquisición de la Competencia Ciudadana se articula a través del proceso de resolución de problemas tecnológicos y de las diferentes actividades realizadas en grupo, que proporcionan al alumnado habilidades y estrategias para expresar y discutir adecuadamente ideas y razonamientos, escuchar a las demás personas, abordar dificultades, gestionar conflictos y tomar decisiones, practicando el diálogo, la negociación y adoptando actitudes de respeto y tolerancia hacia sus compañeros y sus compañeras.",
+      "También el trabajo en grupo da la oportunidad al alumnado de someterse a planificaciones conjuntas y de adquirir y cumplir compromisos de trabajo. Un aspecto significativo relacionado con la Competencia Ciudadana que se puede y debe trabajar desde la materia es el respeto a las licencias de distribución del software empleado y el cumplimiento de las normas de comportamiento en la red.",
+      "La contribución a la Competencia Emprendedora se articula en el modo particular que proporciona esta materia para abordar los problemas tecnológicos. Las diferentes fases del proceso contribuyen a distintos aspectos de esta competencia: el planteamiento adecuado de los problemas, la elaboración de ideas que son analizadas desde distintos puntos de vista, para elegir la más adecuada; la planificación que conlleva la implementación de un plan, control del tiempo, la gestión de recursos materiales, humanos y financieros; la ejecución del proyecto; la evaluación del desarrollo del mismo y del objetivo alcanzado; y, por último, la realización de propuestas de mejora. A través de esta vía se ofrecen muchas oportunidades para el desarrollo de cualidades personales del alumnado, como la iniciativa, el espíritu de superación, la perseverancia frente a las dificultades, la responsabilidad, la autonomía y la autocrítica, contribuyendo al aumento de su confianza y seguridad y a la mejora de su autoestima. El sentido de iniciativa se identifica con la capacidad de transformar las ideas en objetos.",
+      "A comprender y respetar la forma en que las ideas y el significado se expresan de forma creativa y se comunican en las distintas culturas, es decir, a la Competencia en Conciencia y Expresiones Culturales colabora la materia con varios de sus saberes básicos y competencias específicas que permiten adquirir a los alumnos y las alumnas las herramientas necesarias para elaborar juicios de valor frente al desarrollo tecnológico y adquirir hábitos que potencien el desarrollo sostenible. Además, las diferentes fases del método de resolución de problemas permiten poner en funcionamiento la iniciativa, la imaginación y la creatividad a la vez que desarrollan actitudes de valoración de la libertad de expresión. Otra contribución de la materia a la CCEC se realizará a través del trabajo de edición de contenidos y su posterior integración en producciones que han de seguir ciertos criterios estéticos acordes con la realidad cultural que nos rodea.",
+      "Dado el contenido eminentemente práctico de la materia de Tecnología y la gran importancia que se otorga al trabajo manipulativo y creativo en el desarrollo de proyectos en el aula taller, se considera fundamental establecer ratios que garanticen al profesorado conseguir una completa supervisión respecto al cumplimiento de las normas tanto de seguridad como de higiene por parte del alumnado. Así mismo, la dotación de los talleres debe ser acorde a los proyectos que se desarrollen en ellos, tanto en la disposición de material fungible como de herramientas y maquinaria necesarias.",
+      "El carácter de la materia conlleva además la utilización y el manejo de dispositivos digitales como ordenadores, tabletas electrónicas, etc., donde los alumnos y las alumnas realicen tareas prácticas. Para que dichas actividades se puedan desarrollar de forma que garanticen la adquisición de las distintas competencias y la evaluación del alumnado en condiciones de equidad, es necesario disponer de un ordenador o dispositivo por estudiante en un aula conectada y dotada adecuadamente de los medios técnicos necesarios.",
+      "Las propuestas metodológicas tienen como finalidad la adquisición de las competencias, para lo cual el alumnado debe adquirir los saberes básicos científicos y técnicos necesarios para la comprensión y el desarrollo de la actividad tecnológica, utilizarlos en el análisis de los objetos tecnológicos existentes, aplicarlos al proceso de resolución de problemas integrándolos en su ámbito social y cultural. Resulta fundamental vincular los conocimientos del alumnado con habilidades prácticas o destrezas, que junto con una actitud adecuada contribuyan a una mejora de las competencias.",
+      "Se han de favorecer y diseñar situaciones de aprendizaje que posibiliten la resolución de problemas, la aplicación de los conocimientos aprendidos, graduados en dificultad, donde el alumnado sea el protagonista y adquiera aprendizajes permanentes que le permitan desenvolverse en el mundo del conocimiento y la tecnología, capacitándolo para adaptarse a los constantes cambios. Las actividades se plantearán posibilitando la participación individual y el trabajo en equipo del alumnado de forma igualitaria, en un ambiente de diálogo, debate, tolerancia, respeto, cooperación y de convivencia.",
+      "La utilización del proceso de resolución de problemas tecnológicos, común a cualquier proceso técnico, será el eje vertebrador sobre el cual se sustenta la materia. Permite avanzar desde la identificación y formulación de un problema técnico hasta su solución constructiva.",
+      "El papel del profesorado será de guía y mediador, motivando con ejemplos prácticos y cercanos, conduciendo el proceso de enseñanza-aprendizaje, planteando tareas y situaciones que posibiliten la resolución de problemas, graduados en dificultad, donde se relacionen los nuevos conocimientos con los ya adquiridos.",
+      "El profesor o la profesora promoverá la aplicación o puesta en práctica de estrategias que permitan al alumnado organizarse, distribuir responsabilidades y tareas, tomar acuerdos, etc., para que conforme vaya adquiriendo experiencia y prosperando como grupo, pueda afrontar de forma autónoma su organización para abordar y resolver problemas técnicos, capacitándolo para desarrollar valores democráticos. El uso de diferentes recursos (bibliográficos, simulaciones virtuales, audiovisuales, manipulativos en talleres, informáticos…) y tipos de actividades permitirá atender a la diversidad del alumnado teniendo en cuenta los diferentes intereses, capacidades y ritmos de aprendizaje.",
+      "Con el fin de incidir en el desarrollo de conductas responsables en el uso de herramientas de software, se fomentará el uso de programas y aplicaciones sin copyright, gratuitos, de libre distribución, especiales para estudiantes o proporcionados por las autoridades educativas. En la medida de lo posible, el trabajo en clase se realizará con este tipo de programas.",
+      "Para alcanzar y desarrollar las competencias anteriormente expuestas, en el proceso de enseñanza y aprendizaje, se tendrán en cuenta las siguientes recomendaciones metodológicas.",
+      "La metodología de la materia debe de ser flexible, abierta, activa y participativa con el alumnado como protagonista de su aprendizaje. El profesorado debe asumir responsabilidades como dinamizador de un proceso de enseñanza-aprendizaje basado en el autoaprendizaje y adaptado a las condiciones, capacidades y necesidades personales del alumnado. Debe motivar al alumnado con ejemplos prácticos y reales que favorezcan su actividad y protagonismo y que le permitan experimentar, razonar, relacionar y aplicar sus conocimientos para adoptar decisiones conducentes a las soluciones.",
+      "Se deben procurar aprendizajes significativos y funcionales, de modo que el alumnado relacione los nuevos aprendizajes con los ya adquiridos y con aplicaciones próximas de la vida real, fomentando, de este modo, habilidades y estrategias para aprender a aprender, combinando los métodos expositivos con los de indagación, realizando actividades de análisis, aplicación y simulación práctica de los diferentes bloques de contenidos.",
+      "El trabajo en grupo, el estudio de casos, o el aprendizaje basado en problemas, proporcionan al alumnado la oportunidad de adoptar un papel activo en su proceso de aprendizaje, capacitándole para aprender de forma autónoma y también, con otras y de otras personas, y por tanto para trabajar en equipo, resolver problemas y situaciones conflictivas, aplicar el conocimiento en contextos variados, así como para localizar recursos. Deben ser sujetos activos capacitados para identificar necesidades de aprendizaje, investigar, resolver problemas y, en definitiva, aprender.",
+      "Las actividades se plantearán posibilitando la participación individual y el trabajo en equipo del alumnado de forma igualitaria, en un ambiente de diálogo, tolerancia, respeto, cooperación y convivencia. Se presentarán de forma atractiva y apropiada de acuerdo con las competencias y saberes que se han de desarrollar, comenzando con actividades de introducción, para facilitar los conocimientos básicos que proporcionen seguridad al alumnado. Cuando se aprecie cierto grado de dominio, se pasará a trabajar actividades de profundización, de aplicación y de síntesis. En todas estas actividades se incidirá en el análisis de aspectos experimentales relacionados con instalaciones, procesos, materiales, máquinas y transformaciones cotidianas, para poder extrapolarlas posteriormente al entorno industrial.",
+      "La formación del alumnado debe tener en cuenta el fomento de la educación en valores y la igualdad efectiva de derechos y oportunidades entre hombres y mujeres, fomentando el desarrollo afectivo y socio-emocional del alumnado.",
+      "El proceso de enseñanza y aprendizaje conlleva necesariamente procesos de análisis y reflexión que posibiliten la mejora continua de la práctica docente, para responder a las necesidades en cada momento.",
+      "La digitalización de los saberes y procesos tecnológicos, su utilización tanto en la elaboración de documentación como en la resolución de problemas y proyectos debe ser un eje vertebrador de los mismos. Se debe preparar al alumnado para el tránsito a un mundo laboral cada vez más digitalizado. En este sentido, el profesorado debe contribuir al desarrollo de estrategias y formas de aprendizaje que utilicen las tecnologías digitales y a la formación de ciudadanos digitalmente competentes y que sean capaces de utilizar estas herramientas en su entorno personal, social y profesional de forma crítica y sostenible.",
+      "La materia por su alto contenido técnico y práctico debe facilitar, promover y ayudar a fomentar estilos de vida saludables, respetar los derechos humanos, favorecer la igualdad de género, educar en una cultura de paz y no violencia, valorar la diversidad cultural y contribuir a desarrollar aprendizajes y actitudes que trabajen los objetivos de desarrollo sostenible.",
+      "La metodología de la materia pretende, entre otras cosas, el fomento de la reflexión y el pensamiento crítico del alumnado; la contextualización de los aprendizajes; la alternancia de diferentes tipos de actuaciones, actividades y situaciones de aprendizaje; la potenciación de la investigación, la experimentación, la lectura y el tratamiento de la información; la utilización de agrupamientos heterogéneos en el aula y el reforzamiento del trabajo colaborativo.",
+      "Las situaciones de aprendizaje son un conjunto de actividades o tareas complejas que implican el despliegue por parte del alumnado de actuaciones asociadas a competencias clave y competencias específicas y que, además, contribuyen a su adquisición y desarrollo. Estas situaciones es preciso contextualizarlas en torno al contexto personal, social, educativo y profesional del alumnado. El trabajo por situaciones de aprendizaje no se plantea como una actividad suplementaria a los contenidos u objetivos de aprendizaje, sino como una guía que interrelaciona la adquisición de conocimientos con la solución creativa de problemas reales. Las actividades que formen parte de estas situaciones deberán estar ligadas al currículo, planeadas para desarrollarse en un periodo de tiempo limitado y vinculadas con el trabajo académico diario.",
+      "En todo momento el alumno y la alumna deben ser conocedores del tipo de trabajo que se va a realizar, los tiempos, los contenidos y el resultado final; de esa forma, podrán opinar y modificar o destacar cuestiones de ese proceso que lleven a una mejor consecución del objetivo final.",
+      "Por este motivo es necesaria la incorporación de metodologías activas que se irán aplicando según las necesidades del contenido que se trabaje en cada momento.",
+      "La metodología debe tener en cuenta propuestas y modelos organizativos que, generalizados al contexto de aula, permitan la presencia, la participación y el aprendizaje de todo el alumnado. Por ello, se debe buscar la personalización de la respuesta educativa, teniendo en cuenta el Diseño Universal para el Aprendizaje (DUA). Este diseño se basa en tres principios que contempla múltiples formas de implicación o motivación para la tarea (por qué se aprende), múltiples formas de representación de la información (el qué se aprende) y múltiples formas de expresión del aprendizaje (cómo se aprende), de manera que se conecte con los centros de interés del alumnado, así como con la programación multinivel de saberes básicos del área. Este diseño promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado. La diversidad y heterogeneidad del alumnado presente en el aula han de entenderse como factores enriquecedores del proceso de enseñanza-aprendizaje y es a través de los principios, del Diseño Universal para el Aprendizaje, como se puede lograr la equidad para todo el alumnado.",
+      "Las orientaciones metodológicas que se describen posteriormente deben estar en consonancia con dicho Diseño Universal para el Aprendizaje. Para lograr este objetivo, el profesorado debe utilizar múltiples recursos, incluyendo los digitales, en diferentes formatos y varias opciones didácticas, con el fin de mantener el interés, la motivación y la cooperación del alumnado en el proceso de enseñanza-aprendizaje.",
+      "A continuación, se realiza una aproximación a algunas de las metodologías más utilizadas, aunque no debemos entenderlas como elementos aislados sino como elementos que se complementan y que deben estar integrados en las situaciones de aprendizaje: enseñanza no directiva, aprendizaje basado en tareas, aprendizaje basado en proyectos, aprendizaje cooperativo, codocencia, trabajo interdisciplinar, aula invertida, gamificación, pensamiento visual, pensamiento computacional y aprendizaje-servicio.",
+      "En la enseñanza no directiva el profesorado interviene para ayudar a destacar el problema mientras que son los alumnos y las alumnas quienes tienen que buscar las soluciones. El papel del profesorado es el de facilitador y es una de las metodologías de trabajo que se recomiendan en esta materia para llevar a cabo las diferentes tareas planteadas en las situaciones de aprendizaje.",
+      "El aprendizaje basado en tareas en la enseñanza gira en torno a problemas situados en un contexto relevante para el alumnado. En esta metodología el problema o tarea es el punto de partida para la adquisición e integración de los nuevos conocimientos. El alumnado investiga y el o la docente aporta información cuando sea necesario. Se plantean situaciones abiertas que pueden tener múltiples soluciones, para ello, se deben buscar tareas o problemas de la vida real, planteados como retos, y el alumnado debe identificar qué conocimientos necesita para solucionarlos. Lo importante es el proceso, que incluye, además del trabajo en grupos cooperativos, la toma de decisiones, la planificación de estrategias, la creatividad, el pensamiento crítico, el aprendizaje autodirigido, las habilidades de comunicación y argumentación, la presentación de la información, la autoevaluación, la conciencia del propio aprendizaje, el desarrollo en valores, etc.",
+      "El aprendizaje basado en proyectos plantea situaciones de aprendizaje relativamente abiertas donde el alumnado participa en el diseño de un plan de trabajo, debe tratar la información pertinente y realizar una síntesis final que presente el producto pactado. Se pretende ayudar a organizar el pensamiento favoreciendo la reflexión, la crítica, la elaboración de hipótesis y la tarea investigadora. Esta materia, por su fuerte componente práctico, es muy adecuada para implementar esta metodología, con la que se consigue integrar diversos temas de contenido relevante, trabajar estrategias de búsqueda estableciendo criterios según la confiabilidad de las fuentes, relacionar el proyecto con problemas de otras materias o de la vida diaria, integrar las habilidades académicas con las habilidades manuales y sociales, gestionar un protagonismo compartido donde predomine la actitud de cooperación, fomentar la autoestima del alumnado como componente imprescindible de un grupo y finalmente, ayudar a la consecución de las competencias clave. Para la puesta en práctica de la metodología de aprendizaje basado en proyectos, se deben realizar las siguientes etapas consecutivas:",
+      "- El planteamiento del problema o situación de aprendizaje en el que el primer paso es identificar la necesidad y, a continuación, fijar las condiciones que debe reunir el producto final.",
+      "- La búsqueda de información sobre el problema planteado es una etapa necesaria; implica investigar sobre soluciones existentes, sobre cómo se puede resolver, los saberes científicos necesarios para llevarlo a cabo, las técnicas, los materiales, los operadores... Para localizar toda esta información podrán utilizarse de forma combinada tanto recursos implementados por el profesorado, como Internet o la biblioteca de aula o la escolar. El uso de programas informáticos para ir recopilando y almacenando la información útil permite ir perfilando la memoria técnica que, junto con el objeto o sistema construido, constituyen el producto final. Este proceso de búsqueda sirve para fomentar la lectura como hábito imprescindible para el desarrollo de la comprensión lectora y de la expresión oral y escrita.",
+      "- La realización de diseños previos empezando por el boceto, para transmitir las ideas individuales al resto del grupo, y terminando con un croquis o un dibujo delineado, para detallar la idea definitiva, facilita la expresión y concreción de las ideas. La utilización de programas de diseño permitirá ir completando y concretando la idea de cara a su posterior construcción.",
+      "- La planificación consiste en la elaboración de un plan de actuación en el que se detallarán las operaciones que habrá que llevar a cabo, la persona responsable de realizarlas, el tiempo estimado... El uso de tablas o modelos digitales permite integrar la digitalización en esta etapa.",
+      "- La construcción del objeto debe realizarse a partir de la documentación previamente elaborada a lo largo del proceso y cualquier variación sobre la planificación debe quedar debidamente documentada.",
+      "- La evaluación del resultado y del proceso llevado a cabo servirá, por un lado, para autoevaluar su propio trabajo y, por otro, para valorar si existen soluciones mejores o más adecuadas.",
+      "- La realización de la memoria técnica y la presentación de la solución mediante la utilización de medios digitales favorecerá la asimilación de todo el proceso y de sus contenidos. Además, contribuirá, por medio de la elaboración de la documentación con herramientas informáticas, a la mejora de la competencia comunicativa, al uso adecuado de las tecnologías de la información y la comunicación y al fomento de la educación cívica al escuchar y respetar las soluciones presentadas por el resto del alumnado. La toma de fotografías o pequeños vídeos durante las diferentes fases y su inclusión en la presentación será de gran utilidad para comprender e interiorizar el proceso llevado a cabo.",
+      "El aprendizaje cooperativo trata de diseñar situaciones en las que la interdependencia de las personas integrantes del grupo sea efectiva, necesitando la cooperación de todo el equipo para lograr los objetivos de la tarea. Este tipo de aprendizaje es de especial importancia durante todo el proceso de búsqueda de información, planificación y construcción, así como en la evaluación del objeto o sistema construido, pues cada miembro del grupo tiene diferentes habilidades y el uso conjunto de ellas permitirá llevar el proyecto a buen término.",
+      "La codocencia implica la presencia de dos o más docentes en el aula, permite atender la diversidad, trabajar la igualdad de oportunidades diversificando las propuestas de enseñanza aprendizaje, permitiendo un acompañamiento inclusivo del alumnado en función de las necesidades del aula. Esta metodología es de especial utilidad para llevar a cabo la parte práctica de la materia, dada la diversidad del alumnado y la necesidad de tener un ambiente de trabajo controlado y seguro en el que cada estudiante halle respuesta a sus dudas o inseguridades de manera rápida y personalizada.",
+      "El trabajo interdisciplinar consiste en un trabajo común entre el profesorado, teniendo presente la interacción de las distintas materias, de sus conceptos, de su metodología, de sus procedimientos y de la organización de la enseñanza, contribuyendo de este modo al desarrollo de las competencias en el alumnado. Como ejemplo, el trabajo coordinado con el departamento de dibujo permitirá optimizar el uso de herramientas manuales o digitales de forma que a la hora de ejecutar la fase de diseño del proyecto el alumnado ya disponga de las destrezas necesarias. La coordinación con los departamentos de ciencias permitirá el estudio previo de aquellos conocimientos científicos que vayan a ser trabajados en el proyecto.",
+      "En el aula invertida (flipped classroom) se transfiere el trabajo de determinados procesos de aprendizaje fuera del aula y se utiliza el tiempo lectivo, junto con la experiencia del docente, para facilitar y potenciar otros procesos de adquisición y práctica de conocimientos. La búsqueda de información y el diseño de soluciones individuales pueden ser trasladadas fuera del aula; de esta manera, el tiempo de clase puede ser utilizado para que el docente o la docente revise, proponga cambios o mejoras y guíe el trabajo realizado en la dirección adecuada.",
+      "La gamificación introduce los mecanismos y el potencial estimulador de los juegos en la práctica pedagógica, potenciando el trabajo competitivo tanto individual como en equipo con el objetivo de mejorar los resultados e incentivar al alumnado. La creación mediante aplicaciones informáticas de juegos de preguntas y respuestas sobre los conocimientos científicos, las herramientas o las técnicas involucradas en la ejecución de la situación de aprendizaje ayudará al alumnado a afianzar y reforzar sus competencias. Cada tarea llevada a cabo puede plantearse mediante un desafío que conlleve una acumulación de bonificaciones, puntos extra, premios o beneficios...",
+      "El pensamiento visual (visual thinking) se basa en la utilización de recursos gráficos para la expresión de conceptos e ideas. En tecnología las representaciones gráficas y las imágenes se utilizan para que la mente pueda comprenderlas de una forma más eficiente, no tanto para comunicar mejor como para que el alumnado aprenda a pensar, interpretando, sintetizando y simplificando sin las limitaciones del lenguaje verbal. Parte de los conocimientos científicos o técnicos necesarios para llevar a cabo el proyecto pueden ser expresados, por parte del propio alumnado, mediante la utilización de herramientas digitales que le permitan afianzar las ideas o conceptos clave y que, posteriormente, pueden ser utilizadas para la presentación al resto del grupo del objeto o sistema construido.",
+      "Con el pensamiento computacional los estudiantes desarrollan habilidades relacionadas con la resolución de problemas, tratando de resolver situaciones de aprendizaje con instrumentos de secuenciación mediante la manipulación y experimentación con distintos elementos tecnológicos, con independencia de los contenidos trabajados. El pensamiento computacional puede complementar al método de proyectos. De hecho, las fases pueden ser aplicadas en el diseño y creación de un programa cuya ejecución resuelva el problema planteado.",
+      "El aprendizaje-servicio es una metodología que combina la enseñanza con el compromiso social. Ante una necesidad social, y sin dejar de lado el currículo, el alumnado emprende una tarea de servicio a la comunidad, aplicando y consolidando saberes y competencias, poniendo el acento en los valores y actitudes. La tecnología aporta un amplio elenco de posibilidades en este sentido, como puede ser la automatización de algunas tareas o procesos, las aplicaciones al bienestar personal y social, a la comunicación o al desarrollo de soluciones de monitorización de parámetros medioambientales."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar y proponer problemas tecnológicos con iniciativa y creatividad, estudiando las necesidades de su entorno próximo y aplicando estrategias y procesos colaborativos e iterativos relativos a proyectos, para idear y planificar soluciones de manera eficiente, accesible, sostenible e innovadora."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia parte del estudio de las necesidades del entorno cercano (centro, barrio, localidad, región...) para detectar y abordar los problemas tecnológicos encontrados que, posteriormente y tras su análisis, serán la base del proceso de resolución de problemas, aportando soluciones a las necesidades detectadas. Se incluyen en esta competencia los aspectos relativos a la búsqueda de soluciones a través de metodologías cercanas a la investigación científica y a las técnicas de indagación, planificación y gestión de tareas siguiendo las fases de un proyecto secuencial, y se incorporan estrategias para iniciar al alumnado en la gestión de proyectos cooperativos e iterativos de mejora continua de la solución.",
+          "En esta competencia se abordan también diversas técnicas para estimular y potenciar la creatividad con el objetivo de hacerla más eficiente. Se fomenta igualmente el espíritu emprendedor desde un enfoque que incluye el liderazgo y la coordinación de equipos de trabajo, con una visión global y un tratamiento coeducativo, garantizando el desarrollo de la iniciativa y la proactividad de todo el alumnado."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          296
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares, utilizando procedimientos y recursos tecnológicos y analizando el ciclo de vida de productos, para fabricar soluciones tecnológicas accesibles y sostenibles que den respuesta a necesidades planteadas."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia tanto al proceso de fabricación de productos o desarrollo de sistemas que aportan soluciones a problemas planteados como a las actuaciones implicadas en dicho proceso. Se abordan las técnicas y procedimientos necesarios para la construcción y creación de productos o sistemas tecnológicos, incluyendo tanto la fabricación manual como la fabricación mediante tecnologías asistidas por ordenador. De esta forma, se pretende desarrollar las destrezas necesarias para la creación de productos, fomentando la aplicación de técnicas de fabricación digitales y el aprovechamiento de los recursos tecnológicos. Las distintas actuaciones que se desencadenan en el proceso creativo implican la intervención de conocimientos propios de esta materia (operadores mecánicos, eléctricos y electrónicos), que se integran con otros, contribuyendo así a un aprendizaje competencial en el que toman partido distintos ámbitos.",
+          "Además, se hace referencia al estudio de las fases del ciclo de vida del producto, analizando las características y condiciones del proceso que pudieran mejorar el resultado final, haciéndolo más sostenible y eficiente. Se incluyen, por ejemplo, aspectos relativos al consumo energético del proceso de fabricación, a la obsolescencia, a los ciclos de uso o a las repercusiones medioambientales tanto de la fabricación del producto como de su uso o retirada del ciclo, fomentando actitudes y hábitos responsables en el uso y en la creación de productos y conciencia ecosocial."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD2",
+        "CPSAA4",
+        "CC4",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          297
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Expresar, comunicar y difundir ideas, propuestas o soluciones tecnológicas en diferentes foros de manera efectiva, usando un lenguaje inclusivo y no sexista, empleando los recursos disponibles y aplicando los elementos y técnicas necesarias, para intercambiar la información de manera responsable y fomentar el trabajo en equipo."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia abarca aspectos necesarios para comunicar, expresar y difundir ideas, propuestas y opiniones de manera clara y fluida en diversos contextos, medios y canales. Se hace referencia al buen uso del lenguaje y a la incorporación de la terminología técnica requerida en el proceso de diseño y creación de soluciones tecnológicas. En este sentido, se abordan aspectos necesarios para una comunicación efectiva; asertividad, gestión del tiempo de exposición, buena expresión, entonación, uso de un lenguaje inclusivo y no sexista, así como otros aspectos relativos al uso de herramientas digitales para difundir y compartir recursos, documentos e información en diferentes formatos.",
+          "La necesidad de intercambiar información con otras personas implica una actitud responsable y de respeto con los protocolos establecidos en el trabajo colaborativo, aplicables tanto en el contexto personal como en las interacciones en la red a través de herramientas digitales, plataformas virtuales o redes sociales de comunicación."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM4",
+        "CD3",
+        "CPSAA3",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          297,
+          298
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Desarrollar soluciones automatizadas a problemas planteados, aplicando los conocimientos necesarios e incorporando tecnologías emergentes, para diseñar y construir sistemas de control programables y robóticos."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia a la aplicación de los conocimientos científico-tecnológicos y de los principios del pensamiento computacional en el proceso de diseño, simulación o construcción de sistemas capaces de realizar funciones de forma autónoma. Por un lado, implica actuaciones dirigidas a la modelización y dimensionado de sistemas automáticos o robóticos que permitan la incorporación de la automatización de tareas: selección de los materiales adecuados, la implementación del sistema tecnológico que fundamenta el funcionamiento de la máquina, y el diseño y dimensionado de sus elementos electromecánicos. Por otro lado, se incluyen aspectos relativos a la implementación de los algoritmos adecuados para el control automático de máquinas o el desarrollo de aplicaciones informáticas que resuelvan un problema concreto en diversos dispositivos: computadores, dispositivos móviles y placas microcontroladoras.",
+          "La comunicación y la interacción con objetos son aspectos estrechamente ligados al control de procesos o sistemas tecnológicos. En este sentido, se debe considerar la iniciación en las tecnologías emergentes -como son internet de las cosas, el big data o inteligencia artificial (IA)- y la incorporación de estas y otras metodologías enfocadas a la automatización de procesos en sistemas tecnológicos de distintos tipos con un sentido crítico y ético."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CP2",
+        "STEM1",
+        "STEM3",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          298
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Aprovechar y emplear de manera responsable las posibilidades de las herramientas digitales, adaptándolas a sus necesidades, configurándolas y aplicando conocimientos interdisciplinares, para la resolución de tareas de una manera más eficiente."
+      },
+      "descripcion": {
+        "es": [
+          "La integración de la tecnología digital en multitud de situaciones es un hecho en la actualidad y se hace imprescindible en el proceso de aprendizaje permanente. Esta competencia aborda la incorporación de las herramientas y de los dispositivos digitales en las distintas fases de dicho proceso; por ejemplo, el uso de herramientas de diseño en tres dimensiones o la experimentación mediante simuladores en el diseño de soluciones, la aplicación de tecnologías CAM/CAE en la fabricación de productos, el uso de gestores de presentación o herramientas de difusión en la comunicación o publicación de información, el desarrollo de programas o aplicaciones informáticas en el control de sistemas, el buen aprovechamiento de herramientas de colaboración en el trabajo grupal, etc. En cada fase del proceso, la aplicación de la tecnología digital se hace necesaria para mejorar los resultados.",
+          "En suma, esta competencia se centra en el uso responsable y eficiente de la tecnología digital aplicada al proceso de aprendizaje. Todo ello implica el conocimiento y compresión del funcionamiento de las aplicaciones y dispositivos empleados, permitiendo adaptarlos a las necesidades personales. Se trata de aprovechar, por un lado, la diversidad de posibilidades que ofrece la tecnología digital y, por otro, las aportaciones de los conocimientos interdisciplinares para mejorar las soluciones aportadas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CP2",
+        "CD2",
+        "CD5",
+        "CPSAA4",
+        "CPSAA5"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          298,
+          299
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar procesos tecnológicos, teniendo en cuenta su impacto en la sociedad y el entorno y aplicando criterios de sostenibilidad y accesibilidad, para hacer un uso ético y ecosocialmente responsable de la tecnología."
+      },
+      "descripcion": {
+        "es": [
+          "La tecnología ha ido respondiendo a las necesidades humanas a lo largo de la historia, mejorando las condiciones de vida de las personas, pero repercutiendo también negativamente en algunos aspectos de la misma y en el medio ambiente. Esta competencia incluye el análisis necesario de los criterios de sostenibilidad determinantes en el diseño y en la fabricación de productos y sistemas a través del estudio del consumo energético, el ciclo de vida del producto, la contaminación ambiental y el impacto ecosocial. Además, se pretende mostrar en ella la actividad de determinados equipos de trabajo en Internet y la repercusión que pueden tener algunos proyectos sociales por medio de comunidades abiertas, acciones de voluntariado o proyectos de servicio a la comunidad, así como el efecto de la selección de materiales, del sistema mecánico o de la elección de las fuentes de energía y sus conversiones.",
+          "El objetivo es fomentar el desarrollo tecnológico para mejorar el bienestar social, minimizando las repercusiones en otros ámbitos mencionados anteriormente. Para ello se deben tener presentes todos los criterios desde el momento inicial de detección de la necesidad y estimarlos en cada una de las fases del proceso creativo. En este sentido, se aplican estas cuestiones al diseño de la arquitectura bioclimática en edificios y de los medios de transporte sostenibles. Finalmente, se abordan aspectos actitudinales relativos a la valoración del ahorro energético en beneficio del medio ambiente y de la contribución de las nuevas tecnologías, aplicables actualmente en cualquier ámbito, a la consecución de los Objetivos de Desarrollo Sostenible."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          299
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Idear y planificar soluciones tecnológicas emprendedoras que generen un valor para la comunidad a partir de la observación y el análisis del entorno más cercano, estudiando sus necesidades, requisitos y posibilidades de mejora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              296
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Aplicar con iniciativa estrategias colaborativas de gestión de proyectos con una perspectiva interdisciplinar y siguiendo un proceso iterativo de validación, desde la fase de ideación hasta la difusión de la solución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              296
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Abordar la gestión del proyecto de forma creativa, aplicando estrategias y técnicas colaborativas adecuadas, así como métodos de investigación en la ideación de soluciones lo más eficiente, accesibles e innovadoras posibles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              297
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar el diseño de un producto que dé respuesta a una necesidad planteada, evaluando su demanda, evolución y previsión de fin de ciclo de vida con un criterio ético, responsable inclusivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              297
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Fabricar productos y soluciones tecnológicas, aplicando herramientas de diseño asistido, técnicas de elaboración manual, mecánica y digital y utilizando los materiales y recursos mecánicos, eléctricos, electrónicos y digitales adecuados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              297
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Intercambiar información y fomentar el trabajo en equipo de manera asertiva, empleando las herramientas digitales adecuadas junto con el vocabulario técnico, símbolos y esquemas de sistemas tecnológicos apropiados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              298
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Presentar y difundir las propuestas o soluciones tecnológicas de manera efectiva, empleando la entonación, expresión, gestión del tiempo y adaptación adecuada del discurso, así como un lenguaje inclusivo y no sexista."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              298
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar, construir, controlar o simular sistemas automáticos programables y robots que sean capaces de realizar tareas de forma autónoma, aplicando conocimientos de mecánica, electrónica, neumática y componentes de los sistemas de control, así como otros conocimientos interdisciplinares."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              298
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Integrar en las máquinas y sistemas tecnológicos aplicaciones informáticas y tecnologías digitales emergentes de control y simulación como internet de las cosas, big data e inteligencia artificial con sentido crítico y ético."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              298
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Resolver tareas propuestas de manera eficiente, mediante el uso y configuración de diferentes aplicaciones y herramientas digitales, aplicando conocimientos interdisciplinares con autonomía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              299
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Hacer un uso responsable de la tecnología, mediante el análisis y aplicación de criterios de sostenibilidad y accesibilidad en la selección de materiales y en el diseño de estos, así como en los procesos de fabricación de productos tecnológicos, minimizando el impacto negativo en la sociedad y en el planeta."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              299
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar los beneficios que, en el cuidado del entorno, aportan la arquitectura bioclimática y el ecotransporte, valorando la contribución de las tecnologías al desarrollo sostenible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              299
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Identificar y valorar la repercusión y los beneficios del desarrollo de proyectos tecnológicos de carácter social por medio de comunidades abiertas, acciones de voluntariado o proyectos de servicio a la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              299
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proceso de resolución de problemas"
+          },
+          "apartados": [
+            {
+              "codigo": "A.1",
+              "nombre": {
+                "es": "Estrategias y técnicas"
+              },
+              "saberes": [
+                {
+                  "id": "TEC.4.A.1.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de gestión de proyectos colaborativos y técnicas de resolución de problemas iterativas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                },
+                {
+                  "id": "TEC.4.A.1.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estudio de necesidades del centro, locales, regionales, etc. Planteamiento de proyectos colaborativos o cooperativos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                },
+                {
+                  "id": "TEC.4.A.1.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Técnicas de ideación"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                },
+                {
+                  "id": "TEC.4.A.1.4",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Emprendimiento, perseverancia y creatividad en la resolución de problemas desde una perspectiva interdisciplinar de la actividad tecnológica y satisfacción e interés por el trabajo y la calidad del mismo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.2",
+              "nombre": {
+                "es": "Productos y materiales"
+              },
+              "saberes": [
+                {
+                  "id": "TEC.4.A.2.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Ciclo de vida de un producto y sus fases. Análisis sencillos. Obsolescencia programada."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                },
+                {
+                  "id": "TEC.4.A.2.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de selección de materiales en base a sus propiedades o requisitos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.3",
+              "nombre": {
+                "es": "Fabricación"
+              },
+              "saberes": [
+                {
+                  "id": "TEC.4.A.3.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Herramientas de diseño asistido por computador en tres dimensiones en la representación o fabricación de piezas aplicadas a proyectos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                },
+                {
+                  "id": "TEC.4.A.3.2",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Técnicas de fabricación manual y mecánica. Aplicaciones prácticas"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                },
+                {
+                  "id": "TEC.4.A.3.3",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Técnicas de fabricación digital. Impresión en tres dimensiones y corte. Aplicaciones prácticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "A.4",
+              "nombre": {
+                "es": "Difusión"
+              },
+              "saberes": [
+                {
+                  "id": "TEC.4.A.4.1",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Presentación y difusión del proyecto. Elementos, técnicas y herramientas. Comunicación efectiva: entonación, expresión, gestión del tiempo, adaptación del discurso y uso de un lenguaje inclusivo, libre de estereotipos sexistas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                    "paginas": [
+                      300
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Operadores tecnológicos"
+          },
+          "saberes": [
+            {
+              "id": "TEC.4.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica analógica. Componentes básicos, simbología, análisis y montaje físico y simulado de circuitos elementales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  300
+                ]
+              }
+            },
+            {
+              "id": "TEC.4.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica digital básica."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  300
+                ]
+              }
+            },
+            {
+              "id": "TEC.4.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Neumática básica. Circuitos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  300
+                ]
+              }
+            },
+            {
+              "id": "TEC.4.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elementos mecánicos, electrónicos y neumáticos aplicados a la robótica, contextualizando en el sector industrial asturiano. Montaje físico o simulado."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  300
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Pensamiento computacional, automatización y robótica"
+          },
+          "saberes": [
+            {
+              "id": "TEC.4.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Componentes de sistemas de control programado: controladores, sensores y actuadores."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  300
+                ]
+              }
+            },
+            {
+              "id": "TEC.4.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El ordenador y dispositivos móviles como elemento de programación y control. Trabajo con simuladores informáticos en la verificación y comprobación del funcionamiento de los sistemas diseñados. Iniciación a la inteligencia artificial y big data: aplicaciones. Espacios compartidos y discos virtuales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  300
+                ]
+              }
+            },
+            {
+              "id": "TEC.4.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Telecomunicaciones en sistemas de control digital: internet de las cosas; elementos, comunicaciones y control. Aplicaciones prácticas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  301
+                ]
+              }
+            },
+            {
+              "id": "TEC.4.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robótica. Diseño, construcción y control de robots sencillos de manera física o simulada."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  301
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Tecnología Sostenible"
+          },
+          "saberes": [
+            {
+              "id": "TEC.4.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sostenibilidad y accesibilidad en la selección de materiales y diseño de procesos, de productos y sistemas tecnológicos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  301
+                ]
+              }
+            },
+            {
+              "id": "TEC.4.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arquitectura bioclimática y sostenible. Ahorro energético en edificios."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  301
+                ]
+              }
+            },
+            {
+              "id": "TEC.4.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Transporte y sostenibilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  301
+                ]
+              }
+            },
+            {
+              "id": "TEC.4.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Comunidades abiertas, voluntariado tecnológico y proyectos de servicio a la comunidad. Ejemplos de su aplicación en Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  301
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-21",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

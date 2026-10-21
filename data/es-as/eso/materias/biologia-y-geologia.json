@@ -1,0 +1,2476 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.eso.biologia-y-geologia",
+  "territorio": "es-as",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "BG",
+    "nombre": {
+      "es": "Biología y Geología"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 3,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-59-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 59/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de la Educación Secundaria Obligatoria en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06713",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 33,
+        "hasta": 49
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Biología y Geología de la etapa de Enseñanza Secundaria Obligatoria constituye una continuación del área de Conocimiento del Medio Natural, Social y Cultural de la Educación Primaria. Esta materia busca el desarrollo de la curiosidad y la actitud crítica, así como el refuerzo de las bases de la alfabetización científica que permite al alumnado conocer su propio cuerpo y su entorno para adoptar hábitos que le ayuden a mantener y mejorar su salud y cultivar actitudes como el consumo responsable, el cuidado medioambiental, el respeto hacia otros seres vivos, o la valoración del compromiso ciudadano con el bien común. La adquisición y desarrollo de estos conocimientos y destrezas permitirán al alumnado valorar el papel fundamental de la ciencia en la sociedad. La materia de Biología y Geología debe contribuir a la formación de una buena base científica entre el alumnado, ya que serán los ciudadanos y ciudadanas del futuro. Se pone en valor la importancia de la ciencia como base fundamental para entender las noticias de actualidad, nuestro cuerpo, el mundo que nos rodea y luchar contra las corrientes de opinión pseudocientíficas, impulsando las vocaciones científicas, especialmente entre las alumnas, con el objetivo de conseguir la igualdad en este campo.",
+      "Otro de los aspectos esenciales de esta materia es el estudio y análisis científico y afectivo de la sexualidad a través de los cuales el alumnado podrá comprender la importancia de las prácticas sexuales responsables y desarrollar rechazo hacia actitudes de discriminación basadas en el género o la identidad sexual, así como el rechazo a la violencia (incluida la violencia-sexual). A través de esta materia se consolidan también los hábitos de estudio, se fomenta el respeto, las relaciones seguras y saludables, la solidaridad y el trabajo en equipo y se promueve el perfeccionamiento lingüístico, al ser la cooperación y la comunicación parte esencial de las metodologías de trabajo científico. Además, se animará al alumnado a utilizar diferentes formatos y vías para comunicarse y cooperar destacando entre estos los espacios virtuales de trabajo. El trabajo grupal será una herramienta para la integración social de personas diversas que también se fomentará desde Biología y Geología.",
+      "La naturaleza científica de esta materia contribuye a despertar en el alumnado el espíritu creativo y emprendedor que es la esencia misma de todas las ciencias. La investigación mediante la observación de campo, la experimentación y la búsqueda en diferentes fuentes para resolver cuestiones o contrastar hipótesis de forma tanto individual como cooperativa son elementos constituyentes de este currículo. Las principales fuentes fiables de información son accesibles a través de Internet donde conviven con informaciones sesgadas, incompletas o falsas, por lo que en Biología y Geología se fomentará el uso responsable y crítico de las tecnologías de la relación, información y la comunicación (TRIC) dentro del contexto de la materia, de forma que el alumnado tenga la capacidad de discernir entre unas y otras.",
+      "El sistema educativo debe jugar un rol crucial en los nuevos desafíos a los que se enfrenta la humanidad en el siglo XXI. La materia de Biología y Geología tiene un papel destacado al contribuir al logro de varios Objetivos de Desarrollo Sostenible (ODS) marcados en la Agenda 2030, como son «Hambre cero», «Salud y bienestar», «Igualdad de género», «Agua limpia y saneamiento», «Energía asequible y no contaminante», «Ciudades y comunidades sostenibles», «Producción y consumo responsables», «Acción por el clima», «Vida submarina» y «Vida de ecosistemas terrestres».",
+      "La Biología y Geología contribuye al logro de los objetivos de esta etapa y al desarrollo de las competencias clave. En la materia se trabajan un total de seis competencias específicas, que constituyen la concreción de los descriptores de las competencias clave definidos en el Perfil de salida del alumnado al término de la enseñanza básica. Las competencias específicas comprenden aspectos relacionados con la interpretación y transmisión de información científica; la localización y evaluación de información científica; la aplicación de las metodologías científicas en proyectos de investigación; la aplicación de estrategias para la resolución de problemas; el análisis y adopción de estilos de vida saludables y sostenibles; y la interpretación y protección del patrimonio natural.",
+      "Los criterios de evaluación permiten medir el grado de desarrollo de dichas competencias específicas, por lo que se presentan asociados a ellas.",
+      "Los saberes básicos constituyen los conocimientos, destrezas y actitudes que posibilitarán el desarrollo de las competencias específicas de la materia a largo de la etapa. En Biología y Geología estos saberes se estructuran en tres bloques comunes para toda la etapa: «Proyecto científico», «Geología» y «La célula». En la materia impartida en primer y tercer curso se añaden, además, los bloques «Seres vivos», «Ecología y sostenibilidad», «Cuerpo Humano», «Hábitos saludables» y «Salud y enfermedad». En cuarto curso, se incorporan a los bloques comunes los bloques «Genética y evolución» y «La Tierra en el universo».",
+      "El bloque «Proyecto científico» introduce al alumnado al pensamiento y métodos científicos. Incluye saberes referidos al planteamiento de preguntas e hipótesis, la observación, el diseño y la realización de experimentos, para su comprobación y el análisis y la comunicación de resultados. El bloque «Geología» está formado por los conocimientos, destrezas y actitudes relacionados con la identificación de rocas y minerales del entorno y el estudio de la estructura interna de la Tierra, así como los saberes vinculados con la tectónica de placas y la relación de los procesos geológicos internos y externos con los riesgos naturales y los principios de estudio de la historia terrestre. El estudio de la célula, sus partes y la función biológica de la mitosis y la meiosis forman parte del bloque «La célula». Además, este bloque incluye las técnicas de manejo del microscopio y el reconocimiento de células en preparaciones reales.",
+      "El bloque «Seres vivos» comprende los saberes necesarios para el estudio de las características y grupos taxonómicos más importantes de seres vivos y para la identificación de ejemplares del entorno. El bloque, «Ecología y sostenibilidad», aborda el concepto de ecosistema, la relación entre sus elementos integrantes, la importancia de su conservación mediante la implantación de un modelo de desarrollo sostenible y el análisis de problemas medioambientales como el calentamiento global. Dentro del bloque «Cuerpo humano» se estudia el organismo desde un punto de vista analítico y holístico a través del funcionamiento y la anatomía de los aparatos y sistemas implicados en las funciones de nutrición, relación y reproducción. El bloque «Hábitos saludables» se compone de los saberes básicos acerca de los comportamientos beneficiosos para la salud con respecto a la nutrición y la sexualidad, así como los efectos perjudiciales de las drogas. Y, por último, en el bloque denominado «Salud y enfermedad» se aborda la diferenciación entre enfermedades infecciosas y no infecciosas así como las medidas de prevención, se incluyen, además, los mecanismos de defensa del organismo contra los patógenos; se aborda también el funcionamiento de las vacunas y antibióticos para justificar su relevancia en la prevención y tratamiento de enfermedades; y finalmente, los saberes relacionados con los trasplantes y la importancia de la donación de órganos como un acto altruista en beneficio de la sociedad.",
+      "En lo que respecta a los bloques añadidos para el cuarto curso, en el bloque «Genética y Evolución», se tratan las leyes y los mecanismos de herencia genética, la expresión génica, la estructura del ADN, la ingeniería genética, las teorías evolutivas de mayor relevancia y la resolución de problemas donde se apliquen estos conocimientos. En el bloque «La Tierra en el universo» se incluyen los saberes relacionados con el estudio de las teorías más relevantes sobre el origen del universo, las hipótesis sobre el origen de la vida en la Tierra y las principales investigaciones en el campo de la astrobiología.",
+      "Las situaciones de aprendizaje permiten trabajar de manera que los saberes básicos contribuyan a la adquisición de las competencias. Para ello, deben plantearse a partir de un objetivo claro, estar conectadas con la realidad e invitar al alumnado a la reflexión y a la colaboración. El enfoque interdisciplinar favorecerá una asimilación más profunda de la materia, al extender sus raíces hacia otras ramas del conocimiento.",
+      "Así, desde Biología y Geología el alumnado podrá adquirir las competencias necesarias para el desarrollo del pensamiento científico y su aplicación, así como una plena integración ciudadana a nivel personal, social y profesional en una sociedad que sea más sostenible, justa e igualitaria.",
+      "Metodología",
+      "La ciencia constituye una parte fundamental de nuestra vida, formando parte de nuestro entorno, de lo que somos y de nuestra cultura. Las metodologías didácticas en las materias de Biología y Geología deben promover un aprendizaje competencial en que se favorezca un aprendizaje contextualizado de los conocimientos, usando metodologías que abarquen la diversidad existente en el aula, favorezcan la cooperación y el trato igualitario de las alumnas y los alumnos.",
+      "En nuestra sociedad, cada ciudadano y ciudadana requiere una amplia gama de competencias para adaptarse a un mundo que está cambiando rápidamente y que muestra múltiples interconexiones. La educación y la formación posibilitan que el alumnado adquiera las competencias necesarias para poder adaptarse de manera flexible a dichos cambios. La materia de Biología y Geología va a contribuir al desarrollo de las ocho competencias del currículo necesarias para la realización y desarrollo personal y el desempeño de una ciudadanía activa y democrática.",
+      "La Competencia Comunicación Lingüística (CCL) es un objetivo de aprendizaje a lo largo de la vida. La materia de Biología y Geología contribuirá a su desarrollo desde la lectura de textos de divulgación científica, la producción de textos orales y escritos, la realización de tareas que impliquen la búsqueda, recopilación y procesamiento de información para su posterior exposición, utilizando el vocabulario científico adquirido y combinando diferentes modalidades de comunicación. Además, supone una dinámica de trabajo colaborativa que fomenta el uso del diálogo como herramienta para la resolución de conflictos.",
+      "La Competencia Plurilingüe (CP) implica utilizar distintas lenguas, orales o signadas, de forma apropiada y eficaz para el aprendizaje y la comunicación. Es muy importante el entendimiento entre las diferentes lenguas para la transmisión del conocimiento, y así el uso del latín en la nomenclatura binomial para nombrar las especies se ha utilizado universalmente. En un escenario como el actual en que las noticias científicas son de gran actualidad e importancia, es importante poder utilizar las fuentes originales con independencia del idioma en el que se haya redactado, aunque la hegemonía es mayoritariamente del inglés. La materia de Biología y Geología contribuirá a la adquisición de esta competencia mediante la lectura y producción de textos y noticias de divulgación científica en otros idiomas.",
+      "Vivimos en una sociedad en la que la ciencia y la tecnología ocupan un lugar fundamental en el sistema productivo y en la vida cotidiana en general. Es esencial acceder a los conocimientos científicos porque nos permiten explorar el potencial de la naturaleza, sin dañarla y respetando nuestro planeta. Igualmente, el conocimiento científico nos ayuda a tener un control sobre la selección y el uso de la tecnología que se utiliza en nuestro día a día. La Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM) aproxima al alumnado al mundo físico contribuyendo al desarrollo de un pensamiento científico razonado, capacitando a las personas para identificar, plantear y resolver situaciones de la vida análogamente a como se actúa frente a los retos y problemas propios de las actividades científicas. La materia de Biología y Geología ayudará a fomentar el respeto hacia las diversas formas de vida a través del estudio e interpretación de los sistemas biológicos y geológicos, y la realización de actividades de investigación o experimentales a través del uso del método científico pueden ser útiles para un posterior desarrollo de acciones encaminadas a mejorar la salud física, mental y el medio ambiente que nos rodea.",
+      "La Competencia Digital (CD) implica el uso de las Tecnologías de la Información y la Comunicación de manera crítica y segura, identificando los riesgos potenciales existentes en la red, prestando especial atención a conductas asociadas a conductas asociadas la dimensión afectivo-sexual del alumnado (temprano consumo de pornografía, sexting, grooming...). En esta materia se desarrollan destrezas relacionadas con la capacidad de diferenciar fuentes fiables de información, evitando la infoxicación y asumiendo así una actitud crítica y realista frente al mundo digital, el procesamiento de la información y la elaboración de documentos científicos mediante la realización de actividades experimentales y de investigación. En la materia de Biología y Geología el uso de diversas páginas web, aplicaciones y programas, como los laboratorios virtuales, permiten al alumnado diferenciar los formatos utilizados en el proceso de enseñanza-aprendizaje, y conocer las principales aplicaciones utilizadas para la elaboración de diferentes tareas individuales, cooperativas o colaborativas, de una forma segura y creativa.",
+      "La materia de Biología y Geología contribuirá al desarrollo de la Competencia Personal, Social y de Aprender a Aprender (CPSAA) al fomentar un estilo de vida saludable y orientado al futuro, clave para el aprendizaje a lo largo de la vida. El conocimiento y la comprensión de los principales factores de riesgo y protección para la salud pueden ayudar a aumentar la responsabilidad individual y consolidar unos hábitos de vida saludable, tanto a nivel físico, psicológico y social, en una etapa como la adolescencia, en la que la persona se encuentra aún en pleno desarrollo físico, cognitivo, emocional y social. El carácter práctico de la materia permite, a través del trabajo experimental y de la realización de proyectos de investigación, despertar la curiosidad del alumnado por la ciencia y aprender a partir de los errores, siendo conscientes de lo que saben y lo que no, mediante un proceso reflexivo. Para ello, es importante pensar antes de actuar, trabajando así las estrategias de planificación y evaluando el nivel competencial inicial para poder adquirir de manera coherente nuevos conocimientos. Esta competencia se desarrolla también mediante el trabajo cooperativo fomentando un proceso reflexivo, con la puesta en práctica de estrategias metacognitivas que permitan la detección de errores, como medida esencial en el proceso de autoevaluación, incrementando la autoestima del alumno o la alumna.",
+      "La Competencia Ciudadana (CC) supone utilizar los conocimientos apropiados para interpretar y analizar problemas sociales, aportar posibles soluciones, tomar decisiones y resolver conflictos asertivamente. La materia de Biología y Geología trabaja dicha competencia mediante la valoración crítica de las actividades humanas en relación con el resto de seres vivos y con el entorno, fomentando el desarrollo de un estilo de vida sostenible acorde con los Objetivos de Desarrollo Sostenible planteados en la Agenda 2030. Además, en el desarrollo de las sesiones expositivas de proyectos de investigación se favorece la adquisición de valores como el respeto, la tolerancia y la empatía. Se promoverá el trabajo cooperativo y la igualdad de oportunidades, destacando el trabajo de grandes científicos y científicas. Los medios de comunicación relacionados con la ciencia nos permiten trabajar el pensamiento crítico fomentando el debate, entendido como herramienta de diálogo.",
+      "La Competencia Emprendedora (CE) fomenta en el alumnado el pensamiento crítico y la creatividad a la hora de realizar, resolver y exponer trabajos. Al presentar la materia de Biología y Geología un bloque dedicado a los proyectos de investigación, la búsqueda y selección de información permite trabajar las capacidades de planificación, organización y decisión, al mismo tiempo que la asunción de riesgos y sus consecuencias, por lo que suponen un entrenamiento para la vida. A su vez, la elaboración de proyectos tanto de forma individual como grupal les permite identificar sus fortalezas y limitaciones, enriquece al alumnado en valores como la autoestima, la empatía, la capacidad de negociación y liderazgo democrático, adquiriendo así el sentido de la responsabilidad.",
+      "La Competencia en Conciencia y Expresiones Culturales (CCEC) permite apreciar y respetar el entorno en que vivimos. El Principado de Asturias cuenta con 7 espacios naturales que son Reserva de la Biosfera. Nuestra geografía está salpicada de espacios verdes que atesoran una flora y fauna que es necesario preservar. Conociendo el patrimonio natural y sus relaciones, la explotación de los recursos naturales a lo largo de la historia, las nuevas tendencias en su gestión y los problemas a los que se ve sometido, se puede entender la base de la cultura asturiana y el alumnado asume la necesidad de adquirir buenos hábitos medioambientales. En la materia de Biología y Geología se valorará la importancia de las imágenes y las visitas in situ como herramientas fundamentales en el trabajo científico, ya que son imprescindibles para conocer, interpretar y respetar el medio y los fenómenos naturales desde una perspectiva científica. La realización de trabajos científicos en diferentes soportes les dará la oportunidad de desarrollar su propia creatividad. Además, y como parte de la educación inclusiva, esta competencia fomenta el respeto y la valoración de la riqueza de la variedad cultural en el aula.",
+      "De esta forma la materia de Biología y Geología en la Educación Secundaria Obligatoria contribuirá al desarrollo y adquisición de las competencias específicas y por tanto al perfeccionamiento de las competencias clave, ayudando a comprender el mundo físico, los seres vivos y las relaciones entre ambos. Para ello, es recomendable partir de una planificación rigurosa, siendo el papel del profesorado orientar, promover y facilitar el desarrollo competencial en el alumnado mediante el planteamiento de situaciones de aprendizaje de la vida cotidiana, con un objetivo concreto, en el que el alumnado pueda aplicar los distintos tipos de saberes básicos, destrezas, actitudes y valores adquiridos y conseguir así estimular y potenciar su interés por la ciencia.",
+      "Con el fin de ajustarse al nivel competencial inicial del alumnado, se secuenciará la enseñanza de manera que se parta de aprendizajes más simples para avanzar gradualmente hacia otros más complejos. Para ello, se facilitará la construcción de aprendizajes significativos estableciendo relaciones entre los nuevos saberes y las experiencias y conocimientos previos mediante el trabajo individual y en pequeños y grandes grupos fomentando el aprendizaje cooperativo y el reparto equitativo de las tareas. Las actividades que impliquen la búsqueda de información y su posterior exposición en el aula favorecerán el debate y la discusión, facilitando que el alumnado aprenda a seleccionar, organizar, estructurar y transmitir la información, contribuyendo así a consolidar las destrezas comunicativas y las relacionadas con el tratamiento de la información. El interés de los alumnos y las alumnas hacia la ciencia se potenciará al enfrentarse a situaciones y a fenómenos próximos que le permitan relacionar los aprendizajes con su utilidad práctica y percibir que los conocimientos son aplicables a situaciones concretas y cercanas.",
+      "Los medios de comunicación tratan a diario multitud de temas de carácter biológico o geológico, como el genoma humano, el cáncer, la investigación con células madre, las inmunodeficiencias, la pandemia y otras enfermedades infecciosas, las vacunas, el cambio climático, la conservación de la naturaleza y la biodiversidad, la protección de la flora y la fauna, la existencia de agua en otros planetas, los recursos (mineros, energéticos, forestales, pesqueros, etc.), el desarrollo sostenible, los riesgos naturales (terremotos, volcanes, inundaciones, etc.), los vertidos contaminantes o las plagas, entre otros, que requieren un conocimiento científico básico. Este hecho constituye un recurso didáctico en sí mismo, ya que es útil para despertar en los alumnos y las alumnas la motivación por comprender cómo funciona el mundo que nos rodea y el tipo de respuestas que ofrece la ciencia a los nuevos desafíos de la sociedad actual. Por otro lado, mediante el análisis de estas noticias se fomenta el gusto por la lectura, al mismo tiempo que se trabajan destrezas necesarias para el desarrollo de la comunicación lingüística. La Biología y la Geología son disciplinas científicas básicas, que contribuyen a la formación cultural en cuestiones científicas de los ciudadanos y las ciudadanas de nuestro país.",
+      "La metodología debe tener en cuenta propuestas y modelos organizativos que, generalizados al contexto de aula, permitan la presencia, la participación y el aprendizaje de todo el alumnado. Por ello, se debe buscar la personalización de la respuesta educativa, teniendo en cuenta el Diseño Universal para el Aprendizaje (DUA). Este diseño se basa en tres principios que contempla múltiples formas de implicación o motivación para la tarea (por qué se aprende), múltiples formas de representación de la información (el qué se aprende) y múltiples formas de expresión del aprendizaje (cómo se aprende), de manera que se conecte con los centros de interés del alumnado, así como con la programación multinivel de saberes básicos del área. Este diseño promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado. La diversidad y heterogeneidad del alumnado presente en el aula han de entenderse como factores enriquecedores del proceso de enseñanza-aprendizaje y es a través de los principios, del Diseño Universal para el Aprendizaje, como se puede lograr la equidad para todo el alumnado.",
+      "Para atender a la gran diversidad de intereses, capacidades, ritmos de aprendizaje y necesidades del alumnado se podrán utilizar diferentes recursos (bibliográficos, audiovisuales, informáticos, laboratorios, modelos, simulaciones vir-tuales, contactos con el entorno) y tipos de actividades.",
+      "Es importante concienciar al alumnado de su papel activo, autónomo y consciente en el proceso de enseñanza-aprendizaje y de la importancia del trabajo regular. Por eso, se fomentará la participación del mismo tratando de incrementar su motivación por el aprendizaje. Para ello, las Tecnologías de la Información y la Comunicación son herramientas útiles al estar el alumnado altamente motivado por las mismas y favorecer el acceso a una mayor cantidad de información.",
+      "La ciencia es una actividad eminentemente práctica, además de teórica; lo que hace que el laboratorio y el trabajo de campo sean elementos indispensables. El objetivo fundamental de estos trabajos prácticos es fomentar una enseñanza más activa, contextualizada, participativa e individualizada, donde se impulse el método científico y el espíritu crítico, se desarrollen habilidades experimentales y se despierte la curiosidad, la creatividad y el gusto por cuestiones de ciencia.",
+      "La íntima relación de esta materia con el entorno nos permite difundir el patrimonio natural del Principado de Asturias que se caracteriza no solo por la riqueza de sus diversos ecosistemas sino también por el grado de protección de los mismos. El alumnado debe conocer las características de nuestro legado natural: sus ecosistemas, técnicas de agricultura, ganadería y pesca, su geología y recursos naturales, su realidad económica y social para así poder evaluar los efectos positivos y negativos de la actividad científico-tecnológica, de forma que en un futuro inmediato sea capaz de participar activamente en las decisiones que le afectan, fomentando el desarrollo sostenible de nuestro planeta.",
+      "La aplicación de estas metodologías conlleva el desempeño de una práctica docente coordinada, sometida a revisión y contraste, en la que el papel del profesorado no se limite al de ser un mero transmisor de conocimientos, sino que ejerza también una función orientadora, promotora del aprendizaje y facilitadora del desarrollo competencial del alumnado.",
+      "En cualquier caso, la metodología escogida será aquella libre de sesgos y estereotipos, que contemple el desarrollo de las competencias necesarias para que el alumnado pueda relacionarse en términos de igualdad, e incorporando la reflexión sobre el papel desempeñado por mujeres y hombres en la ciencia, fomentando, especialmente entre las alumnas, las vocaciones científicas para tratar de paliar la desigualdad existente en este campo.",
+      "Las materias de Biología y Geología en la Educación Secundaria Obligatoria pretenden sentar las bases necesarias para formar a futuros ciudadanos y ciudadanas que sepan afrontar los retos presentes y futuros como son el cambio climático y las nuevas energías, la sostenibilidad y el manejo de los recursos naturales, los fenómenos geológicos, así como la biomedicina y la biotecnología.",
+      "Para conseguir que el alumnado movilice de forma integrada esta amplia variedad de conocimientos, destrezas y actitudes, deben diseñarse situaciones de aprendizaje que integren todos los elementos que constituyen el proceso de enseñanza-aprendizaje competencial, por lo que en función de las características e intereses del grupo y su contexto podrán ser muy variadas, pero siempre respetando las siguientes pautas: se adecuarán a la edad y al nivel de desarrollo el alumnado; serán significativas, relevantes y estimulantes para el alumnado, a la vez que estarán relacionados con la sostenibilidad y la convivencia democrática; plantearán un objetivo claro que implique la integración de los saberes básicos; favorecerán la cooperación y el trabajo en equipo de forma igualitaria y dialogada; requerirán un enfoque crítico y reflexivo y permitirán la transferencia de los conocimientos adquiridos."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar y transmitir información y datos científicos argumentando sobre ellos y utilizando diferentes formatos para analizar conceptos y procesos de las ciencias biológicas y geológicas."
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo científico rara vez es fruto del trabajo de sujetos aislados y requiere, por tanto, del intercambio de información y de la colaboración entre individuos, organizaciones e incluso países. Compartir información es una forma de acelerar el progreso humano al extender y diversificar los pilares sobre los que se sustenta.",
+          "Todo proceso de investigación científica debe comenzar con la recopilación y análisis crítico de las publicaciones en el área de estudio construyéndose los nuevos conocimientos sobre los cimientos de los ya existentes.",
+          "Asimismo, el avance vertiginoso de la ciencia y la tecnología es el motor de importantes cambios sociales que se dan cada vez con más frecuencia y con impactos más palpables. Por ello, la participación activa del alumnado en la sociedad exige cada vez más la comprensión de los últimos descubrimientos y avances científicos y tecnológicos para interpretar y evaluar críticamente, a la luz de estos, la información que inunda los medios de comunicación. Esto le permitirá extraer conclusiones propias, tomar decisiones coherentes y establecer interacciones comunicativas constructivas mediante la argumentación fundamentada, respetuosa y flexible para cambiar las propias concepciones a la vista de los datos y posturas aportados por otras personas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          38,
+          39
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar, localizar y seleccionar información, contrastando su veracidad, organizándola y evaluándola críticamente para resolver preguntas relacionadas con las ciencias biológicas y geológicas."
+      },
+      "descripcion": {
+        "es": [
+          "La investigación científica, la participación activa en la sociedad y el desarrollo profesional y personal de un individuo con frecuencia conllevan la adquisición de nuevas competencias que suele comenzar con la búsqueda, selección y recopilación de información relevante de diferentes fuentes para establecer las bases cognitivas de dicho aprendizaje.",
+          "Además, en la sociedad actual existe un continuo bombardeo de información que no siempre refleja la realidad. Los datos con base científica se encuentran en ocasiones entremezclados con bulos, hechos infundados y creencias pseudocientíficas. Es, por tanto, imprescindible desarrollar el sentido crítico y las destrezas necesarias para evaluar y clasificar la información y conocer y distinguir las fuentes fidedignas de aquellas de dudosa fiabilidad.",
+          "Por ello, esta competencia específica prepara al alumnado para su autonomía personal y profesional futuras y para contribuir positivamente en una sociedad democrática."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          39,
+          40
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas y cooperando cuando sea necesario para indagar en aspectos relacionados con las ciencias geológicas y biológicas."
+      },
+      "descripcion": {
+        "es": [
+          "Los métodos científicos son el sistema de trabajo utilizado para dar una respuesta rigurosa a cuestiones y problemas relacionados con la naturaleza y la sociedad. Estos constituyen el motor de nuestro avance social y económico, lo que los convierte en un aprendizaje imprescindible para la ciudadanía del mañana. Los procesos que componen el trabajo científico cobran sentido cuando son integrados dentro de un proyecto relacionado con la realidad del alumnado o su entorno.",
+          "El desarrollo de un proyecto requiere de iniciativa, actitud crítica, visión de conjunto, capacidad de planificación, movilización de recursos materiales y personales y argumentación, entre otros, y permite al alumnado cultivar el autoconocimiento y la confianza ante la resolución de problemas, adaptándose a los recursos disponibles, a sus propias limitaciones, a la incertidumbre y a los retos que pueda encontrar.",
+          "Asimismo, la creación y participación en proyectos científicos proporciona al alumnado la oportunidad de trabajar destrezas que pueden ser de gran utilidad no solo dentro del ámbito científico, sino también en su desarrollo personal, y profesional y en su participación social. Esta competencia específica es el crisol en el que se entremezclan todos los elementos de la competencia STEM y muchos de otras competencias clave. Por estos motivos, es imprescindible ofrecer al alumnado la oportunidad creativa y de crecimiento que aporta esta modalidad de trabajo, impulsando la igualdad de oportunidades entre los alumnos y las alumnas y fomentando las vocaciones científicas desde una perspectiva de género."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CC1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          40,
+          41
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar el razonamiento y el pensamiento computacional, analizando críticamente las respuestas y soluciones y reformulando el procedimiento, si fuera necesario, para resolver problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la geología."
+      },
+      "descripcion": {
+        "es": [
+          "Las ciencias biológicas y geológicas son disciplinas empíricas, pero con frecuencia recurren al razonamiento lógico y la metodología matemática para crear modelos, resolver cuestiones y problemas y validar los resultados o soluciones obtenidas. Tanto el planteamiento de hipótesis, como la interpretación de datos y resultados, o el diseño experimental requieren aplicar el pensamiento lógico-formal.",
+          "Asimismo, es frecuente que en determinadas ciencias empíricas; como la biología molecular, la evolución o la tectónica de placas, se obtengan evidencias indirectas de la realidad, que deben interpretarse según la lógica para establecer modelos de un proceso biológico o geológico. Además, determinados saberes básicos de la materia de Biología y Geología, como los recogidos en los bloques «Genética y evolución» y «Geología», tienen en la resolución de problemas una estrategia didáctica preferente.",
+          "Cabe destacar que potenciar esta competencia específica supone desarrollar en el alumnado destrezas aplicables a diferentes situaciones de la vida. Por ejemplo, la actitud crítica se basa en gran parte en el razonamiento a partir de datos o información conocidos y constituye un mecanismo de protección contra las pseudociencias, o los saberes populares infundados."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD3",
+        "CD5",
+        "CPSAA4",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          41,
+          42
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, basándose en los fundamentos de las ciencias biológicas y de la Tierra, para promover y adoptar hábitos que eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva."
+      },
+      "descripcion": {
+        "es": [
+          "El bienestar, la salud y el desarrollo económico de la especie humana se sustentan en recursos naturales como el suelo fértil o el agua dulce, y en diferentes grupos de seres vivos, como los insectos polinizadores, las bacterias nitrificantes y el plancton marino, sin los cuales algunas actividades esenciales, como la obtención de alimentos, se verían seriamente comprometidas. Por desgracia, los recursos naturales no siempre son renovables o se utilizan de tal manera que su tasa de consumo supera con creces su tasa de renovación. Además, la destrucción de hábitats, la alteración del clima global y la utilización de sustancias xenobióticas están reduciendo la biodiversidad de forma que, en los últimos 50 años, han desaparecido dos tercios de la fauna salvaje del planeta. Todas estas alteraciones podrían poner en peligro la estabilidad de la sociedad humana tal y como la conocemos. Afortunadamente, determinadas acciones pueden contribuir a mejorar el estado del medio ambiente y también de nuestra salud a corto y largo plazo.",
+          "Por otro lado, ciertas conductas propias de los países desarrollados como el consumismo, el sedentarismo, la dieta con alto contenido en grasas y azúcares, las adicciones tecnológicas o los comportamientos impulsivos, tienen graves consecuencias sobre la salud de la población.",
+          "Por ello, es también esencial que el alumnado conozca el funcionamiento de su propio cuerpo, destierre ideas preconcebidas y estereotipos sexistas, y comprenda y argumente, a la luz de las pruebas científicas, que el desarrollo sostenible es un objetivo urgente y sinónimo de bienestar, salud y progreso económico de la sociedad. Esto le permitirá cuestionar los hábitos propios y ajenos, y mejorar la calidad de vida de nuestro planeta según el concepto one health (una sola salud): salud de los seres humanos, de otros seres vivos y del entorno natural."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CPSAA2",
+        "CC4",
+        "CC3",
+        "CE1",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          42,
+          43
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar los elementos de un paisaje concreto valorándolo como patrimonio natural y utilizando conocimientos sobre geología y ciencias de la Tierra para explicar su historia geológica, proponer acciones encaminadas a su protección e identificar posibles riesgos naturales."
+      },
+      "descripcion": {
+        "es": [
+          "La Red de Espacios Naturales Protegidos trata de preservar la diversidad de patrimonio natural que se reparte por toda la biosfera, informando sobre la fragilidad de dichos espacios y sobre los daños que determinadas acciones humanas pueden ocasionar sobre ellos. Por otro lado, algunos fenómenos naturales ocurren con mucha mayor frecuencia en zonas concretas del planeta, están asociados a ciertas formas de relieve o se dan con cierta periodicidad y son, por tanto, predecibles con mayor o menor margen de error. Estos fenómenos deben ser tenidos en cuenta en la construcción de infraestructuras y el establecimiento de asentamientos humanos. Sin embargo, se conocen numerosos ejemplos de planificación urbana deficiente en los que no se ha considerado la historia geológica de la zona, la litología del terreno, la climatología o el relieve, y que han dado lugar a grandes catástrofes con cuantiosas pérdidas tanto económicas como humanas.",
+          "Esta competencia específica implica que el alumnado desarrolle los conocimientos y el espíritu crítico necesarios para reconocer el valor del patrimonio natural y el riesgo geológico asociado a una determinada área para adoptar una actitud de rechazo ante las prácticas urbanísticas, o forestales, industriales o de otro tipo que pongan en peligro vidas humanas, infraestructuras o espacios naturales. El alumnado se enfrentará así a situaciones problemáticas o cuestiones planteadas en el contexto de enseñanza-aprendizaje en las que tendrá que analizar los posibles riesgos naturales y las formas de actuación ante ellos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CD4",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          43
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos (textos, imágenes, modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos, páginas web, etc.), manteniendo una actitud crítica y obteniendo conclusiones fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Facilitar la comprensión y análisis de información sobre procesos biológicos y geológicos transmitiéndola de forma clara y utilizando la terminología y los formatos adecuados (imágenes, modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos, contenidos digitales, etc.), exponiendo argumentos fundamentados, respetuosos y flexibles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas, utilizando, cuando sea necesario, los pasos del método científico o del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver cuestiones sobre Biología y Geología localizando, seleccionando y organizando información de distintas fuentes y citándolas correctamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Reconocer la información sobre temas biológicos y geológicos con base científica distinguiéndola de pseudociencias, bulos, teorías conspiratorias y creencias infundadas y manteniendo una actitud escéptica ante estos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella con independencia de su etnia, sexo o cultura, destacando y reconociendo el papel de las mujeres científicas y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear preguntas e hipótesis e intentar realizar predicciones sobre fenómenos biológicos o geológicos que puedan ser respondidas o contrastadas utilizando métodos científicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar la experimentación, la toma de datos y el análisis de fenómenos biológicos y geológicos de modo que permitan responder a preguntas concretas y contrastar una hipótesis planteada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar experimentos y tomar datos cuantitativos o cualitativos sobre fenómenos biológicos y geológicos utilizando los instrumentos, herramientas o técnicas adecuadas con corrección."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-5",
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Cooperar dentro de un proyecto científico asumiendo responsablemente una función concreta, utilizando espacios virtuales cuando sea necesario, respetando la diversidad y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas, crear modelos o dar explicación a procesos biológicos o geológicos utilizando conocimientos, datos e información proporcionados por el profesorado, el razonamiento lógico, el pensamiento computacional o los recursos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              42
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              42
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Relacionar con fundamentos científicos la preservación de la biodiversidad, la conservación del medio ambiente, la protección de los seres vivos del entorno, el desarrollo sostenible y la calidad de vida."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              43
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar hábitos sostenibles analizando de una manera crítica las actividades propias y ajenas a partir de los propios razonamientos, de los conocimientos adquiridos y de la información disponible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              43
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar hábitos saludables, analizando las acciones propias y ajenas con actitud crítica y a partir de fundamentos fisiológicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              43
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Valorar la importancia del paisaje como patrimonio natural analizando la fragilidad de los elementos que lo componen."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              44
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Interpretar el paisaje analizando sus elementos y reflexionando sobre el impacto ambiental y los riesgos naturales derivados de determinadas acciones humanas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              44
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reflexionar sobre los riesgos naturales mediante el análisis de los elementos de un paisaje, valorando la importancia de mantener un compromiso con el medio ambiente para el desarrollo seguro, sostenible e igualitario de la humanidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              44
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyecto científico"
+          },
+          "saberes": [
+            {
+              "id": "BG.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hipótesis, preguntas y conjeturas: planteamiento con perspectiva científica."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "BG.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas científicas: herramientas digitales y formatos de uso frecuente en ciencia (presentación, gráfica, vídeo, póster, informe, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "BG.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuentes fidedignas de información científica: reconocimiento y utilización."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "BG.1.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de observación y de toma de datos de fenómenos naturales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "BG.1.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La respuesta a cuestiones científicas mediante la experimentación y el trabajo de campo: utilización de los instrumentos y espacios necesarios (laboratorio, aulas, entorno, etc.) de forma adecuada."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "BG.1.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelado como método de representación y comprensión de procesos o elementos de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "BG.1.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de análisis de resultados. Diferenciación entre correlación y causalidad y argumentación de las conclusiones obtenidas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  44
+                ]
+              }
+            },
+            {
+              "id": "BG.1.A.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La labor científica y las personas dedicadas a la ciencia: contribución a las ciencias biológicas y geológicas e importancia social. El papel de la mujer en la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  44
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Geología"
+          },
+          "saberes": [
+            {
+              "id": "BG.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conceptos de roca y mineral: características y propiedades."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de clasificación de las rocas: sedimentarias, metamórficas e ígneas. El ciclo de las rocas"
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Rocas y minerales relevantes del entorno: identificación. Rocas y minerales del Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Usos de los minerales y las rocas: su utilización en la fabricación de materiales y objetos cotidianos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La estructura básica de la geosfera."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La célula"
+          },
+          "saberes": [
+            {
+              "id": "BG.1.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La célula como unidad estructural, funcional y de origen de los seres vivos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La célula procariota, la célula eucariota animal y la célula eucariota vegetal y sus partes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Observación y comparación de muestras microscópicas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Seres vivos"
+          },
+          "saberes": [
+            {
+              "id": "BG.1.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los seres vivos: diferenciación, clasificación e identificación en los principales reinos y las principales formas acelulares."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los principales grupos taxonómicos: observación de especies del entorno y clasificación a partir de sus características distintivas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las especies del entorno: estrategias de identificación (guías, claves dicotómicas, herramientas digitales, visu, etc.). Especies características del Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los animales como seres sintientes: semejanzas y diferencias con los seres vivos no sintientes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Ecología y sostenibilidad"
+          },
+          "saberes": [
+            {
+              "id": "BG.1.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los ecosistemas del entorno, sus componentes bióticos y abióticos y los tipos de relaciones intraespecíficas e interespecíficas que se dan en ellos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de la conservación de los ecosistemas, la biodiversidad y la implantación de un modelo de desarrollo sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las funciones de la atmósfera y la hidrosfera y su papel esencial para la vida en la Tierra."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las causas del cambio climático y sus consecuencias sobre los ecosistemas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.E.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de los hábitos sostenibles (consumo responsable, prevención y gestión de residuos, respeto al medio ambiente, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.E.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La relación entre la salud medioambiental, humana y de otros seres vivos: one health (una sola salud)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "H",
+          "nombre": {
+            "es": "Salud y enfermedad"
+          },
+          "saberes": [
+            {
+              "id": "BG.1.H.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de enfermedades infecciosas y no infecciosas: diferenciación según su etiología."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            },
+            {
+              "id": "BG.1.H.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Medidas de prevención y tratamientos de las enfermedades infecciosas en función de su agente causal y la importancia del uso adecuado de los antibióticos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  45
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos (textos, imágenes, modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos, páginas web, etc.), manteniendo una actitud crítica y obteniendo conclusiones fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Facilitar la comprensión y análisis de información sobre procesos biológicos y geológicos transmitiéndola de forma clara y utilizando la terminología y los formatos adecuados (imágenes, modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos, contenidos digitales, etc.), exponiendo argumentos fundamentados, respetuosos y flexibles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas, utilizando, cuando sea necesario, los pasos del método científico o del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver cuestiones sobre Biología y Geología localizando, seleccionando y organizando información de distintas fuentes y citándolas correctamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Reconocer la información sobre temas biológicos y geológicos con base científica distinguiéndola de pseudociencias, bulos, teorías conspiratorias y creencias infundadas y manteniendo una actitud escéptica ante estos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella con independencia de su etnia, sexo o cultura, destacando y reconociendo el papel de las mujeres científicas y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear preguntas e hipótesis e intentar realizar predicciones sobre fenómenos biológicos o geológicos que puedan ser respondidas o contrastadas utilizando métodos científicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar la experimentación, la toma de datos y el análisis de fenómenos biológicos y geológicos de modo que permitan responder a preguntas concretas y contrastar una hipótesis planteada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar experimentos y tomar datos cuantitativos o cualitativos sobre fenómenos biológicos y geológicos utilizando los instrumentos, herramientas o técnicas adecuadas con corrección."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-5",
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Cooperar dentro de un proyecto científico asumiendo responsablemente una función concreta, utilizando espacios virtuales cuando sea necesario, respetando la diversidad y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas, crear modelos o dar explicación a procesos biológicos o geológicos utilizando conocimientos, datos e información proporcionados por el profesorado, el razonamiento lógico, el pensamiento computacional o los recursos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              42
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              42
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Relacionar con fundamentos científicos la preservación de la biodiversidad, la conservación del medio ambiente, la protección de los seres vivos del entorno, el desarrollo sostenible y la calidad de vida."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              43
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar hábitos sostenibles analizando de una manera crítica las actividades propias y ajenas a partir de los propios razonamientos, de los conocimientos adquiridos y de la información disponible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              43
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar hábitos saludables, analizando las acciones propias y ajenas con actitud crítica y a partir de fundamentos fisiológicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              43
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Valorar la importancia del paisaje como patrimonio natural analizando la fragilidad de los elementos que lo componen."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              44
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Interpretar el paisaje analizando sus elementos y reflexionando sobre el impacto ambiental y los riesgos naturales derivados de determinadas acciones humanas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              44
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reflexionar sobre los riesgos naturales mediante el análisis de los elementos de un paisaje, valorando la importancia de mantener un compromiso con el medio ambiente para el desarrollo seguro, sostenible e igualitario de la humanidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              44
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyecto científico"
+          },
+          "saberes": [
+            {
+              "id": "BG.3.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hipótesis, preguntas y conjeturas: planteamiento con perspectiva científica."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas científicas: herramientas digitales y formatos de uso frecuente en ciencia (presentación, gráfica, vídeo, póster, informe, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuentes fidedignas de información científica: reconocimiento y utilización."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de observación y de toma de datos de fenómenos naturales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La respuesta a cuestiones científicas mediante la experimentación y el trabajo de campo: utilización de los instrumentos y espacios necesarios (laboratorio, aulas, entorno, etc.),"
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelado como método de representación y comprensión de procesos o elementos de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de análisis de resultados. Diferenciación entre correlación y causalidad y argumentación de las conclusiones obtenidas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.A.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La labor científica y las personas dedicadas a la ciencia: contribución a las ciencias biológicas y geológicas e importancia social. El papel de la mujer en la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Geología"
+          },
+          "saberes": [
+            {
+              "id": "BG.3.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La estructura básica de la geosfera y la relación entre las manifestaciones de la energía interna y el relieve."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La célula"
+          },
+          "saberes": [
+            {
+              "id": "BG.3.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La célula como unidad estructural, funcional y de origen de los seres vivos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La célula procariota, la célula eucariota animal y la célula eucariota vegetal y sus partes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Observación y comparación de muestras microscópicas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Ecología y sostenibilidad"
+          },
+          "saberes": [
+            {
+              "id": "BG.3.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las interacciones entre atmósfera, hidrosfera, geosfera y biosfera, su papel en la edafogénesis y en el modelado del relieve y su importancia para la vida. Las funciones del suelo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de los hábitos sostenibles (consumo responsable, prevención y gestión de residuos, respeto al medio ambiente, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La relación entre la salud medioambiental, humana y de otros seres vivos: one health (una sola salud)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Cuerpo humano"
+          },
+          "saberes": [
+            {
+              "id": "BG.3.F.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los niveles de organización del cuerpo humano, y estrategias de observación y clasificación de diferentes tejidos en el microscopio."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.F.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Importancia de la función de nutrición. Los aparatos que participan en ella."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.F.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Anatomía y fisiología básicas de los aparatos digestivo, respiratorio, circulatorio y excretor."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  46
+                ]
+              }
+            },
+            {
+              "id": "BG.3.F.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Visión general de la función de reproducción: Anatomía y fisiología básicas del aparato reproductor femenino y del aparato reproductor masculino. El ciclo menstrual."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.F.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Visión general de la función de relación: Anatomía y fisiología básicas de los receptores sensoriales, centros de coordinación y órganos efectores."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.F.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relación entre los principales sistemas y aparatos del organismo implicados en las funciones de nutrición, relación y reproducción mediante la aplicación de conocimientos de fisiología y anatomía."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Hábitos saludables"
+          },
+          "saberes": [
+            {
+              "id": "BG.3.G.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Características y elementos propios de una dieta saludable y su importancia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.G.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conceptos de sexo y sexualidad: importancia del respeto hacia la libertad y la diversidad sexual y hacia la igualdad de género, dentro de una educación sexual integral como parte de un desarrollo armónico."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.G.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Educación afectivo-sexual desde la perspectiva de la igualdad entre personas y el respeto a la diversidad sexual."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.G.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de las prácticas sexuales responsables. La asertividad y el autocuidado. La prevención de infecciones de transmisión sexual (ITS) y de los embarazos no deseados. El uso adecuado de métodos anticonceptivos y de métodos de prevención de ITS."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.G.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las drogas legales e ilegales: sus efectos perjudiciales sobre la salud física, psicológica y social de las personas que las consumen y de quienes están en su entorno próximo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.G.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los hábitos saludables: su importancia en la conservación de la salud física, mental y social (higiene del sueño, hábitos posturales, uso responsable de las nuevas tecnologías, actividad física, autorregulación emocional, cuidado y corresponsabilidad, etc.)"
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "H",
+          "nombre": {
+            "es": "Salud y enfermedad"
+          },
+          "saberes": [
+            {
+              "id": "BG.3.H.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de enfermedades infecciosas y no infecciosas: diferenciación según su etiología."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.H.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Medidas de prevención y tratamientos de las enfermedades infecciosas en función de su agente causal y la importancia del uso adecuado de los antibióticos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.H.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mecanismos de defensa del organismo frente a agentes patógenos (barreras externas del organismo, respuesta inmune inespecífica y respuesta inmune específica): su papel en la prevención y superación de enfermedades infecciosas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.3.H.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de la vacunación en la prevención de enfermedades y en la mejora de la calidad de vida humana. Los trasplantes y la importancia de la donación de órganos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos (textos, imágenes, modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos, páginas web, etc.), manteniendo una actitud crítica y obteniendo conclusiones fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Transmitir opiniones propias fundamentadas e información sobre Biología y Geología de forma clara y rigurosa, facilitando su comprensión y análisis mediante el uso de la terminología y el formato adecuados (imágenes, modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos, contenidos digitales, etc.), exponiendo argumentos fundamentados, respetuosos y flexibles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y explicar fenómenos biológicos y geológicos representándolos mediante el diseño y la realización de modelos y diagramas y utilizando, cuando sea necesario, los pasos del método científico o del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              39
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver cuestiones y profundizar en aspectos biológicos y geológicos localizando, seleccionando, organizando y analizando críticamente la información de distintas fuentes y citándolas con respeto por la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Contrastar la veracidad de la información sobre temas biológicos y geológicos o trabajos científicos, utilizando fuentes fiables y adoptando una actitud crítica y escéptica hacia informaciones sin una base científica como pseudociencias, teorías conspiratorias, creencias infundadas, bulos, etc."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando el papel de la mujer y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución influida por el contexto político y los recursos económicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              40
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear preguntas e hipótesis que puedan ser respondidas o contrastadas utilizando el método científico en la explicación de fenómenos biológicos y geológicos y la realización de predicciones sobre estos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar la experimentación, la toma de datos y el análisis de fenómenos biológicos y geológicos de modo que permitan responder a preguntas concretas y contrastar una hipótesis planteada evitando sesgos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar experimentos y tomar datos cuantitativos o cualitativos sobre fenómenos biológicos y geológicos utilizando los instrumentos, herramientas o técnicas adecuadas con corrección y precisión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar y analizar los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas y obteniendo conclusiones razonadas y fundamentadas o valorar la imposibilidad de hacerlo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-5",
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Cooperar y colaborar en las distintas fases de un proyecto científico para trabajar con mayor eficiencia, valorando la importancia de la cooperación en la investigación, respetando la diversidad y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              41
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas, crear modelos o dar explicación a procesos biológicos o geológicos utilizando conocimientos, datos e información proporcionados por el profesorado, el razonamiento lógico, el pensamiento computacional o los recursos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              42
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos aportando datos o informaciones científicas veraces cambiando los procedimientos utilizados o las conclusiones si dicha solución no fuese viable o ante nuevos datos aportados con posterioridad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              42
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar los posibles riesgos naturales potenciados por determinadas acciones humanas sobre una zona geográfica, teniendo en cuenta sus características litológicas, relieve, biodiversidad y funcionamiento de sus ecosistemas, y factores socioeconómicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              43
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y valorar los beneficios para la sociedad de llevar un modo de vida acorde con el desarrollo sostenible y saludable, analizando y proponiendo de forma argumentada las acciones que pueden llevarse a cabo para mejorar la calidad del medio ambiente y la salud individual y colectiva."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              43
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Deducir y explicar la historia geológica de una zona geográfica identificando sus elementos más relevantes a partir de cortes, mapas y otros sistemas de información geológica y utilizando el razonamiento, los principios geológicos básicos (horizontalidad, superposición, actualismo, etc.) y las teorías geológicas más relevantes, y relacionarlo con el relieve originado por la dinámica de los factores geológicos internos y externos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              44
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reflexionar sobre los riesgos geológicos y las actividades humanas que tienen influencia en las catástrofes naturales, y proponer mejoras en las formas de actuación frente a ellas, valorando la importancia de mantener un compromiso con el medio ambiente para el desarrollo seguro, sostenible e igualitario de la humanidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              44
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyecto científico"
+          },
+          "saberes": [
+            {
+              "id": "BG.4.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hipótesis, preguntas y conjeturas: planteamiento con perspectiva científica."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.4.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas científicas: herramientas digitales y formatos de uso frecuente en ciencia (presentación, gráfica, vídeo, póster, informe, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.4.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuentes fidedignas de información científica: reconocimiento y utilización."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.4.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de observación y de toma de datos de fenómenos naturales."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  47
+                ]
+              }
+            },
+            {
+              "id": "BG.4.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Controles experimentales (positivos y negativos): diseño e importancia para la obtención de resultados científicos objetivos y fiables."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La respuesta a cuestiones científicas mediante la experimentación y el trabajo de campo: utilización de los instrumentos y espacios necesarios (laboratorio, aulas, entorno, etc.) de forma adecuada y precisa."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelado para la representación y comprensión de procesos o elementos de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.A.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de análisis de resultados. Diferenciación entre correlación y causalidad y argumentación de las conclusiones obtenidas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.A.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La labor científica y las personas dedicadas a la ciencia: contribución a las ciencias biológicas y geológicas e importancia social. El papel de la mujer en la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.A.10",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La evolución histórica del saber científico: la ciencia como labor colectiva, interdisciplinar y en continua construcción."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Geología"
+          },
+          "saberes": [
+            {
+              "id": "BG.4.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relieve y paisaje: diferencias, su importancia como recursos y factores que intervienen en su formación y modelado. El relieve del Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura y dinámica de la geosfera. Métodos de estudio."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los efectos globales de la dinámica de la geosfera desde la perspectiva de la tectónica de placas, asociándola con las teorías de la deriva continental y la expansión del fondo oceánico."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Procesos geológicos externos e internos: diferencias y relación con los riesgos naturales. Medidas de prevención y mapas de riesgos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los cortes geológicos: interpretación y trazado de la historia geológica que reflejan mediante la aplicación de los principios del estudio de la historia de la Tierra (horizontalidad, superposición, intersección, sucesión faunística, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La célula"
+          },
+          "saberes": [
+            {
+              "id": "BG.4.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Identificación y reconocimiento de la morfología de los orgánulos celulares y su relación con su función biológica."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las fases del ciclo celular."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La función biológica de la mitosis, la meiosis y sus fases."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Destrezas de observación de las distintas fases de la mitosis al microscopio."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Genética y evolución"
+          },
+          "saberes": [
+            {
+              "id": "BG.4.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelo simplificado de la estructura del ADN y del ARN y relación con su función y síntesis."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de extracción de ADN de una célula eucariota."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Etapas de la expresión génica, características del código genético y resolución de problemas relacionados con estas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relación entre las mutaciones, la replicación del ADN, el cáncer, la evolución y la biodiversidad. Descripción de las principales enfermedades genéticas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  48
+                ]
+              }
+            },
+            {
+              "id": "BG.4.D.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fenotipo y genotipo: definición y diferencias. Las leyes de Mendel sobre la herencia de los caracteres."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  49
+                ]
+              }
+            },
+            {
+              "id": "BG.4.D.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de resolución de problemas sencillos de herencia genética de caracteres con relación de dominancia y recesividad con uno o dos genes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  49
+                ]
+              }
+            },
+            {
+              "id": "BG.4.D.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de resolución de problemas sencillos de herencia del sexo y de herencia genética de caracteres con relación de codominancia, dominancia incompleta, alelismo múltiple y ligada al sexo con uno o dos genes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  49
+                ]
+              }
+            },
+            {
+              "id": "BG.4.D.8",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales técnicas de la ingeniería genética y sus aplicaciones e impacto en la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  49
+                ]
+              }
+            },
+            {
+              "id": "BG.4.D.9",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El proceso evolutivo de las características de una especie determinada a la luz de la teoría neodarwinista y de otras teorías con relevancia histórica (lamarckismo y darwinismo)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  49
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "La Tierra en el universo"
+          },
+          "saberes": [
+            {
+              "id": "BG.4.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El origen del universo y del sistema solar."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  49
+                ]
+              }
+            },
+            {
+              "id": "BG.4.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Componentes del sistema solar: estructura y características."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  49
+                ]
+              }
+            },
+            {
+              "id": "BG.4.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hipótesis sobre el origen de la vida en la Tierra: procedimientos utilizados para reconstruir su origen y evolución."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  49
+                ]
+              }
+            },
+            {
+              "id": "BG.4.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales investigaciones en el campo de la astrobiología."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  49
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-21",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

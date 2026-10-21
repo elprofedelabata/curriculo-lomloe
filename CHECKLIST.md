@@ -11,12 +11,12 @@ Una materia o ámbito se marca como terminado cuando:
 
 ## Progreso global
 
-- **Total inventariado:** 231 currículos
+- **Total inventariado:** 255 currículos
 - **Terminados:** 118
-- **Pendientes:** 113
+- **Pendientes:** 137
 - **Andalucía:** 102 de 102
 - **Aragón:** 3 de 116
-- **Principado de Asturias:** 13 de 13 inventariados
+- **Principado de Asturias:** 13 de 37 inventariados
 
 ## Andalucía
 
@@ -367,12 +367,13 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 ### Progreso
 
-- **Total inventariado:** 13 currículos
+- **Total inventariado:** 37 currículos
 - **Terminados:** 13
-- **Pendientes:** 0
+- **Pendientes:** 24
 - **Infantil:** 3 de 3
 - **Primaria:** 10 de 10
-- **ESO, Bachillerato y CFGB:** pendientes de inventariar y convertir
+- **ESO:** 0 de 24; los 24 JSON están generados y pendientes de revisión
+- **Bachillerato y CFGB:** pendientes de inventariar y convertir
 
 ### Infantil
 
@@ -397,9 +398,46 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 - [x] Lengua Asturiana y Literatura — primer a tercer ciclo, optativa — [JSON](data/es-as/primaria/materias/lengua-asturiana-y-literatura.json)
 - [x] Cultura Asturiana — primer a tercer ciclo, optativa — [JSON](data/es-as/primaria/materias/cultura-asturiana.json)
 
+### ESO
+
+#### Anexo II — Materias de Educación Secundaria Obligatoria
+
+- [ ] Biología y Geología — 1.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/biologia-y-geologia.json)
+- [ ] Digitalización — 4.º — [JSON en revisión](data/es-as/eso/materias/digitalizacion.json)
+- [ ] Economía y Emprendimiento — 4.º — [JSON en revisión](data/es-as/eso/materias/economia-y-emprendimiento.json)
+- [ ] Educación Física — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/educacion-fisica.json)
+- [ ] Educación Plástica, Visual y Audiovisual — 1.º y 3.º — [JSON en revisión](data/es-as/eso/materias/educacion-plastica-visual-y-audiovisual.json)
+- [ ] Educación en Valores Cívicos y Éticos — 3.º — [JSON en revisión](data/es-as/eso/materias/educacion-en-valores-civicos-y-eticos.json)
+- [ ] Expresión Artística — 4.º — [JSON en revisión](data/es-as/eso/materias/expresion-artistica.json)
+- [ ] Física y Química — 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/fisica-y-quimica.json)
+- [ ] Formación y Orientación Personal y Profesional — 4.º — [JSON en revisión](data/es-as/eso/materias/formacion-y-orientacion-personal-y-profesional.json)
+- [ ] Geografía e Historia — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/geografia-e-historia.json)
+- [ ] Latín — 4.º — [JSON en revisión](data/es-as/eso/materias/latin.json)
+- [ ] Lengua Castellana y Literatura — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/lengua-castellana-y-literatura.json)
+- [ ] Lengua Extranjera — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/lengua-extranjera.json)
+- [ ] Matemáticas — 1.º, 2.º, 3.º y 4.º (Matemáticas A y B) — [JSON en revisión](data/es-as/eso/materias/matematicas.json)
+- [ ] Música — 1.º, 2.º y 4.º — [JSON en revisión](data/es-as/eso/materias/musica.json)
+- [ ] Segunda Lengua Extranjera — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/segunda-lengua-extranjera.json)
+- [ ] Tecnología — 4.º — [JSON en revisión](data/es-as/eso/materias/tecnologia.json)
+- [ ] Tecnología y Digitalización — 2.º y 3.º — [JSON en revisión](data/es-as/eso/materias/tecnologia-y-digitalizacion.json)
+
+#### Anexo II — Materias optativas
+
+- [ ] Cultura Clásica — 2.º — [JSON en revisión](data/es-as/eso/materias/cultura-clasica.json)
+- [ ] Digitalización Aplicada — 1.º — [JSON en revisión](data/es-as/eso/materias/digitalizacion-aplicada.json)
+- [ ] Filosofía — 4.º — [JSON en revisión](data/es-as/eso/materias/filosofia.json)
+- [ ] Lengua Asturiana y Literatura — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/lengua-asturiana-y-literatura.json)
+- [ ] Proyecto de Emprendimiento Social o Empresarial — 3.º — [JSON en revisión](data/es-as/eso/materias/proyecto-de-emprendimiento-social-o-empresarial.json)
+- [ ] Taller de Economía Aplicada — 4.º — [JSON en revisión](data/es-as/eso/materias/taller-de-economia-aplicada.json)
+
+### Notas de alcance
+
+- Los ámbitos Lingüístico y Social y Científico-tecnológico del programa de Diversificación incorporan los aspectos básicos de las materias que los integran, según el artículo 26 del Decreto 59/2022; la norma no publica para ellos un desarrollo curricular independiente equivalente al anexo andaluz. Por ello no se duplican como JSON separados.
+
 ### Fuentes oficiales locales
 
 - [Catálogo completo y huellas de los documentos](sources/es-as/normativa/catalogo.json)
 - [Infantil — Decreto 56/2022](sources/es-as/normativa/infantil/2022-08-05-decreto-56-2022-curriculo-infantil.pdf)
 - [Primaria — Decreto 57/2022](sources/es-as/normativa/primaria/2022-08-05-decreto-57-2022-curriculo-primaria.pdf)
+- [ESO y organización de CFGB — Decreto 59/2022](sources/es-as/normativa/eso/2022-08-30-decreto-59-2022-curriculo-eso-y-cfgb.pdf)
 - [Infantil — modificación mediante el Decreto 104/2025](sources/es-as/normativa/actualizaciones/2025-08-25-decreto-104-2025-modifica-curriculo-infantil.pdf)

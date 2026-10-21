@@ -1,0 +1,513 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.eso.digitalizacion-aplicada",
+  "territorio": "es-as",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "DA",
+    "nombre": {
+      "es": "Digitalización Aplicada"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-59-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 59/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de la Educación Secundaria Obligatoria en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06713",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 327,
+        "hasta": 336
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia Digitalización Aplicada pretende dotar al alumnado de las capacidades necesarias para trabajar en el entorno digital de aprendizaje con el que trabajará a lo largo de la etapa de Educación Secundaria Obligatoria, consolidando y afianzando su alfabetización digital. En la sociedad actual que se informa, se relaciona y produce conocimiento, la materia ayuda al alumnado a satisfacer necesidades, individuales o colectivas, que se han ido estableciendo de forma progresiva en la vida de las personas y en el funcionamiento de la sociedad y la cultura digital. Pero la formación de la ciudadanía actual va más allá de la alfabetización digital, ya que requiere una atención específica a la adquisición de los conocimientos necesarios para usar los medios tecnológicos de manera ética, responsable, segura y crítica. En cuanto a los retos y desafíos del siglo XXI, la materia aborda determinados temas que como el consumo responsable, el logro de una vida saludable, el compromiso ante situaciones de inequidad y exclusión, la resolución pacífica de los conflictos en entornos virtuales, el aprovechamiento crítico, ético y responsable de la cultura digital, la aceptación y manejo de la incertidumbre, la valoración de la diversidad personal y cultural, el compromiso ciudadano en el ámbito local y global y la confianza en el conocimiento como motor del desarrollo, tienen una clara relación con las condiciones propias a la sociedad y la cultura digital.",
+      "Así, ante los desafíos tecnológicos que plantea nuestra sociedad, la materia promueve, a través de la participación de todo el alumnado, el logro de una visión integral de los problemas, el desarrollo de una ciudadanía digital crítica y la consecución de una efectiva igualdad entre hombres y mujeres. De igual modo, esta materia trata de favorecer aprendizajes que permitan al alumnado hacer un uso competente de las tecnologías, tanto en la gestión de dispositivos y entornos de aprendizaje, como en el fomento del bienestar digital, introduciendo al alumnado en la toma de conciencia y la importancia de una adecuada identidad digital. El carácter interdisciplinar de la materia contribuye a la consecución del perfil de salida del alumnado al término de la Educación Básica y a la adquisición de los objetivos de etapa.",
+      "El valor educativo de esta materia está asociado a la integración de sus competencias específicas en los contextos del día a día de la ciudadanía, adquiriendo hábitos que se ponen en juego constantemente en una sociedad digital y que se constituye como uno de los ejes principales del currículo. Asimismo, pretende proporcionar al alumnado competencias en la resolución de problemas sencillos a la hora de configurar dispositivos y periféricos de uso cotidiano y la capacidad para organizar su entorno personal de aprendizaje fomentando el aprendizaje permanente y el bienestar digital con objeto de proteger los dispositivos y a su propia persona, contribuyendo a generar una ciudadanía digital crítica, informada y responsable, que favorezca el desarrollo de la autonomía, la igualdad y la inclusión, mediante la creación y difusión de nuevos conocimientos para hacer frente tanto a la brecha digital como a la de género, prestando especial atención a la eliminación de estereotipos.",
+      "En la etapa de Educación Primaria el alumnado desarrolla su alfabetización digital y comienza a interactuar y comunicarse en entornos digitales, por lo que requiere aprender a gestionar su identidad digital y salvaguardarla. Al mismo tiempo, dependiendo por un lado de su contexto económico, social y familiar, y por otro lado de las circunstancias personales, las capacidades digitales con las que inicia la nueva etapa pueden llegar a ser muy diferentes.",
+      "Por otro lado, los criterios de evaluación, como elemento que permite valorar el grado de desarrollo de las competencias específicas, están enfocados a la consecución de habilidades y aptitudes que le permitan desempeñar las tareas educativas que requieran el uso de utilidades informáticas, sensibilizando al alumnado en sus hábitos, generando rutinas digitales saludables, sostenibles y seguras, a la vez que críticas con prácticas inadecuadas. La aplicación de este enfoque competencial conduce al desarrollo de conocimientos, destrezas y actitudes en el alumnado que fomentan distintas formas de organización del trabajo en equipo y el debate multidisciplinar ante la diversidad de situaciones de aprendizaje que intervienen en la materia.",
+      "La materia se organiza en tres bloques interrelacionados de saberes básicos: «Configuración del entorno digital de aprendizaje», «Uso del entorno digital de aprendizaje» y «Pensamiento computacional».",
+      "El primer bloque, «Configuración del entorno digital de aprendizaje», comprende una serie de saberes relacionados entre sí. Parten tanto del conocimiento de las características y funcionalidades de los dispositivos de los que dispone el centro educativo, como de las utilidades básicas de los sistemas operativos y la conexión de los distintos sistemas. Se persigue trabajar con saberes de tipo procedimental, tanto relativos a la configuración de los dispositivos, como a la resolución de problemas que puedan aparecer. También se incide en la adquisición de hábitos de reutilización de materiales y ahorro energético, contribuyendo al desarrollo sostenible.",
+      "El segundo bloque, «Uso del entorno digital de aprendizaje», es el más interdisciplinar de todos, pues permite fortalecer los conocimientos relacionados con la alfabetización digital. Se centra en que el alumnado sepa utilizar las diferentes herramientas digitales de las que se disponen en los centros educativos y desarrolle habilidades relacionadas con la búsqueda y selección de la información y la creación de contenidos, usándolas también para la colaboración y difusión de sus aprendizajes. Se pretende, además, la adquisición de conocimientos, destrezas y actitudes que permitan la creación y reutilización de contenidos digitales básicos, manteniendo una actitud crítica con la información y una actitud de respeto con los derechos de autor y la propiedad intelectual para un aprendizaje permanente.",
+      "El tercer bloque, «Pensamiento computacional», inicia al alumnado en las capacidades de razonamiento para la resolución práctica de problemas cotidianos, descomponiéndolos en distintos pasos y expresando la solución en un lenguaje formal que le permita implementar la solución usando elementos de programación. Este bloque presenta al alumno y a la alumna los conceptos fundamentales de la programación para desarrollar programas sencillos, aplicando técnicas básicas para comprobar su correcto funcionamiento, permitiéndole así poner en valor las posibilidades que ofrece la informática como herramienta de ayuda en distintos ámbitos.",
+      "El desarrollo de la materia permite conectar con la realidad del alumnado, partiendo de sus dudas y problemas, para conseguir mejorar su competencia digital y que, de esta forma, sea capaz de utilizar las herramientas TIC de una manera más eficiente y segura tanto con fines académicos como personales o sociales.",
+      "Metodología",
+      "La enseñanza de la materia Digitalización Aplicada tiene como finalidad el desarrollo en el alumnado de las siguientes competencias clave: Competencia en Comunicación Lingüística (CCL), Competencia Plurilingüe (CP), Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM), Competencia Digital (CD), Competencia Personal, Social y de Aprender a Aprender (CPSAA), Competencia Ciudadana (CC), Competencia Emprendedora (CE) y Competencia en Conciencia y Expresión Culturales (CCEC).",
+      "La materia de Digitalización Aplicada contribuye a que los y las alumnas progresen en el grado de desarrollo de las competencias que, de acuerdo con el Perfil de salida del alumnado al término de la enseñanza básica, debe haberse alcanzado al finalizar la Educación Primaria.",
+      "La contribución a la Competencia en Comunicación Lingüística (CCL) se realiza a través de la implementación de las tareas de búsqueda y posterior selección de información, consulta de tutoriales y manuales e, incluso, instalación de programas en la que se tiene que seguir y analizar convenientemente cada una de las instrucciones. Además, en el contexto de la realización de las actividades, el alumnado crea contenidos con todo tipo de aplicaciones digitales en los que utiliza distintos formatos de presentación, como documentos de texto o presentaciones electrónicas empleando vocabulario adecuado y evitando el lenguaje sexista tanto de forma oral como escrita. La comunicación lingüística está también presente en las actividades que requieren trabajo en grupo, donde el alumnado tiene que exponer sus ideas, defenderlas y argumentarlas, para debatir la idoneidad de todas ellas. Finalmente, dicha competencia también se trabaja cuando se realizan presentaciones orales en las que el alumnado comparte sus trabajos con el resto del grupo clase.",
+      "La Competencia Plurilingüe (CP) se desarrolla al utilizar software y hardware informático cuyos manuales e instrucciones pueden estar escritos en otros idiomas. Por otro lado, los lenguajes de programación también contribuyen al desarrollo de esta competencia en la medida en que se hace necesaria la comprensión, utilización y escritura de un conjunto de instrucciones en una lengua extranjera.",
+      "Se contribuye al desarrollo de la Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM) debido a que la materia mantiene unos vínculos muy estrechos con dicha competencia. Por un lado, el tratamiento de información numérica permite el desarrollo de la Competencia Matemática, resaltando los sistemas de numeración binaria, octal, hexadecimal en los que se basa el mundo digital. El alumnado trabaja con porcentajes, cantidades en distintos formatos, fórmulas y funciones matemáticas. La Competencia en Ciencia se trabaja con la utilización del método científico en la resolución de problemas y las situaciones de aprendizaje que lo requieran, mediante la observación y experimentación. En el caso de la Competencia en Tecnología e Ingeniería, la materia contribuye al desarrollo de las destrezas tecnológicas mejorando las habilidades y conocimientos del alumnado sobre hardware y software. Desde la materia se deben fomentar las vocaciones científicas y técnicas contribuyendo a incrementar la visibilidad de la mujer en este campo, haciendo especial hincapié en la importancia de la eliminación de estereotipos y en la igualdad de oportunidades.",
+      "La adquisición de la Competencia Digital (CD) se desarrolla de forma prioritaria en la materia de Digitalización Aplicada. A través de ella se trata de desarrollar en el alumnado las destrezas necesarias para que utilice de forma creativa, crítica y segura las tecnologías de la información y la comunicación. Para todo esto, la materia aborda aspectos tales como el manejo de la información digital, la comunicación tanto mediante la configuración de redes como la utilización de herramientas especialmente desarrolladas para ello, la creación de contenidos utilizando todo tipo de aplicaciones, la seguridad adquiriendo hábitos que fomenten el bienestar digital y la resolución de problemas.",
+      "La Competencia Personal, Social y de Aprender a Aprender (CPSAA) se incentiva trabajando con autonomía y creatividad, mediante la obtención, análisis y selección de información útil procedente de distintas fuentes de información, analizando el resultado de las mismas y empleándola para la resolución de las distintas cuestiones planteadas en el aula, colaborando de forma constructiva en el trabajo en grupo, expresando empatía y afrontando los conflictos en un contexto integrador. El trabajo en equipo y la metodología de trabajo por proyectos contribuyen al desarrollo de las relaciones interpersonales, al aprendizaje autónomo y a la autoevaluación.",
+      "La materia desarrolla la Competencia Ciudadana (CC) en tres ámbitos fundamentales. Por un lado, con los trabajos en grupo se busca que el alumnado adquiera las destrezas necesarias para interactuar eficazmente con sus compañeros y compañeras respetando sus opiniones y participando constructivamente tanto en las actividades propuestas, como en la toma de decisiones. En este sentido, los medios digitales permiten entornos de trabajo colaborativos, cuya utilización es clave en el desarrollo de este tipo de habilidades y competencias. Por otro lado, se fomenta que el alumnado ejerza una ciudadanía digital crítica en la que el respeto a los derechos fundamentales del individuo, a la diversidad y cohesión social y al desarrollo sostenible guíen su comportamiento. En último lugar, la llamada web social proporciona un variado número de herramientas en línea que permiten al alumnado publicar y compartir sus producciones, además de posibilitar el acceso a producciones y documentos ajenos, acceso que se ha de hacer respetando las licencias correspondientes de uso y distribución. Un aspecto significativo relacionado con la competencia ciudadana que se debe trabajar desde la materia es el respeto a las licencias de distribución del software y contenidos empleado y el seguimiento de las normas de comportamiento en la red.",
+      "La materia de Digitalización Aplicada también contribuye a la adquisición de la Competencia Emprendedora (CE). Un entorno como el digital visibiliza multitud de oportunidades para las actividades personales, profesionales y comerciales. Aplicaciones de móviles, redes sociales, software en general; suponen ejemplos prácticos para nuestro alumnado. Además, a través de la resolución de las actividades propias de esta materia se desarrollan destrezas esenciales para que el alumnado adquiera esta competencia como la capacidad de análisis, planificación, organización, toma de decisiones y resolución de problemas.",
+      "Finalmente, la materia desarrolla la Competencia en Conciencia y Expresiones Culturales (CCEC) al elaborar creaciones digitales donde el alumnado debe conocer, comprender, apreciar y valorar con espíritu crítico las diferentes manifestaciones culturales y artísticas. Esto se hace especialmente evidente en la edición de contenidos multimedia (imágenes, vídeos y sonido) y su posterior integración en producciones audiovisuales que han de seguir ciertos criterios estéticos acordes con la realidad cultural que nos rodea.",
+      "El carácter práctico de la materia Digitalización Aplicada conlleva la utilización y el manejo de dispositivos digitales como ordenadores, tabletas electrónicas, etc., donde los alumnos y las alumnas realicen tareas prácticas. Para que dichas actividades se puedan desarrollar de forma que garanticen la adquisición de las distintas competencias y la evaluación del alumnado en condiciones de equidad, es necesario disponer de un ordenador o dispositivo por estudiante en un aula conectada y dotada adecuadamente de los medios técnicos necesarios.",
+      "Una visión de las diferentes iniciativas que se promueven en el Principado de Asturias para impulsar la innovación y la tecnología digital en diferentes ámbitos con el objetivo de mejorar la industria de la región y la búsqueda de nuevas oportunidades, permite al alumnado ser consciente de la importancia de las competencias trabajadas al mismo tiempo que facilita su participación e interés por la materia.",
+      "En aquellas situaciones de enseñanza-aprendizaje que requieran trabajo en equipo, el profesorado contribuirá a la hora de agrupar al alumnado a fomentar un clima de respeto e igualdad, prestando especial atención al alumnado vulnerable.",
+      "Para alcanzar y desarrollar las competencias anteriormente expuestas, en el proceso de enseñanza y aprendizaje, se tendrán en cuenta las siguientes recomendaciones metodológicas.",
+      "La metodología de la materia debe de ser flexible, abierta, activa y participativa con el alumnado como protagonista de su aprendizaje. El profesorado debe asumir responsabilidades como dinamizador de un proceso de enseñanza-aprendizaje basado en el autoaprendizaje y adaptado al contexto donde se trata de poner en práctica. Si se quiere tener éxito, se deben tener en cuenta las condiciones socioculturales, la disponibilidad de recursos y las características del alumnado al que se dirige; es decir, el contexto social y personal. Por eso, se proponen diferentes metodologías cuyo uso responderá a la situación de enseñanza – aprendizaje que, en cada momento, se dé en el aula.",
+      "Se deben procurar aprendizajes significativos y funcionales, de modo que el alumnado relacione los nuevos aprendizajes con los ya adquiridos y con aplicaciones próximas de la vida real, fomentando, de este modo, habilidades y estrategias para aprender a aprender, combinando los métodos expositivos con los de indagación, realizando actividades de análisis, aplicación y simulación práctica de los diferentes bloques de contenidos.",
+      "El trabajo en grupo, el estudio de casos, o el aprendizaje basado en problemas, proporcionan al alumnado la oportunidad de adoptar un papel activo en su proceso de aprendizaje, capacitándole para aprender de forma autónoma y también, con otras y de otras personas, y por tanto para trabajar en equipo, resolver problemas y situaciones conflictivas, aplicar el conocimiento en contextos variados, así como para localizar recursos. Deben ser sujetos activos capacitados para identificar necesidades de aprendizaje, investigar, resolver problemas y, en definitiva, aprender.",
+      "Las actividades se plantearán posibilitando la participación individual y el trabajo en equipo del alumnado de forma igualitaria, en un ambiente de diálogo, tolerancia, respeto, cooperación y de convivencia. Se presentarán de forma atractiva y apropiada a los objetivos y contenidos que se han de desarrollar, comenzando con actividades de introducción, para facilitar los conocimientos básicos que proporcionen seguridad al alumnado. Cuando se aprecie cierto grado de dominio, se pasará a trabajar actividades de profundización, de aplicación y de síntesis.",
+      "La formación del alumnado debe tener en cuenta el fomento de la educación en valores y la igualdad efectiva de derechos y oportunidades entre hombres y mujeres, fomentando el desarrollo afectivo y socio-emocional del alumnado.",
+      "El proceso de enseñanza y aprendizaje conlleva necesariamente procesos de análisis y reflexión que posibiliten la mejora continua de la práctica docente, para responder a las necesidades en cada momento.",
+      "La metodología de la materia pretende entre otras cosas el fomento de la reflexión y el pensamiento crítico del alumnado; la contextualización de los aprendizajes; la alternancia de diferentes tipos de actuaciones, actividades y situaciones de aprendizaje; la potenciación de la investigación, la experimentación, la lectura y el tratamiento de la información; la utilización de agrupamientos heterogéneos en el aula y la potenciación del trabajo colaborativo.",
+      "Las situaciones de aprendizaje son un conjunto de actividades o tareas complejas que implican el despliegue por parte del alumnado de actuaciones asociadas a competencias clave y competencias específicas y que, además, contribuyen a su adquisición y desarrollo. Estas situaciones es preciso contextualizarlas en torno al contexto personal, social, educativo y profesional del alumnado.",
+      "El trabajo por situaciones de aprendizaje no se plantea como una actividad suplementaria a los contenidos u objetivos de aprendizaje, sino como una guía que interrelaciona la adquisición de conocimientos con la solución creativa de problemas reales. Las actividades que formen parte de estas situaciones deberán estar ligadas al currículo, planeadas para desarrollarse en un periodo de tiempo limitado y vinculadas con el trabajo académico diario.",
+      "Las situaciones de aprendizaje no pueden ser ajenas a las necesidades que en el ámbito de la digitalización se le planteen al alumnado tanto en otras materias como en la vida diaria. Se debe tener muy claro el carácter interdisciplinar e instrumental de la materia como vehículo a través del que el alumnado encuentra solución a las dificultades relacionadas con el desarrollo de contenidos digitales, configuración de equipos informáticos o cualquier otro aspecto relacionado con las nuevas tecnologías de la información y la comunicación.",
+      "En todo momento el alumno y la alumna deben ser conocedores del tipo de trabajo que se va a realizar, los tiempos, los contenidos y el resultado final; de esa forma, podrán opinar y modificar o destacar cuestiones de ese proceso que lleven a una mejor consecución del objetivo final.",
+      "Una visión de las diferentes iniciativas que se promueven en el Principado de Asturias para impulsar la innovación y la tecnología digital en diferentes ámbitos con el objetivo de mejorar la industria de la región y la búsqueda de nuevas oportunidades, permite al alumnado ser consciente de la importancia de las competencias trabajadas al mismo tiempo que facilita su participación e interés en la materia.",
+      "La metodología debe tener en cuenta propuestas y modelos organizativos que, generalizados al contexto de aula, permitan la presencia, la participación y el aprendizaje de todo el alumnado. Por ello, se debe buscar la personalización de la respuesta educativa, teniendo en cuenta el Diseño Universal para el Aprendizaje (DUA). Este diseño se basa en tres principios que contempla múltiples formas de implicación o motivación para la tarea (por qué se aprende), múltiples formas de representación de la información (el qué se aprende) y múltiples formas de expresión del aprendizaje (cómo se aprende), de manera que se conecte con los centros de interés del alumnado, así como con la programación multinivel de saberes básicos del área. Este diseño promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado. La diversidad y heterogeneidad del alumnado presente en el aula han de entenderse como factores enriquecedores del proceso de enseñanza-aprendizaje y es a través de los principios, del Diseño Universal para el Aprendizaje, como se puede lograr la equidad para todo el alumnado. Las orientaciones metodológicas que se describen posteriormente deben estar en consonancia con dicho Diseño Universal para el Aprendizaje. Para lograr este objetivo, el profesorado debe utilizar múltiples recursos, incluyendo los digitales, en diferentes formatos y varias opciones didácticas, con el fin de mantener el interés, la motivación y la cooperación del alumnado en el proceso de enseñanza-aprendizaje.",
+      "A continuación, se realiza una aproximación a algunas de las metodologías más utilizadas, aunque no debemos entenderlas como elementos aislados sino como elementos que se complementan y que deben estar integrados en las situaciones de aprendizaje: enseñanza no directiva, aprendizaje basado en tareas, aprendizaje basado en proyectos, aprendizaje cooperativo, codocencia, trabajo interdisciplinar, aula invertida, gamificación, pensamiento visual y aprendizaje-servicio.",
+      "En la enseñanza no directiva el profesorado interviene para ayudar a destacar el problema mientras que son los alumnos y las alumnas quienes tienen que buscar las soluciones. El papel del profesorado es el de facilitador y es la metodología de trabajo que se recomienda en esta materia para llevar a cabo las diferentes tareas planteadas en las situaciones de aprendizaje.",
+      "El aprendizaje basado en tareas en la enseñanza gira en torno a problemas situados en un contexto relevante para el alumnado. Esto implica que el alumnado tenga que consultar la información pertinente, disponer de criterios de solución claros y, al mismo tiempo, permite la valoración de los procedimientos para su resolución con el objeto de poder efectuar un seguimiento y evaluación de la propia acción. En esta metodología el problema o tarea es el punto de partida para la adquisición e integración de los nuevos conocimientos. Se plantean situaciones abiertas que pueden tener múltiples soluciones. El alumnado investiga y el o la docente aporta información cuando sea necesario. Se deben buscar tareas o problemas de la vida real, planteados como retos, y el alumnado debe identificar qué conocimientos necesita para solucionarlos. Lo importante es el proceso, que incluye, además del trabajo en grupos cooperativos, la toma de decisiones, la planificación de estrategias, la creatividad, el pensamiento crítico, el aprendizaje autodirigido, las habilidades de comunicación y argumentación, la presentación de la información, la autoevaluación, la conciencia del propio aprendizaje, el desarrollo en valores, etc. Para garantizar el aprendizaje se lleva a cabo una retroalimentación continua sobre el proceso y el resultado, promoviendo la mejora.",
+      "El aprendizaje basado en proyectos plantea situaciones de aprendizaje relativamente abiertas donde el alumnado participa en el diseño de un plan de trabajo, debe tratar la información pertinente y realizar una síntesis final que presente el producto pactado. Se pretende ayudar a organizar el pensamiento favoreciendo la reflexión, la crítica, la elaboración de hipótesis y la tarea investigadora. Esta materia, por su fuerte componente práctico, es muy adecuada para implementar esta metodología, con la que se consigue integrar diversos temas de contenido relevante, trabajar estrategias de búsqueda estableciendo criterios según la confiabilidad de las fuentes, relacionar el proyecto con otros problemas de otras materias o de la vida diaria, integrar las habilidades académicas con las habilidades manuales y sociales, gestionar un protagonismo compartido donde predomine la actitud de cooperación, fomentar la autoestima del alumnado como componente imprescindible de un grupo y finalmente, ayudar a la consecución de las competencias clave de etapa.",
+      "El aprendizaje cooperativo trata de diseñar situaciones en las que la interdependencia de las personas integrantes del grupo sea efectiva, necesitando la cooperación de todo el equipo para lograr los objetivos de la tarea. Este tipo de aprendizaje es de especial importancia durante todo el proceso de búsqueda de información, planificación y construcción, así como en la evaluación del objeto o sistema construido, pues cada miembro del grupo tiene diferentes habilidades y el uso conjunto de ellas permitirá llevar el proyecto a buen término.",
+      "La codocencia implica la presencia de dos o más docentes en el aula, permite atender la diversidad, trabajar la igualdad de oportunidades diversificando las propuestas de enseñanza aprendizaje, permitiendo un acompañamiento inclusivo del alumnado en función de las necesidades del aula. Esta metodología es de especial utilidad para llevar a cabo la parte práctica de la materia, dada la diversidad del alumnado y la necesidad de tener un ambiente de trabajo controlado y seguro en el que cada estudiante halle respuesta a sus dudas o inseguridades de manera rápida y personalizada.",
+      "El trabajo interdisciplinar consiste en un trabajo común entre el profesorado, teniendo presente la interacción de las distintas materias, de sus conceptos, de su metodología, de sus procedimientos y de la organización de la enseñanza, contribuyendo de este modo al desarrollo de las competencias en el alumnado. Como ejemplo, el trabajo coordinado con el departamento de dibujo permitirá optimizar el uso de herramientas manuales o digitales, de forma que a la hora de ejecutar la fase de diseño del proyecto el alumnado ya disponga de las destrezas necesarias. La coordinación con los departamentos de ciencias permitirá el estudio previo de aquellos conocimientos científicos que vayan a ser trabajados en el proyecto.",
+      "En el aula invertida (flipped classroom) se transfiere el trabajo de determinados procesos de aprendizaje fuera del aula y se utiliza el tiempo lectivo, junto con la experiencia del docente, para facilitar y potenciar otros procesos de adquisición y práctica de conocimientos. La búsqueda de información y el diseño de soluciones individuales pueden ser trasladadas fuera del aula; de esta manera, el tiempo de clase puede ser utilizado para que el docente o la docente revise, proponga cambios o mejoras y guíe el trabajo realizado en la dirección adecuada.",
+      "La gamificación introduce los mecanismos y el potencial estimulador de los juegos en la práctica pedagógica, potenciando el trabajo competitivo tanto individual como en equipo con el objetivo de mejorar los resultados e incentivar al alumnado. La creación mediante aplicaciones informáticas de juegos de preguntas y respuestas sobre los conocimientos científicos, las herramientas o las técnicas involucradas en la ejecución de la situación de aprendizaje ayudará al alumnado a afianzar y reforzar sus competencias. Cada tarea llevada a cabo puede plantearse mediante un desafío que conlleve una acumulación de bonificaciones, puntos extra, premios o beneficios...",
+      "El pensamiento visual (visual thinking) se basa en la utilización de recursos gráficos para la expresión de conceptos e ideas. En tecnología las representaciones gráficas y las imágenes se utilizan para que la mente pueda comprenderlas de una forma más eficiente, no tanto para comunicar mejor como para que el alumnado aprenda a pensar, interpretando, sintetizando y simplificando sin las limitaciones del lenguaje verbal. Parte de los conocimientos científicos o técnicos necesarios para llevar a cabo el proyecto pueden ser expresados, por parte del propio alumnado, mediante la utilización de herramientas digitales que le permitan afianzar las ideas o conceptos clave y que, posteriormente, pueden ser utilizadas para la presentación al resto del grupo del objeto o sistema construido.",
+      "El aprendizaje-servicio es una metodología que combina la enseñanza con el compromiso social. Ante una necesidad social, y sin dejar de lado el currículo, el alumnado emprende una tarea de servicio a la comunidad, aplicando y consolidando saberes y competencias, poniendo el acento en los valores y actitudes. La tecnología aporta un amplio elenco de posibilidades en este sentido, como puede ser la automatización de algunas tareas o procesos, las aplicaciones al bienestar personal y social, a la comunicación o al desarrollo de soluciones de monitorización de parámetros medioambientales."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Conocer y manejar diferentes configuraciones de los sistemas informáticos y de las redes de comunicación, explorando los parámetros y eligiendo el valor adecuado según las distintas situaciones para gestionar el entorno personal de aprendizaje."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia al manejo de las posibles configuraciones de elementos como ordenadores personales, tabletas digitales, teléfonos móviles, etc., habituales en el entorno de aprendizaje del alumnado. El uso de los dispositivos digitales para distintos fines educativos necesita que el alumnado conozca los parámetros configurables y sea capaz de ajustar los valores tanto para resolver posibles problemas técnicos como para adaptar su funcionamiento según las necesidades de cada tarea. La competencia engloba las opciones de los sistemas operativos y los ajustes de las aplicaciones de uso habitual en el centro, abordando las conexiones a internet, los espacios de almacenamiento tanto en local como en la nube, las medidas de seguridad básica, las opciones de accesibilidad y la integración de periféricos"
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          334
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Utilizar herramientas, plataformas educativas y programas específicos del entorno digital del centro educativo, creando contenidos digitales, integrando y difundiendo dichos contenidos en otras áreas, materias o proyectos a través de técnicas y procedimientos colaborativos para el desarrollo de la creatividad y del espíritu de innovación."
+      },
+      "descripcion": {
+        "es": [
+          "La digitalización en numerosos ámbitos de la sociedad también tiene su reflejo en el contexto educativo y en el trabajo que realizan las alumnas y los alumnos en el aula. Por ello, se hace necesario el manejo de recursos digitales en el proceso formativo del alumnado, así como la gestión adecuada del entorno personal de aprendizaje (PLE).",
+          "La competencia abarca aspectos relacionados con el uso apropiado de dichos recursos y a la habilidad de generar con ellos componentes digitales de calidad, pudiendo crear nuevo conocimiento y permitiendo que el alumnado pueda desarrollar la creatividad y el espíritu de innovación para responder a los retos que se presenten en su vida personal, académica y profesional. Un aspecto fundamental en el proceso de gestión del entorno personal de aprendizaje (PLE) son las posibilidades de trabajo colaborativo, compartición de datos y uso de medios de comunicación para interactuar con compañeros y trabajar de manera colaborativa en la mejora de las producciones."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CC3",
+        "CE3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          334,
+          335
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Diseñar aplicaciones sencillas expresando la secuencia lógica de pasos que resuelven un problema, analizando posibles mejoras a través de un entorno inicial intuitivo que permita comprender los fundamentos de programación y del pensamiento computacional."
+      },
+      "descripcion": {
+        "es": [
+          "El pensamiento computacional aporta una mirada crítica para interpretar el mundo que nos rodea, permitiendo resolver problemas cotidianos de una manera organizada y estructurada, y por ello, capacitando al alumnado para ser parte activa de una sociedad cada vez más digital. Esta competencia intenta iniciar al alumnado en la adquisición de este pensamiento abstracto planteando problemas que le permitan trabajar con los elementos fundamentales como son la descomposición de un problema en partes más sencillas, reconocimientos de patrones, organización de la información y formulación de la secuencia de pasos para su resolución o algoritmo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CP1",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          335
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los dispositivos digitales del entorno, describiendo los componentes principales, su funcionalidad y opciones de configuración."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              334
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Gestionar las cuentas de usuario, configurando opciones de accesibilidad y mecanismos de seguridad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              334
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Usar las utilidades del sistema operativo y los ajustes de las herramientas del entorno de aprendizaje para mejorar el uso de las distintas tecnologías."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              334
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conectar dispositivos a redes cableadas o inalámbricas para la transmisión de datos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              334
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Adaptar la formulación de una consulta y usar las distintas opciones de las herramientas de búsqueda de información para recuperar resultados pertinentes y de interés, identificando aquellos datos que provienen de una fuente fiable y segura."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              335
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Crear, integrar y reelaborar contenidos digitales de forma individual o colectiva, seleccionando las herramientas más apropiadas para generar nuevo conocimiento y contenidos digitales de manera creativa, teniendo en cuenta aspectos relacionados con la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              335
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Interactuar con compañeros, compartiendo y comentando creaciones digitales a través del uso de herramientas y opciones colaborativas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              335
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Descomponer un problema en módulos, reconociendo las fases de resolución de un problema y expresando de manera formal los pasos del algoritmo de solución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              335
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Implementar una solución a través de un lenguaje de programación, usando para ello las estructuras y los elementos básicos de la codificación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              335
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Probar y validar la solución implementada, buscando errores y mejoras."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              335
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Configuración del Entorno Digital de Aprendizaje"
+          },
+          "saberes": [
+            {
+              "id": "DA.1.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Dispositivos digitales: componentes, características y resolución de problemas de manera guiada."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            },
+            {
+              "id": "DA.1.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Utilidades básicas de los sistemas operativos: propiedades del sistema, almacenamiento, seguridad, actualizaciones, instalación y eliminación de software."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            },
+            {
+              "id": "DA.1.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Transmisión de datos: conexiones alámbricas e inalámbricas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            },
+            {
+              "id": "DA.1.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acceso y configuración de cuentas con especial atención a las institucionales. Datos personales, términos y condiciones de uso."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Uso del Entorno Digital de Aprendizaje"
+          },
+          "saberes": [
+            {
+              "id": "DA.1.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Búsqueda y selección de información de diferentes recursos y fuentes confiables. Palabras clave, operadores y búsqueda avanzada."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            },
+            {
+              "id": "DA.1.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Edición y creación de contenidos digitales haciendo uso de los recursos que ofrecen los distintos centros educativos del Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            },
+            {
+              "id": "DA.1.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Comunicación y colaboración en red."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Pensamiento computacional"
+          },
+          "saberes": [
+            {
+              "id": "DA.1.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Resolución y análisis de problemas: descomposición, secuenciación, formulación y verificación de algoritmos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            },
+            {
+              "id": "DA.1.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conceptos básicos de programación: sentencia, expresión condicional, bucles, variables y constantes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            },
+            {
+              "id": "DA.1.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Implementación de un algoritmo. Prueba, errores y mejoras."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  336
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-20",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

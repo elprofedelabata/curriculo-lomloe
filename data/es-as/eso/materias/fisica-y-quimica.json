@@ -1,0 +1,1949 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.eso.fisica-y-quimica",
+  "territorio": "es-as",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "FQ",
+    "nombre": {
+      "es": "Física y Química"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 3,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-59-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 59/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de la Educación Secundaria Obligatoria en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06713",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 111,
+        "hasta": 126
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La formación integral del alumnado requiere de una alfabetización científica en la etapa de la Educación Secundaria Obligatoria, como continuidad a los aprendizajes de las ciencias de la naturaleza en Educación Primaria, pero con un nivel de profundización mayor en las diferentes áreas de conocimiento de la ciencia. En esta alfabetización científica, la materia de Física y Química contribuye a que el alumnado comprenda el funcionamiento del universo y las leyes que lo gobiernan, y proporciona los conocimientos, destrezas y actitudes que le permiten desenvolverse con criterio fundamentado en un mundo en continuo desarrollo científico, tecnológico, económico y social, promoviendo acciones y conductas que provoquen cambios hacia un mundo más justo e igualitario.",
+      "Las competencias clave reflejadas en el Perfil de salida del alumnado al término de la enseñanza básica se concretan para la materia de física y química en sus competencias específicas. Son estas las que justifican cuáles son el resto de los elementos del currículo de la materia en la Educación Secundaria Obligatoria, necesarios para responder con precisión a dos de las necesidades curriculares del alumnado: los saberes básicos y los criterios de evaluación de los mismos. Todos ellos están definidos de manera competencial para asegurar el desarrollo de las competencias clave más allá de una memorización de contenidos, porque solo de esta forma el alumnado será capaz de desarrollar el pensamiento científico para enfrentarse a los posibles problemas de la sociedad que le rodea y disfrutar de un conocimiento más profundo del mundo.",
+      "La evaluación de las competencias específicas se realiza teniendo en cuenta los criterios de evaluación, que están enfocados en el desempeño de los conocimientos, destrezas y actitudes asociados al pensamiento científico competencial.",
+      "Los saberes básicos de esta materia contemplan conocimientos, destrezas y actitudes que se encuentran estructurados en los que tradicionalmente han sido los grandes bloques de conocimiento de la física y la química: «La materia», «La energía», «La interacción» y «El cambio». Además, este currículo propone la existencia de un bloque de saberes básicos comunes que hace referencia a las metodologías de la ciencia y a su importancia en el desarrollo de estas áreas de conocimiento. En este bloque, denominado «Las destrezas científicas básicas», se establece además la relación de las ciencias experimentales con una de sus herramientas más potentes, las matemáticas que ofrecen un lenguaje de comunicación formal y que incluyen los conocimientos, destrezas y actitudes previos del alumnado y los que se adquieren a lo largo de esta etapa educativa. Se incide aquí en el papel destacado de las mujeres a lo largo de la historia de la ciencia como forma de ponerlo en valor y fomentar nuevas vocaciones femeninas hacia el campo de las ciencias experimentales y la tecnología.",
+      "En el bloque de «La materia» los alumnos y las alumnas aplicarán los principios de la teoría cinético molecular para explicar el comportamiento de la materia y la relación con sus propiedades macroscópicas, describirán la estructura de los átomos y sus uniones para formar sustancias elementales y compuestos, contenidos en los que profundizarán en cursos posteriores.",
+      "Con el bloque de «La energía» el alumnado profundiza en los conocimientos que adquirió en la Educación Primaria, como las fuentes de energía y sus usos prácticos, o los aspectos básicos acerca de las formas de energía. Se incluyen, además, saberes relacionados con el desarrollo social y económico del mundo real y sus implicaciones medioambientales.",
+      "«La interacción» contiene los saberes acerca de los efectos más importantes de las interacciones fundamentales de la naturaleza y el estudio básico de las principales fuerzas del mundo natural, así como sus aplicaciones prácticas en campos tales como la astronomía, el deporte, la ingeniería, la arquitectura o el diseño.",
+      "Por último, el bloque denominado «El cambio» aborda las principales transformaciones físicas y químicas de los sistemas materiales, así como los ejemplos más frecuentes en el entorno, y sus aplicaciones y contribuciones a la creación de un mundo mejor.",
+      "Todos estos elementos curriculares, competencias específicas, criterios de evaluación y saberes básicos están relacionados entre sí formando un todo que dota al currículo de esta materia de un sentido integrado y holístico, relación a la que también debería aspirar cualquier programación de aula.",
+      "La Física y Química es una materia que debe cursar todo el alumnado en el segundo y tercer curso de Enseñanza Secundaria Obligatoria y de elección en el cuarto curso. Por ello, los conocimientos, destrezas y actitudes que proporciona la Física y Química en los dos primeros cursos no deben estar orientados a la formación de especialistas en la materia sino a sentar las bases de la cultura científica. De esta manera se pretende potenciar la creación de vocaciones científicas en los alumnos y las alumnas, para conseguir que haya un número mayor de estudiantes que opten por continuar su formación en itinerarios científicos en las etapas educativas posteriores y proporcionar a su vez una completa base científica para aquellos estudiantes que deseen cursar itinerarios no científicos. En el cuarto curso de Enseñanza Secundaria Obligatoria, último de la etapa, esta materia debe aportar ya una visión más profunda y rigurosa de la física y la química, teniendo por tanto un carácter orientador tanto para los estudios postobligatorios como para la incorporación a la vida laboral.",
+      "Metodología",
+      "Física y Química, materia englobada en lo que se conoce como disciplinas STEM, juega un papel central en el desarrollo intelectual del alumnado y comparte con el resto de las materias la responsabilidad de promover en él la adquisición de las competencias necesarias para que pueda integrarse en la sociedad de forma activa. Como enseñanza científica tiene el compromiso añadido de dotar a los alumnos y las alumnas de herramientas específicas que les permitan comprender y analizar problemas de interés, considerar las implicaciones y perspectivas abiertas por las investigaciones realizadas y tomar decisiones fundamentadas respecto a los amplios debates sociales que los avances científicos suscitan.",
+      "La construcción de la ciencia y el desarrollo del pensamiento científico durante todas las etapas del desarrollo del alumnado parten del planteamiento de cuestiones científicas basadas en la observación directa o indirecta del mundo en situaciones y contextos habituales, en su intento de explicación a partir del conocimiento, de la búsqueda de evidencias y de la indagación y en la correcta interpretación de la información que a diario llega al público en diferentes formatos y a partir de diferentes fuentes. Por eso, el enfoque que se le dé a esta materia a lo largo de esta etapa educativa debe incluir un tratamiento experimental y práctico que amplíe la experiencia del alumnado más allá de lo académico, y le permita hacer conexiones con sus situaciones cotidianas, lo que contribuirá de forma significativa a que desarrolle las destrezas características de la ciencia. De esta manera se pretende potenciar la creación de vocaciones científicas para conseguir que haya un número mayor de estudiantes que opten por continuar su formación en itinerarios científicos en las etapas educativas posteriores. Es importante señalar que en esta etapa la materia de Física y Química puede tener un carácter terminal, por lo que también debe contribuir a la cimentación de una cultura científica básica.",
+      "Esta disciplina contribuye, en mayor o menor medida, a la adquisición y desarrollo de todas las competencias clave del currículo de la manera que se detalla en los párrafos siguientes.",
+      "La aportación de la materia a la Competencia en Comunicación Lingüística (CCL) pasa por la adquisición de una terminología específica que permita la configuración y la transmisión de las ideas, y la interpretación y la producción de información científica. Se debe buscar que el alumnado se exprese con rigor y claridad, empleando términos adecuados en la elaboración y comunicación de conclusiones, de forma tanto oral como escrita, utilizando un lenguaje exento de prejuicios, inclusivo y no sexista. Se ha de familiarizar tanto con textos científicos tradicionales como digitales y utilizarlos no sólo como consulta de información, sino también para otros fines como la creación de materiales didácticos y la comunicación efectiva entre otros miembros de su entorno.",
+      "La Competencia Plurilingüe (CP) es el resultado de la acción comunicativa dentro de prácticas sociales determinadas, en las cuales los alumnos y las alumnas actúan con otros interlocutores. Para ello disponen de su repertorio plurilingüe que se va ajustando a las experiencias comunicativas que acumulan a lo largo de la vida. Ese repertorio se puede incrementar notablemente con la participación en proyectos cooperativos intercentros de divulgación científica, que pueden apoyarse en entornos virtuales, contribuyendo además a promover en esa interacción los valores de democracia, justicia, igualdad y solidaridad.",
+      "La Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM) está en clara relación con la física y la química y su carácter interdisciplinar. La manipulación de expresiones algebraicas, el análisis de gráficos, la realización de cálculos, los cambios de unidades y las representaciones matemáticas se concretan en las teorías y modelos de ambas disciplinas. El desarrollo de esta competencia facilita al alumnado la obtención de habilidad en la aplicación del método científico, la resolución de problemas y la conexión entre ciencia y tecnología. A su vez le aporta una visión sobre el cuidado del entorno y la implicación personal en la sostenibilidad energética de nuestro mundo y en prácticas de consumo responsable",
+      "Referente a la Competencia Personal, Social y de Aprender a Aprender (CPSAA), la materia Física y Química aporta pautas para la resolución de problemas que ayudan a reflexionar sobre el proceso de aprendizaje y fomentan la capacidad de hacer frente a la complejidad, y para la elaboración de proyectos que desarrollan en los alumnos y las alumnas habilidades para iniciar, organizar y distribuir tareas a la vez que provoca la perseverancia en el aprendizaje. La historia muestra que el avance de la ciencia y su contribución a la mejora de las condiciones de vida ha sido posible gracias a actitudes relacionadas con esta competencia tales como la responsabilidad, la constancia, la motivación, el gusto por aprender y la consideración del error como fuente de aprendizaje.",
+      "La Competencia Digital (CD) tiene un tratamiento específico en esta materia a través de la utilización de las tecnologías de la información y comunicación. El alumnado gestionará su entorno personal digital para la selección de información, contenidos, búsquedas de estrategias para la resolución de problemas o realización de experiencias prácticas virtuales, eligiendo las herramientas digitales más adecuadas y reutilizando estos materiales digitales siempre con respeto a la propiedad intelectual. A través de las plataformas virtuales podrá trabajar de forma colaborativa participando en proyectos científicos que involucren al alumno o la alumna en la mejora de la sociedad.",
+      "Esta materia favorece la adquisición de la Competencia Ciudadana (CC), pues contribuye a que los alumnos y las alumnas puedan ejercer una ciudadanía responsable, con actitudes respetuosas que precisan juicios críticos sobre hechos científicos y tecnológicos que se desarrollan a lo largo de los tiempos. Asimismo, en el alumnado se fomenta comprender y analizar criterios éticos asociados a la ciencia, utilizando datos y resolviendo problemas para llegar a conclusiones, y tomar decisiones basadas en pruebas y argumentos.",
+      "La Competencia Emprendedora (CE) se promueve mediante la planificación y realización de trabajos cooperativos (con un reparto equitativo de tareas, rigor y responsabilidad en su realización, contraste respetuoso de pareceres y adopción consensuada de acuerdos) que permite un aprendizaje de las fortalezas y debilidades propias y ajenas, necesario para desarrollar destrezas en la optimización de los recursos humanos. Esta es una de las tareas educativas más complejas y con mayor poder integrador.",
+      "El arte, como forma de expresión cultural, y la ciencia son dos formas de conocimiento aparentemente alejadas, en gran medida como consecuencia de la especialización profesional y la educación compartimentada. Los descubrimientos científicos han servido de inspiración y han influido en el desarrollo de técnicas pictóricas, estilos artísticos, materiales de restauración, dataciones con carbono-14 o fotografías con infrarrojos, rayos X, sin olvidar la relación entre la ciencia y la arquitectura. La Competencia en Conciencia y Expresión Culturales (CCEC) fomenta la valoración de estas aportaciones de la ciencia para apreciar y disfrutar de la diversidad cultural, participando en su conservación, protección y mejora.",
+      "En el trabajo por competencias se requiere la utilización de metodologías activas y contextualizadas, que faciliten la participación e implicación de los alumnos y las alumnas y la adquisición y uso de conocimientos en situaciones reales para generar aprendizajes duraderos y transferibles por el alumnado a otros ámbitos académicos, sociales o profesionales.",
+      "La metodología debe tener en cuenta propuestas y modelos organizativos que, generalizados al contexto de aula, permitan la presencia, la participación y el aprendizaje de todo el alumnado. Por ello, se debe buscar la personalización de la respuesta educativa, teniendo en cuenta el Diseño Universal para el Aprendizaje (DUA). Este diseño se basa en tres principios que contempla múltiples formas de implicación o motivación para la tarea (por qué se aprende), múltiples formas de representación de la información (el qué se aprende) y múltiples formas de expresión del aprendizaje (cómo se aprende), de manera que se conecte con los centros de interés del alumnado, así como con la programación multinivel de saberes básicos del área. Este diseño promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado. La diversidad y heterogeneidad del alumnado presente en el aula han de entenderse como factores enriquecedores del proceso de enseñanza-aprendizaje y es a través de los principios, del Diseño Universal para el Aprendizaje (DUA), como se puede lograr la equidad para todo el alumnado.",
+      "Las situaciones de aprendizaje representan una herramienta eficaz para integrar los elementos curriculares de las distintas materias mediante tareas y actividades significativas y relevantes a fin de resolver problemas de manera creativa y cooperativa, reforzando la autoestima, la autonomía, la iniciativa, la reflexión crítica y la responsabilidad, y favoreciendo la adquisición de las herramientas sociales necesarias para una mejor integración tanto en el terreno personal como en el laboral. Para que sean eficaces esas situaciones deben tener un contexto bien desarrollado, con el que el alumnado esté familiarizado, y contener tareas complejas, pero con unos objetivos claros y precisos, que incrementen los conocimientos propios de la materia y los conecten con otros aprendizajes y con la vida real. Además, es muy conveniente que se ofrezca al alumnado cierta flexibilidad en la elección de los soportes documentales. Así planteadas, las situaciones constituyen un componente que permite aprender a aprender y sentar las bases para el aprendizaje a lo largo de la vida, fomentando procesos pedagógicos flexibles y accesibles que se ajusten a las necesidades, las características y los diferentes ritmos de aprendizaje del alumnado y que favorezcan su autonomía.",
+      "Para una adquisición eficaz de las competencias deberán diseñarse situaciones de aprendizaje integradas que permitan al alumnado desarrollar más de una competencia al mismo tiempo. Será necesario, además, ajustarse a su nivel competencial inicial y secuenciar los contenidos de manera que se parta de enseñanzas más simples para, gradualmente, avanzar hacia los contenidos más complejos. Sería aconsejable el empleo de situaciones de aprendizaje en las que deban aplicarse diferentes estrategias para la resolución de problemas, que pueden incluir el razonamiento de los mismos, el uso de simuladores, la aplicación de algoritmos matemáticos...",
+      "Los principios de individualización y personalización han de dirigir la labor educativa teniendo en cuenta la atención a la diversidad como elemento enriquecedor de esa labor. El ritmo y proceso de aprendizaje deberá ser diverso según el punto de partida y la motivación personal."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Comprender y relacionar los motivos por los que ocurren los principales fenómenos fisicoquímicos del entorno, explicándolos en términos de las leyes y teorías científicas adecuadas, para resolver problemas con el fin de aplicarlas para mejorar la realidad cercana y la calidad de vida humana."
+      },
+      "descripcion": {
+        "es": [
+          "La esencia del pensamiento científico es comprender cuáles son los porqués de los fenómenos que ocurren en el medio natural para tratar de explicarlos a través de las leyes físicas y químicas adecuadas. Comprenderlos implica entender las causas que los originan y su naturaleza permitiendo al alumnado actuar con sentido crítico para mejorar, en la medida de lo posible, la realidad cercana a través de la ciencia.",
+          "El desarrollo de esta competencia específica conlleva hacerse preguntas para comprender cómo es la naturaleza del entorno, cuáles son las interacciones que se producen entre los distintos sistemas materiales y cuáles son las causas y las consecuencias de las mismas. Esta comprensión dota al alumnado de fundamentos críticos en la toma de decisiones, activa los procesos de resolución de problemas y, a su vez, posibilita la creación de nuevo conocimiento científico a través de la interpretación de fenómenos, el uso de herramientas científicas y el análisis de los resultados que se obtienen. Todos estos procesos están relacionados con el resto de competencias específicas y se engloban en el desarrollo del pensamiento científico, cuestión especialmente importante en la formación integral de personas competentes. Por tanto, para el desarrollo de esta competencia, el alumnado requiere un conocimiento de las formas y procedimientos estándar que se utilizan en la investigación científica y su relación con el mundo natural."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          115
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando hipótesis para explicarlas y comprobando dichas hipótesis a través de la experimentación científica, la indagación y la búsqueda de evidencias, para desarrollar los razonamientos propios del pensamiento científico y mejorar las destrezas en el uso de las metodologías científicas."
+      },
+      "descripcion": {
+        "es": [
+          "Una característica inherente a la ciencia y al desarrollo del pensamiento científico en la adolescencia es la curiosidad por conocer y describir los fenómenos naturales. Dotar al alumnado de competencias científicas implica trabajar con las metodologías propias de la ciencia y reconocer su importancia en la sociedad. El alumnado que desarrolla esta competencia debe observar, formular hipótesis y aplicar la experimentación, la indagación y la búsqueda de evidencias para comprobarlas y predecir posibles cambios.",
+          "Utilizar el bagaje propio de los conocimientos que el alumnado adquiere a medida que progresa en su formación básica y contar con una completa colección de recursos científicos, tales como las técnicas de laboratorio o de tratamiento y selección de la información, suponen un apoyo fundamental para la mejora de esta competencia. El alumnado que desarrolla esta competencia emplea los mecanismos del pensamiento científico para interaccionar con la realidad cotidiana y analizar, razonada y críticamente, la información que proviene de las observaciones de su entorno, o que recibe por cualquier otro medio, y expresarla y argumentarla en términos científicos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CE1",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          116,
+          117
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Manejar con soltura las reglas y normas básicas de la física y la química en lo referente al lenguaje de la IUPAC, al lenguaje matemático, al empleo de unidades de medida correctas, al uso seguro del laboratorio y a la interpretación y producción de datos e información en diferentes formatos y fuentes, para reconocer el carácter universal y transversal del lenguaje científico y la necesidad de una comunicación fiable en investigación y ciencia entre diferentes países y culturas."
+      },
+      "descripcion": {
+        "es": [
+          "La interpretación y la transmisión de información con corrección juegan un papel muy importante en la construcción del pensamiento científico, pues otorgan al alumnado la capacidad de comunicarse en el lenguaje universal de la ciencia, más allá de las fronteras geográficas y culturales del mundo. Con el desarrollo de esta competencia se pretende que el alumnado se familiarice con los flujos de información multidireccionales característicos de las disciplinas científicas y con las normas que toda la comunidad científica reconoce como universales para establecer comunicaciones efectivas englobadas en un entorno que asegure la salud y el desarrollo medioambiental sostenible. Entre los distintos formatos y fuentes, el alumnado debe ser capaz de interpretar y producir datos en forma de textos, enunciados, tablas, gráficas, informes, manuales, diagramas, fórmulas, esquemas, modelos, símbolos, etc. Además, esta competencia requiere que el alumnado evalúe la calidad de los datos, así como que reconozca la importancia de la investigación previa a un estudio científico.",
+          "Con esta competencia específica se desea fomentar la adquisición de conocimientos, destrezas y actitudes relacionadas con el carácter multidisciplinar de la ciencia, la aplicación de normas, la interrelación de variables, la argumentación, la valoración de la importancia de utilizar un lenguaje universal, la valoración de la diversidad, el respeto a las normas y acuerdos establecidos, a la propia persona, al resto de las personas y al medio ambiente, etc., que son fundamentales en los ámbitos científicos por formar parte de un entorno social y comunitario más amplio."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "STEM5",
+        "CD3",
+        "CPSAA2",
+        "CC1",
+        "CCEC2",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          117,
+          118
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social, mediante la consulta de información, la creación de materiales y la comunicación efectiva en los diferentes entornos de aprendizaje."
+      },
+      "descripcion": {
+        "es": [
+          "Los recursos, tanto tradicionales como digitales, adquieren un papel crucial en el proceso de enseñanza y aprendizaje en general, y en la adquisición de competencias en particular, pues un recurso bien seleccionado facilita el desarrollo de procesos cognitivos de nivel superior y propicia la comprensión, la creatividad y el desarrollo personal y social del alumnado. La importancia de los recursos, no solo utilizados para la consulta de información, sino también para otros fines como la creación de materiales didácticos o la comunicación efectiva con otros miembros de su entorno de aprendizaje, dota al alumnado de herramientas para adaptarse a una sociedad que actualmente demanda personas integradas y comprometidas con su entorno.",
+          "Es por este motivo por el que esta competencia específica también pretende que el alumno o la alumna maneje con soltura recursos y técnicas variadas de colaboración y cooperación, que analice su entorno y localice en él ciertas necesidades que le permitan idear, diseñar y fabricar productos que ofrezcan un valor para la propia persona y para las demás."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          119
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento entre iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para comprender la importancia de la ciencia en la mejora de la sociedad, las aplicaciones y repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible del medio ambiente."
+      },
+      "descripcion": {
+        "es": [
+          "Las disciplinas científicas se caracterizan por conformar un todo de saberes integrados e interrelacionados entre sí. Del mismo modo, las personas dedicadas a la ciencia desarrollan destrezas de trabajo en equipo, pues la colaboración, la empatía, la asertividad, la garantía de la equidad entre mujeres y hombres y la cooperación son la base de la construcción del conocimiento científico en toda sociedad. El alumnado competente estará habituado a las formas de trabajo y a las técnicas más habituales del conjunto de las disciplinas científicas, pues esa es la forma de conseguir, a través del emprendimiento, integrarse en una sociedad que evoluciona. El trabajo en equipo sirve para unir puntos de vista diferentes y crear modelos de investigación unificados que forman parte del progreso de la ciencia.",
+          "El desarrollo de esta competencia específica crea un vínculo de compromiso entre el alumno o la alumna y su equipo, así como con el entorno que los rodea, lo que le habilita para entender cuáles son las situaciones y los problemas más importantes de la sociedad actual y cómo renovarla, cómo actuar para la mejora de la salud propia y comunitaria y cuáles son los hábitos de vida que le permita actuar de forma sostenible para la conservación del medio ambiente desde un punto de vista científico y tecnológico."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP3",
+        "STEM3",
+        "STEM5",
+        "CD3",
+        "CPSAA3",
+        "CC3",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          120
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y evolución, en la que no solo participan las personas dedicadas a ella, sino que también requiere de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el avance tecnológico, económico, ambiental y social."
+      },
+      "descripcion": {
+        "es": [
+          "Para completar el desarrollo competencial de la materia de Física y Química, el alumno o la alumna debe asumir que la ciencia no es un proceso finalizado, sino que está en una continua construcción recíproca con la tecnología y la sociedad. La búsqueda de nuevas explicaciones, la mejora de procedimientos, los nuevos descubrimientos científicos, etc. influyen sobre la sociedad, y conocer de forma global los impactos que la ciencia produce sobre ella es fundamental en la elección del camino correcto para el desarrollo. En esta línea, el alumnado competente debe tener en cuenta valores como la importancia de los avances científicos por y para una sociedad demandante, los límites de la ciencia, las cuestiones éticas y la confianza en los científicos y en su actividad.",
+          "Todo esto forma parte de una conciencia social en la que no solo interviene la comunidad científica, sino que requiere de la participación de toda la sociedad puesto que implica un avance individual y social conjunto."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CPSAA4",
+        "CC4",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          120,
+          121
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar, comprender y explicar los fenómenos fisicoquímicos cotidianos más relevantes a partir de los principios, teorías y leyes científicas adecuadas y expresándolos, de manera argumentada, utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver los problemas fisicoquímicos planteados utilizando las leyes y teorías científicas adecuadas, razonando los procedimientos utilizados para encontrar las soluciones y expresando adecuadamente los resultados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear las metodologías propias de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones a las que se pueda dar respuesta a través de la indagación, la deducción y el trabajo experimental, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar, de acuerdo con la naturaleza de las cuestiones que se traten, la mejor manera de comprobar o refutar las hipótesis formuladas, diseñando estrategias de indagación y búsqueda de evidencias que permitan obtener conclusiones y respuestas ajustadas a la naturaleza de la pregunta formulada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas conocidas al formular cuestiones e hipótesis, siendo coherente con el conocimiento científico existente y diseñando los procedimientos experimentales o deductivos necesarios para resolverlas o comprobarlas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear datos en diferentes formatos para interpretar y comunicar información relativa a un proceso fisicoquímico concreto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar adecuadamente las reglas básicas de la física y la química, incluyendo el uso de unidades de medida, las herramientas matemáticas y las reglas de nomenclatura, consiguiendo una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Poner en práctica las normas de uso de los espacios específicos de la ciencia, como el laboratorio de física y química, asegurando la salud propia y colectiva, la conservación sostenible del medio ambiente y el cuidado de las instalaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo y la interacción con otros miembros de la comunidad educativa, con respeto hacia docentes y estudiantes y analizando críticamente las aportaciones de cada participante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              119
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma adecuada con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando con criterio las fuentes más fiables y desechando las menos adecuadas y mejorando el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              119
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas, emprendiendo actividades de cooperación como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emprender, de forma guiada y de acuerdo con la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, que la ciencia es un proceso en permanente construcción y que existen repercusiones mutuas de la ciencia actual con la tecnología, la sociedad y el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              121
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar de forma guiada en el entorno las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad entendiendo la capacidad de la ciencia para darles solución sostenible a través de la implicación de toda la ciudadanía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              121
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las destrezas científicas básicas"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Metodologías de la investigación científica: identificación y formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las mismas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo experimental y proyectos de investigación: estrategias en la resolución de problemas y en el desarrollo de investigaciones mediante la indagación, la deducción y la búsqueda de evidencias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales: materiales, sustancias y herramientas tecnológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso de cada espacio, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en las redes y el respeto hacia el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje científico: unidades del Sistema Internacional y sus símbolos. Herramientas matemáticas básicas en diferentes escenarios científicos y de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de interpretación y producción de información científica utilizando diferentes formatos y diferentes medios: desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos y actuales de la física y la química en el avance y la mejora de la sociedad con especial atención a aquellos vinculados con el Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La materia"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Teoría cinético-molecular: aplicación a observaciones sobre la materia explicando sus propiedades, los estados de agregación, los cambios de estado, y la formación de mezclas y disoluciones (estudio cualitativo)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Experimentos relacionados con los sistemas materiales: conocimiento y descripción de sus propiedades, su composición y su clasificación."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura atómica: desarrollo histórico de los modelos atómicos (Dalton, Thomson y Rutherford), existencia, formación y propiedades de los isótopos y ordenación de los elementos en la tabla periódica e identificación de los símbolos de los principales elementos y su ordenación en la tabla periódica."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales compuestos químicos: su formación y sus propiedades físicas y químicas, valoración de sus aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nomenclatura: participación de un lenguaje científico común y universal formulando y nombrando sustancias simples, iones monoatómicos mediante las reglas de nomenclatura de la IUPAC y compuestos binarios."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La energía"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía: formulación de cuestiones e hipótesis sencillas sobre la energía, propiedades y manifestaciones que la describan como la causa de todos los procesos de cambio."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño y comprobación experimental de hipótesis relacionadas con el uso doméstico e industrial de la energía en sus distintas formas y las transformaciones entre ellas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elaboración fundamentada de hipótesis sobre el medio ambiente y la sostenibilidad a partir de las diferencias entre fuentes de energía renovables y no renovables."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Efectos del calor sobre la materia: análisis de los efectos y aplicación en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Naturaleza eléctrica de la materia: electrización de los cuerpos, circuitos eléctricos y la obtención de energía eléctrica. Concienciación sobre la necesidad del ahorro energético y la conservación sostenible del medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "La interacción"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Predicción de movimientos sencillos a partir de los conceptos de la cinemática formulando hipótesis comprobables sobre valores futuros de estas magnitudes, validándolas a través del cálculo numérico básico y la interpretación de gráficas o mediante el trabajo experimental."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las fuerzas como agentes de cambio: identificación de los efectos de las fuerzas, tanto en el estado de movimiento o de reposo de un cuerpo como produciendo deformaciones en los sistemas sobre los que actúan."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fenómenos gravitatorios, eléctricos y magnéticos: experimentos sencillos que evidencian la relación con las fuerzas de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "El cambio"
+          },
+          "saberes": [
+            {
+              "id": "FQ.2.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los sistemas materiales: análisis de los diferentes tipos de cambios que experimentan, relacionando las causas que los producen con las consecuencias que tienen."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Interpretación macroscópica y atómico-molecular de las reacciones químicas: explicación de las relaciones de la química con el medio ambiente, la tecnología y la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ley de conservación de la masa: utilización como evidencia experimental que permita validar el modelo atómico-molecular de la materia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.2.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Factores que afectan a las reacciones químicas: predicción cualitativa de la evolución de las reacciones, entendiendo su importancia en la resolución de problemas actuales por parte de la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar, comprender y explicar los fenómenos fisicoquímicos cotidianos, a partir de los principios, teorías y leyes científicas adecuadas y expresándolos de manera argumentada, utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver los problemas fisicoquímicos planteados utilizando las leyes y teorías científicas adecuadas, razonando los procedimientos utilizados para encontrar las soluciones y expresando adecuadamente los resultados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir en el entorno inmediato situaciones problemáticas reales de índole científica y emprender iniciativas en las que la ciencia, y en particular la física y la química, pueden contribuir a su solución, analizando críticamente su impacto en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear las metodologías propias de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones a las que se pueda dar respuesta a través de la indagación, la deducción, el trabajo experimental y el razonamiento lógico-matemático, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar, de acuerdo con la naturaleza de las cuestiones que se traten, la mejor manera de comprobar o refutar las hipótesis formuladas, diseñando estrategias de indagación y búsqueda de evidencias que permitan obtener conclusiones y respuestas ajustadas a la naturaleza de la pregunta formulada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas conocidas al formular cuestiones e hipótesis, siendo coherente con el conocimiento científico existente y diseñando los procedimientos experimentales o deductivos necesarios para resolverlas o comprobarlas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear datos en diferentes formatos para interpretar y comunicar información relativa a un proceso fisicoquímico concreto, relacionando entre sí lo que cada uno de ellos contiene, y extrayendo en cada caso lo más relevante para la resolución de un problema."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar adecuadamente las reglas básicas de la física y la química, incluyendo el uso de unidades de medida, las herramientas matemáticas y las reglas de nomenclatura, consiguiendo una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Poner en práctica las normas de uso de los espacios específicos de la ciencia, como el laboratorio de física y química, asegurando la salud propia y colectiva, la conservación sostenible del medio ambiente y el cuidado de las instalaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo y la interacción con otros miembros de la comunidad educativa, con respeto hacia docentes y estudiantes y analizando críticamente las aportaciones de cada participante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              119
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma adecuada con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando con criterio las fuentes más fiables y desechando las menos adecuadas y mejorando el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              119
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas, emprendiendo actividades de cooperación, como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emprender, de forma guiada y de acuerdo con la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, que la ciencia es un proceso en permanente construcción y que existen repercusiones mutuas de la ciencia actual con la tecnología, la sociedad y el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              121
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar en el entorno las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad entendiendo la capacidad de la ciencia para darles solución sostenible a través de la implicación de toda la ciudadanía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              121
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las destrezas científicas básicas"
+          },
+          "saberes": [
+            {
+              "id": "FQ.3.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Metodologías de la investigación científica: identificación y formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las mismas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo experimental y proyectos de investigación: estrategias en la resolución problemas y en el desarrollo de investigaciones mediante la indagación, la deducción, la búsqueda de evidencias y el razonamiento lógico-matemático haciendo inferencias válidas de las observaciones y obteniendo conclusiones."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales: materiales, sustancias y herramientas tecnológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso de cada espacio, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en las redes y el respeto hacia el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje científico: unidades del Sistema Internacional y sus símbolos. Herramientas matemáticas básicas en diferentes escenarios científicos y de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de interpretación y producción de información científica utilizando diferentes formatos y diferentes medios: desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.A.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de la cultura científica y del papel de científicos y científicas, en los principales hitos históricos y actuales de la física y la química para el avance y la mejora de la sociedad con especial atención a aquellos vinculados con el Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  123
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La materia"
+          },
+          "saberes": [
+            {
+              "id": "FQ.3.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Teoría cinético-molecular: aplicación a observaciones sobre la materia explicando sus propiedades, los estados de agregación, los cambios de estado, y la formación de mezclas y disoluciones (introducción al estudio cuantitativo)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Experimentos relacionados con los sistemas materiales: conocimiento y descripción de sus propiedades, su composición y su clasificación."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura atómica: desarrollo histórico de los modelos atómicos (Dalton, Thomson y Rutherford), existencia, formación y propiedades de los isótopos e identificación de los símbolos de los principales elementos y su ordenación en la tabla periódica."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sustancias químicas: formación y propiedades físicas y químicas, valoración de aplicaciones. Masa atómica y masa molecular."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nomenclatura: participación de un lenguaje científico común y universal formulando y nombrando sustancias simples, iones monoatómicos y compuestos binarios mediante las reglas de nomenclatura de la IUPAC."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "La interacción"
+          },
+          "saberes": [
+            {
+              "id": "FQ.3.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Predicción de movimientos sencillos a partir de los conceptos de la cinemática, formulando hipótesis comprobables sobre valores futuros de estas magnitudes, validándolas a través del cálculo numérico, la construcción e interpretación de gráficas o mediante el trabajo experimental."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las fuerzas como agentes del cambio: relación de los efectos de las fuerzas tanto en el estado de movimiento o de reposo de un cuerpo como produciendo deformaciones en los sistemas sobre los que actúan."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de las leyes de Newton: observación de situaciones cotidianas o de laboratorio que permiten entender cómo se comportan los sistemas materiales ante la acción de las fuerzas y predecir los efectos de estas en situaciones cotidianas y de seguridad vial."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "El cambio"
+          },
+          "saberes": [
+            {
+              "id": "FQ.3.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los sistemas materiales: análisis de los diferentes tipos de cambios que experimentan, relacionando las causas que los producen con las consecuencias que tienen."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Interpretación macroscópica y atómico-molecular de las reacciones químicas: explicación de las relaciones de la química con el medio ambiente, la tecnología y la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ley de conservación de la masa y ley de las proporciones definidas: aplicación de estas leyes como evidencias experimentales que permitan validar el modelo atómico-molecular de la materia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            },
+            {
+              "id": "FQ.3.E.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Factores que afectan a las reacciones químicas: predicción cualitativa de la evolución de las reacciones, entendiendo su importancia en la resolución de problemas actuales por parte de la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender y explicar con rigor los fenómenos fisicoquímicos cotidianos a partir de los principios, teorías y leyes científicas adecuadas, expresándolos de manera argumentada, utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver los problemas fisicoquímicos planteados mediante las leyes y teorías científicas adecuadas, razonando los procedimientos utilizados para encontrar las soluciones y expresando adecuadamente los resultados con corrección y precisión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir situaciones problemáticas reales de índole científica y emprender iniciativas colaborativas en las que la ciencia, y en particular la física y la química, pueden contribuir a su solución, analizando críticamente su impacto en la sociedad y el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              116
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear las metodologías propias de la ciencia en la identificación y descripción de fenómenos científicos a partir de situaciones tanto observadas en el mundo natural como planteadas a través de enunciados con información textual, gráfica o numérica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Predecir, para las cuestiones planteadas, respuestas que se puedan comprobar con las herramientas y conocimientos adquiridos, tanto de forma experimental como deductiva, aplicando el razonamiento lógico-matemático en su proceso de validación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas más importantes para validar hipótesis de manera informada y coherente con el conocimiento científico existente, diseñando los procedimientos experimentales o deductivos necesarios para resolverlas y analizando los resultados críticamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear fuentes variadas, fiables y seguras para seleccionar, interpretar, organizar y comunicar información relativa a un proceso fisicoquímico concreto, relacionando entre sí lo que cada una de ellas contiene, extrayendo en cada caso lo más relevante para la resolución de un problema y desechando todo lo que sea irrelevante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar adecuadamente las reglas básicas de la física y la química, incluyendo el uso correcto de varios sistemas de unidades, las herramientas matemáticas necesarias y las reglas de nomenclatura avanzadas, consiguiendo una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              118,
+              119
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, como el laboratorio de física y química, asegurando la salud propia y colectiva, la conservación sostenible del medio ambiente y el cuidado por las instalaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              119
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar de forma eficiente recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo y la interacción con otros miembros de la comunidad educativa, de forma rigurosa y respetuosa y analizando críticamente las aportaciones de cada participante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              119
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma versátil con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando y empleando con criterio las fuentes y herramientas más fiables, desechando las menos adecuadas y mejorando el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas emprendiendo actividades de cooperación usando las estrategias propias del trabajo colaborativo, como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emprender, de forma autónoma y de acuerdo con la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico, de los avances científicos logrados por mujeres y hombres, así como de situaciones y contextos actuales (líneas de investigación, instituciones científicas, etc.), que la ciencia es un proceso en permanente construcción y que esta tiene repercusiones e implicaciones importantes sobre la sociedad actual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              121
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad, entendiendo la capacidad de la ciencia para darles solución sostenible a través de la implicación de la ciudadanía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              121
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las destrezas científicas básicas"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo experimental y proyectos de investigación: estrategias en la resolución de problemas y el tratamiento del error mediante la indagación, la deducción, la búsqueda de evidencias y el razonamiento lógico-matemático haciendo inferencias válidas de las observaciones y obteniendo conclusiones que vayan más allá de las condiciones experimentales para aplicarlas a nuevos escenarios."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  124,
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversos entornos y recursos de aprendizaje científico, como el laboratorio o los entornos virtuales: materiales, sustancias y herramientas tecnológicas"
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso de cada espacio, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en redes y el respeto hacia el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje científico: manejo adecuado de sistemas de unidades y sus símbolos. Herramientas matemáticas adecuadas en diferentes escenarios científicos y de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de interpretación y producción de información científica en diferentes formatos y a partir de diferentes medios: desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria"
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.A.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos y actuales de la física y la química para el avance y la mejora de la sociedad prestando especial atención a la realidad del Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La materia"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas materiales: resolución de problemas y situaciones de aprendizaje diversas sobre las disoluciones y los gases, entre otros sistemas materiales significativos."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelos atómicos: desarrollo histórico de los principales modelos atómicos clásicos y cuánticos y descripción de las partículas subatómicas, estableciendo su relación con los avances de la física y la química."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura electrónica de los átomos: configuración electrónica de un átomo y su relación con la posición del mismo en la tabla periódica y con sus propiedades fisicoquímicas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Compuestos químicos: su formación, propiedades físicas y químicas y valoración de su utilidad e importancia en otros campos como la ingeniería y el deporte."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuantificación de la cantidad de materia: cálculo del número de moles de sistemas materiales de diferente naturaleza, manejando con soltura las diferentes formas de medida y expresión de la misma en el entorno científico."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nomenclatura inorgánica: denominación de sustancias simples, iones y compuestos químicos binarios y ternarios mediante las normas de la IUPAC."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.B.7",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción a la nomenclatura orgánica: denominación de compuestos orgánicos monofuncionales a partir de las normas de la IUPAC como base para entender la gran variedad de compuestos del entorno basados en el carbono."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La energía"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía: formulación y comprobación de hipótesis sobre las distintas formas de la energía, a partir de sus propiedades y del principio de conservación, como base para la experimentación y la resolución de problemas relacionados con la energía mecánica en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Transferencias de energía: el trabajo y el calor como formas de transferencia de energía entre sistemas relacionados con las fuerzas y/o la diferencia de temperatura. La luz y el sonido como ondas que transfieren energía."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía en nuestro mundo: estimación de la energía consumida en la vida cotidiana mediante la búsqueda de información contrastada, la experimentación y el razonamiento científico, comprendiendo la importancia de la energía en la sociedad y su uso responsable."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  125
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "La interacción"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.D.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Predicción y comprobación, utilizando la experimentación y el razonamiento matemático, de las principales magnitudes, ecuaciones y gráficas que describen el movimiento de un cuerpo, relacionándolo con situaciones cotidianas y la mejora de la calidad de vida."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  126
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.D.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La fuerza como agente de cambios en los cuerpos: principio fundamental de la Física que se aplica a otros campos como el diseño, el deporte o la ingeniería."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  126
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.D.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Carácter vectorial de las fuerzas: uso del álgebra vectorial básica para la realización gráfica y numérica de operaciones con fuerzas y su aplicación a la resolución de problemas relacionados con sistemas sometidos a conjuntos de fuerzas, valorando su importancia en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  126
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.D.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales fuerzas del entorno cotidiano: reconocimiento del peso, la normal, el rozamiento, la tensión o el empuje, y su uso en la explicación de fenómenos físicos en distintos escenarios."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  126
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.D.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ley de gravitación universal: atracción entre los cuerpos que componen el universo. Concepto de peso."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  126
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.D.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuerzas y presión en fluidos: efectos de las fuerzas y la presión sobre los líquidos y los gases, estudiando los principios fundamentales que las describen."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  126
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "El cambio"
+          },
+          "saberes": [
+            {
+              "id": "FQ.4.E.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ecuaciones químicas: ajuste de reacciones químicas y realización de predicciones cualitativas y cuantitativas basadas en la estequiometria, relacionándolas con procesos fisicoquímicos de la industria, el medio ambiente y la sociedad, con especial atención a los procesos industriales que se llevan a cabo en el Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  126
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.E.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Descripción cualitativa de reacciones químicas de interés: reacciones de combustión, neutralización y procesos electroquímicos sencillos, valorando las implicaciones que tienen en la tecnología, la sociedad o el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  126
+                ]
+              }
+            },
+            {
+              "id": "FQ.4.E.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Factores que influyen en la velocidad de las reacciones químicas: comprensión de cómo ocurre la reordenación de los átomos aplicando modelos como la teoría de las colisiones y realización de predicciones en los procesos cotidianos más importantes."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  126
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-20",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}

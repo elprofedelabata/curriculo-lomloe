@@ -1,0 +1,975 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-as.eso.taller-de-economia-aplicada",
+  "territorio": "es-as",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "TEA",
+    "nombre": {
+      "es": "Taller de Economía Aplicada"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-09-02",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "bopa-2022-169-decreto-59-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 59/2022, de 30 de agosto, por el que se regula la ordenación y se establece el currículo de la Educación Secundaria Obligatoria en el Principado de Asturias",
+      "publicacion": "Boletín Oficial del Principado de Asturias",
+      "numero": "169",
+      "fechaPublicacion": "2022-09-01",
+      "cve": "2022-06713",
+      "urlOficial": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "urlVerificacion": "https://sede.asturias.es/bopa/2022/09/01/2022-06713.pdf",
+      "anexo": "II",
+      "paginasMateria": {
+        "desde": 379,
+        "hasta": 388
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La importancia de la economía en nuestra vida diaria es innegable. Cualquier persona, sea cual sea su profesión, edad, clase social..., lleva a cabo a lo largo del día diversas actividades con un alto contenido económico que hacen imprescindible dotar a la sociedad de conocimientos adecuados con los que manejar situaciones cotidianas en condiciones óptimas de sostenibilidad, tanto de forma individual como colectiva.",
+      "El alumnado que finaliza la Educación Secundaria Obligatoria debería tener unos conocimientos mínimos de economía y finanzas que le permitan adoptar decisiones adecuadas sobre su economía personal a lo largo de todas las etapas de su vida, tal y como la UE y la OCDE han venido constatando desde inicios del siglo XXI.",
+      "La materia Taller de Economía Aplicada está planteada como materia optativa en cuarto curso de la Educación Secundaria Obligatoria y tiene como finalidad proporcionar al alumnado una formación económica a través de propuestas prácticas, fomentando actitudes que le ayuden a desenvolverse y asumir riesgos de manera responsable en su entorno más cercano o en uno más amplio.",
+      "Los saberes básicos de esta materia se organizan en tres bloques: el primero desarrolla contenidos que se refieren a la economía personal y familiar (ingresos, gastos, ahorro…) y al consumo responsable con un carácter eminentemente práctico. Conocer una herramienta como el presupuesto permite al alumnado tomar conciencia de la importancia que la planificación tiene para la consecución de unos objetivos económicos que posibilitan el mantenimiento de un patrimonio personal saneado. El consumo responsable permite ajustar nuestro consumo a nuestras necesidades, ayuda a reducir el gasto y aumentar el ahorro y redunda en el incremento de la seguridad financiera. Facilita, además, que el alumnado forme parte activa de la economía circular, promoviendo actos individuales que se asocien a la sostenibilidad, lo que se relaciona con el Objetivo de Desarrollo Sostenible número 12 «Producción y Consumo Responsables». No obstante, cada día nos vemos influenciados por distintas estrategias de marketing que intentan condicionar nuestro comportamiento. Conocerlas permitirá al alumnado actuar de manera consecuente intentando minimizar el efecto de las mismas. Por último, conocer, comprender y saber cumplimentar documentos básicos para su vida adulta relacionados con el empleo, el consumo y el ejercicio de la ciudadanía se considera imprescindible en la vida cotidiana.",
+      "El segundo bloque está orientado al conocimiento del mundo de las finanzas; esta enseñanza está dirigida a que el alumnado incremente su nivel de autonomía y alcance sus metas tanto en el ámbito académico, como en el personal y profesional y en diferentes etapas de su vida. La educación financiera es clave para que las personas puedan planificar, con el adecuado fundamento, los recursos que les permitirán mantener su autonomía y lograr sus objetivos. En este contexto, es necesario que los alumnos y alumnas comprendan el papel del dinero y de los intermediarios financieros, así como las ventajas e inconvenientes de los diferentes productos que comercializan y que canalizarán sus decisiones de ahorro e inversión. Deben ser capaces de valorar la necesidad de establecer límites al endeudamiento. También deben conocer el contexto digital en el que se produce esa comercialización en la actualidad, así como el sistema de derechos y obligaciones existente. Además, es preciso que distingan entre la economía financiera y la economía real, así como que valoren la relevancia de las finanzas éticas en sus decisiones financieras individuales para contribuir a un desarrollo sostenible.",
+      "El último bloque está dedicado al papel del sector público como agente económico y permitirá al alumnado comprender los efectos positivos que el Estado puede provocar en el bienestar de la ciudadanía, relacionar las prestaciones públicas con la recaudación de los tributos, conocer la función de organismos públicos como la Seguridad Social y valorar cómo puede el Estado impulsar la equidad, fomentando la consecución de los Objetivos de Desarrollo Sostenible. Además, permitirá subrayar la relevancia de analizar la sostenibilidad de sus actuaciones con una adecuada correspondencia entre sus ingresos y sus gastos. Por último, el alumnado accederá a una educación tributaria básica que le posibilitará tomar conciencia de la importancia de la contribución de los diferentes agentes al sostenimiento del sector público y comprenderá la transcendencia de la adecuada gestión, financiación y evaluación de las políticas públicas.",
+      "La elección de la denominación «taller» responde a una intención metodológica de acercar al alumnado los conocimientos de una forma práctica, en la que los aprendizajes se construyen desde la acción y la visión de la realidad. Responde a la necesidad de abordar estos saberes a partir de metodologías ágiles y creativas que permitan, además, emplear una variedad de herramientas que estimulen el aprendizaje.",
+      "La misma naturaleza del taller contribuye a potenciar las habilidades de comunicación para explicar y transmitir la información a contextos reales, así como fomentar el trabajo colaborativo y en equipo.",
+      "Metodología",
+      "La materia Taller de Economía Aplicada contribuye a que el alumnado desarrolle las diferentes competencias clave establecidas en el perfil de salida al término de la educación básica, las cuales se pueden definir como los desempeños que se consideran imprescindibles para que las y los estudiantes puedan progresar con garantías de éxito en su itinerario formativo y afrontar los principales retos y desafíos globales y locales del siglo XXI. Dado que esta materia se cursa en cuarto de la ESO, se tomará como referencia las relaciones existentes entre la materia y los descriptores operativos de las competencias clave que se espera que las y los discentes hayan desarrollado al completar la enseñanza básica.",
+      "A continuación, se detalla cómo esta materia promueve el desarrollo y adquisición de las siguientes competencias clave:",
+      "En primer lugar, la materia contribuye a la Competencia en Comunicación Lingüística (CCL) al fomentar la incorporación de un nuevo vocabulario, incrementando de esta forma los registros léxicos del alumnado y al potenciar la claridad en la exposición, así como la puesta en práctica de un discurso estructurado y riguroso. Además, también se trabaja la defensa argumentada de opiniones, respetando las distintas visiones que puedan tener otras personas y desde una perspectiva cooperativa e integradora. Por otro lado, la gestión de diversas fuentes de información facilitará al alumnado ser más riguroso a la hora de tomar como veraces distintas informaciones en su vida cotidiana antes de evaluar el rigor y la calidad de las mismas, protegiéndose de los bulos y demás desinformaciones. Finalmente, la utilización de un lenguaje inclusivo y libre de prejuicios jugará también un papel clave en el desarrollo de esta competencia.",
+      "En segundo lugar, la materia contribuye a la Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería (STEM) a través de dos vertientes. Por un lado, impulsando que el alumnado aprenda a identificar y acotar los problemas, adquiera diferentes metodologías de construcción de soluciones, elabore estrategias de generación de ideas y analice adecuadamente los resultados y obtenga las conclusiones correspondientes. Por otro lado, fomentando la utilización de procesos lógicos de tipo tanto deductivo como inductivo en la resolución de las diferentes situaciones. La materia permite que el alumnado desarrolle un triple enfoque: gráfico, algebraico y analítico, en la modelización y resolución de los diferentes problemas.",
+      "En tercer lugar, la materia contribuye muy significativamente a la Competencia Digital (CD), dado que se trata de una disciplina viva y en permanente evolución, lo cual implica tener que acudir necesariamente al lugar donde el conocimiento se encuentra en constante actualización y transformación: Internet. Esta aportación al desarrollo de la competencia digital del alumnado se produce en una triple dimensión. Por una parte, aprendiendo a buscar y seleccionar información valiosa y fiable, así como almacenarla y citarla o referenciarla de una forma apropiada; por otra parte, adquiriendo consciencia de los riesgos que los entornos tecnológicos pueden implicar en ocasiones, como por ejemplo con el robo de datos personales y de información sensible; y por último, manejando diferentes aplicaciones informáticas para hacer frente a distintas situaciones como elaborar un presupuesto personal, elaborar gráficos, etc.",
+      "En cuarto lugar, la materia contribuye a la Competencia Personal, Social y de Aprender a Aprender (CPSAA). Gracias a ella, el alumnado aprenderá técnicas para planificar mejor su futuro, definiendo objetivos relevantes, motivantes y alcanzables, así como técnicas que ayuden a su consecución. Asimismo, las y los estudiantes también conocerán los riesgos para la salud relacionados con factores sociales como las adicciones, pudiendo consolidar hábitos de vida saludable a nivel tanto físico como mental. Por último, el formato «taller» de la asignatura, caracterizado por la importancia del trabajo en grupo y de las dinámicas cooperativas permitirá a las y los discentes comprender proactivamente las perspectivas y las experiencias de sus compañeras y compañeros, incorporándolas a su propio aprendizaje para participar de esta forma en el trabajo en equipo, distribuyendo y aceptando tareas y responsabilidades de manera colaborativa y empleando, por supuesto, estrategias cooperativas.",
+      "En quinto lugar, la materia contribuye a la Competencia Ciudadana (CC) al hacer que el alumnado reflexione sobre su papel en la sociedad y en la comunidad en la que vive. Así, las y los estudiantes conocerán la arquitectura institucional recogida en el sistema constitucional vigente, así como en el ordenamiento de la Unión Europea, y razonarán sobre el impacto que sus decisiones de consumo tienen sobre el conjunto de la sociedad, las relaciones entre las necesidades individuales y las necesidades colectivas y la conveniencia de frenar el consumismo y encaminarse hacia el desarrollo sostenible. Además, el alumnado entrará en contacto con los conceptos de justicia social y equidad, poniendo en valor la importancia de contar con unos servicios públicos de calidad, así como resaltando las diferentes acciones que puede implementar el Sector Público en aras de la justicia social y la equidad. Por último, las y los estudiantes que cursen esta materia aprenderán a interpretar y elaborar documentos con los que se encontrarán en su día a día, como la solicitud de una beca, una nómina o una factura, lo cual representará un impulso en su transición hacia la vida adulta.",
+      "En sexto y último lugar, la materia también contribuye a la Competencia Emprendedora (CE). En esta materia el alumnado adquirirá una mentalidad práctica y proactiva en la resolución de problemas, aprenderá a gestionar la incertidumbre de una forma racional y razonable, incorporará técnicas de decisión para elegir la opción correcta, construirá una mentalidad crítica y proactiva para detectar necesidades en su comunidad y proponer e implementar posibles soluciones. Además, el alumnado también aprenderá a gestionar sus finanzas personales, conociendo alternativas más sostenibles desde el punto de vista social y ético, lo cual le permitirá disfrutar de una mayor autonomía en el futuro y consecuentemente, implementar más acciones emprendedoras y de un mayor impacto y recorrido.",
+      "Las orientaciones metodológicas expuestas a continuación para la didáctica de la materia Taller de Economía Aplicada promueven la capacidad del alumnado para aprender de forma autónoma y para trabajar en equipo. Asimismo, también remarcan la importancia de desarrollar diferentes actividades que estimulen el interés y el hábito de la lectura y la correcta expresión oral y escrita, el uso de las matemáticas, la comunicación audiovisual, la competencia digital y que parte del tiempo lectivo debe destinarse a realizar proyectos significativos y relevantes, así como a la resolución colaborativa de problemas con el objetivo de reforzar la autoestima, la autonomía, la creatividad, la reflexión, la responsabilidad y la igualdad de género. Además, la metodología didáctica empleada debe tener en cuenta y adaptarse a los diferentes ritmos de aprendizaje y a la diversidad existente en el aula. En todo caso se fomentarán de manera transversal la educación para la salud, la formación estética, la educación para la sostenibilidad, para el consumo responsable, el respeto mutuo y la cooperación entre iguales.",
+      "La metodología debe tener en cuenta propuestas y modelos organizativos que, generalizados al contexto de aula, permitan la presencia, la participación y el aprendizaje de todo el alumnado. Por ello, se debe buscar la personalización de la respuesta educativa, teniendo en cuenta el Diseño Universal para el Aprendizaje (DUA). Este diseño se basa en tres principios que contempla múltiples formas de implicación o motivación para la tarea (por qué se aprende), múltiples formas de representación de la información (el qué se aprende) y múltiples formas de expresión del aprendizaje (cómo se aprende), de manera que se conecte con los centros de interés del alumnado, así como con la programación multinivel de saberes básicos del área. Este diseño promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado. La diversidad y heterogeneidad del alumnado presente en el aula han de entenderse como factores enriquecedores del proceso de enseñanza-aprendizaje y es a través de los principios, del Diseño Universal para el Aprendizaje, como se puede lograr la equidad para todo el alumnado.",
+      "Para alcanzar esos principios se proponen un conjunto de recomendaciones metodológicas encaminadas a fomentar y potenciar un aprendizaje cooperativo que tenga un marcado componente práctico y enfocado a la vida cotidiana del alumnado.",
+      "El portafolio se trata de una herramienta en la que el alumnado va elaborando, corrigiendo y guardando de forma ordenada las diferentes tareas y producciones que se realicen en el marco de la materia. Para que esta herramienta sea útil es importante que se produzca un seguimiento continuo de su contenido, tanto por parte del profesorado como del alumnado, que permita detectar lo antes posible las distintas dificultades que puedan aparecer en el proceso de aprendizaje, así como analizar la evolución del nivel competencial del alumnado a medida que avanza el curso.",
+      "Mediante el aprendizaje basado en problemas se involucra al alumnado en el aprendizaje de conocimientos y habilidades a través del planteamiento de un problema o situación compleja. Para ello, el o la docente definirá una situación, problema o conflicto y demandará al alumnado que, en grupos de trabajo, recorran las distintas etapas, que formen parte del proceso de resolución correspondiente. Incluso se puede dejar que sea el alumnado quien elija el problema o situación a resolver, incrementando de este modo su protagonismo en el proceso de enseñanza-aprendizaje.",
+      "La metodología de pensamiento visual permite organizar, ordenar, relacionar y jerarquizar contenidos, conceptos o ideas que son conectados entre sí mediante dibujos simples o textos cortos. Se combina muy positivamente con las diferentes técnicas de trabajo cooperativo y resulta muy apropiado a la hora de realizar actividades de síntesis.",
+      "La metodología clase invertida fomenta la autonomía y la madurez del alumnado en su proceso de aprendizaje. Para ello, el o la docente encargará al alumnado la lectura o visionado de cierto contenido a partir del cual, en la siguiente clase, se realizarán una serie de actividades o tareas. También se puede organizar de forma que el alumnado comparta la exposición de unos contenidos con el profesor o la profesora de la materia.",
+      "El aprendizaje híbrido se encuentra relacionado con la clase invertida y consiste en combinar la clase presencial habitual con una plataforma de aprendizaje en línea en la que el alumnado pueda acceder a recursos y entregar tareas en cualquier momento, tanto en el horario de clase como fuera de él. Resulta muy útil dado que una parte significativa de los recursos es probable que estén en formato digital teniendo en cuenta los saberes básicos de la materia.",
+      "La estrategia de gamificación persigue el aprendizaje activo del alumnado de la mano de la diversión y la emoción. Puede adoptar diferentes formatos, desde cuestionarios en línea para que cada estudiante conteste desde su ordenador o dispositivo móvil hasta juegos de mesa relacionados con el currículo de la materia.",
+      "Para garantizar que el alumnado adquiera tanto las competencias clave como las específicas y sepa movilizar los aprendizajes adquiridos, para responder a los principales desafíos a los que deberá hacer frente a lo largo de su vida, se planificarán situaciones de aprendizaje significativas y relevantes, en coordinación con el resto del equipo docente, de acuerdo con los principios pedagógicos que se recogen en este decreto."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Elaborar e interpretar un presupuesto personal y familiar, utilizando diferentes recursos y soportes, comprendiendo las relaciones entre los distintos tipos de ingresos y gastos, para llevar a cabo proyectos personales y reconocer el papel del ahorro y la relevancia de la planificación financiera a lo largo de la vida."
+      },
+      "descripcion": {
+        "es": [
+          "Hoy en día las personas estamos obligadas a adquirir conocimientos de carácter económico-financiero para desenvolvernos en nuestra vida diaria dado que realizamos multitud de operaciones relacionadas con estos conceptos, desde la obtención del dinero (como trabajadoras por cuenta ajena o por cuenta propia), hasta el uso que hacemos del mismo (guardarlo en cuentas bancarias, pago de nuestras compras, inversiones de diferente tipo…). La importancia de fomentar actitudes positivas hacia el ahorro y el control del gasto como medio para asegurar la seguridad financiera a lo largo de la vida, se ha puesto de manifiesto en los últimos años, sobre todo tras la última crisis y la situación de pandemia vividas. El uso de manera cotidiana de un instrumento como el presupuesto personal resulta imprescindible para llevar el control de nuestras finanzas, sea cual sea nuestra situación económica."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM4",
+        "CD2",
+        "CPSAA5",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          383
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Explicar el funcionamiento de la economía circular y el importante papel que desempeña en el desarrollo sostenible, reconociendo las responsabilidades personales y sociales, para integrar los principios relacionados con la misma en la manera de consumir y actuar en nuestra vida diaria, considerando las características concretas del contexto asturiano."
+      },
+      "descripcion": {
+        "es": [
+          "La importancia que nuestras decisiones de consumo tienen sobre el medio ambiente y la sostenibilidad de nuestro nivel de bienestar hace necesario que el alumnado conozca cómo puede mejorar la calidad de vida realizando un consumo responsable, saludable, ético, sostenible y solidario, rechazando el consumismo. Ser consciente de la responsabilidad personal en la sostenibilidad del sistema permite interiorizar patrones de comportamiento necesarios en una sociedad de la información en la que la que la publicidad y otras técnicas de comunicación llegan a través de muchos y diferentes canales."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "CD1",
+        "CD4",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          383,
+          384
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Reconocer y comprender la importancia del manejo de documentación variada, identificando la estructura y las partes relevantes de cada una, para elaborar o rellenar (o ambos), en su caso, documentos cotidianos que permitan familiarizarse con los usos a los que se destina cada uno."
+      },
+      "descripcion": {
+        "es": [
+          "Todas las personas, en algún momento, debemos cumplimentar documentos bien sea para identificarnos personalmente, para acreditar alguna condición o solicitar alguna prestación o derecho. Esto crea la necesidad de que el alumnado empiece cuanto antes a familiarizarse con la terminología y estructura de aquellos documentos que le resulten más cercanos, lo que le permitirá, en un futuro, tener una mejor comprensión de cualquier clase de documentación que tenga que utilizar, al mismo tiempo que moviliza aprendizajes adquiridos en otras materias para la resolución e interpretación de resultados."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "CD1",
+        "CD4",
+        "CC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          384
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Justificar la relevancia del dinero en las relaciones económicas y sociales, diferenciando los distintos tipos de cuentas bancarias y los diferentes medios de pago, para valorar la idoneidad de su uso en cada contexto y situación, con garantía y responsabilidad."
+      },
+      "descripcion": {
+        "es": [
+          "Las relaciones económicas que se establecen entre los agentes generan flujos monetarios como consecuencia de sus distintas necesidades y capacidades de financiación. El modo en que se relacionan los agentes económicos está cambiando; cada vez es mayor el número de personas y entidades que realizan intercambios comerciales a través del comercio electrónico y esto lleva consigo un aumento generalizado del uso de medios de pago digitales. En este contexto, el alumnado debe comprender el funcionamiento del sistema financiero y las operaciones que se pueden realizar en él. Además, es importante que conozca la terminología propia de los documentos financieros y las ventajas y los riesgos del uso de medios de pago digitales."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CC1",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          384,
+          385
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Valorar la estabilidad de precios como un objetivo a perseguir, reconociendo su implicación en el crecimiento sostenible y el empleo, para describir, desde un punto de vista crítico, las repercusiones económicas y sociales que la inflación provoca en un país."
+      },
+      "descripcion": {
+        "es": [
+          "La inflación es un condicionante de las decisiones de los agentes económicos y está presente en las informaciones de distintos medios de comunicación de manera casi constante. El alumnado debe ser capaz de interpretar dichas informaciones y ser consciente de las consecuencias que la inflación puede tener en su poder adquisitivo y en su capacidad de ahorro."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM4",
+        "CD1",
+        "CPSAA5",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          385
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Investigar sobre los productos financieros de ahorro, inversión y gestión de riesgos más adecuados para cada necesidad y contexto personal, comprendiendo la importancia de estudiar su riesgo, plazo, rentabilidad y liquidez, así como el sistema de derechos y obligaciones que implica su contratación, para planificar las decisiones financieras a lo largo de la vida de forma racional y teniendo presentes criterios éticos y relacionados con la sostenibilidad."
+      },
+      "descripcion": {
+        "es": [
+          "Los productos financieros son inversiones y valores que se crean para generar en las personas que los compran y en las que los venden una ganancia. Así considerados, resulta importante que el alumnado comprenda la importancia de su estudio y de las características que presentan, de modo que su conocimiento le pueda ayudar a tomar decisiones financieras adecuadas en el futuro.",
+          "Por otra parte, los seguros aparecen como un medio de repartir los riesgos entre los distintos agentes; es una forma útil de proteger a las personas frente a la incertidumbre que cada vez está más implantada en nuestra sociedad, de ahí la importancia de su estudio."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "STEM5",
+        "CD2",
+        "CD3",
+        "CPSAA4",
+        "CC4",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          385,
+          386
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Analizar y valorar el papel que las distintas Administraciones públicas desempeñan como garantes del bienestar social, identificando los efectos positivos que su actuación provoca en la sociedad, para relacionar las prestaciones públicas con los ingresos que el Estado consigue a través de la recaudación de los diferentes tributos."
+      },
+      "descripcion": {
+        "es": [
+          "La comprensión de las funciones que el sector público desarrolla en la economía contribuye a la formación de un alumnado responsable socialmente, sensibilizado con la importancia de la intervención pública para garantizar el bienestar social, así como con la relevancia de la fiscalidad para conseguir una sociedad más justa. Igualmente, le permite tomar conciencia del impacto que las políticas públicas tienen sobre la economía y la sociedad."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "CD1",
+        "CD3",
+        "CD4",
+        "CPSAA4",
+        "CPSAA5",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          386
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Investigar sobre la función, el alcance y los efectos que la actuación de la Seguridad Social provoca en la economía, para determinar el impacto que suponen en las empresas, las organizaciones y la sociedad las aportaciones dinerarias a este organismo y comprender que la suma de todas ellas contribuye a garantizar el pago de las prestaciones futuras."
+      },
+      "descripcion": {
+        "es": [
+          "La Seguridad Social es un pilar esencial del Estado del Bienestar y de la solidaridad intergeneracional de nuestro país, al cubrir una serie de contingencias por las que cualquier persona puede pasar a lo largo de su vida mediante un amplio y estructurado sistema de prestaciones. Por tanto, resulta pertinente que el alumnado sea conocedor de sus principios rectores, de las vías a través de las cuales logra financiarse, así como de las diferentes situaciones que son objeto de cobertura por las distintas prestaciones existentes."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "STEM4",
+        "CD3",
+        "CPSAA3",
+        "CC1",
+        "CC2",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "bopa-2022-169-decreto-59-2022",
+        "paginas": [
+          386,
+          387
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Diferenciar los conceptos de renta y riqueza comprendiendo la relación entre ingresos, gastos, ahorro y endeudamiento con la creación de un patrimonio personal que permita la autonomía a lo largo de las diferentes etapas del ciclo vital."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              383
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Agrupar los gastos más habituales de una persona o familia en sus diferentes categorías: gastos fijos obligatorios, gastos variables necesarios y gastos discrecionales o superfluos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              383
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Elaborar, exponer y justificar un presupuesto personal o familiar fundamentado en criterios económicos, controlar su grado de cumplimiento y las posibles necesidades de adaptación, decidiendo con racionalidad ante las diferentes alternativas económicas de la vida personal."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              383
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Entender el significado de economía circular y aplicar este conocimiento al diseño de acciones que cada persona o entidad pueda poner en práctica en este campo para contribuir a su expansión en la economía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              384
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Reconocer la importancia de comprender el sistema de derechos y obligaciones de las personas consumidoras y usuarias y realizar supuestos sencillos de reclamación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              384
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar las políticas de marketing que llevan al consumismo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              384
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-4",
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar y debatir sobre cómo el uso excesivo de medios digitales puede llegar a convertirse en una adicción."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              384
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar la estructura y características de distinta documentación, indicando para qué sirve cada una y en qué contexto se tiene que utilizar."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              384
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Cumplimentar documentos del ámbito laboral (contratos, nóminas)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              384
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Elaborar documentos relacionados con una compraventa (pedido, albarán y factura), aplicando razonamientos matemáticos para su interpretación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              384
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Rellenar documentación de tipo personal (matrículas y becas) y relacionada con otros organismos (instancias y reclamaciones)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              384
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Comprender la relevancia del dinero en la economía, su evolución histórica, el proceso de su creación, sus funciones actuales y los cambios que presenta por la innovación tecnológica contemporánea."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              385
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Identificar los aspectos básicos del sistema financiero y los intermediarios financieros más importantes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              385
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer el concepto de tipo de interés y aplicarlo al cálculo matemático en supuestos sencillos. Distinguir los elementos de un préstamo y de una línea de crédito."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              385
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar movimientos de cuentas corrientes y comprender el funcionamiento de los distintos medios de pago, las diferencias entre tarjetas de débito y de crédito, sus ventajas e inconvenientes, estableciendo comparativas entre las emitidas por distintos intermediarios financieros, reconociendo la importancia de la seguridad de la banca digital."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              385
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comprender el fenómeno inflacionario y sus diferentes clases."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              385
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Explicar qué es el IPC y calcular la tasa de inflación de un periodo a partir de datos sencillos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              385
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Analizar los efectos de los procesos inflacionarios, diferenciando entre valores nominales y reales, así como comprender las consecuencias económicas y sociales que implica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              385
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Identificar los principales elementos de las decisiones de inversión, diferenciando las características de los activos reales de las de los activos financieros."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              386
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar simulaciones básicas de gestión de carteras integradas por renta fija y renta variable, comprendiendo la relevancia del plazo, la rentabilidad, el riesgo y la liquidez."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              386
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Describir los elementos de un seguro y diferenciar sus modalidades principales, valorando su relevancia para la cobertura de riesgos a lo largo de la vida."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              386
+            ]
+          }
+        },
+        {
+          "id": "cri-4-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Identificar los distintos niveles de la Administración pública tanto local, regional, autonómica, nacional como a nivel de la Unión Europea."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              386
+            ]
+          }
+        },
+        {
+          "id": "cri-4-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Valorar y reconocer cómo la actuación del sector público en la economía a través de los presupuestos contribuye a crear un Estado del bienestar para la ciudadanía, fomentando la consecución de los Objetivos de Desarrollo Sostenible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              386
+            ]
+          }
+        },
+        {
+          "id": "cri-4-7-3",
+          "codigoOficial": "7.3",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Determinar las principales fuentes de ingresos y partidas de gastos del Estado e interpretar datos y gráficos relacionados con ambos conceptos. Diferenciar los tipos de saldo presupuestario e identificar la Deuda pública como mecanismo de financiación del déficit."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              386
+            ]
+          }
+        },
+        {
+          "id": "cri-4-7-4",
+          "codigoOficial": "7.4",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Explicar la función que desarrollan los tributos como instrumentos de recaudación de ingresos públicos. Describir el funcionamiento básico de aquellos impuestos que más inciden sobre la economía familiar: Impuesto sobre la renta de las personas físicas, Impuesto sobre el valor añadido, Impuesto sobre bienes inmuebles e Impuesto sobre vehículos de tracción mecánica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              386
+            ]
+          }
+        },
+        {
+          "id": "cri-4-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Valorar la importancia que supone para la sociedad el mecanismo de recaudación de la Seguridad Social con el fin de garantizar el pago de las prestaciones sociales actuales y futuras."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              387
+            ]
+          }
+        },
+        {
+          "id": "cri-4-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Identificar las principales prestaciones del sistema de la Seguridad Social y los colectivos a los que se destinan, utilizando webs institucionales para la búsqueda de información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              387
+            ]
+          }
+        },
+        {
+          "id": "cri-4-8-3",
+          "codigoOficial": "8.3",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Distinguir las distintas formas en las que los agentes económicos realizan aportaciones al sistema de Seguridad Social."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "bopa-2022-169-decreto-59-2022",
+            "paginas": [
+              387
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Economía doméstica y consumo responsable"
+          },
+          "saberes": [
+            {
+              "id": "TEA.4.A.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La planificación de la economía doméstica. Tipos de gastos e ingresos. Control de gastos e ingresos. El presupuesto personal y familiar: elaboración del documento, tipos de saldo y posibles ajustes a realizar."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.A.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El patrimonio personal: endeudamiento, liquidez y solvencia. Consecuencias derivadas de no atender el pago de las deudas. Importancia del ahorro para el logro de objetivos a largo plazo."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.A.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Consumo y desarrollo sostenible: hacia una economía circular. Beneficios derivados del consumo responsable. Economía circular y desarrollo sostenible en el Principado de Asturias."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.A.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Obstáculos para realizar un consumo responsable: marketing, obsolescencia programada y adicciones (dispositivos móviles, redes sociales, videojuegos y apuestas)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.A.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Documentación y vida adulta. Documentación relacionada con el mundo laboral (contrato de trabajo y nómina), académico (matrículas y becas), con la compraventa (pedidos, albaranes y facturas) y con la vida ciudadana en relación con distintos organismos y entidades (instancias y reclamaciones)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Educación financiera"
+          },
+          "saberes": [
+            {
+              "id": "TEA.4.B.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El dinero: definición, evolución, proceso de creación y funciones. El Banco Central y demás entidades financieras. Las finanzas éticas."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.B.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El precio del dinero: el tipo de interés. Las operaciones de préstamo: componentes, funcionamiento y variables para tener en cuenta. Préstamos personales e hipotecarios."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.B.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuentas bancarias: funcionamiento, servicios asociados y medios de pago (transferencia, tarjetas bancarias y aplicaciones móviles). Medios de pago digital y comercio electrónico (riesgos y utilidades)."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.B.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El valor del dinero y la inflación: definición, tipos, causas y consecuencias"
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.B.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Activos financieros: definición, características esenciales (rentabilidad, riesgo y liquidez) y tipos (renta fija y renta variable). Ejemplos de activos financieros: depósitos bancarios, acciones, obligaciones y fondos de inversión."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.B.6",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La gestión de riesgos y el contrato de seguros. Definición, tipos y utilidades."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  387
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Estado, justicia social y equidad"
+          },
+          "saberes": [
+            {
+              "id": "TEA.4.C.1",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El papel del Estado en la economía. Los distintos niveles institucionales: del Ayuntamiento a la Unión Europea."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  388
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.C.2",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los presupuestos públicos: concepto, necesidades sociales, tramitación y tipos de saldo presupuestario."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  388
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.C.3",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los gastos públicos: tipos y principales partidas. Ejemplos de servicios públicos, prestaciones y subvenciones. El Estado como impulsor de la equidad."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  388
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.C.4",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los ingresos públicos. Tributos: concepto y necesidad. Tipos de tributos. Impuestos con los que se relacionan las familias: Impuesto sobre la renta de las personas físicas, Impuesto sobre el valor añadido, Impuesto sobre bienes inmuebles e Impuesto sobre vehículos de tracción mecánica."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  388
+                ]
+              }
+            },
+            {
+              "id": "TEA.4.C.5",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Seguridad Social: concepto, funciones y tipos de prestaciones. El sistema de pensiones y la solidaridad intergeneracional."
+              },
+              "procedencia": {
+                "fuenteRef": "bopa-2022-169-decreto-59-2022",
+                "paginas": [
+                  388
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-20",
+    "metodo": "Extracción estructurada desde la publicación oficial y comprobación automática de integridad.",
+    "notas": [
+      "Los desarrollos se organizan por curso, conforme a la publicación oficial asturiana.",
+      "El código abreviado de la materia y los identificadores técnicos son internos del proyecto; no sustituyen a una nomenclatura oficial.",
+      "La fuente no publica asociaciones explícitas entre cada criterio y saberes concretos; saberesBasicosRefs se mantiene vacío.",
+      "Los saberes se publican como listas sin código individual; codigoOficial queda a null y se asignan identificadores internos estables."
+    ]
+  }
+}
