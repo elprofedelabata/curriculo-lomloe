@@ -11,12 +11,12 @@ Una materia o ámbito se marca como terminado cuando:
 
 ## Progreso global
 
-- **Total inventariado:** 306 currículos
-- **Terminados:** 118
+- **Total inventariado:** 308 currículos
+- **Terminados:** 120
 - **Pendientes:** 188
 - **Andalucía:** 102 de 102
 - **Aragón:** 3 de 116
-- **Principado de Asturias:** 13 de 88 inventariados
+- **Principado de Asturias:** 15 de 90 inventariados
 
 ## Andalucía
 
@@ -367,14 +367,14 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 ### Progreso
 
-- **Total inventariado:** 88 currículos
-- **Terminados:** 13
+- **Total inventariado:** 90 currículos
+- **Terminados:** 15
 - **Pendientes:** 75
 - **Infantil:** 3 de 3
 - **Primaria:** 10 de 10
 - **ESO:** 0 de 24; los 24 JSON están generados y pendientes de revisión
 - **Bachillerato:** 0 de 51; 48 JSON están generados y pendientes de revisión y 3 optativas no tienen un desarrollo curricular cerrado en el decreto
-- **CFGB:** pendiente de inventariar y convertir
+- **CFGB:** 2 de 2
 
 ### Infantil
 
@@ -487,10 +487,18 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 - [ ] Proyecto de Investigación Integrado — 1.º y 2.º, optativa — sin desarrollo curricular cerrado en el Decreto 60/2022
 - [ ] Recursos Energéticos y Sostenibilidad — 1.º, optativa — sin desarrollo curricular cerrado en el Decreto 60/2022
 
+### CFGB
+
+#### Anexo II del Decreto 103/2025 y anexo V del Real Decreto 217/2022 — Ámbitos comunes de los ciclos formativos de grado básico
+
+- [x] Ciencias Aplicadas — 1.º y 2.º — [JSON](data/es-as/cfgb/materias/ciencias-aplicadas.json)
+- [x] Comunicación y Ciencias Sociales — 1.º y 2.º — [JSON](data/es-as/cfgb/materias/comunicacion-y-ciencias-sociales.json)
+
 ### Notas de alcance
 
 - Los ámbitos Lingüístico y Social y Científico-tecnológico del programa de Diversificación incorporan los aspectos básicos de las materias que los integran, según el artículo 26 del Decreto 59/2022; la norma no publica para ellos un desarrollo curricular independiente equivalente al anexo andaluz. Por ello no se duplican como JSON separados.
 - En Bachillerato, el Decreto 60/2022 permite que los centros concreten el currículo de Gestión de Fuentes Documentales y Comunicación, Proyecto de Investigación Integrado y Recursos Energéticos y Sostenibilidad. Al no publicar para ellas un repertorio cerrado de competencias específicas, criterios de evaluación y saberes básicos, se mantienen inventariadas como materias, pero no se generan JSON curriculares vacíos o ficticios.
+- En CFGB, el Decreto 103/2025 fija la distribución y los códigos oficiales de Ciencias Aplicadas I y II y de Comunicación y Ciencias Sociales I y II, y remite su currículo al anexo V del Real Decreto 217/2022. Ese anexo publica un desarrollo común para cada ámbito sin secuenciarlo por curso; los JSON lo reproducen íntegramente en 1.º y 2.º como decisión de representación del proyecto, no como secuenciación oficial.
 
 ### Fuentes oficiales locales
 
@@ -499,4 +507,6 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 - [Primaria — Decreto 57/2022](sources/es-as/normativa/primaria/2022-08-05-decreto-57-2022-curriculo-primaria.pdf)
 - [ESO y organización de CFGB — Decreto 59/2022](sources/es-as/normativa/eso/2022-08-30-decreto-59-2022-curriculo-eso-y-cfgb.pdf)
 - [Bachillerato — Decreto 60/2022](sources/es-as/normativa/bachillerato/2022-08-30-decreto-60-2022-curriculo-bachillerato.pdf)
+- [CFGB — estructura y currículo aplicable, Decreto 103/2025](sources/es-as/normativa/cfgb/2025-08-25-decreto-103-2025-formacion-profesional.pdf)
+- [CFGB — currículo de los ámbitos comunes, anexo V del Real Decreto 217/2022](sources/es-as/normativa/cfgb/2022-03-29-real-decreto-217-2022-eso-anexo-v-cfgb.pdf)
 - [Infantil — modificación mediante el Decreto 104/2025](sources/es-as/normativa/actualizaciones/2025-08-25-decreto-104-2025-modifica-curriculo-infantil.pdf)
