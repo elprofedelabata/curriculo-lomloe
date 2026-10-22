@@ -104,6 +104,7 @@ function openStage(stageCode, matterSlug = null, updateRoute = true) {
 function renderStage(catalog, territoryCode, stageCode, matterSlug) {
   const stage = catalog.etapas.find((item) => item.territorio === territoryCode && item.codigo === stageCode);
   const matters = catalog.materias.filter((item) => item.territorio === territoryCode && item.etapa === stageCode);
+  const openOptions = (catalog.optativasAbiertas || []).filter((item) => item.territorio === territoryCode && item.etapa === stageCode);
   const incidents = catalog.incidencias.filter((item) => item.territorio === territoryCode && item.etapa === stageCode);
   const documents = catalog.documentosNormativos.filter((item) =>
     item.etapas.includes(stageCode) && (item.territorio || "es-an") === territoryCode
@@ -117,7 +118,10 @@ function renderStage(catalog, territoryCode, stageCode, matterSlug) {
   list.replaceChildren(...matters.map((matter) => renderMatterCard(catalog, matter)));
   if (!matters.length) list.append(create("p", "modal-message", "Todavía no hay currículos publicados."));
   currentView = { matterSlug };
-  modalContent.replaceChildren(section, renderDocuments(documents, territoryCode), renderIncidentsNote(incidents, territoryCode));
+  const sections = [section];
+  if (openOptions.length) sections.push(renderOpenOptions(openOptions, territoryCode));
+  sections.push(renderDocuments(documents, territoryCode), renderIncidentsNote(incidents, territoryCode));
+  modalContent.replaceChildren(...sections);
 
   if (matterSlug) {
     const selected = [...list.querySelectorAll(".matter-item")].find((item) => item.dataset.matter === matterSlug);
@@ -126,6 +130,29 @@ function renderStage(catalog, territoryCode, stageCode, matterSlug) {
       requestAnimationFrame(() => selected.scrollIntoView({ block: "center" }));
     }
   }
+}
+
+function renderOpenOptions(options, territoryCode) {
+  const section = create("section", "modal-section open-options");
+  section.append(create("h3", "", "Optativas de desarrollo abierto"));
+  section.append(create("p", "modal-muted", options[0].criterioRepresentacion));
+  const list = create("div", "open-option-list");
+  for (const option of options) {
+    const card = create("article", "open-option");
+    const heading = create("div", "open-option-heading");
+    heading.append(create("h4", "", option.nombre), create("span", "open-option-status", "Concreción docente"));
+    card.append(heading);
+    card.append(create("p", "open-option-courses", option.cursos.map((course) => courseLabel(option.etapa, course)).join(" y ")));
+    const links = create("div", "document-links");
+    links.append(makeActionLink("Publicación oficial", option.fuente.urlOficial, "official"));
+    if (option.fuente.archivo) {
+      links.append(makeActionLink("PDF archivado", archiveUrl(territoryCode, option.fuente.archivo), "archive"));
+    }
+    card.append(links);
+    list.append(card);
+  }
+  section.append(list);
+  return section;
 }
 
 function renderMatterCard(catalog, matter) {

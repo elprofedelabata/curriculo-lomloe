@@ -47,6 +47,7 @@ const stageCodes = ["infantil", "primaria", "eso", "bachillerato", "cfgb"];
 const progress = parseProgress(readme);
 const incidents = incidentMarkdowns.flatMap(parseIncidents);
 const matters = [];
+const openOptions = [];
 const sourceCatalogs = new Map();
 
 const territoryDirectories = (await readdir(resolve(root, "data"), { withFileTypes: true }))
@@ -120,6 +121,35 @@ for (const territoryCode of territoryDirectories) {
         },
       });
     }
+
+    const openOptionsPath = resolve(root, "data/" + territoryCode + "/" + stage + "/optativas-abiertas.json");
+    try {
+      const optionsDocument = JSON.parse(await readFile(openOptionsPath, "utf8"));
+      if (optionsDocument.territorio !== territoryCode || optionsDocument.etapa !== stage) {
+        throw new Error("Territorio o etapa incoherentes en " + openOptionsPath);
+      }
+      const source = sourceCatalogs.get(territoryCode)?.documentos.find(
+        (document) => document.id === optionsDocument.fuenteId,
+      );
+      if (!source) throw new Error("Fuente desconocida en " + openOptionsPath);
+      for (const option of optionsDocument.optativas) {
+        openOptions.push({
+          ...option,
+          territorio: territoryCode,
+          etapa: stage,
+          criterioRepresentacion: optionsDocument.criterioRepresentacion,
+          fichaPath: "data/" + territoryCode + "/" + stage + "/optativas-abiertas.json",
+          fuente: {
+            id: source.id,
+            titulo: source.titulo,
+            urlOficial: source.urlOficial,
+            archivo: source.archivo,
+          },
+        });
+      }
+    } catch (error) {
+      if (error.code !== "ENOENT") throw error;
+    }
   }
 }
 
@@ -137,6 +167,7 @@ const stages = [...sourceCatalogs.entries()].flatMap(([territoryCode, sourceCata
       estado: territoryProgress?.etapas[stage]?.estado || "pendiente",
       appPath: `?territorio=${territoryCode}&etapa=${stage}#${territoryCode}`,
       materias: stageMatters.length,
+      optativasAbiertas: openOptions.filter((option) => option.territorio === territoryCode && option.etapa === stage).length,
       incidencias: stageIncidents.length,
       fuentes: sourceCatalog.documentos.filter((source) => source.etapas.includes(stage)).length,
       ultimaRevision: revisions.at(-1) || sourceCatalog.fechaActualizacion,
@@ -148,7 +179,7 @@ const sourceDocuments = [...sourceCatalogs.entries()].flatMap(([territoryCode, s
   sourceCatalog.documentos.map((document) => ({ territorio: document.territorio || territoryCode, ...document })),
 );
 const catalog = {
-  version: "1.5.0",
+  version: "1.6.0",
   proyecto: {
     nombre: "Currículo LOMLOE en JSON",
     repositorio: repoUrl,
@@ -158,6 +189,7 @@ const catalog = {
   territorios: parseProgress(readme).map((territory) => ({ codigo: territory.territorio, nombre: territory.nombre })),
   etapas: stages,
   materias: matters.sort((a, b) => a.nombre.localeCompare(b.nombre, "es")),
+  optativasAbiertas: openOptions.sort((a, b) => a.nombre.localeCompare(b.nombre, "es")),
   incidencias: incidents,
   documentosNormativos: sourceDocuments,
   progreso: progress,
@@ -248,7 +280,14 @@ function parseProgress(markdown) {
 }
 
 function progressStatus(value) {
-  if (value.startsWith("✅")) return { estado: "completo", etiqueta: value.replace(/^✅\s*/, "") };
+  if (value.startsWith("✅")) {
+    const etiqueta = value.replace(/^✅\s*/, "");
+    const fraccion = etiqueta.match(/^(\d+)\/(\d+)$/);
+    if (fraccion && Number(fraccion[1]) < Number(fraccion[2])) {
+      return { estado: "en-curso", etiqueta: `${etiqueta} revisados` };
+    }
+    return { estado: "completo", etiqueta };
+  }
   if (value.startsWith("📝")) return { estado: "en-revision", etiqueta: `${value.replace(/^📝\s*/, "")} en revisión` };
   if (value.startsWith("📚")) return { estado: "fuentes", etiqueta: "Fuentes recopiladas" };
   if (value.startsWith("🚧")) return { estado: "en-curso", etiqueta: "En curso" };

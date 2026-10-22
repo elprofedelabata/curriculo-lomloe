@@ -9,14 +9,17 @@ Una materia o ámbito se marca como terminado cuando:
 - el contenido se ha contrastado con el PDF oficial;
 - las posibles incidencias de la fuente se han documentado y resuelto.
 
+Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca de su ficha informativa no equivale a un JSON curricular terminado.
+
 ## Progreso global
 
-- **Total inventariado:** 308 currículos
-- **Terminados:** 120
-- **Pendientes:** 188
+- **Referencias inventariadas:** 308 (305 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
+- **Currículos terminados:** 192 de 305
+- **Currículos pendientes:** 113
+- **Optativas de desarrollo abierto documentadas:** 3 de 3
 - **Andalucía:** 102 de 102
 - **Aragón:** 3 de 116
-- **Principado de Asturias:** 15 de 90 inventariados
+- **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
 
 ## Andalucía
 
@@ -367,13 +370,13 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 ### Progreso
 
-- **Total inventariado:** 90 currículos
-- **Terminados:** 15
-- **Pendientes:** 75
+- **Total inventariado:** 87 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto
+- **Terminados:** 87
+- **Pendientes:** 0
 - **Infantil:** 3 de 3
 - **Primaria:** 10 de 10
-- **ESO:** 0 de 24; los 24 JSON están generados y pendientes de revisión
-- **Bachillerato:** 0 de 51; 48 JSON están generados y pendientes de revisión y 3 optativas no tienen un desarrollo curricular cerrado en el decreto
+- **ESO:** 24 de 24
+- **Bachillerato:** 48 de 48 currículos con desarrollo cerrado; 3 optativas de desarrollo abierto documentadas aparte
 - **CFGB:** 2 de 2
 
 ### Infantil
@@ -403,89 +406,92 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 #### Anexo II — Materias de Educación Secundaria Obligatoria
 
-- [ ] Biología y Geología — 1.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/biologia-y-geologia.json)
-- [ ] Digitalización — 4.º — [JSON en revisión](data/es-as/eso/materias/digitalizacion.json)
-- [ ] Economía y Emprendimiento — 4.º — [JSON en revisión](data/es-as/eso/materias/economia-y-emprendimiento.json)
-- [ ] Educación Física — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/educacion-fisica.json)
-- [ ] Educación Plástica, Visual y Audiovisual — 1.º y 3.º — [JSON en revisión](data/es-as/eso/materias/educacion-plastica-visual-y-audiovisual.json)
-- [ ] Educación en Valores Cívicos y Éticos — 3.º — [JSON en revisión](data/es-as/eso/materias/educacion-en-valores-civicos-y-eticos.json)
-- [ ] Expresión Artística — 4.º — [JSON en revisión](data/es-as/eso/materias/expresion-artistica.json)
-- [ ] Física y Química — 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/fisica-y-quimica.json)
-- [ ] Formación y Orientación Personal y Profesional — 4.º — [JSON en revisión](data/es-as/eso/materias/formacion-y-orientacion-personal-y-profesional.json)
-- [ ] Geografía e Historia — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/geografia-e-historia.json)
-- [ ] Latín — 4.º — [JSON en revisión](data/es-as/eso/materias/latin.json)
-- [ ] Lengua Castellana y Literatura — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/lengua-castellana-y-literatura.json)
-- [ ] Lengua Extranjera — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/lengua-extranjera.json)
-- [ ] Matemáticas — 1.º, 2.º, 3.º y 4.º (Matemáticas A y B) — [JSON en revisión](data/es-as/eso/materias/matematicas.json)
-- [ ] Música — 1.º, 2.º y 4.º — [JSON en revisión](data/es-as/eso/materias/musica.json)
-- [ ] Segunda Lengua Extranjera — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/segunda-lengua-extranjera.json)
-- [ ] Tecnología — 4.º — [JSON en revisión](data/es-as/eso/materias/tecnologia.json)
-- [ ] Tecnología y Digitalización — 2.º y 3.º — [JSON en revisión](data/es-as/eso/materias/tecnologia-y-digitalizacion.json)
+- [x] Biología y Geología — 1.º, 3.º y 4.º — [JSON](data/es-as/eso/materias/biologia-y-geologia.json)
+- [x] Digitalización — 4.º — [JSON](data/es-as/eso/materias/digitalizacion.json)
+- [x] Economía y Emprendimiento — 4.º — [JSON](data/es-as/eso/materias/economia-y-emprendimiento.json)
+- [x] Educación Física — 1.º, 2.º, 3.º y 4.º — [JSON](data/es-as/eso/materias/educacion-fisica.json)
+- [x] Educación Plástica, Visual y Audiovisual — 1.º y 3.º — [JSON](data/es-as/eso/materias/educacion-plastica-visual-y-audiovisual.json)
+- [x] Educación en Valores Cívicos y Éticos — 3.º — [JSON](data/es-as/eso/materias/educacion-en-valores-civicos-y-eticos.json)
+- [x] Expresión Artística — 4.º — [JSON](data/es-as/eso/materias/expresion-artistica.json)
+- [x] Física y Química — 2.º, 3.º y 4.º — [JSON](data/es-as/eso/materias/fisica-y-quimica.json)
+- [x] Formación y Orientación Personal y Profesional — 4.º — [JSON](data/es-as/eso/materias/formacion-y-orientacion-personal-y-profesional.json)
+- [x] Geografía e Historia — 1.º, 2.º, 3.º y 4.º — [JSON](data/es-as/eso/materias/geografia-e-historia.json)
+- [x] Latín — 4.º — [JSON](data/es-as/eso/materias/latin.json)
+- [x] Lengua Castellana y Literatura — 1.º, 2.º, 3.º y 4.º — [JSON](data/es-as/eso/materias/lengua-castellana-y-literatura.json)
+- [x] Lengua Extranjera — 1.º, 2.º, 3.º y 4.º — [JSON](data/es-as/eso/materias/lengua-extranjera.json)
+- [x] Matemáticas — 1.º, 2.º, 3.º y 4.º (Matemáticas A y B) — [JSON](data/es-as/eso/materias/matematicas.json)
+- [x] Música — 1.º, 2.º y 4.º — [JSON](data/es-as/eso/materias/musica.json)
+- [x] Segunda Lengua Extranjera — 1.º, 2.º, 3.º y 4.º — [JSON](data/es-as/eso/materias/segunda-lengua-extranjera.json)
+- [x] Tecnología — 4.º — [JSON](data/es-as/eso/materias/tecnologia.json)
+- [x] Tecnología y Digitalización — 2.º y 3.º — [JSON](data/es-as/eso/materias/tecnologia-y-digitalizacion.json)
 
 #### Anexo II — Materias optativas
 
-- [ ] Cultura Clásica — 2.º — [JSON en revisión](data/es-as/eso/materias/cultura-clasica.json)
-- [ ] Digitalización Aplicada — 1.º — [JSON en revisión](data/es-as/eso/materias/digitalizacion-aplicada.json)
-- [ ] Filosofía — 4.º — [JSON en revisión](data/es-as/eso/materias/filosofia.json)
-- [ ] Lengua Asturiana y Literatura — 1.º, 2.º, 3.º y 4.º — [JSON en revisión](data/es-as/eso/materias/lengua-asturiana-y-literatura.json)
-- [ ] Proyecto de Emprendimiento Social o Empresarial — 3.º — [JSON en revisión](data/es-as/eso/materias/proyecto-de-emprendimiento-social-o-empresarial.json)
-- [ ] Taller de Economía Aplicada — 4.º — [JSON en revisión](data/es-as/eso/materias/taller-de-economia-aplicada.json)
+- [x] Cultura Clásica — 2.º — [JSON](data/es-as/eso/materias/cultura-clasica.json)
+- [x] Digitalización Aplicada — 1.º — [JSON](data/es-as/eso/materias/digitalizacion-aplicada.json)
+- [x] Filosofía — 4.º — [JSON](data/es-as/eso/materias/filosofia.json)
+- [x] Lengua Asturiana y Literatura — 1.º, 2.º, 3.º y 4.º — [JSON](data/es-as/eso/materias/lengua-asturiana-y-literatura.json)
+- [x] Proyecto de Emprendimiento Social o Empresarial — 3.º — [JSON](data/es-as/eso/materias/proyecto-de-emprendimiento-social-o-empresarial.json)
+- [x] Taller de Economía Aplicada — 4.º — [JSON](data/es-as/eso/materias/taller-de-economia-aplicada.json)
 
 ### Bachillerato
 
 #### Anexo II.a — Materias comunes, de modalidad y optativas
 
-- [ ] Análisis Musical — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/analisis-musical.json)
-- [ ] Artes Escénicas — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/artes-escenicas.json)
-- [ ] Biología — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/biologia.json)
-- [ ] Biología, Geología y Ciencias Ambientales — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/biologia-geologia-y-ciencias-ambientales.json)
-- [ ] Ciencias Generales — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/ciencias-generales.json)
-- [ ] Coro y Técnica Vocal — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/coro-y-tecnica-vocal.json)
-- [ ] Cultura Audiovisual — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/cultura-audiovisual.json)
-- [ ] Dibujo Artístico — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/dibujo-artistico.json)
-- [ ] Dibujo Técnico — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/dibujo-tecnico.json)
-- [ ] Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno.json)
-- [ ] Diseño — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/diseno.json)
-- [ ] Economía — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/economia.json)
-- [ ] Economía, Emprendimiento y Actividad Empresarial — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/economia-emprendimiento-y-actividad-empresarial.json)
-- [ ] Educación Física — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/educacion-fisica.json)
-- [ ] Empresa y Diseño de Modelos de Negocio — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/empresa-y-diseno-de-modelos-de-negocio.json)
-- [ ] Filosofía — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/filosofia.json)
-- [ ] Física — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/fisica.json)
-- [ ] Física y Química — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/fisica-y-quimica.json)
-- [ ] Fundamentos Artísticos — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/fundamentos-artisticos.json)
-- [ ] Geología y Ciencias Ambientales — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/geologia-y-ciencias-ambientales.json)
-- [ ] Geografía — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/geografia.json)
-- [ ] Griego — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/griego.json)
-- [ ] Historia del Arte — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/historia-del-arte.json)
-- [ ] Historia de España — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/historia-de-espana.json)
-- [ ] Historia de la Filosofía — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/historia-de-la-filosofia.json)
-- [ ] Historia del Mundo Contemporáneo — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/historia-del-mundo-contemporaneo.json)
-- [ ] Historia de la Música y de la Danza — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/historia-de-la-musica-y-de-la-danza.json)
-- [ ] Latín — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/latin.json)
-- [ ] Lengua Castellana y Literatura — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/lengua-castellana-y-literatura.json)
-- [ ] Lengua Extranjera — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/lengua-extranjera.json)
-- [ ] Lenguaje y Práctica Musical — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/lenguaje-y-practica-musical.json)
-- [ ] Literatura Dramática — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/literatura-dramatica.json)
-- [ ] Literatura Universal — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/literatura-universal.json)
-- [ ] Matemáticas — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/matematicas.json)
-- [ ] Matemáticas Aplicadas a las Ciencias Sociales — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/matematicas-aplicadas-a-las-ciencias-sociales.json)
-- [ ] Matemáticas Generales — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/matematicas-generales.json)
-- [ ] Movimientos Culturales y Artísticos — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/movimientos-culturales-y-artisticos.json)
-- [ ] Proyectos Artísticos — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/proyectos-artisticos.json)
-- [ ] Química — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/quimica.json)
-- [ ] Técnicas de Expresión Gráfico-plástica — 2.º — [JSON en revisión](data/es-as/bachillerato/materias/tecnicas-de-expresion-grafico-plastica.json)
-- [ ] Tecnología e Ingeniería — 1.º y 2.º — [JSON en revisión](data/es-as/bachillerato/materias/tecnologia-e-ingenieria.json)
-- [ ] Volumen — 1.º — [JSON en revisión](data/es-as/bachillerato/materias/volumen.json)
-- [ ] Anatomía Aplicada — 1.º, optativa — [JSON en revisión](data/es-as/bachillerato/materias/anatomia-aplicada.json)
-- [ ] El Legado Clásico — 1.º, optativa — [JSON en revisión](data/es-as/bachillerato/materias/el-legado-clasico.json)
-- [ ] Lengua Asturiana y Literatura — 1.º y 2.º, optativa — [JSON en revisión](data/es-as/bachillerato/materias/lengua-asturiana-y-literatura.json)
-- [ ] Psicología y Sociedad — 2.º, optativa — [JSON en revisión](data/es-as/bachillerato/materias/psicologia-y-sociedad.json)
-- [ ] Segunda Lengua Extranjera — 1.º y 2.º, optativa — [JSON en revisión](data/es-as/bachillerato/materias/segunda-lengua-extranjera.json)
-- [ ] Tecnologías Digitales Aplicadas — 1.º y 2.º, optativa — [JSON en revisión](data/es-as/bachillerato/materias/tecnologias-digitales-aplicadas.json)
-- [ ] Gestión de Fuentes Documentales y Comunicación — 2.º, optativa — sin desarrollo curricular cerrado en el Decreto 60/2022
-- [ ] Proyecto de Investigación Integrado — 1.º y 2.º, optativa — sin desarrollo curricular cerrado en el Decreto 60/2022
-- [ ] Recursos Energéticos y Sostenibilidad — 1.º, optativa — sin desarrollo curricular cerrado en el Decreto 60/2022
+- [x] Análisis Musical — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/analisis-musical.json)
+- [x] Artes Escénicas — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/artes-escenicas.json)
+- [x] Biología — 2.º — [JSON](data/es-as/bachillerato/materias/biologia.json)
+- [x] Biología, Geología y Ciencias Ambientales — 1.º — [JSON](data/es-as/bachillerato/materias/biologia-geologia-y-ciencias-ambientales.json)
+- [x] Ciencias Generales — 2.º — [JSON](data/es-as/bachillerato/materias/ciencias-generales.json)
+- [x] Coro y Técnica Vocal — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/coro-y-tecnica-vocal.json)
+- [x] Cultura Audiovisual — 1.º — [JSON](data/es-as/bachillerato/materias/cultura-audiovisual.json)
+- [x] Dibujo Artístico — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/dibujo-artistico.json)
+- [x] Dibujo Técnico — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/dibujo-tecnico.json)
+- [x] Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno.json)
+- [x] Diseño — 2.º — [JSON](data/es-as/bachillerato/materias/diseno.json)
+- [x] Economía — 1.º — [JSON](data/es-as/bachillerato/materias/economia.json)
+- [x] Economía, Emprendimiento y Actividad Empresarial — 1.º — [JSON](data/es-as/bachillerato/materias/economia-emprendimiento-y-actividad-empresarial.json)
+- [x] Educación Física — 1.º — [JSON](data/es-as/bachillerato/materias/educacion-fisica.json)
+- [x] Empresa y Diseño de Modelos de Negocio — 2.º — [JSON](data/es-as/bachillerato/materias/empresa-y-diseno-de-modelos-de-negocio.json)
+- [x] Filosofía — 1.º — [JSON](data/es-as/bachillerato/materias/filosofia.json)
+- [x] Física — 2.º — [JSON](data/es-as/bachillerato/materias/fisica.json)
+- [x] Física y Química — 1.º — [JSON](data/es-as/bachillerato/materias/fisica-y-quimica.json)
+- [x] Fundamentos Artísticos — 2.º — [JSON](data/es-as/bachillerato/materias/fundamentos-artisticos.json)
+- [x] Geología y Ciencias Ambientales — 2.º — [JSON](data/es-as/bachillerato/materias/geologia-y-ciencias-ambientales.json)
+- [x] Geografía — 2.º — [JSON](data/es-as/bachillerato/materias/geografia.json)
+- [x] Griego — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/griego.json)
+- [x] Historia del Arte — 2.º — [JSON](data/es-as/bachillerato/materias/historia-del-arte.json)
+- [x] Historia de España — 2.º — [JSON](data/es-as/bachillerato/materias/historia-de-espana.json)
+- [x] Historia de la Filosofía — 2.º — [JSON](data/es-as/bachillerato/materias/historia-de-la-filosofia.json)
+- [x] Historia del Mundo Contemporáneo — 1.º — [JSON](data/es-as/bachillerato/materias/historia-del-mundo-contemporaneo.json)
+- [x] Historia de la Música y de la Danza — 2.º — [JSON](data/es-as/bachillerato/materias/historia-de-la-musica-y-de-la-danza.json)
+- [x] Latín — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/latin.json)
+- [x] Lengua Castellana y Literatura — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/lengua-castellana-y-literatura.json)
+- [x] Lengua Extranjera — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/lengua-extranjera.json)
+- [x] Lenguaje y Práctica Musical — 1.º — [JSON](data/es-as/bachillerato/materias/lenguaje-y-practica-musical.json)
+- [x] Literatura Dramática — 2.º — [JSON](data/es-as/bachillerato/materias/literatura-dramatica.json)
+- [x] Literatura Universal — 1.º — [JSON](data/es-as/bachillerato/materias/literatura-universal.json)
+- [x] Matemáticas — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/matematicas.json)
+- [x] Matemáticas Aplicadas a las Ciencias Sociales — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/matematicas-aplicadas-a-las-ciencias-sociales.json)
+- [x] Matemáticas Generales — 1.º — [JSON](data/es-as/bachillerato/materias/matematicas-generales.json)
+- [x] Movimientos Culturales y Artísticos — 2.º — [JSON](data/es-as/bachillerato/materias/movimientos-culturales-y-artisticos.json)
+- [x] Proyectos Artísticos — 1.º — [JSON](data/es-as/bachillerato/materias/proyectos-artisticos.json)
+- [x] Química — 2.º — [JSON](data/es-as/bachillerato/materias/quimica.json)
+- [x] Técnicas de Expresión Gráfico-plástica — 2.º — [JSON](data/es-as/bachillerato/materias/tecnicas-de-expresion-grafico-plastica.json)
+- [x] Tecnología e Ingeniería — 1.º y 2.º — [JSON](data/es-as/bachillerato/materias/tecnologia-e-ingenieria.json)
+- [x] Volumen — 1.º — [JSON](data/es-as/bachillerato/materias/volumen.json)
+- [x] Anatomía Aplicada — 1.º, optativa — [JSON](data/es-as/bachillerato/materias/anatomia-aplicada.json)
+- [x] El Legado Clásico — 1.º, optativa — [JSON](data/es-as/bachillerato/materias/el-legado-clasico.json)
+- [x] Lengua Asturiana y Literatura — 1.º y 2.º, optativa — [JSON](data/es-as/bachillerato/materias/lengua-asturiana-y-literatura.json)
+- [x] Psicología y Sociedad — 2.º, optativa — [JSON](data/es-as/bachillerato/materias/psicologia-y-sociedad.json)
+- [x] Segunda Lengua Extranjera — 1.º y 2.º, optativa — [JSON](data/es-as/bachillerato/materias/segunda-lengua-extranjera.json)
+- [x] Tecnologías Digitales Aplicadas — 1.º y 2.º, optativa — [JSON](data/es-as/bachillerato/materias/tecnologias-digitales-aplicadas.json)
+
+#### Optativas de desarrollo abierto — fichas informativas, no JSON curriculares
+
+- [x] Gestión de Fuentes Documentales y Comunicación — 2.º — [ficha informativa](data/es-as/bachillerato/optativas-abiertas.json)
+- [x] Proyecto de Investigación Integrado — 1.º y 2.º — [ficha informativa](data/es-as/bachillerato/optativas-abiertas.json)
+- [x] Recursos Energéticos y Sostenibilidad — 1.º — [ficha informativa](data/es-as/bachillerato/optativas-abiertas.json)
 
 ### CFGB
 
@@ -497,7 +503,7 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 ### Notas de alcance
 
 - Los ámbitos Lingüístico y Social y Científico-tecnológico del programa de Diversificación incorporan los aspectos básicos de las materias que los integran, según el artículo 26 del Decreto 59/2022; la norma no publica para ellos un desarrollo curricular independiente equivalente al anexo andaluz. Por ello no se duplican como JSON separados.
-- En Bachillerato, el Decreto 60/2022 permite que los centros concreten el currículo de Gestión de Fuentes Documentales y Comunicación, Proyecto de Investigación Integrado y Recursos Energéticos y Sostenibilidad. Al no publicar para ellas un repertorio cerrado de competencias específicas, criterios de evaluación y saberes básicos, se mantienen inventariadas como materias, pero no se generan JSON curriculares vacíos o ficticios.
+- En Bachillerato, el Decreto 60/2022 presenta orientaciones para Gestión de Fuentes Documentales y Comunicación, Proyecto de Investigación Integrado y Recursos Energéticos y Sostenibilidad, pero no un repertorio cerrado de competencias específicas, criterios de evaluación y saberes básicos. Se conservan en una ficha JSON informativa separada del esquema curricular; su concreción corresponde a las programaciones docentes.
 - En CFGB, el Decreto 103/2025 fija la distribución y los códigos oficiales de Ciencias Aplicadas I y II y de Comunicación y Ciencias Sociales I y II, y remite su currículo al anexo V del Real Decreto 217/2022. Ese anexo publica un desarrollo común para cada ámbito sin secuenciarlo por curso; los JSON lo reproducen íntegramente en 1.º y 2.º como decisión de representación del proyecto, no como secuenciación oficial.
 
 ### Fuentes oficiales locales

@@ -16,9 +16,11 @@ Corpus normativo de partida para estructurar en JSON los currículos LOMLOE de E
 
 El Decreto 104/2025 modifica el Decreto 56/2022 para incorporar una primera aproximación voluntaria a la lengua asturiana o al gallego-asturiano o eonaviego en el segundo ciclo de Educación Infantil. Se conserva separado para aplicar conjuntamente la norma de base y la modificación, sin sustituir ni duplicar el PDF original.
 
-El Decreto 59/2022 incluye en su anexo V el currículo de los ámbitos comunes de CFGB. No obstante, el Decreto 103/2025 identifica como currículo aplicable de Ciencias Aplicadas y Comunicación y Ciencias Sociales el anexo V del Real Decreto 217/2022. Para la futura extracción de estos dos ámbitos se tomará este último como fuente curricular vigente y se conservará la normativa asturiana para la organización y trazabilidad de la oferta.
+El Decreto 59/2022 incluye en su anexo V el currículo de los ámbitos comunes de CFGB. No obstante, el Decreto 103/2025 identifica como currículo aplicable de Ciencias Aplicadas y Comunicación y Ciencias Sociales el anexo V del Real Decreto 217/2022. Para la extracción de estos dos ámbitos se ha tomado este último como fuente curricular vigente y se conserva la normativa asturiana para la organización y trazabilidad de la oferta.
 
-El proyecto solo convertirá a JSON esos dos ámbitos comunes de CFGB; los módulos profesionales y los proyectos intermodulares quedan fuera del alcance actual.
+El proyecto solo convierte a JSON esos dos ámbitos comunes de CFGB; los módulos profesionales y los proyectos intermodulares quedan fuera del alcance actual.
+
+El Decreto 60/2022 publica orientaciones, pero no un desarrollo curricular cerrado, para tres optativas de Bachillerato. Sus nombres, cursos y estado se registran en [una ficha informativa](../../../data/es-as/bachillerato/optativas-abiertas.json), separada de los JSON de materias.
 
 ## Criterios de conservación
 

@@ -7,7 +7,7 @@ const dist = resolve(root, "dist");
 const catalog = JSON.parse(await readFile(resolve(dist, "catalogo.json"), "utf8"));
 const failures = [];
 
-check(catalog.version === "1.5.0", "Versión inesperada del catálogo.");
+check(catalog.version === "1.6.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
 check(catalog.etapas.length === 15, `Se esperaban 15 etapas territoriales y hay ${catalog.etapas.length}.`);
@@ -27,6 +27,14 @@ check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etap
 check(catalog.materias.filter((item) => item.etapa === "cfgb").length === 6, "El catálogo de CFGB no contiene 6 ámbitos territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "cfgb").length === 2, "El catálogo de Aragón no contiene sus 2 ámbitos de CFGB.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "cfgb").length === 2, "El catálogo de Asturias no contiene sus 2 ámbitos de CFGB.");
+check(catalog.materias.filter((item) => item.territorio === "es-as" && item.revision?.estado === "revisado").length === 87, "Los 87 JSON publicados de Asturias deben constar como revisados.");
+check(catalog.optativasAbiertas.length === 3, "Faltan las tres fichas informativas de optativas abiertas.");
+check(catalog.optativasAbiertas.every((item) => item.territorio === "es-as" && item.etapa === "bachillerato" && item.estado === "concrecion-docente"), "Las optativas abiertas tienen una clasificación incorrecta.");
+check(catalog.optativasAbiertas.every((item) => item.fuente.id === "es-as-bachillerato-decreto-60-2022" && item.fuente.urlOficial && item.fuente.archivo), "Las optativas abiertas deben remitir al Decreto 60/2022.");
+check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) => matter.id === item.id)), "Una optativa abierta se presenta indebidamente como currículo cerrado.");
+check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
+const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
+check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
 check(catalog.incidencias.length === 201, `Se esperaban 201 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
@@ -38,6 +46,7 @@ for (const file of [
   "site.js",
   "catalogo.json",
   "schemas/materia.schema.json",
+  "schemas/optativas-abiertas.schema.json",
   "sitemap.xml",
   "robots.txt",
   ".nojekyll",
@@ -71,6 +80,7 @@ check(siteJs.includes('lastInRow.after(expansion)') && siteJs.includes('aria-exp
 check(siteJs.includes('stageModal.showModal()') && siteJs.includes('stageModal.close()'), "Las subcarpetas no abren y cierran el modal.");
 check(siteJs.includes('button.disabled = preview'), "Las subcarpetas de maqueta deben permanecer inactivas.");
 check(siteJs.includes('fetch("./catalogo.json")') && siteJs.includes('renderMatterCard') && siteJs.includes('renderDocuments'), "El modal debe obtener y listar los datos del catálogo.");
+check(siteJs.includes("renderOpenOptions(openOptions, territoryCode)") && siteJs.includes('"Optativas de desarrollo abierto"'), "El modal de Bachillerato debe mostrar las fichas informativas separadas.");
 check(siteJs.includes('writeStageRoute') && siteJs.includes('syncFromLocation'), "Faltan las rutas compartibles de las etapas.");
 check(siteJs.includes('create("span", "matter-code", matter.codigo)') && siteJs.includes('jsonLink.prepend(createJsonIcon())'), "Cada materia debe mostrar su abreviatura y el icono SVG del JSON.");
 check(siteJs.includes('makeActionLink("Publicación oficial"') && siteJs.includes('makeActionLink("PDF archivado"') && siteJs.includes('makeActionLink("Consultar incidencias"'), "Normativa e incidencias deben enlazarse como botones con iconos.");
@@ -86,6 +96,7 @@ for (const stage of catalog.etapas) {
 check(css.includes(".community-expansion:not(.community-expansion--preview) .stage-card:hover") && css.includes(".stage-card:hover::after"), "Falta el hover de las subcarpetas reales.");
 check(css.includes(".stage-card-button:focus-visible") && css.includes(".stage-modal::backdrop"), "Faltan los estilos accesibles del modal.");
 check(css.includes(".matter-list") && css.includes(".matter-detail-columns") && !css.includes(".matter-search"), "La lista de materias debe ser compacta y sin buscador.");
+check(css.includes(".open-option-list") && css.includes(".open-option-status"), "Faltan los estilos de las optativas con desarrollo abierto.");
 check(css.includes(".matter-details[open] {") && css.includes("background: #f5f9f5;") && css.includes("margin: 5px 0 13px 14px;"), "El desplegable de cada materia debe tener fondo y sangría.");
 check(css.includes(".matter-code {") && css.includes(".matter-json-link svg {"), "Faltan los estilos de la abreviatura o del icono JSON.");
 const badgeCss = css.match(/\.matter-code \{([^}]+)\}/)?.[1] || "";
@@ -148,6 +159,13 @@ for (const matter of catalog.materias) {
       `Incidencia inexistente ${incidentId} en ${matter.id}.`,
     );
   }
+}
+
+for (const option of catalog.optativasAbiertas) {
+  await exists(option.fichaPath);
+  const ficha = JSON.parse(await readFile(resolve(dist, option.fichaPath), "utf8"));
+  check(ficha.$schema === "../../../schemas/optativas-abiertas.schema.json" && ficha.fuenteId === option.fuente.id, "La ficha informativa no remite a su esquema y fuente correctos.");
+  check(ficha.optativas.some((item) => item.id === option.id), "La ficha informativa no contiene " + option.id + ".");
 }
 
 if (failures.length) {
