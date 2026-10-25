@@ -13,13 +13,14 @@ Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca d
 
 ## Progreso global
 
-- **Referencias inventariadas:** 308 (305 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
-- **Currículos terminados:** 192 de 305
-- **Currículos pendientes:** 113
+- **Referencias inventariadas:** 319 (316 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
+- **Currículos terminados:** 195 de 316
+- **Currículos pendientes:** 121
 - **Optativas de desarrollo abierto documentadas:** 3 de 3
 - **Andalucía:** 102 de 102
 - **Aragón:** 3 de 116
 - **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
+- **Illes Balears:** 3 currículos de Infantil revisados y 8 áreas de Primaria en borrador
 
 ## Andalucía
 
@@ -516,3 +517,42 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 - [CFGB — estructura y currículo aplicable, Decreto 103/2025](sources/es-as/normativa/cfgb/2025-08-25-decreto-103-2025-formacion-profesional.pdf)
 - [CFGB — currículo de los ámbitos comunes, anexo V del Real Decreto 217/2022](sources/es-as/normativa/cfgb/2022-03-29-real-decreto-217-2022-eso-anexo-v-cfgb.pdf)
 - [Infantil — modificación mediante el Decreto 104/2025](sources/es-as/normativa/actualizaciones/2025-08-25-decreto-104-2025-modifica-curriculo-infantil.pdf)
+
+## Illes Balears
+
+### Progreso
+
+- **Total inventariado:** 3 áreas de Infantil y 8 de Primaria
+- **Terminados:** 3
+- **Pendientes de revisión:** 8
+
+### Infantil
+
+#### Anexo 2 del Decret 40/2025 — ambos ciclos
+
+- [x] Creixement en Harmonia — [JSON](data/es-ib/infantil/materias/creixement-en-harmonia.json)
+- [x] Descobriment i Exploració de l’Entorn — [JSON](data/es-ib/infantil/materias/descobriment-i-exploracio-de-lentorn.json)
+- [x] Comunicació i Representació de la Realitat — [JSON](data/es-ib/infantil/materias/comunicacio-i-representacio-de-la-realitat.json)
+
+Los textos se conservan en catalán. El primer ciclo tiene carácter orientativo según el artículo 9.2 del decreto. Las abreviaturas de área y los identificadores individuales de saberes son internos; el decreto no les asigna códigos individuales. Las aclaraciones y concreciones de la columna derecha se guardan separadas del texto principal.
+
+### Primaria
+
+#### Anexo 2 del Decret 41/2025 — áreas de Educación Primaria
+
+- [ ] Coneixement del medi natural, social i cultural — [JSON](data/es-ib/primaria/materias/coneixement-del-medi-natural-social-i-cultural.json)
+- [ ] Educació Artística — [JSON](data/es-ib/primaria/materias/educacio-artistica.json)
+- [ ] Educació en Valors Cívics i Ètics — [JSON](data/es-ib/primaria/materias/educacio-en-valors-civics-i-etics.json)
+- [ ] Educació Física — [JSON](data/es-ib/primaria/materias/educacio-fisica.json)
+- [ ] Llengua Castellana i Literatura — [JSON](data/es-ib/primaria/materias/llengua-castellana-i-literatura.json)
+- [ ] Llengua Catalana i Literatura — [JSON](data/es-ib/primaria/materias/llengua-catalana-i-literatura.json)
+- [ ] Llengua Estrangera — [JSON](data/es-ib/primaria/materias/llengua-estrangera.json)
+- [ ] Matemàtiques — [JSON](data/es-ib/primaria/materias/matematiques.json)
+
+Los criterios del anexo se publican por ciclo. En siete áreas, los JSON los replican en cada curso para facilitar la consulta; esa duplicación no supone una secuenciación oficial. Las concreciones se presentan según las marcas de curso de las tablas, que tienen carácter orientativo conforme al artículo 10.2. Educación en Valors Cívics i Ètics se representa como un único desarrollo del tercer ciclo, con todos los saberes y su marca `cursoOrientativo` de 5.º o 6.º. El artículo 11.2 sitúa el área en alguno de los cursos del ciclo, no obligatoriamente en ambos.
+
+### Fuentes oficiales locales
+
+- [Catálogo de fuentes de Illes Balears](sources/es-ib/normativa/catalogo.json)
+- [Infantil — Decret 40/2025](sources/es-ib/normativa/infantil/2025-08-01-decreto-40-2025-curriculo-infantil.pdf)
+- [Primaria — Decret 41/2025](sources/es-ib/normativa/primaria/2025-08-01-decreto-41-2025-curriculo-primaria.pdf)

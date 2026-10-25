@@ -10,12 +10,27 @@ const failures = [];
 check(catalog.version === "1.6.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
-check(catalog.etapas.length === 15, `Se esperaban 15 etapas territoriales y hay ${catalog.etapas.length}.`);
-check(catalog.materias.length === 305, `Se esperaban 305 materias y hay ${catalog.materias.length}.`);
-check(catalog.materias.filter((item) => item.etapa === "infantil").length === 9, "El catálogo de Infantil no contiene 9 áreas territoriales.");
+check(catalog.etapas.length === 20, `Se esperaban 20 etapas territoriales y hay ${catalog.etapas.length}.`);
+check(catalog.materias.length === 316, `Se esperaban 316 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.filter((item) => item.etapa === "infantil").length === 12, "El catálogo de Infantil no contiene 12 áreas territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "infantil").length === 3, "El catálogo de Aragón no contiene sus 3 áreas de Infantil.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "infantil").length === 3, "El catálogo de Asturias no contiene sus 3 áreas de Infantil.");
-check(catalog.materias.filter((item) => item.etapa === "primaria").length === 31, "El catálogo de Primaria no contiene 31 materias territoriales.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "infantil" && item.revision?.estado === "revisado").length === 3, "El catálogo de Illes Balears no contiene sus 3 áreas de Infantil revisadas.");
+check(catalog.incidencias.filter((item) => item.territorio === "es-ib" && !item.revisada).length === 0, "No deben quedar incidencias baleares pendientes.");
+check(catalog.materias.filter((item) => item.etapa === "primaria").length === 39, "El catálogo de Primaria no contiene 39 materias territoriales.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "primaria" && item.revision?.estado === "borrador").length === 8, "El catálogo de Illes Balears no contiene sus 8 áreas de Primaria en borrador.");
+const balearValues = catalog.materias.find((item) => item.id === "es-ib.primaria.educacio-en-valors-civics-i-etics");
+check(balearValues?.ciclos.length === 1 && balearValues.ciclos[0].ciclo === 3 && balearValues.cursos.length === 0, "Educación en Valores debe figurar como área del tercer ciclo, no como obligatoria en ambos cursos.");
+const balearValuesDocument = JSON.parse(await readFile(resolve(dist, "data/es-ib/primaria/materias/educacio-en-valors-civics-i-etics.json"), "utf8"));
+const balearValuesDevelopments = balearValuesDocument.desarrollos;
+check(balearValuesDevelopments.length === 1 && balearValuesDevelopments[0].ciclo === 3 && !("curso" in balearValuesDevelopments[0]), "Valores debe tener un solo desarrollo canónico del tercer ciclo.");
+check(balearValuesDevelopments[0].criteriosEvaluacion.length === 11, "Faltan criterios de Valores del tercer ciclo.");
+const balearValuesKnowledge = balearValuesDevelopments[0].bloquesSaberes.flatMap((block) => [
+  ...(block.saberes || []),
+  ...(block.apartados || []).flatMap((part) => part.saberes || []),
+]);
+check(balearValuesKnowledge.length === 42 && new Set(balearValuesKnowledge.map((item) => item.id)).size === 42, "Los 42 saberes de Valores deben conservarse sin duplicados.");
+check(balearValuesKnowledge.filter((item) => item.cursoOrientativo?.includes(5)).length === 18 && balearValuesKnowledge.filter((item) => item.cursoOrientativo?.includes(6)).length === 24, "Las marcas orientativas de 5.º y 6.º no coinciden con la tabla.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "primaria").length === 14, "El catálogo de Aragón no contiene sus 14 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "primaria").length === 10, "El catálogo de Asturias no contiene sus 10 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "eso").length === 24, "El catálogo de Asturias no contiene sus 24 currículos de ESO.");
@@ -35,7 +50,7 @@ check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) 
 check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
 const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
 check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
-check(catalog.incidencias.length === 201, `Se esperaban 201 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 203, `Se esperaban 203 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");
@@ -118,10 +133,11 @@ check(new Set(folderCodes).size === catalog.territorios.length, "Hay carpetas de
 check(html.includes('<li class="folder-card folder-card--available" data-community="es-an">'), "Andalucía no aparece como disponible.");
 check(html.includes('<li class="folder-card folder-card--available" data-community="es-ar">'), "Aragón no aparece como disponible.");
 check(html.includes('<li class="folder-card folder-card--available" data-community="es-as">'), "Asturias no aparece como disponible.");
-for (const code of ["es-ib", "es-cn"]) {
+check(html.includes('<li class="folder-card folder-card--available" data-community="es-ib">'), "Illes Balears no aparece como disponible.");
+for (const code of ["es-cn"]) {
   check(html.includes('<li class="folder-card folder-card--preview" data-community="' + code + '">'), 'Falta la carpeta temporal ' + code + '.');
 }
-check((html.match(/folder-card--preview/g) || []).length === 2, "Debe haber dos carpetas temporales.");
+check((html.match(/folder-card--preview/g) || []).length === 1, "Debe haber una carpeta temporal.");
 check((html.match(/folder-card--disabled/g) || []).length === 12, "Las 12 carpetas restantes deben estar deshabilitadas.");
 check(!html.includes('es-an ·'), "La carpeta de Andalucía debe mostrar solo su código.");
 for (const territory of catalog.territorios) {

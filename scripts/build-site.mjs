@@ -91,7 +91,7 @@ for (const territoryCode of territoryDirectories) {
         slug,
         territorio: document.territorio,
         etapa: stage,
-        nombre: document.materia.nombre.es,
+        nombre: document.materia.nombre.es ?? document.materia.nombre.ca,
         codigo: document.materia.codigo,
         cursos: document.materia.cursos || [],
         ciclos: document.materia.ciclos || [],
