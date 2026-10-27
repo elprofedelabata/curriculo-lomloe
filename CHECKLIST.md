@@ -13,14 +13,14 @@ Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca d
 
 ## Progreso global
 
-- **Referencias inventariadas:** 319 (316 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
-- **Currículos terminados:** 195 de 316
-- **Currículos pendientes:** 121
+- **Referencias inventariadas:** 346 (343 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
+- **Currículos terminados:** 195 de 343
+- **Currículos pendientes:** 148
 - **Optativas de desarrollo abierto documentadas:** 3 de 3
 - **Andalucía:** 102 de 102
 - **Aragón:** 3 de 116
 - **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
-- **Illes Balears:** 3 currículos de Infantil revisados y 8 áreas de Primaria en borrador
+- **Illes Balears:** 3 currículos de Infantil revisados, 8 áreas de Primaria y las 27 materias de ESO en borrador
 
 ## Andalucía
 
@@ -522,9 +522,10 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 ### Progreso
 
-- **Total inventariado:** 3 áreas de Infantil y 8 de Primaria
+- **Total inventariado:** 3 áreas de Infantil, 8 de Primaria y 27 materias de ESO
 - **Terminados:** 3
-- **Pendientes de revisión:** 8
+- **Pendientes de revisión:** 35
+- **Pendientes de extracción:** 0
 
 ### Infantil
 
@@ -551,8 +552,43 @@ Los textos se conservan en catalán. El primer ciclo tiene carácter orientativo
 
 Los criterios del anexo se publican por ciclo. En siete áreas, los JSON los replican en cada curso para facilitar la consulta; esa duplicación no supone una secuenciación oficial. Las concreciones se presentan según las marcas de curso de las tablas, que tienen carácter orientativo conforme al artículo 10.2. Educación en Valors Cívics i Ètics se representa como un único desarrollo del tercer ciclo, con todos los saberes y su marca `cursoOrientativo` de 5.º o 6.º. El artículo 11.2 sitúa el área en alguno de los cursos del ciclo, no obligatoriamente en ambos.
 
+### ESO
+
+#### Anexo 2 del Decret 42/2025 — materias de Educación Secundaria Obligatoria
+
+- [ ] Biologia i Geologia — [JSON en borrador](data/es-ib/eso/materias/biologia-i-geologia.json)
+- [ ] Cooperació i Serveis a la Comunitat — [JSON en borrador](data/es-ib/eso/materias/cooperacio-i-serveis-a-la-comunitat.json)
+- [ ] Cultura Clàssica — [JSON en borrador](data/es-ib/eso/materias/cultura-classica.json)
+- [ ] Digitalització — [JSON en borrador](data/es-ib/eso/materias/digitalitzacio.json)
+- [ ] Economia i Emprenedoria — [JSON en borrador](data/es-ib/eso/materias/economia-i-emprenedoria.json)
+- [ ] Educació en Valors Cívics i Ètics — [JSON en borrador](data/es-ib/eso/materias/educacio-en-valors-civics-i-etics.json)
+- [ ] Educació Física — [JSON en borrador](data/es-ib/eso/materias/educacio-fisica.json)
+- [ ] Educació Plàstica, Visual i Audiovisual — [JSON en borrador](data/es-ib/eso/materias/educacio-plastica-visual-i-audiovisual.json)
+- [ ] Entorns Digitals i Multimèdia — [JSON en borrador](data/es-ib/eso/materias/entorns-digitals-i-multimedia.json)
+- [ ] Expressió Artística — [JSON en borrador](data/es-ib/eso/materias/expressio-artistica.json)
+- [ ] Física i Química — [JSON en borrador](data/es-ib/eso/materias/fisica-i-quimica.json)
+- [ ] Formació i Orientació Personal i Professional — [JSON en borrador](data/es-ib/eso/materias/formacio-i-orientacio-personal-i-professional.json)
+- [ ] Geografia i Història — [JSON en borrador](data/es-ib/eso/materias/geografia-i-historia.json)
+- [ ] Igualtat de Gènere — [JSON en borrador](data/es-ib/eso/materias/igualtat-de-genere.json)
+- [ ] Introducció a la Filosofia — [JSON en borrador](data/es-ib/eso/materias/introduccio-a-la-filosofia.json)
+- [ ] Introducció a les tècniques experimentals — [JSON en borrador](data/es-ib/eso/materias/introduccio-a-les-tecniques-experimentals.json)
+- [ ] Llatí — [JSON en borrador](data/es-ib/eso/materias/llati.json)
+- [ ] Llengua Castellana i Literatura — [JSON en borrador](data/es-ib/eso/materias/llengua-castellana-i-literatura.json)
+- [ ] Llengua Catalana i Literatura — [JSON en borrador](data/es-ib/eso/materias/llengua-catalana-i-literatura.json)
+- [ ] Llengua Estrangera — [JSON en borrador](data/es-ib/eso/materias/llengua-estrangera.json)
+- [ ] Matemàtiques — [JSON en borrador](data/es-ib/eso/materias/matematiques.json)
+- [ ] Música — [JSON en borrador](data/es-ib/eso/materias/musica.json)
+- [ ] Recursos Digitals — [JSON en borrador](data/es-ib/eso/materias/recursos-digitals.json)
+- [ ] Segona Llengua Estrangera — [JSON en borrador](data/es-ib/eso/materias/segona-llengua-estrangera.json)
+- [ ] Taller de Finances i Consum Responsable — [JSON en borrador](data/es-ib/eso/materias/taller-de-finances-i-consum-responsable.json)
+- [ ] Tecnologia — [JSON en borrador](data/es-ib/eso/materias/tecnologia.json)
+- [ ] Tecnologia i Digitalització — [JSON en borrador](data/es-ib/eso/materias/tecnologia-i-digitalitzacio.json)
+
+Los 27 JSON conservan el catalán publicado y separan las aclaraciones de los criterios. Las abreviaturas, los códigos asignados a bloques sin letra y los identificadores de saber son internos. Los criterios compartidos se replican por curso para facilitar la consulta; las marcas de los saberes se conservan como `cursoOrientativo` y no constituyen una secuenciación obligatoria. Cultura Clàssica I/II, Recursos Digitals I/II y Matemàtiques A/B se distinguen mediante variantes. El desarrollo común de Igualtat de Gènere se replica en primero y segundo sin atribuir una secuenciación distinta al decreto. Por decisión de revisión, cuatro saberes sin marca en las tablas se conservan en ambos cursos de su tramo compartido, sin inventar una marca orientativa. El artículo 10.3 declara orientativas las aclaraciones de criterios y la secuenciación por cursos de los saberes. El anexo 7 regula la diversificación curricular mediante ámbitos que integran currículos de materias ya enumeradas; no publica competencias, criterios y saberes independientes para esos ámbitos.
+
 ### Fuentes oficiales locales
 
 - [Catálogo de fuentes de Illes Balears](sources/es-ib/normativa/catalogo.json)
 - [Infantil — Decret 40/2025](sources/es-ib/normativa/infantil/2025-08-01-decreto-40-2025-curriculo-infantil.pdf)
 - [Primaria — Decret 41/2025](sources/es-ib/normativa/primaria/2025-08-01-decreto-41-2025-curriculo-primaria.pdf)
+- [ESO — Decret 42/2025](sources/es-ib/normativa/eso/2025-08-01-decreto-42-2025-curriculo-eso.pdf)

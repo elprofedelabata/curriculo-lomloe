@@ -1,0 +1,987 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.4.0",
+  "id": "es-ib.eso.entorns-digitals-i-multimedia",
+  "territorio": "es-ib",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "EDM",
+    "nombre": {
+      "ca": "Entorns Digitals i Multimèdia"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2025-08-05",
+    "aplicableDesdeCurso": "2025/2026",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boib-2025-103-decret-42-2025",
+      "tipo": "decreto",
+      "titulo": "Decret 42/2025, d’1 d’agost, pel qual s’estableixen l’ordenació i el currículum de l’educació secundària obligatòria a les Illes Balears",
+      "publicacion": "Butlletí Oficial de les Illes Balears",
+      "numero": "103",
+      "fechaPublicacion": "2025-08-04",
+      "cve": "1197479",
+      "urlOficial": "https://www.caib.es/eboibfront/eli/es-ib/d/2025/08/01/42/dof/cat/pdf",
+      "urlVerificacion": "https://www.caib.es/eboibfront/pdf/ca/2025/103/1197479",
+      "anexo": "2",
+      "paginasMateria": {
+        "desde": 133,
+        "hasta": 136
+      }
+    }
+  ],
+  "introduccion": {
+    "ca": [
+      "La matèria d’Entorns Digitals i Multimèdia és una optativa de primer curs l’objectiu de la qual és que els alumnes esdevinguin competents en els entorns digitals més clàssics de generació i edició de continguts: els processadors de text, les presentacions multimèdia i els fulls de càlcul. El caràcter d’aquesta matèria és eminentment pràctic, essent primordial que els alumnes tinguin accés, preferentment de manera individual, a un ordinador de taula o portàtil perquè explorin de forma autònoma les funcionalitats de cadascuna de les aplicacions. No obstant l’anterior, és important que també siguin competents en el treball cooperatiu, compartint arxius, configurant els permisos i realitzant comentaris a la tasca pròpia i la d’altres per al seu seguiment i revisió. S’estableixen tres competències específiques fortament lligades als blocs de sabers bàsics de la matèria, els quals són: - Funcionalitats i utilitats comunes a diverses aplicacions - Processadors de text - Presentacions multimèdia basades en diapositives - Presentacions multimèdia en línia - Fulls de càlcul Atesos els sabers bàsics del primer bloc, els alumnes seran capaços d’interactuar amb solvència i autonomia de manera progressiva amb la majoria de tipologies d’aplicacions locals i en xarxa. Pel que fa al segon bloc, l’objectiu és que els alumnes esdevinguin competents en la creació i edició de texts, sent aquesta competència útil en qualsevol altra matèria de la seva vida acadèmica. En el tercer bloc, els alumnes aprenen a dissenyar i elaborar presentacions multimèdia basades en diapositives, sensibilitzant l’alumne envers la utilitat de les presentacions com a guia en les exposicions i no com a document, més o manco atractivament visual, per a la inclusió de tota la informació o contingut. En el quart bloc, els alumnes coneixeran i aprenen a emprar amb solvència i autonomia alguna o algunes aplicacions en línia per a la creació i edició de presentacions multimèdia no basades en una seqüència de diapositives. En aquest sentit, el professor ha de concretar els sabers bàsics d’aquest bloc en funció de l’aplicació seleccionada. Així mateix, els alumnes exploren les diferents aplicacions disponibles en línia d’ambdues tipologies, amb diapositives i sense. Es suggereix que els professors triïn, al manco, una de cada tipologia i en remarquin les principals diferències, especialment pel que fa a la restricció o ampliació d’utilitats i funcionalitats. El cinquè i darrer bloc, els alumnes s’inicien en la utilització de fulls de càlcul, automatitzant càlculs i generant diagrames de tipologia diversa, sent especialment rellevant la introducció a la referenciació de cel·les i a l’auxiliar de funcions per al foment de la capacitat d’abstracció dels alumnes. Si bé l’ordre de les competències i sabers establerts en el currículum no determina cap seqüència temporal, se suggereix que el darrer bloc sigui treballat al final del curs perquè els alumnes puguin aplicar més coneixements, habilitats i destreses matemàtics en la realització d’exercicis amb els fulls de càlcul."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "ca": "Emprar amb solvència i de manera autònoma processadors de text, identificant i aprofitant les funcionalitats que ofereixen per a la generació de documents."
+      },
+      "descripcion": {
+        "ca": [
+          "Actualment, els processadors de text són una aplicació bàsica per al desenvolupament de gairebé qualsevol activitat acadèmica i professional, a més de la realització de tràmits amb l’Administració com a ciutadà actiu. Per aquest motiu, és necessari que els alumnes, des d’una etapa primerenca, s’iniciïn en el seu ús perquè puguin emprar-los de manera autònoma i eficient."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CD1",
+        "CD2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boib-2025-103-decret-42-2025",
+        "paginas": [
+          133
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "ca": "Emprar, amb solvència i de manera autònoma, aplicacions per a la creació de presentacions multimèdia."
+      },
+      "descripcion": {
+        "ca": [
+          "La realització d’exposicions orals és una tasca molt demandada en l’actualitat, tant des de l’àmbit acadèmic com el professional. Aquestes exposicions habitualment tenen com a suport una presentació multimèdia, les quals tenen cada vegada més possibilitats i innovacions de format i estil. Per una banda, aquesta competència inclou aspectes tècnics relatius al disseny d’aquest tipus de presentacions i al foment d’un cert criteri estètic. Per una altra banda, els alumnes han de respectar l’ús d’aquesta eina com a suport en una exposició oral, destriant quins elements hi han d’incloure i quins han de comunicar-se únicament de manera oral."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CD1",
+        "CD2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boib-2025-103-decret-42-2025",
+        "paginas": [
+          133,
+          134
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "ca": "Emprar, de manera guiada, fulls de càlcul per a l’automatització de càlculs i generació de diagrames."
+      },
+      "descripcion": {
+        "ca": [
+          "Els fulls de càlcul són una altra eina tecnològica bàsica per al desenvolupament d’una gran part d’activitats acadèmiques i professionals, molt especialment pel que fa a l’emprenedoria, ja que poden ajudar en processos molt diferents i diversos, tals com la realització d’estudis de mercat o la realització de càlculs en el desenvolupament de pràctiques de laboratori, sent especialment útil, en aquest sentit, l’auxiliar de funcions. Per una banda, aquesta competència inclou aspectes tècnics molt inicials, relatius al maneig de les diferents funcionalitats dels fulls de càlcul, tals com la inserció de fileres, la introducció manual de fórmules o l’ús de formats condicionals. Per l’altra, fomenta la capacitat d’abstracció dels alumnes, iniciant-los en la referenciació de cel·les, la classificació de dades en variables i constants i en l’ús de funcions predefinides que requereixen la introducció d’arguments per a obtenir la dada de sortida."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boib-2025-103-decret-42-2025",
+        "paginas": [
+          134
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Emprar el teclat correctament, fent un ús autònom dels diferents grups de tecles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Definir diferents estils de paràgraf, aprofitant-los per a la generació d’índexs."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Crear taules i editar-ne les propietats de distribució i format."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Valorar i utilitzar l’eina d’inserció de comentaris per a la realització de treballs personals i en grup."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-1-4"
+        },
+        {
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Revisar ortogràficament i gramatical el text produït amb l’eina adequada del processador."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-1-5"
+        },
+        {
+          "codigoOficial": "1.6",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Reproduir fidelment texts, tant pel que fa al contingut com al format."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-1-6"
+        },
+        {
+          "codigoOficial": "1.7",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Configurar la impressió de documents."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-1-7"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "ca": "Dissenyar i elaborar presentacions multimèdia basades en diapositives, fent un ús raonable de les seves funcionalitats."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "ca": "Dissenyar i elaborar presentacions multimèdia incloent una quantitat de contingut i elements raonable d’acord amb l’ús com a guia en les exposicions."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "ca": "Assajar exposicions orals fent ús de les funcionalitats adequades de l’aplicació."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-2-3"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "ca": "Referenciar de manera adequada variables i constants en la definició d’operacions i funcions."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "ca": "Dissenyar i elaborar taules, amb un format adequat, per a l’automatització de càlculs que resolguin problemes senzills."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              134
+            ]
+          },
+          "id": "cri-1-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "ca": "Generar diagrames a partir de taules senzilles, configurant-ne els elements correctament."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-42-2025",
+            "paginas": [
+              135
+            ]
+          },
+          "id": "cri-1-3-3"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "ca": "FUNCIONALITATS I UTILITATS COMUNES A DIVERSES APLICACIONS"
+          },
+          "saberes": [
+            {
+              "id": "EDM.1.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Teclat d’escriptura QWERTY. Història i avantatges. Posició inicial i desplaçament correcte dels dits."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Grups de tecles: d’escriptura, de desplaçament, de funcions, de control, numèriques i especials. Utilitats."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Combinacions de tecles per evitar l’ús del ratolí."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.A.04",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Utilitats bàsiques: copiar, enganxar, clonar format, cercar i reemplaçar, personalització de les barres d’eines, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "ca": "PROCESSADORS DE TEXT"
+          },
+          "saberes": [
+            {
+              "id": "EDM.1.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Format de pàgina: mida, orientació, marges i columnes. Edició i ús. Visualització dels regles."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Salts de pàgina i de secció. Utilitat."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Format de caràcter: mida, font i efectes diversos (negreta, cursiva, subratllat, ratllat, subíndex, superíndex, color i realçament, etc.). Edició i ús."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Caràcters especials. Marques de format com el salt de línia."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.05",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Format de paràgraf: sagnat, espaiat, interlineat, alineació, vores i àrea d’ombrejat."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.06",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Pics i numeració."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.07",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Estils de paràgraf. Ús dels estils estàndard i creació de nous. Aprofitament per a la generació d’índexs automàtics."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.08",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Taules. Unió de cel·les. Edició de les propietats. Llegendes."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.09",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Propietats de les imatges: alineació, ajustament i vores. Llegendes."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.10",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Encapçalament i peu de pàgina. Número de pàgina i altres camps adients."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.11",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Comentaris. Inserció, edició, resposta, eliminació, tancament de fils, etc. Identificació de l’usuari que realitza el comentari."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.12",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Revisió ortogràfica i gramatical. Establiment de la llengua de revisió. Configuració per a ignorar i corregir les mateixes errades. Incorporació de termes al diccionari."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.13",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Taules de continguts i imatges."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.14",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Configuració de la impressió: selecció de pàgines, nombre de còpies, cares, orientació i ordre."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.15",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Impressores virtuals."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.B.16",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Funcionalitats diverses com el recompte de paraules."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "ca": "PRESENTACIONS MULTIMÈDIA BASADES EN DIAPOSITIVES"
+          },
+          "saberes": [
+            {
+              "id": "EDM.1.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Utilitat de les presentacions multimèdia com a eina de suport en exposicions."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Plantilles de disseny. Ús, edició i creació."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Color del fons de les diapositives en funció de la durada prevista de l’exposició."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.04",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Mida i orientació de la diapositiva. Adequació de la mida al projector disponible."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.05",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Formats de diapositives. Diapositiva mestra. Utilitat de cada model de distribució d’elements."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.06",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Duplicació de diapositives. Utilitat en el disseny i presentació."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.07",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Funcionalitats de la barra d’eines de dibuix."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.08",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Organització, inversió i agrupament de dibuixos i imatges."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.09",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Transició entre diapositives."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.10",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Interaccions d’elements."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.11",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Combinació de diferents funcionalitats de l’aplicació. Ús raonable i coherent."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.12",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Racionalització del contingut en les presentacions, emprant-la com a guia en les exposicions."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.13",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Paràmetres de presentació i eina d’assaig."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  135
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.C.14",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Introducció a la teoria del color per obtenir contrasts adequats."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "ca": "PRESENTACIONS MULTIMÈDIA EN LÍNIA"
+          },
+          "saberes": [
+            {
+              "id": "EDM.1.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Aplicacions en línia gratuïtes per a la generació de presentacions basades en diapositives. Exploració de possibilitats."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Aplicacions en línia gratuïtes per a la generació de presentacions no basades en diapositives. Exploració de possibilitats i ús."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Plataformes de compartició de presentacions multimèdia. Exploració."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "ca": "FULLS DE CÀLCUL"
+          },
+          "saberes": [
+            {
+              "id": "EDM.1.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Fileres i columnes. Inserció i congelació."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Format de cel·les: alineació, vores i fons."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Format de números. Selecció adequada de la categoria."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.E.04",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Operacions bàsiques: suma, resta, multiplicació i divisió."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.E.05",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Referenciació de cel·les del mateix full i de diferents."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.E.06",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Format condicional."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.E.07",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Introducció a l’auxiliar de funcions. Funcions bàsiques lògiques, matemàtiques, estadístiques i de text."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.E.08",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Còpia de fórmules arrossegant el controlador d’emplenament. Fixació de cel·les que contenen valors constants en la fórmula."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.E.09",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Ordenació de dades i filtres automàtics."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            },
+            {
+              "id": "EDM.1.E.10",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Generació automàtica de diagrames de columna, de barra i de sectors. Escala d’eixos i llegenda."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-42-2025",
+                "paginas": [
+                  136
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-27",
+    "metodo": "Extracción del texto Unicode del PDF oficial, con controles de recuento y cotejo selectivo.",
+    "notas": [
+      "Se conserva el texto publicado en catalán.",
+      "La abreviatura de materia, las letras asignadas a bloques sin código y los identificadores de saber son internos del proyecto, no códigos oficiales.",
+      "Las aclaraciones orientativas se separan del criterio de evaluación."
+    ]
+  }
+}

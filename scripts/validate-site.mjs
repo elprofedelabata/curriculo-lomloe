@@ -11,7 +11,7 @@ check(catalog.version === "1.6.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
 check(catalog.etapas.length === 20, `Se esperaban 20 etapas territoriales y hay ${catalog.etapas.length}.`);
-check(catalog.materias.length === 316, `Se esperaban 316 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.length === 343, `Se esperaban 343 materias y hay ${catalog.materias.length}.`);
 check(catalog.materias.filter((item) => item.etapa === "infantil").length === 12, "El catálogo de Infantil no contiene 12 áreas territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "infantil").length === 3, "El catálogo de Aragón no contiene sus 3 áreas de Infantil.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "infantil").length === 3, "El catálogo de Asturias no contiene sus 3 áreas de Infantil.");
@@ -34,7 +34,8 @@ check(balearValuesKnowledge.filter((item) => item.cursoOrientativo?.includes(5))
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "primaria").length === 14, "El catálogo de Aragón no contiene sus 14 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "primaria").length === 10, "El catálogo de Asturias no contiene sus 10 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "eso").length === 24, "El catálogo de Asturias no contiene sus 24 currículos de ESO.");
-check(catalog.materias.filter((item) => item.etapa === "eso").length === 94, "El catálogo de ESO no contiene 94 materias territoriales.");
+check(catalog.materias.filter((item) => item.etapa === "eso").length === 121, "El catálogo de ESO no contiene 121 materias territoriales.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "eso" && item.revision?.estado === "borrador").length === 27, "El catálogo de Illes Balears no contiene sus 27 materias de ESO en borrador.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "eso").length === 38, "El catálogo de Aragón no contiene sus 38 currículos de ESO.");
 check(catalog.materias.filter((item) => item.etapa === "bachillerato").length === 165, "El catálogo de Bachillerato no contiene 165 materias territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "bachillerato").length === 59, "El catálogo de Aragón no contiene sus 59 currículos de Bachillerato.");
@@ -50,7 +51,7 @@ check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) 
 check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
 const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
 check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
-check(catalog.incidencias.length === 203, `Se esperaban 203 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 208, `Se esperaban 208 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");

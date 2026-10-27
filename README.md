@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye los 102 currículos revisados de Andalucía, los tres currículos revisados de Educación Infantil de Aragón, los 87 currículos revisados del Principado de Asturias y las tres áreas revisadas de Infantil de Illes Balears. Aragón dispone además de 113 currículos en borrador e Illes Balears, de las ocho áreas de Primaria en borrador. Tres optativas asturianas de Bachillerato, cuyo desarrollo curricular queda abierto en el decreto, se documentan mediante fichas informativas separadas de los JSON curriculares. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye los 102 currículos revisados de Andalucía, los tres currículos revisados de Educación Infantil de Aragón, los 87 currículos revisados del Principado de Asturias y las tres áreas revisadas de Infantil de Illes Balears. Aragón dispone además de 113 currículos en borrador e Illes Balears, de las ocho áreas de Primaria y las 27 materias de ESO en borrador. Tres optativas asturianas de Bachillerato, cuyo desarrollo curricular queda abierto en el decreto, se documentan mediante fichas informativas separadas de los JSON curriculares. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
 
 ## Progreso del proyecto
 
@@ -11,7 +11,7 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 | Andalucía | ✅ 3/3 | ✅ 7/7 | ✅ 32/32 | ✅ 58/58 | ✅ 2/2 |
 | Aragón | ✅ 3/3 | 📝 14/14 | 📝 38/38 | 📝 59/59 | 📝 2/2 |
 | Principado de Asturias | ✅ 3/3 | ✅ 10/10 | ✅ 24/24 | ✅ 48/48 | ✅ 2/2 |
-| Illes Balears | ✅ 3/3 | 📝 8/8 | 📚 | 📚 | 📚 |
+| Illes Balears | ✅ 3/3 | 📝 8/8 | 📝 27/27 | 📚 | 📚 |
 | Canarias | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Cantabria | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Castilla-La Mancha | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -28,7 +28,7 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 
 **Leyenda:** ✅ JSON publicados y revisados (la fracción cuenta currículos con desarrollo cerrado) · 📝 JSON generado pendiente de revisión · 📚 fuentes oficiales recopiladas · 🚧 conversión en curso · ⬜ pendiente.
 
-Para las Illes Balears se han recopilado los decretos curriculares de 2025 y la documentación de CFGB en [su catálogo de fuentes](sources/es-ib/normativa/catalogo.json). Las tres áreas de Infantil están estructuradas y revisadas en JSON. Las ocho áreas de Primaria tienen JSON en borrador, pendientes de revisión manual. Los textos se conservan en catalán; sus identificadores individuales de saberes y abreviaturas de área son internos del proyecto, no códigos oficiales. Antes de convertir los ámbitos comunes de CFGB hay que confirmar si existe un desarrollo curricular autonómico definitivo.
+Para las Illes Balears se han recopilado los decretos curriculares de 2025 y la documentación de CFGB en [su catálogo de fuentes](sources/es-ib/normativa/catalogo.json). Las tres áreas de Infantil están estructuradas y revisadas en JSON. Las ocho áreas de Primaria y las 27 materias de ESO tienen JSON en borrador, pendientes de revisión manual. Los textos se conservan en catalán; sus identificadores individuales de saberes y abreviaturas de materia son internos del proyecto, no códigos oficiales. La secuenciación de saberes por cursos de ESO y las aclaraciones de criterios tienen carácter orientativo según el artículo 10.3 del decreto. Antes de convertir los ámbitos comunes de CFGB hay que confirmar si existe un desarrollo curricular autonómico definitivo.
 
 En Asturias hay además [tres optativas de Bachillerato con desarrollo abierto](data/es-as/bachillerato/optativas-abiertas.json): se inventarían y muestran como fichas informativas, sin inventar competencias, criterios o saberes comunes.
 
@@ -36,7 +36,7 @@ En CFGB se incluyen los ámbitos comunes de Ciencias Aplicadas y Comunicación y
 
 ## Sitio web
 
-La [portada](https://elprofedelabata.github.io/curriculo-lomloe/) presenta el proyecto y las 17 comunidades autónomas en una cuadrícula de carpetas. La carpeta de cada comunidad con datos despliega, dentro de la misma cuadrícula, sus cinco etapas educativas. Cada etapa abre una lista sencilla de materias o ámbitos, con acceso directo a los JSON y detalles desplegables de fuentes e incidencias. Sus enlaces se pueden compartir para abrir una etapa o una materia concreta. Aragón cuenta con Infantil revisado y otros 113 currículos en borrador; el Principado de Asturias tiene revisados los 87 JSON publicados de sus cinco etapas. Su Bachillerato muestra además las tres optativas de desarrollo abierto como fichas informativas con acceso al decreto, sin presentarlas como JSON curriculares. Illes Balears dispone de sus tres áreas de Infantil revisadas y ocho de Primaria en borrador; Canarias sigue como maqueta. Los archivos JSON continúan accesibles directamente y el sitio genera un [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) para descubrirlos sin mantener una lista manual.
+La [portada](https://elprofedelabata.github.io/curriculo-lomloe/) presenta el proyecto y las 17 comunidades autónomas en una cuadrícula de carpetas. La carpeta de cada comunidad con datos despliega, dentro de la misma cuadrícula, sus cinco etapas educativas. Cada etapa abre una lista sencilla de materias o ámbitos, con acceso directo a los JSON y detalles desplegables de fuentes e incidencias. Sus enlaces se pueden compartir para abrir una etapa o una materia concreta. Aragón cuenta con Infantil revisado y otros 113 currículos en borrador; el Principado de Asturias tiene revisados los 87 JSON publicados de sus cinco etapas. Su Bachillerato muestra además las tres optativas de desarrollo abierto como fichas informativas con acceso al decreto, sin presentarlas como JSON curriculares. Illes Balears dispone de sus tres áreas de Infantil revisadas y ocho de Primaria y 27 de ESO en borrador; Canarias sigue como maqueta. Los archivos JSON continúan accesibles directamente y el sitio genera un [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) para descubrirlos sin mantener una lista manual.
 
 Las banderas de las carpetas se sirven desde el propio repositorio; sus fuentes y licencias están en [assets/flags/README.md](assets/flags/README.md).
 
