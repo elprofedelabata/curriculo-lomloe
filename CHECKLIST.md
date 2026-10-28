@@ -522,9 +522,9 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 ### Progreso
 
-- **Total inventariado:** 3 áreas de Infantil, 8 de Primaria, 27 materias de ESO y 53 materias de Bachillerato
+- **Total inventariado:** 3 áreas de Infantil, 8 de Primaria, 27 materias de ESO, 53 materias de Bachillerato y 2 ámbitos comunes de CFGB
 - **Terminados:** 3
-- **Pendientes de revisión:** 88
+- **Pendientes de revisión:** 90
 - **Pendientes de extracción:** 0
 
 ### Infantil
@@ -646,6 +646,13 @@ Los 27 JSON conservan el catalán publicado y separan las aclaraciones de los cr
 
 Las 53 materias del anexo 1 ya tienen JSON en borrador; las materias I/II con un título común se cuentan una sola vez y se desarrollan por curso. Se conserva el texto catalán y se separan las aclaraciones orientativas de los criterios (artículo 10.1). Las abreviaturas e identificadores individuales de saber son internos. Dos optativas publican las competencias dentro de la tabla de criterios, sin desarrollo narrativo separado; el esquema permite omitir esa descripción. Todas las materias siguen pendientes de revisión manual. Las ambigüedades de formato se documentan en el [registro de incidencias](incidencias/es-ib.md).
 
+### CFGB — ámbitos comunes
+
+- [ ] Ciències Aplicades — [JSON en borrador](data/es-ib/cfgb/materias/ciencies-aplicades.json)
+- [ ] Comunicació i Ciències Socials — [JSON en borrador](data/es-ib/cfgb/materias/comunicacio-i-ciencies-socials.json)
+
+Los dos documentos curriculares proceden del portal institucional de la Dirección General, no de un decreto curricular balear publicado en el BOIB. El Decret 39/2025 organiza los ámbitos y el anexo V del Real Decreto 217/2022 fija las enseñanzas mínimas estatales. Cada PDF contiene un desarrollo común sin división de criterios ni saberes entre primero y segundo; los JSON lo reproducen en ambos cursos por coherencia de acceso, sin presentar esa distribución como oficial. Las dos extracciones quedan pendientes de revisión manual; las discrepancias detectadas figuran en [incidencias de Illes Balears](incidencias/es-ib.md).
+
 ### Fuentes oficiales locales
 
 - [Catálogo de fuentes de Illes Balears](sources/es-ib/normativa/catalogo.json)
@@ -653,3 +660,7 @@ Las 53 materias del anexo 1 ya tienen JSON en borrador; las materias I/II con un
 - [Primaria — Decret 41/2025](sources/es-ib/normativa/primaria/2025-08-01-decreto-41-2025-curriculo-primaria.pdf)
 - [ESO — Decret 42/2025](sources/es-ib/normativa/eso/2025-08-01-decreto-42-2025-curriculo-eso.pdf)
 - [Bachillerato — Decret 43/2025](sources/es-ib/normativa/bachillerato/2025-08-01-decreto-43-2025-curriculo-bachillerato.pdf)
+- [CFGB — Currículum de Ciències Aplicades](sources/es-ib/normativa/cfgb/curriculo-ciencias-aplicadas.pdf)
+- [CFGB — Currículum de Comunicació i Ciències Socials](sources/es-ib/normativa/cfgb/curriculo-comunicacion-ciencias-sociales.pdf)
+- [CFGB — Decret 39/2025 de ordenación](sources/es-ib/normativa/cfgb/2025-08-01-decreto-39-2025-ordenacion-fp.pdf)
+- [CFGB — enseñanzas mínimas estatales, anexo V del Real Decreto 217/2022](sources/es-ib/normativa/cfgb/2022-03-29-real-decreto-217-2022-eso-anexo-v-cfgb.pdf)

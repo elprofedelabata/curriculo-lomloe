@@ -2,7 +2,7 @@
 
 [Volver al índice general](../INCIDENCIAS.md)
 
-Registro de discrepancias detectadas en los decretos curriculares baleares. Las decisiones de Infantil y Bachillerato han sido validadas. El caso de Valores de Primaria queda documentado en el JSON y la checklist: el artículo 10.2 aclara que las marcas por curso son orientativas, por lo que no constituye una incidencia del documento.
+Registro de discrepancias detectadas en los decretos curriculares baleares y en los PDF curriculares de CFGB del portal institucional. Las decisiones de Infantil y Bachillerato han sido validadas. El caso de Valores de Primaria queda documentado en el JSON y la checklist: el artículo 10.2 aclara que las marcas por curso son orientativas, por lo que no constituye una incidencia del documento.
 
 ## Infantil — incidencias revisadas
 
@@ -31,3 +31,10 @@ Registro de discrepancias detectadas en los decretos curriculares baleares. Las 
 | [X] | IB-BACH-004 | [Història de l’Art](../data/es-ib/bachillerato/materias/historia-de-l-art.json) | En la página 310, «La dona com a artista. La lluita per la visibilitat al llarg de la història de l’art» aparece como fila sin viñeta y sin saberes subordinados. | Se representa como apartado propio del bloque C con un solo saber, la misma fila completa. La numeración del apartado es interna. |
 | [X] | IB-BACH-005 | [Tècniques d’Expressió Gràficoplàstica](../data/es-ib/bachillerato/materias/tecniques-d-expressio-graficoplastica.json) | En la página 578, «Estratègies d’investigació, anàlisi, interpretació i valoració crítica de productes culturals i artístics» aparece como fila sin viñeta y sin saberes subordinados. | Se representa como apartado propio del bloque A con un solo saber, la misma fila completa. La numeración del apartado es interna. |
 | [X] | IB-BACH-006 | [Tècniques Experimentals](../data/es-ib/bachillerato/materias/tecniques-experimentals.json) | En las páginas 586-587, el texto anuncia saberes «organitzats en blocs», pero la tabla ofrece epígrafes temáticos sin letras de bloque. | Se mantienen los epígrafes como apartados de un único bloque contenedor A, con código interno no oficial. La mención plural de la introducción se interpreta como copia y pega. |
+
+## CFGB — incidencias revisadas
+
+| Revisada | ID | Materia | Incidencia | Decisión aplicada |
+| --- | --- | --- | --- | --- |
+| [X] | IB-CFGB-001 | [Comunicació i Ciències Socials](../data/es-ib/cfgb/materias/comunicacio-i-ciencies-socials.json) | En la página 10 del PDF, tras el desarrollo narrativo de la competencia específica 8, la frase que introduce sus descriptores comienza con «9.», aunque no existe en el documento una novena competencia ni criterios 9.x. | Se atribuye esa lista de descriptores a la competencia 8 y se omite el «9.» espurio, confirmado como error de numeración. |
+| [X] | IB-CFGB-002 | [Comunicació i Ciències Socials](../data/es-ib/cfgb/materias/comunicacio-i-ciencies-socials.json) | La lista de descriptores de la competencia específica 4 imprime «CL3» en lugar de «CCL3» en la página 6. | Se normaliza a «CCL3» en el JSON, según la revisión manual. |

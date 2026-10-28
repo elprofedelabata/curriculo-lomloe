@@ -2,8 +2,8 @@
   "territorio": "es-ib",
   "nombre": "Illes Balears",
   "alcance": ["infantil", "primaria", "eso", "bachillerato", "cfgb"],
-  "fechaActualizacion": "2026-10-23",
-  "criterioSeleccion": "PDF oficiales del BOIB para los currículos vigentes de 2025, la ordenación balear de FP y las enseñanzas mínimas estatales de los ámbitos comunes de CFGB.",
+  "fechaActualizacion": "2026-10-28",
+  "criterioSeleccion": "PDF oficiales del BOIB para los currículos vigentes de 2025, la ordenación balear de FP, las enseñanzas mínimas estatales de CFGB y los dos currículos de ámbitos comunes publicados por el portal institucional de la Dirección General. Los dos últimos no se presentan como decretos curriculares aprobados en el BOIB.",
   "documentos": [
     {
       "id": "es-ib-infantil-decret-40-2025",
@@ -91,7 +91,37 @@
       "paginas": 219,
       "sha256": "d38dd914a84b8a66796f7c87a8d476135119f75f67b1c56dfd6ad7b3527dccd0",
       "urlOficial": "https://www.boe.es/boe/dias/2022/03/30/pdfs/BOE-A-2022-4975.pdf",
-      "notas": "El anexo V contiene las enseñanzas mínimas de los ámbitos comunes. Antes de convertir CFGB debe comprobarse si existe desarrollo curricular balear definitivo posterior."
+      "notas": "El anexo V contiene las enseñanzas mínimas estatales de los ámbitos comunes; los PDF específicos baleares están publicados en el portal de la Dirección General, no como decreto curricular en el BOIB."
+    },
+    {
+      "id": "es-ib-cfgb-ciencies-aplicades-portal",
+      "territorio": "es-ib",
+      "etapas": ["cfgb"],
+      "tipo": "otro",
+      "funcion": "curriculo-ambito-portal-institucional",
+      "titulo": "Currículum de l’àmbit de Ciències Aplicades",
+      "archivo": "cfgb/curriculo-ciencias-aplicadas.pdf",
+      "paginas": 16,
+      "sha256": "3802c2f5d5e2c4178108f6448c5c5542811651f35188f9c8bbb3e2f320819881",
+      "urlOficial": "https://www.caib.es/sites/comunitatdocent/ca/archivopub.do?ctrl=MCRST16306ZI505705&id=505705",
+      "urlVerificacion": "https://www.caib.es/sites/comunitatdocent/ca/curraculums_transversals",
+      "fechaIncorporacion": "2026-10-28",
+      "notas": "Documento curricular específico disponible en el portal institucional, sin fecha ni número de publicación en el BOIB. No asigna saberes ni criterios a primero o segundo curso."
+    },
+    {
+      "id": "es-ib-cfgb-comunicacio-ciencies-socials-portal",
+      "territorio": "es-ib",
+      "etapas": ["cfgb"],
+      "tipo": "otro",
+      "funcion": "curriculo-ambito-portal-institucional",
+      "titulo": "Currículum de l’àmbit de Comunicació i Ciències Socials",
+      "archivo": "cfgb/curriculo-comunicacion-ciencias-sociales.pdf",
+      "paginas": 21,
+      "sha256": "ba41a3f3bab0f50416b889979c60f7a7ecc0fca158d95e8312642ebfd38ff054",
+      "urlOficial": "https://www.caib.es/sites/comunitatdocent/ca/archivopub.do?ctrl=MCRST16306ZI505692&id=505692",
+      "urlVerificacion": "https://www.caib.es/sites/comunitatdocent/ca/curraculums_transversals",
+      "fechaIncorporacion": "2026-10-28",
+      "notas": "Documento curricular específico disponible en el portal institucional, sin fecha ni número de publicación en el BOIB. No asigna saberes ni criterios a primero o segundo curso."
     }
   ]
 }

@@ -11,12 +11,12 @@ check(catalog.version === "1.6.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
 check(catalog.etapas.length === 20, `Se esperaban 20 etapas territoriales y hay ${catalog.etapas.length}.`);
-check(catalog.materias.length === 396, `Se esperaban 396 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.length === 398, `Se esperaban 398 materias y hay ${catalog.materias.length}.`);
 check(catalog.materias.filter((item) => item.etapa === "infantil").length === 12, "El catálogo de Infantil no contiene 12 áreas territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "infantil").length === 3, "El catálogo de Aragón no contiene sus 3 áreas de Infantil.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "infantil").length === 3, "El catálogo de Asturias no contiene sus 3 áreas de Infantil.");
 check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "infantil" && item.revision?.estado === "revisado").length === 3, "El catálogo de Illes Balears no contiene sus 3 áreas de Infantil revisadas.");
-check(catalog.incidencias.filter((item) => item.territorio === "es-ib" && !item.revisada).length === 0, "No deben quedar incidencias baleares pendientes.");
+check(catalog.incidencias.filter((item) => item.territorio === "es-ib" && !item.revisada).length === 0, "No deben quedar incidencias baleares pendientes de revisión.");
 check(catalog.materias.filter((item) => item.etapa === "primaria").length === 39, "El catálogo de Primaria no contiene 39 materias territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "primaria" && item.revision?.estado === "borrador").length === 8, "El catálogo de Illes Balears no contiene sus 8 áreas de Primaria en borrador.");
 const balearValues = catalog.materias.find((item) => item.id === "es-ib.primaria.educacio-en-valors-civics-i-etics");
@@ -79,9 +79,24 @@ check(
 );
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "bachillerato").length === 59, "El catálogo de Aragón no contiene sus 59 currículos de Bachillerato.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "bachillerato").length === 48, "El catálogo de Asturias no contiene sus 48 currículos desarrollados de Bachillerato.");
-check(catalog.materias.filter((item) => item.etapa === "cfgb").length === 6, "El catálogo de CFGB no contiene 6 ámbitos territoriales.");
+check(catalog.materias.filter((item) => item.etapa === "cfgb").length === 8, "El catálogo de CFGB no contiene 8 ámbitos territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "cfgb").length === 2, "El catálogo de Aragón no contiene sus 2 ámbitos de CFGB.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "cfgb").length === 2, "El catálogo de Asturias no contiene sus 2 ámbitos de CFGB.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "cfgb" && item.revision?.estado === "borrador").length === 2, "Faltan los dos ámbitos de CFGB de Illes Balears en borrador.");
+for (const [slug, criteria, sabers, blocks] of [
+  ["ciencies-aplicades", 18, 55, 11],
+  ["comunicacio-i-ciencies-socials", 23, 89, 4],
+]) {
+  const document = JSON.parse(await readFile(resolve(dist, "data/es-ib/cfgb/materias", slug + ".json"), "utf8"));
+  check(document.competenciasEspecificas.length === 8, "CFGB balear debe contener ocho competencias específicas en " + slug + ".");
+  check(document.vigencia.entradaEnVigor === null && document.vigencia.aplicableDesdeCurso === null, "No se deben inventar fechas de vigencia del PDF institucional.");
+  check(document.fuentes[0].tipo === "otro" && !("numero" in document.fuentes[0]) && !("fechaPublicacion" in document.fuentes[0]), "El PDF institucional de CFGB no debe presentarse como publicación del BOIB.");
+  check(document.desarrollos.length === 2 && document.desarrollos.every((item) => item.criteriosEvaluacion.length === criteria && item.bloquesSaberes.length === blocks), "Faltan criterios o bloques de CFGB en " + slug + ".");
+  check(document.desarrollos.every((item) => item.bloquesSaberes.flatMap((block) => block.saberes || block.apartados.flatMap((part) => part.saberes)).length === sabers), "Faltan saberes de CFGB en " + slug + ".");
+}
+const balearSocial = JSON.parse(await readFile(resolve(dist, "data/es-ib/cfgb/materias/comunicacio-i-ciencies-socials.json"), "utf8"));
+check(balearSocial.competenciasEspecificas[7].descriptoresOperativosRefs.includes("CCL5") && balearSocial.competenciasEspecificas[3].descriptoresOperativosRefs.includes("CCL3") && !balearSocial.competenciasEspecificas[3].descriptoresOperativosRefs.includes("CL3"), "Las dos incidencias de descriptores de CFGB no se reflejan como se documentó.");
+check(catalog.incidencias.filter((item) => item.territorio === "es-ib" && item.etapa === "cfgb").length === 2, "Faltan las dos incidencias de CFGB de Illes Balears.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.revision?.estado === "revisado").length === 87, "Los 87 JSON publicados de Asturias deben constar como revisados.");
 check(catalog.optativasAbiertas.length === 3, "Faltan las tres fichas informativas de optativas abiertas.");
 check(catalog.optativasAbiertas.every((item) => item.territorio === "es-as" && item.etapa === "bachillerato" && item.estado === "concrecion-docente"), "Las optativas abiertas tienen una clasificación incorrecta.");
@@ -90,7 +105,7 @@ check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) 
 check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
 const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
 check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
-check(catalog.incidencias.length === 214, `Se esperaban 214 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 216, `Se esperaban 216 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");

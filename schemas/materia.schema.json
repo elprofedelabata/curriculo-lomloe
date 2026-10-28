@@ -111,8 +111,8 @@
       "additionalProperties": false,
       "required": ["entradaEnVigor", "aplicableDesdeCurso", "hasta", "estado"],
       "properties": {
-        "entradaEnVigor": { "type": "string", "format": "date" },
-        "aplicableDesdeCurso": { "type": "string", "pattern": "^[0-9]{4}/[0-9]{4}$" },
+        "entradaEnVigor": { "type": ["string", "null"], "format": "date" },
+        "aplicableDesdeCurso": { "type": ["string", "null"], "pattern": "^[0-9]{4}/[0-9]{4}$" },
         "hasta": { "type": ["string", "null"], "format": "date" },
         "estado": { "type": "string", "enum": ["vigente", "derogada", "parcialmente_derogada"] }
       }
@@ -125,11 +125,14 @@
         "tipo",
         "titulo",
         "publicacion",
-        "numero",
-        "fechaPublicacion",
-        "cve",
         "urlOficial",
         "urlVerificacion"
+      ],
+      "allOf": [
+        {
+          "if": { "properties": { "tipo": { "not": { "const": "otro" } } } },
+          "then": { "required": ["numero", "fechaPublicacion", "cve"] }
+        }
       ],
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)*$" },
