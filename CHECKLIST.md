@@ -20,7 +20,7 @@ Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca d
 - **Andalucía:** 102 de 102
 - **Aragón:** 3 de 116
 - **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
-- **Illes Balears:** 3 currículos de Infantil revisados, 8 áreas de Primaria y las 27 materias de ESO en borrador
+- **Illes Balears:** 3 currículos de Infantil revisados; 8 áreas de Primaria, 27 materias de ESO y las 53 de Bachillerato en borrador
 
 ## Andalucía
 
@@ -522,9 +522,9 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 ### Progreso
 
-- **Total inventariado:** 3 áreas de Infantil, 8 de Primaria y 27 materias de ESO
+- **Total inventariado:** 3 áreas de Infantil, 8 de Primaria, 27 materias de ESO y 53 materias de Bachillerato
 - **Terminados:** 3
-- **Pendientes de revisión:** 35
+- **Pendientes de revisión:** 88
 - **Pendientes de extracción:** 0
 
 ### Infantil
@@ -586,9 +586,70 @@ Los criterios del anexo se publican por ciclo. En siete áreas, los JSON los rep
 
 Los 27 JSON conservan el catalán publicado y separan las aclaraciones de los criterios. Las abreviaturas, los códigos asignados a bloques sin letra y los identificadores de saber son internos. Los criterios compartidos se replican por curso para facilitar la consulta; las marcas de los saberes se conservan como `cursoOrientativo` y no constituyen una secuenciación obligatoria. Cultura Clàssica I/II, Recursos Digitals I/II y Matemàtiques A/B se distinguen mediante variantes. El desarrollo común de Igualtat de Gènere se replica en primero y segundo sin atribuir una secuenciación distinta al decreto. Por decisión de revisión, cuatro saberes sin marca en las tablas se conservan en ambos cursos de su tramo compartido, sin inventar una marca orientativa. El artículo 10.3 declara orientativas las aclaraciones de criterios y la secuenciación por cursos de los saberes. El anexo 7 regula la diversificación curricular mediante ámbitos que integran currículos de materias ya enumeradas; no publica competencias, criterios y saberes independientes para esos ámbitos.
 
+### Bachillerato
+
+#### Anexo 1 del Decret 43/2025 — materias de Bachillerato
+
+- [ ] Activitat Física, Oci i Salut — [JSON en borrador](data/es-ib/bachillerato/materias/activitat-fisica-oci-i-salut.json)
+- [ ] Ampliació de Matemàtiques — [JSON en borrador](data/es-ib/bachillerato/materias/ampliacio-de-matematiques.json)
+- [ ] Anàlisi Musical — [JSON en borrador](data/es-ib/bachillerato/materias/analisi-musical.json)
+- [ ] Arts Escèniques — [JSON en borrador](data/es-ib/bachillerato/materias/arts-esceniques.json)
+- [ ] Biologia — [JSON en borrador](data/es-ib/bachillerato/materias/biologia.json)
+- [ ] Biologia, Geologia i Ciències Ambientals — [JSON en borrador](data/es-ib/bachillerato/materias/biologia-geologia-i-ciencies-ambientals.json)
+- [ ] Ciències Generals — [JSON en borrador](data/es-ib/bachillerato/materias/ciencies-generals.json)
+- [ ] Cor i Tècnica Vocal — [JSON en borrador](data/es-ib/bachillerato/materias/cor-i-tecnica-vocal.json)
+- [ ] Cultura Audiovisual — [JSON en borrador](data/es-ib/bachillerato/materias/cultura-audiovisual.json)
+- [ ] Dibuix Artístic — [JSON en borrador](data/es-ib/bachillerato/materias/dibuix-artistic.json)
+- [ ] Dibuix Tècnic — [JSON en borrador](data/es-ib/bachillerato/materias/dibuix-tecnic.json)
+- [ ] Dibuix Tècnic Aplicat a les Arts Plàstiques i al Disseny — [JSON en borrador](data/es-ib/bachillerato/materias/dibuix-tecnic-aplicat-a-les-arts-plastiques-i-al-disseny.json)
+- [ ] Disseny — [JSON en borrador](data/es-ib/bachillerato/materias/disseny.json)
+- [ ] Economia — [JSON en borrador](data/es-ib/bachillerato/materias/economia.json)
+- [ ] Economia, Emprenedoria i Activitat Empresarial — [JSON en borrador](data/es-ib/bachillerato/materias/economia-emprenedoria-i-activitat-empresarial.json)
+- [ ] Educació Física — [JSON en borrador](data/es-ib/bachillerato/materias/educacio-fisica.json)
+- [ ] Empresa i Disseny de Models de Negoci — [JSON en borrador](data/es-ib/bachillerato/materias/empresa-i-disseny-de-models-de-negoci.json)
+- [ ] Filosofia — [JSON en borrador](data/es-ib/bachillerato/materias/filosofia.json)
+- [ ] Física — [JSON en borrador](data/es-ib/bachillerato/materias/fisica.json)
+- [ ] Física i Química — [JSON en borrador](data/es-ib/bachillerato/materias/fisica-i-quimica.json)
+- [ ] Fonaments Artístics — [JSON en borrador](data/es-ib/bachillerato/materias/fonaments-artistics.json)
+- [ ] Geografia — [JSON en borrador](data/es-ib/bachillerato/materias/geografia.json)
+- [ ] Geologia i Ciències Ambientals — [JSON en borrador](data/es-ib/bachillerato/materias/geologia-i-ciencies-ambientals.json)
+- [ ] Grec — [JSON en borrador](data/es-ib/bachillerato/materias/grec.json)
+- [ ] Història d’Espanya — [JSON en borrador](data/es-ib/bachillerato/materias/historia-despanya.json)
+- [ ] Història de la Filosofia — [JSON en borrador](data/es-ib/bachillerato/materias/historia-de-la-filosofia.json)
+- [ ] Història de la Música i de la Dansa — [JSON en borrador](data/es-ib/bachillerato/materias/historia-de-la-musica-i-de-la-dansa.json)
+- [ ] Història de l’Art — [JSON en borrador](data/es-ib/bachillerato/materias/historia-de-l-art.json)
+- [ ] Història del Món Contemporani — [JSON en borrador](data/es-ib/bachillerato/materias/historia-del-mon-contemporani.json)
+- [ ] Història i Cultura de les Illes Balears — [JSON en borrador](data/es-ib/bachillerato/materias/historia-i-cultura-de-les-illes-balears.json)
+- [ ] Literatura Dramàtica — [JSON en borrador](data/es-ib/bachillerato/materias/literatura-dramatica.json)
+- [ ] Literatura Universal — [JSON en borrador](data/es-ib/bachillerato/materias/literatura-universal.json)
+- [ ] Llatí — [JSON en borrador](data/es-ib/bachillerato/materias/llati.json)
+- [ ] Llengua Castellana i Literatura — [JSON en borrador](data/es-ib/bachillerato/materias/llengua-castellana-i-literatura.json)
+- [ ] Llengua Catalana i Literatura — [JSON en borrador](data/es-ib/bachillerato/materias/llengua-catalana-i-literatura.json)
+- [ ] Llengua Estrangera — [JSON en borrador](data/es-ib/bachillerato/materias/llengua-estrangera.json)
+- [ ] Llenguatge i Pràctica Musical — [JSON en borrador](data/es-ib/bachillerato/materias/llenguatge-i-practica-musical.json)
+- [ ] Matemàtiques — [JSON en borrador](data/es-ib/bachillerato/materias/matematiques.json)
+- [ ] Matemàtiques Aplicades a les Ciències Socials — [JSON en borrador](data/es-ib/bachillerato/materias/matematiques-aplicades-a-les-ciencies-socials.json)
+- [ ] Matemàtiques generals — [JSON en borrador](data/es-ib/bachillerato/materias/matematiques-generals.json)
+- [ ] Moviments Culturals i Artístics — [JSON en borrador](data/es-ib/bachillerato/materias/moviments-culturals-i-artistics.json)
+- [ ] Programació i Tractament de Dades — [JSON en borrador](data/es-ib/bachillerato/materias/programacio-i-tractament-de-dades.json)
+- [ ] Projecte Empresarial — [JSON en borrador](data/es-ib/bachillerato/materias/projecte-empresarial.json)
+- [ ] Projectes Artístics — [JSON en borrador](data/es-ib/bachillerato/materias/projectes-artistics.json)
+- [ ] Psicologia — [JSON en borrador](data/es-ib/bachillerato/materias/psicologia.json)
+- [ ] Química — [JSON en borrador](data/es-ib/bachillerato/materias/quimica.json)
+- [ ] Segona Llengua Estrangera — [JSON en borrador](data/es-ib/bachillerato/materias/segona-llengua-estrangera.json)
+- [ ] Tècniques d’Expressió Gràficoplàstica — [JSON en borrador](data/es-ib/bachillerato/materias/tecniques-d-expressio-graficoplastica.json)
+- [ ] Tècniques Experimentals — [JSON en borrador](data/es-ib/bachillerato/materias/tecniques-experimentals.json)
+- [ ] Tecnologia i Enginyeria — [JSON en borrador](data/es-ib/bachillerato/materias/tecnologia-i-enginyeria.json)
+- [ ] Treball d’Investigació, Anàlisi i Creativitat — [JSON en borrador](data/es-ib/bachillerato/materias/treball-d-investigacio-analisi-i-creativitat.json)
+- [ ] Unió Europea — [JSON en borrador](data/es-ib/bachillerato/materias/unio-europea.json)
+- [ ] Volum — [JSON en borrador](data/es-ib/bachillerato/materias/volum.json)
+
+Las 53 materias del anexo 1 ya tienen JSON en borrador; las materias I/II con un título común se cuentan una sola vez y se desarrollan por curso. Se conserva el texto catalán y se separan las aclaraciones orientativas de los criterios (artículo 10.1). Las abreviaturas e identificadores individuales de saber son internos. Dos optativas publican las competencias dentro de la tabla de criterios, sin desarrollo narrativo separado; el esquema permite omitir esa descripción. Todas las materias siguen pendientes de revisión manual. Las ambigüedades de formato se documentan en el [registro de incidencias](incidencias/es-ib.md).
+
 ### Fuentes oficiales locales
 
 - [Catálogo de fuentes de Illes Balears](sources/es-ib/normativa/catalogo.json)
 - [Infantil — Decret 40/2025](sources/es-ib/normativa/infantil/2025-08-01-decreto-40-2025-curriculo-infantil.pdf)
 - [Primaria — Decret 41/2025](sources/es-ib/normativa/primaria/2025-08-01-decreto-41-2025-curriculo-primaria.pdf)
 - [ESO — Decret 42/2025](sources/es-ib/normativa/eso/2025-08-01-decreto-42-2025-curriculo-eso.pdf)
+- [Bachillerato — Decret 43/2025](sources/es-ib/normativa/bachillerato/2025-08-01-decreto-43-2025-curriculo-bachillerato.pdf)

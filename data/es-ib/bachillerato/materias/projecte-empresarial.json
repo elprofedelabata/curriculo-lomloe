@@ -1,0 +1,1027 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.4.0",
+  "id": "es-ib.bachillerato.projecte-empresarial",
+  "territorio": "es-ib",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "PE",
+    "nombre": {
+      "ca": "Projecte Empresarial"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2025-08-05",
+    "aplicableDesdeCurso": "2025/2026",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boib-2025-103-decret-43-2025",
+      "tipo": "decreto",
+      "titulo": "Decret 43/2025, d’1 d’agost, pel qual s’estableixen l’ordenació i el currículum del batxillerat a les Illes Balears",
+      "publicacion": "Butlletí Oficial de les Illes Balears",
+      "numero": "103",
+      "fechaPublicacion": "2025-08-04",
+      "cve": "1197481",
+      "urlOficial": "https://www.caib.es/eboibfront/eli/es-ib/d/2025/08/01/43/dof/cat/pdf",
+      "urlVerificacion": "https://www.caib.es/eboibfront/pdf/ca/2025/103/1197481",
+      "anexo": "1",
+      "paginasMateria": {
+        "desde": 507,
+        "hasta": 510
+      }
+    }
+  ],
+  "introduccion": {
+    "ca": [
+      "La societat actual, en constant canvi, requereix ciutadans competents capaços d’adaptar-se a entorns líquids i volàtils en què el risc i la possibilitat d’errors estan sempre presents. Per això, que els alumnes aprenguin a moure's amb la facilitat i amb la seguretat suficient en entorns incerts els permetrà desenvolupar la mentalitat crítica i progressar com a ciutadans autònoms i autosuficients per enfocar el seu desenvolupament personal i professional. Aquesta matèria, prepara els alumnes per a l'accés al món laboral, amb l’aplicació de tècniques bàsiques de direcció i gestió empresarial. L'educació postobligatòria ha de dotar els alumnes de formació adequada i capacitadora per resoldre els reptes que planteja l'entorn empresarial. Des dels ensenyaments del batxillerat els alumnes han d’avançar en l'adquisició de totes les competències d'una forma plena i adaptada a la personalitat de cada un. Al mateix temps és necessari proporcionar-los la formació general imprescindible per comprendre el món en què vivim i donar-los resposta a molts dels seus interrogants. La matèria de Projecte Empresarial és una matèria optativa totalment pràctica i competencial que permet posar l'alumne davant reptes vitals i professionals com poden ser l'autoconeixement, el desenvolupament de les habilitats toves i l'aproximació al món empresarial simulat mitjançant la realització d'un projecte emprenedor complet en el context de l’economia local. La competència de sentit d'iniciativa i esperit emprenedor dictada per la Unió Europea, requereix destreses o habilitats essencials les quals es veuen perfectament cobertes amb la implantació d’aquesta matèria. La inclusió d’innovació educativa i, en concret, l'ús de metodologies àgils, li donen un enfocament pràctic, que es materialitzen en projectes d'emprenedoria que permeten als alumnes viure experiències reals en diferents iniciatives públiques i privades en els àmbits regional i nacional. Aquesta matèria dona valor i promou el talent divers dels alumnes, entenent la diversitat com un element clau en els processos d'innovació. Per això, aquesta és una matèria que s’ofereix a totes les modalitats del batxillerat perquè es puguin crear equips de treball diversos que simulin els processos d'hibridació empresarial que es formen a la realitat i donar una resposta educativa als alumnes que volen continuar estudiant tant graus universitaris com també cicles formatius. Amb la matèria de Projecte Empresarial completaran les competències necessàries per seguir amb èxit les etapes formatives, educatives, laborals posteriors i per enfrontar-se a la realitat i adaptar-se a un entorn flexible i canviant. En aquesta matèria els alumnes desenvoluparan un projecte empresarial propi lligat als seus interessos, la qual cosa els permetrà entendre la realitat empresarial global i desenvolupar iniciatives que donin valor als recursos locals i a l'entorn pròxim. Els criteris d'avaluació establerts per a aquesta matèria s’adrecen a conèixer el grau de competència que els alumnes han adquirit; això és, l'acompliment a nivell cognitiu, instrumental i actitudinal, dels sabers proposats que seran aplicats en l'àmbit personal, social i acadèmic amb la projecció professional futura. Es pretén la concreció del currículum des d'una perspectiva principalment pràctica, utilitzant una metodologia basada en el raonament, que transfereix els sabers a la realització d'un projecte empresarial i a l’anàlisi de casos i recerques sobre la realitat empresarial, emprant mètodes i procediments d'observació i recerca rigorosos."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "ca": "Reconèixer la importància de la innovació i de les habilitats emprenedores per poder posar en marxa un projecte empresarial o social que contribueixi al benestar i desenvolupament sostenible d'un país i a la competitivitat de les seves empreses."
+      },
+      "descriptoresOperativosRefs": [
+        "CC4",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boib-2025-103-decret-43-2025",
+        "paginas": [
+          508
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "ca": "Identificar i ser conscient de les principals decisions que ha de prendre el promotor d'un projecte empresarial a l'hora de decidir si l'emprèn o no."
+      },
+      "descriptoresOperativosRefs": [
+        "CE1",
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boib-2025-103-decret-43-2025",
+        "paginas": [
+          508
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "ca": "Reconèixer i identificar les principals àrees funcionals del projecte empresarial. Analitzar l'organització interna de l'empresa, els recursos necessaris, els principals departaments, com també el funcionament d'aquests: aprovisionament, comercial, producció, recursos humans, finançament i inversió i comptabilitat."
+      },
+      "descriptoresOperativosRefs": [
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boib-2025-103-decret-43-2025",
+        "paginas": [
+          508
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "ca": "Identificar i aplicar les principals normes bàsiques quant a fiscalitat i comptabilitat empresarial, mitjançant l’anàlisi i la realització de supòsits bàsics de comptabilitat i imposts, com també valorar la importància de l'educació i responsabilitat fiscal en l'entorn empresarial."
+      },
+      "descriptoresOperativosRefs": [
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boib-2025-103-decret-43-2025",
+        "paginas": [
+          508
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "ca": "Reconèixer i desenvolupar les habilitats bàsiques que ha de posseir una persona en un procés de comunicació escrita o oral, i aplicar-les per dur a terme presentacions eficaces i d'alt impacte en l'exposició dels propis projectes d'empresa."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "STEM4",
+        "CD2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boib-2025-103-decret-43-2025",
+        "paginas": [
+          509
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Identificar les característiques del procés emprenedor i la importància d’innovar per al desenvolupament sostenible, tot valorant les capacitats necessàries del promotor del projecte."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Seleccionar una idea de negoci i valorar i argumentar de manera tècnica l'elecció."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Reconèixer quins són els elements que conformen un projecte d'empresa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "ca": "Analitzar la informació econòmica del sector d'activitat empresarial en el qual se situarà l'empresa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "ca": "Establir els objectius a aconseguir amb el projecte emprenedor i analitzar la viabilitat de la idea."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "ca": "Escollir la forma jurídica òptima i reconèixer els tràmits necessaris per iniciar el negoci."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "ca": "Decidir la ubicació i la dimensió ideal de l'empresa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-2-3"
+        },
+        {
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "ca": "Concretar el nivell de responsabilitat social de les decisions i del projecte i reflexionar sobre l'aplicació d'estratègies d'economia circular i valorar la incorporació d'Objectius de Desenvolupament Sostenible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-2-4"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "ca": "Establir els objectius i les necessitats d'aprovisionament, identificant els documents relacionats amb els proveïdors."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "ca": "Implementar diferents tècniques de prototipatge en el producte i/o servei a oferir en el projecte empresarial i triar el tipus de procés productiu."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "ca": "Desenvolupar la comercialització dels productes o serveis de l'empresa i el màrqueting d'aquests, analitzant les polítiques de màrqueting aplicades i comparant els preus fixats amb els de la competència."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-3-3"
+        },
+        {
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "ca": "Planificar els recursos humans i gestionar la documentació que genera el procés de selecció de personal i contractació i reconèixer la importància del pla de prevenció de riscs laborals en el projecte empresarial."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-3-4"
+        },
+        {
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "ca": "Determinar les inversions necessàries i les necessitats financeres, identificant les alternatives possibles de finançament i comprovant-ne la viabilitat."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-3-5"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "ca": "Conèixer i identificar els principals imposts en l’economia espanyola i en la de les Illes Balears, comprenent la seva importància per al progrés i benestar de la societat."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "ca": "Registrar totes les operacions d'un cicle comptable complet mitjançant supòsits pràctics senzills i elaborar els comptes anuals."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              508
+            ]
+          },
+          "id": "cri-2-4-2"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "ca": "Desenvolupar habilitats bàsiques de comunicació, identificant les parts del procés comunicatiu i posant-lo en pràctica en el propi projecte empresarial."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              509
+            ]
+          },
+          "id": "cri-2-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "ca": "Conèixer i utilitzar eines innovadores per a l'elaboració i presentació del projecte empresarial, reconeixent-ne l’eficàcia i la repercussió que tenen en la projecció de l'empresa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              509
+            ]
+          },
+          "id": "cri-2-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "ca": "Realitzar presentacions orals efectives d'una idea de negoci utilitzant eines TIC i seguint l’esquema del discurs de l’ascensor."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boib-2025-103-decret-43-2025",
+            "paginas": [
+              509
+            ]
+          },
+          "id": "cri-2-5-3"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "ca": "INNOVACIÓ. IDEA DE NEGOCI. EMPRENEDORIA SOCIAL"
+          },
+          "saberes": [
+            {
+              "id": "projecte-empresarial.P.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "La innovació com a font de desenvolupament econòmic i generació d'ocupació."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "El procés emprenedor. L'emprenedor: característiques i tipus. Habilitats per emprendre. Autodiagnòstic d'actituds emprenedores."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Emprenedoria social."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.A.04",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Creativitat en la generació d'idees."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.A.05",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "La idea de negoci, detecció i avaluació d'oportunitats de negoci. Aplicació de diversos models de negoci."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.A.06",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Elements d’un projecte d’empresa."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.A.07",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Eines per a l'anàlisi de l'entorn: PESTEL, DAFO, forces competitives de Porter."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.A.08",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Mostreig i recerca de mercats (anàlisis de mercat)."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.A.09",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Aplicacions informàtiques per a l'estudi de mercat: qüestionaris digitals, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.A.10",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Eines per identificar les necessitats i percepcions dels clients potencials: el mapa d'empatia."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "ca": "DECISIONS PER INICIAR UN PROJECTE EMPRESARIAL. VIABILITAT"
+          },
+          "saberes": [
+            {
+              "id": "projecte-empresarial.P.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Elements intangibles del projecte emprenedor. La Missió, Visió i Valors."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "El llenç (canvas) de negoci."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Procés de creació del nom i marca de la nostra idea de negoci."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "La forma jurídica i els principals tràmits per a iniciar un negoci."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.B.05",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Els organismes d'assessorament i ajuda per a iniciar el projecte emprenedor. Assessorament emprenedor a través d'un punt d’atenció a l’emprenedor (PAE)."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.B.06",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Documentació necessària per a l'establiment de nous negocis. Tramitació online d’aquesta documentació."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.B.07",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Decisió de localització i disseny del nostre punt de venda."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.B.08",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Responsabilitat social corporativa."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.B.09",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Objectius de desenvolupament sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.B.10",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "L'empresa global en el context local. Elements que justifiquen la proposta empresarial en el context local. Contribució del negoci a l'economia circular i col·laborativa de les Illes Balears."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "ca": "ORGANITZACIÓ INTERNA DE L’EMPRESA. GESTIÓ EMPRESARIAL"
+          },
+          "saberes": [
+            {
+              "id": "projecte-empresarial.P.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Pla d'aprovisionament: pla de compres i control d'estocs. La comanda, l'albarà i la factura. El full de càlcul com a mètode de control d'existències."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  509
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Pla de fabricació. El prototip. Tècniques de prototipatge. El producte: béns i serveis. Tipus de processos productius."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "El llindar de rendibilitat i el llindar de producció."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.C.04",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Pla comercial i de màrqueting. Tècniques i aplicació d'estudis de mercat. Comunicació comercial i atenció al client. Promoció. Responsabilitat en les accions publicitàries. Anàlisi d'anuncis publicitaris (pla de mitjans, publicitat en internet i xarxes socials). Estratègies de preus. Canals de distribució dels productes."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.C.05",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Pla de recursos humans. Sistemes de selecció de personal, tipus de contractes, prevenció de riscs laborals, elaboració de nòmines, currículum europass, el videocurriculum, noves habilitats demandades per les empreses, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.C.06",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Pla econòmic-financer. Avaluació de les diferents inversions que es poden plantejar. Selecció de les fonts de finançament més apropiades. Finances sostenibles. Possibles inversions."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "ca": "FISCALITAT I COMPTABILITAT EN EL PROJECTE EMPRENEDOR"
+          },
+          "saberes": [
+            {
+              "id": "projecte-empresarial.P.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Elements bàsics dels imposts i llenguatge fiscal."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Imposts relacionats amb les activitats empresarials."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "L'economia submergida i els seus efectes sobre l'economia espanyola i de les Illes Balears."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Educació fiscal i responsabilitat ciutadana."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.05",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Tramitació de les obligacions fiscals i comptables."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.06",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Gestió de la comptabilitat en l'empresa."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.07",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Principals documents i llibres comptables."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.08",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "El mètode comptable. El Pla General de Comptabilitat."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.09",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Registre de les operacions bàsiques: compres, vendes, despeses de personal, tributs, liquidació de IVA, amortitzacions, regularització, impost de societats."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.10",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "El cicle comptable."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.D.11",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Balanç de comprovació; balanç de situació i compte de pèrdues i guanys."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "ca": "INFORMACIÓ I COMUNICACIÓ EMPRESARIAL. EXPOSICIÓ DEL PROJECTE D’EMPRESA"
+          },
+          "saberes": [
+            {
+              "id": "projecte-empresarial.P.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Habilitats bàsiques de comunicació escrita, verbal i no verbal."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Xarxes socials com a mitjà de comunicació empresarial."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "La comunicació externa i interna."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.E.04",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Disseny de la narrativa del projecte emprenedor. Narració d’històries aplicat a potenciar la imatge de marca."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.E.05",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "L'art de comunicar i seduir un equip de treball en remot amb tecnologia."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            },
+            {
+              "id": "projecte-empresarial.P.E.06",
+              "codigoOficial": null,
+              "texto": {
+                "ca": "Presentació del projecte empresarial utilitzant diferents eines de comunicació i exposició: discurs de l’ascensor, discursos didàctics, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boib-2025-103-decret-43-2025",
+                "paginas": [
+                  510
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-28",
+    "metodo": "Extracción Unicode del PDF oficial, con control de secciones, recuentos y procedencia.",
+    "notas": [
+      "Se conserva el texto publicado en catalán.",
+      "La abreviatura y los identificadores individuales de saber son internos, no oficiales.",
+      "Las aclaraciones orientativas de los criterios se separan de su texto principal.",
+      "El decreto publica las competencias dentro de Criteris d’avaluació, sin un desarrollo narrativo separado; por eso se omite descripcion."
+    ]
+  }
+}

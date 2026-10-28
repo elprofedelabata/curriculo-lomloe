@@ -173,7 +173,6 @@
         "id",
         "codigoOficial",
         "enunciado",
-        "descripcion",
         "descriptoresOperativosRefs",
         "procedencia"
       ],
@@ -181,7 +180,10 @@
         "id": { "type": "string", "pattern": "^ce-[0-9]+$" },
         "codigoOficial": { "type": "string", "pattern": "^[0-9]+$" },
         "enunciado": { "$ref": "#/$defs/textoLocalizado" },
-        "descripcion": { "$ref": "#/$defs/parrafosLocalizados" },
+        "descripcion": {
+          "$ref": "#/$defs/parrafosLocalizados",
+          "description": "Opcional cuando la fuente no publica un desarrollo narrativo separado del enunciado."
+        },
         "descriptoresOperativosRefs": {
           "type": "array",
           "description": "Referencias explícitas publicadas para la competencia; puede estar vacío cuando la fuente no enumera descriptores operativos.",

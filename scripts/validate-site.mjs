@@ -11,7 +11,7 @@ check(catalog.version === "1.6.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
 check(catalog.etapas.length === 20, `Se esperaban 20 etapas territoriales y hay ${catalog.etapas.length}.`);
-check(catalog.materias.length === 343, `Se esperaban 343 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.length === 396, `Se esperaban 396 materias y hay ${catalog.materias.length}.`);
 check(catalog.materias.filter((item) => item.etapa === "infantil").length === 12, "El catálogo de Infantil no contiene 12 áreas territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "infantil").length === 3, "El catálogo de Aragón no contiene sus 3 áreas de Infantil.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "infantil").length === 3, "El catálogo de Asturias no contiene sus 3 áreas de Infantil.");
@@ -37,7 +37,46 @@ check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etap
 check(catalog.materias.filter((item) => item.etapa === "eso").length === 121, "El catálogo de ESO no contiene 121 materias territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "eso" && item.revision?.estado === "borrador").length === 27, "El catálogo de Illes Balears no contiene sus 27 materias de ESO en borrador.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "eso").length === 38, "El catálogo de Aragón no contiene sus 38 currículos de ESO.");
-check(catalog.materias.filter((item) => item.etapa === "bachillerato").length === 165, "El catálogo de Bachillerato no contiene 165 materias territoriales.");
+check(catalog.materias.filter((item) => item.etapa === "bachillerato").length === 218, "El catálogo de Bachillerato no contiene 218 materias territoriales.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "bachillerato" && item.revision?.estado === "borrador").length === 53, "El catálogo de Illes Balears no contiene sus 53 materias de Bachillerato en borrador.");
+const activitatFisica = JSON.parse(await readFile(resolve(dist, "data/es-ib/bachillerato/materias/activitat-fisica-oci-i-salut.json"), "utf8"));
+check(
+  activitatFisica.introduccion.ca[0].includes("de la matèria d’Activitat Física, Oci i Salut") &&
+    !activitatFisica.introduccion.ca[0].includes("de la matèria d’Educació Física"),
+  "La introducción de Activitat Física, Oci i Salut conserva una referencia residual a Educació Física.",
+);
+for (const [slug, course, blockCode, prefix] of [
+  ["cor-i-tecnica-vocal", 2, "C", "Gestió de l'ansietat escènica."],
+  ["dibuix-tecnic", 2, "C", "Projectes en col·laboració."],
+  ["dibuix-tecnic", 2, "C", "Plans de muntatge senzills."],
+  ["dibuix-tecnic", 2, "D", "Aplicacions CAD."],
+  ["historia-de-l-art", 2, "C", "La dona com a artista."],
+  ["tecniques-d-expressio-graficoplastica", 2, "A", "Estratègies d’investigació,"],
+]) {
+  const document = JSON.parse(await readFile(resolve(dist, "data/es-ib/bachillerato/materias", slug + ".json"), "utf8"));
+  const development = document.desarrollos.find((item) => item.curso === course);
+  const block = development?.bloquesSaberes.find((item) => item.codigo === blockCode);
+  const parts = block?.apartados?.filter((item) => item.nombre.ca.startsWith(prefix));
+  check(
+    parts?.length === 1 && parts[0].saberes.length === 1 &&
+      parts[0].nombre.ca === parts[0].saberes[0].texto.ca,
+    "La fila " + prefix + " debe tener apartado propio con un único saber idéntico.",
+  );
+}
+for (const slug of ["projecte-empresarial", "treball-d-investigacio-analisi-i-creativitat"]) {
+  const document = JSON.parse(await readFile(resolve(dist, "data/es-ib/bachillerato/materias", slug + ".json"), "utf8"));
+  check(
+    document.competenciasEspecificas.length > 0 &&
+      document.competenciasEspecificas.every((item) => !("descripcion" in item) && item.descriptoresOperativosRefs.length > 0),
+    "Las CE de " + slug + " deben conservar sus descriptores sin inventar una descripción narrativa.",
+  );
+}
+const tecniquesExperimentals = JSON.parse(await readFile(resolve(dist, "data/es-ib/bachillerato/materias/tecniques-experimentals.json"), "utf8"));
+check(
+  tecniquesExperimentals.desarrollos[0].bloquesSaberes.length === 1 &&
+    tecniquesExperimentals.desarrollos[0].bloquesSaberes[0].apartados.length === 10,
+  "Tècniques Experimentals debe conservar sus diez epígrafes bajo un bloque interno.",
+);
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "bachillerato").length === 59, "El catálogo de Aragón no contiene sus 59 currículos de Bachillerato.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "bachillerato").length === 48, "El catálogo de Asturias no contiene sus 48 currículos desarrollados de Bachillerato.");
 check(catalog.materias.filter((item) => item.etapa === "cfgb").length === 6, "El catálogo de CFGB no contiene 6 ámbitos territoriales.");
@@ -51,7 +90,7 @@ check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) 
 check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
 const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
 check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
-check(catalog.incidencias.length === 208, `Se esperaban 208 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 214, `Se esperaban 214 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");
