@@ -13,14 +13,14 @@ Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca d
 
 ## Progreso global
 
-- **Referencias inventariadas:** 346 (343 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
-- **Currículos terminados:** 195 de 343
-- **Currículos pendientes:** 148
+- **Referencias documentadas de Andalucía, Aragón, Asturias e Illes Balears:** 401 (398 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
+- **Currículos terminados en esas cuatro comunidades:** 398 de 398
+- **Currículos pendientes entre los inventariados en esas cuatro comunidades:** 0
 - **Optativas de desarrollo abierto documentadas:** 3 de 3
 - **Andalucía:** 102 de 102
-- **Aragón:** 3 de 116
+- **Aragón:** 116 de 116
 - **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
-- **Illes Balears:** 3 currículos de Infantil revisados; 8 áreas de Primaria, 27 materias de ESO y las 53 de Bachillerato en borrador
+- **Illes Balears:** 93 de 93
 
 ## Andalucía
 
@@ -195,13 +195,13 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 ### Progreso
 
 - **Total:** 116 currículos
-- **Terminados:** 3
-- **Pendientes:** 113
+- **Terminados:** 116
+- **Pendientes:** 0
 - **Infantil:** 3 de 3
-- **Primaria:** 0 de 14
-- **ESO:** 0 de 38
-- **Bachillerato:** 0 de 59
-- **CFGB:** 0 de 2
+- **Primaria:** 14 de 14
+- **ESO:** 38 de 38
+- **Bachillerato:** 59 de 59
+- **CFGB:** 2 de 2
 
 ### Infantil
 
@@ -215,137 +215,137 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 
 #### Anexo II — Áreas de conocimiento de Educación Primaria
 
-- [ ] Atención educativa — [JSON en revisión](data/es-ar/primaria/materias/atencion-educativa.json)
-- [ ] Ciencias de la Naturaleza — [JSON en revisión](data/es-ar/primaria/materias/ciencias-de-la-naturaleza.json)
-- [ ] Ciencias Sociales — [JSON en revisión](data/es-ar/primaria/materias/ciencias-sociales.json)
-- [ ] Educación en Valores Cívicos y Éticos — [JSON en revisión](data/es-ar/primaria/materias/educacion-en-valores-civicos-y-eticos.json)
-- [ ] Educación Física — [JSON en revisión](data/es-ar/primaria/materias/educacion-fisica.json)
-- [ ] Educación Plástica y Visual — [JSON en revisión](data/es-ar/primaria/materias/educacion-plastica-y-visual.json)
-- [ ] Lengua Castellana y Literatura — [JSON en revisión](data/es-ar/primaria/materias/lengua-castellana-y-literatura.json)
-- [ ] Lengua Extranjera: Alemán — [JSON en revisión](data/es-ar/primaria/materias/lengua-extranjera-aleman.json)
-- [ ] Lengua Extranjera: Francés — [JSON en revisión](data/es-ar/primaria/materias/lengua-extranjera-frances.json)
-- [ ] Lengua Extranjera: Inglés — [JSON en revisión](data/es-ar/primaria/materias/lengua-extranjera-ingles.json)
-- [ ] Lengua propia de Aragón: Aragonés — [JSON en revisión](data/es-ar/primaria/materias/lengua-propia-aragones.json)
-- [ ] Lengua propia de Aragón: Catalán — [JSON en revisión](data/es-ar/primaria/materias/lengua-propia-catalan.json)
-- [ ] Matemáticas — [JSON en revisión](data/es-ar/primaria/materias/matematicas.json)
-- [ ] Música y Danza — [JSON en revisión](data/es-ar/primaria/materias/musica-y-danza.json)
+- [x] Atención educativa — [JSON](data/es-ar/primaria/materias/atencion-educativa.json)
+- [x] Ciencias de la Naturaleza — [JSON](data/es-ar/primaria/materias/ciencias-de-la-naturaleza.json)
+- [x] Ciencias Sociales — [JSON](data/es-ar/primaria/materias/ciencias-sociales.json)
+- [x] Educación en Valores Cívicos y Éticos — [JSON](data/es-ar/primaria/materias/educacion-en-valores-civicos-y-eticos.json)
+- [x] Educación Física — [JSON](data/es-ar/primaria/materias/educacion-fisica.json)
+- [x] Educación Plástica y Visual — [JSON](data/es-ar/primaria/materias/educacion-plastica-y-visual.json)
+- [x] Lengua Castellana y Literatura — [JSON](data/es-ar/primaria/materias/lengua-castellana-y-literatura.json)
+- [x] Lengua Extranjera: Alemán — [JSON](data/es-ar/primaria/materias/lengua-extranjera-aleman.json)
+- [x] Lengua Extranjera: Francés — [JSON](data/es-ar/primaria/materias/lengua-extranjera-frances.json)
+- [x] Lengua Extranjera: Inglés — [JSON](data/es-ar/primaria/materias/lengua-extranjera-ingles.json)
+- [x] Lengua propia de Aragón: Aragonés — [JSON](data/es-ar/primaria/materias/lengua-propia-aragones.json)
+- [x] Lengua propia de Aragón: Catalán — [JSON](data/es-ar/primaria/materias/lengua-propia-catalan.json)
+- [x] Matemáticas — [JSON](data/es-ar/primaria/materias/matematicas.json)
+- [x] Música y Danza — [JSON](data/es-ar/primaria/materias/musica-y-danza.json)
 
 ### ESO
 
 #### Anexo II — Materias de Educación Secundaria Obligatoria
 
-- [ ] Atención educativa — [JSON en revisión](data/es-ar/eso/materias/atencion-educativa.json)
-- [ ] Artes Escénicas y Danza — [JSON en revisión](data/es-ar/eso/materias/artes-escenicas-y-danza.json)
-- [ ] Biología y Geología — [JSON en revisión](data/es-ar/eso/materias/biologia-y-geologia.json)
-- [ ] Cultura Científica — [JSON en revisión](data/es-ar/eso/materias/cultura-cientifica.json)
-- [ ] Cultura Clásica — [JSON en revisión](data/es-ar/eso/materias/cultura-clasica.json)
-- [ ] Cultura y Patrimonio de Aragón — [JSON en revisión](data/es-ar/eso/materias/cultura-y-patrimonio-de-aragon.json)
-- [ ] Digitalización — [JSON en revisión](data/es-ar/eso/materias/digitalizacion.json)
-- [ ] Economía Social — [JSON en revisión](data/es-ar/eso/materias/economia-social.json)
-- [ ] Economía y Emprendimiento — [JSON en revisión](data/es-ar/eso/materias/economia-y-emprendimiento.json)
-- [ ] Educación en Valores Cívicos y Éticos — [JSON en revisión](data/es-ar/eso/materias/educacion-en-valores-civicos-y-eticos.json)
-- [ ] Educación Física — [JSON en revisión](data/es-ar/eso/materias/educacion-fisica.json)
-- [ ] Educación Plástica, Visual y Audiovisual — [JSON en revisión](data/es-ar/eso/materias/educacion-plastica-visual-y-audiovisual.json)
-- [ ] Expresión Artística — [JSON en revisión](data/es-ar/eso/materias/expresion-artistica.json)
-- [ ] Filosofía — [JSON en revisión](data/es-ar/eso/materias/filosofia.json)
-- [ ] Física y Química — [JSON en revisión](data/es-ar/eso/materias/fisica-y-quimica.json)
-- [ ] Formación y Orientación Personal y Profesional — [JSON en revisión](data/es-ar/eso/materias/formacion-y-orientacion-personal-y-profesional.json)
-- [ ] Geografía e Historia — [JSON en revisión](data/es-ar/eso/materias/geografia-e-historia.json)
-- [ ] Iniciación a la Filosofía — [JSON en revisión](data/es-ar/eso/materias/iniciacion-a-la-filosofia.json)
-- [ ] Laboratorio de Refuerzo de Competencias Clave — [JSON en revisión](data/es-ar/eso/materias/laboratorio-de-refuerzo-de-competencias-clave.json)
-- [ ] Latín — [JSON en revisión](data/es-ar/eso/materias/latin.json)
-- [ ] Lengua Castellana y Literatura — [JSON en revisión](data/es-ar/eso/materias/lengua-castellana-y-literatura.json)
-- [ ] Lengua Extranjera: Alemán — [JSON en revisión](data/es-ar/eso/materias/lengua-extranjera-aleman.json)
-- [ ] Lengua Extranjera: Francés — [JSON en revisión](data/es-ar/eso/materias/lengua-extranjera-frances.json)
-- [ ] Lengua Extranjera: Inglés — [JSON en revisión](data/es-ar/eso/materias/lengua-extranjera-ingles.json)
-- [ ] Lenguas Propias de Aragón: Aragonés — [JSON en revisión](data/es-ar/eso/materias/lenguas-propias-aragones.json)
-- [ ] Lenguas Propias de Aragón: Catalán — [JSON en revisión](data/es-ar/eso/materias/lenguas-propias-catalan.json)
-- [ ] Matemáticas — [JSON en revisión](data/es-ar/eso/materias/matematicas.json)
-- [ ] Matemáticas para la Toma de Decisiones — [JSON en revisión](data/es-ar/eso/materias/matematicas-para-la-toma-de-decisiones.json)
-- [ ] Música — [JSON en revisión](data/es-ar/eso/materias/musica.json)
-- [ ] Oratoria y Escritura — [JSON en revisión](data/es-ar/eso/materias/oratoria-y-escritura.json)
-- [ ] Programación y Robótica — [JSON en revisión](data/es-ar/eso/materias/programacion-y-robotica.json)
-- [ ] Segunda Lengua Extranjera: Alemán — [JSON en revisión](data/es-ar/eso/materias/segunda-lengua-extranjera-aleman.json)
-- [ ] Segunda Lengua Extranjera: Francés — [JSON en revisión](data/es-ar/eso/materias/segunda-lengua-extranjera-frances.json)
-- [ ] Tecnología — [JSON en revisión](data/es-ar/eso/materias/tecnologia.json)
-- [ ] Tecnología y Digitalización — [JSON en revisión](data/es-ar/eso/materias/tecnologia-y-digitalizacion.json)
+- [x] Atención educativa — [JSON](data/es-ar/eso/materias/atencion-educativa.json)
+- [x] Artes Escénicas y Danza — [JSON](data/es-ar/eso/materias/artes-escenicas-y-danza.json)
+- [x] Biología y Geología — [JSON](data/es-ar/eso/materias/biologia-y-geologia.json)
+- [x] Cultura Científica — [JSON](data/es-ar/eso/materias/cultura-cientifica.json)
+- [x] Cultura Clásica — [JSON](data/es-ar/eso/materias/cultura-clasica.json)
+- [x] Cultura y Patrimonio de Aragón — [JSON](data/es-ar/eso/materias/cultura-y-patrimonio-de-aragon.json)
+- [x] Digitalización — [JSON](data/es-ar/eso/materias/digitalizacion.json)
+- [x] Economía Social — [JSON](data/es-ar/eso/materias/economia-social.json)
+- [x] Economía y Emprendimiento — [JSON](data/es-ar/eso/materias/economia-y-emprendimiento.json)
+- [x] Educación en Valores Cívicos y Éticos — [JSON](data/es-ar/eso/materias/educacion-en-valores-civicos-y-eticos.json)
+- [x] Educación Física — [JSON](data/es-ar/eso/materias/educacion-fisica.json)
+- [x] Educación Plástica, Visual y Audiovisual — [JSON](data/es-ar/eso/materias/educacion-plastica-visual-y-audiovisual.json)
+- [x] Expresión Artística — [JSON](data/es-ar/eso/materias/expresion-artistica.json)
+- [x] Filosofía — [JSON](data/es-ar/eso/materias/filosofia.json)
+- [x] Física y Química — [JSON](data/es-ar/eso/materias/fisica-y-quimica.json)
+- [x] Formación y Orientación Personal y Profesional — [JSON](data/es-ar/eso/materias/formacion-y-orientacion-personal-y-profesional.json)
+- [x] Geografía e Historia — [JSON](data/es-ar/eso/materias/geografia-e-historia.json)
+- [x] Iniciación a la Filosofía — [JSON](data/es-ar/eso/materias/iniciacion-a-la-filosofia.json)
+- [x] Laboratorio de Refuerzo de Competencias Clave — [JSON](data/es-ar/eso/materias/laboratorio-de-refuerzo-de-competencias-clave.json)
+- [x] Latín — [JSON](data/es-ar/eso/materias/latin.json)
+- [x] Lengua Castellana y Literatura — [JSON](data/es-ar/eso/materias/lengua-castellana-y-literatura.json)
+- [x] Lengua Extranjera: Alemán — [JSON](data/es-ar/eso/materias/lengua-extranjera-aleman.json)
+- [x] Lengua Extranjera: Francés — [JSON](data/es-ar/eso/materias/lengua-extranjera-frances.json)
+- [x] Lengua Extranjera: Inglés — [JSON](data/es-ar/eso/materias/lengua-extranjera-ingles.json)
+- [x] Lenguas Propias de Aragón: Aragonés — [JSON](data/es-ar/eso/materias/lenguas-propias-aragones.json)
+- [x] Lenguas Propias de Aragón: Catalán — [JSON](data/es-ar/eso/materias/lenguas-propias-catalan.json)
+- [x] Matemáticas — [JSON](data/es-ar/eso/materias/matematicas.json)
+- [x] Matemáticas para la Toma de Decisiones — [JSON](data/es-ar/eso/materias/matematicas-para-la-toma-de-decisiones.json)
+- [x] Música — [JSON](data/es-ar/eso/materias/musica.json)
+- [x] Oratoria y Escritura — [JSON](data/es-ar/eso/materias/oratoria-y-escritura.json)
+- [x] Programación y Robótica — [JSON](data/es-ar/eso/materias/programacion-y-robotica.json)
+- [x] Segunda Lengua Extranjera: Alemán — [JSON](data/es-ar/eso/materias/segunda-lengua-extranjera-aleman.json)
+- [x] Segunda Lengua Extranjera: Francés — [JSON](data/es-ar/eso/materias/segunda-lengua-extranjera-frances.json)
+- [x] Tecnología — [JSON](data/es-ar/eso/materias/tecnologia.json)
+- [x] Tecnología y Digitalización — [JSON](data/es-ar/eso/materias/tecnologia-y-digitalizacion.json)
 
 #### Anexo II — Ámbitos del programa de Diversificación Curricular
 
-- [ ] Ámbito Científico-Tecnológico — [JSON en revisión](data/es-ar/eso/materias/ambito-cientifico-tecnologico.json)
-- [ ] Ámbito Lingüístico y Social — [JSON en revisión](data/es-ar/eso/materias/ambito-linguistico-y-social.json)
-- [ ] Ámbito Práctico — [JSON en revisión](data/es-ar/eso/materias/ambito-practico.json)
+- [x] Ámbito Científico-Tecnológico — [JSON](data/es-ar/eso/materias/ambito-cientifico-tecnologico.json)
+- [x] Ámbito Lingüístico y Social — [JSON](data/es-ar/eso/materias/ambito-linguistico-y-social.json)
+- [x] Ámbito Práctico — [JSON](data/es-ar/eso/materias/ambito-practico.json)
 
 ### Bachillerato
 
 #### Anexo II — Materias de Bachillerato
 
-- [ ] Artes Escénicas — [JSON en revisión](data/es-ar/bachillerato/materias/artes-escenicas.json)
-- [ ] Análisis Musical — [JSON en revisión](data/es-ar/bachillerato/materias/analisis-musical.json)
-- [ ] Anatomía Aplicada — [JSON en revisión](data/es-ar/bachillerato/materias/anatomia-aplicada.json)
-- [ ] Biología — [JSON en revisión](data/es-ar/bachillerato/materias/biologia.json)
-- [ ] Biología, Geología y Ciencias Ambientales — [JSON en revisión](data/es-ar/bachillerato/materias/biologia-geologia-y-ciencias-ambientales.json)
-- [ ] Ciencias de la Tierra y del Medioambiente — [JSON en revisión](data/es-ar/bachillerato/materias/ciencias-de-la-tierra-y-del-medioambiente.json)
-- [ ] Ciencias Generales — [JSON en revisión](data/es-ar/bachillerato/materias/ciencias-generales.json)
-- [ ] Coro y Técnica Vocal — [JSON en revisión](data/es-ar/bachillerato/materias/coro-y-tecnica-vocal.json)
-- [ ] Cultura Audiovisual — [JSON en revisión](data/es-ar/bachillerato/materias/cultura-audiovisual.json)
-- [ ] Cultura y Patrimonio de Aragón — [JSON en revisión](data/es-ar/bachillerato/materias/cultura-y-patrimonio-de-aragon.json)
-- [ ] Dibujo Artístico — [JSON en revisión](data/es-ar/bachillerato/materias/dibujo-artistico.json)
-- [ ] Dibujo Técnico — [JSON en revisión](data/es-ar/bachillerato/materias/dibujo-tecnico.json)
-- [ ] Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño — [JSON en revisión](data/es-ar/bachillerato/materias/dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno.json)
-- [ ] Diseño — [JSON en revisión](data/es-ar/bachillerato/materias/diseno.json)
-- [ ] Economía — [JSON en revisión](data/es-ar/bachillerato/materias/economia.json)
-- [ ] Economía, Emprendimiento y Actividad Empresarial — [JSON en revisión](data/es-ar/bachillerato/materias/economia-emprendimiento-y-actividad-empresarial.json)
-- [ ] Educación Física — [JSON en revisión](data/es-ar/bachillerato/materias/educacion-fisica.json)
-- [ ] Educación Física y Vida Activa — [JSON en revisión](data/es-ar/bachillerato/materias/educacion-fisica-y-vida-activa.json)
-- [ ] Educación para la Ciudadanía y los Derechos Humanos — [JSON en revisión](data/es-ar/bachillerato/materias/educacion-para-la-ciudadania-y-los-derechos-humanos.json)
-- [ ] Empresa y Diseño de Modelos de Negocio — [JSON en revisión](data/es-ar/bachillerato/materias/empresa-y-diseno-de-modelos-de-negocio.json)
-- [ ] Filosofía — [JSON en revisión](data/es-ar/bachillerato/materias/filosofia.json)
-- [ ] Física — [JSON en revisión](data/es-ar/bachillerato/materias/fisica.json)
-- [ ] Física y Química — [JSON en revisión](data/es-ar/bachillerato/materias/fisica-y-quimica.json)
-- [ ] Fundamentos Artísticos — [JSON en revisión](data/es-ar/bachillerato/materias/fundamentos-artisticos.json)
-- [ ] Fundamentos de Administración y Gestión — [JSON en revisión](data/es-ar/bachillerato/materias/fundamentos-de-administracion-y-gestion.json)
-- [ ] Geografía — [JSON en revisión](data/es-ar/bachillerato/materias/geografia.json)
-- [ ] Geología y Ciencias Ambientales — [JSON en revisión](data/es-ar/bachillerato/materias/geologia-y-ciencias-ambientales.json)
-- [ ] Griego — [JSON en revisión](data/es-ar/bachillerato/materias/griego.json)
-- [ ] Historia de España — [JSON en revisión](data/es-ar/bachillerato/materias/historia-de-espana.json)
-- [ ] Historia de la Filosofía — [JSON en revisión](data/es-ar/bachillerato/materias/historia-de-la-filosofia.json)
-- [ ] Historia de la Música y de la Danza — [JSON en revisión](data/es-ar/bachillerato/materias/historia-de-la-musica-y-de-la-danza.json)
-- [ ] Historia del Arte — [JSON en revisión](data/es-ar/bachillerato/materias/historia-del-arte.json)
-- [ ] Historia del Mundo Contemporáneo — [JSON en revisión](data/es-ar/bachillerato/materias/historia-del-mundo-contemporaneo.json)
-- [ ] Imagen y Sonido — [JSON en revisión](data/es-ar/bachillerato/materias/imagen-y-sonido.json)
-- [ ] Informática — [JSON en revisión](data/es-ar/bachillerato/materias/informatica.json)
-- [ ] Latín — [JSON en revisión](data/es-ar/bachillerato/materias/latin.json)
-- [ ] Lengua Castellana y Literatura — [JSON en revisión](data/es-ar/bachillerato/materias/lengua-castellana-y-literatura.json)
-- [ ] Lengua Extranjera: Alemán — [JSON en revisión](data/es-ar/bachillerato/materias/lengua-extranjera-aleman.json)
-- [ ] Lengua Extranjera: Francés — [JSON en revisión](data/es-ar/bachillerato/materias/lengua-extranjera-frances.json)
-- [ ] Lengua Extranjera: Inglés — [JSON en revisión](data/es-ar/bachillerato/materias/lengua-extranjera-ingles.json)
-- [ ] Lenguaje y Práctica Musical — [JSON en revisión](data/es-ar/bachillerato/materias/lenguaje-y-practica-musical.json)
-- [ ] Lenguas Propias de Aragón: Aragonés — [JSON en revisión](data/es-ar/bachillerato/materias/lenguas-propias-de-aragon-aragones.json)
-- [ ] Lenguas Propias de Aragón: Catalán — [JSON en revisión](data/es-ar/bachillerato/materias/lenguas-propias-de-aragon-catalan.json)
-- [ ] Literatura Dramática — [JSON en revisión](data/es-ar/bachillerato/materias/literatura-dramatica.json)
-- [ ] Literatura Universal — [JSON en revisión](data/es-ar/bachillerato/materias/literatura-universal.json)
-- [ ] Matemáticas — [JSON en revisión](data/es-ar/bachillerato/materias/matematicas.json)
-- [ ] Matemáticas Aplicadas a las Ciencias Sociales — [JSON en revisión](data/es-ar/bachillerato/materias/matematicas-aplicadas-a-las-ciencias-sociales.json)
-- [ ] Matemáticas Generales — [JSON en revisión](data/es-ar/bachillerato/materias/matematicas-generales.json)
-- [ ] Movimientos Culturales y Artísticos — [JSON en revisión](data/es-ar/bachillerato/materias/movimientos-culturales-y-artisticos.json)
-- [ ] Oratoria — [JSON en revisión](data/es-ar/bachillerato/materias/oratoria.json)
-- [ ] Proyectos Artísticos — [JSON en revisión](data/es-ar/bachillerato/materias/proyectos-artisticos.json)
-- [ ] Proyecto de Investigación e Innovación Integrado — [JSON en revisión](data/es-ar/bachillerato/materias/proyecto-de-investigacion-e-innovacion-integrado.json)
-- [ ] Psicología — [JSON en revisión](data/es-ar/bachillerato/materias/psicologia.json)
-- [ ] Química — [JSON en revisión](data/es-ar/bachillerato/materias/quimica.json)
-- [ ] Sociedad, Medioambiente y Territorios Sostenibles — [JSON en revisión](data/es-ar/bachillerato/materias/sociedad-medioambiente-y-territorios-sostenibles.json)
-- [ ] Técnicas de Expresión Gráfico-Plástica — [JSON en revisión](data/es-ar/bachillerato/materias/tecnicas-de-expresion-grafico-plastica.json)
-- [ ] Tecnología e Ingeniería — [JSON en revisión](data/es-ar/bachillerato/materias/tecnologia-e-ingenieria.json)
-- [ ] Unión Europea — [JSON en revisión](data/es-ar/bachillerato/materias/union-europea.json)
-- [ ] Volumen — [JSON en revisión](data/es-ar/bachillerato/materias/volumen.json)
+- [x] Artes Escénicas — [JSON](data/es-ar/bachillerato/materias/artes-escenicas.json)
+- [x] Análisis Musical — [JSON](data/es-ar/bachillerato/materias/analisis-musical.json)
+- [x] Anatomía Aplicada — [JSON](data/es-ar/bachillerato/materias/anatomia-aplicada.json)
+- [x] Biología — [JSON](data/es-ar/bachillerato/materias/biologia.json)
+- [x] Biología, Geología y Ciencias Ambientales — [JSON](data/es-ar/bachillerato/materias/biologia-geologia-y-ciencias-ambientales.json)
+- [x] Ciencias de la Tierra y del Medioambiente — [JSON](data/es-ar/bachillerato/materias/ciencias-de-la-tierra-y-del-medioambiente.json)
+- [x] Ciencias Generales — [JSON](data/es-ar/bachillerato/materias/ciencias-generales.json)
+- [x] Coro y Técnica Vocal — [JSON](data/es-ar/bachillerato/materias/coro-y-tecnica-vocal.json)
+- [x] Cultura Audiovisual — [JSON](data/es-ar/bachillerato/materias/cultura-audiovisual.json)
+- [x] Cultura y Patrimonio de Aragón — [JSON](data/es-ar/bachillerato/materias/cultura-y-patrimonio-de-aragon.json)
+- [x] Dibujo Artístico — [JSON](data/es-ar/bachillerato/materias/dibujo-artistico.json)
+- [x] Dibujo Técnico — [JSON](data/es-ar/bachillerato/materias/dibujo-tecnico.json)
+- [x] Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño — [JSON](data/es-ar/bachillerato/materias/dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno.json)
+- [x] Diseño — [JSON](data/es-ar/bachillerato/materias/diseno.json)
+- [x] Economía — [JSON](data/es-ar/bachillerato/materias/economia.json)
+- [x] Economía, Emprendimiento y Actividad Empresarial — [JSON](data/es-ar/bachillerato/materias/economia-emprendimiento-y-actividad-empresarial.json)
+- [x] Educación Física — [JSON](data/es-ar/bachillerato/materias/educacion-fisica.json)
+- [x] Educación Física y Vida Activa — [JSON](data/es-ar/bachillerato/materias/educacion-fisica-y-vida-activa.json)
+- [x] Educación para la Ciudadanía y los Derechos Humanos — [JSON](data/es-ar/bachillerato/materias/educacion-para-la-ciudadania-y-los-derechos-humanos.json)
+- [x] Empresa y Diseño de Modelos de Negocio — [JSON](data/es-ar/bachillerato/materias/empresa-y-diseno-de-modelos-de-negocio.json)
+- [x] Filosofía — [JSON](data/es-ar/bachillerato/materias/filosofia.json)
+- [x] Física — [JSON](data/es-ar/bachillerato/materias/fisica.json)
+- [x] Física y Química — [JSON](data/es-ar/bachillerato/materias/fisica-y-quimica.json)
+- [x] Fundamentos Artísticos — [JSON](data/es-ar/bachillerato/materias/fundamentos-artisticos.json)
+- [x] Fundamentos de Administración y Gestión — [JSON](data/es-ar/bachillerato/materias/fundamentos-de-administracion-y-gestion.json)
+- [x] Geografía — [JSON](data/es-ar/bachillerato/materias/geografia.json)
+- [x] Geología y Ciencias Ambientales — [JSON](data/es-ar/bachillerato/materias/geologia-y-ciencias-ambientales.json)
+- [x] Griego — [JSON](data/es-ar/bachillerato/materias/griego.json)
+- [x] Historia de España — [JSON](data/es-ar/bachillerato/materias/historia-de-espana.json)
+- [x] Historia de la Filosofía — [JSON](data/es-ar/bachillerato/materias/historia-de-la-filosofia.json)
+- [x] Historia de la Música y de la Danza — [JSON](data/es-ar/bachillerato/materias/historia-de-la-musica-y-de-la-danza.json)
+- [x] Historia del Arte — [JSON](data/es-ar/bachillerato/materias/historia-del-arte.json)
+- [x] Historia del Mundo Contemporáneo — [JSON](data/es-ar/bachillerato/materias/historia-del-mundo-contemporaneo.json)
+- [x] Imagen y Sonido — [JSON](data/es-ar/bachillerato/materias/imagen-y-sonido.json)
+- [x] Informática — [JSON](data/es-ar/bachillerato/materias/informatica.json)
+- [x] Latín — [JSON](data/es-ar/bachillerato/materias/latin.json)
+- [x] Lengua Castellana y Literatura — [JSON](data/es-ar/bachillerato/materias/lengua-castellana-y-literatura.json)
+- [x] Lengua Extranjera: Alemán — [JSON](data/es-ar/bachillerato/materias/lengua-extranjera-aleman.json)
+- [x] Lengua Extranjera: Francés — [JSON](data/es-ar/bachillerato/materias/lengua-extranjera-frances.json)
+- [x] Lengua Extranjera: Inglés — [JSON](data/es-ar/bachillerato/materias/lengua-extranjera-ingles.json)
+- [x] Lenguaje y Práctica Musical — [JSON](data/es-ar/bachillerato/materias/lenguaje-y-practica-musical.json)
+- [x] Lenguas Propias de Aragón: Aragonés — [JSON](data/es-ar/bachillerato/materias/lenguas-propias-de-aragon-aragones.json)
+- [x] Lenguas Propias de Aragón: Catalán — [JSON](data/es-ar/bachillerato/materias/lenguas-propias-de-aragon-catalan.json)
+- [x] Literatura Dramática — [JSON](data/es-ar/bachillerato/materias/literatura-dramatica.json)
+- [x] Literatura Universal — [JSON](data/es-ar/bachillerato/materias/literatura-universal.json)
+- [x] Matemáticas — [JSON](data/es-ar/bachillerato/materias/matematicas.json)
+- [x] Matemáticas Aplicadas a las Ciencias Sociales — [JSON](data/es-ar/bachillerato/materias/matematicas-aplicadas-a-las-ciencias-sociales.json)
+- [x] Matemáticas Generales — [JSON](data/es-ar/bachillerato/materias/matematicas-generales.json)
+- [x] Movimientos Culturales y Artísticos — [JSON](data/es-ar/bachillerato/materias/movimientos-culturales-y-artisticos.json)
+- [x] Oratoria — [JSON](data/es-ar/bachillerato/materias/oratoria.json)
+- [x] Proyectos Artísticos — [JSON](data/es-ar/bachillerato/materias/proyectos-artisticos.json)
+- [x] Proyecto de Investigación e Innovación Integrado — [JSON](data/es-ar/bachillerato/materias/proyecto-de-investigacion-e-innovacion-integrado.json)
+- [x] Psicología — [JSON](data/es-ar/bachillerato/materias/psicologia.json)
+- [x] Química — [JSON](data/es-ar/bachillerato/materias/quimica.json)
+- [x] Sociedad, Medioambiente y Territorios Sostenibles — [JSON](data/es-ar/bachillerato/materias/sociedad-medioambiente-y-territorios-sostenibles.json)
+- [x] Técnicas de Expresión Gráfico-Plástica — [JSON](data/es-ar/bachillerato/materias/tecnicas-de-expresion-grafico-plastica.json)
+- [x] Tecnología e Ingeniería — [JSON](data/es-ar/bachillerato/materias/tecnologia-e-ingenieria.json)
+- [x] Unión Europea — [JSON](data/es-ar/bachillerato/materias/union-europea.json)
+- [x] Volumen — [JSON](data/es-ar/bachillerato/materias/volumen.json)
 
 ### CFGB
 
 #### Anexo II de la Orden de ESO — Ámbitos comunes de los ciclos formativos de grado básico
 
-- [ ] Ámbito de Ciencias Aplicadas — [JSON en revisión](data/es-ar/cfgb/materias/ciencias-aplicadas.json)
-- [ ] Ámbito de Comunicación y Ciencias Sociales — [JSON en revisión](data/es-ar/cfgb/materias/comunicacion-y-ciencias-sociales.json)
+- [x] Ámbito de Ciencias Aplicadas — [JSON](data/es-ar/cfgb/materias/ciencias-aplicadas.json)
+- [x] Ámbito de Comunicación y Ciencias Sociales — [JSON](data/es-ar/cfgb/materias/comunicacion-y-ciencias-sociales.json)
 
 ### Notas de alcance
 
@@ -523,8 +523,8 @@ Inventario elaborado a partir de los anexos curriculares de 2022 y de sus modifi
 ### Progreso
 
 - **Total inventariado:** 3 áreas de Infantil, 8 de Primaria, 27 materias de ESO, 53 materias de Bachillerato y 2 ámbitos comunes de CFGB
-- **Terminados:** 3
-- **Pendientes de revisión:** 90
+- **Terminados:** 93
+- **Pendientes de revisión:** 0
 - **Pendientes de extracción:** 0
 
 ### Infantil
@@ -541,14 +541,14 @@ Los textos se conservan en catalán. El primer ciclo tiene carácter orientativo
 
 #### Anexo 2 del Decret 41/2025 — áreas de Educación Primaria
 
-- [ ] Coneixement del medi natural, social i cultural — [JSON](data/es-ib/primaria/materias/coneixement-del-medi-natural-social-i-cultural.json)
-- [ ] Educació Artística — [JSON](data/es-ib/primaria/materias/educacio-artistica.json)
-- [ ] Educació en Valors Cívics i Ètics — [JSON](data/es-ib/primaria/materias/educacio-en-valors-civics-i-etics.json)
-- [ ] Educació Física — [JSON](data/es-ib/primaria/materias/educacio-fisica.json)
-- [ ] Llengua Castellana i Literatura — [JSON](data/es-ib/primaria/materias/llengua-castellana-i-literatura.json)
-- [ ] Llengua Catalana i Literatura — [JSON](data/es-ib/primaria/materias/llengua-catalana-i-literatura.json)
-- [ ] Llengua Estrangera — [JSON](data/es-ib/primaria/materias/llengua-estrangera.json)
-- [ ] Matemàtiques — [JSON](data/es-ib/primaria/materias/matematiques.json)
+- [x] Coneixement del medi natural, social i cultural — [JSON](data/es-ib/primaria/materias/coneixement-del-medi-natural-social-i-cultural.json)
+- [x] Educació Artística — [JSON](data/es-ib/primaria/materias/educacio-artistica.json)
+- [x] Educació en Valors Cívics i Ètics — [JSON](data/es-ib/primaria/materias/educacio-en-valors-civics-i-etics.json)
+- [x] Educació Física — [JSON](data/es-ib/primaria/materias/educacio-fisica.json)
+- [x] Llengua Castellana i Literatura — [JSON](data/es-ib/primaria/materias/llengua-castellana-i-literatura.json)
+- [x] Llengua Catalana i Literatura — [JSON](data/es-ib/primaria/materias/llengua-catalana-i-literatura.json)
+- [x] Llengua Estrangera — [JSON](data/es-ib/primaria/materias/llengua-estrangera.json)
+- [x] Matemàtiques — [JSON](data/es-ib/primaria/materias/matematiques.json)
 
 Los criterios del anexo se publican por ciclo. En siete áreas, los JSON los replican en cada curso para facilitar la consulta; esa duplicación no supone una secuenciación oficial. Las concreciones se presentan según las marcas de curso de las tablas, que tienen carácter orientativo conforme al artículo 10.2. Educación en Valors Cívics i Ètics se representa como un único desarrollo del tercer ciclo, con todos los saberes y su marca `cursoOrientativo` de 5.º o 6.º. El artículo 11.2 sitúa el área en alguno de los cursos del ciclo, no obligatoriamente en ambos.
 
@@ -556,33 +556,33 @@ Los criterios del anexo se publican por ciclo. En siete áreas, los JSON los rep
 
 #### Anexo 2 del Decret 42/2025 — materias de Educación Secundaria Obligatoria
 
-- [ ] Biologia i Geologia — [JSON en borrador](data/es-ib/eso/materias/biologia-i-geologia.json)
-- [ ] Cooperació i Serveis a la Comunitat — [JSON en borrador](data/es-ib/eso/materias/cooperacio-i-serveis-a-la-comunitat.json)
-- [ ] Cultura Clàssica — [JSON en borrador](data/es-ib/eso/materias/cultura-classica.json)
-- [ ] Digitalització — [JSON en borrador](data/es-ib/eso/materias/digitalitzacio.json)
-- [ ] Economia i Emprenedoria — [JSON en borrador](data/es-ib/eso/materias/economia-i-emprenedoria.json)
-- [ ] Educació en Valors Cívics i Ètics — [JSON en borrador](data/es-ib/eso/materias/educacio-en-valors-civics-i-etics.json)
-- [ ] Educació Física — [JSON en borrador](data/es-ib/eso/materias/educacio-fisica.json)
-- [ ] Educació Plàstica, Visual i Audiovisual — [JSON en borrador](data/es-ib/eso/materias/educacio-plastica-visual-i-audiovisual.json)
-- [ ] Entorns Digitals i Multimèdia — [JSON en borrador](data/es-ib/eso/materias/entorns-digitals-i-multimedia.json)
-- [ ] Expressió Artística — [JSON en borrador](data/es-ib/eso/materias/expressio-artistica.json)
-- [ ] Física i Química — [JSON en borrador](data/es-ib/eso/materias/fisica-i-quimica.json)
-- [ ] Formació i Orientació Personal i Professional — [JSON en borrador](data/es-ib/eso/materias/formacio-i-orientacio-personal-i-professional.json)
-- [ ] Geografia i Història — [JSON en borrador](data/es-ib/eso/materias/geografia-i-historia.json)
-- [ ] Igualtat de Gènere — [JSON en borrador](data/es-ib/eso/materias/igualtat-de-genere.json)
-- [ ] Introducció a la Filosofia — [JSON en borrador](data/es-ib/eso/materias/introduccio-a-la-filosofia.json)
-- [ ] Introducció a les tècniques experimentals — [JSON en borrador](data/es-ib/eso/materias/introduccio-a-les-tecniques-experimentals.json)
-- [ ] Llatí — [JSON en borrador](data/es-ib/eso/materias/llati.json)
-- [ ] Llengua Castellana i Literatura — [JSON en borrador](data/es-ib/eso/materias/llengua-castellana-i-literatura.json)
-- [ ] Llengua Catalana i Literatura — [JSON en borrador](data/es-ib/eso/materias/llengua-catalana-i-literatura.json)
-- [ ] Llengua Estrangera — [JSON en borrador](data/es-ib/eso/materias/llengua-estrangera.json)
-- [ ] Matemàtiques — [JSON en borrador](data/es-ib/eso/materias/matematiques.json)
-- [ ] Música — [JSON en borrador](data/es-ib/eso/materias/musica.json)
-- [ ] Recursos Digitals — [JSON en borrador](data/es-ib/eso/materias/recursos-digitals.json)
-- [ ] Segona Llengua Estrangera — [JSON en borrador](data/es-ib/eso/materias/segona-llengua-estrangera.json)
-- [ ] Taller de Finances i Consum Responsable — [JSON en borrador](data/es-ib/eso/materias/taller-de-finances-i-consum-responsable.json)
-- [ ] Tecnologia — [JSON en borrador](data/es-ib/eso/materias/tecnologia.json)
-- [ ] Tecnologia i Digitalització — [JSON en borrador](data/es-ib/eso/materias/tecnologia-i-digitalitzacio.json)
+- [x] Biologia i Geologia — [JSON](data/es-ib/eso/materias/biologia-i-geologia.json)
+- [x] Cooperació i Serveis a la Comunitat — [JSON](data/es-ib/eso/materias/cooperacio-i-serveis-a-la-comunitat.json)
+- [x] Cultura Clàssica — [JSON](data/es-ib/eso/materias/cultura-classica.json)
+- [x] Digitalització — [JSON](data/es-ib/eso/materias/digitalitzacio.json)
+- [x] Economia i Emprenedoria — [JSON](data/es-ib/eso/materias/economia-i-emprenedoria.json)
+- [x] Educació en Valors Cívics i Ètics — [JSON](data/es-ib/eso/materias/educacio-en-valors-civics-i-etics.json)
+- [x] Educació Física — [JSON](data/es-ib/eso/materias/educacio-fisica.json)
+- [x] Educació Plàstica, Visual i Audiovisual — [JSON](data/es-ib/eso/materias/educacio-plastica-visual-i-audiovisual.json)
+- [x] Entorns Digitals i Multimèdia — [JSON](data/es-ib/eso/materias/entorns-digitals-i-multimedia.json)
+- [x] Expressió Artística — [JSON](data/es-ib/eso/materias/expressio-artistica.json)
+- [x] Física i Química — [JSON](data/es-ib/eso/materias/fisica-i-quimica.json)
+- [x] Formació i Orientació Personal i Professional — [JSON](data/es-ib/eso/materias/formacio-i-orientacio-personal-i-professional.json)
+- [x] Geografia i Història — [JSON](data/es-ib/eso/materias/geografia-i-historia.json)
+- [x] Igualtat de Gènere — [JSON](data/es-ib/eso/materias/igualtat-de-genere.json)
+- [x] Introducció a la Filosofia — [JSON](data/es-ib/eso/materias/introduccio-a-la-filosofia.json)
+- [x] Introducció a les tècniques experimentals — [JSON](data/es-ib/eso/materias/introduccio-a-les-tecniques-experimentals.json)
+- [x] Llatí — [JSON](data/es-ib/eso/materias/llati.json)
+- [x] Llengua Castellana i Literatura — [JSON](data/es-ib/eso/materias/llengua-castellana-i-literatura.json)
+- [x] Llengua Catalana i Literatura — [JSON](data/es-ib/eso/materias/llengua-catalana-i-literatura.json)
+- [x] Llengua Estrangera — [JSON](data/es-ib/eso/materias/llengua-estrangera.json)
+- [x] Matemàtiques — [JSON](data/es-ib/eso/materias/matematiques.json)
+- [x] Música — [JSON](data/es-ib/eso/materias/musica.json)
+- [x] Recursos Digitals — [JSON](data/es-ib/eso/materias/recursos-digitals.json)
+- [x] Segona Llengua Estrangera — [JSON](data/es-ib/eso/materias/segona-llengua-estrangera.json)
+- [x] Taller de Finances i Consum Responsable — [JSON](data/es-ib/eso/materias/taller-de-finances-i-consum-responsable.json)
+- [x] Tecnologia — [JSON](data/es-ib/eso/materias/tecnologia.json)
+- [x] Tecnologia i Digitalització — [JSON](data/es-ib/eso/materias/tecnologia-i-digitalitzacio.json)
 
 Los 27 JSON conservan el catalán publicado y separan las aclaraciones de los criterios. Las abreviaturas, los códigos asignados a bloques sin letra y los identificadores de saber son internos. Los criterios compartidos se replican por curso para facilitar la consulta; las marcas de los saberes se conservan como `cursoOrientativo` y no constituyen una secuenciación obligatoria. Cultura Clàssica I/II, Recursos Digitals I/II y Matemàtiques A/B se distinguen mediante variantes. El desarrollo común de Igualtat de Gènere se replica en primero y segundo sin atribuir una secuenciación distinta al decreto. Por decisión de revisión, cuatro saberes sin marca en las tablas se conservan en ambos cursos de su tramo compartido, sin inventar una marca orientativa. El artículo 10.3 declara orientativas las aclaraciones de criterios y la secuenciación por cursos de los saberes. El anexo 7 regula la diversificación curricular mediante ámbitos que integran currículos de materias ya enumeradas; no publica competencias, criterios y saberes independientes para esos ámbitos.
 
@@ -590,68 +590,68 @@ Los 27 JSON conservan el catalán publicado y separan las aclaraciones de los cr
 
 #### Anexo 1 del Decret 43/2025 — materias de Bachillerato
 
-- [ ] Activitat Física, Oci i Salut — [JSON en borrador](data/es-ib/bachillerato/materias/activitat-fisica-oci-i-salut.json)
-- [ ] Ampliació de Matemàtiques — [JSON en borrador](data/es-ib/bachillerato/materias/ampliacio-de-matematiques.json)
-- [ ] Anàlisi Musical — [JSON en borrador](data/es-ib/bachillerato/materias/analisi-musical.json)
-- [ ] Arts Escèniques — [JSON en borrador](data/es-ib/bachillerato/materias/arts-esceniques.json)
-- [ ] Biologia — [JSON en borrador](data/es-ib/bachillerato/materias/biologia.json)
-- [ ] Biologia, Geologia i Ciències Ambientals — [JSON en borrador](data/es-ib/bachillerato/materias/biologia-geologia-i-ciencies-ambientals.json)
-- [ ] Ciències Generals — [JSON en borrador](data/es-ib/bachillerato/materias/ciencies-generals.json)
-- [ ] Cor i Tècnica Vocal — [JSON en borrador](data/es-ib/bachillerato/materias/cor-i-tecnica-vocal.json)
-- [ ] Cultura Audiovisual — [JSON en borrador](data/es-ib/bachillerato/materias/cultura-audiovisual.json)
-- [ ] Dibuix Artístic — [JSON en borrador](data/es-ib/bachillerato/materias/dibuix-artistic.json)
-- [ ] Dibuix Tècnic — [JSON en borrador](data/es-ib/bachillerato/materias/dibuix-tecnic.json)
-- [ ] Dibuix Tècnic Aplicat a les Arts Plàstiques i al Disseny — [JSON en borrador](data/es-ib/bachillerato/materias/dibuix-tecnic-aplicat-a-les-arts-plastiques-i-al-disseny.json)
-- [ ] Disseny — [JSON en borrador](data/es-ib/bachillerato/materias/disseny.json)
-- [ ] Economia — [JSON en borrador](data/es-ib/bachillerato/materias/economia.json)
-- [ ] Economia, Emprenedoria i Activitat Empresarial — [JSON en borrador](data/es-ib/bachillerato/materias/economia-emprenedoria-i-activitat-empresarial.json)
-- [ ] Educació Física — [JSON en borrador](data/es-ib/bachillerato/materias/educacio-fisica.json)
-- [ ] Empresa i Disseny de Models de Negoci — [JSON en borrador](data/es-ib/bachillerato/materias/empresa-i-disseny-de-models-de-negoci.json)
-- [ ] Filosofia — [JSON en borrador](data/es-ib/bachillerato/materias/filosofia.json)
-- [ ] Física — [JSON en borrador](data/es-ib/bachillerato/materias/fisica.json)
-- [ ] Física i Química — [JSON en borrador](data/es-ib/bachillerato/materias/fisica-i-quimica.json)
-- [ ] Fonaments Artístics — [JSON en borrador](data/es-ib/bachillerato/materias/fonaments-artistics.json)
-- [ ] Geografia — [JSON en borrador](data/es-ib/bachillerato/materias/geografia.json)
-- [ ] Geologia i Ciències Ambientals — [JSON en borrador](data/es-ib/bachillerato/materias/geologia-i-ciencies-ambientals.json)
-- [ ] Grec — [JSON en borrador](data/es-ib/bachillerato/materias/grec.json)
-- [ ] Història d’Espanya — [JSON en borrador](data/es-ib/bachillerato/materias/historia-despanya.json)
-- [ ] Història de la Filosofia — [JSON en borrador](data/es-ib/bachillerato/materias/historia-de-la-filosofia.json)
-- [ ] Història de la Música i de la Dansa — [JSON en borrador](data/es-ib/bachillerato/materias/historia-de-la-musica-i-de-la-dansa.json)
-- [ ] Història de l’Art — [JSON en borrador](data/es-ib/bachillerato/materias/historia-de-l-art.json)
-- [ ] Història del Món Contemporani — [JSON en borrador](data/es-ib/bachillerato/materias/historia-del-mon-contemporani.json)
-- [ ] Història i Cultura de les Illes Balears — [JSON en borrador](data/es-ib/bachillerato/materias/historia-i-cultura-de-les-illes-balears.json)
-- [ ] Literatura Dramàtica — [JSON en borrador](data/es-ib/bachillerato/materias/literatura-dramatica.json)
-- [ ] Literatura Universal — [JSON en borrador](data/es-ib/bachillerato/materias/literatura-universal.json)
-- [ ] Llatí — [JSON en borrador](data/es-ib/bachillerato/materias/llati.json)
-- [ ] Llengua Castellana i Literatura — [JSON en borrador](data/es-ib/bachillerato/materias/llengua-castellana-i-literatura.json)
-- [ ] Llengua Catalana i Literatura — [JSON en borrador](data/es-ib/bachillerato/materias/llengua-catalana-i-literatura.json)
-- [ ] Llengua Estrangera — [JSON en borrador](data/es-ib/bachillerato/materias/llengua-estrangera.json)
-- [ ] Llenguatge i Pràctica Musical — [JSON en borrador](data/es-ib/bachillerato/materias/llenguatge-i-practica-musical.json)
-- [ ] Matemàtiques — [JSON en borrador](data/es-ib/bachillerato/materias/matematiques.json)
-- [ ] Matemàtiques Aplicades a les Ciències Socials — [JSON en borrador](data/es-ib/bachillerato/materias/matematiques-aplicades-a-les-ciencies-socials.json)
-- [ ] Matemàtiques generals — [JSON en borrador](data/es-ib/bachillerato/materias/matematiques-generals.json)
-- [ ] Moviments Culturals i Artístics — [JSON en borrador](data/es-ib/bachillerato/materias/moviments-culturals-i-artistics.json)
-- [ ] Programació i Tractament de Dades — [JSON en borrador](data/es-ib/bachillerato/materias/programacio-i-tractament-de-dades.json)
-- [ ] Projecte Empresarial — [JSON en borrador](data/es-ib/bachillerato/materias/projecte-empresarial.json)
-- [ ] Projectes Artístics — [JSON en borrador](data/es-ib/bachillerato/materias/projectes-artistics.json)
-- [ ] Psicologia — [JSON en borrador](data/es-ib/bachillerato/materias/psicologia.json)
-- [ ] Química — [JSON en borrador](data/es-ib/bachillerato/materias/quimica.json)
-- [ ] Segona Llengua Estrangera — [JSON en borrador](data/es-ib/bachillerato/materias/segona-llengua-estrangera.json)
-- [ ] Tècniques d’Expressió Gràficoplàstica — [JSON en borrador](data/es-ib/bachillerato/materias/tecniques-d-expressio-graficoplastica.json)
-- [ ] Tècniques Experimentals — [JSON en borrador](data/es-ib/bachillerato/materias/tecniques-experimentals.json)
-- [ ] Tecnologia i Enginyeria — [JSON en borrador](data/es-ib/bachillerato/materias/tecnologia-i-enginyeria.json)
-- [ ] Treball d’Investigació, Anàlisi i Creativitat — [JSON en borrador](data/es-ib/bachillerato/materias/treball-d-investigacio-analisi-i-creativitat.json)
-- [ ] Unió Europea — [JSON en borrador](data/es-ib/bachillerato/materias/unio-europea.json)
-- [ ] Volum — [JSON en borrador](data/es-ib/bachillerato/materias/volum.json)
+- [x] Activitat Física, Oci i Salut — [JSON](data/es-ib/bachillerato/materias/activitat-fisica-oci-i-salut.json)
+- [x] Ampliació de Matemàtiques — [JSON](data/es-ib/bachillerato/materias/ampliacio-de-matematiques.json)
+- [x] Anàlisi Musical — [JSON](data/es-ib/bachillerato/materias/analisi-musical.json)
+- [x] Arts Escèniques — [JSON](data/es-ib/bachillerato/materias/arts-esceniques.json)
+- [x] Biologia — [JSON](data/es-ib/bachillerato/materias/biologia.json)
+- [x] Biologia, Geologia i Ciències Ambientals — [JSON](data/es-ib/bachillerato/materias/biologia-geologia-i-ciencies-ambientals.json)
+- [x] Ciències Generals — [JSON](data/es-ib/bachillerato/materias/ciencies-generals.json)
+- [x] Cor i Tècnica Vocal — [JSON](data/es-ib/bachillerato/materias/cor-i-tecnica-vocal.json)
+- [x] Cultura Audiovisual — [JSON](data/es-ib/bachillerato/materias/cultura-audiovisual.json)
+- [x] Dibuix Artístic — [JSON](data/es-ib/bachillerato/materias/dibuix-artistic.json)
+- [x] Dibuix Tècnic — [JSON](data/es-ib/bachillerato/materias/dibuix-tecnic.json)
+- [x] Dibuix Tècnic Aplicat a les Arts Plàstiques i al Disseny — [JSON](data/es-ib/bachillerato/materias/dibuix-tecnic-aplicat-a-les-arts-plastiques-i-al-disseny.json)
+- [x] Disseny — [JSON](data/es-ib/bachillerato/materias/disseny.json)
+- [x] Economia — [JSON](data/es-ib/bachillerato/materias/economia.json)
+- [x] Economia, Emprenedoria i Activitat Empresarial — [JSON](data/es-ib/bachillerato/materias/economia-emprenedoria-i-activitat-empresarial.json)
+- [x] Educació Física — [JSON](data/es-ib/bachillerato/materias/educacio-fisica.json)
+- [x] Empresa i Disseny de Models de Negoci — [JSON](data/es-ib/bachillerato/materias/empresa-i-disseny-de-models-de-negoci.json)
+- [x] Filosofia — [JSON](data/es-ib/bachillerato/materias/filosofia.json)
+- [x] Física — [JSON](data/es-ib/bachillerato/materias/fisica.json)
+- [x] Física i Química — [JSON](data/es-ib/bachillerato/materias/fisica-i-quimica.json)
+- [x] Fonaments Artístics — [JSON](data/es-ib/bachillerato/materias/fonaments-artistics.json)
+- [x] Geografia — [JSON](data/es-ib/bachillerato/materias/geografia.json)
+- [x] Geologia i Ciències Ambientals — [JSON](data/es-ib/bachillerato/materias/geologia-i-ciencies-ambientals.json)
+- [x] Grec — [JSON](data/es-ib/bachillerato/materias/grec.json)
+- [x] Història d’Espanya — [JSON](data/es-ib/bachillerato/materias/historia-despanya.json)
+- [x] Història de la Filosofia — [JSON](data/es-ib/bachillerato/materias/historia-de-la-filosofia.json)
+- [x] Història de la Música i de la Dansa — [JSON](data/es-ib/bachillerato/materias/historia-de-la-musica-i-de-la-dansa.json)
+- [x] Història de l’Art — [JSON](data/es-ib/bachillerato/materias/historia-de-l-art.json)
+- [x] Història del Món Contemporani — [JSON](data/es-ib/bachillerato/materias/historia-del-mon-contemporani.json)
+- [x] Història i Cultura de les Illes Balears — [JSON](data/es-ib/bachillerato/materias/historia-i-cultura-de-les-illes-balears.json)
+- [x] Literatura Dramàtica — [JSON](data/es-ib/bachillerato/materias/literatura-dramatica.json)
+- [x] Literatura Universal — [JSON](data/es-ib/bachillerato/materias/literatura-universal.json)
+- [x] Llatí — [JSON](data/es-ib/bachillerato/materias/llati.json)
+- [x] Llengua Castellana i Literatura — [JSON](data/es-ib/bachillerato/materias/llengua-castellana-i-literatura.json)
+- [x] Llengua Catalana i Literatura — [JSON](data/es-ib/bachillerato/materias/llengua-catalana-i-literatura.json)
+- [x] Llengua Estrangera — [JSON](data/es-ib/bachillerato/materias/llengua-estrangera.json)
+- [x] Llenguatge i Pràctica Musical — [JSON](data/es-ib/bachillerato/materias/llenguatge-i-practica-musical.json)
+- [x] Matemàtiques — [JSON](data/es-ib/bachillerato/materias/matematiques.json)
+- [x] Matemàtiques Aplicades a les Ciències Socials — [JSON](data/es-ib/bachillerato/materias/matematiques-aplicades-a-les-ciencies-socials.json)
+- [x] Matemàtiques generals — [JSON](data/es-ib/bachillerato/materias/matematiques-generals.json)
+- [x] Moviments Culturals i Artístics — [JSON](data/es-ib/bachillerato/materias/moviments-culturals-i-artistics.json)
+- [x] Programació i Tractament de Dades — [JSON](data/es-ib/bachillerato/materias/programacio-i-tractament-de-dades.json)
+- [x] Projecte Empresarial — [JSON](data/es-ib/bachillerato/materias/projecte-empresarial.json)
+- [x] Projectes Artístics — [JSON](data/es-ib/bachillerato/materias/projectes-artistics.json)
+- [x] Psicologia — [JSON](data/es-ib/bachillerato/materias/psicologia.json)
+- [x] Química — [JSON](data/es-ib/bachillerato/materias/quimica.json)
+- [x] Segona Llengua Estrangera — [JSON](data/es-ib/bachillerato/materias/segona-llengua-estrangera.json)
+- [x] Tècniques d’Expressió Gràficoplàstica — [JSON](data/es-ib/bachillerato/materias/tecniques-d-expressio-graficoplastica.json)
+- [x] Tècniques Experimentals — [JSON](data/es-ib/bachillerato/materias/tecniques-experimentals.json)
+- [x] Tecnologia i Enginyeria — [JSON](data/es-ib/bachillerato/materias/tecnologia-i-enginyeria.json)
+- [x] Treball d’Investigació, Anàlisi i Creativitat — [JSON](data/es-ib/bachillerato/materias/treball-d-investigacio-analisi-i-creativitat.json)
+- [x] Unió Europea — [JSON](data/es-ib/bachillerato/materias/unio-europea.json)
+- [x] Volum — [JSON](data/es-ib/bachillerato/materias/volum.json)
 
-Las 53 materias del anexo 1 ya tienen JSON en borrador; las materias I/II con un título común se cuentan una sola vez y se desarrollan por curso. Se conserva el texto catalán y se separan las aclaraciones orientativas de los criterios (artículo 10.1). Las abreviaturas e identificadores individuales de saber son internos. Dos optativas publican las competencias dentro de la tabla de criterios, sin desarrollo narrativo separado; el esquema permite omitir esa descripción. Todas las materias siguen pendientes de revisión manual. Las ambigüedades de formato se documentan en el [registro de incidencias](incidencias/es-ib.md).
+Las 53 materias del anexo 1 tienen JSON revisado; las materias I/II con un título común se cuentan una sola vez y se desarrollan por curso. Se conserva el texto catalán y se separan las aclaraciones orientativas de los criterios (artículo 10.1). Las abreviaturas e identificadores individuales de saber son internos. Dos optativas publican las competencias dentro de la tabla de criterios, sin desarrollo narrativo separado; el esquema permite omitir esa descripción. Las ambigüedades de formato se documentan en el [registro de incidencias](incidencias/es-ib.md).
 
 ### CFGB — ámbitos comunes
 
-- [ ] Ciències Aplicades — [JSON en borrador](data/es-ib/cfgb/materias/ciencies-aplicades.json)
-- [ ] Comunicació i Ciències Socials — [JSON en borrador](data/es-ib/cfgb/materias/comunicacio-i-ciencies-socials.json)
+- [x] Ciències Aplicades — [JSON](data/es-ib/cfgb/materias/ciencies-aplicades.json)
+- [x] Comunicació i Ciències Socials — [JSON](data/es-ib/cfgb/materias/comunicacio-i-ciencies-socials.json)
 
-Los dos documentos curriculares proceden del portal institucional de la Dirección General, no de un decreto curricular balear publicado en el BOIB. El Decret 39/2025 organiza los ámbitos y el anexo V del Real Decreto 217/2022 fija las enseñanzas mínimas estatales. Cada PDF contiene un desarrollo común sin división de criterios ni saberes entre primero y segundo; los JSON lo reproducen en ambos cursos por coherencia de acceso, sin presentar esa distribución como oficial. Las dos extracciones quedan pendientes de revisión manual; las discrepancias detectadas figuran en [incidencias de Illes Balears](incidencias/es-ib.md).
+Los dos documentos curriculares proceden del portal institucional de la Dirección General, no de un decreto curricular balear publicado en el BOIB. El Decret 39/2025 organiza los ámbitos y el anexo V del Real Decreto 217/2022 fija las enseñanzas mínimas estatales. Cada PDF contiene un desarrollo común sin división de criterios ni saberes entre primero y segundo; los JSON lo reproducen en ambos cursos por coherencia de acceso, sin presentar esa distribución como oficial. Las discrepancias detectadas y resueltas figuran en [incidencias de Illes Balears](incidencias/es-ib.md).
 
 ### Fuentes oficiales locales
 
@@ -664,3 +664,37 @@ Los dos documentos curriculares proceden del portal institucional de la Direcci�
 - [CFGB — Currículum de Comunicació i Ciències Socials](sources/es-ib/normativa/cfgb/curriculo-comunicacion-ciencias-sociales.pdf)
 - [CFGB — Decret 39/2025 de ordenación](sources/es-ib/normativa/cfgb/2025-08-01-decreto-39-2025-ordenacion-fp.pdf)
 - [CFGB — enseñanzas mínimas estatales, anexo V del Real Decreto 217/2022](sources/es-ib/normativa/cfgb/2022-03-29-real-decreto-217-2022-eso-anexo-v-cfgb.pdf)
+
+## Canarias
+
+### Progreso
+
+- **Fuentes oficiales:** recopiladas para Infantil, Primaria, ESO, Bachillerato y los ámbitos comunes de CFGB.
+- **JSON terminados o en borrador:** 0. Todas las etapas siguen pendientes de extracción y revisión.
+- **Siguiente paso:** extraer las tres áreas de Infantil; las materias de Primaria, ESO y Bachillerato se añadirán al inventariar cada etapa.
+
+### Infantil — áreas del anexo 2
+
+- [ ] Crecimiento en Armonía
+- [ ] Descubrimiento y Exploración del Entorno
+- [ ] Comunicación y Representación de la Realidad
+
+### ESO — ámbitos de Diversificación Curricular
+
+- [ ] Ámbito Lingüístico y Social
+- [ ] Ámbito Científico-Tecnológico
+- [ ] Ámbito Práctico
+
+### CFGB — ámbitos comunes del anexo 1
+
+- [ ] Ámbito de las Ciencias Aplicadas
+- [ ] Ámbito de Comunicación y Ciencias Sociales
+
+### Fuentes oficiales locales
+
+- [Catálogo de fuentes de Canarias](sources/es-cn/normativa/catalogo.json)
+- [Infantil — Decreto 196/2022](sources/es-cn/normativa/infantil/2022-10-13-decreto-196-2022-curriculo-infantil.pdf) y [corrección de errores](sources/es-cn/normativa/infantil/2022-10-28-correccion-errores-decreto-196-2022.pdf)
+- [Primaria — Decreto 211/2022](sources/es-cn/normativa/primaria/2022-11-10-decreto-211-2022-curriculo-primaria.pdf)
+- [ESO y Bachillerato — Decreto 30/2023](sources/es-cn/normativa/eso-bachillerato/2023-03-16-decreto-30-2023-curriculo-eso-bachillerato.pdf) — anexos 2 y 3
+- [ESO, Diversificación Curricular — Decreto 86/2025](sources/es-cn/normativa/eso/2025-06-30-decreto-86-2025-diversificacion-curricular.pdf)
+- [CFGB, ámbitos comunes — Decreto 9/2023](sources/es-cn/normativa/cfgb/2023-01-26-decreto-9-2023-curriculo-cfgb.pdf) — anexo 1

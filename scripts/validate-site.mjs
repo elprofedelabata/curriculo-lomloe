@@ -18,7 +18,7 @@ check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etap
 check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "infantil" && item.revision?.estado === "revisado").length === 3, "El catálogo de Illes Balears no contiene sus 3 áreas de Infantil revisadas.");
 check(catalog.incidencias.filter((item) => item.territorio === "es-ib" && !item.revisada).length === 0, "No deben quedar incidencias baleares pendientes de revisión.");
 check(catalog.materias.filter((item) => item.etapa === "primaria").length === 39, "El catálogo de Primaria no contiene 39 materias territoriales.");
-check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "primaria" && item.revision?.estado === "borrador").length === 8, "El catálogo de Illes Balears no contiene sus 8 áreas de Primaria en borrador.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "primaria" && item.revision?.estado === "revisado").length === 8, "El catálogo de Illes Balears no contiene sus 8 áreas de Primaria revisadas.");
 const balearValues = catalog.materias.find((item) => item.id === "es-ib.primaria.educacio-en-valors-civics-i-etics");
 check(balearValues?.ciclos.length === 1 && balearValues.ciclos[0].ciclo === 3 && balearValues.cursos.length === 0, "Educación en Valores debe figurar como área del tercer ciclo, no como obligatoria en ambos cursos.");
 const balearValuesDocument = JSON.parse(await readFile(resolve(dist, "data/es-ib/primaria/materias/educacio-en-valors-civics-i-etics.json"), "utf8"));
@@ -35,10 +35,10 @@ check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etap
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "primaria").length === 10, "El catálogo de Asturias no contiene sus 10 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "eso").length === 24, "El catálogo de Asturias no contiene sus 24 currículos de ESO.");
 check(catalog.materias.filter((item) => item.etapa === "eso").length === 121, "El catálogo de ESO no contiene 121 materias territoriales.");
-check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "eso" && item.revision?.estado === "borrador").length === 27, "El catálogo de Illes Balears no contiene sus 27 materias de ESO en borrador.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "eso" && item.revision?.estado === "revisado").length === 27, "El catálogo de Illes Balears no contiene sus 27 materias de ESO revisadas.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "eso").length === 38, "El catálogo de Aragón no contiene sus 38 currículos de ESO.");
 check(catalog.materias.filter((item) => item.etapa === "bachillerato").length === 218, "El catálogo de Bachillerato no contiene 218 materias territoriales.");
-check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "bachillerato" && item.revision?.estado === "borrador").length === 53, "El catálogo de Illes Balears no contiene sus 53 materias de Bachillerato en borrador.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "bachillerato" && item.revision?.estado === "revisado").length === 53, "El catálogo de Illes Balears no contiene sus 53 materias de Bachillerato revisadas.");
 const activitatFisica = JSON.parse(await readFile(resolve(dist, "data/es-ib/bachillerato/materias/activitat-fisica-oci-i-salut.json"), "utf8"));
 check(
   activitatFisica.introduccion.ca[0].includes("de la matèria d’Activitat Física, Oci i Salut") &&
@@ -82,7 +82,9 @@ check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etap
 check(catalog.materias.filter((item) => item.etapa === "cfgb").length === 8, "El catálogo de CFGB no contiene 8 ámbitos territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "cfgb").length === 2, "El catálogo de Aragón no contiene sus 2 ámbitos de CFGB.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "cfgb").length === 2, "El catálogo de Asturias no contiene sus 2 ámbitos de CFGB.");
-check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "cfgb" && item.revision?.estado === "borrador").length === 2, "Faltan los dos ámbitos de CFGB de Illes Balears en borrador.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "cfgb" && item.revision?.estado === "revisado").length === 2, "Faltan los dos ámbitos de CFGB revisados de Illes Balears.");
+check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.revision?.estado === "revisado").length === 116, "Los 116 JSON de Aragón deben constar como revisados.");
+check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.revision?.estado === "revisado").length === 93, "Los 93 JSON de Illes Balears deben constar como revisados.");
 for (const [slug, criteria, sabers, blocks] of [
   ["ciencies-aplicades", 18, 55, 11],
   ["comunicacio-i-ciencies-socials", 23, 89, 4],
