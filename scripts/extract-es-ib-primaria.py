@@ -47,6 +47,20 @@ def collapse(value):
     return unicodedata.normalize("NFC", value)
 
 
+def clean_criterion_text(value):
+    """Normaliza cortes de línea y la errata del CA 5.2 del segundo ciclo de CMSC."""
+    for split, joined in (
+        ("par-ticipant", "participant"),
+        ("re-solució", "resolució"),
+        ("gui-ada", "guiada"),
+        ("pro-gramació", "programació"),
+    ):
+        value = value.replace(split, joined)
+    if value.startswith("dentificar connexions"):
+        value = "I" + value
+    return value
+
+
 def clean_table_guidance(value):
     """Quita guiones de viñeta que la extracción intercala entre palabras."""
     return re.sub(r"(?<=[A-Za-zÀ-ÿ])\s+-\s+(?=[A-Za-zÀ-ÿ])", " ", value)
@@ -266,7 +280,7 @@ def extract_tables(area, pdf, words):
                     current_criterion = {
                         "codigoOficial": f"{ce}.{number}",
                         "competenciaEspecificaRef": f"ce-{ce}",
-                        "texto": {"ca": text},
+                        "texto": {"ca": clean_criterion_text(text)},
                         "saberesBasicosRefs": [],
                         "procedencia": {"fuenteRef": SOURCE_ID, "paginas": {page_no}},
                     }
@@ -281,7 +295,9 @@ def extract_tables(area, pdf, words):
                         append_text(current_criterion, "aclaraciones", pending_text, pending_page)
                     pending_guidance.clear()
                 elif left and current_criterion:
-                    current_criterion["texto"]["ca"] = collapse(current_criterion["texto"]["ca"] + " " + left)
+                    current_criterion["texto"]["ca"] = clean_criterion_text(
+                        collapse(current_criterion["texto"]["ca"] + " " + left)
+                    )
                     current_criterion["procedencia"]["paginas"].add(page_no)
                 elif left:
                     # Las cabeceras CE que se parten en varias filas no son criterios.

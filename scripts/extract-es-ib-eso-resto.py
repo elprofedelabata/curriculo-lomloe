@@ -150,6 +150,12 @@ def parse_criteria(area, segment):
     parsed, _ = base.criteria(
         area, trimmed + [(trimmed[-1][0], "Sabers bàsics")], 0
     )
+    if area[0] == "Física i Química":
+        for item in parsed:
+            if item["codigoOficial"] == "3.1":
+                item["texto"]["ca"] = item["texto"]["ca"].replace(
+                    "interpretar. organitzar", "interpretar, organitzar"
+                )
     return parsed
 
 

@@ -174,6 +174,7 @@ def parse_area_tables(area, pdf, word_pages):
     block_name = None
     current_criterion = None
     current_saber = None
+    in_competence_heading = False
     diagnostics = []
 
     for page_no in range(start, end + 1):
@@ -200,6 +201,7 @@ def parse_area_tables(area, pdf, word_pages):
                 block_letter, block_name = first[0], collapse(first[3:])
                 cycle = None
                 current_saber = None
+                in_competence_heading = False
                 continue
             table, row = first, second
             if len(table.columns) == 2:
@@ -214,6 +216,7 @@ def parse_area_tables(area, pdf, word_pages):
                 if not left and not right:
                     continue
                 if re.match(r"^CE [1-9]\s", left) and not right:
+                    in_competence_heading = True
                     continue
                 block_match = re.match(r"^([A-I])\.\s+(.+)", left)
                 if block_match and not right:
@@ -227,6 +230,7 @@ def parse_area_tables(area, pdf, word_pages):
                     cycle = 1 if left.startswith("PRIMER") else 2
                     current_criterion = None
                     current_saber = None
+                    in_competence_heading = False
                     continue
                 if cycle is None:
                     if mode == "saberes" and left and not right and left.isupper():
@@ -237,6 +241,7 @@ def parse_area_tables(area, pdf, word_pages):
                     match = re.match(r"^CA\s+([1-9])\.([1-9])\.?\s+(.+)", left)
                     if match:
                         ce_no, criterion_no, text = match.groups()
+                        in_competence_heading = False
                         current_criterion = {
                             "id": f"cri-{cycle}-{ce_no}-{criterion_no}",
                             "codigoOficial": f"{ce_no}.{criterion_no}",
@@ -246,6 +251,9 @@ def parse_area_tables(area, pdf, word_pages):
                             "procedencia": {"fuenteRef": SOURCE_ID, "paginas": {page_no}},
                         }
                         developments[cycle]["criteriosEvaluacion"].append(current_criterion)
+                    elif in_competence_heading:
+                        # La cabecera CE puede continuar en otra fila de la tabla.
+                        continue
                     elif left and current_criterion:
                         current_criterion["texto"]["ca"] = collapse(
                             current_criterion["texto"]["ca"] + " " + left

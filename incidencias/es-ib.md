@@ -11,6 +11,12 @@ Registro de discrepancias detectadas en los decretos curriculares baleares y en 
 | [X] | IB-INF-001 | [Comunicació i Representació de la Realitat](../data/es-ib/infantil/materias/comunicacio-i-representacio-de-la-realitat.json) | En el segundo ciclo, bloque E, el saber «La biblioteca escolar» aparece sin punto final en la página 69 del PDF. | Se añade el punto final para mantener la puntuación uniforme de los saberes. |
 | [X] | IB-INF-002 | [Comunicació i Representació de la Realitat](../data/es-ib/infantil/materias/comunicacio-i-representacio-de-la-realitat.json) | La introducción afirma que los saberes se estructuran en ocho bloques, pero la tabla del segundo ciclo enumera nueve, de A a I. | Se conserva la introducción literal y se representan los nueve bloques de la tabla, incluido el bloque I de alfabetización digital. |
 
+## Primaria — incidencias revisadas
+
+| Revisada | ID | Materia | Incidencia | Decisión aplicada |
+| --- | --- | --- | --- | --- |
+| [X] | IB-PRIM-001 | [Coneixement del Medi Natural, Social i Cultural](../data/es-ib/primaria/materias/coneixement-del-medi-natural-social-i-cultural.json) | En la página 56, el criterio 5.2 del segundo ciclo comienza «dentificar connexions», sin la «I» inicial. El criterio se reproduce en los JSON de 3.º y 4.º. | Se normaliza a «Identificar connexions» en ambos cursos. |
+
 ## ESO — incidencias revisadas
 
 | Revisada | ID | Materia | Incidencia | Decisión aplicada |
@@ -20,6 +26,7 @@ Registro de discrepancias detectadas en los decretos curriculares baleares y en 
 | [X] | IB-ESO-003 | [Llengua Catalana i Literatura](../data/es-ib/eso/materias/llengua-catalana-i-literatura.json) | En la página 247, «Diferències entre plurilingüisme i diversitat dialectal. Aproximació a les llengües de signes» aparece sin «x» en las columnas de 1.º y 2.º. | Se conserva en ambos cursos del desarrollo compartido, sin atribuirle una marca de curso orientativa que no está publicada. |
 | [X] | IB-ESO-004 | [Llengua Estrangera](../data/es-ib/eso/materias/llengua-estrangera.json) | En la página 289, «Ús d’estructures per oferir, acceptar i rebutjar ajuda, proposicions o suggeriments» aparece sin «x» en las columnas de 3.º y 4.º. | Se conserva en ambos cursos del tramo, sin inventar una asignación orientativa. |
 | [X] | IB-ESO-005 | [Segona Llengua Estrangera](../data/es-ib/eso/materias/segona-llengua-estrangera.json) | En la página 376, «Ús d’estructures per oferir, acceptar i rebutjar ajuda, proposicions o suggeriments» aparece sin «x» en las columnas de 3.º y 4.º. | Se conserva en ambos cursos del tramo, sin inventar una asignación orientativa. |
+| [X] | IB-ESO-006 | [Física i Química](../data/es-ib/eso/materias/fisica-i-quimica.json) | En la página 153, el criterio 3.1 de 4.º imprime «seleccionar, interpretar. organitzar i comunicar» con un punto improcedente en la enumeración. | Se sustituye por una coma: «seleccionar, interpretar, organitzar i comunicar». |
 
 ## Bachillerato — incidencias revisadas
 
