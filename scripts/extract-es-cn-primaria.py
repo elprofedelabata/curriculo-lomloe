@@ -183,7 +183,7 @@ def parse_table(table: ET.Element, cycle: int, lo: int, hi: int, pages: list[str
     first = rows[0].findall(f"./{TABLE}table-cell")
     enunciados = [p for p in direct_paragraphs(first[0]) if re.match(r"^\d+\.", p)]
     assert enunciados, plain(first[0])[:80]
-    descriptors = REF.findall(plain(first[1]))
+    descriptors = REF.findall(" ".join(direct_paragraphs(first[1])))
     competencies = []
     for entry in enunciados:
         match = re.match(r"^(\d+)\.\s*(.*)$", entry)
@@ -205,7 +205,7 @@ def parse_table(table: ET.Element, cycle: int, lo: int, hi: int, pages: list[str
         match = NUMBERED.match(raw)
         assert match, raw[:100]
         major, minor, statement = match.groups()
-        refs = REF.findall(plain(cells[1])) if len(cells) > 1 else []
+        refs = REF.findall(" ".join(direct_paragraphs(cells[1]))) if len(cells) > 1 else []
         if major == "7" and minor == "2" and cycle == 1 and "CCE3" in refs:
             # Errata del BOC confirmada en CN-PRIM-004: la cabecera de CE7 indica CC3.
             refs = ["CC3" if ref == "CCE3" else ref for ref in refs]

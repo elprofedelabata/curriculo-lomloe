@@ -1,0 +1,1491 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.eso.ambito-practico",
+  "territorio": "es-cn",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "AP",
+    "nombre": {
+      "es": "Ámbito Práctico"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "ambito"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2025-07-08",
+    "aplicableDesdeCurso": "2025/2026",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2025-133-decreto-86-2025",
+      "tipo": "decreto",
+      "titulo": "Decreto 86/2025, de 30 de junio, por el que se establece el currículo de los ámbitos de los Programas de Diversificación Curricular en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "133",
+      "fechaPublicacion": "2025-07-07",
+      "cve": "BOC-A-2025-133-2484",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2025-133-2484.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2025/133/2484.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 100,
+        "hasta": 118
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La finalidad de los Programas de Diversificación Curricular (PDC) es que el alumnado desarrolle las competencias establecidas en el Perfil de salida del alumnado al término de la enseñanza básica y obtenga el título de Graduado en Educación Secundaria Obligatoria. En particular, la sociedad canaria del siglo XXI precisa que el alumnado que cursa la materia de Ámbito Práctico pueda incorporar aquellos aprendizajes esenciales relacionados con las materias de Tecnología y de Digitalización, que se imparten en el nivel educativo de cuarto de Educación Secundaria Obligatoria, a partir de una metodología que tenga en cuenta las necesidades y características del alumnado, y atendiendo a su ritmo de aprendizaje, intereses y capacidades. Para ello, este ámbito pone de manifiesto el impacto de la digitalización y de los avances tecnológicos, que son especialmente relevantes en el territorio canario debido a la condición de insularidad y orografía, contribuyendo a impulsar su desarrollo socioeconómico, originando una transformación de pueblos y ciudades, modificando la forma en que las personas viven, trabajan y se relacionan entre sí y con el entorno económico, social e industrial que las rodea, y teniendo en cuenta la globalización que se vive en la actualidad, y la consecución de los Objetivos de Desarrollo Sostenible a través de las metas canarias que responden a los retos de nuestra región, identificados en la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "De este modo, el Ámbito Práctico facilita la adquisición de destrezas —búsqueda y procesamiento de la información, comunicación efectiva, interacción en los entornos digitales y resolución de problemas tecnológicos— y conocimientos esenciales para que este alumnado pueda estar preparado, adoptando una actitud crítica, para enfrentarse a los desafíos y a las oportunidades del futuro, tanto de manera individual como en colaboración con otras personas, y así ejercer una ciudadanía activa y comprometida. Con ello, el alumnado aprenderá a emplear de manera crítica y responsable estrategias y herramientas que permitan detectar, entre otros aspectos, los ciberdelitos, el ciberacoso, la violencia de género, la violencia sexual en redes sociales, las actitudes relacionadas con las LGTBI+fobias o la suplantación de identidades, con la finalidad de participar en la red de manera segura.",
+      "Además, este ámbito contribuye a que el alumnado pueda desempeñar un papel activo para facilitar la vida de las personas en la consecución de una sociedad inclusiva, equitativa y sostenible, mediante el uso ético y responsable de las tecnologías, incluyendo las emergentes, a partir del análisis, del diseño y de la fabricación segura de soluciones creativas. Para ello, es fundamental que se apliquen los principios del pensamiento computacional para favorecer, en este tipo de alumnado que presenta dificultades de aprendizaje, la resolución de los problemas mediante el trabajo colaborativo, el fomento de la creatividad, su motivación e interés hacia el aprendizaje y el desarrollo de habilidades sociales y emocionales.",
+      "Contribución a los objetivos de etapa",
+      "Esta materia contribuye a la consecución de los objetivos de la etapa recogidos en el artículo 21 del Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias.",
+      "Los objetivos de etapa se referencian con la letra correspondiente entre paréntesis. En primer lugar, implica que el alumnado asuma de manera responsable sus derechos (a), siendo tolerante con las opiniones de las demás personas, utilizando un lenguaje inclusivo, libre de estereotipos sexistas, y rechazando cualquier tipo de discriminación —por sexo, género, orientación sexual, raza, religión…— (c). Asimismo, este ámbito contribuye, al mismo tiempo, a la participación del alumnado en el trabajo colaborativo y en equipo (b), desarrollando su espíritu emprendedor y sentido crítico en la resolución de problemas tecnológicos sencillos (g), aplicando los conocimientos como un saber integrado (f), especialmente aquellos relativos a la seguridad, y fortaleciendo sus capacidades afectivas en las interacciones críticas y respetuosas en diferentes ámbitos reales o virtuales (d). Además, el alumnado que curse este ámbito precisa de desarrollar destrezas básicas en el uso de las fuentes de información, valorando con actitud crítica, responsable, segura, saludable y sostenible, la fiabilidad de estas, con la finalidad de construir su propio conocimiento y comunicarlo adecuadamente (e) en la búsqueda de soluciones creativas ante necesidades planteadas de su entorno, utilizando el pensamiento científico, y comprendiendo y expresando con eficacia la información de forma oral, escrita, signada o multimodal (h). Con esta materia el alumnado valora la creación artística de las producciones digitales, al igual que los aspectos básicos de la identidad cultural canaria (j), empleando diversos medios de expresión y representación (l).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de este ámbito tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para todo el alumnado que finaliza la Educación Secundaria Obligatoria.",
+      "Esta materia contribuye al desarrollo y la adquisición de la Competencia en comunicación lingüística (CCL), al fomentar en el alumnado la capacidad de comunicación en diferentes contextos, reales y virtuales, de manera coherente y adecuada tanto para intercambiar información, ya sea a través de mensajes orales, signados, escritos, audiovisuales o multimodales, como para generar nuevos conocimientos a partir de la difusión de las propuestas y haciendo uso de un lenguaje inclusivo libre de estereotipos sexistas. Además, implica la capacidad del alumnado para localizar, seleccionar y contrastar la información de diferentes fuentes.",
+      "El Ámbito Práctico contribuye, además, a la adquisición de la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM) en las etapas de idear, desarrollar, fabricar y difundir productos y soluciones tecnológicas, eficientes e innovadoras, utilizando las estrategias del aprendizaje basado en proyectos, teniendo en cuenta criterios de seguridad; así como en los procesos de diseñar, construir, controlar o simular sistemas robóticos sencillos, aplicando estrategias del pensamiento computacional y analizando las posibles soluciones. También este ámbito contribuye en la adquisición de esta competencia, a partir de la aplicación de conocimientos y métodos inductivos y deductivos en el desarrollo de estrategias que permitan entender y explicar diferentes situaciones para la resolución de problemas de forma crítica, como sucede con la configuración adecuada de las redes locales.",
+      "Asimismo, la contribución a la Competencia digital (CD) se materializa en el uso crítico, responsable, seguro y saludable de tecnologías digitales de comunicación de su entorno personal digital o de plataformas virtuales, para el desarrollo de una adecuada ciudadanía digital activa, cívica y reflexiva, que respete la privacidad y la propiedad intelectual, resolviendo las tareas propuestas de manera eficiente, con la finalidad de idear, desarrollar y difundir información, así como crear contenidos digitales, y adoptando criterios de calidad y fiabilidad en la búsqueda, la selección y el almacenamiento de contenidos en la red.",
+      "De la misma manera, esta materia contribuye a la Competencia personal, social y de aprender a aprender (CPSAA), porque se basa en la utilización de estrategias que facilitan aprender de los errores para favorecer la construcción del conocimiento y reformular el procedimiento, si fuera necesario, con el propósito de mejorar el proceso de aprendizaje de forma individual y colaborativa, mostrando interés, motivación y una actitud proactiva.",
+      "La contribución de esta materia al desarrollo y adquisición de la Competencia ciudadana (CC) se refleja en el fomento de una actitud democrática, respetuosa y responsable en la interacción con las demás personas en cualquier contexto, espacios reales o virtuales, atendiendo a la inclusión y al respeto por la diversidad, así como al compromiso con la igualdad entre mujeres y hombres para el logro de una adecuada ciudadanía digital. Asimismo, la contribución a esta competencia viene dada por la adquisición de un estilo de vida sostenible y ecosocialmente responsable, consciente de la brecha sociocultural y territorial canaria.",
+      "La Competencia emprendedora (CE) se adquiere a partir del proceso de creación de ideas y de contenidos, así como de la búsqueda de soluciones creativas e innovadoras para resolver problemas tecnológicos sencillos de manera ética, teniendo en cuenta criterios de accesibilidad, sostenibilidad e impacto social y ambiental.",
+      "La Competencia en conciencia y expresión culturales (CCEC) se adquiere a través de la creación de productos digitales, de forma individual o grupal, a partir del conocimiento, de la selección y del uso con creatividad de diversos medios y soportes, así como de técnicas, para que el alumnado pueda expresar ideas, opiniones y conocimientos, apreciando y valorando las diferentes manifestaciones artísticas y culturales de la identidad cultural canaria.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada ámbito: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios del ámbito. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios del ámbito y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo del Ámbito Práctico se han establecido seis competencias específicas que se concretan en diecisiete criterios de evaluación. Estos criterios de evaluación tienen una clara naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos del Perfil de salida a los que contribuye cada una de las competencias específicas, expresando las capacidades y los saberes que el alumnado debe adquirir, a la vez que el contexto y el modo de aplicación.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos del ámbito aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de estos.",
+      "Esta materia está organizada en seis bloques de saberes básicos que suponen la integración de conocimientos, destrezas y actitudes, de manera que los aprendizajes que se deriven de ellos deben incidir en la formación integral del alumnado desde un tratamiento competencial. Existe una relación directa entre los saberes de la materia, y las competencias específicas y los criterios de evaluación, aunque será el equipo docente quien determine, en última instancia, y dentro del margen de autonomía del que dispone, de entre los saberes propuestos, aquellos que se estimen más adecuados para implementar los aprendizajes establecidos en cada uno de los bloques competenciales.",
+      "Estos saberes quedan estructurados de la siguiente manera: I. «Proceso de resolución de problemas», II. «Operadores tecnológicos», III. «Pensamiento computacional, programación y robótica», IV. «Digitalización del entorno personal de aprendizaje», V. «Seguridad y ciudadanía digital» y VI. «Dispositivos digitales y sistema de comunicación». En el caso particular de la C2, queda asociada a varios bloques de saberes básicos que se relacionan también directamente con otras competencias específicas.",
+      "En el Bloque I, «Proceso de resolución de problemas», se hace referencia al método de proyectos que lleva implícito la utilización de estrategias de gestión de proyectos colaborativos, así como las técnicas de ideación, resolución de problemas y difusión de proyectos y soluciones tecnológicas, analizando la selección de productos y materiales, y la aplicación de las diversas técnicas de fabricación manual, mecánica y digital, y manteniendo un compromiso con la igualdad, la accesibilidad y el bienestar emocional personal y colectivo.",
+      "En el Bloque II, «Operadores tecnológicos», se tratan principalmente los componentes básicos de los sistemas electrónicos aplicados a proyectos relacionados con la robótica.",
+      "El Bloque III, «Pensamiento computacional, programación y robótica» se enfoca en el proceso de diseño, construcción y control de robots sencillos, así como en los aspectos básicos de la programación y control, y sus aplicaciones prácticas. Además, este bloque permite una aproximación al conocimiento de la inteligencia artificial y al internet de las cosas.",
+      "En el Bloque IV, «Digitalización del entorno personal de aprendizaje», se enfatiza en la mejora de los procesos de alfabetización digital necesarios para un aprendizaje continuo, que fomenten tanto la búsqueda y selección de información, como la creación y el uso de contenido de forma crítica, y promuevan la colaboración y el respeto por los derechos de autoría y la propiedad intelectual.",
+      "El Bloque V, «Seguridad y ciudadanía digital», capacita al alumnado para implementar medidas preventivas y correctivas ante los posibles riesgos y amenazas que puedan afectar tanto a la seguridad de los dispositivos como al bienestar físico y emocional en los entornos digitales. Además, se aborda la importancia de aplicar estrategias básicas para tener una adecuada ciudadanía digital, para que el alumnado se pueda enfrentar a problemas como el ciberacoso, la violencia de género, la discriminación hacia la comunidad LGTBI+, la suplantación de identidad, los contenidos inapropiados y el abuso en la utilización de los dispositivos digitales, aspectos todos ellos que pueden representar amenazas para su bienestar físico y emocional.",
+      "En el Bloque VI, «Dispositivos digitales y sistema de comunicación», se profundiza en la conexión de los dispositivos digitales a las redes locales, a partir del conocimiento de las funciones de sus componentes y de la configuración de los sistemas operativos, y de los riesgos que conlleva todo ello.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada ámbito, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo del ámbito implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "Las orientaciones metodológicas del Ámbito práctico deben adecuarse a las características y necesidades del alumnado que cursa los PDC, dado que presenta dificultades relevantes de aprendizaje y para ello se deben establecer metodologías que garanticen que el alumnado pueda alcanzar los objetivos de etapa y el grado de desarrollo y adquisición de las competencias clave establecido en el Perfil de salida al término de la enseñanza básica.",
+      "De esta manera, las situaciones de aprendizaje que se diseñen a lo largo del curso deben tener un carácter eminentemente competencial, práctico, participativo e integrador, a partir del análisis de las necesidades detectadas en su entorno inmediato, en las que el alumnado sea el protagonista de los procesos de enseñanza y aprendizaje, atendiendo a sus conocimientos previos y a sus diferentes formas de aprender, ritmos de aprendizaje, motivaciones, intereses y circunstancias del alumnado, teniendo en cuenta los principios del Diseño Universal para el Aprendizaje (DUA), que favorecen la capacidad inclusiva de la educación, y que permitan, además, fortalecer su confianza y su actitud hacia el proceso de aprendizaje en el que el profesorado sea un facilitador de dichos aprendizajes.",
+      "Resulta fundamental el uso de metodologías como el aprendizaje basado en proyectos (ABP) y la metodología de aprendizaje-servicio, con la finalidad de integrar los aprendizajes del alumnado en la mejora de su entorno social, dado el impacto de los procesos tecnológicos y de las herramientas digitales en la sociedad. Para ello, estas metodologías activas deben fomentar la autonomía del alumnado mediante el trabajo en equipo; por otro lado, las actividades deben estar contextualizadas a la condición del territorio fragmentado en Canarias, integrando las herramientas digitales para el desarrollo de una adecuada ciudadanía activa y teniendo en cuenta criterios de accesibilidad, sostenibilidad e impacto social y ambiental.",
+      "Las situaciones de aprendizaje que se planteen deben fomentar la capacidad de desarrollar en el alumnado una comunicación eficaz de manera respetuosa, siendo tolerante con las opiniones de otras personas, tanto para intercambiar información como para la generación de nuevos conocimientos en diferentes entornos, lo que precisa del uso de diferentes recursos digitales y la utilización de un lenguaje inclusivo, libre de estereotipos sexistas, rechazando cualquier tipo de discriminación. También se contribuirá a la aplicación de estrategias y normas de etiqueta exigidas en la interacción en el medio digital que faciliten la implementación de medidas de actuación y seguridad que protejan el entorno digital personal y la huella digital. De la misma forma, las situaciones de aprendizaje deben contribuir al respeto de las normas de seguridad y salud en el trabajo en el taller, la resolución pacífica de conflictos que puedan surgir, la responsabilidad en la mejora de la comunidad en la que conviven y la autonomía en la aplicación de los conocimientos.",
+      "Dado el carácter competencial de esta materia, se debe facilitar la evaluación del grado de desarrollo y la adquisición de las competencias, teniendo en cuenta los criterios de evaluación como referente del nivel de desempeño esperado en el alumnado para el logro de la competencia específica correspondiente y los descriptores del Perfil de salida hacia los que apunta dicha competencia. De este modo, se utilizarán en su evaluación diversas técnicas, como la observación sistemática, el análisis de producciones...; así como herramientas variadas, entre las que se encuentren el registro anecdótico y descriptivo, el diario de clase, las rúbricas…, e instrumentos de evaluación heterogéneos y adaptados a las distintas situaciones de aprendizaje que permitan una valoración objetiva y que evidencien el grado de desarrollo y adquisición de los aprendizajes esperados y de sus competencias vinculadas. Estas técnicas, instrumentos y herramientas deben estar dotados de capacidad diagnóstica y orientados a procesos de mejora y, por supuesto, adaptados a las distintas situaciones de aprendizaje; además de permitir una evaluación objetiva. También se deben propiciar los procesos de coevaluación y autoevaluación del alumnado como una oportunidad para aprender, en tanto en cuanto el alumnado pueda reflexionar para valorar los logros y dificultades propios y ajenos, contribuyendo a la mejora de su autonomía."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Fabricar productos y soluciones tecnológicas con iniciativa y creatividad, seleccionando y aplicando de manera segura y responsable distintos conocimientos, procedimientos y recursos tecnológicos a la realización de proyectos de manera colaborativa, cooperativa e innovadora, para dar respuesta a necesidades planteadas en su entorno próximo con criterios de accesibilidad y sostenibilidad."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA3",
+        "CPSAA4",
+        "CC4",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-133-decreto-86-2025",
+        "paginas": [
+          103,
+          108
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con el desarrollo de esta competencia específica, se pretende que el alumnado adquiera la capacidad para fabricar, de manera creativa e innovadora, productos y soluciones tecnológicas accesibles y sostenibles mediante la aplicación de técnicas y conocimientos interdisciplinares adecuados, a partir del estudio de las necesidades de su entorno.",
+          "Para alcanzar este nivel de desempeño, esta competencia se concreta en dos criterios de evaluación. El primer criterio está orientado al desarrollo de estrategias que permitan idear, desarrollar, fabricar y difundir productos y soluciones tecnológicas eficientes a problemas planteados, utilizando el método de proyectos y técnicas colaborativas adecuadas. El segundo criterio se encamina hacia el diseño y la fabricación de productos y soluciones tecnológicas, a partir de la selección y aplicación de manera segura y responsable de herramientas de diseño asistido, técnicas de elaboración manual, mecánica o digital, empleando los materiales y recursos mecánicos, eléctricos, electrónicos y digitales adecuados, con la finalidad de dar respuesta a las necesidades planteadas desde un enfoque interdisciplinar y teniendo en cuenta el impacto global generado."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Expresar, comunicar y difundir ideas, propuestas o soluciones tecnológicas, usando un lenguaje inclusivo y no sexista, empleando los recursos disponibles, y aplicando los elementos y técnicas necesarias, para intercambiar la información de manera responsable y fomentar el trabajo en equipo."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-133-decreto-86-2025",
+        "paginas": [
+          103,
+          109
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica permite que el alumnado desarrolle la capacidad para intercambiar la información de manera responsable y eficiente en diferentes contextos, fomentando el trabajo en equipo, mediante el uso adecuado de la expresión, comunicación y difusión de ideas.",
+          "Para alcanzar este nivel de desempeño, esta competencia se concreta en dos criterios de evaluación. El primer criterio profundiza en el empleo de herramientas digitales apropiadas y la aplicación de un vocabulario técnico, una simbología y unos esquemas adecuados para participar colaborativamente en las interacciones comunicativas. El segundo criterio de evaluación se encamina a la presentación y difusión de la información de manera efectiva, manteniendo una actitud responsable y respetuosa, en diversos contextos, medios y canales, utilizando un lenguaje inclusivo y no sexista, y contribuyendo al desarrollo de una ciudadanía digital activa."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Diseñar, construir, controlar o simular sistemas robóticos sencillos, aplicando estrategias del pensamiento computacional mediante dispositivos y aplicaciones digitales y tecnologías digitales emergentes, relacionados con la programación, para resolver problemas concretos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA3",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-133-decreto-86-2025",
+        "paginas": [
+          104,
+          110
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con el desarrollo de esta competencia específica, se persigue que el alumnado adquiera la capacidad para aplicar los principios del pensamiento computacional en el proceso de diseño, construcción, control o simulación de sistemas robóticos sencillos mediante dispositivos y aplicaciones digitales; así como las tecnologías emergentes relacionadas con la programación.",
+          "Para ello, esta competencia comprende tres criterios de evaluación. El primer criterio de evaluación abarca la generación de secuencias de instrucciones y algoritmos para la resolución de problemas concretos y la ejecución de tareas sencillas en simuladores o recursos digitales. El segundo criterio hace referencia a la utilización de los componentes y conocimientos mecánicos, eléctricos y electrónicos, así como a la integración de aplicaciones digitales, para diseñar, construir, controlar o simular sistemas robóticos sencillos que permitan resolver, de manera autónoma, problemas o retos propuestos. El tercer criterio alude a la resolución de tareas sencillas, empleando la inteligencia artificial y el internet de las cosas, analizando de manera crítica las soluciones ofrecidas y su impacto,y reformulándolas en caso necesario."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Configurar el entorno personal de aprendizaje, aprovechando los recursos del ámbito digital para interactuar adecuadamente, y para optimizar y gestionar el aprendizaje permanente."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA4",
+        "CPSAA5",
+        "CC1",
+        "CE3",
+        "CCEC1",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-133-decreto-86-2025",
+        "paginas": [
+          104,
+          111
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica trata sobre la necesidad de optimizar y gestionar el aprendizaje permanente del alumnado, configurando el entorno personal de aprendizaje y aprovechando las tecnologías digitales de la comunicación.",
+          "Se concreta en los cuatro criterios de evaluación que comprende esta competencia específica. El primer criterio hace referencia a la incorporación autónoma y responsable de recursos digitales en su entorno personal de aprendizaje para el desarrollo de una adecuada ciudadanía digital. El segundo criterio está enfocado en la creación de nuevo contenido, sirviéndose de estrategias de búsqueda, selección y archivo de la información, aplicando las normas de seguridad establecidas y respetando la propiedad intelectual. El tercer criterio de evaluación incide en la construcción y reelaboración de contenidos digitales, empleando las tecnologías digitales de la comunicación más adecuadas y respetando los derechos de autoría y las licencias de uso. Finalmente, el cuarto criterio de evaluación alude a la capacidad para adoptar una actitud comunicativa de participación y respetuosa, a la par que acorde con la audiencia a la que va dirigida, en las interacciones comunicativas, en los espacios virtuales de comunicación y en las plataformas de aprendizaje colaborativo."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Desarrollar hábitos que fomenten el bienestar digital, aplicando medidas preventivas y correctivas, para proteger los dispositivos, los datos personales y la propia salud."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM5",
+        "CD1",
+        "CD3",
+        "CD4",
+        "CPSAA2",
+        "CPSAA5",
+        "CC1",
+        "CC2",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-133-decreto-86-2025",
+        "paginas": [
+          104,
+          113
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con el desarrollo de esta competencia específica, se persigue que el alumnado adquiera hábitos y estrategias que contribuyan a la protección de la seguridad y salud en el empleo de las tecnologías digitales de comunicación.",
+          "De este modo, esta competencia incluye cuatro criterios de evaluación. El primero incide en la adopción de medidas preventivas y correctivas que protejan de los riesgos y las amenazas del entorno digital para preservar la seguridad de los dispositivos digitales comunes y la huella digital. El segundo criterio de evaluación está orientado a la configuración y actualización de contraseñas, sistemas operativos y antivirus de forma periódica, para proteger los distintos dispositivos digitales de uso habitual y los datos personales. El tercer criterio de evaluación posibilita la identificación y el análisis, de manera crítica, de situaciones que representan una amenaza en los entornos digitales para que el alumnado pueda saber cómo reaccionar y seleccionar la mejor respuesta entre diversas opciones, valorando la seguridad y el bienestar emocional personal y colectivo. El último criterio de evaluación hace referencia al desarrollo de actitudes dialogantes, respetuosas, críticas y responsables en la participación activa en las tecnologías digitales de la comunicación para proteger la identidad digital propia y ajena."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Conectar dispositivos a redes locales mediante el análisis de sus componentes y funciones, aplicando los conocimientos de hardware y sistemas operativos para poder utilizar con seguridad las herramientas e instalaciones informáticas y de comunicación de uso cotidiano."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD4",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-133-decreto-86-2025",
+        "paginas": [
+          105,
+          114
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica posibilita que el alumnado pueda gestionar de manera adecuada las herramientas e instalaciones informáticas y de comunicación de uso cotidiano cuando se conectan los dispositivos digitales a las redes locales.",
+          "Para ello, esta competencia comprende dos criterios de evaluación. El primer criterio hace referencia al desarrollo de estrategias para conectar dispositivos y gestionar redes locales, identificando los posibles riesgos, tomando las precauciones necesarias para garantizar la seguridad de los dispositivos y ajustando sus características para satisfacer las necesidades personales. El segundo criterio de evaluación se orienta a la configuración y al mantenimiento de los sistemas operativos, tanto por motivos de seguridad como de funcionalidad."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Idear, planificar, fabricar y difundir productos y soluciones tecnológicas eficientes e innovadoras, utilizando las estrategias del método de proyectos y técnicas colaborativas y cooperativas adecuadas, a partir de la investigación en fuentes de información fiables, para dar respuesta de manera creativa a las necesidades planteadas y atendiendo a criterios de accesibilidad y sostenibilidad."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA3",
+            "CPSAA4",
+            "CC4",
+            "CE1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              108
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Seleccionar y aplicar de manera segura y responsable las herramientas de diseño asistido, y las técnicas de elaboración manual, mecánica o digital, empleando los materiales, operadores y recursos tecnológicos adecuados en los procesos de diseño y fabricación de productos tecnológicos para dar respuesta a las necesidades planteadas."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM4",
+            "STEM5",
+            "CD2",
+            "CD5",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              108
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Participar en interacciones comunicativas empleando las herramientas digitales adecuadas junto con el vocabulario técnico, símbolos y esquemas de sistemas tecnológicos apropiados, con la finalidad de intercambiar información en el contexto del trabajo en equipo."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL5",
+            "STEM4",
+            "CD2",
+            "CPSAA3",
+            "CCEC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              109,
+              110
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Presentar y difundir las propuestas o soluciones tecnológicas de manera creativa y efectiva en diferentes formatos de expresión, gestión del tiempo y adaptación adecuada del discurso, así como un lenguaje inclusivo y no sexista para compartir nuevos conocimientos y ejercer una ciudadanía digital activa, cívica y reflexiva."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM4",
+            "CD2",
+            "CD3",
+            "CPSAA3",
+            "CCEC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              109
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar una secuencia de instrucciones o algoritmos sencillos en simuladores o recursos digitales, aplicando estrategias de pensamiento computacional, tanto de forma individual como en grupo, para que contribuyan a la resolución de problemas concretos y a la ejecución de tareas sencillas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM3",
+            "CD2",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              110
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar, construir, controlar o simular sistemas robóticos sencillos que realicen tareas de forma autónoma, analizando críticamente las soluciones y propuestas de forma eficaz y reformulando el procedimiento, si fuera necesario, haciendo uso de componentes y conocimientos mecánicos, eléctricos y electrónicos, e integrando aplicaciones digitales para resolver problemas o retos propuestos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM3",
+            "CD2",
+            "CD5",
+            "CPSAA3",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              110
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Aplicar la inteligencia artificial y el internet de las cosas, analizando las soluciones ofrecidas y su impacto en la sociedad mediante los conocimientos de los principios básicos de su funcionamiento, para la resolución de tareas sencillas que permitan resolver problemas concretos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM3",
+            "STEM5",
+            "CD4",
+            "CD5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              110
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Gestionar el aprendizaje configurando el entorno personal de aprendizaje mediante la integración de recursos digitales de manera autónoma y responsable para el desarrollo de una adecuada ciudadanía digital."
+          },
+          "descriptoresOperativosRefs": [
+            "CD2",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              111
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Buscar, localizar, seleccionar y archivar información, procedente de diferentes fuentes en función de sus necesidades, contrastando su fiabilidad y haciendo uso de las herramientas del entorno personal de aprendizaje con sentido crítico, para reutilizarla y generar nuevo contenido, respetando la propiedad intelectual y siguiendo las normas básicas de seguridad en la red, y apreciando y valorando la identidad cultural canaria."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CD1",
+            "CD2",
+            "CPSAA4",
+            "CC1",
+            "CCEC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              111,
+              112
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Crear y reelaborar contenidos digitales accesibles en diferentes formatos de forma individual o colectiva, seleccionando y utilizando, de manera razonada, las tecnologías digitales más apropiadas para generar nuevo conocimiento, y respetando los derechos de autoría y las licencias de uso."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CD1",
+            "CD2",
+            "CPSAA5",
+            "CE3",
+            "CCEC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              112
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interactuar en espacios virtuales de comunicación y plataformas de aprendizaje colaborativo, compartiendo y publicando información y datos, y adaptándose a diferentes audiencias con una actitud participativa y respetuosa, para desarrollar estrategias que le permitan mejorar en el proceso de construcción del conocimiento."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL5",
+            "STEM4",
+            "CD3",
+            "CPSAA5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Desarrollar estrategias de configuración de las condiciones de privacidad de las tecnologías digitales de comunicación y colaboración, protegiendo los datos personales y la huella digital generada, para facilitar la construcción de una identidad digital propia, con una participación comprometida, tolerante y de respeto por la diversidad."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CD3",
+            "CD4",
+            "CPSAA2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Configurar y actualizar contraseñas, sistemas operativos y antivirus de forma periódica, aplicando principios de ética y seguridad, para proteger los distintos dispositivos digitales de uso habitual y los datos personales."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM5",
+            "CD4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar y analizar, de manera crítica, situaciones que representan una amenaza en los entornos digitales contra los valores éticos; y aprender a reaccionar y a seleccionar la mejor respuesta entre diversas opciones, valorando la seguridad y el bienestar emocional personal y colectivo para generar una adecuada ciudadanía digital."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CD3",
+            "CD4",
+            "CPSAA2",
+            "CPSAA5",
+            "CC1",
+            "CC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-4",
+          "codigoOficial": "5.4",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Desarrollar una actitud dialogante, respetuosa, crítica y responsable en procesos comunicativos con las tecnologías digitales de la comunicación, respetando la privacidad, y protegiendo la identidad digital propia y ajena, para consolidar estilos de vida saludables a nivel físico y mental."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL5",
+            "CD1",
+            "CD3",
+            "CPSAA2",
+            "CC1",
+            "CC2",
+            "CC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Conectar dispositivos y gestionar redes locales, aplicando los conocimientos y procesos asociados a los sistemas de comunicación alámbrica e inalámbrica, para identificar los riesgos y adoptar las medidas de seguridad pertinentes en la protección de la privacidad de las personas en los entornos digitales."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "CD4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Realizar tareas básicas de configuración y mantenimiento de sistemas operativos, adoptando las medidas preventivas necesarias para mantener la seguridad, y configurar sus características para dar respuesta a sus necesidades personales."
+          },
+          "descriptoresOperativosRefs": [
+            "CD4",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              114
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA3",
+            "CPSAA4",
+            "CC4",
+            "CE1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue constatar la adquisición por parte del alumnado de la capacidad de dar respuesta a necesidades planteadas en su entorno próximo, desde una perspectiva interdisciplinar, fabricando productos y soluciones tecnológicas eficientes, innovadoras y sostenibles para minimizar el impacto negativo en la sociedad y en el planeta. Con este fin se utilizará el método de proyectos para desarrollar, de manera creativa, colaborativa y cooperativa, las ideas que el alumnado elabore a partir de la selección de fuentes de información, atendiendo a criterios de calidad, actualidad y fiabilidad, respetando la propiedad intelectual que debe ser correctamente referenciada. Se verificará que el alumnado adquirirá una actitud respetuosa en los procesos de intercambio de información y creación de contenido empleando las tecnologías digitales de comunicación. Además, se comprobará que el alumnado es capaz de seleccionar los materiales según sus propiedades para poder aplicar, de manera segura y responsable, las herramientas de diseño asistido por ordenador en 3D y las técnicas de fabricación manual, mecánica y digital (impresión 3D) para elaborar soluciones que den respuesta a una necesidad planteada, atendiendo a criterios de accesibilidad, sostenibilidad y equidad social. Se valorará el uso de la metodología de aprendizaje-servicio para fomentar el compromiso social y su interés hacia el aprendizaje."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              109
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL5",
+            "STEM4",
+            "CD2",
+            "CD3",
+            "CPSAA3",
+            "CCEC3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de realizar una comunicación efectiva en diferentes foros, tanto para intercambiar información como para generar nuevos contenidos de manera creativa en diferentes formatos de expresión, bien en la difusión de ideas o bien en las propuestas o soluciones tecnológicas. Con este fin, el alumnado utilizará las tecnologías digitales de comunicación con un lenguaje inclusivo, libre de estereotipos sexistas. Para ello, se emplearán en las interacciones comunicativas los recursos disponibles junto con un vocabulario técnico, símbolos y esquemas de sistemas tecnológicos apropiados, contribuyendo al desarrollo de una ciudadanía digital activa, cívica y reflexiva. Se valorará el trabajo colaborativo y cooperativo en grupo del alumnado, aceptando tareas y responsabilidades de manera equitativa y empleando estrategias cooperativas."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              109,
+              110
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM5",
+            "CD2",
+            "CD4",
+            "CD5",
+            "CPSAA3",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "Mediante este bloque competencial se persigue comprobar que el alumnado es capaz de diseñar, construir, controlar o simular sistemas robóticos sencillos con criterios de sostenibilidad, de manera colaborativa y cooperativa, que realicen tareas de forma autónoma para resolver problemas o retos propuestos de su entorno, utilizando componentes básicos de los circuitos electrónicos y conocimientos mecánicos, eléctricos y electrónicos. Este aprendizaje del alumnado implica la aplicación de estrategias del pensamiento computacional y programación mediante el uso de recursos como los diagramas de flujo o programación por bloques a través de dispositivos y aplicaciones digitales, haciendo autoevaluaciones de su proceso de aprendizaje. Para ello, el alumnado previamente debe estar en condiciones de elaborar algoritmos sencillos en simuladores o recursos digitales. Además, este bloque competencial precisa de un enfoque de aprendizaje-servicio donde el alumnado analice de manera crítica las soluciones o propuestas a una necesidad o problema de su entorno y las reformule en caso necesario. Con ello, se facilitará la incorporación, de manera segura y responsable, de la robótica, la impresión 3D y las tecnologías emergentes como el internet de las cosas, los big data y la inteligencia artificial en el aprendizaje del alumnado, valorando su impacto en la sociedad."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              111
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "CCL5",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA4",
+            "CPSAA5",
+            "CC1",
+            "CE3",
+            "CCEC1",
+            "CCEC4"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado sea capaz de gestionar y optimizar su aprendizaje permanente de manera autónoma, con el soporte de recursos digitales, configurando su entorno personal de aprendizaje para el desarrollo de una adecuada ciudadanía digital. Es por ello que el alumnado deberá seleccionar y emplear, con responsabilidad, las posibilidades de las herramientas digitales del entorno personal de aprendizaje, adaptándolas a sus necesidades y configurándolas de manera razonada. Asimismo, se valorará la búsqueda, la localización, la selección y el archivo de la información con criterios de calidad y actualidad, contrastando las fuentes de información y evaluando su fiabilidad para reutilizar la información con sentido crítico, elaborar nuevo contenido digital accesible en distintos formatos y resolver las tareas propuestas, con la finalidad de que el alumnado aprenda de sus errores, de manera creativa, inclusiva y eficaz, y reflexione sobre el proceso realizado y el resultado obtenido. Se constatará que respete los derechos de autoría y las licencias de uso, y que siga las normas básicas de seguridad en la red, al tiempo que aprecie y valore la identidad cultural canaria. También se verificará la participación activa, respetuosa y colaborativa en los espacios virtuales de comunicación y plataformas de aprendizaje colaborativo."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              113
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL5",
+            "STEM5",
+            "CD1",
+            "CD3",
+            "CD4",
+            "CPSAA2",
+            "CPSAA5",
+            "CC1",
+            "CC2",
+            "CC3"
+          ],
+          "explicacion": {
+            "es": [
+              "Mediante este bloque competencial se persigue constatar que el alumnado es capaz de proteger los dispositivos digitales, sus datos personales, su propia salud y la huella digital generada en internet, aprendiendo de sus errores para desarrollar una adecuada ciudadanía digital. Con este fin, se comprobará que el alumnado dispone de las herramientas necesarias para proteger sus datos personales, al mismo tiempo que desarrolla hábitos y estrategias que contribuyan a la seguridad y a la salud en el uso crítico y responsable de las tecnologías digitales de la comunicación y colaboración mediante la configuración de sus condiciones de privacidad de forma periódica, aplicando principios de ética, respetando la propiedad intelectual, y asumiendo una participación comprometida, tolerante y de respeto por la diversidad en las redes sociales y espacios virtuales de trabajo. así como las estrategias que debe utilizar para actuar en consecuencia, localizando y contrastando los riesgos, y tomando conciencia de la importancia de las amenazas al bienestar personal."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              114,
+              115
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "CD4",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue constatar que el alumnado es capaz de conectar dispositivos digitales a redes locales, configurando sus características y adoptando las medidas preventivas necesarias para mantener su seguridad, así como la de los sistemas operativos, para poder utilizar las herramientas e instalaciones informáticas y de comunicación de uso cotidiano. Para ello, se precisa de la identificación de sus componentes y del análisis de sus funciones, aplicando los conocimientos de hardware y sistemas operativos. Es por ello que con este bloque competencial se deben abordar diferentes estrategias para identificar los riesgos y las posibles amenazas en los entornos digitales, valorando la seguridad y el bienestar personal y colectivo, y garantizando la privacidad de los dispositivos y de las personas. De este modo, el alumnado aprenderá de sus errores en la toma de decisiones, de manera razonada, cuando realiza la conexión de dispositivos y configuración de redes locales y sistemas operativos, reflexionando sobre el proceso realizado y mostrando una actitud crítica y proactiva en la identificación y resolución de problemas sencillos de forma creativa y sostenible."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-133-decreto-86-2025",
+            "paginas": [
+              115
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proceso de resolución de problemas"
+          },
+          "saberes": [
+            {
+              "id": "AP.4.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Estrategias y técnicas:"
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Aplicación de estrategias de gestión de proyectos colaborativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Observación y análisis de las necesidades del entorno para plantear proyectos colaborativos o cooperativos que den respuesta a las necesidades planteadas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.1.3",
+              "codigoOficial": null,
+              "numeracionFuente": "1.3",
+              "texto": {
+                "es": "Resolución de problemas desde una perspectiva interdisciplinar de la actividad tecnológica, utilizando las estrategias del método de proyectos, y fomentando el emprendimiento, la perseverancia, la creatividad, la satisfacción y el interés por el trabajo y la calidad de este."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Productos y materiales:"
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Estrategias de selección de materiales según sus propiedades y requisitos con criterios de sostenibilidad, accesibilidad y equidad social."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Fabricación:"
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Uso de herramientas de diseño asistido por ordenador en 3D para representar o fabricar piezas aplicadas a la resolución de proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.3.2",
+              "codigoOficial": null,
+              "numeracionFuente": "3.2",
+              "texto": {
+                "es": "Aplicación práctica de técnicas de fabricación manual, mecánica y digital (impresión 3D) para elaborar soluciones que den respuesta a una necesidad planteada."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Difusión:"
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.A.4.1",
+              "codigoOficial": null,
+              "numeracionFuente": "4.1",
+              "texto": {
+                "es": "Presentación y difusión del proyecto utilizando elementos, técnicas y herramientas que permitan una comunicación efectiva, como la entonación y expresión adecuadas, gestión del tiempo y adaptación del discurso al fin y al entorno. Uso de un lenguaje inclusivo y libre de estereotipos sexistas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Operadores tecnológicos"
+          },
+          "saberes": [
+            {
+              "id": "AP.4.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación y representación de operadores tecnológicos (mecánicos, eléctricos, electrónicos, analógicos y digitales, neumáticos e hidráulicos) aplicados a la resolución de problemas tecnológicos, para realizar análisis y montajes físicos de sistemas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Identificación y representación de operadores tecnológicos en la robótica, para realizar análisis y montajes físicos o simulados de circuitos que permitan la realización de tareas autónomas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Pensamiento computacional, programación y robótica"
+          },
+          "saberes": [
+            {
+              "id": "AP.4.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Conocimiento y aplicación de estrategias de pensamiento computacional y programación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Creación y aplicación de algoritmos y diagramas de flujo para la resolución de problemas tecnológicos o para la ejecución de tareas simples o rutinarias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "AP.4.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Identificación de los componentes de sistemas de control programado -controladores, sensores y actuadores- en las máquinas y los sistemas tecnológicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Uso del ordenador y de los dispositivos móviles como elementos de programación y control:"
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.C.4.1",
+              "codigoOficial": null,
+              "numeracionFuente": "4.1",
+              "texto": {
+                "es": "Introducción al trabajo con simuladores digitales para verificar y comprobar el funcionamiento de los sistemas diseñados."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.C.4.2",
+              "codigoOficial": null,
+              "numeracionFuente": "4.2",
+              "texto": {
+                "es": "Análisis y programación de objetos inteligentes (el internet de las cosas (IoT))."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.C.4.3",
+              "codigoOficial": null,
+              "numeracionFuente": "4.3",
+              "texto": {
+                "es": "Aplicación de principios de la inteligencia artificial (IA)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Diseño, construcción y control de robots sencillos de manera física o simulada para realizar tareas de forma autónoma."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.C.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Análisis crítico, evaluación y reflexión sobre las soluciones y propuestas realizadas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.C.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Depuración de errores y reformulación de las soluciones y propuestas, si fuera necesario, gestionando adecuadamente las emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Digitalización del entorno personal de aprendizaje"
+          },
+          "saberes": [
+            {
+              "id": "AP.4.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Aplicación de estrategias básicas para la búsqueda, la selección y el archivo de la información, contrastando críticamente fuentes diversas y evaluando su fiabilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Edición, creación y difusión de contenidos:"
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.D.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Uso eficaz de diferentes herramientas para editar, crear y difundir contenidos digitales accesibles en diferentes formatos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.D.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Empleo de herramientas necesarias para el desarrollo de aplicaciones sencillas en dispositivos móviles y web, realidad virtual, aumentada y mixta."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Aplicación de estrategias básicas para la publicación, comunicación, colaboración y difusión responsable, usando tecnologías digitales de comunicación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.D.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Respeto hacia las normas de derechos de autoría, y las licencias de uso y accesibilidad universal, que se aplican a los datos, la información digital y los contenidos en entornos digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Seguridad y ciudadanía digital"
+          },
+          "saberes": [
+            {
+              "id": "AP.4.E.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación y análisis de los riesgos, las amenazas y los ataques que pueden afectar a la seguridad de los dispositivos para la aplicación de medidas preventivas y correctivas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.E.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Desarrollo de estrategias para mejorar la seguridad en la red y la protección de datos en aspectos relacionados con la identidad, reputación digital, privacidad y huella digital, que permitan aplicar medidas preventivas en la configuración de tecnologías digitales de comunicación y la gestión de identidades virtuales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "AP.4.E.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Adquisición de estrategias básicas para ejercer una adecuada ciudadanía digital en la interacción en los entornos digitales, siguiendo las indicaciones de la etiqueta digital y respetando la libertad de expresión, los requisitos de accesibilidad en la comunicación para que sea inclusiva para todas las personas, la diversidad en las tecnologías digitales de comunicación y espacios virtuales, la propiedad intelectual y las licencias de uso."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  117,
+                  118
+                ]
+              }
+            },
+            {
+              "id": "AP.4.E.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Aplicación de estrategias que permitan la identificación de situaciones de violencia y riesgo en la red (ciberacoso, sextorsión, acceso a contenidos inadecuados, dependencia tecnológica, violencia de género, LGTBI+fobias, racismo, xenofobia…), que afecten al bienestar personal. Desarrollo de estrategias que permitan dar respuesta adecuada a estas situaciones, preservando la salud física, mental y emocional, y adoptando prácticas de uso saludable."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "AP.4.E.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Aplicación de prácticas saludables a nivel físico y emocional en el uso de las tecnologías digitales, como periodos de descanso, hábitos ergonómicos, control consciente del tiempo de conexión..."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  118
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Dispositivos digitales y sistemas de comunicación"
+          },
+          "saberes": [
+            {
+              "id": "AP.4.F.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Configuración y montaje de los elementos que constituyen la arquitectura de los ordenadores y desarrollo de estrategias eficaces para la resolución de los problemas relacionados que permitan la adquisición de hábitos de reutilización de materiales y ahorro energético."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "AP.4.F.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Identificación de los dispositivos constituyentes de una red local y análisis de su funcionamiento para realizar su adecuada conexión y configuración."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "AP.4.F.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Configuración de sistemas operativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "AP.4.F.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Desarrollo de estrategias para identificar los riesgos en las redes locales, adoptando las medidas necesarias para garantizar la seguridad de los dispositivos y de las personas en los entornos digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-133-decreto-86-2025",
+                "paginas": [
+                  118
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-10-30",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo de los textos con el PDF publicado en el BOC.",
+    "notas": [
+      "Los códigos de saber y las abreviaturas de materia son internos del proyecto; la fuente no publica códigos individuales para los saberes.",
+      "Los cursos 1.º y 2.º del programa se representan como 3.º y 4.º de ESO. El Ámbito Práctico solo se imparte en 2.º del programa (4.º de ESO).",
+      "Cuando el enunciado de una competencia cambia entre cursos, se conserva cada versión con un id interno distinto y el mismo codigoOficial; los criterios y bloques remiten a la versión de su curso."
+    ]
+  }
+}

@@ -10,7 +10,7 @@ Cada comunidad autónoma mantiene su propio archivo para que la revisión pueda 
 | Aragón | [Consultar incidencias](incidencias/es-ar.md) | 28 | 0 |
 | Asturias | [Consultar incidencias](incidencias/es-as.md) | 69 | 0 |
 | Illes Balears | [Consultar incidencias](incidencias/es-ib.md) | 17 | 0 |
-| Canarias | [Consultar incidencias](incidencias/es-cn.md) | 6 | 0 |
+| Canarias | [Consultar incidencias](incidencias/es-cn.md) | 7 | 0 |
 
 ## Convenciones generales
 
