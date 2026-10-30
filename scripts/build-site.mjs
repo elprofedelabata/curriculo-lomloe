@@ -179,7 +179,7 @@ const sourceDocuments = [...sourceCatalogs.entries()].flatMap(([territoryCode, s
   sourceCatalog.documentos.map((document) => ({ territorio: document.territorio || territoryCode, ...document })),
 );
 const catalog = {
-  version: "1.6.0",
+  version: "1.7.0",
   proyecto: {
     nombre: "Currículo LOMLOE en JSON",
     repositorio: repoUrl,

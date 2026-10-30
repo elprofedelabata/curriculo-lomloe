@@ -217,6 +217,12 @@
           "minItems": 1,
           "items": { "$ref": "#/$defs/criterioEvaluacion" }
         },
+        "bloquesCompetenciales": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Explicaciones y vínculos con competencias clave publicados para cada competencia específica en un ciclo o curso.",
+          "items": { "$ref": "#/$defs/bloqueCompetencial" }
+        },
         "bloquesSaberes": {
           "type": "array",
           "minItems": 1,
@@ -227,6 +233,26 @@
         { "required": ["curso"], "not": { "required": ["ciclo"] } },
         { "required": ["ciclo"], "not": { "required": ["curso"] } }
       ]
+    },
+    "bloqueCompetencial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["competenciaEspecificaRef", "competenciasClaveRefs", "explicacion", "procedencia"],
+      "properties": {
+        "competenciaEspecificaRef": { "type": "string", "pattern": "^ce-[0-9]+$" },
+        "descriptoresOperativosRefs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[A-Z]+[0-9]+(?:\\.[0-9]+)?$" }
+        },
+        "competenciasClaveRefs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[A-Z]+$" }
+        },
+        "explicacion": { "$ref": "#/$defs/parrafosLocalizados" },
+        "procedencia": { "$ref": "#/$defs/procedencia" }
+      }
     },
     "criterioEvaluacion": {
       "type": "object",
@@ -244,6 +270,11 @@
         "codigoOficial": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+(?:\\.[a-z])?$" },
         "competenciaEspecificaRef": { "type": "string", "pattern": "^ce-[0-9]+$" },
         "texto": { "$ref": "#/$defs/textoLocalizado" },
+        "descriptoresOperativosRefs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[A-Z]+[0-9]+(?:\\.[0-9]+)?$" }
+        },
         "aclaraciones": {
           "$ref": "#/$defs/parrafosLocalizados",
           "description": "Aclaraciones orientativas publicadas por la fuente, separadas del criterio."
@@ -304,6 +335,11 @@
           "type": ["string", "null"],
           "description": "Código publicado por la fuente; null cuando el saber no tiene código oficial individualizado.",
           "pattern": "^(?:[A-Z]+\\.[0-9]+\\.[A-ZÑ]\\.[0-9]+(?:\\.[0-9]+)*|[A-Za-z][0-9]+)$"
+        },
+        "numeracionFuente": {
+          "type": "string",
+          "description": "Número local impreso dentro de un bloque de saberes; no equivale a un código oficial completo.",
+          "pattern": "^[0-9]+(?:\\.[0-9]+)*$"
         },
         "texto": { "$ref": "#/$defs/textoLocalizado" },
         "concreciones": {

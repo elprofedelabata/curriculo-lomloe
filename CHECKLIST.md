@@ -21,6 +21,7 @@ Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca d
 - **Aragón:** 116 de 116
 - **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
 - **Illes Balears:** 93 de 93
+- **Canarias:** 3 áreas de Infantil y 9 de Primaria en borrador; otras etapas pendientes de extracción
 
 ## Andalucía
 
@@ -670,14 +671,31 @@ Los dos documentos curriculares proceden del portal institucional de la Direcci�
 ### Progreso
 
 - **Fuentes oficiales:** recopiladas para Infantil, Primaria, ESO, Bachillerato y los ámbitos comunes de CFGB.
-- **JSON terminados o en borrador:** 0. Todas las etapas siguen pendientes de extracción y revisión.
-- **Siguiente paso:** extraer las tres áreas de Infantil; las materias de Primaria, ESO y Bachillerato se añadirán al inventariar cada etapa.
+- **JSON en borrador:** 3 áreas de Infantil y 9 áreas de Primaria.
+- **JSON revisados:** 0.
+- **Siguiente paso:** revisar los borradores de Infantil y Primaria; sus [incidencias registradas](incidencias/es-cn.md) están resueltas. Después, inventariar ESO y Bachillerato.
 
 ### Infantil — áreas del anexo 2
 
-- [ ] Crecimiento en Armonía
-- [ ] Descubrimiento y Exploración del Entorno
-- [ ] Comunicación y Representación de la Realidad
+- [ ] Crecimiento en Armonía — [JSON en borrador](data/es-cn/infantil/materias/crecimiento-en-armonia.json)
+- [ ] Descubrimiento y Exploración del Entorno — [JSON en borrador](data/es-cn/infantil/materias/descubrimiento-y-exploracion-del-entorno.json)
+- [ ] Comunicación y Representación de la Realidad — [JSON en borrador](data/es-cn/infantil/materias/comunicacion-y-representacion-de-la-realidad.json)
+
+El anexo 2 publica cada área por ciclos, con bloques competenciales, criterios y saberes numerados. Los identificadores posicionales y letras de bloque de los JSON son internos del proyecto; los números de saber se registran en `numeracionFuente`, con una errata de numeración normalizada. La corrección oficial de errores afecta al preámbulo, no al anexo curricular.
+
+### Primaria — áreas del anexo 2
+
+- [ ] Conocimiento del Medio Natural, Social y Cultural — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/conocimiento-del-medio-natural-social-y-cultural.json)
+- [ ] Educación Artística — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/educacion-artistica.json)
+- [ ] Educación Emocional y para la Creatividad — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/educacion-emocional-y-para-la-creatividad.json)
+- [ ] Educación Física — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/educacion-fisica.json)
+- [ ] Educación en Valores Cívicos y Éticos — tercer ciclo — [JSON en borrador](data/es-cn/primaria/materias/educacion-en-valores-civicos-y-eticos.json)
+- [ ] Lengua Castellana y Literatura — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/lengua-castellana-y-literatura.json)
+- [ ] Lengua Extranjera — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/lengua-extranjera.json)
+- [ ] Matemáticas — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/matematicas.json)
+- [ ] Segunda Lengua Extranjera — tercer ciclo — [JSON en borrador](data/es-cn/primaria/materias/segunda-lengua-extranjera.json)
+
+Los descriptores operativos de cada bloque y criterio se conservan tal como aparecen por ciclo. Los identificadores de saberes (`id`) y las siglas de área (`materia.codigo`) son internos del proyecto; el decreto no asigna códigos individuales a esos saberes. Valores Cívicos y Éticos y Segunda Lengua Extranjera se imparten en los dos cursos del tercer ciclo (artículo 8).
 
 ### ESO — ámbitos de Diversificación Curricular
 
