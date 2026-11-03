@@ -165,10 +165,11 @@ for (const file of [
 }
 
 const html = await readFile(resolve(dist, "index.html"), "utf8");
+const publishedTerritories = new Set([...catalog.materias, ...catalog.optativasAbiertas].map((item) => item.territorio));
 check(html.includes('id="contenido"'), "La portada no contiene el área principal.");
 check(html.includes('class="folder-grid"'), "La portada no contiene la cuadrícula de comunidades.");
 check(/<script src="\.\/site\.js\?v=[a-f0-9]{12}" defer><\/script>/.test(html), "Falta una versión explícita del script del desplegable.");
-check((html.match(/aria-controls="community-stages"/g) || []).length === 5, "Las cinco carpetas interactivas deben tener un control desplegable accesible.");
+check((html.match(/aria-controls="community-stages"/g) || []).length === publishedTerritories.size, "Las comunidades con datos deben tener un control desplegable accesible.");
 check(html.includes('<li class="community-expansion" id="community-stages" hidden>'), "Falta el panel desplegable compartido.");
 check(html.includes('class="preview-note" hidden'), "Las maquetas deben avisar de que aún no tienen datos.");
 check(!html.includes('folder-toggle-icon'), "La carpeta no debe mostrar una flecha de desplegable.");
@@ -221,19 +222,17 @@ check(css.includes("--shadow-left") && css.includes("--shadow-right"), "La sombr
 check(css.includes(".folder-card--open .folder-card-toggle::before") && !css.includes(".folder-card--open .folder-card-toggle::after"), "La carpeta abierta debe mostrar una hoja sin la solapa anterior.");
 check(css.includes("transform: translateY(45px) rotate(-2deg) scale(.95)") && css.includes("transition: opacity .22s ease, transform .34s") && css.includes("@media (prefers-reduced-motion: reduce)"), "Falta la animación accesible de apertura del folio.");
 check(css.includes(".folder-card--disabled::after") && css.includes("grayscale(1)"), "Falta la escala de grises de las carpetas vacías.");
-const folderCodes = [...html.matchAll(/<li class="folder-card folder-card--(?:available|preview|disabled)" data-community="(es-[a-z]{2})">/g)]
-  .map((match) => match[1]);
+const folderCards = [...html.matchAll(/<li class="folder-card folder-card--(available|preview|disabled)" data-community="(es-[a-z]{2})">([\s\S]*?)<\/li>/g)];
+const folderCodes = folderCards.map((match) => match[2]);
 check(folderCodes.length === catalog.territorios.length, "La portada no muestra las 17 carpetas.");
 check(new Set(folderCodes).size === catalog.territorios.length, "Hay carpetas de comunidad duplicadas.");
-check(html.includes('<li class="folder-card folder-card--available" data-community="es-an">'), "Andalucía no aparece como disponible.");
-check(html.includes('<li class="folder-card folder-card--available" data-community="es-ar">'), "Aragón no aparece como disponible.");
-check(html.includes('<li class="folder-card folder-card--available" data-community="es-as">'), "Asturias no aparece como disponible.");
-check(html.includes('<li class="folder-card folder-card--available" data-community="es-ib">'), "Illes Balears no aparece como disponible.");
-for (const code of ["es-cn"]) {
-  check(html.includes('<li class="folder-card folder-card--preview" data-community="' + code + '">'), 'Falta la carpeta temporal ' + code + '.');
+for (const code of publishedTerritories) {
+  const folder = folderCards.find((match) => match[2] === code);
+  check(folder?.[1] === "available", `La comunidad ${code} tiene datos publicados pero su carpeta no está habilitada.`);
+  check(folder && /<button\b/.test(folder[3]) && !/<button\b[^>]*\bdisabled\b/.test(folder[3]), `La carpeta de ${code} debe tener un botón habilitado.`);
 }
-check((html.match(/folder-card--preview/g) || []).length === 1, "Debe haber una carpeta temporal.");
-check((html.match(/folder-card--disabled/g) || []).length === 12, "Las 12 carpetas restantes deben estar deshabilitadas.");
+check(folderCards.filter((match) => match[1] === "available").length === publishedTerritories.size, "Las carpetas disponibles no coinciden con las comunidades con datos.");
+check(folderCards.filter((match) => match[1] === "disabled").length === catalog.territorios.length - publishedTerritories.size, "Las comunidades sin datos deben permanecer deshabilitadas.");
 check(!html.includes('es-an ·'), "La carpeta de Andalucía debe mostrar solo su código.");
 for (const territory of catalog.territorios) {
   check(folderCodes.includes(territory.codigo), `Falta la carpeta de ${territory.nombre}.`);
