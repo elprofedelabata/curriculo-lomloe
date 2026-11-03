@@ -13,6 +13,7 @@ Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca d
 
 ## Progreso global
 
+- **Currículos terminados en total:** 507.
 - **Referencias documentadas de Andalucía, Aragón, Asturias e Illes Balears:** 401 (398 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
 - **Currículos terminados en esas cuatro comunidades:** 398 de 398
 - **Currículos pendientes entre los inventariados en esas cuatro comunidades:** 0
@@ -21,7 +22,7 @@ Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca d
 - **Aragón:** 116 de 116
 - **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
 - **Illes Balears:** 93 de 93
-- **Canarias:** 3 áreas de Infantil, 9 de Primaria y 26 currículos de ESO y Diversificación en borrador; otras etapas pendientes de extracción
+- **Canarias:** 109 de 109 JSON revisados de las cinco etapas, incluidas las dos concreciones complementarias del silbo gomero
 
 ## Andalucía
 
@@ -671,72 +672,170 @@ Los dos documentos curriculares proceden del portal institucional de la Direcci�
 ### Progreso
 
 - **Fuentes oficiales:** recopiladas para Infantil, Primaria, ESO, Bachillerato y los ámbitos comunes de CFGB.
-- **JSON en borrador:** 3 áreas de Infantil, 9 áreas de Primaria y 26 currículos de ESO y Diversificación.
-- **JSON revisados:** 0.
-- **Siguiente paso:** revisar los borradores e inventariar Bachillerato; las siete incidencias registradas están resueltas.
+- **JSON revisados:** 109 (3 de Infantil, 10 de Primaria, 27 de ESO y Diversificación, 67 de Bachillerato y 2 de CFGB; se incluyen las dos concreciones del silbo gomero).
+- **Revisión:** cierre confirmado por el usuario tras el cotejo final, incluidas las dos concreciones del silbo gomero.
+- **Incidencias:** 21 revisadas y ninguna pendiente.
+- **Estado:** Canarias completada. El [informe final](sources/es-cn/REVISION-FINAL.md) recoge las reparaciones aplicadas y el cierre.
 
 ### Infantil — áreas del anexo 2
 
-- [ ] Crecimiento en Armonía — [JSON en borrador](data/es-cn/infantil/materias/crecimiento-en-armonia.json)
-- [ ] Descubrimiento y Exploración del Entorno — [JSON en borrador](data/es-cn/infantil/materias/descubrimiento-y-exploracion-del-entorno.json)
-- [ ] Comunicación y Representación de la Realidad — [JSON en borrador](data/es-cn/infantil/materias/comunicacion-y-representacion-de-la-realidad.json)
+- [x] Crecimiento en Armonía — [JSON revisado](data/es-cn/infantil/materias/crecimiento-en-armonia.json)
+- [x] Descubrimiento y Exploración del Entorno — [JSON revisado](data/es-cn/infantil/materias/descubrimiento-y-exploracion-del-entorno.json)
+- [x] Comunicación y Representación de la Realidad — [JSON revisado](data/es-cn/infantil/materias/comunicacion-y-representacion-de-la-realidad.json)
 
 El anexo 2 publica cada área por ciclos, con bloques competenciales, criterios y saberes numerados. Los identificadores posicionales y letras de bloque de los JSON son internos del proyecto; los números de saber se registran en `numeracionFuente`, con una errata de numeración normalizada. La corrección oficial de errores afecta al preámbulo, no al anexo curricular.
 
 ### Primaria — áreas del anexo 2
 
-- [ ] Conocimiento del Medio Natural, Social y Cultural — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/conocimiento-del-medio-natural-social-y-cultural.json)
-- [ ] Educación Artística — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/educacion-artistica.json)
-- [ ] Educación Emocional y para la Creatividad — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/educacion-emocional-y-para-la-creatividad.json)
-- [ ] Educación Física — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/educacion-fisica.json)
-- [ ] Educación en Valores Cívicos y Éticos — tercer ciclo — [JSON en borrador](data/es-cn/primaria/materias/educacion-en-valores-civicos-y-eticos.json)
-- [ ] Lengua Castellana y Literatura — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/lengua-castellana-y-literatura.json)
-- [ ] Lengua Extranjera — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/lengua-extranjera.json)
-- [ ] Matemáticas — tres ciclos — [JSON en borrador](data/es-cn/primaria/materias/matematicas.json)
-- [ ] Segunda Lengua Extranjera — tercer ciclo — [JSON en borrador](data/es-cn/primaria/materias/segunda-lengua-extranjera.json)
+- [x] Conocimiento del Medio Natural, Social y Cultural — tres ciclos — [JSON revisado](data/es-cn/primaria/materias/conocimiento-del-medio-natural-social-y-cultural.json)
+- [x] Educación Artística — tres ciclos — [JSON revisado](data/es-cn/primaria/materias/educacion-artistica.json)
+- [x] Educación Emocional y para la Creatividad — tres ciclos — [JSON revisado](data/es-cn/primaria/materias/educacion-emocional-y-para-la-creatividad.json)
+- [x] Educación Física — tres ciclos — [JSON revisado](data/es-cn/primaria/materias/educacion-fisica.json)
+- [x] Educación en Valores Cívicos y Éticos — tercer ciclo — [JSON revisado](data/es-cn/primaria/materias/educacion-en-valores-civicos-y-eticos.json)
+- [x] Lengua Castellana y Literatura — tres ciclos — [JSON revisado](data/es-cn/primaria/materias/lengua-castellana-y-literatura.json)
+- [x] Lengua Extranjera — tres ciclos — [JSON revisado](data/es-cn/primaria/materias/lengua-extranjera.json)
+- [x] Matemáticas — tres ciclos — [JSON revisado](data/es-cn/primaria/materias/matematicas.json)
+- [x] Segunda Lengua Extranjera — tercer ciclo — [JSON revisado](data/es-cn/primaria/materias/segunda-lengua-extranjera.json)
 
 Los descriptores operativos de cada bloque y criterio se conservan tal como aparecen por ciclo. Los identificadores de saberes (`id`) y las siglas de área (`materia.codigo`) son internos del proyecto; el decreto no asigna códigos individuales a esos saberes. Valores Cívicos y Éticos y Segunda Lengua Extranjera se imparten en los dos cursos del tercer ciclo (artículo 8).
 
 ### ESO — materias del anexo 2 del Decreto 30/2023
 
-- [ ] Biología y Geología — 1.º, 3.º y 4.º — [JSON en borrador](data/es-cn/eso/materias/biologia-y-geologia.json)
-- [ ] Cultura Clásica — 3.º — [JSON en borrador](data/es-cn/eso/materias/cultura-clasica.json)
-- [ ] Cultura y Ciudadanía Digital — 3.º — [JSON en borrador](data/es-cn/eso/materias/cultura-y-ciudadania-digital.json)
-- [ ] Digitalización — 4.º — [JSON en borrador](data/es-cn/eso/materias/digitalizacion.json)
-- [ ] Economía Personal y Social — 3.º — [JSON en borrador](data/es-cn/eso/materias/economia-personal-y-social.json)
-- [ ] Economía y Emprendimiento — 4.º — [JSON en borrador](data/es-cn/eso/materias/economia-y-emprendimiento.json)
-- [ ] Educación en Valores Cívicos y Éticos — 1.º — [JSON en borrador](data/es-cn/eso/materias/educacion-en-valores-civicos-y-eticos.json)
-- [ ] Educación Física — 1.º a 4.º — [JSON en borrador](data/es-cn/eso/materias/educacion-fisica.json)
-- [ ] Educación Plástica, Visual y Audiovisual — 1.º a 3.º — [JSON en borrador](data/es-cn/eso/materias/educacion-plastica-visual-y-audiovisual.json)
-- [ ] Expresión Artística — 4.º — [JSON en borrador](data/es-cn/eso/materias/expresion-artistica.json)
-- [ ] Filosofía — 4.º — [JSON en borrador](data/es-cn/eso/materias/filosofia.json)
-- [ ] Física y Química — 2.º a 4.º — [JSON en borrador](data/es-cn/eso/materias/fisica-y-quimica.json)
-- [ ] Formación y Orientación Personal y Profesional — 4.º — [JSON en borrador](data/es-cn/eso/materias/formacion-y-orientacion-personal-y-profesional.json)
-- [ ] Geografía e Historia — 1.º a 4.º — [JSON en borrador](data/es-cn/eso/materias/geografia-e-historia.json)
-- [ ] Historia y Geografía de Canarias — 3.º — [JSON en borrador](data/es-cn/eso/materias/historia-y-geografia-de-canarias.json)
-- [ ] Latín — 4.º — [JSON en borrador](data/es-cn/eso/materias/latin.json)
-- [ ] Lengua Castellana y Literatura — 1.º a 4.º — [JSON en borrador](data/es-cn/eso/materias/lengua-castellana-y-literatura.json)
-- [ ] Lengua Extranjera — 1.º a 4.º — [JSON en borrador](data/es-cn/eso/materias/lengua-extranjera.json)
-- [ ] Matemáticas — 1.º a 4.º; Matemáticas A y B en 4.º — [JSON en borrador](data/es-cn/eso/materias/matematicas.json)
-- [ ] Música — 1.º a 4.º — [JSON en borrador](data/es-cn/eso/materias/musica.json)
-- [ ] Segunda Lengua Extranjera — 1.º a 4.º — [JSON en borrador](data/es-cn/eso/materias/segunda-lengua-extranjera.json)
-- [ ] Tecnología — 4.º — [JSON en borrador](data/es-cn/eso/materias/tecnologia.json)
-- [ ] Tecnología y Digitalización — 1.º a 3.º — [JSON en borrador](data/es-cn/eso/materias/tecnologia-y-digitalizacion.json)
+- [x] Biología y Geología — 1.º, 3.º y 4.º — [JSON revisado](data/es-cn/eso/materias/biologia-y-geologia.json)
+- [x] Cultura Clásica — 3.º — [JSON revisado](data/es-cn/eso/materias/cultura-clasica.json)
+- [x] Cultura y Ciudadanía Digital — 3.º — [JSON revisado](data/es-cn/eso/materias/cultura-y-ciudadania-digital.json)
+- [x] Digitalización — 4.º — [JSON revisado](data/es-cn/eso/materias/digitalizacion.json)
+- [x] Economía Personal y Social — 3.º — [JSON revisado](data/es-cn/eso/materias/economia-personal-y-social.json)
+- [x] Economía y Emprendimiento — 4.º — [JSON revisado](data/es-cn/eso/materias/economia-y-emprendimiento.json)
+- [x] Educación en Valores Cívicos y Éticos — 1.º — [JSON revisado](data/es-cn/eso/materias/educacion-en-valores-civicos-y-eticos.json)
+- [x] Educación Física — 1.º a 4.º — [JSON revisado](data/es-cn/eso/materias/educacion-fisica.json)
+- [x] Educación Plástica, Visual y Audiovisual — 1.º a 3.º — [JSON revisado](data/es-cn/eso/materias/educacion-plastica-visual-y-audiovisual.json)
+- [x] Expresión Artística — 4.º — [JSON revisado](data/es-cn/eso/materias/expresion-artistica.json)
+- [x] Filosofía — 4.º — [JSON revisado](data/es-cn/eso/materias/filosofia.json)
+- [x] Física y Química — 2.º a 4.º — [JSON revisado](data/es-cn/eso/materias/fisica-y-quimica.json)
+- [x] Formación y Orientación Personal y Profesional — 4.º — [JSON revisado](data/es-cn/eso/materias/formacion-y-orientacion-personal-y-profesional.json)
+- [x] Geografía e Historia — 1.º a 4.º — [JSON revisado](data/es-cn/eso/materias/geografia-e-historia.json)
+- [x] Historia y Geografía de Canarias — 3.º — [JSON revisado](data/es-cn/eso/materias/historia-y-geografia-de-canarias.json)
+- [x] Latín — 4.º — [JSON revisado](data/es-cn/eso/materias/latin.json)
+- [x] Lengua Castellana y Literatura — 1.º a 4.º — [JSON revisado](data/es-cn/eso/materias/lengua-castellana-y-literatura.json)
+- [x] Lengua Extranjera — 1.º a 4.º — [JSON revisado](data/es-cn/eso/materias/lengua-extranjera.json)
+- [x] Matemáticas — 1.º a 4.º; Matemáticas A y B en 4.º — [JSON revisado](data/es-cn/eso/materias/matematicas.json)
+- [x] Música — 1.º a 4.º — [JSON revisado](data/es-cn/eso/materias/musica.json)
+- [x] Segunda Lengua Extranjera — 1.º a 4.º — [JSON revisado](data/es-cn/eso/materias/segunda-lengua-extranjera.json)
+- [x] Tecnología — 4.º — [JSON revisado](data/es-cn/eso/materias/tecnologia.json)
+- [x] Tecnología y Digitalización — 1.º a 3.º — [JSON revisado](data/es-cn/eso/materias/tecnologia-y-digitalizacion.json)
 
 El artículo 23 también establece Trabajo Monográfico en 2.º y el artículo 25 lo ofrece en 4.º como alternativa a Filosofía, pero el anexo 2 no publica un currículo común de esa materia. Se inventaría aparte y no se crea un JSON curricular sin competencias, criterios y saberes publicados. En los JSON de ESO, `numeracionFuente` conserva los niveles de saberes publicados, incluidos los subniveles como `5.1`; sus `id` y las siglas de materia son internos del proyecto.
 
 ### ESO — ámbitos de Diversificación Curricular del Decreto 86/2025
 
-- [ ] Ámbito Lingüístico y Social — [JSON en borrador](data/es-cn/eso/materias/ambito-linguistico-y-social.json)
-- [ ] Ámbito Científico-Tecnológico — [JSON en borrador](data/es-cn/eso/materias/ambito-cientifico-tecnologico.json)
-- [ ] Ámbito Práctico — [JSON en borrador](data/es-cn/eso/materias/ambito-practico.json)
+- [x] Ámbito Lingüístico y Social — [JSON revisado](data/es-cn/eso/materias/ambito-linguistico-y-social.json)
+- [x] Ámbito Científico-Tecnológico — [JSON revisado](data/es-cn/eso/materias/ambito-cientifico-tecnologico.json)
+- [x] Ámbito Práctico — [JSON revisado](data/es-cn/eso/materias/ambito-practico.json)
 
 Los cursos 1.º y 2.º del programa equivalen a 3.º y 4.º de ESO; el Ámbito Práctico solo se imparte en 2.º del programa. Se conservan las versiones distintas de las competencias entre cursos mediante id internos únicos y el mismo codigoOficial. Las referencias de cada criterio y bloque identifican su versión. En el Ámbito Lingüístico y Social, el subtítulo del bloque de comunicación se conserva como apartado interno.
 
+### Concreciones complementarias de Lengua — Silbo Gomero
+
+- [x] Primaria — tres ciclos — [JSON revisado](data/es-cn/primaria/materias/lengua-castellana-y-literatura-silbo-gomero.json)
+- [x] ESO — cuatro cursos — [JSON revisado](data/es-cn/eso/materias/lengua-castellana-y-literatura-silbo-gomero.json)
+
+Se vinculan al currículo común de Lengua mediante `concrecionCurricular`, que conserva las condiciones territoriales de aplicación y la autorización para su extensión facultativa.
+
+### Bachillerato — materias del anexo 3 del Decreto 30/2023
+
+- [x] Análisis Musical — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/analisis-musical.json)
+- [x] Artes Escénicas — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/artes-escenicas.json)
+- [x] Biología — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/biologia.json)
+- [x] Biología, Geología y Ciencias Ambientales — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/biologia-geologia-y-ciencias-ambientales.json)
+- [x] Ciencias Generales — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/ciencias-generales.json)
+- [x] Coro y Técnica Vocal — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/coro-y-tecnica-vocal.json)
+- [x] Cultura Audiovisual — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/cultura-audiovisual.json)
+- [x] Dibujo Artístico — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/dibujo-artistico.json)
+- [x] Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno.json)
+- [x] Dibujo Técnico — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/dibujo-tecnico.json)
+- [x] Diseño — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/diseno.json)
+- [x] Economía — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/economia.json)
+- [x] Economía, Emprendimiento y Actividad Empresarial — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/economia-emprendimiento-y-actividad-empresarial.json)
+- [x] Educación Física — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/educacion-fisica.json)
+- [x] Empresa y Diseño de Modelos de Negocio — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/empresa-y-diseno-de-modelos-de-negocio.json)
+- [x] Filosofía — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/filosofia.json)
+- [x] Física — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/fisica.json)
+- [x] Física y Química — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/fisica-y-quimica.json)
+- [x] Fundamentos Artísticos — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/fundamentos-artisticos.json)
+- [x] Geografía — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/geografia.json)
+- [x] Geología y Ciencias Ambientales — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/geologia-y-ciencias-ambientales.json)
+- [x] Griego — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/griego.json)
+- [x] Historia de España — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/historia-de-espana.json)
+- [x] Historia de la Filosofía — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/historia-de-la-filosofia.json)
+- [x] Historia de la Música y la Danza — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/historia-de-la-musica-y-la-danza.json)
+- [x] Historia del Arte — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/historia-del-arte.json)
+- [x] Historia del Mundo Contemporáneo — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/historia-del-mundo-contemporaneo.json)
+- [x] Latín — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/latin.json)
+- [x] Lengua Castellana y Literatura — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/lengua-castellana-y-literatura.json)
+- [x] Lengua Extranjera — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/lengua-extranjera.json)
+- [x] Lenguaje y Práctica Musical — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/lenguaje-y-practica-musical.json)
+- [x] Literatura Dramática — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/literatura-dramatica.json)
+- [x] Literatura Universal — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/literatura-universal.json)
+- [x] Matemáticas Aplicadas a las Ciencias Sociales — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/matematicas-aplicadas-a-las-ciencias-sociales.json)
+- [x] Matemáticas Generales — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/matematicas-generales.json)
+- [x] Matemáticas — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/matematicas.json)
+- [x] Movimientos Culturales y Artísticos — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/movimientos-culturales-y-artisticos.json)
+- [x] Proyectos Artísticos — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/proyectos-artisticos.json)
+- [x] Química — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/quimica.json)
+- [x] Segunda Lengua Extranjera — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/segunda-lengua-extranjera.json)
+- [x] Técnicas de Expresión Gráfico-Plástica — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/tecnicas-de-expresion-grafico-plastica.json)
+- [x] Tecnología e Ingeniería — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/tecnologia-e-ingenieria.json)
+- [x] Volumen — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/volumen.json)
+
+Los desarrollos de I y II se agrupan cuando la fuente los publica juntos. Las siglas de materia y los identificadores de saberes son internos; numeracionFuente conserva la numeración impresa. Cada versión de una competencia cuyo enunciado cambie entre cursos conserva un id interno único y el mismo codigoOficial.
+
+### Bachillerato — optativas del anexo 2 del Decreto 78/2025
+
+- [x] Anatomía Aplicada — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/anatomia-aplicada.json)
+- [x] Acondicionamiento Físico — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/acondicionamiento-fisico.json)
+- [x] Antropología y Sociología — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/antropologia-y-sociologia.json)
+- [x] Biología Humana — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/biologia-humana.json)
+- [x] Bioestadística — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/bioestadistica.json)
+- [x] Cultura Científica — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/cultura-cientifica.json)
+- [x] Electrotecnia — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/electrotecnia.json)
+- [x] Fotografía — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/fotografia.json)
+- [x] Fundamentos de Administración y Gestión — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/fundamentos-de-administracion-y-gestion.json)
+- [x] Historia de Canarias — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/historia-de-canarias.json)
+- [x] Imagen y Sonido — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/imagen-y-sonido.json)
+- [x] Iniciación a la Astronomía — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/iniciacion-a-la-astronomia.json)
+- [x] Informática y Digitalización — 1.º y 2.º — [JSON revisado](data/es-cn/bachillerato/materias/informatica-y-digitalizacion.json)
+- [x] La Mitología y las Artes — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/la-mitologia-y-las-artes.json)
+- [x] Literatura Canaria — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/literatura-canaria.json)
+- [x] Juegos y Deportes Tradicionales de Canarias — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/juegos-y-deportes-tradicionales-de-canarias.json)
+- [x] Medio Natural Canario — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/medio-natural-canario.json)
+- [x] Taller de Etimología Grecolatina — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/taller-de-etimologia-grecolatina.json)
+- [x] Talleres Artísticos: Cerámica y Estampación — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/talleres-artisticos-ceramica-y-estampacion.json)
+- [x] Técnicas de Laboratorio — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/tecnicas-de-laboratorio.json)
+- [x] Música, Expresión y Espectáculo — 1.º — [JSON revisado](data/es-cn/bachillerato/materias/musica-expresion-y-espectaculo.json)
+- [x] Música y Sociedad — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/musica-y-sociedad.json)
+- [x] Psicología — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/psicologia.json)
+- [x] Taller de Artes Integradas — 2.º — [JSON revisado](data/es-cn/bachillerato/materias/taller-de-artes-integradas.json)
+
+El artículo 3.3 del Decreto 78/2025 mantiene el currículo de Segunda Lengua Extranjera I y II del anexo 3 del Decreto 30/2023; por ello no se duplica en esta lista. El inventario suma 67 materias agrupadas: 43 del Decreto 30/2023 y 24 del Decreto 78/2025.
+
+El Decreto 78/2025 no fija un calendario de implantación por curso escolar: los JSON de sus optativas conservan la entrada en vigor del 10 de junio de 2025 y dejan aplicableDesdeCurso en null. Las 67 materias están revisadas y las tres correcciones de erratas del PDF están confirmadas y aplicadas.
+
 ### CFGB — ámbitos comunes del anexo 1
 
-- [ ] Ámbito de las Ciencias Aplicadas
-- [ ] Ámbito de Comunicación y Ciencias Sociales
+- [x] Ámbito de las Ciencias Aplicadas — 1.º y 2.º — [JSON revisado](data/es-cn/cfgb/materias/ciencias-aplicadas.json)
+- [x] Ámbito de Comunicación y Ciencias Sociales — 1.º y 2.º — [JSON revisado](data/es-cn/cfgb/materias/comunicacion-y-ciencias-sociales.json)
+
+Los criterios comunes se representan en ambos cursos. Ciencias Aplicadas incluye las competencias 9 a 11 y los cuatro bloques de Actividad Física y Bienestar Emocional solo en primero. Las columnas o epígrafes de curso de los saberes se conservan en `cursoOrientativo`, porque la fuente declara orientativa y no cronológica esa distribución. Los bloques A-D de Actividad Física se identifican internamente como L-O para distinguirlos de los bloques A-K del resto del ámbito; sus nombres conservan las letras publicadas. Las diez decisiones de normalización y elección entre versiones están confirmadas y se documentan en [el registro de Canarias](incidencias/es-cn.md).
+
+### Resultado del cotejo final
+
+- [x] Corregidas cinco diferencias de transcripción de Primaria.
+- [x] Recuperados seis enunciados superiores de Matemáticas y su numeración jerárquica, conservando los 244 identificadores anteriores.
+- [x] Confirmada y aplicada CN-PRIM-005.
+- [x] Extraídas y cotejadas las concreciones de Lengua para el silbo gomero de Primaria y ESO.
+
+Los 109 JSON canarios cumplen el esquema y están revisados, incluidas las dos concreciones del silbo gomero.
 
 ### Fuentes oficiales locales
 
@@ -744,5 +843,8 @@ Los cursos 1.º y 2.º del programa equivalen a 3.º y 4.º de ESO; el Ámbito P
 - [Infantil — Decreto 196/2022](sources/es-cn/normativa/infantil/2022-10-13-decreto-196-2022-curriculo-infantil.pdf) y [corrección de errores](sources/es-cn/normativa/infantil/2022-10-28-correccion-errores-decreto-196-2022.pdf)
 - [Primaria — Decreto 211/2022](sources/es-cn/normativa/primaria/2022-11-10-decreto-211-2022-curriculo-primaria.pdf)
 - [ESO y Bachillerato — Decreto 30/2023](sources/es-cn/normativa/eso-bachillerato/2023-03-16-decreto-30-2023-curriculo-eso-bachillerato.pdf) — anexos 2 y 3
+- [Bachillerato, optativas — Decreto 78/2025](sources/es-cn/normativa/bachillerato/2025-06-02-decreto-78-2025-optativas-bachillerato.pdf)
 - [ESO, Diversificación Curricular — Decreto 86/2025](sources/es-cn/normativa/eso/2025-06-30-decreto-86-2025-diversificacion-curricular.pdf)
 - [CFGB, ámbitos comunes — Decreto 9/2023](sources/es-cn/normativa/cfgb/2023-01-26-decreto-9-2023-curriculo-cfgb.pdf) — anexo 1
+
+- [Concreción de Lengua para el lenguaje silbado de La Gomera — Decreto 24/2026](sources/es-cn/normativa/primaria-eso/2026-03-09-decreto-24-2026-lenguaje-silbado-gomera.pdf) — anexos I y II, extraídos y revisados

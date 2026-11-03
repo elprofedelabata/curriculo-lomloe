@@ -1,0 +1,1474 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.historia-del-arte",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "HAR",
+    "nombre": {
+      "es": "Historia del Arte"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 1467,
+        "hasta": 1487
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Historia del Arte aborda la evolución artística a través del tiempo y se puede definir como aquella actividad o producto creado por los seres humanos con el objetivo de transmitir ideas o emociones bajo una perspectiva estética y comunicativa que da una visión del mundo. Para ello se utiliza la contextualización cultural y temporal de estilos, obras y artistas, entendiendo el arte como una manifestación de la inteligencia y la creatividad humana que, a través del lenguaje y la actividad artística, se empeña en comprender y mejorar la realidad que nos rodea.",
+      "Esta materia hunde sus raíces en la Educación Secundaria Obligatoria a través de otras materias como Geografía e Historia, Filosofía, Latín, Música y Educación Plástica, Visual y Audiovisual, y está estrechamente vinculada con el logro de los objetivos de etapa y el desarrollo de las competencias clave de Bachillerato. Entendida de manera holística, la materia, no solo permite el desarrollo de capacidades estéticas, sino también creativas, intuitivas, imaginativas o expresivas, al mismo tiempo que fomenta el autoconocimiento y otro modo de relacionarnos con el entorno. Todas estas capacidades son importantes en el desarrollo humano, ya que nos acercan a un ideal de hombres y mujeres más consciente y más completo, proponiendo una visión integradora de la valoración de los dos tipos de pensamiento, el artístico y el racional. Esa formación permite al alumnado, en tanto que implica la comprensión de la manera en que ideas y emociones se complementan, trabajar de forma creativa a través de diversas manifestaciones artísticas y culturales que se relacionan directamente con la competencia en conciencia y expresión culturales.",
+      "De un modo más indirecto, pero no menos decisivo, el aprendizaje de la historia del arte contribuye al logro de la madurez intelectual y emocional del alumnado a través del trabajo transversal de las competencias que aproxima al alumnado no solo a un conocimiento más profundo de las realidades del mundo contemporáneo y de su significado estético, sino de algunas de las claves más importantes para entender la cultura audiovisual de nuestro tiempo, así como la adopción de una actitud crítica, cuidadosa y constructiva con respecto a la interpretación, protección y mejora del patrimonio cultural y del entorno social y natural.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "Historia del Arte contribuye a que el alumnado logre alcanzar con éxito varios objetivos de la etapa. El tratamiento competencial de la materia a través de metodologías en las que el alumnado es protagonista del aprendizaje (d) favorece su madurez personal y social, puesto que deberá afrontar la toma de decisiones de forma autónoma y con espíritu crítico (b), tanto en la elaboración y exposición de distintas producciones personales o de grupo (k) como al aportar opiniones y",
+      "desarrollar ideas originales cuando analiza la obra de arte o establece relaciones entre ellas desde un nuevo enfoque (l).",
+      "De manera específica, el análisis de obras y estilos artísticos mediante el tratamiento integral de diversas fuentes requiere de la sistematización de una metodología que estimule el desarrollo de hábitos intelectuales de trabajo, pero también la creatividad y el pensamiento divergente (d). Por otro lado, la necesidad de comunicar de forma oral y escrita los datos, las conclusiones, las opiniones, etc., contribuye al avance en el dominio de la lengua castellana (e) y al uso solvente de términos artísticos a través del empleo de las tecnologías digitales (g) en trabajos donde primen el sentido crítico y el espíritu emprendedor (k).",
+      "Finalmente, en Historia del Arte transita de manera permanente la construcción, por parte del alumnado, de unas condiciones básicas para insertarse en la vida activa (a), resolviendo los conflictos de forma pacífica y rechazando los prejuicios y los estereotipos sexistas (b) y (c).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "La Competencia en comunicación lingüística (CCL) supone interactuar de forma oral, escrita, signada o multimodal de manera coherente y adecuada en diferentes ámbitos y contextos y con diferentes propósitos comunicativos. Implica movilizar, de manera consciente, el conjunto de conocimientos, destrezas y actitudes que permiten comprender, interpretar y valorar críticamente mensajes, evitando los riesgos de manipulación y desinformación, así como comunicarse eficazmente con otras personas de manera cooperativa, creativa, ética y respetuosa. La comunicación lingüística en Historia del Arte constituye la base para el pensamiento propio y para la construcción del conocimiento en todos los ámbitos del saber. Por ello, su desarrollo está vinculado a la reflexión explícita acerca del funcionamiento de la lengua en los géneros discursivos específicos de la materia, así como a los usos de la oralidad, la escritura o la signación para pensar y para aprender. En Historia del Arte esto puede concretarse en la redacción y exposición de temas y el comentario oral y escrito de obras de arte. Por último, esta competencia hace posible apreciar la dimensión estética del lenguaje y disfrutar de la cultura literaria. Esta competencia está relacionada con las competencias específicas C1, C2, C4, C7 y C8.",
+      "La Competencia plurilingüe (CP) implica el manejo de diversas lenguas correcta y eficientemente para el aprendizaje y comunicación. En Historia del Arte supone la puesta en valor del patrimonio material e inmaterial compartido para conservarlo y respetar los sentimientos de pertenencia. Integra dimensiones interculturales orientadas a conocer, valorar y respetar la diversidad cultural de la sociedad con el objetivo de fomentar la convivencia democrática. Esta competencia está relacionada con las competencias específicas C3, C4, C5 y C6.",
+      "La Competencia digital (CD) implica el uso seguro, saludable, sostenible, crítico y responsable de las tecnologías digitales para el aprendizaje, para el trabajo y para la participación en la sociedad, así como la interacción con estas.",
+      "En Historia del Arte se incluyen la alfabetización en información y datos, la comunicación y la colaboración, la educación mediática, la creación de contenidos digitales, asuntos relacionados con la ciudadanía digital, la privacidad, la propiedad intelectual, la resolución de problemas y el pensamiento crítico, todo ello en el marco de los estudios artísticos. Estos son aspectos que pueden concretarse en la búsqueda de información por medios digitales y la exposición por la misma vía de temas, comentarios y trabajos. Esta competencia está relacionada con las competencias específicas C1, C2, C4, C5 y C7.",
+      "La Competencia personal, social y de aprender a aprender (CPSAA) implica la capacidad de reflexión para autoconocerse, aceptarse y promover un crecimiento personal constante; gestionar el tiempo y la información eficazmente; colaborar con otras personas de forma constructiva; mantener la resiliencia; y gestionar el aprendizaje a lo largo de la vida. Esta competencia implica la capacidad de hacer frente a la incertidumbre y a la complejidad; adaptarse a los cambios; aprender a gestionar los procesos metacognitivos; identificar conductas contrarias a la convivencia y desarrollar estrategias para abordarlas; contribuir al bienestar físico, mental y emocional propio y de las demás personas, desarrollando habilidades de cuidado personal y de su entorno a través de la corresponsabilidad; ser capaz de llevar una vida orientada al futuro; así como expresar empatía y abordar los conflictos en un contexto integrador y de apoyo a través del estudio de las manifestaciones artísticas. Todo esto debe trabajarse evaluando la comunicación de sentimientos y emociones generados por el estudio de obras artísticas, la exposición crítica y bien fundamentada del papel del arte en los movimientos sociales, así como el reconocimiento de la función del arte en la concepción del ser humano a lo largo de la historia. Esta competencia está relacionada con todas las competencias específicas.",
+      "La Competencia ciudadana (CC) contribuye a que el alumnado pueda ejercer una ciudadanía responsable y participar plenamente en la vida social y cívica, basándose en la comprensión de los conceptos y las estructuras sociales, económicas, jurídicas y políticas, así como en el conocimiento de los acontecimientos mundiales y el compromiso activo con la sostenibilidad y el logro de una ciudadanía mundial.",
+      "La materia contempla la alfabetización cívica, la adopción consciente de los valores propios de una cultura democrática fundada en el respeto a los derechos humanos, la reflexión crítica acerca de los grandes problemas éticos de nuestro tiempo a través del estudio del arte y su historia y el desarrollo de un estilo de vida sostenible acorde con los Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria de Desarrollo Sostenible 2030. El trabajo en el aula de esta competencia debe velar, por un lado, por un desarrollo sostenible de las sesiones, que evite el despilfarro de medios y fuentes de energía y procure la reutilización, reducción y reciclaje de materiales. Por otro lado, debe identificarse a lo largo de la historia del arte la contribución de artistas y movimientos a la consecución de un modelo social respetuoso con la diferencia y el medio. Esta competencia está relacionada con todas las competencias específicas.",
+      "La Competencia emprendedora (CE) implica desarrollar un enfoque vital dirigido a actuar sobre oportunidades e ideas, utilizando los conocimientos específicos necesarios para generar resultados de valor para otras personas. Esta competencia aporta estrategias para adaptar la mirada y detectar necesidades y oportunidades; entrenar el pensamiento para analizar y evaluar el entorno y crear y replantear ideas utilizando la imaginación, la creatividad, el pensamiento estratégico y la reflexión ética, crítica y constructiva dentro de los procesos creativos y de innovación, y despertar la disposición a aprender, a arriesgar y a afrontar la incertidumbre. Asimismo, implica tomar decisiones basadas en la información y el conocimiento —en este caso a través del arte— y colaborar de manera ágil con otras personas con motivación, empatía y habilidades de comunicación y de negociación para llevar las ideas planteadas a la acción mediante la planificación y gestión de proyectos sostenibles de valor social y cultural. Las iniciativas provenientes del alumnado para enriquecer el conocimiento de la historia del arte —tales como la organización de exposiciones, la generación de obras de arte propias o la visita a centros artísticos— pueden relacionarse con esta competencia. Por último, está relacionada con la competencia específica C2.",
+      "La Competencia en conciencia y expresión culturales (CCEC) supone comprender y respetar el modo en que las ideas, las opiniones, los sentimientos y las emociones se expresan y se comunican de forma creativa en distintas culturas y por medio de una amplia gama de manifestaciones artísticas y culturales. Todo ello implica un compromiso con la comprensión, el desarrollo y la expresión de las ideas propias acerca del arte y su historia y del sentido del lugar que se ocupa o del papel que se desempeña en la sociedad. Asimismo, requiere la comprensión de la propia identidad en evolución y del patrimonio cultural en un mundo caracterizado por la diversidad, así como la toma de conciencia de que el arte y otras manifestaciones culturales pueden suponer una manera de mirar el mundo y de darle forma. En el aula esto debe traducirse en la inclusión de contenidos diversos con los que el alumnado pueda identificarse, de forma individual y colectiva, y en el respeto, tanto personal como académico, a lo diferente. Esta competencia está relacionada con todas las competencias específicas.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Historia del Arte se han establecido ocho competencias específicas que se concretan en un total de veinte criterios de evaluación. Estos criterios de evaluación presentan una marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos del Perfil de salida, a los que contribuye la competencia específica, expresando tanto las capacidades y los saberes que se deben adquirir como el contexto y modo de aplicación de dichos aspectos.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Los saberes básicos se agrupan en cuatro bloques y han sido concebidos para que puedan abordarse desde distintos enfoques didácticos y metodológicos. Así, se han organizado por criterios temáticos, sin ser un obstáculo para que sea posible realizar una aproximación a estos saberes siguiendo un orden cronológico o combinando ambos aspectos.",
+      "En el Bloque I, «Aproximación a la historia del arte», se afronta la cuestión de la definición del objeto de estudio y su evolución en el tiempo, el lenguaje artístico como forma de expresión y comunicación, el reto de la interpretación y el juicio estético, el vocabulario y la terminología específicos que el alumnado debe saber utilizar, y las técnicas del comentario histórico-artístico. El trabajo con respecto a estos saberes puede concebirse como preámbulo al curso o bien como actividad que desarrollar a lo largo del mismo.",
+      "En el Bloque II, «El arte y sus funciones a lo largo de la historia», se tratan, desde una perspectiva integradora, las funciones y significados de la actividad artística a lo largo del tiempo. Dicha actividad y las obras de arte a ella debidas constituyen un valioso documento para conocer las culturas que han caracterizado a las distintas sociedades humanas a lo largo de distintas épocas. Es por ello que resulta imprescindible el estudio de la obra de arte en su contexto como punto de partida, para analizar los factores históricos que intervienen en el proceso de su creación. Se pretende, con todo ello, que el alumnado comprenda el carácter multidimensional y complejo de la relación entre la actividad artística y los fenómenos políticos, sociales, económicos e ideológicos, así como entre dicha actividad y la subjetividad de las personas creadoras, planteando, asimismo, el problema del carácter autónomo y de la propia entidad de la obra de arte.",
+      "En el Bloque III, «Dimensión individual y social del arte», se analiza el papel del arte como expresión de la identidad y de los sentimientos de pertenencia. Se trata aquí de identificar y comprender todos aquellos elementos visuales, icónicos y simbólicos que, presentes en todas las culturas, definen la identidad individual y colectiva de una sociedad. Además, se examina críticamente la participación de las mujeres y se otorga relevancia a la visibilidad a las artistas que han estado marginadas de un canon tradicionalmente concebido desde una perspectiva androcéntrica.",
+      "Por último, en el último Bloque IV, «Realidad, espacio y territorio en el arte», se reflexiona sobre la concepción del arte como representación y reflejo de la realidad. Se abordan saberes relacionados con la creación del espacio arquitectónico, el dominio de la perspectiva en la pintura, el urbanismo y la relación del arte y el patrimonio artístico con la naturaleza y el desarrollo sostenible.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "Por lo dicho anteriormente, conviene subrayar que el enfoque competencial de Bachillerato y de Historia del Arte posibilita diseñar situaciones y contextos de aprendizaje más activos en los que dotar de mayor protagonismo al alumnado y promover el trabajo en equipo, los procesos de indagación e investigación, la creatividad y la transferencia del conocimiento adquirido.",
+      "Las situaciones de aprendizaje proporcionan una herramienta eficaz para integrar los elementos curriculares planteando tareas y actividades complejas y relevantes para resolver problemas reales, y se desarrollarán partiendo de una perspectiva cronológica o transversal, mediante un enfoque multicausal y con estrategias interdisciplinares, y para que sean efectivas deben estar debidamente contextualizadas al entorno, con atención a los distintos ritmos de aprendizaje en alineación con el Diseño Universal para el Aprendizaje (DUA). Contemplarán tres grandes elementos: qué se va a aprender —esto es, la relación de los aprendizajes esperados, extraídos de los criterios de evaluación y competencias específicas vinculados a la misma, y los saberes básicos de la materia, a través de los cuales se desarrollarán estos aprendizajes previstos—, cómo se va a aprender —esto es, la explicación de cómo se va a activar y a motivar al alumnado, a través de qué contextos de aprendizaje, especificando los productos finales, recursos y espacios— y para qué —esto es, la descripción de la finalidad de los aprendizajes con objetivos claros—.",
+      "El diseño de estas situaciones debe posibilitar la articulación coherente y eficaz de los distintos conocimientos, destrezas y actitudes propios de Bachillerato. Deben contemplar, además, distintos tipos de agrupamiento, desde el trabajo individual hasta la construcción grupal del aprendizaje, con un punto de vista de trabajo colaborativo, mediante la creación de grupos de trabajo base que realizarán tareas variadas, donde cada miembro tendrá labores coordinadas y asumirá responsabilidades personales que sumen un esfuerzo final a modo de producto.",
+      "Se invita, así, a elaborar propuestas didácticas a través de metodologías integradoras, en las que se apliquen el análisis, la interpretación y la valoración personal y argumentada, el diálogo y la colaboración con los demás y con otras áreas de conocimiento, el uso crítico, ético y responsable de la información, el respeto al patrimonio y a la diversidad de expresiones culturales, y la concepción del conocimiento y el aprendizaje como motor del desarrollo personal, social y cultural y como garantía para afrontar con éxito los retos y desafíos del siglo XXI"
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar diferentes concepciones del arte a lo largo de la historia, seleccionando y analizando información de forma crítica, para valorar la diversidad de manifestaciones artísticas como producto de la creatividad humana y fomentar el respeto por las mismas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "CD1",
+        "CPSAA3.2",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1471,
+          1476
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica pone en relación los saberes de historia del arte con su contexto geográfico, histórico y social para permitir la comparación de los diferentes productos artísticos, de forma crítica, valorando su diversidad.",
+          "Los criterios de evaluación están referidos a la comparación entre los diferentes productos artísticos, relacionándolos con su concepto geográfico, histórico y social. Además, se busca que el alumnado localice, analice y contraste la información de forma autónoma, para generar juicios propios que sean convenientemente expresados. Se aborda, asimismo, el análisis de obras de arte concretas —plásticas y arquitectónicas—, partiendo de la definición de arte y valorando su papel como medio de comunicación."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Reconocer los diversos lenguajes artísticos como una forma de comunicación y expresión de ideas, deseos y emociones, utilizando con corrección la terminología y el vocabulario específico de la materia, para expresar con coherencia y fluidez sus propios juicios y sentimientos y mostrar respeto y empatía por los juicios y expresiones de los demás."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "CD1",
+        "CPSAA1.2",
+        "CPSAA5",
+        "CC1",
+        "CE3",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1471,
+          1477
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia se centra en la utilización del arte como medio de comunicación y de expresión de ideas, deseos y emociones. Implica el uso del vocabulario correcto para generar juicios propios, fundamentando sentimientos y desarrollando la empatía y el respeto por las expresiones ajenas.",
+          "Los criterios de evaluación asociados a esta competencia abordan el uso correcto del vocabulario artístico y la autonomía expresiva. Parte de la autoafirmación personal y la tolerancia del alumnado ante expresiones externas y de la muestra de un conocimiento básico de diferentes lenguajes artísticos. Está referida al arte como forma de comunicación y sus implicaciones subjetivas, a la terminología y el vocabulario artísticos específicos y a las herramientas para el análisis de la obra de arte."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Distinguir las distintas funciones del arte a lo largo de la historia, analizando la dimensión religiosa, ideológica, política, social, económica, expresiva y propiamente estética de la obra de arte, de su producción y su percepción, para promover una apreciación global y un juicio crítico e informado y fundamentado de los mismos."
+      },
+      "descriptoresOperativosRefs": [
+        "CP3",
+        "CPSAA1.2",
+        "CPSAA3.2",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1471,
+          1478
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia se centra en la utilización del arte como medio de comunicación y de expresión de ideas, deseos y emociones. Implica el uso del vocabulario correcto para generar juicios propios, fundamentando sentimientos y desarrollando la empatía y el respeto por las expresiones ajenas.",
+          "Los criterios de evaluación asociados a esta competencia abordan el uso correcto del vocabulario artístico y la autonomía expresiva. Parte de la autoafirmación personal y la tolerancia del alumnado ante expresiones externas y de la muestra de un conocimiento básico de diferentes lenguajes artísticos. Está referida al arte como forma de comunicación y sus implicaciones subjetivas, a la terminología y el vocabulario artísticos específicos y a las herramientas para el análisis de la obra de arte."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Identificar y caracterizar los principales movimientos artísticos a lo largo de la historia, reconociendo las relaciones de influencia, préstamo, continuidad y ruptura que se producen entre ellos, para comprender los mecanismos que rigen la evolución de la historia del arte y fomentar el respeto y aprecio de las manifestaciones artísticas de cualquier época y cultura."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP3",
+        "CD1",
+        "CPSAA3.2",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1472,
+          1479
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica consiste en el reconocimiento de los movimientos artísticos a lo largo de la historia, lo que permite establecer una relación con el entorno y se traduce en la apreciación, el respeto y la conservación del patrimonio. Se incidirá en los mecanismos de influencia, préstamo, continuidad y ruptura para la comprensión del hecho artístico y la elaboración de un discurso personal.",
+          "En sus criterios de evaluación se busca, por parte del alumnado, el reconocimiento de los diferentes movimientos artísticos mediante el análisis, la investigación y la comparación para generar opiniones razonadas y conclusiones, que serán evaluadas con su aplicación a movimientos canarios, españoles y universales en su contexto histórico y cultural. Se centra en la utilización de herramientas de análisis de obras de arte, tales como elementos técnicos, formales y estilísticos; estudios iconográficos y de significado, identificación, contextualización y relevancia de la obra y análisis comparativo."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Identificar y contextualizar espacial y temporalmente las más relevantes manifestaciones y personalidades artísticas, analizando su entorno social, político y cultural, y sus aspectos biográficos, para valorar las obras y a sus artistas como expresión de su época y ámbito social, apreciar su creatividad y promover el conocimiento de diversas formas de creación."
+      },
+      "descriptoresOperativosRefs": [
+        "CP3",
+        "CD2",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1472,
+          1480
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica está relacionada con la conexión entre los movimientos artísticos y las personalidades individuales, estableciendo el contexto geográfico, histórico, social, político, cultural y biográfico con la intención de concebir la creación artística como fruto de un tiempo determinado y la producción colectiva como la suma de individualidades.",
+          "Los criterios de evaluación vinculados a esta competencia se centran en el análisis, investigación, comparación y comunicación sus conclusiones, donde el alumnado ha de usar el lenguaje específico de la materia, diseñando reseñas biográficas sobre las personas creadoras más destacadas, atendiendo a aquellos aspectos que faciliten la comprensión del significado y valor de su obra."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Conocer y valorar el patrimonio artístico en el ámbito local, nacional y mundial, analizando ejemplos concretos de su aprovechamiento y sus funciones, para contribuir a su conservación, su uso comprometido a favor de la consecución de los Objetivos de Desarrollo Sostenible y promoción como elemento conformador de la identidad individual y colectiva, y como dinamizador de la cultura y la economía. (utilización) para la consecución de los objetivos de desarrollo sostenible."
+      },
+      "descriptoresOperativosRefs": [
+        "CP3",
+        "CPSAA3.2",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1472,
+          1482
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia persigue concienciar al alumnado sobre la necesidad de conservar el patrimonio artístico. Se enmarca, a su vez, en la necesidad de mejorar el entorno de los seres humanos para conseguir un desarrollo sostenible en los ámbitos local, nacional e internacional.",
+          "Los criterios de evaluación están encaminados a que el alumnado pueda realizar la investigación, el análisis, la comparación y la correcta comunicación de conclusiones, haciendo hincapié en el patrimonio canario, sin olvidar el español y el universal, valorando los procesos de adquisición, conservación y uso sostenible de las obras de arte y analizando el papel conformador de la identidad individual y colectiva que posee el arte y el patrimonio artístico."
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Distinguir y describir los cambios estéticos y los diferentes cánones de belleza a lo largo de la historia del arte, realizando análisis comparativos entre obras de diversos estilos, épocas y lugares, para formarse una imagen ajustada de sí mismo y consolidar una madurez personal que permita mostrar sensibilidad y respeto hacia la diversidad superando estereotipos y prejuicios."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1472,
+          1483
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia trata de concienciar sobre la relatividad de las concepciones estéticas, y en particular de la noción de belleza, como forma de apertura y respeto hacia concepciones diferentes a las nuestras, sin menoscabo de que dicha percepción ayude a afianzar la propia imagen individual y colectiva.",
+          "En los criterios de evaluación que desarrollan esta competencia específica (C7), los fundamentos están en la apreciación, mediante una apertura de miras y el respeto por parte del alumnado, de concepciones diferentes a las nuestras. También desarrolla en el alumnado la investigación, el análisis y la comparación de obras artísticas para promover la sensibilidad hacia manifestaciones estéticas diferentes, generando argumentos propios sobre distintos cánones de belleza en obras de diversos estilos y lugares."
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Integrar la perspectiva de género en el estudio de la historia del arte, analizando el papel que ha ocupado la mujer y la imagen que de ella se ha dado en los diferentes estilos y movimientos artísticos, para visibilizar a las artistas y promover la igualdad efectiva entre mujeres y hombres."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CPSAA3.1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1473,
+          1484
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia se relaciona con la necesidad de superar las diferencias de género en nuestra sociedad. En este sentido, se trata de incorporar al estudio de la historia del arte una perspectiva de género que evidencie los trabajos realizados por mujeres, además de la imagen de la mujer promovida en cada movimiento artístico, con el objetivo de colaborar en la consecución de una sociedad igualitaria.",
+          "En los criterios de evaluación de esta competencia específica (C8) está presente la capacidad del alumnado para superar las diferencias de género en nuestra sociedad, conociendo las principales figuras femeninas de la historia del arte, analizando el contexto político, social y cultural en el que desarrollaron su producción artística. Finalmente, se pretende que las alumnas y los alumnos conozcan y examinen críticamente la imagen que se ha dado de la mujer mediante el análisis comparativo de obras de distintas épocas y culturas donde está representada la imagen femenina."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar y poner en valor la riqueza de las expresiones artísticas y su concepción del arte mediante proyectos de investigación."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "CD1",
+            "CPSAA3.2",
+            "CC1",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1476
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar obras de arte seleccionadas, reconociendo sus principales características."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "CPSAA3.2",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1476
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar opiniones fundamentadas sobre distintas obras de arte, valorando las opiniones y las emociones de las demás personas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL5",
+            "CD1",
+            "CPSAA1.2",
+            "CPSAA5",
+            "CC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1477
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear el vocabulario específico de la materia, haciendo uso de los distintos lenguajes artísticos mediante herramientas de análisis de las obras de arte."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CPSAA5",
+            "CE3",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1477
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar las distintas funciones del arte, analizando los factores sociopolíticos, culturales, ideológicos, económicos o religiosos que influyen en la obra de arte."
+          },
+          "descriptoresOperativosRefs": [
+            "CP3",
+            "CPSAA1.2",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1478
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Construir opiniones fundamentadas sobre las obras de arte, su proceso de producción, su estética y su percepción por parte del público."
+          },
+          "descriptoresOperativosRefs": [
+            "CP3",
+            "CPSAA1.2",
+            "CPSAA3.2",
+            "CC1",
+            "CC3",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1478
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Identificar los principales movimientos artísticos a lo largo de la historia, en Canarias, en el resto del territorio español y en el mundo."
+          },
+          "descriptoresOperativosRefs": [
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1479
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer y explicar la relación cultural que tiene el arte con su entorno cultural, describiendo sus funciones, características básicas de estilo y su evolución temporal."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CP3",
+            "CD1",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1479
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Comparar y contrastar obras de arte para reconocer la evolución que se ha producido a lo largo de los distintos períodos artísticos, explicando los antecedentes y consecuentes y las rupturas entre estilos, autores, autoras y movimientos."
+          },
+          "descriptoresOperativosRefs": [
+            "CPSAA3.2",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1480
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Realizar comentarios sobre distintas obras de arte siguiendo una pautas sobre descripción formal de los elementos, características del período artístico, influencias, contextos y repercusiones en otros artistas o estilos, incluyendo el ámbito canario, respetando todas manifestaciones artísticas."
+          },
+          "descriptoresOperativosRefs": [
+            "CP3",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1481
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reconocer la complejidad del trabajo de los artistas y las artistas en el proceso creativo."
+          },
+          "descriptoresOperativosRefs": [
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1481
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Investigar y trabajar las biografías de las personas creadoras, identificando en su obra las características del período estudiado y la influencia que tienen en sus creaciones sus rasgos biográficos."
+          },
+          "descriptoresOperativosRefs": [
+            "CD1",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1481
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Valorar el patrimonio artístico canario, del resto del territorio español y mundial, tomando conciencia de la necesidad de su protección y difusión."
+          },
+          "descriptoresOperativosRefs": [
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1482
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Investigar sobre las obras de arte, en especial las canarias, indagando cómo se adquieren, conservan y se exhiben, teniendo en cuenta la influencia de la acción antrópica sobre ellas."
+          },
+          "descriptoresOperativosRefs": [
+            "CC2",
+            "CC3",
+            "CE1",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1482
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar la influencia que tiene el arte y el patrimonio artístico en el concepto del mundo que nos rodea, identificando los recursos estéticos e iconográficos utilizados."
+          },
+          "descriptoresOperativosRefs": [
+            "CP3",
+            "CPSAA3.2",
+            "CC1",
+            "CC3",
+            "CE1",
+            "CCEC1",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1482
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Comparar distintos cánones de belleza y obras de diversos estilos y lugares para apreciar la relatividad de las concepciones estéticas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CD2",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC3",
+            "CCEC1",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1483
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Realizar estudios sobre obras de arte donde se aprecia la diversidad estética a través de las diferentes épocas y estilos."
+          },
+          "descriptoresOperativosRefs": [
+            "CD2",
+            "CPSAA1.1",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC3",
+            "CCEC1",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1483
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Reconocer, a través de los distintos períodos de la Historia del Arte, a las principales artistas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CPSAA3.1",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1484
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Valorar a la mujer artista en su contexto histórico, haciendo difusión de la importancia de su producción artística y sus aportaciones a la Historia del Arte."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CPSAA3.1",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1484
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-3",
+          "codigoOficial": "8.3",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Analizar producciones artísticas femeninas, mediante la comparación entre etapas de la Historia del Arte, tomando conciencia crítica de la imagen que se ha dado de mujer en la Historia del Arte."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CPSAA3.1",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1484,
+              1485
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "CD1",
+            "CPSAA3.2",
+            "CC1",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de relacionar los saberes de Historia del Arte con su contexto geográfico, histórico y social para permitir la comparación de los diferentes productos artísticos de forma crítica, valorando su diversidad. Esto se podrá constatar en el alumnado localizando, analizando y contrastando información de forma autónoma para generar juicios propios que sean convenientemente expresados. Con todo ello, se verificará que las alumnas y los alumnos reconocerán tanto la diversidad de manifestaciones artísticas en su conjunto como el análisis de obras de arte concretas, investigando de forma individual o grupal, partiendo de la definición de arte, valorando su papel como medio de comunicación y culminando la aplicación de lo anterior a las artes plásticas y la arquitectura, mediante acciones informativas como dosieres, paneles divulgativos, murales u otro de formatos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1476,
+              1477
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL5",
+            "CD1",
+            "CPSAA1.2",
+            "CPSAA5",
+            "CC1",
+            "CE3",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se verificará que el alumnado es capaz de utilizar el arte como motivo de comunicación y de expresión de ideas, deseos y emociones. Esto se comprobará con el uso del vocabulario correcto para generar juicios propios que consigan fundamentar sentimientos y cimentar la empatía y el respeto por las expresiones ajenas, evitando actitudes discriminatorias. En el ámbito personal conlleva que el alumnado adquirirá la autonomía expresiva a la par que correcta, la autoafirmación personal y el respeto ante expresiones externas, que se conseguirán elaborando y expresando con coherencia y fluidez juicios y emociones propios acerca de las obras de arte y mostrando respeto y empatía por las opiniones, expresiones y emociones de los demás, así como utilizando la terminología y el vocabulario específico de la materia y demostrando un conocimiento básico de diversos lenguajes artísticos aprendidos. Los saberes que las alumnas y los alumnos adquirirán en este bloque versarán sobre el arte como forma de comunicación, la subjetividad, terminología y vocabulario artísticos específicos y herramientas de análisis de las obras de arte."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1477,
+              1478
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CP",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CP3",
+            "CPSAA1.2",
+            "CPSAA3.2",
+            "CC1",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue que el alumnado pueda conocer las distintas funciones del arte. Por un lado, las relacionadas con el decurso de la historia y, por otro, su utilización religiosa, ideológica, política, social, económica, expresiva o propiamente estética, su producción y su percepción, lo que generará, por parte del alumnado, una comprensión global de las funciones del arte y fomentará su juicio crítico. Todo ello conllevará la necesidad de investigar, analizar, contrastar, opinar y expresar con corrección, tanto de forma individual como en trabajo colaborativo, con el fin de conseguir una imagen propia y colectiva integradora. Para ello se evaluará tanto la distinción, el análisis y la comprensión como la elaboración de un juicio crítico personal sobre las funciones del arte desde la prehistoria hasta la actualidad, que puede ser expresado mediante exposiciones audiovisuales, tablones, conferencias, debates, etc."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1479
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CP3",
+            "CD1",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se constatará que el alumnado reconoce los movimientos artísticos que se han sucedido o han convivido a lo largo de la historia, lo que permitirá establecer una mejor relación con el entorno y se traduce en la apreciación, el respeto y la conservación del patrimonio. También se verificará que reconoce los mecanismos de influencia, préstamo, continuidad y ruptura para la comprensión del hecho artístico y la elaboración de un discurso personal. Relacionado con todo ello, el alumnado deberá investigar, analizar, comparar, opinar y expresar con corrección, alejado de actitudes discriminatorias y no inclusivas, sus conclusiones, que serán evaluadas con su aplicación a movimientos canarios, españoles y universales en su contexto histórico y cultural, utilizando las herramientas de análisis de las obras de arte: elementos técnicos, formales, y estilísticos; estudios iconográfico y de significado, identificación, contextualización y relevancia de la obra, y análisis comparativo. Se valorará que el alumnado trabaje, de forma individual o colectiva, realizando producciones encaminadas a la difusión en los diferentes espacios del centro."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1480
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CP",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CP3",
+            "CD2",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se promoverá que el alumnado sea capaz de relacionar los movimientos artísticos con las personalidades individuales, estableciendo su contexto geográfico, histórico, social, político, cultural y biográfico con la intención de concebir la creación artística como fruto de un tiempo determinado y la producción colectiva como la suma de individualidades, donde se dará visibilidad a las mujeres artistas. Para ello el alumnado deberá investigar, analizar, comparar y comunicar de forma correcta sus conclusiones, fomentando su empatía y expresando sus emociones a través de comentarios histórico-artísticos, reflexiones sobre la creación artística y fichas biográficas de distintas autoras y autores. Los saberes que el alumnado adquirirá están en consonancia con las herramientas para el análisis de las obras de arte: elementos técnicos, formales, y estilísticos; estudios iconográficos y de significado, identificación, contextualización y relevancia de la obra, y análisis comparativo. Se constatará todo lo anterior con la difusión mediante producciones, donde se hagan también planteamientos éticos, como pueden ser síntesis, exposiciones, infografías, pósteres, murales digitales o paneles informativos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1481
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "CP",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CP3",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se concienciará al alumnado en la conservación del patrimonio artístico. Este propósito se enmarca en la necesidad de mejorar el entorno de las mujeres y los hombres para conseguir un desarrollo sostenible en los ámbitos local, nacional e internacional. La investigación, el análisis, la comparación y la correcta comunicación de conclusiones deberán conseguir la asunción de valores tendentes, por un lado, a la conservación del patrimonio y, por el otro, a la mejora del entorno, basándose en un modelo de desarrollo sostenible en los ámbitos canario, nacional e internacional. Se constatará que el alumnado conoce y valora el patrimonio canario, sin olvidar el español y el universal, poniendo en valor los procesos de adquisición, conservación, exhibición y uso sostenible relacionado con él, así como, en su papel conformador de la identidad individual y colectiva, teniendo en cuenta las diferencias. Los alumnos y las alumnas adquirirán los saberes involucrados en la relación del arte con la realidad y el espacio. Se verificará, por último, la puesta en valor, difusión y administración de esa riqueza patrimonial con producciones y planteamientos éticos mediante dosieres, síntesis, exposiciones o cualquier producto."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1482,
+              1483
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-7",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CD2",
+            "CPSAA1.1",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC3",
+            "CCEC1",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de apreciar la relatividad de las concepciones estéticas y, en particular, de la noción de belleza. Esta relatividad debe propiciar la apertura y el respeto hacia concepciones diferentes a las suyas sin menoscabo de que dicha percepción ayude a afianzar la propia imagen individual y colectiva. Para ello, se potenciará en el alumnado la investigación, el análisis y la comparación, que deben promover la sensibilidad del alumnado para con manifestaciones estéticas ajenas a las suyas, aplicando dichos criterios a la generación de argumentos propios sobre distintos cánones de belleza y en obras de diversos estilos y lugares, reconociendo estereotipos sexistas y no inclusivos. Las alumnas y los alumnos adquirirán los saberes referentes a las relaciones del arte con la identidad individual y social del arte, pudiendo hacer síntesis, exposiciones, infografías, pósteres y murales digitales, paneles informativos o papel."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1484
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-8",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CPSAA3.1",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de superar las diferencias de género en nuestra sociedad. En este sentido se trata de verificar que las alumnas y los alumnos incorporan al estudio de la Historia del Arte una perspectiva de género que evidencie los trabajos realizados por mujeres, además de la imagen de la mujer promovida en cada movimiento artístico, con el objetivo de colaborar en la consecución de una sociedad igualitaria. En este sentido, se fomentará la investigación, el análisis, la comparación y la comunicación de conclusiones, que debe tender a la consecución de una sociedad más democrática, sensible a situaciones ajenas, respetuosa y solidaria. La finalidad es que el alumnado conozca las principales figuras femeninas de la Historia del Arte, dando visibilidad a la mujer como artista, analizando el contexto político, social y cultural en el que desarrolló su producción artística. También se quiere constatar que el alumnado reconoce el esfuerzo de estas artistas por hacerse valer en ese contexto, conociendo y difundiendo sus aportaciones. Finalmente, se pretende que el alumnado conozca y examine críticamente la imagen que se ha dado de la mujer en la Historia del Arte, mediante el análisis comparativo de obras de distintas épocas y culturas, en las que esté representada la figura femenina, sirviendo para evaluar esta competencia, en el marco de la dimensión individual y social del arte."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1485
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Aproximación a la Historia del Arte"
+          },
+          "saberes": [
+            {
+              "id": "HAR.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Debate sobre la definición de arte y su concepto del arte a lo largo de la historia."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estudio sobre el lenguaje artístico: el arte como forma de comunicación. La variedad de códigos y lenguajes. Conocimiento de la variedad de símbolos e iconografía en el arte. La subjetividad creadora. La complejidad de la interpretación. El juicio estético."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Aproximación al aprendizaje de la terminología y vocabulario específico del arte en la arquitectura y las artes plásticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Uso de las herramientas para el análisis de la obra de arte: elementos técnicos, formales, y estilísticos. Estudio iconográfico y significado, identificación, contextualización y relevancia de la obra. El análisis comparativo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Análisis de las influencias, préstamos, continuidades y rupturas en la Historia del Arte."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "El arte y sus funciones a lo largo de la historia"
+          },
+          "saberes": [
+            {
+              "id": "HAR.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Comprensión del arte como instrumento mágico-ritual a lo largo de la historia."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Reconocimiento del arte como dispositivo de dominación y control: desde las primeras civilizaciones urbanas hasta la sociedad contemporánea."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Valoración del arte como instrumento propagandístico: desde el Mundo Antiguo hasta la actual sociedad de consumo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Conocimiento de la función didáctica y religiosa del arte en las sociedades teocéntricas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.B.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Identificación del mecenazgo y el coleccionismo como elementos de diferenciación social en el arte."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.B.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Utilización del arte como medio de progreso, crítica y transformación sociocultural desde el pensamiento ilustrado hasta la actualidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.B.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Análisis del arte como idioma de sentimientos y emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.B.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Utilización del arte como expresión de los avances tecnológicos: desde la Revolución Industrial hasta la era digital."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Dimensión individual y social del arte"
+          },
+          "saberes": [
+            {
+              "id": "HAR.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Reflexión sobre la necesidad de representarnos. Estudio de la imagen del cuerpo humano. El género del retrato. La evolución en la imagen del artista. Arte e identidad individual."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis y estudio de las escuelas, regionalismos y búsqueda de identidad. Las escuelas en el arte de Canarias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Igualdad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1486
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.C.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Identificación y análisis de la representación de la mujer en el arte desde una perspectiva crítica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1487
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.C.3.2",
+              "codigoOficial": null,
+              "numeracionFuente": "3.2",
+              "texto": {
+                "es": "Valoración de la mujer como artista. La lucha por la visibilidad a lo largo de la historia del arte."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1487
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Realidad, espacio y territorio en el arte"
+          },
+          "saberes": [
+            {
+              "id": "HAR.2.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Reconocimiento de la revolución de la fotografía y del cine. El arte y la realidad, imitación e interpretación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1487
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estudio sobre la creación de espacios arquitectónicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1487
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Identificación y análisis de la pintura y la perspectiva a través de la conquista de la tercera dimensión."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1487
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.D.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Indagación sobre la intervención del arte en el urbanismo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1487
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.D.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Concienciación sobre la función del arte en el medio ambiente. La naturaleza y la representación de las emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1487
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.D.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Reconocimiento de la contribución del arte a los Objetivos de Desarrollo Sostenible y a la Agenda Canaria de Desarrollo Sostenible 2030. Aproximación a la arquitectura, urbanismo y diseño sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1487
+                ]
+              }
+            },
+            {
+              "id": "HAR.2.D.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Valoración y reflexión sobre el patrimonio artístico: preservación, conservación y usos sostenibles. La utilidad de la museografía y museología. Conocimiento de la realidad museística canaria."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1487
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

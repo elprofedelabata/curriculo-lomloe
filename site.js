@@ -170,10 +170,17 @@ function renderMatterCard(catalog, matter) {
   const details = create("details", "matter-details");
   details.append(create("summary", "", "Fuentes e incidencias"));
   const body = create("div", "matter-details-body");
+  if (matter.concrecionCurricular) {
+    const scope = matter.concrecionCurricular.aplicacion;
+    const base = catalog.materias.find((item) => item.id === matter.concrecionCurricular.materiaBaseRef);
+    body.append(create("p", "matter-detail-meta",
+      "Concreción de " + (base?.nombre || "Lengua Castellana y Literatura") + ". Preceptiva en " + scope.preceptivaEn.join(", ") +
+      "; facultativa en " + scope.facultativaEn.join(", ") + (scope.facultativaRequiereAutorizacion ? ", previa autorización." : ".")));
+  }
   const courses = matter.ciclos?.length
-    ? matter.ciclos.map((item) => cycleLabel(item.ciclo) + (item.caracter ? " (" + item.caracter + ")" : ""))
+    ? matter.ciclos.map((item) => cycleLabel(item.ciclo) + (item.caracter && !matter.concrecionCurricular ? " (" + item.caracter + ")" : ""))
     : (matter.cursos || []).map((item) =>
-        courseLabel(matter.etapa, item.curso) + (item.caracter ? " (" + item.caracter + ")" : "")
+        courseLabel(matter.etapa, item.curso) + (item.caracter && !matter.concrecionCurricular ? " (" + item.caracter + ")" : "")
       );
   const metadata = [
     matter.anexos.length ? "Anexo " + matter.anexos.join(", ") : null,

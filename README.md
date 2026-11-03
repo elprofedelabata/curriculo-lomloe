@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 398 currículos revisados: 102 de Andalucía, 116 de Aragón, 87 del Principado de Asturias y 93 de Illes Balears. También están generados en borrador los tres JSON de Infantil, las nueve áreas de Primaria y las 23 materias y tres ámbitos de ESO de Canarias. Tres optativas asturianas de Bachillerato, cuyo desarrollo curricular queda abierto en el decreto, se documentan mediante fichas informativas separadas de los JSON curriculares. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 507 currículos revisados: 102 de Andalucía, 116 de Aragón, 87 del Principado de Asturias, 93 de Illes Balears y 109 de Canarias, incluidas las dos concreciones de Lengua para el silbo gomero de Primaria y ESO. Tres optativas asturianas de Bachillerato, cuyo desarrollo curricular queda abierto en el decreto, se documentan mediante fichas informativas separadas de los JSON curriculares. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
 
 ## Progreso del proyecto
 
@@ -12,7 +12,7 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 | Aragón | ✅ 3/3 | ✅ 14/14 | ✅ 38/38 | ✅ 59/59 | ✅ 2/2 |
 | Principado de Asturias | ✅ 3/3 | ✅ 10/10 | ✅ 24/24 | ✅ 48/48 | ✅ 2/2 |
 | Illes Balears | ✅ 3/3 | ✅ 8/8 | ✅ 27/27 | ✅ 53/53 | ✅ 2/2 |
-| Canarias | 📝 3/3 | 📝 9/9 | 📝 26/26 | 📚 | 📚 |
+| Canarias | ✅ 3/3 | ✅ 10/10 | ✅ 27/27 | ✅ 67/67 | ✅ 2/2 |
 | Cantabria | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Castilla-La Mancha | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Castilla y León | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -26,19 +26,21 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 | País Vasco | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | La Rioja | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 
-**Leyenda:** ✅ JSON publicados y revisados (la fracción cuenta currículos con desarrollo cerrado) · 📝 JSON generado pendiente de revisión · 📚 fuentes oficiales recopiladas · 🚧 conversión en curso · ⬜ pendiente.
+**Leyenda:** ✅ JSON publicados y revisados (la fracción cuenta JSON curriculares, incluidas las concreciones complementarias) · 📝 JSON generado pendiente de revisión · 📚 fuentes oficiales recopiladas · 🚧 conversión en curso · ⬜ pendiente.
 
 Para las Illes Balears se han recopilado los decretos curriculares de 2025 y la documentación de CFGB en [su catálogo de fuentes](sources/es-ib/normativa/catalogo.json). Sus 93 currículos de Infantil, Primaria, ESO, Bachillerato y los ámbitos comunes de CFGB están estructurados y revisados en JSON. Los textos se conservan en catalán; sus identificadores individuales de saberes y abreviaturas de materia son internos del proyecto, no códigos oficiales. La secuenciación de saberes por cursos de ESO y las aclaraciones de criterios tienen carácter orientativo según el artículo 10.3 del decreto de ESO; en Bachillerato, el artículo 10.1 declara orientativas las aclaraciones de criterios. Los PDF de CFGB proceden del portal institucional balear, no de un decreto curricular autonómico publicado en el BOIB; los desarrollos comunes se representan en ambos cursos sin atribuir a la fuente una secuenciación que no contiene.
 
-Para Canarias se han recopilado los [PDF oficiales del BOC](sources/es-cn/normativa/catalogo.json) de las cinco etapas, incluida la corrección de errores de Infantil y el decreto específico de Diversificación Curricular de ESO. El anexo 1 del decreto de CFGB desarrolla los ámbitos comunes. Las tres áreas de Infantil, las nueve de Primaria y los 26 currículos de ESO y Diversificación ya tienen JSON en borrador. El inventario de ESO comprende 23 materias del Decreto 30/2023 y tres ámbitos de Diversificación del Decreto 86/2025. Las siete incidencias revisadas de Infantil, Primaria y ESO se documentan en [incidencias de Canarias](incidencias/es-cn.md).
+Canarias cuenta con 109 JSON revisados: tres áreas de Infantil, nueve de Primaria, 23 materias de ESO, tres ámbitos de Diversificación, 67 materias de Bachillerato, dos ámbitos comunes de CFGB y dos concreciones complementarias de Lengua para el silbo gomero. Los [PDF oficiales del BOC](sources/es-cn/normativa/catalogo.json) incluyen la corrección de errores de Infantil y los decretos específicos de Diversificación y optativas de Bachillerato. Las 21 decisiones del [registro de Canarias](incidencias/es-cn.md) están revisadas.
+
+Las concreciones de Lengua para el silbo gomero del Decreto 24/2026 añaden un JSON complementario en Primaria y otro en ESO: por eso sus columnas muestran diez y 27 archivos. Ambas están extraídas, cotejadas y revisadas. Se vinculan a Lengua y conservan la aplicación preceptiva en La Gomera y facultativa, con autorización, en las demás islas. La [revisión final](sources/es-cn/REVISION-FINAL.md) documenta las correcciones aplicadas y la conservación de los identificadores de Matemáticas.
 
 En Asturias hay además [tres optativas de Bachillerato con desarrollo abierto](data/es-as/bachillerato/optativas-abiertas.json): se inventarían y muestran como fichas informativas, sin inventar competencias, criterios o saberes comunes.
 
-En CFGB se incluyen los ámbitos comunes de Ciencias Aplicadas y Comunicación y Ciencias Sociales del anexo V de la Orden de 30 de mayo de 2023. Los dos ámbitos cuentan con JSON revisados; los módulos profesionales quedan fuera de este alcance. Más adelante se podrá estudiar la incorporación del resto de enseñanzas de Formación Profesional.
+En Andalucía, CFGB incluye los ámbitos comunes de Ciencias Aplicadas y Comunicación y Ciencias Sociales del anexo V de la Orden de 30 de mayo de 2023. Los dos ámbitos cuentan con JSON revisados; los módulos profesionales quedan fuera de este alcance. Más adelante se podrá estudiar la incorporación del resto de enseñanzas de Formación Profesional.
 
 ## Sitio web
 
-La [portada](https://elprofedelabata.github.io/curriculo-lomloe/) presenta el proyecto y las 17 comunidades autónomas en una cuadrícula de carpetas. La carpeta de cada comunidad con datos despliega, dentro de la misma cuadrícula, sus cinco etapas educativas. Cada etapa abre una lista sencilla de materias o ámbitos, con acceso directo a los JSON y detalles desplegables de fuentes e incidencias. Sus enlaces se pueden compartir para abrir una etapa o una materia concreta. Aragón tiene revisados los 116 JSON de sus cinco etapas; el Principado de Asturias tiene revisados los 87 JSON publicados de sus cinco etapas. Su Bachillerato muestra además las tres optativas de desarrollo abierto como fichas informativas con acceso al decreto, sin presentarlas como JSON curriculares. Illes Balears tiene revisados sus 93 JSON de las cinco etapas; Canarias ofrece Infantil, Primaria y los 26 currículos de ESO y Diversificación en borrador y conserva las fuentes oficiales de las demás etapas. Los archivos JSON continúan accesibles directamente y el sitio genera un [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) para descubrirlos sin mantener una lista manual.
+La [portada](https://elprofedelabata.github.io/curriculo-lomloe/) presenta el proyecto y las 17 comunidades autónomas en una cuadrícula de carpetas. La carpeta de cada comunidad con datos despliega, dentro de la misma cuadrícula, sus cinco etapas educativas. Cada etapa abre una lista sencilla de materias o ámbitos, con acceso directo a los JSON y detalles desplegables de fuentes e incidencias. Sus enlaces se pueden compartir para abrir una etapa o una materia concreta. Aragón tiene revisados los 116 JSON de sus cinco etapas; el Principado de Asturias tiene revisados los 87 JSON publicados de sus cinco etapas. Su Bachillerato muestra además las tres optativas de desarrollo abierto como fichas informativas con acceso al decreto, sin presentarlas como JSON curriculares. Illes Balears tiene revisados sus 93 JSON de las cinco etapas. Canarias ofrece sus 109 JSON revisados, incluidas las dos concreciones del silbo gomero. Los detalles de estas concreciones indican su relación con Lengua y su ámbito de aplicación. Los archivos JSON continúan accesibles directamente y el sitio genera un [`catalogo.json`](https://elprofedelabata.github.io/curriculo-lomloe/catalogo.json) para descubrirlos sin mantener una lista manual.
 
 Las banderas de las carpetas se sirven desde el propio repositorio; sus fuentes y licencias están en [assets/flags/README.md](assets/flags/README.md).
 
@@ -93,3 +95,5 @@ En Primaria de Canarias, los descriptores operativos publicados se conservan por
 El campo `codigoOficial` reproduce únicamente una nomenclatura publicada expresamente por la normativa. Cuando la fuente no asigna un código individual a un elemento, su valor es `null`.
 
 El campo `id` siempre contiene un identificador estable del proyecto. En currículos como Educación Infantil de Aragón, donde los saberes se publican como listas sin numeración individual, se construye con la abreviatura interna del área, el ciclo, el bloque y la posición del saber. Por ejemplo, `DEE.2.A.07` identifica internamente el séptimo saber del bloque A del segundo ciclo de Descubrimiento y Exploración del Entorno. Este identificador no debe interpretarse como un código oficial.
+
+El campo opcional `concrecionCurricular` (schemaVersion 0.7.0) vincula un desarrollo complementario con su currículo base mediante `materiaBaseRef`. `aplicacion` conserva los ámbitos preceptivos y facultativos y si la extensión facultativa requiere autorización. El catálogo 1.8.0 expone estos mismos metadatos.

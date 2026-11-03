@@ -1,0 +1,13 @@
+# ODT de apoyo para Bachillerato de Canarias
+
+El [portal curricular de la Consejería](https://www.gobiernodecanarias.org/educacion/web/bachillerato/informacion/ordenacion_curriculo_competencias/curriculo_bach_lomce/index.html) publica 43 ODT de materias del anexo 3 del Decreto 30/2023 y 24 de optativas del anexo 2 del Decreto 78/2025. Los desarrollos de I y II se agrupan en una materia cuando la fuente los publica juntos. La recopilación se realizó el 3 de noviembre de 2026.
+
+El [manifiesto](manifest.json) conserva el nombre, los cursos, las siglas internas, el archivo ODT local, los enlaces institucionales y el intervalo de páginas de cada materia dentro del PDF completo del BOC. Las denominaciones se ajustan al decreto cuando difieren de la etiqueta abreviada del portal. El decreto de optativas no vuelve a desarrollar Segunda Lengua Extranjera I y II, cuyo currículo figura en el Decreto 30/2023.
+
+Los ODT facilitan la lectura de las tablas y las listas; los PDF normativos archivados son la referencia para el cotejo. Las 67 materias están extraídas y revisadas en JSON, con sus competencias, criterios, explicaciones de bloques, saberes y numeración jerárquica. Las diferencias de los ODT se ajustan al texto del BOC. Las tres correcciones de erratas del PDF, en Filosofía, Geografía y Técnicas de Laboratorio, están confirmadas y registradas como revisadas en [el registro de Canarias](../../../../incidencias/es-cn.md).
+
+Las siglas y los identificadores individuales de saberes son internos del proyecto. Cuando cambie el enunciado de una competencia entre cursos, cada versión conservará un identificador interno distinto y el mismo número oficial. Las referencias de los criterios señalarán la versión de su curso.
+
+La recopilación se puede repetir con `python scripts/prepare-es-cn-bachillerato.py`; las 67 materias se generan con `python scripts/extract-es-cn-bachillerato.py`. Los parámetros `--start` y `--limit` permiten seleccionar un intervalo del manifiesto. Cada materia remite al decreto y a las páginas de su fuente; en las optativas del Decreto 78/2025, `aplicableDesdeCurso` queda en `null` porque la norma no fija un calendario de implantación por curso escolar.
+
+El cotejo se puede repetir con `python scripts/audit-es-cn-bachillerato.py` (requiere `jsonschema`; `--packages` admite una instalación temporal). Comprueba los textos, la numeración, las referencias, las listas del ODT y el esquema. Cinco fragmentos cuya capa de texto mezcla contenido de otras páginas se han contrastado visualmente; el script conserva sus huellas para exigir un nuevo cotejo si cambian.

@@ -1,0 +1,1261 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.geografia",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "GEO",
+    "nombre": {
+      "es": "Geografía"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 1326,
+        "hasta": 1345
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La geografía es una disciplina científica encargada del estudio de fenómenos y procesos que analiza, explica y representa las relaciones entre el medio natural y el ser humano en la superficie terrestre. Es la ciencia del territorio, entendido este como una construcción social y resultado de esas interacciones e interdependencias entre la naturaleza y la sociedad.",
+      "Geografía de segundo curso de Bachillerato es una materia de la modalidad de Humanidades y Ciencias Sociales y de libre oferta por los centros en la modalidad de Bachillerato General.",
+      "Desde un punto de vista pedagógico, el alumnado precisa de un análisis y una interpretación de los paisajes naturales y humanos, centrándose el estudio en España, y particularmente en Canarias, partiendo de una perspectiva amplia, marcada por un enfoque sistémico, flexible y globalizador. En consecuencia, sirve para dar una visión holística, con un amplio sentido cultural y social, que aporta conocimiento y valoración crítica a las realidades del mundo contemporáneo.",
+      "El objetivo es presentar una enseñanza fundamentalmente activa, problematizadora, integradora, donde el centro del aprendizaje sea el alumno o la alumna, que actúa en un contexto social concreto, que lo pueda conectar con su entorno más cercano. En ese sentido, es recomendable el uso del aprendizaje servicio como metodología, ya que el alumnado puede así aplicar sus conocimientos en su comunidad más cercana. No es de desdeñar el diseño de actividades complementarias que fomenten la puesta en práctica de acciones sostenibles, de gran importancia en los procesos de enseñanza y de aprendizaje, con un marcado valor inclusivo.",
+      "También se pretende conseguir que el alumnado pueda desenvolverse en el uso responsable de las tecnologías de la información y comunicación, usando las Tecnologías de la Información Geográfica (TIG). Son herramientas que contribuyen en el desarrollo de investigaciones individuales y en equipo, facilitando la gestión de la información y de los recursos, que les permite construir una interpretación general e integrada de los fenómenos geográficos, que les ayuda a realizar el diagnóstico, presentar y comunicar conclusiones y propuestas de mejora que ayudarán a potenciar el espíritu crítico y la madurez, que tendrá como resultado una implicación del alumnado como personas que toman conciencia y participan en la buena gestión y conservación del planeta, desde una sociedad justa, equitativa e inclusiva, en sintonía con los Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "En definitiva, la materia de Geografía deberá aportar una visión integral del medio natural y de la sociedad de España y de Canarias, en un contexto de constantes y profundas transformaciones no solo a escala local sino global, teniendo un enorme potencial como una toma de conciencia ciudadana dentro de la aldea global, contribuyendo, además, al desarrollo personal y a la madurez del alumnado.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "La materia de Geografía contribuye a alcanzar los objetivos generales de etapa de Bachillerato, a la formación global como ciudadanía crítica (a), con capacidad para desarrollar una conciencia geográfica de esta variable realidad que le ha tocado vivir (i). También estimula el crecimiento personal y social del alumnado en un entorno de aprendizaje desarrollando hábitos intelectuales de trabajo (d), haciendo uso de las tecnologías de la comunicación (g), tanto para los procesos de investigación como para su difusión. Por otro lado, el conocimiento de las relaciones humanas resulta esencial para la adquisición de competencias relacionadas con responsabilidades sociales y medioambientales, actitudes democráticas, inclusivas, participativas y solidarias para alcanzar un comportamiento socialmente responsable, rechazando comportamientos discriminatorios de los adolescentes y las adolescentes (o).",
+      "Por otro lado, promueve su desarrollo en contextos interdisciplinares y en otros cercanos a las experiencias personales, poniendo en acción mecanismos básicos que estimulan el crecimiento personal y social del alumnado en un entorno de aprendizaje (j) tanto individual como colectivo, que le construirá unas condiciones básicas para insertarse en la vida activa, resolviendo los conflictos de forma pacífica y rechazando los prejuicios y los estereotipos sexistas (b) y (c).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "La Competencia en comunicación lingüística (CCL) es básica para identificar, comprender, expresar ideas, opiniones y sentimientos con diferentes propósitos educativos. Esta competencia está conectada con las competencias específicas C1, C4, C5 y C7. Geografía se convierte en un instrumento para progresar en su aprendizaje mediante la construcción, cada vez más elaborada, del conocimiento, lo que se consigue con el desarrollo de una serie de destrezas, habilidades y estrategias intelectuales como la comprensión lectora, la interpretación de fuentes diversas y el análisis crítico y objetivo. Por otra parte, la transmisión de los conocimientos adquiridos conlleva la utilización de técnicas del discurso tales como la descripción, narración, exposición y argumentación. Para ello es necesario potenciar una metodología basada en el trabajo colaborativo, que fomente las experiencias de investigación mediante un aprendizaje por descubrimiento guiado.",
+      "La Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM) hace referencia a comprender y transformar el entorno de un modo comprometido, responsable y sostenible usando el método científico, el pensamiento y representación matemáticos, la tecnología y las técnicas de la ingeniería. Esta competencia está conectada con todas las competencias específicas (C1, C2, C3, C4, C5, C6 y C7). La aportación de Geografía a esta competencia es de gran importancia, pues su objeto de estudio es precisamente el espacio físico en el que se desarrolla la actividad humana, así como la interacción que se produce entre ambos, haciendo uso de estrategias matemáticas para el estudio del medio natural y social, así como la puesta en práctica del método científico en procesos de investigación cada vez más complejos que conllevan el tratamiento de las fuentes y el empleo de herramientas propias de la materia, dirigidas a interpretar, sintetizar y comunicar la información y conocimiento, donde el alumnado participa de manera empírica en proyectos para comprender la realidad, plantearse preguntas y extraer conclusiones.",
+      "La contribución a la Competencia digital (CD) radica en hacer un uso seguro y responsable de las tecnologías digitales, tanto en el ámbito educativo como en el laboral y social. Esta competencia se encuentra conectada con las competencias específicas C1, C2 y C4. En la materia de Geografía la competencia digital implica seleccionar, tratar y organizar información sobre temas relevantes del presente teniendo en cuenta el pasado. Evolucionar en esta competencia resulta esencial para la adquisición e incorporación de datos, la creación de contenidos digitales cada vez más elaborados, lo que implica el desarrollo de estrategias complejas asociadas a la utilización de sistemas de búsqueda, bases de datos y plataformas de recursos en entornos digitales accesibles al alumnado. También implica trabajar asuntos relacionados con la ciudadanía digital, la privacidad, la propiedad intelectual, la resolución de problemas y el pensamiento computacional y crítico.",
+      "La Competencia personal, social y de aprender a aprender (CPSAA) es la relacionada con la habilidad para reflexionar sobre uno mismo y una misma, aceptarse y promover un crecimiento personal constante, hacer una buena gestión del tiempo, adaptarse a los cambios y a la incertidumbre, cooperar e interactuar con la gente de alrededor y favorecer la capacidad de aprendizaje y crecimiento personal a lo largo de la vida. Esta competencia se encuentra conectada con las competencias específicas C1, C3, C5, C6 y C7. La contribución de la materia a esta competencia queda reflejada en el aprendizaje a través de proyectos, retos o problemas que facilitan al alumnado —tanto cuando trabaja de forma individual como grupal— poner en acción estrategias y habilidades diversas para analizar y comprender los fenómenos, situaciones o acontecimientos que tienen una especial relevancia o interés en el entorno geográfico. Asimismo, esta materia favorece el desarrollo de estrategias, la aplicación de razonamientos, la búsqueda de explicaciones multicausales y de predicción de los efectos de los fenómenos sociales y naturales, claves en el estudio de la geografía.",
+      "La Competencia ciudadana (CC) se refiere a participar de un modo activo, responsable y cívico en el desarrollo de la sociedad, además de fomentar una ciudadanía mundial y adquirir un compromiso con la sostenibilidad. Esta competencia se encuentra también conectada con todas las competencias específicas (C1, C2, C3, C4, C5, C6 y C7). La implicación de la materia a esta competencia está referida a la toma de conciencia de los ciclos demográficos, las formas de vida y las relaciones intergeneracionales y de dependencia en la sociedad actual, analizándolas de forma crítica. Asimismo, se busca promover alternativas saludables, sostenibles, enriquecedoras y respetuosas con la dignidad humana y el compromiso con la sociedad y el entorno. También se pretende asumir el compromiso colectivo de formar parte de programas y misiones para la seguridad y la paz, y la cooperación con otros países en situaciones de emergencia o pobreza, o el logro de los Objetivos de Desarrollo Sostenibles y la concreción de los mismos a Canarias, promoviendo el interés del alumnado por la realidad internacional y los problemas existentes. Para ello se hace necesario la realización de trabajos colaborativos, debates, mesas redondas, etc., que potencien los valores democráticos en el alumnado.",
+      "La Competencia emprendedora (CE) es la capacidad de identificar las oportunidades y utilizar los conocimientos adquiridos anteriormente para idear procesos que contribuyan a alcanzar unos objetivos preestablecidos o aportar valor añadido a algo. Implica tener creatividad e iniciativa y pasar de las ideas a la acción. Esta competencia se encuentra conectada con las competencias específicas C1, C2, C3, C4, C5, C6 y C7. La contribución de la materia a esta competencia se logra a partir del fomento de tareas activas y participativas de programas de la vida real, llevadas a cabo en contextos colaborativos, en las que el alumnado ponga en práctica los conocimientos adquiridos, realizando un planteamiento de los objetivos y una planificación para conseguirlos. Con ello se desarrollarán capacidades como las de análisis, organización, gestión, toma de decisiones, etc., y valores como la creatividad, la responsabilidad, el compromiso por transformar su realidad más cercana y el espíritu crítico. Todo ello a partir del trabajo por proyectos, mediante la elaboración de productos que reflejen la comprensión de los fenómenos y problemas abordados.",
+      "La Competencia en conciencia y expresión culturales (CCEC) se fundamenta en tener una actitud crítica, positiva, respetuosa y abierta al diálogo ante las diferentes manifestaciones culturales y artísticas que existen. Esta competencia se encuentra conectada con la competencia específica C2. La adquisición de esta competencia en la materia de Geografía conlleva implicarse en la comprensión, el desarrollo y la expresión de las ideas propias y del lugar que ocupamos o del papel que desarrollamos en la sociedad. Para ello el alumnado se comprometerá en la conservación del patrimonio mediante proyectos reales con la comunidad, valorando la diversidad cultural.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de se han establecido siete competencias específicas que se concretan en un total de diecinueve criterios de evaluación. Estos criterios de evaluación presentan una marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos del Perfil de salida a los que contribuye la competencia específica, expresando tanto las capacidades y los saberes a adquirir, como el contexto y modo de aplicación de dichos aspectos.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Los saberes básicos se estructuran en tres bloques que deben tratarse desde sus tres dimensiones de conocimientos, destrezas, actitudes y valores. Los tres bloques están integrados con estas dimensiones, que resultarán básicas para enfocar la materia de un modo práctico y fomentar el tratamiento transversal de la materia.",
+      "El Bloque I, «Canarias, España, Europa y la globalización», agrupa los saberes necesarios para asumir la especificidad y diversidad de España y, particularmente, de Canarias y su situación en los contextos mundial y europeo, y valorar la importancia de su pertenencia a la Unión Europea.",
+      "El Bloque II, «La sostenibilidad del medio físico de España y de las islas Canarias», propone saberes que ponen en valor la diversidad del relieve, del clima, de la vegetación, de los suelos y de la hidrografía de España y de Canarias.",
+      "Finalmente, el Bloque III, «La ordenación del territorio en el enfoque ecosocial», integra saberes sobre el análisis geográfico de los aprovechamientos de los recursos naturales, tratando a las actividades económicas y a la población como el principal factor transformador del territorio, profundizando en las causas y consecuencias de estos procesos y comparando los desequilibrios territoriales resultantes, introduciendo la perspectiva de la sostenibilidad y valorando el impacto de las políticas comunitarias. Es esencial subrayar el tratamiento integrador que la geografía da a los fenómenos espaciales, recordando que la síntesis es un objetivo irrenunciable del pensamiento geográfico, al que deben contribuir el enfoque interdisciplinar y la dimensión ecosocial.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "La materia de Geografía es abierta y flexible para que, tomando como eje las competencias específicas y los saberes básicos, el profesorado pueda adaptar sus situaciones de aprendizaje a contextos de todo tipo, convirtiendo las posibles respuestas a los retos geográficos de España, Canarias y del mundo en un incentivo para el aprendizaje activo del alumnado, para el desarrollo del pensamiento geográfico y para la valoración de la geografía como saber aplicado y en la formación de una ciudadanía responsable a partir de su desarrollo personal y social.",
+      "Las metodologías propuestas por el profesorado tienen como finalidad reconocer al alumnado como agente de su propio aprendizaje. Para ello es imprescindible la implementación de propuestas pedagógicas que, partiendo de los centros de interés de los alumnos y alumnas y aumentándolos, les permitan construir el conocimiento con autonomía y creatividad desde sus propios aprendizajes y experiencias, partiendo de iniciativas y proyectos en situaciones o retos reales, que suponen un compromiso con el entorno y la comunidad, permitiendo la participación democrática del alumnado, mediante la sociabilización y el respeto a las opiniones del diferente.",
+      "Las situaciones de aprendizaje representan una herramienta eficaz para integrar los elementos curriculares planteando tareas y actividades complejas y relevantes para resolver problemas reales y se desarrollarán partiendo de una perspectiva cronológica o transversal, mediante un enfoque multicausal y con estrategias interdisciplinares y para que sean efectivas, deben estar debidamente contextualizadas al entorno, con atención a los distintos ritmos de aprendizaje en alineación con el Diseño Universal para el Aprendizaje (DUA). Contemplarán tres grandes elementos: qué se va a aprender —esto es, la relación de los aprendizajes esperados, extraídos de los criterios de evaluación y competencias específicas vinculados a la misma, y los saberes básicos de la materia, a través de los cuales se desarrollarán estos aprendizajes previstos—, cómo se va a aprender —esto es, la explicación de cómo se va a activar y a motivar al alumnado, a través de qué contextos de aprendizaje, especificando los productos finales, recursos y espacios— y para qué —esto es, la descripción de la finalidad de los aprendizajes con objetivos claros—.",
+      "El diseño de estas situaciones debe implicar la transferencia de los aprendizajes adquiridos por parte del alumnado, posibilitando la articulación coherente y eficaz de los distintos conocimientos, destrezas y actitudes propios de Bachillerato. Deben contemplar, además, distintos tipos de agrupamiento, desde el trabajo individual a la construcción grupal del aprendizaje, con un punto de vista de trabajo colaborativo, mediante la creación de equipos de trabajos heterogéneos que realizarán tareas variadas, donde cada miembro tendrá labores coordinadas y asumirá responsabilidades personales que sumen un esfuerzo final a modo de producto.",
+      "En definitiva, las situaciones de aprendizaje deben fomentar aspectos relacionados con el interés común, la sostenibilidad o la convivencia democrática, esenciales para que el alumnado sea capaz de responder con eficacia a los retos del siglo XXI."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Reconocer los retos ecosociales actuales y futuros de España, debatiendo desde la perspectiva geográfica sobre los mensajes recibidos a través de canales oficiales y extraoficiales, formales e informales, desarrollando el pensamiento crítico, para transformar patrones de consumo insostenibles y adoptar hábitos de vida saludables."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CPSAA3.2",
+        "CPSAA4",
+        "CC1",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1330,
+          1335
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica se centra en la búsqueda, selección, tratamiento y organización de las fuentes geográficas. Pretende que el alumnado, mediante sistemas de información geográfica, investigue e interprete todo tipo de bases de información, evaluando su fiabilidad, además de elaborar productos propios con originalidad y creatividad usando formatos diversos. Por sus características, esta competencia específica está vinculada con los tres bloques de saberes.",
+          "Los criterios de evaluación están fundamentados en el uso de herramientas propias de la geografía —búsqueda, selección y tratamiento de la información— con las que el alumnado pueda elaborar, expresar y presentar contenidos."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Comprender la complejidad del espacio geográfico, mediante la interpretación de fuentes de información visuales, para apreciar la riqueza de los paisajes naturales y humanizados y valorar la sostenibilidad como principio de las relaciones entre ecosistemas naturales y acción humana."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CC1",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1330,
+          1336
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica aborda la investigación, la argumentación y la creación de productos propios sobre los principales problemas y retos a los que se enfrenta la humanidad. Lo hará con pensamiento crítico, buscando contribuir a la construcción de la propia identidad y al enriquecimiento del rico acervo común. La creación de conocimiento se visibiliza a través del debate riguroso sobre los retos naturales y sociales de Canarias y España. También que pueda comprender la complejidad del espacio geográfico, extrayendo información de paisajes naturales y humanizados y analizando fuentes visuales como pueden ser los mapas de relieve, bioclimáticos y políticos. Por sus características, esta competencia específica está vinculada con los tres bloques de saberes.",
+          "En esta competencia específica (C2), los criterios de evaluación tienen como objetivo que el alumnado investigue, argumente y genere productos originales y creativos mediante la elaboración de conocimientos previos, a través de herramientas de investigación y uso de varias fuentes, donde es clave el desarrollo del pensamiento crítico, valorando todo impacto de la acción antrópica desde el principio de la sostenibilidad."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar la diversidad natural de España y su singularidad geográfica dentro de Europa, a través de la comparación de características comunes y específicas del relieve, el clima, la hidrografía y la biodiversidad, para reflexionar sobre la percepción personal del espacio."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CPSAA3.1",
+        "CC1",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1330,
+          1337,
+          1338
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica aborda la diversidad natural en España y Canarias, y tendrá como principal producto el desarrollo del método comparativo, en la búsqueda de analogías y diferencias, la identificación de elementos del paisaje y su análisis, teniendo en cuenta los valores medioambientales y su conservación, mejora y uso sostenible. Está relacionada, sobre todo, con el bloque de la sostenibilidad del medio físico de España, donde se analiza su diversidad natural y su singularidad geográfica dentro del continente europeo, identificando los paisajes naturales de Canarias, de España y de Europa.",
+          "Los criterios de evaluación de la competencia específica (C3) abordan la identificación de la diversidad y singularidad de los paisajes naturales tanto canarios como españoles o de Europa. También persiguen distinguir las diferentes formas humanas de relación con esos entornos naturales, buscando la reflexión sobre la percepción del espacio geográfico mediante los mapas de las regiones geomorfológicas y bioclimáticas y su aportación a la sostenibilidad del medio natural."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Aplicar las Tecnologías de la Información Geográfica (TIG), métodos y técnicas propios o de ciencias afines, localizando fenómenos naturales y humanos, y argumentando con rigor sus límites o categorías, para resolver eficientemente el problema de la escala en cualquier análisis o propuesta de actuación."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "CD2",
+        "CD5",
+        "CC3",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1331,
+          1339
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica hace referencia prioritariamente a las Tecnologías de la Información Geográfica (TIG) para localizar fenómenos naturales y humanos, así como representar cualquier fenómeno físico o humano en diferentes escalas que se desarrolla en el territorio, como son los factores físicos y la diversidad de paisajes y de ecosistemas, la climatología o la estructura de la población, los movimientos migratorios y el reto demográfico, y poder argumentar y resolver eficientemente el problema de la escala en cualquier análisis o propuesta de actuación.",
+          "Los criterios de evaluación de esta competencia específica (C4) están encaminados a que el alumnado sea capaz de aplicar las Tecnologías de la Información Geográfica (TIG), métodos y técnicas propios o de ciencias afines, empleando la escala apropiada para localizar o representar cualquier fenómeno físico o humano, en diferentes escalas, que se desarrolla en el territorio, como son los factores físicos y la diversidad de paisajes y de ecosistemas, la climatología o la estructura de la población, los movimientos migratorios y el reto demográfico —preferentemente del entorno canario—. Las alumnas y los alumnos crearán productos con fines explicativos, de manera individual o en grupo, proponiendo hipótesis o conclusiones sobre problemas geográficos."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Asumir la globalización como contexto que enmarca la evolución de los sistemas económicos y los comportamientos sociales recientes, investigando sus relaciones de causa y efecto y creando productos propios que demuestren la interconexión y la interdependencia a todas las escalas, para promover el respeto a la dignidad humana y al medio ambiente como base de una ciudadanía global."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM1",
+        "STEM5",
+        "CPSAA3.1",
+        "CC2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1331,
+          1340
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con esta competencia específica la materia se aproxima al fenómeno de la globalización. Se hará a través de la contextualización de la evolución de las actividades económicas recientes de España, Canarias y la Unión Europea mediante la investigación de los factores causantes de la transformación y sus consecuencias. También supone el análisis y la reflexión de los efectos positivos y negativos de la globalización.",
+          "Los criterios de evaluación de esta competencia específica (C5) se centran en la investigación del sistema de relaciones económicas globalizadas y los sectores económicos, planteando soluciones. También en la identificación del impacto de la globalización en los comportamientos sociales, valorando la dignidad de las personas, asumiendo las consecuencias sobre las condiciones laborales y de vida tanto en Canarias como en España y en otros países. Por último, se pretende que el alumnado exprese la necesidad de preservar el medioambiente, indagando sobre los impactos, sobre los modos de producción, distribución y consumo, proponiendo actuaciones de mejora para minimizar las consecuencias."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Explicar de forma crítica los desequilibrios territoriales de España y de su estructura sociolaboral y demográfica, reconociendo los procesos y las decisiones que han contribuido a las desigualdades presentes, para reforzar la conciencia de solidaridad y el compromiso con los mecanismos de cooperación y cohesión españoles y europeos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM4",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CE1",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1331,
+          1341
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica se fundamenta en la explicación crítica de los desequilibrios socioeconómicos y demográficos en los distintos territorios de España y Canarias y de su estructura sociolaboral y demográfica. La finalidad es consolidar en el alumnado la solidaridad y la cooperación en la ordenación del territorio y del desarrollo autonómico.",
+          "En los criterios de evaluación de esta competencia específica (C6) se pretende que el alumnado pueda explicar, de forma crítica, los desequilibrios territoriales de España y de su estructura sociolaboral y demográfica, identificando las desigualdades territoriales, así como sus causas y consecuencias sociolaborales y demográficas, mediante el análisis riguroso de la estructura y desequilibrios de esa población, tanto a nivel local como europeo. También se podrán abordar los factores de localización de las actividades económicas y de la población en el proceso de terciarización y la justificación de los mecanismos de compensación de las desigualdades individuales y territoriales. Este conocimiento tiene como finalidad consolidar en el alumnado la solidaridad y la cooperación como valores constitucionales y europeístas para lograr la cohesión a través de las políticas redistributivas de ordenación del territorio y de desarrollo local."
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Movilizar conocimientos previos, nuevos y de otros campos del saber al abordar situaciones del pasado, del presente o del futuro, reorientando eficazmente decisiones y estrategias de trabajo individual o en equipo, para aportar soluciones innovadoras a contextos en transformación y fomentar el aprendizaje permanente."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM1",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA4",
+        "CPSAA5",
+        "CC3",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1332,
+          1343
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica se basa en la reflexión sobre el propio aprendizaje, movilizando conocimientos previos, nuevos y de otros campos para aportar soluciones y fomentar el aprendizaje permanente. Para ello es clave el trabajo en equipo, discutir y deliberar para revisar y generar productos que serán resultado del consenso.",
+          "Los criterios de evaluación de esta competencia específica pretenden la reelaboración de saberes sobre fenómenos naturales y humanos relevantes, aplicando el pensamiento geográfico, movilizando y revisando conocimientos previos para integrar nuevos aprendizajes. También se fomenta el diagnóstico de problemas y oportunidades, razonando sobre previsiones y posibles soluciones, desarrollando el autoaprendizaje permanente y el compromiso cívico activo. Es también una finalidad que el alumnado aprenda a trabajar en equipo mediante procesos de discusión y deliberación para revisar y generar productos consensuados."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Investigar, mediante sistemas de información geográfica, todo tipo de fuentes de información que traten los retos ecosociales presentes y futuros, realizando informes, tablas informativas, síntesis o cualquier otro formato."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM4",
+            "STEM5",
+            "CD1",
+            "CPSAA3.2",
+            "CC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1335
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Cuestionar modos de vida insostenibles desde argumentos fundamentados sobre su relevancia y la necesidad de planificar las acciones para afrontarlos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM5",
+            "CD1",
+            "CPSAA3.2",
+            "CPSAA4",
+            "CC1",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1335
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Debatir sobre los retos naturales y sociales de Canarias y España de forma comprometida y respetuosa con opiniones ajenas, utilizando estrategias orales con apoyo digital de gráficos, imágenes y cartografía, y presentando en público datos rigurosos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM4",
+            "CPSAA3.2",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1335
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Extraer información de paisajes naturales y humanizados analizando fuentes visuales, distinguiendo sus diferentes elementos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM4",
+            "CD1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1336
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Interpretar la influencia e interrelaciones de factores físicos y humanos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM4",
+            "CC1",
+            "CC4",
+            "CCEC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1337
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar todo impacto de la acción antrópica desde el principio de sostenibilidad reconociendo la complejidad sistémica del medio natural y de las propias actividades humanas."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM5",
+            "CC4",
+            "CE1",
+            "CCEC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1337
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar la diversidad y singularidad de paisajes naturales comparando su distribución, características y contrastes a escala de Canarias, de España y de Europa."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM4",
+            "CC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1338
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Distinguir las diferentes formas humanas de relación con sus entornos naturales."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM4",
+            "CC1",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1338
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reflexionar sobre la percepción del espacio geográfico, localizando y reconociendo en mapas regiones geomorfológicas y bioclimáticas con características comunes y específicas, destacando su aportación a la sostenibilidad del medio."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM4",
+            "CPSAA3.1",
+            "CC1",
+            "CC3",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1338
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Emplear la escala apropiada para localizar o representar, con apoyo de las TIG, cualquier fenómeno físico o humano, argumentando los métodos y datos elegidos y la delimitación de regiones o categorías de análisis, así como de áreas de transición."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "CD2",
+            "CD5",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1339
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Crear productos con fines explicativos, haciendo uso de las TIG, de manera individual o en grupo, partiendo preferentemente del entorno canario, para comunicar diagnósticos, proponiendo hipótesis o conclusiones sobre problemas geográficos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "CD5",
+            "CC3",
+            "CE1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1339
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Investigar el sistema de relaciones económicas globalizadas y los sectores económicos y plantear soluciones razonables."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "CPSAA3.1",
+            "CC2",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1340
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar el impacto de la globalización en los comportamientos sociales, valorando la dignidad humana y asumiendo responsablemente las consecuencias de nuestras acciones sobre las condiciones laborales y de vida, tanto en Canarias, España, como en otros países."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM5",
+            "CPSAA3.1",
+            "CC2",
+            "CC3",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1340
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Expresar la necesidad de preservar el medio ambiente indagando sobre los impactos de los modos de producción, distribución y consumo a escala local y global, y proponiendo actuaciones de mejora para minimizar las consecuencias."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM5",
+            "CPSAA3.1",
+            "CC3",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1341
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Identificar las desigualdades territoriales a lo largo de la historia, así como sus causas y consecuencias sociolaborales y demográficas."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM4",
+            "CC1",
+            "CE2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1342
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar el origen de los desequilibrios socioeconómicos de España —especialmente de Canarias— y Europa, explicando los factores de localización de las actividades económicas y de la población en el proceso de terciarización de las actividades económicas y de la población en una sociedad terciarizada."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM4",
+            "CPSAA3.1",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CE1",
+            "CE2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1342
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Justificar la necesidad de los mecanismos de compensación de las desigualdades individuales y territoriales, dando especial relevancia a la Comunidad Autónoma de Canarias."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CC3",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1342
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Reelaborar saberes sobre fenómenos naturales y humanos relevantes a diferentes escalas y en nuevos contextos, aplicando el pensamiento geográfico, movilizando y revisando críticamente conocimientos previos para integrar nuevos aprendizajes."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM1",
+            "CPSAA1.2",
+            "CPSAA4",
+            "CPSAA5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1343
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Diagnosticar problemas y oportunidades, razonando previsiones y posibles soluciones."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM1",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA4",
+            "CC3",
+            "CE1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1343
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM4",
+            "STEM5",
+            "CD1",
+            "CPSAA3.2",
+            "CPSAA4",
+            "CC1",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "En este bloque competencial se comprobará que el alumnado es capaz de reconocer los problemas y retos ecosociales actuales y futuros de España, como son la globalización, sus amenazas y sus oportunidades, los desequilibrios territoriales o las políticas de cohesión dentro de la Unión Europea. Se verificará que investiga, mediante sistemas de información geográfica, todo tipo de fuentes de información (por ejemplo, atlas, mapas de relieve, bioclimáticos y políticos, indicadores socioeconómicos, etc.), localizando, seleccionando y contrastando, de manera autónoma y crítica, desarrollando actitudes positivas y teniendo autoconfianza en la resolución de conflictos. También se constatará la adopción de estilos de vida saludables en beneficio propio y del bien común, que sirvan para cuestionar modos de vida insostenibles desde argumentos fundamentados como son el modelo de economía circular o los compromisos con los Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria de Desarrollo Sostenible 2030. Todo ello mediante el uso del debate público o privado, donde se aportarán argumentos fundamentados científicamente desde el pensamiento geográfico, rechazando cualquier opinión no avalada por datos fiables, accesibles y contrastados. Ese pensamiento espacial, crítico, constituye el mayor activo de una ciudadanía formada e informada. Esta creación de conocimiento se visualizará mediante la confrontación de ideas, datos y opiniones, de forma rigurosa, sobre los retos naturales y sociales de Canarias y de España, de forma comprometida, con actitud dialogante ante la pluralidad de valores, creencias e ideas, utilizando estrategias orales con apoyo digital (gráficos, imágenes, cartografía…), con el fin de adquirir una conciencia ciudadana y responsable."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1336
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM4",
+            "STEM5",
+            "CD1",
+            "CC1",
+            "CC4",
+            "CE1",
+            "CCEC1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se constatará que el alumnado es capaz de comprender la complejidad del espacio geográfico, extrayendo información de paisajes naturales y humanizados y analizando fuentes visuales como pueden ser los mapas de relieve, bioclimáticos y políticos para localizar países y aspectos naturales; gráficos, tablas, diagramas para conocer las características de las regiones naturales y el impacto de las actividades humanas y efectos sobre las mismas, así como los recursos de imágenes y audiovisuales para visualizar la diversidad de paisajes y ecosistemas, incluidos los de la Red de Espacios Naturales Protegidos, la Red Natura 2000 o los espacios rurales y la transformación del litoral, entre otros. La interpretación de imágenes fomenta la curiosidad del alumnado por territorios desconocidos y por redescubrir lugares familiares, yendo desde lo local a lo global, generando sus propios recursos visuales desde la creatividad. Con todo ello se pretende verificar que el alumnado conoce e interpreta la influencia e interrelaciones de factores físicos y humanos valorando, con conciencia ciudadana y responsable, el impacto de la acción antrópica desde el debate sobre el modelo de desarrollo y el principio de sostenibilidad, educando la mirada geográfica que conlleva apreciar el rico patrimonio paisajístico que atesora España y Canarias."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1337
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM4",
+            "CPSAA3.1",
+            "CC1",
+            "CC3",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se constatará que el alumnado es capaz de analizar la diversidad natural de España y su singularidad geográfica dentro del continente europeo, identificando los paisajes naturales de Canarias, de España y de Europa, donde será de gran importancia como fuente de información la Red de Espacios Naturales Protegidos y la Red Natura 2000, entre otras, así como los factores físicos y la diversidad de sus paisajes y ecosistemas. También se pretenderá que pueda distinguir las diferentes formas humanas de relación con sus entornos naturales, analizando los condicionantes geomorfológicos, bioclimáticos, edáficos, hídricos, las actividades humanas y la prevención de sus riesgos asociados para las personas. El objetivo con el alumnado será que conozca y utilice el método comparativo, basado en la búsqueda de analogías y diferencias, partiendo de datos y cálculos fiables. Se persigue constatar que reflexiona sobre la percepción del espacio geográfico, localizando y reconociendo en mapas regiones geomorfológicas y bioclimáticas con características comunes y específicas, destacando su aportación a la sostenibilidad del medio. Se evaluará, también, que comprende las relaciones de inter y ecodependencia entre nuestras formas de vida y el entorno en el impacto de las actividades humanas sobre el medioambiente, y la importancia de las políticas ambientales en España, Canarias y la Unión Europea y del compromiso común, integrador y no discriminatorio."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1338,
+              1339
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "CD2",
+            "CD5",
+            "CC3",
+            "CE1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se constatará que el alumnado es capaz de aplicar las Tecnologías de la Información Geográfica (TIG), así como métodos y técnicas propios o de ciencias afines, empleando la escala apropiada para localizar o representar cualquier fenómeno físico o humano, en diferentes escalas, que se desarrolla en el territorio, como son los factores físicos y la diversidad de paisajes y de ecosistemas, la climatología o la estructura de la población, los movimientos migratorios y el reto demográfico, a través de la interpretación causal de imágenes, datos, gráficos y mapas, haciendo uso de dispositivos digitales, herramientas y aplicaciones móviles o webs. Se verificará que puede crear productos con fines explicativos, usando lenguaje inclusivo, de forma individual o en grupo y haciendo uso del método científico (diagnóstico, hipótesis o conclusiones)."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1339,
+              1340
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM1",
+            "STEM5",
+            "CPSAA3.1",
+            "CC2",
+            "CC3",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se constatará que el alumnado es capaz de asumir la globalización como contexto que enmarca la evolución de los sistemas económicos y los comportamientos sociales recientes, incidiendo en los retos en la igualdad y en la inclusión de las minorías, investigando el sistema de relaciones económicas globalizadas y los sectores económicos, desde la Unión Europea, donde se estudiará la distribución de la población española y canaria a través de los espacios urbanos, rurales, industriales y terciarizados, identificando el impacto de la globalización en los comportamientos sociales. Es la investigación de los factores causantes de estas transformaciones y sus consecuencias sobre el territorio y la sociedad donde el alumnado tiene un rico campo de indagación de estas ecodependencias. Se valorará que entiende la importancia de la dignidad humana, asumiendo las consecuencias de nuestras acciones, afrontando la pluralidad de valores, creencias e ideas, integrando las diferencias y las distintas aportaciones, expresando la necesidad de preservar el medio ambiente frente a los impactos de los modos de producción, distribución y consumo a escala local y global. Por último, el alumnado propondrá actuaciones de mejora para minimizar sus consecuencias, dando relevancia a los nuevos modelos de negocio en el contexto global y de la Unión Europea."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1341
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM4",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CE1",
+            "CE2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de explicar de forma crítica, usando un lenguaje inclusivo, los desequilibrios territoriales de España y de su estructura sociolaboral y demográfica, identificando las desigualdades territoriales a través de mapas e indicadores socioeconómicos, así como sus causas y consecuencias sociolaborales y demográficas, mediante el análisis riguroso de la estructura y desequilibrios de esa población, tanto a nivel local como europeo. Se verificará que puede explicar con fluidez, coherencia y corrección los factores de localización de las actividades económicas y de la población en el proceso de terciarización y justificar, con juicio propio y argumentado, los mecanismos de compensación de las desigualdades individuales y territoriales. Se comprobará que el alumnado asume la importancia de la solidaridad y la cooperación como valores constitucionales y europeístas para lograr la cohesión a través de las políticas redistributivas de ordenación del territorio y de desarrollo autonómico."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1342
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-7",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM1",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA4",
+            "CPSAA5",
+            "CC3",
+            "CE1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se constatará que el alumnado es capaz de movilizar conocimientos previos, nuevos y de otros campos del saber al abordar situaciones del pasado, del presente o del futuro, reelaborando saberes sobre fenómenos naturales y humanos relevantes a diferentes escalas y en nuevos contextos, como pueden ser la sostenibilidad del medio físico en España o la ordenación del territorio desde un enfoque ecosocial, tanto de la población como de los espacios económicos, mediante métodos inductivos y deductivos, con aplicaciones digitales, datos, gráficos y mapas, entre otros, para diagnosticar problemas y oportunidades, razonando previsiones y posibles soluciones, presentando ideas y soluciones innovadoras, incorporando la contribución en el enfoque de las mujeres, como son los nuevos modelos de negocio, la sostenibilidad y desarrollando el autoaprendizaje permanente y el compromiso cívico activo. También se comprobará que el alumnado aprende a trabajar en equipo mediante procesos de discusión y deliberación para revisar y generar productos consensuados."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1343
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Canarias, España, Europa y la globalización"
+          },
+          "saberes": [
+            {
+              "id": "GEO.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Localización y situación geográfica de España y Canarias en el mundo a través de mapas de relieve, bioclimáticos y políticos. Estudio de la posición relativa de España y Canarias en el mundo según diferentes indicadores socioeconómicos. Uso del geoposicionamiento y dispositivos móviles."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1344
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis de la globalización en España y Canarias. Los retos ante el mundo: amenazas y oportunidades."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1344
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Contextualización de la geopolítica mundial y participación en organismos internacionales. Acercamiento a la cooperación internacional y misiones en el exterior. Diagnóstico de los compromisos con los Objetivos de Desarrollo Sostenible y con los retos identificados en la Agenda Canaria de Desarrollo Sostenible 2030."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1344
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Conocimiento sobre la posición de España y Canarias en Europa: localización de países y aspectos naturales. La Unión Europea en la actualidad: su influencia en situaciones cotidianas. Análisis de desequilibrios territoriales y políticas de cohesión a través del uso de mapas y de indicadores socioeconómicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1344
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Estudio de los desequilibrios territoriales nacionales y autonómicos. Organización administrativa de España. Utilidad del Atlas Nacional de España y de los indicadores socioeconómicos oficiales. Iniciación a la gestión y ordenación del territorio: el debate sobre las políticas de cohesión y desarrollo autonómico. Reflexión ante la situación actual y proyecciones del estado del bienestar. Situación específica de Canarias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1344
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La sostenibilidad del medio físico de España y de las islas Canarias"
+          },
+          "saberes": [
+            {
+              "id": "GEO.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de los condicionantes geomorfológicos, bioclimáticos, edáficos, hídricos y relativos a las actividades humanas y prevención de los riesgos asociados para las personas. Estudio de la diversidad climática de España y de Canarias; análisis comparativos de distribución y representación de climas. La emergencia climática: cambios en los patrones termopluviométricos; causas, consecuencias y medidas de mitigación y adaptación. Estrategias de interpretación del tiempo y alertas meteorológicas; webs y aplicaciones móviles."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1344
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Conocimiento de la biodiversidad, suelos y red hídrica, con la aproximación a las características por regiones naturales: Canarias. Reflexión sobre el impacto de las actividades humanas y efectos sobre las mismas: pérdida de biodiversidad, de suelos y gestión del agua. Interpretación de imágenes, cartografía y datos e identificación de los riesgos generados por las personas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1344
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Argumentación y debate sobre los cambios del modelo de desarrollo: el principio de sostenibilidad y las políticas ambientales en España y en la Unión Europea: uso de herramientas de diagnóstico. Conocimiento sobre la red de Espacios Naturales Protegidos y la red Natura 2000."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1344
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La ordenación del territorio en el enfoque ecosocial"
+          },
+          "saberes": [
+            {
+              "id": "GEO.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Desafíos demográficos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Análisis de la estructura de la población en España y en Canarias y sus desequilibrios. Interpretación causal de datos, gráficos y mapas: tendencias pasadas, presentes y proyecciones. Indagación sobre las ventajas e inconvenientes de los movimientos migratorios; el respeto por la diversidad étnica y cultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Concienciación del reto demográfico: envejecimiento y despoblación rural. Estudio de los espacios urbanos en España y en Canarias: las grandes concentraciones urbanas en un contexto europeo y mundial. Análisis de las funciones de la ciudad y de las relaciones de interdependencia con el territorio. Visualización de la estructura urbana a través de los planos: repercusiones sobre las formas de vida y los impactos medioambientales. Modelos de ciudades sostenibles. Observación del uso del espacio público. Concienciación de la movilidad segura, saludable y sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Espacio, actividades y transformaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Identificación de los paisajes agrarios en España y en Canarias y de las transformaciones de las actividades agropecuarias: prácticas sostenibles e insostenibles. Valoración socioambiental y económica de los productos agroalimentarios y forestales de cercanía: indagación de huellas ecológicas y de la estructura sociolaboral. Estudio de la influencia de la actual política agraria común en el desarrollo rural y la sostenibilidad. Estudio de casos: etiquetados diferenciados, ecológicos, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Análisis de los recursos marinos y la transformación del litoral: pesca, acuicultura y otros aprovechamientos. Reconocimiento de la sostenibilidad y de la política pesquera común. Estudio de casos: Canarias. Explicación del marisqueo, pesca de bajura y altura, acuicultura, sobreexplotación de caladeros, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.2.3",
+              "codigoOficial": null,
+              "numeracionFuente": "2.3",
+              "texto": {
+                "es": "Descripción de los espacios industriales. Análisis de las actividades industriales y los paisajes: materias primas y fuentes de energía. Evaluación de las huellas ecológicas; dependencia y transición energéticas; estructura del tejido industrial, sociolaboral y de empleo indirecto. Reflexión sobre el impacto de la deslocalización sobre sectores de la industria española. Estudio de casos: construcción, automovilístico, agroalimentario, etc., y factores de localización."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.2.4",
+              "codigoOficial": null,
+              "numeracionFuente": "2.4",
+              "texto": {
+                "es": "Análisis y debate sobre la influencia de las políticas de la Unión Europea y la globalización."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.2.5",
+              "codigoOficial": null,
+              "numeracionFuente": "2.5",
+              "texto": {
+                "es": "Identificación y análisis de los espacios tercerizados. Acercamiento al modelo de economía circular y los servicios: relaciones entre producción, distribución y venta."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.2.6",
+              "codigoOficial": null,
+              "numeracionFuente": "2.6",
+              "texto": {
+                "es": "Análisis crítico de huellas ecológicas, estructura sociolaboral, responsabilidad social corporativa y de las personas consumidoras. Estudio de casos: competitividad y desequilibrios en transporte, comercio, turismo, servicios esenciales, etc., y factores de localización."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            },
+            {
+              "id": "GEO.2.C.2.7",
+              "codigoOficial": null,
+              "numeracionFuente": "2.7",
+              "texto": {
+                "es": "Valoración sobre modelos insostenibles de servicios y alternativas. Indagación sobre la economía digital: el impacto de la economía colaborativa, nuevos modelos de negocio en el contexto global y de la Unión Europea. Análisis del modelo canario."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1345
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

@@ -1,0 +1,943 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.literatura-universal",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "LU",
+    "nombre": {
+      "es": "Literatura Universal"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 1681,
+        "hasta": 1699
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Un texto literario es un acto de expresión artística que encierra una fuente de información cultural —en el doble sentido del mundo representado y de la propia obra como elemento de la cultura— y que, al mismo tiempo, requiere de un entrenamiento intelectual y emocional para poder ser disfrutado en toda su grandeza. El estudio de Literatura Universal en primero de Bachillerato debe responder a la primera de las exigencias: dotar al alumnado de una amplia formación humanística y cultural, que le permita desbrozar la información y apropiarse del significado connotativo de un texto literario a través de estrategias de comprensión lectora que, más tarde, se pueden transferir a la lectura de textos académicos o de los medios de comunicación, aparentemente más explícitos desde el punto de vista de su intencionalidad y de su ideología, pero, en el fondo, igualmente cargados de valores y visiones implícitos de la realidad. Esto permite que la materia – troncal de opción de la modalidad de Humanidades y Ciencias Sociales – complemente lo abordado en Lengua Castellana y Literatura, a la vez que se aboga por mantener el doble itinerario planteado a lo largo de las diferentes etapas – lectura guiada y lectura autónoma- a través de la selección de obras y fragmentos complejos, cargados de universalidad y escritos en diversos momentos de la historia, con presencia de la literatura escrita por mujeres, obras no occidentales y literatura canaria. Este corpus literario va a favorecer el desarrollo de una persona lectora activa, que amplíe su particular visión del mundo mediante habilidades de interpretación más conscientes y consolidadas; que establezca relaciones intertextuales con otras manifestaciones artísticas y con la propia experiencia; y adquiera una formación acorde a sus intereses académicos y profesionales para el futuro, interiorizando la lectura como un viaje personal, continuo e inacabable.",
+      "Este currículo se organiza en torno a diferentes elementos: competencias específicas, criterios de evaluación, saberes básicos y situaciones de aprendizaje. No obstante, esta estructura no pretende jerarquizar los aprendizajes dentro del aula, sino organizar las destrezas básicas que debe manejar el alumnado para ampliar progresivamente su capacidad de comprensión y expresión oral y escrita, así como su educación literaria.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "El carácter de la materia y su vinculación con el desarrollo global de las competencias clave le otorgan una contribución directa en la adquisición de la mayor parte de los objetivos de etapa.",
+      "Además de su indudable relación con el objetivo (e), relativo a conocer y utilizar de manera apropiada la lengua española, dominar el lenguaje como vehículo de expresión estética y cultural significa apropiarse de los instrumentos oportunos para el autoconocimiento, para situarse en relación con las demás personas, para regular la convivencia, para cooperar y para aprender de forma reflexiva y autónoma; en fin, para reafirmar el espíritu crítico frente a las desigualdades y discriminaciones existentes, así como impulsar la igualdad real y la no discriminación por cualquier condición o circunstancia personal o social. Por ello, esta materia desarrolla en el alumnado capacidades que contribuyen a alcanzar los objetivos (a), (b) y (c) de la etapa, directamente relacionados con la convivencia democrática, los derechos humanos, el fomento de la igualdad entre mujeres y hombres, el desarrollo de la empatía y de un autoconcepto que le permita fortalecer su iniciativa y consolidar su madurez personal.",
+      "Asimismo, a través de la observación, percepción e interpretación crítica de textos multimodales se favorece que el alumnado aprecie los valores culturales y estéticos y los entienda como parte de la diversidad patrimonial, contribuyendo con ello al objetivo (h), basado en la valoración y el respeto al patrimonio cultural y artístico, y al objetivo (g), que promueve el desarrollo de una competencia informacional eficaz, tanto en el campo de las tecnologías como en el uso de todo tipo de bibliotecas o espacios creativos de recursos para el aprendizaje permanente.",
+      "La realización de tareas y proyectos por los que apuesta este currículo en muchos de sus elementos implica la planificación, la toma de decisiones y la asunción de responsabilidades. Además, mediante el trabajo en equipo se potencia la participación activa e inclusiva, el respeto, la cooperación y la solidaridad entre personas y grupos para el desarrollo y mejora del entorno personal y social. Se contribuye con ello a los objetivos (d) y (k), relacionados con los hábitos de estudio, trabajo individual y el espíritu emprendedor. El estudio de la literatura universal en Bachillerato, por último, contribuye al desarrollo de la creatividad y a la apreciación y valoración de la creación artística como medio de disfrute individual y colectivo, favoreciendo su conservación, respeto y divulgación; así como a visibilizar la aportación de las mujeres en el desarrollo del conocimiento humano y del arte. De esta manera se contribuye al objetivo (l), centrado en el aprecio de la creación artística.",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "Los aprendizajes de esta materia contribuyen directamente a la consolidación de la Competencia en comunicación lingüística (CCL), ya que el enfoque está centrado en la función comunicativa que desplegará el alumnado con una mayor conciencia teórica y metodológica en todas y cada una de las actividades que realice y que aplicará en las diferentes situaciones de su vida diaria. El lenguaje verbal es el instrumento a través del cual el alumnado accede a los aprendizajes y los conocimientos en todos los ámbitos del saber, expresa sus propias emociones o sentimientos y construye la interpretación y la producción de textos literarios. La organización de las competencias específicas de la materia permite abordar de manera consciente y sistematizada diferentes destrezas y actitudes relacionadas con la comprensión y la expresión tanto oral como escrita y multimodal, la alfabetización informacional, la educación literaria y el uso ético de la comunicación, aspectos todos ellos que configuran los descriptores operativos de la (CCL) en el Perfil de salida, y que permitirán que el alumnado produzca y reciba mensajes con distintas finalidades comunicativas y en distintos formatos, expresándolos eficazmente en diferentes contextos con actitud cooperativa, respetuosa, creativa, ética y socialmente comprometida.",
+      "El estudio de literaturas originarias de otras lenguas contribuyen al desarrollo de la Competencia plurilingüe (CP), desarrollando la capacidad de entender, respetar y valorar otras culturas, formas de pensar y hacer, reconociendo la diversidad lingüística y cultural presente en la sociedad, integrándola en su desarrollo personal y anteponiendo la comprensión mutua como característica central de la comunicación. En este sentido, la educación literaria propicia la conformación de un mapa cultural que permite la inscripción de las obras en su contexto sociohistórico, literario y cultural, integrando las dimensiones históricas e interculturales orientadas a conocer, valorar y respetar la diversidad cultural de la sociedad con el objetivo de fomentar la convivencia democrática.",
+      "En lo que concierne a la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM), la materia de Literatura Universal proporciona al alumnado las habilidades comunicativas necesarias para interpretar el hecho literario, a partir de la aplicación de los elementos más relevantes de los métodos inductivo y deductivo en la consecución de estos aprendizajes, y exponerlos con rigor y claridad, utilizando la terminología adecuada. Asimismo, las destrezas asociadas a la alfabetización informacional, permitirán al alumnado afianzar el planteamiento de hipótesis propio del método científico, desarrollando situaciones de aprendizaje en las que se se propongan preguntas o retos, se aborden búsquedas y comprobaciones para confirmarlos o refutarlos, y se emitan conclusiones razonadas y pertinentes al respecto.",
+      "El tratamiento de la información y su transformación en conocimiento es, además, uno de los pilares de la asignatura que contribuye a la Competencia digital (CD). Así, a través de las tecnologías de la información y los medios digitales, el alumnado afianzará destrezas relacionadas con la búsqueda de información, su procesamiento, y el uso seguro, saludable, responsable, crítico y sostenible de los instrumentos de comunicación, aplicando con propiedad conocimientos, habilidades y actitudes necesarias para consolidar una alfabetización digital. De la misma manera, el alumnado manejará las tecnologías digitales para sus creaciones en distintos formatos (texto, tabla, imagen, audio, vídeo, infografía…) y para optimizar el procesamiento de la información a la hora de seleccionar, organizar, elaborar y comunicar conocimientos de manera crítica, ética, responsable y segura.",
+      "La comunicación está involucrada en la capacidad de autogestionar el aprendizaje y articular estrategias de metacognición, así como de valorar el autoconocimiento y el autoconcepto necesarios para una interacción social eficiente. Por ello esta materia incide de manera inequívoca en el desarrollo y adquisición de la Competencia personal, social y de aprender a aprender (CPSAA). Ofrecer al alumnado oportunidades para practicar las destrezas del lenguaje, equivocarse en el proceso y reflexionar sobre los errores propios y de sus iguales, le permitirá integrarlos como una oportunidad de aprendizaje. Los aprendizajes garantizan la consolidación de las capacidades para gestionar la información de manera autónoma, responsable y eficaz, colaborar con otros y otras de forma constructiva desde múltiples situaciones, a través de intercambios comunicativos en los que el alumnado debe identificar, expresar, respetar y validar sus propias emociones y las de las demás personas.",
+      "El hecho literario exige, además, compartir con otras personas la experiencia lectora, ajustándose al conjunto de normas y valores propios de una cultura democrática para abrazar una ciudadanía activa, responsable, respetuosa y comprometida con los derechos humanos. Por otro lado, la Competencia ciudadana (CC) contribuye a que el alumnado pueda reflexionar, a partir de la lectura de textos relevantes de la literatura universal, sobre la dimensión social, histórica, cívica y moral de su propia identidad, ayudando a consolidar su madurez personal y social, adquirir una conciencia ciudadana y responsable, desarrollar la autonomía y el espíritu crítico, y establecer una interacción pacífica y respetuosa con las demás personas y con el entorno.",
+      "A medida que el alumnado avanza en su proceso educativo y vital, el tratamiento de la Competencia emprendedora (CE) se conjuga cada vez más con la capacidad de crear, replantear de manera autónoma ideas creativas y compartirlas de forma respetuosa. Por otra parte, la capacidad de asumir retos, de organización, planificación o gestión de proyectos sostenibles, que requieren a su vez de un pensamiento estratégico y de reflexión ética, son procesos que se desarrollan y asumen en esta materia desde el momento en que toda acción comunicativa requiere de ellos y de la capacidad de comprensión para nutrirse y tomar decisiones basadas en la información y el conocimiento. Se apuesta, además, por potenciar la adquisición de esta competencia considerando al alumnado en su faceta de agente social y en la consolidación de habilidades como la capacidad de colaborar y negociar con otras personas, siendo asertivo y empático.",
+      "Literatura Universal contribuye, por último, a la consolidación de la Competencia en conciencia y expresión culturales (CCEC) porque promueve que el alumnado genere y comparta de manera razonada las ideas propias a través de la lectura, la escucha activa, la interpretación argumentada y el análisis y comentario crítico de textos, obras o fragmentos literarios en un objetivo de aprendizaje en torno a la educación literaria que persigue, por un lado, afianzar e integrar los hábitos lectores, y, por otro, garantizar la interpretación textual y la apropiación de un patrimonio literario que conduce de manera inequívoca a otros muchos aspectos y manifestaciones de la cultura y del arte. Ambos polos de interés —lectura autónoma y lectura guiada— ven trascender sus beneficios e implicaciones no solo entre ellas, sino hacia la creación de una verdadera conciencia creativa en torno a la cultura.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Literatura Universal se han establecido cinco competencias específicas que se concretan en un total de nueve criterios de evaluación. Estos presentan una naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos del Perfil de salida a los que contribuye su competencia específica, expresando tanto las capacidades y los saberes que han de adquirirse, como el contexto y modo de aplicación de dichos aspectos.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Estos se formulan integrando los diferentes tipos de saberes: conocimientos, destrezas y actitudes. El encuentro entre textos y lectores constituye el núcleo central de la asignatura de Literatura Universal, por lo que dichos saberes se estructuran en dos bloques organizados, respectivamente, en torno a la lectura compartida guiada y a la lectura autónoma de muestras relevantes del patrimonio literario universal, así como al desarrollo de estrategias de interpretación y recreación diferenciadas para cada modalidad de lectura. La selección de obras y fragmentos combina cinco ejes temáticos -el yo, los otros, el mundo, la naturaleza y la diversidad de géneros- con un género o subgénero literario. Por lo tanto, esta propuesta compagina los grandes temas de la literatura con las distintas formas y géneros en que se han concretado cada obra y cada momento sociohistórico. El eje temático permite atravesar épocas y contextos culturales, establecer relaciones entre el hoy y el ayer, crear vínculos entre literaturas diversas, además de conectar con cuestiones que han preocupado a la humanidad a lo largo de los siglos. Este enfoque temático tiene como objetivo primordial proporcionar al profesorado la posibilidad de seleccionar un número determinado de obras que permita tanto la creación de itinerarios adaptados a la diversidad y a las necesidades del alumnado, como la vinculación con obras de otros contextos culturales o moldes genéricos, para posteriormente favorecer la lectura comparada de unas y otras.",
+      "En definitiva, tanto el Bloque I, «Lectura y recepción literaria guiada», como el Bloque II, «Lectura y recepción literaria autónoma», deseable y necesariamente interrelacionados, recogen los saberes y experiencias necesarios para consolidar el hábito lector, apuntalar la propia identidad lectora, interpretar textos literarios, analizar obras relevantes de la literatura universal, comunicar la experiencia lectora utilizando un metalenguaje específico, enriquecer los procesos de escritura creativa con intención literaria y movilizar la experiencia personal, lectora y cultural para establecer vínculos razonados entre lo leído y otras manifestaciones artísticas.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "Todos los elementos de este currículo se formulan de un modo claramente competencial, atendiendo tanto a los productos finales esperados, como a los procesos y actitudes que acompañan su elaboración. Todo ello reclama herramientas e instrumentos de evaluación, en el proceso de las situaciones de aprendizaje, variados y dotados de capacidad diagnóstica y de mejora.",
+      "La materia de Literatura Universal permite al alumnado continuar enriqueciendo su acervo cultural, a través de su experiencia como lector o lectora, sus posibilidades de expresión aprendiendo a apreciar la belleza de las obras, sus capacidades artísticas, creativas e interpretativas y su sensibilidad, lo que podrá facilitar una experiencia vital más plena, que le permita aceptar la diversidad y a eliminar prejuicios y estereotipos sociales. La implementación del currículo incluye planificar las diferentes estrategias de aprendizaje que den respuesta a las características diversas y necesidades educativas específicas del alumnado, así como a los cambios sociales actuales, como la globalización, las tecnologías de la información y comunicación o los cambios estructurales en la familia, evitando que los recursos, contextos (físicos, sociales o culturales) o incluso el propio diseño curricular resulten excluyentes. Para ello es imprescindible seguir los principios del Diseño Universal para el Aprendizaje (DUA), con flexibilidad en lo referente a la manera en que el alumnado accede a los recursos y muestran lo que saben, propiciando la búsqueda de su motivación con especial énfasis en quienes, por diferentes razones, están en situación de mayor vulnerabilidad, reforzando la equidad y contribuyendo a la capacidad inclusiva de la educación.",
+      "El alumnado debe acercarse al texto literario no solo como fuente de acceso al conocimiento o como valoración del patrimonio cultural, sino como una oportunidad única de disfrute y placer, a la vez que le permita encontrar modelos para la creación de textos literarios con conciencia de estilo respetando las convenciones formales de los distintos géneros. Para ello, se han de diseñar tareas contextualizadas, significativas e interdisciplinares, así como situaciones de aprendizaje que permitan abordar rigurosamente el tratamiento integrado de las competencias. Las alumnas y alumnos desempeñarán un papel participativo dentro y fuera del aula, convirtiéndose en agentes activos de su proceso de aprendizaje. Deberá atenderse, por tanto, a sus intereses y circunstancias particulares, a la propia naturaleza de la materia y a la disponibilidad de recursos, de manera que puedan emplearse distintas metodologías. En este contexto, la biblioteca escolar ha de ser una pieza clave como espacio cultural, de indagación y de aprendizaje, así como un centro neurálgico de recursos, formación y coordinación.",
+      "La lectura es el mejor medio para disfrutar, aprender y facilitar al alumnado el acceso a otras materias. Privilegiar el enfoque temático no supone, en ningún caso, prescindir de la contextualización histórica de las obras y de la reconstrucción de su génesis artística y de su huella en el legado posterior, ni relegar a segundo plano los valores formales y específicamente literarios de los textos. Tampoco pretende limitar las posibilidades de construcción de itinerarios. Por ello, el profesorado seleccionará un número determinado de obras y ejes temáticos que le permitan vincularlos a otros textos de diferentes contextos culturales de producción y recepción, a distintos moldes genéricos, conflictos, arquetipos literarios o formas de expresión, para proceder posteriormente a la lectura comparada de textos clásicos y contemporáneos, nacionales y extranjeros, literarios y no literarios (historiográficos, de crítica literaria o de otros códigos artísticos, incluida la ficción audiovisual y digital contemporánea), a la vez que permite conectar con cuestiones que han preocupado a la humanidad a lo largo de los siglos y acerca de las que aún hoy se preguntan los y las adolescentes.",
+      "Por último, la construcción de estos itinerarios permite una mirada flexible y dinámica sobre los textos literarios. Corresponde a los y las docentes construir en el aula diferentes hilos temáticos a los que incorporar referencias diversas en cuanto a las épocas, contextos, movimientos e incluso lenguajes artísticos, lo que permitirá acrecentar la interpretación crítica en el alumnado, consolidar su hábito lector y construir un mapa cultural de referencia."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Leer, interpretar y valorar clásicos de la literatura universal atendiendo tanto a las relaciones internas de los elementos constitutivos del género y sus funciones en las obras como a las relaciones externas de las obras con su contexto de producción y su inscripción en la tradición cultural, para ensanchar las posibilidades de disfrute de la literatura y para estimular la creatividad literaria y artística."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL4",
+        "CC1",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.1",
+        "CCEC3.2",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1685,
+          1690
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La lectura guiada en el aula de obras relevantes de la literatura universal constituye el eje central de esta competencia específica y propicia la creación de un mapa de referencias compartidas, lo que contribuye a la cohesión social, la educación intercultural y la coeducación, además de al aumento de las posibilidades de disfrute ante el texto literario. Para ello, esta competencia pretende contribuir al desarrollo de habilidades de interpretación de textos diversos inscritos en itinerarios temáticos, que tengan en cuenta las relaciones internas de los elementos constitutivos de la obra con el sentido, así como la vinculación de esta con su contexto de producción y su lugar en la tradición literaria. Asimismo, la escritura de textos favorecerá la adquisición de las convenciones de los diferentes géneros a la vez que proporciona experiencias creativas de imitación o reinterpretación, estimulando la creatividad literaria y artística.",
+          "Los criterios de evaluación del bloque se centran, por tanto, en la interpretación argumentada de obras representativas de la literatura universal a través de itinerarios temáticos o de género, diversos en cuanto a épocas, contextos y movimientos, que vinculen el contenido y la forma con el contexto sociohistórico y literario de cada texto, así como con otras manifestaciones artísticas, y en la propia creación con propósito literario y conciencia de estilo."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Leer de manera autónoma clásicos de la literatura universal como fuente de placer y conocimiento y compartir experiencias de lectura, para construir la propia identidad lectora y para disfrutar de la dimensión social de la lectura."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL4",
+        "CD3",
+        "CPSAA1.2",
+        "CPSAA5",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1685,
+          1692
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia favorece la lectura libre y autónoma de obras significativas del patrimonio literario universal, la deliberación argumentada en torno a ellos y el desarrollo de procesos de indagación que aprovechen los mapas de referencia, propiciando el diálogo de ambas trayectorias, guiada y autónoma, contribuyen a la apropiación de un saber literario y cultural que implica avanzar en la consolidación de la propia identidad lectora, esencial para que los alumnos y alumnas integren en su vida el hábito lector como fuente de placer y de enriquecimiento personal.",
+          "Por ello, los criterios de evaluación de este bloque competencial inciden en la confirmación de los propios gustos literarios y de las prácticas sociales de intercambio en torno a la lectura, contribuyendo a la apropiación de un saber literario y cultural que implica avanzar en la construcción de la identidad lectora. La biblioteca escolar y, en general, otros recursos y herramientas ofrecidos en el marco del Plan de Comunicación Lingüística de cada centro educativo, constituyen el contexto idóneo para la incorporación de estos aprendizajes."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Establecer vínculos entre obras de diferentes épocas, géneros y lenguajes artísticos, reconociendo semejanzas y diferencias en función de sus respectivos contextos de producción y de la interrelación entre literatura y sociedad, para constatar la existencia de universales temáticos y cauces formales recurrentes a lo largo de la historia de la cultura."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL4",
+        "CD1",
+        "CPSAA5",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1686,
+          1693
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica permite establecer vínculos pertinentes entre las obras literarias y la actualidad, así como con otros textos y manifestaciones artísticas y culturales y utilizarla como un medio de comprensión de sí mismo o misma, de las demás personas y del mundo. Priorizar el enfoque temático en la construcción de itinerarios y abrirlos a la lectura intertextual de obras de diferentes épocas, contextos, géneros y lenguajes artísticos permite constatar la existencia de tópicos, temas y cauces formales recurrentes que han pervivido a pesar del devenir histórico.",
+          "Los criterios de evaluación de este bloque competencial permiten constatar la existencia de universales temáticos y reconocer semejanzas y diferencias, propiciando el entendimiento de la relación existente entre literatura y sociedad, a partir de la lectura comparada de obras y del desarrollo de rutinas de indagación en torno a la lectura."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Consolidar un marco de referencias compartidas a partir del conocimiento de los rasgos de los principales movimientos estéticos y algunas de las obras literarias más relevantes del patrimonio universal, para conformar un mapa cultural en el que inscribir las experiencias literarias y culturales personales."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL4",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CC1",
+        "CCEC1",
+        "CCEC2",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1686,
+          1695
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia presenta una doble labor: de un lado, el acercamiento al conjunto de obras literarias sobre los que descansa el patrimonio cultural que consideramos valioso; de otro, el acopio de unos mapas de referencia en los que el alumnado pueda inscribir las diferentes experiencias culturales a las que vaya teniendo acceso, observar los grandes movimientos estéticos y los elementos de continuidad y ruptura entre ellos, así como el lugar que en el mismo ocupan las obras más relevantes del patrimonio literario universal. Por ello, la enseñanza de la literatura no puede prescindir de la visión de conjunto de la historia literaria, ni ignorar la especificidad formal del texto literario, vinculada a las convenciones artísticas de su tiempo y la evolución de los géneros literarios, aunque el eje de selección y organización de los textos no sea el cronológico.",
+          "Por ello, el único criterio de evaluación de este bloque competencial favorece la configuración paulatina de un marco de referencias compartidas y de un mapa cultural a partir de la lectura de textos relevantes del patrimonio universal, lo que permitirá al alumnado contextualizar sus futuras experiencias literarias y culturales. La biblioteca escolar y, en general, otros recursos y herramientas ofrecidos en el marco del Plan de Comunicación Lingüística de cada centro educativo, constituyen el contexto idóneo para la incorporación de estos aprendizajes."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Participar en la construcción de un canon literario universal que integre la perspectiva de experiencia de las mujeres a través de la lectura de obras de escritoras y que supere los marcos de la cultura occidental, para desarrollar el pensamiento crítico con respecto a la construcción discursiva del mundo y sus imaginarios."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL4",
+        "CCL5",
+        "CP3",
+        "CPSAA3.1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1686,
+          1696
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Una literatura pretendidamente universal no puede prescindir de las mujeres escritoras, así como de las voces no occidentales, por lo que el desarrollo de esta competencia específica reconoce que es imprescindible una reconstrucción del canon que incorpore unas y otras, al tiempo que indaga en las causas de su exclusión. Esta competencia promueve una reflexión en torno a la construcción social de los géneros, la configuración de un «nosotras y nosotros» frente a «las otras y otros», o el trazado de modelos sentimentales y amorosos, que permita al alumnado reconocer y descartar actitudes inconscientemente sexistas y etnocéntricas. A tal fin, la selección de las obras objeto de lectura compartida y acompañada, así como los fragmentos a ellas asociados, deben incorporar muestras representativas de un patrimonio diverso y auténticamente universal.",
+          "Los criterios de evaluación del bloque invitan, de este modo, a la participación en el debate cultural en torno al canon literario vigente y la necesidad de incorporar lecturas que integren la presencia de mujeres escritoras, de personajes femeninos destacables u obras no occidentales entre otras formas de ampliar los horizontes sociales y culturales, que den cuenta, en fin, de la diversidad de miradas sobre el mundo y de la importancia de la literatura en la construcción de imaginarios que, sin duda, contribuyen a la cohesión social, la educación intercultural y la coeducación."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Explicar y argumentar la interpretación de obras o fragmentos representativos del patrimonio literario universal justificando, con un metalenguaje específico, la vinculación del contenido y la forma con el contexto sociohistórico y literario, la intención del autor o autora, el tema y los rasgos propios del género y del subgénero e incorporando juicios de valor asociados a la apreciación ética y estética de las obras, con la finalidad de conformar un mapa cultural literario que constate la pervivencia de universales temáticos y formales y acrecentar las posibilidades de disfrute de la literatura."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL4",
+            "CC1",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1690
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Crear o recrear textos personales o colectivos de géneros diversos, con intención literaria, sentido estético y conciencia de estilo, en los que se movilicen los conocimientos literarios adquiridos y la experiencia lectora, aplicando o reinterpretando las convenciones formales de los diversos géneros y atendiendo al tratamiento de los tópicos y los aspectos formales con el propósito de construir vínculos personales a partir de la expresión artística."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL4",
+            "CCEC2",
+            "CCEC3.1",
+            "CCEC3.2",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1690
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar interpretaciones personales a partir de la lectura autónoma de obras o fragmentos relevantes de la literatura universal, reflexionado sobre la intención del autor o autora, el tema y los rasgos propios del género y del subgénero, los elementos de la estructura y el estilo, para enriquecer su itinerario lector."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL4",
+            "CD3",
+            "CPSAA5",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1692
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Acceder y participar de manera activa en situaciones comunicativas culturales que favorezcan la reflexión crítica y el intercambio de la propia experiencia lectora, utilizando un metalenguaje específico, explicitando los criterios de selección de las lecturas, las formas de acceso al hecho literario, favoreciendo el respeto por las opiniones y experiencias de las demás personas y potenciando la expresión de los sentimientos y de las emociones, para dejar constancia de la construcción de su propia identidad lectora, afianzar en su vida la lectura como fuente de placer y disfrutar de la dimensión social del encuentro cultural."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL4",
+            "CD3",
+            "CPSAA1.2",
+            "CPSAA5",
+            "CCEC1",
+            "CCEC3.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1692
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar y comparar textos o fragmentos literarios entre sí con otras manifestaciones artísticas, reflexionando, con sentido crítico, sobre la evolución de temas, tópicos, estructuras, lenguaje, recursos expresivos, valores éticos y estéticos, explicando las influencias, las semejanzas o las diferencias que existen entre ellos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL4",
+            "CPSAA5",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1693
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar rutinas de indagación en torno a la lectura, con la finalidad de establecer vínculos argumentados entre distintas muestras literarias, constatar la pervivencia de universales temáticos y formales y desarrollar procesos autorregulados de aprendizaje que le permitan transmitir ese conocimiento con iniciativa y creatividad."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL4",
+            "CD1",
+            "CPSAA5",
+            "CC1",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1693,
+              1694
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Elaborar exposiciones multimodales, con creatividad y espíritu crítico, que sitúe los textos leídos en su horizonte histórico-cultural, a partir del análisis de obras y fragmentos literarios relevantes del patrimonio universal, con especial atención a la literatura escrita por mujeres y literatura no occidental, poniéndolos en relación con su contexto sociohistórico de producción y con la tradición literaria, y analizando los rasgos e intencionalidad de los principales movimientos estéticos, utilizando, de manera responsable, su entorno digital de aprendizaje, con la finalidad de conformar un mapa cultural sobre movimientos artísticos y obras de la literatura universal en el que inscribir las experiencias literarias y culturales personales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL4",
+            "CD2",
+            "CD3",
+            "CC1",
+            "CCEC1",
+            "CCEC2",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1695
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Realizar proyectos de investigación sobre autoras de relevancia, obras literarias de contextos no occidentales o sobre cuestiones temáticas o formales que aporten una mirada diversa, crítica y respetuosa sobre la construcción de imaginarios que propone la tradición literaria, examinando la huella de su legado en la actualidad y el enriquecimiento inherente a la diversidad."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CCL5",
+            "CP3",
+            "CPSAA4",
+            "CC1",
+            "CCEC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1696
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comentar textos de forma crítica y reflexiva, y participar, de manera activa e informada, en conversaciones sobre lecturas en las que se incorpore la perspectiva de género, y se ponga en cuestión la mirada etnocéntrica propia del canon occidental o cualquier otro discurso que suponga discriminación, para desarrollar el pensamiento crítico, la percepción del mundo y sus imaginarios y anteponer la comprensión mutua para fomentar la cohesión social."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL4",
+            "CCL5",
+            "CP3",
+            "CPSAA3.1",
+            "CC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1696
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL4",
+            "CC1",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.1",
+            "CCEC3.2",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de esta competencia se verificará que el alumnado es capaz de explicar y argumentar la interpretación de obras o fragmentos representativos de la literatura universal, a partir de la lectura guiada y compartida en el aula de textos inscritos en itinerarios temáticos o de género, vinculando el contenido y la forma con el contexto sociohistórico y literario, la intención del autor o autora, la recurrencia de temas, los rasgos propios del género, y los códigos artísticos utilizados, manifestando a lo largo del proceso juicios críticos y razonados asociados a la apreciación ética y estética de las obras y constatando la pervivencia de universales temáticos y formales en la literatura. Para ello, el alumnado participará en situaciones comunicativas que propiciarán la construcción compartida de la interpretación de las obras y establecerá conexiones entre ellas; realizará trabajos individuales o de forma cooperativa, de identificación y crítica literaria presentados en diversos formatos y soportes y efectuará lecturas expresivas, dramatizaciones y recitaciones (videopoemas, guiones, improvisaciones, representaciones…) atendiendo a los procesos de comprensión, apropiación y oralización implicados. Por último, se pretende verificar que el alumnado es capaz de crear textos personales o colectivos de géneros diversos con propósito literario y artístico, sentido estético y conciencia de estilo (poemas, caligramas, relatos cortos, diarios digitales, biografías, monólogos humorísticos, novelas gráficas, piezas teatrales…) presentados en formato papel o digital, y con distintos lenguajes artísticos y audiovisuales, (cómics, vídeos, biopic, animación, interpretación teatral, blogs…) en los que se movilicen los conocimientos literarios adquiridos y la experiencia lectora, aplicando autoevaluaciones y técnicas metacognitivas de retroalimentación sobre su propio proceso de aprendizaje, todo ello con el propósito de que la escritura creativa sea entendida como una forma de comunicación que permite compartir ideas, emociones y sentimientos, afianzar el gusto por la lectura y la creación literaria, así como de propiciar la creación de un mapa de referencias culturales compartidas que contribuya a la cohesión social, la educación intercultural y la coeducación."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1691
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "CPSAA",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL4",
+            "CD3",
+            "CPSAA1.2",
+            "CPSAA5",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3.1"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se comprobará que el alumnado es capaz de leer obras o fragmentos relevantes de la literatura universal, seleccionadas de manera autónoma con la ayuda de recomendaciones especializadas. Igualmente, se verificará que participa activamente en conversaciones literarias y en intercambios abiertos y creativos de recomendaciones lectoras en contextos presenciales (debates, mesas redondas, tertulias, clubes de lectura, libro fórum, radio escolar, jornadas de oralidad…) y digitales (BookTube, chats, blogs…) propios del ámbito personal, académico y social, en los que el alumnado manifieste de manera argumentada sus gustos e intereses lectores y en los que comparte su experiencia personal y cultural utilizando un metalenguaje específico y reflexionando tanto sobre los aspectos temáticos, de género y subgénero, los elementos de la estructura y el estilo y los valores éticos y estéticos de las obras, como sobre las diferentes formas de apropiación y recreación de los textos leídos. Se comprobará igualmente que el alumnado elabora interpretaciones y reseñas personales haciendo uso de soportes y dispositivos diversos con iniciativa, imaginación y creatividad, estableciendo a su vez vínculos entre las obras leídas y aspectos de la actualidad y otras manifestaciones literarias o artísticas, expresando a lo largo del proceso juicios críticos en los que se valorará el respeto por las opiniones y experiencias de las demás personas, desarrollando procesos autorregulados de aprendizaje que le permitan transmitir ese conocimiento y potenciando la expresión de los sentimientos y de las emociones, y de manera que avance en la consolidación de su propia identidad lectora."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1692,
+              1693
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL4",
+            "CD1",
+            "CPSAA5",
+            "CC1",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "explicacion": {
+            "es": [
+              "Se verificará con este bloque competencial que el alumnado es capaz de establecer comparaciones y vínculos argumentados a partir del análisis comparativo de textos clásicos y contemporáneos, orales, escritos, multimodales o fragmentos literarios y no literarios (historiográficos, de crítica literaria o de otros códigos artísticos, incluida la ficción audiovisual y digital) entre sí y con otras manifestaciones artísticas (cine, pintura, danza, cómic, fotografía, novela gráfica, media art…), reflexionando con sentido crítico sobre la evolución de temas, tópicos, mitos, arquetipos literarios, estructuras, lenguaje, recursos expresivos, valores éticos y estéticos, que han llegado a convertirse en puntos de referencia de la cultura universal, reconociendo y señalando las influencias, las semejanzas o las diferencias que existen entre ellos y la preocupación ante similares cuestiones básicas de alcance universal. De igual forma el alumnado demostrará que moviliza su experiencia personal, lectora y cultural a partir de la elaboración de proyectos personales de investigación que se concreten en exposiciones orales, ensayos o en presentaciones multimodales en los que mostrará iniciativa y creatividad a través del uso de diferentes fuentes (utilización autónoma y frecuente de bibliotecas y acceso a otras experiencias culturales) y soportes, en los que además determinará las relaciones existentes entre la literatura y las obras de arte, prestando atención a los tipos de lenguaje que utilizan, a la forma en la que adaptan a ellos su mensaje y constatando así, la existencia de universales temáticos y cauces formales recurrentes a lo largo de la historia de la cultura que han pervivido a pesar del devenir histórico. El conocimiento de estos imaginarios universales permitirá al alumnado establecer vínculos entre el hoy y el ayer y entre literaturas diversas, conectando de este modo con cuestiones que han preocupado y preocupan al ser humano."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1694
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL4",
+            "CD2",
+            "CD3",
+            "CPSAA5",
+            "CC1",
+            "CCEC1",
+            "CCEC2",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "Este bloque competencial nos va a permitir comprobar que el alumnado, individualmente o de manera cooperativa, es capaz de movilizar su experiencia personal, lectora y cultural para indagar y realizar exposiciones multimodales, de manera guiada y compartida, que le permitan, a través de un metalenguaje específico, situar los textos leídos en su horizonte histórico-cultural, establecer relaciones intertextuales entre obras y fragmentos de diferentes géneros y subgéneros, épocas, contextos culturales y códigos artísticos, generar nuevo conocimiento y desarrollar procesos autorregulados de aprendizaje que le permitan transmitir ese conocimiento, aplicando estrategias de análisis y valoración crítica para comprender su lugar en la tradición literaria y compartir su propia interpretación argumentada de las obras. De igual forma, mediante el acceso a otras experiencias culturales, el alumnado establece vínculos intertextuales entre obras literarias y otras manifestaciones artísticas, atendiendo a los elementos de continuidad y ruptura para examinar la huella de su legado en la actualidad, reflexionar sobre los aspectos singulares y el valor social del patrimonio cultural y artístico de cualquier época y conformar una visión de conjunto de la historia literaria, los movimientos artísticos y las grandes obras de la literatura universal."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1695,
+              1696
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "CCL4",
+            "CCL5",
+            "CP3",
+            "CPSAA3.1",
+            "CPSAA4",
+            "CC1",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "explicacion": {
+            "es": [
+              "A partir de este bloque competencial, el alumnado demostrará que, individualmente o de manera cooperativa, realiza proyectos de investigación guiados sobre autoras de relevancia, personajes femeninos esenciales, obras literarias de contextos no occidentales o textos de la literatura canaria que le permitan establecer relaciones intertextuales entre obras y fragmentos de diferentes géneros, épocas, contextos culturales y códigos artísticos, así como con sus respectivos contextos de producción, investigando sus especificidades e intención y utilizando la información sociohistórica, cultural y artística para comprender el lugar que ocuparon en la tradición literaria con el fin de identificar elementos de continuidad y ruptura, interpretar los aciertos y carencias de la literatura con respecto a la complejidad de la identidad individual y la diversidad de géneros en la sociedad. Por otro lado, se verificará que el alumnado es capaz de elaborar comentarios o reseñas de textos literarios de forma crítica y reflexiva, aplicando estrategias de análisis e interpretación que le permitan relacionar los elementos constitutivos y la construcción del sentido de la obra, entendiendo la literatura como artefacto ideológico determinante en la construcción de los imaginarios sociales con singular atención a la perspectiva de género y atendiendo a sus valores culturales, éticos y estéticos. Por último, a través de su participación en conversaciones literarias e intercambios de recomendaciones en contextos presenciales y digitales el alumnado podrá, con un metalenguaje específico, compartir su propia interpretación argumentada de las obras de las mujeres y voces no occidentales en el canon literario universal, promoviendo, con actitud dialogante y empática, la igualdad efectiva entre mujeres y hombres, así como de los aspectos singulares y el valor social del patrimonio cultural y artístico de cualquier época, con el fin de reconocer y descartar actitudes inconscientemente sexistas y etnocéntricas, y de incorporar a su mapa de cultura muestras representativas de un patrimonio auténticamente universal, con presencia de mujeres escritoras, de personajes femeninos destacables y de obras no occidentales."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1697
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Lectura y recepción literaria guiada"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Construcción compartida de la interpretación de clásicos de la literatura universal inscritos en itinerarios temáticos que establezcan relaciones intertextuales entre obras y fragmentos de diferentes géneros, épocas, contextos culturales y códigos artísticos, así como con sus respectivos contextos de producción, de acuerdo a los siguientes ejes y estrategias:"
+              },
+              "saberes": [
+                {
+                  "id": "LU.1.A.1",
+                  "codigoOficial": null,
+                  "numeracionFuente": "1",
+                  "texto": {
+                    "es": "Temas y formas de la literatura universal"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.1.1",
+                  "codigoOficial": null,
+                  "numeracionFuente": "1.1",
+                  "texto": {
+                    "es": "Territorios del yo. Poesía lírica. Literatura testimonial y biográfica: diarios, cartas, memorias, autobiografías, autoficción, etc. Narrativa existencial: personajes en crisis."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.1.2",
+                  "codigoOficial": null,
+                  "numeracionFuente": "1.2",
+                  "texto": {
+                    "es": "Diálogo con los otros y las otras. Frente a la ley o el destino: la tragedia. Frente a las convenciones sociales: el drama. Humor crítico, humor complaciente: la comedia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.1.3",
+                  "codigoOficial": null,
+                  "numeracionFuente": "1.3",
+                  "texto": {
+                    "es": "Individuo y sociedad. Mundos imaginados: mitos y narrativa. Mitologías. Héroes y heroínas. Viajes imaginarios. Espacios y criaturas fantásticas. Utopías, distopías, ciencia ficción. Mundos observados: cuento y novela. Bildungsroman o novela de formación. Espacios privados, espacios públicos: afectos íntimos y lazos sociales. Desigualdades, discriminación, violencias. Guerra y revolución. Migraciones e identidades culturales. Colonialismo y emancipación. Mundos de evasión: relato breve y novela de género. La literatura de aventuras y la novela policíaca. Literatura de terror. El arte como compromiso: el ensayo. La literatura de ideas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.1.4",
+                  "codigoOficial": null,
+                  "numeracionFuente": "1.4",
+                  "texto": {
+                    "es": "El ser humano, los animales y la naturaleza: admiración, sobrecogimiento, denuncia. Poesía, narrativa y ensayo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.1.5",
+                  "codigoOficial": null,
+                  "numeracionFuente": "1.5",
+                  "texto": {
+                    "es": "Géneros: rol y representación. Identificación e interpretación de los aciertos y carencias de la literatura con respecto a la complejidad de la identidad individual y la diversidad de géneros en la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.2",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2",
+                  "texto": {
+                    "es": "Estrategias de análisis, interpretación, recreación y valoración crítica para la lectura compartida"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.2.1",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2.1",
+                  "texto": {
+                    "es": "Construcción compartida de la interpretación de las obras a través de discusiones o conversaciones literarias, haciendo uso del metalenguaje específico."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.2.2",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2.2",
+                  "texto": {
+                    "es": "Análisis reflexivo y valorativo de los elementos constitutivos del género literario y su relación con el sentido de la obra. Interpretación justificada de los efectos en la recepción de sus recursos expresivos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.2.3",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2.3",
+                  "texto": {
+                    "es": "Utilización de la información sociohistórica, cultural y artística necesaria para interpretar las obras y comprender su lugar en la tradición literaria."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.2.4",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2.4",
+                  "texto": {
+                    "es": "Análisis comparativo y reflexivo de los textos leídos con otros textos orales, escritos o multimodales y con otras manifestaciones artísticas, y establecimiento de vínculos intertextuales entre obras en función de temas, tópicos, estructuras y lenguajes. Interpretación razonada de los elementos de continuidad y ruptura."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1698
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.2.5",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2.5",
+                  "texto": {
+                    "es": "Indagación en torno al funcionamiento de la literatura como artefacto ideológico determinante en la construcción de los imaginarios sociales, haciendo especial hincapié en la perspectiva de género."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1699
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.2.6",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2.6",
+                  "texto": {
+                    "es": "Expresión argumentada de la interpretación de los textos, integrando los diferentes aspectos analizados y atendiendo a sus valores culturales, éticos y estéticos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1699
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.2.7",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2.7",
+                  "texto": {
+                    "es": "Lectura expresiva, dramatización y recitación de los textos atendiendo a los procesos de comprensión y de oralización implicados."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1699
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.A.2.8",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2.8",
+                  "texto": {
+                    "es": "Creación de textos de intención literaria, sentido estético y conciencia de estilo a partir de las obras leídas utilizando las convenciones del lenguaje literario."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1699
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Lectura y recepción literaria autónoma"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Lectura autónoma de obras relevantes del patrimonio universal desarrollando las siguientes estrategias:"
+              },
+              "saberes": [
+                {
+                  "id": "LU.1.B.1",
+                  "codigoOficial": null,
+                  "numeracionFuente": "1",
+                  "texto": {
+                    "es": "Selección de obras de manera autónoma y con la ayuda de recomendaciones especializadas y la utilización autónoma y frecuente de bibliotecas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1699
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.B.2",
+                  "codigoOficial": null,
+                  "numeracionFuente": "2",
+                  "texto": {
+                    "es": "Participación activa en conversaciones literarias, intercambios de recomendaciones lectoras y otras experiencias culturales en contextos presencial y digital."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1699
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.B.3",
+                  "codigoOficial": null,
+                  "numeracionFuente": "3",
+                  "texto": {
+                    "es": "Expresión argumentada de los gustos lectores personales, diversificación del corpus leído y comunicación razonada de la experiencia lectora, utilizando un metalenguaje específico y atendiendo a aspectos temáticos, género y subgénero, elementos de la estructura y el estilo, y valores éticos y estéticos de las obras."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1699
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.B.4",
+                  "codigoOficial": null,
+                  "numeracionFuente": "4",
+                  "texto": {
+                    "es": "Movilización de la experiencia personal, lectora y cultural para establecer vínculos argumentados entre la obra leída y aspectos de la actualidad y otras manifestaciones literarias o artísticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1699
+                    ]
+                  }
+                },
+                {
+                  "id": "LU.1.B.5",
+                  "codigoOficial": null,
+                  "numeracionFuente": "5",
+                  "texto": {
+                    "es": "Recomendación de las lecturas en soportes variados atendiendo a aspectos temáticos, formales e intertextuales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "boc-2023-058-decreto-30-2023",
+                    "paginas": [
+                      1699
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

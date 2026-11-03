@@ -104,9 +104,9 @@ def odt_children(name: str) -> list[ET.Element]:
     return list(section)
 
 
-def saber_tree(lists: list[ET.Element]) -> tuple[list[tuple[str | None, str]], bool]:
+def saber_tree(lists: list[ET.Element]) -> tuple[list[tuple[str | None, str, str | None, bool]], bool]:
     """Devuelve (apartado, saber) y distingue listas simples de subapartados."""
-    entries: list[tuple[str | None, str]] = []
+    entries: list[tuple[str | None, str, str | None, bool]] = []
     headings = False
     pending: str | None = None
     for listing in lists:
@@ -121,21 +121,34 @@ def saber_tree(lists: list[ET.Element]) -> tuple[list[tuple[str | None, str]], b
                 label = paragraphs[0] if paragraphs else pending
                 assert label, ("Sublista sin apartado", [plain(x)[:100] for x in item], pending)
                 pending = None
-                for subtree in nested:
-                    for subitem in subtree.iter(TEXT + "list-item"):
-                        if any(child.tag == TEXT + "list" for child in subitem):
+                counters: dict[str, int] = {}
+                def visit(subtree: ET.Element, parent: str = "") -> None:
+                    for subitem in subtree:
+                        if subitem.tag != TEXT + "list-item":
                             continue
-                        for value in direct_paragraphs(subitem):
-                            entries.append((label, value))
+                        values = direct_paragraphs(subitem)
+                        descendants = [child for child in subitem if child.tag == TEXT + "list"]
+                        if values:
+                            counters[parent] = counters.get(parent, 0) + 1
+                            number = f"{parent}.{counters[parent]}" if parent else str(counters[parent])
+                            for value in values:
+                                entries.append((label, value, number, bool(descendants)))
+                        else:
+                            assert counters.get(parent), (label, "Sublista sin antecedente")
+                            number = f"{parent}.{counters[parent]}" if parent else str(counters[parent])
+                        for descendant in descendants:
+                            visit(descendant, number)
+                for subtree in nested:
+                    visit(subtree)
             elif paragraphs:
                 next_has_no_label = i + 1 < len(items) and any(child.tag == TEXT + "list" for child in items[i + 1]) and not direct_paragraphs(items[i + 1])
                 if next_has_no_label or (i == len(items) - 1 and len(items) == 1 and not entries):
                     pending = paragraphs[0]
                 else:
-                    entries.extend((None, value) for value in paragraphs)
+                    entries.extend((None, value, None, False) for value in paragraphs)
     if pending:
         # Un apartado aislado puede continuar en la lista siguiente; si no, es un saber.
-        entries.append((None, pending))
+        entries.append((None, pending, None, False))
     return entries, headings
 
 
@@ -157,22 +170,36 @@ def parse_sabers(nodes: list[ET.Element], code: str, cycle: int, lo: int, hi: in
         if grouped:
             apartados: list[dict] = []
             by_name: dict[str, dict] = {}
-            for number, (heading, value) in enumerate(entries, 1):
+            # Los enunciados superiores omitidos reciben los números libres al
+            # final de la serie interna; los identificadores de los hijos siguen
+            # siendo estables. numeracionFuente conserva la jerarquía impresa.
+            last_leaf = sum(not parent for _, _, _, parent in entries)
+            leaf_number = parent_number = 0
+            for heading, value, source_number, is_parent in entries:
+                if is_parent:
+                    parent_number += 1
+                    number = last_leaf + parent_number
+                else:
+                    leaf_number += 1
+                    number = leaf_number
                 heading = heading or "Otros saberes"
                 if heading not in by_name:
                     section = {"codigo": str(len(apartados) + 1), "nombre": {"es": heading}, "saberes": []}
                     apartados.append(section)
                     by_name[heading] = section
-                by_name[heading]["saberes"].append({
+                saber = {
                     "id": f"{code}.{cycle}.{letter}.{number}", "codigoOficial": None,
                     "texto": {"es": value}, "procedencia": provenance(page_hits(pages, value, lo, hi)),
-                })
+                }
+                if code == "MAT" and letter == "A" and source_number:
+                    saber["numeracionFuente"] = f"{by_name[heading]['codigo']}.{source_number}"
+                by_name[heading]["saberes"].append(saber)
             block["apartados"] = apartados
         else:
             block["saberes"] = [{
                 "id": f"{code}.{cycle}.{letter}.{number}", "codigoOficial": None,
                 "texto": {"es": value}, "procedencia": provenance(page_hits(pages, value, lo, hi)),
-            } for number, (_, value) in enumerate(entries, 1)]
+            } for number, (_, value, _, _) in enumerate(entries, 1)]
         blocks.append(block)
     assert blocks, (code, cycle)
     return blocks
@@ -301,12 +328,30 @@ def parse_area(area: tuple, pages: list[str]) -> dict:
         "introduccion": {"es": intro},
         "competenciasEspecificas": [competencies[n] for n in sorted(competencies)],
         "desarrollos": developments,
-        "revision": {"estado": "borrador", "fuenteComprobada": True, "fechaUltimaRevision": "2026-10-30",
+        "revision": {"estado": "revisado", "fuenteComprobada": True, "fechaUltimaRevision": "2026-11-03",
                      "metodo": "Extracción estructurada de ODT oficial de apoyo; cotejo de los criterios con el PDF publicado en el BOC.",
                      "notas": ["Los códigos de saber son identificadores internos: la fuente publica listas sin códigos individuales.",
                                "Los descriptores se conservan por ciclo; la ficha de competencia reúne las referencias de sus tres ciclos.",
                                "Implantación progresiva: cursos 1.º, 3.º y 5.º en 2022/2023; 2.º, 4.º y 6.º en 2023/2024."]},
     }
+    # Diferencias del ODT de apoyo: se recupera la redacción del BOC.
+    if name == "conocimiento-medio":
+        document["competenciasEspecificas"][5]["descripcion"]["es"] = [
+            text.replace("de manera que que comprenda", "de manera que comprenda")
+            for text in document["competenciasEspecificas"][5]["descripcion"]["es"]]
+    if name == "emocional":
+        document["introduccion"]["es"] = [text.replace("(CECC)", "(CCEC)").replace("(CEC)", "(CCEC)") for text in document["introduccion"]["es"]]
+        block = document["desarrollos"][0]["bloquesSaberes"][0]
+        block["nombre"]["es"] = block["nombre"]["es"].replace("identificación, validación", "identificación, comprensión")
+    if name == "valores":
+        ce = next(ce for ce in document["competenciasEspecificas"] if ce["codigoOficial"] == "3")
+        ce["descripcion"]["es"] = [text.replace("archipélago", "archipiélago") for text in ce["descripcion"]["es"]]
+    if name == "extranjera":
+        # CN-PRIM-005: las cinco dimensiones enumeradas se mantienen como cinco.
+        document["introduccion"]["es"] = [text.replace("discrimación", "discriminación").replace("Abordar estas tres dimensiones", "Abordar estas cinco dimensiones")
+                                              for text in document["introduccion"]["es"]]
+    if name == "matematicas":
+        document["revision"]["notas"].append("El bloque A conserva la numeración local en numeracionFuente, incluidos los enunciados superiores y sus subentradas. Los identificadores internos existentes se mantienen; los padres recuperados usan números internos libres.")
     return document
 
 

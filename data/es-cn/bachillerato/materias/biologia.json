@@ -1,0 +1,1371 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.biologia",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "BIO",
+    "nombre": {
+      "es": "Biología"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 955,
+        "hasta": 976
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Biología de segundo de Bachillerato tiene como objetivo fundamental fomentar la cultura y las vocaciones científicas en el alumnado, proporcionándole los conocimientos y destrezas esenciales para el trabajo científico y el aprendizaje a lo largo de la vida, fortaleciendo así el compromiso del alumnado con la sociedad democrática y para su participación en esta. Utilizar las metodologías científicas como herramienta habitual de trabajo conlleva no solo plantear hipótesis y diseños experimentales, interpretar datos y resolver problemas, sino que contribuye a estimular la curiosidad, a potenciar la capacidad de razonamiento, la resiliencia y las habilidades para trabajar en equipo, haciendo que el alumnado alcance las competencias necesarias para seguir estudios superiores y para su desarrollo personal o profesional. En este curso, además, la madurez del alumnado permite también profundizar en las competencias específicas relacionadas con las ciencias biológicas a través de unos saberes básicos a los que se les da un enfoque mucho más microscópico y molecular que en las materias de etapas anteriores.",
+      "Los retos de las ciencias en general, y de la biología en particular, son continuos, y precisamente ellos son el motor que mantiene a la investigación biológica en el desarrollo de nuevas técnicas de investigación en el campo de la biotecnología o de la ingeniería genética, entre otras. Las aplicaciones de la biología han supuesto una mejora considerable de la calidad de vida humana al permitir, por ejemplo, la prevención y tratamiento de enfermedades que antaño diezmaban a las poblaciones u otras de nueva aparición, como la COVID-19, para la cual se han desarrollado terapias y vacunas a una velocidad sin precedentes. Además, los grandes avances y descubrimientos de la biología no solo han posibilitado la mejora de las condiciones de vida de la ciudadanía, sino que al mismo tiempo han generado fuertes impactos de distinta naturaleza (sociales, éticas, económicas, etc.) que no se pueden obviar y que también deben ser objeto de análisis durante el desarrollo de la materia.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "El currículo de la materia de Biología contribuye a la consecución de varios de los objetivos de la etapa desde las competencias específicas, los criterios de evaluación y los saberes básicos.",
+      "El diseño, planificación y realización de proyectos de investigación como metodología de trabajo en esta materia busca el desarrollo de ciudadanos y ciudadanas que actúen de forma responsable y respetuosa y que contribuyan a crear una sociedad más equitativa y justa al potenciar la comunicación y la colaboración en entornos inclusivos, fortaleciendo las capacidades afectivas, y al fomentar la igualdad efectiva de derechos y oportunidades de mujeres y hombres, promoviendo el rechazo a los prejuicios de cualquier tipo, como claves en el proceso de investigación, contribuyendo así a la consecución de los objetivos (a), (b) y (c). También contribuye al objetivo (i), puesto que esto solo se puede conseguir cuando la población tiene una cultura y una competencia en alfabetización científica y está informada sobre las realidades del mundo que le rodea, sus antecedentes históricos y los principales factores de su evolución. Asimismo, el diseño y desarrollo de proyectos de investigación permiten que el alumnado comprenda los elementos y procedimientos fundamentales del trabajo científico y que sea capaz de conocer y valorar críticamente la contribución de la ciencia y la tecnología a las condiciones de vida, contribuyendo así al objetivo (j).",
+      "Abordando tanto los aprendizajes de los criterios de evaluación como los saberes básicos desde las metodologías científicas, se contribuirá al logro de los objetivos (d), (e), (f) y (g), relacionados con la lectura y el estudio de textos científicos y divulgativos en diferentes idiomas, el dominio de la expresión oral, escrita y multimodal, la utilización del vocabulario adecuado, el uso eficaz de las tecnologías digitales, tanto para la búsqueda y selección de información en diversas fuentes como para la cooperación y la comunicación. Asimismo, la aplicación de esta metodología sitúa al alumnado en el centro de los procesos de enseñanza y aprendizaje, permitiéndole adoptar un papel activo y participativo, además de fomentar la confianza personal y el sentido crítico, por lo que se contribuye al desarrollo del objetivo (k).",
+      "Desde esta materia se busca también analizar las diversas implicaciones que tienen los nuevos descubrimientos que surgen constantemente en diversos campos de la biología como la biotecnología, la biología molecular, etc., y reflexionar sobre las relaciones de la ciencia y la tecnología con la sociedad, valorando de forma crítica, desde un punto de vista individual y colectivo, las implicaciones éticas, legales, económicas o políticas de los descubrimientos que se producen, contribuyendo de esta forma al objetivo (h).",
+      "Los objetivos (m) y (n) están relacionados directamente con la materia de Biología al hacer referencia a aspectos como el bienestar físico, mental y social de las personas. A través del análisis de las repercusiones que determinados hábitos como el sedentarismo, la obesidad, el consumo de sustancias nocivas para la salud, el estrés, etc., tienen sobre el organismo se promueve la adopción y el mantenimiento de estilos de vida saludable, que incluyan la actividad física y el deporte, y se fomentan actitudes de respeto en el ámbito de la movilidad segura, para favorecer la mejora en la calidad del medioambiente, tanto desde un punto de vista individual como colectivo y desde una perspectiva local y global. De esta manera, el alumnado será capaz de conocer y valorar críticamente la contribución de la ciencia y la tecnología en las condiciones de vida, contribuyendo así al objetivo (j), a la par que al objetivo (o), al mantener una actitud responsable y comprometida en la lucha contra el cambio climático y en la defensa del desarrollo sostenible, apreciando la aplicación de la biotecnología en el medioambiente.",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "Biología contribuye a la Competencia en comunicación lingüística (CCL) potenciando los hábitos de estudio y de lectura, la comunicación oral y escrita y la investigación a partir de fuentes científicas. Aprender a comunicar ciencia significa describir hechos y fenómenos, explicarlos y exponerlos, justificarlos y argumentarlos y definirlos utilizando diferentes tipologías de lenguaje y formas de comunicación. Así, en el aprendizaje de esta materia se hacen explícitas relaciones entre conceptos, se describen observaciones y procedimientos experimentales, se discuten ideas, hipótesis o teorías contrapuestas, se plantean y resuelven problemas y se comunican resultados y conclusiones. Todo ello exige la precisión en los términos utilizados, el encadenamiento adecuado de las ideas y la coherencia en la expresión verbal, escrita, signada o multimodal en las distintas producciones (informes de laboratorio, biografías científicas, planteamiento y resolución de problemas, exposiciones, etc.), así como la participación en diferentes interacciones comunicativas manteniendo una actitud cooperativa y respetuosa.",
+      "La materia contribuye al desarrollo de la Competencia plurilingüe (CP) fomentando el uso de información y publicaciones científicas, accesibles a través de internet, en distintas lenguas, fundamentalmente en inglés. El dominio de conocimientos especializados está estrechamente vinculado con el dominio específico del uso preciso del lenguaje, de modo que expresar un contenido se asocia a la comprensión y producción del mismo, por lo que esta competencia se entiende como una herramienta semiótica en la construcción conceptual y como instrumento para el desarrollo de capacidades lingüísticas.",
+      "Este currículo contribuye, fundamentalmente, al tratarse de una materia científica, a la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM). La naturaleza del conocimiento en Biología requiere definir magnitudes relevantes, realizar medidas, relacionar variables, establecer definiciones operativas, formular leyes cuantitativas, interpretar y representar datos y gráficos utilizados, por ejemplo, en la representación de cinéticas enzimáticas, en las curvas de respuesta inmunitaria, crecimiento celular, metabolismo, así como extraer conclusiones y poder expresarlas en el lenguaje verbal y simbólico de las matemáticas y en sus formas específicas de representación. Además, el uso de métodos inductivos y deductivos propios del razonamiento matemático, en situaciones concretas de la materia, y la aplicación de estrategias variadas para resolver problemas analizando críticamente las soluciones, contribuye también a la adquisición de esta competencia.",
+      "Por otro lado, el avance de las ciencias en general, y la biología en particular, dependen cada vez más del desarrollo de la tecnología, concretamente de la biotecnología, desde el estudio de moléculas, técnicas de observación celular y seguimiento del metabolismo hasta las técnicas de ingeniería genética, lo que implica el desarrollo de esta competencia.",
+      "La materia de Biología contribuye al desarrollo de la Competencia digital (CD) a través de la utilización de las tecnologías digitales para la búsqueda, selección, presentación y comunicación de la información, y para la cooperación en el desarrollo de las distintas fases de un proyecto de investigación, mediante el uso de herramientas y entornos virtuales de aprendizaje, así como para simular y visualizar fenómenos y procesos que no pueden realizarse en el laboratorio o hechos de la naturaleza de difícil observación.",
+      "Asimismo, la resolución de problemas biológicos requiere de la aplicación de estrategias de pensamiento computacional y programación para la búsqueda de soluciones. Se trata, por tanto, de un recurso imprescindible en el campo de las ciencias experimentales que conlleva un uso autónomo, crítico, responsable, seguro, saludable y sostenible del mismo, respetando las normas de conducta socialmente acordadas para que el alumnado ejerza una ciudadanía digital activa, cívica y reflexiva.",
+      "El desarrollo de la Competencia personal, social y de aprender a aprender (CPSAA) está asociado a la forma de construir el conocimiento y el pensamiento científico. En efecto, la metodología científica y la capacidad de regular el propio aprendizaje, tales como plantearse interrogantes, analizarlos, establecer una secuencia de tareas dirigidas a la consecución de un objetivo, determinar el método de trabajo, la distribución de tareas cuando sean compartidas y, finalmente, ser consciente de la eficacia del proceso seguido, desarrollan la capacidad de aprender a aprender, que se consigue cuando se aplican los conocimientos adquiridos a situaciones análogas o diferentes.",
+      "La historia ha mostrado que el avance de la ciencia y su contribución a la mejora de las condiciones de vida han sido posibles gracias a actitudes que están relacionadas con la competencia personal, social y de aprender a aprender, tales como la resiliencia, la autoeficacia, la responsabilidad, la perseverancia, la empatía, la motivación, la tolerancia a la frustración, el gusto por saber más y por el trabajo bien hecho, así como la consideración del análisis del error como fuente de aprendizaje.",
+      "La contribución de la materia a la Competencia ciudadana (CC) se basa en la alfabetización cívica y científica de los futuros ciudadanos y ciudadanas y en la adopción consciente de los valores propios de una cultura democrática, fundamentados en el respeto a los derechos humanos, la reflexión crítica acerca de los grandes problemas éticos de nuestro tiempo y el desarrollo de un estilo de vida sostenible acorde con los Objetivos de Desarrollo Sostenible planteados en la Agenda 2030 y concretados en la Agenda Canaria de Desarrollo Sostenible 2030. Asimismo, a través del enfoque molecular de la materia, el alumnado ahondará en los mecanismos de funcionamiento de los seres vivos y de la naturaleza en su conjunto, lo que le permitirá comprender la situación crítica en la que se encuentra la humanidad actualmente y la necesidad urgente de adoptar estilos de vida sostenibles como forma de compromiso ciudadano por el bien común.",
+      "Biología contribuye también al desarrollo de la Competencia emprendedora (CE). Esta competencia se potencia al enfrentarse con criterios propios a problemas que no tienen una solución inmediata, lo que implica tomar decisiones personales para su resolución y reflexionar sobre el proceso realizado y el resultado obtenido. También se fomenta cuando se cuestionan los dogmatismos y los prejuicios que han acompañado al progreso científico a lo largo de la historia y se buscan nuevas soluciones y se emprenden alternativas. El desarrollo de esta competencia requiere afrontar retos con sentido crítico, evaluar las fortalezas y debilidades propias, esforzarse por mejorar, tomar las decisiones que respondan, de la forma más adecuada, a las necesidades detectadas y proponer soluciones creativas e innovadoras, ofreciendo alternativas a las ya conocidas y establecidas, lo que sin duda favorece la motivación personal y emprendedora con nuevas oportunidades. El pensamiento característico del quehacer científico se puede así transferir a otras situaciones de la vida cotidiana ya que, al ser propio del conocimiento científico, el pensamiento hipotético deductivo permite llevar a cabo proyectos de investigación en los que se ponen en práctica capacidades de análisis, valoración de situaciones y toma de decisiones razonadas y creativas que sin duda contribuyen a la adquisición de esta competencia.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Biología se han establecido seis competencias específicas que engloban doce criterios de evaluación y que pueden resumirse en: interpretar y transmitir información científica y argumentar sobre ella; localizar, seleccionar y contrastar información científica; analizar críticamente las conclusiones de trabajos de investigación; plantear y resolver problemas relacionados con las ciencias biológicas; analizar la importancia de los estilos de vida saludables y sostenibles, y relacionar las características moleculares de los organismos con sus características macroscópicas.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Los saberes básicos constituyen los conocimientos, destrezas y actitudes que posibilitan el desarrollo de las competencias específicas de la materia. En Biología estos se estructuran en seis bloques: I. «Las biomoléculas», II. «Genética molecular», III. «Biología celular», IV. «Metabolismo», V. «Biotecnología» y VI. «Inmunología».",
+      "En esta materia la mayoría de los saberes básicos pueden ser tratados de forma flexible en cualquiera de los seis bloques competenciales, por lo que es el profesorado, en su autonomía, quien debe estimar aquellos más adecuados, adaptados al contexto educativo de aplicación, para implementar los aprendizajes establecidos en cada uno de los bloques competenciales.",
+      "Desde Biología de segundo de Bachillerato se pretende ampliar y profundizar en los conocimientos sobre los mecanismos básicos que rigen la vida desde el punto de vista molecular y celular y potenciar la actitud investigadora basada en las metodologías científicas (planteamiento de problemas y toma de decisiones sobre la conveniencia o no de su estudio; formulación y contraste de hipótesis; planteamiento de estrategias de resolución de problemas; interpretación de resultados y análisis de conclusiones; comunicación científica y manejo de fuentes de información fiables), dotando al alumnado de una cultura científica. Se busca también analizar las diversas implicaciones que tienen los nuevos descubrimientos que surgen constantemente y reflexionar sobre las relaciones de la ciencia y la tecnología con la sociedad, valorando de forma crítica, desde un punto de vista individual y colectivo, las implicaciones éticas, legales, económicas o políticas de los nuevos descubrimientos que se producen.",
+      "El Bloque I, «Las biomoléculas», está centrado en las moléculas orgánicas e inorgánicas que forman parte de los seres vivos, atendiendo a sus características fisicoquímicas, a los enlaces químicos que posibilitan su formación, a sus funciones biológicas y a la relación entre estas y la salud, con el fin de promover la adopción de estilos de vida saludables.",
+      "El Bloque II, «Genética molecular», incluye el mecanismo de replicación del ADN y el proceso de la expresión génica, relacionando estos con la diferenciación celular. Se busca, por tanto, analizar la función del ADN como portador de la información genética, reconocer la importancia del código genético en la expresión de la información o la relación de la genética con el hecho evolutivo a través de las mutaciones.",
+      "El Bloque III, «Biología celular», se centra en el estudio de la célula, sus componentes, las etapas del ciclo celular, la mitosis y meiosis y su función biológica, analizando la influencia del desarrollo técnico de la microscopía en el estudio de la misma. Igualmente se profundiza en la relación entre el cáncer, las mutaciones y las alteraciones del ciclo celular, así como la importancia de mantener estilos de vida saludables.",
+      "El Bloque IV, «Metabolismo», aborda las principales reacciones bioquímicas (anabólicas y catabólicas) de los seres vivos y su significado biológico.",
+      "El Bloque V, «Biotecnología», recoge los métodos y las técnicas de manipulación de los seres vivos o sus componentes para su aplicación tecnológica en diferentes campos —como la medicina, la agricultura, ganadería, medioambiente y alimentación, entre otros—, su importancia y sus repercusiones en la sociedad, y el papel destacado de los microorganismos.",
+      "El Bloque VI, «Inmunología», está enfocado hacia el concepto de inmunidad, sus mecanismos y tipos (innata y adquirida), las fases de las enfermedades infecciosas y el estudio de las patologías del sistema inmunitario.",
+      "Todos los saberes mencionados anteriormente deben trabajarse desde un enfoque competencial para que su adquisición vaya siempre ligada al desarrollo de las competencias específicas de la materia que, a su vez, contribuyen a la mejora de las competencias clave. En otras palabras, los saberes básicos son el medio para trabajar las competencias específicas, pero también los conocimientos mínimos de Biología, las destrezas y actitudes que el alumnado debe adquirir.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "Cabe destacar que la Biología es una materia de carácter científico, que se interrelaciona con otras ciencias para lograr sus objetivos, por lo que es recomendable impartirla ligándola a la realidad del alumnado de manera práctica y significativa y siguiendo un enfoque interdisciplinar que favorecerá una asimilación más profunda de la materia, al extender sus raíces hacia otras ramas del conocimiento.",
+      "El diseño de las situaciones de aprendizaje debe partir de los criterios de evaluación e integrar los distintos elementos curriculares de la materia mediante tareas y actividades competenciales, significativas y relevantes, posibilitando la articulación coherente y eficaz de los distintos conocimientos, destrezas y actitudes propios de esta etapa. Asimismo, se deben fomentar aspectos relacionados con el interés común, la sostenibilidad, la igualdad de género o la convivencia democrática, esenciales para que el alumnado sea capaz de responder con eficacia a los retos del siglo XXI.",
+      "Desde la materia de Biología el alumnado podrá adquirir las competencias necesarias para el desarrollo del pensamiento científico y su aplicación, así como una plena integración ciudadana a nivel personal, social y profesional. Quien aprende es el centro del proceso de aprendizaje. Este enfoque, basado en los principios de actividad (acción) y de experiencia (vivencia) del alumnado, requiere de metodologías innovadoras que impulsen la participación, la colaboración y la inclusión (aprendizaje cooperativo, aprendizaje basado en proyectos, aprendizaje basado en el pensamiento, aprendizaje servicio, aprendizaje basado en el juego, etc.) y de modelos de enseñanza (indagación científica, investigación guiada, investigación grupal, juego de rol, jurisprudencial, etc.) que reconozcan a los alumnos y a las alumnas como agentes de su propio aprendizaje, donde se construye el conocimiento utilizando, siempre que sea posible, contextos de colaboración que supongan la asunción de las responsabilidades individuales y grupales y en los que el profesorado actúe como guía o facilitador. Así planteadas, las situaciones de aprendizaje constituyen un componente que, alineado con los principios del Diseño Universal para el Aprendizaje (DUA), permite aprender a aprender y sentar las bases para el aprendizaje a lo largo de la vida, fomentando procesos pedagógicos flexibles y accesibles que se ajusten a las necesidades, las características y los diferentes ritmos de aprendizaje del alumnado. Para ello, deben promoverse en las situaciones de aprendizaje agrupamientos variados que posibiliten la atención individualizada, pero sobre todo el trabajo entre iguales (trabajo individual, trabajo en parejas o trabajo en grupos), el uso de espacios diversos, del centro y del entorno cercano, valorando la importancia de romper las barreras físicas del aula para poder desarrollar los aprendizajes de este currículo, donde las actividades complementarias constituyen un elemento imprescindible para que el alumnado pueda experimentar en el entorno, y la utilización de recursos en diferentes formatos, etc., que contribuyan al logro de los aprendizajes y favorezcan la atención a la diversidad.",
+      "La planificación y el diseño de situaciones de aprendizaje debe poner especial cuidado en que las actividades estén secuenciadas de forma adecuada, de manera que el aprendizaje se vea como un proceso integral que parte de lo simple, para abordar lo complejo, de lo superficial a lo profundo y de lo aislado a lo integrado y que contemplen actividades de activación, de demostración, de aplicación y de integración. A lo largo del proceso se debe valorar el progreso que va alcanzando el alumnado, así como las dificultades que surgen, para introducir las modificaciones oportunas que permitan alcanzar los objetivos que se pretenden.",
+      "Las actividades realizadas por los alumnos y alumnas, tanto de manera individual como colaborativa, deben implicar la producción y la interacción verbal e incluir el uso de recursos en distintos soportes y formatos, tanto analógicos como digitales, para comunicar y difundir los resultados ante el resto del grupo, en el centro educativo o en otros contextos. Se debe potenciar que los alumnos y alumnas usen las tecnologías digitales, no solo como fuente de información o como medio de colaboración y comunicación, sino también para estudiar procesos y fenómenos de difícil realización experimental (observación de biomoléculas en 3D, proceso de replicación y transcripción del ADN, identificación de bacterias, el ciclo celular, realización de PCR, etc.) mediante el uso de simulaciones interactivas, laboratorios virtuales, aplicaciones informáticas, etc., teniendo en cuenta que la utilización de estos medios implica hacerlo de manera segura, saludable, crítica, sostenible y ética.",
+      "El diseño de las situaciones de aprendizaje debe incluir, desde su inicio, la evaluación y calificación, seleccionando instrumentos de evaluación variados que permitan evidenciar, de forma clara y conjunta, la adquisición de los aprendizajes y el nivel de logro de las competencias vinculadas a los criterios de evaluación, procurando que, además de la heteroevaluación llevada a cabo por el docente o la docente, se recojan la autoevaluación y coevaluación como procesos de reflexión del alumnado sobre el aprendizaje, pero no para la calificación.",
+      "La enseñanza de la biología debe también ofrecer una ciencia vinculada a las personas introduciendo aspectos biográficos y aportaciones científicas relevantes de científicos y científicas en el campo de la biología molecular (incluyendo españolas, en general, y canarias, en particular) de forma contextualizada, y en especial teniendo en cuenta la contribución de las mujeres a la ciencia para fomentar las vocaciones científicas (STEM) entre el alumnado y, en especial, en las alumnas."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar y transmitir información y datos a partir de trabajos científicos y argumentar sobre estos con precisión y utilizando diferentes formatos para analizar conceptos, procesos, métodos, experimentos o resultados de las ciencias biológicas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CC3",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          959,
+          960,
+          965
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La difusión de los conocimientos científicos es muy importante, ya que no solo contribuye a acelerar considerablemente los avances y descubrimientos, sino que también busca que cualquier persona esté más informada, sea más crítica o reconozca las falsas noticias. La competencia específica 1 cobra sentido en esta materia dotando al alumnado de las herramientas, actitudes y destrezas necesarias para transmitir contenidos científicos con actitud abierta y tolerante, pero defendiendo su postura de forma fundamentada y enriqueciéndola con los puntos de vista de las demás personas. La competencia específica 1 está asociada a tres criterios de evaluación: uno trata sobre el análisis de los saberes de la materia mediante el uso del pensamiento crítico y científico, otro aborda la comunicación de la información y opiniones transmitiéndola de forma rigurosa y fundamentada, y el último criterio contempla la argumentación basada en la fundamentación científica para hacer frente a opiniones diferentes de forma respetuosa."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando la información, evaluándola críticamente y contrastando su veracidad, para resolver preguntas planteadas de forma autónoma y crear contenidos relacionados con las ciencias biológicas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CPSAA4",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          960,
+          966,
+          967
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El progreso en las competencias específicas 2 y 3 favorece que el alumnado mejore destrezas como la búsqueda y selección de información relevante de acuerdo al fin propuesto, utilizando fuentes fidedignas, el pensamiento crítico y el razonamiento lógico, preparándolo para reconocer información pseudocientífica y para formarse una opinión propia basada en razonamientos y evidencias, contribuyendo así positivamente a su integración personal y profesional y a su participación en la sociedad democrática e incluso a su bienestar emocional y social. La competencia específica 2 se vincula con dos criterios de evaluación de los cuales uno trata la búsqueda de fuentes fidedignas para dar respuesta a cuestiones de los saberes básicos de la materia, así como para la creación de contenidos relacionados. El otro criterio evalúa la veracidad de la información y la enriquece coherentemente con actitud crítica.",
+          "La competencia específica 3 igualmente queda descrita por otros dos criterios de evaluación centrados en las metodologías científicas. El primero considera el análisis crítico del cumplimiento de los pasos del trabajo científico en estudios de saberes propios de la materia, para conocer la fiabilidad de las conclusiones que se obtengan. El segundo atiende a la contribución de la ciencia a la sociedad y de las personas que a ella se dedican, valorando el carácter colaborativo e interdisciplinar de la investigación científica."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar trabajos de investigación o divulgación relacionados con las ciencias biológicas, comprobando con sentido crítico su veracidad o si han seguido los pasos de los métodos científicos, para evaluar la fiabilidad de sus conclusiones."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CPSAA4",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          960,
+          968
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El progreso en las competencias específicas 2 y 3 favorece que el alumnado mejore destrezas como la búsqueda y selección de información relevante de acuerdo al fin propuesto, utilizando fuentes fidedignas, el pensamiento crítico y el razonamiento lógico, preparándolo para reconocer información pseudocientífica y para formarse una opinión propia basada en razonamientos y evidencias, contribuyendo así positivamente a su integración personal y profesional y a su participación en la sociedad democrática e incluso a su bienestar emocional y social. La competencia específica 2 se vincula con dos criterios de evaluación de los cuales uno trata la búsqueda de fuentes fidedignas para dar respuesta a cuestiones de los saberes básicos de la materia, así como para la creación de contenidos relacionados. El otro criterio evalúa la veracidad de la información y la enriquece coherentemente con actitud crítica.",
+          "La competencia específica 3 igualmente queda descrita por otros dos criterios de evaluación centrados en las metodologías científicas. El primero considera el análisis crítico del cumplimiento de los pasos del trabajo científico en estudios de saberes propios de la materia, para conocer la fiabilidad de las conclusiones que se obtengan. El segundo atiende a la contribución de la ciencia a la sociedad y de las personas que a ella se dedican, valorando el carácter colaborativo e interdisciplinar de la investigación científica."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Plantear y resolver problemas, buscando y utilizando las estrategias adecuadas, analizando críticamente las soluciones y reformulando el procedimiento si fuera necesario, para explicar fenómenos relacionados con las ciencias biológicas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD5",
+        "CPSAA1.1",
+        "CPSAA5",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          960,
+          969
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica 4 busca desarrollar en el alumnado la capacidad para resolver problemas usando el razonamiento y explorando nuevas estrategias de resolución cuando las estrategias que tiene adquiridas no sean suficientes. Además, mediante esta competencia se fomenta la actitud positiva hacia los retos y las situaciones de incertidumbre, así como la resiliencia para seguir probando nuevas vías de resolución en caso de falta de éxito inicial, o con la intención de mejorar los resultados. Esta competencia se concreta en dos criterios de evaluación. El primero valora las explicaciones argumentadas de los saberes de la materia y hacerlos extensibles a nuevas situaciones o retos, de forma innovadora y sostenible. El segundo criterio contempla el planteamiento novedoso de proceder para mejorar los resultados o bien buscar otros métodos si el inicial no fuese viable."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Analizar críticamente determinadas acciones relacionadas con la sostenibilidad y la salud, basándose en los fundamentos de la biología molecular, para argumentar acerca de la importancia de adoptar estilos de vida sostenibles y saludables."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD4",
+        "CPSAA2",
+        "CC2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          960,
+          971
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "A través de la competencia específica 5, y mediante su único criterio de evaluación que lo describe, se pretende transmitir las actitudes y estilos de vida compatibles con el mantenimiento y mejora de la salud y con un modelo de desarrollo sostenible desde un enfoque molecular. Se busca que el alumnado tome iniciativas encaminadas a analizar críticamente sus propios hábitos, los de su familia y los de las personas de la comunidad educativa, basándose en los fundamentos de la biología molecular, y que proponga medidas para el cambio positivo hacia un modo de vida más saludable y sostenible, con acciones dirigidas al respeto a la biodiversidad canaria y a la gestión sostenible de recursos, que a su vez mejorarán la salud y el bienestar físico y mental humanos a nivel individual y colectivo."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar la función de las principales biomoléculas, bioelementos y sus estructuras e interacciones bioquímicas, argumentando sobre su importancia en los organismos vivos para explicar las características macroscópicas de estos a partir de las moleculares."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          961,
+          972
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Trabajar la competencia específica 6 posibilita que el alumnado conecte el mundo molecular con el macroscópico y que adquiera una visión global completa de los seres vivos fundamentada en el estudio de sus características moleculares. Dos son los criterios de evaluación de que consta esta competencia específica 6. El primer criterio estudia las interacciones de biomoléculas en los procesos metabólicos según su estructura y función. El segundo criterio evalúa el desempeño en el trabajo de laboratorio de reconocimiento de biomoléculas y su función en los seres vivos."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar críticamente conceptos y procesos biológicos, seleccionando e interpretando información a partir de trabajos científicos y en diferentes formatos para, utilizando el pensamiento científico, obtener conclusiones lógicas valorando la fiabilidad de las fuentes."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              965
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar informaciones u opiniones razonadas relacionadas con los saberes de la materia, transmitiéndolas de forma clara y rigurosa, utilizando la terminología y el formato adecuados y respondiendo de manera fundamentada y precisa a las cuestiones que puedan surgir durante el proceso, con el objetivo de expresar y transmitir conocimientos biológicos en diferentes situaciones grupales con iniciativa, imaginación y creatividad."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM2",
+            "STEM4",
+            "CD3",
+            "CC3",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              965
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Argumentar sobre aspectos relacionados con los saberes de la materia, considerando los puntos fuertes y débiles de diferentes posturas de forma razonada, con el fin de participar en interacciones comunicativas, valorando la importancia de mantener una actitud abierta, flexible, receptiva y respetuosa ante la opinión de las demás personas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM2",
+            "CPSAA4",
+            "CC3",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              965,
+              966
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Plantear y resolver cuestiones y crear contenidos relacionados con los saberes de la materia, localizando y citando fuentes de forma adecuada y seleccionando, organizando y analizando de forma crítica la información para poder adoptar un juicio propio y argumentado ante problemas de actualidad, y reutilizar la información y generar nuevos conocimientos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD4",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              967
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Evaluar, contrastar y justificar la veracidad de información relacionada con la materia, utilizando fuentes fiables y aportando datos con rigor y coherencia, con el fin de adoptar una actitud crítica y escéptica hacia informaciones sin una base científica."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM4",
+            "CD1",
+            "CD3",
+            "CD4",
+            "CPSAA4",
+            "CC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              967
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar y evaluar la fiabilidad de las conclusiones de un trabajo de investigación o divulgación científica a través de la interpretación de los resultados obtenidos, comprobando si se han seguido los pasos del trabajo científico, para explicar fenómenos relacionados con los saberes de la biología, desarrollando el pensamiento crítico y las destrezas comunicativas y digitales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              968
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Argumentar, utilizando ejemplos concretos, sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando a las mujeres científicas, con el fin de promover activamente la igualdad efectiva entre mujeres y hombres y formarse una opinión propia basada en razonamientos y evidencias y entender que la investigación es una labor colectiva e interdisciplinar en constante evolución, influida por el contexto político y social y por los recursos económicos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "STEM4",
+            "CD1",
+            "CPSAA4",
+            "CC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              968
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Explicar fenómenos biológicos argumentándolos a través del planteamiento y resolución de problemas, buscando y utilizando las estrategias y recursos adecuados para afrontar nuevos retos con optimismo y resiliencia y proponer soluciones innovadoras y sostenibles."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CD5",
+            "CPSAA1.1",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              970
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema utilizando los saberes de la materia de biología, para reformular los procedimientos utilizados o conclusiones si dicha solución no fuese viable o ante nuevos datos aportados o encontrados con posterioridad, con la intención de mejorar los resultados."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              970
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Argumentar, a partir del análisis crítico de determinadas acciones humanas relacionadas con la sostenibilidad y la salud, sobre la importancia de adoptar estilos de vida saludables y compatibles con el desarrollo sostenible, basándose en los principios de la biología molecular y relacionándolos con los procesos macroscópicos con el fin de tomar conciencia de la necesidad de emprender acciones, personales y colectivas, para preservar la salud física y mental y el medioambiente y contribuir a la construcción de una sociedad más sana, justa y solidaria."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD4",
+            "CPSAA2",
+            "CC2",
+            "CC3",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              971
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar la estructura y función de los principales bioelementos y biomoléculas, las interacciones bioquímicas entre ellas y de sus reacciones metabólicas, argumentando sobre su importancia en el mantenimiento de la vida, para explicar las características y procesos vitales de los seres vivos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              972
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Aplicar metodologías analíticas en el laboratorio de forma cooperativa, utilizando los materiales adecuados con precisión y mostrando una actitud metódica, responsable y sostenible con los procedimientos empleados, para aislar e identificar diferentes biomoléculas y determinar su función biológica."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              972,
+              973
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CD3",
+            "CPSAA4",
+            "CC3",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de interpretar y analizar críticamente conceptos, procesos, métodos y experimentos de las ciencias biológicas relacionados con los distintos bloques de saberes básicos de la materia (biomoléculas, genética molecular, biología celular, metabolismo, biotecnología e inmunología) a partir de información y datos en diferentes formatos (imágenes, microfotografías, modelos, gráficos, tablas, diagramas, fórmulas, esquemas u otros) y lenguas, obtenidos de trabajos y publicaciones científicas accesibles a través de internet. También se quiere evaluar si expresa sus opiniones e intercambia información relevante de la forma más eficiente y sencilla posible, apoyándose para ello en las tecnologías digitales, comunicándola con creatividad, de forma clara, rigurosa y haciendo uso de la terminología y el formato adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos o contenidos digitales, entre otros), respondiendo de manera fundamentada y precisa a las cuestiones que se le planteen. Por último, se verificará que es capaz de argumentar sobre aspectos relacionados con los saberes de la materia, considerando los puntos fuertes y débiles de diferentes posturas y defendiendo la suya de forma fundamentada, participando en diferentes interacciones comunicativas (debates, exposiciones, discusiones, mesas redondas, etc.) con actitud empática y colaborativa, abierta, flexible, receptiva y respetuosa ante la opinión de las demás personas y afrontando con actitud dialogante la pluralidad de valores e ideas. Todo ello con la finalidad de que el alumnado comprenda que la comunicación científica requiere movilizar no solo las destrezas lingüísticas, sino también las matemáticas, las digitales y el razonamiento lógico y que valore la importancia que tiene la comunicación para la colaboración y la difusión del conocimiento, contribuyendo a acelerar considerablemente los avances y descubrimientos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              966
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD4",
+            "CPSAA4",
+            "CC3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado plantea y resuelve preguntas de forma autónoma y crea contenidos, individual o colectivamente, relacionados con cualquiera de los saberes básicos de la materia (características de las biomoléculas, relación entre determinadas enfermedades humanas y la falta o exceso de vitaminas, alteraciones del sistema inmunitario, implicaciones biológicas de la teoría celular, procesos implicados en la respiración celular, aplicaciones de la biotecnología, entre otros) mediante la localización, identificación, selección y organización de información de tipo científico procedente de fuentes variadas que le permitan enriquecer su repertorio lingüístico individual (trabajos y revistas científicas, páginas web, vídeos, foros especializados, etc.) y la posterior comunicación oral, escrita, signada o multimodal de conclusiones, en diferentes formatos y soportes, haciendo un uso crítico, legal, seguro, saludable y sostenible de las tecnologías digitales, referenciando las fuentes y respetando los derechos de autoría y haciendo un correcto uso del lenguaje científico. También se quiere verificar si contrasta la veracidad de la información encontrada, utilizando estrategias que le permitan evaluar de forma crítica la fiabilidad de las fuentes y evitar los riesgos de manipulación y desinformación, gestionando de manera responsable sus acciones, presencia y visibilidad en la red y adoptando una actitud crítica y escéptica hacia informaciones sin una base científica. Todo ello con el fin de potenciar en el alumnado tanto el sentido crítico para seleccionar las fuentes, cribar la información y quedarse con la que resulte relevante de acuerdo al fin propuesto."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              967,
+              968
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CPSAA4",
+            "CC3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de evaluar la fiabilidad de las conclusiones de un trabajo de investigación o divulgación científica en distintas lenguas o de una experimentación de laboratorio relacionada con cualquiera de los saberes básicos de la materia (las biomoléculas, la genética molecular, biología celular, metabolismo, biotecnología e inmunología), adoptando un juicio propio y de acuerdo a la interpretación de los resultados obtenidos. Asimismo, se pretende constatar que aplica los métodos científicos para analizar con actitud crítica, explicar y transmitir información de trabajos científicos y de los medios de comunicación en diversos formatos (textos, gráficas, tablas, diagramas, esquemas, etc.), comprobando su veracidad y contrastándola mediante la observación, la experimentación o la investigación. Igualmente se pretende verificar que el alumnado es capaz de argumentar, a partir del análisis de las investigaciones biológicas realizadas en diferentes instituciones científicas de Canarias (Instituto de Productos Naturales y Agrobiología, Instituto de Medicina Legal y Ciencias Forenses, Universidad de Las Palmas de Gran Canaria, Universidad de La laguna, Instituto Universitario de Enfermedades Tropicales y Salud Pública Canaria…) sobre la contribución de la ciencia a la sociedad y el trabajo de las personas dedicadas a ella, reconociendo la labor de las mujeres en la ciencia y destacando las investigaciones de científicas canarias en el campo de la biología. Por último, se quiere comprobar si el alumnado comprende que la ciencia no es ajena a las influencias sociales, económicas y políticas de cada uno de los momentos de la historia y que su avance es paralelo al desarrollo de la tecnología y de las técnicas instrumentales, valorando la importancia del trabajo colectivo e interdisciplinar y promoviendo activamente la igualdad efectiva entre mujeres y hombres en el desarrollo de los proyectos de investigación. Todo ello con el objetivo de que el alumnado mejore y alcance un grado de desarrollo significativo del pensamiento crítico, la actitud analítica y el cultivo de la duda razonable, herramientas que le permitirán reconocer la información pseudocientífica y formarse una opinión basada en razonamientos y evidencias."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              969
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de plantear y resolver problemas de forma cooperativa, utilizando el pensamiento científico, métodos inductivos y deductivos propios del razonamiento matemático y recursos tecnológicos para explicar de forma argumentada, a partir de información procedente de fuentes diversas (páginas web, textos científicos, esquemas, imágenes…), fenómenos biológicos relacionados con distintos saberes básicos de la materia (el transporte a través de las membranas biológicas, el proceso osmótico, la fotosíntesis, la respiración celular, la expresión génica en procariotas, los mecanismos de acción de la respuesta inmunitaria, los mecanismos de regulación y reparación del ciclo celular, los procesos de división celular, las técnicas de ingeniería genética, etc.) y comunicar los resultados o conclusiones, apoyándose en las tecnologías digitales, mediante esquemas, mapas conceptuales interactivos, murales virtuales, animaciones, simulaciones, etc. Asimismo, se pretende evaluar si el alumnado es capaz de analizar críticamente la solución a un problema relacionado con los saberes de la materia y reformular, si fuera necesario, el procedimiento utilizado ante nuevos datos encontrados con posterioridad, mostrando una actitud positiva hacia los retos y las situaciones de incertidumbre y fortaleciendo la resiliencia para seguir probando nuevas vías de resolución en caso de falta de éxito inicial, valorando la importancia de desarrollar procesos autorregulados de aprendizaje que le permitan proponer ideas creativas y resolver los problemas con autonomía, mejorando de esta forma los resultados."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              970
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD4",
+            "CPSAA2",
+            "CC2",
+            "CC3",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de analizar críticamente determinadas acciones humanas relacionadas con la sostenibilidad y la salud y de argumentar, mediante la indagación en fuentes variadas, sobre la importancia de adoptar estilos de vida saludables y sostenibles, partiendo de un enfoque molecular y conectándolo con el mundo macroscópico a través del estudio del comportamiento y la función de las biomoléculas que componen nuestras células, las reacciones bioquímicas que realizan y su relevancia a nivel planetario. También se evaluará si es capaz de comunicar, utilizando diferentes formatos y soportes y apoyándose en las tecnologías digitales, sus propias conclusiones. Asimismo, se pretende constatar que el alumnado comprende las repercusiones sobre la salud del mal funcionamiento, déficit o exceso de estas biomoléculas y las relaciona con algunas enfermedades (diabetes, obesidad, arteriosclerosis y enfermedades coronarias, hipertensión, osteoporosis, hepatitis o hipercolesterolemia, entre otras) o con estilos de vida no sostenibles, causantes de sequía, desastres naturales, pérdida de biodiversidad, sobreexplotación de recursos etc., que también afectan a la salud, provocando enfermedades por desnutrición debida a la carencia de moléculas biológicas (marasmo, kwashiorkor, etc.). Finalmente, se verificará que el alumnado elabora contenidos (pódcast, murales, vídeos, informes, artículos divulgativos, folletos, etc.) y emprende acciones a nivel local (campañas de concienciación, organización de exposiciones, mesas redondas, conferencias, etc.) con una actitud fundamentada en los principios y procedimientos democráticos, el compromiso ético con la igualdad, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial, evaluando las necesidades y oportunidades para concienciar a la comunidad educativa y a la sociedad de la necesidad de mantener estilos de vida saludables y compatibles con el medioambiente, encaminados a la conservación de los ecosistemas y la biodiversidad canaria, así como al ahorro de recursos, que a su vez mejorarán la salud y el bienestar físicos y mentales humanos, a nivel individual y colectivo, contribuyendo de esta forma al logro de los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030 y concretados en la Agenda Canaria de Desarrollo Sostenible 2030."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              971,
+              972
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CPSAA4",
+            "CC4"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se evaluará si el alumnado es capaz de desarrollar investigaciones que incluyan la búsqueda, selección, contraste y análisis de diversos tipos de información procedente de fuentes variadas acerca de las técnicas instrumentales y métodos de aislamiento de las moléculas de la materia viva, aplicando criterios de validez, calidad, actualidad y fiabilidad, y el diseño de experiencias de laboratorio que supongan la aplicación de metodologías analíticas, la selección y el uso preciso de materiales para aislar, identificar y clasificar biomoléculas en muestras biológicas, describiendo sus principales características fisicoquímicas y relacionándolas con su función. De igual forma se constatará si el alumnado discrimina entre los enlaces que se establecen entre los bioelementos (iónico, covalente, interacciones débiles, etc.) para formar las biomoléculas orgánicas e inorgánicas, y si reconoce las unidades básicas que las constituyen, analizando los enlaces que mantienen su estructura a través de la observación con tecnologías digitales de biomoléculas en 3D (enlaces O-glucosídico, enlaces éster, enlace peptídico, O-nucleósidos, fosfodiéster, etc.) y otros tipos de unión (puentes de hidrógeno, enlaces disulfuro, fuerzas de Van der Waals, etc.), las interacciones bioquímicas entre ellas y sus reacciones metabólicas para explicar las características y procesos vitales de los seres vivos y conectar el mundo molecular con el macroscópico, adquiriendo una visión global completa de los organismos. Asimismo, se verificará que el alumnado argumenta sobre la importancia de las biomoléculas y bioelementos en el mantenimiento de la vida y valora el alcance del desarrollo de las técnicas microscópicas en la obtención de imágenes tridimensionales de diferentes biomoléculas para la comprensión básica de la química de la vida, comunicando de forma oral, escrita, signada o multimodal sus conclusiones, en diferentes formatos y soportes, con un correcto uso del lenguaje científico."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              973
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las biomoléculas"
+          },
+          "saberes": [
+            {
+              "id": "BIO.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Clasificación de los bioelementos según su proporción en la materia viva y su importancia biológica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Diferenciación entre las características generales de las biomoléculas orgánicas e inorgánicas. Identificación de las unidades básicas que constituyen las distintas biomoléculas orgánicas y de los enlaces que mantienen su estructura."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Relación entre la estructura de la molécula de agua, sus características físicas y químicas y sus funciones biológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Diferenciación entre los tipos de sales minerales y su función en los seres vivos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Identificación y descripción de las características químicas, isomerías y enlaces de los monosacáridos (pentosas, hexosas en sus formas lineales y cíclicas), disacáridos y polisacáridos con mayor relevancia biológica, vinculando su composición química con su estructura y función. Valoración de la importancia de los glúcidos en la salud. Adopción y mantenimiento de estilos de vida saludables."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.A.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Reconocimiento, clasificación y descripción de los lípidos, relacionando su composición química con su estructura y su función biológica. Valoración de la importancia de los lípidos en la salud. Adopción y mantenimiento de estilos de vida saludables."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.A.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Reconocimiento y descripción de las proteínas atendiendo a sus características químicas, estructura y función biológica. Explicación de la función biocatalizadora de los enzimas y valoración de su importancia biológica. Valoración de la importancia de las proteínas como elementos indispensables para el crecimiento y la construcción de tejidos y órganos. Adopción y mantenimiento de estilos de vida saludables."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.A.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Diseño y realización de experiencias para identificar la presencia de biomoléculas en muestras biológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.A.9",
+              "codigoOficial": null,
+              "numeracionFuente": "9",
+              "texto": {
+                "es": "Reconocimiento de la función biológica de las vitaminas y sales como cofactores enzimáticos. Valoración de la importancia de su incorporación en la dieta."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.A.10",
+              "codigoOficial": null,
+              "numeracionFuente": "10",
+              "texto": {
+                "es": "Reconocimiento, clasificación y descripción de los diferentes tipos de ácidos nucleicos relacionando su composición química con su estructura y función biológica. Valoración de los métodos de identificación de enfermedades basados en ácidos nucleicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Genética molecular"
+          },
+          "saberes": [
+            {
+              "id": "BIO.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de la función del ADN como portador de la información genética. Descripción del mecanismo de replicación del ADN en procariota e identificación de las enzimas implicadas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Diferenciación y descripción de las etapas de la expresión génica en procariotas (transcripción y traducción)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  974
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Reconocimiento de las características fundamentales e importancia del código genético. Utilización del código genético para la resolución de problemas de Genética molecular."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Descripción del concepto de mutación génica. Justificación de la importancia de las mutaciones en la selección natural, la adaptación y la evolución de las especies, valorando los riesgos que implican algunos agentes mutagénicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.B.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Valoración de la importancia de la regulación de la expresión génica en la diferenciación celular."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.B.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Caracterización de los genomas eucariotas y procariotas, identificando sus similitudes y sus diferencias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Biología celular"
+          },
+          "saberes": [
+            {
+              "id": "BIO.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Explicación de la teoría celular valorando su importancia en el desarrollo de la biología."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Establecimiento de la influencia del desarrollo técnico de la microscopía para el conocimiento de la célula. Interpretación de imágenes de microscopía óptica y electrónica. Identificación de técnicas básicas de preparación y observación de muestras celulares."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Representación de la ultraestructura de la membrana plasmática y determinación de sus propiedades."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Descripción del proceso osmótico y sus repercusiones sobre la célula animal, vegetal y procariota."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Comparación entre los tipos de transporte de sustancias a través de la membrana plasmática (difusión simple y facilitada, transporte activo, endocitosis y exocitosis) y los tipos de moléculas transportadas con cada uno de ellos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.C.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Análisis de los distintos tipos de orgánulos celulares eucariotas y procariotas y descripción de sus funciones básicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.C.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Análisis y representación esquemática del ciclo celular, haciendo mención a los procesos que se desencadenan durante la interfase. Identificación de los mecanismos de regulación y reparación del ciclo celular, valorando la importancia de los mismos en el mantenimiento de la vida."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.C.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Categorización y comparación de las distintas fases de la mitosis y la meiosis. Reconocimiento de la relación entre los procesos de división celular con los distintos tipos de reproducción y su importancia en la evolución y producción de variabilidad genética en las especies, destacando la trascendencia del proceso de recombinación y separación al azar de los cromosomas en la meiosis."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.C.9",
+              "codigoOficial": null,
+              "numeracionFuente": "9",
+              "texto": {
+                "es": "Realización de procesos de indagación sobre la relación entre el cáncer, las mutaciones y las alteraciones del ciclo celular, argumentando la correlación existente entre el cáncer y ciertos hábitos perjudiciales y valorando la importancia de mantener estilos de vida saludables."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  975
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Metabolismo"
+          },
+          "saberes": [
+            {
+              "id": "BIO.2.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Interpretación general del metabolismo celular: relación entre los procesos anabólicos y catabólicos. Reconocimiento del significado biológico de ambos procesos y sus implicaciones energéticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Descripción y ubicación en la célula de los procesos implicados en la respiración celular, diferenciando la anaeróbica (glucólisis y fermentación) de la aeróbica (β-oxidación de los ácidos grasos, ciclo de Krebs, cadena de transporte de electrones y fosforilación oxidativa) e identificando los productos iniciales y los finales de cada proceso. Explicación del significado biológico de la respiración celular."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Comparación de los rendimientos energéticos del metabolismo aeróbico y anaeróbico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.D.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Valoración de la importancia biológica de las principales rutas del anabolismo heterótrofo (síntesis de aminoácidos, proteínas y ácidos grasos) y autótrofo (fotosíntesis y quimiosíntesis)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Biotecnología"
+          },
+          "saberes": [
+            {
+              "id": "BIO.2.E.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de las técnicas de ingeniería genética (PCR, enzimas de restricción, clonación molecular, CRISPR-Cas9, etc.) y valoración de sus aplicaciones en la cura de enfermedades, mejora de la producción animal y vegetal, etc., pero también sus riesgos y limitaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.E.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Apreciación de la importancia y repercusiones de la biotecnología en nuestra sociedad (aplicaciones en salud, agricultura, medioambiente, nuevos materiales, industria alimentaria, etc.), destacando el papel de los microorganismos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Inmunología"
+          },
+          "saberes": [
+            {
+              "id": "BIO.2.F.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis del concepto actual de inmunidad. Componentes del sistema inmunitario."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.F.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Descripción del funcionamiento de las defensas inespecíficas o respuesta innata: barreras primarias (piel, mucosa, pH del estómago o del intestino, microflora natural del organismo) y barreras secundarias (macrófagos y defensa fagocítica, respuesta inflamatoria) y su importancia al dificultar la entrada de patógenos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.F.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Caracterización del funcionamiento de la defensa específica: respuesta celular y humoral. Definición de antígeno y anticuerpo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.F.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Reconocimiento de los tipos de inmunidad (artificial y natural, pasiva y activa) y descripción de sus mecanismos de funcionamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.F.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Comparación de las características de la respuesta inmune primaria (primer contacto) y respuesta inmune secundaria (sucesivos contactos) ante la presencia de patógenos desencadenantes de enfermedades infecciosas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            },
+            {
+              "id": "BIO.2.F.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Investigación sobre las principales patologías del sistema inmunitario, sus causas y su relevancia clínica: alergias, enfermedades autoinmunes, inmunodeficiencias, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  976
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

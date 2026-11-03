@@ -1,0 +1,861 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.lenguaje-y-practica-musical",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "LPM",
+    "nombre": {
+      "es": "Lenguaje y Práctica Musical"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 1645,
+        "hasta": 1660
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El currículo de Lenguaje y Práctica Musical se presenta bajo un prisma eminentemente competencial, fundamentándose en un aprendizaje basado en la práctica donde el alumnado integrará los saberes básicos de la materia y aquellos de carácter transversal, a través de la experiencia musical, mediante la interpretación, la creación y la escucha y el visionado activo.",
+      "La finalidad de la materia durante la etapa será la de consolidar el conocimiento acerca de los elementos del lenguaje musical, su representación gráfica y su aplicación práctica en actividades de interpretación, improvisación y en la planificación y desarrollo de proyectos musicales colaborativos. Se atenderá a la necesaria integración de la perspectiva de género en el trabajo de aula, entendiendo la materia y las interacciones que esta facilita como un espacio propicio para la coeducación y el fomento de la igualdad de género, especialmente significativo a través de la reflexión sobre los mensajes musicales promovidos desde los diferentes estilos, rechazando cualquier tipo de violencia y discriminación. Por otro lado, el uso de aplicaciones y programas informáticos para la transcripción, la grabación, la edición o la difusión musical facilitarán el desarrollo de las competencias específicas de la materia, generando, al mismo tiempo, una oportunidad para la reflexión sobre la necesidad de respetar la propiedad intelectual y los derechos de autoría, desarrollando un código ético al respecto.",
+      "De esta forma, la práctica musical contribuirá al desarrollo de valores como la constancia, la motivación por la búsqueda de la mejora continua, la autoconfianza o la asunción de responsabilidades, al tiempo que propiciará el fomento de la convivencia democrática y el respeto a las diferencias individuales, la solidaridad, la igualdad y el respeto a la diversidad cultural, entre otras, contribuyendo de esta manera a la consecución de los objetivos de etapa. Igualmente, la puesta en práctica del presente currículo permitirá contribuir al desarrollo de las competencias clave, quedando estas vinculadas a las diferentes competencias específicas a través de los descriptores operativos del Perfil de salida del alumnado.",
+      "El enfoque de la materia favorecerá la conexión interdisciplinar con Análisis Musical y Coro y Técnica Vocal, a través del desarrollo de situaciones de aprendizaje que, vinculadas a contextos reales, favorezcan un aprendizaje musical holístico y significativo. De igual modo, la organización de tareas colaborativas para la identificación, el reconocimiento de los elementos del lenguaje musical, la lectura, la interpretación y la creación musical potenciarán el desarrollo competencial del alumnado. En este sentido, la utilización crítica de música que resulte cercana a las alumnas y alumnos, prestando atención a aquellos referentes de la música culta, tradicional y popular urbana de Canarias, permitirá introducir, además, un elemento motivador que favorece el aprendizaje.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "La materia de Lenguaje y Práctica Musical, desde la puesta en práctica de su currículo, contribuirá a la consecución de los objetivos previstos para la etapa. La visión eminentemente práctica de la materia permitirá que, a través de la planificación y desarrollo de proyectos artísticos grupales, se desarrolle el ejercicio de la ciudadanía democrática, la adquisición de una conciencia cívica y responsable y la búsqueda de una sociedad justa y equitativa (a). La participación igualitaria en actividades de expresión e interpretación propiciará la igualdad de derechos y oportunidades entre mujeres y hombres, evitando cualquier tipo de discriminación (c), contribuyendo así a la madurez personal, afectivo sexual y social, que permita al alumnado actuar de forma respetuosa y responsable, y resolviendo pasíficamente los conflíctos y situaciones de violencia (b).",
+      "La búsqueda de la mejora en la práctica artística y musical implica el desarrollo y consolidación de hábitos de disciplina, estudio y trabajo individual (d). La mejora de las técnicas interpretativas y creativas, trabajadas a título individual para ponerlas al servicio del colectivo, contribuirán a mejorar la autoconfianza, la iniciativa personal, la capacidad para aprender a aprender, la planificación y toma de decisiones (k). El ámbito expresivo de la materia, que engloba también la expresión a través de la voz (f), los instrumentos y el movimiento, permitirá conocer y aceptar el funcionamiento del propio cuerpo y el de las otras personas, respetar las diferencias y afianzar los hábitos de cuidado y salud corporales (m).",
+      "A su vez, el propio contexto de la materia, en todas sus vertientes, favorecerá la posibilidad de apreciar la creación artística, comprender los distintos lenguajes y formas de expresión, desarrollando la sensibilidad artística y el criterio estético propio (l), así como conocer, valorar y respetar los aspectos básicos de la cultura y la historia, propia y de las demás personas (h). De manera concreta, el bloque de saberes básicos vinculado a la «Práctica Musical» permitirá, además, desarrollar destrezas básicas en la utilización de las herramientas digitales (g, i).",
+      "La concepción del proyecto artístico, como vehículo para la transmisión de mensajes transformadores, permitirá potenciar, a través de los productos generados en la materia, la difusión de valores como la defensa del medio ambiente, la lucha contra el cambio climático o la búsqueda del desarrollo sostenible, entre otros (j, o).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "La Competencia en comunicación lingüística (CCL) se manifestará a través de la participación en interacciones comunicativas con actitud cooperativa y respetuosa, potenciándose ese intercambio comunicativo, además, a través del desarrollo de propuestas artísticas. La materia contribuirá tanto a la comunicación oral, escrita o audiovisual como a la comprensión lectora o a la adquisición y el uso de un vocabulario musical específico. A su vez, la audición y análisis de diferentes obras musicales propiciará el desarrollo de la escucha activa, la comprensión, la interpretación y la valoración con actitud crítica de mensajes en distintos formatos. El conocimiento, la lectura y la escritura del lenguaje musical permitirá participar en actividades perceptivas, creativas y comunicativas, siendo vehículo para la expresión de ideas, emociones y sentimientos.",
+      "La Competencia plurilingüe (CP) se verá reflejada a través del estudio de obras de diferentes estilos, épocas y culturas, permitiendo al alumnado conocer y valorar críticamente la diversidad cultural presente en la sociedad. La reflexión y debate en grupo de estos aspectos permitirá conocer y compartir las opiniones, gustos y preferencias musicales del alumnado, favoreciendo el fomento de la comunicación respetuosa y la cohesión social.",
+      "La planificación, desarrollo y ejecución de proyectos de creación artística, así como la búsqueda de respuestas diversas y creativas para la resolución de problemas, supondrán la conexión entre la materia y la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM). Las propuestas de trabajo cooperativo permitirán, a su vez, fomentar la participación de todo el grupo y la resolución pacífica y consensuada de los conflictos. De igual forma, desde la materia se propondrán acciones conducentes a valorar el desarrollo sostenible, la preservación del medio ambiente, los estilos de vida saludables y el consumo responsable, siendo la música un medio propicio para promover y consolidar estos valores a través de la creación de productos artísticos.",
+      "La Competencia digital (CD) se verá reflejada en el fomento de un uso responsable de las herramientas y tecnologías digitales. Siendo este un entorno con el que nuestro alumnado se encuentra familiarizado, se podrá establecer un vínculo entre este y el proceso creativo. Por tanto, el desarrollo de proyectos cooperativos se verá reforzado con el conocimiento y manejo de herramientas específicas para la producción musical y audiovisual, así como la edición de partituras, fomentándose un uso responsable y crítico, con respeto a la propiedad intelectual, los derechos de autoría y la protección de datos.",
+      "La materia de Lenguaje y Práctica Musical se presenta como un entorno propicio para el desarrollo de la Competencia personal, social y de aprender a aprender (CPSAA), dado que las actividades de audición, interpretación e improvisación permitirán al alumnado ser conscientes de sus propias posibilidades, fomentando el autoconocimiento. El desarrollo de estas actividades de manera colectiva evidenciará, además, la necesidad de interacción y cooperación, asumiendo responsabilidades individuales para la consecución de un proyecto colectivo y facilitando el aprendizaje entre iguales. La práctica artística, y la musical en particular, propicia la asunción de valores como la constancia, la motivación por la mejora, la autoconfianza y destrezas como la búsqueda de estrategias y técnicas de estudio, el autocontrol o estrategias de planificación y autoevaluación que podrán ser extrapolables a otros contextos en la vida del alumnado.",
+      "La adquisición de la Competencia ciudadana (CC) será posible a través de la audición, análisis e interpretación de un repertorio musical diverso, el cual contribuye a la comprensión del desarrollo artístico y cultural de los pueblos, la organización y funcionamiento del pasado y presente de las sociedades, fomentándose el respeto por los valores, las creencias y las culturas, prevaleciendo la igualdad y la no discriminación. La música como transmisora de mensajes facilita el análisis, valoración crítica y superación de estereotipos sociales y culturales. Así, la inclusión de la perspectiva de género en la creación y difusión de productos musicales y audiovisuales, la incorporación del saber de las mujeres en diferentes campos profesionales de la música y la visibilización de referentes femeninos en el contexto del patrimonio social, cultural e histórico canario contribuyen a favorecer la igualdad de derechos y oportunidades y a fomentar la igualdad efectiva entre hombres y mujeres.",
+      "La materia permitirá que el alumnado haga uso de su imaginación, creatividad, pensamiento estratégico, así como la reflexión ética, crítica y constructiva para el diseño y planificación de proyectos musicales colectivos, permitiendo el desarrollo de la Competencia emprendedora (CE). Los procesos creativos, en la planificación y desarrollo de proyectos grupales propiciarán que el alumnado se enfrente a situaciones donde aprender a arriesgar, tomar decisiones de manera ágil o afrontar la incertidumbre. A su vez, la empatía o habilidades de comunicación y negociación podrán ser potenciadas a través del trabajo cooperativo, donde también se pondrán en juego factores como el pensamiento crítico, el autoconocimiento y autoconfianza o la capacidad reflexiva y de autoevaluación.",
+      "Finalmente, esta materia contribuye al desarrollo de la Competencia en conciencia y expresión culturales (CCEC), en todos los aspectos que la configuran. Fomenta la capacidad de apreciar, comprender y valorar críticamente manifestaciones culturales y musicales diversas, a través de propuestas perceptivas, interpretativas, de improvisación y creación y del conocimiento de músicas de diferentes culturas, épocas y estilos. Se promoverán actitudes abiertas y respetuosas, ofreciendo elementos para la elaboración de juicios propios debidamente argumentados, estableciendo conexiones con otros lenguajes artísticos y con el contexto de las obras estudiadas. Asimismo, el carácter vivencial de la materia permite adquirir habilidades para expresar emociones, ideas y sentimientos de forma creativa, especialmente a través de la interpretación, la improvisación y la creación, contribuyendo a su vez al desarrollo del sentido de pertenencia y a la construcción de la propia identidad.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Lenguaje y Práctica Musical se han establecido cinco competencias específicas que se concretan en un total de siete criterios de evaluación. Estos criterios presentan una marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos del Perfil de salida a los que contribuye la competencia específica, expresando tanto las capacidades y los saberes a adquirir como el contexto y modo de aplicación de dichos aspectos.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Los aprendizajes de la materia de Lenguaje y Práctica Musical, integrados por conceptos, procedimientos y actitudes, se expresan en el presente currículo a modo de saberes básicos. Estos serán tratados en el aula a través de un trabajo competencial, considerándose recursos al servicio del profesorado para atender a la formación holística del alumnado.",
+      "Los saberes básicos se estructuran en dos bloques.",
+      "Bloque I. «Lenguaje Musical».",
+      "Bloque II. «Práctica Musical».",
+      "El Bloque I, «Lenguaje Musical», incluye aquellos saberes vinculados al reconocimiento, comparación y descripción, con un vocabulario técnico específico, de los elementos del lenguaje musical (melodía, ritmo, armonía y forma), a través del análisis auditivo y de partituras. A su vez, se propone una profundización en el conocimiento y empleo de su representación gráfica a través de la lectura, escritura e interpretación de partituras con notación convencional y no convencional. De igual forma, se incluyen aspectos vinculados al reconocimiento y descripción de los elementos expresivos (dinámica, agógica y articulación). Para ello, se propone una selección de repertorio que contemple obras del patrimonio canario y abarque producciones del ámbito culto, popular y folclórico.",
+      "El Bloque II, «Práctica Musical», propone la activación de saberes relativos al plano perceptivo, expresivo y creativo. La aplicación de estrategias de escucha activa, la lectura de partituras con grafía convencional y no convencional, el desarrollo de estrategias de memorización, así como la aplicación de técnicas de interpretación e improvisación instrumental, vocal y corporal contribuirán a la programación de actividades de práctica interpretativa, así como a la planificación, desarrollo y difusión de proyectos musicales. Para todo ello se tendrá en cuenta la participación con actitud proactiva y respetuosa. Será relevante la posibilidad de poner en práctica saberes relativos al empleo de tecnologías digitales, en actividades de producción sonora, musical y audiovisual.",
+      "Los dos bloques se relacionan entre sí y son interdependientes, quedando estos saberes básicos a disposición del profesorado que, haciendo uso de su autonomía docente, podrá seleccionarlos y vincularlos a las situaciones de aprendizaje oportunas para contribuir, a través del empleo de metodologías activas, al desarrollo de las competencias específicas de la materia y a la adquisición de las competencias clave.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "La relación e interdependencia de los saberes básicos, vinculados a destrezas perceptivas, creativas y expresivas, así como a la participación en proyectos artísticos, facilita el desempeño de estrategias didácticas variadas, aspecto que, conjugado con el carácter práctico de la materia y el fomento del aprendizaje cooperativo, dialógico y vivencial, supondrán un sólido fundamento para la formación holística del alumnado. La combinación de estos aspectos promoverá distintas formas de acceso al aprendizaje, atendiendo a las características y necesidades del alumnado y tomando como referencia el Diseño Universal para el Aprendizaje (DUA), lo cual constituirá la premisa fundamental para la atención a la diversidad bajo una perspectiva inclusiva.",
+      "El profesorado, como guía del proceso de enseñanza-aprendizaje, potenciará las posibilidades que ofrecen las múltiples metodologías activas disponibles en la actualidad para favorecer el aprendizaje reflexivo, significativo y competencial, permitiendo al alumnado ser protagonista de su propio proceso de aprendizaje, participando, creciendo y aportando al grupo en base a sus potencialidades. A su vez, asumirá la evaluación como elemento esencial para la planificación, diseño e implementación de las situaciones de aprendizaje, las cuales incluirán instrumentos, técnicas y herramientas de evaluación variadas, aplicadas en diferentes contextos, formatos y soportes, que permitan al alumnado desempeñar un papel activo y demostrar la evolución de sus logros, respetando los distintos ritmos y formas de aprendizaje.",
+      "La materia contribuirá, igualmente, al cambio digital planteado como eje transversal de la presente ley educativa. Las TIC, las herramientas digitales específicas de la materia, así como los entornos digitales y online serán recursos habituales en el aula, idóneos para la creación y expresión artística, para el fomento de la escucha activa, así como para la elaboración y difusión de productos musicales y la comunicación y transferencia de datos con carácter habitual. Asimismo, el conocimiento y empleo de los códigos éticos relativos a las interacciones digitales regirán las nuevas posibilidades de comunicación en los entornos que ofrece la escuela del siglo XXI.",
+      "Con la finalidad de contribuir a la continuidad y coherencia del proceso formativo, partiendo de una visión competencial e integral de la educación, se favorecerá, en la medida de lo posible, el trabajo interdisciplinar. Se invita a promover el trabajo por proyectos, estableciendo una conexión con el resto de materias a través de las interrelaciones establecidas por los descriptores operativos del Perfil de salida."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Cultivar la escucha activa, desarrollando estrategias de atención, para reconocer y describir con un vocabulario adecuado los elementos que forman parte de una obra y para reflexionar sobre aspectos subjetivos y emocionales inherentes a la percepción musical."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CP3",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CCEC1",
+        "CCEC3.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1649,
+          1653
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La importancia de esta competencia específica radica en la oportunidad que ofrece al alumnado para desarrollar estrategias de atención y escucha activa. Se vincula a un único criterio de evaluación, centrado en el desarrollo de saberes vinculados a la descripción de elementos del lenguaje musical y elementos expresivos, presentes en las obras estudiadas, permitiendo la adquisición de un vocabulario técnico específico. De igual forma, favorecerá la comprensión del hecho musical y artístico como forma de expresión, fomentando la reflexión sobre aspectos subjetivos inherentes al hecho musical."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar los elementos musicales de obras de diferentes estilos y épocas, analizando y comparando partituras con diversas grafías, para describir sus características y reflexionar sobre los factores que afectan a la evolución de la notación musical."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CP3",
+        "CD2",
+        "CPSAA1.1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1649,
+          1654
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica permitirá profundizar en el conocimiento de los elementos del lenguaje musical, a través de su descripción y comparación en tareas de análisis de partituras. A su vez se vincularán estos elementos con su representación gráfica, atendiendo a formas de notación convencional y no convencional, y favoreciendo el conocimiento sobre la evolución de la grafía musical a lo largo de la historia. Al mismo tiempo, permitirá reflexionar acerca de las especificidades e intencionalidades musicales de las obras estudiadas, facilitando las habilidades perceptivas, expresivas y el desarrollo del espíritu crítico. Estos aspectos se valorarán a través de un único criterio de evaluación."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Aplicar estrategias de interpretación musical, utilizando la lectura como medio de aproximación a la obra y adquiriendo de forma progresiva habilidades de decodificación e integración del lenguaje musical, para realizar improvisaciones o ejecutar con autonomía propuestas musicales sencillas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1649,
+          1655
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica se define en dos criterios de evaluación, que se centran en el desarrollo de habilidades expresivas y creativas. Las dinámicas de interpretación permitirán desarrollar y aplicar técnicas vocales, instrumentales y coreográficas, favoreciendo la expresividad, el desarrollo de los valores inherentes a la práctica musical grupal y potenciando las habilidades de lectura de partituras y estrategias de memorización. Por otra parte, las actividades de improvisación, musical y dancística, fomentarán la creatividad y la integración del lenguaje musical."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Realizar proyectos musicales colaborativos, planificando e implementando sus fases y asumiendo funciones diversas dentro del grupo, para favorecer procesos creativos e identificar oportunidades de desarrollo personal, social, académico y profesional."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CPSAA3.2",
+        "CC2",
+        "CE1",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1649,
+          1650,
+          1656
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica, desarrollada en dos criterios de evaluación, aborda aprendizajes relativos a la planificación y desarrollo de proyectos artísticos. A través del primer criterio se propondrán situaciones en las que el alumnado podrá crear nuevas propuestas musicales o reutilizar de forma creativa materiales trabajados previamente en el aula. Como complemento a estos procesos, el segundo criterio de evaluación fomentará la participación activa a través de la asunción de roles diversos en el grupo, favoreciendo la creatividad y permitiendo al alumnado identificar oportunidades de desarrollo personal, social, académico y profesional vinculados a la producción musical."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Emplear las posibilidades que ofrecen las tecnologías digitales en el ámbito musical, utilizando herramientas de procesamiento del sonido, de producción audiovisual y de edición de partituras, para desarrollar procesos de escritura, creación y difusión musical."
+      },
+      "descriptoresOperativosRefs": [
+        "CD2",
+        "CD3",
+        "CPSAA1.1",
+        "CE1",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1650,
+          1658
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica, concretada en un único criterio de evaluación, ofrece la posibilidad de experimentar las opciones que ofrecen las herramientas digitales para la edición de partituras, la grabación y edición de sonido y la planificación, desarrollo y difusión de proyectos musicales y audiovisuales. Para ello se fomentarán actitudes relativas al empleo creativo y responsable de las tecnologías digitales, con sentido crítico y respeto por los derechos de autoría. Todo ello favorecerá el ejercicio de una ciudadanía digital activa, cívica y reflexiva, y permitirá desarrollar una actitud proactiva, creativa y cooperativa a través de las dinámicas grupales."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Describir los elementos musicales de una obra, así como las sensaciones que esta genera, haciendo uso de un vocabulario específico adecuado, a través de la escucha activa, para reflexionar sobre los aspectos subjetivos inherentes al hecho musical."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CP3",
+            "CD2",
+            "CPSAA1.1",
+            "CPSAA3.1",
+            "CCEC1",
+            "CCEC3.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1653
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Describir y comparar los elementos del lenguaje musical y su representación en obras de diferentes estilos, épocas y culturas, a través del análisis de partituras con grafía convencional y no convencional, para reflexionar sobre los factores que afectan a la evolución de la notación musical."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CP3",
+            "CD2",
+            "CPSAA1.1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1654
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar obras musicales y de danza, a través del desarrollo y aplicación de técnicas vocales, instrumentales y coreográficas, entendiendo el ensayo como espacio de escucha y aprendizaje, para fomentar la expresividad y desarrollar habilidades de lectura de partituras y estrategias de memorización musical."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1655
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Generar ideas musicales o coreográficas, a través de actividades de improvisación libres o guiadas, utilizando la voz, diferentes instrumentos o el cuerpo, para fomentar la creatividad y la integración del lenguaje musical."
+          },
+          "descriptoresOperativosRefs": [
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CE3",
+            "CCEC3.1",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1655
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Planificar y desarrollar proyectos musicales colaborativos, a través de la creación o reutilización de materiales musicales trabajados en el aula, aplicando los aprendizajes adquiridos en la materia, para favorecer procesos creativos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CPSAA3.2",
+            "CC2",
+            "CE1",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1656
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Asumir diferentes funciones en la planificación y desarrollo de proyectos musicales colaborativos, a través de la participación activa en su implementación, valorando las aportaciones del resto de integrantes del grupo, para descubrir oportunidades de desarrollo personal, social, académico y profesional."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CPSAA3.2",
+            "CC2",
+            "CE1",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1657
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Planificar, desarrollar y difundir proyectos musicales y audiovisuales, a través de la puesta en práctica de las técnicas y recursos adquiridos y del uso responsable de herramientas digitales, para comprender las posibilidades que ofrecen las tecnologías en los procesos de escritura, creación y difusión musical."
+          },
+          "descriptoresOperativosRefs": [
+            "CD2",
+            "CD3",
+            "CPSAA1.1",
+            "CE1",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1658
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "CD",
+            "CPSAA",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CP3",
+            "CD2",
+            "CPSAA1.1",
+            "CPSAA3.1",
+            "CCEC1",
+            "CCEC3.1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través del presente bloque competencial, se constatará si el alumnado es capaz de describir los elementos del lenguaje musical y los recursos expresivos presentes en las obras, fragmentos o ejercicios auditivos realizados en el aula, así como explicar sus características, haciendo uso de un vocabulario musical específico, demostrando fluidez, coherencia y corrección en su expresión oral y escrita. De igual forma, se valorará el grado de desarrollo de estrategias de atención en la escucha activa, así como la existencia de una actitud crítica y respetuosa sobre la diversidad cultural existente en la sociedad, mediante la audición de obras de diferentes estilos, épocas y culturas. Se verificará su capacidad para reflexionar sobre aspectos subjetivos y emocionales experimentados a través de la escucha y para explicar sus conclusiones con coherencia, precisión, creatividad y espíritu crítico, por medio de la elaboración y publicación de reseñas, artículos de opinión o productos audiovisuales, de forma autónoma para hacer eficaz su aprendizaje, contribuyendo de esta manera a la finalidad de la competencia específica. Por último, se evaluará la participación activa en las dinámicas grupales, mostrando cooperación, respeto y sensibilidad hacia las emociones y experiencias de las demás personas, y favoreciendo los procesos de socialización y de construcción de la identidad personal derivados de la práctica artística. Para todo ello se pondrá especial énfasis en la audición de obras propias del patrimonio artístico canario, aspecto que permitirá, a su vez, constatar la existencia de una actitud reflexiva y proactiva sobre la promoción, valoración y conservación del patrimonio cultural y artístico."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1653,
+              1654
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "CD",
+            "CPSAA",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CP3",
+            "CD2",
+            "CPSAA1.1",
+            "CCEC2"
+          ],
+          "explicacion": {
+            "es": [
+              "La activación del presente bloque competencial, concretado en un único criterio de evaluación, permitirá verificar si el alumnado es capaz de describir y comparar los elementos del lenguaje musical y su representación gráfica, así como las características técnicas y estéticas presentes en partituras estudiadas en el aula, pertenecientes a obras de compositoras y compositores de diversas épocas, estilos y culturas. Para ello se constatará su capacidad para analizar partituras con notación convencional y no convencional. Se valorará la habilidad para investigar las especificidades e intencionalidades de las obras estudiadas y para reflexionar sobre la evolución de la grafía musical a lo largo de la historia, adquiriendo autonomía para hacer eficaz su aprendizaje, contribuyendo a su vez a la finalidad de la competencia específica. Igualmente, se evaluará si el alumnado es capaz de expresar sus conclusiones con fluidez, corrección, coherencia y precisión, tanto de manera escrita como oral o multimodal, a través de la elaboración y difusión de comentarios críticos, informes o productos audiovisuales. Por último, se valorará la participación activa en las dinámicas grupales, mostrando una actitud cooperativa y respetuosa en las interacciones comunicativas, así como una postura de recepción activa y deleite ante el producto artístico."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1654,
+              1655
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CPSAA",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CE3",
+            "CCEC3.1",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través del presente bloque competencial se constatará la capacidad del alumnado para aplicar técnicas vocales, instrumentales y coreográficas en la interpretación de obras musicales y de danza, reflexionando sobre el proceso y el resultado obtenido como oportunidad para el aprendizaje. De igual forma se verificará la habilidad para generar ideas musicales o coreográficas a través de la aplicación de estrategias y técnicas de improvisación, favoreciendo la comprensión de la música como forma de expresión mediante la ejecución autónoma de propuestas musicales diversas, contribuyendo de esta manera a la finalidad de la competencia específica. Asimismo se evaluará si el alumnado es capaz de leer, comprender y valorar, con actitud crítica, partituras con grafía convencional y no convencional, y desarrollar estrategias de memorización musical. Para todo ello se valorará la actitud proactiva y respetuosa ante el proceso de ensayo, entendiéndolo necesariamente como espacio de escucha y aprendizaje. Por último, se verificará su capacidad para enfrentarse a situaciones creativas y expresivas con una actitud empática y colaborativa, con iniciativa e imaginación, considerando la participación social como una oportunidad para el desarrollo de una personalidad autónoma."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1656
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CPSAA3.2",
+            "CC2",
+            "CE1",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "La puesta en práctica del presente bloque competencial permitirá valorar en qué medida el alumnado es capaz de planificar y desarrollar proyectos musicales colaborativos y de asumir diversas funciones a lo largo del proceso creativo, a través de la selección e integración de diversos medios, soportes, técnicas y recursos artísticos. Se constatará su participación con una actitud proactiva, cooperativa y respetuosa, poniendo sus prácticas comunicativas al servicio de la convivencia democrática y de la resolución dialogada de los conflictos. Asimismo, se verificará su capacidad para aplicar los aprendizajes adquiridos previamente, seleccionando, reelaborando o creando materiales musicales a través del uso de las tecnologías digitales, incorporándolas de manera responsable en la difusión de los productos y ejerciendo una ciudadanía digital activa, cívica y reflexiva. A su vez se evaluará si el alumnado es capaz de comprender la producción artística como un medio para visibilizar y difundir valores fundamentados en el compromiso ético con la igualdad, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial, y entenderla como una oportunidad de desarrollo personal, social, académico y profesional, contribuyendo de esta manera a la finalidad de la competencia específica. Por último, se evaluará la capacidad para reflexionar sobre el proceso realizado y el resultado obtenido, considerando tanto la experiencia de éxito como de fracaso una oportunidad para aprender."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1657
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CD",
+            "CPSAA",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CD2",
+            "CD3",
+            "CPSAA1.1",
+            "CE1",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través del presente bloque competencial se constatará la capacidad del alumnado para planificar, desarrollar y difundir proyectos musicales y audiovisuales, empleando diversos medios, soportes, técnicas y recursos artísticos. De igual forma se verificará el uso responsable de las herramientas digitales, respetando los derechos de autoría y ejerciendo una ciudadanía digital activa, cívica y reflexiva. A su vez se evaluará la habilidad para utilizar herramientas de grabación y edición de sonido, producción audiovisual y edición de partituras, de forma eficaz y autónoma, aplicándolas a procesos de escritura, creación y difusión, y comprendiendo las posibilidades que ofrecen las tecnologías digitales en el ámbito musical, contribuyendo de esta manera a la finalidad de la competencia específica. Se verificará, además, que la participación en los proyectos grupales se realice con una actitud proactiva, creativa, cooperativa, con sentido crítico y búsqueda de calidad en el producto artístico, reflexionando sobre el proceso realizado y el resultado obtenido, considerando tanto la experiencia de éxito como de fracaso una oportunidad para aprender."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1658
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Lenguaje musical"
+          },
+          "saberes": [
+            {
+              "id": "LPM.1.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Lectura, escritura, descripción y comparación de la representación gráfica de los parámetros del sonido, con notación convencional y no convencional."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Reconocimiento auditivo de estructuras tonales y modales. Realización escrita de dictados sencillos a una voz."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Descripción y comparación de los elementos del lenguaje musical y de su representación gráfica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Descripción de la melodía en obras estudiadas en el aula: intervalos y tipos de escalas. Comparación con otros elementos de la obra."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.3.2",
+              "codigoOficial": null,
+              "numeracionFuente": "3.2",
+              "texto": {
+                "es": "Descripción del ritmo en obras estudiadas en el aula: ritmos irregulares y libres; polirritmias y polimetrías, grupos de valoración especial. Comparación con otros elementos de la obra."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.3.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3.3",
+              "texto": {
+                "es": "Descripción de la armonía en obras estudiadas en el aula: el fenómeno físico armónico; círculo de quintas, principales funciones armónicas en la tonalidad; acordes; enlaces y cadencias; modulaciones y progresiones tonales; la modalidad. Comparación con otros elementos de la obra."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.3.4",
+              "codigoOficial": null,
+              "numeracionFuente": "3.4",
+              "texto": {
+                "es": "Descripción de la forma musical en obras estudiadas en el aula: unidades estructurales; formas simples y complejas. Comparación con otros elementos de la obra."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Análisis de partituras con notación convencional y no convencional. Introducción a la notación de la música contemporánea."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Descripción de los elementos expresivos de la música (dinámica, agógica y articulación), así como de las sensaciones que estos generan."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Descripción de los elementos musicales de obras de la música culta occidental, folclore y músicas populares urbanas estudiadas en el aula."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.A.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Empleo de un vocabulario técnico específico en las comunicaciones sobre el hecho musical."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Práctica musical"
+          },
+          "saberes": [
+            {
+              "id": "LPM.1.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Aplicación de estrategias de escucha o visionado activo de obras musicales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Lectura de partituras con grafía convencional y no convencional. Interiorización y memorización de estructuras musicales sencillas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Práctica interpretativa de estructuras tonales y modales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Desarrollo y aplicación de técnicas de interpretación vocal, instrumental o corporal, con o sin acompañamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1659
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Desarrollo y aplicación de estrategias y técnicas de improvisación sobre esquemas rítmico-melódicos y armónicos establecidos o libres, adaptados al nivel. Comprensión de la música como forma de expresión."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1660
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Actitud proactiva y respetuosa en la planificación y desarrollo de proyectos musicales colaborativos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1660
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Empleo de técnicas y aplicaciones informáticas de edición y producción sonora, musical y audiovisual."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1660
+                ]
+              }
+            },
+            {
+              "id": "LPM.1.B.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Planificación, desarrollo y difusión de proyectos musicales. Respeto de la propiedad intelectual, los derechos de autoría y la protección de datos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1660
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

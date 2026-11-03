@@ -1,0 +1,1314 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.biologia-humana",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "BH",
+    "nombre": {
+      "es": "Biología Humana"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2025-06-10",
+    "aplicableDesdeCurso": null,
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2025-112-decreto-78-2025",
+      "tipo": "decreto",
+      "titulo": "Decreto 78/2025, de 2 de junio, por el que se establece el currículo de las materias optativas de la etapa del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "112",
+      "fechaPublicacion": "2025-06-09",
+      "cve": "BOC-A-2025-112-2086",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2025-112-2086.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2025/112/2086.html",
+      "anexo": "2",
+      "paginasMateria": {
+        "desde": 64,
+        "hasta": 83
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El presente siglo se está manifestando como un tiempo de cambio, resiliencia y adaptación en todos los ámbitos; de hecho, se le ha denominado el siglo de la biología molecular dado los avances que se espera que se produzcan en esta materia, y por ende, en sus aplicaciones en la Biología Humana. La investigación y el desarrollo de nuevas tecnologías traen de la mano un incremento notable en la esperanza de vida de las personas, aunque este aumento no puede ser a cualquier precio. Es por esto que se debe fomentar una mejora en la calidad de vida de las personas y para ello es imprescindible la formación relacionada con los hábitos de vida saludables y sostenibles, el autocuidado, a la par que el uso y la valoración adecuados de los servicios públicos sanitarios.",
+      "La perspectiva propuesta desde la Organización Mundial de Salud “One health”, acerca del equilibrio entre la salud planetaria, la del ser humano y la del resto de animales con los que compartimos hábitat es vital para prevenir, detectar y responder eficazmente a los desafíos de salud que surgen de la relación entre humanos, animales y medio ambiente. El ritmo actual de vida y las consecuencias medioambientales del progreso industrial desmesurado están pasando factura al medio y, en consecuencia, a los seres vivos que lo ocupan. El incremento de enfermedades derivadas de los problemas ambientales es cada vez más notable; por eso, la comunidad científica advierte de que pandemias como las vividas recientemente son resultado de la pérdida de la biodiversidad, y de que enfermedades como las que afectan al crecimiento y desarrollo, zoonóticas, neurológicas y de diversa naturaleza, se han visto potenciadas por la contaminación atmosférica, del suelo y del agua. Es necesario, en consecuencia, que el alumnado sepa manejar e integrar esta información para que le ayude a tomar decisiones de manera consciente y a desarrollar una actitud proactiva y crítica frente a los retos de este siglo.",
+      "Entre los numerosos logros que hemos alcanzado como sociedad está poner en la agenda pública la salud mental, como elemento prioritario a trabajar en cualquier sociedad que se entienda por humana, solidaria y justa. Los datos nos muestran que el bienestar mental de una parte importante de la sociedad es uno de los grandes desafíos a los que nos enfrentamos. Las redes sociales, la realidad virtual o el abuso de dispositivos tecnológicos están llevándonos hacia un aislamiento social que afecta de manera preocupante a la población más vulnerable: nuestro alumnado. La materia de Biología Humana nos ofrece la oportunidad de trabajar con ellos y ellas no solo el componente científico y los trastornos de carácter neurológico que hay detrás de estas adicciones sin sustancias; sino también de que se vean como personas capaces de convertirse en agentes de cambio social, al desarrollar campañas de difusión en su propio centro educativo y en su entorno personal cercano.",
+      "La salud sexual y reproductiva es otro de los aspectos fundamentales a trabajar en los centros educativos. En los últimos años hemos asistido a cambios profundos en la sociedad en materia de derechos sexuales y reproductivos, pero, también, a una reducción en las campañas relacionadas con la salud sexual. Esto se traduce en un desconocimiento importante por parte de nuestro alumnado del riesgo de embarazos no deseados y de las enfermedades de transmisión sexual, así como de los mecanismos que operan en la sexualidad de las personas.",
+      "Por tanto, la materia de Biología Humana fomenta el estudio del cuerpo humano como un sistema biológico completo, desarrollando aspectos anatómicos y fisiológicos desde una perspectiva holística y poniendo énfasis en la conexión entre todos los aparatos y sistemas. De esta manera, se pretende considerar los estilos saludables y sostenibles como la única opción posible de tener una calidad de vida adecuada, que nos permita un desarrollo social equilibrado en los diferentes espacios que integran el día a día de las personas.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "El currículo de la materia Biología Humana contribuye a la consecución de varios de los objetivos de la etapa desde las competencias específicas, los criterios de evaluación y los saberes básicos. Los objetivos de etapa se encuentran recogidos en el art. 21 del Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias y para su correcta identificación se referencian con la letra correspondiente entre paréntesis.",
+      "La materia Biología Humana está directamente relacionada con la consecución de los objetivos (b), y (m), al abordar aprendizajes que en el alumnado, por un lado, consolidan su madurez personal, afectivo-sexual y social, y por otro, afianzan hábitos saludables, para favorecer el bienestar físico y mental, así como su desarrollo personal y social, a través del conocimiento de la anatomía y fisiología de su propio cuerpo.",
+      "El uso de las metodologías científicas, propias de esta materia, requiere de la movilización de destrezas y habilidades para plantearse preguntas, acceder a información fidedigna, seleccionar, interpretar, integrar, contrastar y comunicar con corrección, de forma oral, escrita o multimodal, las principales conclusiones extraídas. Para ello, es fundamental la lectura y comprensión de textos divulgativos y científicos en distintas lenguas. Además, el trabajo científico fomenta la curiosidad, la creatividad, la resiliencia, la paciencia, la disciplina y la superación personal; y ayuda al alumnado a tomar decisiones, a plantearse objetivos y a valorar de forma crítica la contribución de la ciencia, y la medicina en la mejora de la calidad de vida. De este modo, desde la materia se contribuye al desarrollo de los objetivos (d), (e), (f), (i), (j) y (k).",
+      "Asimismo, el uso de las tecnologías digitales como apoyo al trabajo científico en las materias de ciencias facilita la búsqueda de información y posibilita, no solo su transmisión, sino también el trabajo colaborativo durante las distintas fases de desarrollo de los proyectos de investigación, fomentando la igualdad de género y la no discriminación por diferentes condiciones entre las personas, y contribuyendo de esta forma al desarrollo de los objetivos (c) y (g).",
+      "El desarrollo de una conciencia cívica, solidaria y democrática y de un espíritu crítico son aspectos que se trabajan en esta materia, al fomentar en el alumnado la importancia y la necesidad del razonamiento científico para comprender y solucionar los problemas y retos a los que pueda enfrentarse en su vida cotidiana. En Biología Humana se amplían y profundizan los aprendizajes sobre los mecanismos básicos que rigen las funciones vitales del ser humano, los estilos de vida saludables o la prevención de enfermedades, relacionándolos con la actual situación de crisis socio-climática y promoviendo, así, la adquisición de los objetivos (a), (h), (i) , (n) y (o).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "La contribución de esta materia a la Competencia en comunicación lingüística (CCL) se realiza a través de la interpretación, elaboración y transmisión de ideas e información de aspectos relacionados con la salud y la biología humana, donde se explicitan relaciones entre conceptos, se describen observaciones y procedimientos experimentales, se discuten ideas, hipótesis o teorías, y se comunican resultados y conclusiones en el marco del estudio de la ciencia, en general, y de la biología humana en particular. Esto requiere un uso preciso del vocabulario científico y de los los términos utilizados, el encadenamiento adecuado de las ideas y la coherencia en la expresión oral, escrita o multimodal en las distintas producciones (biografías científicas, planteamiento y resolución de problemas, exposiciones...), siendo imprescindible, para ello, el desarrollo y la adquisición de la competencia en alfabetización informacional, de cara a la correcta comunicación del trabajo científico.",
+      "El conocimiento científico está en constante generación. Se publican artículos de investigación a diario en diferentes idiomas, sobre todo en inglés, al ser el idioma universal de las ciencias, que vienen a ampliar o sustituir las ideas afirmadas tiempo atrás. Dichas publicaciones pueden tardar semanas en traducirse, por lo que para su estudio en el aula, el alumnado deberá ser capaz de comprenderlas, así que, además de actualizar la información, estará desarrollando la Competencia plurilingüe (CP).",
+      "Este currículo contribuye al desarrollo de la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM), al posibilitar una comprensión del mundo utilizando los métodos científicos, el pensamiento y representación matemáticos, y la tecnología y los métodos de la ingeniería, para transformar el entorno de forma comprometida, responsable y sostenible. Se fomenta la adquisición de destrezas propias de las metodologías científicas: la capacidad de indagar, de enunciar preguntas, de identificar problemas, de formular hipótesis, para, a posteriori, contrastarlas mediante la observación, la toma de datos, la búsqueda, la selección y organización de información, la sistematización y el análisis de los resultados, la obtención de conclusiones y la comunicación... Se trata de aplicar estas estrategias a la promoción de la salud física y mental, y a la preservación del medioambiente para adquirir compromisos de ciudadanía responsable, en el ámbito local y global, y poder transformar de forma sostenible su entorno.",
+      "La contribución de la materia de Biología Humana al desarrollo de la Competencia digital (CD) se evidencia a través de la utilización de las tecnologías digitales para la búsqueda, la selección, el tratamiento y la presentación de la información como procesos básicos vinculados al trabajo científico, así como para simular y visualizar fenómenos de difícil observación y experimentación en el campo de la Medicina. Además, la adquisición de la Competencia digital es una destreza imprescindible en el campo de las ciencias experimentales, que conlleva un uso crítico, responsable, seguro, saludable y sostenible para que el alumnado ejerza una ciudadanía digital saludable, activa, legal y reflexiva.",
+      "La Competencia personal, social y de aprender a aprender (CPSAA) es inherente a la forma de construir el conocimiento científico. Las estrategias propias de las metodologías científicas están íntimamente ligadas al planteamiento de interrogantes, su análisis y el establecimiento de secuencias de tareas dirigidas a la consecución de un objetivo, la determinación de un método de trabajo, la distribución de tareas cuando sean compartidas y, finalmente, la toma de conciencia sobre la eficacia del proceso seguido; lo que favorece el desarrollo de destrezas tales como la capacidad de gestionar el tiempo, los recursos y la información eficazmente; de colaborar con otras personas de forma constructiva; de hacer frente a la incertidumbre y a la complejidad; de adaptarse a los cambios; de aprender a gestionar los procesos metacognitivos... Todo esto contribuye a que el alumnado adopte, de forma autónoma, un estilo de vida sostenible, y que atienda al bienestar físico y mental, buscando y ofreciendo apoyo en la sociedad para construir un mundo más saludable.",
+      "La aportación de Cultura Científica a la Competencia ciudadana (CC) está ligada a dos aspectos fundamentales. En primer lugar, la alfabetización científica de la ciudadanía permitirá su participación en la toma fundamentada de decisiones frente a problemas de interés que suscitan el debate social, desde la astrobiología, biomedicina e ingeniería genética, hasta aspectos relacionados con la salud, el medioambiente o el desarrollo sostenible. En segundo lugar, con Cultura Científica se hará una reflexión crítica acerca de los grandes problemas éticos de nuestro tiempo y sobre el desarrollo de un estilo de vida sostenible, acorde con los Objetivos de Desarrollo Sostenible y concretados en la Agenda Canaria de Desarrollo Sostenible 2030. La finalidad última del trabajo de esta competencia en la materia será el fomento del compromiso activo con la sostenibilidad del planeta y el logro de una ciudadanía mundial ecosocialmente responsable.",
+      "La materia contribuye también al desarrollo de la Competencia emprendedora (CE), al usar el conocimiento científico necesario para plantear soluciones de valor a los actuales problemas de carácter social y científico a los que se enfrenta la humanidad, como el bienestar mental, la salud sexual y reproductiva, así como los efectos de los disruptores endocrinos y los contaminantes en la salud o la infoxicación, entre otros. Estas temáticas imperantes deben abordarse en el aula para desarrollar en el alumnado el conocimiento científico, crear y replantear ideas utilizando la imaginación, la creatividad, el pensamiento estratégico y la reflexión ética, crítica y constructiva y despertar la disposición a aprender, a arriesgar y a afrontar la incertidumbre.",
+      "La materia de Biología Humana facilita la adquisición de la Competencia en conciencia y expresión culturales (CCEC), ya que la exposición de datos, el diseño de experiencias, la comunicación de conclusiones de los trabajos de investigación, la expresión de las propias ideas..., requieren la elaboración de producciones (esquemas, paneles, presentaciones en diferentes formatos…), que dan la oportunidad al alumnado de desarrollar su creatividad y de innovar, vinculando de esta forma las disciplinas científica y artística: el modo en el que se expresan los sentimientos y las emociones por medio de una amplia gama de manifestaciones artísticas y culturales está íntimamente ligado con el bienestar emocional y mental. Igualmente, la indagación sobre los principales centros de investigación de Canarias y figuras referentes de la ciencia canaria implica también la valoración como parte del patrimonio natural, social y cultural de las islas.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Biología Humana se han establecido cinco competencias específicas que se concretan en un total de catorce criterios de evaluación. Estos criterios de evaluación presentan una marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos del Perfil de salida a los que contribuye la competencia específica, expresando tanto las capacidades y los saberes a adquirir, como el contexto y modo de aplicación de dichos aspectos.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "El currículo de la materia de Biología Humana se relaciona directamente con los saberes que el alumnado ha trabajado previamente a lo largo de la etapa de Secundaria Obligatoria, en general, y con la materia de Biología y Geología de 3.º de la ESO, en particular. Los aspectos referidos a la anatomía, fisiología y patología de los diferentes sistemas que constituyen el cuerpo humano, así como los saberes relacionados con los estilos de vida saludables y estrategias para su puesta en práctica forman parte del bagaje académico del alumnado cuando este llega a 2.º de Bachillerato.",
+      "En esta etapa, se amplían los mecanismos básicos que rigen las funciones del ser humano, los estilos de vida saludable, la prevención de enfermedades y la información de nuevos métodos tecnológicos de diagnóstico, y se profundiza en ellos; y los relativos al estudio de la relación existente entre los problemas medioambientales y el incremento de determinadas enfermedades. En definitiva, se pretende dotar al alumnado de herramientas que le permitan responsabilizarse de su autocuidado y fortalecer su formación cívica a la vez que ejerce una ciudadanía libre y responsable.",
+      "Los saberes se distribuyen en seis grandes bloques de aprendizaje, tomando como eje vertebrador el cuerpo humano, el concepto de One health y el empoderamiento del alumnado en su autocuidado.",
+      "El Bloque I, «Niveles de organización del cuerpo humano», se centra en interpretar, a través del manejo de herramientas y técnicas de laboratorio, el cuerpo humano como un organismo pluricelular, integrado por diferentes niveles de organización y en el que se relacionan los diferentes sistemas, entre sí y con el medio, en un equilibrio dinámico que permite mantener y perpetuar la vida.",
+      "El Bloque II, «Nutrición humana», aborda saberes sobre la anatomía y fisiología de los aparatos implicados en la función de nutrición, haciendo hincapié en la adopción de estilos de vida saludables que permitan al alumnado alcanzar un adecuado desarrollo integral de su salud, así como su influencia en el entorno familiar y social.",
+      "En el Bloque III, «Salud sexual y reproductiva», tras un repaso a la anatomía y fisiología de los aparatos reproductores, a los métodos anticonceptivos y a las ITS, se acomete la educación sexual como parte del desarrollo integral de la persona, para poner el foco en el respeto a la libertad, la diversidad sexual y la igualdad de género.",
+      "En el Bloque de IV, «Bienestar emocional, psicológico y social», se abordan saberes relativos a los sistemas nervioso, endocrino e inmunológico como mecanismos de respuesta a distintos estímulos (búsqueda de sensaciones, ciertas características de la personalidad,…) y su relación con factores negativos que pueden desencadenar posibles conductas de riesgo (consumo de drogas, trastornos de la alimentación, conducta antisocial, adicciones tecnológicas...) en adolescentes, para poder identificarlas y adoptar estilos de vida saludables, de forma consciente, logrando aumentar la expectativa y calidad de vida de nuestra juventud.",
+      "En el Bloque V, «Salud y enfermedad en el siglo XXI: de la curación a la prevención», fija su atención en el enfoque One health, partiendo de la evolución del concepto de salud, pasando por la prevención de las enfermedades, los métodos de diagnóstico (análisis, radiografías, radiología diagnóstica en medicina nuclear, ecografía, resonancia magnética, TAC, PET, angiografía…) y los tratamientos (medicamentos, trasplantes, cirugía, radiología intervencionista…), para terminar valorando los beneficios de diseñar e implementar un plan de vida saludable que contribuya a la consecución de los Objetivos de Desarrollo Sostenible concretados en la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "Por último, el Bloque VI, «Investigación y nuevas terapias» se centra, por un lado, en el estudio de las terapias avanzadas y sus repercusiones tanto éticas, sociales, económicas como medioambientales; y por otro lado, en la diferenciación entre tratamientos con base científica de aquellos considerados como pseudocientíficos. El abordaje de saberes relacionados con los centros de investigación referentes de la medicina en Canarias ocupa un lugar importante, ya que la sociedad debe ser consciente de que en el archipiélago se hace ciencia y de calidad. Con todo esto, se pretende que el alumnado sea capaz de valorar los beneficios aportados por la investigación, de poner rostro a la biología humana y de valorar el coste para la salud, la sociedad y el medioambiente que se genera a partir de su desarrollo.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "El diseño de las situaciones de aprendizaje debe partir de los criterios de evaluación e integrar los distintos elementos curriculares de la materia mediante tareas y actividades competenciales, significativas y relevantes, que generen aprendizajes transferibles, duraderos y que fomenten la conexión emocional con el entorno, la sociedad y la cultura del territorio insular canario, así como con el planeta en el que vivimos. Por ello, es importante mostrar continuamente escenarios reales y aplicaciones directas de los saberes expuestos, con el fin de que el alumnado valore la necesidad de contar con los conocimientos básicos acerca del correcto funcionamiento de su cuerpo para mejorar su vida cotidiana. En este sentido, sería recomendable que la impartición de esta materia tuviera lugar en el laboratorio, facilitando así la transición de la teoría a la práctica, la implementación de metodologías científicas y la utilización de contextos de colaboración que supongan la asunción de responsabilidades individuales como parte de un grupo.",
+      "Asimismo, es importante que en todas las situaciones de aprendizaje se incorpore el Diseño Universal para el Aprendizaje (DUA), con el fin de lograr una inclusión real en el aula, que tenga en cuenta los diferentes ritmos de aprendizaje, las diferentes capacidades y la diversidad de motivaciones, mediante el uso de recursos diversos y accesibles, el diseño de experiencias en las que todo el alumnado pueda demostrar lo aprendido y la aplicación de metodologías activas (Aprendizaje basado en proyectos, Aprendizaje cooperativo, Aprendizaje-servicio, Aprendizaje basado en problemas, Design thinking, Aprendizaje basado en el pensamiento...)., que favorezcan que el alumnado se convierta en el protagonista de su aprendizaje, permitiendo que construya su propio conocimiento de manera significativa y que, de forma progresiva y guiada por el profesorado, tome conciencia de su proceso de aprendizaje y pueda saber en qué situaciones se siente más competente y en cuáles aún debe mejorar.",
+      "La enseñanza de la materia de Biología Humana debe también ofrecer una ciencia con rostro humano que introduzca biografías de personas científicas de forma contextualizada. En especial, se tendrá en cuenta la contribución de las mujeres en los diferentes temas abordados, para, de esta manera, recuperar su memoria y sus principales aportaciones.",
+      "Igualmente, se debe potenciar en los alumnos y las alumnas el empleo de las tecnologías digitales con las que el alumnado de 2.º de Bachillerato ya está familiarizado, desde la búsqueda, transmisión y presentación de la información, al uso de entornos virtuales de aprendizaje que favorezcan el trabajo cooperativo. Las aplicaciones virtuales para ver estructuras que no pueden visualizarse en el laboratorio como orgánulos celulares, partes de la anatomía…, la realización de simulaciones interactivas y la representación de fenómenos de difícil realización experimental son algunos ejemplos que nos permiten la utilización de las tecnologías digitales.",
+      "Finalmente, cabe destacar que el diseño de las situaciones de aprendizaje debe integrar desde su inicio la evaluación y la calificación, prestando una especial atención a la selección de instrumentos de evaluación variados que permitan evidenciar de forma clara y conjunta, además de la adquisición de los aprendizajes, el nivel de logro de las competencias vinculadas en los criterios de evaluación. Asimismo se deberá alternar la heteroevaluación llevada a cabo por el profesorado, con momentos de autoevaluación y coevaluación, como procesos de reflexión del alumnado sobre el aprendizaje, pero no para la calificación."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar y comunicar información y datos a partir de trabajos científicos, y argumentar sobre estos con precisión, utilizando diferentes formatos para analizar conceptos, procesos, métodos, experimentos o resultados de la biología humana."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "CP2",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CC3",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          68,
+          73
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con el desarrollo de esta competencia específica, se persigue que el alumnado adquiera las destrezas necesarias para buscar, seleccionar e interpretar información de carácter científico, extraer las ideas más relevantes y comunicarlas de manera clara y con rigor, defendiendo a través de una argumentación sólida la propia postura, pero manteniendo, a su vez, una actitud flexible y respetuosa ante la opinión de las demás personas.",
+          "Esta competencia está asociada a tres criterios de evaluación que tratan sobre el análisis crítico de conceptos, procesos y experimentos relacionados con los distintos bloques de saberes básicos de la biología humana y la interpretación de la información para obtener las ideas más relevantes y elaborar conclusiones que puedan ser comunicadas haciendo uso de diferentes formatos y con una argumentación razonada, abierta y flexible."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Localizar y utilizar fuentes fiables identificando, seleccionando y organizando la información, evaluándola críticamente y contrastando su veracidad, para resolver preguntas planteadas de forma autónoma y crear contenidos relacionados con la biología humana."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CPSAA4",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          68,
+          69,
+          74
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica se centra en localizar y utilizar fuentes fiables. Actualmente estamos asistiendo a una vorágine de información, conviviendo la información veraz con bulos, teorías conspiratorias e informaciones incompletas o pseudocientíficas, incluso en temas tan trascendentes como nuestra salud, y que, en muchos casos, no puede ser contrastada por falta de tiempo o bien de destrezas para ello. Esta competencia pretende dotar al alumnado de la capacidad de evaluar críticamente la información y utilizarla con rigurosidad a través del uso de diferentes plataformas digitales de búsqueda y comunicación.",
+          "Se detalla en dos criterios de evaluación relacionados con la búsqueda y selección de información de rigor, contrastando la veracidad y la fiabilidad de las fuentes para explicar y resolver preguntas relacionadas con la biología humana."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Diseñar, planear y desarrollar proyectos de investigación sobre aspectos relacionados con la biología humana, siguiendo los pasos de las metodologías científicas, teniendo en cuenta los recursos disponibles de forma realista y buscando vías de colaboración con otros agentes vinculados al campo de la salud."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "CCL5",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA3.2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          69,
+          76
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El fin que persigue el desarrollo de esta competencia específica es aplicar las destrezas propias del trabajo científico con rigor; y el empleo de los procedimientos, materiales e instrumentos necesarios para la ejecución de proyectos de investigación que lleven al alumnado a generar su propio aprendizaje de manera sólida y fundamentada, desarrollando destrezas y actitudes para el trabajo cooperativo, el análisis crítico, la curiosidad, el espíritu crítico y emprendedor y la mejora de la resiliencia necesaria para prevenir, detectar y responder eficazmente a los desafíos de salud que surgen de la relación entre humanos, animales y medioambiente, proponiendo soluciones innovadoras a los actuales problemas.",
+          "Esta competencia se materializa en tres criterios de evaluación, los dos primeros están directamente relacionados con procesos vinculados a la ejecución de proyectos de investigación, como son plantearse preguntas y buscar respuestas a través de la observación y de la búsqueda de información en fuentes diversas…, y comunicar de manera eficaz los resultados; y el tercer criterio se refiere a la necesidad de establecer colaboraciones, valorando la importancia de la cooperación en la investigación y respetando la diversidad y favoreciendo la inclusión."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Analizar críticamente determinadas acciones relacionadas con la salud, basándose en los fundamentos de la biología humana, para argumentar la importancia de diseñar e implementar un plan de vida saludable."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA2",
+        "CPSAA3.2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          69,
+          77
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Mediante esta competencia se pretende evaluar si el alumnado es capaz de analizar la relación entre el correcto equilibrio del organismo y determinadas conductas de la vida cotidiana; trabajando de forma colaborativa en equipos diversos; aplicando habilidades de coordinación, comunicación, emprendimiento y reparto equilibrado de responsabilidades, para planear y emprender acciones fundamentadas científicamente que promuevan el bienestar físico y mental propio y de las demás personas; y buscando y ofreciendo apoyo a la sociedad para construir un mundo más saludable. Además, se evaluará si el alumnado identifica las conductas de riesgo (adicciones con y sin sustancia, relaciones sexuales sin protección, trastornos alimenticios, conductas antisociales…) y si es capaz de reconocer las medidas de prevención necesarias para incluir recomendaciones (necesidad de actividad física, vigilancia de las posturas inadecuadas, rechazo al uso de drogas, al consumo de suplementos alimenticios innecesarios, necesidad de revisiones médicas periódicas…), con el fin de defender de manera argumentada, con juicio propio, la necesidad de diseñar e implementar un plan de vida saludable, y de emprender acciones, personales y colectivas, para, de esta manera, contribuir a la construcción de una sociedad más sana, justa y solidaria."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Investigar y debatir sobre las consecuencias de los avances científicos en el campo de la medicina en la salud individual y colectiva, y analizar sus efectos e influencia sobre el planeta y el resto de seres vivos para adoptar estilos de vida sostenibles y respetuosos con el medioambiente."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "STEM3",
+        "STEM4",
+        "STEM5",
+        "CPSAA2",
+        "CPSAA5",
+        "CC3",
+        "CC4",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          69,
+          79
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica incentiva al alumnado a investigar, analizar y debatir las consecuencias de los avances científicos en el campo de la medicina y biología molecular sobre el planeta y la vida de las personas, al tiempo que propone soluciones innovadoras alternativas en las que se prioriza la preservación del medioambiente, la salud pública, el desarrollo económico sostenible y la búsqueda de una sociedad igualitaria, haciendo especial referencia a la realidad canaria.",
+          "Esta competencia se materializa a través de tres criterios de evaluación que están relacionados con la indagación y el análisis crítico que el alumnado debe llevar a cabo sobre las repercusiones que los progresos científicos en la medicina tienen sobre el medioambiente y la salud de las personas, proponiendo alternativas que fomenten estilos de vida sostenibles y saludables a nivel individual, colectivo y local, y argumentando sobre sus efectos positivos y la urgencia de adoptarlos, con el fin de difundir el conocimiento científico y contribuir al logro de los Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria de Desarrollo Sostenible 2030."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar críticamente conceptos y procesos propios de la biología humana, seleccionando e interpretando información a partir de trabajos científicos y en diferentes formatos, para, utilizando el pensamiento científico, obtener conclusiones lógicas y valorar la fiabilidad de las fuentes."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              73
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar informaciones u opiniones razonadas relacionadas con los saberes de la materia, transmitiéndolas de forma clara y rigurosa, empleando la terminología y el formato adecuados y respondiendo de manera fundamentada y precisa a las cuestiones que puedan surgir durante el proceso, con el objetivo de expresar y transmitir conocimientos biológicos en diferentes situaciones grupales con iniciativa, imaginación y creatividad."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM2",
+            "STEM4",
+            "CD3",
+            "CC3",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              73
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Argumentar sobre aspectos relacionados con la biología humana, considerando los puntos fuertes y débiles de diferentes posturas de forma razonada, con el fin de participar en interacciones comunicativas, y valorando la importancia de mantener una actitud abierta, flexible, receptiva y respetuosa con las demás personas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL5",
+            "STEM2",
+            "CPSAA4",
+            "CC3",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              73
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Plantear y resolver cuestiones y crear contenidos relacionados con los diferentes campos de estudio de la biología humana, localizando y citando fuentes de forma adecuada; seleccionando, organizando y analizando de forma crítica la información para poder adoptar un juicio propio; y argumentado ante problemas de actualidad, reutilizar la información y generar nuevos conocimientos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD4",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Evaluar, contrastar y justificar la veracidad de información relacionada con la materia, utilizando fuentes fiables y aportando datos con rigor y coherencia, con el fin de adoptar una actitud crítica y escéptica hacia informaciones sin una base científica."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM4",
+            "CD1",
+            "CD3",
+            "CD4",
+            "CPSAA4",
+            "CC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar, planear y desarrollar proyectos de investigación relacionando los avances de la medicina (prevención, diagnóstico y tratamiento de enfermedades) con la función vital correspondiente, aplicando los conocimientos y habilidades del trabajo científico dentro y fuera del laboratorio, así como las estrategias apropiadas para el análisis y la toma de datos cuantitativos y cualitativos, y utilizando las técnicas adecuadas con precisión, para poder dar respuesta a preguntas concretas contrastando las hipótesis previas y reformulando el procedimiento, si fuera necesario."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CCL5",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD1",
+            "CD2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar, analizar y comunicar los resultados obtenidos en proyectos de investigación, empleando el vocabulario científico y, cuando sea necesario, las herramientas matemáticas y tecnológicas, reconociendo su alcance y limitaciones, y obteniendo conclusiones razonadas y fundamentadas o valorando la imposibilidad de hacerlo, con el fin de reflexionar sobre el método científico aplicado y argumentar o defender su validez y resultados."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL5",
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "CD2",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Establecer colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto científico, con el fin de trabajar con mayor eficiencia, utilizando las herramientas tecnológicas adecuadas, valorando la importancia de la cooperación en la investigación, respetando la diversidad y favoreciendo la inclusión."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM3",
+            "CD3",
+            "CPSAA3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              76
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar la relación existente entre el correcto equilibrio y funcionamiento de los diferentes aparatos y sistemas, y los estilos de vida saludables, para proponer y adoptar una actitud responsable con el mantenimiento de la salud, tanto individual como colectiva."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM5",
+            "CPSAA2",
+            "CC3",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              78
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Argumentar, a partir del análisis crítico de determinadas acciones humanas relacionadas con la salud, sobre la importancia de adoptar estilos de vida saludables que contemplen la salud física, mental y social, basándose en los aprendizajes adquiridos en esta materia, con el fin de tomar conciencia de la necesidad de emprender acciones, personales y colectivas, para contribuir a la construcción de una sociedad más sana, justa y solidaria."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM5",
+            "CD4",
+            "CPSAA2",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              78
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Investigar sobre la relación existente entre los factores ambientales y el incremento actual en la prevalencia de determinadas patologías para proponer alternativas que permitan mejorar la calidad de vida de las personas y del planeta."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM2",
+            "CPSAA2",
+            "CC4",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              79
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Debatir, de manera informada y argumentada, sobre las diferentes cuestiones medioambientales, sociales y éticas relacionadas con los avances científicos en el campo de la medicina, alcanzando un consenso sobre las consecuencias de estos avances y proponiendo soluciones creativas en común a las cuestiones planteadas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL5",
+            "STEM4",
+            "STEM5",
+            "CPSAA2",
+            "CPSAA5",
+            "CC3",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              79
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Participar de forma activa en la construcción colectiva y evolutiva del conocimiento científico, en su entorno cotidiano y cercano, para que el alumnado se convierta en agente activo de la difusión del pensamiento, mantenga una posición crítica hacia la información científica y tecnológica, y ponga en valor la preservación del medioambiente y la salud pública, el desarrollo económico y la búsqueda de una sociedad igualitaria."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM3",
+            "CPSAA2",
+            "CPSAA5",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              79
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-4",
+          "codigoOficial": "5.4",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Analizar los efectos y la influencia de los nuevos avances médicos sobre la salud propia y comunitaria para promover estilos de vida sostenibles, argumentando sobre sus impactos positivos y la urgencia de adoptarlos, con el fin de convertir al alumnado en agente activo de la difusión del conocimiento científico y contribuir al logro de los objetivos concretados en la Agenda Canaria de Desarrollo Sostenible 2030."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM3",
+            "CPSAA2",
+            "CPSAA5",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              79
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "CCL5",
+            "CP2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CD3",
+            "CPSAA4",
+            "CC3",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se comprobará que el alumnado es capaz de interpretar y analizar críticamente conceptos, procesos, métodos y experimentos de la biología humana relacionados con los distintos bloques de saberes básicos, a partir de información y datos en diferentes formatos (imágenes, microfotografías, modelos, gráficos, tablas, diagramas, fórmulas, esquemas u otros) y lenguas, obtenidos de trabajos y publicaciones científicas accesibles a través de internet. También, se quiere evaluar si expresa sus opiniones e intercambia información relevante de la forma más eficiente y sencilla posible, apoyándose para ello en las tecnologías digitales; comunicándola con creatividad, de forma clara, rigurosa; haciendo uso de la terminología y el formato adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos o contenidos digitales, entre otros); y respondiendo de manera fundamentada y precisa a las cuestiones que se le planteen. Por último, se verificará que es capaz de argumentar sobre aspectos relacionados con los saberes de la materia, considerando los puntos fuertes y débiles de diferentes posturas y defendiendo la suya de forma fundamentada; participando en diferentes interacciones comunicativas (debates, exposiciones, discusiones, mesas redondas...) con actitud empática y colaborativa, abierta, flexible, receptiva y respetuosa ante la opinión de las demás personas; y afrontando con actitud dialogante la pluralidad de valores e ideas. Todo ello, con la finalidad de que el alumnado comprenda que la comunicación científica requiere movilizar no solo las destrezas lingüísticas, sino también las matemáticas, las digitales y el razonamiento lógico; y que valore, además, la importancia que tiene la comunicación para la colaboración y la difusión del conocimiento, contribuyendo a acelerar considerablemente los avances y descubrimientos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              73,
+              74
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD4",
+            "CPSAA4",
+            "CC3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se comprobará que el alumnado plantea y resuelve preguntas de forma autónoma y crea contenidos, individual o colectivamente, relacionados con cualquiera de los saberes básicos de la materia, mediante la localización, identificación, selección y organización de información de tipo científico procedente de fuentes variadas que le permitan enriquecer su repertorio lingüístico individual (trabajos y revistas científicas, páginas web, vídeos, foros especializados…), para la posterior comunicación oral, escrita, signada o multimodal de conclusiones, en diferentes formatos y soportes, haciendo un uso crítico, legal, seguro, saludable y sostenible de las tecnologías digitales, referenciando las fuentes, respetando los derechos de autoría y empleando, además, un correcto uso del lenguaje científico. También, se quiere verificar si contrasta la veracidad de la información encontrada, utilizando estrategias que le permitan evaluar de forma crítica la fiabilidad de las fuentes y evitar los riesgos de manipulación y desinformación, gestionando de manera responsable sus acciones, y su presencia y visibilidad en la red, y manteniendo una actitud rigurosa y escéptica hacia informaciones sin una base científica. Todo ello, con el fin de potenciar en el alumnado tanto el sentido crítico para seleccionar las fuentes, cribar la información y quedarse con la que resulte relevante de acuerdo al fin propuesto."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              75
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CCL5",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA3.2",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se comprobará que el alumnado es capaz de diseñar, planear y realizar proyectos de investigación relacionando los avances de la medicina (prevención, diagnóstico y tratamiento de enfermedades) con la función vital correspondiente, de forma cooperativa que incluyan un plan de búsqueda, contraste y análisis de diversos tipos de información procedente de fuentes variadas; así como la selección de instrumentos, herramientas o técnicas adecuadas. Además, se evaluará si el alumnado aplica las destrezas y los procedimientos esenciales de las metodologías científicas, dentro y fuera del laboratorio, como el planteamiento de preguntas, la formulación y el contraste de hipótesis, la toma de datos cuantitativos y cualitativos, la interpretación, análisis y comunicación de resultados o la reformulación de los procedimientos, en caso necesario, para indagar y explicar diferentes aspectos del campo de la biología humana y de la medicina relacionados con todos los bloques de saberes básicos de la materia, aportando soluciones a problemas, aceptando la incertidumbre y respondiendo adecuadamente ante ella. También, se quiere constatar que el alumnado desarrolla actitudes propias del trabajo científico como el rigor, la precisión, la objetividad, la autodisciplina, el cuestionamiento de lo obvio, la creatividad, la curiosidad, el espíritu emprendedor, la resiliencia…; y que hace un uso correcto del vocabulario científico y de las herramientas tecnológicas a la hora de comunicar las conclusiones o de crear y compartir contenidos, aplicando medidas de seguridad y respetando, en todo momento, los derechos de autoría digital. Por último, se pretende evaluar si el alumnado valora la importancia del trabajo cooperativo en la investigación y si establece colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto, evaluando su desempeño individual y el de sus iguales, desde la fase de diseño hasta la ejecución definitiva (tiempos, objetivos, secuencia de acciones, reparto de roles, normas de funcionamiento del grupo...), respetando la diversidad y favoreciendo la inclusión."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              77
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM5",
+            "CD4",
+            "CPSAA2",
+            "CPSAA3.2",
+            "CC3",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "Mediante este bloque competencial se pretende evaluar si el alumnado es capaz de analizar la relación entre el correcto equilibrio del organismo y determinadas conductas de la vida cotidiana, trabajando de forma colaborativa en equipos diversos; aplicando habilidades de coordinación, comunicación, emprendimiento y reparto equilibrado de responsabilidades, para planear y emprender acciones fundamentadas científicamente que promuevan el bienestar físico y mental propio y de las demás personas; y buscando y ofreciendo apoyo a la sociedad para construir un mundo más saludable. Además, se evaluará si el alumnado identifica las conductas de riesgo (adicciones con y sin sustancia, relaciones sexuales sin protección, trastornos alimenticios, conductas antisociales…) y si es capaz de reconocer las medidas de prevención necesarias para incluir recomendaciones (necesidad de actividad física, vigilancia de las posturas inadecuadas, rechazo al uso de drogas y al consumo de suplementos alimenticios innecesarios, necesidad de revisiones médicas periódicas…), con el fin de defender, de manera argumentada y con juicio propio, la necesidad de diseñar e implementar un plan de vida saludable, y de emprender acciones, personales y colectivas, para, de esta manera, contribuir a la construcción de una sociedad más sana, justa y solidaria."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              78
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL5",
+            "STEM3",
+            "STEM4",
+            "STEM5",
+            "CPSAA2",
+            "CPSAA5",
+            "CC3",
+            "CC4",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "El valor de esta competencia específica radica en la necesidad urgente de que la sociedad adopte un modelo de desarrollo sostenible, afrontando uno de los mayores y más importantes retos a los que se enfrenta la humanidad actualmente. Para poder hacer realidad este ambicioso objetivo es necesario que se alcance una comprensión profunda del funcionamiento de los sistemas biológicos y su interrelación. El enfoque de una sola salud (One health) con el que trabajan diferentes organizaciones internacionales (FAO, OMS…) defiende que es imprescindible prevenir, detectar y responder eficazmente a los desafíos de salud que surgen de las relaciones entre las personas, los seres vivos y el medioambiente. Analizando las relaciones de interdependencia y ecodependencia con el resto de los seres vivos y el entorno, se fomentarán actitudes responsables y se adoptarán estilos de vida sostenibles, encaminados no solo a la conservación del medioambiente, sino a la mejora de la salud necesaria para alcanzar el bienestar físico y mental tanto a nivel individual como colectivo. Por otro lado, se pretende que el alumnado sea capaz de valorar los beneficios aportados por los avances médicos, como las terapias avanzadas (terapias genéticas, terapias celulares, ingeniería tisular y terapias combinadas) o los métodos de diagnóstico, pero sin dejar de cuestionar los costes de carácter ambiental y social que generan; y que, además, tome conciencia de la importancia del autocuidado y la autorresponsabilidad para proponer y adoptar estilos de vida sostenibles y saludables, con el fin de convertirse en agente activo y promotor de la difusión del pensamiento científico y de la preservación del medioambiente y la salud pública, contribuyendo así al logro de los Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria de Desarrollo Sostenible 2030."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              79
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Niveles de organización del cuerpo humano"
+          },
+          "saberes": [
+            {
+              "id": "BH.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Categorización de los niveles de organización del ser humano relacionando los tipos celulares con las funciones de los tejidos y órganos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Manejo de las técnicas básicas de preparación de muestras histológicas (corte, tinción, fijado…)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Preparación de cortes histológicos, a partir de muestras de tejidos animales, y observación al microscopio óptico e interpretación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Identificación, en laboratorio o a través de esquemas, modelos, infografías, radiografías y otros medios, de los principales tejidos y de los diferentes órganos y aparatos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Estudio de la relación que existe entre la estructura de cada sistema y la función que desempeña así como la interconexión con el resto de sistemas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Nutrición humana"
+          },
+          "saberes": [
+            {
+              "id": "BH.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Diferenciación entre alimentación y nutrición; y reflexión sobre la importancia de una alimentación saludable y nutritiva, así como de su repercusión positiva en la salud general de la persona."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Comparación de la anatomía de los sistemas implicados en la nutrición humana con la de órganos diseccionados en el laboratorio o mediante el uso de esquemas, modelos y simulaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Diseño, realización e interpretación de experiencias sobre la fisiología de los aparatos implicados en la nutrición."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Investigación sobre enfermedades y trastornos relacionados con la nutrición, con el fin de proponer y argumentar la necesidad de mantener estilos saludables para conseguir un apropiado desarrollo de su salud individual y su influencia en el entorno familiar y social."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Salud sexual y reproductiva"
+          },
+          "saberes": [
+            {
+              "id": "BH.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Reconocimiento de la anatomía y fisiología de los aparatos reproductores."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Identificación de las enfermedades de transmisión sexual (ITS) y modo de prevención."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Análisis evolutivo a lo largo de la historia de pandemias, epidemias, endemias y brotes epidémicos acontecidos: VIH, viruela del mono, sífilis…"
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Valoración de la educación sexual como parte del desarrollo integral de la persona, identificando las diferencias entre los conceptos de sexo y sexualidad, para poner el foco en el respeto a la libertad, la diversidad sexual y la igualdad de género."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Concienciación sobre la importancia de adquirir prácticas sexuales saludables, responsables y consentidas, y sobre la prevención de infecciones de transmisión sexual (ITS) y de embarazos no deseados. Selección del método anticonceptivo y método de prevención de las ITS en función de las condiciones personales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.C.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Análisis de la influencia del tabaco, del alcohol y de otras drogas en la sexualidad y en la descendencia para conocer sus consecuencias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Bienestar emocional, psicológico y social"
+          },
+          "saberes": [
+            {
+              "id": "BH.2.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación del funcionamiento básico del sistema nervioso, endocrino e inmunológico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Indagación sobre la conexión entre el sistema nervioso y endocrino (sistema neuroendocrino)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Estudio del eje hipotálamo-hipofisario-adrenal, y su relación con el estrés y los trastornos psicológicos y mentales para prevenir su sobreestimulación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81
+                ]
+              }
+            },
+            {
+              "id": "BH.2.D.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Investigación sobre enfermedades relacionadas con el bienestar emocional, psicológico y social, con el fin de proponer y argumentar la necesidad de mantener un estilo de vida saludable."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  81,
+                  82
+                ]
+              }
+            },
+            {
+              "id": "BH.2.D.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Indagación sobre las organizaciones, fundaciones, asociaciones de apoyo a las personas que padecen alteraciones en la salud mental, para conocer de qué forma la sociedad responde a estos problemas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "BH.2.D.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Análisis de los efectos perjudiciales de las adicciones con sustancia (drogas legales e ilegales) y sin sustancia (comportamentales: tecnologías, ludopatías), que influyen tanto en la salud de las personas consumidoras como en su entorno."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  82
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Salud y enfermedad en el siglo XXI: de la curación a la prevención"
+          },
+          "saberes": [
+            {
+              "id": "BH.2.E.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de la evolución del concepto de salud para comprender su tratamiento en el marco de la Agenda Canaria 2030 de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "BH.2.E.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estudio de los diferentes métodos de diagnóstico para clasificar las enfermedades según su etiología, y conocimiento de las medidas de prevención y tratamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "BH.2.E.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Valoración de la importancia social de la vacunación y de las donaciones de sangre, células y órganos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "BH.2.E.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Indagación sobre los beneficios de mostrar una actitud positiva ante la enfermedad para fomentar el autocuidado y la autorresponsabilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "BH.2.E.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Valoración de la importancia del enfoque de una sola salud (One health) para prevenir, detectar y responder eficazmente a los desafíos de salud que surgen de las relaciones entre las personas, los animales y el medioambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "BH.2.E.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Investigación sobre el funcionamiento y las prestaciones de la Sanidad Pública Canaria, comparándola con otros países."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  82
+                ]
+              }
+            },
+            {
+              "id": "BH.2.E.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Diseño e implementación de un plan de vida saludable que contemple la salud física, mental y social como paradigmas de bienestar para el desarrollo de una vida plena, y su influencia en su entorno, en la sociedad y en el planeta."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  82
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Investigación y nuevas terapias"
+          },
+          "saberes": [
+            {
+              "id": "BH.2.F.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación de los mecanismos básicos de la transmisión de la herencia genética y del concepto de gen, y su relación con los trastornos hereditarios humanos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  83
+                ]
+              }
+            },
+            {
+              "id": "BH.2.F.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estudio de la evolución de las terapias avanzadas (terapias genéticas, terapias celulares, ingeniería tisular y terapias combinadas) y sus aplicaciones relacionadas con la investigación médica y farmacéutica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  83
+                ]
+              }
+            },
+            {
+              "id": "BH.2.F.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Reflexión sobre las repercusiones sociales, éticas, económicas y medioambientales de las terapias avanzadas; y análisis sobre los fármacos y su uso responsable."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  83
+                ]
+              }
+            },
+            {
+              "id": "BH.2.F.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Diferenciación entre tratamientos con base científica y pseudomedicina; y elaboración de un estudio crítico acerca del uso de las medicinas alternativas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  83
+                ]
+              }
+            },
+            {
+              "id": "BH.2.F.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Profundización en la investigación biomédica en Canarias y sobre la base genética de las enfermedades prevalentes en el archipiélago, para valorar su implicación en la mejora de la calidad de vida."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  83
+                ]
+              }
+            },
+            {
+              "id": "BH.2.F.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Indagación sobre los principales centros de investigación de Canarias y de las biografías de las figuras referentes de la medicina canaria a lo largo de la historia, con especial atención a las mujeres, para darle a la biología humana un rostro humano."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  83
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "El Decreto 78/2025 entra en vigor el 10 de junio de 2025 y no fija un calendario de implantación por curso escolar; aplicableDesdeCurso queda en null."
+    ]
+  }
+}

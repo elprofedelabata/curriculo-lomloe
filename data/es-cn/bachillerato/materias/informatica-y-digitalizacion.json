@@ -1,0 +1,1859 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.informatica-y-digitalizacion",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "ID",
+    "nombre": {
+      "es": "Informática y Digitalización"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      },
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2025-06-10",
+    "aplicableDesdeCurso": null,
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2025-112-decreto-78-2025",
+      "tipo": "decreto",
+      "titulo": "Decreto 78/2025, de 2 de junio, por el que se establece el currículo de las materias optativas de la etapa del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "112",
+      "fechaPublicacion": "2025-06-09",
+      "cve": "BOC-A-2025-112-2086",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2025-112-2086.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2025/112/2086.html",
+      "anexo": "2",
+      "paginasMateria": {
+        "desde": 189,
+        "hasta": 211
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Los avances en tecnología digital que se han desarrollado a lo largo de este primer cuarto de siglo han supuesto un cambio radical en la manera de analizar y entender el mundo a través de sus repercusiones sociales, políticas y económicas, propiciando el paso de una cultura de la información hacia una cultura del conocimiento. Consecuentemente, esta materia tiene como finalidad que el alumnado desarrolle competencias vinculadas a la digitalización y la informática para poder ejercer una ciudadanía digital activa.",
+      "Esta presencia digital exige el conocimiento de los riesgos y las bondades que supone dejar una huella digital a través del uso de los diferentes dispositivos, de forma que se pueda adoptar una actitud proactiva y crítica frente a las situaciones de diversa índole que puedan aparecer en la red, reflejo de la sociedad en la que vivimos, como son los distintos tipos de peligros que se ven muchas veces catapultados a través de las redes sociales y que precisan de las habilidades necesarias para prevenirlas, afrontarlas y mitigarlas, contribuyendo también al bienestar emocional de las personas y de las sociedades que integran, y siendo consciente de la importancia de adoptar la perspectiva de género y de potenciar la igualdad.",
+      "Conviene tener presente también los riesgos de la desinformación, intencionada o no, por lo que es fundamental desarrollar estrategias que permitan avanzar en competencia informacional. De esta manera, se promoverá al mismo tiempo el desarrollo de la autonomía y las destrezas necesarias para abordar un aprendizaje permanente en un mundo en constante cambio, donde la información se acerca a los usuarios y las usuarias, a través de plataformas y entornos de teleformación, adaptándose a las demandas de las personas y facilitando su desarrollo continuado.",
+      "Resulta imprescindible destacar también el papel que el desarrollo de las destrezas digitales vinculadas a esta materia pueden jugar en un territorio como el canario, donde las condiciones de ultraperificidad y la especial orografía, que en ocasiones crea islas dentro de islas, se ven atenuadas a través de la comunicación digital que facilita trámites y servicios de diversa índole que abarcan desde gestiones administrativas y sociales hasta médicas, permitiendo simultáneamente superar la brecha digital. Entre los justificantes económicos, cabe destacar la importancia de que la ciudadanía canaria se forme en competencias digitales que le permitan aspirar a puestos y formaciones posteriores que contribuyan a mejorar la riqueza de las islas, siendo consciente del papel que el archipiélago juega como plataforma de comunicación entre América, África y Europa, y de la importancia que los procesos de digitalización de los diferentes sectores empresariales pueden suponer, en consonancia con una cultura de sostenibilidad y tomando como referencia la Agenda Canaria 2030 para los Objetivos de Desarrollo Sostenible.",
+      "El carácter instrumental de esta materia proporciona soporte a otras y al mismo tiempo ofrece la capacitación en el uso de herramientas digitales que suponen un factor clave a la hora de extender y hacer accesible la educación para todos y todas, atendiendo entre otros a los principios del Diseño Universal para el Aprendizaje (DUA). Al mismo tiempo, la propia metodología empleada en esta materia, en la que se recurre al trabajo en equipo para afrontar los retos propuestos, permite el desarrollo de habilidades cada vez más demandadas como son la buena comunicación, la empatía, el pensamiento crítico y la creatividad, elementos clave para afrontar los desafíos del siglo XXI. A estas habilidades hay que sumar el desarrollo de estrategias de pensamiento computacional, de aplicación en todos los campos del conocimiento, por cuanto supone una forma de abordar los nuevos retos ante los que nos enfrentamos. De igual forma, la creación de contenidos digitales y su difusión en diferentes formatos y sitios web, como acciones a desarrollar dentro de la propia materia, ofrece la posibilidad de profundizar y difundir el patrimonio cultural canario.",
+      "En Bachillerato, la materia de Informática y Digitalización aportará las claves para completar el Perfil de salida del alumnado, aunando conocimientos prácticos de abordaje de problemas técnicos con estrategias de trabajo resolutivas, al tiempo que debe propiciar la consolidación de una cultura digital sólida, aprendizajes estos indispensables tanto para la incorporación a la vida profesional como para continuar estudios superiores.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "Los objetivos de etapa se encuentran recogidos en el art. 21 del Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias. A continuación, y para su correcta identificación, se referencian con la letra correspondiente entre paréntesis.",
+      "La materia de Informática y Digitalización contribuye a la adquisición de las competencias clave y a la consecución de los objetivos de la etapa de Bachillerato, favoreciendo el desarrollo integral del alumnado, lo que le permitirá, junto a las contribuciones del resto de materias, alcanzar el Perfil de salida. Así, esta materia permite que el alumnado, haciendo un uso responsable de las tecnologías digitales (g) pueda adquirir una conciencia cívica responsable, ejerciendo una ciudadanía democrática y fomentando la construcción de una sociedad justa y equitativa (a). Además, aporta las destrezas básicas para afianzar el espíritu emprendedor creativo y la participación del trabajo en equipo (k), fomentando la igualdad efectiva de derechos y oportunidades entre todas las personas mediante la no discriminación (c), actuando de forma respetuosa, responsable y autónoma y desarrollando su espíritu crítico (b) y propiciando hábitos de reutilización de materiales y ahorro energético en la elección de los dispositivos digitales (o). También permite acceder a los conocimientos científicos y tecnológicos fundamentales (i) para conocer sus antecedentes históricos y los principales factores de su evolución (h), y de esta forma valorar la contribución de la ciencia y la tecnología en el cambio de las condiciones de vida, afianzando el respeto hacia el medioambiente (j) y despertando el interés hacia estas ramas del conocimiento. Además, esta materia contribuye a afianzar los hábitos de lectura, estudio y disciplina en el desarrollo personal del alumnado (d), fomentando el uso adecuado de la lengua castellana en tanto en su expresión oral como escrita (e) y desarrollando el criterio estético a partir de las producciones (l).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "La materia de Informática y Digitalización contribuye al desarrollo y a la adquisición de la Competencia en comunicación lingüística (CCL), ya que el alumnado debe ser capaz de localizar, seleccionar, contrastar, interpretar y valorar críticamente la información procedente de textos en diferentes formatos, e integrarla para generar nuevos conocimientos que se transmitan de forma oral, escrita y multimodal, de manera coherente y argumentada, utilizando diferentes recursos digitales y haciendo uso de un lenguaje inclusivo y libre de estereotipos sexistas.",
+      "Esta materia contribuye, además, a la adquisición de la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM), a partir de la aplicación de destrezas en el desarrollo de estrategias y proyectos para la resolución de forma crítica de problemas técnicos sencillos relacionados con los dispositivos digitales, sistemas operativos y redes informáticas, diseñando y creando prototipos o modelos aplicando principios de ética y de seguridad. Esta contribución se fomenta en la comunicación de los elementos más relevantes de investigaciones realizadas en la gestión del aprendizaje permanente.",
+      "La contribución al desarrollo de la Competencia digital (CD) se evidencia en el uso eficiente de herramientas y aplicaciones digitales para buscar y procesar información de manera independiente, tanto individual como colaborativamente, en un contexto de seguridad digital que le permite evaluar los riesgos y aplicar medidas sobre los dispositivos que preserven el bienestar emocional y digital de las personas, y que se hace extensivo a todo el entorno personal de aprendizaje. También, a través del conocimiento y manejo de sistemas de identificación digital que permiten la interacción del alumnado con las administraciones y facilitan las gestiones burocráticas y su participación activa. Esta contribución también se demuestra en la ideación y creación de contenido digital en múltiples formatos y plataformas, teniendo en cuenta derechos de autoría y licencias de uso, y en el desarrollo de aplicaciones informáticas, utilizando estrategias del pensamiento computacional para resolver problemas técnicos cercanos a la realidad del alumnado, que contribuyan al desarrollo sostenible y que incorporen un uso ético.",
+      "Asimismo, la contribución de la materia a la Competencia personal, social y de aprender a aprender (CPSAA) se concreta en el fomento de la autoeficacia y la búsqueda de objetivos para mejorar la resolución autónoma de problemas técnicos sencillos y la configuración del entorno personal de aprendizaje proponiendo ideas creativas y seleccionando fuentes fiables de conocimiento, validando y contrastando la información para evitar los riesgos de la manipulación y desinformación. Además, esta materia contribuye al fomento del trabajo colaborativo, distribuyendo las tareas, los recursos y las responsabilidades.",
+      "La contribución a la Competencia ciudadana (CC) se refleja en el fomento del desarrollo de la autonomía y del espíritu crítico del alumnado para conseguir una interacción pacífica en su participación en la red, basada en el respeto y la tolerancia, así como en la adquisición de forma consciente de un estilo de vida sostenible y socialmente responsable, acorde a los Objetivos de Desarrollo Sostenible y a la Agenda Canaria 2030, valorando las señas de identidad y tradiciones de esta comunidad autónoma.",
+      "Para el desarrollo de la Competencia emprendedora (CE), desde esta materia se plantean constantemente problemas técnicos que deben ser evaluados con sentido crítico y ético, y resueltos de forma eficaz e innovadora, atendiendo a criterios de sostenibilidad y de protección del medioambiente y prestando especial atención a la insularidad del territorio. Para ello, es necesario aprender estrategias que sistematicen el análisis y la evaluación de estos problemas, faciliten la identificación de necesidades y oportunidades, y permitan generar nuevas ideas y compartirlas, de forma que se produzca un beneficio para todo el grupo.",
+      "La Competencia en conciencia y expresión culturales (CCEC) se adquiere a través de la creación de contenidos digitales que se realiza a partir de la selección y uso creativo de herramientas y técnicas, tanto de forma individual como colaborativa.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Informática y Digitalización se han establecido cuatro competencias específicas que se concretan en un total de veinticuatro criterios de evaluación, once para primero de Bachillerato y trece para segundo de Bachillerato. Estos criterios de evaluación presentan una marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos del perfil de salida a los que contribuye la competencia específica, expresando tanto las capacidades y los saberes a adquirir, como el contexto y modo de aplicación de dichos aspectos.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "La materia se organiza en torno a cuatro bloques de saberes básicos comunes en primero y segundo de Bachillerato que integran conocimientos, destrezas y actitudes, y que persiguen la formación integral del alumnado, desde un tratamiento competencial de los contenidos de cada uno de ellos: I. «Dispositivos digitales, sistemas operativos y de comunicación»; II. «Digitalización del entorno personal de aprendizaje»; III. «Seguridad y bienestar digital»; y IV. «Programación». Esta estructura está orientada hacia la ampliación y profundización de los aprendizajes relacionados adquiridos por el alumnado en la etapa de Educación Secundaria Obligatoria. En el caso de segundo de Bachillerato se incluye un bloque adicional V. «Tecnologías emergentes».",
+      "Existe una relación directa entre los saberes básicos de la materia y los bloques competenciales establecidos, aunque será el equipo docente quien determine, en última instancia y dentro del margen de autonomía del que dispone, aquellos saberes que considere más adecuados, de entre los propuestos, para implementar los aprendizajes establecidos.",
+      "El Bloque I, «Dispositivos digitales, sistemas operativos y de comunicación», profundiza en conocimientos de hardware y software que el alumnado adquiere en la etapa de Educación Secundaria Obligatoria, incluyendo la gestión de la conectividad entre los dispositivos digitales y las redes informáticas, y valorando sus beneficios para compartir recursos e intercambiar información. De esta manera, en primero de Bachillerato se hace referencia al análisis de la arquitectura de los dispositivos digitales, así como a la gestión de la conexión de dichos dispositivos en las redes informáticas, y entre ellos, para la resolución de problemas técnicos, reflexionando sobre su importancia dada la fragmentación del territorio canario y teniendo en cuenta la influencia de la evolución de la informática en la sociedad en sus distintas etapas. En este bloque también se abordan problemas relacionados con la gestión y configuración de sistemas operativos, y la realización de operaciones básicas fundamentales para una adecuada gestión de los mismos, fomentando la adquisición de hábitos de reutilización de materiales y ahorro energético. En el caso de segundo de Bachillerato, se complementan estos aprendizajes, analizando los diferentes tipos de almacenamiento en función de sus características y los intereses del alumnado, y se profundiza en la gestión de una adecuada conexión, configuración y mantenimiento de redes informáticas, analizando sus elementos constituyentes y su influencia.",
+      "En el Bloque II, «Digitalización del entorno personal de aprendizaje», se aborda la configuración y gestión del entorno personal de aprendizaje, interactuando y aprovechando los recursos del ámbito digital, y fomentando el uso de un lenguaje inclusivo y libre de estereotipos sexistas, y el respeto a las licencias de uso. En primero de Bachillerato se profundiza en la edición y creación de contenidos para la búsqueda ingeniosa de soluciones mediante aplicaciones informáticas de escritorio, web o móviles más apropiadas de su entorno personal digital, respetando las licencias de uso, tales como documentos de solo lectura, presentación de contenidos, hojas de cálculo, edición de imagen, sonido y vídeo, e iniciación al modelado 3D; mientras que en segundo de Bachillerato la edición y creación de contenidos se realiza a partir de la edición de sitios web y modelado 3D. En este último curso se hace referencia a estrategias básicas para la publicación, comunicación, colaboración y difusión responsable en redes, incidiendo en la búsqueda de información con criterios de validez y calidad, contrastando la información y detectando la información falsa.",
+      "En el Bloque III, «Seguridad y bienestar digital», se pone el foco en la protección de los dispositivos para garantizar la seguridad de las personas y sus datos. En el caso de primero de Bachillerato, dicha protección se sustenta en el conocimiento de los elementos físicos y de software que garantizan la seguridad de los mismos, así como la identificación de riesgos y amenazas a los que pueden verse sometidos en función de las vías de comunicación que se establezcan entre los dispositivos y su entorno. En el caso de segundo de Bachillerato, se profundiza en la utilización de estrategias óptimas para mantener la seguridad de los dispositivos digitales, y en el conocimiento y la prevención de ataques con software malicioso que puede poner en riesgo las actividades desarrolladas en la red. En ambos cursos, se contemplan también las implicaciones de la huella digital, distinguiendo entre huella digital activa y pasiva.",
+      "El Bloque IV, «Programación», hace referencia a la creación de aplicaciones digitales que faciliten la gestión de actividades o resolución de problemas del entorno. En el caso de primero de Bachillerato, la atención se centra en el conocimiento y diseño de algoritmos utilizando pseudocódigos que permitan posteriormente emplear lenguajes de programación adecuados para implementar soluciones informáticas para dispositivos diversos. En segundo de Bachillerato, se continúa con los aprendizajes abordados en primero y se profundiza en el uso de diferentes lenguajes de programación para aplicar a un espectro más amplio de dispositivos.",
+      "El Bloque V, «Tecnologías emergentes», es exclusivo de segundo de Bachillerato y aborda las aportaciones procedentes de la inteligencia artificial, tratamiento de datos y big data en la vida diaria y en el desarrollo de aplicaciones.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "La metodología empleada en la materia de Informática y Digitalización debe fomentar el pensamiento creativo en el aprendizaje del alumnado como elemento imprescindible que garantice y refuerce la innovación en nuestra sociedad, mediante la aplicación de una actitud crítica, responsable, segura, sostenible y ética en el uso de las tecnologías digitales, que permita abordar, de forma integrada, todas las dimensiones del conocimiento, favoreciendo el desarrollo de hábitos de trabajo en grupo y la capacidad de comunicarse eficazmente con otras personas de manera respetuosa, manteniendo un compromiso con la igualdad de género, rechazando cualquier tipo de discriminación, siendo tolerante con las opiniones ajenas y aplicando estrategias para la resolución pacífica de los conflictos que puedan surgir. Además, se debe abordar la metodología de aprendizaje servicio, dado el impacto de los dispositivos digitales en la sociedad, con la finalidad de integrar las herramientas digitales para potenciar la mejora de nuestro entorno social con el desarrollo de una adecuada ciudadanía digital activa, estableciendo vínculos emocionales con las personas y teniendo en cuenta criterios de accesibilidad, sostenibilidad e impacto social y ambiental.",
+      "Asimismo, las diferentes estrategias de aprendizaje se planificarán de manera que den respuesta a la diversidad y al respeto por las características individuales del alumnado, a las necesidades educativas específicas del mismo, a los condicionantes socioculturales presentes, a los contextos actuales... Es por ello imprescindible tener en cuenta los principios del Diseño Universal para el Aprendizaje (DUA), que favorecen la capacidad inclusiva de la educación.",
+      "Por tanto, la materia de Informática y Digitalización se debe plantear desde una metodología activa, práctica y contextualizada a la condición del territorio fragmentado en Canarias, posibilitando la difusión de su patrimonio cultural, valorando las señas de identidad y riqueza de tradiciones canarias; y que sea participativa, cooperativa y colaborativa, y fomente el trabajo por grupos, permitiendo el enfoque práctico y competencial del aprendizaje, considerando al profesorado como guía en los procesos de enseñanza y aprendizaje, permitiendo que el alumnado sea el agente activo de este proceso y aplicando estrategias relacionadas con el aprendizaje por proyectos (ABP), el aprendizaje Basado en Retos (ABR) proyectos interdisciplinares... A partir del enfoque competencial de esta materia, los saberes básicos se integran en situaciones de aprendizaje contextualizadas, que permitan el desarrollo de las competencias específicas asociadas a los criterios de evaluación, y a partir de las inquietudes planteadas por el alumnado durante el uso de sus dispositivos tecnológicos.",
+      "Este enfoque competencial se tiene en cuenta en todos los elementos del currículo, en la redacción de los criterios de evaluación como referente del nivel de desempeño esperado en el alumnado para la adquisición de la competencia específica correspondiente, en los saberes básicos y en los descriptores del Perfil de salida hacia los que apunta dicha competencia. De este modo, se facilitará la evaluación del grado de desarrollo y la adquisición de dichas competencias, a través del uso de técnicas de evaluación como la observación sistemática, el análisis de documentos, las producciones...; de herramientas tanto para evaluar los criterios de evaluación como para valorar el nivel de adquisición de las competencias, como los registros anecdóticos y descriptivos, diario de clase del profesorado…; y de instrumentos de evaluación que permiten evidenciar el desarrollo y la adquisición de los aprendizajes esperados y de sus competencias vinculadas, teniendo presente en todo momento la dimensión formativa de la evaluación. Estas técnicas, instrumentos y herramientas deben ser diversos y estar dotados de capacidad diagnóstica y de mejora y, por supuesto, adaptados a las distintas situaciones de aprendizaje y que permitan una valoración objetiva. Por último, también se valorará el proceso de coevaluación y autoevaluación del alumnado como una oportunidad para aprender, de modo que le permita reflexionar para valorar y gestionar sus logros y dificultades, contribuyendo a la mejora de la autonomía del alumnado."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar y analizar el funcionamiento de los diferentes elementos que forman parte de la arquitectura de un dispositivo digital y de los sistemas operativos, para resolver problemas técnicos sencillos, conectar, configurar y mantener redes informáticas, aplicando los conocimientos de hardware, sistemas operativos y redes."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD4",
+        "CD5",
+        "CPSAA1.1",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          192,
+          193,
+          198,
+          205
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica hace referencia a la gestión y al mantenimiento de los dispositivos digitales y de las redes informáticas, para lo que el alumnado debe ser capaz de analizar su funcionamiento y resolver problemas técnicos, aplicando los conocimientos adquiridos. Esta competencia específica se concreta en diferentes criterios de evaluación en los dos cursos de Bachillerato, cuatro criterios de evaluación en primero de Bachillerato y dos criterios de evaluación en segundo de Bachillerato.",
+          "El primer criterio de evaluación en primero de Bachillerato incide en el análisis y valoración de la evolución de la informática en el desarrollo de la sociedad, teniendo en cuenta las características y funciones de los diferentes elementos que forman la arquitectura de los dispositivos digitales. El segundo criterio de evaluación pone el foco en el desarrollo de estrategias para la resolución de problemas técnicos relacionados con el hardware, fomentando la reutilización de materiales y ahorro energético. El tercer criterio de evaluación hace referencia a la instalación y gestión de software de propósito general, aplicando estrategias para la realización de operaciones básicas y la gestión de ficheros y directorios. Estos aprendizajes se complementan con el cuarto criterio de evaluación, que aborda el análisis de los elementos que constituyen una red de comunicación para realizar una adecuada conexión, configuración y mantenimiento, así como la resolución de problemas técnicos.",
+          "En segundo de Bachillerato, el primer criterio de evaluación incide en el análisis de las características de los diferentes tipos y tecnologías de almacenamiento digital, aplicando criterios para mantener medidas de seguridad adecuadas en la protección de datos y en el intercambio de información. El segundo criterio de evaluación profundiza en los aprendizajes del nivel anterior en referencia a la gestión de manera adecuada de los diferentes tipos de redes informáticas mediante el desarrollo de estrategias para la resolución de problemas técnicos relacionados con su conexión, configuración o mantenimiento, fomentando criterios de reutilización de materiales y ahorro energético."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Configurar y gestionar el entorno personal de aprendizaje, interactuando y aplicando recursos y herramientas del ámbito digital, para optimizar el aprendizaje permanente de manera continuada."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "STEM3",
+        "CPSAA5",
+        "CE3",
+        "CCEC4.1",
+        "CCL5",
+        "CD4",
+        "CPSAA4",
+        "CC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          193,
+          199,
+          205
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La digitalización de la sociedad del siglo XXI es una realidad que invade todos los ámbitos de la vida y, por tanto, resulta fundamental que el alumnado optimice y gestione el aprendizaje permanente. Para ello, esta competencia específica trata sobre la necesidad de integrar recursos digitales en el proceso formativo del alumnado, logrando el nivel de desempeño establecido, a partir de un criterio de evaluación que comprende esta competencia específica en primero de Bachillerato y de tres criterios de evaluación en segundo de Bachillerato.",
+          "El primer criterio, en ambos niveles, hace referencia a la capacidad del alumnado para generar contenidos digitales de forma individual o colectiva, fomentando el uso de un lenguaje inclusivo y libre de estereotipos sexistas, e incorporando en su entorno personal de aprendizaje las herramientas digitales más apropiadas de manera responsable y configurándolas según sus necesidades, de forma que en el caso de primero de Bachillerato hacen referencia al uso avanzado de herramientas de ofimática, edición de imagen, vídeo y audio e iniciación al modelado 3D, y en segundo de Bachillerato profundiza en las herramientas de modelado.",
+          "El segundo criterio de evaluación referido al nivel de segundo de Bachillerato está enfocado a la elaboración y publicación de contenidos en la web, integrando información textual, gráfica y multimedia. Finalmente, el tercer criterio de evaluación incide en la capacidad del alumnado para hacer un uso crítico, ético, legal, seguro y sostenible de la red, así como para desarrollar una actitud crítica en la curación de contenidos mediante la búsqueda de información con criterios de validez y calidad, contrastando la información, detectando la información falsa, respetando las licencias de uso, añadiendo un valor adicional en la generación de nuevo contenido y haciendo uso de las herramientas de su entorno personal de aprendizaje."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Identificar y aplicar, valorando y contrastando fuentes variadas de información, estrategias de protección relacionadas con el uso de dispositivos digitales en Internet, con la finalidad de evitar riesgos, proteger a las personas y propiciar el bienestar digital."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CD3",
+        "CD4",
+        "CD5",
+        "CPSAA1.2",
+        "CPSAA2",
+        "CPSAA3.1",
+        "CE2",
+        "CC1",
+        "CC2",
+        "CCL2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          194,
+          200,
+          206
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica atiende fundamentalmente a la necesidad de formar a los ciudadanos y las ciudadanas en el empleo de las herramientas digitales y de capacitarles para identificar las vulnerabilidades a las que se exponen al ejercer su ciudadanía digital, al tiempo que se abordan estrategias de protección para evitar problemas que puedan afectar al bienestar emocional y digital de las personas.",
+          "Los niveles de desempeño se alcanzarán en primero de Bachillerato a través de dos criterios de evaluación. En el primero de ellos se abordan los riesgos relacionados con los dispositivos y las comunicaciones, y la necesidad de una protección adecuada, además de la identificación y acción ante conductas inapropiadas. El segundo de los criterios pone el foco en el conocimiento y análisis de la huella digital y en las estrategias adecuadas para administrarla.",
+          "En segundo de Bachillerato, se dispone de tres criterios de evaluación. En el primero de ellos se profundiza en la importancia de la seguridad de la información y en el establecimiento de herramientas para protegerla frente a códigos maliciosos. El segundo aborda el conocimiento de la ley de protección de datos y sus implicaciones. Finalmente, el tercero de los criterios hace referencia a la identificación de amenazas y al uso responsable de las herramientas de identificación digital, para alcanzar una ciudadanía digital plena, especialmente útil en un territorio fragmentado como Canarias, aspecto que facilita la vida de las personas y contribuye, además, al cuidado del entorno al evitar desplazamientos innecesarios."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Analizar, diseñar y desarrollar de forma individual o colaborativa aplicaciones digitales funcionales en dispositivos diversos, aplicando los principios del pensamiento computacional para dar solución a problemas técnicos o mejorar procesos automatizables."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA1.1",
+        "CPSAA3.2",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "CCEC4.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          194,
+          201,
+          208
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con el desarrollo de esta competencia específica, se profundiza en la capacidad creativa del alumnado para abordar la resolución de problemas técnicos mediante la creación de software funcional que dé solución a los desafíos digitales planteados, haciendo uso de las fases del pensamiento computacional, que son, además, de aplicación en entornos ajenos a la informática o los sistemas digitales.",
+          "En el caso de primero de Bachillerato, el nivel de logro se establece a través de cuatro criterios de evaluación: el primero de ellos centra la atención en el análisis de problemas que requieran el tratamiento de datos. El segundo criterio aborda la aplicación de algoritmos para su resolución. Con el tercer criterio se alude al conocimiento y a la aplicación de la sintaxis de los lenguajes de programación; y el cuarto, en el desarrollo de programas.",
+          "En segundo de Bachillerato, se establecen cinco criterios de evaluación que profundizan en el diseño y programación de software. El primero precisa identificar las partes relevantes de los problemas técnicos y establecer estrategias para dividirlos en subproblemas más simples. En el segundo criterio se aborda la creación de diagramas de flujo y algoritmos como paso previo a la programación. El tercero fija la atención en el uso de entornos de aplicación para el desarrollo de software; mientras que el cuarto se basa en la creación de software con la finalidad de gestionar los datos introducidos, buscando implementar soluciones que sean respetuosas con el entorno. El quinto criterio permite evaluar el desarrollo de aplicaciones de realidad virtual y aumentada."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los principales elementos que componen la arquitectura de los dispositivos digitales, describiendo sus principales características y funciones para analizar y valorar la influencia de la evolución de la informática en la sociedad en sus distintas etapas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "STEM2",
+            "CD1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              198
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Aplicar criterios de reutilización de materiales y ahorro energético, utilizando de manera segura, responsable y respetuosa con el medioambiente los elementos que componen la arquitectura de los dispositivos digitales para resolver problemas técnicos sencillos de hardware."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM5",
+            "CD4",
+            "CD5",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              198
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Instalar y mantener aplicaciones y software de propósito general, analizando su funcionamiento y aplicando estrategias que permitan la configuración de operaciones básicas de los sistemas operativos para la restauración de equipos y la gestión de ficheros y directorios que den respuesta a sus necesidades personales."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              198
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Gestionar una adecuada conexión, configuración y mantenimiento de redes de comunicación, analizando sus elementos constituyentes, aplicando estrategias adecuadas para la resolución de problemas técnicos y utilizando criterios de reutilización de materiales y ahorro energético."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM5",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              199
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Crear, integrar y reelaborar contenidos digitales de forma individual o colectiva, seleccionando las aplicaciones informáticas de escritorio, web o móviles más apropiadas para generar contenidos digitales; y resolver problemas específicos utilizando las posibilidades que ofrecen las plataformas de trabajo colaborativo y respetando los derechos de autoría y licencias de uso."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA5",
+            "CE3",
+            "CCEC4.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              199
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar y analizar de manera crítica en las interacciones comunicativas en la red, la importancia de la gestión óptima del hardware y el software, del contenido y de las conductas inapropiadas o de riesgo para aplicar medidas de corrección, que propicien el bienestar emocional y digital propio y del resto de las personas, y faciliten la resolución dialogada y democrática de los conflictos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CD3",
+            "CD4",
+            "CD5",
+            "CPSAA1.2",
+            "CPSAA2",
+            "CPSAA3.1",
+            "CC1",
+            "CC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              200
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar acciones que contribuyen a la generación de la huella digital en la red durante la navegación y a través del intercambio de información en redes sociales o foros, distinguiendo entre huellas digitales activas y pasivas para desarrollar estrategias que permitan administrarla, de manera crítica, y siendo consciente de las implicaciones personales, sociales y laborales de la misma."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CD3",
+            "CD4",
+            "CD5",
+            "CPSAA1.2",
+            "CPSAA2",
+            "CPSAA3.1",
+            "CC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              201
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar, a través del estudio de casos específicos, los problemas de tratamiento de la información más frecuentes que se presentan al trabajar con estructuras de datos, para extrapolar nuevas soluciones a los retos planteados."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              202
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Definir y aplicar algoritmos que faciliten la resolución de los problemas de tratamiento de datos, dividiéndolos en subproblemas, como estrategia de trabajo relacionada con la programación y el pensamiento computacional."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              202
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer y comprender la sintaxis y la semántica de las construcciones básicas de un lenguaje de programación, analizando su estructura e identificando y relacionando sus elementos característicos, para aplicarlo al diseño de programas informáticos y hacerlos más eficientes."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM2",
+            "STEM4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              202
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar e implementar programas en un lenguaje de programación determinado para aplicarlos a la solución de problemas técnicos, trabajando de manera individual o colaborativa."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA3.2",
+            "CPSAA5",
+            "CE1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              202
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD4",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "Mediante este bloque competencial se persigue constatar que el alumnado es capaz de identificar los elementos principales que componen la arquitectura de los dispositivos digitales, aplicar estrategias que le permitan instalar, configurar y gestionar ficheros, directorios y software de propósito general, así como restaurar equipos, configurar y mantener redes de comunicación, estableciendo una gestión adecuada de los sistemas operativos. Asimismo, se valorará su capacidad para resolver problemas técnicos de forma segura, responsable y respetuosa, mostrando una actitud crítica y proactiva, fomentando una actitud participativa y libre de estereotipos sexistas, escogiendo la mejor solución entre diversas opciones, reformulando y aprendiendo de sus errores, valorando siempre la seguridad de los dispositivos y de las personas, el bienestar personal y colectivo, y aplicando criterios de reutilización de materiales y ahorro energético."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              199
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "STEM",
+            "CPSAA",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CD1",
+            "CD2",
+            "CD3",
+            "STEM3",
+            "CPSAA5",
+            "CE3",
+            "CCEC4.1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue constatar la capacidad del alumnado para aplicar las herramientas que le permitan configurar y gestionar su entorno personal de aprendizaje, favoreciendo el aprendizaje permanente. Con este fin, se comprobará que es capaz de generar contenidos digitales, de manera individual y colaborativa, utilizando herramientas ofimáticas (presentación de contenidos, hojas de cálculo...), de edición de imagen, sonido, vídeo y de modelado en 3D, realizando operaciones básicas en el manejo de documentos de solo lectura, teniendo en cuenta la persona destinataria y adecuando el mensaje al público al que está destinado, respetando la propiedad intelectual y haciendo uso de un lenguaje inclusivo y libre de estereotipos sexistas. También, se valorará la capacidad de resolver de manera razonada determinadas situaciones o problemas mediante la selección, la configuración y el uso de las aplicaciones informáticas de escritorio, web o móviles más apropiadas de su entorno personal digital."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              199
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "CPSAA",
+            "CE",
+            "CC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CD3",
+            "CD4",
+            "CD5",
+            "CPSAA1.2",
+            "CPSAA2",
+            "CPSAA3.1",
+            "CE2",
+            "CC1",
+            "CC2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue constatar que el alumnado conoce los riesgos, el contenido y las conductas inapropiadas a los que se expone a través de las diferentes formas de participación en Internet y adopta las estrategias necesarias para preservar el bienestar emocional y administrar su huella en la red. Para ello, se comprobará que el alumnado identifica prácticas de riesgo en sus comunicaciones digitales, a través de la identificación y el análisis de los elementos de hardware y software que exponen y protegen a los dispositivos digitales y las redes; y realiza acciones comunicativas democráticas y éticas que preserven el bienestar emocional y digital propio y ajeno, siendo consciente de la influencia que ejerce el grupo en las personas. Se comprobará también que gestiona de manera autónoma, responsable, crítica y reflexiva sus acciones y presencia en la red, a través de la toma de conciencia de lo que supone una huella digital activa y pasiva, y de la adopción de estrategias de actuación para mitigarlas."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              201
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA3.2",
+            "CPSAA5",
+            "CE1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se busca constatar que el alumnado es capaz de crear aplicaciones que den solución a problemas técnicos, asumiendo sus compromisos tanto en el trabajo individual como formando parte de un equipo de trabajo en el que se distribuyen los recursos y las responsabilidades de manera ecuánime. Para ello, se comprobará que el alumnado aplica estrategias del pensamiento computacional a la hora de identificar y definir los problemas y subproblemas que subyacen en los proyectos técnicos que se le plantean, y de transmitir la información relevante dentro de sus equipos de trabajo, con actitud cooperativa y respetuosa, para abordar la resolución de los mismos, siendo capaz de analizar críticamente los algoritmos y programas asociados a las soluciones propuestas y reformularlas, si fuera necesario. Asimismo, se verificará que afronta los retos de programación propuestos, evaluando las necesidades y los conocimientos técnicos sobre los lenguajes de programación y diagramas de flujo para implementar programas sencillos de manera colaborativa, investigando por iniciativa propia y de manera crítica soluciones similares ya desarrolladas disponibles a través de Internet; y que es capaz, además, de transmitir los aspectos cruciales de sus investigaciones y creaciones para construir nuevos conocimientos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              202
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Dispositivos digitales, sistemas operativos y de comunicación"
+          },
+          "saberes": [
+            {
+              "id": "ID.1.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación y análisis crítico de los principales hitos de la historia de la informática, valorando su repercusión en el estado de desarrollo actual."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis de los elementos que constituyen la arquitectura de los dispositivos digitales (la unidad central de proceso, la unidad aritmético-lógica y el registro, la memoria caché...) y descripción de sus funciones para favorecer el desarrollo de estrategias eficaces en la resolución de los problemas con criterios de reutilización de materiales y ahorro energético."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Instalación y análisis del funcionamiento de sistemas operativos y software de propósito general (antivirus, firewall…) en diversos dispositivos digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Aplicación de estrategias que permitan una adecuada gestión de archivos y carpetas. Identificación y funcionalidad de la extensión de un archivo. Reconocimiento de las propiedades específicas de un archivo ejecutable. Análisis y aplicación de recursos digitales para comprimir y descomprimir archivos y carpetas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Configuración de las operaciones básicas que permitan la restauración de equipos: formateo, particiones y copias de seguridad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.A.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Identificación de los dispositivos constituyentes de las redes informáticas locales y análisis de su funcionamiento para realizar su adecuada conexión, configuración y mantenimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Digitalización del entorno personal de aprendizaje"
+          },
+          "saberes": [
+            {
+              "id": "ID.1.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Edición y creación de contenidos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.B.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Aplicación de recursos digitales para realizar operaciones básicas en el manejo de documentos de solo lectura, incluyendo el formato pdf."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.B.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Uso avanzado de herramientas ofimáticas para la creación, gestión y difusión de contenidos en diferentes formatos (hojas de cálculo, presentaciones digitales, bases de datos...)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.B.1.3",
+              "codigoOficial": null,
+              "numeracionFuente": "1.3",
+              "texto": {
+                "es": "Uso de herramientas digitales de edición de imagen, vídeo y audio, identificando y valorando las diferencias según el formato. Empleo de recursos que permitan la conversión entre formatos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.B.1.4",
+              "codigoOficial": null,
+              "numeracionFuente": "1.4",
+              "texto": {
+                "es": "Análisis, selección y utilización de diferentes herramientas para generar entornos de trabajo colaborativo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.B.1.5",
+              "codigoOficial": null,
+              "numeracionFuente": "1.5",
+              "texto": {
+                "es": "Aplicación de herramientas digitales que permitan la iniciación al modelado 3D."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Seguridad y bienestar digital"
+          },
+          "saberes": [
+            {
+              "id": "ID.1.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Seguridad de los dispositivos digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.C.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Identificación y análisis de los elementos (hardware y software) que protegen a los dispositivos digitales y redes sobre los riesgos, las amenazas y los ataques que afectan a su seguridad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.C.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Análisis y valoración de los riesgos y amenazas presentes en los entornos digitales y aplicación de herramientas y estrategias encaminadas a evitarlos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Aplicación de estrategias para preservar la huella digital activa y pasiva."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Programación"
+          },
+          "saberes": [
+            {
+              "id": "ID.1.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Algoritmos informáticos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.D.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Identificación de las diferentes fases del proceso de programación y aplicación de estrategias de pensamiento computacional para la resolución de problemas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  203
+                ]
+              }
+            },
+            {
+              "id": "ID.1.D.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Reconocimiento y uso de simbología estandarizada para la elaboración de un diagrama de flujo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  204
+                ]
+              }
+            },
+            {
+              "id": "ID.1.D.1.3",
+              "codigoOficial": null,
+              "numeracionFuente": "1.3",
+              "texto": {
+                "es": "Conocimiento y aplicación de diferentes operadores y tipos de datos para la elaboración de algoritmos, con la finalidad de solucionar problemas a partir de diagramas de flujo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  204
+                ]
+              }
+            },
+            {
+              "id": "ID.1.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Lenguajes de programación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  204
+                ]
+              }
+            },
+            {
+              "id": "ID.1.D.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Identificación de los elementos básicos de los lenguajes de programación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  204
+                ]
+              }
+            },
+            {
+              "id": "ID.1.D.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Diseño y creación de aplicaciones informáticas sencillas, utilizando diferentes lenguajes de programación e incluyendo los orientados a objetos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  204
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar y analizar los diferentes tipos y tecnologías de almacenamientoy codificación de contenido digital, valorando su elección en función de sus características y finalidad, y adoptando medidas de seguridad adecuadas para la protección de datos y el intercambio de información."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM1",
+            "CD1",
+            "CD4",
+            "CD5",
+            "CPSAA1.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              205
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Gestionar una adecuada conexión, configuración y mantenimiento de los diferentes tipos de redes informáticas, analizando sus elementos constituyentes, aplicando estrategias adecuadas para la resolución de problemas técnicos y utilizando criterios de reutilización de materiales y ahorro energético."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM5",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              205
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Crear, integrar y reelaborar contenidos digitales de forma individual o colectiva seleccionando, de manera razonada, las aplicaciones informáticas más apropiadas para realizar modelado 3D."
+          },
+          "descriptoresOperativosRefs": [
+            "CD2",
+            "CD3",
+            "STEM3",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              206
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar y publicar contenidos en la web, integrando información textual, gráfica y multimedia en función de a quién va dirigido y el objetivo que se pretende conseguir, para generar y compartir conocimientos útiles y accesibles que faciliten el acceso a un aprendizaje permanente."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              206
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Buscar, localizar, seleccionar y organizar información y recursos procedentes de diferentes fuentes, en función de sus necesidades, con la finalidad de facilitar la posterior creación de contenido digital, haciendo uso de las herramientas del entorno personal de aprendizaje, respetando los derechos de autoría y licencias de uso y siguiendo las normas básicas de seguridad en la red."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CCL5",
+            "CD1",
+            "CD4",
+            "CPSAA4",
+            "CC1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              206
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar la importancia de la seguridad de la información en la sociedad del conocimiento, valorando las repercusiones de tipo económico, social o personal a través de la huella digital, para establecer medidas de protección frente a códigos maliciosos."
+          },
+          "descriptoresOperativosRefs": [
+            "CD4",
+            "CD5",
+            "CPSAA2",
+            "CC1",
+            "CC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              207
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer la existencia de normativa referida a la protección de datos personales y garantía de derechos digitales, haciendo un análisis crítico y consecuente de la misma, con la finalidad de determinar sus implicaciones en situaciones concretas de la vida cotidiana."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CPSAA1.2",
+            "CC1",
+            "CC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              207
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar amenazas y riesgos relativos a la exposición de datos, ciberacoso, sexting, phishing…, la desinformación, fraudes, etc, para gestionar de manera segura herramientas de identificación electrónica en la red, medidas de protección y contraste crítico de la fiabilidad de la información."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CD3",
+            "CD4",
+            "CD5",
+            "CPSAA3.1",
+            "CPSAA2",
+            "CC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              207
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Aplicar las estrategias del pensamiento computacional para resolver un problema técnico de manera individual o colaborativa."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CPSAA1.1",
+            "CPSAA3.2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              208
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar diagramas de flujo y algoritmos que permitan la implementación de soluciones de manera colaborativa."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              208
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar entornos de aplicación software para desarrollar soluciones a problemas en las que se automatice la gestión y el tratamiento de datos, valorando la importancia de la inclusión de comentarios en el código que facilitan la comprensión para otros programadores, y favoreciendo así su posterior rediseño y optimización de manera colaborativa."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA3.2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              208
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Programar, individualmente o en equipos de trabajo, aplicaciones para dispositivos digitales variados, que ejecuten acciones diversas en función de los datos introducidos y que añadan nuevas funcionalidades a creaciones hechas con otros programas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD5",
+            "CPSAA3.2",
+            "CPSAA5",
+            "CE1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              208
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-5",
+          "codigoOficial": "4.5",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar, individualmente o en equipos de trabajo, aplicaciones de realidad virtual y aumentada que faciliten la inmersión en problemas técnicos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD5",
+            "CPSAA3.2",
+            "CPSAA5",
+            "CE1",
+            "CE3",
+            "CCEC4.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              209
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD4",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se pretende comprobar que el alumnado dispone de las herramientas necesarias para identificar y seleccionar, de forma crítica y responsable, tecnologías de almacenamiento, atendiendo a sus características y finalidad, escogiendo la mejor solución entre diversas opciones y valorando siempre la seguridad en la protección de datos y en el intercambio de información tanto de los dispositivos como de las personas. Además, se evaluará la capacidad del alumnado para configurar, mantener y gestionar, de manera adecuada, los diferentes tipos de redes informáticas, valorando su importancia dada la fragmentación del territorio canario y desarrollando estrategias para la resolución de problemas técnicos relacionados de forma segura, responsable y respetuosa, mostrando una actitud crítica y proactiva, fomentando una actitud participativa y libre de estereotipos sexistas, escogiendo la mejor solución entre diversas opciones, reformulando y aprendiendo de sus errores, priorizando y valorando la seguridad de los dispositivos y de las personas, el bienestar personal y colectivo, y aplicando criterios de reutilización de materiales y ahorro energético."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              205
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CCL5",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD4",
+            "STEM3",
+            "CPSAA4",
+            "CPSAA5",
+            "CC1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "Mediante este bloque competencial se persigue comprobar que el alumnado es capaz de aplicar las herramientas y estrategias necesarias para configurar de manera óptima su entorno personal de aprendizaje. Con este fin, se comprobará que es capaz de generar contenidos digitales y que resuelve determinadas «situaciones problema» mediante la selección, la configuración y el uso de las aplicaciones informáticas más apropiadas de su entorno personal digital, tales como el modelado 3D; así como que elabora, publica y mantiene sitios web, adecuando el mensaje al público al que están destinados. Se valorará el respeto por la propiedad intelectual y el uso de un lenguaje inclusivo y libre de estereotipos sexistas. También se comprobará la capacidad del alumnado para hacer un uso crítico, ético, legal, saludable, seguro y sostenible de la red, así como para desarrollar una actitud crítica en la curación de contenidos, mediante la búsqueda de información con criterios de validez y calidad, contrastando la información, detectando la falsa, respetando las licencias de uso, añadiendo un valor adicional en la generación de nuevo contenido y haciendo uso de las herramientas de su entorno personal de aprendizaje."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              206
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CD",
+            "CPSAA",
+            "CC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL5",
+            "CD3",
+            "CD4",
+            "CD5",
+            "CPSAA1.2",
+            "CPSAA2",
+            "CPSAA3.1",
+            "CC1",
+            "CC2"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se pretende comprobar que el alumnado conoce las diferentes formas de presencia en la red y que participa de manera adecuada, adoptando medidas para la protección individual y de otras personas, y siendo consciente del impacto que la huella digital puede tener en su proyección personal, social y profesional. Con esta finalidad se comprobará que el alumnado, de forma autónoma, desarrolla y gestiona constructivamente las herramientas a su alcance con un sentido crítico y ético, siendo capaz de evaluar, de manera argumentada, los riesgos que entrañan las tecnologías digitales y de configurar adecuadamente los dispositivos, para prevenir situaciones de pérdida o exposición de datos frente a ataques maliciosos, tomando conciencia además de la existencia de leyes -española y europea-, que velan por la protección de los datos de las personas; así como de preservar el bienestar emocional y digital de las mismas. Igualmente, se verificará que es capaz hacer uso de sistemas de identificación digital para el acceso electrónico a los servicios públicos que ofrecen las diferentes administraciones, ejerciendo de este modo una ciudadanía digital activa."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              207
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA3.2",
+            "CPSAA5",
+            "CE1",
+            "CE3",
+            "CCEC4.1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se busca constatar que el alumnado es capaz de desarrollar programas funcionales que resuelvan problemas concretos de diversa índole, trabajando de manera individual, colaborativa y creativa. Para ello, se comprobará que el alumnado es capaz de aplicar las fases del pensamiento computacional al afrontar los retos de programación propuestos, asumiendo con responsabilidad las tareas propias y con actitud dialogante, y respetando la diversidad. Se verificará también que es capaz de identificar y utilizar los diagramas de flujo y algoritmos para representar y transmitir los procesos implicados en cada uno de los programas a desarrollar, siendo capaz de incorporar las aportaciones sugeridas por el equipo de trabajo u otros agentes, y de reformular las propuestas iniciales, si fuera necesario. Se constatará también que conoce los elementos que constituyen los lenguajes de programación y es capaz de emplear entornos de aplicación para el desarrollo colaborativo de soluciones tecnológicas innovadoras, sostenibles y éticas, destinadas a dispositivos digitales de uso común y acordes con su nivel, valorando las aportaciones de la inteligencia artificial en la gestión y el tratamiento de grandes cantidades de datos. Se verificará además que el alumnado es capaz de diseñar e integrar aplicaciones de realidad virtual y aumentada en sus proyectos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              209
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Dispositivos digitales, sistemas operativos y de comunicación"
+          },
+          "saberes": [
+            {
+              "id": "ID.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación y análisis crítico de los tipos y tecnologías de almacenamiento, internas y externas, valorando la conveniencia de utilizar un tipo u otro en función de las condiciones presentes."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Identificación y análisis de los distintos sistemas de codificación y almacenamiento de la información digital para la representación de valores, números, símbolos, caracteres, imágenes 2D y 3D, audio, vídeo y entornos virtuales, valorando la conveniencia de utilizar un tipo u otro en función de sus características."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Identificación de los dispositivos constituyentes de las diferentes redes informáticas y análisis de su funcionamiento para realizar su adecuada conexión, configuración y mantenimiento, teniendo en cuenta su influencia dada la fragmentación del territorio canario y aplicando criterios de reutilización de materiales y ahorro energético."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Digitalización del entorno personal de aprendizaje"
+          },
+          "saberes": [
+            {
+              "id": "ID.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Edición y creación de contenidos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.B.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Diseño y creación de sitios webs."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.B.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Aplicación de herramientas digitales de modelado en 3D."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.B.1.3",
+              "codigoOficial": null,
+              "numeracionFuente": "1.3",
+              "texto": {
+                "es": "Aplicación de herramientas de realidad virtual y aumentada a los entornos de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estrategias básicas para la publicación, comunicación, colaboración y difusión responsable en redes."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.B.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Identificación y aplicación de los derechos de propiedad intelectual y licencias de uso de contenido."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.B.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Detección de noticias falsas y fraudes en el periodismo digital y desarrollo de estrategias que permitan actuar en consecuencia."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.B.2.3",
+              "codigoOficial": null,
+              "numeracionFuente": "2.3",
+              "texto": {
+                "es": "Curación de contenidos para facilitar el acceso a la información."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.B.2.4",
+              "codigoOficial": null,
+              "numeracionFuente": "2.4",
+              "texto": {
+                "es": "Identificación y aplicación de tecnologías digitales para la accesibilidad con la finalidad de garantizar la inclusividad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Seguridad y bienestar digital"
+          },
+          "saberes": [
+            {
+              "id": "ID.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Seguridad de los dispositivos digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.C.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Identificación y aplicación de estrategias para mantener la seguridad en los dispositivos digitales y en las redes, y proteger los datos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.C.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Clasificación de los códigos maliciosos en función de su capacidad de propagación, analizando sus características e identificando los elementos sobre los que actúan."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  210
+                ]
+              }
+            },
+            {
+              "id": "ID.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Gestión eficaz de la identificación y autentificación electrónica en la red."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  211
+                ]
+              }
+            },
+            {
+              "id": "ID.2.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Conocimiento de la Ley de Protección de Datos Personales y garantía de los derechos digitales. Deducción de estrategias para organizar las actividades y regular el comportamiento de las personas en las acciones más habituales. Medidas de gestión eficiente de la huella digital."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  211
+                ]
+              }
+            },
+            {
+              "id": "ID.2.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Identificación de las principales amenazas y riesgos relativas a la exposición de datos, ciberacoso, sexting, phishing…, y aplicación de medidas de prevención."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  211
+                ]
+              }
+            },
+            {
+              "id": "ID.2.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Aplicación de estrategias que permitan la protección de la privacidad y la construcción de una identidad digital positiva, favorecedora del bienestar emocional y mitigadora de violencias sexistas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  211
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Programación"
+          },
+          "saberes": [
+            {
+              "id": "ID.2.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Aplicación de las fases del pensamiento computacional."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  211
+                ]
+              }
+            },
+            {
+              "id": "ID.2.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Identificación de los elementos básicos de los lenguajes de programación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  211
+                ]
+              }
+            },
+            {
+              "id": "ID.2.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Diseño y creación de aplicaciones informáticas utilizando diferentes lenguajes de programación, incluyendo los orientados a objetos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  211
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Tecnologías emergentes"
+          },
+          "saberes": [
+            {
+              "id": "ID.2.E.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación y análisis de aplicaciones de inteligencia artificial, big data y servidores de bases de datos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  211
+                ]
+              }
+            },
+            {
+              "id": "ID.2.E.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Diseño y creación de aplicaciones de realidad virtual y aumentada."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  211
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "El Decreto 78/2025 entra en vigor el 10 de junio de 2025 y no fija un calendario de implantación por curso escolar; aplicableDesdeCurso queda en null."
+    ]
+  }
+}

@@ -1,0 +1,1323 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.diseno",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "DIS",
+    "nombre": {
+      "es": "Diseño"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 1144,
+        "hasta": 1163
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Podemos considerar que el concepto actual de diseño tiene su origen en la Revolución Industrial con la llegada de la fabricación y venta masiva de productos, que hizo necesaria la creación de mecanismos publicitarios para facilitar su inserción. Surge, así, un sistema basado en la demanda y producción de artículos de fabricación en serie, que trajo consigo la división del trabajo y su especialización. Esto supuso una ruptura con la visión tradicional de producción de objetos artesanales y, en su evolución, se fue consolidando el concepto de diseño tal y como se entiende en la actualidad.",
+      "Se entiende por diseño la forma de idear, planificar y modificar el conjunto de objetos materiales que forman parte de nuestro entorno natural y artificial. Su estudio ofrece una particular manera de comprometerse con el futuro del planeta y, gracias a él mejorar la calidad de vida, generando bienes de consumo que modifican e intervienen en el entorno según unas necesidades concretas, pudiendo contribuir al bienestar físico, mental y emocional propio y de las demás personas. Por este motivo, y más en nuestro caso al estar en un archipiélago, se hace imprescindible la educación para la conservación y mejora del patrimonio natural, social y cultural de Canarias que lleve a la reflexión sobre el uso adecuado de los recursos naturales para conseguir un diseño sostenible y cada vez más inclusivo, y que no dañe el medioambiente.",
+      "El diseño hace partícipe a otras disciplinas e implica una necesidad de conocimientos muy diversos. Supone una aproximación tanto a los principales campos de aplicación del diseño como a distintas metodologías de análisis, estudio y creación que son aplicables a otros ámbitos de conocimiento y proporciona al alumnado herramientas para desarrollar ideas, representarlas y dar solución a problemas concretos, favoreciendo el uso de la metodología basada en proyectos propias de esta materia, que van a permitir al alumnado iniciarse en el diseño y establecer las bases para afrontar estudios superiores relacionados con esta disciplina. De esta forma la materia se organiza alrededor de cuatro ejes principales. El primero se centra en el análisis e identificación de las diferentes estructuras en los productos de diseño. El segundo, en aspectos relativos al conocimiento de las técnicas, herramientas y procedimientos de creación y representación propios del diseño bidimensional y tridimensional. El tercero, se relaciona con las metodologías proyectuales aplicadas al desarrollo de productos innovadores y creativos sobre la base del diseño inclusivo. Y, por último, en el cuarto, se estudia la relación entre forma y función.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "La materia de Diseño, al plantear los aprendizajes a partir de la realización de proyectos y la aplicación de una metodología basada en proyectos, contribuye al logro de los objetivos de etapa.",
+      "El trabajo individual y el trabajo colaborativo propicia en el alumnado el respeto por la diversidad de opiniones y la pluralidad de soluciones a los proyectos planteados, favoreciendo la consolidación de su madurez personal, de su espíritu crítico y el ejercicio de una ciudadanía democrática (a), también la adquisición de estrategias para la prevención, detección y resolución pacífica de conflictos en cualquier ámbito (b). En la aplicación de la metodología basada en proyectos y sus distintas fases, la inicial de recopilación y análisis de datos, la de planificación y proyección hasta la evaluación y defensa, desarrollará hábitos de lectura, estudio y disciplina, para mejorar su aprendizaje y desarrollo personal (d). El alumnado podrá tomar decisiones, buscar recursos, investigar de manera reflexiva y realizar análisis crítico, acercándose a su vez a la terminología propia del diseño, dominando, tanto en su expresión oral como escrita, la lengua castellana (e).",
+      "El estudio de las producciones de otras épocas, estilos y tendencias, así como las necesidades para las que se han creado, favorece el desarrollo de la sensibilidad artística, el criterio estético, el pensamiento divergente y creativo, como fuente de formación (l) para contribuir al aprovechamiento eficaz de su aprendizaje de forma activa, fomentando el espíritu emprendedor (k) y estableciendo vínculos con la transferencia de conocimientos para que los aprendizajes se apliquen a la vida y a sus estudios posteriores y como enriquecimiento cultural, todo ello vinculado a las fases de investigación, búsqueda y creación de las producciones propias del alumnado (j). Se toma conciencia de cómo la metodología basada en proyectos ayuda a resolver problemas de diseño, para aplicarlos al desarrollo de sus producciones, para las que puede tomar como punto de partida la reinterpretación de producciones anteriores que suponen transformaciones e innovaciones, y que deben dirigirse a solventar las nuevas necesidades, que mejoren la vida de la humanidad y pongan en valor, de manera crítica, el mundo contemporáneo (h). Al conocer productos vinculados al diseño de mujeres y hombres relevantes se contribuye a la igualdad de derechos y al reconocimiento de las aportaciones de diversas culturas tanto desde su estudio como desde la realización (c).",
+      "El alumnado debe acceder a conocimientos que faciliten el dominio de habilidades propias del diseño, adquiriendo consciencia de la complejidad de los procesos (i) así como utilizar con solvencia y responsabilidad las tecnologías, sin olvidar los medios analógicos, pero aprovechando los recursos digitales desde la búsqueda, planificación, creación y presentación, facilitando su realización de una forma eficaz, acorde a los recursos y medios actuales (g). Es indispensable el conocimiento del entorno para el que se ha creado el producto de diseño y la elección de los materiales, atendiendo a su viabilidad y propiciando actitudes de respeto y prevención en el ámbito de la movilidad segura y saludable (n), hacia un diseño inclusivo y comprometido con la sostenibilidad, fomentando una actitud responsable y comprometida en la lucha contra el cambio climático, mitigando el impacto medioambiental (o).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "De esta manera, la materia contribuye al desarrollo y la adquisición de la Competencia en comunicación lingüística (CCL), a través del análisis oral y escrito de productos y soluciones de diseño, en los que se irán reconociendo los elementos del lenguaje visual, así como las diferentes estrategias utilizadas durante el proceso de realización de los mismos. Del mismo modo, el alumnado, al exponer sus procesos creativos, mediante exposiciones orales o a través de la realización de memorias escritas, deberá utilizar el lenguaje con precisión y corrección, sintetizando y justificando las decisiones tomadas durante el proceso. Comprenderá textos y mensajes orales relacionados con el diseño, e irá adquiriendo un vocabulario técnico relacionado con la materia. Y por último, considerando el lenguaje visual como un lenguaje signado o multimodal, el alumnado se aproximará a las posibilidades expresivas de cada uno de los elementos básicos, siendo capaz de unirlos en una sintaxis con la que será capaz de comunicar, transmitir mensajes o proponer soluciones a diversos problemas de diseño.",
+      "La materia de Diseño contribuye a la Competencia plurilingüe (CP), ampliando y enriqueciendo el vocabulario propio de la materia utilizando terminología específica procedente de diferentes lenguas. El despegue de la tecnología en todos sus campos y el desarrollo de la mercadotecnia, la publicidad y las redes sociales, más concretamente, han sido los grandes propulsores de anglicismos que a día de hoy se emplean frecuentemente para nombrar, por ejemplo, diferentes fases de un proyecto de diseño. También se hace necesario el conocimiento de lenguas específicas para poder buscar información o bibliografía, así como para nombrar y expresar verbalmente títulos y autores de manera correcta, ampliando de esta manera el repertorio lingüístico y comunicándose por tanto de una manera eficaz. Sin olvidar que conocer y valorar críticamente la diversidad lingüística y cultural presente en la sociedad, integrándola en el desarrollo personal, promueve la cohesión social.",
+      "La contribución de la materia a la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM), se ve reflejada en los diferentes aprendizajes que el alumnado deberá desarrollar para llevar a término los distintos proyectos, utilizando algunos métodos propios del razonamiento matemático, del pensamiento científico y de la tecnología e ingeniería: saber definir problemas, estimar posibles soluciones, elaborar estrategias, diseñar pequeñas investigaciones, analizar resultados y comunicarlos, que permitan transformar el entorno y nuestra sociedad de acuerdo con las necesidades o deseos de las personas en un marco de igualdad, seguridad, responsabilidad y sostenibilidad. Además, el propio método de trabajo empleado para la resolución de problemas de diseño, implica actitudes como la atención, la disciplina y el rigor.",
+      "El uso seguro, saludable, sostenible, crítico y responsable de las tecnologías digitales para el aprendizaje, para el trabajo y para la participación en la sociedad, así como la interacción con estas, facilita el desarrollo de la Competencia digital (CD). La materia de Diseño contribuye a esta competencia a través del uso de las tecnologías digitales como medio de búsqueda y ampliación de la información, y con el uso de aplicaciones informáticas de dibujo o diseño, que ofrecen soportes y herramientas que facilitan los procesos creativos de una forma más actual. La búsqueda de información, fundamental como punto de partida en todo proceso creativo, la creación de nuevas imágenes o su manipulación, la elaboración de proyectos, la presentación y el almacenamiento, son procesos que, en la actualidad, se realizan haciendo uso de las tecnologías digitales, de forma eficaz y generalizada.",
+      "El Diseño contribuye al desarrollo de la Competencia personal, social y de aprender a aprender (CPSAA), a través del fomento del autoconocimiento favoreciendo actitudes como el respeto, la aceptación de las producciones ajenas, la valoración de las diferentes manifestaciones del diseño en las diferentes culturas y entre diferentes personas, y consolidándose la madurez personal y la autoconfianza. Esta materia también favorece procesos experimentales en los que el alumnado se inicia en el campo de la investigación reflexiva, procesos que le permiten complementar otras áreas de conocimiento, a la vez que facilitan el aprendizaje de las experiencias ajenas, al trabajar proyectos en equipo. Por esta razón, el Diseño también contribuye a aprender a aprender, pues favorece en el alumnado una mayor y mejor gestión de sus propias capacidades y conocimientos, para un crecimiento personal constante, además de contribuir al bienestar físico, mental y emocional propio y de las demás personas.",
+      "La Competencia ciudadana (CC), se refleja en la materia de Diseño al contribuir a que el alumnado pueda ejercer una ciudadanía responsable y participar plenamente en la vida social y cívica, aplicando las principales normas, derechos, deberes y libertades que forman parte de la Constitución Española de 1978 y de la Unión Europea. Trabajando a través de proyectos colaborativos, se favorece una actitud de respeto hacia las demás personas, mejorando la convivencia y contribuyendo al bienestar individual y colectivo. Además, a través de esta materia, se fomenta y propician los estilos de vida sostenibles con el planeta, analizando de manera crítica las consecuencias de la intervención humana en el entorno, desde los puntos de vista social, económico, cultural, tecnológico y ambiental y participando en proyectos que ayuden a conseguir los Objetivos de Desarrollo Sostenible planteados en la Agenda Canaria 2030.",
+      "La Competencia emprendedora (CE), consiste en convertir las ideas en acciones, utilizando los conocimientos específicos necesarios para generar propuestas de valor. A través de la participación y actitud emprendedora el alumnado desarrolla la búsqueda, contraste y evaluación de propuestas, para elaborar y poner en práctica proyectos sostenibles y de valor social, cultural y económico. El alumnado crea, diseña y replantea ideas, utilizando la imaginación, la creatividad, el pensamiento estratégico y la reflexión ética, crítica y constructiva para transformar su entorno próximo, a través de experimentos sencillos, prototipos o modelos que le ayuden a entender algunos de los fenómenos que ocurren a su alrededor. Desde este planteamiento, debe mostrar interés por aprender, por investigar y por afrontar nuevos retos, tomando decisiones de manera activa y participando en proyectos colaborativos para el desarrollo de habilidades comunicativas, de empatía y de negociación.",
+      "Por último, hay que destacar la contribución de la materia a la Competencia en conciencia y expresión culturales (CCEC), que se evidencia en la necesidad de conocer la historia y la evolución de los ámbitos y objetos de diseño en las diferentes culturas. Favorece actitudes de respeto y de comprensión en el modo en que las ideas, las opiniones, los sentimientos y las emociones se expresan y se comunican de forma creativa en las distintas manifestaciones culturales y artísticas, reforzando el sentido de pertenencia a la sociedad y el enriquecimiento de la identidad a través del diálogo intercultural, con especial atención al archipiélago canario, como bien y recurso para su uso, cuidado y conservación, favoreciendo el aprecio por la herencia cultural a escala local, nacional y europea.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Diseño se han establecido seis competencias específicas que se desarrollan a partir de las competencias clave y los objetivos establecidos para la etapa de Bachillerato. Estas competencias específicas están diseñadas de manera que varias de ellas se pueden acometer de manera global y simultánea, por lo que el orden en el que se presentan no es vinculante ni representa ninguna jerarquía entre ellas. Asimismo, se establecen, para toda la materia, doce criterios de evaluación, que se desprenden directamente de dichas competencias específicas, y que están diseñados para comprobar su grado de consecución.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Los saberes básicos son los conocimientos, destrezas y actitudes que constituyen los contenidos propios de la materia cuyo aprendizaje es necesario para la adquisición de las competencias específicas. Los saberes propios de la materia de Diseño se estructuran en cuatro bloques, que deberán aplicarse en diferentes contextos reales, partiendo del entorno local al global, para alcanzar el logro de las competencias específicas. Se han incluido los saberes referidos a Canarias, con objeto de que el alumnado conozca y valore el patrimonio social, cultural e histórico, con especial atención al desarrollo de esta disciplina en nuestro archipiélago y para que valore la importancia del diseño, su impacto medioambiental y la contribución del ecodiseño y del diseño sostenible como solución a los retos socioambientales en la sociedad de consumo, con especial atención a los aspectos de la riqueza y diversidad natural del archipiélago y para que muestre actitudes de interés por su conocimiento, conservación y mejora.",
+      "El Bloque I, «Concepto, historia y campos del diseño», permite abordar la evolución histórica del diseño, así como conceptos más recientes como el diseño sostenible o el diseño inclusivo. Este bloque también incluye los diversos campos de aplicación del diseño, así como una reflexión sobre ausencias y olvidos en este ámbito, como el de las mujeres diseñadoras o las aportaciones al diseño contemporáneo de culturas que no pertenecen al foco occidental.",
+      "El Bloque II, «El diseño: configuración formal y metodología», abarca los elementos básicos del lenguaje propio del diseño y sus formas de organización, desde la sintaxis visual y los significados, hasta las diferentes fases del proceso de diseño. En este bloque se incorpora, asimismo, una aproximación a aspectos relacionados con la propiedad intelectual.",
+      "El Bloque III, «Diseño gráfico», incorpora los campos propios del diseño bidimensional, como la tipografía, el diseño editorial, la imagen de marca, la señalética y el diseño publicitario bidimensional. También recoge las técnicas propias del diseño gráfico y la maquetación, además de la concepción de proyectos de comunicación gráfica.",
+      "El Bloque IV, «Diseño tridimensional», atiende al diseño de producto y el diseño de espacios. En este bloque se incluyen los sistemas de representación espacial adecuados a cada proyecto, considerando también el packaging o la representación de volúmenes. También se introducen los conceptos de antropometría, ergonomía y biometría, además del de la diversidad funcional. En cuanto al diseño de espacios, se recogen, por un lado, sus tipologías y las sensaciones que estos generan y, por otro, el diálogo entre el diseño y la funcionalidad de los espacios, incorporando el diseño universal para asegurar la accesibilidad e inclusión al mayor número de personas posible.",
+      "El aprendizaje de estos saberes cobra todo su sentido gracias al papel fundamental que juegan en el proceso de adquisición de las competencias específicas. Por ello, el orden secuencial en el que están presentados no debe interpretarse como una invitación a que sean tratados de manera sucesiva; al contrario, será necesario abordarlos de manera integral, con el fin de facilitar al alumnado una visión global del diseño.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "El desarrollo de situaciones de aprendizaje en la materia de Diseño proporciona al alumnado estrategias que propicien un aprendizaje activo, creativo, innovador y participativo, fundamentado en el planteamiento teórico-práctico propio de esta disciplina. Se favorece la consecución de aprendizajes significativos y funcionales, que lo capacitan para trabajar la interdisciplinariedad desde las distintas materias y lo prepara para afrontar el futuro, como contribución a la formación global del alumnado, encaminado hacia el logro de su autonomía personal y los procesos reflexivos, así como el pensamiento crítico y el ejercicio de una conciencia social responsable, que atiende a factores como el consumo, la protección de la propiedad intelectual propia y ajena o la sostenibilidad, desde la prevención y gestión responsable de los residuos, seguridad, toxicidad e impacto medioambiental de los materiales.",
+      "Desde las situaciones de aprendizaje se trabajan, conjuntamente, los bloques de saberes siempre de acuerdo a la naturaleza de las mismas. De esta forma, los conocimientos, destrezas y actitudes se adquieren y se aplican de manera interrelacionada y progresiva, profundizando en su grado de complejidad. Se promueve la aplicación de estrategias de pensamiento visual como fórmula de aprendizaje del lenguaje propio de la materia y de la historia del diseño, que conducen a la síntesis, la esquematización y la simplificación de las formas aplicables a distintos aprendizajes y producciones, también se enfrentan a retos para solucionar las nuevas necesidades de la sociedad actual en la creación de productos o la reinterpretaciones de productos existentes aportando mejoras. La aplicación de la metodología basada en proyectos permite trabajar y poner en valor las distintas fases del mismo, no únicamente dota de importancia al resultado final, y a su vez posibilita reconocer las múltiples soluciones que se pueden aportar, lo que implica el desarrollo de estrategias de indagación, búsqueda, planificación y creación. Para ello, el alumnado adquiere destrezas de manipulación de recursos visuales y materiales, y propicia la experimentación con diferentes técnicas, tanto analógicas como digitales. A su vez, se han de tener en cuenta las motivaciones y los intereses del alumnado, desde el planteamiento de procesos creativos contextualizados y aplicados a situaciones reales, de igual manera se debe atender a los distintos ritmos de aprendizaje y contribuir a la capacidad inclusiva de la educación, de acuerdo con los principios del Diseño Universal para el Aprendizaje (DUA).",
+      "El alumnado debe ser partícipe de manera activa de su aprendizaje, desarrollando métodos de investigación, planificación y exposición. Para ello es preciso que adquiera estrategias de búsqueda y localización, análisis crítico de las habilidades para procesar y gestionar la información, a la vez estrategias de argumentación y expresión de sus ideas, y destrezas desde el conocimiento y uso del lenguaje bidimensional y tridimensional. Desde la naturaleza de la materia se aplican técnicas propias de la metodología basada en proyectos, desde la ideación a la propuesta final. El planteamiento de las distintas fases de un proyecto permitirá al alumnado realizar propuestas creativas e innovadoras, propiciando estrategias para seleccionar la mejor opción, atendiendo a su viabilidad, a los medios, a los recursos y a la sostenibilidad; y dar solución a un reto o problema planteado, entendiendo el error como parte del aprendizaje. La búsqueda y experimentación con diversos materiales favorecerá la expresión de ideas y emociones a través del lenguaje bidimensional o tridimensional. Desde esta óptica, el alumnado en todo el proceso de desarrollo de los proyectos tendrá que elaborar una fundamentación teórica, utilizando herramientas analógicas o digitales (dossier, presentaciones interactivas o multimedia, entre otras). A su vez, en los planteamientos prácticos, desde el desarrollo de la fase de bocetaje a la realización de la propuesta final, experimentará con los distintos materiales y técnicas, para producir diseños desde la reinterpretación de productos o de sus propias propuestas personales. También podrá intervenir en espacios del propio centro o de su entorno cercano, realizando exposiciones individuales o colectivas, de tal manera pondrá en práctica los aprendizajes que se propician desde la materia y comprenderá la importancia de la implementación de todas las fases de los proyectos. Desde la aplicación de estas metodologías innovadoras se puede contemplar el desarrollo de Aprendizajes Servicios, que permiten la participación, la colaboración y favorecen la inclusión, el alumnado observa de forma directa como lo aprendido revierte en el entorno, dotando de utilidad sus producciones.",
+      "Desde el trabajo individual y colaborativo, utilizando diversos tipos de agrupamientos y en el reparto de roles variables, se favorece la responsabilidad y la toma de decisiones como vía de desarrollo personal, de la autonomía y de la empatía, aspectos que facilitan herramientas al alumnado para la gestión y resolución de conflictos, construyendo una mirada abierta que le capacite para su integración en la sociedad actual.",
+      "El planteamiento de las situaciones de aprendizaje deberá permitir que el alumnado trabaje sus proyectos desde la expresión de sus ideas y sus emociones, permitiendo que muestre su mirada personal al reinterpretar diseños de otras y otros creadores o desde sus propias propuestas, de forma que se establezca el lenguaje bidimensional y tridimensional como una vía de comunicación, fomentando el interés y grado de implicación del alumnado hacia la materia y su comprensión. Por último, potenciarán los procesos reflexivos, favoreciendo la autoevaluación y la coevaluación."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar los fundamentos del diseño a partir del análisis crítico de diversos productos de diseño bidimensional y tridimensional, para profundizar en la comprensión tanto de la complejidad de los procesos y herramientas que intervienen, como de la dimensión simbólica y semántica de sus lenguajes."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1148,
+          1153
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica se centra en el desarrollo de aprendizajes relativos a la identificación de los fundamentos del diseño, al análisis de los diversos productos de diseño bidimensionales o tridimensionales, al conocimiento de los procesos y herramientas empleados en su creación y a la dimensión simbólica y semántica de sus lenguajes, para reflexionar sobre las posibilidades de volver a transformar objetos ya existentes, mejorándolos en su funcionalidad o adaptándolos a nuevas necesidades."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Reflexionar sobre los orígenes, los principios y las funciones del diseño, comparando y analizando producciones de diferentes épocas, estilos y ámbitos de aplicación, para valorar de manera crítica su impacto medioambiental, social y cultural."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "CP3",
+        "STEM2",
+        "CD1",
+        "CPSAA1.1",
+        "CC1",
+        "CC3",
+        "CC4",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1149,
+          1154
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "En los aprendizajes relativos a la competencia específica se hace una reflexión sobre los orígenes, los principios y funciones del diseño, comparando y analizando las distintas producciones a lo largo de la historia, y cómo en distintos periodos no se ha tomado conciencia del impacto medioambiental que producían. Así mismo, permite adquirir los conocimientos necesarios para considerar el diseño actual como una potente herramienta de sensibilización sobre la sostenibilidad, al establecer estrategias de desarrollo de una conciencia crítica y activa sobre su impacto medioambiental, social y cultural. A su vez, supone una puesta en valor de las aportaciones de las mujeres y de las culturas no occidentales al ámbito del diseño."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar de manera crítica y rigurosa distintas configuraciones formales, compositivas y estructurales presentes en el diseño de diferentes productos, identificando sus elementos plásticos, estéticos, funcionales y comunicativos, para enriquecer sus propias producciones y conformarse una opinión informada sobre el impacto de la disciplina en la inclusión, la sostenibilidad y el consumo responsable."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM1",
+        "STEM5",
+        "CD2",
+        "CC1",
+        "CC4",
+        "CE1",
+        "CCEC1",
+        "CCEC2",
+        "CCEC4.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1149,
+          1155
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "En la competencia específica se desarrollan aprendizajes relacionados con el análisis de los procesos y métodos utilizados, atendiendo de manera significativa a las distintas configuraciones formales, compositivas y estructurales presentes en diferentes ámbitos del diseño, para identificar sus elementos constitutivos, descifrar y descubrir sus estrategias comunicativas, aplicar criterios éticos en la generación o mejora de los productos, respondiendo a la manipulación de la propaganda, y poder opinar sobre el impacto del diseño en la inclusión, la sostenibilidad y el consumo responsable."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Planificar proyectos de diseño individuales y colectivos, seleccionando con criterio las herramientas y recursos necesarios, para proponer y analizar críticamente soluciones creativas en respuesta a necesidades propias y ajenas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM3",
+        "CD3",
+        "CPSAA3.2",
+        "CPSAA5",
+        "CC4",
+        "CE1",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1149,
+          1157
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con esta competencia específica se profundiza en la metodología basada en proyectos, concretamente en la planificación de proyectos de diseño individuales y colectivos, y en la organización de tareas, seleccionando adecuadamente las herramientas y recursos necesarios para realizar propuestas innovadoras y sostenibles, evaluando su adecuación a los objetivos planteados, y entendiendo que el proceso es una parte fundamental del diseño que tiene la misma relevancia que el producto final."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Desarrollar propuestas personales e imaginativas a partir de ideas o productos preexistentes, considerando la propiedad intelectual, para responder con creatividad a necesidades propias y ajenas y potenciar la autoestima y el crecimiento personal."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "CPSAA1.1",
+        "CC1",
+        "CC4",
+        "CE1",
+        "CE2",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1149,
+          1158
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Siguiendo con la metodología basada en proyectos, en los aprendizajes de esta competencia específica se van a desarrollar propuestas de rediseño personales y creativas, partiendo de ideas o productos preexistentes, como respuesta a necesidades personales, para desarrollar una ciudadanía responsable y respetuosa con la propiedad intelectual, tanto ajena como propia, valorando también su coherencia, adecuación y sostenibilidad para reforzar la autoconfianza y la autoestima."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Crear productos de diseño, respondiendo con creatividad a necesidades concretas, incluidas las del diseño inclusivo y las relativas a la sostenibilidad, y cuidando la corrección técnica, la coherencia y el rigor de la factura del producto, para potenciar una actitud crítica y responsable que favorezca el desarrollo personal, académico o profesional en el campo del diseño."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CE3",
+        "CCEC3.2",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1149,
+          1159
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Y por último, en esta competencia específica se desarrollan todos los aprendizajes correspondientes a la metodología basada en proyectos, realizando productos de diseño tanto individuales como colectivos para responder con creatividad a necesidades concretas, y valorando el diseño inclusivo y la sostenibilidad como punto de partida esencial en todas las propuestas de diseño gráfico, de productos o de espacios."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer la relación entre las formas y las funciones en objetos de diseño bidimensionales o tridimensionales, percibiéndolos como productos susceptibles de transformaciones y mejoras respecto a su funcionalidad o nuevas necesidades, haciendo uso de medios analógicos o digitales, para descifrar tanto los procesos materiales como los conceptuales empleados en su creación."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CPSAA4",
+            "CC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1153
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Explicar en los objetos de diseño las dimensiones simbólicas y semánticas propias de su lenguaje, identificando sus elementos sintácticos y constitutivos, mediante la investigación de fuentes documentales de diversos tipos, tanto analógicos como digitales, para comprender la sintaxis propia del lenguaje del diseño."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CD1",
+            "CPSAA4",
+            "CC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1153
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar las características fundamentales de los principales movimientos, corrientes, escuelas y teóricos relacionados con el diseño y analizar las diferentes soluciones de diseño vinculadas a un mismo problema, comparando productos de diseño de contextos geográficos, históricos y sociales diversos, ayudado por medios digitales o analógicos, e investigando y reflexionando sobre las aportaciones de las mujeres, de las culturas no occidentales y sobre su impacto en el entorno, para valorar la contribución de diversas culturas, de las figuras relevantes tanto de mujeres como de hombres destacados en esta disciplina y para establecer argumentos que promuevan una conciencia comprometida con el medio ambiente y con el diseño sostenible."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CP3",
+            "STEM2",
+            "CD1",
+            "CPSAA1.1",
+            "CC1",
+            "CC3",
+            "CC4",
+            "CCEC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1154,
+              1155
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reconocer las estructuras formales, compositivas y estructurales en objetos y productos de diferentes ámbitos del diseño, analizando los procesos y métodos utilizados para desarrollarlos, así como las finalidades funcionales y comunicativas de las que parten y su impacto en aspectos tales como la inclusión, la sostenibilidad y el consumo responsable, para identificar los diferentes elementos constitutivos del diseño, descifrar y descubrir sus estrategias comunicativas o funcionales subyacentes, teniendo en cuenta el entorno digital, y conocer las metodologías y procesos proyectuales que conducen a la creación de productos de diseño."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM5",
+            "CD2",
+            "CC1",
+            "CC4",
+            "CCEC1",
+            "CCEC4.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1156
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar las relaciones compositivas en distintos productos de diseño, identificando los elementos básicos del lenguaje visual y explicando su impacto en aspectos como la inclusión, la sostenibilidad y el consumo responsable, para aplicar criterios éticos en la generación de productos y responder a la manipulación de la propaganda."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM5",
+            "CC4",
+            "CE1",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1156
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Planificar adecuadamente proyectos de diseño individuales o colectivos estableciendo objetivos en función del impacto de comunicación buscado, programando las distintas fases del plan de desarrollo, seleccionando con criterio las herramientas y medios tanto digitales como analógicos disponibles, y participando activamente en la organización adecuada de los equipos de trabajo en el caso de proyectos colaborativos, para realizar propuestas innovadoras y sostenibles."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CD3",
+            "CPSAA3.2",
+            "CPSAA5",
+            "CC4",
+            "CE1",
+            "CCEC4.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1157
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Evaluar las propuestas de planificación propias y ajenas de manera crítica y argumentada, analizando su adecuación al impacto de comunicación buscado, para valorar la importancia que tienen tanto el proceso como el producto final."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "CE3",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1157
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proyectar soluciones innovadoras de diseño, planificando el proceso en respuesta a necesidades personales o de expresión propias a partir de ideas o productos preexistentes, para realizar adaptaciones creativas y familiarizarse con las regulaciones que protegen la propiedad intelectual, asimilándola como un elemento esencial para el ejercicio de una ciudadanía responsable y respetuosa."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CD2",
+            "CE1",
+            "CE3",
+            "CCEC3.1",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1158
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Evaluar críticamente las propuestas de diseño personales valorando su coherencia, adecuación y sostenibilidad, y considerando el respeto a la propiedad intelectual, tanto a la ajena como a la propia, para reforzar la autoconfianza y la autoestima."
+          },
+          "descriptoresOperativosRefs": [
+            "CD2",
+            "CPSAA1.1",
+            "CC1",
+            "CC4",
+            "CE2",
+            "CCEC3.1",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1158
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Realizar proyectos elementales de diseño, de manera individual y colectiva, aplicando soluciones creativas en la elaboración de un producto innovador, incorporando en su proceso herramientas digitales, y teniendo en cuenta sus implicaciones sociales, económicas, y de transformación , así como el respeto por los aspectos relacionados con la propiedad intelectual, para comprender que el diseño es un proceso que conlleva la realización de un producto y que debe cumplir con unos criterios y unas normas de elaboración, ejecución y representación."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CD2",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1159,
+              1160
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Evaluar de manera crítica y argumentada trabajos de diseño propios y ajenos, valorando tanto la selección coherente y adecuada de los recursos técnicos, como el rigor y la corrección en la aplicación de las técnicas de ejecución, desarrollo y presentación del producto, además de su grado de adecuación al impacto de comunicación buscado y al respeto a la propiedad intelectual, para desarrollar una actitud crítica y autocrítica que contribuya a la construcción y el enriquecimiento de la identidad personal, académica y profesional."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CE1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1160
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-3",
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Identificar las posibilidades de intervención del diseño inclusivo y universal, en diferentes ámbitos de la actividad humana, poniendo en valor los proyectos innovadores y teniendo en cuenta la sostenibilidad como herramienta de transformación de la sociedad, y realizar colectivamente un proyecto inclusivo y sostenible, respondiendo con creatividad a necesidades concretas y argumentando las decisiones, para tomar conciencia de que el diseño inclusivo y la sostenibilidad estén en la base de todas las propuestas de diseño gráfico, de producto o de espacios, y que sean también el punto de partida desde el que argumentar rediseños innovadores de productos ya existentes, tanto en proyectos individuales como colectivos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CD3",
+            "CPSAA2",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1160
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CPSAA4",
+            "CC1",
+            "CCEC2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de comprender la sintaxis propia del lenguaje del diseño y descifrar tanto los procesos materiales como los conceptuales empleados en su creación, analizando la relación entre las formas y las funciones en objetos de diseño bidimensionales o tridimensionales, así como las dimensiones simbólicas y semánticas propias de su lenguaje, e identificando sus elementos sintácticos y constitutivos, mediante la investigación de fuentes documentales de diversos tipos, tanto analógicas como digitales. Se verificará que el alumnado es capaz de analizar productos de diseño de manera crítica y a su vez reconocer los aspectos comunicativos, funcionales, formales y estéticos, favoreciendo la correcta recepción de los mismos y su deleite. Todo ello con la finalidad de que el alumnado los perciba como productos susceptibles de transformaciones y mejoras respecto a su funcionalidad o a nuevas necesidades, atendiendo a la sociedad de consumo, a la sostenibilidad y a la ecología, valorando su importancia en los distintos ámbitos del diseño."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1153,
+              1154
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CP3",
+            "STEM2",
+            "CD1",
+            "CPSAA1.1",
+            "CC1",
+            "CC3",
+            "CC4",
+            "CCEC1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se constatará que el alumnado es capaz de identificar las características fundamentales de los principales movimientos, corrientes, escuelas y personas teóricas vinculados con el diseño, reflexionando sobre sus orígenes y su evolución como herramienta para cubrir las necesidades de las personas y ofrecer soluciones creativas e inclusivas en diversos campos, y comparando e investigando productos de diseño pertenecientes a contextos geográficos, históricos y socialmente variados, incluidos los originados en Canarias, ayudado por medios digitales o analógicos. Se verificará que conoce los cambios que ha sufrido el concepto de diseño a lo largo de la historia y reconoce la importancia de la planificación en el desarrollo de productos, así como se propicia una reflexión sobre el impacto medioambiental que ha producido la humanidad en el diseño de productos a lo largo del tiempo, sobre las aportaciones al diseño desde la perspectiva de género y desde la interculturalidad. Todo ello con la finalidad de que valore desde el canon universal de diseño la contribución que las diversas culturas y diferentes personas, tanto mujeres como hombres, han hecho a esta disciplina y como se puede ofrecer argumentos para promover a través del diseño una conciencia ecosocialmente comprometida y sostenible, y soluciones para amortiguar el cambio climático."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1155
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM5",
+            "CD2",
+            "CC1",
+            "CC4",
+            "CE1",
+            "CCEC1",
+            "CCEC2",
+            "CCEC4.1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de analizar de forma crítica objetos y productos de diferentes ámbitos del diseño, identificando la función de los mismos, reconociendo sus estructuras formales y compositivas, comprendiendo los procesos y métodos utilizados para desarrollarlos, e investigando sobre la sostenibilidad tanto de los productos de diseño como de su proceso de fabricación. Se verificará que el alumnado es capaz de analizar productos de diseño reconociendo la finalidad para la que han sido diseñados, e identificando las estrategias comunicativas empleadas. Todo ello con el objetivo de que el alumnado reflexione sobre la intención o el mensaje de dichos productos, valorando aspectos como la sostenibilidad, la inclusión o la promoción de un consumo responsable, para escapar a la manipulación de la propaganda y aplicar estos aprendizajes a sus propias producciones."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1156
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM3",
+            "CD3",
+            "CPSAA3.2",
+            "CPSAA5",
+            "CC4",
+            "CE1",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se comprobará que el alumnado es capaz de organizar y planificar el proceso creativo en diferentes ámbitos del Diseño, clasificando y seleccionando las herramientas disponibles, tanto analógicas como digitales, dividiendo el proceso en diferentes partes según los objetivos que se plantee, y organizando los equipos de trabajo en el caso de proyectos colaborativos. Se verificará que el alumnado es capaz de ofrecer soluciones novedosas y sostenibles a partir de un proceso creativo previamente planificado y organizado. Todo ello con la finalidad de que el alumnado sea capaz de hacer una valoración crítica de su propio proceso de trabajo así como de sus propuestas, analizando si son innovadoras, viables y sostenibles. De este modo, podrá comprender la importancia del proceso en todo proyecto de diseño y deberá tener en cuenta al público espectador o la persona usuaria del producto diseñado y la relación entre forma y función."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1157,
+              1158
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CPSAA1.1",
+            "CC1",
+            "CC4",
+            "CE1",
+            "CE2",
+            "CE3",
+            "CCEC3.1",
+            "CCEC3.2",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se comprobará que el alumnado es capaz de desarrollar propuestas personales, innovadoras y creativas de diseño gráfico y diseño de producto, planificando el proceso creativo en respuesta a necesidades personales o de expresión propias a partir de ideas o productos preexistentes, aplicando una metodología proyectual de trabajo individual o colectivo, utilizando recursos tanto analógicos como digitales, y teniendo también en cuenta nociones básicas de antropometría y ergonomía. Se verificará que el alumnado es capaz de evaluar críticamente las propuestas personales valorando su coherencia, la viabilidad y adecuación a los objetivos propuestos, o la sostenibilidad de sus diseños, en la ecología y la defensa del medioambiente, especialmente en el ámbito de Canarias, y considerando el respeto a la propiedad intelectual, tanto a la ajena como a la propia. Todo ello con la finalidad de desarrollar en el alumnado una actitud empática que favorezca el ejercicio de una ciudadanía responsable y respetuosa, y reforzar la autoconfianza, la autoestima y el crecimiento personal."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1159
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CPSAA2",
+            "CC4",
+            "CE1",
+            "CE3",
+            "CCEC3.2",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se constatará que el alumnado, mediante la realización de manera individual o colectiva de proyectos elementales de diseño gráfico, industrial y de espacios habitables, es capaz de comprender que el diseño es un proceso que conlleva la realización de un producto que debe cumplir con unos criterios y unas normas de elaboración, ejecución, representación y autoría. Se comprobará que es capaz de interpretar la información gráfica aportada en supuestos prácticos de diseño, que realiza previamente bocetos y croquis para visualizar sus propuestas y valorar la adecuación del trabajo a los objetivos propuestos y que utiliza de manera adecuada las herramientas y las técnicas de representación gráfica. Además, aplicando la metodología proyectual, e incorporando la sostenibilidad y el diseño inclusivo como herramientas transformadoras, se verificará la realización de propuestas innovadoras o que supongan la argumentación de rediseños ya existentes, que tengan en cuenta aspectos económicos, sociales, ecológicos, antropométricos y ergonómicos. Todo ello con la finalidad de desarrollar una actitud crítica y autocrítica que contribuya a la construcción y el enriquecimiento de la identidad personal, académica y profesional, y que permita al alumnado evaluar con criterio y de forma argumentada los trabajos de diseño propios y ajenos, seleccionando y utilizando de manera coherente los recursos técnicos y procedimentales a su alcance."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1160,
+              1161
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Concepto, historia y campos del diseño"
+          },
+          "saberes": [
+            {
+              "id": "DIS.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Iniciación en el diseño, análisis de sus clasificaciones y campos de aplicación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Reflexión y comprensión de la evolución histórica del diseño. Análisis y explicación del concepto y de las teorías del diseño. Reconocimiento de las aportaciones de la artesanía, del arte y de la industrialización al diseño."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Identificación y valoración de las principales tendencias, periodos y principales escuelas de la historia del diseño en sus diferentes campos de aplicación, con especial atención al desarrollo de esta disciplina en Canarias. Reconocimiento de las figuras más representativas, destacando los diseños realizados por mujeres, en el ámbito del diseño."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Reconocimiento de la importancia del diseño y sensibilización sobre su impacto medioambiental. Contribución del ecodiseño y del diseño sostenible como solución a los retos socioambientales en la sociedad de consumo, con particular interés en el ámbito de Canarias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Identificación y reflexión sobre las mejoras que aporta el diseño inclusivo y universal."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.A.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Conocimiento y apreciación de la diversidad en el diseño como parte de la riqueza patrimonial, con especial atención al patrimonio de Canarias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.A.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Valoración y comparación de las aportaciones de las culturas no occidentales al canon del diseño mundial y de la apropiación cultural."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.A.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Reconocimiento de los fundamentos de la propiedad intelectual, y aprecio de la protección de la creatividad, patentes y marcas, rechazo de copias y plagios."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "El diseño: configuración formal y metodología"
+          },
+          "saberes": [
+            {
+              "id": "DIS.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Comprensión de la relación entre forma y función que se da en el diseño."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estudio e identificación de los elementos básicos del lenguaje visual: punto, línea, plano, color, forma y textura."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Exploración y uso de los principios de la psicología de la Gestalt aplicados al diseño."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Reconocimiento y empleo de los elementos propios de la sintaxis de la imagen bidimensional y tridimensional."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.B.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Reconocimiento y aplicación de la ordenación y composición modular."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.B.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Comprensión de la dimensión semántica del diseño."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.B.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Planificación y desarrollo del proceso de diseño y sus fases. Conocimiento y aplicación de la metodología proyectual."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.B.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Experimentación, asimilación y aplicación de diversos procesos y técnicas creativas para abordar proyectos de diseño."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1162
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.B.9",
+              "codigoOficial": null,
+              "numeracionFuente": "9",
+              "texto": {
+                "es": "Desarrollo y utilización de estrategias organizativas de equipos de trabajo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Diseño gráfico"
+          },
+          "saberes": [
+            {
+              "id": "DIS.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Comprensión y valoración de las funciones comunicativas y expresivas del diseño gráfico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estudio comparativo de la tipografía y de sus principales familias, valoración de sus propiedades, de los factores que propician su legibilidad y de sus usos en el diseño."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Comprensión y aplicación de la composición en el diseño gráfico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Conocimiento y utilización de diversos procesos y técnicas, analógicos o digitales, de diseño gráfico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Reconocimiento de la imagen de marca y aplicación al diseño corporativo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.C.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Conocimiento del diseño editorial, realización de maquetación y composición de páginas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.C.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Identificación de los fundamentos y funciones del lenguaje del diseño publicitario y realización de proyectos de comunicación gráfica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.C.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Reconocimiento de los códigos utilizados en la señalética. Conocimiento de la señalética inclusiva. Elaboración de signos gráficos para su aplicación en señalización y señalética."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.C.9",
+              "codigoOficial": null,
+              "numeracionFuente": "9",
+              "texto": {
+                "es": "Reconocimiento y valoración del diseño gráfico en Canarias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Diseño tridimensional"
+          },
+          "saberes": [
+            {
+              "id": "DIS.2.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Comprensión del proceso de diseño de un producto. Clasificación de las tipologías de objetos en el diseño volumétrico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Conocimiento y aplicación de los sistemas de representación, de las nociones básicas de normalización y de las estructuras compositivas aplicadas al diseño de producto."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Valoración de los conceptos básicos de antropometría, ergonomía y biónica, y su aplicación al diseño de producto y de espacios."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.D.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Adecuación del diseño de producto a la diversidad funcional."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.D.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Conocimiento y experimentación con materiales, texturas y colores. Identificación de los sistemas de producción y su repercusión en el diseño."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.D.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Estudio y análisis del packaging, transformación del diseño gráfico al diseño del contenedor del producto tridimensional. Iniciación a su desarrollo y técnicas de producción."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.D.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Conocimiento y desarrollo del proceso de diseño de espacios. Organización del espacio habitable, público o privado. Distribución de espacios y recorridos. Aplicación de los itinerarios de circulación en un museo o sala de exposiciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.D.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Análisis y descripción de los elementos constructivos y de los principios de iluminación, y su adecuación en el diseño de espacios interiores."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.D.9",
+              "codigoOficial": null,
+              "numeracionFuente": "9",
+              "texto": {
+                "es": "Valoración de la percepción psicológica en el diseño de espacios habitables. Justificación de sus condicionantes físicos, técnicos, funcionales y psicosociales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            },
+            {
+              "id": "DIS.2.D.10",
+              "codigoOficial": null,
+              "numeracionFuente": "10",
+              "texto": {
+                "es": "Desarrollo de un proyecto colectivo de diseño inclusivo en un entorno local."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1163
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

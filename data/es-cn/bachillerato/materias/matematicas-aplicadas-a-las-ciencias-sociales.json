@@ -1,0 +1,3435 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.matematicas-aplicadas-a-las-ciencias-sociales",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "MACS",
+    "nombre": {
+      "es": "Matemáticas Aplicadas a las Ciencias Sociales"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      },
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 1733,
+        "hasta": 1764
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Las matemáticas constituyen uno de los mayores logros culturales e intelectuales de la humanidad. A lo largo de la historia, las diferentes culturas se han esforzado en describir la naturaleza utilizando las matemáticas y en transmitir todo el conocimiento adquirido a las generaciones futuras. Hoy en día ese patrimonio intelectual adquiere un valor fundamental, ya que los grandes retos globales —como el respeto al medioambiente, la eficiencia energética o la industrialización inclusiva y sostenible— a los que la sociedad tendrá que hacer frente requieren de un alumnado capaz de adaptarse a las condiciones cambiantes, de aprender de forma autónoma, de modelizar situaciones, de explorar nuevas vías de investigación y de usar la tecnología de forma efectiva. Por tanto, resulta imprescindible para la ciudadanía del siglo XXI la utilización de conocimientos y destrezas matemáticas como el razonamiento, la modelización, el pensamiento computacional o la resolución de problemas.",
+      "En continuidad con la Educación Secundaria Obligatoria, los ejes principales de las competencias específicas de Matemáticas Aplicadas a las Ciencias Sociales I y II son la comprensión efectiva de conceptos y procedimientos matemáticos junto con las actitudes propias del quehacer matemático, lo que permite desarrollar destrezas sólidas a partir de la resolución de problemas, del razonamiento y de la investigación matemática, especialmente enfocadas a la interpretación y análisis de cuestiones de las ciencias sociales.",
+      "Las competencias específicas se centran en los procesos que permiten al alumnado desarrollar destrezas relacionadas con la resolución de problemas, el razonamiento y la argumentación, la representación y la comunicación, así como aquellas vinculadas al ámbito socioafectivo. A través de estos aspectos, las matemáticas en Bachillerato aportan al bagaje formativo del alumnado características indispensables para su futuro académico y profesional.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque, que presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "El desarrollo curricular de las Matemáticas Aplicadas a las Ciencias Sociales I y II se orienta a la consecución de los objetivos generales de la etapa, lo cual está ligado necesariamente al desarrollo y la adquisición de las competencias clave identificadas y definidas en el Perfil de salida del alumnado al término de Bachillerato y cuyos descriptores han constituido el marco de referencia para la definición de las competencias específicas de la materia.",
+      "Las Matemáticas Aplicadas a las Ciencias Sociales I y II contribuyen a la consecución de los objetivos de etapa con la resolución de problemas, proporcionando los conocimientos científicos y tecnológicos fundamentales para ello, así como las habilidades básicas propias de la modalidad (i). Esto ayuda a que el alumnado comprenda los elementos y procedimientos de la investigación y de los métodos científicos (j). Además, la materia contribuye en el reconocimiento de las mujeres en la historia (c).",
+      "Al afrontar retos y resolver problemas el alumnado afianza el espíritu emprendedor con actitudes de creatividad, flexibilidad, iniciativa, trabajo en equipo, confianza en uno mismo o una misma y sentido crítico (k). Todo esto propicia la consolidación de hábitos de lectura, estudio y disciplina como condiciones necesarias para el eficaz aprovechamiento del aprendizaje y como medio de desarrollo personal (d).",
+      "Es fundamental a la hora de resolver problemas que el alumnado comprenda y exprese con corrección, oralmente y por escrito, el proceso seguido y sus conclusiones, reflexionando sobre las diferentes estrategias empleadas y la coherencia de las soluciones, aceptando la crítica y aprendiendo de los errores cometidos (e).",
+      "Es además durante ese proceso cuando el alumnado aprende a utilizar con solvencia y responsabilidad las tecnologías digitales, ya que desarrolla destrezas básicas en la búsqueda, selección e interpretación de información, así como en el uso de herramientas digitales (g).",
+      "A través del trabajo en equipo el alumnado consolida una madurez personal y social que le permite actuar de forma respetuosa, responsable, autónoma y desarrolla su espíritu crítico. Además, le ayuda a prever, detectar y resolver los conflictos personales y sociales, así como las posibles situaciones de violencia (b).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "Desde la materia de Matemáticas Aplicadas a las Ciencias Sociales se desarrolla la adquisición de la Competencia en comunicación lingüística (CCL), promoviendo que el alumnado comunique de forma oral, escrita y multimodal, con precisión y rigor, utilizando la terminología apropiada, ideas, procedimientos y resultados matemáticos. Para ello se fomentará a la hora de resolver problemas el análisis y la justificación del razonamiento coherente con el proceso seguido y la formulación de conjeturas sencillas de manera guiada, así como el establecimiento de conexiones entre los distintos elementos matemáticos, con otras materias y con la realidad.",
+      "Matemáticas Aplicadas a las Ciencias Sociales contribuye al desarrollo de la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM) a través del razonamiento y la argumentación, la modelización y el pensamiento computacional. Para integrarla es necesario asimilar saberes básicos sobre números, medida, álgebra, computación, estadística y probabilidad para su posterior puesta en práctica. Además, la resolución de retos matemáticos y el trabajo en equipo potencian la autoestima del alumnado motivando y mejorando su resiliencia y confianza para iniciar y culminar con éxito el aprendizaje a lo largo de la vida, lo que favorece la superación",
+      "de estereotipos de género en la orientación académica y profesional, impulsando así la presencia de las mujeres en estudios vinculados a las ciencias en general.",
+      "Matemáticas Aplicadas a las Ciencias Sociales contribuye notablemente a la adquisición de la Competencia digital (CD), puesto que integran la tecnología como medio para alcanzar los aprendizajes deseados. La resolución de problemas, así como la formulación y comprobación de conjeturas, propician el uso y la creación de distintas herramientas y contenidos digitales como hojas de cálculo, representación gráfica o geometría dinámica (para modelizar situaciones y representar ideas, procedimientos y resultados matemáticos, desarrollando así el pensamiento computacional del alumnado. Además, la materia trabaja destrezas relacionadas con la recogida, clasificación y análisis de la información obtenida de diferentes fuentes ayudando a que el alumnado tenga una visión crítica de la validez, la fiabilidad y el impacto de la información y los datos obtenidos por medios digitales y a que sea consciente de los principios legales y éticos que implica el uso de las tecnologías digitales.",
+      "Afrontar retos y resolver problemas contribuye a la adquisición de la Competencia personal, social y de aprender a aprender (CPSAA), pues el alumnado afianza su autoestima trabajando multitud de destrezas personales: haciendo frente a situaciones de incertidumbre, abordando la complejidad de un reto de forma positiva y perseverante, reflexionando de forma crítica, tomando decisiones, etc. Además, la habilidad de aprender y trabajar de forma tanto colaborativa y cooperativa como autónoma, aceptando el error, aprendiendo de él y gestionando de manera asertiva las críticas, contribuye a un crecimiento personal constante del alumnado, permitiendo adquirir herramientas instrumentales para construir nuevos conocimientos. Asimismo, el trabajo en equipo propicia el aprendizaje de habilidades sociales tales como saber escuchar, respetar la diversidad de opiniones y las necesidades individuales, expresar empatía, llegar a acuerdos, etc., fundamentales para el desarrollo personal y social del alumnado.",
+      "Matemáticas Aplicadas a las Ciencias Sociales ayuda a la adquisición de la Competencia ciudadana (CC), desde dos puntos de vista: por una parte, el análisis y desarrollo de conexiones con otras materias, con la vida real y con las propias experiencias del alumnado, contribuyendo así a su formación intelectual, al análisis de situaciones sociales y a la valoración de las grandes aportaciones de las matemáticas al progreso; y, por otra parte, el trabajo en equipo contribuye a la adquisición de valores que ayudarán al alumnado a integrarse de forma responsable en la sociedad tomando decisiones fundamentadas, participando activamente en la resolución de conflictos, así como comprometiéndose con la igualdad de género y la cohesión social.",
+      "Matemáticas Aplicadas a las Ciencias Sociales contribuye con la Competencia emprendedora (CE) a través de la formulación de ideas y soluciones creativas que potencian la imaginación, el pensamiento estratégico, la resolución de problemas y la reflexión crítica y constructiva dentro de los procesos creativos y la innovación.",
+      "Matemáticas Aplicadas a las Ciencias Sociales favorece las habilidades de expresar ideas, opiniones, sentimientos y emociones con creatividad y espíritu crítico, así como las de realizar y presentar con rigor proyectos, seleccionando y utilizando para ello diversos medios y soportes. Además, ayuda a promover y a valorar críticamente el patrimonio cultural y artístico contribuyendo así a la adquisición de la Competencia en conciencia y expresión culturales (CCEC).",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Matemáticas Aplicadas a las Ciencias Sociales I y II se han establecido, para cada curso, nueve competencias específicas que se concretan en un total de diecisiete criterios de evaluación. Estos criterios de evaluación presentan una marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos del Perfil de salida a los que contribuye la competencia específica.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia no están directamente asociados de manera biunívoca a los criterios de evaluación. Esto permitirá desarrollar los aprendizajes de las competencias específicas en distintos contextos y de manera continua a lo largo del curso. Los saberes quedan establecidos, organizados y secuenciados a continuación de los bloques competenciales. El profesorado tendrá que vincular los bloques competenciales con los saberes básicos que estime más adecuados para que el alumnado adquiera los aprendizajes establecidos.",
+      "Acompañando a las competencias específicas y a los criterios de evaluación se incluye el conjunto de saberes básicos que integran conocimientos, destrezas y actitudes. Dada la naturaleza de las competencias, en algunos casos la graduación de los criterios de evaluación entre los cursos primero y segundo se realiza a través de los saberes básicos. Estos han sido agrupados en bloques denominados «sentidos», que son el conjunto de destrezas relacionadas con el dominio, en contexto, de contenidos numéricos, métricos, geométricos, algebraicos, estocásticos y socioafectivos que permiten emplear estos contenidos en la resolución de situaciones problemáticas o en la realización de tareas de una manera funcional, proporcionando la flexibilidad necesaria para establecer conexiones entre ellos.",
+      "El Bloque I, «Sentido numérico», se caracteriza por la aplicación del conocimiento sobre numeración y cálculo en distintos contextos, y por el desarrollo de habilidades y modos de hacer y de pensar basados en la comprensión, la representación y el uso flexible de los números, de objetos matemáticos formados por números y las operaciones.",
+      "El Bloque II, «Sentido de la medida», se centra en la comprensión y comparación de atributos de los objetos del mundo que nos rodea, así como en la medida de la incertidumbre.",
+      "El Bloque III, «Sentido algebraico», proporciona el lenguaje en el que se comunican las matemáticas: ver lo general en lo particular, reconocer relaciones de dependencia entre variables y expresarlas mediante diferentes representaciones, así como modelizar situaciones matemáticas o del mundo real con expresiones simbólicas, son características fundamentales del sentido algebraico. El pensamiento computacional y la modelización se han incorporado en este bloque, pero no deben interpretarse como exclusivos del mismo, sino que deben desarrollarse también en el resto de los bloques de saberes.",
+      "El Bloque IV, «Sentido estocástico», comprende el análisis y la interpretación de datos, la elaboración de conjeturas y la toma de decisiones a partir de la información estadística, su valoración crítica y la comprensión y comunicación de fenómenos aleatorios en una amplia variedad de situaciones.",
+      "En la sociedad actual el alumnado mantiene una estrecha relación con las tecnologías digitales y la comunicación debido a que se han convertido en una poderosa herramienta que le permite acceder a la información, investigar, comunicarse, desarrollar habilidades y nuevas formas de construcción del conocimiento. Sin embargo, no podemos olvidar que, del mismo modo, el alumnado también debe desarrollar un pensamiento crítico hacia los datos que maneja.",
+      "Por último, el Bloque V, «Sentido socioafectivo», implica la adquisición y aplicación de conocimientos, destrezas y actitudes necesarias para entender y manejar las emociones que aparecen en el proceso de aprendizaje de las matemáticas, además de adquirir estrategias para el trabajo en equipo. Asimismo, resulta esencial dar a conocer al alumnado las contribuciones de las mujeres a las matemáticas a lo largo de la historia y en la actualidad. Este sentido no debe trabajarse de forma aislada, sino a través del desarrollo de la materia.",
+      "Las matemáticas no son una colección de saberes separados e inconexos, sino que constituyen un campo integrado de conocimiento. El conjunto de competencias específicas, criterios de evaluación y saberes básicos están diseñados para constituir un todo que facilite el planteamiento de tareas sencillas o complejas, individuales o colectivas de carácter multidisciplinar. El orden de aparición de los sentidos y de los saberes dentro de ellos no supone ninguna secuenciación.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "El profesorado puede utilizar como instrumentos de evaluación para obtener la información sobre el nivel de logro alcanzado en relación a los aprendizajes recogidos en las competencias específicas por parte del alumnado: pruebas escritas u orales, presentaciones y representaciones, producciones visuales o audiovisuales (vídeos, fotos, planos, pódcast, reportajes, etc.), documentos (informes de investigación, soluciones a problemas planteados, tablas y gráficas, etc.) y artefactos (murales, maquetas, etc.), entre otros. Para valorar de manera objetiva y formativa tanto los instrumentos como otros momentos y aspectos del aprendizaje, el profesorado deberá usar diversas herramientas de evaluación: rúbricas, cuestionarios, pautas de observación (registro anecdótico, lista de control, escala de valoración, lista de cotejo, etc.), diario de clase, cuaderno del profesor o profesora, portafolio o carpeta de evidencias, etc. La autoevaluación, la heteroevaluación y la coevaluación son tipos de evaluación con diferentes agentes, fundamentales en este modelo pedagógico.",
+      "El currículo tiene en la resolución de problemas la pieza clave de su desarrollo, unas veces como fin, otras como vía por la cual se genera el conocimiento y otras como nexo entre las diferentes partes del currículo o materias. Pero no se trata de resolver problemas o ejercicios numéricos de manera mecánica al finalizar cada situación de aprendizaje sino de poner énfasis en las diferentes estrategias que permiten resolver problemas y en las fases de resolución de estos, en los aprendizajes y en los procesos cognitivos. Los problemas deben ser del entorno cotidiano del alumnado y estar relacionados con las ciencias sociales, con un planteamiento que permita la investigación, el debate en el aula y el desarrollo de las destrezas socioafectivas del alumnado, así como la atención a los distintos ritmos de aprendizaje en alineación con el Diseño Universal para el Aprendizaje (DUA).",
+      "Todo esto conlleva un cambio de rol por parte del profesorado, que deberá poner en marcha distintos modelos de enseñanza —expositivo, investigación guiada, investigación grupal, deductivo, etc.— y múltiples metodologías —aprendizaje basado en problemas, gamificación, flipped classroom, aprendizaje basado en proyectos o aprendizaje servicio, entre otros—, así como considerar diferentes rutinas de trabajo y tipos de agrupamientos —gran grupo, trabajo individual, pequeño grupo, grupos de expertos, etc.— para permitir al alumnado comunicar y hacer matemáticas y generar la capacidad de reflexionar y crear nuevo conocimiento.",
+      "Asimismo, es preciso que el profesorado trabaje saberes y aspectos propios de Canarias de manera transversal a lo largo de todas las situaciones de aprendizaje planteando problemas y proyectos dentro del marco social y cultural de Canarias (economía, turismo, trayectos de senderos naturales, etc.).",
+      "Las tecnologías digitales jugarán un papel importante: desde la calculadora en el aula —no solo para resolver operaciones, sino también para generar conocimiento— hasta la utilización de programas como hojas de cálculo, representación gráfica o geometría dinámica, realización de presentaciones o elaboración de vídeos o fotografías, entre otros, sin olvidarnos de los entornos de aprendizaje virtual, aulas virtuales, webs, etc. El alumnado no solo debe conocerlas, sino entender su utilidad al facilitar la comprensión de las matemáticas, de otras áreas del conocimiento relacionadas con las ciencias sociales y del mundo que nos rodea.",
+      "Por último, por su papel integrador, esta materia contribuirá a la participación del profesorado en los diferentes proyectos y redes del centro, así como al diseño de situaciones de aprendizaje interdisciplinares con otros departamentos."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Modelizar y resolver problemas de la vida cotidiana y de las ciencias sociales aplicando diferentes estrategias y formas de razonamiento para obtener posibles soluciones."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA4",
+        "CPSAA5",
+        "CC3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1736,
+          1743,
+          1754
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con el desarrollo de esta competencia específica se trabajará la modelización y la resolución de problemas, procesos que constituyen un eje fundamental en el aprendizaje de las matemáticas, ya que son pilares centrales en la construcción del conocimiento matemático. Estos procesos, aplicados en contextos diversos, pueden motivar el aprendizaje y establecer unos cimientos cognitivos sólidos que permitan construir conceptos y experimentar las matemáticas como una herramienta para describir, analizar y ampliar la comprensión de situaciones de la vida cotidiana o de las ciencias sociales.",
+          "Los criterios de evaluación relacionados con la primera competencia específica se centran, fundamentalmente, en la modelización y resolución de problemas relacionados con la vida cotidiana y las ciencias sociales, empleando diversas estrategias y herramientas, entre las que se incluyen las digitales, valorando su eficiencia en cada caso y describiendo el proceso realizado. En el segundo curso, además, el alumnado seleccionará las estrategias y herramientas más adecuadas a cada tarea."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Verificar la validez de las posibles soluciones de un problema empleando el razonamiento y la argumentación para contrastar su idoneidad."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA4",
+        "CPSAA5",
+        "CC3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1737,
+          1743,
+          1754
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Siguiendo en la línea de resolución de problemas, la segunda competencia específica se centra en el análisis y la interpretación de las soluciones y conclusiones obtenidas, considerando, además de la validez matemática, diferentes perspectivas como la sostenibilidad, el consumo responsable, la equidad, la no discriminación o la igualdad de género, entre otras. El desarrollo de esta competencia potencia la reflexión crítica, el razonamiento y la argumentación, ayudando a tomar decisiones razonadas y a desarrollar procesos reflexivos propios de la metacognición, como la autoevaluación y la coevaluación.",
+          "Los criterios de evaluación vinculados a esta competencia específica están dirigidos a la comprobación y demostración de la validez de las soluciones y a la selección de la solución óptima en función del contexto, utilizando, en el segundo curso, diferentes modos de comprobación o de estrategias de validación de dichas soluciones."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Formular o investigar conjeturas o problemas, utilizando el razonamiento, la argumentación, la creatividad y el uso de herramientas tecnológicas, para generar nuevo conocimiento matemático."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1737,
+          1744,
+          1745,
+          1755
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica trabaja el razonamiento y la demostración, que son aspectos fundamentales de las matemáticas, ya que permiten al alumnado tomar conciencia del sentido de los aprendizajes realizados y, a la vez, le ofrece herramientas muy poderosas con las que investigar conjeturas, crear y evaluar algoritmos y comprender una gran variedad de fenómenos de su entorno más próximo y propios de las ciencias sociales.",
+          "El criterio asociado a la tercera competencia específica hace hincapié en la adquisición de nuevo conocimiento matemático a través de la formulación e investigación de conjeturas y problemas, integrando el uso de tecnologías digitales para ello y de forma progresivamente más autónoma y creativa a lo largo de la etapa."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar el pensamiento computacional de forma eficaz, modificando, creando y generalizando algoritmos que resuelvan problemas mediante el uso de las matemáticas, para modelizar y resolver situaciones de la vida cotidiana y del ámbito de las ciencias sociales."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1737,
+          1745,
+          1756
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica desarrolla el pensamiento computacional que se vincula directamente con la resolución de problemas y con el planteamiento de procedimientos, ya que será necesaria la abstracción para identificar las partes más relevantes de un problema y su descomposición en tareas más simples para alcanzar una solución que, incluso, un sistema informático puede ejecutar. De este modo, se generarán puentes entre las abstracciones matemáticas y diversas situaciones del ámbito de las ciencias sociales.",
+          "El criterio que compone la competencia específica cuatro se centra en la modificación, creación y generalización de algoritmos, continuando así con la construcción del propio conocimiento a través del desarrollo del pensamiento computacional, lo cual permitirá al alumnado reflexionar cada vez más sobre el proceso seguido al interpretar, modelizar y resolver situaciones problematizadas."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Establecer, investigar y utilizar conexiones entre las diferentes ideas matemáticas estableciendo vínculos entre conceptos, procedimientos, argumentos y modelos para dar significado y estructurar el aprendizaje matemático."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CC4",
+        "CE2",
+        "CE3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1738,
+          1746,
+          1757
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica está dirigida a establecer vínculos entre conceptos, procedimientos y argumentos en el primer curso, ampliando con modelos matemáticos en el segundo, lo que proporcionará una comprensión más profunda de la materia, estudiando cómo varios enfoques de un mismo problema pueden producir resultados equivalentes. Percibir las matemáticas como un todo implica estudiar sus conexiones internas y reflexionar sobre ellas, tanto las existentes entre los bloques de saberes del propio curso como las existentes entre las matemáticas de un mismo o distintos niveles o las de diferentes etapas educativas.",
+          "Los criterios que se desarrollan en esta competencia específica cinco se centran en enlazar las nuevas ideas matemáticas con las ideas previas, reconocer y utilizar las conexiones entre ellas en la resolución de problemas y comprender cómo unas ideas se construyen sobre otras para formar un todo integrado."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Descubrir los vínculos de las matemáticas con otras áreas de conocimiento y profundizar en sus conexiones, interrelacionando conceptos y procedimientos, para modelizar, resolver problemas y desarrollar la capacidad crítica, creativa e innovadora en situaciones diversas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CC4",
+        "CE2",
+        "CE3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1738,
+          1746,
+          1757
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica trata sobre las relaciones entre las matemáticas y las situaciones del día a día que se consideran aspectos relevantes y existenciales de la propia materia, pues es precisamente de situaciones de la vida cotidiana de donde surge la necesidad de hacer matemáticas. En esta competencia juega un papel relevante la aplicación de tecnologías digitales en el descubrimiento de nuevas conexiones.",
+          "Que el alumnado establezca y aplique conexiones entre el mundo real, otras disciplinas y las matemáticas —lo que potenciará la resolución de problemas—, cierra el círculo del conocimiento y da sentido al mismo. Los criterios que se desarrollan en la competencia específica seis trabajan dichas conexiones, lo que lleva a reconocer la aportación de las matemáticas al progreso de la humanidad, estudiando el papel de las matemáticas y los matemáticos a lo largo de la historia, a apreciar el patrimonio cultural y artístico y a valorar su contribución al resolver situaciones complejas de las ciencias sociales. Junto a ello, el objetivo en el segundo curso es que el alumnado alcance una actitud crítica, creativa e innovadora en situaciones diversas, desarrollando un compromiso ético y responsable con el entorno."
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Representar conceptos, procedimientos e información matemática seleccionando diferentes tecnologías, para visualizar ideas y estructurar razonamientos matemáticos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CE3",
+        "CCEC3.2",
+        "CCEC4.1",
+        "CCEC4.2",
+        "CPSAA3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1738,
+          1747,
+          1748,
+          1759
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica trabaja las representaciones de conceptos, procedimientos e información matemática, las cuales facilitan el razonamiento y la demostración. Dichas representaciones, que están presentes de forma natural en las ciencias sociales, se utilizan para visualizar ideas, examinar relaciones y contrastar la validez de las respuestas y se encuentran en el centro de la comunicación matemática. El desarrollo de esta competencia conlleva el aprendizaje de nuevas formas de representación matemática y la mejora del conocimiento sobre su utilización de forma eficaz, recalcando las maneras en que representaciones distintas de los mismos objetos pueden transmitir diferentes informaciones y mostrando la importancia de seleccionar representaciones y tecnologías digitales adecuadas a cada tarea.",
+          "Los criterios de evaluación establecidos en la séptima competencia específica guardan una estrecha relación con el uso de diferentes formas de representación de ideas matemáticas, apoyándose en las tecnologías digitales. A medida que aumenta el nivel curricular se exigirá la combinación de diversas representaciones matemáticas con tecnologías digitales y un mayor grado de autonomía en el trabajo."
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Comunicar las ideas matemáticas, de forma individual y colectiva, empleando el soporte, la terminología y el rigor apropiados, para organizar y consolidar el pensamiento matemático."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CE3",
+        "CCEC3.2",
+        "CCEC4.1",
+        "CCEC4.2",
+        "CPSAA3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1739,
+          1748,
+          1759
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "En la sociedad de la información se hace cada día más patente la necesidad de una comunicación clara y veraz, tanto oralmente como por escrito, y es precisamente esta necesidad la que se trabaja en la octava competencia específica. Interactuar con las demás personas ofrece la posibilidad de intercambiar ideas y reflexionar sobre ellas, colaborar, cooperar, generar y afianzar nuevos conocimientos, convirtiendo la comunicación en un elemento indispensable en el aprendizaje de las matemáticas.",
+          "Los criterios de evaluación ligados a esta competencia específica se centran en la comunicación de forma organizada y rigurosa, y con la terminología adecuada, de las ideas matemáticas, así como en el reconocimiento del lenguaje matemático, para transmitir información de forma precisa. A medida que el alumnado avance por la etapa se le pedirá una mayor coherencia, corrección y precisión a la hora de expresarse."
+        ]
+      }
+    },
+    {
+      "id": "ce-9",
+      "codigoOficial": "9",
+      "enunciado": {
+        "es": "Utilizar destrezas personales y sociales, identificando y gestionando las propias emociones y respetando las de los demás y organizando activamente el trabajo en equipos heterogéneos, aprendiendo del error como parte del proceso de aprendizaje y afrontando situaciones de incertidumbre, para perseverar en la consecución de objetivos en el aprendizaje de las matemáticas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM5",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1739,
+          1749,
+          1760
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La novena competencia específica integra conocimientos, destrezas y actitudes para conocer y gestionar las emociones y para trabajar con otras personas de manera constructiva. El desarrollo de esta competencia va a promover en el alumnado un constante crecimiento personal, mejorando su autoconocimiento y su capacidad para adaptarse a los cambios y a la incertidumbre, conociendo y respetando la diversidad, enriqueciéndose de ella y desterrando ideas preconcebidas para trabajar en grupo de manera empática, abordando los conflictos en un contexto integrador. Todo ello, finalmente, contribuirá a mejorar el bienestar físico y emocional del alumnado, desarrollando de manera eficaz el aprendizaje a lo largo de su vida.",
+          "Los criterios de evaluación de esta competencia específica, que deberán trabajarse de manera transversal en todas las situaciones de aprendizaje e interrelacionados con el resto de los criterios de evaluación de la materia, ayudarán a adquirir habilidades en la gestión de las propias emociones y en el trabajo en equipo."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Emplear diferentes estrategias y herramientas, incluidas las digitales, valorando su eficiencia en cada caso, buscando un cambio de estrategia cuando sea necesario y reflexionando sobre el proceso realizado para describir, analizar y ampliar la comprensión de situaciones y modelizar problemas de la vida cotidiana y de las ciencias sociales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1743
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Obtener todas las posibles soluciones matemáticas de problemas con autonomía y actitud cooperativa, describiendo el procedimiento realizado, utilizando, si fuera necesario, tecnologías digitales, con el fin de resolver problemas de la vida cotidiana y de las ciencias sociales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM3",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1743
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprobar la validez matemática de las posibles soluciones de un problema utilizando el razonamiento y la argumentación, con el apoyo de tecnologías digitales, para obtener conclusiones lógicas de forma autónoma y valorar la fiabilidad del proceso seguido."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "CD2",
+            "CD3",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1744
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar la solución más adecuada de un problema en función del contexto usando el razonamiento y la argumentación con actitud respetuosa y con la ayuda de tecnologías digitales para contrastar su idoneidad y desarrollar el espíritu crítico y emprendedor."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "CD2",
+            "CD3",
+            "CC3",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1744
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Formular e investigar conjeturas y problemas de forma guiada, integrando el uso de herramientas tecnológicas, utilizando varias fuentes de información, planteándose preguntas, comprobando hipótesis mediante la observación, la experimentación y la indagación y confirmando su validez, con el objetivo de mejorar la destreza para resolver problemas en distintos contextos y establecer puentes entre situaciones concretas y las abstracciones matemáticas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1745
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Modificar y crear algoritmos utilizando la abstracción para identificar los aspectos más relevantes, descomponiendo el problema en tareas más simples que se puedan codificar en un lenguaje apropiado y seleccionando las tecnologías más adecuadas para interpretar, modelizar y resolver situaciones problematizadas de la vida cotidiana y de las ciencias sociales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1745
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conectar las diferentes ideas matemáticas buscando, identificando e investigando los vínculos existentes a través de proyectos, problemas y tecnologías digitales para desarrollar una mayor comprensión de los conceptos, procedimientos y argumentos y ampliar recursos matemáticos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD1",
+            "CD2",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1746
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Resolver problemas de la vida cotidiana y de las ciencias sociales estableciendo y aplicando conexiones entre las diferentes ideas matemáticas, utilizando tecnologías digitales si fuera preciso, para generar una visión integrada de las matemáticas."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "CD3",
+            "CPSAA5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1746,
+              1747
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Establecer y aplicar conexiones entre ideas, conceptos y procedimientos matemáticos con otras áreas de conocimiento referentes a las ciencias sociales y con la vida real, reflexionando sobre dichos vínculos, buscando, seleccionando y contrastando información procedente de diferentes fuentes, mediante el uso de tecnologías digitales para modelizar y resolver problemas en situaciones diversas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CD3",
+            "CPSAA5",
+            "CC4",
+            "CE2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1747
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar la aportación de las matemáticas al progreso de la humanidad y estudiar el papel de matemáticas y matemáticos a lo largo de la historia, apreciando aspectos esenciales del patrimonio cultural y artístico para valorar su contribución al resolver situaciones complejas y diferentes retos que se plantean en las ciencias sociales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM2",
+            "CD1",
+            "CD2",
+            "CPSAA5",
+            "CC4",
+            "CCEC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1747
+            ]
+          }
+        },
+        {
+          "id": "cri-1-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Representar conceptos, procedimientos e información matemática activando y organizando conocimientos, de manera manual o digital, utilizando la tecnología más adecuada, para visualizar ideas y estructurar razonamientos matemáticos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1748
+            ]
+          }
+        },
+        {
+          "id": "cri-1-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Seleccionar, utilizar o combinar diversas formas de representación matemática y tecnologías, valorando su utilidad para crear y compartir información sobre proyectos, investigaciones o procesos matemáticos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM1",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD3",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1748
+            ]
+          }
+        },
+        {
+          "id": "cri-1-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Mostrar organización y comprensión al comunicar hechos, ideas, conceptos y procedimientos de forma verbal, analítica y gráficamente, de manera individual y colectiva, con la terminología y el rigor apropiados, empleando o creando contenidos digitales en diversos medios y soportes para dotar de significado y consolidar los aprendizajes."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "CD2",
+            "CD3",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1748
+            ]
+          }
+        },
+        {
+          "id": "cri-1-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Reconocer el lenguaje matemático presente en diferentes contextos comprendiendo e interpretando textos orales, escritos y multimodales y emplearlo para comunicar la información."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1748
+            ]
+          }
+        },
+        {
+          "id": "cri-1-9-1",
+          "codigoOficial": "9.1",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Perseverar en la consecución de objetivos ante situaciones de incertidumbre, identificando y gestionando emociones, reflexionando sobre las fortalezas y debilidades propias, con el fin de crear resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM5",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CC1",
+            "CE2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1749
+            ]
+          }
+        },
+        {
+          "id": "cri-1-9-2",
+          "codigoOficial": "9.2",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Aceptar y aprender de la crítica razonada respetando distintos puntos de vista con actitud dialogante, positiva y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, para integrar el error como parte del proceso de aprendizaje, construir una identidad positiva como estudiante de matemáticas y fomentar el bienestar personal y social."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CC1",
+            "CC3",
+            "CE2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1749,
+              1750
+            ]
+          }
+        },
+        {
+          "id": "cri-1-9-3",
+          "codigoOficial": "9.3",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Participar en tareas matemáticas de forma activa en equipos heterogéneos, respetando las emociones, experiencias y diversidad de los demás y escuchando su razonamiento, aplicando las habilidades sociales más propicias, rechazando todo tipo de discriminación y violencia, promoviendo activamente la igualdad y corresponsabilidad efectiva entre mujeres y hombres, y fomentando el bienestar grupal y las relaciones saludables, para responsabilizarse del rol asignado y de su contribución al grupo y normalizar situaciones de convivencia en igualdad."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CPSAA1.1",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CE2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1750
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA4",
+            "CPSAA5",
+            "CC3",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue que el alumnado sea capaz de modelizar y resolver, de forma autónoma, problemas de la vida cotidiana y de las ciencias sociales de cualquiera de los bloques de los saberes básicos, haciendo uso de diferentes tecnologías digitales —como calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otras—, seleccionando la más adecuada en función de la tarea y describiendo de forma oral, escrita o gráfica el proceso realizado. Para ello se comprobará que el alumnado selecciona los datos u objetos relevantes de un problema, identifica sus relaciones y los codifica al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático. Además, se evaluará que emplea diferentes estrategias para su resolución, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), la descomposición en problemas más sencillos, búsqueda de patrones o generalización, entre otras, analizando su eficiencia en cada caso. También se persigue que el alumnado sea capaz de obtener todas las soluciones posibles de un problema, comprobar la validez matemática de dichas soluciones, así como seleccionar de entre ellas las más adecuadas en función del contexto, valorando su alcance."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1744
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA4",
+            "CPSAA5",
+            "CC3",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue que el alumnado sea capaz de modelizar y resolver, de forma autónoma, problemas de la vida cotidiana y de las ciencias sociales de cualquiera de los bloques de los saberes básicos, haciendo uso de diferentes tecnologías digitales —como calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otras—, seleccionando la más adecuada en función de la tarea y describiendo de forma oral, escrita o gráfica el proceso realizado. Para ello se comprobará que el alumnado selecciona los datos u objetos relevantes de un problema, identifica sus relaciones y los codifica al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático. Además, se evaluará que emplea diferentes estrategias para su resolución, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), la descomposición en problemas más sencillos, búsqueda de patrones o generalización, entre otras, analizando su eficiencia en cada caso. También se persigue que el alumnado sea capaz de obtener todas las soluciones posibles de un problema, comprobar la validez matemática de dichas soluciones, así como seleccionar de entre ellas las más adecuadas en función del contexto, valorando su alcance."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1744
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos, propios del razonamiento matemático, sea capaz de formular e investigar conjeturas y problemas de forma guiada, integrando el uso de herramientas tecnológicas digitales y utilizando varias fuentes de información. También se propiciará que se pueda verificar que el alumnado es capaz de plantear y comprobar hipótesis, confirmando su validez mediante la observación, la experimentación y la indagación, buscando mejorar su destreza para interpretar, modelizar fenómenos y resolver problemas. Asimismo, se podrá comprobar, a través de esas situaciones problematizadas, que el alumnado sabe utilizar de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples, que lo codifica en un lenguaje apropiado y fácil de interpretar por un sistema informático, y también que puede modificar y crear algoritmos en situaciones sencillas, todo lo cual favorecerá el desarrollo de un pensamiento más diverso y flexible con el que podrá construir su propio conocimiento y mejorar su capacidad de reflexión y de superación."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1745,
+              1746
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos, propios del razonamiento matemático, sea capaz de formular e investigar conjeturas y problemas de forma guiada, integrando el uso de herramientas tecnológicas digitales y utilizando varias fuentes de información. También se propiciará que se pueda verificar que el alumnado es capaz de plantear y comprobar hipótesis, confirmando su validez mediante la observación, la experimentación y la indagación, buscando mejorar su destreza para interpretar, modelizar fenómenos y resolver problemas. Asimismo, se podrá comprobar, a través de esas situaciones problematizadas, que el alumnado sabe utilizar de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples, que lo codifica en un lenguaje apropiado y fácil de interpretar por un sistema informático, y también que puede modificar y crear algoritmos en situaciones sencillas, todo lo cual favorecerá el desarrollo de un pensamiento más diverso y flexible con el que podrá construir su propio conocimiento y mejorar su capacidad de reflexión y de superación."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1745,
+              1746
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA5",
+            "CC4",
+            "CE2",
+            "CE3",
+            "CCEC1"
+          ],
+          "explicacion": {
+            "es": [
+              "Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento científico para conectar las diferentes ideas matemáticas por medio del uso de tecnologías digitales, así como establecer y aplicar las relaciones existentes entre las matemáticas y otras áreas del conocimiento, y analizar la aportación de las matemáticas al progreso de la humanidad, realizando para ello búsquedas avanzadas en internet, con lo que conseguirá, a su vez, interrelacionar conceptos y procedimientos, con el objetivo de modelizar y resolver problemas enmarcados en las ciencias sociales y en la vida cotidiana."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1747
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA5",
+            "CC4",
+            "CE2",
+            "CE3",
+            "CCEC1"
+          ],
+          "explicacion": {
+            "es": [
+              "Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento científico para conectar las diferentes ideas matemáticas por medio del uso de tecnologías digitales, así como establecer y aplicar las relaciones existentes entre las matemáticas y otras áreas del conocimiento, y analizar la aportación de las matemáticas al progreso de la humanidad, realizando para ello búsquedas avanzadas en internet, con lo que conseguirá, a su vez, interrelacionar conceptos y procedimientos, con el objetivo de modelizar y resolver problemas enmarcados en las ciencias sociales y en la vida cotidiana."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1747
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-7",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3",
+            "CCEC3.2",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, usando el lenguaje oral, escrito o multimodal, con veracidad, claridad y con la terminología apropiada, seleccionando, utilizando o combinando las formas de representación matemática (gráficas, tablas, diagramas, fórmulas, esquemas, símbolos, etc.) y las tecnologías digitales más adecuadas para cada tarea, apoyándose en diversos medios y soportes en su presentación. Asimismo, se evaluará que el alumnado reconoce y emplea el lenguaje matemático presente en la vida cotidiana y en diferentes contextos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1748,
+              1749
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-8",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3",
+            "CCEC3.2",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, usando el lenguaje oral, escrito o multimodal, con veracidad, claridad y con la terminología apropiada, seleccionando, utilizando o combinando las formas de representación matemática (gráficas, tablas, diagramas, fórmulas, esquemas, símbolos, etc.) y las tecnologías digitales más adecuadas para cada tarea, apoyándose en diversos medios y soportes en su presentación. Asimismo, se evaluará que el alumnado reconoce y emplea el lenguaje matemático presente en la vida cotidiana y en diferentes contextos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1748,
+              1749
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-9",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM5",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CE2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue que el alumnado utilice destrezas personales que le permitan reflexionar sobre sus fortalezas y debilidades para afrontar las situaciones de incertidumbre y enfrentarse a ellas. Además, se comprobará que utiliza destrezas sociales para participar en las tareas del equipo de forma constructiva y empática, gestionando las decisiones y funciones de manera responsable, logrando la consecución de los objetivos y la cohesión del grupo, promoviendo un aprendizaje activo y respetuoso, resolviendo los conflictos que puedan surgir y rechazando cualquier tipo de discriminación. Por último, se comprobará que el alumnado acepta la crítica razonada y aprende de ella, respetando distintos puntos de vista, con actitud dialogante y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, integra el error como parte del proceso de aprendizaje, construye una identidad positiva y fomenta su bienestar personal y social."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1750
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "saberes": [
+            {
+              "id": "MACS.1.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Conteo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.A.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Estrategias y técnicas de recuento sistemático (diagramas de árbol, técnicas de combinatoria…)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Cantidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.A.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Números reales (racionales e irracionales): comparación, ordenación, clasificación y contraste de sus propiedades."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Sentido de las operaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.A.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Potencias, raíces y logaritmos (decimales y neperianos): comprensión y utilización de sus relaciones para simplificar y resolver problemas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Educación financiera."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.A.4.1",
+              "codigoOficial": null,
+              "numeracionFuente": "4.1",
+              "texto": {
+                "es": "Resolución de problemas relacionados con la educación financiera (cuotas, tasas, intereses, préstamo, etc.) con métodos de cálculo o tecnologías digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "saberes": [
+            {
+              "id": "MACS.1.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Medición."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.B.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Cambio."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.B.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Límites: estimación y cálculo a partir de una tabla, un gráfico o una expresión algebraica para estimar las tendencias de una función."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.B.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Continuidad de funciones: aplicación de límites en el estudio de la continuidad. Asíntotas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.B.2.3",
+              "codigoOficial": null,
+              "numeracionFuente": "2.3",
+              "texto": {
+                "es": "Derivada de una función: definición a partir del estudio del cambio en contextos de las ciencias sociales. Reglas de derivación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido algebraico"
+          },
+          "saberes": [
+            {
+              "id": "MACS.1.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Patrones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Generalización de patrones en situaciones sencillas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Modelo matemático."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Relaciones cuantitativas esenciales en situaciones sencillas: estrategias de identificación y determinación de la clase o clases de funciones que pueden ser modelizadas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Ecuaciones, inecuaciones y sistemas: modelización de situaciones de las ciencias sociales y de la vida real."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Igualdad y desigualdad"
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Resolución de ecuaciones de diversos tipos (logarítmicas, exponenciales, etc.), inecuaciones y sistemas de ecuaciones e inecuaciones no lineales en diferentes contextos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Relaciones y funciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.4.1",
+              "codigoOficial": null,
+              "numeracionFuente": "4.1",
+              "texto": {
+                "es": "Representación gráfica de funciones utilizando la expresión más adecuada."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.4.2",
+              "codigoOficial": null,
+              "numeracionFuente": "4.2",
+              "texto": {
+                "es": "Propiedades de las distintas clases de funciones, incluyendo, polinómica, exponencial, racional sencilla, irracional, logarítmica, periódica y a trozos: comprensión y comparación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.4.3",
+              "codigoOficial": null,
+              "numeracionFuente": "4.3",
+              "texto": {
+                "es": "Álgebra simbólica en la representación y explicación de relaciones matemáticas de las ciencias sociales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Pensamiento computacional."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.5.1",
+              "codigoOficial": null,
+              "numeracionFuente": "5.1",
+              "texto": {
+                "es": "Formulación, resolución y análisis de problemas de la vida cotidiana y de las ciencias sociales utilizando programas y herramientas adecuados."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.C.5.2",
+              "codigoOficial": null,
+              "numeracionFuente": "5.2",
+              "texto": {
+                "es": "Comparación de algoritmos alternativos para el mismo problema mediante el razonamiento lógico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "saberes": [
+            {
+              "id": "MACS.1.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Organización y análisis de datos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Organización de los datos procedentes de variables bidimensionales: distribución conjunta y distribuciones marginales y condicionadas. Análisis de la dependencia estadística."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Estudio de la relación entre dos variables mediante la regresión lineal y cuadrática: valoración gráfica de la pertinencia del ajuste. Nube de puntos. Diferencia entre correlación y causalidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.1.3",
+              "codigoOficial": null,
+              "numeracionFuente": "1.3",
+              "texto": {
+                "es": "Coeficientes de correlación lineal y de determinación: cuantificación de la relación lineal, predicción y valoración de su fiabilidad en contextos de las ciencias sociales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.1.4",
+              "codigoOficial": null,
+              "numeracionFuente": "1.4",
+              "texto": {
+                "es": "Calculadora, hoja de cálculo o software específico en la organización y el análisis de datos estadísticos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Incertidumbre."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1751
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Estimación y cálculo de la probabilidad a partir del concepto de frecuencia relativa."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Cálculo de probabilidades en experimentos simples: la regla de Laplace en situaciones de equiprobabilidad y en combinación con diferentes técnicas de recuento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Distribuciones de probabilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Variables aleatorias discretas y continuas. Parámetros de la distribución."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1752
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.3.2",
+              "codigoOficial": null,
+              "numeracionFuente": "3.2",
+              "texto": {
+                "es": "Modelización de fenómenos estocásticos mediante las distribuciones de probabilidad binomial y normal. Cálculo de probabilidades asociadas mediante tecnologías digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Inferencia."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.4.1",
+              "codigoOficial": null,
+              "numeracionFuente": "4.1",
+              "texto": {
+                "es": "Diseño de estudios estadísticos relacionados con las ciencias sociales utilizando tecnologías digitales. Técnicas de muestreo sencillas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.4.2",
+              "codigoOficial": null,
+              "numeracionFuente": "4.2",
+              "texto": {
+                "es": "Análisis de muestras unidimensionales y bidimensionales con tecnologías digitales con el fin de emitir juicios y tomar decisiones: estimación puntual."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.D.4.3",
+              "codigoOficial": null,
+              "numeracionFuente": "4.3",
+              "texto": {
+                "es": "Análisis de información estadística presente en los medios de comunicación y otros ámbitos de la vida cotidiana."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido socioafectivo"
+          },
+          "saberes": [
+            {
+              "id": "MACS.1.E.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Creencias, actitudes y emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.E.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Destrezas de autoconciencia encaminadas a reconocer emociones propias, afrontando eventuales situaciones de estrés y ansiedad en el aprendizaje de las matemáticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.E.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Tratamiento del error individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.E.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Trabajo en equipo y toma de decisiones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.E.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Reconocimiento y aceptación de diversos planteamientos en la resolución de problemas y tareas matemáticas, transformando los enfoques de los demás en nuevas y mejoradas estrategias propias, mostrando empatía y respeto en el proceso."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.E.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Técnicas y estrategias de trabajo en equipo para la resolución de problemas y tareas matemáticas en grupos heterogéneos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.E.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Inclusión, respeto y diversidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.E.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud y prestación de ayuda, cuando sea necesario."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            },
+            {
+              "id": "MACS.1.E.3.2",
+              "codigoOficial": null,
+              "numeracionFuente": "3.2",
+              "texto": {
+                "es": "Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo largo de la historia en el avance de las ciencias sociales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1753
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Emplear diferentes estrategias y herramientas, incluidas las digitales, seleccionando la más adecuada según su eficiencia, buscando un cambio de estrategia cuando sea necesario y reflexionando sobre el proceso realizado para describir, analizar y ampliar la comprensión de situaciones y modelizar problemas de la vida cotidiana y de las ciencias sociales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1754
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Obtener todas las posibles soluciones matemáticas de problemas con autonomía y actitud cooperativa, describiendo el procedimiento realizado, utilizando, si fuera necesario, tecnologías digitales, con el fin de resolver problemas de la vida cotidiana y de las ciencias sociales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM3",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1754
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Demostrar la validez matemática de las posibles soluciones de un problema utilizando el razonamiento y la argumentación, seleccionando entre diferentes modos de comprobación de soluciones o estrategias, con el apoyo de tecnologías digitales, para obtener conclusiones lógicas de forma autónoma y valorar la fiabilidad del proceso seguido."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "CD2",
+            "CD3",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1754,
+              1755
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar la solución más adecuada de un problema en función del contexto usando el razonamiento y la argumentación con actitud respetuosa, y con la ayuda de tecnologías digitales, para contrastar su idoneidad y desarrollar el espíritu crítico y emprendedor."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "CD2",
+            "CD3",
+            "CC3",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1755
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Formular, investigar y comprobar conjeturas y problemas de forma autónoma y creativa, integrando el uso de herramientas tecnológicas, utilizando varias fuentes de información, planteándose preguntas, comprobando hipótesis mediante la observación, la experimentación y la indagación y confirmando su validez, con el objetivo de mejorar la destreza para resolver problemas en distintos contextos y establecer puentes entre situaciones concretas y las abstracciones matemáticas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1756
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Modificar, crear y generalizar algoritmos utilizando la abstracción para identificar los aspectos más relevantes, descomponiendo el problema en tareas más simples que se puedan codificar en un lenguaje apropiado, reflexionando sobre el proceso realizado y seleccionando las tecnologías más adecuadas para interpretar, modelizar y resolver situaciones problematizadas de la vida cotidiana y de las ciencias sociales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1756
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conectar las diferentes ideas matemáticas buscando, identificando e investigando los vínculos existentes a través de proyectos, problemas y tecnologías digitales para desarrollar una mayor comprensión de los conceptos, procedimientos, argumentos y modelos y ampliar recursos matemáticos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD1",
+            "CD2",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1757
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Resolver problemas de la vida cotidiana y de las ciencias sociales estableciendo y aplicando conexiones entre las diferentes ideas matemáticas, utilizando tecnologías digitales si fuera preciso, para generar una visión integrada de las matemáticas."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "CD3",
+            "CPSAA5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1758
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Establecer y aplicar conexiones entre ideas, conceptos y procedimientos matemáticos con otras áreas de conocimiento referentes a las ciencias sociales y con la vida real, reflexionando sobre dichos vínculos, buscando, seleccionando y contrastando información procedente de diferentes fuentes, mediante el uso de tecnologías digitales para modelizar, resolver problemas y desarrollar una capacidad crítica, creativa e innovadora en situaciones diversas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CD3",
+            "CPSAA5",
+            "CC4",
+            "CE2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1758
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar la aportación de las matemáticas al progreso de la humanidad y estudiar el papel de matemáticas y matemáticos a lo largo de la historia, apreciando aspectos esenciales del patrimonio cultural y artístico y demostrando un compromiso ético y responsable con el entorno para valorar su contribución al resolver situaciones complejas y diferentes retos que se plantean en las ciencias sociales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM2",
+            "CD1",
+            "CD2",
+            "CPSAA5",
+            "CC4",
+            "CCEC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1758
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Representar conceptos, procedimientos e información matemática activando y organizando conocimientos, de manera manual o digital, utilizando la tecnología más adecuada, para visualizar ideas y estructurar razonamientos matemáticos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1759
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Seleccionar, utilizar y combinar diversas formas de representación matemática y tecnologías, valorando su utilidad para crear y compartir información sobre proyectos, investigaciones o procesos matemáticos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM1",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD3",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1759
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Mostrar organización y comprensión al comunicar hechos, ideas, conceptos y procedimientos complejos de forma verbal, analítica y gráficamente, de manera individual y colectiva, con la terminología y el rigor apropiados, empleando o creando contenidos digitales en diversos medios y soportes para dotar de significado y consolidar los aprendizajes."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "CD2",
+            "CD3",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1759,
+              1760
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Reconocer el lenguaje matemático presente en diferentes contextos comprendiendo e interpretando textos orales, escritos y multimodales y emplearlo para comunicar la información."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1760
+            ]
+          }
+        },
+        {
+          "id": "cri-2-9-1",
+          "codigoOficial": "9.1",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Perseverar en la consecución de objetivos ante situaciones de incertidumbre, tomando decisiones, identificando y gestionando emociones, reflexionando sobre las fortalezas y debilidades propias, con el fin de crear resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM5",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CC1",
+            "CE2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1761
+            ]
+          }
+        },
+        {
+          "id": "cri-2-9-2",
+          "codigoOficial": "9.2",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Aceptar y aprender de la crítica razonada respetando distintos puntos de vista con actitud dialogante, positiva y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, para integrar el error como parte del proceso de aprendizaje, construir una identidad positiva como estudiante de matemáticas y fomentar el bienestar personal y social."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CC1",
+            "CC3",
+            "CE2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1761
+            ]
+          }
+        },
+        {
+          "id": "cri-2-9-3",
+          "codigoOficial": "9.3",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Trabajar en tareas matemáticas de forma activa en equipos heterogéneos, respetando las emociones, experiencias y diversidad de los demás y escuchando su razonamiento, aplicando las habilidades sociales más propicias, rechazando todo tipo de discriminación y violencia, promoviendo activamente la igualdad y corresponsabilidad efectiva entre mujeres y hombres, y fomentando el bienestar grupal y las relaciones saludables, para responsabilizarse del rol asignado y de su contribución al grupo y normalizar situaciones de convivencia en igualdad."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CE2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1761
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA4",
+            "CPSAA5",
+            "CC3",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue que el alumnado sea capaz de modelizar y resolver, de forma autónoma, problemas de la vida cotidiana y de las ciencias sociales de cualquiera de los bloques de los saberes básicos, haciendo uso de diferentes tecnologías digitales —como calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otras—, seleccionando y configurando la más adecuada en función de la tarea, y describiendo de forma oral, escrita o gráfica el proceso realizado. Para ello se comprobará que el alumnado selecciona los datos u objetos relevantes de un problema, identifica sus relaciones y los codifica al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático. Además, se evaluará que emplea diferentes estrategias para su resolución, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), la descomposición en problemas más sencillos, búsqueda de patrones o generalización, entre otras, seleccionando la más adecuada según su eficiencia. También se persigue que el alumnado sea capaz de obtener todas las soluciones posibles de un problema, demostrar la validez matemática de dichas soluciones, así como seleccionar de entre ellas las más adecuadas en función del contexto, usando diferentes modos de comprobación de soluciones o de estrategias para validarlas, y evaluar su alcance."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1755
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA4",
+            "CPSAA5",
+            "CC3",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue que el alumnado sea capaz de modelizar y resolver, de forma autónoma, problemas de la vida cotidiana y de las ciencias sociales de cualquiera de los bloques de los saberes básicos, haciendo uso de diferentes tecnologías digitales —como calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otras—, seleccionando y configurando la más adecuada en función de la tarea, y describiendo de forma oral, escrita o gráfica el proceso realizado. Para ello se comprobará que el alumnado selecciona los datos u objetos relevantes de un problema, identifica sus relaciones y los codifica al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático. Además, se evaluará que emplea diferentes estrategias para su resolución, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), la descomposición en problemas más sencillos, búsqueda de patrones o generalización, entre otras, seleccionando la más adecuada según su eficiencia. También se persigue que el alumnado sea capaz de obtener todas las soluciones posibles de un problema, demostrar la validez matemática de dichas soluciones, así como seleccionar de entre ellas las más adecuadas en función del contexto, usando diferentes modos de comprobación de soluciones o de estrategias para validarlas, y evaluar su alcance."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1755
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento matemático sea capaz de formular, investigar y comprobar conjeturas y problemas de forma autónoma y creativa, integrando el uso de herramientas tecnológicas digitales, seleccionando la más adecuada para la tarea a realizar y utilizando varias fuentes de información. También propiciará que se pueda verificar que el alumnado es capaz de plantear, contrastar o comprobar hipótesis, confirmando su validez mediante la observación, la experimentación y la indagación, buscando mejorar su destreza para interpretar, modelizar fenómenos (por medio de ecuaciones, inecuaciones, sistemas o distribuciones de probabilidad en el caso de fenómenos estocásticos) y resolver problemas. Asimismo, se podrá comprobar, a través de esas situaciones problematizadas, que el alumnado sabe utilizar de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples, que lo codifica en un lenguaje apropiado y fácil de interpretar por un sistema informático y también que puede modificar, crear y generalizar algoritmos o patrones en situaciones sencillas, todo lo cual favorecerá el desarrollo de un pensamiento más diverso y flexible con el que podrá construir su propio conocimiento, potenciar su curiosidad, gusto e interés por esta disciplina y mejorar su capacidad de reflexión y de superación al afrontar con resiliencia y compromiso los posibles obstáculos y dificultades que surjan por el camino, asumiendo el éxito y el fracaso como una valiosa oportunidad para aprender."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1756,
+              1757
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento matemático sea capaz de formular, investigar y comprobar conjeturas y problemas de forma autónoma y creativa, integrando el uso de herramientas tecnológicas digitales, seleccionando la más adecuada para la tarea a realizar y utilizando varias fuentes de información. También propiciará que se pueda verificar que el alumnado es capaz de plantear, contrastar o comprobar hipótesis, confirmando su validez mediante la observación, la experimentación y la indagación, buscando mejorar su destreza para interpretar, modelizar fenómenos (por medio de ecuaciones, inecuaciones, sistemas o distribuciones de probabilidad en el caso de fenómenos estocásticos) y resolver problemas. Asimismo, se podrá comprobar, a través de esas situaciones problematizadas, que el alumnado sabe utilizar de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples, que lo codifica en un lenguaje apropiado y fácil de interpretar por un sistema informático y también que puede modificar, crear y generalizar algoritmos o patrones en situaciones sencillas, todo lo cual favorecerá el desarrollo de un pensamiento más diverso y flexible con el que podrá construir su propio conocimiento, potenciar su curiosidad, gusto e interés por esta disciplina y mejorar su capacidad de reflexión y de superación al afrontar con resiliencia y compromiso los posibles obstáculos y dificultades que surjan por el camino, asumiendo el éxito y el fracaso como una valiosa oportunidad para aprender."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1756,
+              1757
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA5",
+            "CC4",
+            "CE2",
+            "CE3",
+            "CCEC1"
+          ],
+          "explicacion": {
+            "es": [
+              "Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento científico para conectar las diferentes ideas matemáticas por medio del uso de tecnologías digitales, así como establecer y aplicar las relaciones existentes entre las matemáticas y otras áreas del conocimiento, y analizar y valorar la aportación de las matemáticas al progreso de la humanidad, realizando para ello búsquedas avanzadas en internet, con lo que conseguirá, a su vez, interrelacionar conceptos y procedimientos, con el objetivo de modelizar y resolver problemas enmarcados en las ciencias sociales y en la vida cotidiana."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1758
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA5",
+            "CC4",
+            "CE2",
+            "CE3",
+            "CCEC1"
+          ],
+          "explicacion": {
+            "es": [
+              "Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento científico para conectar las diferentes ideas matemáticas por medio del uso de tecnologías digitales, así como establecer y aplicar las relaciones existentes entre las matemáticas y otras áreas del conocimiento, y analizar y valorar la aportación de las matemáticas al progreso de la humanidad, realizando para ello búsquedas avanzadas en internet, con lo que conseguirá, a su vez, interrelacionar conceptos y procedimientos, con el objetivo de modelizar y resolver problemas enmarcados en las ciencias sociales y en la vida cotidiana."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1758
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-7",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA3.2",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, usando el lenguaje representación matemática (gráficas, tablas, diagramas, fórmulas, esquemas, símbolos, etc.) y las tecnologías digitales más adecuadas para cada tarea, apoyándose en diversos medios y soportes en su presentación. Asimismo, se evaluará que el alumnado reconoce y emplea el lenguaje matemático presente en la vida cotidiana y en diferentes contextos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1760
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-8",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA3.2",
+            "CE3",
+            "CCEC4.1",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, usando el lenguaje representación matemática (gráficas, tablas, diagramas, fórmulas, esquemas, símbolos, etc.) y las tecnologías digitales más adecuadas para cada tarea, apoyándose en diversos medios y soportes en su presentación. Asimismo, se evaluará que el alumnado reconoce y emplea el lenguaje matemático presente en la vida cotidiana y en diferentes contextos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1760
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-9",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM5",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CE2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue que el alumnado utilice destrezas personales que le permitan reflexionar sobre sus fortalezas y debilidades para afrontar las situaciones de incertidumbre y enfrentarse a ellas, tomando decisiones con seguridad. Además, se comprobará que utiliza destrezas sociales para trabajar en equipo de forma constructiva y empática, gestionando las decisiones y tareas de manera responsable, logrando la consecución de los objetivos y la cohesión del grupo, promoviendo un aprendizaje activo y respetuoso, resolviendo los conflictos que puedan surgir y rechazando cualquier tipo de discriminación. Por último, se comprobará que el alumnado acepta la crítica razonada y aprende de ella, respetando los distintos puntos de vista, con actitud dialogante y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, integra el error como parte del proceso de aprendizaje, construye una identidad positiva y fomenta su bienestar personal y social."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1761
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "saberes": [
+            {
+              "id": "MACS.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Relaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.A.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Conjuntos de matrices: estructura, comprensión y propiedades."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Sentido de las operaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.A.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Adición y producto de matrices: interpretación, comprensión y aplicación adecuada de las propiedades."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.A.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Estrategias para operar con números reales y matrices: cálculo mental o escrito en los casos sencillos y con tecnologías digitales en los casos más complicados."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "saberes": [
+            {
+              "id": "MACS.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Medición."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.B.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Interpretación de la integral definida como el área bajo una curva."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.B.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Técnicas elementales para el cálculo de primitivas. Aplicación al cálculo de áreas. Regla de Barrow."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.B.1.3",
+              "codigoOficial": null,
+              "numeracionFuente": "1.3",
+              "texto": {
+                "es": "La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Cambio."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.B.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "La derivada como razón de cambio en resolución de problemas de optimización en contextos diversos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.B.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Aplicación de los conceptos de límite, continuidad y derivada a la representación y al estudio de situaciones susceptibles de ser modelizadas mediante funciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido algebraico"
+          },
+          "saberes": [
+            {
+              "id": "MACS.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Patrones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Generalización de patrones en situaciones diversas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Modelo matemático."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Relaciones cuantitativas en situaciones complejas: estrategias de identificación y determinación de la clase o clases de funciones que pueden ser modelizadas mediante el estudio de la continuidad, tendencias, ramas infinitas, corte con los ejes, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Sistemas de ecuaciones lineales: modelización de situaciones en diversos contextos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.2.3",
+              "codigoOficial": null,
+              "numeracionFuente": "2.3",
+              "texto": {
+                "es": "Técnicas y uso de matrices para, al menos, modelizar situaciones en las que aparezcan sistemas de ecuaciones lineales o grafos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.2.4",
+              "codigoOficial": null,
+              "numeracionFuente": "2.4",
+              "texto": {
+                "es": "Programación lineal: modelización de problemas reales y resolución mediante tecnologías digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Igualdad y desigualdad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Formas equivalentes de expresiones algebraicas en la resolución de sistemas de ecuaciones e inecuaciones, mediante cálculo mental, algoritmos de lápiz y papel, y con tecnologías digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.3.2",
+              "codigoOficial": null,
+              "numeracionFuente": "3.2",
+              "texto": {
+                "es": "Resolución de sistemas de ecuaciones e inecuaciones en diferentes contextos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Relaciones y funciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.4.1",
+              "codigoOficial": null,
+              "numeracionFuente": "4.1",
+              "texto": {
+                "es": "Representación, análisis e interpretación de funciones con tecnologías digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.4.2",
+              "codigoOficial": null,
+              "numeracionFuente": "4.2",
+              "texto": {
+                "es": "Propiedades de las distintas clases de funciones: comprensión y comparación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Pensamiento computacional."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.5.1",
+              "codigoOficial": null,
+              "numeracionFuente": "5.1",
+              "texto": {
+                "es": "Formulación, resolución y análisis de problemas de la vida cotidiana y de las ciencias sociales empleando las herramientas o los programas más adecuados."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.C.5.2",
+              "codigoOficial": null,
+              "numeracionFuente": "5.2",
+              "texto": {
+                "es": "Análisis algorítmico de las propiedades de las operaciones con matrices y la resolución de sistemas de ecuaciones lineales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "saberes": [
+            {
+              "id": "MACS.2.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Incertidumbre."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1762
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Cálculo de probabilidades en experimentos compuestos. Probabilidad condicionada e independencia de sucesos aleatorios. Diagramas de árbol y tablas de contingencia."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Teoremas de la probabilidad total y de Bayes: resolución de problemas e interpretación del teorema de Bayes para actualizar la probabilidad a partir de la observación y la experimentación y la toma de decisiones en condiciones de incertidumbre."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Distribuciones de probabilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Variables aleatorias discretas y continuas. Parámetros de la distribución. Distribuciones binomial y normal."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Modelización de fenómenos estocásticos mediante las distribuciones de probabilidad binomial y normal. Cálculo de probabilidades asociadas mediante tecnologías digitales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.2.3",
+              "codigoOficial": null,
+              "numeracionFuente": "2.3",
+              "texto": {
+                "es": "Estimación de probabilidades mediante la aproximación de la binomial por la normal."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Inferencia."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Selección de muestras representativas. Técnicas de muestreo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.3.2",
+              "codigoOficial": null,
+              "numeracionFuente": "3.2",
+              "texto": {
+                "es": "Estimación de la media, la proporción y la desviación típica. Aproximación de la distribución de la media y de la proporción muestrales por la normal."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.3.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3.3",
+              "texto": {
+                "es": "Intervalos de confianza basados en la distribución normal: construcción, análisis y toma de decisiones en situaciones contextualizadas. Cálculo del error."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1763
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.D.3.4",
+              "codigoOficial": null,
+              "numeracionFuente": "3.4",
+              "texto": {
+                "es": "Tecnologías digitales en la realización de estudios estadísticos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido socioafectivo"
+          },
+          "saberes": [
+            {
+              "id": "MACS.2.E.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Creencias, actitudes y emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.E.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Destrezas de autogestión encaminadas a reconocer las emociones propias, afrontando eventuales situaciones de estrés y ansiedad en el aprendizaje de las matemáticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.E.1.2",
+              "codigoOficial": null,
+              "numeracionFuente": "1.2",
+              "texto": {
+                "es": "Tratamiento y análisis del error individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.E.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Trabajo en equipo y toma de decisiones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.E.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Reconocimiento y aceptación de diversos planteamientos en la resolución de problemas y tareas matemáticas, transformando los enfoques de los demás en nuevas y mejoradas estrategias propias, mostrando empatía y respeto en el proceso."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.E.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Destrezas para evaluar diferentes opciones, trabajar en equipo y tomar decisiones en la resolución de problemas y tareas matemáticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.E.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Inclusión, respeto y diversidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.E.3.1",
+              "codigoOficial": null,
+              "numeracionFuente": "3.1",
+              "texto": {
+                "es": "Destrezas sociales y de comunicación efectivas para el éxito en el aprendizaje de las matemáticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            },
+            {
+              "id": "MACS.2.E.3.2",
+              "codigoOficial": null,
+              "numeracionFuente": "3.2",
+              "texto": {
+                "es": "Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo largo de la historia del avance de las ciencias sociales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1764
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

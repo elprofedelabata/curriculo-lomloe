@@ -1,0 +1,1050 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.fisica",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "FIS",
+    "nombre": {
+      "es": "Física"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 1265,
+        "hasta": 1282
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El objetivo fundamental de la física es entender y describir los fenómenos naturales que se observan en el universo a través de la investigación científica, desde los sucesos que ocurren a escala microscópica hasta aquellos que se dan en el macrocosmos. La física es, pues, una ciencia experimental que sirve de fundamento a otras ciencias tales como la biología, la química, la medicina o la ingeniería. Además, los descubrimientos en física son la base de diversas actividades y procesos que acontecen en la vida cotidiana y permiten el desarrollo tecnológico, económico y sostenible de la sociedad actual. A través de la enseñanza de la física el alumnado podrá despertar su curiosidad por la investigación de las ciencias, en constante evolución, así como ampliar sus conocimientos y sentar las bases para intervenir de forma constructiva ante los retos sociales, tecnológicos, industriales y medioambientales que depara el futuro.",
+      "En el segundo curso de Bachillerato el estudio de la física ha de ser de carácter formativo y experimental. Su desarrollo deberá contribuir al progreso del alumnado en el grado de las competencias que han alcanzado en cursos anteriores, consolidar los conocimientos sobre la materia que le capaciten para su futuro profesional, así como adquirir una cultura científica con la que poder comprender su entorno y actuar sobre él con espíritu crítico y desde la perspectiva de la sostenibilidad.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, que pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran, teniendo en cuenta los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "El currículo de Física en esta etapa educativa contribuye no solo al desarrollo de las competencias clave, sino a la consecución de los objetivos de etapa. Los procesos de enseñanza y de aprendizaje de la materia deben contribuir al desarrollo de dichos objetivos recogidos en seis competencias específicas y se abordarán a medida que el alumnado vaya realizando las distintas actividades de las situaciones de aprendizaje durante el curso.",
+      "A través del estudio de la materia de Física en segundo curso de Bachillerato se espera que el alumnado esté en condiciones de comprender y expresar con corrección textos y conocimientos en lengua castellana y otras lenguas (e) y (f). Además, este currículo deberá apuntalar hábitos de lectura y estudio (d), así como el empleo seguro y responsable de las tecnologías digitales (g) para construir su aprendizaje con espíritu creativo, emprendedor y sentido crítico (k).",
+      "Asimismo, el currículo contribuye a que el alumnado adquiera una actitud cívica y democrática (a), que sea capaz de asumir sus deberes de forma autónoma y responsable, tanto en su trabajo individual como la participación activa en trabajos colaborativos (b), siempre actuando desde el respeto a los derechos humanos y el fomento de la igualdad (c) entre las personas o colectivos, valorando las diferencias y la diversidad de cualquier índole que puedan existir.",
+      "Por otro lado, el desarrollo del currículo contribuye a desarrollar la sensibilidad artística y literaria (l), el criterio estético para su enriquecimiento cultural y así valorar el patrimonio cultural y artístico de Canarias. También es un objetivo lograr el reconocimiento de la labor de mujeres y hombres en las ciencias, desde el pasado hasta la actualidad (h) y la importancia de su labor para la mejora de la calidad de vida y la búsqueda de soluciones socioambientales (j).",
+      "Otra meta del currículo es que los alumnos y las alumnas tengan estilos de vida personales y sociales (m) que repercutan en su bienestar y desarrollo personal, así como una actitud comprometida en la lucha contra el cambio climático, en la defensa del desarrollo sostenible (o) y de prevención en el ámbito de la movilidad segura y saludable (n).",
+      "Por último, este currículo persigue que el alumnado acceda y adquiera las competencias, los conocimientos y estrategias científico-tecnológicos fundamentales de la modalidad elegida (i) que le permitan continuar su formación a la educación superior y enfrentarse al mundo profesional.",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "De esta manera, la materia contribuye al desarrollo y la adquisición de la Competencia en comunicación lingüística (CCL), pues el alumnado ha de interactuar de forma oral, escrita, signada o multimodal de manera coherente, adecuada al contexto científico y con diferentes propósitos comunicativos. Además, deberá interpretar, argumentar y valorar críticamente mensajes orales, así como comunicarse de forma eficaz, creativa y respetuosa a la hora de trabajar colaborativamente. Esta competencia se concreta también cuando el alumnado ha de localizar, seleccionar y contrastar de manera autónoma información procedente de diferentes fuentes evaluando su fiabilidad.",
+      "Asimismo, la contribución de la materia a la Competencia plurilingüe (CP) se concreta ante la necesidad del alumnado de utilizar con fluidez, adecuación y aceptable corrección una o más lenguas, para establecer lazos comunicativos con otros miembros de la comunidad educativa de forma autónoma y valorando la diversidad lingüística.",
+      "La Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM) se logra a través de la utilización del pensamiento y estrategias propias del método científico, como la observación, experimentación y extracción de resultados, al mismo tiempo que se emplean los fundamentos y herramientas matemáticas para la resolución de problemas. Además, el desarrollo de la materia requiere el uso de las tecnologías digitales en los distintos contextos de aprendizaje para interpretar y comunicar los elementos más relevantes de investigaciones de forma clara y precisa en diferentes formatos, aprovechando la cultura digital, el pensamiento científico y el desarrollo de proyectos.",
+      "La materia de Física contribuye, además, a la adquisición de la Competencia digital (CD), ya que requiere del uso seguro, crítico y responsable de las tecnologías digitales para el aprendizaje, el trabajo y la interacción con el resto de la comunidad. Además, el alumnado deberá crear contenidos digitales a partir de la selección y gestión de las herramientas adecuadas al momento concreto del proceso de enseñanza.",
+      "La Competencia personal, social y de aprender a aprender (CPSAA) se alcanza en esta materia a través del desarrollo de proyectos donde el alumnado debe comparar, analizar, evaluar y sintetizar datos para obtener conclusiones lógicas de forma autónoma, valorando la fiabilidad de las fuentes, así como a través del desarrollo de actividades donde el alumnado gestiona el tiempo y los recursos eficazmente. A su vez, estos trabajos colaborativos hacen que el alumnado adquiera también estrategias para conseguir los objetivos propuestos mediante una buena convivencia.",
+      "La Competencia ciudadana (CC) se adquiere a través del análisis de los fundamentos y situaciones de interdependencia y ecodependencia entre nuestras formas de vida y el entorno y su relación con la física. Los alumnos y las alumnas en el desarrollo de la materia deberán ser conscientes de la importancia de los valores democráticos basados en el respeto de los derechos humanos y la reflexión fundamentada y crítica de problemas o cuestiones sociales, tecnológicos y medioambientales. Al mismo tiempo, emprenderán acciones enfocadas a cumplir los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030 y la lucha contra el cambio climático en los que está implicada la materia.",
+      "La Competencia emprendedora (CE) se desarrolla por medio de los proyectos y procesos de experimentación donde el alumnado, aplicando los conocimientos y estrategias necesarias, ha de modificar variables, crear nuevas ideas, determinar errores, buscar soluciones y trabajar en equipo con sentido reflexivo, crítico y ético.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Física se han establecido seis competencias específicas, cuyo desarrollo da al alumnado la capacidad de adquirir conocimientos, destrezas y actitudes científicas avanzadas y elementos transversales de vital importancia para un desarrollo integral, promoviendo una ciudadanía activa. Estas competencias se concretan en quince criterios de evaluación que, debido al carácter experimental de esta ciencia, proponen la utilización de metodologías y herramientas experimentales, entre ellas el desarrollo matemático de las leyes y principios, los instrumentos de laboratorio y las herramientas digitales que pueden facilitar la comprensión de los conceptos y fenómenos. Estas competencias también pretenden fomentar el trabajo en equipo y los valores sociales y cívicos para lograr personas comprometidas que utilicen la ciencia para la formación permanente a lo largo de la vida, el desarrollo medioambiental sostenible, el bien comunitario y el progreso de la sociedad.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Los conocimientos, destrezas y actitudes básicas que ha adquirido el alumnado en la etapa de Educación Secundaria Obligatoria y en el primer curso de Bachillerato han creado una estructura competencial sobre la que consolidar y construir los saberes científicos que aporta la asignatura de Física en este curso. Los diferentes bloques de saberes básicos de la materia de Física del segundo curso de Bachillerato van enfocados a relacionar y completar los de las enseñanzas de etapas anteriores, de forma que el alumnado pueda adquirir una percepción global de las distintas líneas de investigación en física y de sus muy diversas aplicaciones.",
+      "Los saberes básicos de esta materia se han distribuido en cuatro grandes bloques de conocimiento, sin que el orden en el que se presentan implique que sea en el que se tienen que abordar en el aula: I. «Campo gravitatorio», II. «Campo electromagnético», III. «Vibraciones y ondas» y IV. «Física relativista, cuántica, nuclear y de partículas».",
+      "Los dos primeros bloques hacen referencia a la teoría clásica de campos. En el Bloque I, «Campo gravitatorio», se estudiarán, empleando las herramientas matemáticas adecuadas para conferirle el rigor suficiente, las interacciones que se generan entre partículas másicas y, en relación con algunos de los conocimientos de cursos anteriores, su mecánica, su energía y los principios de conservación.",
+      "A continuación, el Bloque II, «Campo electromagnético», describe los campos eléctrico y magnético, tanto estáticos como variables en el tiempo, así como sus características y aplicaciones tecnológicas, biosanitarias e industriales.",
+      "El Bloque III, «Vibraciones y ondas», se refiere a vibraciones y ondas, contemplando el movimiento oscilatorio como generador de perturbaciones y su propagación en el espacio-tiempo a través de un movimiento ondulatorio. El estudio se completa con el análisis detallado de la conservación de energía en las ondas y su aplicación en ejemplos concretos como son las ondas sonoras y las ondas electromagnéticas, lo que abre el estudio de los procesos propios de la óptica física y la óptica geométrica.",
+      "Con el Bloque IV, «Física relativista, cuántica, nuclear y de partículas», se muestra el panorama general de la física del presente y el futuro. En él se exponen los conocimientos, destrezas y actitudes de la física cuántica y de la física de partículas. Bajo los principios fundamentales de la física relativista, este bloque explica cómo es la constitución de la materia y la descripción de los procesos que ocurren cuando se estudia ciencia a nivel microscópico. Este bloque permitirá al alumnado aproximarse a las fronteras de la física y abrirá su curiosidad —el mejor motor para su aprendizaje— al ver que todavía quedan muchas preguntas por resolver y muchos retos que deben ser atendidos desde la investigación y desarrollo de esta ciencia.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "Por tanto, la puesta en práctica del currículo en el aula debe girar en torno a un aprendizaje competencial a través de la realización de tareas, actividades y proyectos donde el alumnado pueda alcanzar los objetivos propuestos. Es importante un enfoque del proceso de enseñanza que afiance las capacidades de aprender a saber, aprender a ser, aprender a hacer y saber convivir y que proporcione herramientas para continuar una posterior formación o incorporación al mundo profesional.",
+      "En este sentido, es necesaria una ajustada programación de las situaciones de aprendizaje debidamente fundamentadas y contextualizadas en las que, con el abordaje de los saberes básicos programados de la materia, se puedan trabajar y evaluar las competencias específicas implicadas.",
+      "Estas situaciones de aprendizaje pueden adaptarse a los distintos niveles de desempeño de acuerdo a los criterios de evaluación de cada bloque competencial. En su revisión global se debe advertir que se trabajan todos los criterios de evaluación y, por tanto, los descriptores de los perfiles de salida.",
+      "La metodología debe ser activa, analítica y experimental, que despierte curiosidad en el alumnado por la materia y que le permita potenciar el razonamiento científico. Para ello, se puede optar por una metodología basada en proyectos, en problemas, en destrezas del pensamiento o aprendizaje cooperativo, entre otras.",
+      "El modelo de enseñanza puede variar: en ocasiones se podrá optar por una enseñanza expositiva y en otras será indicado otro tipo de modelo como la indagación científica, deductiva, inductiva o expositiva.",
+      "Los recursos empleados podrán ser reales o digitales, así como los espacios de enseñanza podrán ser desde el laboratorio del centro hasta aplicaciones para la simulación de los procesos o experimentos. Las fuentes de información han de ser variadas: libros de texto, fuentes digitales, etc. Con todas ellas el alumnado ha de ser capaz de extraer, sintetizar y comunicar la información.",
+      "En definitiva, se debe hacer una adecuada selección de situaciones de aprendizaje pues son el eje vertebrador de la programación didáctica, que garanticen una educación integral y sostenible, que se ajuste los distintos ritmos de aprendizaje y que permita una correcta evaluación del alumnado a través de los distintos instrumentos de evaluación seleccionados, en consonancia con los principios del Diseño Universal para el Aprendizaje (DUA)."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Utilizar las teorías, principios y leyes que rigen los procesos físicos más importantes, considerando su base experimental y desarrollo matemático en la resolución de problemas, para reconocer la física como una ciencia relevante implicada en el desarrollo de la tecnología, la economía, la sociedad y la sostenibilidad ambiental."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD5"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1268,
+          1272
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de la competencia específica conlleva utilizar los principios, leyes y teorías de la física para construir nuevos conocimientos y buscar soluciones fundamentadas a través del trabajo experimental y gracias a la utilización de desarrollos matemáticos. El alumnado ha de comprender y describir el comportamiento de fenómenos naturales donde interviene la física y, de esta manera, apreciar que se trata de un ámbito de la ciencia importante por sus implicaciones en la vida cotidiana y por su repercusión en el progreso sostenible de la sociedad. Esta competencia se concreta en dos criterios de evaluación. El primero trata de establecer relaciones entre los conocimientos científicos relativos a la física y el desarrollo de otros ámbitos del conocimiento y de la sociedad para valorar la implicación de esta materia en la vida cotidiana. El segundo criterio va encaminado a la resolución de problemas relacionados con los procesos físicos más importantes y buscar soluciones a problemas reales."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Adoptar los modelos, teorías y leyes aceptados de la física como base de estudio de los sistemas naturales y predecir su evolución para inferir soluciones generales a los problemas cotidianos relacionados con las aplicaciones prácticas demandadas por la sociedad en el campo tecnológico, industrial y biosanitario."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CPSAA2",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1268,
+          1273
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Para el desarrollo de la competencia específica el alumnado ha de emplear los modelos, las teorías y las leyes que forman los pilares fundamentales de la física para predecir la evolución de los sistemas y objetos naturales. Al mismo tiempo, deberá relacionar los fenómenos observados en situaciones cotidianas y aprender a inferir soluciones generales a los problemas cotidianos, que podrán traducirse en aplicaciones prácticas en otros campos, como el tecnológico, industrial o biosanitario. Esta competencia se divide en tres criterios de evaluación. El primero orientado al análisis de la evolución de los sistemas naturales, utilizando los fundamentos de la física, para explicar cómo y por qué suceden los fenómenos del entorno. El segundo, dirigido a la inferencia de soluciones generales a partir de problemas cotidianos y particulares.Y un último criterio, dirigido al análisis de aplicaciones en el campo tecnológico, industrial y biosanitario, poniendo en valor la utilidad de la física."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Utilizar el lenguaje de la física con la formulación matemática de sus principios, magnitudes, unidades, ecuaciones, etc., para establecer una comunicación adecuada entre diferentes comunidades científicas y como una herramienta fundamental en la investigación."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "STEM1",
+        "STEM4",
+        "CD3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1268,
+          1269,
+          1274
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con el desarrollo de la competencia específica se pretende que el alumnado utilice el lenguaje matemático y su formulación para plantear y resolver los planteamientos físicos, valorando su carácter universal. Al mismo tiempo, el alumnado ha de reforzar las estrategias propias del trabajo colaborativo. En este caso, la competencia se formaliza en tres criterios de evaluación. Un primer criterio se dirige a la aplicación de la formulación matemática de los principios, las leyes y las teorías científicas en el análisis de procesos físicos del entorno, explicando las causas que los producen. El segundo criterio de este bloque competencial plantea el uso riguroso de las herramientas y el lenguaje matemático, para establecer una comunicación efectiva con toda la comunidad científica. Finalmente, el tercer criterio va dirigido a que el alumnado exprese de forma debidamente argumentada los resultados de situaciones físicas reales o ideales e incorporar lo aprendido a sus conocimientos previos."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar de forma autónoma, eficiente, crítica y responsable recursos en distintos formatos, plataformas digitales de información y de comunicación en el trabajo individual y colectivo para el fomento de la creatividad mediante la producción y el intercambio de materiales científicos y divulgativos que faciliten acercar la física a la sociedad como un campo de conocimientos accesible."
+      },
+      "descriptoresOperativosRefs": [
+        "CP1",
+        "STEM3",
+        "STEM5",
+        "CD1",
+        "CD3",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1269,
+          1276
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica desea fomentar la utilización autónoma y responsable de plataformas y entornos virtuales de aprendizaje como medios para el aprendizaje de la física. Asimismo, se quiere generar la producción e intercambio de materiales científicos y divulgativos como forma de acercar la física de forma creativa a la sociedad. La competencia comprende dos criterios de evaluación relacionados con, por un lado, la consulta, elaboración e intercambio de materiales científicos y divulgativos procedentes de diferentes fuentes y en distintos formatos mediante un uso autónomo de los recursos digitales y, por otro lado, la selección y uso de crítica, ética y responsable diferentes medios de comunicación para progresar en el trabajo individual y colectivo."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Aplicar técnicas de trabajo e indagación propias de la física, así como la experimentación, el razonamiento lógico-matemático y la cooperación, en la resolución de problemas y la interpretación de situaciones relacionadas, para poner en valor el papel de la física en una sociedad basada en valores éticos y sostenibles."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CPSAA3.2",
+        "CC4",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1269,
+          1277,
+          1278
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica se basa en la reproducción de procesos físicos cotidianos, de forma real o virtual, que generen aprendizajes significativos y que despierten curiosidad en el alumnado. Además, el trabajo experimental constituye un conjunto de etapas que fomentan la colaboración, el intercambio de información y el uso de recursos tecnológicos y la síntesis de los resultados obtenidos en informes. En este caso, son tres los criterios de evaluación vinculados a esta competencia. En el primero, el alumnado deberá obtener relaciones entre variables físicas al trabajar en laboratorios, tratando los datos experimentales y compartiendo los nuevos conocimientos. En el segundo criterio tendrá que reproducir en laboratorios, reales o virtuales, determinados procesos físicos generando el correspondiente informe. Y un tercer criterio dirigido al debate de forma argumentada sobre los avances y la implicación de la física en la sociedad y su valoración."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Reconocer y analizar el carácter multidisciplinar de la física, considerando su relevante recorrido histórico y sus contribuciones al avance del conocimiento científico como un proceso en continua evolución e innovación, para establecer unas bases de conocimiento y relación con otras disciplinas científicas."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM4",
+        "CPSAA5",
+        "CC1",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1269,
+          1279
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Por último, la competencia específica (C6) pretende que el alumnado ponga en relieve la universalidad de la Física y su vinculación e importancia en los avances científicos y tecnológicos, así como que reconozca la importancia de la colaboración entre distintas comunidades científicas de diversas disciplinas. La concreción de esta competencia se distribuye en dos criterios de evaluación. El primero espera que el alumnado identifique los principales avances científicos relacionados con la física a lo largo de la historia, para entender cómo la ciencia es universal y está en constante evolución. El otro criterio aspira a habilitar al alumnado para analizar las contribuciones de distintas disciplinas científicas y para que reconozca el carácter multidisciplinar de la física, entre ellas."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Relacionar los conocimientos científicos relativos a la física con el desarrollo de la ciencia, la tecnología, la economía, la sociedad y la sostenibilidad ambiental, empleando sus fundamentos teóricos, para apreciar la implicación de la física en diferentes contextos de la vida cotidiana."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1272
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver problemas relacionados con procesos físicos por métodos analíticos y experimentales utilizando las metodologías propias del trabajo científico, las herramientas matemáticas y digitales y aplicando los principios, las leyes y las teorías que los rigen para extrapolar sus resultados a situaciones reales."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1272
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar e interpretar la evolución de los sistemas naturales utilizando modelos, leyes y teorías de la física para explicar cómo y por qué suceden los fenómenos que se producen en el entorno."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1273
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Inferir soluciones generales a problemas cotidianos a partir del análisis de situaciones particulares y de las variables de las que dependen aplicando modelos, teorías y leyes físicas para que redunden en posibles aplicaciones prácticas necesarias para la sociedad."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM5",
+            "CPSAA2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1273,
+              1274
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar y describir aplicaciones prácticas y productos útiles en el campo tecnológico, industrial y biosanitario, con base en los modelos, las leyes y las teorías que permitan concebir la física como un valor demandado por la sociedad."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1274
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Aplicar la formulación matemática de los principios, leyes y teorías científicas en el análisis de procesos físicos del entorno, como los observados y los publicados en distintos medios de comunicación, identificando, analizando y explicando las causas que los producen, para intercambiar planteamientos físicos en distintos entornos y medios."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL5",
+            "STEM1",
+            "STEM4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1275
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar de manera rigurosa las herramientas y el lenguaje matemático y asociar las variables físicas con su notación, su unidad y sus equivalencias en diferentes sistemas de unidades, así como elaborar e interpretar gráficas que relacionen variables físicas, para posibilitar una comunicación efectiva con toda la comunidad científica."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM4",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1275
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Expresar de forma adecuada y analizar la coherencia de los resultados de situaciones físicas reales o ideales, argumentando las soluciones obtenidas en la resolución de los ejercicios y problemas que se plantean, como forma de construir nuevos conocimientos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM4",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1275
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Consultar, elaborar e intercambiar materiales científicos y divulgativos en distintos formatos procedentes de diferentes fuentes en varios idiomas con otros miembros del entorno de aprendizaje, utilizando de forma autónoma plataformas digitales de información y comunicación para hacer más accesible la física y acercar la física a la sociedad."
+          },
+          "descriptoresOperativosRefs": [
+            "CP1",
+            "STEM3",
+            "STEM5",
+            "CD1",
+            "CD3",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1276
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Seleccionar, configurar y utilizar de forma crítica, ética y responsable plataformas digitales de comunicación, así como otros medios, para producir e intercambiar materiales científicos y divulgativos, fomentando la creatividad y enriqueciendo el aprendizaje en el trabajo individual y colectivo."
+          },
+          "descriptoresOperativosRefs": [
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1276,
+              1277
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Obtener relaciones entre variables físicas al trabajar en laboratorios reales o virtuales, midiendo y tratando los datos experimentales, determinando los errores y utilizando sistemas de representación gráfica para utilizar las estrategias propias del trabajo colaborativo en la investigación científica."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "CPSAA3.2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1278
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reproducir en laboratorios reales o virtuales determinados procesos físicos modificando las variables que los condicionan, considerando los principios, leyes o teorías implicados y generando, en el formato correspondiente, el informe que recoja todo el proceso tanto en el trabajo individual como en equipo, para formarse como miembros de la comunidad científica futura."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "CPSAA3.2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1278
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Debatir de forma argumentada sobre los avances y la implicación de la física en la sociedad desde el punto de vista de la ética y de la sostenibilidad, para valorarla como una ciencia comprometida con la mejora de las condiciones de vida."
+          },
+          "descriptoresOperativosRefs": [
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1278
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Identificar los principales avances científicos relacionados con la física a lo largo de la historia que han contribuido a establecer las leyes y teorías aceptadas actualmente en el conjunto de las disciplinas científicas, para entender la ciencia como un proceso universal y en constante evolución."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM4",
+            "CPSAA5",
+            "CC1",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1279
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Establecer las relaciones de la física con la química, la biología o las matemáticas, analizando las contribuciones de unas disciplinas sobre otras, para reconocer el carácter multidisciplinar de la ciencia."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM4",
+            "CPSAA5",
+            "CC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1279
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD5"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de comprender las implicaciones de la física en otros campos de la vida cotidiana. Por ello, debe poder percibir y describir los procesos físicos asociados a los fenómenos naturales que se producen en su entorno mediante la observación, la experimentación y la indagación, utilizando las metodologías propias del trabajo científico y deducir cuáles son los fundamentos básicos de la física que han contribuido al desarrollo de otros ámbitos y campos del saber, como la tecnología, la economía, la sociedad y el medioambiente. Además, se constatará si a través de la aplicación de los principios, las leyes y las teorías de la física que explican las interacciones que se producen entre los cuerpos y los sistemas en la naturaleza, el alumnado está en condiciones de resolver, de forma individual o colaborativa, cuestiones y problemas por métodos experimentales o mediante la utilización de desarrollos matemáticos en contextos en los que interviene la física, empleando estrategias variadas de resolución y analizando críticamente las soluciones obtenidas, con el apoyo de dispositivos, herramientas y aplicaciones digitales que le permitan incorporar nuevos conocimientos con la finalidad de desarrollar el pensamiento crítico y la actitud necesaria para contribuir al progreso de la sociedad a través del conocimiento científico adquirido, aportando soluciones sostenibles."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1272,
+              1273
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CPSAA",
+            "CC"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM5",
+            "CPSAA2",
+            "CC4"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se verificará si el alumnado es capaz de adoptar los modelos, las teorías y las leyes relacionados con cualquiera de los bloques de saberes básicos que forman los pilares fundamentales de la física y aplicarlos para predecir la evolución de los sistemas y objetos naturales. Al mismo tiempo, debe ser capaz de interpretar y describir los fenómenos de la naturaleza observados en situaciones cotidianas y sacar conclusiones sobre su relación con los principios de la física. Asimismo, se comprobará, a partir del análisis de diversas situaciones o casos particulares, que es capaz, por un lado, de inferir soluciones generales mediante la observación, la experimentación y la investigación propias del pensamiento científico, teniendo en cuenta las variables de las que dependen, y, por otro lado, que es capaz de examinar críticamente las aplicaciones prácticas que se han desarrollado desde el campo tecnológico, industrial o biosanitario y que han dado lugar a productos y beneficios necesarios para la sociedad, analizando también su impacto, para asumir un compromiso ético con los estilos de vida que conduzcan al logro de los Objetivos de Desarrollo Sostenible y la lucha contra el cambio climático."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1274
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL5",
+            "STEM1",
+            "STEM4",
+            "CD3"
+          ],
+          "explicacion": {
+            "es": [
+              "Mediante el desarrollo de este bloque competencial se comprobará si el alumnado es capaz de manejar los formalismos propios de la ciencia durante el planteamiento exhaustivo y la discusión reflexiva de procesos físicos relacionados con cualquiera de los bloques de saberes básicos observados directamente del entorno como resultado de la experimentación, la investigación o el uso de herramientas digitales o de los publicados en distintos medios de comunicación. Todo ello a partir de la distinción, análisis y descripción de las causas que los producen y asignando la formulación matemática específica que los contextualiza en base a los principios, las leyes y las teorías científicas aplicadas tras un análisis fundamentado y crítico de dichos procesos. Además, se valorará que durante el proceso de resolución de las actividades y problemas que se le plantean interprete los elementos más relevantes de la información aportada en diferentes formatos (gráficos, tablas, diagramas, fórmulas, símbolos, etc.) y haga un uso riguroso de las herramientas y el lenguaje matemático, vinculando las variables físicas empleadas con su notación y su unidad en el Sistema Internacional de Medidas y manejando con soltura las equivalencias en diferentes sistemas de unidades. Finalmente, se constatará si el alumnado es capaz de transmitir argumentada y respetuosamente los resultados de forma clara y precisa mediante el empleo del mismo lenguaje matemático con sus diversas formas de expresión, donde se valorará su coherencia, así como de intercambiar los planteamientos físicos, su resolución y sus aplicaciones en el mundo que les rodea en distintos entornos y medios, asegurando la claridad de los mensajes que intercambia con el resto del grupo y haciendo un uso eficaz y ético de los diferentes sistemas de comunicación como una herramienta fundamental en la investigación necesaria para obtener avances tecnológicos que tengan en cuenta la conservación del medioambiente."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1275,
+              1276
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA"
+          ],
+          "descriptoresOperativosRefs": [
+            "CP1",
+            "STEM3",
+            "STEM5",
+            "CD1",
+            "CD3",
+            "CPSAA4"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se observará si el alumnado ha adquirido las destrezas para escoger, configurar y emplear de forma autónoma, crítica y eficiente las plataformas y los entornos virtuales de aprendizaje, bien realizando búsquedas avanzadas o consultas de materiales científicos y divulgativos en diferentes formatos e idiomas, aplicando criterios de validez, calidad, actualidad y fiabilidad que respondan a sus necesidades; bien creando repositorios de recursos y materiales producidos por el propio alumnado, es decir, entornos personales de aprendizaje, que son espacios organizados adecuadamente donde almacenar, organizar, mantener y difundir información digital (trabajos científicos, conjunto de datos o software, etc.) de manera segura; bien efectuando intercambios de información con otros miembros del entorno educativo en el contexto de los trabajos colaborativos, gestionando de manera responsable sus acciones, presencia y visibilidad; o bien comunicando y publicando los resultado de sus investigaciones o cualquier otra producción elaborada durante el trabajo individual o el colectivo relacionada con cualquiera de los bloques de saberes básicos, ejerciendo una ciudadanía digital activa, cívica y reflexiva. Todo ello con la finalidad, por un lado, de mejorar en el manejo de estrategias que le permitan el aprendizaje autorregulado y, por otro, de establecer vínculos emocionales entre la física y la sociedad presentándola como un campo de saber accesible y con capacidad transformadora del entorno."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1277
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "CPSAA3.2",
+            "CC4",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se constatará si el alumnado es capaz de explicar los fenómenos naturales presentes en el entorno de forma generalizada a partir de la comprobación y el análisis de los resultados experimentales cuando trabaja individual o colaborativamente. Por ello, se valorará si realiza el estudio experimental de determinados procesos físicos relacionados con cualquiera de los bloques de saberes básicos en laboratorios reales cuando sean reproducibles fácilmente o en laboratorios virtuales donde puedan simularse aquellos que no se puedan reproducir; si considera los principios, las leyes y las teorías implicadas en dichos procesos para modificar las variables físicas que los condicionan; si mide, trata y analiza los datos obtenidos para establecer relaciones entre las variables modificadas, empleando las herramientas y el lenguaje matemático en la determinación del grado de precisión de las medidas y en la representación gráfica de las mismas, y si plasma el proceso seguido en la investigación a través de un informe en el formato adecuado que incluya las argumentaciones, las conclusiones, las tablas de datos, las gráficas y las referencias bibliográficas con el apoyo de recursos tecnológicos y la utilización de distintas fuentes documentales, todo ello garantizando la distribución de las tareas, los recursos y las responsabilidades de manera equitativa en pos de la consecución de los objetivos propuestos en el trabajo en equipo. Finalmente, se comprobará si es capaz de obtener conclusiones sobre la importancia de la física en la sociedad desde el punto de vista de la ética y de la sostenibilidad, a partir del debate argumentado sobre sus avances y sus implicaciones en el entorno, con la finalidad de asumir un compromiso sólido con la construcción de una sociedad justa para las generaciones presentes y futuras."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1278,
+              1279
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM4",
+            "CPSAA5",
+            "CC1",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "Mediante este bloque competencial se constatará si el alumnado es capaz de inferir que la física constituye una ciencia profundamente implicada en distintos ámbitos de nuestras vidas cotidianas y que forma parte clave del desarrollo científico, tecnológico e industrial al determinar y transmitir cuáles han sido los principales avances científicos en física y su proceso de construcción a través de la historia en los diferentes bloques de saberes básicos que han permitido formalizar las leyes y teorías, así como las metodologías propias del trabajo científico, actualmente aceptadas en toda la comunidad científica, al visibilizar cómo el progreso de la tecnología ha permitido alumbrar nuevos descubrimientos, del mismo modo que las necesidades experimentales para verificar ciertos estudios han supuesto un incentivo en el desarrollo tecnológico, entendiendo la ciencia como un proceso en constante evolución y al analizar las contribuciones recíprocas entre la física, la química, las matemáticas o la biología y establecer las relaciones entre las diferentes disciplinas, imprescindibles para el óptimo desarrollo de las mismas debido al carácter multidisciplinar de la ciencia."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1280
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Campo gravitatorio"
+          },
+          "saberes": [
+            {
+              "id": "FIS.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Determinación y caracterización a través del cálculo vectorial del campo gravitatorio producido por un sistema de masas para determinar sus efectos sobre las variables cinemáticas y dinámicas de objetos inmersos en el campo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Valoración del carácter conservativo del campo por su relación con una fuerza central para realizar cálculos relacionados con el estudio de su movimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Análisis de la energía mecánica de un objeto sometido a un campo gravitatorio para la deducción del tipo de movimiento que posee y el cálculo del trabajo o los balances energéticos existentes en desplazamientos entre distintas posiciones, velocidades y tipos de trayectorias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Aplicación de las leyes gravitatorias para explicar el movimiento planetario, de otros cuerpos celestes y de satélites artificiales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Implicación del campo gravitatorio en el estudio de la evolución de objetos astronómicos y del conocimiento del universo para conocer la repercusión de la investigación astrofísica, especialmente en Canarias, en la industria, la tecnología, la economía y en la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Campo electromagnético"
+          },
+          "saberes": [
+            {
+              "id": "FIS.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Determinación, a través del cálculo vectorial, de las variables cinemáticas y dinámicas de cargas eléctricas libres en presencia de los campos eléctrico y magnético para comprender fenómenos naturales y conocer aplicaciones tecnológicas en los que se aprecian estos efectos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis y estudio de la intensidad del campo eléctrico en distribuciones de cargas discretas y continuas para el cálculo e interpretación del flujo de campo eléctrico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Cálculo del trabajo necesario para el desplazamiento de cargas libres entre puntos de distinto potencial eléctrico y estimación de las magnitudes que se modifican y que permanecen constantes para el estudio de la energía de una distribución de cargas estáticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Determinación de campos magnéticos generados por hilos con corriente eléctrica en distintas configuraciones geométricas (rectilíneos, espiras, solenoides o toros) y análisis de la interacción con cargas eléctricas libres presentes en su entorno para predecir su comportamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.B.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Estudio de las líneas de campo eléctrico y magnético producido por distribuciones de carga sencillas, imanes e hilos con corriente eléctrica en distintas configuraciones geométricas para su caracterización."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.B.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Cálculo de la fuerza electromotriz inducida y análisis del funcionamiento de motores, generadores y transformadores a partir de sistemas donde se produce una variación del flujo magnético para estimar el sentido de la corriente y valorar sus aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1281
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Vibraciones y ondas"
+          },
+          "saberes": [
+            {
+              "id": "FIS.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Interpretación y cálculo de las variables cinemáticas de un cuerpo oscilante y conservación de energía en estos sistemas para la explicación del significado físico de sus parámetros característicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1282
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis de gráficas de oscilación en función de la posición y del tiempo, determinación de la ecuación de onda que lo describe y relación con el movimiento armónico simple para interpretar distintos tipos de movimientos ondulatorios en la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1282
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Reconocimiento de situaciones y contextos naturales en los que se ponen de manifiesto distintos fenómenos ondulatorios —en especial las ondas sonoras— e identificación de los cambios en las propiedades de las ondas en función del desplazamiento del emisor y receptor para explicar sus aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1282
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Conocimiento de la evolución histórica de la naturaleza de la luz y estudio de la concepción actual de la misma como onda electromagnética y del espectro electromagnético como elementos clave para explicar procesos cotidianos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1282
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Demostración de la formación de imágenes en medios y objetos con distinto índice de refracción y obtención de imágenes en lentes delgadas, espejos planos y curvos para analizar sus aplicaciones y utilidades en distintos campos de la ciencia y la salud."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1282
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Física relativista, cuántica, nuclear y de partículas"
+          },
+          "saberes": [
+            {
+              "id": "FIS.2.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de los principios fundamentales de la Relatividad Especial para la explicación de sus consecuencias como la contracción de la longitud, la dilatación del tiempo, la energía y la masa relativistas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1282
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Planteamiento de la dualidad onda-partícula a partir de la hipótesis de De Broglie y del efecto fotoeléctrico para explicar la dualidad onda-partícula y sus aplicaciones e interpretación del principio de incertidumbre formulado en base al tiempo y la energía."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1282
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Clasificación de las partículas fundamentales y descripción de sus interacciones fundamentales según el modelo estándar en la física de partículas y descripción de los procesos de intercambio de partículas (bosones) provocados en los aceleradores de partículas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1282
+                ]
+              }
+            },
+            {
+              "id": "FIS.2.D.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Caracterización de los núcleos atómicos, valoración de la estabilidad de isótopos y descripción de la radiactividad natural y de otros procesos nucleares para valorar sus aplicaciones en los campos de la ingeniería, la tecnología y la salud."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1282
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

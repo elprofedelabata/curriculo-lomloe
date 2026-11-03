@@ -93,6 +93,7 @@ for (const territoryCode of territoryDirectories) {
         etapa: stage,
         nombre: document.materia.nombre.es ?? document.materia.nombre.ca,
         codigo: document.materia.codigo,
+        ...(document.concrecionCurricular ? { concrecionCurricular: document.concrecionCurricular } : {}),
         cursos: document.materia.cursos || [],
         ciclos: document.materia.ciclos || [],
         schemaVersion: document.schemaVersion,
@@ -179,7 +180,7 @@ const sourceDocuments = [...sourceCatalogs.entries()].flatMap(([territoryCode, s
   sourceCatalog.documentos.map((document) => ({ territorio: document.territorio || territoryCode, ...document })),
 );
 const catalog = {
-  version: "1.7.0",
+  version: "1.8.0",
   proyecto: {
     nombre: "Currículo LOMLOE en JSON",
     repositorio: repoUrl,

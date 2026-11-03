@@ -25,6 +25,7 @@
     "territorio": { "type": "string", "pattern": "^[a-z]{2}-[a-z]{2}$" },
     "etapa": { "type": "string", "enum": ["infantil", "primaria", "eso", "bachillerato", "cfgb"] },
     "materia": { "$ref": "#/$defs/materia" },
+    "concrecionCurricular": { "$ref": "#/$defs/concrecionCurricular" },
     "vigencia": { "$ref": "#/$defs/vigencia" },
     "fuentes": {
       "type": "array",
@@ -45,6 +46,27 @@
     "revision": { "$ref": "#/$defs/revision" }
   },
   "$defs": {
+    "concrecionCurricular": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Desarrollo complementario vinculado a un currículo base, con condiciones de aplicación expresas.",
+      "required": ["materiaBaseRef", "aplicacion", "procedencia"],
+      "properties": {
+        "materiaBaseRef": { "type": "string", "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)*$" },
+        "descripcion": { "$ref": "#/$defs/textoLocalizado" },
+        "aplicacion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["preceptivaEn", "facultativaEn", "facultativaRequiereAutorizacion"],
+          "properties": {
+            "preceptivaEn": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+            "facultativaEn": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+            "facultativaRequiereAutorizacion": { "type": "boolean" }
+          }
+        },
+        "procedencia": { "$ref": "#/$defs/procedencia" }
+      }
+    },
     "textoLocalizado": {
       "type": "object",
       "minProperties": 1,

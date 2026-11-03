@@ -1,0 +1,1604 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.biologia-geologia-y-ciencias-ambientales",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "BGCA",
+    "nombre": {
+      "es": "Biología, Geología y Ciencias Ambientales"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 977,
+        "hasta": 999
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Biología, Geología y Ciencias Ambientales pretende profundizar en los saberes de estas disciplinas, permitiendo que el alumnado adquiera conocimientos y destrezas básicas, así como una cultura científica indispensable para comprender el mundo que le rodea y sus transformaciones, y así desarrollar actitudes responsables sobre aspectos ligados a la vida y a la salud.",
+      "Se promueve, además, la cultura del esfuerzo para lograr un modelo de desarrollo sostenible que contribuya a la mejora del medioambiente y a la preservación del patrimonio natural y cultural, poniendo especialmente en valor la realidad geográfica, geológica y la biodiversidad de Canarias como fuente de riqueza y prosperidad, al ser un territorio con un enorme potencial de energías renovables y de economía azul, entre otros campos de investigación y desarrollo, que deben ser aprovechadas de manera sostenible y vistas como posibilidades de futuro.",
+      "Por otro lado, se busca estimular la vocación científica en el alumnado, especialmente en las alumnas, para contribuir a acabar con la brecha de género en la investigación, posibilitando que puedan llegar a desarrollar puestos de responsabilidad en este campo, y fomentando así la igualdad efectiva de oportunidades entre géneros.",
+      "Su fin último es mejorar la formación científica y la comprensión por parte del alumnado del mundo natural y así reforzar su compromiso por el bien común y afianzar sus destrezas para responder a la inestabilidad y al cambio. Con todo ello se busca mejorar la calidad de vida presente y futura para conseguir, a través del sistema educativo, una sociedad más justa y equitativa.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "El currículo de Biología, Geología y Ciencias Ambientales contribuye a la consecución de los objetivos de etapa de Bachillerato en la medida en que los objetivos (a), (b), (c) y (h) buscan el desarrollo de ciudadanos y ciudadanas que contribuyan a crear una sociedad más equitativa, justa y que ofrezca una igualdad efectiva de derechos y oportunidades a hombres y mujeres. También contribuye al objetivo (i), puesto que esto solo se puede conseguir cuando la población tiene una cultura y una competencia en alfabetización científica y está informada sobre las realidades del mundo contemporáneo, sus antecedentes históricos y los principales factores de su evolución, dotando al alumnado de las herramientas necesarias para tener un pensamiento crítico que le permita tomar decisiones de manera madura y actuar de forma respetuosa, responsable y autónoma.",
+      "Los objetivos (m) y (n) están relacionados directamente con el currículo de la materia de Biología, Geología y Ciencias Ambientales al hacer referencia a aspectos como el bienestar físico, mental y social de las personas y poner en el centro el cuidado del medioambiente, fomentando hábitos de movilidad segura y saludable, así como los beneficios de la actividad física y el deporte para favorecer la mejora en la calidad del medioambiente en el que desarrollan sus vidas, tanto desde un punto de vista individual como colectivo y desde una perspectiva local y global, poniendo el foco en la realidad de Canarias y en las condiciones propias derivadas de la insularidad, así como en las posibilidades que ofrecen sus recursos naturales. De esta manera, el alumnado será capaz de conocer y valorar críticamente la contribución de la ciencia y la tecnología en las condiciones de vida, contribuyendo así al objetivo (j), a la par que al objetivo (o), al mantener una actitud responsable y comprometida en la lucha contra el cambio climático y en la defensa del desarrollo sostenible.",
+      "Las metodologías científicas propias de la materia contribuyen también al logro de los objetivos (d), (e), (f) y (g), relacionados con la lectura y el estudio, el dominio de la expresión oral, escrita y multimodal, el uso eficaz de las tecnologías de la información y comunicación, tanto para la búsqueda y selección de información en diversas fuentes como para su comunicación. Por otro lado, esta materia contribuye al objetivo (k), en el que la iniciativa emprendedora, unida a la creatividad y el trabajo en equipo son bases fundamentales para desarrollar el espíritu crítico, la confianza personal y el sentirse parte activa en la mejora de la sociedad del presente y del futuro.",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "La contribución de esta materia a la Competencia en comunicación lingüística (CCL) se realiza a través de la interpretación, elaboración y transmisión de ideas e información científica sobre los fenómenos naturales, donde se explicitan relaciones entre conceptos, se describen observaciones y procedimientos experimentales, se discuten ideas, hipótesis o teorías y se comunican resultados y conclusiones. Esto exige la precisión en los términos utilizados, el encadenamiento adecuado de las ideas y la coherencia en la expresión oral o escrita en las distintas producciones (informes de laboratorio, biografías científicas, planteamiento y resolución de problemas, exposiciones, etc.) y el desarrollo y adquisición de la competencia en alfabetización informacional científica, imprescindible para la correcta comunicación del trabajo científico.",
+      "Biología, Geología y Ciencias Ambientales permite al alumnado desarrollar la Competencia plurilingüe (CP) y mejorar, así, las destrezas comunicativas en otra lengua al trabajar con publicaciones científicas que, en muchos casos, están en lenguas diferentes a la materna, sobre todo en inglés.",
+      "Este currículo contribuye al desarrollo de la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM), al posibilitar una comprensión del mundo utilizando los métodos científicos, el pensamiento y representación matemáticos, la tecnología y los métodos de la ingeniería para transformar el entorno de forma comprometida, responsable y sostenible. Se fomenta la adquisición de destrezas propias de la metodología científica mediante la realización de investigaciones, tanto de campo como de laboratorio: la capacidad de indagar, de enunciar preguntas, de identificar problemas, formular hipótesis para, a posteriori, contrastarlas al observar, buscar, recoger y organizar la información relevante, sistematizar y analizar los resultados, extraer conclusiones y comunicarlas. Se trata de aplicar estas estrategias a la resolución de problemas de la vida cotidiana, contribuyendo así a poner en valor el conocimiento científico como fuente de progreso social.",
+      "La materia de Biología, Geología y Ciencias Ambientales contribuye al desarrollo de la Competencia digital (CD) a través de la utilización de las tecnologías digitales para la búsqueda, selección, tratamiento y presentación de información como procesos básicos vinculados al trabajo científico, así como para simular y visualizar fenómenos que no pueden realizarse en el laboratorio o hechos de la naturaleza de difícil observación. Es un recurso imprescindible en el campo de las ciencias experimentales, que incluye el uso crítico, creativo, seguro, sostenible y ético de la tecnología utilizada, de los canales de comunicación y de las fuentes consultadas.",
+      "La Competencia personal, social y de aprender a aprender (CPSAA) es inherente a la forma de construir el conocimiento científico. Las metodologías científicas favorecen el desarrollo de destrezas como la capacidad de gestionar el tiempo y la información eficazmente, colaborar con otras personas de forma constructiva, hacer frente a la incertidumbre y a la complejidad, adaptarse a los cambios, aprender a gestionar los procesos metacognitivos, etc. Todas estas habilidades se ponen en acción cuando el alumnado desarrolla proyectos de carácter científico de forma cooperativa que le llevan a buscar alternativas y soluciones creativas a problemas relacionados con los saberes de la materia.",
+      "La contribución de Biología, Geología y Ciencias Ambientales a la Competencia ciudadana (CC) está ligada a dos aspectos fundamentales. En primer lugar, la alfabetización científica de la futura ciudadanía permitirá su participación en la toma fundamentada de decisiones frente a problemas de interés que suscitan el debate social, desde las fuentes de energía hasta aspectos esenciales relacionados con la salud, la alimentación, el consumo, el medioambiente o el desarrollo sostenible. En segundo lugar, la reflexión crítica acerca de los grandes problemas éticos de nuestro tiempo y el desarrollo de un estilo de vida sostenible acorde con los Objetivos de Desarrollo Sostenible y concretados en la Agenda Canaria de Desarrollo Sostenible 2030. La finalidad última del trabajo de esta competencia en la materia será el fomento del compromiso activo con la sostenibilidad y el logro de una ciudadanía mundial ecosocialmente responsable.",
+      "La materia contribuye también al desarrollo de la Competencia emprendedora (CE) al usar el conocimiento científico necesario para plantear soluciones de valor a los actuales problemas de carácter social y científico a los que se enfrenta la humanidad. Así, cuestiones como la situación de emergencia climática, la pérdida de suelo y de biodiversidad, las alternativas a los combustibles fósiles, las limitaciones de los recursos naturales o las enfermedades presentes y futuras, entre otras, deben abordarse en el aula con el fin de desarrollar en el alumnado el pensamiento necesario para analizar y evaluar el entorno, crear y replantear ideas utilizando la imaginación, la creatividad, el pensamiento estratégico y la reflexión ética, crítica y constructiva y despertar la disposición a aprender, a arriesgar y a afrontar la incertidumbre.",
+      "La asignatura de Biología, Geología y Ciencias Ambientales contribuye a la adquisición de la Competencia en conciencia y expresión culturales (CCEC), ya que la exposición de datos, el diseño de experiencias, la comunicación de conclusiones de los trabajos de investigación, etc., requieren la elaboración de esquemas, paneles y presentaciones en diferentes formatos que dan la oportunidad al alumnado de desarrollar su creatividad, vinculando de esta forma la disciplina científica y artística. Igualmente, la representación espacial de estructuras, paisajes, funciones o procesos, así como su interpretación, requieren de un aprendizaje y ejercicio de expresión cultural. El paisaje y el uso tradicional de los recursos naturales tienen en Canarias una especial relevancia como parte de nuestra cultura, y su aprecio, mantenimiento y protección se incluyen en nuestra conciencia cultural y forman parte de los aprendizajes de esta materia.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Biología, Geología y Ciencias Ambientales se han establecido seis competencias específicas que engloban dieciséis criterios de evaluación. Estas competencias específicas pueden resumirse en: interpretar y transmitir información científica y argumentar sobre ella, localizar y evaluar críticamente información científica, aplicar los métodos científicos en proyectos de investigación, resolver problemas relacionados con las ciencias biológicas, geológicas y medioambientales, promover iniciativas relacionadas con la salud y la sostenibilidad, y analizar el registro geológico.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "En esta materia se trabajan una serie de conocimientos, destrezas y actitudes esenciales propias de las ciencias biológicas, geológicas y ambientales que vienen definidas en los saberes básicos, que aparecen agrupados en siete bloques: I. «Proyecto científico», II. «Ecología y sostenibilidad», III. «Historia de la Tierra y la vida», IV. «La dinámica y composición terrestre», V. «Fisiología e histología animal», VI. «Fisiología e histología vegetal» y VII. «Los microorganismos y formas acelulares».",
+      "El Bloque I, «Proyecto científico», está centrado en el desarrollo práctico, a través de un proyecto científico, de las destrezas y el pensamiento propios de la ciencia, valorando la contribución del trabajo científico a las ciencias biológicas, geológicas y ambientales y a la sociedad en su conjunto, reconociendo la labor de las personas dedicadas a la ciencia, visibilizando a las mujeres en la ciencia.",
+      "El Bloque II, «Ecología y sostenibilidad», recoge los componentes de los ecosistemas y su funcionamiento, prestando especial atención a la biodiversidad de las islas, así como la importancia de la adopción de estilos de vida compatibles y coherentes con un modelo de desarrollo sostenible.",
+      "El Bloque III, «Historia de la Tierra y la vida», comprende el desarrollo de la Tierra y los seres vivos desde su origen, reconociendo la importancia de las islas Canarias como laboratorios de biodiversidad, la magnitud del tiempo geológico y la resolución de problemas basados en los métodos geológicos de datación para comprender el estado actual del planeta en el marco de la situación de emergencia climática.",
+      "El Bloque IV, «La dinámica y composición terrestre», incluye las causas y consecuencias de los cambios en la corteza terrestre, especialmente en Canarias, y los diferentes tipos de rocas y minerales, destacando sus usos cotidianos y la importancia de la gestión responsable y respetuosa con los derechos humanos y con el medioambiente de las explotaciones mineras.",
+      "El Bloque V, «Fisiología e histología animal», analiza la fisiología de los aparatos implicados en las funciones de nutrición y reproducción y el funcionamiento de los receptores sensoriales, de los sistemas de coordinación y de los órganos efectores.",
+      "El Bloque VI, «Fisiología e histología vegetal», introduce al alumnado a los mecanismos a través de los cuales los vegetales realizan sus funciones vitales, y analiza sus adaptaciones a las condiciones ambientales en las que se desarrollan y el balance general e importancia biológica de la fotosíntesis.",
+      "El Bloque VII, «Los microorganismos y formas acelulares», se centra en algunas de las especies microbianas más relevantes, su diversidad metabólica, su relevancia ecológica, y las características y mecanismos de infección de las formas orgánicas acelulares (virus, viroides y priones).",
+      "Todos los saberes mencionados anteriormente deben trabajarse desde un enfoque competencial para que su adquisición vaya siempre ligada al desarrollo de las competencias específicas de la materia que, a su vez, contribuyen a la mejora de las competencias clave. En otras palabras, los saberes básicos son el medio para trabajar las competencias específicas, pero también los conocimientos mínimos de Biología, Geología y Ciencias Ambientales y las destrezas y actitudes que el alumnado debe adquirir.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "La materia de Biología, Geología y Ciencias Ambientales debe ser abordada desde la metodología propia del trabajo científico, de una manera práctica basada en la resolución de problemas y en la realización de proyectos e investigaciones, fomentando tanto el trabajo individual como en equipo, que la conecten de forma significativa con la realidad del alumnado y con otras áreas de conocimiento, desde un enfoque holístico e interdisciplinar a través de situaciones de aprendizaje o actividades competenciales.",
+      "El diseño de las situaciones de aprendizaje debe partir de los criterios de evaluación e integrar los distintos elementos curriculares de la materia mediante tareas y actividades competenciales, significativas y relevantes, que generen aprendizajes transferibles y duraderos y que fomenten la conexión emocional con el entorno, la sociedad y la cultura del territorio insular canario, así como con el planeta en el que vivimos, posibilitando la articulación coherente y eficaz de los distintos conocimientos, destrezas y actitudes propios de esta etapa. Asimismo, se debe poner especial cuidado en que las actividades estén secuenciadas de forma adecuada, en función de los objetivos que se deseen y de los progresos o las dificultades observadas en el alumnado. Las actividades propuestas deben fomentar la observación, la curiosidad, el trabajo de campo, las experiencias de laboratorio y la colaboración, lo que requiere una actitud respetuosa hacia la diversidad (cultural, funcional, de género…), valorando el enriquecimiento que proporcionan los diferentes puntos de vista.",
+      "Por otro lado, el aprendizaje competencial y la atención a la variedad de intereses, motivaciones y ritmos de aprendizaje del alumnado requiere del uso de metodologías que impulsen la participación interactiva, la colaboración y la inclusión del alumnado (aprendizaje cooperativo, aprendizaje basado en proyectos, aprendizaje basado en el pensamiento o aprendizaje servicio, entre otras) y de modelos de enseñanza (indagación científica, investigación grupal, juego de rol, jurisprudencial, etc.) que lo sitúen en el centro de los procesos de enseñanza y aprendizaje, siendo en todo momento ellos y ellas quienes protagonicen la generación de su conocimiento. Igualmente, se promoverán los agrupamientos variados que posibiliten la atención individualizada, pero sobre todo el trabajo entre iguales (trabajo individual, trabajo en parejas o trabajo en grupos), el uso de recursos variados y motivadores en diferentes formatos y soportes para procurar el acceso a la información de todo el alumnado y la utilización de espacios diversos del centro y del entorno cercano, valorando la importancia de romper las barreras físicas del aula para poder desarrollar los aprendizajes de este currículo, donde las actividades complementarias constituyen un elemento imprescindible para que el alumnado pueda experimentar en el entorno. Así planteadas, las situaciones de aprendizaje constituyen un componente que, alineado con los principios del Diseño Universal para el Aprendizaje (DUA), permiten aprender a aprender y sentar las bases para el aprendizaje a lo largo de la vida.",
+      "El diseño de las situaciones de aprendizaje debe incluir, desde su inicio, la evaluación y calificación, seleccionando instrumentos de evaluación variados que permitan evidenciar, de forma clara y conjunta, la adquisición de los aprendizajes y el nivel de logro de las competencias vinculadas a los criterios de evaluación, procurando que, además de la heteroevaluación llevada a cabo por el docente o la docente, se recojan la autoevaluación y la coevaluación como procesos de reflexión del alumnado sobre el aprendizaje, pero no para la calificación.",
+      "Finalmente, las situaciones de aprendizaje deben integrar y potenciar el uso eficaz de las tecnologías digitales, no solo como fuente de información o como medio de colaboración y comunicación, sino también para estudiar, mediante el uso de simulaciones interactivas, laboratorios virtuales, aplicaciones informáticas, etc., procesos y fenómenos de difícil realización experimental, teniendo en cuenta que la utilización de estos medios implica hacerlo de manera segura, saludable, crítica, sostenible y ética."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar y transmitir información y datos científicos, argumentando sobre estos con precisión y utilizando diferentes formatos para analizar procesos, métodos, experimentos o resultados de las ciencias biológicas, geológicas y medioambientales."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CC3",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          980,
+          981,
+          986
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Las competencias específicas 1 y 2 hacen referencia al desarrollo de habilidades argumentativas y de las destrezas necesarias para interpretar información de carácter científico, extraer las ideas más relevantes y comunicarlas de manera clara y con rigor, defendiendo a través de una argumentación sólida la propia postura, pero manteniendo a su vez una actitud flexible y respetuosa ante la opinión de las demás personas. También se centran en las destrezas para obtener información relevante con el fin de resolver dudas, adquirir nuevos conocimientos o comprobar la veracidad de afirmaciones o noticias haciendo uso de fuentes fiables que permitan discernir entre la información veraz y la que no lo es, como bulos e informaciones pseudocientíficas, desarrollando en el alumnado el espíritu crítico. Finalmente, el desarrollo de estas competencias permitirá que el alumnado reflexione sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando a las científicas, especialmente en el campo de la biología, la geología y las ciencias ambientales.",
+          "La competencia específica 1 está asociada a tres criterios de evaluación que tratan sobre el análisis crítico de conceptos, la interpretación de la información y su fiabilidad para obtener las ideas más relevantes y elaborar conclusiones que puedan ser comunicadas de forma clara y rigurosa haciendo uso de diferentes formatos, con una argumentación razonada, abierta y flexible.",
+          "Por otro lado, en la competencia específica 2 se desarrollan tres criterios de evaluación que tienen que ver con el planteamiento y resolución de cuestiones, contrastando la veracidad y fiabilidad de la información para explicar tanto los procesos que ocurren en los seres vivos como los fenómenos biológicos, geológicos y ambientales y, junto a esto, para argumentar sobre la contribución de la ciencia a la sociedad, visibilizando a la mujer, y para construir una opinión propia basada en evidencias científicas, entendiendo la investigación como un logro colectivo e interdisciplinar sujeto a los cambios sociales, políticos y económicos."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando información, evaluándola críticamente y contrastando su veracidad, para resolver preguntas planteadas relacionadas con las ciencias biológicas, geológicas y medioambientales de forma autónoma."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CPSAA4",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          980,
+          981,
+          987
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Las competencias específicas 1 y 2 hacen referencia al desarrollo de habilidades argumentativas y de las destrezas necesarias para interpretar información de carácter científico, extraer las ideas más relevantes y comunicarlas de manera clara y con rigor, defendiendo a través de una argumentación sólida la propia postura, pero manteniendo a su vez una actitud flexible y respetuosa ante la opinión de las demás personas. También se centran en las destrezas para obtener información relevante con el fin de resolver dudas, adquirir nuevos conocimientos o comprobar la veracidad de afirmaciones o noticias haciendo uso de fuentes fiables que permitan discernir entre la información veraz y la que no lo es, como bulos e informaciones pseudocientíficas, desarrollando en el alumnado el espíritu crítico. Finalmente, el desarrollo de estas competencias permitirá que el alumnado reflexione sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando a las científicas, especialmente en el campo de la biología, la geología y las ciencias ambientales.",
+          "La competencia específica 1 está asociada a tres criterios de evaluación que tratan sobre el análisis crítico de conceptos, la interpretación de la información y su fiabilidad para obtener las ideas más relevantes y elaborar conclusiones que puedan ser comunicadas de forma clara y rigurosa haciendo uso de diferentes formatos, con una argumentación razonada, abierta y flexible.",
+          "Por otro lado, en la competencia específica 2 se desarrollan tres criterios de evaluación que tienen que ver con el planteamiento y resolución de cuestiones, contrastando la veracidad y fiabilidad de la información para explicar tanto los procesos que ocurren en los seres vivos como los fenómenos biológicos, geológicos y ambientales y, junto a esto, para argumentar sobre la contribución de la ciencia a la sociedad, visibilizando a la mujer, y para construir una opinión propia basada en evidencias científicas, entendiendo la investigación como un logro colectivo e interdisciplinar sujeto a los cambios sociales, políticos y económicos."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Diseñar, planear y desarrollar proyectos de investigación siguiendo los pasos de las metodologías científicas, teniendo en cuenta los recursos disponibles de forma realista y buscando vías de colaboración, para indagar en aspectos relacionados con las ciencias biológicas, geológicas y medioambientales."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "CCL5",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA3.2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          981,
+          989
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Las competencias específicas 3 y 4 profundizan, por un lado, en el diseño y la realización de proyectos de investigación y en la aplicación de los pasos de los diferentes métodos utilizados en la ciencia y, por otro, en las estrategias para la resolución de problemas y en la búsqueda de explicaciones coherentes a diferentes fenómenos, no solo en contextos científicos, sino también en otros contextos de la vida cotidiana, desarrollando en el alumnado destrezas y actitudes para el trabajo cooperativo, el análisis crítico, la curiosidad y el espíritu crítico y emprendedor y mejorando la resiliencia necesaria para desenvolverse frente a situaciones de incertidumbre y afrontar diferentes retos. Estas competencias específicas se concretan en seis criterios de evaluación. En primer lugar, los cuatro primeros abordan el planteamiento de preguntas, la realización de predicciones y la formulación de hipótesis utilizando los métodos científicos, del diseño y realización de proyectos de investigación sobre fenómenos biológicos, geológicos y ambientales, la interpretación, análisis y comunicación de los resultados, y el establecimiento de colaboraciones dentro y fuera del centro educativo. En segundo lugar, los dos criterios restantes conllevan la resolución de problemas, la búsqueda de explicaciones y el análisis crítico de las soluciones a procesos biológicos, geológicos o ambientales relacionados con el medio natural canario, para colaborar, desenvolverse en situaciones de incertidumbre y participar en los retos sociales del siglo XXI, como el calentamiento global o las desigualdades económicas."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Buscar y utilizar estrategias en la resolución de problemas analizando críticamente las soluciones y respuestas halladas y reformulando el procedimiento si fuera necesario, para dar explicación a fenómenos relacionados con las ciencias biológicas, geológicas y medioambientales."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD5",
+        "CPSAA1.1",
+        "CPSAA5",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          981,
+          991
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Las competencias específicas 3 y 4 profundizan, por un lado, en el diseño y la realización de proyectos de investigación y en la aplicación de los pasos de los diferentes métodos utilizados en la ciencia y, por otro, en las estrategias para la resolución de problemas y en la búsqueda de explicaciones coherentes a diferentes fenómenos, no solo en contextos científicos, sino también en otros contextos de la vida cotidiana, desarrollando en el alumnado destrezas y actitudes para el trabajo cooperativo, el análisis crítico, la curiosidad y el espíritu crítico y emprendedor y mejorando la resiliencia necesaria para desenvolverse frente a situaciones de incertidumbre y afrontar diferentes retos. Estas competencias específicas se concretan en seis criterios de evaluación. En primer lugar, los cuatro primeros abordan el planteamiento de preguntas, la realización de predicciones y la formulación de hipótesis utilizando los métodos científicos, del diseño y realización de proyectos de investigación sobre fenómenos biológicos, geológicos y ambientales, la interpretación, análisis y comunicación de los resultados, y el establecimiento de colaboraciones dentro y fuera del centro educativo. En segundo lugar, los dos criterios restantes conllevan la resolución de problemas, la búsqueda de explicaciones y el análisis crítico de las soluciones a procesos biológicos, geológicos o ambientales relacionados con el medio natural canario, para colaborar, desenvolverse en situaciones de incertidumbre y participar en los retos sociales del siglo XXI, como el calentamiento global o las desigualdades económicas."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Diseñar, promover y ejecutar iniciativas relacionadas con la conservación del medioambiente, la sostenibilidad y la salud, basándose en los fundamentos de las ciencias biológicas, geológicas y ambientales, para fomentar estilos de vida sostenibles y saludables."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA2",
+        "CC2",
+        "CC4",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          981,
+          982,
+          992
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "A través de la competencia específica 5 se pretende que el alumnado sea capaz de valorar los fundamentos que justifican la necesidad urgente de implantar un modelo de desarrollo sostenible, valorando los recursos naturales, energéticos y materiales, así como la investigación que se desarrolla en Canarias como puntos a favor de este modelo, y tomar conciencia de la importancia de adoptar estilos de vida sostenibles y saludables, acordes con los Objetivos de Desarrollo Sostenible, y concretados en la Agenda Canaria de Desarrollo Sostenible 2030, que contribuyan a mantener y mejorar la salud medioambiental y humana, tanto a nivel individual como colectivo.",
+          "Esta competencia específica está asociada a dos criterios de evaluación. El primero aborda el análisis de las causas y consecuencias ecológicas, sociales y económicas de los principales problemas medioambientales, con especial énfasis en los de las islas Canarias, basándose en datos científicos y en los saberes de la materia, para comprender y tomar conciencia de que la degradación medioambiental conlleva desigualdad, refugiados climáticos, catástrofes naturales y crisis humanitarias. El siguiente criterio está basado en el diseño, la propuesta y la puesta en práctica de proyectos innovadores para promover estilos de vida e iniciativas sostenibles y saludables a todos los niveles, para preservar el medioambiente y la mejora de la salud física y mental y la calidad de vida."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar los elementos del registro geológico utilizando fundamentos científicos, para relacionarlos con los grandes eventos ocurridos a lo largo de la historia de la Tierra y con la magnitud temporal en que se desarrollaron."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "CP2",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CPSAA2",
+        "CC4",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          982,
+          994
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Finalmente, mediante la competencia específica 6 el alumnado desarrollará destrezas para el razonamiento que le permitirán ahondar en los principios para la datación de materiales geológicos, comprender la escala de tiempo geológico y la relevancia de los principales eventos geológicos y biológicos de nuestro planeta, adquiriendo una actitud de aprecio por la ciencia y el medio natural que le permitirá adoptar, de forma autónoma, un estilo de vida sostenible y promover la conservación del patrimonio paleontológico canario. A partir de dos criterios de evaluación se desarrollará esta competencia específica. En el primero de ellos, se deberán relacionar los grandes eventos de la historia de la Tierra con el registro geológico y con los sucesos que ocurren en la actualidad, distinguiendo los cambios naturales de los inducidos por la actividad humana, con el fin de comprender la magnitud temporal en que se desarrollaron y reconstruir la historia a través de cortes geológicos. Por otro lado, el segundo criterio plantea resolver problemas de datación de materiales geológicos analizando el registro geológico y fósil aplicando métodos de datación para interpretar la historia geológica del entorno próximo y del planeta, reconociendo la existencia de estructuras geomorfológicas y especies extintas como marcadores de unidades estratigráficas y valorando el patrimonio natural canario."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar críticamente conceptos y procesos relacionados con los saberes de la materia, interpretando información en diferentes formatos y valorando la fiabilidad de las fuentes, para extraer las ideas más relevantes y obtener conclusiones lógicas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CPSAA3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              986
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar informaciones u opiniones razonadas relacionadas con los saberes de la materia o con trabajos científicos, transmitiéndolas de forma clara y rigurosa, utilizando la terminología y el formato adecuados, tanto de forma analógica como a través de herramientas digitales, con el fin de dar respuesta de manera fundamentada a las cuestiones que puedan surgir durante el proceso y crear conocimiento de forma colectiva."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM2",
+            "STEM4",
+            "CD3",
+            "CPSAA3.2",
+            "CC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              986
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Argumentar sobre aspectos relacionados con los saberes de la materia, defendiendo una postura de forma razonada y con una actitud abierta, flexible, receptiva y respetuosa ante la opinión de otras personas, con el fin de desarrollar la resiliencia frente a retos, respetando la diversidad."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM2",
+            "CPSAA4",
+            "CC3",
+            "CCEC3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              986,
+              987
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Plantear y resolver cuestiones relacionadas con los saberes de la materia, localizando y citando fuentes adecuadas, respetando los derechos de autoría y seleccionando, organizando, analizando y evaluando críticamente la información, para poder interpretar y explicar tanto los procesos que ocurren en los seres vivos como los fenómenos geológicos y medioambientales que tienen lugar en el entorno cercano."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD4",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              987,
+              988
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Contrastar y justificar la veracidad de la información relacionada con los saberes de la materia, utilizando fuentes fiables y haciendo un uso crítico, responsable, seguro, saludable y sostenible de las tecnologías digitales, con el fin de aportar datos fidedignos y adoptar una actitud crítica y escéptica hacia informaciones sin una base científica."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM4",
+            "CD1",
+            "CD3",
+            "CD4",
+            "CPSAA4",
+            "CC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              988
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Argumentar sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, visibilizando a las mujeres en las ciencias y mostrando sus logros a lo largo de la historia, con el fin de construir una opinión propia basada en razonamientos y evidencias científicas y entender que la investigación es una labor colectiva e interdisciplinar en constante evolución e influida por el contexto político y los recursos económicos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "STEM4",
+            "CD1",
+            "CPSAA4",
+            "CC3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              988
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear preguntas, realizar predicciones y formular hipótesis que puedan ser respondidas o contrastadas utilizando el pensamiento y los métodos científicos para intentar describir y explicar, haciendo un uso ético y no discriminatorio del lenguaje, fenómenos biológicos, geológicos o ambientales."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CCL5",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD1",
+            "CD2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              989
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar y realizar proyectos de investigación sobre fenómenos biológicos, geológicos y ambientales, aplicando los conocimientos y habilidades del trabajo científico, así como las estrategias apropiadas para el análisis y la toma de datos cuantitativos y cualitativos, seleccionando y utilizando los instrumentos, herramientas o técnicas adecuadas con corrección y precisión para poder dar respuesta a preguntas concretas y contrastar una hipótesis previa, minimizando los sesgos y errores, en la medida de lo posible, y reformulando el procedimiento, si fuera necesario."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CCL5",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD1",
+            "CD2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              989,
+              990
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar, analizar y comunicar los resultados obtenidos en el proyecto de investigación, utilizando el vocabulario científico y, cuando sea necesario, herramientas matemáticas y tecnológicas, reconociendo su alcance y limitaciones y obteniendo conclusiones razonadas y fundamentadas o valorando la imposibilidad de hacerlo con el fin de reflexionar sobre el método científico aplicado y argumentar o defender su validez y resultados."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL5",
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "CD2",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              990
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Establecer colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto científico con el fin de trabajar con mayor eficiencia, utilizando las herramientas tecnológicas adecuadas, valorando la importancia de la cooperación en la investigación, respetando la diversidad y favoreciendo la inclusión."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL5",
+            "STEM3",
+            "CD3",
+            "CPSAA3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              990
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas o dar explicación a procesos biológicos, geológicos o ambientales relacionados con el medio natural canario a partir de los conocimientos propios y de datos e información recabados de diversas fuentes, aplicando el razonamiento lógico, el pensamiento computacional o herramientas digitales para desarrollar el análisis crítico, colaborar, desenvolverse frente a situaciones de incertidumbre, participar plenamente en la sociedad y afrontar los retos del siglo XXI como el calentamiento global o las desigualdades socioeconómicas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CD5",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              991
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema sobre fenómenos biológicos, geológicos o ambientales y modificar los procedimientos utilizados o conclusiones obtenidas si dicha solución no fuese viable o ante nuevos datos aportados o recabados con posterioridad, con la finalidad de fomentar la reflexión, el razonamiento lógico y el pensamiento científico y desarrollar procesos autorregulados de aprendizaje."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              991,
+              992
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Analizar las causas y consecuencias ecológicas, sociales y económicas de los principales problemas medioambientales, destacando los de las islas Canarias, desde una perspectiva individual, local y global, concibiéndolos como grandes retos de la humanidad y basándose en datos científicos, con el fin de comprender y tomar conciencia de que la degradación medioambiental es sinónimo de desigualdad, refugiados climáticos, catástrofes naturales y otros tipos de crisis humanitarias."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM2",
+            "CC2",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              993
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Diseñar, proponer y poner en práctica proyectos innovadores con una actitud fundamentada en los principios y procedimientos democráticos, el compromiso ético con la igualdad, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial que promuevan estilos de vida e iniciativas sostenibles y saludables a nivel individual, colectivo y local, argumentando sobre sus efectos positivos y la urgencia de adoptarlos y basándose en los saberes de la materia, con el fin de contribuir al logro de los Objetivos de Desarrollo Sostenible, preservar el medioambiente y mantener y mejorar la salud física y mental y la calidad de vida."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM5",
+            "CD4",
+            "CPSAA2",
+            "CC2",
+            "CC4",
+            "CE1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              993
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Relacionar, a partir de información procedente de diferentes fuentes y en distintos formatos, los grandes eventos de la historia terrestre, diferenciando los cambios naturales de los inducidos por la actividad humana, con determinados elementos del registro geológico y con los sucesos que ocurren en la actualidad, utilizando los principios geológicos básicos y el razonamiento lógico, con el fin de comprender la magnitud temporal en que se desarrollaron y reconstruir la historia representada en cortes geológicos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "CP2",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CPSAA2",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              994,
+              995
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Resolver problemas de datación de materiales geológicos, analizando elementos del registro geológico y fósil y aplicando métodos de datación, para interpretar la historia geológica de diferentes zonas del planeta y del entorno próximo, reconociendo la existencia de estructuras geomorfológicas y especies extintas como marcadores de unidades estratigráficas y valorando el patrimonio natural canario."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "CCEC1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              995
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM2",
+            "STEM4",
+            "CD1",
+            "CD3",
+            "CPSAA4",
+            "CC3",
+            "CCEC3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará si el alumnado es capaz de analizar críticamente conceptos, procesos y experimentos relacionados con los saberes básicos de cualquiera de los bloques de la materia, interpretando información de carácter científico en diferentes formatos (en forma de artículos, gráficos, tablas, diagramas, fórmulas, esquemas, etc.) y extrayendo las ideas más relevantes para comunicar sus conclusiones y opiniones de forma razonada, precisa, veraz y con creatividad, utilizando la terminología científica y formatos variados (exposición oral, pósteres, plataformas virtuales, presentación, etc.), tanto de forma analógica como a través de medios digitales. Igualmente se pretende evaluar si el alumnado argumenta (en debates, foros u otras vías) sobre los conocimientos adquiridos, defendiendo de manera lógica y fundamentada su postura, con una actitud con una actitud empática y colaborativa, abierta, receptiva y respetuosa ante la opinión de otras personas, afrontando con actitud dialogante la pluralidad de valores e ideas y desarrollando la resiliencia frente a retos, así como la flexibilidad para dar un giro a las propias ideas ante argumentos ajenos."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              987
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "CCL3",
+            "CP2",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD4",
+            "CPSAA4",
+            "CC3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de plantear y resolver cuestiones de forma autónoma, siguiendo su propia curiosidad y mostrando iniciativa, sobre procesos, fenómenos, acontecimientos, mecanismos, etc., biológicos, geológicos y medioambientales relacionados con cualquiera de los bloques de saberes básicos de la materia, seleccionando, organizando, analizando y evaluando críticamente la información procedente de fuentes diversas (libros, revistas y artículos científicos, entrevistas, páginas web, vídeos, imágenes de microscopía, motores de búsqueda…), que le permitan enriquecer su repertorio lingüístico individual. También se quiere constatar que el alumnado contrasta la veracidad de la información utilizando fuentes fiables y aplicando criterios de validez, calidad, actualidad y fiabilidad y que respeta los derechos de autoría, citando las fuentes en todos sus informes, presentaciones y comunicaciones y haciendo un uso crítico, legal, seguro, saludable y sostenible de las tecnologías digitales. Asimismo, se quiere valorar si el alumnado adopta una actitud critica y escéptica hacia informaciones sin una base científica y si argumenta sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando a las mujeres científicas, especialmente en el campo de la biología, la geología y las ciencias ambientales. Finalmente, se evaluará si el alumnado valora la importancia del trabajo colectivo, interdisciplinar y en continua construcción que realizan las personas científicas y realiza indagaciones de forma cooperativa, utilizando diferentes plataformas digitales de búsqueda y gestionando de manera responsable sus acciones, presencia y visibilidad en la red, sobre algunas figuras referentes de la ciencia canaria a lo largo de la historia y en la actualidad, e identifica y localiza los principales centros de investigación de Canarias, presentando el resultado mediante exposiciones, comunicaciones e informes, entre otros, y en diferentes soportes."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              988,
+              989
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "CCL5",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA3.2",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de diseñar, planear y realizar proyectos de investigación o prácticas de laboratorio de forma cooperativa, que incluyan un plan de búsqueda, contraste y análisis de diversos tipos de información procedente de fuentes variadas, especialmente de las tecnologías digitales, así como la selección de instrumentos, herramientas o técnicas adecuadas. Además, se evaluará si el alumnado aplica las destrezas y procedimientos esenciales de las metodologías científicas, como el planteamiento de preguntas, la formulación y el contraste de hipótesis, la toma de datos cuantitativos y cualitativos, la interpretación, análisis y comunicación de resultados o la reformulación de los procedimientos, en caso necesario, para indagar y explicar fenómenos biológicos, geológicos o ambientales relacionados con todos los bloques de saberes básicos de la materia, aportando soluciones a problemas y aceptando y respondiendo adecuadamente ante la incertidumbre. También se quiere constatar que el alumnado desarrolla actitudes propias del trabajo científico como el rigor, la precisión, la objetividad, la autodisciplina, el cuestionamiento de lo obvio, la creatividad, la curiosidad, el espíritu emprendedor, la resiliencia…, y que hace un uso correcto del vocabulario científico y de las herramientas tecnológicas a la hora de comunicar las conclusiones o crear y compartir contenidos, aplicando medidas de seguridad y respetando, en todo momento, los derechos de autoría. Por último, se pretende evaluar si el alumnado valora la importancia del trabajo cooperativo en la investigación y si establece colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto, evaluando su desempeño individual y el de sus iguales, desde la fase de diseño hasta la ejecución definitiva (tiempos, objetivos, secuencia de acciones, reparto de roles, normas de funcionamiento del grupo, etc.), respetando la diversidad y favoreciendo la inclusión."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              990
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM1",
+            "STEM2",
+            "CD1",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se comprobará que el alumnado es capaz de resolver problemas o dar explicaciones coherentes a procesos biológicos, geológicos o ambientales, de forma individual o cooperativa, relacionados con cualquiera de los bloques de saberes básicos de la materia (ecología y sostenibilidad, historia de la Tierra y la vida, dinámica y composición terrestres, fisiología e histología animal y vegetal o los microorganismos y formas acelulares) a partir de los conocimientos propios y de datos e información recabados de diversas fuentes: observación directa del entorno o indirecta a través de animaciones y simulaciones, experimentación en el laboratorio, páginas web, artículos científicos, etc. Además, se constatará que es capaz de aplicar el razonamiento lógico, la metodología científica y el pensamiento computacional para contrastar las hipótesis y representar y analizar críticamente las soluciones y respuestas halladas. Se trata de verificar que el alumnado reflexiona sobre los procedimientos utilizados y los reformula si la solución propuesta no es viable o ante nuevos datos aportados, mostrando creatividad, apertura a la colaboración, optimismo y resiliencia para continuar a pesar de la falta de éxito inmediato. Finalmente, se pretende comprobar que el alumnado desarrolla procesos autorregulados de aprendizaje y transmite el conocimiento adquirido, junto con el procedimiento seguido, ante otras personas, utilizando para ello diversas formas de expresión (informes, murales, artículos…) y diferentes soportes, preferiblemente digitales."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              992
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM2",
+            "STEM5",
+            "CD4",
+            "CPSAA2",
+            "CC2",
+            "CC4",
+            "CE1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende evaluar si el alumnado es capaz de analizar las causas y deducir las consecuencias ecológicas, sociales y económicas de los principales problemas medioambientales (sobreexplotación de recursos, gestión inadecuada de residuos, contaminación atmosférica por el uso de energías no renovables, deforestación para obtener tierras de cultivo o pastos, pérdida de biodiversidad, destrucción de hábitats, instalación de especies invasoras, cambio climático, utilización de compuestos xenobióticos, etc.) desde una perspectiva individual, local y global a partir de sus propios conocimientos, de los datos e información recopilada en fuentes y soportes variados (páginas web, libros, artículos e informes científicos, foros especializados, entrevistas a personas expertas, etc.) y de la aportada por el equipo docente, compartiendo sus conclusiones a través de comunicaciones orales, escritas, signadas o multimodales. También se quiere comprobar si el alumnado reflexiona y expone argumentos sobre la sostenibilidad de las actividades cotidianas mediante la identificación de indicadores como la huella ecológica y la adopción de estilos de vida coherentes con un modelo de desarrollo sostenible, comprendiendo la relación entre la salud medioambiental, humana y de otros seres vivos —one health (una sola salud)—. Por último, se pretende constatar que el alumnado es capaz de aplicar de forma crítica y consecuente los principios, ideales y valores relativos al proceso de integración europea, la Constitución española, los derechos humanos y el patrimonio cultural propios para proponer y poner en práctica iniciativas fundamentadas científicamente que contribuyan al logro de los Objetivos de Desarrollo Sostenible y concretados en la Agenda Canaria de Desarrollo Sostenible 2030, y que defiendan y promuevan estilos de vida sostenibles y saludables que ayuden a prevenir el deterioro medioambiental a través del diseño de proyectos que desarrollen ideas y soluciones innovadoras y que incluyan la realización de campañas, exposiciones, debates, mesas redondas, etc. Todo ello con el fin de tomar conciencia del valor ecológico, científico, social y económico del mundo natural y comprender que la degradación medioambiental es sinónimo de desigualdad, refugiados climáticos, catástrofes naturales y otros tipos de crisis humanitarias."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              993
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "CCL",
+            "CP",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "CP2",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CPSAA2",
+            "CC4",
+            "CCEC1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende evaluar si el alumnado aplica los principales métodos de datación de materiales geológicos (geocronología absoluta y relativa) y utiliza los principios geológicos básicos (los fósiles guía y los principios de superposición de estratos, superposición de fenómenos y correlación) y el razonamiento lógico para reconstruir la historia representada en cortes geológicos, indicando la edad relativa de los estratos, las discordancias y las etapas de deformación. Se trata de averiguar si el alumnado interpreta mapas y cortes geológicos sencillos utilizando el mapa topográfico y las relaciones entre el relieve y las estructuras existentes, y elabora producciones en distintos soportes en los que identifica, a partir de documentación científica extraída de diferentes fuentes, los principales acontecimientos en la historia geológica de la Tierra y los relaciona con determinados elementos del registro geológico, con la magnitud temporal en la que se desarrollaron y con los sucesos que ocurren en la actualidad, reconociendo el origen natural de los cambios climáticos pasados y valorando la influencia de la actividad humana en el cambio climático actual, para adoptar, de forma autónoma, un estilo de vida sostenible y promover la conservación del patrimonio paleontológico canario. Finalmente, se verificará si el alumnado aprecia la pertinencia de la información seleccionada y presenta sus conclusiones de forma argumentada utilizando diversas formas de expresión para comunicarlas, citando las fuentes y empleando la terminología científica. Todo ello con el fin de comprender la escala de tiempo geológico y la relevancia de los principales eventos geológicos y biológicos de nuestro planeta, adquiriendo una actitud de aprecio por la ciencia y el medio natural en general y el canario en particular."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              995
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyecto científico"
+          },
+          "saberes": [
+            {
+              "id": "BGCA.1.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Formulación de hipótesis, preguntas, problemas y conjeturas como herramientas para la elaboración de planteamientos con perspectiva científica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Empleo de estrategias para la búsqueda de información, colaboración, comunicación e interacción con instituciones científicas: herramientas digitales, formatos de presentación de procesos, resultados e ideas (diapositivas, gráficos, vídeos, pósteres, informes y otros)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Búsqueda, reconocimiento y uso de fuentes fiables de información como destreza para evitar los riesgos de manipulación y desinformación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Diseño, planificación y realización de experiencias científicas de laboratorio o de campo aplicando procedimientos de contraste de hipótesis y controles experimentales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Aplicación de métodos de análisis de resultados científicos: organización, representación y uso de herramientas estadísticas como fase final de un proyecto de investigación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.A.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Utilización de vocabulario científico, formatos (informes, vídeos, modelos, gráficos y otros) y herramientas digitales como estrategias para la comunicación científica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.A.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Valoración crítica de la contribución del trabajo científico a las ciencias biológicas, geológicas y ambientales y a la sociedad. Reconocimiento de la labor de las personas dedicadas a la ciencia, destacando a las mujeres científicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.A.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Indagación sobre los principales centros de investigación de Canarias y figuras referentes de la ciencia canaria a lo largo de la historia y en la actualidad, destacando las relacionadas con el campo de las ciencias biológicas, geológicas y ambientales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.A.9",
+              "codigoOficial": null,
+              "numeracionFuente": "9",
+              "texto": {
+                "es": "Análisis de la evolución histórica del saber científico: la ciencia como labor colectiva, interdisciplinar y en continua construcción."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Ecología y sostenibilidad"
+          },
+          "saberes": [
+            {
+              "id": "BGCA.1.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Reconocimiento del medioambiente como motor económico y social: importancia de la evaluación de impacto ambiental y de la gestión sostenible de recursos y residuos para comprender la irreversibilidad de la mayoría de los cambios en el medio. Relación entre la salud medioambiental, humana y de otros seres vivos —one health (una sola salud)—."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Reflexión y argumentación sobre la sostenibilidad de las actividades cotidianas mediante la identificación de indicadores de sostenibilidad, como la huella ecológica y la adopción de estilos de vida compatibles y coherentes con un modelo de desarrollo sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Localización y análisis crítico de iniciativas locales y globales para promover un modelo de desarrollo sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Interpretación y descripción de la dinámica de los ecosistemas: flujos de energía y ciclos de la materia (carbono, nitrógeno, fósforo y azufre). Análisis de las relaciones de interdependencia y relaciones tróficas. Resolución de problemas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  996
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.B.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Relación entre el ciclo del carbono y el cambio climático: análisis de sus causas y consecuencias sobre la salud, la economía, la ecología y la sociedad. Reflexión y debate sobre las estrategias de mitigación, adaptación y resiliencia para afrontar el cambio climático."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.B.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Análisis de la importancia de la biodiversidad, de las causas de su pérdida y de sus consecuencias ambientales y sociales. Elaboración de propuestas de acciones concretas para evitar la pérdida de biodiversidad en Canarias a partir del conocimiento de la restauración de especies y recuperación de espacios degradados."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.B.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Investigación acerca del problema de los residuos, a nivel mundial y local, con propuestas de estrategias para la prevención y gestión adecuada de los mismos, y de los efectos de la utilización de compuestos xenobióticos sobre la naturaleza y sobre la salud humana y de otros seres vivos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Historia de la Tierra y la vida"
+          },
+          "saberes": [
+            {
+              "id": "BGCA.1.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis del concepto tiempo en geología: magnitud, escala y métodos de datación. Resolución de problemas de datación absoluta y relativa."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estudio de los principales acontecimientos geológicos acontecidos en la evolución de la Tierra a partir de la información extraída de diferentes fuentes."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Aplicación de los principios geológicos (superposición de los estratos, sucesión faunística y de eventos, actualismo, etc.) para la reconstrucción de la historia geológica de una zona."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Estudio de la historia de la vida en la Tierra: principales cambios en los grandes grupos de seres vivos y justificación desde la perspectiva evolutiva para comprender la transformación antropológica actual. Reconocimiento de la importancia de la conservación del patrimonio paleontológico canario."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Interpretación de los sistemas de clasificación de los principales grupos taxonómicos de los seres vivos. Descripción de sus características e identificación mediante la observación y el uso de claves. Reconocimiento de la importancia de las islas Canarias como laboratorios de biodiversidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "La dinámica y composición terrestres"
+          },
+          "saberes": [
+            {
+              "id": "BGCA.1.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Entender las proyecciones futuras de acceso al aire limpio y agua potable en todo el planeta."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis de la estructura, composición y dinámica de la geosfera. Caracterización de los métodos de estudio directos e indirectos e interpretación de los datos obtenidos a través de ellos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Relación entre la tectónica de placas y los procesos orogénicos, volcánicos y sísmicos que se manifiestan en la formación de relieves y rocas. Diferenciación entre los tipos de bordes. Análisis y discusión de las principales hipótesis sobre el origen de las islas Canarias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.D.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Estudio de los procesos geológicos externos: agentes causales y consecuencias sobre el relieve. Identificación y descripción de las formas principales de modelado del relieve y de los factores que contribuyen a definirlas (elementos climatológicos, hidrográficos, geológicos, antrópicos, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  997,
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.D.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Análisis de los factores y procesos de edafogénesis en la formación de los principales tipos de suelos. Conceptualización de edafodiversidad y valoración de la importancia de su conservación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.D.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Estudio de algunos de los acontecimientos naturales constitutivos de riesgo (procesos geológicos, actividades humanas, etc.), mundiales o locales, especialmente los de las islas Canarias. Determinación de las estrategias de predicción, prevención y corrección más adecuadas que deben tomarse para evitarlos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.D.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Clasificación e identificación de las rocas según su origen y composición, destacando las rocas más abundantes de Canarias. Descripción del ciclo litológico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.D.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Clasificación químico-estructural e identificación de minerales y rocas. Valoración de la importancia de minerales y rocas de Canarias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.D.9",
+              "codigoOficial": null,
+              "numeracionFuente": "9",
+              "texto": {
+                "es": "Indagación acerca de los usos cotidianos de los minerales y las rocas y argumentación de la importancia de realizar una gestión y promoción responsable y respetuosa con los derechos humanos y con el medioambiente de las explotaciones mineras."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.D.10",
+              "codigoOficial": null,
+              "numeracionFuente": "10",
+              "texto": {
+                "es": "Reconocimiento de la necesidad de apreciar, valorar, respetar y proteger el patrimonio geológico en general, y de Canarias en particular, como una oportunidad para la conservación del medio natural."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Fisiología e histología animal"
+          },
+          "saberes": [
+            {
+              "id": "BGCA.1.E.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Caracterización de la nutrición heterótrofa. Comparación entre los órganos y procesos de nutrición implicados en diferentes grupos taxonómicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.E.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Descripción de la función de relación: sistemas de coordinación (nervioso y endocrino), receptores sensoriales y órganos efectores."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.E.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Distinción entre los tipos y estructuras implicadas en la reproducción de los diferentes grupos taxonómicos. Argumentación de la importancia biológica de la reproducción."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Fisiología e histología vegetal"
+          },
+          "saberes": [
+            {
+              "id": "BGCA.1.F.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Caracterización de la nutrición autótrofa. Descripción de los procesos que ocurren en cada una de las fases de la fotosíntesis. Argumentación sobre su importancia para la vida en la Tierra."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.F.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Diferenciación entre la savia bruta y la savia elaborada: composición, formación y mecanismos de transporte."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.F.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Definición de la función de relación en vegetales: tropismos y nastias. Reconocimiento de la influencia de las fitohormonas (auxinas, citoquininas, etileno, etc.) como reguladoras del crecimiento y desarrollo de las plantas e identificación de las aplicaciones más importantes en la agricultura."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  998
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.F.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Interpretación de los ciclos reproductivos de los vegetales. Distinción entre los mecanismos de reproducción sexual y asexual y valoración de su relevancia evolutiva."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  999
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.F.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Identificación de las fases de la reproducción sexual en plantas superiores y explicación de los procesos implicados (polinización, fecundación, dispersión de la semilla y el fruto), estableciendo su relación con el ecosistema."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  999
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.F.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Relación entre las adaptaciones de los vegetales al medio y el ecosistema en el que se desarrollan."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  999
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Los microorganismos y formas acelulares"
+          },
+          "saberes": [
+            {
+              "id": "BGCA.1.G.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Definición del concepto y tipos de microorganismos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  999
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.G.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Comparación entre eubacterias y arqueobacterias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  999
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.G.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Análisis del metabolismo bacteriano y de la intervención de los microorganismos en los ecosistemas (simbiosis y ciclos biogeoquímicos), la industria (fermentaciones, producción de medicamentos, etc.), la salud humana (epidemias, zoonosis, etc.) y la biotecnología (obtención de fármacos, vacunas, etc.) para valorar su importancia en el mantenimiento del equilibrio en la biosfera y su papel en la salud humana."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  999
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.G.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Análisis de las principales técnicas de aislamiento, cultivo, esterilización e identificación de microorganismos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  999
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.G.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Identificación y explicación de los mecanismos de transferencia genética horizontal en bacterias, reconociendo la contribución activa de estos procesos a la diseminación de la resistencia a antibióticos. Reflexión sobre el problema, de escala global, que genera la resistencia a antibióticos en las bacterias (medioambiente, salud humana, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  999
+                ]
+              }
+            },
+            {
+              "id": "BGCA.1.G.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Descripción de las características básicas y los mecanismos de infección de las formas acelulares (virus, viroides y priones). Valoración de la importancia biológica de los virus (bioinsecticidas, mantenimiento del equilibrio ecológico, fabricación de vacunas, tratamiento de enfermedades, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  999
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

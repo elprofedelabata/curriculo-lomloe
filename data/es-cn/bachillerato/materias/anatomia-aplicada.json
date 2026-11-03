@@ -1,0 +1,768 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.anatomia-aplicada",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "ANA",
+    "nombre": {
+      "es": "Anatomía Aplicada"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2025-06-10",
+    "aplicableDesdeCurso": null,
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2025-112-decreto-78-2025",
+      "tipo": "decreto",
+      "titulo": "Decreto 78/2025, de 2 de junio, por el que se establece el currículo de las materias optativas de la etapa del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "112",
+      "fechaPublicacion": "2025-06-09",
+      "cve": "BOC-A-2025-112-2086",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2025-112-2086.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2025/112/2086.html",
+      "anexo": "2",
+      "paginasMateria": {
+        "desde": 19,
+        "hasta": 30
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La Anatomía Aplicada abarca el análisis de estructuras anatómicas y funciones del cuerpo humano relacionadas con el movimiento, profundizando en los efectos positivos que la actividad física y los hábitos de vida saludable tienen sobre el organismo. La actividad física desencadena una cascada de acontecimientos fisiológicos que producen respuestas adaptativas al movimiento, entendido como un estímulo. Es importante que el alumnado aprenda, a través de un aprendizaje significativo, a discriminar qué movimientos y actividades suponen oportunidades para la mejora de la salud y cuáles implican factores de riesgo. Aborda también nociones básicas de los sistemas de aporte y utilización de energía y de los mecanismos de regulación de la conducta motora.",
+      "La finalidad de esta materia es conseguir que el alumnado, mediante el movimiento, obtenga una formación básica en anatomía humana que le permita conocer su cuerpo, aportando un análisis de la morfología y el movimiento desde una perspectiva anatomista, además de descubrir los cambios positivos que se producen con la práctica motriz y hábitos de vida saludables vinculados con la dieta, la hidratación y la salud postural, entre otros. Por su carácter propedéutico, orienta al alumnado hacia estudios académicos y profesionales vinculados al campo de la anatomía humana.",
+      "La materia de Anatomía Aplicada contribuye a la consecución de los objetivos de etapa, proponiendo aprendizajes para el autoconocimiento, reconociendo los efectos sobre nuestro organismo de distintas prácticas y hábitos de vida que consoliden la madurez personal y una actitud cívica, responsable y autónoma. Favorece el uso de recursos digitales para el análisis y la resolución de retos investigadores con fundamentación motriz o expresiva que promuevan el valor de un estilo de vida activo donde se interioriza la necesidad de una movilidad segura y responsable. Asimismo, las competencias clave en esta materia se adquieren a través de acciones de marcado carácter práctico vinculadas a los descriptores operativos del Perfil de salida del alumnado. La anatomía, la fisiología, la biomecánica, la biología y las ciencias de la actividad física nutren los tres bloques de saberes, otorgándole un carácter transversal.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "Los objetivos de etapa se encuentran recogidos en el art. 21 del Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias y para su correcta identificación se referencian con la letra correspondiente entre paréntesis.",
+      "Los objetivos de etapa en la materia de Anatomía Aplicada se alcanzan desde la transversalidad que proporcionan diferentes ámbitos de conocimiento como la anatomía, la fisiología, la biomecánica, la biología y las ciencias de la actividad física, contribuyendo a su consecución desde la motricidad (m), mediante una perspectiva competencial que permita consolidar la madurez personal (b) y una actitud inclusiva, cívica, responsable y autónoma (c). Asimismo, favorece el uso de la expresión oral (e) y de recursos digitales (g) para el análisis y la resolución de retos investigadores (k) con fundamentación motriz (m) o expresiva (l), que promuevan el valor de un estilo de vida activo (m), donde se interioriza la necesidad de una movilidad segura y responsable (n).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "Las competencias clave en la materia de Anatomía Aplicada se adquieren a través de acciones educativas inclusivas para el desarrollo integral del alumnado, que abarcan conocimientos, destrezas y actitudes de diversas áreas de estudio del cuerpo humano y del movimiento, tales como la anatomía, la fisiología, la biomecánica, la biología y las ciencias de la actividad física. Los saberes se han incluido en el currículo de la materia desde un enfoque significativo y transversal, donde la aplicación lleva al conocimiento y viceversa.",
+      "Desde un planteamiento competencial e inclusivo orientado a la aplicación de los saberes adquiridos, la materia de Anatomía Aplicada cobra un carácter eminentemente práctico para favorecer un aprendizaje significativo. El objetivo es que el alumnado, partiendo del autoconocimiento, incorpore estrategias que favorezcan su bienestar y desarrollo saludable, para una incorporación satisfactoria a la vida adulta, y un aprendizaje permanente a lo largo de la vida. Asimismo, aporta conocimientos del propio cuerpo que pueden servir para un futuro profesional relacionado con la expresión artística, la educación física, la biología o el ámbito de los cuidados.",
+      "A continuación se recoge el modo en que la materia contribuye a las diferentes competencias clave.",
+      "La materia de Anatomía Aplicada contribuye al desarrollo de la Competencia en comunicación lingüística (CCL), mediante el aprendizaje y la utilización de conceptos específicos asociados a la anatomía y el movimiento, así como con las interacciones sociales que se generan al analizar y explicar la movilidad con sus posibilidades y limitaciones.",
+      "Contribuye al desarrollo de la Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM), a través del análisis de la motricidad, su mecánica y las consecuencias sobre el cuerpo humano, las fuentes energéticas metabólicas, la estructura anatómica del propio organismo; así como de la aplicación del pensamiento científico para entender y explicar aquellos fenómenos que ocurren en determinadas posturas y movimientos a distintas intensidades.",
+      "Anatomía Aplicada contribuye al desarrollo de la Competencia digital (CD), fomentando el uso seguro, crítico, responsable, saludable y sostenible de las tecnologías digitales para el análisis, la investigación y el seguimiento del cuerpo humano y su funcionamiento. Se estimulará la búsqueda, la selección y el contraste de información, usando fuentes fiables, así como la presentación y comunicación de la información.",
+      "Esta materia contribuye al desarrollo de la Competencia personal, social y de aprender a aprender (CPSAA), profundizando en el conocimiento del propio cuerpo desde sus funcionalidades, necesidades y posibilidades. El alumnado realizará análisis e investigaciones que le permitan conectar acciones y reacciones que ocurren en el organismo para poder utilizar dicho conocimiento en la mejora de la salud y el bienestar, entre otras finalidades.",
+      "Anatomía Aplicada contribuye al desarrollo de la Competencia ciudadana (CC), fomentando una actitud responsable que permita al alumnado valorar y valorarse como agente activo capaz de transformar la sociedad, siendo ejemplo de participación social saludable. En dicho proceso el alumnado podrá diseñar proyectos de aprendizaje servicio a partir de las necesidades detectadas en su entorno.",
+      "La aportación de la materia al desarrollo de la Competencia emprendedora (CE) se materializa en el impulso de iniciativas individuales o grupales mediante el diseño de proyectos y acciones para la comprensión y difusión de la utilidad práctica del conocimiento de las funciones corporales, las cadenas musculares, la amplitud de movimiento, el autoconocimiento, la respiración, así como de la capacidad de identificarlos como favorecedores de la salud mental, emocional y física.",
+      "Finalmente, la materia contribuye al desarrollo de la Competencia en conciencia y expresión culturales (CCEC), mediante la investigación y análisis crítico de la complejidad del ámbito de la motricidad humana vinculada a las manifestaciones culturales deportivas y artísticas; así como de su evolución y repercusión tanto en Canarias como en otras culturas.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es, por ello, que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Anatomía Aplicada se establecen cuatro competencias específicas, que se concretan en nueve criterios de evaluación, siguiendo las líneas de aprendizaje competencial y significativo propios de una materia eminentemente práctica. Estos criterios de evaluación se alcanzan desde la práctica motriz, afianzando su marcado carácter inclusivo y facilitando el desarrollo de los descriptores operativos de las competencias clave, de acuerdo a los distintos ritmos de aprendizaje del alumnado.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Los saberes básicos se estructuran en tres bloques de saberes que servirán de base para el desarrollo de los cuatro bloques competenciales en la materia. Constituyen los conocimientos, las destrezas y las actitudes que posibilitan el desarrollo de las competencias específicas de la materia. Se organizan en tres bloques: I. «Bases de anatomía humana aplicada», II. «Fisiología aplicada al cuerpo humano» y III. «Biomecánica aplicada al cuerpo humano». El tratamiento competencial de los saberes asegurará la formación integral de la persona, permitiendo al profesorado dinamizar estos elementos curriculares.",
+      "El Bloque I, «Bases de anatomía humana aplicada», aborda la anatomía del cuerpo humano desde su función, es decir, la estructura anatómica de nuestro organismo y las características específicas que posibilitan y limitan el movimiento. A través de este se incidirá en el aprendizaje de los distintos aspectos que condicionan la movilidad humana, teniendo en cuenta que algunos elementos anatómicos ejercen funciones pasivas y otros activas, pero que, en conjunto, generan una estructura de sostén que sigue mecanismos definidos para la ejecución de acciones motrices.",
+      "El Bloque II, «Fisiología aplicada al cuerpo humano», es un bloque donde se hace tangible el valor de la energía en nuestro organismo, vinculando las prácticas motrices a distintos niveles de esfuerzo e intensidad, entendiendo los efectos del entrenamiento y las modificaciones morfológicas asociadas. Engloba conocimientos de nutrición y respiración, así como los procesos metabólicos, prestando especial atención a la hidratación y su importancia. La fatiga y el descanso serán tratados como elementos vinculados.",
+      "El Bloque III, «Biomecánica aplicada al cuerpo humano», abarca la movilidad humana y de los condicionantes, analizando la física del movimiento desde distintos puntos de vista: biomecánico, cinético y cinemático, la motricidad y los condicionantes físicos de la práctica. Las cadenas musculares serán una referencia para el análisis de las secuencias motrices de activación e inhibición muscular que se dan en equilibrio, tanto en situaciones dinámicas como estáticas. El alumnado evolucionará en las prácticas físicas identificando los factores de riesgo. También se aborda la relación entre el cuerpo, el ritmo y la expresión desde una perspectiva anatómica y práctica.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "En Anatomía Aplicada el diseño de las situaciones de aprendizaje, eminentemente prácticas, parten de los criterios de evaluación, tomados como referentes que indican el nivel de desempeño a alcanzar por el alumnado. Los aprendizajes vinculados a cada criterio muestran lo que se espera que el alumnado sepa, comprenda y sea capaz de hacer. Estos estarán claramente definidos en las situaciones de aprendizaje, donde se aplican los ajustes propios desde un enfoque inclusivo y apoyados en sistemas de evaluación formativos.",
+      "Desde la perspectiva propedéutica propia de esta etapa, serán claves las metodologías activas y pedagogías no lineales que darán protagonismo al alumnado a través del aprendizaje significativo, siendo cada vez más autónomo y aportando soluciones de forma creativa a los distintos desafíos propuestos. Se fundamentará en la práctica, como indica el propio nombre de la materia, priorizando la aplicación de los conocimientos que despierten el interés por comprender y controlar el propio cuerpo, para entender lo que ocurre en nuestro organismo y cómo afectan las decisiones que tomamos en cuanto a ser personas más o menos activas: cómo y cuándo movernos, cómo y cuándo nutrirnos y finalmente, cómo y cuándo descansar. Todo ello para poder interiorizar una actitud de cuidado y responsabilidad sobre nuestro cuerpo que se extienda a lo largo de su vida.",
+      "La estrategia para diseñar la evolución de los procesos de enseñanza y aprendizaje estará guiada por la gradación de los siguientes parámetros: de la práctica al conocimiento, de la investigación a la comprensión y de la aplicación del conocimiento a la autonomía de acción con el mínimo riesgo.",
+      "Se plantearán tareas motrices a través de recursos metodológicos que potencien la motivación intrínseca, buscando la comprensión en la aplicación de los aprendizajes a la práctica de actividad física y animando a que esta sea continuada, y así cumplir las recomendaciones realizadas por la Organización Mundial de la Salud.",
+      "Los sistemas de evaluación formativos y compartidos se articularán de forma comprensiva y coherente. Se tendrán en cuenta procesos de autoevaluación, coevaluación y heteroevaluación. Dichos tipos de evaluación, atendiendo a los agentes implicados, aportarán información relevante para enriquecer el aprendizaje individualizado y auténtico, favoreciendo el aprendizaje competencial."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Analizar la anatomía del sistema locomotor humano a través de la puesta en práctica de actividades físicas que permitan aplicar y comprender los mecanismos de percepción, decisión y ejecución del movimiento."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM2",
+        "CPSAA5"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          22,
+          25
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con el desarrollo de esta competencia, se pretende que el alumnado analice la anatomía del sistema locomotor a través del conocimiento de los sistemas esquelético y muscular, así como su relación con el sistema nervioso, aplicando estos contenidos en acciones motrices que permitan un aprendizaje significativo, fundamentado en la propia práctica o en la del resto del alumnado. El alumnado entenderá cómo funcionan los mecanismos de percepción, decisión y ejecución que se dan al realizar cualquier movimiento e incluso cuando mantienen una posición determinada. Asimismo, reconocerá las distintas posibilidades motrices, así como el condicionante de la amplitud de movimientos, aglutinando conceptos que permiten valorar que la acción motriz es dependiente de diversos aspectos como la rigidez, la flexibilidad, el rango articular o subsidiariamente, la fatiga."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Conocer y valorar el funcionamiento del cuerpo humano como resultado de la integración anatómica y fisiológica, identificando los ajustes del sistema cardio-respiratorio y músculo-esquelético, las principales vías metabólicas de aporte energético y los principios de nutrición e hidratación intervinientes en la gestión de la práctica de actividad física, contrastándolo con distintas fuentes de información."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM5",
+        "CD3",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          22,
+          26
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "A través de esta competencia específica, se pretende que el alumnado reconozca las adaptaciones fisiológicas y anatómicas que se dan en el organismo como resultado de la práctica de actividad física. El alumnado identificará indicadores de la condición física que les permitan entender su estado físico-motriz, y capacitará al alumnado para identificar ejercicios orientados a provocar adaptaciones cardiorespiratorias y neuromusculares, consiguiendo en el proceso una relación fácilmente identificable de causalidad entre la tarea motriz y la respuesta adaptativa. Además, el alumnado entenderá la continuidad de la práctica como elemento fundamental para optimizar el proceso de aprendizaje. El desarrollo de la competencia requiere que el alumnado reflexione sobre la respiración, la nutrición y la hidratación en el organismo, así como los procesos metabólicos y la transformación de los mismos con la actividad física, o la falta de esta. Analizará cómo funcionan dichos procesos para mejorar la eficiencia metabólica y aplicarlos a lo largo de la vida."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar y aplicar los conocimientos de biomecánica del sistema locomotor, percibiendo las cadenas musculares y los planos y ejes de movimiento que participan en una secuencia motriz para realizar movimientos precisos, eficaces y económicos de acuerdo a las características individuales, evaluando favorablemente los hábitos de salud postural, las posibilidades expresivas del cuerpo y del movimiento, identificando las lesiones más comunes del aparato locomotor y relacionándolas con sus causas fundamentales."
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA4",
+        "CE2",
+        "CE3",
+        "CCEC4.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          22,
+          27,
+          28
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica incide en que el alumnado comprenda la importancia de la musculatura en el equilibrio corporal, tanto en situaciones estáticas como dinámicas, concienciando de la importancia de la tonificación muscular y la coordinación entre y a través de los distintos sistemas del cuerpo humano. El alumnado entenderá la relación tan «íntima» existente entre el sistema nervioso y el aparato locomotor, actuando el primero como «ecualizador» del segundo, y dependiente, este último, del tipo de estímulos que reciba. Asimismo, comprenderá los ejercicios capaces de provocar adaptaciones que ayuden a mejorar la respuesta neuromuscular que es determinante en el equilibrio y la estabilidad, tanto estática como dinámica. Se prestará especial atención a la puesta en práctica de actividades bajo criterios de seguridad, prevención de lesiones e higiene postural. Conocerá y utilizará el cuerpo y el movimiento para expresar y comunicar a través de él. El desarrollo de la competencia implica que el alumnado analice desde un punto de vista biomecánico las distintas prácticas motrices para comprender y adaptar la propia ejecución de forma precisa, eficaz y económica. Los análisis biomecánicos se basarán en la cuantificación del movimiento de los segmentos corporales (cinemática), las fuerzas que se producen como consecuencia del movimiento (cinética) y los parámetros complementarios como puedan ser la actividad eléctrica muscular y el consumo energético.",
+          "Esta competencia tendrá un marcado carácter práctico y didáctico, relacionándolo con la anatomía desde la acción: a través de ejes de carga en la resistencia externa, planos de movimiento, tipo de articulaciones y movimientos que permiten la discriminación de factores de riesgo. El alumnado entenderá que hay determinados movimientos para los que no están preparadas todas las articulaciones, comprendiendo los distintos tipos de palancas y su relación con la musculatura. Esta orientación permitirá aplicar el conocimiento biomecánico al diseño de tareas, previa detección de los niveles de partida y la identificación de objetivos a alcanzar."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Interiorizar los aprendizajes a través del diseño y puesta en práctica de proyectos motores en los que se apliquen los conocimientos de la materia, atendiendo a sus intereses y necesidades y a la adquisición significativa de los mismos."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "STEM5",
+        "CPSAA1.2",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          23,
+          28
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia pretende que el alumnado aplique los saberes básicos adquiridos para diseñar proyectos y llevarlos a la práctica favoreciendo el emprendimiento, aprendiendo en el proceso y reflexionando sobre los resultados. Los proyectos motores les permitirán mostrar lo aprendido, con la posibilidad de emprender y desarrollar colaborativa y cooperativamente acciones de servicio a la comunidad evaluando su impacto."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar la anatomía del sistema locomotor desde un punto de vista funcional para poder comprender las distintas posibilidades de movimiento y control corporal."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM2",
+            "CPSAA5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              25
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender, aplicar y valorar los mecanismos de percepción, decisión y ejecución desarrollando retos motores para explorar el sistema locomotor desde un punto de vista anatómico."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM2",
+            "CPSAA5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              25
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Evaluar y reflexionar sobre los niveles de condición física, asociándolo a las características individuales, para entender los cambios anatómicos y fisiológicos que se producen en el organismo derivados de la actividad física, contrastándolo con distintas fuentes de información."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "STEM5",
+            "CD3",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              26
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar y relacionar las principales vías metabólicas con los distintos niveles de intensidad y tiempo de actividad motriz, integrando conocimientos y procesos, para comprender el funcionamiento del organismo desde un punto de vista metabólico."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "STEM5",
+            "CD3",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              26
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer e identificar los principios de nutrición e hidratación, fatiga y descanso relacionándolos con la regulación del metabolismo para transferir dichos aprendizajes a la vida."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "STEM5",
+            "CD3",
+            "CPSAA4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              26
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar la acción motriz desde un punto de vista biomecánico, comprendiendo los distintos tipos de articulaciones y movimientos que pudieran estar asociados a la práctica para una ejecución precisa, eficaz y económica."
+          },
+          "descriptoresOperativosRefs": [
+            "CPSAA4",
+            "CE2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              28
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Explorar y vivenciar los planos y ejes de movimiento, para valorar la amplitud de movimiento articular, las palancas y las cadenas cinéticas necesarias en la práctica motriz, experimentando distintas posibilidades de movimiento además de los recursos expresivos del cuerpo."
+          },
+          "descriptoresOperativosRefs": [
+            "CPSAA4",
+            "CE2",
+            "CE3",
+            "CCEC4.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              28
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reconocer los hábitos adecuados de salud postural y de actividad física, identificando los riesgos para desarrollar una vida activa y saludable que minimice las posibles lesiones."
+          },
+          "descriptoresOperativosRefs": [
+            "CPSAA4",
+            "CE2",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              28
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Aplicar los aprendizajes vinculándolos con un objetivo personal relacionado con la materia, para comprender de manera significativa los aprendizajes adquiridos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "STEM5",
+            "CPSAA1.2",
+            "CPSAA2",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              29
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CPSAA"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM2",
+            "CPSAA5"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se comprobará que el alumnado sea capaz de analizar, comprender e interpretar la anatomía del sistema locomotor desde un punto de vista funcional, analizando cómo las partes del cuerpo humano forman una unidad bien organizada y cada una de ellas desempeña un papel en el correcto funcionamiento del organismo como un todo; e identificando las estructuras junto a sus funciones cuando se realizan acciones motrices. La comprensión de esta competencia por parte del alumnado le permitirá orientar el proceso creativo necesario para llevar a cabo cualquier tarea motriz o el seguimiento de la misma, a través de recursos digitales o de observación directa. Asimismo, se evaluará si el alumnado es capaz de analizar la relación entre el sistema nervioso y el aparato locomotor.",
+              "El alumnado analizará la percepción, identificando que se inicia cuando se hace consciente de la existencia de un estímulo procedente de la propia persona o del entorno a través de los sentidos, y reconociéndola como el paso previo a la realización de los ajustes neuromotores necesarios en busca de la respuesta más adecuada. Comprenderá que la ejecución precisa de la valoración de los mecanismos de percepción y decisión para transformarlos en una acción motriz de manera coordinada, y conlleva una secuencia de contracciones y relajaciones a distintas intensidades y de distintos músculos para el desarrollo adecuado de una gestualidad determinada, así como los condicionantes posturales que permitan dicha acción, buscando el mínimo gasto energético y la máxima eficiencia. Este bloque competencial está relacionado con el bloque I de saberes: «Bases de anatomía humana aplicada»."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              25
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "STEM5",
+            "CD3",
+            "CPSAA4"
+          ],
+          "explicacion": {
+            "es": [
+              "Este bloque competencial pretende que el alumnado reconozca, vivencie y explique las adaptaciones anatómicas y fisiológicas que se dan en el organismo como resultado de la actividad física, utilizando términos anatómicos de diversa procedencia lingüística y sintetizando la información para conectarla y transferirla a otras acciones. Identificará indicadores de la condición física y los relacionará con sus características individuales o las del resto del alumnado, valorando y experimentando los efectos de la práctica de actividad física a distintos niveles de intensidad y continuidad, con el apoyo de recursos digitales si es posible. En cuanto al sistema cardio-respiratorio y músculo-esquelético, el alumnado ha de ser consciente y reconocer la importancia de los mismos para disfrutar de niveles altos de bienestar. Reconocerá, mediante la prácticade la actividad física, los procesos metabólicos aeróbicos y anaeróbicos asociados a las principales vías metabólicas, la participación enzimática y la producción de ATP. La obtención de energía y su distribución influirá positivamente en el estado de ánimo, la resistencia al esfuerzo y la capacidad de concentración. En cuanto a la nutrición, se constatará que el alumnado comprende y distingue los nutrientes más adecuados de acuerdo a sus características personales. Entenderá el valor de mantener una hidratación adecuada, así como la relación del agua con la regulación de la temperatura, los niveles de ph-acidez y su participación en el organismo a nivel estructural. Este bloque competencial está relacionado con el bloque II de saberes: «Fisiología aplicada al cuerpo humano»."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              26,
+              27
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CPSAA",
+            "CE",
+            "CCEC"
+          ],
+          "descriptoresOperativosRefs": [
+            "CPSAA4",
+            "CE2",
+            "CE3",
+            "CCEC4.2"
+          ],
+          "explicacion": {
+            "es": [
+              "Este bloque competencial pretende que el alumnado analice, desde un punto de vista biomecánico, las distintas prácticas motrices, con la finalidad de que comprenda y adapte la propia acción para conseguir una ejecución precisa, eficaz y económica. El alumnado desarrollará destrezas en las distintas prácticas motrices de acondicionamiento físico, juegos, deportes, manifestaciones motrices expresivas y en acciones de la vida cotidiana que mejoren su calidad de vida y minimicen los riesgos de la práctica. Asimismo, se pretende que el alumnado comprenda y vivencie la importancia de las cadenas musculares en el equilibrio corporal, tanto en situaciones estáticas como dinámicas, tomando conciencia de la importancia de la tonificación muscular y la coordinación entre y a través de los distintos sistemas del cuerpo humano, para deducir las acciones musculares adecuadas en cada situación. Este bloque competencial permitirá también trabajar múltiples retos motores, secuencias rítmicas y manifestaciones motrices expresivas, desarrollando el control y la modificación de las posturas, los gestos y movimientos, y prestando especial atención a los aspectos vinculados a criterios de seguridad, prevención de lesiones e higiene postural. Este bloque competencial está relacionado con el bloque III de saberes: «Biomecánica aplicada al cuerpo humano»."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              28
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "STEM5",
+            "CPSAA1.2",
+            "CPSAA2",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "Este bloque competencial pretende que el alumnado aplique lo aprendido a medida que va adquiriendo nuevos aprendizajes; todo ello dentro de proyectos motores, planteados y desarrollados de acuerdo a sus intereses y necesidades, con la posibilidad de planear y emprender colaborativa y cooperativamente acciones de servicio a la comunidad, evaluando su impacto. Se constatará que es capaz de gestionar propuestas en distintos contextos autónomamente, con la posibilidad de utilizar recursos digitales, contribuyendo de forma consciente y activa a una interacción eficiente y sostenible con el medio. Este bloque competencial tiene un potencial eminentemente práctico que estimulará el razonamiento del alumnado durante el proceso creativo de diseño de tareas motrices, de forma que planifique, adapte y organice sus conocimientos, destrezas y actitudes. Los proyectos motores surgirán de la evaluación de necesidades y oportunidades, así como del deseo de afrontar retos saludables y sostenibles, aprovechando las posibilidades que nos ofrece el entorno natural canario. Estará encaminado a la práctica de actividad física cumpliendo las recomendaciones realizadas por la Organización Mundial de la Salud. Otro ámbito de desarrollo comprenderá las iniciativas en línea con los Objetivos de Desarrollo Sostenible y la Agenda Canaria 2030, englobadas dentro de metodologías de Aprendizaje servicio, siempre que sea posible. Este bloque competencial será trabajado desde todos los bloques de saberes."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              29
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Bases de anatomía humana aplicada"
+          },
+          "saberes": [
+            {
+              "id": "ANA.1.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis e identificación del sistema locomotor humano y su aplicación al movimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Identificación de los principales huesos y articulaciones. Sistema esquelético."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Identificación de los principales músculos y su función. Sistema muscular."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Valoración y comprensión de la relación sistema locomotor y sistema nervioso. Comprensión y aplicación de los mecanismos de percepción, decisión y ejecución de las acciones motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Fisiología aplicada al cuerpo humano"
+          },
+          "saberes": [
+            {
+              "id": "ANA.1.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Conocimiento y valoración de los condicionantes fisiológicos de la actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Evaluación de los niveles de condición física, identificando los cambios anatómicos y fisiológicos derivados de una práctica motriz continuada."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Relación y ajustes del sistema cardiovascular y respiratorio con el movimiento humano. Intensidad y continuidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Conocimiento e identificación de los procesos metabólicos en la práctica de actividad física. Características de la actividad física y principales vías metabólicas utilizadas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.B.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Identificación y experimentación de los metabolismos energéticos aeróbicos y anaeróbicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.B.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Conocimiento e identificación del entrenamiento invisible: principios de nutrición e hidratación, fatiga y descanso."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Biomecánica aplicada al cuerpo humano"
+          },
+          "saberes": [
+            {
+              "id": "ANA.1.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis y aplicación de la acción motriz desde un punto de vista biomecánico."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Valoración de la amplitud de movimiento articular desde la acción motriz."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Análisis, identificación y exploración de los planos y ejes de movimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.C.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Análisis y desarrollo de los diferentes tipos de palancas y sus posibilidades en la práctica motriz."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.C.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Exploración de las cadenas cinéticas cerradas y abiertas y sus posibilidades de movimiento y control corporal."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.C.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Prevención, cuidado y pautas de actuación seguras en prácticas motrices: salud postural y lesiones más comunes."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            },
+            {
+              "id": "ANA.1.C.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Experimentación de las posibilidades de movimiento en los recursos expresivos del cuerpo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  30
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "El Decreto 78/2025 entra en vigor el 10 de junio de 2025 y no fija un calendario de implantación por curso escolar; aplicableDesdeCurso queda en null."
+    ]
+  }
+}

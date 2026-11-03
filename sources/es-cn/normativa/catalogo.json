@@ -8,13 +8,15 @@
     "bachillerato",
     "cfgb"
   ],
-  "fechaActualizacion": "2026-10-29",
-  "criterioSeleccion": "PDF auténticos publicados por el Boletín Oficial de Canarias que establecen el currículo LOMLOE de las cinco etapas del proyecto. Se incluye la corrección oficial de Infantil y el currículo específico de los ámbitos de Diversificación Curricular de ESO publicado en 2025. En CFGB solo se abordarán los ámbitos comunes del anexo 1, no los módulos profesionales de los veintitrés ciclos.",
+  "fechaActualizacion": "2026-11-03",
+  "criterioSeleccion": "PDF auténticos publicados por el Boletín Oficial de Canarias que establecen el currículo LOMLOE de las cinco etapas del proyecto. Se incluye la corrección oficial de Infantil y el currículo específico de los ámbitos de Diversificación Curricular de ESO publicado en 2025. En Bachillerato se incluye también el Decreto 78/2025 de materias optativas. En CFGB solo se abordarán los ámbitos comunes del anexo 1, no los módulos profesionales de los veintitrés ciclos. Se incorpora el Decreto 24/2026 de concreción curricular de Lengua para el lenguaje silbado de La Gomera, extraído en dos JSON complementarios.",
   "documentos": [
     {
       "id": "es-cn-infantil-decreto-196-2022",
       "territorio": "es-cn",
-      "etapas": ["infantil"],
+      "etapas": [
+        "infantil"
+      ],
       "tipo": "decreto",
       "funcion": "ordenacion-y-curriculo",
       "titulo": "Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias",
@@ -30,7 +32,9 @@
     {
       "id": "es-cn-infantil-correccion-196-2022",
       "territorio": "es-cn",
-      "etapas": ["infantil"],
+      "etapas": [
+        "infantil"
+      ],
       "tipo": "correccion-errores",
       "funcion": "correccion-normativa",
       "titulo": "Corrección de errores del Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias",
@@ -46,7 +50,9 @@
     {
       "id": "es-cn-primaria-decreto-211-2022",
       "territorio": "es-cn",
-      "etapas": ["primaria"],
+      "etapas": [
+        "primaria"
+      ],
       "tipo": "decreto",
       "funcion": "ordenacion-y-curriculo",
       "titulo": "Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias",
@@ -62,7 +68,10 @@
     {
       "id": "es-cn-eso-bachillerato-decreto-30-2023",
       "territorio": "es-cn",
-      "etapas": ["eso", "bachillerato"],
+      "etapas": [
+        "eso",
+        "bachillerato"
+      ],
       "tipo": "decreto",
       "funcion": "ordenacion-y-curriculo",
       "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
@@ -76,9 +85,29 @@
       "notas": "El anexo 2 contiene las materias de ESO y el anexo 3 las de Bachillerato. El currículo específico de los ámbitos de Diversificación Curricular se publicó después mediante el Decreto 86/2025."
     },
     {
+      "id": "es-cn-bachillerato-optativas-decreto-78-2025",
+      "territorio": "es-cn",
+      "etapas": [
+        "bachillerato"
+      ],
+      "tipo": "decreto",
+      "funcion": "curriculo-optativas",
+      "titulo": "Decreto 78/2025, de 2 de junio, por el que se establece el currículo de las materias optativas de la etapa del Bachillerato en la Comunidad Autónoma de Canarias",
+      "fechaPublicacion": "2025-06-09",
+      "boc": "112",
+      "codigoBoc": "BOC-A-2025-112-2086",
+      "archivo": "bachillerato/2025-06-02-decreto-78-2025-optativas-bachillerato.pdf",
+      "paginas": 421,
+      "sha256": "decb0e2017bc9a285dc3833ea27a34d75cc0d842fe7c27201500172807de1a9e",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2025-112-2086.pdf",
+      "notas": "El anexo 1 enumera las optativas y el anexo 2 desarrolla 24 materias agrupadas. Informática y Digitalización incluye primero y segundo. Segunda Lengua Extranjera I y II conserva el currículo del anexo 3 del Decreto 30/2023."
+    },
+    {
       "id": "es-cn-eso-diversificacion-decreto-86-2025",
       "territorio": "es-cn",
-      "etapas": ["eso"],
+      "etapas": [
+        "eso"
+      ],
       "tipo": "decreto",
       "funcion": "curriculo-diversificacion",
       "titulo": "Decreto 86/2025, de 30 de junio, por el que se establece el currículo de los ámbitos de los Programas de Diversificación Curricular en la Comunidad Autónoma de Canarias",
@@ -94,7 +123,9 @@
     {
       "id": "es-cn-cfgb-decreto-9-2023",
       "territorio": "es-cn",
-      "etapas": ["cfgb"],
+      "etapas": [
+        "cfgb"
+      ],
       "tipo": "decreto",
       "funcion": "ordenacion-y-curriculo",
       "titulo": "Decreto 9/2023, de 26 de enero, por el que se regula y establece el currículo de veintitrés Ciclos Formativos de Grado Básico en el ámbito de la Comunidad Autónoma de Canarias",
@@ -105,7 +136,26 @@
       "paginas": 1212,
       "sha256": "fd1f0b7777fc8807db3c24f5bf2d71e3b233f7f11cd505fc7df1c42494902f91",
       "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-025-402.pdf",
-      "notas": "El anexo 1 publica los ámbitos comunes de CFGB. Los anexos de módulos profesionales de los veintitrés ciclos quedan fuera del alcance actual del proyecto."
+      "notas": "El anexo 1 publica los ámbitos comunes de Ciencias Aplicadas (páginas 16-60) y Comunicación y Ciencias Sociales (61-98). Ciencias Aplicadas incluye Actividad Física y Bienestar Emocional solo en primero. La distribución de saberes por cursos es orientativa y no cronológica. Los anexos de módulos profesionales de los veintitrés ciclos quedan fuera del alcance actual del proyecto."
+    },
+    {
+      "id": "es-cn-primaria-eso-silbo-decreto-24-2026",
+      "territorio": "es-cn",
+      "etapas": [
+        "primaria",
+        "eso"
+      ],
+      "tipo": "decreto",
+      "funcion": "concrecion-curricular",
+      "titulo": "Decreto 24/2026, de 9 de marzo, por el que se regula la enseñanza del lenguaje silbado de la isla de La Gomera para su impartición en la Educación Primaria y en la Educación Secundaria Obligatoria en la Comunidad Autónoma de Canarias",
+      "fechaPublicacion": "2026-03-17",
+      "boc": "52",
+      "codigoBoc": "BOC-A-2026-052-853",
+      "archivo": "primaria-eso/2026-03-09-decreto-24-2026-lenguaje-silbado-gomera.pdf",
+      "paginas": 60,
+      "sha256": "4935437197eb5329f80ba8eefa34725d67295b8c928c185da22277edd7940f3e",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-052-853.pdf",
+      "notas": "Los anexos I y II concretan el currículo de Lengua Castellana y Literatura para la enseñanza del lenguaje silbado en Primaria y ESO. Es preceptiva en La Gomera y facultativa, mediante autorización, en las demás islas. Entrada en vigor: 18 de marzo de 2026. Extraído en dos JSON complementarios vinculados al currículo común de Lengua, cotejados y revisados."
     }
   ]
 }

@@ -344,10 +344,10 @@ def main() -> None:
             "competenciasEspecificas": competencies,
             "desarrollos": developments,
             "revision": {
-                "estado": "borrador",
+                "estado": "revisado",
                 "fuenteComprobada": True,
-                "fechaUltimaRevision": "2026-10-29",
-                "metodo": "Extracción estructurada de las tablas y del desarrollo narrativo del PDF oficial, con cotejo de recuentos y páginas; pendiente de revisión manual.",
+                "fechaUltimaRevision": "2026-11-03",
+                "metodo": "Extracción estructurada de las tablas y del desarrollo narrativo del PDF oficial, con cotejo de recuentos y páginas; revisión manual confirmada por el responsable del proyecto.",
                 "notas": [
                     "El anexo 2 organiza criterios y saberes por primer y segundo ciclo.",
                     "Las letras de bloque y las abreviaturas de área son internas; la fuente usa números romanos para los bloques y números locales para los saberes.",

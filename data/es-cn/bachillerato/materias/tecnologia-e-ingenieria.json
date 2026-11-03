@@ -1,0 +1,2060 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.tecnologia-e-ingenieria",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "TI",
+    "nombre": {
+      "es": "Tecnología e Ingeniería"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      },
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2023-03-24",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2023-058-decreto-30-2023",
+      "tipo": "decreto",
+      "titulo": "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "58",
+      "fechaPublicacion": "2023-03-23",
+      "cve": "BOC-A-2023-058-848",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "anexo": "3",
+      "paginasMateria": {
+        "desde": 1896,
+        "hasta": 1924
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La tecnología y la ingeniería constituyen campos del saber humano relacionados con la aplicación práctica de los conocimientos científicos que este ha desarrollado. El progreso de la tecnología, entendida como el conjunto de saberes y técnicas que se aplican para dar soluciones a las necesidades planteadas por el ser humano, ha sido fundamental para el desarrollo de múltiples aspectos de las sociedades actuales, como son las comunicaciones, las infraestructuras o la medicina, entre otros. Este progreso continuado nos ha permitido no solo modificar el entorno para adaptarlo a nuestras necesidades, sino también concebir nuevas realidades. En el caso de Canarias, el proceso de industrialización ha permitido la mejora de su situación económica y de las condiciones de vida de sus habitantes, pero para poder seguir avanzando las islas Canarias del siglo XXI necesitan la implementación de un desarrollo tecnológico que integre las tecnologías e ingenierías a través de proyectos de investigación, desarrollo e innovación (I+D+i).",
+      "El sistema educativo establece la materia de Tecnología e Ingeniería en primero y en segundo de Bachillerato, que posee carácter interdisciplinar y que contribuye a que el alumnado adquiera los conocimientos teóricos y prácticos necesarios para la búsqueda de soluciones a problemas con creatividad e iniciativa, diseñando la solución más adecuada, creando proyectos que integren el uso de recursos digitales y las tecnologías emergentes como internet de las cosas, big data e inteligencia artificial. En el último siglo han cobrado especial importancia la informática y sus aplicaciones a los diferentes campos de la industria para conseguir procesos y productos inclusivos, garantes de las mejoras de la calidad de vida de las personas, cada vez más eficientes y respetuosos con el medioambiente, teniendo en cuenta los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030. Las ciudadanas y ciudadanos necesitan adquirir una cultura tecnológica que les permita sacar partido de todos los avances que desde este campo puede aportar a la realidad cotidiana, de ahí la importancia de esta materia en el currículo de Bachillerato, ya que dota al alumnado de conocimientos necesarios para abordar con una actitud crítica y responsable los retos de la vida diaria, contribuyendo esta materia, además, al desarrollo competencial del alumnado, pues analiza y hace propuestas que surgen de su entorno y aplica métodos científicos y técnicos para la búsqueda de soluciones prácticas y eficaces, gestionando adecuadamente sus propias emociones. Especialmente relevante en ella es el estudio de los sistemas de producción y de los materiales empleados, las fuentes de energía utilizadas, su impacto medioambiental y su influencia en la industria, los servicios y los hogares.",
+      "La metodología que se use para impartir esta materia tiene que ser activa, despertando la curiosidad y el interés del alumnado a partir de la observación y análisis del entorno más cercano de casos reales. Además, esta materia contribuye al desarrollo del pensamiento computacional también como estrategia de resolución de problemas, unido a la metodología de proyectos. Por otro lado, los cambios que afectan a la sociedad del siglo XXI exigen que se promueva un trabajo eficaz y para ello la materia de Tecnología e Ingeniería fomenta el trabajo colaborativo y en equipo del alumnado. Debido a su carácter interdisciplinar, contribuye al desarrollo y progreso de los niveles de desempeño adquiridos en las competencias clave en la etapa anterior de Educación Secundaria Obligatoria, principalmente en la Competencia digital y en la competencia matemática y competencia en ciencia, tecnología e ingeniería, además de promover las vocaciones científico-tecnológicas entre el alumnado y, especialmente, entre las alumnas. También ofrece al alumnado un amplio campo de salidas profesionales relacionadas con el ámbito tecnológico y de la ingeniería e introduce aprendizajes con continuidad en la formación profesional y en estudios superiores.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran. En esta materia será fundamental, además, incidir en aprendizajes relativos al conocimiento del desarrollo tecnológico de la Comunidad Autónoma de Canarias, de manera que el alumnado integre que el patrimonio canario incluye aspectos sociales, culturales, científicos y tecnológicos.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio.",
+      "Contribución a los objetivos de etapa",
+      "Esta materia permite dar continuidad a la materia de Tecnología y Digitalización, de carácter obligatorio en primero y segundo de la ESO y opcional en tercero, y a las materias opcionales de Tecnología y de Digitalización en cuarto de la ESO, a la vez que contribuye a la adquisición de las competencias clave y a la consecución de los objetivos de la etapa de Bachillerato, favoreciendo el desarrollo integral del alumnado para continuar con estudios posteriores o bien para el desempeño de actividades profesionales relacionadas con el ámbito tecnológico y de la ingeniería, despertando las vocaciones científico-tecnológicas.",
+      "La materia de Tecnología e Ingeniería a través de, entre otros aspectos, el trabajo colaborativo y cooperativo propio de la metodología de proyectos característica de la misma permite que el alumnado desarrolle una ciudadanía democrática (h) y asuma de manera respetuosa, responsable y autónoma sus derechos (a), fomentando la igualdad efectiva de derechos y oportunidades entre todas las personas mediante la no discriminación (c) y el uso de un lenguaje inclusivo libre de estereotipos sexistas en la lengua castellana (e). Además, contribuye a afianzar los hábitos de lectura, estudio y disciplina en el desarrollo personal del alumnado (d), utilizando de manera responsable las tecnologías digitales (g), desarrollando su espíritu crítico y madurez (b). Para ello, esta materia permite que, a través de la búsqueda de soluciones creativas (k) a los problemas propuestos, el alumnado acceda a los conocimientos científicos y técnicos propios de la materia (i), valorando la contribución de la ciencia y la tecnología en el cambio de las condiciones de vida (j) y las realidades del mundo contemporáneo, afianzando su responsabilidad y compromiso en la defensa del desarrollo sostenible (o).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "La materia de Tecnología e Ingeniería contribuye al desarrollo y la adquisición de la Competencia en comunicación lingüística (CCL), ya que el alumnado debe ser capaz de localizar, seleccionar, contrastar e interpretar la información para elaborar la documentación técnica necesaria y transmitirla de forma oral, escrita y multimodal, de manera coherente y argumentada.",
+      "La Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM) se adquiere a partir del planteamiento y desarrollo de proyectos de manera colaborativa, utilizando el pensamiento científico, elaborando hipótesis que a partir de la observación, la experimentación y a investigación permitan desarrollar soluciones que den respuesta a necesidades, evaluando los productos obtenidos.",
+      "Asimismo, la contribución a la Competencia digital (CD) se concreta en la selección, configuración y uso de aplicaciones y herramientas de su entorno personal digital o plataformas virtuales, conforme a las características y demandas propias, para resolver las tareas propuestas de manera eficiente y colaborativa con la finalidad de idear, desarrollar, difundir y referenciar la información, respetando los derechos de autoría y adoptando criterios de calidad y fiabilidad.",
+      "Esta materia contribuye, además, a la adquisición de la Competencia personal, social y de aprender a aprender (CPSAA), ya que se fomenta en el alumnado la autoeficacia y la búsqueda de objetivos para mejorar su proceso de aprendizaje desde la fase de ideación hasta la difusión de cada solución de manera eficiente, seleccionando fuentes fiables de conocimiento, validando y contrastando la información y adoptando un estilo de vida sostenible que tenga en cuenta el bienestar propio y de las demás personas, que se pone especialmente de manifiesto a través del trabajo cooperativo, en el que se hace especial hincapié en la superación de los roles de género tradicionales.",
+      "La Competencia ciudadana (CC) se fomenta en el análisis de las relaciones de inter y ecodependencia entre nuestras formas de vida y nuestro entorno y la adquisición de forma consciente de un estilo de vida sostenible y socialmente responsable.",
+      "Al mismo tiempo, se contribuye al desarrollo de la Competencia emprendedora (CE), dado que el alumnado debe evaluar necesidades para afrontar retos que permitan crear ideas y buscar soluciones accesibles, sostenibles, eficientes e innovadoras, reflexionando sobre el proceso y el resultado obtenido con la finalidad de elaborar un prototipo final.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "Esta materia de Tecnología e Ingeniería fomenta la adquisición de seis competencias específicas que se desarrollan a través de saberes y criterios de evaluación diferenciados para los dos cursos, pero con un objetivo común. En primero de Bachillerato estas competencias se alcanzan a través del desarrollo de los aprendizajes relacionados con catorce criterios de evaluación distribuidos adecuadamente entre las diferentes competencias, mientras que en segundo de Bachillerato se adquieren a través de trece criterios de evaluación.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Esta materia está organizada en torno a siete bloques de saberes básicos, que constituyen un conjunto de conocimientos, destrezas y actitudes que permiten la formación integral del alumnado desde un enfoque competencial. Estos bloques de saberes no poseen una vinculación unívoca con cada una de las competencias específicas, si bien es observable una estrecha conexión entre ambos elementos del currículo en algunos casos. En última instancia, corresponderá al equipo docente responsable de la impartición de la materia la distribución de estos saberes en la programación de situaciones de aprendizaje coherentes, en las que se tengan en cuenta las características del alumnado y de su contexto, y que propicien el desarrollo competencial de estos.",
+      "La organización de los siete bloques de saberes básicos queda como sigue: I. «Proyectos de investigación y desarrollo», II. «Materiales y fabricación», III. «Sistemas mecánicos», IV. «Sistemas eléctricos y electrónicos», V. «Sistemas informáticos y programación», en primero de Bachillerato, y «Sistemas informáticos emergentes», en segundo de Bachillerato, VI. «Sistemas automáticos» y VII. «Tecnología sostenible».",
+      "El Bloque I, «Proyectos de investigación y desarrollo», aborda la metodología de proyectos como método eficaz para la creación de soluciones ajustadas a las necesidades detectadas, utilizando técnicas adecuadas para el desarrollo de las mismas y para favorecer el trabajo en equipo. A partir de este primer bloque se desarrollan los restantes, que aportan saberes científicos y técnicos a la materia con la finalidad de ir añadiendo de manera progresiva los diferentes conocimientos, destrezas y actitudes que permitan al alumnado desarrollar las competencias y alcanzar los objetivos propuestos.",
+      "Así, el Bloque II, «Materiales y fabricación», se orienta al estudio de los materiales y sus propiedades, así como de las técnicas apropiadas de fabricación siguiendo criterios de sostenibilidad y respetando las normas de seguridad e higiene. En el caso de segundo de Bachillerato, se introduce en la estructura interna de los mismos, la mejora de propiedades y en el estudio de los procedimientos de ensayo.",
+      "En el Bloque III, «Sistemas mecánicos», se abordan los conocimientos y aplicaciones prácticas de los mecanismos de transmisión y transformación de movimientos, dándole continuidad en segundo de Bachillerato al desarrollar conocimientos y aplicaciones que se relacionan con las estructuras y los distintos tipos de cargas a las que se ven sometidas, así como al estudio y aplicación de máquinas térmicas, neumáticas e hidráulicas.",
+      "En el Bloque IV, «Sistemas eléctricos y electrónicos», se examinan los circuitos y máquinas eléctricas de corriente continua, así como sus aplicaciones prácticas. En el caso de segundo de Bachillerato, se centra en el estudio de los circuitos de corriente alterna y sus aplicaciones, así como de los sistemas electrónicos digitales, tanto secuenciales como combinacionales.",
+      "El Bloque V, «Sistemas informáticos y programación», analiza los fundamentos de la programación textual y el diseño y creación de programas informáticos siguiendo las fases para su desarrollo, haciendo uso de las tecnologías emergentes y de los protocolos de comunicación de redes de dispositivos en la realización de los proyectos tecnológicos. En el caso de segundo de Bachillerato, el bloque asociado se denomina «Sistemas informáticos emergentes», que se presenta como una continuación de los aprendizajes trabajados en primero y en él se abordan aplicaciones relacionadas con las bases de datos, los macrodatos y la inteligencia artificial.",
+      "El Bloque VI, «Sistemas automáticos», hace referencia al análisis de los elementos de los sistemas de control, así como al desarrollo del control automático aplicado a los sistemas tecnológicos, considerando la identificación y análisis de los sistemas de supervisión y el uso de las tecnologías emergentes. En el segundo curso, se desarrolla el álgebra de bloques necesaria para la simplificación de sistemas y la identificación de condiciones de estabilidad en sistemas automáticos, además de la práctica con simuladores.",
+      "El Bloque VII, «Tecnología sostenible», dota al alumnado de los conocimientos necesarios para analizar los sistemas y mercados energéticos, así como las instalaciones de una vivienda con criterios de eficiencia energética, infiriendo propuestas acordes con los principios recogidos en los Objetivos de Desarrollo Sostenible y en la Agenda Canaria de Desarrollo Sostenible 2030. En segundo de Bachillerato se complementan estos aprendizajes al contemplar el análisis del impacto social y ambiental vinculado a los procesos tecnológicos y la elaboración de informes de evaluación ambiental.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "Este enfoque de educación inclusiva se apoya en el Diseño Universal para el Aprendizaje (DUA) a través del uso de modelos de enseñanza integradores e inclusivos que incorporen estrategias que permitan la individualización del aprendizaje y el acceso al mismo.",
+      "En esta materia se plantea una metodología activa, práctica y contextualizada que sea participativa, colaborativa y que fomente el trabajo en equipo, donde el alumnado sea agente activo de los procesos de enseñanza y aprendizaje y el profesorado actúe como guía en el mismo, permitiendo el desarrollo de habilidades de pensamiento computacional para la consecución de las competencias específicas por parte del alumnado. Además, debe abordar la metodología de aprendizaje servicio, dado el impacto de los procesos tecnológicos en la sociedad y el entorno, contribuyendo a concienciar y sensibilizar al alumnado de la importancia de la protección del patrimonio, reflejando la mejora de las condiciones de vida en Canarias.",
+      "Las situaciones de aprendizaje deben considerar las necesidades concretas que tenga el alumnado como personas que tienen un compromiso activo en la mejora del mundo en el que vive, integrando la perspectiva interdisciplinar que posee el carácter transversal de la materia de Tecnología e Ingeniería. Para ello se precisa que el alumnado elabore y participe en proyectos de investigación, desarrollo e innovación para facilitar un acercamiento a proyectos de I+D+i, incorporando técnicas de trabajo, prototipado rápido y fabricación offline englobadas en la metodología de proyectos que permite el desarrollo de las fases de investigación, ideación, diseño, fabricación, presentación y comunicación de resultados en la búsqueda de las soluciones tecnológicas a las necesidades detectadas, teniendo en cuenta la mejora continua de las mismas.",
+      "Se debe fomentar la creatividad en el aprendizaje del alumnado despertando las vocaciones científico-tecnológicas, el desarrollo del espíritu crítico y emprendedor, la capacidad de reformular las soluciones propuestas como mejora del propio proceso de aprendizaje, el empleo de herramientas digitales, hábitos de trabajo en grupo, la capacidad de comunicarse asertivamente con otras personas de manera respetuosa, rechazando cualquier tipo de discriminación, respetando las opiniones ajenas, ejercitando la escucha activa, el uso de la terminología adecuada para comunicar y difundir las ideas y las soluciones generadas, el respeto de las normas de seguridad y salud en el trabajo en el taller, la resolución pacífica de conflictos que puedan surgir, la responsabilidad en la mejora de la comunidad en la que conviven, aplicando criterios inclusivos y de sostenibilidad, así como la autonomía en la aplicación de los conocimientos.",
+      "Finalmente, debe tenerse en cuenta que en todos los procesos de enseñanza y aprendizaje la evaluación constituye un elemento clave para la mejora continua, tanto del profesorado a través de la autoevaluación de su práctica docente como del alumnado. En este sentido, al plantear la evaluación de este debe tenerse en cuenta su diversidad y, por tanto, han de planificarse una variedad de técnicas, herramientas y productos, adaptados a las distintas situaciones de aprendizaje, que permitan constatar los logros del alumnado conforme a sus propias particularidades y a las características de los aprendizajes que se desean lograr, garantizando una valoración objetiva y promoviendo el proceso de coevaluación y autoevaluación como una oportunidad para aprender."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Coordinar y desarrollar proyectos de investigación con una actitud crítica y emprendedora, implementando estrategias y técnicas eficientes de resolución de problemas y comunicando los resultados de manera adecuada, para crear y mejorar productos y sistemas de manera continua."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1899,
+          1905,
+          1915
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica 1 aborda los aprendizajes relacionados con la participación del alumnado en la ideación, desarrollo y comunicación de proyectos tecnológicos que den respuesta a necesidades planteadas, por lo que también hace referencia a la necesidad de desarrollar estrategias para el trabajo colaborativo y cooperativo relacionadas con la gestión y coordinación de proyectos, técnicas específicas de investigación, procesos de escucha activa, comunicación asertiva, gestión de las emociones, ruptura de estereotipos, uso de un lenguaje inclusivo y no sexista, elaboración de documentación técnica relacionada, etc. Los desempeños relacionados con esta competencia se tratarán en ambos niveles, de manera que se debe aumentar de manera gradual tanto la profundidad de los mismos como el nivel de autonomía exigible al alumnado. Para ello, esta competencia se concreta en cuatro criterios de evaluación en el primer nivel de Bachillerato y dos en segundo de Bachillerato, de manera que están interrelacionados.",
+          "En primero de Bachillerato los criterios de evaluación se han establecido siguiendo una secuenciación lógica, de manera que el primero está orientado a la investigación y diseño de proyectos desde una perspectiva interdisciplinar, con la finalidad de obtener soluciones sostenibles y eficientes; mientras que el segundo está dirigido a la participación en el desarrollo, gestión y coordinación de proyectos, favoreciendo el proceso para realizar mejoras de manera continua, evaluando tanto los productos obtenidos como su diseño y ciclo de vida. El tercero apunta hacia el desarrollo de estrategias para que esa participación sea adecuada y se cumplan los protocolos del trabajo en equipo en cuanto a recursos utilizados y a estrategias de colaboración y comunicación en el grupo, y el cuarto está encaminado al uso de los medios y herramientas digitales y manuales adecuados para elaborar y comunicar la documentación técnica relacionada con las soluciones propuestas. En segundo de Bachillerato esta competencia se concreta en dos criterios de evaluación que consolidan los desempeños adquiridos por el alumnado en el nivel anterior, de manera que el primero se orienta al desarrollo, comunicación y difusión de proyectos de investigación e innovación (I+D+i), a la búsqueda y referenciado de la información y a la aplicación de estrategias que permitan la mejora de los productos, mientras que el segundo se orienta a la búsqueda de soluciones de manera autónoma y crítica, propiciando la reflexión sobre los resultados obtenidos y el proceso realizado, entendiendo el error como parte del proceso de aprendizaje."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Seleccionar materiales y elaborar estudios de impacto, aplicando criterios técnicos y de sostenibilidad para fabricar productos de calidad que den respuesta a problemas y tareas planteados, desde un enfoque responsable y ético."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA4",
+        "CC4",
+        "CE1",
+        "CCL1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1900,
+          1906,
+          1916
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica 2 hace referencia a la capacidad del alumnado para, trabajando de forma colaborativa y utilizando el pensamiento científico, analizar y seleccionar los materiales adecuados para la fabricación de productos de calidad que den respuesta a las necesidades planteadas, aplicando criterios técnicos y de sostenibilidad. Además, permite el desarrollo de las destrezas asociadas a los procesos de fabricación adecuados y, según el nivel, iniciarse en la realización de estudios de impacto ambiental. Esta competencia se concreta en dos criterios de evaluación tanto en primero como en segundo de Bachillerato, de manera que los aprendizajes que se desarrollan en el primer nivel se profundicen y amplíen en el segundo curso. En primero de Bachillerato, el primer criterio está orientado al análisis del ciclo de vida de un producto, teniendo en cuenta aspectos como la contaminación generada o la energía consumida a lo largo de todo el proceso de obtención y uso del mismo, su capacidad de reciclaje, etc. El segundo criterio se dirige hacia el desarrollo de estrategias adecuadas para analizar los materiales según sus características técnicas y al empleo de técnicas de fabricación siguiendo criterios de sostenibilidad y respetando las normas de seguridad e higiene, teniendo en cuenta y proponiendo opciones de mejora continua tanto de los productos elaborados como de las técnicas utilizadas. En segundo de Bachillerato, el primer criterio profundiza en el análisis de los materiales, teniendo en cuenta su estructura interna, propiedades y posibles tratamientos para mejora de los mismos, mientras que el segundo aborda el proceso de elaboración de informes sencillos de estudio de impacto ambiental, haciendo uso de las herramientas digitales adecuadas."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Utilizar las herramientas digitales adecuadas, analizando sus posibilidades, configurándolas de acuerdo a sus necesidades y aplicando conocimientos interdisciplinares, para resolver tareas, así como para realizar la presentación de los resultados de una manera óptima."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CE3",
+        "CD5"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1900,
+          1908,
+          1917
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica 3 incide en el desarrollo y profundización de las herramientas digitales adquiridas en la etapa anterior para el desempeño de las tareas asociadas a esta materia. Esta competencia se concreta en un único criterio de evaluación en cada nivel, que se orienta hacia la adquisición de la capacidad del alumnado para hacer un uso óptimo de las herramientas digitales adecuándolas a cada situación, con la finalidad de resolver las tareas planteadas de manera interdisciplinar, aplicando criterios adecuados de búsqueda de información y seleccionando los resultados de manera crítica y responsable para desarrollar soluciones innovadoras y sostenibles de manera colaborativa, aplicándolas a todas las fases del proceso, como diseño, simulación, montaje, etc., así como a su gestión, presentación y difusión de los resultados obtenidos de manera óptima. En el segundo nivel se ampliarán tanto la diversidad de herramientas digitales utilizadas como la autonomía en el uso de las mismas."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Generar conocimientos y mejorar destrezas técnicas, transfiriendo y aplicando saberes de otras disciplinas científicas con actitud creativa, para calcular, y resolver problemas o dar respuesta a necesidades de los distintos ámbitos de la ingeniería."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3",
+        "CCL1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1900,
+          1901,
+          1909,
+          1918
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "En la competencia específica 4 se hace referencia a la capacidad del alumnado para aplicar, de manera integrada y atendiendo al nivel en el que se esté desarrollando, técnicas, procedimientos y saberes de diferentes disciplinas, con el objetivo de dar respuesta a las necesidades planteadas, aplicando los fundamentos adecuados en cada caso para el desarrollo de montajes o simulaciones, siendo capaz de utilizar las herramientas adquiridas para generar nuevo conocimiento y diseñar soluciones que requieran el uso de los aprendizajes relacionados, realizando los cálculos de magnitudes asociadas y montando o simulando las soluciones ideadas, analizándolas de manera crítica para posibilitar una mejora constante de las mismas. Para ello, esta competencia comprende dos criterios de evaluación para el primer nivel y cinco criterios de evaluación para el segundo nivel de Bachillerato. En primero de Bachillerato ambos criterios hacen referencia a la resolución de problemas, generando soluciones innovadoras, creativas y sostenibles, aplicando los fundamentos adecuados para el desarrollo de montajes o simulaciones, de manera que el primero aborda problemas asociados a sistemas e instalaciones mecánicas y el segundo a sistemas e instalaciones eléctricas y electrónicas.",
+          "Estos aprendizajes se complementan con los criterios de evaluación de segundo de Bachillerato. El primero de ellos se refiere al estudio de las cargas y la estabilidad en las estructuras, haciendo uso de herramientas digitales tanto para las simulaciones como para la difusión de los resultados obtenidos. El segundo criterio de evaluación hace referencia al análisis sobre el funcionamiento de las máquinas térmicas y al uso de herramientas digitales adecuadas para transmitir los resultados y conclusiones de este análisis y valorar la eficiencia de estos dispositivos. Tanto el tercer criterio de evaluación —que se refiere al diseño de soluciones de sistemas neumáticos e hidráulicos— como el cuarto —que alude al diseño de soluciones de circuitos de corriente alterna— se orientan a la identificación de los diferentes elementos de esos circuitos para documentar correctamente los resultados obtenidos. Además, en el quinto criterio de evaluación se señala la aplicación de los fundamentos de la electrónica digital para diseñar y simular circuitos combinacionales y secuenciales creativos."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Diseñar, crear y evaluar sistemas tecnológicos, aplicando conocimientos de programación informática, regulación automática y control, así como las posibilidades que ofrecen las tecnologías emergentes, para estudiar, controlar y automatizar tareas."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1901,
+          1910,
+          1920
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica 5 hace referencia a la adquisición de habilidades por parte del alumnado que le permitan aplicar conocimientos de programación informática para el diseño, creación y evaluación de sistemas tecnológicos, así como para analizar, evaluar y aplicar las posibilidades que ofrecen las tecnologías emergentes como la inteligencia artificial, internet de las cosas, big data, etc., en los procesos de control y de automatización, permitiendo la creación de aplicaciones informáticas que automaticen tareas sencillas. Esta competencia específica se alcanza a lo largo de diferentes criterios de evaluación en los dos cursos de Bachillerato: tres criterios en primero de Bachillerato y dos criterios en segundo de Bachillerato. El primer criterio de evaluación en primero de Bachillerato incide en la utilización de lenguajes de programación en el control del funcionamiento de sistemas tecnológicos y robóticos, aplicando las posibilidades que ofrecen las tecnologías emergentes. El segundo criterio de evaluación hace referencia a la creación de soluciones innovadoras y ecosocialmente sostenibles en los procesos de modelización en la automatización, programación y evaluación de los movimientos de robots. Estos aprendizajes se complementan con el tercer criterio de evaluación, que aborda la utilización de lenguajes de programación en los sistemas tecnológicos. En segundo de Bachillerato el primer criterio de evaluación incide en el análisis del funcionamiento, finalidad y estabilidad de procesos tecnológicos basados en sistemas de control de lazo abierto y cerrado, así como en la realización de simulaciones de estos sistemas. El segundo criterio de evaluación hace referencia a la evaluación de los sistemas informáticos emergentes relacionados con la seguridad de los datos y la privacidad de las personas."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar y comprender sistemas tecnológicos de los distintos ámbitos de la ingeniería, estudiando sus características, consumo y eficiencia energética, para evaluar el uso responsable y sostenible que se hace de la tecnología."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CD4",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CCL1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2023-058-decreto-30-2023",
+        "paginas": [
+          1901,
+          1902,
+          1911,
+          1921
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia específica 6 pretende que el alumnado adquiera un criterio informado sobre el impacto que el uso de los sistemas energéticos genera en el medioambiente, dotándole de herramientas para evaluar el uso responsable y sostenible que se hace de la tecnología a partir del análisis de los sistemas tecnológicos. Esta competencia específica se alcanza a lo largo de diferentes criterios de evaluación en los dos cursos de Bachillerato, a partir de dos criterios de evaluación en primero de Bachillerato y un criterio de evaluación en segundo de Bachillerato. El primer criterio de evaluación en primero de Bachillerato hace referencia al estudio de las características de los distintos sistemas de generación de energía eléctrica para valorar su eficiencia y sostenibilidad, permitiendo, de esta forma, evaluar los mercados energéticos. Estos aprendizajes se complementan con el segundo criterio de evaluación, que aborda el análisis de las instalaciones eléctricas, de agua, climatización, comunicación y domóticas de una vivienda, evaluando así el uso responsable y sostenible que se hace de estas tecnologías. En segundo de Bachillerato el criterio de evaluación incide en el desarrollo por parte del alumnado del uso de técnicas del pensamiento científico, aplicando información obtenida de fuentes fiables, seleccionándola, reestructurándola y referenciándola, para examinar las relaciones de inter y ecodependencia entre nuestras formas de vida y el entorno social y natural, destacando la fragilidad de nuestro entorno, valorando la huella ecológica generada y adoptando las medidas necesarias para desarrollar unos hábitos de vida sostenible."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Investigar y diseñar proyectos con sentido crítico y ético que muestren de forma gráfica la creación y mejora de un producto, seleccionando, referenciando e interpretando información relacionada, para obtener soluciones tecnológicas sostenibles."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM3",
+            "CD1",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1905
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar en el desarrollo, gestión y coordinación de proyectos de creación y perfeccionamiento de productos viables, sostenibles y socialmente responsables, identificando mejoras y creando prototipos mediante un proceso iterativo de evaluación, con actitud crítica, creativa y emprendedora."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CD5",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1905
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar de forma colaborativa en tareas tecnológicas, incorporando el uso de recursos digitales para favorecer la comunicación, ejerciendo la escucha activa y realizando aportaciones al equipo a través del rol asignado, fomentando el bienestar grupal y las relaciones saludables e inclusivas."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CD3",
+            "CPSAA1.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1905
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Elaborar y comunicar la documentación técnica relacionada con las ideas y soluciones tecnológicas propuestas, generando diagramas funcionales y haciendo uso de los medios manuales y aplicaciones digitales pertinentes."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM4",
+            "CD3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1905,
+              1906
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Determinar el ciclo de vida de un producto, analizando su huella ecológica, planificando y aplicando medidas de control de calidad en sus distintas etapas, desde el diseño a la comercialización, utilizando estrategias de mejora continua."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "CD2",
+            "CPSAA1.1",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1906,
+              1907
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar y seleccionar los materiales —tradicionales o de nueva generación— adecuados para la fabricación de modelos o prototipos de calidad, basándose en sus características técnicas y empleando las técnicas de fabricación más adecuadas aplicando criterios técnicos y de sostenibilidad."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CPSAA4",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1907
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver las tareas propuestas y presentar los resultados obtenidos, haciendo un uso óptimo de las herramientas digitales adecuadas a cada situación y respetando los derechos de autoría."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1908
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas asociados a sistemas e instalaciones mecánicas, generando soluciones innovadoras y sostenibles, aplicando fundamentos de mecanismos de transmisión y transformación de movimientos, soporte y unión al desarrollo de montajes o simulaciones digitales."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1909
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas asociados a sistemas e instalaciones eléctricas y electrónicas, desarrollando soluciones innovadoras y sostenibles, aplicando fundamentos de corriente continua y máquinas eléctricas al desarrollo de montajes o simulaciones digitales, utilizando la simbología adecuada para expresar los resultados."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1909
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Controlar el funcionamiento de sistemas tecnológicos y robóticos, utilizando lenguajes de programación y aplicando las posibilidades que ofrecen las tecnologías emergentes para crear soluciones innovadoras y sostenibles."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1910
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Automatizar, programar y evaluar movimientos de robots mediante su modelización y aplicación de algoritmos sencillos para dar respuestas innovadoras y ecosocialmente sostenibles a necesidades de su entorno."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1910
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y comprender conceptos básicos de programación textual, mostrando el progreso paso a paso de la ejecución de un programa a partir de un estado inicial y prediciendo su estado final tras la ejecución para diseñar, crear y evaluar sistemas tecnológicos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1910
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Evaluar los distintos sistemas de generación de energía eléctrica y mercados energéticos, estudiando sus características, calculando sus magnitudes y valorando su eficiencia y sostenibilidad."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM5",
+            "CD2",
+            "CPSAA2",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1911
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar las diferentes instalaciones de una vivienda desde el punto de vista de su eficiencia energética, buscando aquellas opciones más comprometidas con la sostenibilidad y fomentando un uso responsable de las mismas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CD4",
+            "CPSAA2",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1911
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD3",
+            "CD5",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se persigue constatar que el alumnado dispone de las estrategias de gestión, coordinación y participación propias del trabajo por proyectos, incorporando técnicas específicas de investigación, ideación de soluciones, fabricación y mejora de productos y sistemas de calidad que den respuesta a problemas planteados, desde una perspectiva interdisciplinar y con un enfoque ético y ecosocialmente responsable. Para ello, el alumnado trabajará de forma colaborativa, utilizando diversas técnicas acordes a cada fase, como diagramas de Gantt, metodologías ágiles o pensamiento de diseño (design thinking), con la finalidad de utilizar los métodos y aplicaciones adecuados a su nivel para diseñar y crear soluciones que den respuesta a necesidades planteadas, así como de ofrecer mejoras a las mismas de manera continua, evaluando tanto los productos obtenidos como su diseño y ciclo de vida, desarrollando estrategias de control de calidad, comercialización, logística, transporte y distribución. Asimismo, el alumnado debe ser capaz de localizar, seleccionar, contrastar e interpretar la información para elaborar la documentación técnica necesaria y comunicarla de forma oral, escrita y multimodal, de manera coherente y argumentada, usando un lenguaje inclusivo y no sexista."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1906
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CPSAA1.1",
+            "CPSAA4",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se pretende constatar la adquisición, por parte del alumnado, de estrategias que le permitan seleccionar productos que han sido diseñados y fabricados bajo criterios de sostenibilidad, eficiencia energética y respeto social, tanto por los materiales utilizados en su fabricación como por los procedimientos de conformado aplicados, fomentando con ello una participación activa y responsable en la sociedad actual de consumo. Para ello, el alumnado será capaz de fabricar un producto de calidad que dé respuesta a las necesidades planteadas, trabajando de forma colaborativa y utilizando el pensamiento científico para plantear hipótesis que se contrastan mediante la experimentación y la investigación, con la finalidad de mejorar su entorno, seleccionando y compartiendo la información de manera crítica, valorando las técnicas de fabricación más adecuadas a cada caso, siguiendo criterios de sostenibilidad y respetando las normas de seguridad e higiene. Asimismo, se valorará la capacidad de determinar el ciclo de vida de un producto, analizando su huella ecológica y proponiendo opciones de mejora continua tanto de los productos elaborados como de las técnicas utilizadas."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1907
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CPSAA5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende contribuir a la alfabetización informacional del alumnado, de manera que aplique herramientas digitales que le permitan responder adecuadamente a las necesidades de la sociedad actual, así como realizar eficazmente el trabajo colaborativo, la comunicación de ideas o la difusión y presentación de trabajos, por lo que se comprobará que es capaz de hacer un uso óptimo de estas herramientas, adecuándolas a cada situación para resolver las tareas planteadas de manera interdisciplinar (proceso de diseño y creación de soluciones, dimensionado, simulación, programación y control de sistemas, fabricación de productos, etc.), aplicando criterios adecuados de búsqueda de información y seleccionando los resultados de manera crítica y responsable para desarrollar soluciones innovadoras y sostenibles de manera colaborativa, así como para presentar y difundir los resultados obtenidos de forma óptima."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1908
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se valorará el desarrollo y adquisición de estrategias por parte del alumnado que le permitan integrar las habilidades, técnicas y conocimientos de las diferentes disciplinas de manera natural, con la finalidad de idear y desarrollar soluciones que den respuesta a problemas planteados integrando saberes de diferentes áreas del conocimiento para obtener soluciones diversas y eficaces. Se comprobará, por tanto, que el alumnado es capaz de proponer y desarrollar respuestas innovadoras y sostenibles a problemas asociados a sistemas e instalaciones mecánicas, eléctricas y electrónicas, aplicando los fundamentos adecuados en cada caso para el desarrollo de montajes o simulaciones, siendo capaz de utilizar las herramientas adquiridas para generar nuevo conocimiento y diseñar soluciones que requieran el uso de mecanismos de transmisión y transformación de movimientos, así como de sistemas eléctricos de corriente continua, realizando los cálculos de magnitudes asociadas y construyendo o simulando las soluciones ideadas, analizándolas de manera crítica para posibilitar una mejora constante de las mismas."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1909
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se constatará que el alumnado es capaz de comprender el proceso de diseño y desarrollo de un producto desde un punto de vista industrial, analizando los sistemas técnicos para el control automático en máquinas y en robots, así como a través de las tecnologías emergentes (inteligencia artificial, internet de las cosas, big data, etc.) aplicadas al control de objetos. Para ello se comprobará que el alumnado es capaz de controlar el funcionamiento de diversos sistemas tecnológicos y robóticos, aplicando el pensamiento computacional y utilizando lenguajes de programación, así como aplicando las posibilidades que ofrecen las tecnologías emergentes antes mencionadas y los protocolos de comunicación de redes de diferentes dispositivos. También se valorará su capacidad para diseñar, crear y evaluar sistemas tecnológicos de manera colaborativa y segura, utilizando el pensamiento científico, estrategias variadas, dispositivos digitales, herramientas, aplicaciones y servicios en línea, valorando de manera crítica las soluciones innovadoras y sostenibles."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1910,
+              1911
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL3",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CD4",
+            "CPSAA2",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende dotar al alumnado de un criterio informado sobre el impacto a nivel social y medioambiental que generan los sistemas y dispositivos tecnológicos, específicamente los sistemas energéticos y suministros domésticos, así como de las técnicas de ahorro existentes, favoreciendo actitudes ecosocialmente responsables y contribuyendo a la consecución de los Objetivos de Desarrollo Sostenible, por lo que se constatará si es capaz de analizar y evaluar los mercados energéticos en Canarias y en el mundo, además de los distintos sistemas de generación de energía, incluyendo tanto las fuentes de energía renovables como las no renovables, aplicando criterios de eficiencia energética y sostenibilidad para analizar las instalaciones eléctricas, de agua, climatización, de comunicación y domóticas de una vivienda, evaluando, así, el uso responsable y sostenible que se hace de estas tecnologías. Se valorará que el alumnado utilice técnicas del pensamiento científico, aplicando información obtenida de fuentes fiables, seleccionándola, reestructurándola y referenciándola, para examinar las relaciones de inter y ecodependencia entre nuestras formas de vida y el entorno, valorando la huella ecológica generada y adoptando las medidas necesarias para desarrollar un estilo de vida sostenible."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1911,
+              1912
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyectos de investigación y desarrollo"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Uso de estrategias de gestión y desarrollo de proyectos como diagramas de Gantt y metodologías ágiles."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Aplicación de técnicas relacionadas con el pensamiento de diseño (design thinking) para la investigación e ideación de soluciones a problemas planteados y otras técnicas de trabajo en grupo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis del ciclo de vida de los productos y desarrollo de estrategias de mejora continua de los mismos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Búsqueda de soluciones relacionadas con la mejora de la planificación y desarrollo del diseño y comercialización de los productos, teniendo en cuenta aspectos relacionados con la logística, el transporte y la distribución."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.2.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2.2",
+              "texto": {
+                "es": "Análisis y aplicación de estándares que rigen el control de calidad de un producto, la metrología y la normalización."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Uso de aplicaciones CAD-CAE-CAM para la representación de diagramas funcionales, esquemas y croquis en el diseño de soluciones que den respuesta a necesidades planteadas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Resolución de problemas desde una perspectiva interdisciplinar de la actividad tecnológica, fomentando el emprendimiento, la resiliencia, la perseverancia y la creatividad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Valoración del error y la reevaluación como parte esencial en la mejora del proceso de aprendizaje. Desarrollo de estrategias que permitan la identificación y gestión de emociones y fomenten la autoconfianza e iniciativa."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Materiales y fabricación"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis, clasificación y selección de materiales técnicos y nuevos materiales en función de sus propiedades y aplicaciones y siguiendo criterios de sostenibilidad, accesibilidad y equidad social."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis y aplicación de técnicas de fabricación manual y digital para elaborar soluciones que den respuesta a una necesidad planteada. Uso de técnicas de prototipado rápido."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Aplicación de las normas de seguridad e higiene en el trabajo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sistemas mecánicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de los mecanismos de transmisión y transformación de movimientos, soportes y técnicas de unión de elementos mecánicos. Desarrollo de aplicaciones prácticas, físicas o simuladas en proyectos, realizando los diseños, cálculos y montajes requeridos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas eléctricos y electrónicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de circuitos y máquinas de corriente continua e identificación de sus elementos constituyentes. Interpretación y representación esquematizada de circuitos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1913
+                ]
+              }
+            },
+            {
+              "id": "TI.1.D.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Desarrollo de aplicaciones prácticas, físicas o simuladas en proyectos, realizando los cálculos y montajes requeridos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sistemas informáticos. Programación"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.E.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Introducción a los fundamentos de la programación textual: características, elementos y lenguajes."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Diseño y creación de programas para la resolución de problemas utilizando estrategias relacionadas con la modularización."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.2.1",
+              "codigoOficial": null,
+              "numeracionFuente": "2.1",
+              "texto": {
+                "es": "Aplicación de las fases del proceso de desarrollo de programas informáticos: edición, compilación o interpretación, ejecución, realización de pruebas y depuración."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Aplicación de las tecnologías emergentes en la realización de proyectos tecnológicos, como el internet de las cosas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            },
+            {
+              "id": "TI.1.E.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Análisis y aplicación de los protocolos de comunicación de redes de dispositivos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sistemas automáticos"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.F.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de los conceptos y elementos constituyentes de los sistemas de control. Desarrollo de estrategias para modelización de sistemas sencillos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Aplicación de la automatización programada en los procesos tecnológicos, analizando su diseño, programación, construcción y simulación o montaje."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Identificación y análisis de los sistemas de supervisión (SCADA): telemetría y monitorización."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Aplicación de las tecnologías emergentes a los sistemas de control."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            },
+            {
+              "id": "TI.1.F.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Aplicación de herramientas para modelización de movimientos y acciones mecánicas relacionadas con la robótica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Tecnología sostenible"
+          },
+          "saberes": [
+            {
+              "id": "TI.1.G.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de los sistemas de producción de energía y de los mercados energéticos en Canarias y en el mundo. Estudio de las técnicas y criterios de ahorro en los suministros domésticos, valorando la necesidad de realizar un consumo energético sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            },
+            {
+              "id": "TI.1.G.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis de las instalaciones eléctricas, de agua y climatización, de comunicación y domóticas en viviendas, incluyendo tanto las fuentes de energías renovables como las no renovables, con criterios de eficiencia energética y sostenibilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1914
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Desarrollar, comunicar y difundir proyectos de investigación e innovación, de forma clara y comprensible, aportando la documentación técnica necesaria, con la finalidad de crear y mejorar productos de forma continua, compartiendo la información para crear conocimiento y mejorarlo."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD3",
+            "CD5",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1915
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Plantear soluciones sostenibles a los problemas planteados, con actitud crítica y emprendedora, perseverando en la consecución de los objetivos propuestos, identificando y gestionando emociones, aceptando y aprendiendo de la crítica razonada y utilizando el error como parte del proceso de aprendizaje."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM3",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1915
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar la idoneidad de los materiales técnicos utilizados en la fabricación de productos sostenibles y de calidad, haciendo uso de las herramientas de búsqueda necesarias para estudiar su estructura interna y propiedades, así como tratamientos de modificación y mejora de las mismas."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CPSAA4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1916
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Utilizar las herramientas digitales adecuadas para elaborar informes sencillos de evaluación de impacto ambiental de manera fundamentada y estructurada."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM5",
+            "CD2",
+            "CPSAA1.1",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1916,
+              1917
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver problemas asociados a las distintas fases del desarrollo y gestión de un proyecto tecnológico, destacando su diseño, simulación, montaje y presentación, aplicando conocimientos interdisciplinares y utilizando las herramientas digitales adecuadas para obtener resultados óptimos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1917
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Calcular y montar estructuras sencillas, estudiando los tipos de cargas a los que se puedan ver sometidas y su estabilidad, aprovechando las herramientas digitales disponibles para simular, interpretar y transmitir los resultados obtenidos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1918
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar las máquinas térmicas como máquinas frigoríficas, bombas de calor y motores térmicos, aplicando conocimientos interdisciplinares, para comprender su funcionamiento, realizar simulaciones y cálculos básicos sobre su eficiencia, y transmitir de forma clara y precisa, en diferentes formatos y haciendo uso de las herramientas digitales adecuadas, los elementos más relevantes del análisis."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1918,
+              1919
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y solucionar esquemas de sistemas neumáticos e hidráulicos, proponiendo ideas creativas, a través de montajes o simulaciones, comprendiendo y documentando el funcionamiento de cada uno de sus elementos y del sistema en su totalidad."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1919
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-4",
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y resolver circuitos de corriente alterna mediante montajes o simulaciones, identificando sus elementos, comprendiendo su funcionamiento y documentando los resultados obtenidos."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1919
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-5",
+          "codigoOficial": "4.5",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Experimentar y diseñar circuitos combinacionales y secuenciales físicos y simulados aplicando fundamentos de la electrónica digital, comprendiendo y documentando su funcionamiento en el diseño de soluciones tecnológicas creativas."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1919
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Analizar y simular procesos tecnológicos basados en sistemas de lazo abierto y cerrado para comprender su funcionamiento y finalidad, aplicando técnicas de simplificación y analizando su estabilidad para obtener resultados eficaces."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1920
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y evaluar sistemas informáticos emergentes y sus implicaciones en la seguridad de los datos y la privacidad de las personas, analizando modelos existentes."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA1.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1920
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar los distintos sistemas de ingeniería desde el punto de vista de la responsabilidad social y la sostenibilidad, realizando búsquedas de información veraz a través del uso de fuentes fiables de información para estudiar las características de eficiencia energética asociadas a los materiales y a los procesos de fabricación de los sistemas tecnológicos y generar documentación con sus especificaciones."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CD4",
+            "CPSAA2",
+            "CC4",
+            "CE1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1921
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM3",
+            "STEM4",
+            "CD1",
+            "CD3",
+            "CD5",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se persigue constatar que el alumnado dispone de las destrezas que le permiten participar activamente en procesos de investigación, desarrollo e innovación (I+D+i) propios del desarrollo tecnológico actual y de las demandas relacionadas con la mejora de las tecnologías existentes y con la necesidad de generar nuevas tecnologías. Para ello se verificará que es capaz de aplicar estrategias relacionadas con la resolución de problemas de manera eficiente, la comunicación de los resultados obtenidos de manera adecuada y eficaz, usando un lenguaje inclusivo y no sexista, y la colaboración entre diferentes ámbitos del saber para mejorar los resultados y los productos obtenidos bajo criterios de eficacia, sostenibilidad y respeto social. Es por ello que se constatará que el alumnado coordina y desarrolla proyectos de investigación, participando en el proceso de creación de ideas desde una perspectiva interdisciplinar y en la implementación de soluciones innovadoras y sostenibles para dar respuesta a necesidades planteadas, aportando la documentación técnica necesaria, buscando y referenciando la información, comprobando su veracidad y seleccionando los dispositivos digitales necesarios para comunicar los resultados, trabajar colaborativamente y compartir la información de manera autónoma y eficaz. Asimismo, se comprobará su capacidad para reflexionar sobre los resultados obtenidos y aplicar las técnicas necesarias para su reelaboración, mejorando el producto final obtenido, considerando el error y la reevaluación como parte del proceso de aprendizaje."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1915,
+              1916
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CPSAA1.1",
+            "CPSAA4",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se verificará que el alumnado es capaz de diseñar y crear productos sostenibles, socialmente responsables, eficientes y de calidad, realizando un correcto diseño de los mismos y una adecuada selección de los materiales utilizados para su construcción. Para ello, se constatará que el alumnado presenta la capacidad de, siguiendo los procedimientos de análisis científico y haciendo uso de las herramientas de búsqueda necesarias, analizar las propiedades técnicas de los materiales y su estructura interna para hacer una selección idónea de los mismos, así como de las técnicas de fabricación industrial adecuadas, siguiendo criterios de sostenibilidad y responsabilidad social. Asimismo, se valorará la capacidad de utilizar las herramientas digitales necesarias para comparar, sintetizar y reelaborar la información necesaria, respetando los derechos de autoría digital, que le permita elaborar estudios de impacto sencillos de manera fundamentada y estructurada."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1917
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se persigue constatar que el alumnado dispone de las habilidades relacionadas con el uso de herramientas digitales imprescindibles en el proceso de aprendizaje propio de esta etapa para que, configurándolas según sus necesidades y aplicando estrategias de trabajo cooperativo y colaborativo y conocimientos interdisciplinares, contribuya a las distintas fases del desarrollo y gestión de un proyecto con la finalidad de idear y crear soluciones tecnológicas innovadoras y sostenibles, realizando procesos de búsqueda de información, seleccionando las fuentes y organizando los resultados de manera crítica, contrastando su veracidad y respetando las fuentes de información, presentando de manera óptima tanto las soluciones obtenidas como el proceso realizado, incluyendo las fases de simulación y montaje, la programación y control de sistemas o la fabricación de productos, instrumentos esenciales que el alumnado debe conocer para realizar las tareas propias de la materia. Asimismo, se valorará la importancia de la evaluación continuada del proceso para obtener mejoras constantes en los resultados."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1918
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende constatar que el alumnado desarrolla las habilidades necesarias para combinar los distintos saberes procedentes de disciplinas variadas como las matemáticas, la física o la química, así como la experimentación, con la finalidad de obtener soluciones diversas y eficaces a las necesidades y problemas planteados. Para ello se comprobará que es capaz de realizar cálculos relacionados con el estudio y montaje de estructuras sencillas, analizar el funcionamiento de máquinas térmicas y realizar simulaciones y cálculos de eficiencia, e interpretar, resolver y diseñar esquemas y circuitos de sistemas neumáticos, hidráulicos, combinacionales, secuenciales y de corriente alterna. Todo ello utilizando el pensamiento científico, el razonamiento lógico y la experimentación o simulación para resolver los problemas técnicos de forma individual o colaborativa, evitando sesgos de género y desarrollando soluciones tecnológicas innovadoras que permitan favorecer el aprendizaje del alumnado, mejorando los conocimientos y las destrezas técnicas relacionadas."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1919,
+              1920
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-5",
+          "competenciasClaveRefs": [
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA1.1",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se persigue constatar que el alumnado adquiere las habilidades necesarias para analizar, diseñar y simular, tanto de manera individual como colaborativa, soluciones a problemas tecnológicos planteados que permitan la automatización de procesos a través del empleo de sistemas automáticos, con la finalidad de favorecer la simplificación de tareas y que lleve aparejado el diseño del software aplicado a dispositivos de propósito general como ordenadores o dispositivos móviles, y también a la configuración y puesta en marcha de dispositivos físicos para tareas concretas como las tarjetas microcontroladoras, aplicando conocimientos de programación informática, electrónica digital, regulación automática y control, y analizando estas soluciones de manera crítica para posibilitar una mejora constante de las mismas. Asimismo, deberá conocer y valorar la incorporación de los sistemas informáticos emergentes —como la inteligencia artificial, las analíticas asociadas a las grandes cantidades de datos generadas por los distintos sistemas o el internet de las cosas en aplicaciones cotidianas— y sus implicaciones respecto a la seguridad de los datos y de las personas."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1920,
+              1921
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-6",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CD4",
+            "CPSAA2",
+            "CC4",
+            "CE1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende que el alumnado comprenda las implicaciones sociales y medioambientales que presentan la producción, transporte y empleo de la energía, enfatizando la relevancia de una adecuada gestión en un territorio fragmentado como Canarias, así como el funcionamiento de los diferentes sistemas tecnológicos, tanto en el ámbito industrial como doméstico, realizando una valoración crítica sobre el uso e impacto de la energía en la sociedad y el medioambiente a partir de la investigación y búsqueda contrastada de información, y de generar la documentación relacionada, analizando el funcionamiento de los mercados energéticos, teniendo en cuenta aspectos relacionados con la eficiencia y favoreciendo actitudes relacionadas con el ahorro energético y con un uso responsable de la misma, contribuyendo a la consecución de los Objetivos de Desarrollo Sostenible y la Agenda Canaria de Desarrollo Sostenible 2030."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2023-058-decreto-30-2023",
+            "paginas": [
+              1922
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyectos de investigación y desarrollo"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Uso de técnicas y estrategias adecuadas para la gestión y desarrollo de proyectos y para el trabajo en equipo. Incorporación de metodologías ágiles en función de los tipos, características y aplicaciones necesarias para desarrollar distintos prototipos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            },
+            {
+              "id": "TI.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Elaboración de la documentación técnica necesaria para la presentación, difusión y comunicación de las soluciones planteadas, estableciendo las referencias adecuadas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            },
+            {
+              "id": "TI.2.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Valoración del error y la reevaluación como parte esencial en la mejora del proceso de aprendizaje. Desarrollo de estrategias que permitan la identificación y gestión de emociones y fomenten la autoconfianza e iniciativa."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            },
+            {
+              "id": "TI.2.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Resolución de problemas desde una perspectiva interdisciplinar de la actividad tecnológica, fomentando el emprendimiento, la resiliencia, la perseverancia y la creatividad."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Materiales y fabricación"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Estudio y análisis de la estructura interna de los materiales, propiedades características y procedimientos de ensayo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            },
+            {
+              "id": "TI.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estudio y aplicación de técnicas de diseño y tratamientos adecuados para mejorar y modificar las propiedades y sostenibilidad de los materiales."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            },
+            {
+              "id": "TI.2.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Análisis de técnicas de fabricación industrial."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            },
+            {
+              "id": "TI.2.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Aplicación de las normas de seguridad e higiene en el trabajo."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sistemas mecánicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de estructuras sencillas y aplicación en proyectos y prototipos. Identificación de Tipos de cargas, estabilidad y realización de cálculos básicos. Montaje o simulación de ejemplos sencillos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            },
+            {
+              "id": "TI.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Identificación y descripción de las características de las diferentes máquinas térmicas: máquina frigorífica, bomba de calor y motores térmicos. Realización de cálculos básicos asociados a las mismas, implementación de simulaciones y análisis de aplicaciones industriales y domésticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            },
+            {
+              "id": "TI.2.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Descripción, análisis y aplicación de los componentes y principios físicos relacionados con los sistemas de neumática e hidráulica. Diseño de circuitos hidráulicos y neumáticos mediante esquemas característicos para la resolución de problemas. Realización de montajes físicos o simulados."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas eléctricos y electrónicos"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis de circuitos de corriente alterna. Aplicación del triángulo de potencias y realización de cálculos, y montajes o simulación de los mismos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1923
+                ]
+              }
+            },
+            {
+              "id": "TI.2.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Diseño y simplificación de circuitos combinacionales mediante mapas de Karnaugh. Experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1924
+                ]
+              }
+            },
+            {
+              "id": "TI.2.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Aplicaciones de la electrónica digital secuencial. Experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1924
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sistemas informáticos emergentes"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.E.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación y análisis de aplicaciones de inteligencia artificial, big data y bases de datos distribuidas. Valoración de la importancia de la ciberseguridad, realizando análisis de estrategias y aplicaciones que permitan favorecerla."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1924
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sistemas automáticos"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.F.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Aplicación del álgebra de bloques para la simplificación de sistemas. Identificación de condiciones de estabilidad en los sistemas automáticos y experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1924
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Tecnología sostenible"
+          },
+          "saberes": [
+            {
+              "id": "TI.2.G.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Análisis y valoración crítica del impacto social y ambiental generado por los procesos tecnológicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1924
+                ]
+              }
+            },
+            {
+              "id": "TI.2.G.1.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1.1",
+              "texto": {
+                "es": "Realización de informes sencillos de evaluación ambiental."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2023-058-decreto-30-2023",
+                "paginas": [
+                  1924
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "Calendario de implantación: primero en 2022/2023 y segundo en 2023/2024."
+    ]
+  }
+}

@@ -183,7 +183,7 @@ def parse_sabers(nodes: list[ET.Element], code: str, course: int, lo: int, hi: i
     return blocks
 
 
-def parse_table(table: ET.Element, course: int, variant: str | None, code: str, lo: int, criterion_lo: int, hi: int, pages: list[str]) -> tuple[list[dict], list[dict], list[dict]]:
+def parse_table(table: ET.Element, course: int, variant: str | None, code: str, lo: int, criterion_lo: int, hi: int, pages: list[str], *, normalize_sle: bool = True) -> tuple[list[dict], list[dict], list[dict]]:
     rows = table.findall(f"./{TABLE}table-row")
     first = rows[0].findall(f"./{TABLE}table-cell")
     paragraphs = utils.direct_paragraphs(first[0])
@@ -210,7 +210,7 @@ def parse_table(table: ET.Element, course: int, variant: str | None, code: str, 
         assert match, raw[:110]
         major, minor, statement = match.groups()
         lookup = raw
-        if code == "SLE" and major in ("5", "6"):
+        if normalize_sle and code == "SLE" and major in ("5", "6"):
             # El BOC intercambia estos criterios; el ODT institucional los alinea
             # con sus competencias. Corrección confirmada en CN-ESO-001.
             lookup = re.sub(r"^[56]", "6" if major == "5" else "5", raw)
@@ -336,7 +336,7 @@ def parse_area(meta: dict, first_page: int, last_page: int, pages: list[str], pa
         "introduccion": {"es": intro},
         "competenciasEspecificas": [competences[n] for n in sorted(competences)],
         "desarrollos": developments,
-        "revision": {"estado": "borrador", "fuenteComprobada": True, "fechaUltimaRevision": "2026-10-30",
+        "revision": {"estado": "revisado", "fuenteComprobada": True, "fechaUltimaRevision": "2026-11-03",
                      "metodo": "Extracción estructurada del ODT institucional y cotejo de los textos con el PDF publicado en el BOC.",
                      "notas": ["Los códigos de saber y las abreviaturas de materia son internos del proyecto; la fuente no publica códigos individuales para los saberes.",
                                "Calendario de implantación: 1.º y 3.º en 2022/2023; 2.º y 4.º en 2023/2024."]},

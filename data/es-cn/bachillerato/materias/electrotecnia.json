@@ -1,0 +1,1064 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.6.0",
+  "id": "es-cn.bachillerato.electrotecnia",
+  "territorio": "es-cn",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "ELE",
+    "nombre": {
+      "es": "Electrotecnia"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2025-06-10",
+    "aplicableDesdeCurso": null,
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "boc-2025-112-decreto-78-2025",
+      "tipo": "decreto",
+      "titulo": "Decreto 78/2025, de 2 de junio, por el que se establece el currículo de las materias optativas de la etapa del Bachillerato en la Comunidad Autónoma de Canarias",
+      "publicacion": "Boletín Oficial de Canarias",
+      "numero": "112",
+      "fechaPublicacion": "2025-06-09",
+      "cve": "BOC-A-2025-112-2086",
+      "urlOficial": "https://sede.gobiernodecanarias.org/boc/boc-a-2025-112-2086.pdf",
+      "urlVerificacion": "https://www.gobiernodecanarias.org/boc/2025/112/2086.html",
+      "anexo": "2",
+      "paginasMateria": {
+        "desde": 104,
+        "hasta": 117
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La aparición de nuevos dispositivos eléctricos y la necesidad de una comprensión más profunda de la electricidad y su aplicación en la vida cotidiana dieron lugar a la formación de la disciplina de la Ingeniería Eléctrica. Tomando esto como punto de partida, a través de la materia de Electrotecnia de segundo de Bachillerato se aborda el estudio y la aplicación de los fenómenos eléctricos y electromagnéticos relacionados con la generación, transformación, transmisión y distribución de la energía eléctrica para su posterior empleo en el diseño y control de sistemas electrónicos y mecánicos.",
+      "Los sistemas de alimentación de energía, los sistemas de carga y los sistemas de accionamiento de motores constituyen objetos de esta disciplina. Todos estos elementos están cada vez más presentes en la sociedad y en la industria, conformando un factor clave para el funcionamiento de la economía y el bienestar de la población. En el caso particular de Canarias, se debe tener presente que nuestra comunidad autónoma cuenta con una variedad de sistemas de producción eléctrica, derivada de su fragmentación y particularidades orográficas, entre las que se incluyen las centrales térmicas, hidroeléctricas y eólicas, siendo importante que el alumnado comprenda cómo funcionan y cómo contribuyen a la producción total de la energía eléctrica en las islas. De este modo, podrán interiorizar el papel estratégico que desempeña su gestión eficiente a través de soluciones innovadoras y al mismo tiempo podrán adoptar posturas ecosostenibles en el desempeño de una ciudadanía responsable que favorezca la consecución de los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "Los aprendizajes de la materia, que se nutren de disciplinas como la Física y las Matemáticas, son fundamentales para la formación en Ingeniería Eléctrica y para la comprensión de tecnologías electrónicas avanzadas, puesto que facilitan que el alumnado que cursa esta materia desarrolle múltiples competencias, además de la STEM, que pueden ser aplicadas en su vida cotidiana y en su desarrollo profesional futuro. Un ejemplo concreto se pone de manifiesto a través de la identificación de averías, siguiendo un procedimiento sistematizado que puede ser extrapolado a otros campos. Conviene señalar también cómo el estudio de esta materia permite a las jóvenes estudiantes de Canarias adquirir herramientas para favorecer la igualdad entre mujeres y hombres, y promover su participación activa en la sociedad, en un campo en el que tradicionalmente han tenido poca representación.",
+      "La metodología propia de la materia propiciará desarrollar habilidades prácticas, a través de experimentos y ejercicios que permitan aplicar los saberes básicos de la materia en situaciones reales. En este sentido, debe destacarse la importancia del trabajo colaborativo para el abordaje de las distintas situaciones de aprendizaje, lo que redundará en el desarrollo de habilidades transversales necesarias para el desenvolvimiento óptimo en grupos de trabajo, como el desarrollo de la empatía y la responsabilidad compartida, propiciando así una emocionalidad competente.",
+      "Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su sostenibilidad y la de los valores que en él perduran.",
+      "En esta etapa, junto con su tratamiento como contextos de aprendizaje, se propone una profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.",
+      "Contribución a los objetivos de etapa",
+      "Los objetivos de etapa se encuentran recogidos en el art. 21 del Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias y para su correcta identificación se referencian con la letra correspondiente entre paréntesis.",
+      "Esta materia da continuidad y complementa a aquellas que están relacionadas con las ramas de la Ingeniería, como son las materias de Física y de Tecnología e Ingeniería, a la vez que contribuye a la adquisición de las competencias clave y a la consecución de los objetivos de la etapa de Bachillerato. Asimismo, favorece el desarrollo integral del alumnado para continuar con estudios superiores o bien para el desempeño de actividades profesionales relacionadas con el ámbito tecnológico y de la ingeniería, despertando las vocaciones científico-tecnológicas.",
+      "Así, esta materia, debido a su carácter empírico, permite que, a través de la búsqueda de soluciones creativas a los problemas propuestos (k), el alumnado profundice en conocimientos técnicos y científicos (i), a la vez que ahonde en su interés por la ciencia y la tecnología, valorando la necesidad de adquirir un compromiso en defensa de un modelo de desarrollo sostenible (o), participando en la evolución y el avance de su entorno social (h) y reconociendo la contribución de la materia en la mejora de las condiciones de vida y del medioambiente (j). Además, el trabajo cooperativo y colaborativo permite que el alumnado desarrolle una ciudadanía democrática (a), fomentando la igualdad de derechos entre todas las personas mediante la no discriminación y el uso de un lenguaje inclusivo libre de estereotipos sexistas (c). Asimismo, contribuye a consolidar hábitos de lectura, estudio y disciplina (d) que mejoran su desarrollo personal; y fomenta el uso responsable de las tecnologías digitales (g), tanto en la búsqueda como en la generación de contenidos en lengua castellana de forma oral, escrita, signada o multimodal (e), desarrollando su espíritu crítico y madurez personal (b).",
+      "Contribución a las competencias clave",
+      "La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado conforme a los descriptores operativos establecidos en la progresión del Perfil de salida del alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave para el Bachillerato.",
+      "La materia de Electrotecnia contribuye al desarrollo y adquisición de la Competencia en comunicación lingüística (CCL), puesto que el alumnado debe ser capaz de buscar, analizar y contrastar información, con la finalidad de comprender los fenómenos que ocurren a su alrededor y de generar nuevo conocimiento para transmitir los aprendizajes realizados tanto de forma oral, escrita, signada o multimodal.",
+      "La Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM) se adquiere, a partir del análisis, tanto de manera individual como colaborativa, de los procesos tecnológicos implicados en el desarrollo de la materia; de la aplicación de los métodos de observación e inducción propios del método científico; y de la propuesta y el desarrollo de soluciones a problemas y necesidades planteadas, evaluando los productos obtenidos y orientándolos hacia la responsabilidad y sostenibilidad.",
+      "Asimismo, se contribuye en el desarrollo de la Competencia digital (CD) con el uso de aplicaciones y herramientas de su entorno personal digital o plataformas virtuales para la búsqueda, la organización y el almacenamiento de información, la generación de nuevos contenidos, el uso de simuladores…, con la finalidad de idear y desarrollar soluciones a los problemas propuestos, adoptando criterios de seguridad, calidad y fiabilidad, y respetando la protección de datos y los derechos de autoría.",
+      "La Competencia personal, social y de aprender a aprender (CPSAA) se adquiere a partir del trabajo colaborativo y cooperativo que se fomenta en el alumnado con la búsqueda de objetivos que le permitan mejorar su proceso de aprendizaje, seleccionando fuentes de información fiables, validando y contrastando información, analizando procesos y adoptando un estilo de vida sostenible, orientado hacia la mejora tanto de su bienestar personal como de su entorno, y contribuyendo a la superación de los roles de género tradicionales.",
+      "La Competencia ciudadana (CC) se alcanza, a través del análisis y de la investigación del funcionamiento de dispositivos, y de cómo afectan estos al entorno y a la realidad social; y de la búsqueda de soluciones alternativas, sostenibles y respetuosas con el medioambiente al comprender las conexiones entre el uso de la energía, el bienestar económico y el bienestar social, y cómo cualquier mejora en estos campos debe estar supeditada a una política de conservación medioambiental, considerando que la energía más rentable en términos de coste medioambiental es aquella que no se consume y que, por tanto, se ahorra, con lo que se propicia que el alumnado desarrolle hábitos de vida saludables y ecosostenibles, acorde con los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "La Competencia emprendedora (CE) se desarrolla, al identificar sistemas de producción y gestión de energía poco eficientes y susceptibles de ser mejorados, lo que supone un punto de partida para proponer soluciones alternativas más eficaces y sostenibles, ya sea desde el punto de vista social como desde el medioambiental.",
+      "Bloques competenciales",
+      "El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los criterios de evaluación y la explicación del bloque competencial.",
+      "Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las explicaciones de los bloques competenciales, estas integran los aprendizajes recogidos en la totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de situaciones de aprendizaje competenciales. Es por ello que las explicaciones de los bloques competenciales se constituyen como los referentes más adecuados para la concreción curricular y la elaboración de la programación didáctica.",
+      "Competencias específicas y criterios de evaluación",
+      "En el currículo de Electrotecnia se han establecido cuatro competencias específicas que se concretan en un total de doce criterios de evaluación. Estos criterios de evaluación presentan una marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos del perfil de salida a los que contribuye la competencia específica, expresando tanto las capacidades y los saberes a adquirir, como el contexto y modo de aplicación de dichos aspectos.",
+      "La enunciación de la competencia específica se recoge en el bloque competencial correspondiente. A continuación, se ofrece una explicación de cada una de ellas.",
+      "Saberes básicos",
+      "Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y secuenciados, a continuación de los mismos.",
+      "Esta materia está organizada en torno a cuatro bloques de saberes básicos que constituyen un conjunto de conocimientos, destrezas y actitudes que permiten la formación integral del alumnado desde un punto de vista competencial. Aunque estos bloques de saberes no presentan una correspondencia unívoca con las competencias específicas, es cierto que, en algunos casos, se observa una estrecha relación entre ellos. En última instancia, corresponderá al equipo docente responsable de la impartición de la materia la distribución, de una forma coherente, de los saberes básicos en la programación de las situaciones de aprendizaje, que permitan su desarrollo competencial y que se adapten a las características específicas del alumnado y del contexto.",
+      "La organización de estos cuatro bloques de saberes queda como sigue: I. «Conceptos y fenómenos eléctricos básicos y medidas electrotécnicas», II. «Circuitos eléctricos en corriente alterna», III. «Máquinas eléctricas de corriente alterna» y IV. «Producción, almacenamiento y eficiencia energética».",
+      "El Bloque I, «Conceptos y fenómenos eléctricos básicos y medidas electrotécnicas», pretende que el alumnado reconozca las magnitudes básicas de la corriente eléctrica, a la vez que comprenda los conceptos de corriente continua y electrónica analógica básica, y se familiarice con la forma en que se miden las magnitudes eléctricas más importantes como voltaje, intensidad, resistencia, capacidad de un condensador y ganancia de un transistor, Mosfet… De la misma forma, se introducirá el cálculo de las distintas magnitudes de un circuito de corriente continua, utilizando las Leyes de Kirchoff, conociendo todos y cada uno de los elementos que lo conforman, ya sean pasivos o activos.",
+      "En el Bloque II, «Circuitos eléctricos en corriente alterna», se tratarán conocimientos relacionados con la corriente alterna y sus magnitudes representativas, como amplitud, fase, desfase, frecuencia, periodo, valor instantáneo, medio y eficaz. También se introducirá al alumnado en el estudio del efecto de la resistencia, de la capacitancia, de la impedancia y de su variación con la frecuencia, así como en el análisis de circuitos simples RLC.",
+      "El Bloque III, «Máquinas eléctricas de corriente alterna», permitirá al alumnado introducirse en el conocimiento de las máquinas eléctricas rotativas (motores y alternadores) y los transformadores eléctricos, elementos previos e indispensables para el transporte y la distribución de la electricidad una vez generada. Con este bloque de contenidos se pretende también que el alumnado identifique los motores trifásicos, sus conexiones y los tipos de arranque.",
+      "Finalmente, el Bloque IV, «Producción, almacenamiento y eficiencia energética», pretende que el alumnado conozca los sistemas de producción de energía eléctrica a partir de fuentes de energía renovables, haciendo hincapié en los sistemas utilizados en Canarias. Asimismo, se analizarán los métodos de transformación de la corriente continua, y su inyección a red en forma de corriente alterna, prestando especial atención a los equipos necesarios para la producción y el almacenamiento de este tipo de energías, su instalación y su puesta en marcha. Se introducirá también al alumnado en el análisis y el estudio de la viabilidad energética a través del etiquetado recogido en la normativa vigente.",
+      "Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos",
+      "Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia, dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.",
+      "El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice variedad de instrumentos, técnicas y herramientas de evaluación, en diferentes contextos, con soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del alumnado, a su ritmo de aprendizaje y a su forma de aprender.",
+      "La metodología empleada en la materia de Electrotecnia es activa, práctica y contextualizada, promoviendo en el alumnado la participación y la colaboración con el grupo, de manera que el alumnado sea agente activo de los procesos de enseñanza aprendizaje y el profesorado actúe como guía del mismo, aplicando estrategias relacionadas con el Aprendizaje Basado en Proyectos (ABP), prácticas, trabajos de investigación... Este enfoque competencial permite la integración de los saberes básicos en situaciones de aprendizaje interdisciplinares y contextualizadas en la realidad canaria, donde puede tomarse como punto de partida la diversa variedad de sistemas de producción energética que existen en la comunidad autónoma, condicionada por las características diferenciadoras de cada una de las islas, lo que favorece el desarrollo de las competencias específicas asociadas a los criterios de evaluación.",
+      "A través de diferentes estrategias de aprendizaje se dará respuesta a las características individuales del alumnado, a sus necesidades educativas específicas, a los condicionantes socioculturales..., teniendo en cuenta para ello los principios del Diseño Universal para el Aprendizaje (DUA) que favorecen la educación inclusiva. El uso de herramientas digitales, y el enfoque práctico y activo de esta materia permiten fomentar la curiosidad, la motivación, el interés y la autonomía del alumnado en la búsqueda y el análisis crítico de información para la generación de nuevos conocimientos, permitiendo los diferentes ritmos de aprendizaje, evitando cualquier tipo de discriminación por sexo, etnia…; el fomento de la creatividad, despertando en el alumnado las vocaciones científicas, especialmente entre las mujeres; y el desarrollo del espíritu crítico y emprendedor.",
+      "En cuanto a la evaluación, esta debe ser formativa e integradora, de manera que se tengan en cuenta los procesos de enseñanza y aprendizaje, facilitando la evaluación del grado de desarrollo y la adquisición de las competencias, a través del uso de técnicas de evaluación como la observación sistemática, el análisis de documentos, producciones...; de herramientas tanto para evaluar los criterios de evaluación como para valorar el nivel de adquisición de las competencias; y de instrumentos de evaluación que permitan evidenciar el desarrollo y la adquisición de los aprendizajes esperados y de sus competencias vinculadas. Estas técnicas, instrumentos y herramientas deben permitir una valoración objetiva, por lo que se tiene que garantizar su diversidad, capacidad diagnóstica y de mejora y, por supuesto, deben estar adaptados a las distintas situaciones de aprendizaje. Por último, también se valorará el proceso de coevaluación y autoevaluación del alumnado como una oportunidad para aprender, de modo que le permita reflexionar para valorar sus logros y dificultades, contribuyendo a la mejora de la autonomía del alumnado."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Comprender y analizar, cualitativa y cuantitativamente, el funcionamiento de los componentes activos y pasivos que constituyen los circuitos de corriente continua y aplicarlo a su diseño y construcción, utilizando sistemas digitales y operadores electrónicos adecuados, para dar respuesta a los problemas tecnológicos planteados, así como a la resolución de averías a partir de las mediciones de las magnitudes eléctricas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CD5",
+        "CPSAA1.1",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          107,
+          111
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica se relaciona con los aprendizajes vinculados al uso y a la aplicación de la corriente continua en sistemas que contienen componentes activos y pasivos, considerando el problema tecnológico como reto al que encontrar solución mediante el diseño y la construcción de circuitos eléctricos.",
+          "Con este propósito, esta competencia específica se concreta en tres criterios de evaluación. El primero de ellos hace referencia al conocimiento de los principios de funcionamiento de los componentes que constituyen los circuitos eléctricos de corriente continua y de su aplicación al diseño de sistemas que respondan a problemas tecnológicos concretos. El segundo de los criterios recoge el empleo de instrumentos de medida, usando la configuración adecuada para identificar averías y proponer soluciones. Finalmente, el criterio número tres hace referencia al desarrollo de las habilidades necesarias para la utilización de aplicaciones digitales que permitan diseñar circuitos; así como a las destrezas requeridas para el montaje en placas de prototipado y en circuitos impresos."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Comprender y comunicar, cualitativa y cuantitativamente, el funcionamiento de los circuitos de corriente alterna y aplicarlo a su diseño, utilizando sistemas digitales y operadores electrónicos adecuados, con la finalidad de dar respuesta a los problemas tecnológicos planteados, así como a la resolución de averías."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD3",
+        "CD5",
+        "CPSAA1.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          107,
+          112
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica aborda los aprendizajes relacionados con el conocimiento de los fundamentos básicos de la corriente alterna que permitan el diseño de circuitos y posibiliten la resolución de problemas tecnológicos y la detección de averías.",
+          "Para ello, esta competencia se concreta en tres criterios de evaluación. Los dos primeros persiguen el desarrollo por parte del alumnado de estrategias que faciliten la comprensión de los fundamentos de la corriente alterna, así como del conocimiento y cálculo de las magnitudes relacionadas que le permitan diseñar circuitos que respondan a los problemas planteados. El tercer criterio introduce al alumnado en el manejo de instrumentos de medida para obtener y comprobar las magnitudes calculadas, así como para detectar averías en caso de que estas se produzcan"
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar los distintos procedimientos de obtención de energía eléctrica, a partir de fuentes de energía renovables y no renovables, con la finalidad de conocer los distintos sistemas de producción, transformación, almacenamiento y vertido a la red de la energía producida, valorando el impacto ambiental generado y la necesidad de orientar el sistema de producción hacia procesos que fomenten la sostenibilidad y el respeto por el medioambiente."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CD5",
+        "CPSAA1.1",
+        "CPSAA2",
+        "CPSAA3.2",
+        "CC4",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          107,
+          108,
+          113,
+          114
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica hace referencia a la capacidad del alumnado para analizar y comprender los procedimientos empleados en la producción de energía eléctrica, a través del uso de fuentes de energía renovables y no renovables, analizando los dispositivos utilizados tanto para la generación como para el vertido a la red. Además, está orientada a que el alumnado desarrolle la capacidad para comparar y valorar los distintos sistemas de producción, con la finalidad de favorecer hábitos de consumo responsable, sostenibles y respetuosos con el medioambiente.",
+          "Esta competencia comprende tres criterios de evaluación, de manera que el primero hace referencia al estudio y análisis de las máquinas utilizadas para la producción, la transformación y el vertido de la energía eléctrica a la red a través del empleo de simuladores o de aplicaciones prácticas, lo que permite, a la vez, al alumnado desarrollar y adquirir estrategias para analizar los diferentes sistemas de producción, comparar los efectos ambientales generados tanto por su producción como por su consumo, y establecer hábitos de vida saludables. El segundo criterio está orientado hacia la valoración del uso de fuentes de energía renovables en Canarias. Por último, el tercer criterio se centra en el estudio específico de los esquemas de instalación para el aprovechamiento de las fuentes de energía fotovoltaica y eólica."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Elaborar y comunicar informes y manuales, de manera colaborativa, que incorporen referencias a la eficiencia energética y sostenibilidad de los productos diseñados, haciendo uso de las herramientas digitales adecuadas, con la finalidad de difundir las características técnicas de los productos generados y de desarrollar estrategias de ahorro y eficiencia energética extrapolables a otros contextos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CPSAA1.1",
+        "CPSAA3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "boc-2025-112-decreto-78-2025",
+        "paginas": [
+          108,
+          115
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica hace referencia a la capacidad del alumnado para elaborar y presentar documentación, utilizando herramientas digitales de forma colaborativa, incorporando parámetros de sostenibilidad y ahorro energético, haciendo uso de la tecnología adecuada e identificando el etiquetado de eficiencia energética acorde con la normativa.",
+          "Así, esta competencia se concreta en tres criterios de evaluación, donde los dos primeros están orientados hacia el diseño y la elaboración de informes y manuales de características de los productos elaborados, y el tercero se relaciona con la eficiencia energética tanto en los dispositivos como en las edificaciones."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Describir cualitativa y cuantitativamente, haciendo uso de los recursos matemáticos necesarios, el funcionamiento de los componentes activos y pasivos en circuitos eléctricos de corriente continua, señalando las relaciones, las interacciones y los fenómenos derivados, comparando los datos obtenidos con la información disponible en los sitios web de los fabricantes, para su aplicación en el diseño y montaje de circuitos que den solución a problemas tecnológicos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "STEM5",
+            "CPSAA5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              111
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer y seleccionar los aparatos de medida aptos para mediciones de señales de corriente continua, seleccionando la escalas correctas para cada variable, con la finalidad de comprobar y obtener los valores de las distintas magnitudes y detectar averías, comunicando los fenómenos derivados del funcionamiento defectuoso."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "STEM5",
+            "CD1",
+            "CPSAA5"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              111
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Diseñar, haciendo uso de herramientas digitales de simulación adecuadas, circuitos eléctricos sencillos de corriente continua, que permitan dar solución a los retos tecnológicos planteados, con la finalidad de implementarlos, empleando placas de prototipado (protoboard) y de circuito impreso (PCB)."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "CD2",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              111
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Calcular, simular y comprender los efectos de las magnitudes presentes en los circuitos de corriente alterna, utilizando teorías, principios y leyes, así como aplicaciones de simulación, con la finalidad de solucionar problemas tecnológicos planteados o averías de circuitos."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "STEM5",
+            "CD3",
+            "CD5",
+            "CPSAA1.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              112
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver problemas prácticos de corriente alterna monofásica mediante el empleo de esquemas de circuitos y el desarrollo matemático de teorías, principios y leyes correspondientes, para calcular correctamente protecciones y secciones de conductores, y realizar conversiones o adaptaciones de voltaje."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "STEM5",
+            "CPSAA1.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              112
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer y seleccionar los aparatos de medida aptos para señales de corriente alterna, seleccionando la escalas correctas para cada variable, con la finalidad de detectar averías, y comprobar y obtener los valores de las distintas magnitudes."
+          },
+          "descriptoresOperativosRefs": [
+            "STEM2",
+            "STEM4",
+            "CPSAA1.1"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              112
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar los sistemas de producción de la energía eléctrica, a partir del estudio de los dispositivos necesarios para su transformación, como son las máquinas eléctricas rotativas, motores, alternadores y transformadores, mediante el uso de simulaciones o de aplicaciones prácticas, con la finalidad de comparar la eficiencia y el impacto ambiental generado por los diferentes sistemas."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM5",
+            "CD1",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA2",
+            "CPSAA3.2",
+            "CC4",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Valorar el uso de las energías renovables en Canarias como alternativa al empleo de combustibles fósiles, a través de estudios comparativos, para establecer hábitos de consumo responsable."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "STEM5",
+            "CPSAA1.1",
+            "CPSAA2",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer y analizar los esquemas de instalación, almacenamiento y vertido de energía a la red eléctrica, a partir del empleo de catálogos de fabricantes, con la finalidad de comprender la función de los componentes de una instalación fotovoltaica y de aerogeneración."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "STEM5",
+            "CPSAA1.1",
+            "CPSAA2",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar y redactar, haciendo uso de las herramientas digitales adecuadas, un manual de características, uso y especificaciones técnicas del producto o dispositivo creado."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "CD2",
+            "CD3",
+            "CD4",
+            "CPSAA1.1",
+            "CPSAA3.2"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              115
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Elaborar y comunicar informes, de manera colaborativa y cooperativa, mediante el empleo de las herramientas digitales adecuadas, con la finalidad de promocionar, difundir y mostrar la viabilidad económica del producto planteado."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "CD2",
+            "CD3",
+            "CD4",
+            "CPSAA1.1",
+            "CPSAA3.2",
+            "CE1",
+            "CE3"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              115
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Comprender y conocer la eficiencia energética y el etiquetado de calificación energética mediante el análisis de la normativa vigente, con la finalidad de valorar la importancia de utilizar estrategias de ahorro energético tanto en la elección de los dispositivos como en las edificaciones."
+          },
+          "descriptoresOperativosRefs": [
+            "CCL2",
+            "STEM2",
+            "STEM4",
+            "STEM5",
+            "CPSAA1.1",
+            "CPSAA2",
+            "CC4"
+          ],
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              115
+            ]
+          }
+        }
+      ],
+      "bloquesCompetenciales": [
+        {
+          "competenciaEspecificaRef": "ce-1",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM3",
+            "STEM4",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende comprobar que el alumnado conoce los principios de funcionamiento y las magnitudes asociadas a los distintos componentes activos y pasivos de los sistemas eléctricos de corriente continua, así como los distintos métodos de resolución de circuitos para determinar los parámetros del mismo. Se verificará también que es capaz de emplear herramientas digitales adecuadas para diseñar un circuito de corriente continua sencillo que dé respuesta a un problema tecnológico planteado, y de implementarlo mediante el empleo de placas de prototipado y circuitos impresos. Al mismo tiempo, se comprobará que es capaz de medir las magnitudes eléctricas en los componentes del circuito mediante la aplicación de la escala adecuada en el aparato de medida y de compararlas con el funcionamiento esperado en función de las hojas características que se hallan disponibles en los sitios web de los fabricantes, para, de este modo, localizar averías y hacer propuestas para su reparación."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              111
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-2",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "STEM5",
+            "CD3",
+            "CD5",
+            "CPSAA1.1"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial, se persigue constatar que el alumnado comprende los fundamentos básicos de la corriente alterna, e identifica y calcula valores de magnitudes representativas, como amplitud, fase, resistencia, inductancia, reactancia, factores de potencia…; a la vez que utiliza aplicaciones digitales de simulación para la representación de circuitos característicos y analiza los sistemas de seguridad asociados. Asimismo, debe ser capaz, tanto de manera individual como colaborativa, de identificar y utilizar instrumentos de medida aptos para corriente alterna, seleccionando la escala correcta, con la finalidad de detectar averías y de obtener valores de magnitudes, como tensión, resistencia, impedancia..."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              112,
+              113
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-3",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA",
+            "CC",
+            "CE"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "STEM1",
+            "STEM2",
+            "STEM4",
+            "STEM5",
+            "CD1",
+            "CD5",
+            "CPSAA1.1",
+            "CPSAA2",
+            "CPSAA3.2",
+            "CC4",
+            "CE3"
+          ],
+          "explicacion": {
+            "es": [
+              "Con este bloque competencial se constatará que el alumnado es capaz de comprender los principios básicos de funcionamiento de las máquinas utilizadas en la producción de energía eléctrica, haciendo uso de simuladores y de aplicaciones prácticas que posibiliten, de manera colaborativa, experimentar en un entorno real. Asimismo, se valorará su capacidad para analizar los diferentes sistemas de producción, transformación, almacenamiento y vertido a la red de la energía eléctrica obtenida, a partir de fuentes de energía renovables y no renovables, valorando la necesidad de orientar los sistemas de producción hacia un modelo energético sostenible y respetuoso con el medioambiente, especialmente, en Canarias."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              114
+            ]
+          }
+        },
+        {
+          "competenciaEspecificaRef": "ce-4",
+          "competenciasClaveRefs": [
+            "CCL",
+            "STEM",
+            "CD",
+            "CPSAA"
+          ],
+          "descriptoresOperativosRefs": [
+            "CCL1",
+            "CCL2",
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "CD2",
+            "CD3",
+            "CD4",
+            "CPSAA1.1",
+            "CPSAA3.2"
+          ],
+          "explicacion": {
+            "es": [
+              "A través de este bloque competencial se pretende comprobar si el alumnado es capaz de elaborar, de manera colaborativa y haciendo uso de las aplicaciones digitales adecuadas, los documentos que describan el uso, la viabilidad y la finalidad de un determinado dispositivo eléctrico o electrónico diseñado por el equipo de trabajo y de desarrollar las estrategias adecuadas para su comunicación, presentación y difusión. Asimismo, en la elaboración de dicha documentación se debe considerar el impacto medioambiental del producto, e incluir una propuesta justificada de calificación energética conforme a la normativa vigente y que pueda ser considerada en el estudio y la elección de otros productos de consumo eléctrico, así como en las edificaciones."
+            ]
+          },
+          "procedencia": {
+            "fuenteRef": "boc-2025-112-decreto-78-2025",
+            "paginas": [
+              115
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Conceptos y fenómenos eléctricos básicos y medidas electrotécnicas"
+          },
+          "saberes": [
+            {
+              "id": "ELE.2.A.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación de corriente continua y medición de magnitudes relacionadas en conductores óhmicos (capacidad, diferencia de potencial, fuerza electromotriz, intensidad y densidad de corriente…)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.A.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Aplicación de semiconductores, diodos, transistores, tiristores, mosfet, diacs y triacs en circuitos eléctricos de corriente continua; y análisis y estudio de sus valores característicos y comprobación de parámetros."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.A.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Aplicaciones de la carga y descarga de un condensador (temporización, filtrado de señales...)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.A.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Resolución de circuitos sencillos de corriente continua utilizando los procedimientos de Maxwell o Kirchhoff."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.A.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Uso de instrumentos de medida para circuitos y aplicación de técnicas de medida en corriente continua."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.A.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Montaje e integración de componentes activos y pasivos en un circuito eléctrico de corriente continua."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.A.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Diseño de circuitos impresos (PCB) mediante el uso de aplicaciones digitales específicas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.A.8",
+              "codigoOficial": null,
+              "numeracionFuente": "8",
+              "texto": {
+                "es": "Detección y caracterización de averías en circuitos de corriente continua."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Circuitos eléctricos en corriente alterna"
+          },
+          "saberes": [
+            {
+              "id": "ELE.2.B.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Identificación de características y magnitudes de la corriente alterna (amplitud, fase y desfase, frecuencia, periodo, valor instantáneo, medio y eficaz...)."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.B.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Estudio de los efectos de la resistencia, autoinducción y capacidad en la corriente alterna."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.B.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Análisis de los conceptos de reactancia e impedancia: sus aplicaciones prácticas; y estudio de la variación de la impedancia con la frecuencia y representación gráfica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.B.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Análisis de circuitos monofásicos de corriente alterna; y resolución de circuitos simples."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.B.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Cálculo de potencia, factores de potencia, corrección y representación gráfica en circuitos de corriente alterna monofásica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.B.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Medición de magnitudes y detección de averías en corriente alterna."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.B.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Análisis de los sistemas de seguridad en instalaciones eléctricas, elementos constituyentes y sus conexiones."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Máquinas eléctricas de corriente alterna"
+          },
+          "saberes": [
+            {
+              "id": "ELE.2.C.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Estudio de máquinas rotativas de corriente alterna monofásica: funcionamiento, tipos, conexionados, rendimientos y ejemplos de aplicación."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.C.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis de transformadores, tipos, funcionamiento, pérdidas y rendimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.C.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Identificación de motores trifásicos, conexionados y tipos de arranque."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Producción, almacenamiento y eficiencia energética"
+          },
+          "saberes": [
+            {
+              "id": "ELE.2.D.1",
+              "codigoOficial": null,
+              "numeracionFuente": "1",
+              "texto": {
+                "es": "Aprovechamiento y valoración del uso de energías renovables y no renovables en Canarias."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.D.2",
+              "codigoOficial": null,
+              "numeracionFuente": "2",
+              "texto": {
+                "es": "Análisis de los métodos de producción de energía eléctrica en instalaciones fotovoltaicas, esquemas de conexionado y equipos necesarios."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.D.3",
+              "codigoOficial": null,
+              "numeracionFuente": "3",
+              "texto": {
+                "es": "Análisis de los métodos de producción de energía eléctrica en instalaciones eólicas, esquemas de conexionado y equipos necesarios."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  116
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.D.4",
+              "codigoOficial": null,
+              "numeracionFuente": "4",
+              "texto": {
+                "es": "Estudio de otros tipos de producción de energía eléctrica: geotérmica, mareomotriz, undimotriz, hidrocinética..."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.D.5",
+              "codigoOficial": null,
+              "numeracionFuente": "5",
+              "texto": {
+                "es": "Análisis de las formas de consumo de energía: autoconsumo, plantas industriales y comunidades energéticas."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.D.6",
+              "codigoOficial": null,
+              "numeracionFuente": "6",
+              "texto": {
+                "es": "Estudio de los equipos de almacenamiento de energía eléctrica."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            },
+            {
+              "id": "ELE.2.D.7",
+              "codigoOficial": null,
+              "numeracionFuente": "7",
+              "texto": {
+                "es": "Análisis de las implicaciones de la clasificación y calificación energética para edificios y dispositivos eléctricos y electrónicos."
+              },
+              "procedencia": {
+                "fuenteRef": "boc-2025-112-decreto-78-2025",
+                "paginas": [
+                  117
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-03",
+    "metodo": "Extracción estructurada del ODT institucional y cotejo con el PDF publicado en el BOC.",
+    "notas": [
+      "Las abreviaturas de materia y los códigos individuales de saberes son internos del proyecto. numeracionFuente conserva la numeración local impresa.",
+      "Cada versión de una competencia cuyo enunciado cambia entre I y II conserva un id interno distinto y el mismo codigoOficial; las referencias de criterios y bloques identifican la versión del curso.",
+      "El Decreto 78/2025 entra en vigor el 10 de junio de 2025 y no fija un calendario de implantación por curso escolar; aplicableDesdeCurso queda en null."
+    ]
+  }
+}
