@@ -2,7 +2,7 @@
 
 Corpus de partida para convertir a JSON los currículos LOMLOE de las cinco etapas del proyecto. Recopilación: 3 de noviembre de 2026. Los 14 PDF se conservan íntegros, sin editar ni recomprimir, tal como los sirve el Boletín Oficial de Cantabria.
 
-El [catálogo](catalogo.json) conserva el título completo, la URL oficial, la fecha de publicación, el CVE, las páginas y la huella SHA-256 de cada archivo. El [inventario inicial](../inventario.json) localiza 99 currículos candidatos; agrupa las versiones I y II y distingue los dos ámbitos de Diversificación cuya representación queda por definir.
+El [catálogo](catalogo.json) conserva el título completo, la URL oficial, la fecha de publicación, el CVE, las páginas y la huella SHA-256 de cada archivo. El [inventario actualizado](../inventario.json) localiza 101 currículos candidatos. Se agrupan versiones con competencias comunes y se separan las de Cultura Clásica y Conflictos Morales; los dos ámbitos de Diversificación se documentan por remisión.
 
 ## Documentos archivados
 
@@ -35,11 +35,11 @@ El [catálogo](catalogo.json) conserva el título completo, la URL oficial, la f
 
 ### Optativas de ESO y fuentes repetidas
 
-La publicación inicial de la Orden EDU/40/2022 omitió su anexo II. La corrección del BOC de 23 de agosto de 2022 publica íntegramente ese anexo: es una fuente curricular imprescindible. Segunda Lengua Extranjera aparece tanto en el decreto como en la corrección; se cotejarán las dos publicaciones y se generará un único currículo.
+La publicación inicial de la Orden EDU/40/2022 omitió su anexo II. La corrección del BOC de 23 de agosto de 2022 publica íntegramente ese anexo: es una fuente curricular imprescindible. Segunda Lengua Extranjera aparece tanto en el decreto como en la corrección y sus desarrollos difieren. Por decisión confirmada del usuario, el JSON utiliza una única base, el decreto, y conserva ambas fuentes enlazadas; la [comparación específica](../COMPARACION-SEGUNDA-LENGUA-EXTRANJERA.md) detalla las diferencias.
 
 ### Diversificación
 
-La Orden EDU/41/2022 organiza los ámbitos Lingüístico y Social y Científico-Tecnológico. Su artículo 5.4, página 3, remite al currículo de las materias que los integran según el anexo I-A del Decreto 73/2022. No publica un desarrollo independiente de competencias, criterios y saberes de cada ámbito. El inventario reserva dos entradas diferenciadas para decidir su representación al abordar ESO.
+La Orden EDU/41/2022 organiza los ámbitos Lingüístico y Social y Científico-Tecnológico. Su artículo 5.4, página 3, remite al currículo de las materias que los integran según el anexo I-A del Decreto 73/2022. No publica un desarrollo independiente de competencias, criterios y saberes de cada ámbito. Se han creado dos [fichas por remisión](../../../data/es-cb/eso/ambitos-por-remision.json) con materias base, condiciones e incorporaciones opcionales. No se atribuyen competencias o saberes autónomos a los ámbitos.
 
 ### ESPADE y modificaciones posteriores
 
@@ -53,9 +53,9 @@ El alcance actual comprende Ciencias Aplicadas y Comunicación y Ciencias Social
 
 ## Estado y seguimiento
 
-Las tres áreas de Infantil están extraídas y cotejadas en JSON, con desarrollos de ambos ciclos. Suman 12 competencias, 82 criterios y 184 saberes. Los tres documentos están revisados; sus siete decisiones están confirmadas por el usuario. Primaria tiene siete áreas extraídas, cotejadas y revisadas: 46 competencias, 302 criterios y 641 saberes. Sus quince decisiones de incidencias/es-cb.md están confirmadas: se conserva el texto publicado en CB-PRIM-001 y se confirman las otras catorce correcciones. Valores se representa en 5.º según el artículo 17.2; las otras seis áreas conservan sus tres ciclos. ESO, Bachillerato y CFGB mantienen el estado de fuentes recopiladas. Los identificadores internos se distinguen de los códigos oficiales y los textos conservan su procedencia.
+Las tres áreas de Infantil están extraídas y cotejadas en JSON, con desarrollos de ambos ciclos. Suman 12 competencias, 82 criterios y 184 saberes. Los tres documentos están revisados; sus siete decisiones están confirmadas por el usuario. Primaria tiene siete áreas extraídas, cotejadas y revisadas: 46 competencias, 302 criterios y 641 saberes. Sus quince decisiones de incidencias/es-cb.md están confirmadas: se conserva el texto publicado en CB-PRIM-001 y se confirman las otras catorce correcciones. Valores se representa en 5.º según el artículo 17.2; las otras seis áreas conservan sus tres ciclos. ESO tiene 37 JSON extraídos, cotejados y revisados, con 223 competencias, 71 desarrollos, 1.295 criterios y 2.334 saberes contando su representación por curso. Sus 41 decisiones están confirmadas y aplicadas. Se han documentado además dos fichas de Diversificación por remisión. Bachillerato y CFGB mantienen el estado de fuentes recopiladas. Los identificadores internos se distinguen de los códigos oficiales y los textos conservan su procedencia.
 
 - [Checklist general](../../../CHECKLIST.md#cantabria)
 - [Registro de incidencias de Cantabria](../../../incidencias/es-cb.md)
 
-Los informes de [Infantil](../REVISION-INFANTIL.md) y [Primaria](../REVISION-PRIMARIA.md) detallan la cobertura, las decisiones de representación y la reproducción del cotejo independiente.
+Los informes de [Infantil](../REVISION-INFANTIL.md), [Primaria](../REVISION-PRIMARIA.md) y [ESO](../REVISION-ESO.md) detallan la cobertura, las decisiones de representación y la reproducción del cotejo independiente.

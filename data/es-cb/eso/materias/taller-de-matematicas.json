@@ -1,0 +1,2537 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.eso.taller-de-matematicas",
+  "territorio": "es-cb",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "TM",
+    "nombre": {
+      "es": "Taller de Matemáticas"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      },
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-correccion-orden-edu-40-2022",
+      "tipo": "otro",
+      "titulo": "Corrección de errores de la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "162",
+      "fechaPublicacion": "2022-08-23",
+      "cve": "CVE-2022-6440",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "paginasMateria": {
+        "desde": 98,
+        "hasta": 109
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-eso-orden-edu-40-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6238",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006"
+    },
+    {
+      "id": "es-cb-eso-bachillerato-orden-edu-36-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/36/2024, de 18 de julio, que modifica la Orden ECD/78/2018, de 26 de junio, que regula el programa ESPADE (ESPecial Atención al DEporte), para la conciliación de estudios y entrenamiento deportivo de alumnos que cursan Educación Secundaria Obligatoria y Bachillerato, así como el acceso a dicho programa en el ámbito de gestión de la Consejería de Educación, Cultura y Deporte del Gobierno de Cantabria, y la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "145",
+      "fechaPublicacion": "2024-07-29",
+      "cve": "CVE-2024-6130",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "paginasMateria": {
+        "desde": 17,
+        "hasta": 18
+      },
+      "anexo": "III"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Las matemáticas se encuentran en cualquier actividad humana, desde el trabajo científico hasta las expresiones culturales y artísticas, formando por tanto parte del acervo cultural de nuestra sociedad. El dominio del espacio y del tiempo, la organización y optimización de recursos, formas y proporciones, la capacidad de previsión y control de la incertidumbre o el uso correcto de la tecnología digital son características de las matemáticas, pero también el razonamiento, la argumentación, la comunicación, la perseverancia, la toma de decisiones o la creatividad. Así pues, resulta importante desarrollar en el alumnado los aspectos básicos de las matemáticas que le permitan desenvolverse satisfactoriamente tanto en contextos personales, académicos y científicos como sociales y laborales.",
+      "El desarrollo curricular del Taller de Matemáticas se centra no tanto en el trabajo de un amplio número de contenidos matemáticos como en la profundización de aquellos más necesarios para proseguir el aprendizaje de las matemáticas. De ahí el carácter flexible y adaptable a cada situación concreta, resaltando la importancia de fomentar la autoestima del alumnado y primando los aspectos más funcionales de las matemáticas, apoyando a las materias de Matemáticas de primero y de segundo en la adquisición de las competencias clave.",
+      "En esta materia es fundamental que la actividad matemática se inspire en la idea de que es el alumnado quien va construyendo, modificando y enriqueciendo sus conceptos y técnicas. En este sentido, es necesario iniciar todo proceso de enseñanza-aprendizaje partiendo de los conocimientos previos que los alumnos ya poseen sobre el tema objeto de estudio, organizar las tareas de manera que permitan su adaptación a los conocimientos previos del alumnado y sustentar el proceso de enseñanza-aprendizaje en el trabajo autónomo del alumnado de modo individual y en equipo, con el apoyo y orientación del profesorado. Además, la utilización de la tecnología adecuada cobra especial relevancia en el taller.",
+      "Como en la materia de Matemáticas, las competencias específicas se relacionan entre sí y han sido agrupadas en torno a cinco bloques competenciales según su naturaleza: resolución de problemas, razonamiento y prueba, conexiones, comunicación y representación y socioemocional.",
+      "La adquisición de las competencias específicas se evaluará a través de los criterios de evaluación de cada curso. Acompañando a estos criterios se han seleccionado y reelaborado de la materia de Matemáticas un conjunto de saberes matemáticos agrupados en sentidos como conjuntos de destrezas relacionadas con los diferentes ámbitos de las matemáticas: numérico, medida, algebraico y pensamiento computacional, espacial, estocástico y socioemocional.",
+      "Tanto las competencias específicas, los criterios de evaluación como los saberes básicos están diseñados para constituir un todo que facilite tomar como punto de partida el nivel de desarrollo del alumnado y de sus aprendizajes previos implicando al mismo en el proceso de aprendizaje, haciendo que se sienta protagonista de dicho proceso viendo la materia como algo próximo y cercano a través de situaciones relacionadas con la vida cotidiana."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas aplicando diferentes estrategias y formas de razonamiento para explorar distintas maneras de proceder y obtener soluciones posibles."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          98,
+          99
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La resolución de problemas constituye un eje fundamental en el aprendizaje de las matemáticas, ya que es un proceso central en la construcción del conocimiento matemático. Tanto los problemas de la vida cotidiana en diferentes contextos como los problemas propuestos en el ámbito de las matemáticas permiten ser catalizadores de nuevo conocimiento, ya que las reflexiones que se realizan durante su resolución ayudan a la construcción de conceptos y al establecimiento de conexiones entre ellos.",
+          "El desarrollo de esta competencia conlleva aplicar el conocimiento matemático que el alumnado posee en el contexto de la resolución de problemas. Para ello es necesario proporcionar herramientas de interpretación y modelización como diagramas, expresiones simbólicas, gráficas…, técnicas y estrategias de resolución de problemas como la analogía con otros problemas, estimación, ensayo y error, resolverlo de manera inversa, desde el final hasta el principio, tanteo, descomposición en problemas más sencillos..., que les permitan tomar decisiones, anticipar la respuesta, asumir riesgos y aceptar el error como parte del proceso."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando las respuestas obtenidas, para verificar su validez e idoneidad desde un punto de vista lógico y su repercusión global."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CPSAA4",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          99
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El análisis de las soluciones obtenidas en la resolución de un problema potencia la reflexión crítica sobre su validez, tanto desde un punto de vista estrictamente matemático como desde una perspectiva global, valorando aspectos relacionados con la sostenibilidad, el consumo responsable, la equidad o la no discriminación entre otros. El razonamiento científico y matemático serán las herramientas principales para realizar esa validación, pero también lo son la lectura atenta, la realización de preguntas adecuadas, la elección de estrategias para verificar la pertinencia de las soluciones obtenidas según la situación planteada, la conciencia sobre los propios progresos y la autoevaluación.",
+          "El desarrollo de esta competencia conlleva procesos reflexivos propios de la metacognición como la auto y coevaluación, la utilización de estrategias sencillas de aprendizaje autorregulado, uso eficaz de herramientas digitales como calculadoras u hojas de cálculo, la verbalización o explicación del proceso y la selección entre diferentes métodos de comprobación de soluciones o de estrategias para validar las soluciones y su alcance."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Plantear situaciones susceptibles de ser abordadas en términos matemáticos y hacerse preguntas sobre ellas, relacionando diferentes saberes conocidos y proporcionando una representación matemática adecuada, para potenciar la adquisición de los conceptos, las estrategias y la manera de hacer de las matemáticas."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD2",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          99
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El planteamiento de problemas es un componente importante en el aprendizaje y enseñanza de las matemáticas y se considera una parte esencial del quehacer matemático. El planteamiento de problemas implica la generación de nuevos problemas y preguntas destinadas a explorar una situación determinada, así como la reformulación de un problema durante el proceso de resolución del mismo.",
+          "El desarrollo de esta competencia puede fomentar un pensamiento más diverso y flexible, mejorar la capacidad del alumnado para resolver problemas en diversos contextos, ampliar su percepción de las matemáticas, enriquecer y consolidar los conceptos básicos y ejercitar diferentes destrezas. Cuando el alumnado plantea problemas mejora el razonamiento y la reflexión al tiempo que construye su propio conocimiento traduciéndose en un alto nivel de compromiso y curiosidad, así como de entusiasmo hacia el proceso de aprendizaje de las matemáticas."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Formular y comprobar conjeturas sencillas de forma autónoma, reconociendo el valor del razonamiento y la argumentación para generar nuevo conocimiento."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          100
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El razonamiento y el pensamiento analítico incrementan la percepción de patrones, estructuras y regularidades tanto en situaciones del mundo real como abstractas favoreciendo la formulación de conjeturas sobre su naturaleza. La formulación y comprobación de las conjeturas se puede realizar por medio de materiales manipulativos, calculadoras, software, representaciones y símbolos, trabajando de forma individual o colectiva la utilización del razonamiento inductivo y deductivo para formular argumentos matemáticos.",
+          "El desarrollo de esta competencia conlleva formular conjeturas, examinar su validez y reformularlas para obtener nuevas conjeturas susceptibles de ser puestas a prueba promoviendo el uso del razonamiento y la demostración como aspectos fundamentales de las matemáticas."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Utilizar los principios del pensamiento computacional organizando datos, descomponiendo en partes, reconociendo patrones, interpretando, modificando, generalizando y creando algoritmos para modelizar situaciones y resolver problemas de forma eficaz."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          100
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El pensamiento computacional entronca directamente con la resolución de problemas y el planteamiento de procedimientos, utilizando la abstracción para identificar los aspectos más relevantes, y la descomposición en tareas más simples con el objetivo de llegar a una solución del problema que pueda ser ejecutada por un sistema informático. Llevar el pensamiento computacional a la vida diaria supone relacionar los aspectos fundamentales de la informática con las necesidades del alumnado.",
+          "El desarrollo de esta competencia conlleva la creación de modelos abstractos de situaciones cotidianas, su automatización y modelización y la codificación en un lenguaje fácil de interpretar por un sistema informático."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Reconocer y utilizar conexiones entre los diferentes elementos matemáticos interconectando conceptos y procedimientos para desarrollar una visión de las matemáticas como un todo integrado."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          100
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La conexión entre los diferentes conceptos, procedimientos e ideas matemáticas aporta una compresión más profunda y duradera de los conocimientos adquiridos, proporcionando una visión más amplia sobre el propio conocimiento. Percibir las matemáticas como un todo implica estudiar sus conexiones internas y reflexionar sobre ellas, tanto las existentes entre los bloques de saberes, entre las matemáticas de un nivel o las de diferentes etapas educativas.",
+          "El desarrollo de esta competencia conlleva enlazar las nuevas ideas matemáticas con ideas previas, reconocer y utilizar las conexiones entre ideas matemáticas en la resolución de problemas y comprender cómo unas ideas se construyen sobre otras para formar un todo integrado."
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Identificar las matemáticas implicadas en otras materias y en situaciones reales, interrelacionando conceptos y procedimientos para aplicarlos en situaciones diversas."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "CD1",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          100,
+          101
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Reconocer y utilizar la conexión de las matemáticas con otras materias, con la vida real o con la propia experiencia aumenta el bagaje matemático del alumnado. Es importante que el alumnado tenga la oportunidad de experimentar matemáticas en diferentes contextos (personal, escolar, social, científico y humanístico), valorando, tanto histórica como actualmente, la contribución de las matemáticas a la resolución de los grandes objetivos globales de desarrollo.",
+          "La conexión entre las matemáticas y otras materias no debería limitarse a los saberes conceptuales, sino que debe ampliarse a los procedimientos y las actitudes, de forma que los procedimientos y actitudes matemáticos pueden ser transferidos y aplicados a otras materias y contextos. Así, el desarrollo de esta competencia conlleva el establecimiento de conexiones entre ideas, conceptos y procedimientos matemáticos con otras materias y con la vida real y su aplicación en la resolución de problemas en situaciones diversas."
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Representar, de forma individual y colectiva, conceptos, procedimientos y resultados matemáticos usando diferentes tecnologías, para visualizar ideas y estructurar procesos matemáticos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM3",
+        "CD2",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          101
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La forma de representar ideas, conceptos y procedimientos en matemáticas es fundamental. La representación incluye dos facetas, la representación propiamente dicha de un resultado o concepto y la representación de los procesos que se realizan durante la práctica de las matemáticas.",
+          "El desarrollo de esta competencia conlleva la adquisición de un conjunto de representaciones matemáticas que amplían significativamente la capacidad para interpretar y resolver problemas de la vida real."
+        ]
+      }
+    },
+    {
+      "id": "ce-9",
+      "codigoOficial": "9",
+      "enunciado": {
+        "es": "Comunicar de forma individual y colectiva conceptos, procedimientos y argumentos matemáticos usando lenguaje oral, escrito o gráfico, utilizando la terminología matemática apropiada, para dar significado y coherencia a las ideas matemáticas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM4",
+        "CD2",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          101
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La comunicación y el intercambio de ideas es una parte esencial de la educación científica y matemática. A través de la comunicación las ideas se convierten en objetos de reflexión, perfeccionamiento, discusión y rectificación. Comunicar ideas, conceptos y procesos contribuye a colaborar, cooperar, afianzar y generar nuevos conocimientos.",
+          "El desarrollo de esta competencia conlleva expresar hechos, ideas, conceptos y procedimientos verbal y gráficamente, de forma veraz y precisa utilizando la terminología matemática adecuada, dar significado y permanencia a las ideas y a hacerlas públicas."
+        ]
+      }
+    },
+    {
+      "id": "ce-10",
+      "codigoOficial": "10",
+      "enunciado": {
+        "es": "Desarrollar destrezas personales, identificando y gestionando emociones, poniendo en práctica estrategias de aceptación del error como parte del proceso de aprendizaje y adaptándose ante situaciones de incertidumbre, para mejorar la perseverancia en la consecución de objetivos y el disfrute en el aprendizaje de las matemáticas."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM5",
+        "CPSAA1",
+        "CPSAA4",
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          101
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Resolver problemas matemáticos o retos más globales en los que intervienen las matemáticas debe ser una tarea gratificante. Las destrezas emocionales dentro del aprendizaje de las matemáticas fomentan el bienestar del alumnado, la regulación emocional y el interés por su aprendizaje.",
+          "El desarrollo de esta competencia conlleva identificar y gestionar las emociones, reconocer fuentes de estrés, ser perseverante, pensar de forma crítica y creativa, crear resiliencia y mantener una actitud proactiva ante nuevos retos matemáticos."
+        ]
+      }
+    },
+    {
+      "id": "ce-11",
+      "codigoOficial": "11",
+      "enunciado": {
+        "es": "Desarrollar destrezas sociales reconociendo y respetando las emociones y experiencias de los demás, participando activa y reflexivamente en proyectos en grupos heterogéneos con roles asignados para construir una identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y crear relaciones saludables."
+      },
+      "descriptoresOperativosRefs": [
+        "CP3",
+        "STEM3",
+        "CPSAA1",
+        "CPSAA3",
+        "CC2",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          101,
+          102
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Trabajar los valores de respeto, tolerancia, igualdad o resolución pacífica de conflictos, al tiempo que resuelven retos matemáticos desarrollando destrezas de comunicación efectiva, planificación, indagación, motivación y confianza, para crear relaciones y entornos de trabajo saludables, permite afianzar la autoconfianza y normalizar situaciones de convivencia en igualdad.",
+          "El desarrollo de esta competencia conlleva mostrar empatía por los demás, establecer y mantener relaciones positivas, ejercitar la escucha activa y la comunicación asertiva, trabajar en equipo y tomar decisiones responsables. Asimismo, debe fomentarse la ruptura de estereotipos e ideas preconcebidas sobre las matemáticas asociadas a cuestiones individuales, como por ejemplo el género o la aptitud para las matemáticas."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reformular, de forma verbal y gráfica, problemas de la vida cotidiana, comprendiendo las preguntas planteadas a través de diferentes estrategias o herramientas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Elaborar representaciones matemáticas que ayuden en la búsqueda de estrategias para la resolución de una situación problematizada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-1-2"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar entre diferentes estrategias para resolver un problema justificando la estrategia seleccionada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Obtener posibles soluciones de un problema seleccionando entre varias estrategias conocidas de forma autónoma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-2-2"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear nuevos problemas sobre situaciones cotidianas que se resuelvan matemáticamente. Comprobar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-3-1"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Investigar conjeturas sencillas de forma pautada analizando patrones y propiedades."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-4-1"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Formular conjeturas matemáticas sencillas investigando patrones, propiedades y relaciones de forma guiada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Modelizar situaciones de la vida cotidiana utilizando, de forma pautada, principios básicos del pensamiento computacional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-5-2"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer las relaciones entre los conocimientos y experiencias matemáticas para aproximarse a un todo coherente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Utilizar conexiones entre diferentes elementos matemáticos movilizando conocimientos y experiencias propios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-6-2"
+        },
+        {
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Identificar conexiones entre las matemáticas y otras materias resolviendo problemas contextualizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-7-1"
+        },
+        {
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Utilizar las conexiones entre las matemáticas y la vida cotidiana para resolver problemas en contextos no matemáticos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-7-2"
+        },
+        {
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Interpretar lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario apropiado y mostrando la comprensión del mensaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              102
+            ]
+          },
+          "id": "cri-1-8-1"
+        },
+        {
+          "codigoOficial": "9.1",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Comunicar en diferentes formatos las conjeturas y procesos matemáticos utilizando lenguaje matemático adecuado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              103
+            ]
+          },
+          "id": "cri-1-9-1"
+        },
+        {
+          "codigoOficial": "10.1",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Autorregular las emociones propias y reconocer algunas fortalezas y debilidades, desarrollando así la autoconfianza al abordar nuevos retos matemáticos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              103
+            ]
+          },
+          "id": "cri-1-10-1"
+        },
+        {
+          "codigoOficial": "10.2",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Elegir actitudes positivas ante nuevos retos matemáticos tales como la perseverancia y la responsabilidad valorando el error como una oportunidad de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              103
+            ]
+          },
+          "id": "cri-1-10-2"
+        },
+        {
+          "codigoOficial": "11.1",
+          "competenciaEspecificaRef": "ce-11",
+          "texto": {
+            "es": "Colaborar activa, respetuosa y responsablemente en el trabajo en equipo mostrando iniciativa, comunicándose de forma efectiva, valorando la diversidad, mostrando empatía y estableciendo relaciones saludables basadas en la tolerancia, la igualdad y la resolución pacífica de conflictos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              103
+            ]
+          },
+          "id": "cri-1-11-1"
+        },
+        {
+          "codigoOficial": "11.2",
+          "competenciaEspecificaRef": "ce-11",
+          "texto": {
+            "es": "Colaborar en el reparto de tareas, asumiendo y respetando las responsabilidades individuales asignadas y empleando estrategias cooperativas sencillas dirigidas a la consecución de objetivos compartidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              103
+            ]
+          },
+          "id": "cri-1-11-2"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Conteo"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.01"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Cantidad"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias y técnicas de interpretación y manipulación del orden de magnitud de los números."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.02"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.03"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Fracciones y decimales para expresar cantidades en contextos de la vida cotidiana y elección de la mejor representación para cada situación o problema."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.04"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Sentido de las operaciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de estrategias de cálculo mental."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.05"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento y aplicación de las operaciones útiles para resolver situaciones contextualizadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.06"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de resolución de operaciones aritméticas y sus propiedades con flexibilidad y sentido: mentalmente, de manera escrita o con calculadora; utilidad en situaciones contextualizadas y propiedades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.07"
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Relaciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Sistema de numeración de base diez: aplicación de las relaciones que genera en las operaciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.08"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Comparación y ordenación de números en contextos de la vida cotidiana. Relaciones entre las operaciones aritméticas: aplicación en contextos cotidianos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.09"
+                }
+              ]
+            },
+            {
+              "codigo": "5",
+              "nombre": {
+                "es": "Razonamiento proporcional"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Situaciones proporcionales y no proporcionales en problemas de la vida cotidiana: identificación como comparación multiplicativa entre magnitudes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.10"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de problemas de proporcionalidad, porcentajes y escalas de la vida cotidiana, mediante la igualdad entre razones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.11"
+                }
+              ]
+            },
+            {
+              "codigo": "6",
+              "nombre": {
+                "es": "Educación financiera"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de problemas relacionados con el consumo responsable (valor/precio, calidad/precio y mejor precio) y con el dinero: precios, intereses y rebajas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      103
+                    ]
+                  },
+                  "id": "TM.1.A.12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Magnitud"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Unidades convencionales del Sistema Métrico Decimal (longitud, masa, capacidad y superficie), tiempo y ángulos en contextos de la vida cotidiana: selección y uso de las unidades adecuadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.B.01"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Estimación y relaciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de comparación y ordenación de medidas de la misma magnitud aplicando las equivalencias entre unidades (sistema métrico decimal) en problemas de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.B.02"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estimación de medidas de ángulos y superficies por comparación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.B.03"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Evaluación de resultados de mediciones y estimaciones o cálculos de medidas, razonando si son o no posibles."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.B.04"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Medición"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Instrumentos (analógico o digital) y unidades adecuadas para medir longitudes, ángulos y tiempos: selección y uso."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.B.05"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Realización de dibujos de objetos geométricos con propiedades fijadas, como las longitudes de los lados o las medidas de los ángulos usando las herramientas tecnológicas adecuadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.B.06"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido espacial"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Formas geométricas de dos dimensiones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Formas geométricas en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos y a las relaciones entre ellos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.C.01"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Técnicas de construcción de formas geométricas por composición y descomposición, mediante materiales manipulables instrumentos de dibujo y aplicaciones informáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.C.02"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Propiedades de formas geométricas: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.C.03"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Localización y sistemas de representación"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Localización y desplazamientos en planos y mapas a partir de puntos de referencia (incluidos los puntos cardinales), direcciones y cálculo de distancias (escalas)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.C.04"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Movimientos y transformaciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Semejanza en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.C.05"
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Visualización, razonamiento y modelización geométrica"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para el cálculo de áreas y perímetros de figuras planas en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.C.06"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Elaboración de conjeturas sobre propiedades geométricas utilizando instrumentos de dibujo (compás y transportador de ángulos) y programas de geometría dinámica. Las ideas y las relaciones geométricas en el arte, las ciencias y la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.C.07"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido algebraico y pensamiento computacional"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Patrones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de identificación, representación (verbal, tablas, gráficos y notaciones inventadas) y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.D.01"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Creación de patrones recurrentes a partir de regularidades o de otros patrones utilizando números, figuras o imágenes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.D.02"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Modelo matemático"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Proceso de modelización a partir de problemas de la vida cotidiana, usando representaciones matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.D.03"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Relaciones y funciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones de igualdad y desigualdad y uso de los signos < y >. Determinación de datos desconocidos (representados por medio de una letra o un símbolo) en expresiones sencillas relacionadas mediante estos signos y los signos = y ≠."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      104
+                    ]
+                  },
+                  "id": "TM.1.D.04"
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Pensamiento computacional"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para la interpretación, modificación y creación de algoritmos sencillos con o sin componentes tecnológicos"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.D.05"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Distribución"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para la realización de un estudio estadístico sencillo: formulación de preguntas, recogida, registro y organización de datos cualitativos y cuantitativos procedentes de diferentes experimentos (encuestas, mediciones, observaciones…). Tablas de frecuencias absolutas y relativas: interpretación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.E.01"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Gráficos estadísticos sencillos (diagrama de barras, diagrama de sectores, histograma, etc.): representación de datos mediante recursos tradicionales y tecnológicos y selección del más conveniente."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.E.02"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Medidas de centralización (media y moda): interpretación, cálculo y aplicación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.E.03"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Medidas de dispersión (rango): cálculo e interpretación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.E.04"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Calculadora y otros recursos digitales para operar con datos, organizar la información estadística y realizar diferentes visualizaciones de los datos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.E.05"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Predictibilidad e incertidumbre"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La incertidumbre en situaciones de la vida cotidiana: cuantificación y estimación mediante experimentos aleatorios repetitivos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.E.06"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cálculo de probabilidades en experimentos, comparaciones o investigaciones en los que sea aplicable la regla de Laplace: aplicación de técnicas básicas del conteo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.E.07"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sentido socioemocional"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Creencias, actitudes y emociones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Fomento de la curiosidad, la iniciativa, la perseverancia y la resiliencia hacia el aprendizaje de las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.F.01"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento de las emociones que intervienen en el aprendizaje como la autoconciencia y la autorregulación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.F.02"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Desarrollo de flexibilidad cognitiva, abierto a un cambio de estrategia cuando sea necesario, transformando el error en oportunidad de aprendizaje."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.F.03"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Trabajo en equipo y toma de decisiones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Selección de técnicas cooperativas para optimizar el trabajo en equipo. Uso de conductas empáticas y estrategias para la gestión de conflictos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.F.04"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Métodos para la toma de decisiones adecuadas para resolver situaciones problemáticas"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.F.05"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Inclusión, respeto y diversidad"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Promoción de actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.F.06"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento de la contribución de las matemáticas al desarrollo de los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      105
+                    ]
+                  },
+                  "id": "TM.1.F.07"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Interpretar problemas matemáticos organizando los datos dados y comprendiendo las preguntas formuladas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              105
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Elaborar representaciones matemáticas que ayuden en la búsqueda de estrategias de resolución de una situación problematizada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              105
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprobar la corrección matemática de las soluciones de un problema."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              105
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprobar la validez de las soluciones de un problema y su coherencia en el contexto planteado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reconocer situaciones susceptibles de ser formuladas y resueltas mediante herramientas y estrategias matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear variantes de un problema dado modificando alguno de sus datos o alguna condición del problema."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-3-2"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Investigar conjeturas sencillas de forma pautada analizando patrones, propiedades y relaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-4-1"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reconocer patrones, organizar datos y descomponer un problema en partes más simples facilitando su interpretación computacional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Modelizar situaciones y resolver problemas de forma eficaz interpretando y modificando algoritmos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-5-2"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y usar las relaciones entre los conocimientos y experiencias matemáticas aproximándose a un todo coherente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Realizar conexiones entre diferentes procesos matemáticos aplicando conocimientos y experiencias."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-6-2"
+        },
+        {
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Establecer conexiones entre el mundo real y las matemáticas usando algunos procesos inherentes a la investigación científica y matemática: inferir, medir, comunicar, clasificar y predecir."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-7-1"
+        },
+        {
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Identificar conexiones coherentes entre las matemáticas y otras materias resolviendo problemas contextualizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-7-2"
+        },
+        {
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Interpretar conceptos, procedimientos y resultados matemáticos usando diferentes herramientas y formas de representación para visualizar ideas y estructurar procesos matemáticos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-8-1"
+        },
+        {
+          "codigoOficial": "9.1",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Comunicar información utilizando el lenguaje matemático apropiado, oralmente y por escrito, para describir, explicar y justificar razonamientos, procedimientos y conclusiones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-9-1"
+        },
+        {
+          "codigoOficial": "10.1",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Gestionar las emociones propias, desarrollar el autoconcepto matemático como herramienta generando expectativas positivas ante nuevos retos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-10-1"
+        },
+        {
+          "codigoOficial": "10.2",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Mostrar una motivación positiva y perseverancia, aceptando la crítica razonada al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-10-2"
+        },
+        {
+          "codigoOficial": "11.1",
+          "competenciaEspecificaRef": "ce-11",
+          "texto": {
+            "es": "Colaborar activamente y construir relaciones en el trabajo en equipos heterogéneos, comunicándose de manera efectiva, pensando de forma crítica y creativa, tomando decisiones y juicios informados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-11-1"
+        },
+        {
+          "codigoOficial": "11.2",
+          "competenciaEspecificaRef": "ce-11",
+          "texto": {
+            "es": "Participar en el reparto de tareas que deban desarrollarse en equipo, mediante la asignación de roles, aportando valor, favoreciendo la inclusión, la escucha activa, asumiendo el rol asignado y responsabilizándose de la propia contribución al grupo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              106
+            ]
+          },
+          "id": "cri-2-11-2"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Conteo"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de estrategias variadas para hacer recuentos sistemáticos en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.01"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Utilización de estrategias informales y personales de recuento adaptadas a problemas de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.02"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Cantidad"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Interpretación de números grandes y pequeños. Utilización de la calculadora."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.03"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Uso de los números enteros, fracciones y decimales para expresar cantidades en contextos de la vida cotidiana con el rigor requerido."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.04"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Sentido de las operaciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de estrategias de cálculo mental con números naturales, enteros, fracciones y decimales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.05"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento y aplicación de las operaciones con números enteros, racionales o decimales, útiles para resolver situaciones contextualizadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.06"
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Relaciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Números enteros, fracciones, decimales y raíces: comprensión y representación de cantidades con ellos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.07"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Utilización de factores, múltiplos y divisores. Factorización en números primos para resolver problemas, mediante estrategias y/o herramientas diversas, incluido el uso de la calculadora."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.08"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Comparación y ordenación de fracciones, decimales y porcentajes en contextos de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.09"
+                }
+              ]
+            },
+            {
+              "codigo": "5",
+              "nombre": {
+                "es": "Razonamiento proporcional"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento de relaciones de proporcionalidad numérica y de relaciones no proporcionales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.10"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de porcentajes en la resolución de problemas de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.11"
+                }
+              ]
+            },
+            {
+              "codigo": "6",
+              "nombre": {
+                "es": "Educación financiera"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Métodos para la toma de decisiones de consumo responsable atendiendo a las relaciones calidad-precio y al valor-precio en contextos cotidianos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.A.12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Magnitud"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Elección de las unidades y operaciones adecuadas en problemas que impliquen medida."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.B.01"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Estimación y relaciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Toma de decisión justificada del grado de precisión requerida en situaciones de medida."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.B.02"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Medición"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de las principales fórmulas para obtener longitudes, áreas y volúmenes en formas planas y tridimensionales en la resolución de problemas de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.B.03"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Realización de dibujos de objetos geométricos con propiedades fijadas, como las longitudes de los lados o las medidas de los ángulos usando las herramientas tecnológicas adecuadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.B.04"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido espacial"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Formas geométricas de dos y tres dimensiones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Formas geométricas planas y tridimensionales en la vida cotidiana: descripción y clasificación de en función de sus propiedades o características."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.C.01"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Localización y sistemas de representación"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Localización y descripción de relaciones espaciales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.C.02"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Movimientos y transformaciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Transformaciones elementales como giros, traslaciones y simetrías en situaciones de la vida cotidiana utilizando herramientas tecnológicas y/o manipulativas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      107
+                    ]
+                  },
+                  "id": "TM.2.C.03"
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Visualización, razonamiento y modelización geométrica"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones geométricas en campos como el arte, la ciencia o la vida diaria empleando las herramientas tecnológicas adecuadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.C.04"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido algebraico y pensamiento computacional"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Patrones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Patrones: identificación y comprensión, determinando la regla de formación de diversas estructuras en casos sencillos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.D.01"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Modelo matemático"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Modelización de situaciones de la vida cotidiana usando representaciones matemáticas y el lenguaje algebraico."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.D.02"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Relaciones y funciones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación y comparación de las diferentes formas de representación de una relación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.D.03"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Detección de errores en las gráficas que pueden afectar a su interpretación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.D.04"
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Pensamiento computacional"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estructuración de la resolución de un problema en etapas o pasos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.D.05"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Identificación de estrategias para la interpretación, y/o modificación de algoritmos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.D.06"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Distribución"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Formulación de preguntas adecuadas para conocer las características de interés de una población."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.E.01"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Recogida y organización de datos de situaciones de la vida cotidiana que involucran una sola variable."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.E.02"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Generación de representaciones gráficas adecuadas mediante diferentes tecnologías (calculadora, hoja de cálculo, apps...) para averiguar cómo se distribuyen los datos, interpretarlos y obtener conclusiones razonadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.E.03"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Medidas de centralización y dispersión: interpretación y cálculo utilizando herramientas tecnológicas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.E.04"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Comparación de dos conjuntos de datos atendiendo a las medidas de centralización y dispersión."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.E.05"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Inferencia"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Obtención de conclusiones razonables a partir de los resultados obtenidos con el fin de emitir juicios y tomar decisiones adecuadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.E.06"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Predictibilidad e incertidumbre"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Identificación de fenómenos deterministas y aleatorios."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.E.07"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Interpretación de la probabilidad como medida asociada a la incertidumbre de experimentos aleatorios."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.E.08"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Asignación de probabilidades mediante la regla de Laplace."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.E.09"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sentido socioemocional"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Creencias, actitudes y emociones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Fomento de la curiosidad, la iniciativa, la perseverancia y la resiliencia hacia el aprendizaje de las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.F.01"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento de las emociones que intervienen en el aprendizaje como la autoconciencia y la autorregulación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.F.02"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Desarrollo de flexibilidad cognitiva, abierto a un cambio de estrategia cuando sea necesario, transformando el error en oportunidad de aprendizaje."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.F.03"
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Trabajo en equipo y toma de decisiones"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Selección de técnicas cooperativas para optimizar el trabajo en equipo. Uso de conductas empáticas y estrategias para la gestión de conflictos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.F.04"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Métodos para la toma de decisiones adecuadas para resolver situaciones problemáticas"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      108
+                    ]
+                  },
+                  "id": "TM.2.F.05"
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Inclusión, respeto y diversidad"
+              },
+              "saberes": [
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Promoción de actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      109
+                    ]
+                  },
+                  "id": "TM.2.F.06"
+                },
+                {
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento de la contribución de las matemáticas al desarrollo de los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                    "paginas": [
+                      109
+                    ]
+                  },
+                  "id": "TM.2.F.07"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores individuales de saberes son internos del proyecto, no códigos oficiales. Los ordinales publicados en los saberes se conservan en numeracionFuente, cuando existen.",
+      "Los descriptores operativos se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "Los desarrollos publicados para un grupo de cursos se reproducen en los cursos en que se oferta la materia, conservando su carácter compartido: la repetición no atribuye una secuenciación por curso que la fuente no publica.",
+      "La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.",
+      "aplicableDesdeCurso indica el primer curso académico de implantación en los cursos de esta materia: 2022/2023 si incluye 1.º o 3.º, y 2023/2024 si solo se oferta en 2.º o 4.º, según el calendario normativo."
+    ]
+  }
+}

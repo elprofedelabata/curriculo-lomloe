@@ -1,0 +1,1155 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.eso.sistemas-de-control-y-robotica",
+  "territorio": "es-cb",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "SCR",
+    "nombre": {
+      "es": "Sistemas de Control y Robótica"
+    },
+    "cursos": [
+      {
+        "curso": 3,
+        "caracter": "optativa"
+      },
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-correccion-orden-edu-40-2022",
+      "tipo": "otro",
+      "titulo": "Corrección de errores de la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "162",
+      "fechaPublicacion": "2022-08-23",
+      "cve": "CVE-2022-6440",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "paginasMateria": {
+        "desde": 78,
+        "hasta": 85
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-eso-orden-edu-40-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6238",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006"
+    },
+    {
+      "id": "es-cb-eso-bachillerato-orden-edu-36-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/36/2024, de 18 de julio, que modifica la Orden ECD/78/2018, de 26 de junio, que regula el programa ESPADE (ESPecial Atención al DEporte), para la conciliación de estudios y entrenamiento deportivo de alumnos que cursan Educación Secundaria Obligatoria y Bachillerato, así como el acceso a dicho programa en el ámbito de gestión de la Consejería de Educación, Cultura y Deporte del Gobierno de Cantabria, y la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "145",
+      "fechaPublicacion": "2024-07-29",
+      "cve": "CVE-2024-6130",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "paginasMateria": {
+        "desde": 17,
+        "hasta": 18
+      },
+      "anexo": "III"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La robótica en particular y los sistemas de control en general forman parte de nuestras vidas e incluso de nuestra cultura desde hace ya algún tiempo. Su conocimiento, uso y manejo hace que la incorporación de contenidos relacionados con el control automático y robótica sea una necesidad formativa por su carácter instrumental. Los sistemas educativos de todo el mundo enfocan su mirada hacia este fenómeno ya que permite un acercamiento al entorno en el que vive el alumnado.",
+      "La materia de Sistemas de Control y Robótica I y II pretende que el alumnado desarrolle ciertas destrezas de naturaleza cognitiva y procedimental sin olvidar su parte actitudinal. Abarca un conjunto de actividades pedagógicas dirigidas al aprovechamiento práctico del conocimiento científico contribuyendo a la consecución del Perfil de salida y a la adquisición de los objetivos de etapa del alumnado.",
+      "Las competencias específicas se relacionan estrechamente con el proceso de enseñanza-aprendizaje de la materia. La realización de proyectos en los que, mediante el diseño, la construcción y la programación de robots los estudiantes puedan, por una parte, visualizar, explorar y comprobar conceptos de razonamiento de las áreas del conocimiento involucradas (matemáticas, las ciencias experimentales, contenidos técnicos y las tecnologías de la información y la comunicación), y por la otra, formular y experimentar alternativas para solucionar problemas o realizar tareas. También se busca estimular el desarrollo de habilidades y actitudes como la creatividad, el trabajo colaborativo, el saber escuchar y discutir y respetar las ideas y opiniones de otros. Comprende todos los aspectos que son necesarios para resolver un problema tecnológico real, desde el análisis del problema hasta la solución definitiva. Este proceso incluye: el diseño, la fabricación y montaje de un robot o sistema de control, la elaboración de un programa informático que controle su funcionamiento y su experimentación final. Todo ello con el fin de realizar los ajustes necesarios en el control y el funcionamiento para que el robot o sistema de control proporcione la solución definitiva al problema inicial.",
+      "La materia de Sistemas de Control y Robótica, en los cursos de tercero y cuarto de Educación Secundaria Obligatoria, parte de los niveles de desempeño adquiridos en la etapa de Educación Primaria y de los primeros años de Educación Secundaria tanto en competencia digital, como en competencia matemática y competencia en ciencia, tecnología e ingeniería, contribuyendo al fomento de las vocaciones científico-tecnológicas, desde una perspectiva de la igualdad de género.",
+      "Los criterios de evaluación en esta materia se formulan con una evidente orientación competencial y establecen una gradación entre su primer y segundo año. Estos criterios de evaluación, como indicadores que sirven para valorar el grado de desarrollo de las competencias específicas, como se ha mencionado, presentan un enfoque competencial, donde el desempeño tiene una gran relevancia y la aplicación de los saberes básicos en diversas de situaciones de aprendizaje el modo de su adquisición, de manera que los aprendizajes se construyan en y desde la acción.",
+      "El desarrollo de esta materia implica una transferencia de conocimientos de otras disciplinas, que quedan recogidos en bloques de saberes básicos interrelacionados y que se presentan diferenciados entre sí para dar especial relevancia a la resolución de problemas, el desarrollo del pensamiento computacional y la investigación y desarrollo. Tales saberes no deben entenderse de manera aislada y su tratamiento debe ser integral. Su presentación no supone una forma de abordar los saberes básicos en el aula, sino una estructura que ayuda a la comprensión del conjunto de conocimientos, destrezas y actitudes que se pretende que el alumnado adquiera y movilice a lo largo de la etapa. Supone una ocasión para mostrar cómo los saberes pueden actuar como motor de desarrollo para hacer frente a las incertidumbres que genera el desarrollo tecnológico y la vida en una sociedad cada vez más automatizada.",
+      "La materia se organiza en cinco bloques: Robótica y sociedad, Arquitectura de un robot, Programación de sistemas de control, Diseño, prototipado e impresión 3D y Proyectos de investigación y desarrollo.",
+      "Con el bloque de “Robótica y sociedad” se da una visión del desarrollo de la robótica a lo largo de la historia y las repercusiones que ha tenido en la sociedad. También los diferentes tipos de robots y aplicaciones actuales.",
+      "En el bloque de “Arquitectura de un robot” se abordan los conceptos relativos a la forma, estructura y componentes de los robots que condicionan en gran manera su funcionamiento y prestaciones, así como su campo de aplicación.",
+      "El bloque de “Programación de sistemas de control” abarca los fundamentos de algorítmica para el diseño y desarrollo de programas tanto para la automatización de procesos como para la programación de robots. La materia trabaja la programación y el desarrollo del pensamiento computacional entendido como una batería de herramientas mentales que todas las personas pueden trabajar y desarrollar con el objetivo de resolver problemas aplicando las nociones fundamentales de la informática.",
+      "La puesta en práctica del bloque de “Diseño, prototipado e impresión 3D” implica el desarrollo de habilidades en el uso de herramientas digitales haciendo posible que la creatividad del alumnado a la hora de diseñar y construir un robot sea prácticamente infinita.",
+      "El bloque de “Proyectos de investigación y desarrollo” se centra en la metodología de proyectos, dirigida a la ideación y creación de productos, así como a la difusión y comunicación de estos.",
+      "El carácter esencialmente práctico de la materia y el enfoque competencial del currículo, requiere metodologías específicas que lo fomenten, como la resolución de problemas basado en el desarrollo de proyectos, la implementación de sistemas tecnológicos (eléctricos, mecánicos, robóticos, etc.), la construcción de prototipos y otras estrategias que favorezcan el uso de aplicaciones digitales para el diseño, la simulación, el dimensionado, la comunicación o la difusión de ideas o soluciones, por ejemplo. Debe propiciar un aprendizaje competencial, autónomo, significativo y reflexivo La metodología a utilizar en esta materia se debe basar en principios del constructivismo, por tanto, su pedagogía estará centrada en el estudiante y en el conocimiento. Los aspectos fundamentales de esta metodología son los siguientes:",
+      "- El aprendizaje es un proceso constructivo, no receptivo, los estudiantes deben ser",
+      "responsables de su propio aprendizaje, tienen que aprender a aprender.",
+      "- La experimentación por parte del estudiante y del profesor es fundamental.",
+      "- El trabajo en grupo favorece el aprendizaje social y desarrolla aprendizajes colaborativos",
+      "“entre iguales”.",
+      "- Potenciar la creatividad como medio de aplicar lo conocido y adquirir nuevos conocimientos.",
+      "- La motivación es muy importante para que el alumnado ponga el máximo de sus facultades",
+      "en su proceso de aprendizaje. Los alumnos y alumnas deben disfrutar del aprendizaje y",
+      "satisfacerse de los logros conseguidos.",
+      "A tenor de este enfoque competencial y práctico, resulta necesario disponer de un aula-taller o espacio “MAKER”, entendido como un espacio específico incorpore sistemas de fabricación digital, que permite incorporar técnicas de trabajo, prototipado rápido y fabricación offline, con un gran potencial de desarrollo y en consonancia con las demandas de nuestra sociedad y de nuestro sistema productivo."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Conocer la historia y evolución de la robótica y los sistemas de control, su constante desarrollo y aplicaciones, así como su contribución a la evolución de la sociedad y el entorno."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CD1",
+        "CPSAA3",
+        "CC1",
+        "CC4",
+        "CE3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          80
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia a los diferentes desafíos y problemas a los que la humanidad se ha enfrentado relacionados tanto con el medio que le rodea como con sus propias relaciones sociales; desde la obtención de medios y recursos para su supervivencia, como el refugio o la alimentación, el modo de producirla, almacenarla y distribuirla, hasta la búsqueda de comunicaciones a distancia, cada vez más rápidas y fiables, pasando por los medios de transporte o la creación y almacenamiento de la información. La competencia se refiere también a la manera en que el ser humano siempre ha buscado la manera de facilitar las tareas diarias para hacerlas de la manera más ágil, sencilla y cómoda posible. En definitiva, siempre se ha buscado la manera de optimizar cualquier tarea productiva y para ello siempre ha estado presente la creatividad y la invención como herramientas para el desarrollo social y tecnológico de la humanidad.",
+          "Posibilita también el conocimiento de la historia y evolución de la robótica y los sistemas de control y su desarrollo y aplicaciones actuales, para que el alumnado tenga una visión que le ayude a comprender mejor la parte del mundo tecnológico y digital que le rodea. Un aprendizaje basado en proyectos posibilita que el alumnado, tanto individualmente como en equipo, ponga en acción estrategias y habilidades diversas para analizar y comprender los fenómenos, situaciones o acontecimientos que tienen un especial interés en el mundo en el que vive. Otorgando al alumnado el protagonismo en la construcción del conocimiento y un papel activo en la creación de prototipos por medio de procesos y estrategias de indagación e investigación."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Dominar el proceso de búsqueda y selección de la información necesaria para la resolución de problemas relacionados con los sistemas de control y la robótica de una manera crítica y segura para iniciar procesos de creación de soluciones a partir de la información obtenida."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM2",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CC1",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          80,
+          81
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia a las destrezas y los procesos asociados a la búsqueda, selección y tratamiento de la información son instrumentos imprescindibles en toda situación de aprendizaje en el contexto de la sociedad del conocimiento.",
+          "Esta competencia específica requiere investigar a partir de múltiples fuentes, evaluando su fiabilidad y la veracidad de la información obtenida con actitud crítica, siendo consciente de los beneficios y riesgos del acceso abierto e ilimitado a la información que ofrece internet (infoxicación, Fake news, acceso a contenidos inadecuados...).",
+          "Pretende que el alumnado aprenda a aprender por sí mismo y que sepa buscar las fuentes adecuadas para la construcción de su propio aprendizaje, así mismo, también se pretende que con esos aprendizajes sea capaz de dar respuestas a retos o problemas que se planteen de una manera creativa."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Aplicar conocimientos interdisciplinares con autonomía y creatividad, trabajando de forma colaborativa para buscar soluciones a diferentes retos tecnológicos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM3",
+        "CD3",
+        "CPSAA3",
+        "CPSAA5",
+        "CE3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          81
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia a la necesidad de que el alumnado adquiera las habilidades de cooperación y convivencia necesarias en las sociedades abiertas y cambiantes de un mundo cada vez más globalizado, desarrollando destrezas que le permitan trabajar en equipo, entendiendo los conflictos como elementos connaturales a la vida en sociedad que deben resolverse de manera pacífica y manteniendo un espíritu crítico, empático y proactivo en la búsqueda de soluciones.",
+          "La competencia enlaza con dos de las bases pedagógicas de la materia, la creatividad y el trabajo colaborativo, aportando técnicas y herramientas al alumnado para idear y diseñar soluciones a problemas definidos que tienen que cumplir una serie de requisitos, y orienta en la organización de las tareas que deberá desempeñar de manera personal o en grupo a lo largo del proceso de resolución creativa del problema.",
+          "La combinación de conocimientos con ciertas destrezas y actitudes de carácter interdisciplinar, tales como autonomía, responsabilidad, creatividad, innovación, saber hacer, valoración crítica de resultados y trabajo cooperativo, resultan necesarios para obtener resultados eficaces en la resolución de problemas."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Aplicar los fundamentos del funcionamiento de los sistemas de control y robótica, analizando sus componentes y funciones para utilizarlos en la resolución de problemas técnicos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM1",
+        "STEM3",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          81
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia al conocimiento, manejo y funcionalidad de los distintos elementos que son utilizados en la robótica y los sistemas de control. En la actualidad, la constante presencia en nuestras vidas de estos tipos de sistemas, en campos tan diversos como el de la medicina, el transporte, la industria, el ocio, … o incluso en nuestros propios hogares, hace necesario un conocimiento más profundo que el de ser un mero usuario. Engloba la comprensión de las características y funcionamiento de los elementos básicos que todo robot o sistema controlado dispone. Para ello, entiende como necesario un conocimiento de los diferentes tipos de sensores, actuadores y placas controladoras empleados habitualmente en el mundo de la robótica, conocer sus tipos, características, funcionalidades y aplicaciones.",
+          "Del mismo modo, para comprender en profundidad las bases de estos sistemas y mientras el alumnado construye sus propios procedimientos para resolver los retos planteados en la materia, profundiza en la adquisición de conocimientos sobre estructuras, transmisiones y reductores de movimientos, energía y potencia y electrónica analógica y digital."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Desarrollar algoritmos y aplicaciones informáticas en distintos entornos, aplicando los principios del pensamiento computacional, para crear soluciones a problemas concretos y aplicarlos en sistemas de control y robótica."
+      },
+      "descriptoresOperativosRefs": [
+        "CP2",
+        "STEM1",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          81,
+          82
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia a la aplicación de los principios del pensamiento computacional en el proceso creativo. Esto es, implica la puesta en marcha de procesos ordenados que incluyen la descomposición del problema planteado, la estructuración de la información, la modelización del problema, la secuenciación del proceso y el diseño de algoritmos para implementarlos en un programa informático.",
+          "De esta forma, la competencia está enfocada al diseño y activación de algoritmos planteados para lograr un fin concreto. Como, por ejemplo, a la automatización de un proceso, al desarrollo del sistema de control de una máquina o a la creación de un robot autónomo, en la que intervengan distintas entradas y salidas que queden gobernadas por un algoritmo. El alumnado ha de aplicar la tecnología digital en el control de objetos o máquinas, y ha de automatizar rutinas facilitando la interactuación con los objetos e incluyendo los sistemas controlados mediante la programación de una tarjeta controladora o los sistemas robóticos."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Diseñar y crear objetos tecnológicos que den respuesta a una necesidad específica utilizando medios manuales y digitales de diseño y prototipado rápido."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD5",
+        "CPSAA1",
+        "CE3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          82
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia ahonda en las posibilidades que ofrecen las nuevas tecnologías de prototipado rápido, utilizando el diseño y la impresión 3D, que hacen éstas unas herramientas imprescindibles para la creación de objetos tecnológicos en las aulas/taller o “espacios Makers”, sin olvidar tampoco los procesos de construcción manual y la fabricación mecánica. El alumnado aprenderá a aplicar de forma creativa los conocimientos relativos a operadores y sistemas tecnológicos necesarios para el diseño y la construcción o fabricación de prototipos según los trabajos de planificación previos. Las distintas actuaciones que se desencadenan en el proceso creativo llevan consigo la intervención de conocimientos interdisciplinares e integrados.",
+          "La competencia encamina hacia la aplicación de las normas de seguridad e higiene en el trabajo son fundamentales para la salud del alumnado, evitando los riesgos inherentes a muchas de las técnicas que se deben emplear. Por otro lado, desarrolla habilidades y destrezas relacionadas con el uso de las herramientas, recursos e instrumentos necesarios (herramientas y máquinas manuales y digitales) y de actitudes vinculadas con la superación de dificultades y al trabajo en equipo, así como la motivación y el interés por el trabajo y la calidad del mismo."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer la influencia de la robótica y de los sistemas de control en el mundo actual y a lo largo de la historia, reconociendo su labor en el progreso de la humanidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              82
+            ]
+          },
+          "id": "cri-3-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los principales hitos históricos relativos a la robótica y a los sistemas de control, así como las aplicaciones y sistemas robóticos actuales más destacados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              82
+            ]
+          },
+          "id": "cri-3-1-2"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Iniciarse en el diseño y creación de soluciones originales a problemas o necesidades definidas, aplicando conceptos, técnicas y procedimientos interdisciplinares con actitud innovadora y creativa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              82
+            ]
+          },
+          "id": "cri-3-2-1"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Aprender a trabajar en equipo con actitudes de respeto y tolerancia hacia las ideas de los demás participando activamente en la consecución de los objetivos planteados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              82
+            ]
+          },
+          "id": "cri-3-3-1"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Comprender conceptos básicos de la funcionalidad de los dispositivos computarizados y desarrollos robóticos, analizando sus partes (hardware), qué información utilizan, cómo la procesan y cómo la representan (software)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              82
+            ]
+          },
+          "id": "cri-3-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Iniciarse en el diseño y construcción de un sistema automático o un robot y desarrollar un programa para controlarlo y hacer su funcionamiento de forma autónoma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              82
+            ]
+          },
+          "id": "cri-3-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar sistemas automáticos, diferenciando los diferentes tipos de sistemas de control, describiendo los componentes que los integran y valorando la importancia de estos sistemas en la vida cotidiana."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              83
+            ]
+          },
+          "id": "cri-3-4-3"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Adquirir las habilidades y los conocimientos básicos para elaborar programas informáticos gráficos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              83
+            ]
+          },
+          "id": "cri-3-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Describir, interpretar y diseñar soluciones utilizando algoritmos y diagramas de flujo, aplicando los elementos y técnicas de programación de manera ágil y creativa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              83
+            ]
+          },
+          "id": "cri-3-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Iniciarse en la resolución de problemas a partir de su descomposición en partes pequeñas y aplicando diferentes estrategias, utilizando entornos de programación gráfica, con distintos propósitos, incluyendo el control, la automatización y la simulación de sistemas físicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              83
+            ]
+          },
+          "id": "cri-3-5-3"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Diseñar componentes en 3D necesarios para la construcción de robots y/o sistemas de control utilizando software libre."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              83
+            ]
+          },
+          "id": "cri-3-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Conocer las diferentes técnicas de fabricación en impresión 3D y los pasos adecuados para la correcta impresión de piezas y el mantenimiento de los equipos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              83
+            ]
+          },
+          "id": "cri-3-6-2"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Robótica y Sociedad"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Historia de la robótica y los sistemas de control. Presente y futuro de la robótica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tipos de Robots y aplicaciones:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robótica en entornos industriales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robótica en agricultura."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robótica terrestre: vehículos autónomos, cuadrúpedos, hexápodos, …"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robótica aérea y submarina."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robótica en medicina."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robots sociales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Otros tipos de Robots."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Domótica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.A.10"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Arquitectura de un robot"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Materiales y estructura."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mecanismos de transmisión y reducción de movimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electricidad y electrónica básica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Componentes de sistemas de control programado: Sensores modulares, Actuadores modulares y Controladores."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Control y comunicaciones; Puerto Serie, Infrarrojos, Bluetooth."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.B.05"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Programación de sistemas de control"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de programa. Lenguajes de programación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Algoritmos y diagramas de flujo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Programación gráfica. Variables: tipos. Operadores aritméticos y lógicos. Estructuras de decisión: bucles y condicionales. Funciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.C.03"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Diseño y prototipado e impresión 3D"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño digital en 2D y 3D. Impresión 3D:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelos STL."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de modelado 3D."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  83
+                ]
+              },
+              "id": "SCR.3.D.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Software libre de impresión 3D."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  84
+                ]
+              },
+              "id": "SCR.3.D.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Control, calibración y puesta a punto de impresoras 3D."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  84
+                ]
+              },
+              "id": "SCR.3.D.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Otras técnicas prototipado rápido."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  84
+                ]
+              },
+              "id": "SCR.3.D.06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender cómo algunos dispositivos son capaces de percibir el entorno y llevar a cabo respuestas para realizar un determinado objetivo o tarea."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Utilizar la tecnología en forma segura, respetuosa y responsable, con propósito de crear aplicaciones donde su uso no afecte la identidad ni la integridad de las personas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-1-2"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Definir problemas o necesidades planteadas, buscando y contrastando información procedente de diferentes fuentes de manera crítica y segura, evaluando su fiabilidad y pertinencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Idear, diseñar y crear soluciones originales a problemas o necesidades definidas, aplicando conceptos, técnicas y procedimientos interdisciplinares con actitud innovadora y creativa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-2-2"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Trabajar colaborativamente para la resolución de problemas, favoreciendo el intercambio de ideas, y comunicar de forma clara y secuenciada las estrategias de solución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar proyectos creativos que involucren la selección y el uso de programas para solucionar problemas del mundo real, incluyendo el uso de uno o más dispositivos y la aplicación, redacción y análisis de información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-3-2"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar y describir el funcionamiento de los componentes electrónicos analógicos y bloques funcionales electrónicos utilizados en robótica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar circuitos elementales de electrónica analógica verificando su funcionamiento mediante software de simulación, realizando el montaje real de los mismos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar, proyectar y construir un sistema automático o un robot y desarrollar un programa para controlarlo y hacer su funcionamiento de forma autónoma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-4-3"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Adquirir las habilidades y los conocimientos básicos para elaborar programas informáticos textuales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Utilizar estructuras de programación, trabajando con variables en una diversidad de entradas (inputs) y salidas (outputs), con distintos propósitos, incluyendo la automatización y el control o la simulación de sistemas físicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Diseñar, construir y depurar secuencias de instrucciones simples para desarrollar proyectos de programación y robótica orientados a resolver problemas planteados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-5-3"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Formular diferentes soluciones concretas a una situación problemática utilizando dispositivos robóticos o computación física, e identificar las dimensiones de diseño, construcción, operación y uso."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              84
+            ]
+          },
+          "id": "cri-4-6-1"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Arquitectura de un robot"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Energía y Potencia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  84
+                ]
+              },
+              "id": "SCR.4.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica analógica y digital."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  84
+                ]
+              },
+              "id": "SCR.4.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Componentes de sistemas de control programado: Sensores, Actuadores y Controladores."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  85
+                ]
+              },
+              "id": "SCR.4.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Control y comunicaciones a distancia; WIFI, Internet de las cosas (IoT)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  85
+                ]
+              },
+              "id": "SCR.4.A.04"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Programación de sistemas de control"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Programación textual. Variables: tipos. Operadores aritméticos y lógicos. Estructuras de decisión: bucles y condicionales. Funciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  85
+                ]
+              },
+              "id": "SCR.4.B.01"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Proyectos de investigación y desarrollo"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de gestión y desarrollo de proyectos: “Design Thinking”. Técnicas de investigación e ideación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  85
+                ]
+              },
+              "id": "SCR.4.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión y desarrollo de proyectos. Tipos, características y aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  85
+                ]
+              },
+              "id": "SCR.4.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Difusión y comunicación de documentación técnica. Elaboración, referenciación y presentación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  85
+                ]
+              },
+              "id": "SCR.4.C.03"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores individuales de saberes son internos del proyecto, no códigos oficiales. Los ordinales publicados en los saberes se conservan en numeracionFuente, cuando existen.",
+      "Los descriptores operativos se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "Los desarrollos publicados para un grupo de cursos se reproducen en los cursos en que se oferta la materia, conservando su carácter compartido: la repetición no atribuye una secuenciación por curso que la fuente no publica.",
+      "La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.",
+      "aplicableDesdeCurso indica el primer curso académico de implantación en los cursos de esta materia: 2022/2023 si incluye 1.º o 3.º, y 2023/2024 si solo se oferta en 2.º o 4.º, según el calendario normativo.",
+      "Sistemas de Control y Robótica II se identifica como materia de continuidad en el anexo III de la Orden EDU/36/2024. Se conservan los desarrollos diferenciados de 3.º y 4.º."
+    ]
+  }
+}

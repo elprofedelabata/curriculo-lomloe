@@ -1,0 +1,915 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.eso.iniciacion-a-las-ciencias-experimentales-biologia-y-geologia",
+  "territorio": "es-cb",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "ICEBG",
+    "nombre": {
+      "es": "Iniciación a las Ciencias Experimentales Biología y Geología"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-correccion-orden-edu-40-2022",
+      "tipo": "otro",
+      "titulo": "Corrección de errores de la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "162",
+      "fechaPublicacion": "2022-08-23",
+      "cve": "CVE-2022-6440",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "paginasMateria": {
+        "desde": 39,
+        "hasta": 46
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-eso-orden-edu-40-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6238",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006"
+    },
+    {
+      "id": "es-cb-eso-bachillerato-orden-edu-36-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/36/2024, de 18 de julio, que modifica la Orden ECD/78/2018, de 26 de junio, que regula el programa ESPADE (ESPecial Atención al DEporte), para la conciliación de estudios y entrenamiento deportivo de alumnos que cursan Educación Secundaria Obligatoria y Bachillerato, así como el acceso a dicho programa en el ámbito de gestión de la Consejería de Educación, Cultura y Deporte del Gobierno de Cantabria, y la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "145",
+      "fechaPublicacion": "2024-07-29",
+      "cve": "CVE-2024-6130",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "paginasMateria": {
+        "desde": 17,
+        "hasta": 18
+      },
+      "anexo": "III"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La finalidad de esta materia optativa de 4º de la ESO es dar a conocer al alumnado cómo se genera el conocimiento, además de valorar la importancia que la investigación tiene para la sociedad, en la búsqueda constante de respuestas, así como conocer sus herramientas básicas de indagación sobre nuestro medio físico y social.",
+      "La implantación de esta materia permitirá atender a la diversidad del alumnado en la medida en que tanto el carácter flexible del procedimiento de investigación como los posibles campos y temáticas de investigación a los que se puede aplicar contribuyen a dar respuesta a las necesidades e intereses del alumnado. Asimismo, el carácter netamente procedimental de la materia y otros aspectos como el trabajo en grupo, el desarrollo de la curiosidad, los posibles ámbitos de actuación exteriores al aula, etc., pueden contribuir a que el alumnado se sienta motivado para conseguir los propósitos de esta materia, llamada Ciencias Experimentales, en la que se incluyen conocimientos de Biología, Ecología, Geología y Ciencias Ambientales, cuya investigación es posible tanto dentro como fuera del laboratorio, permitiendo su estudio científico y experimental en los dos ámbitos.",
+      "En cuanto a los retos y desafíos del siglo XXI, son contemplados con detalle y tienen un profundo desarrollo en esta materia, ya que nos podemos centrar en los Objetivos de Desarrollo Sostenible (ODS), proporcionándole al alumnado los medios esenciales para abordarlos.",
+      "El carácter interdisciplinar de la materia contribuye a la adquisición en su conjunto de los objetivos de etapa y a la consecución del Perfil de salida. Las competencias específicas están íntimamente relacionadas con los ejes vertebradores sobre los que se asienta la materia. Por este motivo, se han seleccionado unos criterios de evaluación como elemento que permita valorar el grado de desarrollo de las competencias específicas. Además, estos criterios están enfocados a que el alumnado reflexione sobre la propia práctica, tomando conciencia de sus hábitos, generando rutinas saludables, sostenibles y seguras, a la vez que críticas con prácticas inadecuadas. La aplicación de este enfoque competencial conduce al desarrollo de conocimientos, destrezas y actitudes en el alumnado que fomentan distintas formas de organización del trabajo en equipo y el debate multidisciplinar ante la diversidad de situaciones de aprendizaje que intervienen en la materia. Por todo esto, cabe destacar el carácter eminentemente práctico, que se constituye como eje vertebrador de la materia y refleja el enfoque competencial de la misma.",
+      "Con respecto a los saberes básicos de esta materia, varios de sus bloques se pueden relacionar con otros saberes de las materias del área de Biología y Geología de la ESO. Estos saberes se pueden agrupar en tres apartados a su vez:",
+      "− Proyecto científico.",
+      "− Método científico y Trabajo experimental.",
+      "− Proyectos de investigación y Divulgación Científica.",
+      "Para el desarrollo de estos proyectos se propone usar como base alguno de los Objetivos de Desarrollo Sostenible (ODS) impulsados por las Naciones Unidas. Se pueden trabajar de manera individual o agruparlos por temáticas e intereses no siendo necesario abarcar todos los objetivos en dichos proyectos de investigación.",
+      "ODS 1. Fin de la pobreza.",
+      "ODS 2. Hambre cero.",
+      "ODS 3. Salud y bienestar.",
+      "ODS 4. Educación de calidad.",
+      "ODS 5. Igualdad de género.",
+      "ODS 6. Agua limpia y saneamiento.",
+      "ODS 7. Energía asequible y no contaminante.",
+      "ODS 8. Trabajo decente y Crecimiento económico.",
+      "ODS 9. Agua, Industria, Innovación e Infraestructuras.",
+      "ODS 10. Reducción de las desigualdades.",
+      "ODS 11. Ciudades y Comunidades sostenibles.",
+      "ODS 12. Producción y Consumo responsable.",
+      "ODS 13. Acción por el clima.",
+      "ODS 14. Vida submarina.",
+      "ODS 15. Vida de ecosistemas terrestres.",
+      "ODS 16. Paz, Justicia e Instituciones sólidas.",
+      "ODS 17. Alianza para lograr los objetivos.",
+      "Los tres bloques de saberes deben trabajarse de manera competencial relacionándolos con diferentes situaciones de aprendizaje. Para ello se propone que la materia de Iniciación a las Ciencias Experimentales Biología y Geología sea a través de retos, haciéndola principalmente práctica. Esto se debe conseguir, tanto en el desarrollo de trabajo experimental en el laboratorio como en proyectos de investigación que se relacionen con los ODS permitiendo el desarrollo integral del alumnado como ciudadanos del siglo XXI. En conclusión, la materia de Iniciación a las Ciencias Experimentales Biología y Geología trabaja saberes de la vida como vía para el desarrollo de las competencias y pretenden como fin último una plena integración ciudadana del alumnado a nivel profesional, social y emocional, aportando al alumnado una herramienta imprescindible para el desarrollo del aprendizaje a lo largo de la vida. Esta optativa debe tener un enfoque práctico, donde el saber será necesario para enfocar adecuadamente la asignatura, pero debemos darle importancia al saber hacer y el saber ser. Debido a las características prácticas de la materia sería recomendable que la ratio de alumnado que curse esta materia no supere los quince personas y que se implique al alumnado en diferentes ámbitos de la Comunidad Educativa."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar y transmitir información y datos científicos, argumentando sobre ellos y utilizando diferentes formatos, para analizar conceptos y procesos de las Ciencias Experimentales (Biología, Ecología, Geología y Ciencias Ambientales)."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          41
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo científico rara vez es fruto del trabajo de sujetos aislados y requiere, por tanto, del intercambio de información y de la colaboración entre individuos, organizaciones e incluso países. Compartir información es una forma de acelerar el progreso humano al extender y diversificar los pilares sobre los que se sustenta.",
+          "Todo proceso de investigación científica debe comenzar con la recopilación y análisis crítico de las publicaciones en el área de estudio construyéndose los nuevos conocimientos sobre los cimientos de los ya existentes.",
+          "Asimismo, el avance vertiginoso de la ciencia y la tecnología es el motor de importantes cambios sociales que se dan cada vez con más frecuencia y con impactos más palpables. Por ello, la participación activa del alumnado en la sociedad exige cada vez más la comprensión de los últimos descubrimientos y avances científicos y tecnológicos para interpretar y evaluar críticamente, a la luz de estos, la información que inunda los medios de comunicación. Esto le permitirá extraer conclusiones propias, tomar decisiones coherentes y establecer interacciones comunicativas constructivas mediante la argumentación fundamentada, respetuosa y flexible para cambiar las propias concepciones a la vista de los datos y posturas aportados por otras personas."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar, localizar y seleccionar información, contrastando su veracidad, organizándola y evaluándola críticamente, para resolver preguntas relacionadas con las Ciencias Experimentales (Biología, Ecología, Geología y Ciencias Ambientales)."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          41
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La investigación científica, la participación activa en la sociedad y el desarrollo profesional y personal de un individuo con frecuencia conllevan la adquisición de nuevas competencias que suele comenzar con la búsqueda, selección y recopilación de información relevante de diferentes fuentes para establecer las bases cognitivas de dicho aprendizaje.",
+          "Además, en la sociedad actual existe un continuo bombardeo de información que no siempre refleja la realidad. Los datos con base científica se encuentran en ocasiones entremezclados con bulos, hechos infundados y creencias pseudocientíficas. Es, por tanto, imprescindible desarrollar el sentido crítico y las destrezas necesarias para evaluar y clasificar la información y conocer y distinguir las fuentes fidedignas de aquellas de dudosa fiabilidad.",
+          "Por ello, esta competencia específica prepara al alumnado para su autonomía personal y profesional futuras y para contribuir positivamente en una sociedad democrática."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas y cooperando cuando sea necesario, para indagar en aspectos relacionados con las Ciencias Experimentales (Biología, Ecología, Geología y Ciencias Ambientales)."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          42
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Los métodos científicos son el sistema de trabajo utilizado para dar una respuesta rigurosa a cuestiones y problemas relacionados con la naturaleza y la sociedad. Estos constituyen el motor de nuestro avance social y económico, lo que los convierte en un aprendizaje imprescindible para la ciudadanía del mañana. Los procesos que componen el trabajo científico cobran sentido cuando son integrados dentro de un proyecto relacionado con la realidad del alumnado o su entorno.",
+          "El desarrollo de un proyecto requiere de iniciativa, actitud crítica, visión de conjunto, capacidad de planificación, movilización de recursos materiales y personales y argumentación, entre otros, y permite al alumnado cultivar el autoconocimiento y la confianza ante la resolución de problemas, adaptándose a los recursos disponibles, a sus propias limitaciones, a la incertidumbre y a los retos que pueda encontrar.",
+          "Asimismo, la creación y participación en proyectos científicos proporciona al alumnado la oportunidad de trabajar destrezas que pueden ser de gran utilidad no solo dentro del ámbito científico, sino también en su desarrollo personal y profesional y en su participación social. Esta competencia específica es el crisol en el que se entremezclan todos los elementos de la competencia STEM y muchos de otras competencias clave. Por estos motivos, es imprescindible ofrecer al alumnado la oportunidad creativa y de crecimiento que aporta esta modalidad de trabajo, impulsando la igualdad de oportunidades entre los alumnos y alumnas y fomentando las vocaciones científicas desde una perspectiva de género."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar el razonamiento y el pensamiento computacional, analizando críticamente las respuestas y soluciones y reformulando el procedimiento, si fuera necesario, para resolver problemas o dar explicación a procesos de la vida cotidiana relacionados con las Ciencias Experimentales (Biología, Ecología, Geología y Ciencias Ambientales)."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD5",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          42
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Las Ciencias Experimentales, como su nombre dice, son disciplinas empíricas, pero con frecuencia recurren al razonamiento lógico y la metodología matemática para crear modelos, resolver cuestiones y problemas y validar los resultados o soluciones obtenidas. Tanto el planteamiento de hipótesis, como la interpretación de datos y resultados, o el diseño experimental requieren aplicar el pensamiento lógico-formal.",
+          "Asimismo, es frecuente que, en determinadas ciencias empíricas, se obtengan evidencias indirectas de la realidad, que deben interpretarse según la lógica para establecer modelos. Además, determinados saberes básicos de la materia tienen en la resolución de problemas una estrategia didáctica preferente.",
+          "Cabe destacar que potenciar esta competencia específica supone desarrollar en el alumnado destrezas aplicables a diferentes situaciones de la vida. Por ejemplo, la actitud crítica se basa en gran parte en el razonamiento a partir de datos o información conocidos y constituye un mecanismo de protección contra las pseudociencias o los saberes populares infundados."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, basándose en los fundamentos de las Ciencias Experimentales, para promover y adoptar hábitos que eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          42,
+          43
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El bienestar, la salud y el desarrollo económico de la especie humana se sustentan en recursos naturales, como el suelo fértil o el agua dulce, y en diferentes grupos de seres vivos, como los insectos polinizadores, las bacterias nitrificantes y el plancton marino, sin los cuales algunas actividades esenciales, como la obtención de alimentos, se verían seriamente comprometidas. Por desgracia, los recursos naturales no siempre son renovables o se utilizan de tal manera que su tasa de consumo supera con creces su tasa de renovación. Además, la destrucción de hábitats, la alteración del clima global y la utilización de sustancias xenobióticas están reduciendo la biodiversidad de forma que, en los últimos 50 años, han desaparecido dos tercios de la fauna salvaje del planeta. Todas estas alteraciones podrían poner en peligro la estabilidad de la sociedad humana tal y como la conocemos. Afortunadamente, determinadas acciones pueden contribuir a mejorar el estado del medio ambiente a corto y largo plazo.",
+          "Por otro lado, ciertas conductas propias de los países desarrollados como el consumismo, el sedentarismo, la dieta con alto contenido en grasas y azúcares, las adicciones tecnológicas o los comportamientos impulsivos tienen graves consecuencias sobre la salud de la población. Por ello, es también esencial que el alumnado conozca el funcionamiento de su propio cuerpo, destierre ideas preconcebidas y estereotipos sexistas, y comprenda y argumente, a la luz de las pruebas científicas, que el desarrollo sostenible es un objetivo urgente y sinónimo de bienestar, salud y progreso económico de la sociedad. Esto le permitirá cuestionar los hábitos propios y ajenos, y mejorar la calidad de vida de nuestro planeta según el concepto “one health” (una sola salud): salud de los seres humanos, de otros seres vivos y del entorno natural."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Desarrollar destrezas sociales y trabajar de forma colaborativa en equipos diversos con roles asignados que permitan potenciar el crecimiento entre iguales, valorando la importancia de romper los estereotipos de género en la investigación científica, para el emprendimiento personal y laboral."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP3",
+        "STEM2",
+        "STEM4",
+        "CD3",
+        "CPSAA3",
+        "CC2",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          43
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El avance científico es producto del esfuerzo colectivo y rara vez el resultado del trabajo de un solo individuo. La ciencia implica comunicación y colaboración entre profesionales, en ocasiones adscritos a diferentes disciplinas. Asimismo, para la generación de nuevos conocimientos es esencial que se compartan las conclusiones y procedimientos obtenidos por un grupo de investigación con el resto de la comunidad científica. A su vez, estos conocimientos sirven de base para la construcción de nuevas investigaciones y descubrimientos.",
+          "Cabe destacar, además, que la interacción y colaboración son de gran importancia en diversos ámbitos profesionales y sociales y no exclusivamente en un contexto científico. El trabajo colaborativo tiene un efecto enriquecedor sobre los resultados obtenidos y en el desarrollo personal de sus participantes, pues permite el intercambio de puntos de vista en ocasiones muy diversos. La colaboración implica movilizar las destrezas comunicativas y sociales del alumnado y requiere de una actitud respetuosa y abierta frente a las ideas ajenas, que valore la importancia de romper los roles de género y estereotipos sexistas. Por este motivo, aprender a trabajar en equipo es imprescindible para el desarrollo profesional y social pleno del alumnado como miembro activo de nuestra sociedad."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar conceptos y procesos relacionados con los saberes de las Ciencias Experimentales interpretando información en diferentes formatos (modelos, gráficos, tablas, posters científicos, diagramas, presentaciones, fórmulas, esquemas, símbolos, páginas web, etc.), manteniendo una actitud crítica y obteniendo conclusiones fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              43
+            ]
+          },
+          "id": "cri-4-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Facilitar la comprensión y análisis de información relacionada con los saberes de la materia de las Ciencias Experimentales o trabajos científicos transmitiéndola de forma clara y utilizando la terminología y los formatos adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos, contenidos digitales, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              43
+            ]
+          },
+          "id": "cri-4-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y explicar fenómenos experimentales representándolos mediante modelos y diagramas, utilizando, cuando sea necesario, los pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-1-3"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver cuestiones sobre aspectos relacionados con las Ciencias Experimentales y la investigación localizando, seleccionando y organizando información de distintas fuentes y citándolas correctamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Reconocer la información sobre aspectos relacionados con las Ciencias Experimentales o trabajos científicos, distinguiéndolos de pseudociencias, bulos, teorías conspiratorias y creencias infundadas y manteniendo una actitud escéptica ante estos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella con independencia de su etnia, sexo o cultura, destacando y reconociendo el papel de las mujeres científicas y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-2-3"
+        },
+        {
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Participar en actividades de divulgación científica y concursos didácticos impulsados por diferentes instituciones como el Ministerio de Educación, Consejería de Educación, Universidad, fundaciones, etc."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-2-4"
+        },
+        {
+          "codigoOficial": "2.5",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Promocionar la Cultura Científica dentro de la Comunidad Educativa, a través de diferentes actividades y fechas señaladas (Feria de la Ciencia, Recreos Científicos, 11F, ...)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-2-5"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear preguntas e hipótesis e intentar realizar predicciones sobre fenómenos relacionados con las Ciencias Experimentales y la investigación que puedan ser respondidas o contrastadas utilizando métodos científicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar la experimentación, la toma de datos y el análisis de fenómenos relacionados con las Ciencias Experimentales y la investigación de modo que permitan responder a preguntas concretas y contrastar una hipótesis planteada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar experimentos y tomar datos cuantitativos o cualitativos sobre fenómenos relacionados con las Ciencias Experimentales y la investigación utilizando los instrumentos, herramientas o técnicas adecuadas con corrección."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-3-3"
+        },
+        {
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-3-4"
+        },
+        {
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar un proyecto de investigación basado en los Objetivos de Desarrollo Sostenible (ODS)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-3-5"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas o dar explicación a procesos relacionados con las Ciencias Experimentales y la investigación utilizando conocimientos, datos e información proporcionados por el docente, el razonamiento lógico, el pensamiento computacional o recursos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema sobre fenómenos relacionados con las Ciencias Experimentales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-4-2"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Relacionar, con fundamentos científicos, la preservación de la biodiversidad, la conservación del medio ambiente, la protección de los seres vivos del entorno, el desarrollo sostenible y la calidad de vida."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar hábitos sostenibles y saludables, analizando de una manera crítica las actividades propias y ajenas a partir de los propios razonamientos, de los conocimientos adquiridos y de la información disponible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-4-5-2"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Asumir responsablemente una función concreta dentro de un proyecto científico, utilizando espacios virtuales cuando sea necesario, aportando valor, analizando críticamente las contribuciones del resto del equipo, respetando la diversidad y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-4-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Emprender, de forma guiada y de acuerdo a la metodología adecuada, proyectos científicos colaborativos orientados a la mejora y a la creación de valor en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-4-6-2"
+        },
+        {
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Entender la dimensión cultural y social de la investigación. Respetar la pluralidad en las diferentes formas de pensar y comprender los problemas de los extremismos y dogmatismos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-4-6-3"
+        },
+        {
+          "codigoOficial": "6.4",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Trabajar en equipo con sus compañeros de clase, así como desarrollar hábitos de trabajo y limpieza."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-4-6-4"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyecto científico"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Planteamiento de hipótesis, preguntas, problemas y conjeturas que puedan resolverse utilizando el método científico."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas tecnológicas para la búsqueda de información, la colaboración, interacción con instituciones científicas, aprovechando las de nuestra Comunidad, y la comunicación de procesos, resultados o ideas en diferentes formatos (presentación, gráficos, vídeo, póster, informe…)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Búsqueda, reconocimiento y utilización de fuentes veraces de información científica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño, planificación y realización de experiencias científicas de laboratorio o de campo para contrastar hipótesis y responder cuestiones y argumentación sobre la importancia del uso de controles para obtener resultados objetivos y fiables."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos para el análisis de resultados utilizando herramientas estadísticas cuando sea necesario."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de comunicación de proyectos o resultados utilizando vocabulario científico y en distintos formatos (informes, vídeos, modelos, gráficos…)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Papel de las científicas y científicos en el desarrollo de las Ciencias Experimentales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.A.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Análisis de la evolución histórica de un descubrimiento científico determinado, destacando el papel de la mujer y entendiendo la ciencia como un proceso colectivo e interdisciplinar en construcción."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.A.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Colaboración con las distintas instituciones de Cantabria que organizan actividades de divulgación y fomento de la Ciencia, incluyendo el papel de la mujer, como la Unidad de Cultura Científica de la Universidad de Cantabria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.A.09"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Método científico y trabajo experimental"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Etapas del método científico. Análisis de varios ejemplos de su aplicación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Planteamiento de hipótesis. Realización de informes científicos, contrastando las hipótesis planteadas. Variables de un experimento; la importancia de su control."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El laboratorio de Biología, Geología y Ciencias Ambientales. Material básico y normas de seguridad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de laboratorio. Microscopia, técnicas instrumentales, tinciones, cromatografías, microscopio petrográfico, bioquímica, cultivos, citología, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño experimental y/o de recogida de datos. Representación de los datos y conclusiones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.B.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de investigación y prácticas de estudio en el entorno: salidas de campo, muestreos, análisis de aguas, inventarios, geocaching, rastreos..."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.B.06"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Proyectos de investigación y divulgación científica"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Proyectos de investigación y/o experiencias de laboratorio: Objetivos de Desarrollo Sostenible (ODS)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Materiales para la difusión científica: papers, pósters científicos, presentaciones, videos, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actividades de divulgación científica y concursos didácticos impulsados por diferentes instituciones como la Consejería de educación, Universidad, fundaciones, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Divulgación de conclusiones y su confrontación con las hipótesis iniciales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  45
+                ]
+              },
+              "id": "ICEBG.4.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Memoria final."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "ICEBG.4.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cultura Científica en la Comunidad Educativa."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "ICEBG.4.C.06"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores individuales de saberes son internos del proyecto, no códigos oficiales. Los ordinales publicados en los saberes se conservan en numeracionFuente, cuando existen.",
+      "Los descriptores operativos se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "Los desarrollos publicados para un grupo de cursos se reproducen en los cursos en que se oferta la materia, conservando su carácter compartido: la repetición no atribuye una secuenciación por curso que la fuente no publica.",
+      "La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.",
+      "aplicableDesdeCurso indica el primer curso académico de implantación en los cursos de esta materia: 2022/2023 si incluye 1.º o 3.º, y 2023/2024 si solo se oferta en 2.º o 4.º, según el calendario normativo."
+    ]
+  }
+}

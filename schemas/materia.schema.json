@@ -336,7 +336,7 @@
     "apartadoSaberes": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["codigo", "nombre", "saberes"],
+      "required": ["codigo", "nombre"],
       "properties": {
         "codigo": { "type": "string", "minLength": 1 },
         "nombre": { "$ref": "#/$defs/textoLocalizado" },
@@ -344,8 +344,18 @@
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/saberBasico" }
+        },
+        "apartados": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Subapartados publicados dentro de un apartado, conservando su jerarquía.",
+          "items": { "$ref": "#/$defs/apartadoSaberes" }
         }
-      }
+      },
+      "oneOf": [
+        { "required": ["saberes"], "not": { "required": ["apartados"] } },
+        { "required": ["apartados"], "not": { "required": ["saberes"] } }
+      ]
     },
     "saberBasico": {
       "type": "object",

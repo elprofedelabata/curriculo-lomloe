@@ -7,7 +7,7 @@ const dist = resolve(root, "dist");
 const catalog = JSON.parse(await readFile(resolve(dist, "catalogo.json"), "utf8"));
 const failures = [];
 
-check(catalog.version === "1.8.0", "Versión inesperada del catálogo.");
+check(catalog.version === "1.9.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
 check(catalog.etapas.length === 30, `Se esperaban 30 etapas territoriales y hay ${catalog.etapas.length}.`);
@@ -15,9 +15,10 @@ const cantabriaStages = catalog.etapas.filter((item) => item.territorio === "es-
 check(cantabriaStages.length === 5 && cantabriaStages.every((item) => item.fuentes > 0), "Cantabria debe conservar las fuentes recopiladas de sus cinco etapas.");
 check(cantabriaStages.find((item) => item.codigo === "infantil")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "infantil")?.materias === 3, "Infantil de Cantabria debe mostrar sus tres áreas completadas.");
 check(cantabriaStages.find((item) => item.codigo === "primaria")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "primaria")?.materias === 7, "Primaria de Cantabria debe mostrar sus siete áreas completadas.");
-check(cantabriaStages.filter((item) => !["infantil", "primaria"].includes(item.codigo)).every((item) => item.estado === "fuentes" && item.materias === 0), "ESO, Bachillerato y CFGB de Cantabria deben seguir con fuentes recopiladas.");
+check(cantabriaStages.find((item) => item.codigo === "eso")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "eso")?.materias === 37 && cantabriaStages.find((item) => item.codigo === "eso")?.ambitosPorRemision === 2, "ESO de Cantabria debe mostrar 37 documentos revisados y dos ámbitos por remisión.");
+check(cantabriaStages.filter((item) => !["infantil", "primaria", "eso"].includes(item.codigo)).every((item) => item.estado === "fuentes" && item.materias === 0), "Bachillerato y CFGB de Cantabria deben seguir con fuentes recopiladas.");
 check(catalog.documentosNormativos.filter((item) => item.territorio === "es-cb").length === 14, "Faltan fuentes oficiales de Cantabria en el catálogo.");
-check(catalog.materias.length === 517, `Se esperaban 517 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.length === 554, `Se esperaban 554 materias y hay ${catalog.materias.length}.`);
 check(catalog.materias.filter((item) => item.etapa === "infantil").length === 18, "El catálogo de Infantil no contiene 18 áreas territoriales.");
 const cantabriaInfant = catalog.materias.filter((item) => item.territorio === "es-cb" && item.etapa === "infantil");
 check(cantabriaInfant.length === 3 && cantabriaInfant.every((item) => item.revision?.estado === "revisado"), "Las tres áreas de Infantil de Cantabria deben estar revisadas.");
@@ -32,6 +33,16 @@ const cantabriaValues = cantabriaPrimary.find((item) => item.codigo === "EVCE");
 check(cantabriaValues?.cursos.length === 1 && cantabriaValues.cursos[0].curso === 5 && cantabriaValues.ciclos.length === 0, "Valores de Cantabria debe representarse únicamente en 5.º de Primaria.");
 check(cantabriaPrimary.filter((item) => item.codigo !== "EVCE").every((item) => item.ciclos.map((cycle) => cycle.ciclo).join(",") === "1,2,3" && item.cursos.length === 0), "Las otras seis áreas deben conservar los tres ciclos de Primaria.");
 check(catalog.incidencias.filter((item) => item.id.startsWith("CB-PRIM-")).length === 15 && catalog.incidencias.filter((item) => item.id.startsWith("CB-PRIM-")).every((item) => item.revisada), "Las quince decisiones de Primaria de Cantabria deben estar confirmadas.");
+const cantabriaSecondary = catalog.materias.filter((item) => item.territorio === "es-cb" && item.etapa === "eso");
+check(cantabriaSecondary.length === 37 && cantabriaSecondary.every((item) => item.revision?.estado === "revisado" && item.schemaVersion === "0.8.0"), "Los 37 JSON de ESO de Cantabria deben estar revisados con el esquema 0.8.0.");
+check(cantabriaSecondary.reduce((sum, item) => sum + item.estadisticas.competencias, 0) === 223 && cantabriaSecondary.reduce((sum, item) => sum + item.estadisticas.criterios, 0) === 1295 && cantabriaSecondary.reduce((sum, item) => sum + item.estadisticas.saberes, 0) === 2334 && cantabriaSecondary.reduce((sum, item) => sum + item.estadisticas.desarrollos, 0) === 71, "Los recuentos de ESO de Cantabria no coinciden con el cotejo.");
+check(catalog.incidencias.filter((item) => item.id.startsWith("CB-ESO-")).length === 41 && catalog.incidencias.filter((item) => item.id.startsWith("CB-ESO-")).every((item) => item.revisada), "Las 41 decisiones de ESO de Cantabria deben estar revisadas.");
+const cantabriaOrientation = JSON.parse(await readFile(resolve(dist, "data/es-cb/eso/materias/formacion-y-orientacion-personal-y-profesional.json"), "utf8"));
+const psychology = cantabriaOrientation.desarrollos[0].bloquesSaberes[0].apartados.find((part) => part.codigo === "2");
+check(psychology?.apartados.map((part) => part.codigo).join(",") === "2.1,2.2,2.3,2.4", "Se han perdido los subapartados de Psicología de Orientación.");
+const cantabriaLanguage = cantabriaSecondary.find((item) => item.codigo === "SLE");
+check(cantabriaLanguage?.fuentes[0].id === "es-cb-eso-bachillerato-decreto-73-2022" && cantabriaLanguage.fuentes.some((item) => item.id === "es-cb-eso-correccion-orden-edu-40-2022"), "Segunda Lengua Extranjera debe conservar el decreto como base confirmada y enlazar la publicación alternativa.");
+check(catalog.ambitosPorRemision?.length === 2 && catalog.ambitosPorRemision.every((item) => item.territorio === "es-cb" && item.etapa === "eso" && item.estado === "remision-a-materias"), "Faltan las dos fichas de Diversificación de Cantabria.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "infantil").length === 3, "El catálogo de Aragón no contiene sus 3 áreas de Infantil.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "infantil").length === 3, "El catálogo de Asturias no contiene sus 3 áreas de Infantil.");
 check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "infantil" && item.revision?.estado === "revisado").length === 3, "El catálogo de Illes Balears no contiene sus 3 áreas de Infantil revisadas.");
@@ -81,7 +92,7 @@ check(balearValuesKnowledge.filter((item) => item.cursoOrientativo?.includes(5))
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "primaria").length === 14, "El catálogo de Aragón no contiene sus 14 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "primaria").length === 10, "El catálogo de Asturias no contiene sus 10 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "eso").length === 24, "El catálogo de Asturias no contiene sus 24 currículos de ESO.");
-check(catalog.materias.filter((item) => item.etapa === "eso").length === 148, "El catálogo de ESO no contiene 148 documentos curriculares territoriales.");
+check(catalog.materias.filter((item) => item.etapa === "eso").length === 185, "El catálogo de ESO no contiene 185 documentos curriculares territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-cn" && item.etapa === "eso" && item.revision?.estado === "revisado").length === 27, "El catálogo de Canarias no contiene sus 23 materias, 3 ámbitos de ESO y concreción del silbo revisados.");
 check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "eso" && item.revision?.estado === "revisado").length === 27, "El catálogo de Illes Balears no contiene sus 27 materias de ESO revisadas.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "eso").length === 38, "El catálogo de Aragón no contiene sus 38 currículos de ESO.");
@@ -164,7 +175,7 @@ check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) 
 check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
 const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
 check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
-check(catalog.incidencias.length === 261, `Se esperaban 261 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 302, `Se esperaban 302 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");
@@ -176,6 +187,7 @@ for (const file of [
   "catalogo.json",
   "schemas/materia.schema.json",
   "schemas/optativas-abiertas.schema.json",
+  "schemas/ambitos-por-remision.schema.json",
   "sitemap.xml",
   "robots.txt",
   ".nojekyll",
@@ -211,6 +223,7 @@ check(siteJs.includes('stageModal.showModal()') && siteJs.includes('stageModal.c
 check(siteJs.includes('button.disabled = preview'), "Las subcarpetas de maqueta deben permanecer inactivas.");
 check(siteJs.includes('fetch("./catalogo.json")') && siteJs.includes('renderMatterCard') && siteJs.includes('renderDocuments'), "El modal debe obtener y listar los datos del catálogo.");
 check(siteJs.includes("renderOpenOptions(openOptions, territoryCode)") && siteJs.includes('"Optativas de desarrollo abierto"'), "El modal de Bachillerato debe mostrar las fichas informativas separadas.");
+check(siteJs.includes("renderReferredScopes(catalog, referredScopes, territoryCode)") && siteJs.includes('"Diversificación"'), "El modal de ESO debe mostrar las fichas de ámbitos por remisión.");
 check(siteJs.includes('writeStageRoute') && siteJs.includes('syncFromLocation'), "Faltan las rutas compartibles de las etapas.");
 check(siteJs.includes('create("span", "matter-code", matter.codigo)') && siteJs.includes('jsonLink.prepend(createJsonIcon())'), "Cada materia debe mostrar su abreviatura y el icono SVG del JSON.");
 check(siteJs.includes('makeActionLink("Publicación oficial"') && siteJs.includes('makeActionLink("PDF archivado"') && siteJs.includes('makeActionLink("Consultar incidencias"'), "Normativa e incidencias deben enlazarse como botones con iconos.");
@@ -295,6 +308,16 @@ for (const option of catalog.optativasAbiertas) {
   const ficha = JSON.parse(await readFile(resolve(dist, option.fichaPath), "utf8"));
   check(ficha.$schema === "../../../schemas/optativas-abiertas.schema.json" && ficha.fuenteId === option.fuente.id, "La ficha informativa no remite a su esquema y fuente correctos.");
   check(ficha.optativas.some((item) => item.id === option.id), "La ficha informativa no contiene " + option.id + ".");
+}
+
+for (const scope of catalog.ambitosPorRemision || []) {
+  await exists(scope.fichaPath);
+  const document = JSON.parse(await readFile(resolve(dist, scope.fichaPath), "utf8"));
+  check(document.$schema === "../../../schemas/ambitos-por-remision.schema.json" && document.fuenteId === scope.fuente.id && document.ambitos.some((item) => item.id === scope.id), "La ficha del ámbito no coincide con su esquema o fuente.");
+  check(!catalog.materias.some((item) => item.id === scope.id), "Un ámbito por remisión se presenta como currículo autónomo.");
+  for (const reference of [...scope.materiasBaseRefs, ...scope.incorporacionesOpcionales.map((item) => item.materiaRef)]) {
+    check(catalog.materias.some((item) => item.id === reference && item.territorio === scope.territorio && item.etapa === scope.etapa), "Materia base inexistente en un ámbito por remisión: " + reference);
+  }
 }
 
 if (failures.length) {

@@ -1,0 +1,2813 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.eso.biologia-y-geologia",
+  "territorio": "es-cb",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "BG",
+    "nombre": {
+      "es": "Biología y Geología"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 3,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": null,
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-bachillerato-decreto-73-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 73/2022, de 27 de julio, por el que se establece el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "151",
+      "fechaPublicacion": "2022-08-05",
+      "cve": "CVE-2022-6079",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "paginasMateria": {
+        "desde": 37,
+        "hasta": 53
+      },
+      "anexo": "I-A"
+    },
+    {
+      "id": "es-cb-eso-orden-edu-40-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6238",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006"
+    },
+    {
+      "id": "es-cb-eso-bachillerato-orden-edu-36-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/36/2024, de 18 de julio, que modifica la Orden ECD/78/2018, de 26 de junio, que regula el programa ESPADE (ESPecial Atención al DEporte), para la conciliación de estudios y entrenamiento deportivo de alumnos que cursan Educación Secundaria Obligatoria y Bachillerato, así como el acceso a dicho programa en el ámbito de gestión de la Consejería de Educación, Cultura y Deporte del Gobierno de Cantabria, y la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "145",
+      "fechaPublicacion": "2024-07-29",
+      "cve": "CVE-2024-6130",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "paginasMateria": {
+        "desde": 17,
+        "hasta": 18
+      },
+      "anexo": "III"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Biología y Geología de la etapa de Enseñanza Secundaria Obligatoria constituye una continuación del área de Conocimiento del Medio Natural, Social y Cultural de la Educación Primaria. Esta materia busca el desarrollo de la curiosidad y la actitud crítica, así como el refuerzo de las bases de la alfabetización científica que permite al alumnado conocer su propio cuerpo y su entorno para adoptar hábitos que le ayuden a mantener y mejorar su salud y cultivar actitudes como el consumo responsable, el cuidado medioambiental, el respeto hacia otros seres vivos, o la valoración del compromiso ciudadano con el bien común. La adquisición y desarrollo de estos conocimientos y destrezas permitirán al alumnado valorar el papel fundamental de la ciencia en la sociedad. Otro de los aspectos esenciales de esta materia es el estudio y análisis científico y afectivo de la sexualidad, a través de los cuales el alumnado podrá comprender la importancia de las prácticas sexuales responsables y desarrollar rechazo hacia actitudes de discriminación basadas en el género o la identidad sexual. Asimismo, la Biología y Geología persigue impulsar, especialmente entre las alumnas, las vocaciones científicas. A través de esta materia se consolidan también los hábitos de estudio, se fomenta el respeto, la solidaridad y el trabajo en equipo y se promueve el perfeccionamiento lingüístico, al ser la cooperación y la comunicación parte esencial de las metodologías de trabajo científico. Además, se animará al alumnado a utilizar diferentes formatos y vías para comunicarse y cooperar destacando entre estos los espacios virtuales de trabajo. El trabajo grupal será una herramienta para la integración social de personas diversas que también se fomentará desde Biología y Geología.",
+      "La naturaleza científica de esta materia contribuye a despertar en el alumnado el espíritu creativo y emprendedor, que es la esencia misma de todas las ciencias. La investigación mediante la observación de campo, la experimentación y la búsqueda en diferentes fuentes para resolver cuestiones o contrastar hipótesis de forma tanto individual como cooperativa son elementos constituyentes de este currículo. Las principales fuentes fiables de información son accesibles a través de internet, donde conviven con informaciones sesgadas, incompletas o falsas, por lo que en Biología y Geología se fomentará el uso responsable y crítico de las tecnologías de la información y la comunicación dentro del contexto de la materia.",
+      "La Biología y Geología contribuye al logro de los objetivos de esta etapa y al desarrollo de las competencias clave. En la materia se trabajan un total de seis competencias específicas, que constituyen la concreción de los descriptores de las competencias clave definidos en el Perfil de salida del alumnado al término de la enseñanza básica. Las competencias específicas comprenden aspectos relacionados con la interpretación y transmisión de información científica; la localización y evaluación de información científica; la aplicación de las metodologías científicas en proyectos de investigación; la aplicación de estrategias para la resolución de problemas; el análisis y adopción de estilos de vida saludables y sostenibles; y la interpretación geológica del relieve.",
+      "Los criterios de evaluación permiten medir el grado de desarrollo de dichas competencias específicas, por lo que se presentan asociados a ellas.",
+      "Los saberes básicos constituyen los conocimientos, destrezas y actitudes que posibilitarán el desarrollo de las competencias específicas de la materia a largo de la etapa. En Biología y Geología estos se estructuran en tres bloques comunes para toda la etapa: «Proyecto científico», «Geología» y «La célula». En el tramo de la materia impartida entre 1º y 3º se añaden los bloques de «Seres vivos», «Ecología y sostenibilidad», «Cuerpo Humano» y «Hábitos saludables». En 4º curso, se incorporan los bloques de «Genética y evolución» y «La Tierra en el universo».",
+      "El bloque «Proyecto científico» introduce al alumnado al pensamiento y métodos científicos. Incluye saberes referidos al planteamiento de preguntas e hipótesis, la observación, el diseño y la realización de experimentos para su comprobación y el análisis y la comunicación de resultados. El bloque de «Geología» está formado por los conocimientos, destrezas y actitudes relacionados con la identificación de rocas y minerales del entorno y el estudio de la estructura interna de la Tierra, así como por los saberes vinculados con la tectónica de placas y la relación de los procesos geológicos internos y externos con los riesgos naturales y los principios de estudio de la historia terrestre (actualismo, horizontalidad, superposición de eventos, etc.). El estudio de la célula, sus partes y la función biológica de la mitosis y la meiosis forman parte del bloque «La célula». Además, este bloque incluye las técnicas de manejo del microscopio y el reconocimiento de células en preparaciones reales.",
+      "El primero de los bloques que componen los saberes básicos para la materia entre 1º y 3.º es el titulado «Seres vivos». Este comprende los saberes necesarios para el estudio de las características y grupos taxonómicos más importantes de seres vivos y para la identificación de ejemplares del entorno. El segundo de ellos, «Ecología y sostenibilidad» aborda el concepto de ecosistema, la relación entre sus elementos integrantes, la importancia de su conservación mediante la implantación de un modelo de desarrollo sostenible y el análisis de problemas medioambientales como el calentamiento global. Dentro del bloque «Cuerpo humano» se estudia el organismo desde un punto de vista analítico y holístico a través del funcionamiento y la anatomía de los aparatos y sistemas implicados en las funciones de nutrición, relación y reproducción. El bloque de «Hábitos saludables» se compone de los saberes básicos acerca de los comportamientos beneficiosos para la salud con respecto a la nutrición y la sexualidad, así como los efectos perjudiciales de las drogas. Y, por último, en el bloque denominado «Salud y enfermedad» se incluyen los mecanismos de defensa del organismo contra los patógenos; el funcionamiento de las vacunas y antibióticos para justificar su relevancia en la prevención y tratamiento de enfermedades, y los saberes relacionados con los trasplantes y la importancia de la donación de órganos.",
+      "Asimismo, en la materia en 4º curso se incorporan dos bloques. Por un lado, el bloque «Genética y evolución», donde se tratan las leyes y los mecanismos de herencia genética, la expresión génica, la estructura del ADN, las teorías evolutivas de mayor relevancia y la resolución de problemas donde se apliquen estos conocimientos. Y, por otro lado, el bloque «La Tierra en el universo» que incluye los saberes relacionados con el estudio de las teorías más relevantes sobre el origen del universo, las hipótesis sobre el origen de la vida en la Tierra y las principales investigaciones en el campo de la astrobiología.",
+      "Las situaciones de aprendizaje permiten trabajar de manera que los saberes básicos contribuyan a la adquisición de las competencias. Para ello, deben plantearse, a partir de un objetivo claro, estar conectadas con la realidad e invitar al alumnado a la reflexión y a la colaboración. El enfoque interdisciplinar favorecerá una asimilación más profunda de la materia, al extender sus raíces hacia otras ramas del conocimiento. Así, desde Biología y Geología el alumnado podrá adquirir las competencias necesarias para el desarrollo del pensamiento científico y su aplicación, así como una plena integración ciudadana a nivel personal, social y profesional."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar y transmitir información y datos científicos, argumentando sobre ellos y utilizando diferentes formatos, para analizar conceptos y procesos de las ciencias biológicas y geológicas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          40
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo científico rara vez es fruto del trabajo de sujetos aislados y requiere, por tanto, del intercambio de información y de la colaboración entre individuos, organizaciones e incluso países. Compartir información es una forma de acelerar el progreso humano al extender y diversificar los pilares sobre los que se sustenta.",
+          "Todo proceso de investigación científica debe comenzar con la recopilación y análisis crítico de las publicaciones en el área de estudio construyéndose los nuevos conocimientos sobre los cimientos de los ya existentes.",
+          "Asimismo, el avance vertiginoso de la ciencia y la tecnología es el motor de importantes cambios sociales que se dan cada vez con más frecuencia y con impactos más palpables. Por ello, la participación activa del alumnado en la sociedad exige cada vez más la comprensión de los últimos descubrimientos y avances científicos y tecnológicos para interpretar y evaluar críticamente, a la luz de estos, la información que inunda los medios de comunicación. Esto le permitirá extraer conclusiones propias, tomar decisiones coherentes y establecer interacciones comunicativas constructivas mediante la argumentación fundamentada, respetuosa y flexible para cambiar las propias concepciones a la vista de los datos y posturas aportados por otras personas."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar, localizar y seleccionar información, contrastando su veracidad, organizándola y evaluándola críticamente, para resolver preguntas relacionadas con las ciencias biológicas y geológicas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          40,
+          41
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La investigación científica, la participación activa en la sociedad y el desarrollo profesional y personal de un individuo con frecuencia conllevan la adquisición de nuevas competencias que suele comenzar con la búsqueda, selección y recopilación de información relevante de diferentes fuentes para establecer las bases cognitivas de dicho aprendizaje.",
+          "Además, en la sociedad actual existe un continuo bombardeo de información que no siempre refleja la realidad. Los datos con base científica se encuentran en ocasiones entremezclados con bulos, hechos infundados y creencias pseudocientíficas. Es, por tanto, imprescindible desarrollar el sentido crítico y las destrezas necesarias para evaluar y clasificar la información y conocer y distinguir las fuentes fidedignas de aquellas de dudosa fiabilidad.",
+          "Por ello, esta competencia específica prepara al alumnado para su autonomía personal y profesional futuras y para contribuir positivamente en una sociedad democrática."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas y cooperando cuando sea necesario, para indagar en aspectos relacionados con las ciencias geológicas y biológicas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          41
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Los métodos científicos son el sistema de trabajo utilizado para dar una respuesta rigurosa a cuestiones y problemas relacionados con la naturaleza y la sociedad. Estos constituyen el motor de nuestro avance social y económico, lo que los convierte en un aprendizaje imprescindible para la ciudadanía del mañana. Los procesos que componen el trabajo científico cobran sentido cuando son integrados dentro de un proyecto relacionado con la realidad del alumnado o su entorno.",
+          "El desarrollo de un proyecto requiere de iniciativa, actitud crítica, visión de conjunto, capacidad de planificación, movilización de recursos materiales y personales y argumentación, entre otros, y permite al alumnado cultivar el autoconocimiento y la confianza ante la resolución de problemas, adaptándose a los recursos disponibles, a sus propias limitaciones, a la incertidumbre y a los retos que pueda encontrar.",
+          "Asimismo, la creación y participación en proyectos científicos proporciona al alumnado la oportunidad de trabajar destrezas que pueden ser de gran utilidad no solo dentro del ámbito científico, sino también en su desarrollo personal y profesional y en su participación social. Esta competencia específica es el crisol en el que se entremezclan todos los elementos de la competencia STEM y muchos de otras competencias clave. Por estos motivos, es imprescindible ofrecer al alumnado la oportunidad creativa y de crecimiento que aporta esta modalidad de trabajo, impulsando la igualdad de oportunidades entre los alumnos y alumnas y fomentando las vocaciones científicas desde una perspectiva de género."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar el razonamiento y el pensamiento computacional, analizando críticamente las respuestas y soluciones y reformulando el procedimiento, si fuera necesario, para resolver problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la geología."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD5",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          42
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Las ciencias biológicas y geológicas son disciplinas empíricas, pero con frecuencia recurren al razonamiento lógico y la metodología matemática para crear modelos, resolver cuestiones y problemas y validar los resultados o soluciones obtenidas. Tanto el planteamiento de hipótesis, como la interpretación de datos y resultados, o el diseño experimental requieren aplicar el pensamiento lógico-formal.",
+          "Asimismo, es frecuente que en determinadas ciencias empíricas; como la biología molecular, la evolución o la tectónica, se obtengan evidencias indirectas de la realidad, que deben interpretarse según la lógica para establecer modelos de un proceso biológico o geológico. Además, determinados saberes básicos de la materia de Biología y Geología, como los recogidos en los bloques «Genética y evolución» y «Geología», tienen en la resolución de problemas una estrategia didáctica preferente.",
+          "Cabe destacar que potenciar esta competencia específica supone desarrollar en el alumnado destrezas aplicables a diferentes situaciones de la vida. Por ejemplo, la actitud crítica se basa en gran parte en el razonamiento a partir de datos o información conocidos y constituye un mecanismo de protección contra las pseudociencias o los saberes populares infundados."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, basándose en los fundamentos de las ciencias biológicas y de la Tierra, para promover y adoptar hábitos que eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          42,
+          43
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El bienestar, la salud y el desarrollo económico de la especie humana se sustentan en recursos naturales, como el suelo fértil o el agua dulce, y en diferentes grupos de seres vivos, como los insectos polinizadores, las bacterias nitrificantes y el plancton marino, sin los cuales algunas actividades esenciales, como la obtención de alimentos, se verían seriamente comprometidas. Por desgracia, los recursos naturales no siempre son renovables o se utilizan de tal manera que su tasa de consumo supera con creces su tasa de renovación. Además, la destrucción de hábitats, la alteración del clima global y la utilización de sustancias xenobióticas están reduciendo la biodiversidad de forma que, en los últimos 50 años, han desaparecido dos tercios de la fauna salvaje del planeta. Todas estas alteraciones podrían poner en peligro la estabilidad de la sociedad humana tal y como la conocemos. Afortunadamente, determinadas acciones pueden contribuir a mejorar el estado del medio ambiente a corto y largo plazo.",
+          "Por otro lado, ciertas conductas propias de los países desarrollados como el consumismo, el sedentarismo, la dieta con alto contenido en grasas y azúcares, las adicciones tecnológicas o los comportamientos impulsivos tienen graves consecuencias sobre la salud de la población. Por ello, es también esencial que el alumnado conozca el funcionamiento de su propio cuerpo, destierre ideas preconcebidas y estereotipos sexistas, y comprenda y argumente, a la luz de las pruebas científicas, que el desarrollo sostenible es un objetivo urgente y sinónimo de bienestar, salud y progreso económico de la sociedad. Esto le permitirá cuestionar los hábitos propios y ajenos, y mejorar la calidad de vida de nuestro planeta según el concepto “one health” (una sola salud): salud de los seres humanos, de otros seres vivos y del entorno natural."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar los elementos de un paisaje concreto valorándolo como patrimonio natural y utilizando conocimientos sobre geología y ciencias de la Tierra para explicar su historia geológica, proponer acciones encaminadas a su protección e identificar posibles riesgos naturales."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          43,
+          44
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La Red de Espacios Naturales Protegidos trata de preservar la diversidad de patrimonio natural que se reparte por toda la biosfera, informando sobre la fragilidad de dichos espacios y sobre los daños que determinadas acciones humanas pueden ocasionar sobre ellos. Por otro lado, algunos fenómenos naturales ocurren con mucha mayor frecuencia en zonas concretas del planeta, están asociados a ciertas formas de relieve o se dan con cierta periodicidad y son, por tanto, predecibles con mayor o menor margen de error. Estos fenómenos deben ser tenidos en cuenta en la construcción de infraestructuras y el establecimiento de asentamientos humanos. Sin embargo, se conocen numerosos ejemplos de planificación urbana deficiente en los que no se ha considerado la historia geológica de la zona, la litología del terreno, la climatología o el relieve, y que han dado lugar a grandes catástrofes con cuantiosas pérdidas tanto económicas como humanas.",
+          "Esta competencia específica implica que el alumnado desarrolle los conocimientos y el espíritu crítico necesarios para reconocer el valor del patrimonio natural y el riesgo geológico asociado a una determinada área para adoptar una actitud de rechazo ante las prácticas urbanísticas, forestales, industriales o de otro tipo que pongan en peligro vidas humanas, infraestructuras o espacios naturales. El alumnado se enfrentará así a situaciones problemáticas o cuestiones planteadas en el contexto de enseñanza-aprendizaje en las que tendrá que analizar los posibles riesgos naturales y las formas de actuación ante ellos."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos (modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos, páginas web, etc.), manteniendo una actitud crítica y obteniendo conclusiones fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-1-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Facilitar la comprensión y análisis de información sobre procesos biológicos y geológicos o trabajos científicos transmitiéndola de forma clara y utilizando la terminología y los formatos adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos, contenidos digitales, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-1-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas, utilizando, cuando sea necesario, los pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-1-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar en las actividades de divulgación y fomento de la ciencia, junto con el reconocimiento de los científicos y científicas de nuestra Comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-1-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver cuestiones sobre Biología y Geología localizando, seleccionando y organizando información de distintas fuentes y citándolas correctamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-1-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Reconocer la información sobre temas biológicos y geológicos con base científica, distinguiéndola de pseudociencias, bulos, teorías conspiratorias y creencias infundadas y manteniendo una actitud escéptica ante estos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella con independencia de su etnia, sexo o cultura, destacando y reconociendo el papel de las mujeres científicas y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-2-3"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear preguntas e hipótesis e intentar realizar predicciones sobre fenómenos biológicos o geológicos que puedan ser respondidas o contrastadas utilizando métodos científicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar la experimentación, la toma de datos y el análisis de fenómenos biológicos y geológicos de modo que permitan responder a preguntas concretas y contrastar una hipótesis planteada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar experimentos y tomar datos cuantitativos o cualitativos sobre fenómenos biológicos y geológicos utilizando los instrumentos, herramientas o técnicas adecuadas con corrección."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-3-3"
+        },
+        {
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-3-4"
+        },
+        {
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Cooperar dentro de un proyecto científico asumiendo responsablemente una función concreta, utilizando espacios virtuales cuando sea necesario, respetando la diversidad y la igualdad de género, y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-3-5"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas o dar explicación a procesos biológicos o geológicos utilizando conocimientos, datos e información proporcionados por el docente, el razonamiento lógico, el pensamiento computacional o recursos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-4-2"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Relacionar, con fundamentos científicos, la preservación de la biodiversidad, la conservación del medio ambiente, la protección de los seres vivos del entorno, el desarrollo sostenible y la calidad de vida, situando el estudio de Cantabria como eje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-1-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar hábitos sostenibles, analizando de una manera crítica las actividades propias y ajenas a partir de los propios razonamientos, de los conocimientos adquiridos y de la información disponible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-1-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar hábitos saludables, analizando las acciones propias y ajenas con actitud crítica y a partir de fundamentos fisiológicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-1-5-3"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Valorar la importancia del paisaje como patrimonio natural analizando la fragilidad de los elementos que lo componen."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-1-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Interpretar el paisaje analizando sus elementos y reflexionando sobre el impacto ambiental y los riesgos naturales derivados de determinadas acciones humanas, identificando las relacionadas con Cantabria."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-1-6-2"
+        },
+        {
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reflexionar sobre los riesgos naturales mediante el análisis de los elementos de un paisaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-1-6-3"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyecto científico"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hipótesis, preguntas y conjeturas: planteamiento con perspectiva científica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.1.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas científicas: herramientas digitales y formatos de uso frecuente en ciencia (presentación, gráfica, vídeo, póster, informe, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.1.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuentes fidedignas de información científica: reconocimiento y utilización."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.1.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La respuesta a cuestiones científicas mediante la experimentación y el trabajo de campo: utilización de los instrumentos y espacios necesarios (laboratorio, aulas, entorno, etc.) de forma adecuada."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.1.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelado como método de representación y comprensión de procesos o elementos de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.1.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de observación y de toma de datos de fenómenos naturales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.1.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de análisis de resultados. Diferenciación entre correlación y causalidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.1.A.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La labor científica y las personas dedicadas a la ciencia: contribución a las ciencias biológicas y geológicas e importancia social. Científicos y científicas de nuestra Comunidad. El papel de la mujer en la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.1.A.08"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Geología"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conceptos de roca y mineral: características y propiedades."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de clasificación de las rocas: sedimentarias, metamórficas e ígneas. El ciclo de las rocas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Rocas y minerales relevantes o del entorno: identificación. Yacimientos más importantes de Cantabria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Usos de los minerales y las rocas: su utilización en la fabricación de materiales y objetos cotidianos. Recursos geológicos de Cantabria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La estructura básica de la geosfera."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.B.05"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La célula"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Niveles de organización de la materia. La célula como unidad estructural y funcional de los seres vivos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La célula procariota, la célula eucariota animal y la célula eucariota vegetal, y sus partes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Observación y comparación de muestras microscópicas"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.C.03"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Seres vivos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los seres vivos: diferenciación y clasificación en los principales reinos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los principales grupos taxonómicos: observación de especies del entorno y clasificación a partir de sus características distintivas. Especies más representativas de Cantabria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las especies del entorno: estrategias de identificación (guías, claves dicotómicas, herramientas digitales, visu, lupa, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.D.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los animales como seres sintientes: semejanzas y diferencias con los seres vivos no sintientes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.D.04"
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Ecología y sostenibilidad"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los ecosistemas del entorno, sus componentes bióticos y abióticos y los tipos de relaciones intraespecíficas e interespecíficas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.E.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de la conservación de los ecosistemas, la biodiversidad y la implantación de un modelo de desarrollo sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.E.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las funciones de la atmósfera y la hidrosfera y su papel esencial para la vida en la Tierra."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.E.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las interacciones entre atmósfera, hidrosfera, geosfera y biosfera, su papel en la edafogénesis y en el modelado del relieve y su importancia para la vida. Relieve de Cantabria. Las funciones del suelo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.1.E.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las causas del cambio climático y sus consecuencias sobre los ecosistemas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.E.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de los hábitos sostenibles (consumo responsable, prevención y gestión de residuos, respeto al medio ambiente, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.E.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La relación entre la salud medioambiental, humana y de otros seres vivos: “one health” (una sola salud)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.E.07"
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Cuerpo humano"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Importancia de la función de nutrición. Los aparatos que participan en ella."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.F.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Anatomía y fisiología básicas de los aparatos digestivo, respiratorio, circulatorio, excretor y reproductor."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.F.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Visión general de la función de relación: receptores sensoriales, centros de coordinación y órganos efectores."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.F.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relación entre los principales sistemas y aparatos del organismo implicados en las funciones de nutrición, relación y reproducción mediante la aplicación de conocimientos de fisiología y anatomía."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.F.04"
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Hábitos saludables"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Características y elementos propios de una dieta saludable y su importancia. Enfermedades más frecuentes relacionadas con la función de nutrición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.G.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conceptos de sexo y sexualidad: importancia del respeto hacia la libertad y la diversidad sexual y hacia la igualdad de género, dentro de una educación sexual integral como parte de un desarrollo armónico."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.G.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Educación afectivo-sexual desde la perspectiva de la igualdad entre personas y el respeto a la diversidad sexual. La importancia de las prácticas sexuales responsables. La asertividad y el autocuidado. La prevención de infecciones de transmisión sexual (ITS) y de embarazos no deseados. El uso adecuado de métodos anticonceptivos y de métodos de prevención de ITS."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.G.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las drogas legales e ilegales: sus efectos perjudiciales sobre la salud de los consumidores y de quienes están en su entorno próximo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.G.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los hábitos saludables: su importancia en la conservación de la salud física, mental y social (higiene del sueño, hábitos posturales, uso responsable de las nuevas tecnologías, actividad física, autorregulación emocional, cuidado y corresponsabilidad, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.G.05"
+            }
+          ]
+        },
+        {
+          "codigo": "H",
+          "nombre": {
+            "es": "Salud y enfermedad"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de enfermedades infecciosas y no infecciosas: diferenciación según su etiología."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.1.H.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Medidas de prevención y tratamientos de las enfermedades infecciosas en función de su agente causal y la importancia del uso adecuado de los antibióticos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.1.H.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las barreras del organismo frente a los patógenos (mecánicas, estructurales, bioquímicas y biológicas)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.1.H.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mecanismos de defensa del organismo frente a agentes patógenos (barreras externas y sistema inmunitario): su papel en la prevención y superación de enfermedades infecciosas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.1.H.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de la vacunación en la prevención de enfermedades y en la mejora de la calidad de vida humana."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.1.H.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los trasplantes y la importancia de la donación de órganos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.1.H.06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos (modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos, páginas web, etc.), manteniendo una actitud crítica y obteniendo conclusiones fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-3-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Facilitar la comprensión y análisis de información sobre procesos biológicos y geológicos o trabajos científicos transmitiéndola de forma clara y utilizando la terminología y los formatos adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos, contenidos digitales, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-3-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas, utilizando, cuando sea necesario, los pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-3-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar en las actividades de divulgación y fomento de la ciencia, junto con el reconocimiento de los científicos y científicas de nuestra Comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-3-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver cuestiones sobre Biología y Geología localizando, seleccionando y organizando información de distintas fuentes y citándolas correctamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              44
+            ]
+          },
+          "id": "cri-3-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Reconocer la información sobre temas biológicos y geológicos con base científica, distinguiéndola de pseudociencias, bulos, teorías conspiratorias y creencias infundadas y manteniendo una actitud escéptica ante estos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella con independencia de su etnia, sexo o cultura, destacando y reconociendo el papel de las mujeres científicas y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-2-3"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear preguntas e hipótesis e intentar realizar predicciones sobre fenómenos biológicos o geológicos que puedan ser respondidas o contrastadas utilizando métodos científicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar la experimentación, la toma de datos y el análisis de fenómenos biológicos y geológicos de modo que permitan responder a preguntas concretas y contrastar una hipótesis planteada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar experimentos y tomar datos cuantitativos o cualitativos sobre fenómenos biológicos y geológicos utilizando los instrumentos, herramientas o técnicas adecuadas con corrección."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-3-3"
+        },
+        {
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-3-4"
+        },
+        {
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Cooperar dentro de un proyecto científico asumiendo responsablemente una función concreta, utilizando espacios virtuales cuando sea necesario, respetando la diversidad y la igualdad de género, y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-3-5"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas o dar explicación a procesos biológicos o geológicos utilizando conocimientos, datos e información proporcionados por el docente, el razonamiento lógico, el pensamiento computacional o recursos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-4-2"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Relacionar, con fundamentos científicos, la preservación de la biodiversidad, la conservación del medio ambiente, la protección de los seres vivos del entorno, el desarrollo sostenible y la calidad de vida, situando el estudio de Cantabria como eje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              45
+            ]
+          },
+          "id": "cri-3-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar hábitos sostenibles, analizando de una manera crítica las actividades propias y ajenas a partir de los propios razonamientos, de los conocimientos adquiridos y de la información disponible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-3-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar hábitos saludables, analizando las acciones propias y ajenas con actitud crítica y a partir de fundamentos fisiológicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-3-5-3"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Valorar la importancia del paisaje como patrimonio natural analizando la fragilidad de los elementos que lo componen."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-3-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Interpretar el paisaje analizando sus elementos y reflexionando sobre el impacto ambiental y los riesgos naturales derivados de determinadas acciones humanas, identificando las relacionadas con Cantabria."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-3-6-2"
+        },
+        {
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reflexionar sobre los riesgos naturales mediante el análisis de los elementos de un paisaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              46
+            ]
+          },
+          "id": "cri-3-6-3"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyecto científico"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hipótesis, preguntas y conjeturas: planteamiento con perspectiva científica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.3.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas científicas: herramientas digitales y formatos de uso frecuente en ciencia (presentación, gráfica, vídeo, póster, informe, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.3.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuentes fidedignas de información científica: reconocimiento y utilización."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.3.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La respuesta a cuestiones científicas mediante la experimentación y el trabajo de campo: utilización de los instrumentos y espacios necesarios (laboratorio, aulas, entorno, etc.) de forma adecuada."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.3.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelado como método de representación y comprensión de procesos o elementos de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.3.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de observación y de toma de datos de fenómenos naturales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.3.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de análisis de resultados. Diferenciación entre correlación y causalidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.3.A.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La labor científica y las personas dedicadas a la ciencia: contribución a las ciencias biológicas y geológicas e importancia social. Científicos y científicas de nuestra Comunidad. El papel de la mujer en la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  46
+                ]
+              },
+              "id": "BG.3.A.08"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Geología"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conceptos de roca y mineral: características y propiedades."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de clasificación de las rocas: sedimentarias, metamórficas e ígneas. El ciclo de las rocas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Rocas y minerales relevantes o del entorno: identificación. Yacimientos más importantes de Cantabria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Usos de los minerales y las rocas: su utilización en la fabricación de materiales y objetos cotidianos. Recursos geológicos de Cantabria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La estructura básica de la geosfera."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.B.05"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La célula"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Niveles de organización de la materia. La célula como unidad estructural y funcional de los seres vivos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La célula procariota, la célula eucariota animal y la célula eucariota vegetal, y sus partes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Observación y comparación de muestras microscópicas"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.C.03"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Seres vivos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los seres vivos: diferenciación y clasificación en los principales reinos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los principales grupos taxonómicos: observación de especies del entorno y clasificación a partir de sus características distintivas. Especies más representativas de Cantabria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las especies del entorno: estrategias de identificación (guías, claves dicotómicas, herramientas digitales, visu, lupa, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.D.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los animales como seres sintientes: semejanzas y diferencias con los seres vivos no sintientes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.D.04"
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Ecología y sostenibilidad"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los ecosistemas del entorno, sus componentes bióticos y abióticos y los tipos de relaciones intraespecíficas e interespecíficas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.E.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de la conservación de los ecosistemas, la biodiversidad y la implantación de un modelo de desarrollo sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.E.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las funciones de la atmósfera y la hidrosfera y su papel esencial para la vida en la Tierra."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.E.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las interacciones entre atmósfera, hidrosfera, geosfera y biosfera, su papel en la edafogénesis y en el modelado del relieve y su importancia para la vida. Relieve de Cantabria. Las funciones del suelo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  47
+                ]
+              },
+              "id": "BG.3.E.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las causas del cambio climático y sus consecuencias sobre los ecosistemas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.E.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de los hábitos sostenibles (consumo responsable, prevención y gestión de residuos, respeto al medio ambiente, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.E.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La relación entre la salud medioambiental, humana y de otros seres vivos: “one health” (una sola salud)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.E.07"
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Cuerpo humano"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Importancia de la función de nutrición. Los aparatos que participan en ella."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.F.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Anatomía y fisiología básicas de los aparatos digestivo, respiratorio, circulatorio, excretor y reproductor."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.F.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Visión general de la función de relación: receptores sensoriales, centros de coordinación y órganos efectores."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.F.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relación entre los principales sistemas y aparatos del organismo implicados en las funciones de nutrición, relación y reproducción mediante la aplicación de conocimientos de fisiología y anatomía."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.F.04"
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Hábitos saludables"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Características y elementos propios de una dieta saludable y su importancia. Enfermedades más frecuentes relacionadas con la función de nutrición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.G.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conceptos de sexo y sexualidad: importancia del respeto hacia la libertad y la diversidad sexual y hacia la igualdad de género, dentro de una educación sexual integral como parte de un desarrollo armónico."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.G.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Educación afectivo-sexual desde la perspectiva de la igualdad entre personas y el respeto a la diversidad sexual. La importancia de las prácticas sexuales responsables. La asertividad y el autocuidado. La prevención de infecciones de transmisión sexual (ITS) y de embarazos no deseados. El uso adecuado de métodos anticonceptivos y de métodos de prevención de ITS."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.G.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las drogas legales e ilegales: sus efectos perjudiciales sobre la salud de los consumidores y de quienes están en su entorno próximo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.G.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los hábitos saludables: su importancia en la conservación de la salud física, mental y social (higiene del sueño, hábitos posturales, uso responsable de las nuevas tecnologías, actividad física, autorregulación emocional, cuidado y corresponsabilidad, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.G.05"
+            }
+          ]
+        },
+        {
+          "codigo": "H",
+          "nombre": {
+            "es": "Salud y enfermedad"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de enfermedades infecciosas y no infecciosas: diferenciación según su etiología."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  48
+                ]
+              },
+              "id": "BG.3.H.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Medidas de prevención y tratamientos de las enfermedades infecciosas en función de su agente causal y la importancia del uso adecuado de los antibióticos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.3.H.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las barreras del organismo frente a los patógenos (mecánicas, estructurales, bioquímicas y biológicas)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.3.H.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mecanismos de defensa del organismo frente a agentes patógenos (barreras externas y sistema inmunitario): su papel en la prevención y superación de enfermedades infecciosas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.3.H.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La importancia de la vacunación en la prevención de enfermedades y en la mejora de la calidad de vida humana."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.3.H.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los trasplantes y la importancia de la donación de órganos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  49
+                ]
+              },
+              "id": "BG.3.H.06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos (modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos, páginas web, etc.), manteniendo una actitud crítica, obteniendo conclusiones y formando opiniones propias fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              49
+            ]
+          },
+          "id": "cri-4-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Transmitir opiniones propias fundamentadas e información sobre Biología y Geología de forma clara y rigurosa, facilitando su comprensión y análisis mediante el uso de la terminología y el formato adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos, contenidos digitales, etc.)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              49
+            ]
+          },
+          "id": "cri-4-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y explicar fenómenos biológicos y geológicos representándolos mediante el diseño y la realización de modelos y diagramas y utilizando, cuando sea necesario, los pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              49
+            ]
+          },
+          "id": "cri-4-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar en las actividades de divulgación y fomento de la ciencia, junto con el reconocimiento de los científicos y científicas de nuestra Comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              49
+            ]
+          },
+          "id": "cri-4-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver cuestiones y profundizar en aspectos biológicos y geológicos localizando, seleccionando, organizando y analizando críticamente la información de distintas fuentes y citándolas con respeto por la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              49
+            ]
+          },
+          "id": "cri-4-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Contrastar la veracidad de la información sobre temas biológicos y geológicos o trabajos científicos, utilizando fuentes fiables y adoptando una actitud crítica y escéptica hacia informaciones sin una base científica como pseudociencias, teorías conspiratorias, creencias infundadas, bulos, etc."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              50
+            ]
+          },
+          "id": "cri-4-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando el papel de la mujer y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución influida por el contexto político y los recursos económicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              50
+            ]
+          },
+          "id": "cri-4-2-3"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear preguntas e hipótesis que puedan ser respondidas o contrastadas utilizando métodos científicos, en la explicación de fenómenos biológicos y geológicos y la realización de predicciones sobre estos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              50
+            ]
+          },
+          "id": "cri-4-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar la experimentación, la toma de datos y el análisis de fenómenos biológicos y geológicos de modo que permitan responder a preguntas concretas y contrastar una hipótesis planteada evitando sesgos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              50
+            ]
+          },
+          "id": "cri-4-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar experimentos y tomar datos cuantitativos o cualitativos sobre fenómenos biológicos y geológicos utilizando los instrumentos, herramientas o técnicas adecuadas con corrección y precisión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              50
+            ]
+          },
+          "id": "cri-4-3-3"
+        },
+        {
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Interpretar y analizar los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas y obteniendo conclusiones razonadas y fundamentadas o valorar la imposibilidad de hacerlo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              50
+            ]
+          },
+          "id": "cri-4-3-4"
+        },
+        {
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Cooperar y colaborar en las distintas fases de un proyecto científico para trabajar con mayor eficiencia, valorando la importancia de la cooperación en la investigación, respetando la diversidad y la igualdad de género, y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              50
+            ]
+          },
+          "id": "cri-4-3-5"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas o dar explicación a procesos biológicos o geológicos utilizando conocimientos, datos e información proporcionados por el docente, el razonamiento lógico, el pensamiento computacional o recursos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              50
+            ]
+          },
+          "id": "cri-4-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos, cambiando los procedimientos utilizados o las conclusiones si dicha solución no fuese viable o ante nuevos datos aportados con posterioridad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              50
+            ]
+          },
+          "id": "cri-4-4-2"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar, de forma general, los posibles riesgos naturales, y en particular los de Cantabria, potenciados por determinadas acciones humanas sobre una zona geográfica, teniendo en cuenta sus características litológicas, relieve, vegetación y factores socioeconómicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              51
+            ]
+          },
+          "id": "cri-4-5-1"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Deducir y explicar la historia geológica de un relieve identificando sus elementos más relevantes a partir de cortes, mapas u otros sistemas de información geológica y utilizando el razonamiento, los principios geológicos básicos (horizontalidad, superposición, actualismo, etc.) y las teorías geológicas más relevantes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              51
+            ]
+          },
+          "id": "cri-4-6-1"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyecto científico"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hipótesis, preguntas y conjeturas: planteamiento con perspectiva científica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas científicas: herramientas digitales y formatos de uso frecuente en ciencia (presentación, gráfica, vídeo, póster, informe, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuentes fidedignas de información científica: reconocimiento y utilización."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Controles experimentales (positivos y negativos): diseño e importancia para la obtención de resultados científicos objetivos y fiables."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Respuesta a cuestiones científicas mediante la experimentación y el trabajo de campo: utilización de los instrumentos y espacios necesarios (laboratorio, aulas, entorno, etc.) de forma adecuada y precisa."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelado para la representación y comprensión de procesos o elementos de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de observación y de toma de datos de fenómenos naturales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de análisis de resultados. Diferenciación entre correlación y causalidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La labor científica y las personas dedicadas a la ciencia: contribución a las ciencias biológicas y geológicas e importancia social. Científicos y científicas de nuestra Comunidad. El papel de la mujer en la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La evolución histórica del saber científico: la ciencia como labor colectiva, interdisciplinar y en continua construcción."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  51
+                ]
+              },
+              "id": "BG.4.A.10"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Geología"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relieve y paisaje: diferencias, su importancia como recursos y factores que intervienen en su formación y modelado."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura y dinámica de la geosfera. Métodos de estudio."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los efectos globales de la dinámica de la geosfera desde la perspectiva de la tectónica de placas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Procesos geológicos externos e internos, reconociendo principalmente los que afectan a nuestra Comunidad: diferencias y relación con los riesgos naturales, analizando los que más afectan a Cantabria. Papel del ser humano en sus causas y consecuencias. Medidas de prevención y mapas de riesgos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los cortes geológicos: interpretación y trazado de la historia geológica que reflejan mediante la aplicación de los principios de estudio de la historia de la Tierra (horizontalidad, superposición, intersección, sucesión faunística, etc.)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.B.05"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La célula"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las fases del ciclo celular."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La función biológica de la mitosis, la meiosis y sus fases."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Destrezas de observación de las distintas fases de la mitosis al microscopio."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.C.03"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Genética y evolución"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelo simplificado de la estructura del ADN y del ARN y relación con su función y síntesis."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de extracción de ADN de una célula eucariota."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Etapas de la expresión génica, características del código genético y resolución de problemas relacionados con estas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.D.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relación entre las mutaciones, la replicación del ADN, el cáncer, la evolución y la biodiversidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.D.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El proceso evolutivo de las características de una especie determinada a la luz de la teoría neodarwinista y de otras teorías con relevancia histórica (lamarckismo y darwinismo)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.D.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fenotipo y genotipo: definición y diferencias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.D.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de resolución de problemas sencillos de herencia genética de caracteres con relación de dominancia y recesividad con uno o dos genes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.D.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de resolución de problemas sencillos de herencia del sexo y de herencia genética de caracteres con relación de codominancia, dominancia incompleta, alelismo múltiple y ligada al sexo con uno o dos genes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  52
+                ]
+              },
+              "id": "BG.4.D.08"
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "La Tierra en el universo"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El origen del universo y del sistema solar."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  53
+                ]
+              },
+              "id": "BG.4.E.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Componentes del sistema solar: estructura y características."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  53
+                ]
+              },
+              "id": "BG.4.E.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hipótesis sobre el origen de la vida en la Tierra."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  53
+                ]
+              },
+              "id": "BG.4.E.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales métodos de estudio."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  53
+                ]
+              },
+              "id": "BG.4.E.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales investigaciones en el campo de la astrobiología."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  53
+                ]
+              },
+              "id": "BG.4.E.05"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores individuales de saberes son internos del proyecto, no códigos oficiales. Los ordinales publicados en los saberes se conservan en numeracionFuente, cuando existen.",
+      "Los descriptores operativos se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "Los desarrollos publicados para un grupo de cursos se reproducen en los cursos en que se oferta la materia, conservando su carácter compartido: la repetición no atribuye una secuenciación por curso que la fuente no publica.",
+      "La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.",
+      "aplicableDesdeCurso indica el primer curso académico de implantación en los cursos de esta materia: 2022/2023 si incluye 1.º o 3.º, y 2023/2024 si solo se oferta en 2.º o 4.º, según el calendario normativo.",
+      "La disposición final tercera del Decreto 73/2022 fija la entrada en vigor al inicio del curso 2022/2023, sin un día concreto; entradaEnVigor queda en null. Se implanta en 1.º y 3.º en 2022/2023 y en 2.º y 4.º en 2023/2024."
+    ]
+  }
+}

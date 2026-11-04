@@ -11,7 +11,7 @@ Cada comunidad autónoma mantiene su propio archivo para que la revisión pueda 
 | Asturias | [Consultar incidencias](incidencias/es-as.md) | 69 | 0 |
 | Illes Balears | [Consultar incidencias](incidencias/es-ib.md) | 17 | 0 |
 | Canarias | [Consultar incidencias](incidencias/es-cn.md) | 21 | 0 |
-| Cantabria | [Consultar incidencias](incidencias/es-cb.md) | 22 | 0 |
+| Cantabria | [Consultar incidencias](incidencias/es-cb.md) | 63 | 0 |
 
 ## Convenciones generales
 

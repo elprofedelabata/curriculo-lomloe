@@ -1,0 +1,922 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.eso.cultura-clasica-ii",
+  "territorio": "es-cb",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "CCII",
+    "nombre": {
+      "es": "Cultura Clásica II"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-correccion-orden-edu-40-2022",
+      "tipo": "otro",
+      "titulo": "Corrección de errores de la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "162",
+      "fechaPublicacion": "2022-08-23",
+      "cve": "CVE-2022-6440",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "paginasMateria": {
+        "desde": 22,
+        "hasta": 30
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-eso-orden-edu-40-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6238",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006"
+    },
+    {
+      "id": "es-cb-eso-bachillerato-orden-edu-36-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/36/2024, de 18 de julio, que modifica la Orden ECD/78/2018, de 26 de junio, que regula el programa ESPADE (ESPecial Atención al DEporte), para la conciliación de estudios y entrenamiento deportivo de alumnos que cursan Educación Secundaria Obligatoria y Bachillerato, así como el acceso a dicho programa en el ámbito de gestión de la Consejería de Educación, Cultura y Deporte del Gobierno de Cantabria, y la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "145",
+      "fechaPublicacion": "2024-07-29",
+      "cve": "CVE-2024-6130",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "paginasMateria": {
+        "desde": 17,
+        "hasta": 18
+      },
+      "anexo": "III"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Cultura Clásica se puede cursar como optativa en uno o en los dos cursos del segundo ciclo de la etapa.",
+      "La secuenciación de los saberes básicos en los dos cursos se plantea como perspectivas complementarias de aproximación a la cultura clásica, por lo que no es necesario haber cursado Cultura Clásica I para poder cursar Cultura Clásica II.",
+      "Cultura Clásica supone una importante aproximación humanística al presente desde una perspectiva histórica, social, cultural, política, literaria y lingüística al legado de Grecia y Roma en nuestra cultura que permite a los jóvenes estudiantes de Secundaria, independientemente de la trayectoria académica que vayan a continuar, tener un contacto con el Mundo Clásico para conocer el origen de nuestro régimen político, las bases del arte, de los deportes modernos; conocer su mitología y su literatura y, además, el caudal léxico del griego y del latín.",
+      "Las Humanidades facilitan la adquisición de competencias para la vida en democracia y el diálogo intercultural, y proporcionan un sustrato cultural que permite comprender el mundo y contribuye a la educación cívica y cultural del alumnado.",
+      "El estudio del patrimonio lingüístico, histórico, cultural, arqueológico, literario y artístico de Grecia y Roma permite comprender críticamente ideas relativas a la propia identidad, a la vida pública y privada y a hechos sociopolíticos e históricos que permiten desarrollar la competencia ciudadana y abordar, desde el interés de la sostenibilidad del legado material, conocer la herencia directa de ambas civilizaciones. Esta materia tiene, además, un valor instrumental para el aprendizaje de otras lenguas.",
+      "El currículo de Cultura Clásica está organizado en torno a la herencia léxica y distintos aspectos de la cultura y civilizaciones griega y romana, para fomentar un análisis crítico entre el pasado y el presente y favorecer el desarrollo personal y social del alumnado y la transmisión de valores universales.",
+      "Entender y valorar la cultura grecolatina posibilita un acercamiento a las fuentes de nuestra civilización, es decir, a los fundamentos de las ciencias, del arte, de la literatura y del pensamiento de nuestro mundo moderno.",
+      "Las competencias específicas de Cultura Clásica han sido diseñadas a partir de los descriptores operativos de las competencias clave en esta etapa, especialmente la competencia lingüística, ciudadana y en conciencia y expresiones culturales. Estas competencias ofrecen la oportunidad de establecer un diálogo profundo entre pasado y presente desde una perspectiva crítica y humanística, y se estructuran en torno a dos ejes: el lingüístico y el cultural.",
+      "La materia de Cultura Clásica favorece la construcción de una ciudadanía europea democrática y libre de prejuicios, trabajando la cultura grecorromana como punto de encuentro de las distintas realidades que conforman la actual identidad europea.",
+      "Los saberes básicos que conducen a la adquisición de las competencias específicas de la materia de Cultura Clásica están organizados en cinco bloques en torno a dos ejes: el eje lingüístico se orienta a analizar la relación de parentesco que existe entre las lenguas clásicas y lenguas que se hablan en la actualidad y forman parte del repertorio lingüístico del alumnado. El estudio del origen y evolución de esta familia lingüística va acompañado de la descripción del marco geográfico en el que tiene lugar dicha evolución prestando especial atención al papel que el griego y el latín han desempeñado en la configuración de las lenguas modernas y en la conformación del pensamiento: el griego, por el uso que ha hecho de sus raíces el lenguaje de la ciencia para la formación de su léxico; el latín, por ser la lengua de la que derivan directamente todas las lenguas romances.",
+      "En el ámbito no lingüístico se engloban los demás saberes básicos (geografía, historia, mitología, religión, arte, sociedad, literatura y pervivencia en la actualidad) enfocados a iniciar al alumno en el conocimiento de los aspectos más relevantes y característicos de la cultura grecorromana, desde una perspectiva humanística y crítica.",
+      "En Cultura Clásica I los saberes básicos se organizan en cinco bloques: el primero, Geografía e historia, sitúa adecuadamente en el tiempo y en el espacio los acontecimientos y personajes más destacados de la historia de las civilizaciones griega y romana y el proceso de la Romanización. El segundo bloque, Sociedad y vida cotidiana, destaca los elementos que contribuyen a una mejor comprensión de los distintos aspectos que subyacen en la actividad humana de cualquier época desde una aproximación crítica. El tercero, Mitología y arte, presta especial atención a la mitología, cuya influencia resulta decisiva para la configuración del imaginario occidental, y a los principales estilos artísticos del mundo grecorromano y su pervivencia. El cuarto bloque, Lengua y léxico, permite realizar transferencias entre distintas lenguas y ampliar el repertorio léxico del alumnado, lo que propicia un trabajo interdisciplinar. El quinto bloque, Legado y patrimonio, ayuda a observar y reconocer la herencia grecorromana en nuestra vida cotidiana y desarrollar actitudes no solo críticas, sino que favorezcan la sostenibilidad de su legado material.",
+      "En Cultura Clásica II los saberes básicos se organizan también en cinco bloques, con saberes relacionados pero diferentes de los tratados en Cultura Clásica I, lo que permite profundizar en algunos saberes a los alumnos que la hayan cursado y que puedan cursarla con éxito los que no lo hayan hecho con anterioridad. El primer bloque, Geografía e historia, permite comprender los orígenes de lo que denominamos hoy civilización occidental y analizar los sistemas políticos antiguos. El segundo, Mitología y religión, además del conocimiento de diferentes mitos y de las manifestaciones más significativas de la religiosidad oficial y privada, aborda el análisis de prácticas oraculares y adivinatorias. El tercer bloque, Arte y literatura, se centra en las distintas manifestaciones artísticas que nos han legado las civilizaciones griega y romana y que constituyen en gran medida los modelos y precedentes de muchas de las producciones actuales: por una parte, la escultura y arquitectura, cuyas huellas perviven como parte de nuestro patrimonio artístico, y por otra, las literarias, cuya configuración en géneros determinan toda nuestra tradición literaria. El cuarto bloque, Lengua y léxico, amplía el conocimiento de nuestra propia lengua y permite al alumnado emplear de forma más precisa la terminología común y científico-técnica. El quinto bloque, Legado y patrimonio, permite la aproximación a la herencia grecorromana como una de las principales raíces de la cultura europea y apreciar la herencia clásica como referente de nuestra propia cultura.",
+      "La distribución de los saberes básicos en estos bloques implica un tratamiento específico, pero se espera que el alumnado ponga en marcha todos los saberes en diferentes situaciones de aprendizaje planteadas de manera progresiva a lo largo del curso. Para ello, es recomendable plantear tareas significativas, relevantes y, en lo posible, interdisciplinares.",
+      "Los criterios de evaluación aseguran la adquisición de las competencias, por lo que se presentan vinculados a ellas y plantean el proceso o capacidad que el alumnado debe adquirir.",
+      "Están diseñados para comprobar el grado de consecución de las competencias específicas. Las habilidades que parten de los conocimientos adquiridos, tales como la identificación, el reconocimiento o la inferencia de significados, se complementan con estrategias basadas en procesos interrelacionados, como la interpretación de textos o pasajes, la reflexión sobre la relación entre las lenguas o la valoración crítica del legado de las civilizaciones griega y romana.",
+      "El estudio de la cultura grecorromana debe conducir a una reflexión sobre el papel del individuo en la historia y en la sociedad. Se espera que el alumnado tome conciencia acerca del origen clásico de nuestra sociedad —nuestras convenciones sociales, nuestras instituciones, nuestras producciones culturales, nuestra lengua...— utilizando diferentes herramientas para esa reflexión. Los procesos de autoevaluación y coevaluación facilitan esta toma de conciencia, especialmente por medio de herramientas de reflexión sobre el propio aprendizaje como el entorno personal de aprendizaje, el portfolio lingüístico, el diario de lectura o el trabajo de investigación."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Localizar y describir los diferentes marcos geográficos en los que se desarrollan las civilizaciones griega y romana conociendo sus sistemas políticos y valorando la presencia de ambas civilizaciones en la Península Ibérica."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "CP3",
+        "CC1",
+        "CD1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          27
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con la localización geográfica de las civilizaciones griega y romana el alumnado determina los aspectos del marco geográfico en el que se sitúan dichas civilizaciones en el momento de su apogeo, valorando a través de ello aspectos históricos esenciales de Europa.",
+          "El conocimiento de las instituciones y las formas de vida de griegos y romanos, la organización de su sociedad a lo largo de la historia, las diferentes formas de gobierno y magistraturas, los sistemas de participación ciudadana y derechos y deberes de los ciudadanos que han sentado las bases de nuestra civilización, supone reflexionar sobre este hecho e implica un diálogo respetuoso con la antigüedad clásica y favorece la consolidación de una ciudadanía democrática y comprometida. Ofrece, además, una excelente oportunidad para desarrollar técnicas y estrategias de debate y expresión oral en el aula en consonancia con la tradición clásica de la oratoria."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Reconocer los diferentes tipos de mitos comparando las características de la religiosidad y religión grecolatina con las actuales a través de la relación con sus creencias, cultos y ritos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CD1",
+        "CC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          27
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El análisis de las características de la civilización clásica y su aportación a la identidad europea supone recibir información expresada a través de fuentes griegas y romanas, activando las estrategias adecuadas para poder reflexionar sobre las características de su legado y su presencia en esta sociedad. Esta competencia específica basada en el reconocimiento y comparación en temas de religión y religiosidad tiene como parte fundamental el reconocimiento y la comparación de las creencias, ritos y cultos de la antigüedad clásica con los existentes en la actualidad.",
+          "El estudio de la religión griega y romana presta especial atención a la mitología, cuya influencia resulta decisiva para la configuración del imaginario occidental y, además, a las manifestaciones más significativas de la religiosidad oficial.",
+          "Los procesos de comparación requieren contextos de reflexión y comunicación dialógicos y respetuosos con la herencia de la antigüedad clásica y con las diferencias culturales que tienen su origen en ella y orientados a la consolidación de una ciudadanía comprometida con el mundo que le rodea."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Conocer las características fundamentales del arte clásico localizando los principales monumentos clásicos de la Península Ibérica. Clasificar los géneros literarios clásicos, sus principales autores y su pervivencia en las literaturas actuales."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CCL4",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          27,
+          28
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El patrimonio cultural, arqueológico y artístico clásico tiene importancia suficiente como para merecer una atención específica por ser la herencia directa de la civilización clásica. El reconocimiento de la herencia material requiere la observación directa e indirecta del patrimonio, utilizando diversos recursos, incluidos los que proporcionan las tecnologías de la información y la comunicación.",
+          "El conocimiento de las creaciones literarias contribuye a hacer más inteligibles las obras actuales, identificando y valorando su pervivencia en nuestro patrimonio cultural y sus procesos de adaptación a las diferentes culturas y movimientos literarios, culturales y artísticos que han tomado sus referencias de modelos antiguos en la creación de tópicos y recursos literarios empleados en la actualidad.",
+          "La mediación docente permitirá al alumnado a conocer y clasificar los géneros literarios clásicos, sus principales autores y la pervivencia en las literaturas favoreciendo la creación autónoma de itinerarios de lectores que aumentan progresivamente su complejidad, calidad y diversidad a lo largo de la vida."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Conocer las reglas básicas para la evolución de latín al castellano distinguiendo términos patrimoniales y cultismos y reconociendo en los diferentes léxicos, topónimos y antropónimos el origen griego y romano."
+      },
+      "descriptoresOperativosRefs": [
+        "CP2",
+        "CP3",
+        "CCL2",
+        "STEM1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          28
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La introducción a los elementos básicos de la etimología y el léxico desde un enfoque plurilingüe permite al alumno activar su repertorio lingüístico individual, relacionando las lenguas que lo componen e identificando en ella raíces, prefijos y sufijos latinos, y reflexionando sobre los posibles cambios fonéticos que hayan tenido lugar a lo largo del tiempo. Esta competencia específica favorece un aprendizaje interconectado con las lenguas clásicas, reconociendo el carácter del latín como lengua de origen de diferentes lenguas modernas y el griego como lengua presente en gran parte del léxico de dichas lenguas con el objetivo de apreciar la variedad de perfiles lingüísticos, y contribuyendo a la identificación, valoración y respeto de la diversidad lingüística, dialectal y cultural para la construcción de una cultura compartida.",
+          "El estudio del léxico de la lengua griega ayuda a mejorar la comprensión lectora y la expresión oral y escrita, así como a consolidar y a ampliar el repertorio léxico del alumnado ofreciéndole la posibilidad de definir el significado etimológico de un término, y de inferir significados de términos nuevos tanto del ámbito humanístico como científico-tecnológico sin olvidar el origen griego y latino de topónimos de nuestra geografía y antropónimos."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Reconocer la presencia de la civilización clásica en los ámbitos artísticos, científicos, sociales y políticos apreciando y valorando la influencia de la historia de Grecia y Roma en la configuración política, social y cultural de Europa."
+      },
+      "descriptoresOperativosRefs": [
+        "CP3",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          28
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El legado de la civilización clásica material como inmaterial (mitos y leyendas, restos arqueológicos, representaciones teatrales, usos sociales, sistemas de pensamiento filosófico, modos de organización política…) constituye una herencia excepcional cuya sostenibilidad implica encontrar el justo equilibrio entre sacar provecho del patrimonio cultural en el presente y preservar su riqueza para las generaciones futuras.",
+          "En este sentido la preservación del patrimonio clásico requiere el compromiso de una ciudadanía interesada en conservar su valor como memoria colectiva del pasado y en revisar y actualizar sus funciones sociales y culturales, para ser capaces de relacionarlos con los problemas actuales. Esto implica el uso de recursos, tanto analógicos como digitales, para acceder a fuentes de información como bibliotecas, museos o excavaciones."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Enumerar aspectos del marco geográfico que pueden ser considerados determinantes en el desarrollo de las civilizaciones griega y romana aportando ejemplos que los ilustren."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Distinguir con precisión las diferentes etapas de la historia de Grecia y Roma nombrando y situando en el tiempo los principales hitos asociados a cada una de ellas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Situar dentro de un eje cronológico el marco histórico en el que se desarrollan las civilizaciones griega y romana, señalando distintos períodos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer la presencia de griegos y romanos en la Península Ibérica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Nombrar el panteón grecorromano señalando los rasgos que los caracterizan, sus atributos y su ámbito de influencia, explicando su genealogía y estableciendo las relaciones entre los diferentes dioses."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Explicar las características de la religión griega, poniéndolas en relación con otros aspectos básicos de la cultura helénica y estableciendo comparaciones con manifestaciones religiosas propias de otras culturas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Explicar las características y organización de la religión romana, oficial y cultos privados, explicando sus rasgos fundamentales y estableciendo comparaciones con manifestaciones religiosas propias de otras culturas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-2-3"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reconocer las características esenciales de la arquitectura y escultura griegas y romanas en imágenes encuadrándolas en un período histórico e identificando en ellas motivos mitológicos, históricos y culturales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Describir las características y la función de las grandes obras públicas romanas explicando e ilustrando con ejemplos su importancia para el desarrollo del Imperio y su influencia en modelos urbanísticos posteriores."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Localizar y valorar en un mapa los principales monumentos clásicos del patrimonio español."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-3-3"
+        },
+        {
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Clasificar y conocer los géneros literarios grecolatinos comentando textos sencillos de autores clásicos e identificando a través de rasgos concretos el género y la época a la que pertenecen."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-3-4"
+        },
+        {
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reconocer a través de motivos, temas o personajes la influencia de la tradición grecolatina en textos de autores contemporáneos, explicando y comprendiendo la pervivencia de los géneros y los temas de la cultura grecolatina."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-3-5"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Identificar y diferenciar con cierto rigor cultismos y términos patrimoniales relacionándolos con el término de origen."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Explicar los procesos de evolución de algunos términos desde el étimo latino hasta sus respectivos derivados en diferentes lenguas romances, describiendo los principales fenómenos fonéticos producidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Explicar el significado de palabras del léxico actual, a partir del análisis de sus componentes y su etimología."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-4-3"
+        },
+        {
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reconocer y explicar el significado de algunos de los helenismos y latinismos más frecuentes utilizados en el léxico político, técnico y científico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-4-4"
+        },
+        {
+          "codigoOficial": "4.5",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reconocer y apreciar el origen griego y latino de numerosos topónimos y antropónimos en las lenguas conocidas por el alumnado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-4-4-5"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Señalar y describir aspectos básicos de la cultura y civilización grecolatina que han pervivido hasta la actualidad en las artes, en las ciencias y en los géneros literarios, reconociendo referencias mitológicas en las diferentes manifestaciones artísticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              30
+            ]
+          },
+          "id": "cri-4-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Analizar y valorar críticamente la influencia que han ejercido los distintos modelos políticos, sociales y filosóficos de la antigüedad clásica en la sociedad actual, estableciendo paralelismos entre las principales instituciones políticas y sociales y culturales europeas y sus antecedentes clásicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              30
+            ]
+          },
+          "id": "cri-4-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar aspectos básicos de la cultura europea con rasgos característicos de la cultura grecolatina, infiriendo a partir de esto elementos que prueban la influencia de la antigüedad clásica en la conformación de la cultura occidental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              30
+            ]
+          },
+          "id": "cri-4-5-3"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Bloque 1. Geografía e historia"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Marcos geográficos e históricos de las civilizaciones griega y romana a lo largo de la historia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "1",
+              "id": "CCII.4.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La presencia de griegos y romanos en la Península Ibérica. Relaciones con otras culturas. Roma e Iberia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "2",
+              "id": "CCII.4.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas políticos de Grecia y Roma."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "3",
+              "id": "CCII.4.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las polis griegas: oligarquía y democracia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "CCII.4.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La Monarquía, la República y el Imperio romano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "CCII.4.A.05"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Bloque 2. Mitología y religión"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El mito y sus tipos. Principales mitos griegos y romanos. El panteón grecorromano. Comparación con los héroes actuales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "1",
+              "id": "CCII.4.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La religiosidad antigua. El mundo de los muertos. Comparación con la religiosidad actual"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "2",
+              "id": "CCII.4.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Creencias, cultos y ritos. Profecías y adivinación. El oráculo de Delfos. La religión oficial y los cultos privados en Roma."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "3",
+              "id": "CCII.4.B.03"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Bloque 3. Arte y literatura"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Características fundamentales del arte clásico: arquitectura y escultura."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "1",
+              "id": "CCII.4.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El urbanismo y el diseño de las ciudades."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "2",
+              "id": "CCII.4.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Restos arqueológicos más significativos en la Península Ibérica. La Hispania de hoy."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "3",
+              "id": "CCII.4.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Origen y clasificación de los géneros literarios."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "4",
+              "id": "CCII.4.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La épica clásica: Homero y Virgilio."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "5",
+              "id": "CCII.4.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La lírica griega y romana: lírica arcaica y helenística griega. Catulo, Horacio y Ovidio."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "6",
+              "id": "CCII.4.C.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El teatro clásico: tragedia y comedia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "7",
+              "id": "CCII.4.C.07"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Bloque 4. Lengua y léxico"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Términos patrimoniales y cultismos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "1",
+              "id": "CCII.4.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nociones básicas de evolución del latín al castellano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "2",
+              "id": "CCII.4.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Etimología del léxico político de origen griego y latino."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "3",
+              "id": "CCII.4.D.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Helenismos y latinismos en el lenguaje común y el léxico científico técnico."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "4",
+              "id": "CCII.4.D.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Topónimos y antropónimos de origen griego y romano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "5",
+              "id": "CCII.4.D.05"
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Bloque 5. Legado y patrimonio"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Presencia de la civilización clásica en las artes, en las ciencias, en la organización social y política."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "1",
+              "id": "CCII.4.E.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Pervivencia de la mitología, los géneros, temas y tópicos literarios y legendarios en las literaturas actuales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "2",
+              "id": "CCII.4.E.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Influencia de la historia y el legado de la civilización de Grecia y Roma en la configuración política, social y cultural de Europa."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "3",
+              "id": "CCII.4.E.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Pervivencia de la tradición clásica en las culturas modernas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  30
+                ]
+              },
+              "numeracionFuente": "4",
+              "id": "CCII.4.E.04"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores individuales de saberes son internos del proyecto, no códigos oficiales. Los ordinales publicados en los saberes se conservan en numeracionFuente, cuando existen.",
+      "Los descriptores operativos se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "Los desarrollos publicados para un grupo de cursos se reproducen en los cursos en que se oferta la materia, conservando su carácter compartido: la repetición no atribuye una secuenciación por curso que la fuente no publica.",
+      "La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.",
+      "aplicableDesdeCurso indica el primer curso académico de implantación en los cursos de esta materia: 2022/2023 si incluye 1.º o 3.º, y 2023/2024 si solo se oferta en 2.º o 4.º, según el calendario normativo.",
+      "Los bloques se publican como Bloque 1, Bloque 2, etc., sin letras. Se les asignan letras internas para los identificadores del esquema y se conserva la cabecera numerada completa en nombre.",
+      "Las versiones I y II tienen competencias específicas diferentes y se representan en JSON separados para conservar su numeración y sus vínculos sin mezclarlos. Cultura Clásica I y II comparten la introducción general publicada antes del primer nivel."
+    ]
+  }
+}

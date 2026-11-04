@@ -2,7 +2,7 @@
   "territorio": "es-cb",
   "fecha": "2026-11-04",
   "estado": "extraccion-en-curso",
-  "criterioAgrupacion": "Una entrada por área, materia o ámbito curricular; se agrupan las versiones I y II y se conservan varios localizadores cuando una materia aparece en más de una fuente. El número definitivo de JSON se confirmará durante la extracción. Las páginas son posiciones del PDF completo, no la paginación impresa del boletín.",
+  "criterioAgrupacion": "Una entrada por currículo con competencias propias. Se mantienen agrupadas las variantes con competencias comunes, como Matemáticas A y B o Sistemas de Control y Robótica I y II. Conflictos Morales I y II y Cultura Clásica I y II se separan porque sus competencias son diferentes. Las páginas son posiciones del PDF completo.",
   "curriculos": [
     {
       "etapa": "infantil",
@@ -137,187 +137,202 @@
     {
       "etapa": "eso",
       "nombre": "Biología y Geología",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 37
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/biologia-y-geologia.json"
     },
     {
       "etapa": "eso",
       "nombre": "Digitalización",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 53
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/digitalizacion.json"
     },
     {
       "etapa": "eso",
       "nombre": "Economía y Emprendimiento",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 62
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/economia-y-emprendimiento.json"
     },
     {
       "etapa": "eso",
       "nombre": "Educación Física",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 74
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/educacion-fisica.json"
     },
     {
       "etapa": "eso",
       "nombre": "Educación Plástica, Visual y Audiovisual",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 93
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/educacion-plastica-visual-y-audiovisual.json"
     },
     {
       "etapa": "eso",
       "nombre": "Educación en Valores Cívicos y Éticos",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 104
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/educacion-en-valores-civicos-y-eticos.json"
     },
     {
       "etapa": "eso",
       "nombre": "Expresión Artística",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 114
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/expresion-artistica.json"
     },
     {
       "etapa": "eso",
       "nombre": "Física y Química",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 123
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/fisica-y-quimica.json"
     },
     {
       "etapa": "eso",
       "nombre": "Formación y Orientación Personal y Profesional",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 139
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/formacion-y-orientacion-personal-y-profesional.json"
     },
     {
       "etapa": "eso",
       "nombre": "Geografía e Historia",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 151
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/geografia-e-historia.json"
     },
     {
       "etapa": "eso",
       "nombre": "Latín",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 177
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/latin.json"
     },
     {
       "etapa": "eso",
       "nombre": "Lengua Castellana y Literatura",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 188
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/lengua-castellana-y-literatura.json"
     },
     {
       "etapa": "eso",
       "nombre": "Lengua Extranjera",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 214
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/lengua-extranjera.json"
     },
     {
       "etapa": "eso",
       "nombre": "Matemáticas",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 232
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/matematicas.json"
     },
     {
       "etapa": "eso",
       "nombre": "Música",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 261
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/musica.json"
     },
     {
       "etapa": "eso",
       "nombre": "Segunda Lengua Extranjera",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
@@ -330,228 +345,275 @@
           "paginaInicio": 65
         }
       ],
-      "notas": "Cotejar ambas publicaciones y extraer un único currículo, sin duplicar por fuente."
+      "notas": "Se usa el Decreto 73/2022 como base única, por decisión confirmada del usuario. Las dos publicaciones difieren; se mantienen ambas fuentes enlazadas y la comparación se documenta en COMPARACION-SEGUNDA-LENGUA-EXTRANJERA.md.",
+      "jsonPath": "data/es-cb/eso/materias/segunda-lengua-extranjera.json"
     },
     {
       "etapa": "eso",
       "nombre": "Tecnología",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
-          "paginaInicio": 58
+          "paginaInicio": 293
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/tecnologia.json"
     },
     {
       "etapa": "eso",
       "nombre": "Tecnología y Digitalización",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
           "anexo": "I-A",
           "paginaInicio": 305
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/tecnologia-y-digitalizacion.json"
     },
     {
       "etapa": "eso",
       "nombre": "Alimentación y Nutrición",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 1
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/alimentacion-y-nutricion.json"
     },
     {
       "etapa": "eso",
       "nombre": "Artes Escénicas y Danza",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 8
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/artes-escenicas-y-danza.json"
     },
     {
       "etapa": "eso",
-      "nombre": "Conflictos Morales de Nuestro Tiempo",
-      "estado": "pendiente-extraccion",
+      "nombre": "Conflictos Morales de Nuestro Tiempo I",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 13
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/conflictos-morales-de-nuestro-tiempo-i.json"
     },
     {
       "etapa": "eso",
-      "nombre": "Cultura Clásica",
-      "estado": "pendiente-extraccion",
+      "nombre": "Conflictos Morales de Nuestro Tiempo II",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
-          "paginaInicio": 22
+          "paginaInicio": 17
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/conflictos-morales-de-nuestro-tiempo-ii.json"
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Cultura Clásica I",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+          "anexo": "II",
+          "paginaInicio": 23
+        }
+      ],
+      "jsonPath": "data/es-cb/eso/materias/cultura-clasica-i.json",
+      "notas": "Introducción general común en páginas 22-23; cada nivel tiene competencias propias y se extrae por separado."
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Cultura Clásica II",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+          "anexo": "II",
+          "paginaInicio": 27
+        }
+      ],
+      "jsonPath": "data/es-cb/eso/materias/cultura-clasica-ii.json",
+      "notas": "Introducción general común en páginas 22-23; cada nivel tiene competencias propias y se extrae por separado."
     },
     {
       "etapa": "eso",
       "nombre": "Economía y Cultura Financiera",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 31
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/economia-y-cultura-financiera.json"
     },
     {
       "etapa": "eso",
       "nombre": "Iniciación a la Actividad Emprendedora y Empresarial",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 34
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/iniciacion-a-la-actividad-emprendedora-y-empresarial.json"
     },
     {
       "etapa": "eso",
       "nombre": "Iniciación a las Ciencias Experimentales Biología y Geología",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 39
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/iniciacion-a-las-ciencias-experimentales-biologia-y-geologia.json"
     },
     {
       "etapa": "eso",
       "nombre": "Introducción al Debate Filosófico",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 46
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/introduccion-al-debate-filosofico.json"
     },
     {
       "etapa": "eso",
       "nombre": "Patrimonio Histórico Artístico de Cantabria",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 51
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/patrimonio-historico-artistico-de-cantabria.json"
     },
     {
       "etapa": "eso",
       "nombre": "Patrimonio Natural de Cantabria",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 58
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/patrimonio-natural-de-cantabria.json"
     },
     {
       "etapa": "eso",
       "nombre": "Sistemas de Control y Robótica",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 78
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/sistemas-de-control-y-robotica.json"
     },
     {
       "etapa": "eso",
       "nombre": "Taller de Creatividad Musical",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 85
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/taller-de-creatividad-musical.json"
     },
     {
       "etapa": "eso",
       "nombre": "Taller de Iniciación a las Tecnologías de la Información y la Digitalización",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 89
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/taller-de-iniciacion-a-las-tecnologias-de-la-informacion-y-la-digitalizacion.json"
     },
     {
       "etapa": "eso",
       "nombre": "Taller de Lengua",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 93
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/taller-de-lengua.json"
     },
     {
       "etapa": "eso",
       "nombre": "Taller de Matemáticas",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 98
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/taller-de-matematicas.json"
     },
     {
       "etapa": "eso",
       "nombre": "Unión Europea",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
           "anexo": "II",
           "paginaInicio": 109
         }
-      ]
+      ],
+      "jsonPath": "data/es-cb/eso/materias/union-europea.json"
     },
     {
       "etapa": "eso",
       "nombre": "Tecnificación Deportiva",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
@@ -559,7 +621,8 @@
           "paginaInicio": 17
         }
       ],
-      "notas": "Materia vinculada al Programa ESPADE; su currículo de referencia es el de 2025."
+      "notas": "Materia vinculada al Programa ESPADE; su currículo de referencia es el de 2025.",
+      "jsonPath": "data/es-cb/eso/materias/tecnificacion-deportiva.json"
     },
     {
       "etapa": "bachillerato",
@@ -1238,24 +1301,28 @@
     {
       "etapa": "eso",
       "nombre": "Ámbito Lingüístico y Social",
-      "estado": "pendiente-definir-representacion",
+      "estado": "documentado-por-remision",
       "fuenteRef": "es-cb-eso-orden-edu-41-2022",
       "articulo": "5.1 y 5.4",
       "paginas": [
         3
       ],
-      "notas": "La norma organiza el ámbito y remite al currículo de las materias que lo integran. No se inventarán competencias, criterios, saberes ni códigos oficiales de un currículo autónomo del ámbito."
+      "notas": "Ficha informativa con materias base e incorporaciones opcionales del artículo 5; no se inventa un currículo autónomo del ámbito.",
+      "jsonPath": "data/es-cb/eso/ambitos-por-remision.json",
+      "fichaRef": "es-cb.eso.ambito-por-remision.linguistico-y-social"
     },
     {
       "etapa": "eso",
       "nombre": "Ámbito Científico-Tecnológico",
-      "estado": "pendiente-definir-representacion",
+      "estado": "documentado-por-remision",
       "fuenteRef": "es-cb-eso-orden-edu-41-2022",
       "articulo": "5.1 y 5.4",
       "paginas": [
         3
       ],
-      "notas": "La norma organiza el ámbito y remite al currículo de las materias que lo integran. No se inventarán competencias, criterios, saberes ni códigos oficiales de un currículo autónomo del ámbito."
+      "notas": "Ficha informativa con materias base e incorporaciones opcionales del artículo 5; no se inventa un currículo autónomo del ámbito.",
+      "jsonPath": "data/es-cb/eso/ambitos-por-remision.json",
+      "fichaRef": "es-cb.eso.ambito-por-remision.cientifico-tecnologico"
     }
   ]
 }

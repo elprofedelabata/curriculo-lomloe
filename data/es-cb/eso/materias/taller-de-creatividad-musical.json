@@ -1,0 +1,660 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.eso.taller-de-creatividad-musical",
+  "territorio": "es-cb",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "TCM",
+    "nombre": {
+      "es": "Taller de Creatividad Musical"
+    },
+    "cursos": [
+      {
+        "curso": 3,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-correccion-orden-edu-40-2022",
+      "tipo": "otro",
+      "titulo": "Corrección de errores de la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "162",
+      "fechaPublicacion": "2022-08-23",
+      "cve": "CVE-2022-6440",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "paginasMateria": {
+        "desde": 85,
+        "hasta": 89
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-eso-orden-edu-40-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6238",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006"
+    },
+    {
+      "id": "es-cb-eso-bachillerato-orden-edu-36-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/36/2024, de 18 de julio, que modifica la Orden ECD/78/2018, de 26 de junio, que regula el programa ESPADE (ESPecial Atención al DEporte), para la conciliación de estudios y entrenamiento deportivo de alumnos que cursan Educación Secundaria Obligatoria y Bachillerato, así como el acceso a dicho programa en el ámbito de gestión de la Consejería de Educación, Cultura y Deporte del Gobierno de Cantabria, y la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "145",
+      "fechaPublicacion": "2024-07-29",
+      "cve": "CVE-2024-6130",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "paginasMateria": {
+        "desde": 17,
+        "hasta": 18
+      },
+      "anexo": "III"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Esta materia tiene como finalidad ofrecer un cauce para que el alumnado explore, identifique y desarrolle sus propias posibilidades de expresión musical, teniendo en cuenta que la práctica musical contribuye a desarrollar los sentidos y la percepción; que ayuda también a pensar de forma positiva y flexible; que potencia la imaginación y que facilita estrategias para afrontar situaciones de maneras distintas. Así se potenciarán los ejes de expresión y comunicación que aluden al desarrollo de todas aquellas capacidades vinculadas a la interpretación, la improvisación y la creación musical, centrados en tres campos diferenciados, pero estrechamente relacionados: la expresión vocal, la expresión instrumental y el movimiento y la danza. En el desarrollo de estos campos se integrarán las tecnologías de la información y la comunicación que ofrecen diversidad de procedimientos y habilidades.",
+      "En definitiva, este Taller pretende establecer puntos de contacto entre la música que se aprende en las aulas y la vida cotidiana, creando los cauces necesarios para estimular en el alumnado el desarrollo de la percepción, la sensibilidad estética, la expresión creativa y la reflexión crítica, llegando a un grado de autonomía tal que posibilite la participación activa e informada en diferentes actividades vinculadas con la interpretación y la creación musical.",
+      "El Taller de creatividad musical debe potenciar todo tipo de estilos y repertorios, incorporando el gusto y las preferencias del alumnado, pero, simultáneamente, debe concebir los contenidos y el fenómeno musical desde una perspectiva creativa, intentando alcanzar una mayor participación en la música como intérprete. En este Taller el uso de las tecnologías de la información y la comunicación supone que la enseñanza no se desligue de las nuevas formas de hacer música de nuestra sociedad. Su introducción ayuda a al alumnado a entender cómo se escucha, cómo se ha hecho y se crea la música y, por tanto, potencia actitudes más conscientes y críticas hacia el hecho musical.",
+      "La interpretación, improvisación y creación escénica pretenden el aprendizaje de conceptos clave del lenguaje musical desde el entendimiento del aula como un espacio dinámico en el que el alumnado se sienta cómodo expresando sus ideas, tanto a través de la utilización meditada como del uso libre de distintos lenguajes. El trabajo basado en proyectos grupales les posibilitará descubrir la importancia de actitudes tales como la tolerancia y el respeto, así como la valoración de la perseverancia necesaria para el domino técnico de cualquier instrumento.",
+      "Esta materia contribuye a atender la diversidad del alumnado por su propia estructura y por el carácter de la misma, que permite una gran adaptación a las características e intereses del alumnado.",
+      "En virtud de mejorar las capacidades del alumnado se diseñarán diferentes situaciones de aprendizaje que contengan los saberes básicos y que, desde una visión global, permitan la aplicación de los conocimientos adquiridos previamente.",
+      "Con la finalidad de valorar el grado de consecución de cada una de las competencias específicas se han elaborado unos criterios de evaluación, los cuales se relacionan con ellas y establecen el nivel de profundización de los saberes en cada curso. Entendidos en su conjunto, dan una perspectiva completa del nivel de competencia musical que ha alcanzado el alumnado. La evaluación abarca tareas complejas en las que se valorará la realización de conexiones entre emociones y pensamiento de una manera original y expresiva. La evaluación debe ser considerada en primer lugar como un soporte al aprendizaje y dará información del desarrollo del aprendizaje, desde una perspectiva formativa tiene una función de regulación del proceso de enseñanza y sirve al profesorado como guía para ajustar la programación a las necesidades del alumnado. Por otra parte, en la valoración final actúa como certificadora del nivel de desarrollo competencial alcanzado teniendo en cuenta todas las actividades realizadas durante el curso escolar y el grado de desempeño alcanzado en ellas.",
+      "Por último, las situaciones de aprendizaje se deben articular para que el alumnado sea protagonista de su propio aprendizaje musical. Mediante la asunción de diferentes roles en distintas manifestaciones y propuestas artísticas, se puede convertir en parte viva de las intencionalidades del arte. La organización de la materia se debe programar desde la interpretación musical y buscar en la actuación ante diferentes tipos de público y en distintos escenarios, el compartir el disfrute musical a la vez que la difusión del patrimonio cultural. Programando diferentes tipos de tareas que involucren el uso de recursos variados se fomentará su adaptación a las diferentes necesidades del alumnado permitiendo la captación de su atención e interés."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Aplicar habilidades y técnicas propias de la interpretación musical, vocal, instrumental, de movimiento y danza, a través de la ejecución de propuestas musicales, para explorar sus posibilidades creativas y expresivas, controlar sus emociones y desarrollar la autoestima."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CPSAA1",
+        "CP1",
+        "CD2",
+        "CC2",
+        "CE3",
+        "CCEC2",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          86
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El trabajo de la expresión de manera grupal fomenta el respeto hacia la diversidad de opiniones, el enriquecimiento cultural entre iguales y la superación de barreras y estereotipos sociales. El desarrollo del lenguaje oral permite que se expresen ideas y conceptos simbólicos desarrollando la capacidad de comunicación del interlocutor.",
+          "Por otra parte, la expresión de los sentimientos puede realizarse a través de la música y la danza mediante la utilización libre de sus elementos y potenciando la experimentación sonora como fuente de creatividad y de expresión artística. La improvisación individual o grupal de pequeñas piezas, utilizando esquemas predefinidos y acordados por el conjunto es fuente de enriquecimiento y aprendizaje."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Crear propuestas artístico-musicales, de forma individual o grupal, a través de la voz, diferentes instrumentos, el cuerpo y el soporte de distintas herramientas tecnológicas para potenciar la creatividad e identificar de forma inclusiva las oportunidades de desarrollo personal, social y económico."
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA1",
+        "CPSAA3",
+        "CD1",
+        "CC1",
+        "CC2",
+        "CE3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          86
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La participación en el diseño de propuestas artístico-musicales implica el desempeño de diferentes roles dentro del trabajo grupo, fomentando el respeto y el valor del trabajo individual dentro del conjunto. En esta competencia se pone en práctica la capacidad de formular proyectos y desarrollarlos, fusionando los conocimientos adquiridos de manera global, para plasmarlos en un proceso de creación propia. La utilización de medios digitales facilita la conjugación de diferentes elementos musicales y visuales, y la realización de propuestas artísticas del alumnado que les permitan manifestar sus ideas de una forma creativa.",
+          "La creación de piezas vocales y/o instrumentales implica el uso de los elementos básicos del lenguaje musical con el fin de crear un discurso coherente que se adapte al desarrollo de la idea inicial. En el proceso de creación se fusionan los conocimientos previos del alumnado, a la vez que se activa la creatividad e incrementa la demanda de conocimientos técnicos y teóricos para poder seguir mejorando los resultados."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar la relación entre las emociones y la expresión musical, a través de opiniones propias e improvisaciones vocales o instrumentales, para desarrollar la creatividad y la actitud colaborativa."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CPSAA1",
+        "CP1",
+        "CD2",
+        "CC2",
+        "CE3",
+        "CCEC2",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          87
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La reflexión sobre el sentido de las grandes obras musicales paradigmáticas hace posible un acercamiento basado en el diálogo, en el que la expresión de las emociones primarias individuales que suscitan se puede conectar con cuestiones sociales, éticas y relacionadas con valores como la solidaridad, la tolerancia y el respeto que enriquezcan al colectivo del alumnado. El trabajo de la expresión de manera grupal fomenta el respeto hacia la diversidad de opiniones, el enriquecimiento cultural entre iguales y la superación de barreras y estereotipos sociales. El desarrollo del lenguaje oral permite que se expresen ideas y conceptos simbólicos desarrollando la capacidad de comunicación del interlocutor.",
+          "Por otra parte, la expresión de los sentimientos puede realizarse a través de la música y la danza mediante la utilización libre de sus elementos y potenciando la experimentación sonora como fuente de creatividad y de expresión artística. La improvisación individual o grupal de pequeñas piezas, utilizando esquemas predefinidos y acordados por el conjunto es fuente de enriquecimiento y aprendizaje."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Interpretar diferentes estilos y géneros musicales a través de distintas formaciones y agrupaciones, para conocerlas y disfrutarlas, además de compartir con el grupo procesos de socialización, solidaridad y compromiso."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CP1",
+        "CP2",
+        "CPSAA4",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          87
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Compartir con los compañeros y compañeras la actividad de creación musical fomenta la socialización y la capacidad empática con los demás al ser un punto de encuentro de sensaciones y emociones. A la vez, hacer música en diferentes tipos de agrupaciones refuerza el aprendizaje entre iguales, la autoestima y la motivación personal. El trabajo en grupo del alumnado contribuye a fomentar el sentido de conjunto, la fluidez, el control técnico y la expresión, además de fomentar una mejora para responder de manera creativa e imaginativa a las aportaciones de otras y otros."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Descubrir la relación entre la interpretación y la expresión individual y grupal a través de la aplicación de las diferentes técnicas interpretativas."
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA3",
+        "CC1",
+        "CE2",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          87
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Desarrollar y aplicar las habilidades del canto o de la interpretación instrumental para comunicar a través de las artes precisa que el alumnado adopte actitudes de mejora para satisfacer las demandas técnicas musicales que se encuentre. Con el trabajo individual y grupal que permite esta materia, el alumnado podrá adquirir destrezas en la práctica de la lectura musical, aplicar técnicas vocales e instrumentales requeridas para dotar de expresividad a la música y resolver, a través de la interpretación las necesidades estilísticas que se necesiten para interpretar obras de diferentes géneros y estilos.",
+          "Si tenemos en cuenta la importancia de experimentar, explorar y conocer la relación de la música y la danza y su importancia en el desarrollo emocional y vital, se comprende que debemos impulsar el uso de expresión vocal, instrumental y el movimiento para favorecer el desarrollo de la personalidad, la autoestima y el pensamiento libre y crítico. Así, a través de la práctica el alumnado vivenciará los beneficios que aporta poder expresarse a través del canto e instrumentos y el uso sin prejuicios del cuerpo que le ayudará a valorar la cultura y las artes como pilares básicos para el desarrollo emocional y, en definitiva, vital del alumnado."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Producir proyectos artísticos a través de actuaciones y propuestas escénicas basadas en el trabajo del aula, utilizando diversos medios y soportes audiovisuales para participar cooperativamente en la visibilización cultural y valorar la importancia de la música en el desarrollo de oportunidades personales, sociales, inclusivas y económicas."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "CD3",
+        "CD5",
+        "CPSAA4",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          88
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Ser partícipe del proceso de creación desde el inicio de la idea hasta la consecución del producto contribuye a fomentar la autonomía del alumnado y la gestión de los conocimientos para la consecución de los objetivos marcados. Los trabajos cooperativos se plantean como un escenario en el que, después de fijar la estructura y sentar las bases sobre el que realizarlo, el alumnado adapte, improvise, componga o interprete piezas vocales o instrumentales utilizando estructuras que le son familiares, poniendo en práctica los recursos musicales que consideren más adecuados para explotar con confianza sus posibilidades y limitaciones técnicas.",
+          "El trabajo autónomo permite que el alunando se convierta en el gestor de su motivación, permitiendo explorar y descubrir aspectos del aprendizaje propuesto que hacen que los contenidos se comprendan y recuerden mejor. A su vez, la utilización no parcelada de conocimientos favorece el trabajo multidisciplinar y el uso de diferentes herramientas y aplicaciones tecnológicas, acercando el trabajo del aula a las situaciones cotidianas y preparando al alumnado para desarrollar las capacidades necesarias para afrontar situaciones en la vida real con perspectivas de resolución."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Utilizar técnicas individuales elementales de interpretación musical y corporal para el desarrollo de las destrezas musicales, potenciando la manifestación y el control de emociones y la seguridad en sí mismo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar como intérprete en actuaciones y manifestaciones musicales y escénicas dentro y/o fuera del centro, mostrando iniciativa en los procesos creativos e interpretativos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Aplicar técnicas de interpretación musical y de movimiento en audiciones y conciertos en el aula y fuera de ella, desarrollando la creatividad y el respeto hacia los demás."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-1-3"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Producir propuestas artísticos-musicales, utilizando herramientas digitales para el desarrollo de materiales audiovisuales, con actitud inclusiva y cohesionadora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar composiciones vocales, instrumentales, coreográficas y multidisciplinares de forma individual y/o colaborativa, mostrando respeto a ideas, emociones y sentimientos del grupo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-2-2"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Expresar la opinión personal, de manera respetuosa y emocional, acerca de ejemplos de diferentes propuestas musicales estudiadas, a través de la audición, visionado o asistencia a eventos musicales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar improvisaciones guiadas o libres individuales o grupales, adquiriendo y fortaleciendo la autoestima y la conciencia global, a través de la interpretación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Demostrar habilidades musicales individuales y grupales, adquiriendo y fortaleciendo la autoestima y la conciencia global, a través de la interpretación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-3-3"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Relacionar la interpretación con la expresión de sentimientos y emociones, aplicando técnicas vocales y reforzando la autoestima y la confianza en uno mismo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Entender y valorar la música como un arte que se expresa mediante notación convencional y no convencional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Expresar emociones y sentimientos interpretando de forma inclusiva obras de distintos géneros y estilos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              88
+            ]
+          },
+          "id": "cri-3-4-3"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer las posibilidades interpretativas participando activamente como intérprete en diferentes agrupaciones y estilos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              89
+            ]
+          },
+          "id": "cri-3-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Interpretar diferentes piezas musicales de forma colaborativa produciendo una calidad de sonido adecuada con precisión técnica y expresión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              89
+            ]
+          },
+          "id": "cri-3-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Aplicar con interés de mejora los conocimientos del lenguaje musical a través de la interpretación de variedad de partituras."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              89
+            ]
+          },
+          "id": "cri-3-5-3"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Integrar de forma abierta los diferentes conocimientos adquiridos previamente sobre la voz, los instrumentos y el movimiento para crear proyectos innovadores que utilicen diversos soportes audiovisuales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              89
+            ]
+          },
+          "id": "cri-3-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Desarrollar con creatividad actuaciones en público mostrando respeto, cortesía y aprecio a los asistentes y a sus opiniones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              89
+            ]
+          },
+          "id": "cri-3-6-2"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Interpretación, improvisación y creación escénica"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La partitura. Grafías convencionales y no convencionales: identificación y aplicación de grafías, lectura y escritura musical."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elementos básicos del lenguaje musical. Parámetros del sonido, intervalos, escalas musicales y acordes básicos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Texturas monofónicas y polifónicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas elementales para la interpretación: técnicas vocales, instrumentales y corporales y de control de emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de improvisación guiada y libre."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Expresión corporal y creación escénica aplicada a las artes escénicas/performativas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de comportamiento y participación en actividades musicales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.A.07"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Práctica de conjunto"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Repertorio musical de distintas épocas, estilos y géneros, incluyendo la música actual."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción al repertorio más significativo de Cantabria como canción montañesa, canción marinera, marzas..."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Práctica de repertorio con improvisaciones y movimiento. Agrupaciones vocales e instrumentales a lo largo de la historia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  89
+                ]
+              },
+              "id": "TCM.3.B.03"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores individuales de saberes son internos del proyecto, no códigos oficiales. Los ordinales publicados en los saberes se conservan en numeracionFuente, cuando existen.",
+      "Los descriptores operativos se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "Los desarrollos publicados para un grupo de cursos se reproducen en los cursos en que se oferta la materia, conservando su carácter compartido: la repetición no atribuye una secuenciación por curso que la fuente no publica.",
+      "La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.",
+      "aplicableDesdeCurso indica el primer curso académico de implantación en los cursos de esta materia: 2022/2023 si incluye 1.º o 3.º, y 2023/2024 si solo se oferta en 2.º o 4.º, según el calendario normativo."
+    ]
+  }
+}

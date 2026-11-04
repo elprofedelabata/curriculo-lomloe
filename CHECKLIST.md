@@ -9,11 +9,11 @@ Una materia o ámbito se marca como terminado cuando:
 - el contenido se ha contrastado con el PDF oficial;
 - las posibles incidencias de la fuente se han documentado y resuelto.
 
-Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca de su ficha informativa no equivale a un JSON curricular terminado.
+Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte. La marca de su ficha informativa no equivale a un JSON curricular terminado.
 
 ## Progreso global
 
-- **Currículos terminados en total:** 517.
+- **Currículos terminados en total:** 554.
 - **Referencias documentadas de Andalucía, Aragón, Asturias e Illes Balears:** 401 (398 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
 - **Currículos terminados en esas cuatro comunidades:** 398 de 398
 - **Currículos pendientes entre los inventariados en esas cuatro comunidades:** 0
@@ -23,7 +23,7 @@ Las optativas sin desarrollo curricular cerrado se documentan aparte. La marca d
 - **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
 - **Illes Balears:** 93 de 93
 - **Canarias:** 109 de 109 JSON revisados de las cinco etapas, incluidas las dos concreciones complementarias del silbo gomero
-- **Cantabria:** Infantil y Primaria completados, con diez áreas revisadas y sus 22 decisiones confirmadas. ESO, Bachillerato y CFGB conservan sus fuentes recopiladas. El inventario inicial reúne 99 currículos candidatos y dos ámbitos de Diversificación pendientes de definir su representación
+- **Cantabria:** Infantil, Primaria y ESO completados, con 47 JSON revisados, sus 63 decisiones confirmadas y dos fichas de Diversificación por remisión. Bachillerato y CFGB conservan sus fuentes recopiladas. El inventario actualizado reúne 101 currículos candidatos
 
 ## Andalucía
 
@@ -855,13 +855,13 @@ Los 109 JSON canarios cumplen el esquema y están revisados, incluidas las dos c
 ### Progreso
 
 - **Fuentes oficiales:** 14 PDF del BOC archivados, con fechas, número de páginas y SHA-256.
-- **Estado:** Infantil y Primaria completados y revisados, con diez JSON. ESO, Bachillerato y CFGB conservan sus fuentes recopiladas.
-- **Inventario inicial:** 99 currículos candidatos (3 de Infantil, 7 de Primaria, 35 de ESO, 52 de Bachillerato y 2 ámbitos comunes de CFGB). El número definitivo de JSON se confirmará durante la extracción.
-- **Diversificación:** dos ámbitos organizados por remisión al currículo de las materias; su representación se decidirá al abordar ESO.
-- **Incidencias:** siete decisiones de Infantil y quince de Primaria confirmadas en el [registro de Cantabria](incidencias/es-cb.md); ninguna pendiente.
-- **Siguiente paso:** abordar ESO. Los siete JSON revisados de Primaria cumplen el esquema y han superado el cotejo independiente de 1.328 fragmentos y la reconstrucción íntegra de cada área. Suman 46 competencias, 302 criterios y 641 saberes; Valores se representa en 5.º y las demás áreas por ciclo. [Informe de Primaria](sources/es-cb/REVISION-PRIMARIA.md).
+- **Estado:** Infantil, Primaria y ESO revisados, con 47 JSON: tres de Infantil, siete de Primaria y 37 de ESO. Bachillerato y CFGB conservan sus fuentes recopiladas.
+- **Inventario actualizado:** 101 currículos candidatos: 3 de Infantil, 7 de Primaria, 37 de ESO, 52 de Bachillerato y 2 ámbitos comunes de CFGB. Las versiones con competencias diferentes de Cultura Clásica y Conflictos Morales se separan; el número final de Bachillerato se confirmará al extraerlo.
+- **Diversificación:** dos [fichas por remisión a materias](data/es-cb/eso/ambitos-por-remision.json), documentadas aparte de los currículos cerrados.
+- **Incidencias:** 63 decisiones de Infantil, Primaria y ESO confirmadas; ninguna pendiente en el [registro de Cantabria](incidencias/es-cb.md).
+- **Siguiente paso:** extraer Bachillerato. Los 37 documentos revisados de ESO suman 223 competencias, 71 desarrollos, 1.295 criterios y 2.334 saberes contando su representación por curso. [Informe de ESO](sources/es-cb/REVISION-ESO.md).
 
-Las páginas son posiciones dentro del PDF completo. Las versiones I y II de una materia se agrupan como un único candidato. Segunda Lengua Extranjera de ESO tiene dos fuentes que se cotejarán sin duplicar la materia.
+Las páginas son posiciones del PDF completo. Los grupos de cursos publicados se reproducen solo en los cursos de oferta, sin inventar una secuenciación. Segunda Lengua Extranjera tiene dos publicaciones divergentes; por decisión confirmada del usuario, el JSON utiliza el decreto como base única y mantiene ambas fuentes enlazadas.
 
 ### Infantil — áreas
 
@@ -881,48 +881,50 @@ Las páginas son posiciones dentro del PDF completo. Las versiones I y II de una
 
 ### ESO — materias y optativas
 
-- [ ] Biología y Geología — [PDF, anexo I-A, p. 37](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=37)
-- [ ] Digitalización — [PDF, anexo I-A, p. 53](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=53)
-- [ ] Economía y Emprendimiento — [PDF, anexo I-A, p. 62](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=62)
-- [ ] Educación Física — [PDF, anexo I-A, p. 74](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=74)
-- [ ] Educación Plástica, Visual y Audiovisual — [PDF, anexo I-A, p. 93](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=93)
-- [ ] Educación en Valores Cívicos y Éticos — [PDF, anexo I-A, p. 104](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=104)
-- [ ] Expresión Artística — [PDF, anexo I-A, p. 114](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=114)
-- [ ] Física y Química — [PDF, anexo I-A, p. 123](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=123)
-- [ ] Formación y Orientación Personal y Profesional — [PDF, anexo I-A, p. 139](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=139)
-- [ ] Geografía e Historia — [PDF, anexo I-A, p. 151](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=151)
-- [ ] Latín — [PDF, anexo I-A, p. 177](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=177)
-- [ ] Lengua Castellana y Literatura — [PDF, anexo I-A, p. 188](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=188)
-- [ ] Lengua Extranjera — [PDF, anexo I-A, p. 214](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=214)
-- [ ] Matemáticas — [PDF, anexo I-A, p. 232](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=232)
-- [ ] Música — [PDF, anexo I-A, p. 261](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=261)
-- [ ] Segunda Lengua Extranjera — [PDF, anexo I-A, p. 271](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=271)
-- [ ] Tecnología — [PDF, anexo I-A, p. 58](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=58)
-- [ ] Tecnología y Digitalización — [PDF, anexo I-A, p. 305](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=305)
-- [ ] Alimentación y Nutrición — [PDF, anexo II, p. 1](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=1)
-- [ ] Artes Escénicas y Danza — [PDF, anexo II, p. 8](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=8)
-- [ ] Conflictos Morales de Nuestro Tiempo — [PDF, anexo II, p. 13](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=13)
-- [ ] Cultura Clásica — [PDF, anexo II, p. 22](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=22)
-- [ ] Economía y Cultura Financiera — [PDF, anexo II, p. 31](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=31)
-- [ ] Iniciación a la Actividad Emprendedora y Empresarial — [PDF, anexo II, p. 34](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=34)
-- [ ] Iniciación a las Ciencias Experimentales Biología y Geología — [PDF, anexo II, p. 39](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=39)
-- [ ] Introducción al Debate Filosófico — [PDF, anexo II, p. 46](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=46)
-- [ ] Patrimonio Histórico Artístico de Cantabria — [PDF, anexo II, p. 51](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=51)
-- [ ] Patrimonio Natural de Cantabria — [PDF, anexo II, p. 58](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=58)
-- [ ] Sistemas de Control y Robótica — [PDF, anexo II, p. 78](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=78)
-- [ ] Taller de Creatividad Musical — [PDF, anexo II, p. 85](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=85)
-- [ ] Taller de Iniciación a las Tecnologías de la Información y la Digitalización — [PDF, anexo II, p. 89](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=89)
-- [ ] Taller de Lengua — [PDF, anexo II, p. 93](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=93)
-- [ ] Taller de Matemáticas — [PDF, anexo II, p. 98](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=98)
-- [ ] Unión Europea — [PDF, anexo II, p. 109](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=109)
-- [ ] Tecnificación Deportiva — [PDF, anexo I, p. 17](sources/es-cb/normativa/eso-bachillerato/2025-05-07-orden-edu-21-2025-espade.pdf#page=17)
+- [x] Biología y Geología — [JSON revisado](data/es-cb/eso/materias/biologia-y-geologia.json) — [PDF, anexo I-A, p. 37](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=37)
+- [x] Digitalización — [JSON revisado](data/es-cb/eso/materias/digitalizacion.json) — [PDF, anexo I-A, p. 53](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=53)
+- [x] Economía y Emprendimiento — [JSON revisado](data/es-cb/eso/materias/economia-y-emprendimiento.json) — [PDF, anexo I-A, p. 62](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=62)
+- [x] Educación Física — [JSON revisado](data/es-cb/eso/materias/educacion-fisica.json) — [PDF, anexo I-A, p. 74](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=74)
+- [x] Educación Plástica, Visual y Audiovisual — [JSON revisado](data/es-cb/eso/materias/educacion-plastica-visual-y-audiovisual.json) — [PDF, anexo I-A, p. 93](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=93)
+- [x] Educación en Valores Cívicos y Éticos — [JSON revisado](data/es-cb/eso/materias/educacion-en-valores-civicos-y-eticos.json) — [PDF, anexo I-A, p. 104](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=104)
+- [x] Expresión Artística — [JSON revisado](data/es-cb/eso/materias/expresion-artistica.json) — [PDF, anexo I-A, p. 114](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=114)
+- [x] Física y Química — [JSON revisado](data/es-cb/eso/materias/fisica-y-quimica.json) — [PDF, anexo I-A, p. 123](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=123)
+- [x] Formación y Orientación Personal y Profesional — [JSON revisado](data/es-cb/eso/materias/formacion-y-orientacion-personal-y-profesional.json) — [PDF, anexo I-A, p. 139](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=139)
+- [x] Geografía e Historia — [JSON revisado](data/es-cb/eso/materias/geografia-e-historia.json) — [PDF, anexo I-A, p. 151](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=151)
+- [x] Latín — [JSON revisado](data/es-cb/eso/materias/latin.json) — [PDF, anexo I-A, p. 177](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=177)
+- [x] Lengua Castellana y Literatura — [JSON revisado](data/es-cb/eso/materias/lengua-castellana-y-literatura.json) — [PDF, anexo I-A, p. 188](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=188)
+- [x] Lengua Extranjera — [JSON revisado](data/es-cb/eso/materias/lengua-extranjera.json) — [PDF, anexo I-A, p. 214](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=214)
+- [x] Matemáticas — [JSON revisado](data/es-cb/eso/materias/matematicas.json) — [PDF, anexo I-A, p. 232](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=232)
+- [x] Música — [JSON revisado](data/es-cb/eso/materias/musica.json) — [PDF, anexo I-A, p. 261](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=261)
+- [x] Segunda Lengua Extranjera — [JSON revisado](data/es-cb/eso/materias/segunda-lengua-extranjera.json) — [PDF, anexo I-A, p. 271](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=271)
+- [x] Tecnología — [JSON revisado](data/es-cb/eso/materias/tecnologia.json) — [PDF, anexo I-A, p. 293](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=293)
+- [x] Tecnología y Digitalización — [JSON revisado](data/es-cb/eso/materias/tecnologia-y-digitalizacion.json) — [PDF, anexo I-A, p. 305](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=305)
+- [x] Alimentación y Nutrición — [JSON revisado](data/es-cb/eso/materias/alimentacion-y-nutricion.json) — [PDF, anexo II, p. 1](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=1)
+- [x] Artes Escénicas y Danza — [JSON revisado](data/es-cb/eso/materias/artes-escenicas-y-danza.json) — [PDF, anexo II, p. 8](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=8)
+- [x] Conflictos Morales de Nuestro Tiempo I — [JSON revisado](data/es-cb/eso/materias/conflictos-morales-de-nuestro-tiempo-i.json) — [PDF, anexo II, p. 13](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=13)
+- [x] Conflictos Morales de Nuestro Tiempo II — [JSON revisado](data/es-cb/eso/materias/conflictos-morales-de-nuestro-tiempo-ii.json) — [PDF, anexo II, p. 17](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=17)
+- [x] Cultura Clásica I — [JSON revisado](data/es-cb/eso/materias/cultura-clasica-i.json) — [PDF, anexo II, p. 23](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=23)
+- [x] Cultura Clásica II — [JSON revisado](data/es-cb/eso/materias/cultura-clasica-ii.json) — [PDF, anexo II, p. 27](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=27)
+- [x] Economía y Cultura Financiera — [JSON revisado](data/es-cb/eso/materias/economia-y-cultura-financiera.json) — [PDF, anexo II, p. 31](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=31)
+- [x] Iniciación a la Actividad Emprendedora y Empresarial — [JSON revisado](data/es-cb/eso/materias/iniciacion-a-la-actividad-emprendedora-y-empresarial.json) — [PDF, anexo II, p. 34](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=34)
+- [x] Iniciación a las Ciencias Experimentales Biología y Geología — [JSON revisado](data/es-cb/eso/materias/iniciacion-a-las-ciencias-experimentales-biologia-y-geologia.json) — [PDF, anexo II, p. 39](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=39)
+- [x] Introducción al Debate Filosófico — [JSON revisado](data/es-cb/eso/materias/introduccion-al-debate-filosofico.json) — [PDF, anexo II, p. 46](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=46)
+- [x] Patrimonio Histórico Artístico de Cantabria — [JSON revisado](data/es-cb/eso/materias/patrimonio-historico-artistico-de-cantabria.json) — [PDF, anexo II, p. 51](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=51)
+- [x] Patrimonio Natural de Cantabria — [JSON revisado](data/es-cb/eso/materias/patrimonio-natural-de-cantabria.json) — [PDF, anexo II, p. 58](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=58)
+- [x] Sistemas de Control y Robótica — [JSON revisado](data/es-cb/eso/materias/sistemas-de-control-y-robotica.json) — [PDF, anexo II, p. 78](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=78)
+- [x] Taller de Creatividad Musical — [JSON revisado](data/es-cb/eso/materias/taller-de-creatividad-musical.json) — [PDF, anexo II, p. 85](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=85)
+- [x] Taller de Iniciación a las Tecnologías de la Información y la Digitalización — [JSON revisado](data/es-cb/eso/materias/taller-de-iniciacion-a-las-tecnologias-de-la-informacion-y-la-digitalizacion.json) — [PDF, anexo II, p. 89](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=89)
+- [x] Taller de Lengua — [JSON revisado](data/es-cb/eso/materias/taller-de-lengua.json) — [PDF, anexo II, p. 93](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=93)
+- [x] Taller de Matemáticas — [JSON revisado](data/es-cb/eso/materias/taller-de-matematicas.json) — [PDF, anexo II, p. 98](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=98)
+- [x] Unión Europea — [JSON revisado](data/es-cb/eso/materias/union-europea.json) — [PDF, anexo II, p. 109](sources/es-cb/normativa/eso/2022-08-23-correccion-orden-edu-40-2022-optativas.pdf#page=109)
+- [x] Tecnificación Deportiva — [JSON revisado](data/es-cb/eso/materias/tecnificacion-deportiva.json) — [PDF, anexo I, p. 17](sources/es-cb/normativa/eso-bachillerato/2025-05-07-orden-edu-21-2025-espade.pdf#page=17)
 
 ### ESO — Diversificación
 
-La Orden EDU/41/2022, artículo 5.4, remite al anexo I-A del Decreto 73/2022. Estos dos ámbitos se inventarían por separado de los 99 currículos candidatos; no se les atribuirá un desarrollo independiente que la norma no publica.
+La Orden EDU/41/2022, artículo 5, remite al currículo de las materias que integran cada ámbito. Las marcas siguientes indican fichas documentadas; no equivalen a currículos autónomos extraídos.
 
-- [ ] Ámbito Lingüístico y Social — definir la representación conforme a la [Orden EDU/41/2022, p. 3](sources/es-cb/normativa/eso/2022-08-08-orden-edu-41-2022-diversificacion.pdf#page=3).
-- [ ] Ámbito Científico-Tecnológico — definir la representación conforme a la [Orden EDU/41/2022, p. 3](sources/es-cb/normativa/eso/2022-08-08-orden-edu-41-2022-diversificacion.pdf#page=3).
+- [x] Ámbito Lingüístico y Social — [ficha por remisión](data/es-cb/eso/ambitos-por-remision.json) — [Orden EDU/41/2022, p. 3](sources/es-cb/normativa/eso/2022-08-08-orden-edu-41-2022-diversificacion.pdf#page=3).
+- [x] Ámbito Científico-Tecnológico — [ficha por remisión](data/es-cb/eso/ambitos-por-remision.json) — [Orden EDU/41/2022, p. 3](sources/es-cb/normativa/eso/2022-08-08-orden-edu-41-2022-diversificacion.pdf#page=3).
 
 ### Bachillerato — materias y optativas
 

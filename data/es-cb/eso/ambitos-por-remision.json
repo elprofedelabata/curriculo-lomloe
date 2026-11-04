@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/ambitos-por-remision.schema.json",
+  "schemaVersion": "1.0.0",
+  "territorio": "es-cb",
+  "etapa": "eso",
+  "fuenteId": "es-cb-eso-orden-edu-41-2022",
+  "criterioRepresentacion": "El artículo 5 de la Orden EDU/41/2022 organiza los ámbitos de Diversificación y remite al currículo de las materias que los integran, sin publicar un repertorio autónomo de competencias, criterios y saberes. Estas fichas identifican las materias base y las incorporaciones opcionales que puede decidir el centro. La selección de contenidos comunes a la etapa corresponde a las programaciones según el artículo 5.4. Los identificadores son internos del proyecto, no códigos oficiales de ámbitos.",
+  "ambitos": [
+    {
+      "id": "es-cb.eso.ambito-por-remision.linguistico-y-social",
+      "nombre": "Ámbito Lingüístico y Social",
+      "cursos": [3, 4],
+      "estado": "remision-a-materias",
+      "materiasBaseRefs": ["es-cb.eso.geografia-e-historia", "es-cb.eso.lengua-castellana-y-literatura"],
+      "incorporacionesOpcionales": [
+        { "materiaRef": "es-cb.eso.lengua-extranjera", "cursos": [3, 4], "condicion": "El centro puede incorporar Lengua Extranjera al ámbito dentro de su autonomía pedagógica, según el artículo 5.1.a." }
+      ],
+      "procedencia": { "fuenteRef": "es-cb-eso-orden-edu-41-2022", "paginas": [3] }
+    },
+    {
+      "id": "es-cb.eso.ambito-por-remision.cientifico-tecnologico",
+      "nombre": "Ámbito Científico-Tecnológico",
+      "cursos": [3, 4],
+      "estado": "remision-a-materias",
+      "materiasBaseRefs": ["es-cb.eso.matematicas", "es-cb.eso.biologia-y-geologia", "es-cb.eso.fisica-y-quimica"],
+      "incorporacionesOpcionales": [
+        { "materiaRef": "es-cb.eso.tecnologia-y-digitalizacion", "cursos": [3], "condicion": "El centro puede incorporarla en el primer curso del programa, reforzando el carácter práctico, según el artículo 5.1.b." },
+        { "materiaRef": "es-cb.eso.tecnologia", "cursos": [4], "condicion": "El centro puede incorporarla en el segundo curso del programa, reforzando el carácter práctico, según el artículo 5.1.b." }
+      ],
+      "procedencia": { "fuenteRef": "es-cb-eso-orden-edu-41-2022", "paginas": [3] }
+    }
+  ]
+}

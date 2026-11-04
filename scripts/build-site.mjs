@@ -48,6 +48,7 @@ const progress = parseProgress(readme);
 const incidents = incidentMarkdowns.flatMap(parseIncidents);
 const matters = [];
 const openOptions = [];
+const referredScopes = [];
 const sourceCatalogs = new Map();
 
 const territoryDirectories = [...new Set((await Promise.all(
@@ -152,6 +153,19 @@ for (const territoryCode of territoryDirectories) {
     } catch (error) {
       if (error.code !== "ENOENT") throw error;
     }
+    const referredScopesPath = `data/${territoryCode}/${stage}/ambitos-por-remision.json`;
+    try {
+      const document = JSON.parse(await readFile(resolve(root, referredScopesPath), "utf8"));
+      if (document.territorio !== territoryCode || document.etapa !== stage) throw new Error("Territorio o etapa incoherentes en " + referredScopesPath);
+      const source = sourceCatalogs.get(territoryCode)?.documentos.find((item) => item.id === document.fuenteId);
+      if (!source) throw new Error("Fuente desconocida en " + referredScopesPath);
+      for (const scope of document.ambitos) {
+        referredScopes.push({ ...scope, territorio: territoryCode, etapa: stage, criterioRepresentacion: document.criterioRepresentacion, fichaPath: referredScopesPath,
+          fuente: { id: source.id, titulo: source.titulo, urlOficial: source.urlOficial, archivo: source.archivo } });
+      }
+    } catch (error) {
+      if (error.code !== "ENOENT") throw error;
+    }
   }
 }
 
@@ -170,6 +184,7 @@ const stages = [...sourceCatalogs.entries()].flatMap(([territoryCode, sourceCata
       appPath: `?territorio=${territoryCode}&etapa=${stage}#${territoryCode}`,
       materias: stageMatters.length,
       optativasAbiertas: openOptions.filter((option) => option.territorio === territoryCode && option.etapa === stage).length,
+      ambitosPorRemision: referredScopes.filter((scope) => scope.territorio === territoryCode && scope.etapa === stage).length,
       incidencias: stageIncidents.length,
       fuentes: sourceCatalog.documentos.filter((source) => source.etapas.includes(stage)).length,
       ultimaRevision: revisions.at(-1) || sourceCatalog.fechaActualizacion,
@@ -181,7 +196,7 @@ const sourceDocuments = [...sourceCatalogs.entries()].flatMap(([territoryCode, s
   sourceCatalog.documentos.map((document) => ({ territorio: document.territorio || territoryCode, ...document })),
 );
 const catalog = {
-  version: "1.8.0",
+  version: "1.9.0",
   proyecto: {
     nombre: "Currículo LOMLOE en JSON",
     repositorio: repoUrl,
@@ -192,6 +207,7 @@ const catalog = {
   etapas: stages,
   materias: matters.sort((a, b) => a.nombre.localeCompare(b.nombre, "es")),
   optativasAbiertas: openOptions.sort((a, b) => a.nombre.localeCompare(b.nombre, "es")),
+  ambitosPorRemision: referredScopes.sort((a, b) => a.nombre.localeCompare(b.nombre, "es")),
   incidencias: incidents,
   documentosNormativos: sourceDocuments,
   progreso: progress,
@@ -239,10 +255,8 @@ await writeFile(resolve(dist, "sitemap.xml"), sitemap);
 console.log(`Sitio estático preparado: ${matters.length} materias, ${stages.length} etapas publicadas y ${incidents.length} incidencias.`);
 
 function collectKnowledge(development) {
-  return (development.bloquesSaberes || []).flatMap((block) => [
-    ...(block.saberes || []),
-    ...(block.apartados || []).flatMap((section) => section.saberes || []),
-  ]);
+  const collect = (node) => node.saberes || (node.apartados || []).flatMap(collect);
+  return (development.bloquesSaberes || []).flatMap(collect);
 }
 
 function parseIncidents(markdown) {

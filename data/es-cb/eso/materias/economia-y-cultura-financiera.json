@@ -1,0 +1,762 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.eso.economia-y-cultura-financiera",
+  "territorio": "es-cb",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "ECF",
+    "nombre": {
+      "es": "Economía y Cultura Financiera"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-correccion-orden-edu-40-2022",
+      "tipo": "otro",
+      "titulo": "Corrección de errores de la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "162",
+      "fechaPublicacion": "2022-08-23",
+      "cve": "CVE-2022-6440",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "paginasMateria": {
+        "desde": 31,
+        "hasta": 34
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-eso-orden-edu-40-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6238",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006"
+    },
+    {
+      "id": "es-cb-eso-bachillerato-orden-edu-36-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/36/2024, de 18 de julio, que modifica la Orden ECD/78/2018, de 26 de junio, que regula el programa ESPADE (ESPecial Atención al DEporte), para la conciliación de estudios y entrenamiento deportivo de alumnos que cursan Educación Secundaria Obligatoria y Bachillerato, así como el acceso a dicho programa en el ámbito de gestión de la Consejería de Educación, Cultura y Deporte del Gobierno de Cantabria, y la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "145",
+      "fechaPublicacion": "2024-07-29",
+      "cve": "CVE-2024-6130",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "paginasMateria": {
+        "desde": 17,
+        "hasta": 18
+      },
+      "anexo": "III"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El estudio y la formación en economía se hacen absolutamente necesarios en un contexto muy globalizado, en el que las relaciones económicas son cada vez más complejas. La economía está presente en todos los aspectos de nuestra vida cotidiana, cualquier ciudadano necesita conocer las reglas básicas que explican los acontecimientos económicos y el lenguaje específico que es utilizado por los economistas y los medios de comunicación para analizar esos hechos. La realidad no puede entenderse correctamente sin considerar el comportamiento económico, individual y colectivo, de las personas en la búsqueda de la satisfacción de sus necesidades, así como la producción y organización de los bienes y servicios que se necesitan para ello, y la distribución de los recursos escasos.",
+      "Economía y Cultura Financiera pretende preparar a los jóvenes para adquirir conocimientos y destrezas y desarrollar actitudes y valores que les permitan desenvolverse en una sociedad en la que los hechos económicos tienen cada vez más importancia, posibilitando analizar y profundizar en las relaciones humanas desde aspectos micro y macroeconómicos. Asimismo, contribuye a preparar al alumno interesado en proseguir estudios superiores en este ámbito de conocimientos.",
+      "Economía y Cultura Financiera está planteada como materia de opción en cuarto curso de la Educación Secundaria Obligatoria y persigue que el alumnado cuente con una educación económica-financiera para desenvolverse y asumir riegos de manera responsable en su vida cotidiana. Además, facilita la comprensión de los conceptos utilizados habitualmente en la economía y en el mundo financiero y en la vida cotidiana; potencia las habilidades y destrezas de razonamiento, abstracción e interrelación; proporciona herramientas para examinar de forma crítica la sociedad en la que nos desenvolvemos; y además, contribuye a desarrollar la curiosidad intelectual, la capacidad analítica, el rigor y la amplitud de perspectivas al hacer frente al estudio e investigación de diversos temas el conocimiento de variables como el crecimiento, la pobreza, el medioambiente, etc.",
+      "A día de hoy cobran más valor, si cabe, los conocimientos económicos y financieros por la importancia de contar con ciudadanos solventes e informados y por la relevancia de una buena administración de los recursos de un país, lo que muestra la gran trascendencia social de esta materia pues su conocimiento contribuye a fomentar la mejora en la calidad de vida, el progreso y el bienestar social.",
+      "Las competencias específicas de esta materia contribuyen a que el alumnado sea capaz de adquirir conocimientos y destrezas y desarrollar actitudes y valores que les permitan desenvolverse en una sociedad en la que los hechos económicos tienen cada vez más importancia. Se busca despertar en el alumnado la curiosidad y con esa curiosidad abrir la puerta al conocimiento, a la reflexión crítica y al análisis.",
+      "Los criterios de evaluación establecidos van dirigidos a comprobar el grado de adquisición de las competencias específicas, esto es, el nivel de desempeño cognitivo, instrumental y actitudinal que pueda ser aplicado en situaciones de los ámbitos personal y social.",
+      "Los saberes básicos posibilitarán el desarrollo de las competencias específicas de la materia a largo de la etapa. Economía y Cultura Financiera se divide en cuatro bloques. El primero de ellos es “Economía personal”, que acerca al alumnado a conceptos e instrumentos económicos básicos aplicables a la vida cotidiana, que le facilitarán su vida como persona responsable, permitiéndole identificar conceptos como contratos financieros, tarjetas de crédito y débito, planificación de su futuro financiero, gestión de presupuestos y otros. El segundo bloque “Ingresos y gastos del Estado” nos permite introducirnos en el complejo mundo del papel del Estado moderno en la economía, a través del presupuesto, ingresos público, gastos públicos y su relación con el nivel de actividad de la economía, de gran actualidad en estos momentos de control del déficit y de la deuda pública así como el papel redistributivo que realiza el Estado. Con el tercer bloque “El dinero y el mercado de trabajo” se pretende introducir los conceptos relacionados con el dinero, la inflación, el desempleo, y los posibles mecanismos y políticas para ser controladas estas variables. También se introduce al alumnado en las relaciones internacionales con el bloque cuatro, “Economía internacional”, con conceptos tales como la globalización, el comercio internacional, las organizaciones internacionales así como la consideración económica del medioambiente y el logro de un desarrollo sostenible.",
+      "Las situaciones de aprendizaje permiten trabajar de manera que los saberes básicos contribuyan a la adquisición de las competencias. Para ello, deben plantearse, a partir de un objetivo claro, estar conectadas con la realidad e invitar al alumnado a la reflexión y a la colaboración. Se busca ofrecer al alumnado la posibilidad de aplicar lo aprendido en contextos cercanos a la vida real. El enfoque interdisciplinar favorecerá una asimilación más profunda de la materia, al extender sus raíces hacia otras ramas del conocimiento como Geografía, Historia o Matemáticas."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Proporcionar al alumnado un conocimiento de los conceptos básicos de finanzas para poder interpretar y resolver problemas financieros de la vida cotidiana."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "CE3",
+        "CPSAA4",
+        "CD2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          32
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La resolución de problemas financieros constituye un eje fundamental en el aprendizaje de la educación financiera."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Resolver, analizar y comentar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando las respuestas obtenidas."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD2",
+        "CPSAA4",
+        "CC3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          32
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de esta competencia conlleva procesos reflexivos, estrategias sencillas de aprendizaje, uso eficaz de herramientas digitales como calculadoras u hojas de cálculo y la explicación del proceso."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Comprender las necesidades de planificación y de manejo de los asuntos financieros a lo largo de la vida. Dicha planificación se vincula a la previsión realizada en cada una de las etapas de acuerdo con las decisiones tomadas y la marcha de la actividad económica nacional."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "CE3",
+        "CPSAA4",
+        "CD2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          32
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Se trata de que el alumnado conozca las características de los principales productos y mercados financieros y su utilización en la vida cotidiana."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Representar conceptos, procedimientos y resultados financieros."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "CD5",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          32
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de esta competencia conlleva la adquisición de un conjunto de representaciones matemáticas que amplían significativamente la capacidad para interpretar y resolver problemas de la vida real."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Comunicar de forma individual y colectiva conceptos, procedimientos y argumentos financieros, usando lenguaje oral, escrito o gráfico, utilizando la terminología financiera apropiada, para dar significado y coherencia a las ideas financieras."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM4",
+        "CD3",
+        "CE3",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          32
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "A través de la comunicación las ideas se convierten en objetos de reflexión, perfeccionamiento, discusión y rectificación."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Interpretar y resolver problemas económicos-financieros de la vida cotidiana aplicando diferentes formas de razonamiento y estrategias."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CCL3",
+        "CD2",
+        "CPSAA4",
+        "CC3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          32,
+          33
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Se trata de que el alumnado reconozca la importancia de la toma de decisiones con sentido crítico en el ámbito económico-financiero."
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Valorar el impacto de la globalización económica, del comercio internacional y de los procesos de integración económica en la calidad de vida de las personas y el medio ambiente."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD2",
+        "CPSAA4",
+        "CC3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          33
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Se trata de valorar la importancia de las relaciones económicas internacionales, la colaboración entre países y sus repercusiones en la realidad económica de los países participantes."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Interpretar problemas financieros organizando los datos, estableciendo las relaciones entre ellos y comprendiendo las preguntas formuladas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Aplicar herramientas y estrategias apropiadas que contribuyan a la resolución de problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Obtener e interpretar las soluciones de un problema financiero, activando los conocimientos y utilizando las herramientas tecnológicas necesarias."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-1-3"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprobar la corrección matemática de las soluciones obtenidas de un problema financiero."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprobar la validez de las soluciones de un problema y su coherencia en el contexto planteado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Reconocer la idoneidad de las distintas soluciones obtenidas en función de los posibles escenarios económicos presentados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-2-3"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar un presupuesto personal distinguiendo entre los diferentes tipos de ingresos y gastos, controlar su grado de cumplimiento y las posibles necesidades de adaptación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Manejar gráficos de análisis que le permitan comparar una realidad personalizada con las previsiones establecidas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar herramientas informáticas en la elaboración y desarrollo de un presupuesto o plan financiero personalizado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-3-3"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Representar conceptos, procedimientos y resultados financieros de modos distintos y con diferentes herramientas, incluidas las digitales, visualizando ideas y valorando su utilidad para compartir información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Elaborar representaciones que ayuden en la búsqueda de estrategias de resolución de una situación problematizada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-4-2"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Transmitir información utilizando el lenguaje financiero apropiado, utilizando diferentes medios, incluidos los digitales, oralmente y por escrito, al describir, explicar y justificar razonamientos, procedimientos y conclusiones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reconocer y emplear el lenguaje económico financiero presente en la vida cotidiana."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-5-2"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analiza e interpreta datos y gráficos de contenido económico relacionados con los ingresos y gastos del Estado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              33
+            ]
+          },
+          "id": "cri-4-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Comprender y expresar las diferencias entre los conceptos de deuda pública y déficit público, así como la relación que se produce entre ellos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              34
+            ]
+          },
+          "id": "cri-4-6-2"
+        },
+        {
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Conocer y describir los efectos de la desigualdad de la renta y los instrumentos de redistribución de la misma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              34
+            ]
+          },
+          "id": "cri-4-6-3"
+        },
+        {
+          "codigoOficial": "6.4",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Describir las causas de la inflación y valorar sus principales repercusiones económicas y sociales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              34
+            ]
+          },
+          "id": "cri-4-6-4"
+        },
+        {
+          "codigoOficial": "6.5",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Explicar el funcionamiento de los tipos de interés y las consecuencias de su variación para la marcha de la Economía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              34
+            ]
+          },
+          "id": "cri-4-6-5"
+        },
+        {
+          "codigoOficial": "6.6",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Describir las causas del desempleo y valorar sus principales repercusiones económicas y sociales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              34
+            ]
+          },
+          "id": "cri-4-6-6"
+        },
+        {
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Reflexionar sobre los grandes retos de la economía actual (desigualdad, pobreza, medioambiente, sostenibilidad, etc.) y su relación con el impacto económico internacional, analizando las posibilidades de un desarrollo sostenible."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              34
+            ]
+          },
+          "id": "cri-4-7-1"
+        },
+        {
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Analiza acontecimientos económicos contemporáneos en el contexto de la globalización y el comercio internacional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              34
+            ]
+          },
+          "id": "cri-4-7-2"
+        },
+        {
+          "codigoOficial": "7.3",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Valora el grado de interconexión de las diferentes Economías de todos los países del mundo y aplica la perspectiva global para emitir juicios críticos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              34
+            ]
+          },
+          "id": "cri-4-7-3"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Economía personal"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La gestión del presupuesto. Gastos. Ahorros. Endeudamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  34
+                ]
+              },
+              "id": "ECF.4.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los productos financieros bancarios. Tarjetas bancarias. Préstamos bancarios. Líneas de crédito. Inversiones mobiliarias. Fondos de inversión. Planes de jubilación. Seguros."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  34
+                ]
+              },
+              "id": "ECF.4.A.02"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Ingresos y gastos del Estado"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El Sector Público. El Estado de bienestar. La financiación del déficit público. La política fiscal. Los tipos de política fiscal."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  34
+                ]
+              },
+              "id": "ECF.4.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El ciclo económico. La distribución de la riqueza y de la renta."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  34
+                ]
+              },
+              "id": "ECF.4.B.02"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "El dinero y el mercado de trabajo"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El dinero, el tipo de interés y sus efectos sobre la economía. La política monetaria. Los tipos de política monetaria. La inflación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  34
+                ]
+              },
+              "id": "ECF.4.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El mercado de trabajo. Las teorías sobre el desempleo. Las políticas de empleo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  34
+                ]
+              },
+              "id": "ECF.4.C.02"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Economía internacional"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La globalización. La cooperación económica internacional. La Unión Europea."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  34
+                ]
+              },
+              "id": "ECF.4.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El comercio internacional."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  34
+                ]
+              },
+              "id": "ECF.4.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los límites del crecimiento económico. El desarrollo sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  34
+                ]
+              },
+              "id": "ECF.4.D.03"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores individuales de saberes son internos del proyecto, no códigos oficiales. Los ordinales publicados en los saberes se conservan en numeracionFuente, cuando existen.",
+      "Los descriptores operativos se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "Los desarrollos publicados para un grupo de cursos se reproducen en los cursos en que se oferta la materia, conservando su carácter compartido: la repetición no atribuye una secuenciación por curso que la fuente no publica.",
+      "La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.",
+      "aplicableDesdeCurso indica el primer curso académico de implantación en los cursos de esta materia: 2022/2023 si incluye 1.º o 3.º, y 2023/2024 si solo se oferta en 2.º o 4.º, según el calendario normativo."
+    ]
+  }
+}

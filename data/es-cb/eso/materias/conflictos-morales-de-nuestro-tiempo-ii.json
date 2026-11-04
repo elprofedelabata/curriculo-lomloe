@@ -1,0 +1,902 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.eso.conflictos-morales-de-nuestro-tiempo-ii",
+  "territorio": "es-cb",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "CMNTII",
+    "nombre": {
+      "es": "Conflictos Morales de Nuestro Tiempo II"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-correccion-orden-edu-40-2022",
+      "tipo": "otro",
+      "titulo": "Corrección de errores de la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "162",
+      "fechaPublicacion": "2022-08-23",
+      "cve": "CVE-2022-6440",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
+      "paginasMateria": {
+        "desde": 17,
+        "hasta": 21
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-eso-orden-edu-40-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6238",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375006"
+    },
+    {
+      "id": "es-cb-eso-bachillerato-orden-edu-36-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/36/2024, de 18 de julio, que modifica la Orden ECD/78/2018, de 26 de junio, que regula el programa ESPADE (ESPecial Atención al DEporte), para la conciliación de estudios y entrenamiento deportivo de alumnos que cursan Educación Secundaria Obligatoria y Bachillerato, así como el acceso a dicho programa en el ámbito de gestión de la Consejería de Educación, Cultura y Deporte del Gobierno de Cantabria, y la Orden EDU/40/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "145",
+      "fechaPublicacion": "2024-07-29",
+      "cve": "CVE-2024-6130",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
+      "paginasMateria": {
+        "desde": 17,
+        "hasta": 18
+      },
+      "anexo": "III"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El objetivo de la materia “Conflictos Morales de Nuestro Tiempo\" es formar ciudadanos y ciudadanas informados, conscientes, concienciados y participativos.",
+      "Se trata de una materia optativa del segundo curso de la Educación Secundaria Obligatoria que facilitará a los estudiantes la comprensión de un mundo crecientemente globalizado, favoreciendo una actitud crítica y comprometida con la realidad y generando compromiso y corresponsabilidad en la lucha contra la pobreza, actitudes todas ellas imprescindibles para el desarrollo de una ciudadanía global.",
+      "La materia “Conflictos Morales de Nuestro Tiempo” favorece el conocimiento de las realidades y las causas que explican y provocan la existencia de la pobreza y la desigualdad y condicionan nuestras vidas como individuos pertenecientes a cualquiera de las culturas del planeta.",
+      "Esta materia facilita, además, una comprensión crítica de las interrelaciones económicas, políticas, sociales y culturales entre el Norte y el Sur y promueve en nuestro alumnado valores y actitudes relacionados con la solidaridad y la justicia social. Además, se incentiva la búsqueda de vías de acción para alcanzar el desarrollo humano y fortalecer actitudes críticas y comprometidas con estas causas para ir avanzando hacia la ciudadanía global, la justicia mundial, la equidad y la consecución efectiva de los derechos humanos.",
+      "El enfoque metodológico de la materia debe favorecer la reflexión sobre la propia vida, partiendo de experiencias cercanas y de situaciones reales que permitan concienciar al alumnado sobre la realidad del mundo globalizado en que vivimos. Por ello, es fundamental la utilización de metodologías basadas en la investigación-acción-reflexión que, a través de procedimientos participativos, interactivos, creativos, dinámicos, dialógicos y cooperativos, promuevan el pensamiento crítico y la ciudadanía global.",
+      "Se trata de observar y ver los problemas para proponer alternativas que favorezcan perspectivas de futuro que respeten la diversidad, faciliten la convivencia, la comprensión, la empatía y la participación en procesos de desarrollo humano y justicia. Del mismo modo, ha de prestarse el debido cuidado para evitar presentaciones de la realidad exclusivamente problemáticas o catastróficas, que eludan los aspectos positivos y desalienten las actitudes proactivas para la resolución de los problemas. Se intentará que las propuestas didácticas se vertebren siguiendo el esquema de información, toma de conciencia y acción. Solo si se dispone de información fiable y adecuada es posible la toma de conciencia y es esta la que, a su vez, permitirá dar paso a la acción, ya que se produce una interiorización que indefectiblemente modifica nuestra conducta. El docente asume pues la tarea de acompañar a los estudiantes en su crecimiento personal y en el desarrollo de una conducta solidaria y participativa que redundará en beneficio de todos y todas para lograr un mundo más justo y equitativo.",
+      "Los saberes básicos de la materia se distribuyen en tres bloques.",
+      "El primero de ellos denominado «Cooperación al desarrollo y cooperación internacional» trata de acercar al ciudadano el valor y la resolución de conflictos más allá de nuestras fronteras. La cooperación al desarrollo nace, por un lado, como un instrumento esencial para la construcción de nuevas relaciones político-económicas entre los estados y para el logro de objetivos específicos; y, por otro, como una necesidad fundamental de la humanidad de vivir en paz y bienestar, después de la nefasta experiencia de las grandes guerras. Es importante que el alumnado entienda la diferencia entre cooperación gubernamental y la no gubernamental y que pese a los intentos por avanzar la realidad nos dice que las desigualdades entre las diferentes zonas del planeta son enormes y que los avances hacia una distribución justa y solidaria de los recursos son tan lentos como insuficientes.",
+      "En el segundo de los bloques, denominado «Consumo y desarrollo sostenible», se pretende que el alumnado entienda que nuestro planeta es inmenso, pero los recursos no están distribuidos equitativamente y su explotación está condicionada por la ambición humana. Las necesidades del consumo humano deben ser cubiertas, pero los sistemas económicos basados en la producción masiva, la explotación ilimitada de los recursos y la obtención de beneficios sin límites empiezan a presentar fallos y grandes desequilibrios.",
+      "En el tercer bloque, denominado «La igualdad entre hombres y mujeres», se persigue, a través del trabajo interdisciplinar una comprensión básica de la situación de las mujeres a lo largo de la historia. La desigualdad y la discriminación ha sido una tónica dominante en muchos lugares del mundo. Esta justificación ha sido justificada por pensadores, políticos y científicos, así como por distintas religiones, y sancionada por leyes que consideraban a las mujeres inferiores a los hombres.",
+      "Aunque en el último siglo se ha avanzado mucho en algunos aspectos, siguen quedando desafíos importantes para que hombres y mujeres participen en la vida pública y construyan sus relaciones en igualdad y ayuda mutua.",
+      "Esta materia tiene como objetivos principales relacionar los contenidos académicos con la formación del alumnado, ofrecer criterios analíticos, para que ésta tenga opción de participar en el desarrollo de su entorno y comprender los vínculos de su realidad local con el desarrollo global. Facilitar los medios para la acción transformadora, responsable y solidaria.",
+      "Finalmente, tanto la aplicación de los criterios de evaluación como las distintas actividades de aprendizaje deben estar metodológicamente orientadas en función de principios coherentes con los valores que pretende transmitir la materia. De esta manera, se invitará al alumnado a la participación activa y razonada, al diálogo respetuoso y la cooperación con los demás, a la libre expresión de ideas, al pensamiento crítico y autónomo, al respeto por las normas y valores comunes, a la mediación y resolución pacífica de los conflictos, al desarrollo de estilos de vida saludables y sostenibles, al uso seguro de las tecnologías de la información y la comunicación, y a la gestión asertiva de las emociones y las relaciones afectivas con los demás y con el medio. Y todo ello se realizará procurando integrar las actividades del aula en contextos y situaciones de aprendizaje que sean significativas para el alumnado y estén integradas en la vida del centro y de su entorno, de forma que, a través de todas ellas, se promueva el desarrollo de una ciudadanía global, consciente, libre, participativa y comprometida con los retos del siglo XXI.",
+      "A su vez, cada uno de estos ámbitos se despliega en dos niveles integrados: uno más teórico, dirigido a la comprensión significativa de los conceptos y cuestiones más relevantes de la materia, y otro más práctico o instrumental, orientado a promover, desde la reflexión crítica y el diálogo argumentativo, conductas y actitudes acordes con aquellos valores éticos, cívicos y ecosociales que orientan la convivencia y la visión de un mundo con mayor justicia social.",
+      "Estos saberes deben trabajarse de manera competencial relacionándolos con diferentes situaciones de aprendizaje, utilizando como eje los saberes básicos. Para ello se propone como actividad vertebradora de toda la asignatura el diseño de un pequeño trabajo de investigación sobre un tema social en contacto con una ONG o entidad social del entorno."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Entender cómo funciona la cooperación al desarrollo y la cooperación internacional."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CPSAA1",
+        "CC1",
+        "CC2",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          18,
+          19
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La política de cooperación internacional para el desarrollo es la principal traducción en las políticas públicas del compromiso de su ciudadanía con los países y comunidades que más sufren la desigualdad y la pobreza en sus múltiples dimensiones. La cooperación al desarrollo y la cooperación internacional contribuyen a un nuevo contrato social global por el desarrollo sostenible y equitativo, marcado por la Agenda 2030, en el que se intenta que nadie quede atrás.",
+          "Dar a conocer la realidad y las diferentes caras del subdesarrollo a partir de su proyección humana y teniendo en cuenta las capacidades actitudinales y organizativas de los sujetos del sur debe ser conocido por nuestro alumnado.",
+          "La cooperación internacional al desarrollo comprende el conjunto de actuaciones, realizadas por actores públicos y privados, entre países de diferente nivel de renta con el propósito de promover el progreso económico y social de los países del Sur, de modo que sea más equilibrado en relación con el Norte y resulte sostenible.",
+          "Muchos países del mal llamado tercer mundo poseen importantes fuentes de riqueza y cuentan con recursos suficientes para paliar las desigualdades entre su población.",
+          "El problema, pues, no es la pobreza, sino el reparto injusto de la riqueza, que favorece a unas pocas personas en detrimento de la mayoría. En el caso de estos países podríamos hablar de \"países empobrecidos\" o \"países en situación de desigualdad\".",
+          "El mundo es uno solo. No existen más mundos que el nuestro, único y compartido por más de 7.000 millones de personas y cada vez más, los problemas que lo afligen nos afectan a todos y todas, en mayor o menor medida.",
+          "Por lo tanto, si los problemas no conocen fronteras, también la respuesta a esos problemas debe ser global, sin distinciones, apelando a la responsabilidad y todas y cada una de las personas que lo habitan.",
+          "Proponer y trabajar para establecer nuevos modelos de desarrollo, nuevos sistemas de producción y comercio respetuosos con los derechos humanos y el medio ambiente es una de las muchas salidas posibles hacia un futuro mejor y plenamente compartido, del que toda la ciudadanía forma parte."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Comprender la relación directa entre el consumo responsable y un desarrollo sostenible equilibrado es fundamental para que nuestro alumnado apueste por un modo de vida equilibrado."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CPSAA1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          19
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El uso desmedido de los recursos naturales y el incremento del consumo de productos de fábrica, están generando como consecuencia la degradación del medio ambiente. El consumo responsable permitirá a las empresas y sociedad en general adoptar una adecuada forma de consumir productos, servicios y recursos naturales con base a sus necesidades reales, así mismo, propone utilizar acciones que permitan disminuir los problemas ambientales a través de reducir, reutilizar y reciclar materiales, las cuales mantendrán un desarrollo sustentable.",
+          "Estos dos conceptos (consumo responsable y desarrollo sostenible) pretenden evitar el colapso de los recursos y concientizar a la humanidad de que debe cambiar de hábitos para que la biosfera no acabe desapareciendo, al menos tal como la conocemos ahora.",
+          "La sostenibilidad es un paradigma para pensar en un futuro en el cual las consideraciones ambientales, sociales y económicas se equilibran en la búsqueda del desarrollo y de una mejor calidad de vida. Estos tres ámbitos – la sociedad, el medio ambiente y la economía- están entrelazados. Nuestro alumnado vive en una sociedad concreta y en un momento concreto.",
+          "Los modelos de consumo actual no sólo están produciendo un grave deterioro del medio ambiente como consecuencia de la superproducción provocada por la puesta en el mercado de los diferentes productos que hoy en día tenemos, sino que también se está sufriendo un proceso de degradación de la salud como consecuencia de los nuevos patrones alimentarios o sociales, es por ello la importancia de considerar y tomar en cuenta la cantidad de productos y recursos naturales que consumimos y tomar acciones responsables que permitan y logren un incremento paulatino de la conservación del medio ambiente a través del desarrollo sostenible."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "La igualdad entre hombres y mujeres."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "CPSAA1",
+        "CC1",
+        "CC3",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+        "paginas": [
+          19,
+          20
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La igualdad de género implica que todas las personas, hombres y mujeres, deben recibir los mismos derechos, beneficios, igualdad de oportunidades, mismas sentencias y ser tratadas con el mismo respeto en todos los aspectos de la vida cotidiana: trabajo, salud, educación. El principio de igualdad y de no discriminación por razón de sexo es una obligación de derecho internacional general que vincula a todas las naciones y, dado su carácter primordial, se establece siempre como un principio que debe inspirar el resto de los derechos fundamentales. Estas afirmaciones deben quedar muy claras para todo nuestro alumnado, chicos y chicas que están creciendo.",
+          "Los centros escolares, son sin duda, uno de los espacios privilegiados para aprender a relacionarnos en igualdad. Cada persona es única y diferente, y es esta diversidad la que hace del mundo un lugar de intercambio y aprendizaje. Apostar por la igualdad no es negar las diferencias que existen entre las chicas y los chicos, sino darles el mismo valor y acabar con la discriminación.",
+          "A lo largo de la historia son muchas las mujeres que se han rebelado, de forma individual o colectiva, ante una discriminación injusta que les impedía tomar decisiones sobre sus propias vidas, participar en los asuntos de Estado y hasta atreverse a difundir sus pensamientos. Son un ejemplo de lucha y superación y unos buenos modelos de transformación social.",
+          "Los estereotipos pesan tanto que llegan a determinar la visión que tenemos de otras personas y pueden hacernos creer que deseamos algo que no sería nuestra opción si perteneciéramos al otro sexo.",
+          "Por otro lado, si la violencia es una forma equivocada de resolver un conflicto, aún lo es más cuando este conflicto se da con las personas que más nos importan. Apostando por la no violencia estaremos garantizándonos relaciones igualitarias, respetuosas, libres, enriquecedoras, en las que transite la felicidad."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar la importancia la cooperación para mejorar el desarrollo de los países."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender las relaciones históricas de las relaciones Norte-Sur y las distintas formas de cooperación que han existido y cómo se gestiona en la actualidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Trabajar de forma guiada en equipo con sus compañeros de clase, trabajando de forma colaborativa asignando diferentes roles de trabajo, de forma corresponsable, autónoma, igualitaria y promoviendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender la situación de desigualdad en el mundo y expresarla a través de pequeños trabajos de investigación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer los Objetivos de Desarrollo Sostenible (ODS) sabiendo identificar las incidencias más básicas del objetivo 12."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar conceptos y procesos referidos al desarrollo sostenible, conociendo la singularidad de casa uno, interpretando información en diferentes formatos (modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos, páginas web, etc.), manteniendo una actitud crítica y obteniendo conclusiones fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Cooperar dentro de un pequeño trabajo de investigación asumiendo responsablemente una función concreta, utilizando espacios virtuales cuando sea necesario, respetando la diversidad y la igualdad de género, y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-2-3"
+        },
+        {
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer la relación directa entre consumo y desarrollo sostenible, detectando prácticas consumistas que perjudican al medioambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-2-4"
+        },
+        {
+          "codigoOficial": "2.5",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar la contribución de las nuevas tecnologías al desarrollo humano, siempre que no deterioren el medioambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-2-5"
+        },
+        {
+          "codigoOficial": "2.6",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Adoptar una actitud responsable y sostenible ante los problemas ambientales que genera el uso de los recursos naturales de nuestro patrimonio."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-2-6"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar con datos científicos los tipos de discriminación social que sufren las mujeres."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer y valorar la situación de la mujer a lo largo de la historia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar conceptos y procesos referidos a la igualdad de género, conociendo la singularidad de casa uno, interpretando información en diferentes formatos (modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos, páginas web, etc.), manteniendo una actitud crítica y obteniendo conclusiones fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              20
+            ]
+          },
+          "id": "cri-2-3-3"
+        },
+        {
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Presentar la información y las conclusiones obtenidas mediante la experimentación y observación de campo utilizando el formato adecuado (tablas, gráficos, informes, etc.) y, cuando sea posible, herramientas digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              21
+            ]
+          },
+          "id": "cri-2-3-4"
+        },
+        {
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer los Objetivos de Desarrollo Sostenible (ODS) sabiendo identificar las incidencias más básicas del objetivo 5."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+            "paginas": [
+              21
+            ]
+          },
+          "id": "cri-2-3-5"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Cooperación al desarrollo y cooperación Internacional"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relaciones norte sur."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ayuda humanitaria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Países en desarrollo. Una aproximación a la realidad de los países del Sur. Imágenes de los países en desarrollo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto y fenómeno del desarrollo y subdesarrollo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cooperación institucional."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El Derecho Internacional Humanitario."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La desigualdad económica y la lucha contra la pobreza. Globalización económica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El comercio justo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La emergencia climática."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los Objetivos de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.10"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Agenda 2030."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.11"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Índice de Desarrollo Humano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.12"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La economía circular y la economía azul."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.13"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Alimentación y soberanía alimentaria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.A.14"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Consumo y desarrollo sostenible"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La crisis del planeta tierra."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "¿Qué es el desarrollo sostenible?"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los objetivos del Desarrollo Sostenible ODS 12."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los efectos de la publicidad en el consumo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Derechos de los consumidores y usuarios."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El consumo responsable y la protección del medioambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El respeto a los derechos de la biodiversidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La sobreexplotación de los recursos naturales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La regla de las tres erres."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La visión ecológica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.B.10"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La igualdad entre hombres y mujeres"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La situación de la mujer a lo largo de la historia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los estereotipos y los prejuicios."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conceptos básicos: sexo, género, segregación sexual y medidas de acción positiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Discriminación social que sufren las mujeres."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La mujer y el trabajo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La mujer y la educación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La discriminación social."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La violencia contra la mujer."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La igualdad como valor social."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los objetivos del Desarrollo Sostenible ODS 5."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-correccion-orden-edu-40-2022",
+                "paginas": [
+                  21
+                ]
+              },
+              "id": "CMNTII.2.C.10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores individuales de saberes son internos del proyecto, no códigos oficiales. Los ordinales publicados en los saberes se conservan en numeracionFuente, cuando existen.",
+      "Los descriptores operativos se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "Los desarrollos publicados para un grupo de cursos se reproducen en los cursos en que se oferta la materia, conservando su carácter compartido: la repetición no atribuye una secuenciación por curso que la fuente no publica.",
+      "La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.",
+      "aplicableDesdeCurso indica el primer curso académico de implantación en los cursos de esta materia: 2022/2023 si incluye 1.º o 3.º, y 2023/2024 si solo se oferta en 2.º o 4.º, según el calendario normativo.",
+      "Las versiones I y II tienen competencias específicas diferentes y se representan en JSON separados para conservar su numeración y sus vínculos sin mezclarlos. Cultura Clásica I y II comparten la introducción general publicada antes del primer nivel."
+    ]
+  }
+}

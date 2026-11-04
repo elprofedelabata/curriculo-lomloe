@@ -105,6 +105,7 @@ function renderStage(catalog, territoryCode, stageCode, matterSlug) {
   const stage = catalog.etapas.find((item) => item.territorio === territoryCode && item.codigo === stageCode);
   const matters = catalog.materias.filter((item) => item.territorio === territoryCode && item.etapa === stageCode);
   const openOptions = (catalog.optativasAbiertas || []).filter((item) => item.territorio === territoryCode && item.etapa === stageCode);
+  const referredScopes = (catalog.ambitosPorRemision || []).filter((item) => item.territorio === territoryCode && item.etapa === stageCode);
   const incidents = catalog.incidencias.filter((item) => item.territorio === territoryCode && item.etapa === stageCode);
   const documents = catalog.documentosNormativos.filter((item) =>
     item.etapas.includes(stageCode) && (item.territorio || "es-an") === territoryCode
@@ -120,6 +121,7 @@ function renderStage(catalog, territoryCode, stageCode, matterSlug) {
   currentView = { matterSlug };
   const sections = [section];
   if (openOptions.length) sections.push(renderOpenOptions(openOptions, territoryCode));
+  if (referredScopes.length) sections.push(renderReferredScopes(catalog, referredScopes, territoryCode));
   sections.push(renderDocuments(documents, territoryCode), renderIncidentsNote(incidents, territoryCode));
   modalContent.replaceChildren(...sections);
 
@@ -148,6 +150,32 @@ function renderOpenOptions(options, territoryCode) {
     if (option.fuente.archivo) {
       links.append(makeActionLink("PDF archivado", archiveUrl(territoryCode, option.fuente.archivo), "archive"));
     }
+    card.append(links);
+    list.append(card);
+  }
+  section.append(list);
+  return section;
+}
+
+function renderReferredScopes(catalog, scopes, territoryCode) {
+  const section = create("section", "modal-section open-options");
+  section.append(create("h3", "", "Diversificación"), create("p", "modal-muted", scopes[0].criterioRepresentacion));
+  const list = create("div", "open-option-list");
+  const matterName = (id) => catalog.materias.find((item) => item.id === id)?.nombre || id;
+  for (const scope of scopes) {
+    const card = create("article", "open-option");
+    const heading = create("div", "open-option-heading");
+    heading.append(create("h4", "", scope.nombre), create("span", "open-option-status", "Currículo por remisión"));
+    card.append(heading, create("p", "open-option-courses", scope.cursos.map((course) => courseLabel(scope.etapa, course)).join(" y ")),
+      create("p", "modal-muted", "Materias base: " + scope.materiasBaseRefs.map(matterName).join(" · ")));
+    for (const option of scope.incorporacionesOpcionales) {
+      card.append(create("p", "modal-muted", matterName(option.materiaRef) + ": " + option.condicion));
+    }
+    const links = create("div", "document-links");
+    const jsonLink = makeLink("Ficha JSON", "./" + scope.fichaPath);
+    jsonLink.className = "modal-action-link";
+    jsonLink.prepend(createJsonIcon());
+    links.append(jsonLink, makeActionLink("Publicación oficial", scope.fuente.urlOficial, "official"), makeActionLink("PDF archivado", archiveUrl(territoryCode, scope.fuente.archivo), "archive"));
     card.append(links);
     list.append(card);
   }
