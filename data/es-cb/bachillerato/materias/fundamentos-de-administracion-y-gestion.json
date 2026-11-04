@@ -1,0 +1,1180 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.bachillerato.fundamentos-de-administracion-y-gestion",
+  "territorio": "es-cb",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "FAG",
+    "nombre": {
+      "es": "Fundamentos de Administración y Gestión"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-bachillerato-orden-edu-42-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6239",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "paginasMateria": {
+        "desde": 35,
+        "hasta": 43
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-30-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/30/2024, de 11 de junio, por la que se modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "118",
+      "fechaPublicacion": "2024-06-19",
+      "cve": "CVE-2024-4956",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "paginasMateria": {
+        "desde": 4,
+        "hasta": 9
+      },
+      "anexo": "I"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Fundamentos de Administración y Gestión se encuadra dentro de un grupo de materias relacionadas con la disciplina económica y empresarial que se completa con las materias de Economía en primero de bachillerato y de Empresa y diseño de modelos de negocio en segundo, así como para alumnos y alumnas que no habiendo cursado estas materias anteriormente, estén interesados en adquirir fundamentos de gestión empresarial, y cuyo planteamiento principal se enfoca, en líneas generales, y desde una perspectiva meramente práctica, en la preparación de los jóvenes para adquirir competencias y valores que les permitan desenvolverse en el proceso administrativo y organizativo de la empresa.",
+      "Para el desarrollo de estas competencias se proponen cuatro bloques de contenidos. Un primer bloque denominado “Gestión de compraventa” desarrolla los contenidos asociados a la función de aprovisionamiento tales como búsqueda, análisis y negociación de ofertas y proveedores, gestión de la documentación de compras, ventas, cobros, pagos y obligaciones fiscales con la Hacienda Pública por el Impuesto del Valor Añadido. Un segundo bloque denominado “Gestión de la contabilidad de la empresa” en el que se impartirán los fundamentos de la contabilidad aplicando la técnica contable de acuerdo con la normativa vigente para registrar las operaciones de la empresa, así como la gestión de la documentación contable y fiscal pudiendo emplear programas informáticos específicos. Un tercer bloque denominado “Gestión de los recursos humanos” que aborda los procesos relacionados con la planificación y selección de los recursos humanos, así como la gestión de toda la documentación relacionada con esta función, utilizando herramientas informáticas. Un cuarto bloque denominado “Proyecto empresarial” en el que se analiza tanto la importancia y los diferentes aspectos de la innovación como fuente de generación de desarrollo y riqueza como la figura del emprendedor y la cultura emprendedora, desde un punto de vista empresarial. Se realiza la definición de una idea de negocio y la investigación del entorno empresarial más próximo a la misma. Será importante que el alumnado sepa defender en una exposición pública, con la ayuda de herramientas informáticas, el desarrollo de la idea de negocio.",
+      "Los criterios de evaluación establecidos para esta materia van dirigidos a conocer el grado de competencia que el alumnado haya adquirido, esto es, el desempeño a nivel cognitivo, instrumental y actitudinal, respecto a los saberes propuestos que serán aplicados al ámbito personal, social y académico con una futura proyección profesional.",
+      "Se pretende la concreción curricular desde una perspectiva teórico-práctica aplicando los saberes para adquirir fundamentos de gestión empresarial y desenvolverse en el proceso administrativo y organizativo de la empresa."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Comprender y analizar la importancia que tiene la información, tipología y finalidad del contrato de compraventa y de los documentos que utiliza la empresa en las distintas transacciones comerciales, para poder posteriormente confeccionar los documentos administrativos de las distintas operaciones comerciales más comunes de una empresa de forma manual y con una aplicación informática específica."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CD1",
+        "CPSAA3",
+        "CE1",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          36,
+          37
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Conocer las consecuencias que se derivan de un contrato de compraventa y los documentos administrativos de las empresas permitirá al alumnado poder entender de una forma práctica el funcionamiento de la actividad económica de las empresas y conocer las bases de una negociación exitosa entre las distintas partes."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Conocer y analizar las repercusiones económicas y administrativas que tiene una empresa en su actividad comercial con la Hacienda Pública, para poder liquidar en tiempo y forma todas sus obligaciones fiscales derivadas del IVA."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM2",
+        "CD1",
+        "CC4",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          37
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Resulta de gran utilidad que el alumnado conozca la utilidad de los impuestos y el funcionamiento del IVA en la actividad comercial, para poder confeccionar los documentos necesarios para hacer la declaración-liquidación de IVA."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Conocer y valorar todas las opciones que tiene la empresa para tramitar cobros y pagos, reconociendo la documentación asociada, para poder elegir la mejor opción de cobro o pago en función de las características de la operación."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM2",
+        "CE1",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          37
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La gestión de cobros y pagos en las actividades comerciales es la parte final del proceso administrativo. Las empresas tienen diferentes formas para poder realizar el cobro y/o pago de la compraventa de sus bienes y/ o servicios. Es importante que el alumnado conozca, diferencie y sepa seleccionar la forma más adecuada de gestión de cobros y pagos que permitirá el crecimiento empresarial y evitar problemas de liquidez."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Identificar y diferenciar los elementos patrimoniales que puede tener una empresa, clasificándolos en masas patrimoniales para poder valorar la situación patrimonial a través del Balance de Situación."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CE1",
+        "CD1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          37,
+          38
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con esta competencia se pretende conseguir que el alumnado pueda clasificar los diferentes elementos patrimoniales en la masa y submasa patrimonial, comprobar que se cumple la ecuación fundamental y presentar el balance de situación final debidamente ordenado."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Clasificar los distintos hechos contables y realizar de forma manual los asientos de un supuesto contable, aplicando la metodología contable y los criterios del Plan General de Contabilidad de Pymes."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CE1",
+        "CD1",
+        "CD2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          38
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La gestión de la contabilidad tiene el objetivo de registrar todas las operaciones económicas que realiza una empresa. La adecuada gestión de la contabilidad permitirá al alumnado poder interpretar los resultados y conocer la situación económica y financiera de una empresa."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Introducir asientos contables en una aplicación informática contable, teniendo en cuenta la normativa en vigor para poder registrar la documentación de compraventa."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          38
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Se pretende comprobar si el alumnado ha adquirido una visión global del ciclo contable y es capaz de registrar correctamente las operaciones conforme a la metodología contable generalmente aceptada de acuerdo con la normativa legal vigente."
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Gestionar la documentación que genera el proceso de selección de personal y contratación, aplicando las normas vigentes."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP1",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA1",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CE1",
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          38
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Se trata con esta competencia que el alumnado valore y conozca la importancia de las fases del proceso de selección del personal y las herramientas utilizadas para dicho proceso. De igual manera conocerá los derechos y obligaciones derivados de las relaciones laborales, reconociéndolas en los distintos tipos de contratos de trabajo."
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Cumplimentar recibos de salarios, realizando los cálculos con precisión, en retribuciones de carácter mensual y diario, y con diferentes conceptos retributivos como horas extra, pagas extra, percepciones no salariales, etc."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CE1",
+        "CD1",
+        "CD2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          38,
+          39
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El salario incluye factores como el tipo de contrato, convenio colectivo, pago de horas extraordinarias, etc. que deben ser conocidos y gestionados por el personal encargado de esta función en la empresa, y que bien gestionado contribuye a tener un buen clima laboral entre toda la plantilla, siendo ésta una de las partes más importantes y que más se debe de cuidar en una empresa."
+        ]
+      }
+    },
+    {
+      "id": "ce-9",
+      "codigoOficial": "9",
+      "enunciado": {
+        "es": "Analizar la información económica del sector y relacionar los factores de innovación empresarial y de revolución digital con los que la empresa aporta soluciones a las necesidades de la sociedad."
+      },
+      "descriptoresOperativosRefs": [
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CE3",
+        "CPSAA1",
+        "CPSAA3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          39
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Se trata de que el alumnado sepa reconocer la importancia de la innovación y revolución digital en el emprendimiento y la creación de empleo."
+        ]
+      }
+    },
+    {
+      "id": "ce-10",
+      "codigoOficial": "10",
+      "enunciado": {
+        "es": "Elaborar y exponer públicamente individual y/o en equipo, con la ayuda de herramientas informáticas, un plan de empresa que describa tanto la idea como los procesos necesarios para llevar a cabo el proyecto, valorando tanto su viabilidad técnica y económica como el impacto social y medioambiental producido."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA1",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CC4",
+        "CE1",
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          39
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El plan de empresa será una herramienta indispensable para poder transmitir la idea de negocio y la manera de llevarla a cabo, analizando su viabilidad económico-financiera y el impacto social y medioambiental en la zona donde se desarrolle."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer los derechos y obligaciones que tienen comprador y vendedor al firmar un contrato de compraventa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              39
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Calcular precios de venta y compra con descuentos, aplicando las normas y usos mercantiles de acuerdo a la legislación vigente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              39
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los requisitos básicos y obligatorios que deben contener los documentos de compraventa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              39
+            ]
+          },
+          "id": "cri-2-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Confeccionar documentos administrativos de las operaciones de compraventa, relacionándolos con las transacciones comerciales de la empresa de forma manual y con una aplicación informática."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              39
+            ]
+          },
+          "id": "cri-2-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Diferenciar las operaciones sujetas, no sujetas y exentas de IVA."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar las obligaciones fiscales ligadas a las operaciones de compraventa aplicando la normativa fiscal vigente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Confeccionar los principales modelos obligatorios de liquidaciones de IVA a la Hacienda Pública."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-2-3"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reconocer y cumplimentar los diferentes documentos de tipos de pagos y cobros al contado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar y cumplimentar los diferentes tipos de documentos de pagos aplazados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Calcular importes efectivos de presentar letras de cambio y pagarés al descuento en una entidad bancaria."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-3-3"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Identificar las masas patrimoniales de Activo, Pasivo y Patrimonio Neto, así como explicar su relación fundamental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diferenciar entre inversión/financiación, inversión/gasto, gasto/pago e ingreso/cobro."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Construir un balance ordenando los elementos patrimoniales en las masas y submasas patrimoniales correspondientes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-4-3"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar las cuentas patrimoniales y de gestión que intervienen en las operaciones básicas de las empresas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Registrar o formalizar hechos contables en el Libro Diario y Libro Mayor, conociendo y consignando los diferentes tipos de asientos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Describir el ciclo contable de un ejercicio económico y sus registros en los libros de la contabilidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-5-3"
+        },
+        {
+          "codigoOficial": "5.4",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Realizar las operaciones contables correspondientes a un ejercicio económico completo básico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-5-4"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Manejar a nivel básico un programa informático de Contabilidad, donde realiza todas las operaciones necesarias y presentar el proceso contable correspondiente a un ciclo económico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Obtener los listados de libros, registros y documentos contables que aporte el programa informático contable."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              40
+            ]
+          },
+          "id": "cri-2-6-2"
+        },
+        {
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Seleccionar oportunidades de empleo, identificando las diferentes posibilidades de inserción y oportunidades de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-7-1"
+        },
+        {
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Conocer las fases del proceso de selección de personal y manejar las distintas herramientas para la búsqueda de empleo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-7-2"
+        },
+        {
+          "codigoOficial": "7.3",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Diferenciar las características de las distintas modalidades de contratación laboral existentes que permite la legislación vigente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-7-3"
+        },
+        {
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Calcular las bases de cotización y las cuotas correspondientes a trabajador y empresario."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-8-1"
+        },
+        {
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Cumplimentar en el modelo oficial de forma manual y con un programa informático el recibo de salarios tanto en supuestos mensuales como diarios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-8-2"
+        },
+        {
+          "codigoOficial": "9.1",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Realizar un análisis del mercado y de la competencia para la idea de negocio seleccionada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-9-1"
+        },
+        {
+          "codigoOficial": "9.2",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Evaluar las repercusiones, ventajas e inconvenientes que tiene la idea de negocio llevada a cabo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-9-2"
+        },
+        {
+          "codigoOficial": "9.3",
+          "competenciaEspecificaRef": "ce-9",
+          "texto": {
+            "es": "Trabajar en equipo manteniendo una comunicación fluida con sus compañeros para el desarrollo del proyecto de empresa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-9-3"
+        },
+        {
+          "codigoOficial": "10.1",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Utilizar habilidades comunicativas y técnicas para atraer la atención en la exposición pública del proyecto de empresa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-10-1"
+        },
+        {
+          "codigoOficial": "10.2",
+          "competenciaEspecificaRef": "ce-10",
+          "texto": {
+            "es": "Manejar herramientas informáticas y audiovisuales atractivas que ayudan a una difusión efectiva del proyecto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              41
+            ]
+          },
+          "id": "cri-2-10-2"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Gestión de compraventa de la empresa"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La actividad comercial de la empresa. Elección de proveedores."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  41
+                ]
+              },
+              "id": "FAG.2.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Contrato de compraventa. Tipos de contratos de compraventa. Documentación de la compraventa: pedido, albarán, factura, factura rectificativa, factura electrónica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  41
+                ]
+              },
+              "id": "FAG.2.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión del Impuesto sobre el Valor añadido."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  41
+                ]
+              },
+              "id": "FAG.2.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de valoración de existencias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  41
+                ]
+              },
+              "id": "FAG.2.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Medios y documentos de cobro y pago al contado: cheque, transferencias, domiciliación bancaria, pago contra reembolso, tarjetas bancarias, pago online. Medios de pago aplazado: letra de cambio, pagaré y recibo normalizado."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión de compraventa con programa informático."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.A.06"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Gestión de la contabilidad de la empresa"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Patrimonio de la empresa. Bienes y derechos. Obligaciones. Activo. Pasivo. Patrimonio neto. Masas patrimoniales. Hechos contables."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Convenio de cargo y abono. Asientos. Libro diario. Libro mayor. Plan General Contable."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuentas de compras y gastos. Cuentas de ventas e Ingresos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuentas que intervienen en la contabilización de IVA. Liquidación del IVA."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Operaciones con compras: descuentos comerciales, rappels, descuentos por pronto pago, devoluciones, anticipos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.B.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Operaciones con ventas: descuentos comerciales, rappels, descuentos por pronto pago, devoluciones, anticipos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.B.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Compra de inmovilizado. Servicios exteriores. Gastos del personal. Cuentas de inmovilizado. Amortización de inmovilizado."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.B.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ciclo contable. Regularización contable. Cierre del ejercicio. Balance de comprobación de sumas y saldos. Balance de situación. Pérdidas y ganancias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.B.08"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Gestión de RR.HH"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Búsqueda de empleo. Análisis de puesto de trabajo. Portales de empleo. Empresas de Trabajo Temporal. Redes sociales. Personal branding."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Carta de presentación. Curriculum vitae. Videocurrículum. Entrevista de trabajo. Programas europeos de movilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Contrato de trabajo. Elementos del contrato de trabajo. Tipos de contratos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Base de cotización por contingencias comunes. Bases de cotización por contingencias profesionales. Base de cotización por horas extras. Estructura de la nómina. Salario base."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Complementos salariales. Percepciones no salariales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Deducciones. Retenciones a cuenta del IRPF."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.C.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "SMI. Convenio colectivo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.C.07"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Proyecto empresarial"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La innovación como fuente de desarrollo económico y generación de empleo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Emprendimiento. La idea de negocio. Design Thinking. Estudio de mercado. DAFO."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Plan de marketing. Plan de producción. Plan de inversión. Plan de RRHH. Plan económico-financiero."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  42
+                ]
+              },
+              "id": "FAG.2.D.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Evaluación del proyecto: rúbrica de presentación y rúbrica de modelo de negocio."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  43
+                ]
+              },
+              "id": "FAG.2.D.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Responsabilidad Social Corporativa. Balance Social. Modelo Canvas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  43
+                ]
+              },
+              "id": "FAG.2.D.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Presentación de proyectos con software y otras herramientas de comunicación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  43
+                ]
+              },
+              "id": "FAG.2.D.06"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
+      "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado.",
+      "Se conserva la granularidad de las referencias publicadas: CPSAA1, CPSAA3, CCEC3 y CCEC4, cuando aparecen sin subíndice, identifican el grupo y no atribuyen por sí solas una relación con cada descriptor subdividido."
+    ]
+  }
+}

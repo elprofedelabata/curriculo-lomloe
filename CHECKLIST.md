@@ -13,7 +13,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 
 ## Progreso global
 
-- **Currículos terminados en total:** 554.
+- **Currículos terminados en total:** 607.
 - **Referencias documentadas de Andalucía, Aragón, Asturias e Illes Balears:** 401 (398 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
 - **Currículos terminados en esas cuatro comunidades:** 398 de 398
 - **Currículos pendientes entre los inventariados en esas cuatro comunidades:** 0
@@ -23,7 +23,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 - **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
 - **Illes Balears:** 93 de 93
 - **Canarias:** 109 de 109 JSON revisados de las cinco etapas, incluidas las dos concreciones complementarias del silbo gomero
-- **Cantabria:** Infantil, Primaria y ESO completados, con 47 JSON revisados, sus 63 decisiones confirmadas y dos fichas de Diversificación por remisión. Bachillerato y CFGB conservan sus fuentes recopiladas. El inventario actualizado reúne 101 currículos candidatos
+- **Cantabria:** Infantil, Primaria, ESO y Bachillerato completados, con 100 JSON revisados, sus 97 decisiones confirmadas y dos fichas de Diversificación por remisión. CFGB conserva sus fuentes recopiladas. El inventario actualizado reúne 102 currículos candidatos
 
 ## Andalucía
 
@@ -855,11 +855,11 @@ Los 109 JSON canarios cumplen el esquema y están revisados, incluidas las dos c
 ### Progreso
 
 - **Fuentes oficiales:** 14 PDF del BOC archivados, con fechas, número de páginas y SHA-256.
-- **Estado:** Infantil, Primaria y ESO revisados, con 47 JSON: tres de Infantil, siete de Primaria y 37 de ESO. Bachillerato y CFGB conservan sus fuentes recopiladas.
-- **Inventario actualizado:** 101 currículos candidatos: 3 de Infantil, 7 de Primaria, 37 de ESO, 52 de Bachillerato y 2 ámbitos comunes de CFGB. Las versiones con competencias diferentes de Cultura Clásica y Conflictos Morales se separan; el número final de Bachillerato se confirmará al extraerlo.
+- **Estado:** Infantil, Primaria, ESO y Bachillerato revisados, con 100 JSON: tres de Infantil, siete de Primaria, 37 de ESO y 53 de Bachillerato. CFGB conserva sus fuentes recopiladas.
+- **Inventario actualizado:** 102 currículos candidatos: 3 de Infantil, 7 de Primaria, 37 de ESO, 53 de Bachillerato y 2 ámbitos comunes de CFGB. Se separan las versiones con competencias diferentes de Cultura Clásica, Conflictos Morales y Segunda Lengua Extranjera de Bachillerato.
 - **Diversificación:** dos [fichas por remisión a materias](data/es-cb/eso/ambitos-por-remision.json), documentadas aparte de los currículos cerrados.
-- **Incidencias:** 63 decisiones de Infantil, Primaria y ESO confirmadas; ninguna pendiente en el [registro de Cantabria](incidencias/es-cb.md).
-- **Siguiente paso:** extraer Bachillerato. Los 37 documentos revisados de ESO suman 223 competencias, 71 desarrollos, 1.295 criterios y 2.334 saberes contando su representación por curso. [Informe de ESO](sources/es-cb/REVISION-ESO.md).
+- **Incidencias:** 97 decisiones de Infantil, Primaria, ESO y Bachillerato confirmadas; ninguna pendiente en el [registro de Cantabria](incidencias/es-cb.md).
+- **Siguiente paso:** extraer los ámbitos comunes de CFGB. El [informe de Bachillerato](sources/es-cb/REVISION-BACHILLERATO.md) documenta la revisión y los cambios confirmados de sus 53 JSON.
 
 Las páginas son posiciones del PDF completo. Los grupos de cursos publicados se reproducen solo en los cursos de oferta, sin inventar una secuenciación. Segunda Lengua Extranjera tiene dos publicaciones divergentes; por decisión confirmada del usuario, el JSON utiliza el decreto como base única y mantiene ambas fuentes enlazadas.
 
@@ -928,58 +928,61 @@ La Orden EDU/41/2022, artículo 5, remite al currículo de las materias que inte
 
 ### Bachillerato — materias y optativas
 
-- [ ] Análisis Musical — [PDF, anexo II-A, p. 353](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=353)
-- [ ] Artes Escénicas — [PDF, anexo II-A, p. 362](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=362)
-- [ ] Biología — [PDF, anexo II-A, p. 373](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=373)
-- [ ] Biología, Geología y Ciencias Ambientales — [PDF, anexo II-A, p. 383](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=383)
-- [ ] Ciencias Generales — [PDF, anexo II-A, p. 396](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=396)
-- [ ] Coro y Técnica Vocal — [PDF, anexo II-A, p. 406](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=406)
-- [ ] Cultura Audiovisual — [PDF, anexo II-A, p. 415](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=415)
-- [ ] Dibujo Artístico — [PDF, anexo II-A, p. 424](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=424)
-- [ ] Dibujo Técnico — [PDF, anexo II-A, p. 441](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=441)
-- [ ] Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño — [PDF, anexo II-A, p. 451](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=451)
-- [ ] Diseño — [PDF, anexo II-A, p. 460](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=460)
-- [ ] Economía — [PDF, anexo II-A, p. 471](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=471)
-- [ ] Economía, Emprendimiento y Actividad Empresarial — [PDF, anexo II-A, p. 481](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=481)
-- [ ] Educación Física — [PDF, anexo II-A, p. 489](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=489)
-- [ ] Empresa y Diseño de Modelos de Negocio — [PDF, anexo II-A, p. 504](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=504)
-- [ ] Filosofía — [PDF, anexo II-A, p. 513](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=513)
-- [ ] Física — [PDF, anexo II-A, p. 528](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=528)
-- [ ] Física y Química — [PDF, anexo II-A, p. 538](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=538)
-- [ ] Fundamentos Artísticos — [PDF, anexo II-A, p. 549](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=549)
-- [ ] Geología y Ciencias Ambientales — [PDF, anexo II-A, p. 560](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=560)
-- [ ] Geografía — [PDF, anexo II-A, p. 572](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=572)
-- [ ] Griego — [PDF, anexo II-A, p. 584](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=584)
-- [ ] Historia del Arte — [PDF, anexo II-A, p. 604](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=604)
-- [ ] Historia de España — [PDF, anexo II-A, p. 617](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=617)
-- [ ] Historia de la Filosofía — [PDF, anexo II-A, p. 634](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=634)
-- [ ] Historia del Mundo Contemporáneo — [PDF, anexo II-A, p. 646](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=646)
-- [ ] Historia de la Música y de la Danza — [PDF, anexo II-A, p. 663](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=663)
-- [ ] Latín — [PDF, anexo II-A, p. 670](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=670)
-- [ ] Lengua Castellana y Literatura — [PDF, anexo II-A, p. 690](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=690)
-- [ ] Lengua Extranjera — [PDF, anexo II-A, p. 716](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=716)
-- [ ] Lenguaje y Práctica Musical — [PDF, anexo II-A, p. 734](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=734)
-- [ ] Literatura Dramática — [PDF, anexo II-A, p. 741](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=741)
-- [ ] Literatura Universal — [PDF, anexo II-A, p. 754](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=754)
-- [ ] Matemáticas — [PDF, anexo II-A, p. 764](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=764)
-- [ ] Matemáticas Aplicadas a las Ciencias Sociales — [PDF, anexo II-A, p. 783](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=783)
-- [ ] Matemáticas Generales — [PDF, anexo II-A, p. 801](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=801)
-- [ ] Movimientos Culturales y Artísticos — [PDF, anexo II-A, p. 814](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=814)
-- [ ] Proyectos Artísticos — [PDF, anexo II-A, p. 824](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=824)
-- [ ] Química — [PDF, anexo II-A, p. 832](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=832)
-- [ ] Técnicas de Expresión Gráfico-Plástica — [PDF, anexo II-A, p. 844](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=844)
-- [ ] Tecnología e Ingeniería — [PDF, anexo II-A, p. 855](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=855)
-- [ ] Volumen — [PDF, anexo II-A, p. 869](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=869)
-- [ ] Anatomía Aplicada — [PDF, anexo II, p. 21](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=21)
-- [ ] Economía Financiera — [PDF, anexo II, p. 31](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=31)
-- [ ] Fundamentos de Administración y Gestión — [PDF, anexo II, p. 35](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=35)
-- [ ] Imagen y Sonido — [PDF, anexo II, p. 43](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=43)
-- [ ] Segunda Lengua Extranjera — [PDF, anexo II, p. 48](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=48)
-- [ ] Programación y Gestión de Datos — [PDF, anexo II, p. 74](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=74)
-- [ ] Psicología — [PDF, anexo II, p. 79](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=79)
-- [ ] Tecnologías de la Información — [PDF, anexo II, p. 88](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=88)
-- [ ] Desarrollo de Estilo de Vida Activo y Saludable — [PDF, anexo II, p. 10](sources/es-cb/normativa/bachillerato/2024-06-11-orden-edu-30-2024-modificacion-optativas.pdf#page=10)
-- [ ] Tecnificación Deportiva Avanzada — [PDF, anexo II, p. 24](sources/es-cb/normativa/eso-bachillerato/2025-05-07-orden-edu-21-2025-espade.pdf#page=24)
+53 JSON revisados, con sus 34 decisiones confirmadas: 321 competencias, 67 desarrollos, 1.037 criterios y 2.016 saberes. [Informe de Bachillerato](sources/es-cb/REVISION-BACHILLERATO.md).
+
+- [x] Análisis Musical — [JSON revisado](data/es-cb/bachillerato/materias/analisis-musical.json) — [PDF, anexo II-A, p. 353](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=353)
+- [x] Artes Escénicas — [JSON revisado](data/es-cb/bachillerato/materias/artes-escenicas.json) — [PDF, anexo II-A, p. 362](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=362)
+- [x] Biología — [JSON revisado](data/es-cb/bachillerato/materias/biologia.json) — [PDF, anexo II-A, p. 373](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=373)
+- [x] Biología, Geología y Ciencias Ambientales — [JSON revisado](data/es-cb/bachillerato/materias/biologia-geologia-y-ciencias-ambientales.json) — [PDF, anexo II-A, p. 383](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=383)
+- [x] Ciencias Generales — [JSON revisado](data/es-cb/bachillerato/materias/ciencias-generales.json) — [PDF, anexo II-A, p. 396](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=396)
+- [x] Coro y Técnica Vocal — [JSON revisado](data/es-cb/bachillerato/materias/coro-y-tecnica-vocal.json) — [PDF, anexo II-A, p. 406](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=406)
+- [x] Cultura Audiovisual — [JSON revisado](data/es-cb/bachillerato/materias/cultura-audiovisual.json) — [PDF, anexo II-A, p. 415](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=415)
+- [x] Dibujo Artístico — [JSON revisado](data/es-cb/bachillerato/materias/dibujo-artistico.json) — [PDF, anexo II-A, p. 424](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=424)
+- [x] Dibujo Técnico — [JSON revisado](data/es-cb/bachillerato/materias/dibujo-tecnico.json) — [PDF, anexo II-A, p. 441](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=441)
+- [x] Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño — [JSON revisado](data/es-cb/bachillerato/materias/dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno.json) — [PDF, anexo II-A, p. 451](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=451)
+- [x] Diseño — [JSON revisado](data/es-cb/bachillerato/materias/diseno.json) — [PDF, anexo II-A, p. 460](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=460)
+- [x] Economía — [JSON revisado](data/es-cb/bachillerato/materias/economia.json) — [PDF, anexo II-A, p. 471](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=471)
+- [x] Economía, Emprendimiento y Actividad Empresarial — [JSON revisado](data/es-cb/bachillerato/materias/economia-emprendimiento-y-actividad-empresarial.json) — [PDF, anexo II-A, p. 481](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=481)
+- [x] Educación Física — [JSON revisado](data/es-cb/bachillerato/materias/educacion-fisica.json) — [PDF, anexo II-A, p. 489](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=489)
+- [x] Empresa y Diseño de Modelos de Negocio — [JSON revisado](data/es-cb/bachillerato/materias/empresa-y-diseno-de-modelos-de-negocio.json) — [PDF, anexo II-A, p. 504](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=504)
+- [x] Filosofía — [JSON revisado](data/es-cb/bachillerato/materias/filosofia.json) — [PDF, anexo II-A, p. 513](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=513)
+- [x] Física — [JSON revisado](data/es-cb/bachillerato/materias/fisica.json) — [PDF, anexo II-A, p. 528](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=528)
+- [x] Física y Química — [JSON revisado](data/es-cb/bachillerato/materias/fisica-y-quimica.json) — [PDF, anexo II-A, p. 538](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=538)
+- [x] Fundamentos Artísticos — [JSON revisado](data/es-cb/bachillerato/materias/fundamentos-artisticos.json) — [PDF, anexo II-A, p. 549](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=549)
+- [x] Geología y Ciencias Ambientales — [JSON revisado](data/es-cb/bachillerato/materias/geologia-y-ciencias-ambientales.json) — [PDF, anexo II-A, p. 560](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=560)
+- [x] Geografía — [JSON revisado](data/es-cb/bachillerato/materias/geografia.json) — [PDF, anexo II-A, p. 572](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=572)
+- [x] Griego — [JSON revisado](data/es-cb/bachillerato/materias/griego.json) — [PDF, anexo II-A, p. 584](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=584)
+- [x] Historia del Arte — [JSON revisado](data/es-cb/bachillerato/materias/historia-del-arte.json) — [PDF, anexo II-A, p. 604](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=604)
+- [x] Historia de España — [JSON revisado](data/es-cb/bachillerato/materias/historia-de-espana.json) — [PDF, anexo II-A, p. 617](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=617)
+- [x] Historia de la Filosofía — [JSON revisado](data/es-cb/bachillerato/materias/historia-de-la-filosofia.json) — [PDF, anexo II-A, p. 634](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=634)
+- [x] Historia del Mundo Contemporáneo — [JSON revisado](data/es-cb/bachillerato/materias/historia-del-mundo-contemporaneo.json) — [PDF, anexo II-A, p. 646](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=646)
+- [x] Historia de la Música y de la Danza — [JSON revisado](data/es-cb/bachillerato/materias/historia-de-la-musica-y-de-la-danza.json) — [PDF, anexo II-A, p. 663](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=663)
+- [x] Latín — [JSON revisado](data/es-cb/bachillerato/materias/latin.json) — [PDF, anexo II-A, p. 670](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=670)
+- [x] Lengua Castellana y Literatura — [JSON revisado](data/es-cb/bachillerato/materias/lengua-castellana-y-literatura.json) — [PDF, anexo II-A, p. 690](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=690)
+- [x] Lengua Extranjera — [JSON revisado](data/es-cb/bachillerato/materias/lengua-extranjera.json) — [PDF, anexo II-A, p. 716](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=716)
+- [x] Lenguaje y Práctica Musical — [JSON revisado](data/es-cb/bachillerato/materias/lenguaje-y-practica-musical.json) — [PDF, anexo II-A, p. 734](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=734)
+- [x] Literatura Dramática — [JSON revisado](data/es-cb/bachillerato/materias/literatura-dramatica.json) — [PDF, anexo II-A, p. 741](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=741)
+- [x] Literatura Universal — [JSON revisado](data/es-cb/bachillerato/materias/literatura-universal.json) — [PDF, anexo II-A, p. 754](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=754)
+- [x] Matemáticas — [JSON revisado](data/es-cb/bachillerato/materias/matematicas.json) — [PDF, anexo II-A, p. 764](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=764)
+- [x] Matemáticas Aplicadas a las Ciencias Sociales — [JSON revisado](data/es-cb/bachillerato/materias/matematicas-aplicadas-a-las-ciencias-sociales.json) — [PDF, anexo II-A, p. 783](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=783)
+- [x] Matemáticas Generales — [JSON revisado](data/es-cb/bachillerato/materias/matematicas-generales.json) — [PDF, anexo II-A, p. 801](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=801)
+- [x] Movimientos Culturales y Artísticos — [JSON revisado](data/es-cb/bachillerato/materias/movimientos-culturales-y-artisticos.json) — [PDF, anexo II-A, p. 814](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=814)
+- [x] Proyectos Artísticos — [JSON revisado](data/es-cb/bachillerato/materias/proyectos-artisticos.json) — [PDF, anexo II-A, p. 824](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=824)
+- [x] Química — [JSON revisado](data/es-cb/bachillerato/materias/quimica.json) — [PDF, anexo II-A, p. 832](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=832)
+- [x] Técnicas de Expresión Gráfico-Plástica — [JSON revisado](data/es-cb/bachillerato/materias/tecnicas-de-expresion-grafico-plastica.json) — [PDF, anexo II-A, p. 844](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=844)
+- [x] Tecnología e Ingeniería — [JSON revisado](data/es-cb/bachillerato/materias/tecnologia-e-ingenieria.json) — [PDF, anexo II-A, p. 855](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=855)
+- [x] Volumen — [JSON revisado](data/es-cb/bachillerato/materias/volumen.json) — [PDF, anexo II-A, p. 869](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=869)
+- [x] Anatomía Aplicada — [JSON revisado](data/es-cb/bachillerato/materias/anatomia-aplicada.json) — [PDF, anexo II, p. 21](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=21)
+- [x] Economía Financiera — [JSON revisado](data/es-cb/bachillerato/materias/economia-financiera.json) — [PDF, anexo II, p. 31](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=31)
+- [x] Fundamentos de Administración y Gestión — [JSON revisado](data/es-cb/bachillerato/materias/fundamentos-de-administracion-y-gestion.json) — [PDF, anexo II, p. 35](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=35)
+- [x] Imagen y Sonido — [JSON revisado](data/es-cb/bachillerato/materias/imagen-y-sonido.json) — [PDF, anexo II, p. 43](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=43)
+- [x] Segunda Lengua Extranjera I — [JSON revisado](data/es-cb/bachillerato/materias/segunda-lengua-extranjera-i.json) — [PDF, anexo II, p. 48](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=48)
+- [x] Segunda Lengua Extranjera II — [JSON revisado](data/es-cb/bachillerato/materias/segunda-lengua-extranjera-ii.json) — [PDF, anexo II, p. 61](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=61)
+- [x] Programación y Gestión de Datos — [JSON revisado](data/es-cb/bachillerato/materias/programacion-y-gestion-de-datos.json) — [PDF, anexo II, p. 74](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=74)
+- [x] Psicología — [JSON revisado](data/es-cb/bachillerato/materias/psicologia.json) — [PDF, anexo II, p. 79](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=79)
+- [x] Tecnologías de la Información — [JSON revisado](data/es-cb/bachillerato/materias/tecnologias-de-la-informacion.json) — [PDF, anexo II, p. 88](sources/es-cb/normativa/bachillerato/2022-08-08-orden-edu-42-2022-implantacion-optativas.pdf#page=88)
+- [x] Desarrollo de Estilo de Vida Activo y Saludable — [JSON revisado](data/es-cb/bachillerato/materias/desarrollo-de-estilo-de-vida-activo-y-saludable.json) — [PDF, anexo II, p. 10](sources/es-cb/normativa/bachillerato/2024-06-11-orden-edu-30-2024-modificacion-optativas.pdf#page=10)
+- [x] Tecnificación Deportiva Avanzada — [JSON revisado](data/es-cb/bachillerato/materias/tecnificacion-deportiva-avanzada.json) — [PDF, anexo II, p. 24](sources/es-cb/normativa/eso-bachillerato/2025-05-07-orden-edu-21-2025-espade.pdf#page=24)
 
 ### CFGB — ámbitos comunes
 

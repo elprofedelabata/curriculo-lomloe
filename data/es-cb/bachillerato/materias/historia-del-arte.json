@@ -1,0 +1,862 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.bachillerato.historia-del-arte",
+  "territorio": "es-cb",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "HA",
+    "nombre": {
+      "es": "Historia del Arte"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": null,
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-bachillerato-decreto-73-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 73/2022, de 27 de julio, por el que se establece el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "151",
+      "fechaPublicacion": "2022-08-05",
+      "cve": "CVE-2022-6079",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "paginasMateria": {
+        "desde": 604,
+        "hasta": 617
+      },
+      "anexo": "II-A"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-42-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6239",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-30-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/30/2024, de 11 de junio, por la que se modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "118",
+      "fechaPublicacion": "2024-06-19",
+      "cve": "CVE-2024-4956",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "paginasMateria": {
+        "desde": 4,
+        "hasta": 9
+      },
+      "anexo": "I"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El objeto de la materia de Historia del Arte es el análisis del hecho artístico en sus múltiples facetas y dimensiones, no solo desde una perspectiva histórica, mediante la contextualización cultural y temporal de estilos, obras y artistas, sino, entendiéndolo como una manifestación de la inteligencia y la creatividad humana que, a través del lenguaje y la actividad artística, se empeña en comprender y mejorar la realidad que nos rodea.",
+      "La Historia del Arte, materia con la que el alumnado ha tomado ya contacto en la Educación Secundaria Obligatoria a través de los contenidos de materias como Geografía e Historia, Filosofía, Latín, Música y Educación Plástica, Visual y Audiovisual, está estrechamente vinculada con el logro de los objetivos de etapa y el desarrollo de las competencias clave, especialmente en lo que compete al cultivo de la sensibilidad artística y al desarrollo de criterios estéticos, entendidos ambos como aspectos esenciales de la formación integral del alumnado y de su enriquecimiento cultural y personal. Dicha formación, en tanto que implica la comprensión de la forma en que ideas y emociones se comunican de forma creativa a través de diversas manifestaciones artísticas y culturales, se relaciona directamente con la competencia en conciencia y expresión culturales. De un modo más indirecto, pero no menos decisivo, el aprendizaje de la Historia del Arte contribuye al logro de la madurez intelectual y emocional del alumnado, favoreciendo la formación de una imagen ajustada de sí mismo, proporcionándole el conocimiento de códigos y lenguajes en los que reconocerse y expresarse, y promoviendo el desarrollo de su propio juicio, a la par que de una actitud dialogante y respetuosa con respecto a opiniones, gustos y expresiones diferentes a los propios. Además, la contribución de esta materia a las competencias y objetivos mencionados ha de procurar no solo un conocimiento más profundo de las realidades del mundo contemporáneo y de su significado estético, sino de algunas de las claves más importantes para entender la cultura audiovisual de nuestro tiempo, así como la adopción de una actitud crítica, cuidadosa y constructiva con respecto a la interpretación, protección y mejora del patrimonio cultural y del entorno social y natural.",
+      "Las materia está estructurada en torno a tres ejes fundamentales: el análisis, la comprensión histórica y la apreciación crítica de las principales manifestaciones artísticas y de sus relaciones con el resto de dimensiones y aspectos de la cultura y la experiencia humana; la incorporación de la perspectiva de género y, por ello, entre otros aspectos, de la visibilización de las mujeres creadoras habitualmente excluidas del canon dominante; y la educación para la preservación, mejora y uso sostenible del patrimonio artístico, entendido como elemento de desarrollo económico, social, ambiental y cultural.",
+      "Las competencias específicas incluyen el reconocimiento y análisis de las diversas manifestaciones estéticas, el empleo básico de los lenguajes artísticos y del vocabulario de la disciplina, la identificación de las diversas funciones atribuibles a la producción artística, así como su mayor o menor vinculación con diferentes movimientos, géneros, estilos, épocas y artistas, la apreciación de cambios estéticos en las representaciones del ser humano, la comprensión contextualizada de las creaciones culturales como reflejo de la sociedad que las ha generado, el conocimiento y protección del patrimonio, y, por último, la ya citada incorporación de la perspectiva de género al estudio histórico del arte.",
+      "En cuanto a los criterios de evaluación, estos están diseñados para comprobar el grado de consecución de las competencias específicas y, en conexión con los saberes básicos, están también orientados al logro de los objetivos del Bachillerato y de las competencias clave. La aplicación de los mismos supone la necesidad de adaptar las metodologías y acciones educativas, implementando estrategias en las que se ejerciten tanto los procesos instrumentales como las actitudes, e integrando en ellas las pautas metodológicas propias de la historia del arte. Dichos criterios suponen igualmente el diseño de instrumentos múltiples y diferentes con que, teniendo en cuenta la diversidad e individualidad del alumnado, valorar de forma diferenciada las acciones delimitadas por las competencias.",
+      "Los saberes básicos se agrupan, a su vez, en cuatro bloques y han sido concebidos para que puedan abordarse desde distintos enfoques didácticos y metodológicos. Así, se han organizado por criterios temáticos, sin ser un obstáculo para que sea posible realizar una aproximación a estos saberes siguiendo un orden cronológico, o combinando ambos aspectos. En el primer bloque, «Aproximación a la Historia del Arte», se presentan saberes relacionados con la complejidad de la definición del objeto de estudio y su evolución en el tiempo, el lenguaje artístico como forma de expresión y comunicación, el reto de la interpretación y el juicio estético, el vocabulario y la terminología específicos que el alumnado debe saber utilizar, así como las técnicas del comentario histórico-artístico. El trabajo con respecto a estos saberes puede concebirse como preámbulo al curso, o bien como actividad a desarrollar a lo largo del mismo.",
+      "En el segundo bloque, «El arte y sus funciones a lo largo de la historia», los saberes tratan, desde una perspectiva integradora, las funciones y significados de la actividad artística a lo largo del tiempo. Dicha actividad y las obras de arte a ella debidas constituyen un valioso documento para conocer las culturas que han caracterizado las distintas sociedades humanas a lo largo de distintas épocas. Es por ello que resulta imprescindible el estudio de la obra de arte en su contexto como punto de partida para analizar los factores históricos que intervienen en el proceso de su creación. Se pretende, con todo ello, que el alumnado comprenda el carácter multidimensional y complejo de la relación entre la actividad artística y los fenómenos políticos, sociales, económicos e ideológicos, así como entre dicha actividad y la subjetividad de las personas creadoras, planteando, asimismo, el problema del carácter autónomo y de la propia entidad de la obra de arte.",
+      "En el tercer bloque, «Dimensión individual y social del arte», los saberes seleccionados profundizan sobre el papel del arte como expresión de la identidad y de los sentimientos de pertenencia. Se trata aquí de identificar y comprender todos aquellos elementos visuales, icónicos y simbólicos que, presentes en todas las culturas, definen la identidad individual y colectiva de una sociedad. Además, se examina críticamente la participación de las mujeres y se otorga relevancia a la visibilidad a las artistas que han estado marginadas de un canon tradicionalmente concebido desde una perspectiva androcéntrica.",
+      "Por último, el cuarto y último bloque, «Realidad, espacio y territorio en el arte», agrupa saberes relacionados con la concepción del arte como representación y reflejo de la realidad, tales como la creación del espacio arquitectónico, el dominio de la perspectiva en la pintura, el urbanismo, y la relación del arte y el patrimonio artístico con la naturaleza y el desarrollo sostenible.",
+      "Finalmente, conviene subrayar que el enfoque competencial del Bachillerato y de la Historia del Arte posibilita diseñar situaciones y contextos de aprendizaje más activos en los que dotar de mayor protagonismo al alumnado y promover el trabajo en equipo, los procesos de indagación e investigación, la creatividad y la transferencia del conocimiento adquirido. Se invita, así, a elaborar propuestas didácticas y metodologías integradoras en las que se apliquen el análisis, la interpretación y la valoración personal y argumentada, el diálogo y la colaboración con los demás y con otras áreas de conocimiento, el uso crítico, ético y responsable de la información, el respeto al patrimonio y a la diversidad de expresiones culturales, y la concepción del conocimiento y el aprendizaje como motor del desarrollo personal, social y cultural, y como garantía para afrontar con éxito los retos y desafíos del siglo XXI."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar diferentes concepciones del arte a lo largo de la historia, seleccionando y analizando información de forma crítica, para valorar la diversidad de manifestaciones artísticas como producto de la creatividad humana y fomentar el respeto por las mismas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          607,
+          608
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Todas las estrategias y procesos relacionados con la búsqueda, selección, tratamiento y análisis de la información resultan indispensables para el aprendizaje y adquisición de nuevos saberes. Por lo que se hace necesario que el alumnado se ejercite en ellos, procurando un grado suficiente de manejo crítico de fuentes, de precisión en la recogida de datos y de tratamiento contrastado de la información a partir del análisis crítico y riguroso de la misma. Este proceso ha de culminar con la elaboración de síntesis, resúmenes, informes, reseñas o reelaboraciones propias a través de los que organizar, interiorizar y comunicar lo aprendido de forma precisa y creativa.",
+          "Otro elemento fundamental es la delimitación de su campo de estudio, algo ligado tanto a los cambios históricos que se han dado en la comprensión de este como a la evolución del significado de sus conceptos fundamentales, empezando por la propia noción de «obra de arte». En último término, es esencial que el alumnado reconozca la diversidad y heterogeneidad, tanto diacrónica como sincrónica de los criterios estéticos, identificando aquellos que son propios a diferentes culturas, sociedades y artistas. A este respecto, se habrá de prestar especial atención al ámbito del arte contemporáneo, de manera que, más allá de las distinciones clásicas, se identifique y aprecie formas de expresión ligadas a los modos actuales de producción y comunicación, tales como el cómic, el arte urbano, el videoarte o el arte digital, entre otros."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Reconocer los diversos lenguajes artísticos como una forma de comunicación y expresión de ideas, deseos y emociones, utilizando con corrección la terminología y el vocabulario específico de la materia, para expresar con coherencia y fluidez sus propios juicios y sentimientos y mostrar respeto y empatía por los juicios y expresiones de los demás."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "CD1",
+        "CPSAA1.2",
+        "CPSAA5",
+        "CC1",
+        "CE3",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          608
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Resulta especialmente relevante que el alumnado reconozca los diversos lenguajes artísticos como una forma de comunicación y expresión estética, con reglas y pautas propias, que se originan, vulneran y recrean de muy variados modos, a tenor de cada época, cultura, género, estilo o artista individual. Estas reglas pueden referirse a patrones formales y pautas técnicas (simetría, proporción, equilibrio de la composición, tensión entre elementos, ruptura con las propias pautas, etc.) que conviene que se reconozcan. En cualquier caso, el alumnado ha de comprender que la experiencia artística precisa, en muchas ocasiones, del conocimiento previo de los códigos representativos y lenguajes plásticos con los que opera cada arte y cada artista.",
+          "Por otro lado, es necesario que el alumnado conozca y utilice con propiedad y corrección la terminología y el vocabulario propio de la materia, lo que le va a permitir realizar y comunicar sus propios comentarios artísticos, trabajos de investigación o reflexiones personales, con fluidez y rigor, tanto en formatos digitales como en otros más tradicionales. El objetivo es que el alumnado pueda expresar y comunicar de forma solvente y original ideas y juicios propios, construir e integrar nuevos conocimientos, movilizar los saberes que ya tiene adquiridos, así como participar con actitud cooperativa en situaciones comunicativas relacionadas con el ámbito artístico, respetando siempre la diversidad de percepciones y opiniones que cabe experimentar y expresar ante la obra de arte."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Distinguir las distintas funciones del arte a lo largo de la historia, analizando la dimensión religiosa, ideológica, política, social, económica, expresiva y propiamente estética de la obra de arte, de su producción y su percepción, para promover una apreciación global y un juicio crítico e informado de los mismos."
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA1.2",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          608,
+          609
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La producción artística ha adquirido a menudo, de manera intencionada o no, diferentes funciones. Así, el arte ha podido instrumentalizarse en sus orígenes y aún hoy como proceso mágico y ritual. Se ha empleado también como lenguaje para la transmisión de determinadas ideas, creencias y doctrinas religiosas. Ha servido, en ocasiones, a Estados, colectivos e individuos como medio de influencia y control, tanto para generar conformidad con el orden social, como para subvertirlo y transformarlo. Ha sido igualmente utilizado como elemento de cohesión social y representación identitaria de grupos y colectividades. Se ha concebido como actividad económica, confundiéndose, en la actualidad, con procesos como el diseño industrial o la publicidad. Se ha interpretado también como modo de expresión de la subjetividad y los sentimientos. Por último, ha sido entendida, desde la época moderna, como una actividad esencialmente autónoma, sin subordinación posible a ninguna otra función salvo la de recrearse a sí misma, para volver a vincularse a una concepción problemática y diversa de la realidad en algunas de las corrientes y artistas postmodernos.",
+          "Así, es importante que el alumnado identifique y contextualice históricamente las relaciones complejas entre la producción artística y las mentalidades, intereses y acciones de los Estados y otros grupos de poder, de las distintas clases y grupos sociales, así como de las empresas y de otras instancias o sujetos individuales o colectivos, incidiendo en las que se establecen, a día de hoy, en el marco de una cultura audiovisual dominada desde los medios y redes de comunicación. El objetivo último es comprender la producción y percepción artística como un proceso histórico complejo, vinculado a distintos contextos, intenciones y funcionalidades que resultan finalmente plasmadas en la propia obra de arte."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Identificar y caracterizar los principales movimientos artísticos a lo largo de la historia, reconociendo las relaciones de influencia, préstamo, continuidad y ruptura que se producen entre ellos, para comprender los mecanismos que rigen la evolución de la historia del arte y fomentar el respeto y aprecio de las manifestaciones artísticas de cualquier época y cultura."
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA4",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          609,
+          610
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Al final de la etapa de Bachillerato, el alumnado debe haber adquirido una visión general sobre las distintas etapas y movimientos que conforman la historia del arte. Se trata en ese sentido de ir caracterizándolos en sus rasgos esenciales, estableciendo relaciones entre ellos, identificando semejanzas y diferencias y sistematizando de modo crítico la información básica en torno a los mismos. La dificultad de abarcar, dada su amplitud, toda esta secuencia histórica, hace necesaria una selección equilibrada de elementos temáticos que favorezca una aproximación general al desarrollo de la historia del arte, propiciando una concepción global del mismo en la que se complemente la secuenciación lineal con un análisis transversal relativo a las funciones, valores y significados atribuibles a la creación y la experiencia artísticas.",
+          "Se concederá, así, especial atención a las relaciones de influencia y los mecanismos de reproducción que hacen que un movimiento artístico se prolongue en el tiempo, como ocurre en la relación entre el arte griego y el romano, que perviva en sí mismo, como el arte islámico, o que, mediante una ruptura, dé lugar a un movimiento nuevo, como es el caso del Neoclasicismo y el Romanticismo. La propia reflexión sobre el lenguaje artístico ayudará al alumnado a entender por qué a un estilo le sigue otro, muchas veces contrapuesto, o por qué dos estilos conviven en el tiempo. Por otro lado, se trata también de identificar las continuas influencias que se dan entre el pasado y el presente, retomándose en ocasiones, y con otros lenguajes, ciertos elementos del pasado, y rompiendo, en otros casos con él para dar lugar, de forma progresiva o más abrupta, a nuevos movimientos artísticos."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Identificar y contextualizar espacial y temporalmente a las más relevantes manifestaciones y personalidades artísticas, analizando su entorno social, político y cultural, y sus aspectos biográficos, para valorar las obras y a sus artistas como expresión de su época y ámbito social, apreciar su creatividad y promover el conocimiento de diversas formas de expresión estética."
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA3.1",
+        "CPSAA4",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          610,
+          611
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Es importante que el alumnado identifique y analice las obras más significativas de distintos artistas y movimientos artísticos. Se trata de analizar aquellas que, por su significación y su repercusión a lo largo del tiempo, han marcado un hito en la historia del arte. Es igualmente importante que en la delimitación de las obras y en el proceso mismo del análisis se eviten criterios que, por su carácter ideológico, eurocéntrico, sexista o, en general, discriminatorio, supongan un sesgo injustificado. Para evitarlo es conveniente infundir una visión global y libre de prejuicios de la historia del arte, examinando y apreciando obras de otras culturas o aquellas que, pese a su interés y calidad, hayan sido marginadas de los cánones al uso. Esto mismo es extensible a artistas que, por diversos motivos, y pese al valor reconocido de su obra, hayan sido olvidados por la historiografía.",
+          "Por otro lado, uno de los ejes de la materia debe ser entender las creaciones artísticas como expresión de la actividad humana y sus circunstancias en determinada cultura y momento histórico. El estudio de una obra de arte adquiere, así, todo su significado cuando se la pone en relación con su contexto sociocultural y con la biografía de su autor. Conviene, además, tener en cuenta el carácter bidireccional de dicha relación, de manera que, si bien ninguna obra puede ser plenamente entendida sin considerar los factores y circunstancias espaciotemporales y biográficos que intervinieron en su creación, el estudio de la obra de arte resulta igualmente un factor a tener en cuenta para el conocimiento de la época, la cultura y la personalidad que la gestó."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Conocer y valorar el patrimonio artístico en el ámbito local, nacional y mundial, analizando ejemplos concretos de su aprovechamiento y sus funciones, para contribuir a su conservación, su uso comprometido a favor de la consecución de los Objetivos de Desarrollo Sostenible, su promoción como elemento conformador de la identidad individual y colectiva, y como dinamizador de la cultura y la economía."
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA4",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CE1",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          611,
+          612
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El reconocimiento del patrimonio artístico como un elemento que nos ha sido legado por las generaciones pasadas y la necesidad de su conservación, su uso sostenible y su promoción, representan un imperativo fundamental para cualquier sociedad y cultura. En este sentido, el papel de la materia de Historia del Arte resulta crucial, pues difícilmente podemos valorar algo que no conocemos. Se trata, pues, de que el alumnado tome conciencia, a través del análisis pormenorizado de casos concretos, del valor simbólico y de la importancia social, ambiental y material del patrimonio artístico y cultural, de la complejidad y el mérito del trabajo de los profesionales encargados de su mantenimiento, y de aquellas repercusiones ecosociales que supone su conservación y puesta en valor.",
+          "La expresión de la identidad y de los sentimientos de pertenencia es una de las funciones atribuibles al arte en prácticamente todas las épocas y culturas, pues este suele reflejar en gran medida aquellos elementos visuales, icónicos y simbólicos que definen las singularidades y creencias colectivas. Es importante, pues, que el alumnado reflexione de forma crítica y dialogada acerca de cómo el arte genera y transmite tales sentimientos y creencias a distintas escalas, siendo instrumentalizado, en ocasiones, como un medio propagandístico de representación y de educación al servicio del Estado u otros grupos, mediante la creación, por ejemplo, de instituciones académicas y museísticas."
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Distinguir y describir los cambios estéticos y los diferentes cánones de belleza a lo largo de la historia del arte, realizando análisis comparativos entre obras de diversos estilos, épocas y lugares, para formarse una imagen ajustada de sí mismo y consolidar una madurez personal que permita mostrar sensibilidad y respeto hacia la diversidad superando estereotipos y prejuicios."
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          612
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La historia del arte es uno de los mejores escenarios en los que formar al alumnado para el logro de un adecuado concepto de sí mismo, a través, por ejemplo, de la reflexión sobre las distintas formas de representación humana a lo largo del tiempo. Esta necesidad de hacerse visible, proyectarse e identificarse a través de la imagen es una constante histórico cultural que conduce a la pregunta recurrente acerca de las formas y propósitos de dicha representación.",
+          "Es necesario pues que, a través del análisis de géneros como el retrato y otros, se promueva en el alumnado la captación de la psicología y la mirada interior de los personajes, tanto de figuras destacadas de la historia como de personas o grupos de diferentes estratos sociales, la expresión de la diversidad de razas y etnias, o el reflejo del ciclo vital desde la infancia hasta la vejez y la muerte.",
+          "Todo lo anterior puede relacionarse, a su vez, con el concepto de belleza y sus opuestos y con su evolución histórica. De este modo, a través del análisis comparativo de obras de distintos periodos, el alumnado puede reconocer cómo han ido cambiando la idea de belleza y los cánones de valoración estética, adquiriendo una concepción compleja y no dogmática de las ideas estéticas y dando ocasión al desarrollo de su propio criterio y gusto. Otro de los propósitos de este análisis es contribuir a que el alumnado adopte un concepto ajustado y asertivo de su propia imagen física, a la vez que una actitud de respeto y reconocimiento de la diversidad humana, tanto en su aspectos psíquicos y físicos como en cuanto a sus manifestaciones culturales, rechazando todo tipo de prejuicios y estereotipos discriminatorios."
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Integrar la perspectiva de género en el estudio de la historia del arte, analizando el papel que ha ocupado la mujer y la imagen que de ella se ha dado en los diferentes estilos y movimientos artísticos, para visibilizar a las artistas y promover la igualdad efectiva entre mujeres y hombres."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CPSAA3.1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          613
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La historiografía del arte, gestada a partir de mediados del siglo XVIII, relegó a la mujer de las distintas disciplinas artísticas, negando y ocultando su capacidad creadora, como constata la escasa presencia femenina en las colecciones de los grandes museos. La materia de Historia del Arte puede ser una herramienta muy útil para invertir esta tendencia, recuperando y valorando aquellas figuras artísticas que han sido injustificadamente marginadas del canon del arte por su simple condición de mujer.",
+          "Por otra parte, analizando los estereotipos y símbolos relacionados con la mujer y el ámbito femenino en obras de arte en que se representan espacios, roles, actividades y modos de vida, se pueden contextualizar y comprender mejor las relaciones entre ambos sexos a lo largo de la historia. Se trata así de promover en el alumnado actitudes críticas y de rechazo hacia el sexismo y la discriminación de la mujer, a partir de un análisis crítico de aquellas representaciones y de su función como generadoras de conformidad social."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar y respetar la diversidad de manifestaciones artísticas a partir de la investigación y el debate en torno a las diferentes concepciones del arte y el análisis de obras concretas sobre las que comprobar la pertinencia de dichas concepciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              613
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar productos y expresar con coherencia y fluidez juicios y emociones propios acerca de las obras de arte y mostrar respeto y empatía por los juicios y expresiones de los demás, utilizando la terminología y el vocabulario específico de la materia y demostrando un conocimiento básico de diversos lenguajes artísticos aprendidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              613
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Distinguir y analizar las funciones y las dimensiones religiosa, ideológica, política, social, económica, expresiva y propiamente estética de las obras de arte, demostrando una comprensión y un juicio crítico y fundamentado de las mismas y de su producción y su percepción."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              614
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer y explicar por las principales manifestaciones y movimientos artísticos, identificando y analizando su contexto cultural, su vinculación con las funciones atribuibles al arte, sus características estilísticas fundamentales y su desarrollo en el tiempo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              614
+            ]
+          },
+          "id": "cri-2-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reconocer los mecanismos que rigen la evolución de la historia del arte a partir del análisis comparativo de obras de diversas épocas y de la explicación de las relaciones de influencia, préstamos y ruptura que se producen entre estilos, autores y movimientos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              614
+            ]
+          },
+          "id": "cri-2-4-2"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Elaborar comentarios histórico-artísticos de distintas obras de arte a partir del conocimiento crítico y argumentado acerca de su contexto histórico, sus funciones y su relevancia social, valorando y respetando distintas obras y formas de manifestaciones artísticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              614
+            ]
+          },
+          "id": "cri-2-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar y analizar la complejidad del proceso de creación artística elaborando reseñas biográficas sobre las figuras más destacadas, y atendiendo a aquellos aspectos personales que faciliten la comprensión del significado y del valor de la obra, tomando conciencia del papel del artista en el proceso creador."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              614
+            ]
+          },
+          "id": "cri-2-5-2"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Comprender la importancia de la conservación y promoción del patrimonio artístico, investigando acerca de los procesos de adquisición, conservación, exhibición y uso sostenible de obras de arte, así como sobre el impacto positivo y negativo de las acciones humanas sobre ellas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              614
+            ]
+          },
+          "id": "cri-2-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar el papel conformador de la identidad individual y colectiva que poseen el arte y el patrimonio artístico, analizando las autorrepresentaciones humanas y el uso de recursos estéticos e iconográficos en la generación y mantenimiento de los vínculos grupales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              614
+            ]
+          },
+          "id": "cri-2-6-2"
+        },
+        {
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Elaborar argumentos propios acerca de la noción de belleza, comparando cánones y obras de diversos tipos, estilos, épocas y lugares, apreciando la diversidad como fuente de enriquecimiento superando estereotipos y prejuicios y promoviendo la formación de una imagen ajustada de sí mismo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              615
+            ]
+          },
+          "id": "cri-2-7-1"
+        },
+        {
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Distinguir y describir los cambios estéticos y los diferentes cánones de belleza a lo largo de la historia del arte, realizando análisis comparativos entre obras de diversos estilos, épocas y lugares."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              615
+            ]
+          },
+          "id": "cri-2-7-2"
+        },
+        {
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Conocer las principales figuras femeninas de la historia del arte dando visibilidad a la mujer como artista analizando el contexto político, social y cultural en el que desarrollaron su producción artística y reconociendo su esfuerzo por hacerse valer en él."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              615
+            ]
+          },
+          "id": "cri-2-8-1"
+        },
+        {
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Conocer y analizar críticamente la imagen que se ha dado de la mujer en la historia del arte, mediante el análisis comparativo de obras de distintas épocas y culturas en las que se represente figuras, roles, símbolos y temas relacionados con la feminidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              615
+            ]
+          },
+          "id": "cri-2-8-2"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Aproximación a la historia del arte"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El debate en torno a la definición de arte. El concepto del arte a lo largo de la historia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  615
+                ]
+              },
+              "id": "HA.2.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje artístico: el arte como forma de comunicación. La variedad de códigos y lenguajes. Símbolos e iconografía en el arte. La subjetividad creadora. El problema de la interpretación. El juicio estético. Cultura popular y cultura de elite."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  615
+                ]
+              },
+              "id": "HA.2.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Terminología y vocabulario específico del arte en la arquitectura y las artes plásticas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  615
+                ]
+              },
+              "id": "HA.2.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas para el análisis de la obra de arte: elementos técnicos, formales, y estilísticos. Estudio iconográfico y significado, identificación, contextualización y relevancia de la obra. El análisis comparativo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  615
+                ]
+              },
+              "id": "HA.2.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Influencias, préstamos, continuidades y rupturas en la historia del arte."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  615
+                ]
+              },
+              "id": "HA.2.A.05"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "El arte y sus funciones a lo largo de la historia"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como instrumento mágico-ritual a lo largo de la historia. El arte prehistórico. El arte rupestre en la Cornisa Cantábrica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como dispositivo de dominación y control. El arte de las antiguas civilizaciones mediterráneas. El arte romano y el caso del culto imperial. La Contrarreforma y el Barroco. El papel de las Academias en el siglo XVIII. Arte y totalitarismos en el siglo XX. Arte y “mass media” en la sociedad contemporánea."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte y su valor propagandístico: desde el Mundo Antiguo hasta la actual sociedad de consumo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte y su función didáctica y religiosa en las sociedades teocéntricas. La iconografía paleocristiana y bizantina. El Románico y el Gótico. El arte islámico. Las ermitas rupestres y el arte medieval en Cantabria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.B.04"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Arte, mecenazgo y coleccionismo como elementos de diferenciación social"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El Humanismo y el Renacimiento. Del concepto de artesano al de artista."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como medio de progreso, crítica y transformación sociocultural desde el pensamiento ilustrado hasta la actualidad. El Neoclasicismo y José de Madrazo. El Realismo y los paisajistas. Arte y crítica social en el siglo XX. El arte urbano y Okuda San Miguel."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como idioma de sentimientos y emociones. El Romanticismo. El Impresionismo y el Posimpresionismo. Las Vanguardias y nuevas formas de expresión. José Gutiérrez Solana, Francisco Iturrino y María Blanchard."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El arte como expresión de los avances tecnológicos: desde la Revolución Industrial hasta la era digital. Arquitectura e Ingeniería."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.C.04"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Dimensión individual y social del arte"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte e identidad individual: la necesidad de representarnos. La imagen del cuerpo humano. El género del retrato. La evolución en la imagen del artista."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte e identidad colectiva: escuelas, regionalismos y búsqueda de identidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La representación de la mujer en el arte desde una perspectiva crítica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.D.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La mujer como artista. La lucha por la visibilidad a lo largo de la historia del arte."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.D.04"
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Realidad, espacio y territorio en el arte"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte y realidad: imitación e interpretación. La revolución de la fotografía y el cine."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.E.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arquitectura y espacio: la creación de espacios arquitectónicos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  616
+                ]
+              },
+              "id": "HA.2.E.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Pintura y perspectiva: la conquista de la tercera dimensión. Arte e intervención en el territorio: el urbanismo como arte."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  617
+                ]
+              },
+              "id": "HA.2.E.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Arte y medio ambiente. La naturaleza y la representación de las emociones. Arquitectura, urbanismo y diseño sostenibles. La contribución del arte a los Objetivos de Desarrollo Sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  617
+                ]
+              },
+              "id": "HA.2.E.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El patrimonio artístico: preservación, conservación y usos sostenibles. Museografía y museología."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  617
+                ]
+              },
+              "id": "HA.2.E.05"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
+      "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado.",
+      "El decreto entra en vigor al inicio del curso 2022/2023, sin un día concreto; entradaEnVigor queda en null. Su implantación es en 1.º en 2022/2023 y en 2.º en 2023/2024."
+    ]
+  }
+}

@@ -1,0 +1,1572 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.bachillerato.tecnificacion-deportiva-avanzada",
+  "territorio": "es-cb",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "TDA",
+    "nombre": {
+      "es": "Tecnificación Deportiva Avanzada"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      },
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2025-05-15",
+    "aplicableDesdeCurso": null,
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-bachillerato-orden-edu-21-2025",
+      "tipo": "orden",
+      "titulo": "Orden EDU/21/2025, de 7 de mayo, que regula el Programa ESPADE (Especial Atención al Deporte) en la Comunidad Autónoma de Cantabria y que modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria y la Orden EDU/32/2011, de 18 de abril, por la que se determinan las concreciones y el procedimiento de convalidación entre las enseñanzas profesionales de música y danza y la educación secundaria obligatoria y el bachillerato, y el de la exención de la materia de educación física, en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "91",
+      "fechaPublicacion": "2025-05-14",
+      "cve": "CVE-2025-4090",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=419928",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=419928",
+      "paginasMateria": {
+        "desde": 24,
+        "hasta": 31
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-42-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6239",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-30-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/30/2024, de 11 de junio, por la que se modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "118",
+      "fechaPublicacion": "2024-06-19",
+      "cve": "CVE-2024-4956",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "paginasMateria": {
+        "desde": 4,
+        "hasta": 9
+      },
+      "anexo": "I"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Tecnificación Deportiva Avanzada pretende aportar unos conocimientos científicos y técnicos que permitan ampliar y profundizar en los aspectos relacionados con la mejora del rendimiento y el desempeño del deporte en la etapa de tecnificación. El alumnado se encuentra en un momento clave de su maduración física, cognitiva, emocional y social asentando los fundamentos para la vida adulta. La propia evolución deportiva, requiere que se trabaje y se profundice en todos los ámbitos: técnico, táctico, estratégico, condicional, reglamentario, emocional y social del alumnado deportista. La materia busca un desarrollo integral y competencial basado en el bienestar y en el equilibrio, utilizando el deporte y los valores que transmite como eje vertebral del trabajo.",
+      "La materia está integrada por conocimientos, destrezas y actitudes de diversas áreas que se ocupan del estudio del cuerpo humano y de los principales procesos de su funcionamiento, tales como la anatomía, la fisiología, la fisioterapia y las ciencias de la actividad física, incluyendo saberes de psicología deportiva. Por otro lado, incluye todos los conocimientos avanzados propios de la modalidad deportiva en la etapa previa al alto rendimiento deportivo.",
+      "Tecnificación Deportiva Avanzada participa en el desarrollo de las competencias clave en la etapa. Éstas, que abarcan desde la comunicación efectiva hasta el pensamiento crítico y la resolución de problemas, proporcionan las bases necesarias para comprender y enfrentar los desafíos que surgen en el contexto deportivo. A través del desarrollo de la materia se trabajarán saberes muy diversos, que desarrollarán, entre otros, habilidades como el trabajo en equipo, la gestión emocional o incluso la orientación profesional sobre las diferentes salidas ocupacionales relacionadas con la modalidad deportiva practicada.",
+      "Las competencias específicas de la materia de Tecnificación Deportiva Avanzada en Bachillerato suponen una profundización y una ampliación con respecto a las adquiridas al término de la Educación Secundaria Obligatoria, que serán la base de esta nueva etapa. Este avance en la materia supone la transición desde el nivel de aplicación de conocimientos adquiridos en la etapa de Educación Secundario Obligatoria, hacia un nivel de reflexión, análisis y evaluación de su desempeño deportivo más consciente y comprometido.",
+      "En la materia se han definido cuatro competencias específicas y se han establecido los criterios de evaluación para cada una de ellas en cada curso de bachillerato. Para adquirir y desarrollar estas competencias la materia se organiza en tres bloques de saberes básicos para la etapa de Bachillerato: «condición física y rendimiento», «aspectos técnicos, tácticos y reglamentarios» y «hábitos, cultura y estilo de vida deportiva». Los saberes, distribuidos en los diferentes bloques no pueden tomarse como compartimentos “estancos” o “aislados” unos de otros, sino que la naturaleza eminentemente práctica de la materia hace que se interrelacionen, se den sentido y se complementen unos con otros.",
+      "El bloque de «condición física y rendimiento» recoge los conocimientos que permiten al alumnado comprender y analizar los procesos de adaptación del cuerpo humano a los diferentes métodos y sistemas de entrenamiento de la condición física para, posteriormente, poder planificar el entrenamiento físico basándose en parámetros que garanticen su salud y la mejora de su rendimiento. En este sentido son también importantes los saberes relacionados con la valoración y el tratamiento de datos objetivos y empíricos, puesto que dotarán al alumnado de la base necesaria para poder valorar planes y programas de entrenamiento propios y ajenos, basándose en criterios científicos demostrados. A través del Bloque «aspectos técnicos, tácticos y reglamentarios» se abordan los conocimientos referidos a la mejora y perfeccionamiento de los mecanismos de percepción, decisión y ejecución en la modalidad deportiva, así como de las técnicas especializadas, y las tácticas y estrategias más complejas en entornos de mayor dificultad, conflicto e incertidumbre. Todos estos saberes son necesarios para que el alumnado vaya avanzando en la comprensión de la lógica interna de la modalidad deportiva, ya que su mejora afecta al rendimiento en la competición. De igual manera se introducen saberes sobre aspectos más profundos y aplicables del uso de las reglas y la normativa, con el objetivo de poder emplear estos conocimientos como acción estratégica en el entrenamiento y la competición.",
+      "El bloque de «hábitos, cultura y estilo de vida deportiva» se basa en una diversidad de conocimientos que permitan, por un lado, consolidar hábitos saludables del alumnado deportista en los planos físico, mental, emocional y social, y por otro ampliar todos los recursos preventivos referidos a la salud durante los entrenamientos y la competición. De igual modo se hace necesario el incluir saberes que les ayuden a la regulación de las emociones y la motivación, debido al gran reto psíquico al que se enfrentan cuando compaginan las cargas de entrenamiento, las competiciones y su vida académica. Además, este bloque incluye saberes que les aportan otros recursos necesarios para mejorar las habilidades sociales, imprescindibles para ser referentes de estilo de vida deportiva y de juego, así como para poder asumir y valorar los triunfos y las derrotas y desarrollar aspectos como la empatía y la resiliencia.",
+      "El analizar y profundizar sobre todos estos saberes, que incluyen todo tipo de acciones relacionadas con el cuidado integral de la persona, de los demás y del entorno, facilitará al alumnado su adherencia al deporte y a sus valores, participando además como ciudadanos y ciudadanas con pensamiento crítico, con una visión global del mundo, con control sobre sus emociones, hábitos y salud y con un espíritu innovador e imaginativo."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Aplicar y valorar diferentes programas de desarrollo físico (individuales y colectivos) practicados en los entrenamientos, analizando y evaluando las diversas propuestas, para comprender el proceso de mejora de los resultados físicos y del rendimiento deportivo."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD3",
+        "CPSAA5",
+        "CPSAA3.2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+        "paginas": [
+          25
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Con el desarrollo de esta competencia se pretende que el alumnado conozca y aplique los diferentes programas físicos y planes de entrenamiento que mejoran el rendimiento en la modalidad deportiva, basándose en los datos fisiológicos que arrojan resultados de medición de las capacidades condicionales y perceptivo-motrices, para así poder aplicar los principios del entrenamiento, y el resto de los aspectos que conforman la planificación del rendimiento. El alumnado reflexionará y analizará todos estos aspectos y adoptará un papel más protagonista, puesto que será capaz de proponer planes y valorar los de otros compañeros y compañeras."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Valorar y adaptar las habilidades específicas y situaciones tácticas de la modalidad deportiva, analizando los procesos de percepción, decisión y ejecución, para la mejora de las acciones propias y/o del grupo y la consolidación de destrezas y estrategias de organización y gestión en el contexto deportivo."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM4",
+        "CD3",
+        "CPSAA1.1",
+        "CPSAA3.2",
+        "CE2",
+        "CE3",
+        "CP2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+        "paginas": [
+          25,
+          26
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La adquisición de esta competencia permite que el alumnado sea capaz de elegir y ejecutar con mayor acierto y precisión las habilidades técnico-tácticas complejas de la modalidad deportiva en situaciones de entrenamiento y competición. Durante el proceso, el alumnado deberá trabajar y crear nuevas y rápidas respuestas técnico-tácticas y estratégicas adaptadas a la lógica interna de la modalidad, incluyendo aquellos aspectos del reglamento que ayuden a ampliar la variedad de soluciones motrices eficaces en situaciones de conflicto, compromiso o incertidumbre."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Integrar e interiorizar hábitos que fomenten actitudes y conductas individuales y sociales responsables, realizando una práctica deportiva segura, comprometida, cívica y sostenible para consolidar los valores propios de la cultura deportiva."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM5",
+        "CPSAA2",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+        "paginas": [
+          26
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia al análisis y la valoración de los hábitos de vida que fomentan el bienestar y prevengan la aparición de enfermedades y de situaciones que ponen en riesgo la salud individual y colectiva. Se pretende que el alumnado reflexione sobre las principales acciones que implementa sobre sí mismo, sobre los demás y sobre el entorno, para interiorizar una toma de decisiones comprometida con la cultura deportiva, los hábitos saludables, la prevención de situaciones que ponen en riesgo su salud o la de los demás y con el cuidado del entorno físico con el que interaccionan."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Autorregular las emociones y los impulsos, utilizando estrategias de empoderamiento y control de las variables psico-sociales en el ámbito deportivo para buscar un equilibrio mental y una mejora de la resiliencia en situaciones de entrenamiento y de competición."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "STEM5",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+        "paginas": [
+          26
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La etapa de bachillerato se convierte en ocasiones en una barrera insalvable para el alumnado, que decide abandonar el deporte o los estudios para dedicar más tiempo a alcanzar sus metas académicas o deportivas. La carga de entrenamientos y competiciones y las decisiones personales hacen necesaria la aplicación de técnicas que busquen un bienestar emocional y motivacional, una mejor comunicación con los demás y un ajuste de respuestas ante las situaciones de fatiga, exigencia física y exigencia mental.",
+          "La adquisición de esta competencia proporcionará al alumnado herramientas para conseguir un mayor equilibrio mental en una etapa en la que el momento madurativo y la realidad provoca un desajuste."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Diseñar y poner en práctica un programa de entrenamiento físico, basándose en parámetros científicos y evaluables, y adaptándolo a sus propias características en las sesiones de entrenamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              26
+            ]
+          },
+          "id": "cri-1-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Planear conjuntamente con otros compañeros y compañeras la puesta en práctica de métodos de entrenamiento para la mejora de las capacidades condicionales y perceptivo motrices, aportando retroalimentaciones para la mejora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              26
+            ]
+          },
+          "id": "cri-1-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar los procesos fisiológicos producidos en el organismo por la aplicación de diferentes métodos de entrenamiento, identificando aquellos que mejoran el rendimiento en la modalidad deportiva."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              26
+            ]
+          },
+          "id": "cri-1-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Experimentar formas fiables de medición y seguimiento del entrenamiento utilizando diferentes recursos para interpretar los resultados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              26
+            ]
+          },
+          "id": "cri-1-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Practicar y analizar los procesos de percepción, decisión y ejecución en contextos de incertidumbre, utilizando las diferentes habilidades técnico-tácticas y estrategias de forma eficaz."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Practicar y analizar situaciones reglamentarias complejas, obteniendo soluciones eficaces en el desarrollo del juego."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Experimentar y analizar situaciones de competición propias de la lógica interna de la modalidad deportiva, empleando diversos recursos de forma eficaz."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-2-3"
+        },
+        {
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Establecer una comunicación precisa con el personal técnico deportivo, utilizando la representación gráfica como recurso complementario."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-2-4"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Aplicar y tomar medidas nutricionales de control del balance calórico, de prevención de lesiones, de actuación en caso de accidente y/o de recuperación para una práctica deportiva segura."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Demostrar los valores fundamentales de la cultura deportiva: respeto, cumplimiento de las reglas, solidaridad, compromiso, responsabilidad personal y social, en el contexto de entrenamiento y competición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emprender y diseñar acciones que reduzcan el deterioro del medio ambiente en la práctica deportiva."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-3-3"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Distinguir las principales fortalezas psicológicas y puntos débiles en uno mismo en situaciones de entrenamiento y competición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Identificar y predecir los momentos donde se produce un descontrol emocional o un impulso que afecte negativamente al rendimiento individual y/o colectivo en las vivencias deportivas aplicando técnicas básicas que ayuden a regularlo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Practicar dinámicas para la mejora de la comunicación y otras habilidades de liderazgo en situaciones de dificultad (estrés, fatiga y/o sobreentrenamiento) en el entrenamiento y la competición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-4-3"
+        },
+        {
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Plantear objetivos a corto, medio y largo plazo para la mejora de la motivación y la autoconfianza en el trabajo diario, aplicándolos durante el entrenamiento y la competición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              27
+            ]
+          },
+          "id": "cri-1-4-4"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Condición física y rendimiento"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Plan de trabajo de la condición física relacionado con la modalidad deportiva: sistemas y métodos del entrenamiento, relación volumen e intensidad, distribución de cargas y principios del entrenamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  27
+                ]
+              },
+              "id": "TDA.1.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los procesos adaptativos del organismo ante el ejercicio."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  27
+                ]
+              },
+              "id": "TDA.1.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño de la planificación de entrenamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  27
+                ]
+              },
+              "id": "TDA.1.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Instrumentos y recursos de evaluación y control del entrenamiento y la competición: diarios de entrenamiento, test físicos, test fisiológicos, zonas de actividad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  27
+                ]
+              },
+              "id": "TDA.1.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Desglose de las exigencias físicas de la modalidad deportiva y trabajo específico de cada situación motriz."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  27
+                ]
+              },
+              "id": "TDA.1.A.05"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Aspectos técnicos, tácticos y reglamentarios"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tareas motrices: clasificación y fases de ejecución."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sesiones de entrenamiento específico de cada modalidad deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modificación de los mecanismos de percepción y decisión en situaciones técnicas de incertidumbre."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelos tácticos de la modalidad deportiva: aplicaciones, usos, variantes y modificaciones adaptativas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Materiales para la mejora de las habilidades específicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aspectos reglamentarios avanzados de la modalidad deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relación de la lógica interna con la externa."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Establecimiento de códigos de comunicación entre los agentes implicados en la competición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Adaptación de la expresión motriz al resto de elementos del juego."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Representación gráfica aplicada a la modalidad deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.10"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Role plays en otros idiomas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.11"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Recursos comunicativos en otras lenguas relacionados con la modalidad deportiva: emails, entrevistas, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.B.12"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Hábitos, cultura y estilo de vida deportiva"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Seguridad y prevención en la modalidad deportiva: materiales, espacio de competición, situación de los deportistas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención y tratamiento de lesiones específicas de la modalidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Balance calórico. Indicador del control del peso y del estado de forma."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sustancias prohibidas. Valoración ética de su uso y riesgos para la salud."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Previsión y gestión de riesgos asociados a la modalidad deportiva en situación de entrenamiento y/o competición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mejora del entorno como espacio para la práctica deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aspectos positivos de la cultura deportiva. Conductas prosociales en la práctica deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Materiales y equipamientos deportivos: usos y especificaciones técnicas. Consumo sostenible responsable."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades psicológicas. Fortalezas psicológicas y puntos débiles."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Control emocional en situaciones de entrenamiento y competición. Autorregulación del estrés."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.10"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Control de la activación a través de la respiración y la visualización."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.11"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades de enfrentamiento de las emociones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.12"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas básicas de relajación y respiración."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.13"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades sociales y desarrollo de conductas prosociales en situaciones de entrenamiento y competición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.14"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Competitividad y liderazgo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  28
+                ]
+              },
+              "id": "TDA.1.C.15"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Establecimiento de objetivos para la mejora del rendimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  29
+                ]
+              },
+              "id": "TDA.1.C.16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar un programa físico, individual o colectivo, desarrollado por uno mismo o por un compañero, para la mejora del rendimiento, a través del uso de diferentes instrumentos y actividades de evaluación, en situaciones de puesta en práctica del mismo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Evaluar la pertinencia de los métodos y sistemas de entrenamiento para la mejorar de las capacidades condicionales y perceptivo motrices de las sesiones propuestas por los compañeros."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Seleccionar y evaluar métodos y medios de entrenamiento en función de los objetivos del entrenamiento y la competición, de las características de los deportistas y su adaptación al esfuerzo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reflexionar y evaluar sobre los resultados obtenidos de la aplicación y uso de diferentes formas de medición de la preparación física, contrastando los datos recogidos durante el entrenamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Evaluar situaciones competitivas que requieren de una toma de decisiones técnico-tácticas no programada, utilizando los recursos apropiados a las situaciones planteadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar y analizar situaciones conflictivas en la aplicación del reglamento aportando estrategias que ayuden a prevenirlas y/o solucionarlas en la competición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Contrastar y seleccionar posibles respuestas en situaciones de competición, adaptándose eficazmente a la dinámica de la práctica deportiva."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-2-3"
+        },
+        {
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Exponer una situación práctica del contexto competitivo, aplicando todos los recursos y la terminología específica de la modalidad deportiva."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-2-4"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Incorporar de forma autónoma en su planificación deportiva y en sus rutinas, aspectos nutricionales, de higiene y educación postural y medidas específicas para la prevención de lesiones según sus objetivos y metas deportivas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reflexionar sobre la coherencia de las acciones deportivas propias y de los demás en relación a los valores de la cultura deportiva, tanto en los entrenamientos como en el ámbito competitivo, realizando propuestas de mejora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Valorar el impacto medioambiental a corto y largo plazo de las acciones diseñadas en el contexto deportivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-3-3"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reflexionar y practicar dinámicas para el control y fortalecimiento de las habilidades psicológicas en los momentos previos y/o posteriores a una competición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Aplicar dinámicas que ayuden a moderar los impulsos y adecuar la activación al momento del entrenamiento y/o la competición en la se encuentren."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29
+            ]
+          },
+          "id": "cri-2-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Incorporar de forma autónoma y mejorar el uso de habilidades sociales de liderazgo relacionadas con la comunicación y la escucha en situaciones de dificultad en entrenamientos y competiciones dando retroalimentaciones que ayuden a la mejora del rendimiento individual o colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              29,
+              30
+            ]
+          },
+          "id": "cri-2-4-3"
+        },
+        {
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Establecer un plan de acción concreto para mantener la motivación del deportista atendiendo al control de las variables psico-sociales del contexto en el que se desarrolla."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+            "paginas": [
+              30
+            ]
+          },
+          "id": "cri-2-4-4"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Condición física y rendimiento"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actividades de análisis y evaluación de planes de entrenamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hojas y plantillas de seguimiento, test de monitorización del rendimiento, recursos digitales de control."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Instrumentos de evaluación de los planes de entrenamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tipos de organización y secuenciación de las sesiones de trabajo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias metodológicas de presentación del contenido."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Indicadores de fatiga, recuperación y sobre entrenamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nuevas formas de trabajo en la preparación física. Propuestas alternativas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.A.07"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Aspectos técnicos, tácticos y reglamentarios"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Preparación técnico-táctica en situaciones de juego complejas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sesiones de entrenamiento específico de cada modalidad deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nuevas tecnologías (vídeo, apps y programas de edición, etc.) en análisis tácticos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Plantillas de recogida de datos empíricos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Uso, diseño y creación de nuevos materiales de transferencia adaptados a los mecanismos de ejecución."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Situaciones reglamentarias en momentos críticos de competición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención de situaciones conflictivas en competición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actuaciones estratégicas del reglamento en situaciones de competición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Situaciones arbitrales simuladas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Labores de apoyo y asesoramiento en campeonatos y competiciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.10"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Situaciones de competición y creación de nuevas respuestas adaptadas a la participación de los elementos del juego de cada modalidad deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.11"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de los recursos comunicativos técnicos de la modalidad deportiva en momentos de competición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.12"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Simulacros de entrevistas en otras lenguas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.13"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Videos de competición en otras lenguas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.B.14"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Hábitos, cultura y estilo de vida deportiva"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Evaluaciones de situaciones de riesgo en eventos, competiciones y entrenamientos de la modalidad deportiva práctica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ayudas ergonutricionales: Suplementos, intermediarios metabólicos, y otras sustancias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  30
+                ]
+              },
+              "id": "TDA.2.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Dieta precompetitiva, competitiva y postcompetitiva"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  31
+                ]
+              },
+              "id": "TDA.2.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Identificación de conductas contrarias a los valores de la cultura motriz."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  31
+                ]
+              },
+              "id": "TDA.2.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Orientaciones profesionales vinculadas con la modalidad deportiva practicada."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  31
+                ]
+              },
+              "id": "TDA.2.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Impacto medioambiental. Interacción y valoración de las acciones en el entorno físico."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  31
+                ]
+              },
+              "id": "TDA.2.C.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades y competencias psicológicas para la mejora del rendimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  31
+                ]
+              },
+              "id": "TDA.2.C.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Atribución interna de éxitos y fracasos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  31
+                ]
+              },
+              "id": "TDA.2.C.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas para el autocontrol emocional. Regulación de la ansiedad antes y durante la competición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  31
+                ]
+              },
+              "id": "TDA.2.C.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de comunicación verbal y no verbal aplicada a la modalidad deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  31
+                ]
+              },
+              "id": "TDA.2.C.10"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Teoría del establecimiento de metas y objetivos. Plan de acción."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+                "paginas": [
+                  31
+                ]
+              },
+              "id": "TDA.2.C.11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
+      "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado.",
+      "Materia vinculada al Programa ESPADE en centros de referencia autorizados y para alumnado participante. Se conserva la entrada en vigor del 15 de mayo de 2025 sin atribuir un curso académico que la orden no fija."
+    ]
+  }
+}

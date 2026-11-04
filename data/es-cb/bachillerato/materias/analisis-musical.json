@@ -1,0 +1,882 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.bachillerato.analisis-musical",
+  "territorio": "es-cb",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "AM",
+    "nombre": {
+      "es": "Análisis Musical"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      },
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": null,
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-bachillerato-decreto-73-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 73/2022, de 27 de julio, por el que se establece el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "151",
+      "fechaPublicacion": "2022-08-05",
+      "cve": "CVE-2022-6079",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "paginasMateria": {
+        "desde": 353,
+        "hasta": 361
+      },
+      "anexo": "II-A"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-42-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6239",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-30-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/30/2024, de 11 de junio, por la que se modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "118",
+      "fechaPublicacion": "2024-06-19",
+      "cve": "CVE-2024-4956",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "paginasMateria": {
+        "desde": 4,
+        "hasta": 9
+      },
+      "anexo": "I"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Análisis Musical proporciona al alumnado una formación que le permite desarrollar sus habilidades perceptivas para identificar los elementos que forman parte de las obras musicales y, a partir de ahí, profundizar en su comprensión global. Esto implica examinarlas desde un punto de vista crítico y estético, estableciendo relaciones entre la propuesta musical y el contexto histórico-social en el que fue creada. Además, la materia permite descubrir aspectos relacionados con la incidencia de la música en el oyente y su utilización como medio terapéutico o su uso en combinación con otras manifestaciones artísticas.",
+      "La materia, que supone una continuación y una especialización de los conocimientos, destrezas y actitudes adquiridos durante las etapas educativas anteriores, se estructura en dos cursos. En el primero, se establecen las bases para el conocimiento de los elementos del análisis musical, de la forma musical y de los principios compositivos fundamentales. En el segundo, se profundiza en esos aprendizajes y se introducen aspectos histórico-estéticos.",
+      "A través de la escucha activa y el estudio de partituras, el alumnado de la materia de Análisis Musical identifica las características de diferentes obras, pudiendo establecer relaciones entre sus elementos. En este proceso analítico se familiariza, por un lado, con procedimientos compositivos tales como la repetición, la variación, la imitación o el desarrollo; y, por otro, con la identificación de los rasgos estilísticos que permiten asociar las obras con un autor o autora, un género o un contexto musical determinado. El hecho de aprender a analizar una propuesta musical no solo permite al alumnado aproximarse al procedimiento y a los mecanismos de deconstrucción de una obra, sino que le dota de las herramientas necesarias para comprender el conjunto de la propuesta y saber utilizar, en diferentes contextos, los elementos que la conforman.",
+      "Asimismo, a partir de ese proceso de análisis, el alumnado puede expresar una opinión fundamentada a través de reseñas, comentarios o críticas musicales, utilizando un vocabulario adecuado y difundiendo el resultado a través de diversos medios, analógicos y digitales, respetando los derechos de autor y la propiedad intelectual.",
+      "La interiorización de los aprendizajes de la materia, a partir del reconocimiento y la reproducción de patrones musicales, ya sean melódicos, rítmicos, armónicos o formales, permite al alumnado contar con recursos aplicables a procesos de creación o improvisación de obras sencillas, generando nuevas ideas sonoras. En su desarrollo, se presta especial atención, por un lado, a las posibilidades que ofrecen las tecnologías digitales destinadas a la composición musical; y por otro, a los beneficios educativos derivados de la organización de proyectos creativos grupales en los que el alumnado planifica, aporta ideas, respeta las opiniones de los demás y asume diferentes funciones.",
+      "Completa la materia el descubrimiento de los usos que se hacen de la música para, de forma consciente, influir en el oyente, ya sea con fines terapéuticos o con otra funcionalidad vinculada a su utilización en ámbitos no estrictamente musicales.",
+      "Todos estos aprendizajes se organizan en torno a cinco competencias específicas que han sido diseñadas a partir de las competencias clave del Bachillerato y de los objetivos de la etapa. Dichas competencias específicas permiten que el alumnado aplique procesos de análisis musical para descubrir, comprender y utilizar la música como medio de expresión, desarrollar un espíritu crítico y conocer su incidencia en el ser humano.",
+      "Los criterios de evaluación se han formulado teniendo en cuenta los conocimientos, destrezas y actitudes que se pretende que alcance el alumnado, con la finalidad de determinar el nivel de logro de las competencias específicas con las que se relacionan.",
+      "Los saberes básicos se estructuran en cuatro bloques que se reparten entre los dos cursos en los que se imparte la materia. En el primer curso, los bloques de saberes básicos se refieren al análisis musical y a la forma musical. El bloque de «Iniciación al análisis musical» se centra en la aplicación de la escucha activa y el estudio de partituras para reconocer los elementos de la música y la relación que existe entre ellos dentro del discurso musical. Además, se incluyen aspectos relativos al uso de recursos digitales para la elaboración de reseñas y la difusión musical. El segundo bloque, «La forma musical», aglutina aquellos saberes referentes a los diferentes elementos estructurales, formas musicales básicas, procedimientos compositivos y funciones de la música en vinculación con otras manifestaciones artísticas.",
+      "En el segundo curso, se incluyen dos bloques de saberes básicos que abordan las técnicas de análisis y los géneros musicales. En el que lleva por título «Técnicas de análisis musical», se recogen procedimientos útiles para la realización de análisis de obras musicales, de comentarios y críticas musicales, así como el uso de recursos digitales para la investigación, la composición y la difusión musical. A su vez, en el bloque denominado «Géneros musicales», se introducen saberes relacionados con las características sonoras, formas y géneros musicales desde la Edad Media hasta la actualidad, y con la utilización de la música con fines terapéuticos.",
+      "En la materia de Análisis Musical se plantearán situaciones de aprendizaje que requieran reflexión y acción, así como una actitud abierta y colaborativa, con la intención de que el alumnado adquiera los instrumentos, técnicas y estrategias necesarias para desarrollar sus habilidades perceptivas y profundizar en la comprensión global del hecho musical. Estas situaciones deben estar vinculadas a contextos reales que favorezcan un aprendizaje significativo, y han de permitir la adquisición de conocimientos, destrezas y actitudes que el alumnado pueda aplicar fuera del entorno del aula."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Analizar los elementos musicales de diferentes obras, utilizando la escucha activa y el estudio de partituras, para describir sus características y establecer comparaciones."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CPSAA5",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          355,
+          356
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La identificación, a través del análisis y a partir de la escucha activa o del estudio de partituras, de los elementos que constituyen una obra musical y de la función que estos realizan dentro de la composición resulta fundamental para la comprensión de la misma.",
+          "Junto a este análisis, la descripción de las características de los elementos que constituyen la obra (ritmo, melodía, armonía, timbre, componentes expresivos, etc.) potencia la conexión entre los aprendizajes sobre teoría musical y su reconocimiento perceptivo, proporcionando, además, la posibilidad de realizar comparaciones entre los rasgos que definen diversas composiciones.",
+          "Asimismo, la detección de analogías y diferencias entre obras musicales creadas en diferentes contextos y pertenecientes a géneros y estilos variados permite al alumnado el acceso a un universo sonoro amplio que posibilita el enriquecimiento de sus gustos musicales y la ampliación de su repertorio artístico."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Establecer relaciones entre los elementos musicales de una composición, a través del análisis de su estructura y de los procedimientos compositivos utilizados, para asociar la obra con un género, un estilo y un contexto de creación."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          356
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "En el discurso musical se establecen relaciones entre los distintos elementos que forman parte de una obra. Quienes componen han utilizado procedimientos (repetición, variación, contraste, desarrollo, etc.) que determinan en gran medida la naturaleza de dichas relaciones y la estructura o forma resultante. Su análisis no solo permite profundizar en la comprensión de las técnicas compositivas empleadas, sino que, además, favorece la construcción de una visión global de la obra musical a través de la interrelación que se produce entre los diversos componentes y los factores contextuales y estilísticos que inciden en el resultado musical final. En este marco, el desarrollo de investigaciones a partir de fuentes de información tanto analógicas como digitales sobre el autor o autora y el contexto de creación contribuye a un mejor desarrollo de esta competencia.",
+          "Finalmente, el alumnado podrá asociar los rasgos distintivos de una composición con los estilos y los géneros que se han ido desarrollando a lo largo de la historia de la música, así como con determinadas formas-tipo de especial relevancia que han ido evolucionando a lo largo del tiempo."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Elaborar comentarios y críticas musicales sobre las obras analizadas, utilizando una terminología adecuada y consultando distintas fuentes de información, para expresar juicios personales fundamentados y contribuir a la difusión del patrimonio musical a través de los medios disponibles."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CD3",
+        "CPSAA4",
+        "CC1",
+        "CE3",
+        "CCEC3.1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          356,
+          357
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de habilidades de identificación, análisis y descripción de elementos musicales, así como de comparación entre diversas obras e interpretaciones, aporta al alumnado la terminología y las herramientas necesarias para expresar, de manera fundamentada, su valoración personal sobre la creación o sobre la interpretación de una obra determinada.",
+          "Estos comentarios personales se verán enriquecidos por la puesta en común en clase de diferentes puntos de vista argumentados y por la información obtenida a través de la consulta de distintas fuentes fiables. La lectura de críticas publicadas en periódicos generalistas o revistas especializadas permitirá, además, reflexionar sobre la estructura y el vocabulario utilizado en este tipo de textos y ofrecerá modelos y ejemplos para las reseñas, comentarios o críticas musicales que el alumnado podrá elaborar y difundir a través de medios analógicos o digitales.",
+          "Dado que la elaboración de dichos textos conlleva en muchos casos la reelaboración de la información consultada, se promocionará el respeto a los derechos de autor y a la propiedad intelectual."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar los procedimientos compositivos fundamentales y las tecnologías digitales, empleando los elementos y las estructuras musicales más adecuadas, para crear obras sencillas y realizar improvisaciones."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "CD3",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          357
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Comprender la música a través de su visión analítica permite al alumnado reconocer los elementos sobre los que se construye la obra. Al mismo tiempo, favorece la interiorización de fórmulas rítmicas, melódicas o armónicas a través de la reproducción de patrones que, una vez analizados, pueden ser utilizados en procesos creativos como base para generar nuevas ideas. En este marco, la aplicación de los procedimientos compositivos fundamentales facilita la construcción de nuevas obras en contextos donde se integre ese nuevo material musical en el proceso creativo.",
+          "La creación de piezas sencillas o la realización de improvisaciones, utilizando la interpretación vocal, corporal o instrumental, implican la aplicación de aprendizajes de la materia con una finalidad expresiva. Para ello, deben considerarse, además, las posibilidades que ofrecen las tecnologías digitales vinculadas a los procesos de creación musical.",
+          "Se promueve así la puesta en práctica de aprendizajes relacionados con los procedimientos compositivos fundamentales a la vez que se cultiva el desarrollo de las capacidades expresivas y de actitudes de emprendimiento, a través de la participación en proyectos musicales grupales en los que el alumnado asume diferentes funciones y respeta las aportaciones e ideas de los demás."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Investigar sobre los usos de la música con fines terapéuticos y en combinación con otras formas de expresión artística, utilizando diferentes fuentes de información y analizando las características musicales de las obras, para entender de qué forma inciden determinados rasgos musicales en la salud y en las emociones."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          357,
+          358
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Tradicionalmente se ha enfocado el análisis musical en la comprensión de la obra en su contexto de creación, sin hacer hincapié en el efecto que la música puede generar en quien la percibe.",
+          "El uso de la música como medio terapéutico ha sido objeto de numerosas investigaciones en las últimas décadas, existiendo evidencias del beneficio que produce en personas con problemas físicos, cognitivos, psicológicos o sociales. Esto supone una oportunidad para que el alumnado enriquezca su visión analítica de la música a través de la identificación de las características de aquella utilizada con fines terapéuticos y su incidencia en la salud y en las emociones. Para ello, será necesario desarrollar procesos de investigación del repertorio seleccionado, utilizando fuentes de información fiables.",
+          "Asimismo, el análisis de las características y de las funciones que cumple la música en combinación con otras artes como el cine, la danza o el teatro, permitirá al alumnado reconocer e interiorizar recursos musicales que generan ambientes emocionales diversos, para, posteriormente, utilizarlos en el desarrollo de propuestas creativas que combinen la música con otras formas de expresión artística."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los elementos que constituyen una obra musical y su función dentro de la composición a través de la escucha activa y con apoyo de la partitura."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              358
+            ]
+          },
+          "id": "cri-1-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Describir las características musicales básicas de una obra a partir de la escucha activa y el estudio de partituras, analizando sus elementos constitutivos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              358
+            ]
+          },
+          "id": "cri-1-1-2"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar, de forma guiada, obras musicales, identificando la estructura formal y los procedimientos compositivos utilizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              358
+            ]
+          },
+          "id": "cri-1-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Asociar las obras analizadas con su contexto de creación, investigando sobre su autor o autora y su época."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              358
+            ]
+          },
+          "id": "cri-1-2-2"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Expresar una opinión propia, informada y fundamentada, sobre las obras analizadas, utilizando un vocabulario musical adecuado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              359
+            ]
+          },
+          "id": "cri-1-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Publicar reseñas musicales en los medios disponibles, analógicos y digitales, respetando los derechos de autor y la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              359
+            ]
+          },
+          "id": "cri-1-3-2"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reproducir patrones melódicos, rítmicos, armónicos y formales de obras analizadas, aplicando estrategias de memorización y utilizando la interpretación vocal, corporal o instrumental en proyectos musicales grupales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              359
+            ]
+          },
+          "id": "cri-1-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Generar nuevas ideas musicales, combinando patrones melódicos, rítmicos, armónicos y formales previamente analizados e interiorizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              359
+            ]
+          },
+          "id": "cri-1-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar, de forma guiada, las tecnologías digitales en la composición musical."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              359
+            ]
+          },
+          "id": "cri-1-4-3"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar las funciones que cumple la música cuando se asocia con otras formas de expresión (cine, teatro, danza…), analizando sus características y el efecto que genera en el espectador."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              359
+            ]
+          },
+          "id": "cri-1-5-1"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Iniciación al análisis musical"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La escucha activa y el estudio de partituras como soportes para el análisis."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  359
+                ]
+              },
+              "id": "AM.1.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elementos básicos de la música y la relación entre ellos: ritmo, tempo, melodía, armonía, textura, timbre, dinámica y agógica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  359
+                ]
+              },
+              "id": "AM.1.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de análisis auditivo de obras de diferentes estilos y géneros."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  359
+                ]
+              },
+              "id": "AM.1.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de análisis de los elementos musicales de la partitura con apoyo de la audición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  359
+                ]
+              },
+              "id": "AM.1.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Reseñas musicales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  359
+                ]
+              },
+              "id": "AM.1.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Recursos digitales para la investigación, la composición y la difusión musical."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  359
+                ]
+              },
+              "id": "AM.1.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Derechos de autor y propiedad intelectual."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  359
+                ]
+              },
+              "id": "AM.1.A.07"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La forma musical"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elementos estructurales: célula, motivo, frase y semifrase, período, sección y movimiento. Ritmo melódico y armónico. Cadencias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  359
+                ]
+              },
+              "id": "AM.1.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Formas simples, formas compuestas y libres. Formas-tipo. Representación de esquemas formales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  360
+                ]
+              },
+              "id": "AM.1.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Procedimientos compositivos fundamentales: repetición, variación, contraste y desarrollo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  360
+                ]
+              },
+              "id": "AM.1.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Función de la música en combinación con otras manifestaciones artísticas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  360
+                ]
+              },
+              "id": "AM.1.B.04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Describir las características musicales de una obra a partir de la escucha activa y el estudio de partituras, analizando sus elementos constitutivos y la función que estos cumplen dentro de la composición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              360
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comparar los elementos constitutivos y las características musicales de diferentes obras, estableciendo analogías y diferencias entre ellas, a partir de la escucha activa y del estudio de partituras."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              360
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Distinguir los principales géneros y estilos musicales que se desarrollan en la historia, analizando los factores que inciden en la evolución de las formas musicales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              360
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Asociar las obras analizadas con un género, un estilo y un contexto de creación determinados, identificando, de forma autónoma, la estructura formal y los procedimientos compositivos utilizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              360
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Expresar juicios personales sobre las obras analizadas, argumentando la opinión propia y utilizando una terminología musical adecuada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              360
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Justificar la opinión propia sobre las obras analizadas, investigando y seleccionando la información más pertinente a partir de medios analógicos y digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              360
+            ]
+          },
+          "id": "cri-2-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Publicar críticas musicales y comentarios propios en los medios disponibles, analógicos y digitales, respetando los derechos de autor y la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              360
+            ]
+          },
+          "id": "cri-2-3-3"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Realizar improvisaciones sencillas o pequeñas composiciones, en proyectos musicales grupales, utilizando los procedimientos compositivos fundamentales y aplicando patrones melódicos, rítmicos, armónicos y formales previamente analizados e interiorizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              361
+            ]
+          },
+          "id": "cri-2-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar, de forma eficaz, las tecnologías digitales en la composición musical."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              361
+            ]
+          },
+          "id": "cri-2-4-2"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Analizar los usos terapéuticos de la música y cómo inciden determinados rasgos musicales en la salud y las emociones, a partir de la información obtenida en fuentes de información fiables."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              361
+            ]
+          },
+          "id": "cri-2-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Describir las características de la música que se utiliza con fines terapéuticos, analizando ejemplos de obras y relacionando sus rasgos con posibles efectos en el oyente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              361
+            ]
+          },
+          "id": "cri-2-5-2"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Técnicas de análisis musical"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La comparación como técnica analítica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de análisis de audición y de partituras."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas para el análisis del contexto de creación. El pensamiento de la persona creadora, los condicionantes contextuales y la interpretación de la obra."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Comentarios y críticas musicales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Recursos digitales para la investigación, la composición y la difusión musical."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Derechos de autor y propiedad intelectual."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.A.06"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Géneros musicales"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las características sonoras y estilísticas de la música desde la Edad Media hasta la actualidad. Evolución organológica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las formas y los géneros musicales desde la Edad Media hasta la actualidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las formas y los géneros de las manifestaciones musicales del patrimonio cántabro: música culta, música popular, danzas, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Uso de la música con fines terapéuticos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  361
+                ]
+              },
+              "id": "AM.2.B.04"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
+      "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado.",
+      "El decreto entra en vigor al inicio del curso 2022/2023, sin un día concreto; entradaEnVigor queda en null. Su implantación es en 1.º en 2022/2023 y en 2.º en 2023/2024."
+    ]
+  }
+}

@@ -1,0 +1,1538 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.bachillerato.tecnologia-e-ingenieria",
+  "territorio": "es-cb",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "TI",
+    "nombre": {
+      "es": "Tecnología e Ingeniería"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "modalidad"
+      },
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": null,
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-bachillerato-decreto-73-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 73/2022, de 27 de julio, por el que se establece el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "151",
+      "fechaPublicacion": "2022-08-05",
+      "cve": "CVE-2022-6079",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "paginasMateria": {
+        "desde": 855,
+        "hasta": 869
+      },
+      "anexo": "II-A"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-42-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6239",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-30-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/30/2024, de 11 de junio, por la que se modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "118",
+      "fechaPublicacion": "2024-06-19",
+      "cve": "CVE-2024-4956",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "paginasMateria": {
+        "desde": 4,
+        "hasta": 9
+      },
+      "anexo": "I"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "En la sociedad actual, el desarrollo de la tecnología por parte de las ingenierías se ha convertido en uno de los ejes en torno a los cuales se articula la evolución sociocultural. En los últimos tiempos, la tecnología, entendida como el conjunto de conocimientos y técnicas que pretenden dar solución a las necesidades, ha ido incrementando su relevancia en diferentes ámbitos de la sociedad, desde la generación de bienes básicos hasta las comunicaciones. En definitiva, se pretende mejorar el bienestar y las estructuras económicas sociales y ayudar a mitigar las desigualdades presentes en la sociedad actual, evitando generar nuevas brechas cognitivas, sociales, de género o generacionales. Se tratan así, aspectos relacionados con los desafíos que el siglo XXI plantea para garantizar la igualdad de oportunidades a nivel local y global.",
+      "En una evolución hacia un mundo más justo y equilibrado, conviene prestar atención a los mecanismos de la sociedad tecnológica, analizando y valorando la sostenibilidad de los sistemas de producción, el uso de los diferentes materiales y fuentes de energía y la evolución en la automatización de los procesos, tanto en el ámbito industrial como doméstico o de servicios.",
+      "Para ello, los ciudadanos necesitan disponer de un conjunto de saberes científicos y técnicos que sirvan de base para adoptar actitudes críticas y constructivas ante ciertas cuestiones y ser capaces de actuar de modo responsable, creativo, eficaz y comprometido con el fin de dar solución a las necesidades que se plantean.",
+      "En este sentido, la materia de Tecnología e Ingeniería pretende aunar los saberes científicos y técnicos con un enfoque competencial para contribuir a la consecución de los objetivos de la etapa de Bachillerato y a la adquisición de las correspondientes competencias clave del alumnado. A este respecto, desarrolla aspectos técnicos relacionados con la competencia digital, con la competencia matemática y la competencia en ciencia, tecnología e ingeniería, así como con otros saberes transversales asociados a la competencia lingüística, a la competencia personal, social y aprender a aprender, a la competencia emprendedora, a la competencia ciudadana y a la competencia en conciencia y expresiones culturales.",
+      "Las competencias específicas se orientan a que el alumnado, mediante proyectos de diseño e investigación, fabrique, automatice y mejore productos y sistemas de calidad que den respuesta a problemas planteados, transfiriendo saberes de otras disciplinas con un enfoque ético y sostenible. Todo ello se implanta acercando al alumnado, desde un enfoque inclusivo y no sexista, al entorno formativo y laboral propio de la actividad tecnológica e ingenieril. Asimismo, se contribuye a la promoción de vocaciones en el ámbito tecnológico entre los alumnos y alumnas, avanzando un paso en relación con la etapa anterior, especialmente en lo relacionado con saberes técnicos y con una actitud más comprometida y responsable, impulsando el emprendimiento, la colaboración y la implicación local y global con un desarrollo tecnológico accesible y sostenible. La resolución de problemas interdisciplinares ligados a situaciones reales, mediante soluciones tecnológicas, se constituye como eje vertebrador y refleja el enfoque competencial de la materia.",
+      "En este sentido, se facilitará al alumnado un conocimiento panorámico del entorno productivo, teniendo en cuenta la realidad y abordando todo aquello que implica la existencia de un producto, desde su creación, su ciclo de vida y otros aspectos relacionados. Este conocimiento abre un amplio campo de posibilidades al facilitar la comprensión del proceso de diseño y desarrollo desde un punto de vista industrial, así como a través de la aplicación de las nuevas filosofías maker o DiY («hazlo tú mismo») de prototipado a medida o bajo demanda.",
+      "La coherencia y continuidad con etapas anteriores se hace explícita, especialmente en las materias de Tecnología y Digitalización y Tecnología de Educación Secundaria Obligatoria, estableciendo entre ellas una gradación en el nivel de complejidad, en lo relativo a la creación de soluciones tecnológicas que den respuesta a problemas planteados mediante la aplicación del método de proyectos y otras técnicas.",
+      "Los criterios de evaluación en esta materia se formulan con una evidente orientación competencial y establecen una gradación entre primero y segundo de Bachillerato, haciendo hincapié en la participación y desarrollo de proyectos durante el primer nivel de la etapa y en la elaboración de proyectos de investigación e innovación en el último.",
+      "La materia se articula en torno a seis bloques de saberes básicos, cuyos contenidos deben interrelacionarse a través del desarrollo de situaciones de aprendizaje competenciales y actividades o proyectos de carácter práctico.",
+      "El bloque «Proyectos de investigación y desarrollo» se centra en la metodología de proyectos, dirigida a la ideación y creación de productos, así como su ciclo de vida.",
+      "El bloque “Materiales y fabricación” aborda los criterios de selección de materiales y las técnicas más apropiadas para su transformación en primer curso. En segundo curso se centra en el estudio, comprobación y mejora de las propiedades de los materiales y la elaboración de soluciones tecnológicas sostenibles.",
+      "El bloque “Sistemas mecánicos” hace referencia a elementos, mecanismos y sistemas de transmisión y transformación del movimiento en primer curso y a las estructuras y máquinas térmicas y eléctricas en segundo. Estos sistemas pueden servir de base para la realización de proyectos o ideación de soluciones técnicas.",
+      "El bloque “Sistemas eléctricos y electrónicos” hace referencia a circuitos y máquinas de corriente continua en primero y de corriente alterna en segundo. Además, incluye el análisis de la naturaleza de los componentes y de circuitos analógicos de aplicación práctica en primero y digitales en segundo curso. Estos componentes y sistemas pueden servir de base para la realización de proyectos o ideación de soluciones técnicas.",
+      "El bloque «Sistemas informáticos» presenta saberes relacionados con la informática, como la programación textual y por bloques y las tecnologías emergentes, para su aplicación a proyectos técnicos.",
+      "El bloque “Sistemas automáticos” aborda la actualización de sistemas técnicos para su control automático mediante simulación y montaje, desarrollando destrezas en campos como la programación orientada a la automatización y la robótica, contemplando, además, las potencialidades que ofrecen las tecnologías emergentes en sistemas de control.",
+      "El bloque “Tecnología sostenible”, aporta al alumnado una visión de la materia alineada con algunas metas de los Objetivos de Desarrollo Sostenible.",
+      "Con el objetivo de conferir un enfoque competencial a la materia, es conveniente que los saberes puedan confluir en proyectos que supongan una situación de aprendizaje contextualizada, en la que el alumno pueda aplicar sus conocimientos y destrezas para dar solución a una necesidad concreta, que puede emerger de un contexto personal, social o cultural, a nivel local o global con una actitud de compromiso creciente. De modo, se favorece la creación de vínculos entre el entorno educativo y otros sectores sociales, económicos o de investigación.",
+      "A tenor de este enfoque competencial, ingenieril y práctico, la propuesta de situaciones de aprendizaje ligadas a proyectos interdisciplinares en las que el alumnado pueda explorar, descubrir, experimentar y reflexionar desde la práctica, se hace imprescindible un espacio que permita incorporar técnicas de trabajo, prototipado rápido y fabricación offline, a modo de taller o laboratorio de fabricación. Este espacio supone una opción que aporta un gran potencial de desarrollo, en consonancia con las demandas de nuestra sociedad y de nuestro sistema productivo."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Coordinar proyectos de investigación con una actitud crítica y emprendedora, implementando estrategias y técnicas eficientes de resolución de problemas y comunicando los resultados de manera adecuada, para crear y mejorar productos y sistemas de manera continua."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          858,
+          859
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica plantea, tanto la participación del alumnado en la resolución de problemas técnicos, como la coordinación y gestión de proyectos cooperativos y colaborativos. Esto implica, entre otros aspectos, mostrar empatía, establecer y mantener relaciones positivas, ejercitar la escucha activa y la comunicación asertiva, identificando y gestionando las emociones en el proceso de aprendizaje, reconociendo las fuentes de estrés y siendo perseverante en la consecución de los objetivos.",
+          "Además, se incorporan técnicas específicas de investigación, facilitadoras del proceso de ideación y de toma de decisiones, así como estrategias iterativas para organizar y planificar las tareas a desarrollar por los equipos, resolviendo de partida una solución inicial básica que, en varias fases, será completada a nivel funcional estableciendo prioridades. En este aspecto, el método Design Thinking es de uso habitual en las empresas tecnológicas, aportando una mayor flexibilidad ante cualquier cambio en las demandas de los clientes. Se contempla también la mejora continua de productos como planteamiento de partida de proyectos a desarrollar, fiel reflejo de lo que ocurre en el ámbito industrial y donde es una de las principales dinámicas empleadas. Asimismo, debe fomentarse la ruptura de estereotipos e ideas preconcebidas sobre las materias tecnológicas asociadas a cuestiones individuales, como por ejemplo las de género o la aptitud para las materias tecnológicas, con una actitud de resiliencia y proactividad ante nuevos retos tecnológicos.",
+          "En esta competencia específica cabe resaltar la investigación como un acercamiento a proyectos de I+D+I, de forma crítica y creativa, donde la correcta referenciación de información y la elaboración de documentación técnica, adquieren gran importancia. A este respecto, el desarrollo de esta competencia conlleva expresar hechos, ideas, conceptos y procedimientos complejos verbal, analítica y gráficamente, de forma veraz y precisa utilizando la terminología adecuada, para comunicar y difundir las ideas y las soluciones generadas."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Seleccionar materiales y elaborar estudios de impacto, aplicando criterios técnicos y de sostenibilidad para fabricar productos de calidad que den respuesta a problemas y tareas planteados, desde un enfoque responsable y ético."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA4",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          859
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia se refiere a la capacidad para seleccionar los materiales más adecuados para la creación de productos en función de sus características, así como realizar la evaluación del impacto ambiental generado.",
+          "A la hora de determinar los materiales se atenderá a criterios relativos a sus propiedades técnicas (aspectos como dureza, resistencia, conductividad eléctrica, aislamiento térmico, etc.). Asimismo, el alumnado tendrá en cuenta aspectos relacionados con la capacidad para ser conformados aplicando una u otra técnica, según sea conveniente para el diseño final del producto. De igual modo, se deben considerar los criterios relativos a la capacidad del material para ser tratado, modificado o aleado con el fin de mejorar las características de este. Por último, el alumnado, valorará aspectos de sostenibilidad para determinar qué materiales son los más apropiados en relación a, por ejemplo, la contaminación generada y el consumo energético durante todo su ciclo de vida (desde su extracción hasta su aplicación final en la creación de productos) o la capacidad de reciclaje al finalizar su ciclo de vida, la biodegradabilidad del material y otros aspectos vinculados con el uso controlado de recursos o con la relación que se establece entre los materiales y las personas que finalmente hacen uso del producto."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Utilizar las herramientas digitales adecuadas, analizando sus posibilidades, configurándolas de acuerdo con sus necesidades y aplicando conocimientos interdisciplinares, para resolver tareas, así como para realizar la presentación de los resultados de una manera óptima."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          859,
+          860
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia aborda los aspectos relativos a la incorporación de la digitalización en el proceso habitual del aprendizaje en esta etapa. Continuando con las habilidades adquiridas en la etapa anterior, se amplía y refuerza el empleo de herramientas digitales en las tareas asociadas a la materia. Por ejemplo, las actividades asociadas a la investigación, búsqueda y selección de información o el análisis de productos y sistemas tecnológicos, requieren un buen uso de herramientas de búsqueda de información valorando su procedencia, contrastando su veracidad y haciendo un análisis crítico de la misma, contribuyendo con ello al desarrollo de la alfabetización informacional. Asimismo, el trabajo colaborativo, la comunicación de ideas o la difusión y presentación de trabajos, afianzan nuevos aprendizajes e implican el conocimiento de las características de las herramientas de comunicación disponibles, sus aplicaciones, opciones y funcionalidades, dependiendo del contexto. De manera similar, el proceso de diseño y creación se complementa con un elenco de programas informáticos que permiten el dimensionado, la simulación, la programación y control de sistemas o la fabricación de productos.",
+          "En suma, el uso y aplicación de las herramientas digitales, con el fin de facilitar el transcurso de creación de soluciones y de mejorar los resultados, se convierten en instrumentos esenciales en cualquiera de las fases del proceso, tanto las relativas a la gestión, al diseño o al desarrollo de soluciones tecnológicas, como las relativas a la resolución práctica de ejercicios sencillos o a la elaboración y difusión de documentación técnica relativa a los proyectos."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Generar conocimientos y mejorar destrezas técnicas, transfiriendo y aplicando saberes de otras disciplinas científicas con actitud creativa, para calcular, y resolver problemas o dar respuesta a necesidades de los distintos ámbitos de la ingeniería."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          860
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La resolución de un simple ejercicio o de un complejo problema tecnológico requiere de la aplicación de técnicas, procedimientos y saberes que ofrecen las diferentes disciplinas científicas. Esta competencia específica tiene como objetivo, por un lado, que el alumnado utilice las herramientas adquiridas en matemáticas o los fundamentos de la física o la química para calcular magnitudes y variables de problemas mecánicos, eléctricos y electrónicos, y por otro, que se utilice la experimentación, a través de montajes o simulaciones, como herramienta de consolidación de los conocimientos adquiridos. Esa transferencia de saberes aplicada a nuevos y diversos problemas o situaciones, permite ampliar los conocimientos del alumnado y fomentar la competencia de aprender a aprender."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Diseñar, crear y evaluar sistemas tecnológicos, aplicando conocimientos de programación informática, regulación automática y control, así como las posibilidades que ofrecen las tecnologías emergentes, para estudiar, controlar y automatizar tareas."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          860,
+          861
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica hace referencia a la habilitación de productos o soluciones digitales en la ejecución de ciertas acciones de forma autónoma. Por un lado, consiste en crear aplicaciones informáticas que automaticen o simplifiquen tareas a los usuarios y, por otro, se trata de incorporar elementos de regulación automática o de control programado en los diseños, permitiendo actuaciones sencillas en máquinas o sistemas tecnológicos. En este sentido, se incluyen, por ejemplo, el control en desplazamientos o movimientos de los elementos de un robot, el accionamiento regulado de actuadores, como pueden ser lámparas o motores, la estabilidad de los valores de magnitudes concretas, etc. De esta manera, se posibilita que el alumnado automatice tareas en máquinas y en robots mediante la implementación de pequeños programas informáticos ejecutables en tarjetas de control.",
+          "En esta línea de actuación cabe destacar el papel de los sistemas emergentes aplicados (inteligencia artificial, internet de las cosas, big data, etc.)."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar y comprender sistemas tecnológicos de los distintos ámbitos de la ingeniería, estudiando sus características, consumo y eficiencia energética, para evaluar el uso responsable y sostenible que se hace de la tecnología."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CD4",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          861,
+          862
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El objetivo que persigue esta competencia específica es dotar al alumnado de un criterio informado sobre el uso e impacto de la energía en la sociedad y en el medioambiente, mediante la adquisición de una visión general de los diferentes sistemas energéticos, los agentes que intervienen y aspectos básicos relacionados con los suministros domésticos. De manera complementaria, se pretende dotar al alumnado de los criterios a emplear en la evaluación de impacto social y ambiental ligado a proyectos de diversa índole.",
+          "Para el desarrollo de esta competencia se abordan, por un lado, los sistemas de generación, transporte, distribución de la energía y el suministro, así como el funcionamiento de los mercados energéticos y, por otro lado, el estudio de instalaciones en viviendas, de máquinas térmicas y de fundamentos de regulación automática, contemplando criterios relacionados con la eficiencia y el ahorro energético, que permita al alumnado hacer un uso responsable y sostenible de la tecnología."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Investigar y diseñar proyectos que muestren de forma gráfica la creación y mejora de un producto, seleccionando, referenciando e interpretando información relacionada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar en el desarrollo, gestión y coordinación de proyectos de creación y mejora continua de productos viables y socialmente responsables, identificando mejoras y creando prototipos mediante un proceso iterativo, con actitud crítica, creativa y emprendedora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Colaborar en tareas tecnológicas, escuchando el razonamiento de los demás, aportando al equipo a través del rol asignado y fomentando el bienestar grupal y las relaciones saludables e inclusivas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Elaborar documentación técnica con precisión y rigor, generando diagramas funcionales y utilizando medios manuales y aplicaciones digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-1-4"
+        },
+        {
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar de manera eficaz y organizada las ideas y soluciones tecnológicas, empleando el soporte, la terminología y el rigor apropiados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-1-5"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Determinar el ciclo de vida de un producto, planificando y aplicando medidas de control de calidad en sus distintas etapas, desde el diseño a la comercialización, teniendo en consideración estrategias de mejora continua."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar los materiales, tradicionales o de nueva generación, adecuados para la fabricación de productos de calidad basándose en sus características técnicas y atendiendo a criterios de sostenibilidad de manera ética y responsable."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Fabricar modelos o prototipos empleando las técnicas de fabricación más adecuadas y aplicando los criterios técnicos y de sostenibilidad necesarios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-2-3"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver tareas propuestas y funciones asignadas, mediante el uso y configuración de diferentes herramientas digitales de manera óptima y autónoma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar la presentación de proyectos empleando herramientas digitales adecuadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              862
+            ]
+          },
+          "id": "cri-1-3-2"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas asociados a sistemas e instalaciones mecánicas, aplicando fundamentos de mecanismos transmisión y transformación de movimientos, soporte y unión al desarrollo de montajes o simulaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              863
+            ]
+          },
+          "id": "cri-1-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas asociados a sistemas e instalaciones eléctricas y electrónicas, aplicando fundamentos de corriente continua y máquinas eléctricas al desarrollo de montajes y simulaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              863
+            ]
+          },
+          "id": "cri-1-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar la función de los distintos componentes de un circuito o máquina, aplicando estos conocimientos para el diseño, simulación y montaje de circuitos de aplicación práctica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              863
+            ]
+          },
+          "id": "cri-1-4-3"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Controlar el funcionamiento de sistemas tecnológicos y robóticos, utilizando lenguajes de programación informática y aplicando las posibilidades que ofrecen las tecnologías emergentes, tales como inteligencia artificial, internet de las cosas y big data."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              863
+            ]
+          },
+          "id": "cri-1-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Automatizar, programar y evaluar procesos y movimientos de robots, mediante la modelización, la aplicación de algoritmos sencillos y el uso de herramientas informáticas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              863
+            ]
+          },
+          "id": "cri-1-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y comprender conceptos básicos de programación textual y por bloques, mostrando el progreso paso a paso de la ejecución de un programa a partir de un estado inicial y prediciendo su estado final tras la ejecución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              863
+            ]
+          },
+          "id": "cri-1-5-3"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Evaluar los distintos sistemas de generación, transformación y transporte de energía eléctrica, térmica o química y mercados energéticos, estudiando sus características, calculando sus magnitudes y valorando su eficiencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              863
+            ]
+          },
+          "id": "cri-1-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar las diferentes instalaciones de una vivienda desde el punto de vista de su eficiencia energética, buscando aquellas opciones más comprometidas con la sostenibilidad y fomentando un uso responsable de las mismas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              863
+            ]
+          },
+          "id": "cri-1-6-2"
+        },
+        {
+          "codigoOficial": "6.3",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Contribución de la Tecnología y de Ingeniería a la consecución de los ODS (Objetivos de Desarrollo Sostenible)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              863
+            ]
+          },
+          "id": "cri-1-6-3"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyectos de investigación y desarrollo"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de gestión y desarrollo de proyectos: diagramas de Gantt, metodologías Agile. Técnicas de investigación e ideación: Design Thinking. Técnicas de trabajo en equipo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Productos: Ciclo de vida. Estrategias de mejora continua. Planificación y desarrollo de diseño y comercialización. Logística, transporte y distribución. Metrología y normalización. Control de calidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Expresión gráfica aplicada a la fabricación. Aplicaciones CAD-CAE-CAM. Diseño 2D y 3D. Diagramas funcionales, esquemas y croquis."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Emprendimiento, resiliencia, perseverancia y creatividad para abordar problemas desde una perspectiva interdisciplinar."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza e iniciativa. Identificación y gestión de emociones. El error y la reevaluación como parte del proceso de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.A.05"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Materiales y fabricación"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Materiales técnicos y nuevos materiales. Clasificación. Selección y aplicaciones características."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de fabricación: Prototipado rápido y bajo demanda. Fabricación digital aplicada a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Criterios de sostenibilidad en la fabricación de un producto. Control de calidad. Ciclo de vida. Reciclaje."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de seguridad e higiene en el trabajo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.B.04"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sistemas mecánicos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mecanismos de transmisión y transformación de movimientos. Soportes y unión de elementos mecánicos. Diseño, cálculo, montaje y experimentación física o simulada. Aplicación práctica a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.C.01"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas eléctricos y electrónicos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Circuitos y máquinas eléctricas de corriente continua. Componentes básicos. Ley de Ohm. Potencia. Energía. Interpretación y representación esquematizada de circuitos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño, cálculo, montaje y experimentación física y/o simulada de circuitos serie, paralelo y mixto con una o varias fuentes de energía."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Componentes y circuitos electrónicos. Clasificación. Funcionamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  864
+                ]
+              },
+              "id": "TI.1.D.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Análisis, diseño, montaje y/o simulación de circuitos electrónicos de aplicación práctica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.D.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Máquinas eléctricas de corriente continua. Componentes. Tipos. Principios de funcionamiento. Cálculo, montaje y experimentación física o simulada. Aplicación a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.D.05"
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sistemas automáticos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fundamentos de la programación textual y por bloques. Características, elementos y lenguajes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.E.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Proceso de desarrollo: edición, compilación o interpretación, ejecución, pruebas y depuración. Creación de programas para la resolución de problemas. Modularización."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.E.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tecnologías emergentes: internet de las cosas. Aplicación a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.E.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Protocolos de comunicación de redes de dispositivos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.E.04"
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sistemas automáticos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas de control. Conceptos y elementos. Modelización de sistemas sencillos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.F.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Automatización programada de procesos. Diseño, programación, construcción y simulación o montaje."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.F.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas de supervisión (SCADA). Telemetría y monitorización."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.F.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de las tecnologías emergentes a los sistemas de control."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.F.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Robótica. Modelización de movimientos y acciones mecánicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.F.05"
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Tecnología sostenible"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas de producción de energía renovables y no renovables. Transformación y distribución."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.G.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mercados energéticos. Consumo energético sostenible, técnicas y criterios de ahorro. Suministros domésticos y procedimientos de facturación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.G.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Instalaciones en viviendas: eléctricas, de agua y climatización, de comunicación, domóticas y de producción de energía empleando fuentes renovables. Eficiencia energética y sostenibilidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.G.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Contribución de la Tecnología y de la Ingeniería a la consecución de los ODS (Objetivos de Desarrollo Sostenible)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  865
+                ]
+              },
+              "id": "TI.1.G.04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Desarrollar proyectos de investigación e innovación con el fin de crear y mejorar productos de forma continua, utilizando modelos de gestión cooperativos y flexibles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar y difundir de forma clara y comprensible proyectos elaborados y presentarlos con la documentación técnica necesaria."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Perseverar en la consecución de objetivos en situaciones de incertidumbre, identificando y gestionando emociones, aceptando y aprendiendo de la crítica razonada y utilizando el error como parte del proceso de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866
+            ]
+          },
+          "id": "cri-2-1-3"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar la idoneidad de los materiales técnicos en la fabricación de productos sostenibles y de calidad, estudiando su estructura interna, propiedades, ciclo de vida, tratamientos de modificación y reciclaje y mejora de sus propiedades."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Elaborar informes sencillos de evaluación de impacto ambiental, de manera fundamentada y estructurada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver problemas asociados a las distintas fases del desarrollo y gestión de un proyecto (diseño, simulación, montaje y presentación), utilizando las herramientas adecuadas que proveen las aplicaciones digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Calcular estructuras sencillas, estudiando los tipos de cargas a los que se puedan ver sometidas y su estabilidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866
+            ]
+          },
+          "id": "cri-2-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar las máquinas térmicas: máquinas frigoríficas, bombas de calor y motores térmicos, conociendo los elementos que los componen y su función, comprendiendo su funcionamiento y realizando simulaciones y cálculos básicos sobre su eficiencia y otras magnitudes de interés."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866
+            ]
+          },
+          "id": "cri-2-4-2"
+        },
+        {
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar, diseñar, simular y montar esquemas de sistemas neumáticos e hidráulicos, a través de montajes o simulaciones, comprendiendo y documentando el funcionamiento de cada uno de sus elementos y del sistema en su totalidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866
+            ]
+          },
+          "id": "cri-2-4-3"
+        },
+        {
+          "codigoOficial": "4.4",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Interpretar y resolver circuitos de corriente alterna con una o varias fuentes de alimentación, mediante montajes o simulaciones, identificando sus elementos, analizando su funcionamiento, representando las distintas magnitudes y comprendiendo su funcionamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              866,
+              867
+            ]
+          },
+          "id": "cri-2-4-4"
+        },
+        {
+          "codigoOficial": "4.5",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Experimentar, simplificar, diseñar e implementar circuitos combinacionales y secuenciales físicos y simulados aplicando fundamentos de la electrónica digital, y comprendiendo su funcionamiento en el diseño de soluciones tecnológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              867
+            ]
+          },
+          "id": "cri-2-4-5"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comprender y simular el funcionamiento de los procesos tecnológicos basados en sistemas automáticos de lazo abierto y cerrado, aplicando técnicas de simplificación y analizando su estabilidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              867
+            ]
+          },
+          "id": "cri-2-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer y evaluar sistemas informáticos emergentes y sus implicaciones en la seguridad de los datos, analizando modelos existentes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              867
+            ]
+          },
+          "id": "cri-2-5-2"
+        },
+        {
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Automatizar procesos empleando sistemas programables, sensores y actuadores."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              867
+            ]
+          },
+          "id": "cri-2-5-3"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Analizar los distintos sistemas de ingeniería desde el punto de vista de la responsabilidad social y la sostenibilidad, estudiando las características de eficiencia energética asociadas a los materiales y a los procesos de fabricación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              867
+            ]
+          },
+          "id": "cri-2-6-1"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proyectos de investigación y desarrollo"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión y desarrollo de proyectos. Técnicas y estrategias de trabajo en equipo. Metodologías Agile: tipos, características y aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  867
+                ]
+              },
+              "id": "TI.2.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Difusión y comunicación de documentación técnica. Elaboración, referenciación y presentación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  867
+                ]
+              },
+              "id": "TI.2.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconfianza e iniciativa. Identificación y gestión de emociones. El error y la reevaluación como parte del proceso de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  867
+                ]
+              },
+              "id": "TI.2.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Emprendimiento, resiliencia, perseverancia y creatividad para abordar problemas desde una perspectiva interdisciplinar."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  867
+                ]
+              },
+              "id": "TI.2.A.04"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Materiales y fabricación"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura interna. Propiedades físicas y mecánicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  867
+                ]
+              },
+              "id": "TI.2.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Procedimientos de ensayos destructivos y no destructivos. Cálculo de magnitudes y análisis de resultados."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  867
+                ]
+              },
+              "id": "TI.2.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de diseño y tratamientos de modificación y mejora de las propiedades de los materiales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Criterios de sostenibilidad en la fabricación de un producto. Selección de materiales. Ciclo de vida. Reciclaje."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de fabricación industrial."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.B.05"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sistemas mecánicos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructuras sencillas. Tipos de cargas, estabilidad y cálculos básicos. Montaje o simulación de ejemplos sencillos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Máquinas térmicas: máquina frigorífica, bomba de calor y motores térmicos. Principios físicos. Componentes. Análisis de funcionamiento. Cálculos básicos, simulación y aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Neumática e hidráulica: componentes y principios físicos. Descripción y análisis. Esquemas característicos de aplicación. Diagramas espacio-fase. Diseño y montaje físico o simulado."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.C.03"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sistemas eléctricos y electrónicos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Circuitos de corriente alterna. Elementos activos y pasivos. Análisis de circuitos R-L-C serie y paralelo. Resonancia. Triángulo de potencias. Circuitos con una o varias fuentes de energía. Cálculo de magnitudes, montaje o simulación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica digital combinacional. Análisis, diseño y simplificación: mapas de Karnaugh. Experimentación en simuladores o entrenadores lógicos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica digital secuencial. Experimentación en simuladores o entrenadores lógicos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.D.03"
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sistemas informáticos emergentes"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inteligencia artificial, big data, bases de datos distribuidas y ciberseguridad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.E.01"
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sistemas automáticos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas en lazo abierto y cerrado. Álgebra de bloques y simplificación de sistemas. Estabilidad. Experimentación en simuladores."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.F.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Programación y robótica. Lenguajes de programación textual y mediante bloques. Componentes de entrada y salida. Creación de programas aplicados a la automatización de procesos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  868
+                ]
+              },
+              "id": "TI.2.F.02"
+            }
+          ]
+        },
+        {
+          "codigo": "G",
+          "nombre": {
+            "es": "Tecnología Sostenible"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Impacto social y ambiental. Informes de evaluación. Valoración crítica de las tecnologías desde el punto de vista de la sostenibilidad ecosocial. Objetivos de Desarrollo Sostenible (ODS) y Agenda 2030."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  869
+                ]
+              },
+              "id": "TI.2.G.01"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
+      "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado.",
+      "El decreto entra en vigor al inicio del curso 2022/2023, sin un día concreto; entradaEnVigor queda en null. Su implantación es en 1.º en 2022/2023 y en 2.º en 2023/2024."
+    ]
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.bachillerato.programacion-y-gestion-de-datos",
+  "territorio": "es-cb",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "PGD",
+    "nombre": {
+      "es": "Programación y Gestión de Datos"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-bachillerato-orden-edu-42-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6239",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "paginasMateria": {
+        "desde": 74,
+        "hasta": 79
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-30-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/30/2024, de 11 de junio, por la que se modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "118",
+      "fechaPublicacion": "2024-06-19",
+      "cve": "CVE-2024-4956",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "paginasMateria": {
+        "desde": 4,
+        "hasta": 9
+      },
+      "anexo": "I"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La materia de Programación y Gestión de Datos viene a responder a una necesidad, que cuenta con un amplio consenso, de abordar estas disciplinas en los currículos educativos. Las tecnologías de la información tienen un papel protagonista por su importancia en los modos de relación, en la innovación en todos los ámbitos sociales y económicos y en el acceso al conocimiento. El software y la gestión de los datos que se generan a través de su uso, constituyen una piedra angular del crecimiento económico y social. Formar personas competentes en estos ámbitos es fundamental para el desarrollo de profesiones, actuales y futuras, relacionadas con la ingeniería, la salud, el arte, la economía o el bienestar social.",
+      "Las tecnologías de la información en general y la Programación y Gestión de Datos en particular tienen en el Bachillerato el objetivo de preparar al alumnado para afrontar con éxito los principales retos y desafíos digitales de la sociedad, favoreciendo situaciones de aprendizaje relevantes que sean aplicables en diversos ámbitos académicos, sociales o profesionales de sus vidas. Por ello, en su desarrollo curricular, junto a los descriptores operativos de la competencia clave de digitalización, se tratarán otros transversales relacionados con la de STEM, la de comunicación lingüística, la personal, social y de aprender a aprender, y la emprendedora. El objetivo es que los alumnos y alumnas aumenten las competencias digitales adquiridas en etapas anteriores para integrarlas en cualquier disciplina.",
+      "La materia de Programación y Gestión de Datos proporcionará al alumnado de bachillerato la visión de agente activo en el uso de las tecnologías de la información, al contribuir al desarrollo de capacidades necesarias para desarrollar soluciones innovadoras y sostenibles, empleado lenguajes de programación y herramientas de explotación de los datos. Capacidades que conllevan a fomentar el gusto por aprender. Se pretende contribuir también al desarrollo de las destrezas asociadas al trabajo colaborativo y en equipo mejorando sus capacidades de interacción y comunicación.",
+      "Para dar respuesta a los objetivos planteados anteriormente, la materia se articula en torno a un conjunto de tres competencias específicas diseñadas para ayudar al alumnado a valorar el papel de la programación en el mundo actual e iniciándole en el desarrollo de algoritmos que den respuestas a problemas sencillos. Apoyándose en ello, se trabajará para que adquieran el conocimiento y las destrezas necesarias para desarrollar y codificar programas en un lenguaje de programación concreto, con el objetivo de resolver problemas en diferentes áreas de conocimiento. Además de abordar aspectos de la construcción de software, las competencias específicas de la materia acercan al alumnado al tratamiento de la información, a ser capaz de valorar la utilidad y variedad de datos que rodean nuestras vidas y a utilizar las herramientas o lenguajes más adecuados para consultarlos y visualizarlos.",
+      "En los bloques de saberes básicos no se expresa ninguna herramienta, lenguaje o software específico con la intención de que sea flexible y adaptable al curso, a la especialidad del bachillerato, a las características del grupo y a los rápidos avances tecnológicos, seleccionando las que sean más útiles para el futuro académico y profesional del grupo de alumnos y alumnas",
+      "El primer bloque, Introducción a la programación, acerca al alumnado al papel de la programación en el mundo actual y le prepara para establecer estrategias de razonamiento que ayudan a codificar un programa.",
+      "El segundo bloque, Programación, permite al alumnado profundizar y practicar con algún lenguaje de programación, ya sea compilado y/o interpretado. Consta de tres saberes básicos relacionados entre sí que van profundizando de manera incremental en la práctica de la programación. El primero permite reconocer y utilizar los tipos básicos de datos y las estructuras de control como punto de inicio. El segundo saber aprovechando el anterior, profundiza en el conocimiento y la práctica, usando estructuras de datos, funciones, bibliotecas e introduciendo técnicas de programación orientada a objetos. Se trata de que el alumnado sea capaz de construir sus propias aplicaciones trabajando de forma individual y en equipo. Y, el tercer saber, avanza en el uso de la programación introduciendo el manejo de herramientas sencillas que faciliten que el alumnado practique y cree aplicaciones sencillas para móviles.",
+      "El tercer y último bloque, Tratamiento de los datos, consta de dos saberes básicos para explotar información almacenada en bases de datos. El primero hace referencia al tratamiento de bases de datos, bien relacionales y/o documentales, que permita al alumnado consultar o manipular la información almacenada. El acceso a los datos puede realizarse empleando las herramientas del gestor o los lenguajes de consulta. El segundo bloque plantea una introducción al BigData familiarizando al alumnado con el almacenamiento de grandes volúmenes de información. Se trata de que reconozcan los grandes repositorios de datos para extraer y analizar la información, practicando con alguna herramienta de visualización.",
+      "Cabe destacar que se trata de una materia de carácter técnico y digital, por lo que se considera muy adecuado el uso de metodologías activas, potenciando el trabajo práctico y cooperativo, facilitando que se alcancen destrezas digitales y habilidades personales y sociales destinadas a mejorar el conocimiento del mundo actual y a afrontar con éxito los desafíos del futuro."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Comprender los principios básicos de la programación, iniciándose en el desarrollo de algoritmos para la resolución de diversos problemas utilizando la computación."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM3",
+        "CD1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          76
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La computación y el software suponen uno de los ejes de cambio de nuestra sociedad y así, que el alumnado se acerque a este conocimiento va a permitirles estar mejor preparados para formar parte de una manera activa de un mundo en cambio constante. Deben valorar de una manera crítica el papel que la computación y la programación desarrollan en la innovación, en la adquisición de conocimiento y en nuevas formas de comunicación. La competencia plantea acercarse a la resolución de problemas a través de la computación iniciándose en el desarrollo de algoritmos como paso previo a la codificación de programas en lenguajes de programación concretos. Identificar los diferentes tipos de lenguajes de programación y sus características e investigar en las diferentes clasificaciones que se pueden hacer de los mismos atendiendo a diferentes criterios. Se trata también de que el alumnado identifique la estructura de un programa informático lo que le va a permitir reducir la curva de aprendizaje de la sintaxis los diferentes lenguajes de programación."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Desarrollar, implantar y probar aplicaciones informáticas, utilizando diversas tecnologías, manejando lenguajes de programación para construir aplicaciones de propósito general y/o específico."
+      },
+      "descriptoresOperativosRefs": [
+        "CD2",
+        "CD5",
+        "STEM1",
+        "CCL2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          76
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Este bloque es una continuación de la introducción a la programación. Se trata de que los alumnos puedan llevar a la práctica con aplicaciones reales los conocimientos adquiridos anteriormente. Para ello se trabajará con un lenguaje de programación específico donde se manejarán de forma concreta las características de dicho lenguaje.",
+          "Para ello, se fomentará la creación de diferentes programas de propósito general o particular, usando en primer lugar los tipos básicos de datos y estructuras de control, dando paso después a diferentes características más complejas del lenguaje.",
+          "En último lugar, se introduce al alumno a la programación para dispositivos móviles a través de herramientas sencillas, que sean intuitivas para el alumno, que aportan facilidades para el diseño y el desarrollo de aplicaciones."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Gestionar la información almacenada en bases de datos, utilizando los gestores y las herramientas más adecuadas según el volumen y tipo de información, para consultar o manipular los datos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM3",
+        "CD1",
+        "CD5",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          77
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia a la importancia que tiene el almacenamiento y la manipulación de los datos en diferentes ámbitos de la sociedad. Desde las tradicionales bases de datos relacionales hasta el BigData. Se trata de que el alumnado reconozca las bases de datos como una solución eficiente para la explotación de la información, identificando y utilizando diferentes tipos de gestores o herramientas según la naturaleza y volumen que almacenan. Al mismo tiempo, se tratará de concienciar sobre la importancia que tiene preservar la seguridad y la privacidad de la información.",
+          "La competencia se plantea desde un punto de vista práctico, potenciando la participación del alumnado en la consulta y manipulación de diferentes bases de datos, resolviendo problemas, tanto de forma individual como en equipo. Por ello, es también importante impulsar el trabajo colaborativo, la comunicación y la presentación de ideas."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Describir y valorar críticamente el papel que juega la computación y la programación en nuestra sociedad y la influencia que tiene en la comunicación, en los modos de relación, en la innovación en diversos ámbitos y en el acceso al conocimiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              77
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y plantear algoritmos para la resolución de problemas sencillos o de complejidad media elaborando diagramas de flujo y utilizando pseudocódigo como paso previo a la codificación en un lenguaje de programación concreto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              77
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los distintos bloques y elementos que configuran un programa informático y que describen su estructura."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              77
+            ]
+          },
+          "id": "cri-2-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Enunciar y describir las características de diferentes tipos de lenguajes de programación, así como diversas clasificaciones de estos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              77
+            ]
+          },
+          "id": "cri-2-1-4"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar los distintos tipos de constantes y variables, modificando código de un programa para crear y utilizar los distintos operadores en expresiones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              77
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Escribir y probar código que haga uso de estructuras de control y de repetición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              77
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Diseñar y escribir programas, utilizando diferentes estructuras de datos, así como funciones y bibliotecas específicas del lenguaje, fomentando la reutilización de código y practicando diversos modos de mostrar o introducir los datos de usuario."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              78
+            ]
+          },
+          "id": "cri-2-2-3"
+        },
+        {
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Desarrollar programas sencillos aplicando las técnicas básicas de la orientación a objetos, distinguiendo las diferencias entre clase y objeto y analizando las características de la herencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              78
+            ]
+          },
+          "id": "cri-2-2-4"
+        },
+        {
+          "codigoOficial": "2.5",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Diseñar, desarrollar y ejecutar aplicaciones para dispositivos móviles, haciendo uso de herramientas intuitivas y sencillas para su desarrollo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              78
+            ]
+          },
+          "id": "cri-2-2-5"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Describir las características de las bases de datos, reconociendo sus elementos más significativos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              78
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Consultar y manipular la información de una base de datos sencilla, utilizando sistemas gestores de bases de datos y reconociendo las utilidades que incorporan."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              78
+            ]
+          },
+          "id": "cri-2-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Describir los aspectos más importantes relacionados con la seguridad y privacidad en la gestión de los datos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              78
+            ]
+          },
+          "id": "cri-2-3-3"
+        },
+        {
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Describir las posibilidades del BigData en diferentes ámbitos de nuestra sociedad, identificando sus fortalezas y debilidades."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              78
+            ]
+          },
+          "id": "cri-2-3-4"
+        },
+        {
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Obtener, analizar y visualizar datos almacenados en repositorios abiertos para BigData."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              78
+            ]
+          },
+          "id": "cri-2-3-5"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Introducción a la programación:"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción al desarrollo de programas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El papel de la programación en la innovación tecnológica, la comunicación y el acceso al conocimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Pseudocódigo y diagramas de flujo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Lenguajes de programación:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura de un programa informático y elementos básicos del lenguaje."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tipos de lenguajes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.A.06"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Programación:"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tipos básicos de datos y estructuras de control:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Constantes y variables."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Operadores y expresiones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Condicionales e iterativas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Profundizando en los lenguajes de programación:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  78
+                ]
+              },
+              "id": "PGD.2.B.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructuras de datos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.B.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Funciones y bibliotecas de funciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.B.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción a la programación orientada a objetos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.B.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción a la programación de aplicaciones para móviles:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.B.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas para el desarrollo de aplicaciones sencillas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.B.10"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Tratamiento de datos"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Almacenamiento de la información:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Bases de datos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Definición y manipulación de los datos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas gestores de bases de datos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción al Big data:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Volumen y variedad de datos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.C.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Seguridad y privacidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.C.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas para el análisis y el tratamiento de los datos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  79
+                ]
+              },
+              "id": "PGD.2.C.08"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
+      "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado."
+    ]
+  }
+}

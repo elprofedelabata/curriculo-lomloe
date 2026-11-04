@@ -1,0 +1,999 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.bachillerato.biologia",
+  "territorio": "es-cb",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "BIO",
+    "nombre": {
+      "es": "Biología"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "modalidad"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": null,
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-bachillerato-decreto-73-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 73/2022, de 27 de julio, por el que se establece el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "151",
+      "fechaPublicacion": "2022-08-05",
+      "cve": "CVE-2022-6079",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "paginasMateria": {
+        "desde": 373,
+        "hasta": 383
+      },
+      "anexo": "II-A"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-42-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6239",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-30-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/30/2024, de 11 de junio, por la que se modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "118",
+      "fechaPublicacion": "2024-06-19",
+      "cve": "CVE-2024-4956",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "paginasMateria": {
+        "desde": 4,
+        "hasta": 9
+      },
+      "anexo": "I"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La biología es una disciplina cuyos avances se han visto acelerados notablemente en las últimas décadas, impulsados por una base de conocimientos cada vez más amplia y fortalecida. A lo largo de su progreso se han producido grandes cambios de paradigma (como el descubrimiento de la célula, el desarrollo de la teoría de la evolución, el nacimiento de la biología y la genética molecular o el descubrimiento de los virus y los priones, entre otros) que han revolucionado el concepto de organismo vivo y el entendimiento de su funcionamiento.",
+      "Pero el progreso de las ciencias biológicas va mucho más allá de la mera comprensión de los seres vivos. Las aplicaciones de la biología han supuesto una mejora considerable de la calidad de vida humana al permitir, por ejemplo, la prevención y tratamiento de enfermedades que antaño diezmaban a las poblaciones, u otras de nueva aparición, como la COVID-19, para la cual se han desarrollado terapias y vacunas a una velocidad sin precedentes. Además, existen otras muchas aplicaciones de las ciencias biológicas dentro del campo de la ingeniería genética y la biotecnología, siendo algunas de ellas el origen de importantes controversias. Los grandes avances y descubrimientos de la Biología no solo han posibilitado la mejora de las condiciones de vida de la ciudadanía, sino que al mismo tiempo han generado fuertes impactos de distinta naturaleza (sociales, éticas, económicas, etc.) que no se pueden obviar y también deber ser objeto de análisis durante el desarrollo de la materia.",
+      "En 2º de Bachillerato la madurez del alumnado permite que en la materia de Biología se profundice notablemente en las competencias específicas relacionadas con las ciencias biológicas, a través de unos saberes básicos a los que se les da un enfoque mucho más microscópico y molecular que en las materias de etapas anteriores. La Biología ofrece, por tanto, una formación relativamente avanzada, proporcionando al alumnado los conocimientos y destrezas esenciales para el trabajo científico y el aprendizaje a lo largo de la vida y sienta las bases necesarias para el inicio de estudios superiores o la incorporación al mundo laboral. En última instancia, esta materia contribuye al fortalecimiento del compromiso del alumnado con la sociedad democrática y para su participación en esta.",
+      "La Biología contribuye al desarrollo de las ocho competencias clave y a satisfacer varios de los objetivos de la etapa.",
+      "Por un lado, al tratarse de una materia científica, promueve de forma directa el desarrollo de la competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM), así como la igualdad de oportunidades y las vocaciones científicas entre los alumnos y alumnas.",
+      "A su vez, la Biología potencia los hábitos de estudio y lectura, la comunicación oral y escrita y la investigación a partir de fuentes científicas y con ello contribuye al desarrollo de la competencia en comunicación lingüística. Además, dado que las publicaciones científicas relevantes suelen ser accesibles a través de Internet y encontrarse en lenguas extranjeras, en esta materia se contribuye al desarrollo de la competencia digital y la competencia plurilingüe.",
+      "Igualmente, desde esta materia se promueve el análisis de las conclusiones de publicaciones científicas, fomentando el espíritu crítico y el autoaprendizaje y contribuyendo así al desarrollo de la competencia personal, social y de aprender a aprender.",
+      "Asimismo, a través del enfoque molecular de la materia de Biología, el alumnado ahondará en los mecanismos de funcionamiento de los seres vivos y de la naturaleza en su conjunto. Esto le permitirá comprender la situación crítica en la que se encuentra la humanidad actualmente y la necesidad urgente de la adopción de un modelo de desarrollo sostenible. Se transmitirá la importancia de los estilos de vida sostenibles como forma de compromiso ciudadano por el bien común, relacionando la sostenibilidad con la salud humana y contribuyendo así al desarrollo de la competencia ciudadana.",
+      "Se fomentará también que el alumnado de Biología participe en iniciativas locales relacionadas con los estilos de vida saludables y el desarrollo sostenible permitiéndole trabajar la competencia emprendedora y la competencia en conciencia y expresión culturales.",
+      "En Biología, se trabajan las ocho competencias clave a través de seis competencias específicas propias de la materia, que son la concreción de los descriptores operativos para la etapa, constituyendo estos el eje vertebrador del currículo. Estas competencias específicas pueden resumirse en: interpretar y transmitir información científica y argumentar sobre ella; localizar, seleccionar y contrastar información científica; analizar críticamente las conclusiones de trabajos de investigación; plantear y resolver problemas relacionados con las ciencias biológicas; analizar la importancia de los estilos de vida saludables y sostenibles y relacionar las características moleculares de los organismos con sus características macroscópicas.",
+      "Los criterios de evaluación son un elemento curricular esencial y constituyen instrumentos para la valoración objetiva del grado de desempeño del alumnado en las competencias específicas. Estos están relacionados con las competencias específicas de Biología y pueden conectarse de forma flexible con los saberes básicos de esta materia a elección del docente.",
+      "Los saberes básicos de la materia aparecen agrupados en seis bloques. «Las biomoléculas» está centrado en las moléculas orgánicas e inorgánicas que forman parte de los seres vivos. «Genética molecular» incluye el mecanismo de replicación del ADN y el proceso de la expresión génica, relacionando estos con la diferenciación celular. «Biología celular» comprende los tipos de células, sus componentes, las etapas del ciclo celular, la mitosis y meiosis y su función biológica. «Metabolismo» trata de las principales reacciones bioquímicas de los seres vivos. «Ingeniería genética y biotecnología» recoge los métodos de manipulación de los seres vivos o sus componentes para su aplicación tecnológica en diferentes campos, como la medicina, la agricultura, o la ecología, entre otros. «Inmunología» está enfocado hacia el concepto de inmunidad, sus mecanismos y tipos (innata y adquirida), las fases de las enfermedades infecciosas y el estudio de las patologías del sistema inmunitario.",
+      "Los saberes básicos aquí descritos deben trabajarse desde un enfoque competencial, de forma que estos constituyan un medio para el desarrollo de las competencias clave y no simplemente un fin en sí mismos.",
+      "Cabe destacar que la Biología es una materia de carácter científico y, como tal, se recomienda impartirla ligándola a la realidad del alumnado, de manera práctica y significativa y siguiendo un enfoque interdisciplinar. Para ello, la metodología que se propone es el uso de situaciones de aprendizaje que consisten en actividades competenciales. Como conclusión, resta señalar que el fin último de la Biología es contribuir a un mayor grado de desempeño de las competencias clave por parte del alumnado y conseguir así ampliar de forma notable sus horizontes personales, sociales, académicos y profesionales."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar y transmitir información y datos a partir de trabajos científicos y argumentar sobre estos, con precisión y utilizando diferentes formatos, para analizar conceptos, procesos, métodos, experimentos o resultados de las ciencias biológicas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CP1",
+        "STEM2",
+        "STEM4",
+        "CD3",
+        "CPSAA4",
+        "CC3",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          375,
+          376
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Dentro de la ciencia, la comunicación ocupa un importante lugar, pues es imprescindible para la colaboración y la difusión del conocimiento, contribuyendo a acelerar considerablemente los avances y descubrimientos.",
+          "La comunicación científica busca, por lo general, el intercambio de información relevante de la forma más eficiente y sencilla posible y apoyándose, para ello, en diferentes formatos como gráficos, fórmulas, textos, informes o modelos, entre otros. Además, en la comunidad científica también existen discusiones fundamentadas en evidencias y razonamientos aparentemente dispares. La comunicación científica es, por tanto, un proceso complejo, en el que se combinan de forma integrada destrezas y conocimientos variados y se exige una actitud abierta y tolerante hacia el interlocutor. En el contexto de esta materia, la comunicación científica requiere la movilización no solo de destrezas lingüísticas, sino también matemáticas, digitales y razonamiento lógico. El alumnado debe interpretar y transmitir contenidos científicos, así como formar una opinión propia sobre los mismos basada en razonamientos y evidencias además de argumentar defendiendo su postura de forma fundamentada, enriqueciéndola con los puntos de vista y pruebas aportados por los demás. Todo ello es necesario no solamente en el trabajo científico, sino que también constituye un aspecto esencial para el desarrollo personal, social y profesional de todo ser humano."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando la información, evaluándola críticamente y contrastando su veracidad, para resolver preguntas planteadas de forma autónoma y crear contenidos relacionados con las ciencias biológicas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          376,
+          377
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Toda investigación científica comienza con una recopilación de las publicaciones del campo que se pretende estudiar. Para ello es necesario conocer y utilizar fuentes fidedignas y buscar en ellas, seleccionando la información relevante para responder a las cuestiones planteadas.",
+          "Además, el aprendizaje a lo largo de la vida requiere tener sentido crítico para seleccionar las fuentes o instituciones adecuadas, cribar la información y quedarse con la que resulte relevante de acuerdo al fin propuesto.",
+          "La destreza para hacer esta selección es, por tanto, de gran importancia no solo para el ejercicio de profesiones científicas, sino también para el desarrollo de cualquier tipo de carrera profesional, para la participación democrática activa e incluso para el bienestar emocional y social de las personas."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar trabajos de investigación o divulgación relacionados con las ciencias biológicas, comprobando con sentido crítico su veracidad o si han seguido los pasos de los métodos científicos, para evaluar la fiabilidad de sus conclusiones."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CP1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CPSAA4",
+        "CC3",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          377
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El pensamiento crítico es probablemente una de las destrezas más importantes para el desarrollo humano y la base del espíritu de superación y mejora. En el ámbito científico es esencial, entre otros, para la revisión por pares del trabajo de investigación, que es el pilar sobre el que se sustenta el rigor y la veracidad de la ciencia. Aunque el pensamiento crítico debe comenzar a trabajarse desde las primeras etapas educativas, alcanza un grado de desarrollo significativo en Bachillerato y el progreso en esta competencia específica contribuye a su mejora. Además, el análisis de las conclusiones de un trabajo científico en relación a los resultados observables implica movilizar en el alumnado, no solo el pensamiento crítico, sino también las destrezas comunicativas y digitales y el razonamiento lógico.",
+          "Asimismo, la actitud analítica y el cultivo de la duda razonable, que se desarrollan a través de esta competencia específica, son útiles en contextos no científicos y preparan al alumnado para el reconocimiento de falacias, bulos e información pseudocientífica y para formarse una opinión propia basada en razonamientos y evidencias contribuyendo así positivamente a su integración personal y profesional y a su participación en la sociedad democrática."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Plantear y resolver problemas, buscando y utilizando las estrategias adecuadas, analizando críticamente las soluciones y reformulando el procedimiento si fuera necesario, para explicar fenómenos relacionados con las ciencias biológicas."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD5",
+        "CPSAA1.1",
+        "CPSAA5"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          377,
+          378
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica hace referencia al uso del razonamiento como base para la resolución de problemas. Sin embargo, cabe destacar que, como novedad con respecto a la etapa anterior, se pretende que el alumnado busque nuevas estrategias de resolución cuando las estrategias que tiene adquiridas no sean suficientes. Para ello, será necesario utilizar diferentes herramientas y recursos tecnológicos y mostrar una actitud positiva hacia los retos y las situaciones de incertidumbre y resiliencia para seguir probando nuevas vías de resolución en caso de falta de éxito inicial, o con la intención de mejorar los resultados.",
+          "Además, en 2º de Bachillerato es importante trabajar la iniciativa en el alumnado para que plantee nuevas cuestiones o problemas que puedan resolverse utilizando el razonamiento y otras estrategias.",
+          "La resolución de problemas es una competencia esencial en la carrera científica, pues las personas dedicadas a la ciencia se enfrentan con frecuencia a grandes retos y contratiempos que hacen tortuoso el camino hacia sus objetivos. Asimismo, esta competencia específica es necesaria en muchos otros contextos de la vida profesional y personal por lo que contribuye a la madurez intelectual y emocional del alumnado y en última instancia a la formación de ciudadanía plenamente integrada y comprometida con la mejora de la sociedad."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Analizar críticamente determinadas acciones relacionadas con la sostenibilidad y la salud, basándose en los fundamentos de la biología molecular, para argumentar acerca de la importancia de adoptar estilos de vida sostenibles y saludables."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          378,
+          379
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Desde la materia de Biología de 2º de Bachillerato, se pretende transmitir las actitudes y estilos de vida compatibles con el mantenimiento y mejora de la salud y con un modelo de desarrollo sostenible. La novedad de esta materia con respecto a etapas anteriores es su enfoque molecular. Por este motivo, el estudio de la importancia de los ecosistemas y de determinados organismos se abordará desde el conocimiento de las reacciones bioquímicas que realizan y su relevancia a nivel planetario. De esta forma se conectará el mundo molecular con el macroscópico. Esta competencia específica, además, busca que el alumnado tome iniciativas encaminadas a analizar críticamente sus propios hábitos y los de los miembros de la comunidad educativa, basándose en los fundamentos de la biología molecular, y que proponga medidas para el cambio positivo hacia un modo de vida más saludable y sostenible.",
+          "El valor de esta competencia específica radica en la necesidad urgente de que nuestra sociedad adopte un modelo de desarrollo sostenible, que constituye uno de los mayores y más importantes retos a los que se enfrenta la humanidad actualmente. Para poder hacer realidad este ambicioso objetivo es necesario conseguir que la sociedad alcance una comprensión profunda del funcionamiento de los sistemas biológicos para así poder apreciar su valor. De esta forma, se adoptarán estilos de vida y se tomarán actitudes responsables y encaminadas a la conservación de los ecosistemas y la biodiversidad y al ahorro de recursos, que a su vez mejorarán la salud y el bienestar físico y mental humanos a nivel individual y colectivo."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Analizar la función de las principales biomoléculas, bioelementos y sus estructuras e interacciones bioquímicas, argumentando sobre su importancia en los organismos vivos para explicar las características macroscópicas de estos a partir de las moleculares."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          379
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "En el siglo XIX, la primera síntesis de una molécula orgánica en el laboratorio permitió conectar la biología y la química y marcó un cambio de paradigma científico que se fue afianzado en el siglo XX con la descripción del ADN como molécula portadora de la información genética. Los seres vivos pasaron a concebirse como conjuntos de moléculas constituidas por elementos químicos presentes también en la materia inerte. Estos hitos marcaron el nacimiento de la química orgánica, la biología molecular y la bioquímica. En la actualidad, la comprensión de los seres vivos se fundamenta en el estudio de sus características moleculares y las herramientas genéticas o bioquímicas son ampliamente utilizadas en las ciencias biológicas.",
+          "El alumnado de 2º de Bachillerato tiene un mayor grado de madurez para trabajar esta competencia específica. Además, la elección voluntaria de la materia de Biología en esta etapa está probablemente ligada a inquietudes científicas y a la intención de realizar estudios terciarios en el campo biomédico. Por dichos motivos, esta competencia específica es esencial para el alumnado de Bachillerato permitiéndole conectar el mundo molecular con el macroscópico, adquirir una visión global completa de los organismos vivos y desarrollar las destrezas necesarias para formular hipótesis y resolver problemas relacionados con las disciplinas biosanitarias."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar críticamente conceptos y procesos biológicos, seleccionando e interpretando información en diferentes formatos (modelos, gráficos, tablas, diagramas, fórmulas, esquemas u otros)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              380
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comunicar informaciones u opiniones razonadas relacionadas con los saberes de la materia, transmitiéndolas de forma clara y rigurosa, utilizando la terminología y el formato adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos o contenidos digitales, entre otros) y respondiendo de manera fundamentada y precisa a las cuestiones que puedan surgir durante el proceso."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              380
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Argumentar sobre aspectos relacionados con los saberes de la materia, considerando los puntos fuertes y débiles de diferentes posturas de forma razonada y con una actitud abierta, flexible, receptiva y respetuosa ante la opinión de los demás."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              380
+            ]
+          },
+          "id": "cri-2-1-3"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Plantear y resolver cuestiones y crear contenidos relacionados con los saberes de la materia, localizando y citando fuentes de forma adecuada; seleccionando, organizando y analizando críticamente la información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              380
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Contrastar y justificar la veracidad de información relacionada con la materia, utilizando fuentes fiables, aportando datos y adoptando una actitud crítica y escéptica hacia informaciones sin una base científica como pseudociencias, teorías conspiratorias, creencias infundadas, bulos, etc."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              380
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Evaluar la fiabilidad de las conclusiones de un trabajo de investigación o divulgación científica relacionado con los saberes de la materia de acuerdo a la interpretación de los resultados obtenidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              380
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Argumentar, utilizando ejemplos concretos, sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando el papel de la mujer y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución influida por el contexto político y social y por los recursos económicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              380
+            ]
+          },
+          "id": "cri-2-3-2"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Explicar fenómenos biológicos, a través del planteamiento y resolución de problemas, buscando y utilizando las estrategias y los recursos adecuados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              381
+            ]
+          },
+          "id": "cri-2-4-1"
+        },
+        {
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución a un problema utilizando los saberes de la materia de Biología y reformular los procedimientos utilizados o las conclusiones si dicha solución no fuese viable o ante nuevos datos aportados o encontrados con posterioridad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              381
+            ]
+          },
+          "id": "cri-2-4-2"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Argumentar sobre la importancia de adoptar estilos de vida saludables y compatibles con el desarrollo sostenible, basándose en los principios de la biología molecular y relacionándolos con los procesos macroscópicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              381
+            ]
+          },
+          "id": "cri-2-5-1"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Explicar las características y procesos vitales de los seres vivos mediante el análisis de sus biomoléculas, de las interacciones bioquímicas entre ellas y de sus reacciones metabólicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              381
+            ]
+          },
+          "id": "cri-2-6-1"
+        },
+        {
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Aplicar metodologías analíticas en el laboratorio utilizando los materiales adecuados con precisión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              381
+            ]
+          },
+          "id": "cri-2-6-2"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las biomoléculas"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las biomoléculas orgánicas e inorgánicas: características generales y diferencias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  381
+                ]
+              },
+              "id": "BIO.2.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El agua y las sales minerales: relación entre sus características químicas y funciones biológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  381
+                ]
+              },
+              "id": "BIO.2.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Características químicas, isomerías, enlaces y funciones de los monosacáridos (pentosas, hexosas en sus formas lineales y cíclicas), disacáridos y polisacáridos con mayor relevancia biológica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  381
+                ]
+              },
+              "id": "BIO.2.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los monosacáridos (pentosas y hexosas): características químicas, formas lineales y cíclicas, isomerías, enlaces y funciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  381
+                ]
+              },
+              "id": "BIO.2.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los disacáridos y polisacáridos: ejemplos con más relevancia biológica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  381
+                ]
+              },
+              "id": "BIO.2.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los lípidos saponificables y no saponificables: características químicas, tipos, diferencias y funciones biológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  381
+                ]
+              },
+              "id": "BIO.2.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las proteínas: características químicas, estructura, función biológica, papel biocatalizador."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  381
+                ]
+              },
+              "id": "BIO.2.A.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las vitaminas y sales: función biológica como cofactores enzimáticos e importancia de su incorporación en la dieta."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.A.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los ácidos nucleicos: tipos, características químicas, estructura y función biológica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.A.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La relación entre los bioelementos y biomoléculas y la salud. Estilos de vida saludables."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.A.10"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Genética molecular"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Mecanismo de replicación del ADN: modelo procariota."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Etapas de la expresión génica: modelo procariota. El código genético: características y resolución de problemas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las mutaciones: su relación con la replicación del ADN, la evolución y la biodiversidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Regulación de la expresión génica: su importancia en la diferenciación celular."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los genomas procariota y eucariota: características generales y diferencias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.B.05"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Biología celular"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La teoría celular: implicaciones biológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La microscopía óptica y electrónica: imágenes, poder de resolución y técnicas de preparación de muestras."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La membrana plasmática: ultraestructura y propiedades."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El proceso osmótico: repercusión sobre la célula animal, vegetal y procariota."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El transporte a través de la membrana plasmática: mecanismos (difusión simple y facilitada, transporte activo, endocitosis y exocitosis) y tipos de moléculas transportadas con cada uno de ellos. Los orgánulos celulares eucariotas y procariotas: funciones básicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El ciclo celular: fases y mecanismos de regulación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.C.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La mitosis y la meiosis: fases y función biológica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.C.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El cáncer: relación con las mutaciones y con la alteración del ciclo celular. Correlación entre el cáncer y determinados hábitos perjudiciales. La importancia de los estilos de vida saludables."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.C.08"
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Metabolismo"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de metabolismo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.D.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conceptos de anabolismo y catabolismo: diferencias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  382
+                ]
+              },
+              "id": "BIO.2.D.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Procesos implicados en la respiración celular anaeróbica (glucólisis y fermentación) y aeróbica (β-oxidación de los ácidos grasos, ciclo de Krebs, cadena de transporte de electrones y fosforilación oxidativa)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.D.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Metabolismos aeróbico y anaeróbico: cálculo comparativo de sus rendimientos energéticos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.D.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales rutas de anabolismo heterótrofo (síntesis de aminoácidos, proteínas y ácidos grasos) y autótrofo (fotosíntesis y quimiosíntesis): importancia biológica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.D.05"
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Biotecnología"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de ingeniería genética y sus aplicaciones: PCR, enzimas de restricción, clonación molecular, CRISPR-CAS9, etc."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.E.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Importancia y repercusiones de la biotecnología: aplicaciones en salud, agricultura, medio ambiente, nuevos materiales, industria alimentaria, etc. El papel destacado de los microorganismos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.E.02"
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Inmunología"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de inmunidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.F.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las barreras externas: su importancia al dificultar la entrada de patógenos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.F.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inmunidad innata y específica: diferencias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.F.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inmunidad humoral y celular: mecanismos de acción."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.F.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inmunidad artificial y natural, pasiva y activa: mecanismos de funcionamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.F.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Enfermedades infecciosas: fases."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.F.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales patologías del sistema inmunitario: causas y relevancia clínica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  383
+                ]
+              },
+              "id": "BIO.2.F.07"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
+      "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado.",
+      "El decreto entra en vigor al inicio del curso 2022/2023, sin un día concreto; entradaEnVigor queda en null. Su implantación es en 1.º en 2022/2023 y en 2.º en 2023/2024."
+    ]
+  }
+}

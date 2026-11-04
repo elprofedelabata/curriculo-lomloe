@@ -1,0 +1,809 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.bachillerato.historia-de-la-filosofia",
+  "territorio": "es-cb",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "HF",
+    "nombre": {
+      "es": "Historia de la Filosofía"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "obligatoria"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": null,
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-eso-bachillerato-decreto-73-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 73/2022, de 27 de julio, por el que se establece el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "151",
+      "fechaPublicacion": "2022-08-05",
+      "cve": "CVE-2022-6079",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374886",
+      "paginasMateria": {
+        "desde": 634,
+        "hasta": 645
+      },
+      "anexo": "II-A"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-42-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6239",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-30-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/30/2024, de 11 de junio, por la que se modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "118",
+      "fechaPublicacion": "2024-06-19",
+      "cve": "CVE-2024-4956",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "paginasMateria": {
+        "desde": 4,
+        "hasta": 9
+      },
+      "anexo": "I"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Las culturas humanas se constituyen y reconocen en orden a las respuestas que ofrecen a las cuestiones más fundamentales. Entre estas cuestiones se encuentran las referidas al origen, naturaleza y sentido del cosmos; a la esencia y destino del ser humano, a la posibilidad y las formas del conocimiento, y a la definición de aquellos valores (la verdad, el bien, la justicia, la belleza) que estimamos adecuados para orientar nuestras acciones y creaciones. Aunque en esencia las cuestiones son las mismas, la variabilidad histórica de las formas en que se plantean y se intentan responder es enorme. El objetivo de la materia de Historia de la Filosofía en Bachillerato es recorrer el camino en que estas preguntas y respuestas se han dado, de una forma distintivamente crítica y racional, en el devenir del pensamiento occidental, sin que ello signifique menospreciar la riqueza y relevancia de otras tradiciones de pensamiento. Este objetivo es de una importancia sobresaliente para el logro de la madurez personal, social y profesional del alumnado. Aventurarnos a explorar la vida de las ideas filosóficas en la relación compleja y dialéctica que mantienen históricamente entre sí y con otros aspectos de nuestra cultura, es también explorar la intrincada red de conceptos y representaciones sobre la que pensamos, deseamos, sentimos y actuamos. Por todo ello, la materia de Historia de la Filosofía debe representar para los estudiantes un fascinante ejercicio de descubrimiento del conjunto de ideas y valores que sustentan tanto su forma de ser como la de su propia época y entorno social y no un mero compendio erudito de conocimientos.",
+      "Para lograr este objetivo se propone el desarrollo de una serie de competencias específicas que, que den al alumnado una profundización en los procedimientos de la indagación filosófica con los que se trabajó en primero de Bachillerato; la posibilidad de pensar críticamente en las ideas con las que piensa, identificándolas en su origen y siguiéndolas en sus variaciones históricas, tanto en sus relaciones de oposición y complementariedad con el resto de las ideas filosóficas como en su conexión con la generalidad de las manifestaciones culturales en que se expresan y en las que cabe contextualizarlas; el conocimiento significativo de algunas de las más importantes concepciones, textos, autores y autoras de la historia del pensamiento occidental. De ahí que en esta propuesta se insista en comprender la historia del pensamiento filosófico, no de manera aislada, limitándolo al conocimiento de sus textos y autores y autoras más relevantes, sino en relación con la totalidad del contexto histórico y cultural en el que las ideas se descubren, generan y manifiestan, atendiendo a las múltiples expresiones y fenómenos sociales, políticos, artísticos, científicos o religiosos en que podemos encontrar incardinadas dichas ideas y, más específicamente, inquiriendo sobre ellas en textos y documentos de carácter literario, histórico, científico o de cualquier otro tipo. El fin último es que el alumnado, una vez entienda las teorías y controversias filosóficas que han articulado la historia del pensamiento occidental, se encuentre en mejores condiciones para adoptar una posición propia, dialogante, crítica y activa ante los problemas del presente y los retos y desafíos del siglo XXI.",
+      "Cada una de las competencias específicas referidas se relaciona con los objetivos generales de etapa para Bachillerato, así como con las competencias clave, conectándose directamente con determinados criterios de evaluación. Estos criterios de evaluación han de entenderse como herramientas de diagnóstico y mejora en relación con el nivel de desempeño que se espera de la adquisición de las competencias específicas. Además, y dado el enfoque competencial del currículo, los citados criterios de evaluación, siempre en relación con los saberes básicos, habrán de atender tanto a los procesos de aprendizaje como al producto o resultante de dichos procesos. Por último, tales criterios deberán ser implementados a través de instrumentos de evaluación diferenciados y ajustables a los distintos contextos y situaciones de aprendizaje en los que se concrete el desarrollo de las competencias específicas.",
+      "En cuanto a los saberes básicos, están distribuidos en tres bloques, referidos a tres intervalos históricos especialmente significativos en la historia del pensamiento filosófico occidental: el origen y desarrollo de la filosofía en la antigüedad griega, el surgimiento de la modernidad europea desde sus raíces en el pensamiento y la cultura medieval y, por último, el desenvolvimiento y la crisis del pensamiento moderno hasta llegar al heterogéneo panorama filosófico de nuestros días. En cada uno de estos tres bloques se enuncian aquellos saberes que resulta esencial tratar en un curso básico de Historia de la Filosofía en Bachillerato, sin prejuzgar el grado de atención que haya de prestársele a cada bloque y saber ni la forma de articularlos, de manera que se puedan seleccionar aquellos que convenga tratar por extenso y aquellos otros que se comprendan de manera complementaria o contextual.",
+      "Los saberes básicos se han organizado en torno a una serie de problemas filosóficos fundamentales y a partir del diálogo que a propósito de ellos han mantenido y mantienen entre sí diferentes pensadores y pensadoras de la misma o de diferentes épocas. Se pretende evitar así la mera relación diacrónica de autores o textos canónicos, dando a la materia una orientación más temática. Además, se propone abordar cada uno de esos problemas no solo a través de textos de eminente naturaleza filosófica y de un nivel adecuado al carácter básico de la materia, sino también mediante el análisis complementario de textos y documentos literarios, historiográficos y de cualquier otro tipo que sean pertinentes y tengan o hayan tenido relevancia histórica en relación con el problema tratado.",
+      "Por otro lado, en los tres bloques se propone analizar la situación de la mujer en el ámbito de la filosofía, con la intención de reparar el agravio histórico con respecto a aquellas filósofas que han sido marginadas en el canon tradicional por su simple condición de mujeres, medida que se complementa con la atención que en los dos últimos bloques se presta al pensamiento feminista como una de las concepciones más representativas de la historia reciente de las ideas. El abandono, asimismo, de los cuatro periodos historiográficos tradicionales pretende subrayar el aspecto dinámico e interconectado de las distintas etapas o fases de la historia del pensamiento filosófico, así como dar un mayor peso al análisis del pensamiento moderno y contemporáneo, que es el protagonista de los dos últimos bloques, sin que ello suponga olvidar el inmenso y riquísimo caudal de cuestiones e ideas que representa el pensamiento antiguo y medieval.",
+      "Finalmente, una programación de la materia consecuente con el espíritu competencial que establece la ley ha de tomar el «aprender a filosofar» kantiano como lema orientador, y situar la actividad indagadora del alumnado como el centro y el fin de todo el proceso de enseñanza y aprendizaje, profundizando en el desarrollo de aquellas competencias que, desplegadas ya en la materia de Filosofía de primero de Bachillerato, contribuyan al logro de su autonomía y madurez intelectual, moral y cívica. Es también preciso insistir, por último, en la conveniencia de comprender la Historia de la Filosofía en el contexto histórico y cultural que le sirve de marco, evitando un tratamiento aislado y puramente academicista de la misma y empleándola como una herramienta y una perspectiva idóneas desde las que tratar crítica y reflexivamente los más graves problemas que nos afectan hoy, especialmente aquellos referidos a la equidad entre los seres humanos, la justificación y consideración de los derechos humanos, la igualdad efectiva entre hombres y mujeres, o los problemas ecosociales."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Buscar, analizar, interpretar, producir y transmitir información relativa a hechos histórico-filosóficos a partir del uso crítico y seguro de fuentes y el dominio de técnicas básicas de investigación, para generar conocimientos y producciones propias acerca de la historia de los problemas e ideas filosóficos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CC3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          637,
+          638
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La labor de investigación de la Historia de la Filosofía comparte con los estudios históricos, pero también con la filología y con otras ciencias humanas, el hecho de que su objeto de estudio venga vehiculado por textos, documentos y otras manifestaciones análogas legadas por la tradición. Es, pues, fundamental que el alumnado sepa trabajar con fuentes fiables y relevantes, entendiéndolas en su contexto social y cultural a la vez que en su proyección histórica y estableciendo relaciones entre documentos de diferentes épocas y culturas. Para ello, es preciso dotarle de herramientas de investigación con que buscar y organizar la información, tanto en entornos digitales como en otros más tradicionales, así como para evaluarla y utilizarla de manera crítica para la producción y transmisión de conocimientos relativos a la materia. El objetivo es que, además del uso de documentos de una cierta complejidad formal y material, puedan construir sus propios juicios y elaborar producciones a partir del diálogo con tales documentos y el ejercicio autónomo de su capacidad indagadora.",
+          "Todo esto supone no solo la facultad de interpretar y comentar formalmente textos y otros documentos y manifestaciones histórico-filosóficas, relacionándolos con problemas, tesis y autores o autoras, sino también la de realizar esquemas y mapas conceptuales, cuadros cronológicos y otras elaboraciones, incluyendo la producción y exposición de trabajos de investigación de carácter básico, utilizando los protocolos al efecto, y tanto de forma individual como colaborativa."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Reconocer las normas y pautas de la argumentación y el diálogo filosóficos mediante la identificación y análisis de las mismas en distintos soportes y a través de diversas actividades, para aplicarlas con rigor en la construcción y exposición de argumentos y en el ejercicio del diálogo con los demás."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "STEM1",
+        "CPSAA3.1",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC3.2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          638
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "El dominio de la argumentación es un factor fundamental para pensar y comunicarse con rigor y efectividad, tanto en el ámbito de las ciencias y saberes, como en el de la vida cotidiana, así como una condición necesaria para la formación del propio juicio personal. Es, pues, necesario que el alumnado, tanto en el trabajo con textos y documentos, como en el diálogo filosófico con los demás, emplee argumentos correctos y bien fundados, apreciando el rigor argumentativo y detectando y evitando los modos dogmáticos, falaces y sesgados de sostener o discutir opiniones e hipótesis.",
+          "Por otro lado, si el diálogo goza en la didáctica de la filosofía de un merecido reconocimiento, tanto como expresión del carácter propiamente dialéctico de la indagación filosófica como en tanto que elemento esencial del ejercicio de la ciudadanía democrática, en el estudio de la historia de las ideas cumple una doble función: la de promover el debate filosófico y la de hacerlo en torno a planteamientos y concepciones que guardan a la vez entre sí un diálogo a lo largo del tiempo. Se trata, pues, de promover, no solo el diálogo empático, cooperativo y comprometido con la búsqueda del conocimiento, la libre expresión de ideas y el respeto a la pluralidad de tesis y opiniones, sino también la aptitud para el pensamiento crítico y relacional en torno a ideas de autores y autoras de épocas muy distintas, entendiendo en todos los casos la disensión y la controversia no necesariamente como un conflicto sino también como complementariedad y ocasión para una mejor comprensión de los problemas."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Comprender y expresar diferentes concepciones filosóficas históricamente dadas, mediante el acercamiento a sus fuentes y el trabajo crítico sobre las mismas, para desarrollar el conocimiento de un acervo que constituye parte esencial del patrimonio cultural común."
+      },
+      "descriptoresOperativosRefs": [
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          639
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La tradición filosófica, así como el debate filosófico contemporáneo, han venido acumulando y transmitiendo, y siguen produciendo hoy, un inmenso y valiosísimo caudal de planteamientos, preguntas, intentos de respuesta, ideas, argumentaciones y exposiciones diferentes en torno a las cuestiones filosóficas, moduladas de acuerdo con el contexto histórico y el esfuerzo de los autores y autoras en los que en cada caso tuvieron cauce de expresión. El conocimiento de las más importantes de estas propuestas filosóficas debe formar parte de la cultura de todo el alumnado y, en general, del bagaje de una ciudadanía ilustrada. Por otro lado, el aprendizaje de tales concepciones filosóficas precisa de un trabajo orientado desde la experiencia actualizada de cuestiones ya tratadas en primero de Bachillerato, de manera que sea el alumnado el que, en relación con dichas cuestiones, sienta la necesidad de investigar la raíz y dimensión histórica de las mismas a través del contacto directo con documentos y del trabajo a partir de ellos. Una indagación que debe ser, además, ajena a prejuicios etnocéntricos, sexistas o de cualquier otro tipo, y reconocer el papel, a menudo oculto y marginado, de las mujeres, así como la importancia e influencia de otras tradiciones de pensamiento diferentes a la nuestra, analizando críticamente las conceptualizaciones de carácter excluyente o discriminatorio que formen o hayan formado parte del discurso filosófico."
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Reconocer la naturaleza esencialmente plural y diversa de las concepciones filosóficas históricamente dadas, mediante su puesta en relación dialéctica de confrontación y complementariedad, para generar una concepción compleja y dinámica de la historia del pensamiento y promover una actitud tolerante y comprometida con la resolución racional y dialogada de los conflictos."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CC1",
+        "CC2",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          639,
+          640
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La filosofía, a diferencia de otros ámbitos de conocimiento, se presenta radicalmente abierta y disputada en todas sus áreas, algo que no tiene por qué ser interpretado como defecto o disfunción sino, al contrario, como indicio del carácter complejo y dialéctico tanto de la disciplina como de muchas de las cuestiones filosóficas en las que no son posible, ni quizás deseables, la unanimidad o la unilateralidad, pero sí el diálogo respetuoso y constructivo.",
+          "Este carácter plural de la filosofía es más evidente cuando lo comprendemos a través de su dimensión histórica. No obstante, tampoco aquí esta riqueza de perspectivas compromete la unidad esencial que define a toda la empresa filosófica como una búsqueda incondicionada e integral de la verdad y del sentido de la realidad en sus aspectos más fundamentales. Por otro lado, el contacto con los distintos modos de argumentación y exposición que corresponden a las concepciones filosóficas, así como con la diversidad de formas con que cabe interpretarlas, resultan una experiencia óptima para la práctica del pensamiento complejo, el análisis, la síntesis, y la comprensión de los problemas filosóficos y otros de relevancia cultural y social desde una perspectiva más profunda y plural, menos sesgada, y crítica con todo dogmatismo, en consonancia con lo que debe ser el ejercicio de la propia ciudadanía democrática."
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Reconocer el modo en que se han planteado sucesivamente, a través de distintas épocas y concepciones, los mismos problemas filosóficos, mediante el análisis e interpretación de textos y otros modos de expresión tanto filosófica como más ampliamente cultural, históricamente dados, para afrontar tales problemas a partir de la reflexión crítica sobre el conocimiento de lo aportado por la tradición."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          640,
+          641
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La reflexión filosófica, que en el curso de primero de Bachillerato se abordaba de manera principalmente temática, se despliega aquí de modo también diacrónico, analizando los mismos problemas en diferentes momentos históricos, lenguajes y formas, y en relación con los aspectos propios de cada época y cultura. La suma de dichas fases o momentos comprende un conjunto de planteamientos y respuestas que el alumnado debe conocer, no solo para comprender la historia pasada, e incluso el mismo concepto de historia, sino también para entender su propio presente y pensar su futuro de manera más reflexiva y cuidadosa. Además, en la filosofía, dado su carácter plural y siempre abierto, es aún más pertinente que en otros saberes tener consciencia de ese proceso histórico, él mismo un objeto de reflexión filosófica, y en el que se puede encontrar el germen de todo el pensamiento contemporáneo.",
+          "Es necesario, por ello, que el alumnado analice los problemas filosóficos a lo largo de la historia, esclareciendo las condiciones socio-culturales de su aparición y conectando el tratamiento que se hace de los mismos en distintas corrientes y escuelas de pensamiento. El objetivo es que alumnos y alumnas afronten tales problemas desde el reconocimiento tanto de su radicalidad y universalidad como de la pluralidad y variabilidad en que se expresan, reflexionando sobre la relación de ambos aspectos, con el fin de promover un conocimiento profundo y crítico de la filosofía y de la cultura en que esta se inserta y desarrolla."
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Reconocer las formas diversas en que los interrogantes filosóficos y sus intentos de respuesta se han presentado históricamente en otros ámbitos de la cultura, mediante el análisis interpretativo de textos y otras manifestaciones pertenecientes a esos ámbitos, para promover una concepción sistemática, relacional y compleja de la historia de la cultura occidental y del papel de las ideas filosóficas en ella."
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          641
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La filosofía, lejos de ser un saber ensimismado en sus problemas y lenguaje y ajeno al resto de saberes y aspectos de la existencia humana, se ha mostrado siempre interesada en dialogar con otros ámbitos del conocimiento, nutriéndose de ellos y enriqueciéndolos con nuevas ideas y perspectivas. A ello se le suma que el estudio de la filosofía resulta más estimulante y rico cuando se ejercita mediante el análisis de otras manifestaciones culturales en las que los problemas y las concepciones histórico-filosóficos están presentes, de manera al menos tácita. Por ello, el acercamiento a la materia de Historia de la Filosofía debe realizarse no solo a través del estudio e interpretación de los textos de los grandes filósofos y filósofas, sino también a través del análisis de aquellos otros documentos y acontecimientos históricos de carácter político, artístico, científico o religioso que resulten filosóficamente relevantes.",
+          "El objetivo es, por un lado, que el alumnado comprenda la naturaleza interdisciplinar y transdisciplinar de la reflexión filosófica y su función articuladora del conjunto de los saberes, y, por el otro, que reconozca la relación entre las distintas teorías filosóficas y aquellos movimientos, doctrinas y creaciones sociales, políticas, morales, artísticas, científicas y religiosas con las que aquellas han compartido espacio histórico y cultural, identificando sus influencias mutuas y, en especial, los fundamentos y problemas filosóficos que laten bajo los citados movimientos, doctrinas y creaciones."
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Analizar problemas fundamentales y de actualidad mediante la exposición crítica de distintas posiciones histórico-filosóficas relevantes para la comprensión y discusión de aquellos, para desarrollar la autonomía de juicio y promover actitudes y acciones cívica y éticamente consecuentes."
+      },
+      "descriptoresOperativosRefs": [
+        "CPSAA4",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+        "paginas": [
+          641,
+          642
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "Los grandes sistemas de pensamiento habidos a lo largo del tiempo no son solo lugares de referencia obligada para entender en profundidad el pasado, nuestras señas de identidad culturales o nuestro modo mismo de ser, conocer o valorar, sino que son también guías que, tratadas de manera crítica, iluminan los más complejos debates actuales, constituyendo así una herramienta indispensable para nuestra tarea de promover un mundo más justo, sostenible y racional. En este sentido, la historia de la filosofía representa un esfuerzo progresivo por comprender la realidad y orientar la acción humana, tanto en un sentido individual como en el colectivo. Además, provee al alumnado de un marco de referencia idóneo para el ejercicio de una ciudadanía consciente, críticamente comprometida con los valores comunes y detentadora de una actitud reflexiva y constructiva ante los retos del siglo XXI. Así, en la medida en que se conozcan con profundidad las distintas ideas, teorías y controversias filosóficas implicadas en cuestiones que, como la desigualdad y la pobreza, la situación de los derechos humanos en el mundo, el logro de la efectiva igualdad y corresponsabilidad entre mujeres y hombres, o los problemas ecosociales, conforman la actualidad, se estará en mejores condiciones para entender y afrontar dichas cuestiones.",
+          "El propósito último es que el alumnado pueda posicionarse ante ellas con plena conciencia de lo que sus ideas deben al curso histórico del pensamiento filosófico y, por ello, con una mayor exigencia crítica y un más firme compromiso tanto con el perfeccionamiento de dichas ideas como con las actitudes y acciones que quepa deducir de ellas."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Generar un conocimiento riguroso de fuentes y documentos filosóficamente relevantes, aplicando técnicas de búsqueda, organización, análisis, comparación e interpretación de estos y relacionándolos correctamente con contextos históricos, problemas, tesis, autores y autoras, así como con elementos pertenecientes a otros ámbitos culturales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              642
+            ]
+          },
+          "id": "cri-2-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Construir juicios propios acerca de problemas histórico-filosóficos, a través de la elaboración y presentación de documentos y trabajos de investigación sobre los mismos con precisión y aplicando los protocolos al uso, tanto de forma individual como grupal y cooperativa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              642,
+              643
+            ]
+          },
+          "id": "cri-2-1-2"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear argumentos de modo riguroso, reconociendo y aplicando normas, técnicas y pautas lógicas, retóricas y argumentativas, y evitando modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              643
+            ]
+          },
+          "id": "cri-2-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Sostener el hábito del diálogo argumentativo, empático, abierto y constructivamente comprometido con la búsqueda del conocimiento, a través de la participación activa, respetuosa y colaborativa en cuantas actividades se propongan."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              643
+            ]
+          },
+          "id": "cri-2-2-2"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Adquirir y expresar un conocimiento significativo de las más importantes propuestas filosóficas que se han sucedido a lo largo de la historia, a través de la indagación sobre ellas y la identificación de las cuestiones a las que responden."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              643
+            ]
+          },
+          "id": "cri-2-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar, comprender y debatir sobre los principales problemas, ideas, tesis y controversias filosóficas de la historia del pensamiento, a través del análisis y comentario crítico de textos y documentos filosóficos o relevantes para la filosofía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              643
+            ]
+          },
+          "id": "cri-2-3-2"
+        },
+        {
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Generar una concepción plural, dialéctica, abierta y crítica de la historia del pensamiento, a través de la comprensión, la realización de síntesis comparativas y la exposición de las relaciones de oposición y complementariedad entre tesis, escuelas, filósofos y filósofas de una misma época o tradición o de distintas épocas y tradiciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              643
+            ]
+          },
+          "id": "cri-2-4-1"
+        },
+        {
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Afrontar los grandes problemas filosóficos en su doble aspecto histórico y universal a través del análisis y exposición crítica de las condiciones culturales que han permitido en cada caso la aparición y evolución de dichos problemas en distintos momentos de la historia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              643
+            ]
+          },
+          "id": "cri-2-5-1"
+        },
+        {
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Comprender la dimensión temporal y universal de los problemas filosóficos más importantes, comparando mediante esquemas u otros productos o actividades el tratamiento filosófico que se hace de ellos en distintas épocas, escuelas, tradiciones, autores y autoras."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              643
+            ]
+          },
+          "id": "cri-2-5-2"
+        },
+        {
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Adquirir una concepción sistémica y relacional de la historia de la cultura occidental y del papel de las ideas filosóficas en ella, mediante el análisis comentario y comparación de todo tipo de textos y manifestaciones en los que se expresen problemas y concepciones filosóficamente relevantes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              644
+            ]
+          },
+          "id": "cri-2-6-1"
+        },
+        {
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Desarrollar la autonomía de juicio, y promover planteamientos, actitudes y acciones ética y cívicamente consecuentes, con respecto a problemas fundamentales de la actualidad, a partir de la comprensión de ideas, teorías y controversias histórico-filosóficas que puedan contribuir a clarificar tales problemas y de la elaboración de propuestas de carácter crítico y personal con respecto a los mismos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+            "paginas": [
+              644
+            ]
+          },
+          "id": "cri-2-7-1"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Del origen de la filosofía occidental en Grecia hasta el fin de la Antigüedad"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Historicidad y universalidad de los problemas y concepciones filosóficas. Métodos de trabajo en Historia de la Filosofía."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  644
+                ]
+              },
+              "id": "HF.2.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El surgimiento de la filosofía occidental en Grecia. Cosmovisión mítica y teorización filosófica. La filosofía en otras tradiciones culturales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  644
+                ]
+              },
+              "id": "HF.2.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El problema de la realidad en los presocráticos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  644
+                ]
+              },
+              "id": "HF.2.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Filosofía y ciudadanía en la Ilustración griega: los sofistas y Sócrates. Aspasia de Mileto y el papel de la mujer en la cultura y la filosofía griega."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  644
+                ]
+              },
+              "id": "HF.2.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Idea y naturaleza: conocimiento y realidad en Platón y Aristóteles."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  644
+                ]
+              },
+              "id": "HF.2.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La antropología en la filosofía clásica: Sócrates y el conocimiento de sí; la psique en Platón y Aristóteles."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  644
+                ]
+              },
+              "id": "HF.2.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La discusión ética: el intelectualismo socrático-platónico; la teoría de las virtudes en Platón y Aristóteles; el concepto de eudemonía."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  644
+                ]
+              },
+              "id": "HF.2.A.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El debate político: Las propuestas platónica y aristotélica en torno al mejor orden social."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  644
+                ]
+              },
+              "id": "HF.2.A.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "De las polis al imperio. Filosofía, ciencia y cultura en el helenismo. Estoicismo y epicureísmo. La figura de Hipatia de Alejandría e Hiparquía de Maronea."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  644
+                ]
+              },
+              "id": "HF.2.A.09"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "De la Edad Media a la modernidad europea"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Etapas, métodos y cuestiones fundamentales en la filosofía medieval. Agustín de Hipona, Tomas de Aquino y Guillermo de Ockham. La personalidad polifacética de Hildegard von Bingen. La filosofía árabe y judía."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La asimilación de la filosofía griega por la teología medieval. El problema de la relación entre fe y razón."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El problema de los universales: realismo y nominalismo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El nacimiento de la modernidad europea. El Renacimiento. El protestantismo. La revolución científica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Racionalismo y empirismo: René Descartes y David Hume."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.B.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El debate metafísico moderno. La teoría cartesiana de las sustancias. El materialismo desde Thomas Hobbes a la Ilustración."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.B.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La cuestión del origen y fundamento de la sociedad y el poder. Del pensamiento político medieval a la teoría del contrato social según Thomas Hobbes, John Locke y Jean- Jacques Rousseau."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.B.07"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "De la modernidad a la postmodernidad"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El proyecto ilustrado: potencia y límites de la razón. Los Derechos del Hombre. La primera ola feminista: Mary Wollstonecraft y Olympe de Gouges."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La filosofía crítica de Immanuel Kant y el problema de la metafísica como saber."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Éticas de la felicidad y éticas del deber. La ética kantiana frente al utilitarismo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La crítica del capitalismo: el pensamiento revolucionario de Karl Marx y la dialéctica de la Ilustración en la Escuela de Fráncfort. El análisis del totalitarismo de Hannah Arendt."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La deconstrucción de la tradición occidental en Friedrich Nietzsche y la herencia posmoderna."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los problemas filosóficos a la luz del análisis del lenguaje: Ludwig Wittgenstein y la filosofía analítica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.C.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El existencialismo: Martin Heidegger y Jean Paul Sartre. La razón vital y la razón poética: José Ortega y Gasset y María Zambrano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.C.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El desarrollo contemporáneo del feminismo: Simone de Beauvoir."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.C.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El desarrollo contemporáneo de la filosofía moral en España: Victoria Camps y Adela Cortina."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
+                "paginas": [
+                  645
+                ]
+              },
+              "id": "HF.2.C.09"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
+      "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado.",
+      "El decreto entra en vigor al inicio del curso 2022/2023, sin un día concreto; entradaEnVigor queda en null. Su implantación es en 1.º en 2022/2023 y en 2.º en 2023/2024."
+    ]
+  }
+}

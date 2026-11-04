@@ -1,0 +1,729 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cb.bachillerato.tecnologias-de-la-informacion",
+  "territorio": "es-cb",
+  "etapa": "bachillerato",
+  "materia": {
+    "codigo": "TINF",
+    "nombre": {
+      "es": "Tecnologías de la Información"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-08-13",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cb-bachillerato-orden-edu-42-2022",
+      "tipo": "orden",
+      "titulo": "Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "156",
+      "fechaPublicacion": "2022-08-12",
+      "cve": "CVE-2022-6239",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375009",
+      "paginasMateria": {
+        "desde": 88,
+        "hasta": 93
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cb-bachillerato-orden-edu-30-2024",
+      "tipo": "orden",
+      "titulo": "Orden EDU/30/2024, de 11 de junio, por la que se modifica la Orden EDU/42/2022, de 8 de agosto, por la que se dictan instrucciones para la implantación del Bachillerato en la Comunidad Autónoma de Cantabria",
+      "publicacion": "Boletín Oficial de Cantabria",
+      "numero": "118",
+      "fechaPublicacion": "2024-06-19",
+      "cve": "CVE-2024-4956",
+      "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "urlVerificacion": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405890",
+      "paginasMateria": {
+        "desde": 4,
+        "hasta": 9
+      },
+      "anexo": "I"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Las tecnologías de la información constituyen uno de los ejes principales del desarrollo social, económico y cultural de nuestra sociedad. A través de ellas se dan soluciones a las necesidades digitales en diferentes ámbitos, abarcando un extenso abanico de sectores socioeconómicos, sociales y culturales. Además, la digitalización al servicio de las personas contribuye a su progreso y bienestar personal, ayudando a vencer las desigualdades en todos los niveles.",
+      "La materia tiene continuidad con etapas anteriores de manera explícita y transversal, ya que tiene en cuenta el perfil de salida que se espera que el alumnado haya desarrollado al completar la enseñanza básica. Este perfil de salida incluye la alfabetización en información y datos, la comunicación y la colaboración, la educación mediática, la creación de contenidos digitales, la seguridad, asuntos relacionados con la ciudadanía digital, la privacidad, la propiedad intelectual, la resolución de problemas y el pensamiento computacional y crítico.",
+      "Para ello, la materia de Tecnologías de la Información ahonda en la adquisición de diversas destrezas digitales aplicables en cualquier modalidad de bachillerato. Junto a los descriptores operativos de la competencia clave de digitalización, se tratarán otros transversales relacionados con la de STEM, la de comunicación lingüística, la ciudadana, la personal, social y de aprender a aprender, y la emprendedora. El objetivo es que los alumnos y alumnas aumenten las competencias digitales adquiridas en etapas anteriores para integrarlas en cualquier disciplina.",
+      "La materia se vertebra en torno a tres competencias específicas útiles en una gran variedad de sectores académicos y profesionales del mundo actual. En ellas se expresa el desempeño que el alumnado debe adquirir en el manejo de las herramientas ofimáticas y colaborativas, la seguridad y el bienestar digital, el desarrollo y diseño Web.",
+      "La primera competencia específica enfoca al alumnado hacia el dominio de aplicaciones y herramientas informáticas que sean de utilidad en cualquier disciplina, con el fin de trabajar de forma eficiente, obtener mejores resultados y manejar nuevas tecnologías disponibles para el desarrollo de proyectos colaborativos de interés general. La segunda competencia específica fomenta la adquisición de una identidad digital saludable y segura haciendo que el alumnado sea consciente del impacto que tiene internet en nuestro día a día. Se trata de adoptar buenas prácticas de uso de la red, cumpliendo la legalidad y siendo consciente de los diversos problemas que pueden surgir a través de un uso inadecuado de las tecnologías de la información. La tercera competencia específica guía en la elaboración y publicación de contenidos para la web, de manera que pueda compartir información de múltiples formas, desde el uso de gestores de contenidos, hasta la creación de una página completa, pasando por el diseño y la programación de dicha página. Con el desarrollo de pequeños scripts, se dota a los alumnos y alumnas de una introducción al mundo de la programación.",
+      "La materia de Tecnología de la Información se impartirá el primer curso y se organiza en tres bloques interrelacionados de saberes básicos fácilmente aplicables a cualquier disciplina. En ellos no se concreta ninguna herramienta, lenguaje o software específico con la intención de que sea flexible y adaptable al curso, la especialidad del bachillerato, las características del grupo y los rápidos avances tecnológicos. De esta forma, el profesorado puede ajustar el currículo buscando las que sean más relevantes para el desarrollo académico y/o profesional del alumnado.",
+      "El primer bloque de saberes básicos, “Herramientas ofimáticas de escritorio y colaborativas”, es el más interdisciplinar de todos pues, además de reforzar los conocimientos básicos adquiridos en etapas anteriores, permitirá al alumnado practicar y profundizar en el manejo de procesadores de texto, hojas de cálculo, bases de datos y herramientas de trabajo colaborativo, tanto de escritorio como las disponibles en la nube.",
+      "El segundo bloque de saberes básicos, “Seguridad y evolución en las redes”, comprende una serie de contenidos relacionados entre sí. El primero inicia al alumnado en el funcionamiento de las redes e Internet, para recorrer la evolución de la Web desde sus inicios hasta la actualidad. El segundo, se centra en los ejes básicos de la seguridad: de dispositivos, de datos y de las personas. Busca que el alumnado reconozca riesgos y amenazas en la red para que implemente medidas de seguridad y preventivas que le ayuden a mantener la seguridad y preservar la identidad digital. Y, por último, introduce la Inteligencia artificial e Internet de las cosas, para que identifiquen su presencia en diferentes aplicaciones y dispositivos cotidianos, sean críticos con su uso y reconozcan su utilidad para mejorar la vida de las personas.",
+      "El tercer bloque de saberes básicos, “Herramientas para el diseño y la programación web”, introduce en la elaboración y publicación de contenido propio, trabajando con herramientas específicas para diseñar páginas web. El alumnado ha de ser consciente de los distintos tipos de licencias que existen respecto al uso y disfrute del contenido que ya existe en la red. Además, aborda la creación de páginas con lenguajes de marcado, utilizando guías de estilo para su diseño. Por último, realiza una introducción a los lenguajes de script, que sirva para tener un primer contacto con el uso de la programación.",
+      "Tecnologías de la Información es una materia de carácter técnico y digital, por lo que se considera muy adecuado el uso de metodologías activas, potenciando el trabajo práctico y cooperativo, facilitando que se alcancen destrezas digitales y habilidades personales y sociales destinadas a mejorar el conocimiento del mundo actual y a afrontar con éxito los desafíos del futuro."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Dominar el conjunto de técnicas, aplicaciones y herramientas informáticas que son utilizadas para optimizar, perfeccionar y ser más eficientes en las labores y tareas diarias."
+      },
+      "descriptoresOperativosRefs": [
+        "STEM3",
+        "STEM4",
+        "CD2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          90
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia al conocimiento del equipamiento software y hardware que se utiliza para coleccionar, almacenar, crear, manipular y transmitir digitalmente la información sobre las tareas cotidianas, tanto en lo personal como en lo educativo y, en un futuro, en lo profesional.",
+          "Persigue también fomentar la capacidad de manejar las nuevas tecnologías disponibles que permiten el desarrollo de proyectos colaborativos, y compartidos, y que facilitan que el acceso a la información para cualquier persona en cualquier lugar en el mundo sea cada vez más rápido y sencillo."
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Adquirir una identidad digital saludable y segura, valorando el impacto de Internet y las tecnologías de la información y la comunicación en la sociedad actual, identificando las ventajas y los riesgos, para fomentar el uso seguro y responsable de las mismas."
+      },
+      "descriptoresOperativosRefs": [
+        "CD1",
+        "CD4",
+        "CC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          90,
+          91
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia pretende que el alumnado reconozca los riesgos y amenazas en Internet para que pueda mantener sana su identidad digital adoptando hábitos para preservar su bienestar y el de los demás. Por ello, engloba tanto aspectos técnicos relativos a la configuración de la seguridad de redes y dispositivos, como los relacionados con la protección y el uso de los datos personales. Asimismo, se aborda el tema de la salud digital ante problemas como el ciberacoso, la dependencia tecnológica, el abuso en el juego y otros derivados de un consumo poco responsable de las tecnologías de la información y la comunicación.",
+          "La competencia también hace referencia a la extensión y proliferación de tecnologías asociadas a Internet, así como la incorporación de la inteligencia artificial y el Internet de las cosas en diferentes ámbitos de nuestras vidas, fomentando la curiosidad por la innovación y el uso seguro y responsable."
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Elaborar y publicar contenidos para la web, integrando diferentes contenidos multimedia, bien a través de gestores de contenidos como utilizando lenguajes propios de páginas web, aplicando diferentes estilos, conociendo y respetando los derechos de autoría digital."
+      },
+      "descriptoresOperativosRefs": [
+        "CD2",
+        "CD3",
+        "CD5",
+        "CCL3",
+        "CPSAA5"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+        "paginas": [
+          91
+        ]
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia a la capacidad de acceso y distribución de la información a través de Internet, fomentando el uso y disfrute de dicha información en consonancia con los derechos que protegen los contenidos. El desarrollo de contenido para la web puede realizarse con tecnologías web que facilitan la tarea, como son los gestores de contenido, o bien a través de la realización de una página web con un lenguaje de marcado y la inclusión de pequeños scripts para añadir funcionalidad dinámica a la web.",
+          "Esta competencia engloba aspectos generales de la programación web, por un lado, y el diseño web por el otro. Trata de que el alumnado sea capaz de desarrollar tanto la parte estética de las páginas como la elaboración de material de calidad para su uso en cualquier otra disciplina."
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer las características tanto de las suites ofimáticas de escritorio como de las que están en la nube, para poder determinar el recurso más adecuado para dar respuesta a una determinada situación. Optimizar el uso de estas herramientas de trabajo en el desarrollo de proyectos colaborativos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              91
+            ]
+          },
+          "id": "cri-1-1-1"
+        },
+        {
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Profundizar en la funcionalidad de los procesadores de textos y en su abanico de posibilidades para generar cualquier tipo de documento que incluya elementos como imágenes, tablas, gráficos, o formularios, para crear, editar y guardar documentos directamente en la nube y para intercambiar información y trabajar de manera colaborativa con otros usuarios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              91
+            ]
+          },
+          "id": "cri-1-1-2"
+        },
+        {
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Trabajar las hojas de cálculo conociendo sus aplicaciones para la gestión y el tratamiento de la información, el manejo de las listas de datos, fórmulas, el diseño de documentos con diferentes formatos, el análisis de información y la toma de decisiones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              91
+            ]
+          },
+          "id": "cri-1-1-3"
+        },
+        {
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Utilizar bases de datos que almacenen y organicen la información, para que esté guardada y gestionada y pueda resultar útil."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-1-4"
+        },
+        {
+          "codigoOficial": "1.5",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Expresar ideas, transmitir información o dar a conocer un proyecto de forma clara y concisa seleccionando la herramienta más adecuada en cada situación, incorporando nuevas formas de presentar la información."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-1-5"
+        },
+        {
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Explicar la estructura y las características de Internet como una red, identificando los componentes básicos, protocolos y servicios que permiten su funcionamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-2-1"
+        },
+        {
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Analizar y valorar la influencia de Internet y las tecnologías de la información y la comunicación en la sociedad actual, reconociendo la evolución de la Web desde el inicio hasta la actualidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-2-2"
+        },
+        {
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar y reaccionar ante las amenazas en la red, configurando sistemas y servicios para garantizar la seguridad y el bienestar digital individual y el de los otros."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-2-3"
+        },
+        {
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Proteger los datos personales y la huella digital, configurando las condiciones de privacidad de las redes y los espacios virtuales de trabajo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-2-4"
+        },
+        {
+          "codigoOficial": "2.5",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Describir los principios básicos de funcionamiento de la Inteligencia Artificial y del Internet de las Cosas y su impacto en nuestra sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-2-5"
+        },
+        {
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Elaborar contenidos para la web, integrando información textual, gráfica y multimedia teniendo en cuenta a quién va dirigido y el objetivo que se pretende conseguir."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-3-1"
+        },
+        {
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Publicar contenido en la web fomentando el uso compartido de la información, comprendiendo y respetando los derechos de autoría en el entorno digital."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-3-2"
+        },
+        {
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar lenguajes para transmitir información a través de páginas web, reconociendo y utilizando los distintos elementos del lenguaje y aplicando guías de estilo para realizar diferentes diseños."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-3-3"
+        },
+        {
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Reconocer la utilidad de los lenguajes de scripts para dotar de contenido dinámico a las páginas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+            "paginas": [
+              92
+            ]
+          },
+          "id": "cri-1-3-4"
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Herramientas ofimáticas de escritorio y colaborativas"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Presentación de la información:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  92
+                ]
+              },
+              "id": "TINF.1.A.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Procesamiento de textos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  92
+                ]
+              },
+              "id": "TINF.1.A.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Presentación de información."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  92
+                ]
+              },
+              "id": "TINF.1.A.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión de la información:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  92
+                ]
+              },
+              "id": "TINF.1.A.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Manejo de hojas de cálculo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.A.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Manejo de bases de datos ofimáticas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.A.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo colaborativo:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.A.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas para el trabajo colaborativo: tableros, planificación de tareas, comunicación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.A.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Repositorios y almacenamiento en la nube."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.A.09"
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Seguridad y evolución en las redes"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Redes e Internet:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Internet una red global. La cultura de la red. Evolución de la Web."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Funcionamiento y organización de las redes de ordenadores."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Seguridad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Seguridad en el uso de las redes y en la configuración. Cortafuegos, legislación y protección de datos, firma electrónica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Delitos derivados del uso de las redes e Internet. Seguridad y bienestar digital."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.06"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Identidad y huella digital."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.07"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inteligencia artificial e IoT:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.08"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "La inteligencia artificial en nuestros días y para el bien común."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.09"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "El Internet de las Cosas IoT: aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.B.10"
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Herramientas para el diseño y la programación web"
+          },
+          "saberes": [
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.C.01"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas y entornos para el diseño web. Gestores de contenidos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.C.02"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Publicación de contenido en la web."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.C.03"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Lenguajes:"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.C.04"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Lenguajes para la web. Guías de estilo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.C.05"
+            },
+            {
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación a los lenguajes de scripts."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cb-bachillerato-orden-edu-42-2022",
+                "paginas": [
+                  93
+                ]
+              },
+              "id": "TINF.1.C.06"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-04",
+    "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
+      "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
+      "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado."
+    ]
+  }
+}

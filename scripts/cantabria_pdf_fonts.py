@@ -63,6 +63,11 @@ class FontRecovery:
         if family == "ArialMT":
             mapping.setdefault(237, "–")
             mapping.setdefault(1171, "\u0301")
+            # Beta en «β-oxidación», cotejada en la página 383 del decreto.
+            mapping.setdefault(533, "β")
+            # Ejemplos griegos cotejados en las páginas 591 y 594 del decreto.
+            for cid, value in {652: "π", 540: "λ", 538: "ι", 546: "ς", 303: "δ", 531: "ί", 539: "κ", 536: "η", 2690: "ό", 541: "μ", 2581: "ἀ", 534: "γ", 555: "ώ", 545: "ρ", 548: "χ", 530: "ή", 2763: "ῆ", 2792: "ῦ", 537: "θ"}.items():
+                mapping.setdefault(cid, value)
         if family == "SymbolMT":
             mapping.setdefault(16, "–")
         self.maps[xref] = mapping
@@ -105,4 +110,9 @@ def normalize_unicode(value):
     """Unifica acentos compuestos y marcas idénticas superpuestas del PDF."""
     decomposed = unicodedata.normalize("NFD", value)
     decomposed = re.sub(r"([\u0300-\u036f])\1+", r"\1", decomposed)
-    return unicodedata.normalize("NFC", decomposed)
+    value = unicodedata.normalize("NFC", decomposed)
+    # Los contornos idénticos de letras latinas y griegas pueden recibir el
+    # nombre latino. Restituir solo los ejemplos completos cotejados del PDF.
+    for raw, greek in {"πóλις": "πόλις", "vόμoς": "νόμος", "ἀγώv": "ἀγών", "δῆμoς": "δῆμος", "μῦθoς": "μῦθος", "λóγoς": "λόγος"}.items():
+        value = value.replace(raw, greek)
+    return value
