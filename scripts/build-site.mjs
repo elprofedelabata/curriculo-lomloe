@@ -50,10 +50,11 @@ const matters = [];
 const openOptions = [];
 const sourceCatalogs = new Map();
 
-const territoryDirectories = (await readdir(resolve(root, "data"), { withFileTypes: true }))
+const territoryDirectories = [...new Set((await Promise.all(
+  ["data", "sources"].map((directory) => readdir(resolve(root, directory), { withFileTypes: true })),
+)).flat()
   .filter((entry) => entry.isDirectory() && /^es-[a-z]{2}$/.test(entry.name))
-  .map((entry) => entry.name)
-  .sort();
+  .map((entry) => entry.name))].sort();
 
 for (const territoryCode of territoryDirectories) {
   const sourceCatalogPath = resolve(root, `sources/${territoryCode}/normativa/catalogo.json`);

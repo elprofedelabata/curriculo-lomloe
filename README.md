@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 507 currículos revisados: 102 de Andalucía, 116 de Aragón, 87 del Principado de Asturias, 93 de Illes Balears y 109 de Canarias, incluidas las dos concreciones de Lengua para el silbo gomero de Primaria y ESO. Tres optativas asturianas de Bachillerato, cuyo desarrollo curricular queda abierto en el decreto, se documentan mediante fichas informativas separadas de los JSON curriculares. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 517 JSON curriculares revisados: 102 de Andalucía, 116 de Aragón, 87 del Principado de Asturias, 93 de Illes Balears, 109 de Canarias y 10 de Infantil y Primaria de Cantabria. Canarias incluye las dos concreciones de Lengua para el silbo gomero de Primaria y ESO. Tres optativas asturianas de Bachillerato, cuyo desarrollo curricular queda abierto en el decreto, se documentan mediante fichas informativas separadas de los JSON curriculares. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
 
 ## Progreso del proyecto
 
@@ -13,7 +13,7 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 | Principado de Asturias | ✅ 3/3 | ✅ 10/10 | ✅ 24/24 | ✅ 48/48 | ✅ 2/2 |
 | Illes Balears | ✅ 3/3 | ✅ 8/8 | ✅ 27/27 | ✅ 53/53 | ✅ 2/2 |
 | Canarias | ✅ 3/3 | ✅ 10/10 | ✅ 27/27 | ✅ 67/67 | ✅ 2/2 |
-| Cantabria | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| Cantabria | ✅ 3/3 | ✅ 7/7 | 📚 | 📚 | 📚 |
 | Castilla-La Mancha | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Castilla y León | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Cataluña | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -33,6 +33,8 @@ Para las Illes Balears se han recopilado los decretos curriculares de 2025 y la 
 Canarias cuenta con 109 JSON revisados: tres áreas de Infantil, nueve de Primaria, 23 materias de ESO, tres ámbitos de Diversificación, 67 materias de Bachillerato, dos ámbitos comunes de CFGB y dos concreciones complementarias de Lengua para el silbo gomero. Los [PDF oficiales del BOC](sources/es-cn/normativa/catalogo.json) incluyen la corrección de errores de Infantil y los decretos específicos de Diversificación y optativas de Bachillerato. Las 21 decisiones del [registro de Canarias](incidencias/es-cn.md) están revisadas.
 
 Las concreciones de Lengua para el silbo gomero del Decreto 24/2026 añaden un JSON complementario en Primaria y otro en ESO: por eso sus columnas muestran diez y 27 archivos. Ambas están extraídas, cotejadas y revisadas. Se vinculan a Lengua y conservan la aplicación preceptiva en La Gomera y facultativa, con autorización, en las demás islas. La [revisión final](sources/es-cn/REVISION-FINAL.md) documenta las correcciones aplicadas y la conservación de los identificadores de Matemáticas.
+
+Cantabria tiene recopilados los [14 PDF oficiales de partida](sources/es-cb/normativa/catalogo.json) para las cinco etapas, incluidas las optativas, ESPADE, la organización de Diversificación y la normativa de los ámbitos comunes de CFGB. El [inventario inicial](sources/es-cb/inventario.json) reúne 99 currículos candidatos y distingue los dos ámbitos de Diversificación cuya norma remite al currículo de las materias que los integran. Infantil ya tiene sus tres áreas extraídas y cotejadas en JSON, con ambos ciclos, 12 competencias, 82 criterios y 184 saberes. Las tres áreas están revisadas y sus siete decisiones están confirmadas. Primaria tiene sus siete áreas extraídas y cotejadas, con 46 competencias, 302 criterios y 641 saberes: seis áreas se desarrollan por los tres ciclos y Educación en Valores Cívicos y Éticos únicamente en 5.º, según el artículo 17.2 del decreto. Las quince decisiones de Primaria del [registro de Cantabria](incidencias/es-cb.md) están confirmadas: se conserva la redacción publicada en CB-PRIM-001 y se confirman las otras catorce correcciones. Los siete JSON están revisados. El [informe de Primaria](sources/es-cb/REVISION-PRIMARIA.md) detalla la cobertura y el cotejo. ESO, Bachillerato y CFGB continúan con fuentes recopiladas.
 
 En Asturias hay además [tres optativas de Bachillerato con desarrollo abierto](data/es-as/bachillerato/optativas-abiertas.json): se inventarían y muestran como fichas informativas, sin inventar competencias, criterios o saberes comunes.
 
