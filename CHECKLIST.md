@@ -13,7 +13,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 
 ## Progreso global
 
-- **Currículos terminados en total:** 612.
+- **Currículos terminados en total:** 619.
 - **Referencias documentadas de Andalucía, Aragón, Asturias e Illes Balears:** 401 (398 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
 - **Currículos terminados en esas cuatro comunidades:** 398 de 398
 - **Currículos pendientes entre los inventariados en esas cuatro comunidades:** 0
@@ -24,7 +24,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 - **Illes Balears:** 93 de 93
 - **Canarias:** 109 de 109 JSON revisados de las cinco etapas, incluidas las dos concreciones complementarias del silbo gomero
 - **Cantabria:** 102 de 102 JSON revisados de las cinco etapas, con 109 decisiones confirmadas y dos fichas de Diversificación por remisión.
-- **Castilla-La Mancha:** tres áreas de Infantil revisadas, con 11 decisiones confirmadas. Las fuentes de las cinco etapas están archivadas.
+- **Castilla-La Mancha:** tres áreas de Infantil y siete de Primaria revisadas, con 21 decisiones confirmadas. Las fuentes de las cinco etapas están archivadas.
 
 ## Andalucía
 
@@ -1000,7 +1000,7 @@ Dos JSON revisados y doce decisiones confirmadas. Ciencias Aplicadas conserva do
 
 ## Castilla-La Mancha
 
-Las cinco etapas tienen sus fuentes de partida recopiladas. La [guía normativa](sources/es-cm/normativa/README.md) localiza los anexos y las modificaciones. El [inventario inicial](sources/es-cm/inventario.json) identifica las áreas de Infantil y los dos ámbitos comunes de Grado Básico.
+Las cinco etapas tienen sus fuentes de partida recopiladas. La [guía normativa](sources/es-cm/normativa/README.md) localiza los anexos y las modificaciones. El [inventario](sources/es-cm/inventario.json) identifica las áreas de Infantil y Primaria y los dos ámbitos comunes de Grado Básico.
 
 ### Infantil — áreas
 
@@ -1010,9 +1010,21 @@ Tres JSON cotejados y revisados. El [informe de Infantil](sources/es-cm/REVISION
 - [x] Descubrimiento y Exploración del Entorno — [JSON](data/es-cm/infantil/materias/descubrimiento-y-exploracion-del-entorno.json) — [Decreto 80/2022, anexo II, pp. 26–31](sources/es-cm/normativa/infantil/2022-07-12-decreto-80-2022-curriculo-infantil.pdf#page=26)
 - [x] Comunicación y Representación de la Realidad — [JSON](data/es-cm/infantil/materias/comunicacion-y-representacion-de-la-realidad.json) — [Decreto 80/2022, anexo II, pp. 31–39](sources/es-cm/normativa/infantil/2022-07-12-decreto-80-2022-curriculo-infantil.pdf#page=31)
 
+### Primaria — áreas
+
+Siete JSON cotejados y revisados. El [informe de Primaria](sources/es-cm/REVISION-PRIMARIA.md) detalla la extracción y el [registro de Castilla-La Mancha](incidencias/es-cm.md#primaria--decisiones-revisadas) reúne las diez decisiones confirmadas.
+
+- [x] Conocimiento del Medio Natural, Social y Cultural — [JSON](data/es-cm/primaria/materias/conocimiento-del-medio-natural-social-y-cultural.json) — [Decreto 81/2022, anexo II, pp. 26–41](sources/es-cm/normativa/primaria/2022-07-12-decreto-81-2022-curriculo-primaria.pdf#page=26)
+- [x] Educación Artística — [JSON](data/es-cm/primaria/materias/educacion-artistica.json) — [Decreto 81/2022, anexo II, pp. 42–49](sources/es-cm/normativa/primaria/2022-07-12-decreto-81-2022-curriculo-primaria.pdf#page=42)
+- [x] Educación Física — [JSON](data/es-cm/primaria/materias/educacion-fisica.json) — [Decreto 81/2022, anexo II, pp. 50–60](sources/es-cm/normativa/primaria/2022-07-12-decreto-81-2022-curriculo-primaria.pdf#page=50)
+- [x] Educación en Valores Cívicos y Éticos — [JSON](data/es-cm/primaria/materias/educacion-en-valores-civicos-y-eticos.json) — [Decreto 81/2022, anexo II, pp. 61–65](sources/es-cm/normativa/primaria/2022-07-12-decreto-81-2022-curriculo-primaria.pdf#page=61)
+- [x] Lengua Castellana y Literatura — [JSON](data/es-cm/primaria/materias/lengua-castellana-y-literatura.json) — [Decreto 81/2022, anexo II, pp. 66–78](sources/es-cm/normativa/primaria/2022-07-12-decreto-81-2022-curriculo-primaria.pdf#page=66)
+- [x] Lengua Extranjera — [JSON](data/es-cm/primaria/materias/lengua-extranjera.json) — [Decreto 81/2022, anexo II, pp. 79–89](sources/es-cm/normativa/primaria/2022-07-12-decreto-81-2022-curriculo-primaria.pdf#page=79)
+- [x] Matemáticas — [JSON](data/es-cm/primaria/materias/matematicas.json) — [Decreto 81/2022, anexo II, pp. 90–104](sources/es-cm/normativa/primaria/2022-07-12-decreto-81-2022-curriculo-primaria.pdf#page=90)
+
 ### CFGB — ámbitos comunes
 
 - [ ] Ciencias Aplicadas — [Decreto 82/2022, anexo V, pp. 251–259](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=251)
 - [ ] Comunicación y Ciencias Sociales — [Decreto 82/2022, anexo V, pp. 259–268](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=259)
 
-Primaria, ESO y Bachillerato se incorporarán al inventario al desglosar sus anexos por etapa.
+ESO y Bachillerato se incorporarán al inventario al desglosar sus anexos por etapa.

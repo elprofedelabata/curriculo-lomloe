@@ -1,0 +1,3672 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-cm.primaria.matematicas",
+  "territorio": "es-cm",
+  "etapa": "primaria",
+  "materia": {
+    "codigo": "MAT",
+    "nombre": {
+      "es": "Matemáticas"
+    },
+    "ciclos": [
+      {
+        "ciclo": 1,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 2,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 3,
+        "caracter": "obligatoria"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-07-15",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cm-primaria-decreto-81-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 81/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Primaria en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "134",
+      "fechaPublicacion": "2022-07-14",
+      "cve": "2022/6698",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/81/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/81/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 90,
+        "hasta": 104
+      },
+      "anexo": "II"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Las matemáticas, presentes en casi cualquier actividad humana, tienen un marcado carácter instrumental que las vincula con la mayoría de las áreas de conocimiento: las ciencias de la naturaleza, la ingeniería, la tecnología, las ciencias sociales e incluso el arte o la música. Además, poseen un valor propio, constituyen un conjunto de ideas y formas de actuar que permiten conocer y estructurar la realidad, analizarla y obtener información nueva y conclusiones que inicialmente no estaban explícitas. Las matemáticas integran características como el dominio del espacio, el tiempo, la proporción, la optimización de recursos, el análisis de la incertidumbre o el manejo de la tecnología digital; y promueven el razonamiento, la argumentación, la comunicación, la perseverancia, la toma de decisiones o la creatividad. Por otra parte, en el momento actual, cobran especial interés los elementos relacionados con el manejo de datos e información y el pensamiento computacional, que proporcionan instrumentos eficaces para afrontar el nuevo escenario que plantean los retos y desafíos del siglo XXI. En este sentido, las matemáticas desempeñan un papel esencial ante los actuales desafíos sociales y medioambientales a los que el alumnado tendrá que enfrentarse en su futuro, como instrumento para analizar y comprender mejor el entorno cercano y global, los problemas sociales, económicos, científicos y ambientales y para evaluar modos de solución viables, contribuyendo de forma directa a los Objetivos de Desarrollo Sostenible planteados por las Naciones Unidas.",
+      "En consecuencia con todo lo anterior, la propuesta curricular del área de Matemáticas en Educación Primaria establece unas enseñanzas mínimas con las que se persigue alcanzar, por una parte, el desarrollo máximo de las potencialidades en todo el alumnado desde una perspectiva inclusiva, independientemente de sus circunstancias personales y sociales; y, por otra parte, la alfabetización matemática, es decir, la adquisición de los conocimientos, las destrezas y actitudes, así como los instrumentos necesarios para aplicar la perspectiva y el razonamiento lógico-matemáticos en la formulación de una situación-problema, seleccionar las herramientas adecuadas para su resolución, interpretar las soluciones en el contexto y tomar decisiones estratégicas y descartar los resultados no posibles. Esta comprensión de las matemáticas ayudará al alumnado a emitir juicios fundamentados y a tomar decisiones, destrezas estas imprescindibles en su formación como ciudadanos comprometidos y reflexivos capaces de afrontar los desafíos del siglo XXI.",
+      "El desarrollo curricular de esta área se orienta a la consecución de los objetivos generales de la etapa, así como al desarrollo y la adquisición de las competencias clave conceptualizadas en el Perfil de salida que el alumnado debe conseguir al finalizar la etapa de Educación Primaria. Por ello, tanto los objetivos de la etapa como los descriptores que forman parte del Perfil han constituido el marco de referencia para la definición de las competencias específicas del área.",
+      "Las competencias específicas, que se relacionan entre sí constituyendo un todo interconectado, se organizan en cinco ejes fundamentales: resolución de problemas, razonamiento y prueba, conexiones, comunicación y representación, y destrezas socioafectivas. Además, orientan sobre los procesos y principios metodológicos que deben dirigir la enseñanza y el aprendizaje de las matemáticas y favorecen el enfoque interdisciplinar y la innovación. La resolución de problemas, que constituye el primero de los ejes mencionados, se debe favorecer no solo como competencia específica del área, sino como método para su aprendizaje. La resolución de problemas es una actividad presente en la vida diaria y a través de la cual se ponen en acción otros ejes del área como el razonamiento y el pensamiento computacional, la representación de objetos matemáticos y el manejo y la comunicación a través del lenguaje matemático.",
+      "Tanto los criterios de evaluación como los saberes básicos, graduados a través de los ciclos, se vertebran alrededor de las competencias específicas. Esta progresión, que parte de entornos muy cercanos y manipulativos que conectan con la etapa de Educación Infantil, facilita la transición hacia aprendizajes más formales y favorece el desarrollo de la capacidad de pensamiento abstracto en la Educación Secundaria.",
+      "La adquisición de las competencias específicas constituye la base para la evaluación del alumnado y se valora a través de los criterios de evaluación. No existe una vinculación unívoca y directa entre criterios de evaluación y saberes básicos: las competencias específicas se evaluarán a través de la puesta en acción de diferentes saberes, proporcionando la flexibilidad necesaria para establecer conexiones entre ellos.",
+      "Los saberes básicos se estructuran en torno al concepto de sentido matemático, y se organizan en dos dimensiones, cognitiva y afectiva, que integran conocimientos, destrezas y actitudes diseñados de acuerdo con el desarrollo evolutivo del alumnado. El orden de aparición de estos sentidos no conlleva ninguna prioridad.",
+      "El sentido numérico se caracteriza por el desarrollo de destrezas y modos de pensar basados en la comprensión, la representación y el uso flexible de números y operaciones para, por ejemplo, orientar la toma de decisiones.",
+      "El sentido de la medida se caracteriza por la comprensión y comparación de atributos de los objetos del mundo natural. Entender y elegir las unidades adecuadas para estimar, medir y comparar; utilizar instrumentos adecuados para realizar mediciones, y comprender las relaciones entre magnitudes, utilizando la experimentación, son sus elementos centrales.",
+      "El sentido espacial es fundamental para comprender y apreciar los aspectos geométricos del mundo. Está constituido por la identificación, representación y clasificación de formas, el descubrimiento de sus propiedades y relaciones, la descripción de sus movimientos y el razonamiento con ellas.",
+      "El sentido algebraico proporciona el lenguaje en el que se comunican las matemáticas. Engloba los saberes relacionados con el reconocimiento de patrones y las relaciones entre variables, la expresión de regularidades o la modelización de situaciones con expresiones simbólicas. Por razones organizativas, se han incluido el modelo matemático y el pensamiento computacional dentro de este sentido, aunque son dos procesos que deben trabajarse a lo largo del desarrollo de toda el área de matemáticas.",
+      "El sentido estocástico se orienta hacia el razonamiento y la interpretación de datos y la valoración crítica, así como la toma de decisiones a partir de información estadística. También comprende los saberes vinculados con la comprensión y la comunicación de fenómenos aleatorios en situaciones de la vida cotidiana.",
+      "El sentido socioafectivo integra conocimientos, destrezas y actitudes esenciales para entender las emociones. Manejarlas correctamente mejora el rendimiento del alumnado en matemáticas, combate actitudes negativas hacia ellas, contribuye a erradicar ideas preconcebidas relacionadas con el género o el mito del talento innato indispensable y promueve el aprendizaje activo. Para ello se propone normalizar el error como parte del aprendizaje, fomentar el diálogo y dar a conocer al alumnado las contribuciones de las mujeres y los hombres en las matemáticas a lo largo de la historia y en la actualidad.",
+      "El área debe abordarse de forma experiencial, concediendo especial relevancia a la manipulación, en especial en los primeros niveles, e impulsando progresivamente la utilización continua de recursos digitales, proponiendo al alumnado situaciones de aprendizaje que propicien la reflexión, el razonamiento, el establecimiento de conexiones, la comunicación y la representación. Del mismo modo, se recomienda combinar diferentes metodologías didácticas que favorezcan unas matemáticas inclusivas y la motivación por aprender, y que, además, generen en el alumnado la curiosidad y la necesidad por adquirir los conocimientos, destrezas y actitudes del área. Las metodologías activas son especialmente adecuadas en un enfoque competencial, ya que permiten construir el conocimiento y dinamizar la actividad del aula mediante el intercambio de ideas. Las situaciones de aprendizaje facilitan la interdisciplinariedad y favorecen la reflexión, la crítica, la elaboración de hipótesis y la tarea investigadora."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Interpretar situaciones de la vida cotidiana, proporcionando una representación matemática de las mismas mediante conceptos, herramientas y estrategias, para analizar la información más relevante."
+      },
+      "descripcion": {
+        "es": [
+          "La comprensión de una situación problematizada en la que se interviene desde el ámbito matemático es siempre el primer paso hacia su resolución. Una buena representación o visualización del problema ayuda a su interpretación, así como a la identificación de los datos y las relaciones más relevantes. La comprensión de situaciones problematizadas no se realiza únicamente sobre los mensajes verbales escritos, sino que incluye también los mensajes orales; los mensajes visuales a través de dibujos, imágenes o fotografías; o situaciones cotidianas o mensajes con materiales manipulativos concretos que supongan un reto. Con ello, se persigue que el alumnado comprenda su entorno cercano, y se pretende dotarlo de herramientas que le permitan establecer una correcta representación del mundo que lo rodea y afrontar y resolver las situaciones problemáticas que se le presenten, tanto en la escuela como en su vida diaria.",
+          "Los contextos en la resolución de problemas proporcionan un amplio abanico de posibilidades para la integración de las distintas experiencias y aprendizajes del alumnado, así como de las diferentes competencias, con una perspectiva global, fomentando el respeto mutuo y la cooperación entre iguales, con especial atención a la igualdad de género, la inclusión y la diversidad personal y cultural. Estos contextos deberán ser variados e incluir, al menos, el personal, el escolar, el social, el científico y el humanístico. Ofrecen una oportunidad para integrar las ocho competencias clave e incluir el planteamiento de los grandes problemas medioambientales y sociales de nuestro mundo o problemas de consumo responsable en su realidad cercana, fomentando que el alumnado participe de los mismos y se implique activamente en su futuro."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          91
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Resolver situaciones problematizadas, aplicando diferentes técnicas, estrategias y formas de razonamiento, para explorar distintas maneras de proceder, obtener soluciones y asegurar su validez desde un punto de vista formal y en relación con el contexto planteado."
+      },
+      "descripcion": {
+        "es": [
+          "La resolución de problemas constituye una parte fundamental del aprendizaje de las matemáticas: como objetivo en sí mismo y como eje metodológico para la construcción del conocimiento matemático. Como objetivo en sí mismo, entran en juego diferentes estrategias para obtener las posibles soluciones: analogía, ensayo y error, resolución inversa, tanteo, descomposición en problemas más sencillos... Conocer una variedad de estrategias permite abordar con seguridad los retos y facilita el establecimiento de conexiones. Las estrategias no deben centrarse únicamente en la resolución aritmética, sino que también se facilitarán situaciones que puedan ser resueltas a través de la manipulación de materiales, el diseño de representaciones gráficas o la argumentación verbal. La elección de la estrategia y su periódica revisión durante la resolución del problema implica tomar decisiones, anticipar la respuesta, seguir las pautas establecidas, asumir riesgos y transformar el error en una oportunidad de aprendizaje. Como eje metodológico, proporciona nuevas conexiones entre los conocimientos del alumnado, construyendo así nuevos significados y conocimientos matemáticos.",
+          "Asegurar la validez de las soluciones supone razonar acerca del proceso seguido y evaluarlas en cuanto a su corrección matemática. Sin embargo, también debe fomentarse la reflexión crítica sobre la adecuación de las soluciones al contexto planteado y las implicaciones que tendrían desde diversos puntos de vista (consumo responsable, salud, medioambiente, etc.)."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          91,
+          92
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Explorar, formular y comprobar conjeturas sencillas o plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana, de forma guiada, reconociendo el valor del razonamiento y la argumentación, para contrastar su validez, adquirir e integrar nuevo conocimiento."
+      },
+      "descripcion": {
+        "es": [
+          "El razonamiento y el pensamiento analítico incrementan la percepción de patrones, estructuras y regularidades, así como la observación e identificación de características, relaciones y propiedades de objetos que permiten formular conjeturas o afirmaciones tanto en contextos cotidianos como en situaciones matemáticas, desarrollando ideas, explorando fenómenos, argumentando conclusiones y generando nuevos conocimientos. El análisis matemático contribuye, por tanto, al desarrollo del pensamiento crítico, ya que implica analizar y profundizar en la situación o problema, explorarlo desde diferentes perspectivas, plantear las preguntas adecuadas y ordenar las ideas de forma que tengan sentido.",
+          "Lograr que el alumnado detecte elementos matemáticos en el entorno que lo rodea o en situaciones de su vida cotidiana, planteándose preguntas o formulando conjeturas, desarrolla una actitud activa ante el trabajo, así como una actitud proactiva ante el aprendizaje. De este modo, se contribuye al incremento del razonamiento y del análisis crítico a través de la observación y la reflexión, y al desarrollo de destrezas comunicativas a través de la expresión de lo observado, de las preguntas planteadas y del proceso de prueba llevado a cabo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD3",
+        "CD5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          92
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes, reconociendo patrones, generalizando e interpretando, modificando y creando algoritmos de forma guiada, para modelizar y automatizar situaciones de la vida cotidiana."
+      },
+      "descripcion": {
+        "es": [
+          "El pensamiento computacional se presenta como una de las destrezas clave en el futuro del alumnado, ya que entronca directamente con la resolución de problemas y con el planteamiento de procedimientos. Requiere la abstracción para identificar los aspectos más relevantes y la descomposición en tareas más simples para llegar a las posibles soluciones que puedan ser ejecutadas por un sistema informático, un humano o una combinación de ambos.",
+          "Llevar el pensamiento computacional a la vida diaria supone relacionar los aspectos fundamentales de la informática con las necesidades del alumnado. De este modo, se le prepara para un futuro cada vez más tecnológico, mejorando sus capacidades intelectuales y haciendo uso de abstracciones para resolver problemas complejos. En esta etapa, dicho pensamiento debería entrenarse y desarrollarse específicamente con metodologías y estrategias guiadas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD3",
+        "CD5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          92
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Reconocer y utilizar conexiones entre las diferentes ideas matemáticas, así como identificar las matemáticas implicadas en otras áreas o en la vida cotidiana, interrelacionando conceptos y procedimientos, para interpretar situaciones y contextos diversos."
+      },
+      "descripcion": {
+        "es": [
+          "La conexión entre los diferentes objetos matemáticos (conceptos, procedimientos, sistemas de representación...) aporta una comprensión más profunda y duradera de los saberes adquiridos, proporcionando una visión más amplia sobre el propio conocimiento. Esta visión global e interrelacionada de los saberes contribuye a la creación de conexiones con otras áreas, así como con la vida diaria del alumnado, por ejemplo, en la planificación y gestión de su propia economía personal o en la interpretación de información gráfica en diversos medios. Comprender que las ideas matemáticas no son elementos aislados, sino que se interrelacionan entre sí dando lugar a un todo, desarrolla la capacidad de comprensión del entorno y de los sucesos que en él acontecen, creando una base sólida donde asentar nuevos aprendizajes, afrontar nuevos retos y adoptar decisiones informadas.",
+          "Por otro lado, el reconocimiento de la conexión de las matemáticas con otras áreas, con la vida real o con la experiencia propia aumenta el bagaje matemático del alumnado. Es importante que este tenga la oportunidad de experimentar las matemáticas en diferentes contextos (personales, escolares, sociales, científicos, humanísticos y ambientales) para habituarse a identificar aspectos matemáticos en múltiples situaciones."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM3",
+        "CD3",
+        "CD5",
+        "CC4",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          92,
+          93
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Comunicar y representar, de forma individual y colectiva, conceptos, procedimientos y resultados matemáticos, utilizando el lenguaje oral, escrito, gráfico, multimodal y la terminología apropiados, para dar significado y permanencia a las ideas matemáticas."
+      },
+      "descripcion": {
+        "es": [
+          "La comunicación y el intercambio de ideas es una parte esencial de la educación científica y matemática. A través de la comunicación, las ideas, conceptos y procedimientos se convierten en objetos de reflexión, perfeccionamiento, discusión, rectificación y validación. La capacidad de analizar verbalmente y expresar lo razonado se ve como una necesidad para desenvolverse socialmente, recurriendo al vocabulario matemático adecuado, exponiendo y organizando las ideas que se quieren transmitir o aceptando y rebatiendo argumentos contrarios.",
+          "Comunicar el pensamiento matemático con claridad, coherencia y de forma adecuada al canal de comunicación contribuye a cooperar, afianzar y generar nuevos conocimientos. Por otra parte, la representación matemática, como elemento comunicativo, utiliza una variedad de lenguajes como el verbal, el gráfico, el simbólico o el tabular, entre otros, a través de medios tradicionales o digitales, que permiten expresar ideas matemáticas con precisión en contextos diversos (personales, escolares, sociales, científicos y humanísticos). El alumnado debe reconocer y comprender el lenguaje matemático presente en diferentes formatos y contextos, partiendo de un lenguaje cercano y adquiriendo progresivamente la terminología precisa y el rigor científico que caracterizan las matemáticas, y, a su vez, debe transmitir información matemática adecuando el formato del mensaje a la audiencia y al propósito comunicativo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD5",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          93
+        ]
+      }
+    },
+    {
+      "id": "ce-7",
+      "codigoOficial": "7",
+      "enunciado": {
+        "es": "Desarrollar destrezas personales que ayuden a identificar y gestionar emociones al enfrentarse a retos matemáticos, fomentando la confianza en las propias posibilidades, aceptando el error como parte del proceso de aprendizaje y adaptándose a las situaciones de incertidumbre, para mejorar la perseverancia y disfrutar en el aprendizaje de las matemáticas."
+      },
+      "descripcion": {
+        "es": [
+          "Resolver problemas matemáticos o retos más globales en los que intervienen las matemáticas debería ser una tarea gratificante. La adquisición de destrezas emocionales dentro del aprendizaje de las matemáticas fomenta el bienestar del alumnado, el interés por la disciplina y la motivación por las matemáticas sin distinción de género, a la vez que desarrolla la resiliencia y una actitud proactiva ante retos matemáticos, al entender el error como una oportunidad de aprendizaje y la variedad de emociones como una ocasión para crecer de manera personal. Para ello, el alumnado debe identificar y gestionar sus emociones, reconocer las fuentes de estrés, mantener una actitud positiva, ser perseverante y pensar de forma crítica y creativa. Enriquece también esta competencia el estudio de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género.",
+          "Con todo ello, se ayuda a desarrollar una disposición ante el aprendizaje que fomente la transferencia de las destrezas adquiridas a otros ámbitos de la vida, favoreciendo el aprendizaje y el bienestar personal como parte integral del proceso vital del individuo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM5",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          93
+        ]
+      }
+    },
+    {
+      "id": "ce-8",
+      "codigoOficial": "8",
+      "enunciado": {
+        "es": "Desarrollar destrezas sociales, reconociendo y respetando las emociones, las experiencias de los demás y el valor de la diversidad y participando activamente en equipos de trabajo heterogéneos con roles asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y crear relaciones saludables."
+      },
+      "descripcion": {
+        "es": [
+          "Con esta competencia específica se pretende que el alumnado trabaje los valores de respeto, igualdad y resolución pacífica de conflictos, al tiempo que resuelve los retos matemáticos propuestos, desarrollando destrezas de comunicación efectiva, planificación, indagación, motivación y confianza, para crear relaciones y entornos saludables de trabajo, por ejemplo, mediante la participación en equipos heterogéneos con roles asignados. Esto permite construir relaciones saludables, solidarias y comprometidas, afianzar la autoconfianza y normalizar situaciones de convivencia en igualdad.",
+          "Se persigue dotar al alumnado de herramientas y estrategias de comunicación efectiva y de trabajo en equipo como un recurso necesario para el futuro. Así, el alumnado trabaja la escucha activa y la comunicación asertiva, coopera de manera creativa, crítica y responsable y aborda la resolución de conflictos de manera positiva, empleando un lenguaje inclusivo y no violento."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP3",
+        "STEM3",
+        "CPSAA1",
+        "CPSAA3",
+        "CC2",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          93,
+          94
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "ciclo": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender las preguntas planteadas a través de diferentes estrategias o herramientas, reconociendo la información contenida en problemas de la vida cotidiana."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Proporcionar ejemplos de representaciones de situaciones problematizadas sencillas, con recursos manipulativos y gráficos que ayuden en la resolución de un problema de la vida cotidiana."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear algunas estrategias adecuadas en la resolución de problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Obtener posibles soluciones a problemas, de forma guiada, aplicando estrategias básicas de resolución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Describir verbalmente la idoneidad de las soluciones de un problema a partir de las preguntas previamente planteadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar conjeturas matemáticas sencillas, investigando patrones, propiedades y relaciones de forma guiada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Dar ejemplos de problemas a partir de situaciones cotidianas que se resuelven matemáticamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Describir rutinas y actividades sencillas de la vida cotidiana que se realicen paso a paso, utilizando principios básicos del pensamiento computacional de forma guiada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Emplear herramientas tecnológicas adecuadas, de forma guiada, en el proceso de resolución de problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reconocer conexiones entre los diferentes elementos matemáticos, aplicando conocimientos y experiencias propios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reconocer las situaciones matemáticas presentes en la vida cotidiana y en otras áreas, estableciendo conexiones sencillas entre ellas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer lenguaje matemático sencillo presente en la vida cotidiana, adquiriendo vocabulario específico básico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              94
+            ]
+          }
+        },
+        {
+          "id": "cri-1-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Explicar ideas y procesos matemáticos sencillos, los pasos seguidos en la resolución de un problema o los resultados matemáticos, de forma verbal o gráfica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              95
+            ]
+          }
+        },
+        {
+          "id": "cri-1-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Reconocer las emociones básicas propias al abordar retos matemáticos, pidiendo ayuda solo cuando sea necesario."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              95
+            ]
+          }
+        },
+        {
+          "id": "cri-1-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Expresar actitudes positivas ante retos matemáticos, identificando y valorando el error como una oportunidad de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              95
+            ]
+          }
+        },
+        {
+          "id": "cri-1-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Participar respetuosamente en el trabajo en equipo, estableciendo relaciones saludables basadas en el respeto, la igualdad y la resolución pacífica de conflictos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              95
+            ]
+          }
+        },
+        {
+          "id": "cri-1-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Aceptar la tarea y rol asignado en el trabajo en equipo, cumpliendo con las responsabilidades individuales y contribuyendo a la consecución de los objetivos del grupo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              95
+            ]
+          }
+        },
+        {
+          "id": "cri-1-8-3",
+          "codigoOficial": "8.3",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Conocer y desarrollar de manera guiada el lenguaje interpersonal positivo, para favorecer la gestión de emociones y el control de impulsos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              95
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Conteo"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.A.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias variadas de conteo y recuento sistemático en situaciones de la vida cotidiana en cantidades hasta el 999."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Cantidad"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.A.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estimaciones razonadas de cantidades en contextos de resolución de problemas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.A.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Lectura, representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición y recomposición de números naturales hasta 999."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.A.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Representación de una misma cantidad de distintas formas (manipulativa, gráfica o numérica) y estrategias de elección de la representación adecuada para cada situación o problema."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Sentido de las operaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.A.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de cálculo mental con números naturales hasta 999."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.A.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Suma y resta de números naturales resueltas con flexibilidad y sentido: utilidad en situaciones contextualizadas, estrategias y herramientas de resolución y propiedades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Relaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.A.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Sistema de numeración de base diez (hasta el 999): aplicación de las relaciones que genera en las operaciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.A.08",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Números naturales en contextos de la vida cotidiana: comparación y ordenación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.A.09",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones entre la suma y la resta: aplicación en contextos cotidianos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "5",
+              "nombre": {
+                "es": "Educación financiera"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.A.10",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Sistema monetario europeo: monedas (1, 2 euros) y billetes de euro (5, 10, 20, 50 y 100), valor y equivalencia."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Magnitud"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.B.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Atributos mensurables de los objetos (longitud, masa, capacidad), distancias y tiempos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.B.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Unidades convencionales (metro, kilo y litro) y no convencionales en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.B.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Unidades de medida del tiempo (año, mes, semana, día y hora) en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      95
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Medición"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.B.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Procesos para medir mediante repetición de una unidad y mediante la utilización de instrumentos convencionales (reglas, cintas métricas, balanzas, calendarios...) y no convencionales en contextos familiares."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Estimación y relaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.B.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de comparación directa y ordenación de medidas de la misma magnitud."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.B.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estimación de medidas (distancias, tamaños, masas, capacidades...) por comparación directa con otras medidas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido espacial"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Figuras geométricas de dos y tres dimensiones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.C.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Figuras geométricas sencillas de dos dimensiones en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.C.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias y técnicas de construcción de figuras geométricas sencillas de una, dos o tres dimensiones de forma manipulativa."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.C.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Vocabulario geométrico básico: descripción verbal de los elementos y las propiedades de figuras geométricas sencillas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.C.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Propiedades de figuras geométricas de dos dimensiones: exploración mediante materiales manipulables y herramientas digitales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Localización y sistemas de representación"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.C.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Posición relativa de objetos en el espacio e interpretación de movimientos: descripción en referencia a uno mismo a través de vocabulario adecuado (arriba, abajo, delante, detrás, entre, más cerca que, menos cerca que, más lejos que, menos lejos que…)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Visualización, razonamiento y modelización geométrica"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.C.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Modelos geométricos en la resolución de problemas relacionados con los otros sentidos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.C.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones geométricas: reconocimiento en el entorno."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido algebraico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Patrones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.D.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para la identificación, descripción oral, descubrimiento de elementos ocultos y extensión de secuencias a partir de las regularidades en una colección de números, figuras o imágenes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Modelo matemático"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.D.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Proceso guiado de modelización (dibujos, esquemas, diagramas, objetos manipulables, dramatizaciones...) en la comprensión y resolución de problemas de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Relaciones y funciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.D.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Expresión de relaciones de igualdad y desigualdad mediante los signos = y ≠ entre expresiones que incluyan operaciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.D.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Representación de la igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Pensamiento computacional"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.D.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para la interpretación de algoritmos sencillos (rutinas, instrucciones con pasos ordenados…)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "apartados": [
+            {
+              "codigo": "organizacion-y-analisis-de-datos",
+              "nombre": {
+                "es": "Organización y análisis de datos"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.E.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de reconocimiento de los principales elementos y extracción de la información relevante de gráficos estadísticos sencillos de la vida cotidiana (pictogramas, gráficas de barras...)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.E.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias sencillas para la recogida, clasificación y recuento de datos cualitativos y cuantitativos en muestras pequeñas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      96
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.E.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Representación de datos obtenidos a través de recuentos mediante gráficos estadísticos sencillos y recursos manipulables y tecnológicos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      97
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sentido socioafectivo"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Creencias, actitudes y emociones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.F.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Gestión emocional: estrategias de identificación y expresión de las propias emociones ante las matemáticas. Curiosidad e iniciativa en el aprendizaje de las matemáticas. Interés por el lenguaje interpersonal positivo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      97
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Trabajo en equipo, inclusión, respeto y diversidad"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.1.F.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Identificación y rechazo de actitudes discriminatorias ante las diferencias individuales presentes en el aula. Actitudes inclusivas y aceptación de la diversidad del grupo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      97
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.F.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Participación activa en el trabajo en equipo: interacción positiva y respeto por el trabajo de los demás."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      97
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.1.F.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      97
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Interpretar, de forma verbal o gráfica, problemas de la vida cotidiana, comprendiendo las preguntas planteadas a través de diferentes estrategias o herramientas, incluidas las tecnológicas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Producir representaciones matemáticas a través de esquemas o diagramas que ayuden en la resolución de una situación problematizada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comparar entre diferentes estrategias para resolver un problema de forma pautada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Obtener posibles soluciones de un problema siguiendo alguna estrategia conocida."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Demostrar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar conjeturas matemáticas sencillas investigando patrones, propiedades y relaciones de forma pautada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Dar ejemplos de problemas sobre situaciones cotidianas que se resuelven matemáticamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Automatizar situaciones sencillas de la vida cotidiana que se realicen paso a paso o sigan una rutina, utilizando de forma pautada principios básicos del pensamiento computacional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Emplear herramientas tecnológicas adecuadas en el proceso de resolución de problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Realizar conexiones entre los diferentes elementos matemáticos, aplicando conocimientos y experiencias propios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Interpretar situaciones en contextos diversos, reconociendo las conexiones entre las matemáticas y la vida cotidiana."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer el lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario específico básico y mostrando la comprensión del mensaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              97
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Explicar los procesos e ideas matemáticas, los pasos seguidos en la resolución de un problema o los resultados obtenidos, utilizando un lenguaje matemático sencillo en diferentes formatos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              98
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Identificar las emociones propias al abordar retos matemáticos, pidiendo ayuda solo cuando sea necesario y desarrollando la autoconfianza."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              98
+            ]
+          }
+        },
+        {
+          "id": "cri-2-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Mostrar actitudes positivas ante retos matemáticos tales como el esfuerzo y la flexibilidad, identificando y valorando el error como una oportunidad de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              98
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Trabajar en equipo activa y respetuosamente, comunicándose adecuadamente, respetando la diversidad del grupo y estableciendo relaciones saludables basadas en la igualdad y la resolución pacífica de conflictos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              98
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Participar en el reparto de tareas, asumiendo y respetando las responsabilidades individuales asignadas y empleando estrategias sencillas de trabajo en equipo dirigidas a la consecución de objetivos compartidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              98
+            ]
+          }
+        },
+        {
+          "id": "cri-2-8-3",
+          "codigoOficial": "8.3",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Desarrollar y analizar de manera guiada el lenguaje interpersonal positivo para favorecer la gestión de las emociones, el control de impulsos, el ajuste de comportamientos, la planificación del trabajo y la motivación interna."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              98
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Conteo"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.A.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana en cantidades hasta el 9999."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Cantidad"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.A.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias y técnicas de interpretación y manipulación del orden de magnitud de los números (unidades, decenas, centenas y millares)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.A.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.A.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Lectura, representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición y recomposición de números naturales hasta 9999."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.A.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Fracciones propias con denominador hasta 12 en contextos de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Sentido de las operaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.A.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de cálculo mental con números naturales y fracciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.A.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de reconocimiento de qué operaciones simples (suma, resta, multiplicación, división como reparto y partición) son útiles para resolver situaciones contextualizadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.A.08",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Construcción de las tablas de multiplicar apoyándose en número de veces, suma repetida o disposición en cuadrículas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.A.09",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Suma, resta, multiplicación y división de números naturales resueltas con flexibilidad y sentido en situaciones contextualizadas: estrategias y herramientas de resolución y propiedades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Relaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.A.10",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Sistema de numeración de base diez (hasta el 9999): aplicación de las relaciones que genera en las operaciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.A.11",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Números naturales y fracciones en contextos de la vida cotidiana: comparación y ordenación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.A.12",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones entre la suma y la resta, y la multiplicación y la división: aplicación en contextos cotidianos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "5",
+              "nombre": {
+                "es": "Educación financiera"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.A.13",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cálculo y estimación de cantidades y cambios (euros y céntimos de euro) en problemas de la vida cotidiana: ingresos, gastos y ahorro. Decisiones de compra responsable."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      98
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Magnitud"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.B.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Atributos mensurables de los objetos (longitud, masa, capacidad, superficie, volumen y amplitud del ángulo)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.B.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Unidades convencionales (km, m, cm, mm; kg, g; l y ml) y no convencionales en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.B.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Medida del tiempo (año, mes, semana, día, hora y minutos) y determinación de la duración de periodos de tiempo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Medición"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.B.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para realizar mediciones con instrumentos y unidades no convencionales (repetición de una unidad, uso de cuadrículas y materiales manipulativos) y convencionales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.B.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Procesos de medición mediante instrumentos convencionales (regla, cinta métrica, balanzas, reloj analógico y digital)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Estimación y relaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.B.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de comparación y ordenación de medidas de la misma magnitud (km, m, cm, mm; kg, g; l y ml): aplicación de equivalencias entre unidades en problemas de la vida cotidiana que impliquen convertir en unidades más pequeñas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.B.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estimación de medidas de longitud, masa y capacidad por comparación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.B.08",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Evaluación de resultados de mediciones y estimaciones o cálculos de medidas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido espacial"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Figuras geométricas de dos y tres dimensiones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.C.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Figuras geométricas de dos o tres dimensiones en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos y a las relaciones entre ellos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.C.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias y técnicas de construcción de figuras geométricas de dos dimensiones por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo (regla y escuadra) y aplicaciones informáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.C.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Vocabulario: descripción verbal de los elementos y las propiedades de figuras geométricas sencillas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.C.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Propiedades de figuras geométricas de dos y tres dimensiones: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y el manejo de herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Localización y sistemas de representación"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.C.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Descripción de la posición relativa de objetos en el espacio o de sus representaciones, utilizando vocabulario geométrico adecuado (paralelo, perpendicular, oblicuo, derecha, izquierda, etc.)"
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.C.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Descripción verbal e interpretación de movimientos, en relación a uno mismo o a otros puntos de referencia, utilizando vocabulario geométrico adecuado."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.C.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Interpretación de itinerarios en planos, utilizando soportes físicos y virtuales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Movimientos y transformaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.C.08",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Identificación de figuras transformadas mediante traslaciones y simetrías en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.C.09",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Generación de figuras transformadas a partir de simetrías y traslaciones de un patrón inicial y predicción del resultado."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Visualización, razonamiento y modelización geométrica"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.C.10",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para el cálculo de perímetros de figuras planas y utilización en la resolución de problemas de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.C.11",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Modelos geométricos en la resolución de problemas relacionados con los otros sentidos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.C.12",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento de relaciones geométricas en campos ajenos a la clase de matemáticas, como el arte, las ciencias y la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido algebraico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Patrones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.D.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Identificación, descripción verbal, representación y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      99
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Modelo matemático"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.D.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Proceso pautado de modelización usando representaciones matemáticas (gráficas, tablas...) para facilitar la comprensión y la resolución de problemas de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Relaciones y funciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.D.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones de igualdad y desigualdad, y uso de los signos = y ≠ entre expresiones que incluyan operaciones y sus propiedades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.D.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.D.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Representación de la relación «mayor que» y «menor que», y uso de los signos < y >."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Pensamiento computacional"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.D.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para la interpretación y modificación de algoritmos sencillos (reglas de juegos, instrucciones secuenciales, bucles, patrones repetitivos, programación por bloques, robótica educativa...)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Organización y análisis de datos"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.E.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Gráficos estadísticos de la vida cotidiana (pictogramas, gráficas de barras, histogramas...): lectura e interpretación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.E.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias sencillas para la recogida, clasificación y organización de datos cualitativos o cuantitativos discretos en muestras pequeñas mediante calculadora y aplicaciones informáticas sencillas. Frecuencia absoluta: interpretación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.E.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Gráficos estadísticos sencillos (diagrama de barras y pictogramas) para representar datos, seleccionando el más conveniente, mediante recursos tradicionales y aplicaciones informáticas sencillas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.E.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La moda: interpretación como el dato más frecuente."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.E.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Comparación gráfica de dos conjuntos de datos para establecer relaciones y extraer conclusiones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Incertidumbre"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.E.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La probabilidad como medida subjetiva de la incertidumbre. Reconocimiento de la incertidumbre en situaciones de la vida cotidiana y mediante la realización de experimentos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.E.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Identificación de suceso seguro, suceso posible y suceso imposible."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.E.08",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Comparación de la probabilidad de dos sucesos de forma intuitiva."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Inferencia"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.E.09",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Formulación de conjeturas a partir de los datos recogidos y analizados, dándoles sentido en el contexto de estudio."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sentido socioafectivo"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Creencias, actitudes y emociones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.F.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Gestión emocional: estrategias de identificación y manifestación de las propias emociones ante las matemáticas. Iniciativa y tolerancia ante la frustración en el aprendizaje de las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.F.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Fomento de la autonomía y estrategias para la toma de decisiones en situaciones de resolución de problemas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.F.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias básicas para el desarrollo y optimización del lenguaje intrapersonal."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Trabajo en equipo, inclusión, respeto y diversidad"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.2.F.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Sensibilidad y respeto ante las diferencias individuales presentes en el aula: identificación y rechazo de actitudes discriminatorias."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.F.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Participación activa en el trabajo en equipo, escucha activa y respeto por el trabajo de los demás."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.F.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Reconocimiento y comprensión de las emociones y experiencias de los demás ante las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.2.F.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Valoración de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      100
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender problemas de la vida cotidiana a través de la reformulación de la pregunta, de forma verbal y gráfica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Elaborar representaciones matemáticas que ayuden en la búsqueda y elección de estrategias y herramientas, incluidas las tecnológicas, para la resolución de una situación problematizada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar entre diferentes estrategias para resolver un problema, justificando la elección."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Obtener posibles soluciones de un problema, seleccionando entre varias estrategias conocidas de forma autónoma."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Comprobar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Formular conjeturas matemáticas sencillas investigando patrones, propiedades y relaciones de forma guiada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear nuevos problemas sobre situaciones cotidianas que se resuelvan matemáticamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Modelizar situaciones de la vida cotidiana utilizando, de forma pautada, principios básicos del pensamiento computacional."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Emplear herramientas tecnológicas adecuadas en la investigación y resolución de problemas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Utilizar conexiones entre diferentes elementos matemáticos movilizando conocimientos y experiencias propios."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Utilizar las conexiones entre las matemáticas, otras áreas y la vida cotidiana para resolver problemas en contextos no matemáticos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Interpretar el lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario apropiado y mostrando la comprensión del mensaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Comunicar en diferentes formatos las conjeturas y procesos matemáticos, utilizando lenguaje matemático adecuado."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-7-1",
+          "codigoOficial": "7.1",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Autorregular las emociones propias y reconocer algunas fortalezas y debilidades, desarrollando así la autoconfianza al abordar retos matemáticos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-7-2",
+          "codigoOficial": "7.2",
+          "competenciaEspecificaRef": "ce-7",
+          "texto": {
+            "es": "Elegir actitudes positivas ante retos matemáticos, tales como la perseverancia y la responsabilidad, identificando y valorando el error como una oportunidad de aprendizaje."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-8-1",
+          "codigoOficial": "8.1",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Trabajar en equipo activa, respetuosa y responsablemente, mostrando iniciativa, comunicándose de forma efectiva, valorando la diversidad, mostrando empatía y estableciendo relaciones saludables basadas en el respeto, la igualdad y la resolución pacífica de conflictos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-8-2",
+          "codigoOficial": "8.2",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Colaborar en el reparto de tareas, asumiendo y respetando las responsabilidades individuales asignadas y empleando estrategias de trabajo en equipo sencillas dirigidas a la consecución de objetivos compartidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        },
+        {
+          "id": "cri-3-8-3",
+          "codigoOficial": "8.3",
+          "competenciaEspecificaRef": "ce-8",
+          "texto": {
+            "es": "Desarrollar y analizar el lenguaje interpersonal positivo, para favorecer la gestión de emociones, el control de impulsos, el ajuste del comportamiento, la planificación del trabajo, la motivación interna, la toma de decisiones y la metacognición."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              101
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Sentido numérico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Conteo"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.A.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Cantidad"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.A.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias y técnicas de interpretación y manipulación del orden de magnitud de los números."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Lectura, representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición y recomposición de números naturales y decimales hasta las milésimas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Fracciones y decimales para expresar cantidades en contextos de la vida cotidiana y elección de la mejor representación para cada situación o problema."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Sentido de las operaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.A.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de cálculo mental con números naturales, fracciones y decimales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de reconocimiento de qué operaciones simples o combinadas (suma, resta, multiplicación, división) son útiles para resolver situaciones contextualizadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.08",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Potencia como producto de factores iguales. Cuadrados y cubos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.09",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de resolución de operaciones aritméticas (con números naturales, decimales y fracciones) con flexibilidad y sentido: mentalmente, de manera escrita o con calculadora; utilidad en situaciones contextualizadas y propiedades."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Relaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.A.10",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Sistema de numeración de base diez (números naturales y decimales hasta las milésimas): aplicación de las relaciones que genera en las operaciones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.11",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Números naturales, fracciones y decimales hasta las milésimas en contextos de la vida cotidiana: comparación y ordenación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.12",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones entre las operaciones aritméticas: aplicación en contextos cotidianos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.13",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relación de divisibilidad: múltiplos y divisores."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.14",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relación entre fracciones sencillas, decimales y porcentajes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "5",
+              "nombre": {
+                "es": "Razonamiento proporcional"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.A.15",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Situaciones proporcionales y no proporcionales en problemas de la vida cotidiana: identificación como comparación multiplicativa entre magnitudes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.A.16",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de problemas de proporcionalidad, porcentajes y escalas de la vida cotidiana, mediante la igualdad entre razones, la reducción a la unidad o el uso de coeficientes de proporcionalidad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "6",
+              "nombre": {
+                "es": "Educación financiera"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.A.17",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Resolución de problemas relacionados con el consumo responsable (valor/precio, calidad/precio y mejor precio) y con el dinero: precios, intereses y rebajas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Sentido de la medida"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Magnitud"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.B.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Unidades convencionales del Sistema Métrico Decimal (longitud, masa, capacidad, volumen y superficie), tiempo y grado (ángulos) en contextos de la vida cotidiana: selección y uso de las unidades adecuadas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Medición"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.B.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Instrumentos (analógicos o digitales) y unidades adecuadas para medir longitudes, objetos, ángulos y tiempos: selección y uso."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      102
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Estimación y relaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.B.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de comparación y ordenación de medidas de la misma magnitud, aplicando las equivalencias entre unidades (sistema métrico decimal) en problemas de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.B.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relación entre el sistema métrico decimal y el sistema de numeración decimal."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.B.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estimación de medidas de ángulos y superficies por comparación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.B.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Evaluación de resultados de mediciones y estimaciones o cálculos de medidas, razonando si son o no posibles."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Sentido espacial"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Figuras geométricas de dos y tres dimensiones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.C.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Figuras geométricas en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos y a las relaciones entre ellos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.C.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Técnicas de construcción de figuras geométricas por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo y aplicaciones informáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.C.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Vocabulario geométrico: descripción verbal de los elementos y las propiedades de figuras geométricas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.C.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Propiedades de figuras geométricas: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Localización y sistemas de representación"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.C.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Localización y desplazamientos en planos y mapas a partir de puntos de referencia (incluidos los puntos cardinales), direcciones y cálculo de distancias (escalas): descripción e interpretación con el vocabulario adecuado en soportes físicos y virtuales."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.C.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Descripción de posiciones y movimientos en el primer cuadrante del sistema de coordenadas cartesiano."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Movimientos y transformaciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.C.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Transformaciones mediante giros, traslaciones y simetrías en situaciones de la vida cotidiana: identificación de figuras transformadas, generación a partir de patrones iniciales y predicción del resultado."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.C.08",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Semejanza en situaciones de la vida cotidiana: identificación de figuras semejantes, generación a partir de patrones iniciales y predicción del resultado."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Visualización, razonamiento y modelización geométrica"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.C.09",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para el cálculo de áreas y perímetros de figuras planas en situaciones de la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.C.10",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Modelos geométricos en la resolución de problemas relacionados con los otros sentidos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.C.11",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Elaboración de conjeturas sobre propiedades geométricas, utilizando instrumentos de dibujo (compás y transportador de ángulos) y programas de geometría dinámica."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.C.12",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Las ideas y las relaciones geométricas en el arte, las ciencias y la vida cotidiana."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Sentido algebraico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Patrones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.D.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias de identificación, representación (verbal o mediante tablas, gráficos y notaciones inventadas) y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.D.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Creación de patrones recurrentes a partir de regularidades o de otros patrones utilizando números, figuras o imágenes."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Modelo matemático"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.D.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Proceso de modelización a partir de problemas de la vida cotidiana, usando representaciones matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Relaciones y funciones"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.D.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relaciones de igualdad y desigualdad y uso de los signos < y >. Determinación de datos desconocidos (representados por medio de una letra o un símbolo) en expresiones sencillas relacionadas mediante estos signos y los signos = y ≠."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      103
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "4",
+              "nombre": {
+                "es": "Pensamiento computacional"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.D.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para la interpretación, modificación y creación de algoritmos sencillos (secuencias de pasos ordenados, esquemas, simulaciones, patrones repetitivos, bucles, instrucciones anidadas y condicionales, representaciones computacionales, programación por bloques, robótica educativa...)."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Sentido estocástico"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Organización y análisis de datos"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.E.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Conjuntos de datos y gráficos estadísticos de la vida cotidiana: descripción, interpretación y análisis crítico."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.E.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para la realización de un estudio estadístico sencillo: formulación de preguntas, y recogida, registro y organización de datos cualitativos y cuantitativos procedentes de diferentes experimentos (encuestas, mediciones, observaciones…). Tablas de frecuencias absolutas y relativas: interpretación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.E.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Gráficos estadísticos sencillos (diagrama de barras, diagrama de sectores, histograma, etc.): representación de datos mediante recursos tradicionales y tecnológicos y selección del más conveniente."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.E.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Medidas de centralización (media y moda): interpretación, cálculo y aplicación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.E.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Medidas de dispersión (rango): cálculo e interpretación."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.E.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Calculadora y otros recursos digitales, como la hoja de cálculo, para organizar la información estadística y realizar diferentes visualizaciones de los datos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.E.07",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Relación y comparación de dos conjuntos de datos a partir de su representación gráfica: formulación de conjeturas, análisis de la dispersión y obtención de conclusiones."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Incertidumbre"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.E.08",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "La incertidumbre en situaciones de la vida cotidiana: cuantificación y estimación subjetiva y mediante la comprobación de la estabilización de las frecuencias relativas en experimentos aleatorios repetitivos."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.E.09",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Cálculo de probabilidades en experimentos, comparaciones o investigaciones en los que sea aplicable la regla de Laplace: aplicación de técnicas básicas del conteo."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": {
+                "es": "Inferencia"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.E.10",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Identificación de un conjunto de datos como muestra de un conjunto más grande y reflexión sobre la población a la que es posible aplicar las conclusiones de investigaciones estadísticas sencillas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Sentido socioafectivo"
+          },
+          "apartados": [
+            {
+              "codigo": "1",
+              "nombre": {
+                "es": "Creencias, actitudes y emociones propias"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.F.01",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Autorregulación emocional: autoconcepto y aprendizaje de las matemáticas desde una perspectiva de género. Estrategias de mejora de la perseverancia y el sentido de la responsabilidad hacia el aprendizaje de las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.F.02",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Flexibilidad cognitiva, adaptación y cambio de estrategia en caso necesario. Valoración del error como oportunidad de aprendizaje."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.F.03",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Estrategias para la consolidación y optimización del lenguaje intrapersonal."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "2",
+              "nombre": {
+                "es": "Trabajo en equipo, inclusión, respeto y diversidad"
+              },
+              "saberes": [
+                {
+                  "id": "MAT.3.F.04",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Respeto por las emociones y experiencias de los demás ante las matemáticas."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.F.05",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Aplicación de técnicas simples para el trabajo en equipo en matemáticas, y estrategias para la gestión de conflictos, promoción de conductas empáticas e inclusivas y aceptación de la diversidad presente en el aula y en la sociedad."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                },
+                {
+                  "id": "MAT.3.F.06",
+                  "codigoOficial": null,
+                  "texto": {
+                    "es": "Valoración de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+                  },
+                  "procedencia": {
+                    "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                    "paginas": [
+                      104
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-05",
+    "metodo": "Extracción del texto y las coordenadas del PDF, inspección visual y contraste independiente con Poppler.",
+    "notas": [
+      "Las abreviaturas de área y los identificadores individuales de saber son internos. El decreto publica letras y, cuando procede, números de apartado.",
+      "Las listas de descriptores corresponden a cada competencia específica. El decreto publica criterios y saberes por separado.",
+      "La disposición final primera fija la implantación en primero, tercero y quinto en 2022/2023, y en segundo, cuarto y sexto en 2023/2024.",
+      "Las competencias específicas son comunes a los tres ciclos. Los criterios y saberes se conservan por ciclo.",
+      "Organización y análisis de datos es un apartado sin número en el bloque E del primer ciclo. Su código textual es interno."
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "territorio": "es-cm",
   "fecha": "2026-11-05",
   "estado": "extraccion-en-curso",
-  "criterioAgrupacion": "Este inventario inicial enumera las tres áreas de Infantil y los dos ámbitos comunes de Grado Básico. Los localizadores son posiciones en el PDF. Una página se comparte cuando comienza un currículo después de terminar el anterior. La guía normativa localiza los anexos de Primaria, ESO y Bachillerato.",
+  "criterioAgrupacion": "Este inventario enumera las áreas de Infantil y Primaria y los dos ámbitos comunes de Grado Básico. Los localizadores son posiciones en el PDF. Una página se comparte cuando comienza un currículo después de terminar el anterior. La guía normativa localiza los anexos de ESO y Bachillerato.",
   "curriculos": [
     {
       "etapa": "infantil",
@@ -57,6 +57,147 @@
         }
       ],
       "jsonPath": "data/es-cm/infantil/materias/comunicacion-y-representacion-de-la-realidad.json"
+    },
+    {
+      "etapa": "primaria",
+      "nombre": "Conocimiento del Medio Natural, Social y Cultural",
+      "estado": "revisado",
+      "ciclos": [
+        1,
+        2,
+        3
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-primaria-decreto-81-2022",
+          "anexo": "II",
+          "paginaInicio": 26,
+          "paginaFin": 41
+        }
+      ],
+      "jsonPath": "data/es-cm/primaria/materias/conocimiento-del-medio-natural-social-y-cultural.json"
+    },
+    {
+      "etapa": "primaria",
+      "nombre": "Educación Artística",
+      "estado": "revisado",
+      "ciclos": [
+        1,
+        2,
+        3
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-primaria-decreto-81-2022",
+          "anexo": "II",
+          "paginaInicio": 42,
+          "paginaFin": 49
+        }
+      ],
+      "jsonPath": "data/es-cm/primaria/materias/educacion-artistica.json"
+    },
+    {
+      "etapa": "primaria",
+      "nombre": "Educación Física",
+      "estado": "revisado",
+      "ciclos": [
+        1,
+        2,
+        3
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-primaria-decreto-81-2022",
+          "anexo": "II",
+          "paginaInicio": 50,
+          "paginaFin": 60
+        }
+      ],
+      "jsonPath": "data/es-cm/primaria/materias/educacion-fisica.json"
+    },
+    {
+      "etapa": "primaria",
+      "nombre": "Educación en Valores Cívicos y Éticos",
+      "estado": "revisado",
+      "cursos": [
+        5
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-primaria-decreto-81-2022",
+          "anexo": "II",
+          "paginaInicio": 61,
+          "paginaFin": 65
+        }
+      ],
+      "jsonPath": "data/es-cm/primaria/materias/educacion-en-valores-civicos-y-eticos.json"
+    },
+    {
+      "etapa": "primaria",
+      "nombre": "Lengua Castellana y Literatura",
+      "estado": "revisado",
+      "ciclos": [
+        1,
+        2,
+        3
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-primaria-decreto-81-2022",
+          "anexo": "II",
+          "paginaInicio": 66,
+          "paginaFin": 78
+        }
+      ],
+      "jsonPath": "data/es-cm/primaria/materias/lengua-castellana-y-literatura.json"
+    },
+    {
+      "etapa": "primaria",
+      "nombre": "Lengua Extranjera",
+      "estado": "revisado",
+      "ciclos": [
+        1,
+        2,
+        3
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-primaria-decreto-81-2022",
+          "anexo": "II",
+          "paginaInicio": 79,
+          "paginaFin": 89
+        },
+        {
+          "fuenteRef": "es-cm-infantil-primaria-orden-75-2023",
+          "paginaInicio": 1,
+          "paginaFin": 3
+        },
+        {
+          "fuenteRef": "es-cm-infantil-primaria-correccion-orden-75-2023",
+          "paginaInicio": 1,
+          "paginaFin": 1
+        }
+      ],
+      "jsonPath": "data/es-cm/primaria/materias/lengua-extranjera.json"
+    },
+    {
+      "etapa": "primaria",
+      "nombre": "Matemáticas",
+      "estado": "revisado",
+      "ciclos": [
+        1,
+        2,
+        3
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-primaria-decreto-81-2022",
+          "anexo": "II",
+          "paginaInicio": 90,
+          "paginaFin": 104
+        }
+      ],
+      "jsonPath": "data/es-cm/primaria/materias/matematicas.json"
     },
     {
       "etapa": "cfgb",

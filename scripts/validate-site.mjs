@@ -12,7 +12,17 @@ check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${ca
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
 check(catalog.etapas.length === 35, `Se esperaban 35 etapas territoriales y hay ${catalog.etapas.length}.`);
 const castillaLaManchaStages = catalog.etapas.filter((item) => item.territorio === "es-cm");
-check(castillaLaManchaStages.length === 5 && castillaLaManchaStages.every((item) => item.fuentes > 0 && (item.codigo === "infantil" ? item.estado === "completo" && item.materias === 3 : item.estado === "fuentes")), "Castilla-La Mancha debe mostrar Infantil completo y las fuentes de las demás etapas.");
+const castillaLaManchaProgress = {
+  infantil: ["completo", 3],
+  primaria: ["completo", 7],
+  eso: ["fuentes", 0],
+  bachillerato: ["fuentes", 0],
+  cfgb: ["fuentes", 0],
+};
+check(castillaLaManchaStages.length === 5 && castillaLaManchaStages.every((item) => {
+  const [estado, materias] = castillaLaManchaProgress[item.codigo] ?? [];
+  return item.fuentes > 0 && item.estado === estado && item.materias === materias;
+}), "Castilla-La Mancha debe mostrar Infantil y Primaria completos y las fuentes de las demás etapas.");
 check(catalog.documentosNormativos.filter((item) => item.territorio === "es-cm").length === 12, "Faltan publicaciones del DOCM de Castilla-La Mancha.");
 const cantabriaStages = catalog.etapas.filter((item) => item.territorio === "es-cb");
 check(cantabriaStages.length === 5 && cantabriaStages.every((item) => item.fuentes > 0), "Cantabria debe conservar las fuentes recopiladas de sus cinco etapas.");
@@ -22,13 +32,24 @@ check(cantabriaStages.find((item) => item.codigo === "eso")?.estado === "complet
 check(cantabriaStages.find((item) => item.codigo === "bachillerato")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "bachillerato")?.materias === 53, "Bachillerato de Cantabria debe mostrar sus 53 documentos revisados.");
 check(cantabriaStages.find((item) => item.codigo === "cfgb")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "cfgb")?.materias === 2, "CFGB de Cantabria debe mostrar sus dos ámbitos revisados.");
 check(catalog.documentosNormativos.filter((item) => item.territorio === "es-cb").length === 14, "Faltan fuentes oficiales de Cantabria en el catálogo.");
-check(catalog.materias.length === 612, `Se esperaban 612 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.length === 619, `Se esperaban 619 materias y hay ${catalog.materias.length}.`);
 check(catalog.materias.filter((item) => item.etapa === "infantil").length === 21, "El catálogo de Infantil no contiene 21 áreas territoriales.");
 const castillaLaManchaInfant = catalog.materias.filter((item) => item.territorio === "es-cm" && item.etapa === "infantil");
 check(castillaLaManchaInfant.length === 3 && castillaLaManchaInfant.every((item) => item.revision?.estado === "revisado" && item.ciclos.map((cycle) => cycle.ciclo).join(",") === "1,2" && item.fuentes[0]?.id === "es-cm-infantil-decreto-80-2022"), "Infantil de Castilla-La Mancha debe conservar las tres áreas revisadas, ambos ciclos y su fuente.");
 check(castillaLaManchaInfant.reduce((sum, item) => sum + item.estadisticas.competencias, 0) === 12 && castillaLaManchaInfant.reduce((sum, item) => sum + item.estadisticas.criterios, 0) === 90 && castillaLaManchaInfant.reduce((sum, item) => sum + item.estadisticas.saberes, 0) === 174, "Los recuentos de Infantil de Castilla-La Mancha deben coincidir con el cotejo.");
 const castillaLaManchaInfantIncidents = catalog.incidencias.filter((item) => item.id.startsWith("CM-INF-"));
 check(castillaLaManchaInfantIncidents.length === 11 && castillaLaManchaInfantIncidents.every((item) => item.revisada), "Las once decisiones de Infantil de Castilla-La Mancha deben estar confirmadas.");
+const castillaLaManchaPrimary = catalog.materias.filter((item) => item.territorio === "es-cm" && item.etapa === "primaria");
+check(castillaLaManchaPrimary.length === 7 && castillaLaManchaPrimary.every((item) => item.revision?.estado === "revisado" && item.fuentes[0]?.id === "es-cm-primaria-decreto-81-2022"), "Las siete áreas de Primaria de Castilla-La Mancha deben figurar como revisadas con su fuente.");
+const castillaLaManchaPrimaryCounts = { competencias: 46, criterios: 305, saberes: 634, desarrollos: 19 };
+check(Object.entries(castillaLaManchaPrimaryCounts).every(([key, total]) => castillaLaManchaPrimary.reduce((sum, item) => sum + item.estadisticas[key], 0) === total), "Los recuentos de Primaria de Castilla-La Mancha deben coincidir con el cotejo.");
+const castillaLaManchaValues = castillaLaManchaPrimary.find((item) => item.codigo === "EVCE");
+check(castillaLaManchaValues?.cursos.length === 1 && castillaLaManchaValues.cursos[0].curso === 5 && castillaLaManchaValues.ciclos.length === 0, "Valores de Castilla-La Mancha debe representarse únicamente en 5.º de Primaria.");
+check(castillaLaManchaPrimary.filter((item) => item.codigo !== "EVCE").every((item) => item.ciclos.map(({ ciclo }) => ciclo).join(",") === "1,2,3" && item.cursos.length === 0), "Las otras seis áreas de Castilla-La Mancha deben conservar los tres ciclos de Primaria.");
+const castillaLaManchaLanguage = castillaLaManchaPrimary.find((item) => item.codigo === "LE");
+check(castillaLaManchaLanguage?.fuentes.map(({ id }) => id).join(",") === "es-cm-primaria-decreto-81-2022,es-cm-infantil-primaria-orden-75-2023,es-cm-infantil-primaria-correccion-orden-75-2023", "Lengua Extranjera debe enlazar el currículo común y las dos publicaciones sobre la segunda lengua.");
+const castillaLaManchaPrimaryIncidents = catalog.incidencias.filter((item) => item.id.startsWith("CM-PRIM-"));
+check(castillaLaManchaPrimaryIncidents.length === 10 && castillaLaManchaPrimaryIncidents.every((item) => item.revisada), "Las diez decisiones de Primaria de Castilla-La Mancha deben estar confirmadas.");
 const cantabriaInfant = catalog.materias.filter((item) => item.territorio === "es-cb" && item.etapa === "infantil");
 check(cantabriaInfant.length === 3 && cantabriaInfant.every((item) => item.revision?.estado === "revisado"), "Las tres áreas de Infantil de Cantabria deben estar revisadas.");
 check(cantabriaInfant.every((item) => item.ciclos.map((cycle) => cycle.ciclo).join(",") === "1,2" && item.vigencia.entradaEnVigor === null && item.vigencia.aplicableDesdeCurso === "2022/2023"), "Infantil de Cantabria debe conservar ambos ciclos y la vigencia expresada por curso académico.");
@@ -95,7 +116,7 @@ const canaryExploration = JSON.parse(await readFile(resolve(dist, "data/es-cn/in
 const canaryScientificBlock = canaryExploration.desarrollos.find((item) => item.ciclo === 1)?.bloquesCompetenciales.find((item) => item.competenciaEspecificaRef === "ce-2");
 check(canaryScientificBlock?.competenciasClaveRefs.includes("CPSAA") && !canaryScientificBlock.competenciasClaveRefs.includes("CPSSAA"), "La vinculación de DEE C2 debe usar CPSAA.");
 check(catalog.incidencias.filter((item) => item.territorio === "es-ib" && !item.revisada).length === 0, "No deben quedar incidencias baleares pendientes de revisión.");
-check(catalog.materias.filter((item) => item.etapa === "primaria").length === 56, "El catálogo de Primaria no contiene 56 documentos curriculares territoriales.");
+check(catalog.materias.filter((item) => item.etapa === "primaria").length === 63, "El catálogo de Primaria no contiene 63 documentos curriculares territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-cn" && item.etapa === "primaria").length === 10, "El catálogo de Canarias no contiene sus 9 áreas de Primaria y la concreción del silbo.");
 check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "primaria" && item.revision?.estado === "revisado").length === 8, "El catálogo de Illes Balears no contiene sus 8 áreas de Primaria revisadas.");
 const balearValues = catalog.materias.find((item) => item.id === "es-ib.primaria.educacio-en-valors-civics-i-etics");
@@ -215,7 +236,7 @@ check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) 
 check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
 const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
 check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
-check(catalog.incidencias.length === 359, `Se esperaban 359 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 369, `Se esperaban 369 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");

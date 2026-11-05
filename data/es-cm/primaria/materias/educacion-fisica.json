@@ -1,0 +1,2107 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.3.0",
+  "id": "es-cm.primaria.educacion-fisica",
+  "territorio": "es-cm",
+  "etapa": "primaria",
+  "materia": {
+    "codigo": "EF",
+    "nombre": {
+      "es": "Educación Física"
+    },
+    "ciclos": [
+      {
+        "ciclo": 1,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 2,
+        "caracter": "obligatoria"
+      },
+      {
+        "ciclo": 3,
+        "caracter": "obligatoria"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-07-15",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cm-primaria-decreto-81-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 81/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Primaria en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "134",
+      "fechaPublicacion": "2022-07-14",
+      "cve": "2022/6698",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/81/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/81/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 50,
+        "hasta": 60
+      },
+      "anexo": "II"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La Educación Física en la etapa de Educación Primaria prepara al alumnado para afrontar una serie de retos fundamentales que pasan por la adopción de un estilo de vida activo, el conocimiento de la propia corporalidad, el acercamiento a manifestaciones culturales de carácter motor, la integración de actitudes ecosocialmente responsables o el desarrollo de todos los procesos de toma de decisiones que intervienen en la resolución de situaciones motrices. Estos elementos contribuyen a que el alumnado sea motrizmente competente, facilitando así su desarrollo integral, puesto que la motricidad constituye un elemento esencial e indisociable del propio aprendizaje.",
+      "Las competencias establecidas en el Perfil de salida del alumnado al término de la enseñanza básica, adecuadas a la etapa de Educación Primaria, junto con los objetivos generales de la etapa, han concretado el marco de actuación para definir las competencias específicas del área. Este elemento curricular se convierte en el referente para dar forma a un área que se quiere competencial, actual y alineada con las necesidades de la ciudadanía para afrontar los retos y desafíos del siglo XXI.",
+      "Las competencias específicas del área de Educación Física en la etapa de Educación Primaria recogen y sintetizan estos retos, abordando la motricidad de forma estructurada, para dar continuidad a los logros y avances experimentados por el alumnado antes de su escolarización obligatoria. El descubrimiento y la exploración de la corporalidad, esenciales para las actuaciones que se desarrollan desde el enfoque de la psicomotricidad, darán paso a un tratamiento más preciso y profundo que pretenderá establecer las bases para la adquisición de un estilo de vida activo y saludable que, desde un enfoque holístico, permita al alumnado llegar a consolidar hábitos en la etapa de Educación Secundaria Obligatoria para, posteriormente, perpetuarlos a lo largo de su vida.",
+      "La motricidad, desde la integración de los componentes del esquema corporal, se desarrollará en el seno de prácticas motrices con diferentes lógicas internas, con objetivos variados y en contextos de certidumbre e incertidumbre. La resolución de situaciones motrices en diferentes espacios permitirá al alumnado afrontar la práctica motriz con distintas finalidades: de conocimiento, expresión, relación, uso saludable del tiempo de ocio, catártica, lúdico-recreativa, cooperativa o competitiva.",
+      "Para abordar con posibilidades de éxito las numerosas situaciones motrices a las que se verá expuesto el alumnado a lo largo de su vida, será preciso desarrollar de manera integral capacidades de carácter cognitivo y motor, pero también afectivo-motivacional, de relaciones interpersonales y de inserción social. De este modo, el alumnado tendrá que aprender a gestionar sus emociones y sus habilidades sociales en contextos de práctica motriz que, servirán de soporte para un desempeño más amplio a lo largo de la vida.",
+      "El alumnado también deberá reconocer diferentes manifestaciones de la cultura motriz como parte relevante del patrimonio cultural, expresivo y artístico de Castilla-La Mancha, España y otros contextos y culturas, que podrán convertirse en objeto de disfrute y aprendizaje. Para ello, será preciso desarrollar su identidad personal y social integrando las manifestaciones más comunes de la cultura motriz a través de una práctica vivenciada y creativa. Esto contribuirá a mantener y enriquecer un espacio compartido de carácter verdaderamente intercultural, en un mundo cada vez más globalizado.",
+      "El desarrollo de actitudes comprometidas con el medio ambiente y su materialización en comportamientos basados en la conservación y la sostenibilidad se asociarán con una competencia fundamental para la vida en sociedad que debe comenzar a adoptarse en esta etapa.",
+      "El grado de desarrollo y consecución de las diferentes competencias específicas del área será evaluado a través de los criterios que constituyen el referente para llevar a cabo este proceso. La relación existente entre los criterios de evaluación y los saberes básicos permitirá integrar y contextualizar la evaluación en el seno de las situaciones de aprendizaje a lo largo de la etapa.",
+      "Los saberes básicos del área de Educación Física se organizan en seis bloques. Estos saberes deberán desarrollarse en distintos contextos con la intención de generar situaciones de aprendizaje variadas.",
+      "El primer bloque, titulado «Vida activa y saludable» aborda, desde un enfoque holístico, la salud física, la salud mental y la salud social a través del desarrollo de relaciones positivas en contextos funcionales de práctica físico-deportiva, incorporando la perspectiva de género y rechazando los comportamientos antisociales o contrarios a la salud que pueden producirse en estos ámbitos, incidiendo en la importancia de la nutrición sana y responsable.",
+      "El bloque denominado «Organización y gestión de la actividad física» comprende cuatro componentes diferenciados: la elección de la práctica física, la preparación de la práctica motriz, la planificación y autorregulación de proyectos motores y la gestión de la seguridad antes, durante y después de la actividad física y deportiva.",
+      "«Resolución de problemas en situaciones motrices» es un bloque con un carácter transdisciplinar que aborda tres aspectos clave: la toma de decisiones, el uso eficiente de los componentes cualitativos y cuantitativos de la motricidad, y los procesos de creatividad motriz. Estos saberes deberán desarrollarse en contextos muy variados de práctica que, en cualquier caso, responderán a la lógica interna de la acción motriz desde la que se han diseñado los saberes: acciones individuales, cooperativas, de oposición y de colaboración-oposición.",
+      "El cuarto bloque, «Autorregulación emocional e interacción social en situaciones motrices», se centra, por un lado, en el desarrollo de los procesos dirigidos a regular la respuesta emocional del alumnado ante situaciones derivadas de la práctica de actividad física y deportiva, y, por otro, incide sobre el desarrollo de las habilidades sociales y el fomento de las relaciones constructivas e inclusivas entre los participantes en este tipo de contextos motores.",
+      "El bloque de «Manifestaciones de la cultura motriz» engloba el conocimiento de la cultura motriz tradicional, la cultura artístico-expresiva contemporánea y el deporte como manifestación cultural desde una perspectiva integradora que incluya ejemplos de personas y culturas diferentes, con especial interés en Castilla-La Mancha.",
+      "Y, por último, el bloque «Interacción eficiente y sostenible» con el entorno incide sobre la interacción con el medio natural y urbano desde una triple vertiente: su uso desde la motricidad, su conservación desde una visión sostenible y su carácter compartido desde una perspectiva comunitaria del entorno.",
+      "Por la vital influencia del movimiento en el aprendizaje, se recomienda el desarrollo de distintas situaciones de aprendizaje que incorporen el movimiento como recurso, así como enfoques y proyectos interdisciplinares en la medida en que sea posible. Estas situaciones integrarán procesos orientados a la adquisición de las competencias y deberán enfocarse desde diferentes bloques de saberes, evitando centrarse en uno de manera exclusiva y, simultáneamente, desde la articulación con elementos plurales como las diferentes opciones metodológicas de carácter participativo, modelos pedagógicos, el tipo y la intención de las actividades planteadas o la organización de los grupos. Será igualmente importante tener en cuenta la regulación de los procesos comunicativos, el desarrollo de las relaciones interpersonales y de la autoestima, la conversión de espacios y materiales en oportunidades de aprendizaje, y la transferencia del conocimiento adquirido a otros contextos sociales próximos que permitan comprobar el valor de lo aprendido, aspecto este último clave para una sociedad justa y equitativa. Todos estos procesos deben establecerse en función de la interrelación de los saberes, el docente, el alumnado y el contexto en el que se aplican, pero, sobre todo, teniendo claro por qué y para qué se utilizan."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Adoptar un estilo de vida activo y saludable, practicando regularmente actividades físicas, lúdicas y deportivas, adoptando comportamientos que potencien la salud física, mental y social, así como medidas de responsabilidad individual y colectiva durante la práctica motriz, para interiorizar e integrar hábitos de actividad física sistemática que contribuyan al bienestar."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica se encuentra alineada con los retos del siglo XXI y con los Objetivos de Desarrollo Sostenible. Su adquisición se alcanzará a través de la participación activa en una variada gama de propuestas físico-deportivas que, además de proporcionar al alumnado un amplio bagaje de experimentación motriz, le darán la oportunidad de conocer estrategias para vivenciar la práctica en coherencia con los referentes que sirven de base para la promoción de la salud física, mental y social.",
+          "Esta competencia de carácter transdisciplinar impregna la globalidad del área de Educación Física. Se puede abordar desde la participación activa, la alimentación saludable, la educación postural, el cuidado del cuerpo, el autoconcepto, la autoestima, la imagen percibida en el campo de la actividad física y el deporte desde una perspectiva de género o el análisis de los comportamientos antisociales y los malos hábitos para la salud que se producen en contextos cotidianos o vinculados con el deporte y la práctica de actividad física, entre otros. Existen distintas fórmulas y contextos de aplicación para materializar estos aprendizajes, desde las prácticas aeróbicas (correr a ritmo, combas, aeróbic o similares) o el análisis de situaciones cotidianas (del entorno próximo o en medios de comunicación) hasta las dinámicas grupales reflexivas (debates o análisis críticos) o los proyectos interdisciplinares, pasando por la integración de normas de seguridad y hábitos de higiene en prácticas motrices cotidianas o la simulación de protocolos de intervención ante accidentes deportivos, entre otros."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CPSAA2",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          51
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Adaptar los elementos propios del esquema corporal, las capacidades físicas, perceptivo-motrices y coordinativas, así como las habilidades y destrezas motrices, aplicando procesos de percepción, decisión y ejecución adecuados a la lógica interna y a los objetivos de diferentes situaciones, para dar respuesta a las demandas de proyectos motores y de prácticas motrices con distintas finalidades en contextos de la vida diaria."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia implica tomar decisiones, definir metas, elaborar planes sencillos, secuenciar acciones, ejecutar lo planificado, analizar qué ocurre durante el proceso, cambiar de estrategia si fuera preciso y valorar finalmente el resultado. Todas estas medidas se llevan a cabo en el seno de prácticas motrices con diferentes lógicas internas (individual, de cooperación, de oposición o de colaboración-oposición), con objetivos variados y en situaciones de certidumbre e incertidumbre.",
+          "Estas estrategias deberán desarrollarse en contextos de práctica muy variados. Entre ellos podrían destacarse los proyectos y montajes relacionados con las combas, los malabares, las actividades acrobáticas o las circenses, los desafíos físicos cooperativos, los cuentos motores cooperativos, el juego motor y la indagación, los espacios de acción y aventura, los ambientes de aprendizaje y, por supuesto, los juegos deportivos. En relación con estos últimos es posible encontrar distintas manifestaciones según sus características, desde juegos deportivos de invasión (balonmano, ultimate o rugby-tag, entre otros), hasta juegos de red y muro (bádminton, frontenis, pickleball, paladós o semejantes), pasando por deportes de campo y bate (béisbol, softball, etc.), de blanco y diana (boccia, tiro con arco o similares), de lucha (judo, esgrima u otras modalidades autóctonas de lucha, entre otros) o de carácter individual (atletismo y sus modalidades). Se debe procurar, en la medida de lo posible y según el contexto particular de cada centro, que durante la etapa el alumnado participe en todas estas categorías, priorizando en todo caso las manifestaciones que destaquen por su carácter mixto o inclusivo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "CPSAA4",
+        "CPSAA5"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          51,
+          52
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, con actitud empática e inclusiva, haciendo uso de habilidades sociales y actitudes de cooperación, respeto, trabajo en equipo y deportividad, con independencia de las diferencias etnoculturales, sociales, de género, de habilidad o cualquier otra que pudiera existir entre los participantes para contribuir a la convivencia y al compromiso ético en los diferentes espacios en los que se participa."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia específica se sitúa en el punto de convergencia entre lo personal, lo social y lo ético. Desde ella se ponen en juego las capacidades volitivas al servicio de metas personales o de equipo, especialmente en contextos que requieren de esfuerzo y perseverancia, activando la automotivación y la actitud positiva para afrontar retos, regulando la impulsividad, tolerando la frustración y perseverando ante las dificultades. En el plano personal, conlleva además la identificación de las emociones que se viven en el seno de la práctica motriz, la expresión positiva de estas y su gestión adecuada para saber controlar y reconducir las emociones desagradables y hacerlas más placenteras.",
+          "El plano colectivo implica poner en juego habilidades sociales para afrontar la interacción con las personas con las que se converge en la práctica motriz. Se trata de dialogar, debatir, contrastar ideas y ponerse de acuerdo para resolver situaciones; expresar propuestas, pensamientos y emociones; escuchar activamente; y actuar con asertividad. Requiere que el alumnado afronte los conflictos de forma dialógica, contemplando también la perspectiva de las otras personas implicadas y buscando soluciones justas por consenso que satisfagan las necesidades mínimas de las partes implicadas. Requiere igualmente que el alumnado identifique conductas contrarias a la convivencia y aplique estrategias para abordarlas. Este tipo de situaciones implican desarrollar un cierto grado de empatía y actuar desde la prosocialidad, a través de acciones que buscan también el bienestar ajeno, valorando la realidad asociada a la práctica motriz y actuando sobre ella desde parámetros de libertad ejercida con responsabilidad, equidad, inclusión, respeto, solidaridad, cooperación, justicia y paz."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL5",
+        "CPSAA1",
+        "CPSAA3",
+        "CPSAA5",
+        "CC2",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          52
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Reconocer y practicar diferentes manifestaciones lúdicas, físico-deportivas y artístico-expresivas propias de la cultura motriz, valorando su influencia y sus aportaciones estéticas y creativas a la cultura tradicional y contemporánea, para integrarlas, desde un enfoque lúdico, en las situaciones motrices que se desarrollan regularmente en la vida cotidiana."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia implica construir la identidad personal y social desde una práctica vivenciada que integra expresiones culturales como el juego, el deporte, la danza y otras actividades artístico-expresivas vinculadas con la motricidad, asumiendo que forman parte del patrimonio cultural y que han de ser objeto de reconocimiento, preservación, mejora y disfrute. En un mundo globalizado y marcado por los movimientos migratorios, esto supone enriquecer el acervo común con las aportaciones de las diferentes etnias y culturas que convergen en un espacio socio-histórico, desde el mestizaje cultural asociado a la interculturalidad.",
+          "Existen numerosos contextos en los que desarrollar esta competencia. Así, la cultura motriz tradicional podría abordarse a través de juegos tradicionales y populares, danzas propias del folclore tradicional, juegos multiculturales o danzas del mundo, entre otros. Para abordar la cultura artístico-expresiva contemporánea podrían emplearse técnicas expresivas concretas (como la improvisación, la mímica o la pantomima), el teatro (dramatizaciones, teatro de sombras, teatro de luz negra o similares), representaciones más elaboradas (juegos de rol o actividades circenses, entre otros) o actividades rítmico-musicales con carácter expresivo (bailes, coreografías u otras expresiones semejantes). Finalmente, en lo que respecta al deporte como manifestación cultural, además de abordar los juegos y deportes tradicionales, con arraigo en el entorno o pertenecientes a otras culturas, también se podrían llevar a cabo debates sobre ciertos estereotipos de género aún presentes en el deporte y cómo evitarlos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          52,
+          53
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Valorar positivamente diferentes medios naturales y urbanos como contextos de práctica motriz, interactuando constructivamente con ellos y comprendiendo la importancia de su conservación desde un enfoque sostenible, adoptando medidas de responsabilidad individual durante la práctica de juegos y actividades físico-deportivas, para realizar una práctica eficiente y respetuosa con el entorno y participar en su cuidado y mejora."
+      },
+      "descripcion": {
+        "es": [
+          "La adopción de hábitos sostenibles con el medio ambiente y su conservación debe comenzar a producirse ya en esta etapa, incidiendo especialmente en aquellos gestos y conductas sencillas que cada uno puede hacer para contribuir al bien común. Este enfoque encuentra en las actividades físico-deportivas un contexto muy favorable para mostrar el potencial que ofrece el entorno, ya sea natural o urbano, para el desarrollo de este tipo de prácticas.",
+          "Esta competencia implica desarrollar conocimientos, destrezas y actitudes para interactuar con el medio, participar en su preservación y mejora, y contribuir, desde lo local, a la sostenibilidad a escala global. Así, en lo que respecta a los entornos urbanos, existen manifestaciones como el patinaje o la danza urbana, entre otros, que pueden constituir opciones interesantes. En lo relativo al medio natural, según la ubicación del centro, sus posibilidades contextuales y de acceso a distintos emplazamientos naturales, tanto terrestres como, en su caso, acuáticos, es posible encontrar una variada gama de contextos de aplicación, desde el senderismo, la escalada, el esquí, las actividades acuáticas, la orientación (también en espacios urbanos), el cicloturismo o las rutas BTT, hasta la autoconstrucción de materiales, el franqueamiento de obstáculos o la cabuyería, entre otros; todos ellos afrontados desde la óptica de los proyectos dirigidos a la interacción con el entorno."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM5",
+        "CC2",
+        "CC4",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-primaria-decreto-81-2022",
+        "paginas": [
+          53
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "ciclo": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los desplazamientos activos como práctica saludable, conociendo sus beneficios físicos para el establecimiento de un estilo de vida activo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              53
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Explorar las posibilidades de la propia motricidad a través del juego y la actividad física, actuando de acuerdo con sus características personales, aplicando en distintas situaciones cotidianas medidas básicas de cuidado de la salud personal a través de la alimentación saludable, la higiene corporal, la educación postural y la seguridad en la práctica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              53
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Participar activamente en juegos de activación y vuelta a la calma, reconociendo su utilidad para adaptar el cuerpo a la actividad física y evitar lesiones, manteniendo la calma y sabiendo cómo actuar en caso de que se produzca algún accidente en contextos de práctica motriz."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              53
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer los valores positivos que fomenta la práctica motriz compartida, reconociendo, vivenciando y disfrutando sus beneficios en contextos variados e inclusivos y respetando a todos los participantes con independencia de sus diferencias individuales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              53
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Reconocer la importancia de establecer metas claras a la hora de desarrollar proyectos motores de carácter individual, cooperativo o colaborativo, valorando su consecución a partir de un análisis de los resultados obtenidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              53
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Adoptar decisiones en contextos básicos de práctica motriz de carácter lúdico, de manera ajustada, a las situaciones planteadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              53
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Descubrir, reconocer y emplear los componentes cualitativos y cuantitativos de las capacidades motrices de manera lúdica e integrada en diferentes situaciones y contextos, mejorando progresivamente su control, su dominio y aceptación corporal como determinante del autoconcepto físico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar las emociones que se producen durante el juego, iniciándose en su gestión para disfrutar de la actividad física."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Respetar las normas consensuadas, así como las reglas de juego, y actuar desde los parámetros de la deportividad y el juego limpio, aceptando las características y niveles de los participantes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Participar en actividades físico-deportivas, comenzando a desarrollar habilidades sociales de acogida, inclusión, ayuda y cooperación, iniciándose en la resolución de conflictos personales de forma dialógica y justa, y mostrando un compromiso activo frente a las actuaciones contrarias a la convivencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Participar activamente en juegos y otras manifestaciones artístico-expresivas de carácter motor y cultural propias del entorno de Castilla-La Mancha, valorando su componente lúdico-festivo y disfrutando de su puesta en práctica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer, vivenciar y valorar los logros de distintos referentes del deporte de ambos géneros, reconociendo el esfuerzo, la dedicación y los sacrificios requeridos para alcanzar dichos éxitos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Participar activamente en la adaptación de diferentes manifestaciones expresivas y los distintos usos comunicativos de la corporalidad y sus manifestaciones a diferentes ritmos y contextos expresivos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              54
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Participar en actividades lúdico-recreativas de forma segura en los entornos natural y urbano y en contextos terrestres o acuáticos, conociendo otros usos desde la motricidad y adoptando actitudes de respeto, cuidado y conservación de dichos entornos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              54
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Vida activa y saludable"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud física: efectos físicos beneficiosos de un estilo de vida activo. Alimentación saludable e hidratación. Educación postural en situaciones cotidianas. Cuidado del cuerpo: higiene personal y el descanso tras la actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54
+                ]
+              }
+            },
+            {
+              "id": "EF.1.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud mental: bienestar personal y en el entorno a través de la motricidad. Autoconocimiento e identificación de fortalezas y debilidades en todos los ámbitos (social, físico y mental)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54
+                ]
+              }
+            },
+            {
+              "id": "EF.1.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud social: la actividad física como práctica social saludable. Derechos de los niños y niñas en el deporte escolar. Respeto a todas las personas con independencia de sus características personales. Amistad y vínculos afectivos a través de la práctica de actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Organización y gestión de la actividad física"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elección de la práctica física: vivencia de diversas experiencias corporales en distintos contextos y con diferentes recursos desde la novedad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54
+                ]
+              }
+            },
+            {
+              "id": "EF.1.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado de los recursos a utilizar en la actividad a desarrollar (materiales, personales y espaciales). Gestión sencilla y supervisada."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54
+                ]
+              }
+            },
+            {
+              "id": "EF.1.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Preparación de la práctica motriz: vestimenta deportiva y hábitos generales de higiene corporal."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54
+                ]
+              }
+            },
+            {
+              "id": "EF.1.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Planificación y autorregulación de proyectos motores sencillos: establecimiento de objetivos, retos o metas adecuadas y alcanzables."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54
+                ]
+              }
+            },
+            {
+              "id": "EF.1.B.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención de accidentes en las prácticas motrices: juegos de activación, calentamiento y vuelta a la calma."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54
+                ]
+              }
+            },
+            {
+              "id": "EF.1.B.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actuaciones básicas relacionadas con contingencias de carácter sencillo durante la práctica de actividad física-deportiva: contusión o torcedura. Nociones básicas del protocolo PAS (proteger, avisar y socorrer) desde el juego sencillo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Resolución de problemas en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Toma de decisiones: adecuación de las acciones a las capacidades y las limitaciones personales en situaciones motrices individuales. Coordinación de acciones con compañeros en situaciones cooperativas. Adecuación de la acción a la ubicación del adversario en situaciones motrices de persecución y de interacción con un móvil. Selección de la posición corporal o la distancia adecuadas en situaciones de oposición de contacto. Selección de acciones para mantener la posesión, recuperar el móvil o evitar que el atacante progrese en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  54,
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Capacidades perceptivo-motrices en contexto de práctica: integración del esquema corporal; conciencia corporal; lateralidad y su proyección en el espacio; coordinación óculo-pédica y óculo-manual; equilibrio estático y dinámico. Espacialidad y temporalidad. Respiración y relajación para la vuelta a la calma."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Condición física orientada a la salud desde el juego y, de manera no específica, a través del “fitness infusion”. Trabajo de alta intensidad desde propuestas jugadas. Valoración de la condición física orientada a la salud. Batería ALPHA-Fitness."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.C.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades y destrezas motrices básicas genéricas: locomotrices, no locomotrices y manipulativas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.C.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Creatividad motriz: variación y adecuación de la acción motriz ante estímulos internos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Autorregulación emocional e interacción social en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión emocional: estrategias de identificación, experimentación y manifestación de emociones, pensamientos y sentimientos a partir de experiencias motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades sociales: verbalización y expresión constructiva de emociones y pensamientos derivados de la interacción en contextos motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Respeto a las reglas de la clase y del juego como determinantes de la correcta, exitosa y respetuosa participación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conductas que favorezcan la convivencia y la igualdad de género, inclusivas y de respeto a los demás, en situaciones motrices: estrategias de identificación de conductas discriminatorias o contrarias a la convivencia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Manifestaciones de la cultura motriz"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aportaciones de la cultura motriz a la herencia cultural. Los juegos y las danzas como manifestación de la propia cultura. (propuestas de Castilla-La Mancha y sus localidades)"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Usos comunicativos de la corporalidad: juego dramático, mímica, representación, imitación y baile a través de gestos, movimientos, muecas, posturas, ritmo y otros. Comunicación de sensaciones, sentimientos, emociones e ideas simples"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inicio en la práctica de actividades rítmico-musicales con carácter artístico-expresivo. Coreografías básicas"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.E.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Deporte y perspectiva de género: referentes en el deporte de distintos géneros. Contextos cercanos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Interacción eficiente y sostenible con el entorno"
+          },
+          "saberes": [
+            {
+              "id": "EF.1.F.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso: educación vial para peatones. Movilidad segura, saludable y sostenible, incluyendo los desplazamientos activos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.F.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Posibilidades motrices de los espacios de juego y esparcimiento infantil."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.F.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El material y sus posibilidades de uso para el desarrollo de la motricidad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.F.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Realización de actividades físicas seguras en el medio natural y urbano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            },
+            {
+              "id": "EF.1.F.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado del entorno próximo y de los animales y plantas que en él conviven, como servicio a la comunidad, durante la práctica segura de actividades físicas en el medio natural y urbano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  55
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer la actividad física como alternativa de ocio saludable, identificando propuestas diversas en desplazamientos activos y sostenibles y conociendo los efectos beneficiosos a nivel físico y mental que posee adoptar un estilo de vida activo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              55
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Aprovechar las posibilidades motrices a través del juego y la actividad físico-deportiva aplicando medidas de educación postural, alimentación saludable, higiene corporal y preparación de la práctica motriz, desde la seguridad, asumiendo responsabilidades y generando hábitos y rutinas en situaciones cotidianas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              55
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Tomar medidas de precaución y prevención de lesiones en relación con la conservación y el mantenimiento del material en el marco de distintas prácticas físico-deportivas, conociendo protocolos básicos de actuación ante accidentes que se puedan producir en este contexto."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              55
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer la propia imagen corporal y la de los demás, aceptando y respetando las diferencias individuales que puedan existir, superando y rechazando las conductas discriminatorias que se puedan producir en contextos de práctica motriz."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              55
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Llevar a cabo proyectos motores de carácter individual, cooperativo o colaborativo, empleando estrategias de monitorización y seguimiento que permitan analizar los resultados obtenidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Adoptar decisiones adecuadas a la lógica interna de variedad de en situaciones lúdicas, juegos motores y actividades físico-deportivas, ajustándose a las demandas derivadas de los objetivos motores, de las características del grupo y de la lógica interna de situaciones individuales, de cooperación, de oposición y de colaboración-oposición, en contextos simulados de actuación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear los componentes cualitativos y cuantitativos de la motricidad de manera eficiente y creativa en distintos contextos y situaciones motrices, adquiriendo un progresivo conocimiento, control, dominio y aceptación corporal sobre ellos, como determinante del auto concepto físico."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Mostrar una disposición positiva hacia la práctica física y hacia el esfuerzo, fruto de la adecuada gestión emocional, controlando la impulsividad y las emociones negativas que surjan en contextos de actividad motriz."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Respetar las normas consensuadas en clase, así como las reglas de juego, y actuar desde los parámetros de la deportividad y el juego limpio, valorando la aportación de los participantes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Desarrollar habilidades sociales de acogida, inclusión, ayuda y cooperación al participar en diversidad de prácticas físico-deportivas, resolviendo los conflictos individuales y colectivos de forma dialógica y justa, mostrando un compromiso activo frente a los estereotipos, las actuaciones discriminatorias y cualquier tipo de violencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Participar activa y adecuadamente en juegos motores y otras manifestaciones artístico-expresivas con arraigo en la cultura propia, tradicional o actual, así como otros procedentes de diversas culturas, contextualizando su origen, su aparición y su transmisión a lo largo del tiempo y valorando su importancia, repercusión e influencia en las sociedades pasadas y presentes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Asumir una visión abierta del deporte a partir del conocimiento de distintas ligas femeninas, masculinas o mixtas, acercándose al deporte federado e identificando comportamientos contrarios a la convivencia independientemente del contexto en el que tengan lugar."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Participar activamente en la reproducción de distintas combinaciones de movimientos o coreografías individuales y grupales que incorporen prácticas comunicativas que transmitan sentimientos, emociones o ideas a través del cuerpo, empleando los distintos recursos expresivos y rítmicos de la corporalidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Desarrollar y valorar la importancia de las medidas de seguridad básicas dentro de la práctica motriz segura en contextos naturales y urbanos de carácter terrestre o acuático, adecuando las acciones al análisis de cada situación y aplicando medidas de cuidado y conservación ambiental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              56
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Vida activa y saludable"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud física: efectos físicos y psicológicos beneficiosos de un estilo de vida activo. Efectos nocivos del sedentarismo. Características de alimentos naturales, procesados y ultraprocesados. Obesidad infantil como consecuencia de malos hábitos saludables. Educación postural en acciones motrices habituales. Otros factores básicos que inciden en el cuidado del cuerpo: higiene personal y descanso tras la práctica de actividad físico-deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  56
+                ]
+              }
+            },
+            {
+              "id": "EF.2.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud mental: respeto y aceptación del propio cuerpo. Autoconocimiento e identificación de fortalezas, debilidades, posibilidades y limitaciones en todos los ámbitos (social, físico y mental)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  56
+                ]
+              }
+            },
+            {
+              "id": "EF.2.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud social: la actividad física como hábito y alternativa saludable frente a formas de ocio nocivas. Límites para evitar una competitividad desmedida. Aceptación de la diversidad en la práctica de distintas tipologías corporales, para practicar, en igualdad, diversidad de actividades físico-deportivas. Amistad a través de la práctica de actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  56
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Organización y gestión de la actividad física"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elección de la práctica física: usos y finalidades catárticos, lúdico-recreativos y cooperativos. Respeto de las elecciones de los demás."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado y preparación del material según la actividad a desarrollar."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Pautas de higiene personal relacionadas con la actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Planificación y autorregulación de proyectos motores: puesta en marcha de mecanismos básicos para ejecutar lo planificado, partiendo de la percepción y toma de decisiones ajustada a las exigencias de la tarea y las estrategias en las que se basa."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.B.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención de accidentes en las prácticas motrices: seguimiento de normas de juego y de clase orientadas a evitar riesgos. Juegos de animación y vuelta a la calma, mecanismos de prevención y control corporal para la prevención de lesiones, desde la comprensión de su necesidad y relevancia para uno mismo y los demás."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.B.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actuaciones básicas relacionadas con contingencias de carácter sencillo durante la práctica de actividad físico-deportiva: contusión, torcedura o epistaxis. Nociones básicas del protocolo PAS (proteger, avisar y socorrer) desde el juego sencillo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Resolución de problemas en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Toma de decisiones: distribución racional del esfuerzo en situaciones motrices individuales. Ubicación en el espacio en situaciones cooperativas. Ubicación en el espacio y reubicación tras cada acción en situaciones motrices de persecución y de interacción con un móvil. Anticipación a las decisiones ofensivas del adversario en situaciones de oposición de contacto. Pase a compañeros desmarcados o en situación ventajosa en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Capacidades perceptivo-motrices en contexto de práctica: integración del esquema corporal, control tónico-postural e independencia segmentaria en situaciones motrices. Definición de la lateralidad. Coordinación dinámica general y segmentaria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Condición física orientada a la salud desde el juego y, de manera no específica, a través de “fitness infusion”, trabajo de alta intensidad desde propuestas jugadas. Valoración de la condición física orientada a la salud. Batería ALPHA-Fitness."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.C.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades y destrezas motrices básicas genéricas: locomotrices, no locomotrices y manipulativas. Combinación de habilidades."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.C.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Creatividad motriz: variación y adecuación de la acción motriz ante estímulos internos y externos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Autorregulación emocional e interacción social en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión emocional: reconocimiento de emociones propias, pensamientos y sentimientos a partir de experiencias motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades sociales: escucha activa y estrategias de negociación para la resolución de conflictos en contextos motrices."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de deportividad como garante de la correcta, exitosa y respetuosa participación en la actividad físico-deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Conductas que favorecen la convivencia basada en el respeto a los demás. Identificación de conductas contrarias a la convivencia en situaciones motrices (discriminación por cuestiones de competencia motriz, etnia, género u otras): efectos negativos y estrategias de identificación, abordaje y evitación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Manifestaciones de la cultura motriz"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aportaciones de la cultura motriz a la herencia cultural. Los juegos y las danzas como manifestación de la propia cultura de Castilla-La Mancha y de otras (interculturalidad)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Usos comunicativos de la corporalidad: juego dramático, mímica, representación, imitación y baile, a través de gestos movimientos, expresión facial, posturas, ritmo y otros. Comunicación y comprensión de sensaciones, sentimientos, emociones e ideas simples."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Práctica de actividades rítmico-musicales con carácter expresivo. Coreografías sencillas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.E.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Deporte y perspectiva de género: ligas masculinas, femeninas y mixtas de distintos deportes. Referentes en el deporte de distintos géneros."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Interacción eficiente y sostenible con el entorno"
+          },
+          "saberes": [
+            {
+              "id": "EF.2.F.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso: educación vial para bicicletas. Movilidad segura, saludable y sostenible, incluyendo los desplazamientos activos"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.F.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Espacios naturales en el contexto urbano: uso, disfrute seguro y mantenimiento desde la práctica de actividad físico-deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.F.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estado del material para actividades en el medio natural y urbano: valoración previa y actuación ante desperfectos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.F.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención y sensibilización sobre la generación de residuos y su correcta gestión."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  57
+                ]
+              }
+            },
+            {
+              "id": "EF.2.F.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Realización de actividades físicas seguras en el medio natural y/o urbano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  58
+                ]
+              }
+            },
+            {
+              "id": "EF.2.F.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado del entorno próximo y de los animales y plantas que en él conviven como servicio a la comunidad, durante la práctica segura de actividades físicas en el medio natural y urbano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  58
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ciclo": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y valorar los efectos beneficiosos a nivel físico y mental de la actividad física como paso previo para su integración en la vida diaria."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Integrar los procesos de activación corporal, dosificación del esfuerzo, relajación e higiene en la práctica de actividades motrices desarrolladas de acuerdo con las posibilidades personales de actuación e, interiorizando las rutinas propias de una práctica motriz saludable y responsable y de otras acciones vinculadas al correcto mantenimiento del estado de salud."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Adoptar medidas de seguridad antes, durante y después de la práctica de actividad físico-deportiva, reconociendo los contextos de riesgo y actuando con precaución ante ellos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-4",
+          "codigoOficial": "1.4",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar y abordar conductas vinculadas al ámbito corporal, la actividad física y el deporte que resultan perjudiciales para la salud o afectan negativamente a la convivencia, adoptando posturas de rechazo a la violencia, a la discriminación y a los estereotipos de género, y evitando activamente su reproducción."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Desarrollar proyectos motores de carácter más complejo: individual, cooperativo o colaborativo, definiendo metas, secuenciando acciones, introduciendo cambios, si es preciso, durante el proceso, y generando producciones motrices de calidad, analizando y valorando el grado de ajuste al proceso seguido y al resultado obtenido."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar principios básicos de toma de decisiones en situaciones lúdicas, juegos modificados y actividades físico-deportivas a partir de la anticipación, ajustándolos a las demandas derivadas de los objetivos motores y a la lógica interna de situaciones individuales, de cooperación, de oposición y de colaboración-oposición, en contextos reales o simulados de actuación, reflexionando sobre las soluciones obtenidas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Adquirir un progresivo conocimiento, control, dominio y aceptación corporal, empleando los componentes cualitativos y cuantitativos de la motricidad de manera eficiente y creativa y haciendo frente a las demandas de resolución de problemas en situaciones motrices transferibles a su espacio vivencial."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Participar en actividades físico-deportivas, desde la autorregulación de su actuación, con predisposición, esfuerzo, perseverancia y mentalidad de crecimiento, controlando la impulsividad, gestionando las emociones y expresándolas de forma asertiva."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Respetar las normas consensuadas, así como las reglas de juego, y actuar desde los parámetros de la deportividad y el juego limpio, reconociendo las actuaciones de compañeros y rivales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Convivir mostrando en el contexto de las prácticas motrices habilidades sociales, diálogo en la resolución de conflictos y respeto a la diversidad, ya sea de género, afectivo-sexual, de origen nacional, étnica, socio-económica o de competencia motriz, así como una actitud crítica y un compromiso activo frente a los estereotipos, las actuaciones discriminatorias y la violencia, haciendo especial hincapié en el fomento de la igualdad de género."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Participar activamente de manera autónoma en juegos motores y otras manifestaciones artístico-expresivas con arraigo en la cultura propia y ajena, tradicional o actual, así como otros procedentes de diversas culturas, reconociendo y transmitiendo su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas con orígenes diferentes y entendiendo las ventajas de su conservación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Valorar el deporte como fenómeno cultural, analizando los estereotipos de género o capacidad y los comportamientos sexistas que a veces suceden en su contexto, rechazándolos y adoptando actitudes que eviten su reproducción en el futuro."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              58
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Reproducir y crear composiciones con o sin soporte musical, y comunicar diferentes sensaciones, emociones e ideas, de forma estética y creativa, desde el uso de los recursos rítmicos y expresivos de la motricidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              59
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Adaptar las acciones motrices a la incertidumbre propia del medio natural y/o urbano en contextos terrestres o acuáticos de forma eficiente y segura, valorando sus posibilidades para la práctica de actividad física y actuando desde una perspectiva ecosostenible del entorno y comunitaria."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-primaria-decreto-81-2022",
+            "paginas": [
+              59
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Vida activa y saludable"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud física: efectos físicos, psicológicos y sociales beneficiosos del estilo de vida activo. Efectos nocivos del sedentarismo y otras prácticas insanas. Impacto de alimentos ultraprocesados, azúcar, bebidas energéticas o azucaradas y otros productos insanos. Concienciación sobre los peligros de la obesidad y otras enfermedades cardiovasculares. Educación postural en acciones motrices específicas. Responsabilidad personal en el cuidado del cuerpo, higiene corporal y descansos para la recuperación y mejora tras la práctica de actividad físico-deportivo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud mental: consolidación y ajuste realista del autoconcepto, teniendo en cuenta la perspectiva de género. Respeto y aceptación del propio cuerpo y del aspecto corporal de los demás."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud social: aproximación a los efectos de los malos hábitos relacionados con la salud e influencia en la práctica de actividad física. La exigencia del deporte profesional. Aceptación de distintas tipologías corporales, para practicar en igualdad, diversidad de actividades físico-deportivas. Estereotipos corporales, de género y competencia motriz. Amistad y relaciones entre iguales a través de la práctica de actividad física."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Organización y gestión de la actividad física"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Usos y finalidades: catárticos, lúdico-recreativos, competitivos y agonísticos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actitudes consumistas en torno al equipamiento. Análisis de la adquisición de material para la práctica físico-deportiva."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Hábitos autónomos de higiene corporal en acciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Planificación y autorregulación de proyectos motores: seguimiento y valoración durante el proceso y del resultado partiendo de la percepción y toma de decisiones ajustada a las exigencias de la tarea y las estrategias en las que se basa."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Prevención de accidentes en las prácticas motrices: calentamiento general y vuelta a la calma. Importancia de respetar las normas de seguridad. Compromiso de responsabilidad hacia la seguridad propia y de los demás."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.B.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actuaciones básicas ante accidentes durante la práctica de actividades físicas. Posición lateral de seguridad. Conducta PAS (proteger, avisar, socorrer). 112."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Resolución de problemas en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Toma de decisiones: selección de acciones en función del entorno en situaciones motrices individuales. Selección de acciones para el ajuste espacio-temporal en la interacción con los compañeros en situaciones cooperativas. Selección de zonas de envío del móvil desde donde sea difícil devolverlo en situaciones motrices de persecución y de interacción con un móvil. Selección adecuada de las habilidades motrices en situaciones de oposición de contacto. Desmarque y ubicación en un lugar desde el que se constituya un apoyo para los demás en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Capacidades perceptivo-motrices en contexto de práctica: integración del esquema corporal; equilibrio estático y dinámico en situaciones de complejidad creciente; organización espacial (percepción de distancias y trayectoria, orientación en el espacio), temporal (simultaneidad y sucesión de acciones) y espacio-temporal (ritmo, ajuste perceptivo en el envío y en la interceptación de trayectorias de móviles)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Condición física orientada a la salud desde el juego y, de manera no específica a través del “fitness infusion” y mediante trabajo específico. Trabajo de alta intensidad desde propuestas jugadas. Especial consideración al fitness aeróbico y muscular. Valoración de la condición física orientada a la salud. Batería ALPHA-Fitness."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación de las habilidades motrices específicas asociadas a la técnica en actividades físico-deportivas: aspectos principales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.C.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Creatividad motriz: identificación de estímulos internos o externos que exijan un reajuste instantáneo de la acción motriz."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Autorregulación emocional e interacción social en situaciones motrices"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Gestión emocional: ansiedad y situaciones motrices. Estrategias de afrontamiento y gestión."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  59
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades sociales: expresión constructiva de emociones, pensamientos y necesidades de otros. Estrategias de trabajo en equipo para la resolución constructiva de conflictos en situaciones motrices colectivas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Concepto de fairplay o «juego limpio»."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Identificación, abordaje y rechazo de conductas violentas o contrarias a la convivencia en situaciones motrices (discriminación por cuestiones de género, capacidad o competencia motriz; actitudes xenófobas, racistas o de índole sexista; abuso sexual o cualquier forma de violencia)."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Manifestaciones de la cultura motriz"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aportaciones de la cultura motriz a la herencia cultural. Los deportes como seña de identidad cultural. Los juegos y las danzas de Castilla-La Mancha, sus localidades y otros contextos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Usos comunicativos de la corporalidad: juego dramático, mímica, representación, imitación y baile a través de gestos, movimientos, expresión facial, posturas, ritmo y otros. Comunicación y comprensión de sensaciones, sentimientos, emociones e ideas complejas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Práctica de actividades rítmico-musicales con carácter expresivo. Coreografías adecuadas a características, posibilidades y limitación. Composición."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Deporte y perspectiva de género: sexismo en el deporte amateur y profesional."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.E.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Deportes olímpicos y paralímpicos, historia e instituciones asociadas a los Juegos Olímpicos y Paralímpicos. Valores pasados y actuales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Interacción eficiente y sostenible con el entorno"
+          },
+          "saberes": [
+            {
+              "id": "EF.3.F.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso: la educación vial desde la actividad física y deportiva. Movilidad segura, saludable y sostenible incluyendo los desplazamientos activos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.F.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Transporte activo, seguro y sostenible: bicicletas, patines, patinetes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.F.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Previsión de riesgos de accidente durante la práctica en el medio natural y urbano: valoración previa y actuación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.F.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Consumo responsable: construcción y reutilización de materiales para la práctica motriz."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.F.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Práctica de actividades físicas en el medio natural y/o urbano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            },
+            {
+              "id": "EF.3.F.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuidado del entorno próximo y de los animales y plantas que en él conviven, como servicio a la comunidad, durante la práctica de actividad física en el medio natural y urbano."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-primaria-decreto-81-2022",
+                "paginas": [
+                  60
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-05",
+    "metodo": "Extracción del texto y las coordenadas del PDF, inspección visual y contraste independiente con Poppler.",
+    "notas": [
+      "Las abreviaturas de área y los identificadores individuales de saber son internos. El decreto publica letras y, cuando procede, números de apartado.",
+      "Las listas de descriptores corresponden a cada competencia específica. El decreto publica criterios y saberes por separado.",
+      "La disposición final primera fija la implantación en primero, tercero y quinto en 2022/2023, y en segundo, cuarto y sexto en 2023/2024.",
+      "Las competencias específicas son comunes a los tres ciclos. Los criterios y saberes se conservan por ciclo."
+    ]
+  }
+}
