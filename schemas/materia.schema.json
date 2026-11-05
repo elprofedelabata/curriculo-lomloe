@@ -99,6 +99,7 @@
             "required": ["curso", "caracter"],
             "properties": {
               "curso": { "type": "integer", "minimum": 1, "maximum": 6 },
+              "codigoOficial": {"type": "string", "minLength": 1, "description": "Código oficial de la materia o ámbito para ese curso, cuando la fuente lo asigna; distinto de la abreviatura interna del proyecto."},
               "caracter": {
                 "type": "string",
                 "enum": ["obligatoria", "optativa", "modalidad", "via", "ambito"]
@@ -204,6 +205,7 @@
       "properties": {
         "id": { "type": "string", "pattern": "^ce-[0-9]+$" },
         "codigoOficial": { "type": "string", "pattern": "^[0-9]+$" },
+        "componente": {"$ref": "#/$defs/textoLocalizado", "description": "Componente del ámbito al que pertenece este elemento; permite conservar la numeración oficial repetida entre componentes."},
         "enunciado": { "$ref": "#/$defs/textoLocalizado" },
         "descripcion": {
           "$ref": "#/$defs/parrafosLocalizados",
@@ -231,7 +233,10 @@
           "required": ["codigo", "nombre"],
           "properties": {
             "codigo": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-            "nombre": { "$ref": "#/$defs/textoLocalizado" }
+            "nombre": { "$ref": "#/$defs/textoLocalizado" },
+            "condicionesAplicacion": {"$ref": "#/$defs/parrafosLocalizados", "description": "Supuestos y límites publicados para aplicar esta variante curricular; no se presume una elección libre entre variantes."},
+            "requiereAutorizacion": {"type": "boolean", "description": "Indica si la oferta o adaptación que activa la variante requiere autorización específica."},
+            "procedencia": {"$ref": "#/$defs/procedencia"}
           }
         },
         "criteriosEvaluacion": {
@@ -315,6 +320,7 @@
       "additionalProperties": false,
       "required": ["codigo", "nombre"],
       "properties": {
+        "componente": {"$ref": "#/$defs/textoLocalizado", "description": "Componente del ámbito al que pertenece este elemento; permite conservar la numeración oficial repetida entre componentes."},
         "codigo": { "type": "string", "pattern": "^[A-ZÑ]+$" },
         "nombre": { "$ref": "#/$defs/textoLocalizado" },
         "saberes": {

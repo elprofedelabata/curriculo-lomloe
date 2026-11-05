@@ -8,11 +8,12 @@
     "bachillerato",
     "cfgb"
   ],
-  "fechaActualizacion": "2026-11-03",
-  "criterioSeleccion": "PDF oficiales auténticos del Boletín Oficial de Cantabria: decretos curriculares de 2022, órdenes de implantación, correcciones de optativas, organización de Diversificación, ampliaciones de Bachillerato y ESPADE y normativa de los ámbitos comunes de CFGB de 2024-2025. Las normas se conservan separadas para poder aplicar conjuntamente sus modificaciones. Solo se extraerán los dos ámbitos comunes de CFGB; los módulos profesionales quedan fuera del alcance.",
+  "fechaActualizacion": "2026-11-05",
+  "criterioSeleccion": "PDF oficiales auténticos del Boletín Oficial de Cantabria: decretos curriculares de 2022, órdenes de implantación, correcciones de optativas, organización de Diversificación, ampliaciones de Bachillerato y ESPADE y normativa de los ámbitos comunes de CFGB de 2024-2025. Las normas se conservan separadas para poder aplicar conjuntamente sus modificaciones. El alcance de CFGB abarca los dos ámbitos comunes.",
   "documentos": [
     {
       "id": "es-cb-infantil-primaria-decreto-66-2022",
+      "idsAnteriores": ["boc-2022-135-decreto-66-2022"],
       "territorio": "es-cb",
       "etapas": [
         "infantil",
@@ -120,7 +121,7 @@
       "paginas": 114,
       "sha256": "06dbe1667a7ff5b00cd9032d8359465736fd78385422707523c0ede03603da04",
       "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=375325",
-      "notas": "Publica íntegramente el anexo II omitido: 17 materias optativas agrupadas. Segunda Lengua Extranjera también aparece en el Decreto 73/2022; se cotejarán ambas versiones antes de extraerla sin duplicación."
+      "notas": "Publica íntegramente el anexo II omitido: 17 materias optativas agrupadas. Tras cotejar ambas versiones de Segunda Lengua Extranjera, el JSON toma como base el Decreto 73/2022 y enlaza esta publicación como fuente complementaria."
     },
     {
       "id": "es-cb-eso-orden-edu-41-2022",
@@ -211,7 +212,7 @@
       "paginas": 18,
       "sha256": "6a5bf329726297944694a95c8f754d63e13d9d1465ca48759a4d5701781e5441",
       "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=407612",
-      "notas": "El artículo dos incorpora una materia vinculada a programa específico en la oferta de cuarto de ESO y sustituye el anexo I de la Orden EDU/40/2022. Los currículos ESPADE publicados en 2024 se conservan como antecedente: para la extracción se usará la Orden EDU/21/2025, que deroga la Orden ECD/78/2018 modificada por esta norma."
+      "notas": "El artículo dos incorpora una materia vinculada a programa específico en la oferta de cuarto de ESO y sustituye el anexo I de la Orden EDU/40/2022. Los currículos ESPADE de 2024 se conservan como antecedente. La extracción se basa en la Orden EDU/21/2025, que deroga la Orden ECD/78/2018."
     },
     {
       "id": "es-cb-cfgb-orden-edu-47-2024",
@@ -229,7 +230,7 @@
       "paginas": 633,
       "sha256": "ce9ac275fefad2bacf82c58c6e2d1ed86ac34d3e1bc9d26c2867b00bc9d9c1ea",
       "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=410297",
-      "notas": "Artículo 6 y anexo XXI (586-626): ámbitos comunes, con distribución en I y II y Educación Físico-Deportiva - Actividad Física y Bienestar Emocional. Se conservará la remisión al Decreto 73/2022 y el carácter prescriptivo de los contenidos de los ámbitos. Los módulos profesionales quedan fuera del alcance. Debe aplicarse la modificación de la Orden EDU/99/2025."
+      "notas": "Artículo 6 y anexo XXI (586-626): ámbitos comunes, con distribución en I y II y Educación Físico-Deportiva - Actividad Física y Bienestar Emocional. Los JSON conservan la remisión al Decreto 73/2022 y el carácter prescriptivo de los contenidos de los ámbitos. Los códigos por curso incorporan la modificación de la Orden EDU/99/2025."
     },
     {
       "id": "es-cb-eso-bachillerato-orden-edu-21-2025",
@@ -248,7 +249,7 @@
       "paginas": 41,
       "sha256": "ff05496b84ac49ba05fc8bb189c531b0dd029434d5ea906cf56f1b9dd21a293c",
       "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=419928",
-      "notas": "Anexo I (17-23): Tecnificación Deportiva, ESO. Anexo II (24-31): Tecnificación Deportiva Avanzada I y II, Bachillerato. Se conservará la vinculación al Programa ESPADE. Deroga la Orden ECD/78/2018 y añade una disposición sobre exención de DEVAS a la Orden EDU/42/2022."
+      "notas": "Anexo I (17-23): Tecnificación Deportiva, ESO. Anexo II (24-31): Tecnificación Deportiva Avanzada I y II, Bachillerato. Los JSON de Tecnificación documentan su vinculación al Programa ESPADE. La orden deroga la Orden ECD/78/2018 y añade a la Orden EDU/42/2022 la disposición sobre la exención enlazada en la ficha de DEVAS."
     },
     {
       "id": "es-cb-cfgb-orden-edu-99-2025",
@@ -266,7 +267,7 @@
       "paginas": 78,
       "sha256": "6e95a493b85876eab0d010bce732bc7c7faf0441fd0ea421d5001c4edcd2cc3c",
       "urlOficial": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=426519",
-      "notas": "La disposición final primera modifica la Orden EDU/47/2024, incluidos los códigos de los ámbitos (3161, 3162, 3163 y 3164). El anexo VI (35-71) reproduce los ámbitos comunes para Fabricación de Elementos Metálicos: se cotejará con el anexo XXI de la Orden EDU/47/2024. No se extraerán los módulos profesionales del ciclo."
+      "notas": "La disposición final primera modifica la Orden EDU/47/2024, incluidos los códigos de los ámbitos (3161, 3162, 3163 y 3164). El anexo VI (35–71) reproduce los ámbitos comunes para Fabricación de Elementos Metálicos. Se ha cotejado con el anexo XXI de la Orden EDU/47/2024."
     }
   ]
 }

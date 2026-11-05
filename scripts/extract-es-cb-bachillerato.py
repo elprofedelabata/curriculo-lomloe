@@ -189,13 +189,21 @@ def extract(cache: Path | None = None):
                     "revision": {"estado": "revisado", "fuenteComprobada": True, "fechaUltimaRevision": "2026-11-04", "metodo": "Extracción de texto y coordenadas del PDF oficial, cotejo visual y contraste independiente con Poppler.", "notas": [
                         "La abreviatura de materia y los identificadores de saberes son internos del proyecto, no códigos oficiales. Se conservan los ordinales publicados en numeracionFuente cuando existen.",
                         "Los descriptores se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
-                        "La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado.",
                     ]},
                 }
                 if key != "O":
                     document["fuentes"].append(source_metadata(SOURCES["O"]))
                 if key != "V":
                     document["fuentes"].append(source_metadata(SOURCES["V"], first=4, last=9, annex="I"))
+                if key == "V":
+                    document["fuentes"].append(source_metadata(SOURCES["E"], first=16, last=16))
+                    document["revision"]["fechaUltimaRevision"] = "2026-11-05"
+                    document["revision"]["notas"].extend([
+                        "El horario del anexo I de la Orden EDU/30/2024 sitúa DEVAS como optativa de segundo. Su currículo se publica en el anexo II de esa orden.",
+                        "La disposición final primera de la Orden EDU/21/2025 (página 16 del PDF) añade la disposición adicional décima a la Orden EDU/42/2022. El alumnado que cursa DEVAS puede solicitar la exención si acredita la condición de deportista de alto nivel o alto rendimiento, o si cursa enseñanzas profesionales de Danza. Si se concede, la materia queda fuera de la evaluación y del cálculo de la nota media de Bachillerato.",
+                    ])
+                else:
+                    document["revision"]["notas"].append("La asignación por cursos procede del Decreto 73/2022 y del horario del anexo I de la Orden EDU/30/2024. La oferta de materias depende de la modalidad o vía; el carácter modalidad no implica que todas sean obligatorias para todo el alumnado.")
                 if key == "D":
                     document["revision"]["notas"].append("El decreto entra en vigor al inicio del curso 2022/2023, sin un día concreto; entradaEnVigor queda en null. Su implantación es en 1.º en 2022/2023 y en 2.º en 2023/2024.")
                 if key == "E":

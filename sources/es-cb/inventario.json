@@ -1,7 +1,7 @@
 {
   "territorio": "es-cb",
-  "fecha": "2026-11-04",
-  "estado": "extraccion-en-curso",
+  "fecha": "2026-11-05",
+  "estado": "revisado",
   "criterioAgrupacion": "Una entrada por currículo con competencias propias. Se mantienen agrupadas las variantes con competencias comunes, como Matemáticas A y B o Sistemas de Control y Robótica I y II. Conflictos Morales I y II y Cultura Clásica I y II se separan porque sus competencias son diferentes. Las páginas son posiciones del PDF completo. Segunda Lengua Extranjera I y II de Bachillerato se separan porque el enunciado de la competencia 3 difiere y se publica un currículo completo por nivel.",
   "curriculos": [
     {
@@ -621,7 +621,7 @@
           "paginaInicio": 17
         }
       ],
-      "notas": "Materia vinculada al Programa ESPADE; su currículo de referencia es el de 2025.",
+      "notas": "El artículo 4.c.1.º de la Orden EDU/21/2025 (página 3) sitúa esta optativa de ESPADE en los cuatro cursos de ESO. El anexo I de esa orden publica su currículo.",
       "jsonPath": "data/es-cb/eso/materias/tecnificacion-deportiva.json"
     },
     {
@@ -1298,9 +1298,13 @@
           "fuenteRef": "es-cb-bachillerato-orden-edu-30-2024",
           "anexo": "II",
           "paginaInicio": 10
+        },
+        {
+          "fuenteRef": "es-cb-eso-bachillerato-orden-edu-21-2025",
+          "paginaInicio": 16
         }
       ],
-      "notas": "Se usa la denominación del articulado y de la introducción, «Activo»; el título del anexo dice «Activa». Normalización confirmada por el usuario.",
+      "notas": "Se usa «Activo», la denominación del articulado y de la introducción, según la revisión confirmada. La disposición final primera de la Orden EDU/21/2025 regula la exención de DEVAS.",
       "jsonPath": "data/es-cb/bachillerato/materias/desarrollo-de-estilo-de-vida-activo-y-saludable.json"
     },
     {
@@ -1320,7 +1324,7 @@
     {
       "etapa": "cfgb",
       "nombre": "Ciencias Aplicadas",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
@@ -1338,12 +1342,13 @@
           "paginaInicio": 35
         }
       ],
-      "notas": "Cotejar las versiones del Decreto 73/2022 y de las órdenes de 2024 y 2025, incluidos los cursos I y II y los códigos vigentes. No extraer módulos profesionales."
+      "notas": "Anexo XXI de EDU/47/2024 como base, contrastado con el Decreto 73/2022 y el anexo VI de EDU/99/2025. Códigos por curso actualizados conforme a la modificación de 2025. El contenido común no se secuencia artificialmente entre I y II. No se extraen módulos profesionales. Se separan la configuración ordinaria con Educación Físico-Deportiva y la variante DEVAS para oferta de adultos o adaptación autorizada.",
+      "jsonPath": "data/es-cb/cfgb/materias/ciencias-aplicadas.json"
     },
     {
       "etapa": "cfgb",
       "nombre": "Comunicación y Ciencias Sociales",
-      "estado": "pendiente-extraccion",
+      "estado": "revisado",
       "localizadores": [
         {
           "fuenteRef": "es-cb-eso-bachillerato-decreto-73-2022",
@@ -1361,7 +1366,8 @@
           "paginaInicio": 44
         }
       ],
-      "notas": "Cotejar las versiones del Decreto 73/2022 y de las órdenes de 2024 y 2025, incluidos los cursos I y II y los códigos vigentes. No extraer módulos profesionales."
+      "notas": "Anexo XXI de EDU/47/2024 como base, contrastado con el Decreto 73/2022 y el anexo VI de EDU/99/2025. Códigos por curso actualizados conforme a la modificación de 2025. El contenido común no se secuencia artificialmente entre I y II. No se extraen módulos profesionales.",
+      "jsonPath": "data/es-cb/cfgb/materias/comunicacion-y-ciencias-sociales.json"
     }
   ],
   "ambitosSinDesarrolloIndependiente": [

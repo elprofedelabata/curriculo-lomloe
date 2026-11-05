@@ -426,13 +426,13 @@ def extract() -> list[dict]:
                         "La abreviatura de materia y los identificadores individuales de saberes son internos del proyecto, no códigos oficiales. Los ordinales publicados en los saberes se conservan en numeracionFuente, cuando existen.",
                         "Los descriptores operativos se conservan por competencia específica. No se inventan asociaciones criterio-saber ni descriptores por criterio.",
                         "Los desarrollos publicados para un grupo de cursos se reproducen en los cursos en que se oferta la materia, conservando su carácter compartido: la repetición no atribuye una secuenciación por curso que la fuente no publica.",
-                        "La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.",
                     ]},
                 }
                 if key != "E":
                     organization = next(item for item in CATALOG["documentos"] if item["id"] == "es-cb-eso-orden-edu-40-2022")
                     timetable = next(item for item in CATALOG["documentos"] if item["id"] == "es-cb-eso-bachillerato-orden-edu-36-2024")
                     document["fuentes"].extend([source_metadata(organization), source_metadata(timetable, first=17, last=18, annex="III")])
+                    document["revision"]["notas"].append("La organización por cursos procede de los artículos 10 y 11 del Decreto 73/2022 y del anexo III de la Orden EDU/36/2024, que sustituye el anexo I de la Orden EDU/40/2022.")
                     document["revision"]["notas"].append("aplicableDesdeCurso indica el primer curso académico de implantación en los cursos de esta materia: 2022/2023 si incluye 1.º o 3.º, y 2023/2024 si solo se oferta en 2.º o 4.º, según el calendario normativo.")
                 if code in ("CCI", "CCII"):
                     document["revision"]["notas"].append("Los bloques se publican como Bloque 1, Bloque 2, etc., sin letras. Se les asignan letras internas para los identificadores del esquema y se conserva la cabecera numerada completa en nombre.")
@@ -449,7 +449,8 @@ def extract() -> list[dict]:
                 if code in ("CCI", "CCII", "CMNTI", "CMNTII"):
                     document["revision"]["notas"].append("Las versiones I y II tienen competencias específicas diferentes y se representan en JSON separados para conservar su numeración y sus vínculos sin mezclarlos. Cultura Clásica I y II comparten la introducción general publicada antes del primer nivel.")
                 if code == "TD":
-                    document["revision"]["notas"].append("Materia vinculada al Programa ESPADE, para su alumnado en Centros Educativos de Referencia autorizados y con federaciones deportivas participantes. El artículo 4.c.1.º de la Orden EDU/21/2025 la sitúa en los cuatro cursos. Su entrada en vigor es el 15 de mayo de 2025; no se atribuye un curso académico inicial que la orden no fija.")
+                    document["revision"]["fechaUltimaRevision"] = "2026-11-05"
+                    document["revision"]["notas"].append("El artículo 4.c.1.º de la Orden EDU/21/2025 (página 3 del PDF) sitúa la materia en los cuatro cursos de ESO como optativa vinculada a ESPADE. Se dirige al alumnado del programa en Centros Educativos de Referencia autorizados, con federaciones deportivas participantes. La orden entra en vigor el 15 de mayo de 2025 y no fija el curso académico inicial.")
                 normalize(document)
                 output.append(document)
             except (AssertionError, StopIteration, IndexError, ValueError) as error:

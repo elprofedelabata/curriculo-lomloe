@@ -19,7 +19,7 @@ import fitz
 ROOT = Path(__file__).resolve().parents[1]
 PDF = ROOT / "sources/es-cb/normativa/infantil-primaria/2022-07-07-decreto-66-2022-curriculo-infantil-primaria.pdf"
 DEST = ROOT / "data/es-cb/primaria/materias"
-SOURCE_ID = "boc-2022-135-decreto-66-2022"
+SOURCE_ID = "es-cb-infantil-primaria-decreto-66-2022"
 URL = "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374267"
 AREAS = (
     ("conocimiento-del-medio-natural-social-y-cultural", "Conocimiento del Medio Natural, Social y Cultural", "CM", 9),
@@ -42,7 +42,7 @@ class Line:
 
 def lines_from_pdf() -> list[Line]:
     catalog = json.loads((ROOT / "sources/es-cb/normativa/catalogo.json").read_text(encoding="utf-8"))
-    source = next(d for d in catalog["documentos"] if d["id"] == "es-cb-infantil-primaria-decreto-66-2022")
+    source = next(d for d in catalog["documentos"] if d["id"] == SOURCE_ID)
     assert hashlib.sha256(PDF.read_bytes()).hexdigest() == source["sha256"]
     result = []
     with fitz.open(PDF) as pdf:

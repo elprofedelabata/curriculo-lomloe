@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PDF = ROOT / "sources/es-cb/normativa/infantil-primaria/2022-07-07-decreto-66-2022-curriculo-infantil-primaria.pdf"
-SOURCE_ID = "boc-2022-135-decreto-66-2022"
+SOURCE_ID = "es-cb-infantil-primaria-decreto-66-2022"
 NAMES = (
     "Conocimiento del Medio Natural, Social y Cultural", "Educación Artística",
     "Educación Física", "Educación en Valores Cívicos y Éticos",

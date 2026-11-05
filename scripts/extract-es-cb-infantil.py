@@ -18,7 +18,7 @@ import fitz
 ROOT = Path(__file__).resolve().parents[1]
 PDF = ROOT / "sources/es-cb/normativa/infantil-primaria/2022-07-07-decreto-66-2022-curriculo-infantil-primaria.pdf"
 DEST = ROOT / "data/es-cb/infantil/materias"
-SOURCE_ID = "boc-2022-135-decreto-66-2022"
+SOURCE_ID = "es-cb-infantil-primaria-decreto-66-2022"
 SOURCE_URL = "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=374267"
 AREAS = (
     ("crecimiento-en-armonia", "Crecimiento en Armonía", "CA", 4, (12, 14), (32, 35), (4, 4)),
@@ -36,7 +36,7 @@ class Line:
 
 def source_lines() -> list[Line]:
     catalog = json.loads((ROOT / "sources/es-cb/normativa/catalogo.json").read_text(encoding="utf-8"))
-    source = next(d for d in catalog["documentos"] if d["id"] == "es-cb-infantil-primaria-decreto-66-2022")
+    source = next(d for d in catalog["documentos"] if d["id"] == SOURCE_ID)
     assert hashlib.sha256(PDF.read_bytes()).hexdigest() == source["sha256"]
     result = []
     with fitz.open(PDF) as pdf:

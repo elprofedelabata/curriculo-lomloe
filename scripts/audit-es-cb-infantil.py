@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PDF = ROOT / "sources/es-cb/normativa/infantil-primaria/2022-07-07-decreto-66-2022-curriculo-infantil-primaria.pdf"
-SOURCE_ID = "boc-2022-135-decreto-66-2022"
+SOURCE_ID = "es-cb-infantil-primaria-decreto-66-2022"
 # Se reconstruye la redacción publicada para cotejar las normalizaciones
 # confirmadas en CB-INF-001 a 007, sin admitir diferencias adicionales.
 PUBLISHED = (
@@ -131,6 +131,7 @@ def main() -> None:
     totals = Counter()
     for index, name in enumerate(names):
         d = documents[name]
+        assert d["fuentes"][0]["id"] == SOURCE_ID
         report["schemaErrors"].extend([d["id"], e.json_path, e.message] for e in validator.iter_errors(d))
         assert [item["ciclo"] for item in d["materia"]["ciclos"]] == [1, 2]
         assert [item["ciclo"] for item in d["desarrollos"]] == [1, 2]
@@ -138,16 +139,19 @@ def main() -> None:
         ces = {ce["id"] for ce in d["competenciasEspecificas"]}
         identifiers = []
         for ce in d["competenciasEspecificas"]:
+            assert ce["procedencia"]["fuenteRef"] == SOURCE_ID
             assert ce["descriptoresOperativosRefs"] == []
             assert ce["id"] == "ce-" + ce["codigoOficial"]
         for dev in d["desarrollos"]:
             for item in dev["criteriosEvaluacion"]:
+                assert item["procedencia"]["fuenteRef"] == SOURCE_ID
                 assert item["competenciaEspecificaRef"] in ces
                 assert item["competenciaEspecificaRef"] == "ce-" + item["codigoOficial"].split(".")[0]
                 assert item["saberesBasicosRefs"] == []
                 identifiers.append(item["id"])
             for block in dev["bloquesSaberes"]:
                 for item in block["saberes"]:
+                    assert item["procedencia"]["fuenteRef"] == SOURCE_ID
                     assert item["codigoOficial"] is None and "numeracionFuente" not in item
                     identifiers.append(item["id"])
         assert len(ces) == len(d["competenciasEspecificas"])

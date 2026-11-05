@@ -7,7 +7,7 @@ const dist = resolve(root, "dist");
 const catalog = JSON.parse(await readFile(resolve(dist, "catalogo.json"), "utf8"));
 const failures = [];
 
-check(catalog.version === "1.9.0", "Versión inesperada del catálogo.");
+check(catalog.version === "1.10.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
 check(catalog.etapas.length === 30, `Se esperaban 30 etapas territoriales y hay ${catalog.etapas.length}.`);
@@ -17,9 +17,9 @@ check(cantabriaStages.find((item) => item.codigo === "infantil")?.estado === "co
 check(cantabriaStages.find((item) => item.codigo === "primaria")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "primaria")?.materias === 7, "Primaria de Cantabria debe mostrar sus siete áreas completadas.");
 check(cantabriaStages.find((item) => item.codigo === "eso")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "eso")?.materias === 37 && cantabriaStages.find((item) => item.codigo === "eso")?.ambitosPorRemision === 2, "ESO de Cantabria debe mostrar 37 documentos revisados y dos ámbitos por remisión.");
 check(cantabriaStages.find((item) => item.codigo === "bachillerato")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "bachillerato")?.materias === 53, "Bachillerato de Cantabria debe mostrar sus 53 documentos revisados.");
-check(cantabriaStages.find((item) => item.codigo === "cfgb")?.estado === "fuentes" && cantabriaStages.find((item) => item.codigo === "cfgb")?.materias === 0, "CFGB de Cantabria debe seguir con fuentes recopiladas.");
+check(cantabriaStages.find((item) => item.codigo === "cfgb")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "cfgb")?.materias === 2, "CFGB de Cantabria debe mostrar sus dos ámbitos revisados.");
 check(catalog.documentosNormativos.filter((item) => item.territorio === "es-cb").length === 14, "Faltan fuentes oficiales de Cantabria en el catálogo.");
-check(catalog.materias.length === 607, `Se esperaban 607 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.length === 609, `Se esperaban 609 materias y hay ${catalog.materias.length}.`);
 check(catalog.materias.filter((item) => item.etapa === "infantil").length === 18, "El catálogo de Infantil no contiene 18 áreas territoriales.");
 const cantabriaInfant = catalog.materias.filter((item) => item.territorio === "es-cb" && item.etapa === "infantil");
 check(cantabriaInfant.length === 3 && cantabriaInfant.every((item) => item.revision?.estado === "revisado"), "Las tres áreas de Infantil de Cantabria deben estar revisadas.");
@@ -30,6 +30,9 @@ const cantabriaPrimary = catalog.materias.filter((item) => item.territorio === "
 check(cantabriaPrimary.length === 7 && cantabriaPrimary.every((item) => item.revision?.estado === "revisado"), "Las siete áreas de Primaria de Cantabria deben estar revisadas.");
 check(cantabriaPrimary.reduce((sum, item) => sum + item.estadisticas.competencias, 0) === 46 && cantabriaPrimary.reduce((sum, item) => sum + item.estadisticas.criterios, 0) === 302 && cantabriaPrimary.reduce((sum, item) => sum + item.estadisticas.saberes, 0) === 641, "Falta contenido en Primaria de Cantabria.");
 check(cantabriaPrimary.reduce((sum, item) => sum + item.estadisticas.desarrollos, 0) === 19, "Primaria de Cantabria debe conservar sus 19 desarrollos.");
+const cantabriaEarlyYearsDecree = catalog.documentosNormativos.find((item) => item.territorio === "es-cb" && item.codigoBoc === "CVE-2022-5545");
+check(cantabriaEarlyYearsDecree?.id === "es-cb-infantil-primaria-decreto-66-2022" && cantabriaEarlyYearsDecree.idsAnteriores?.includes("boc-2022-135-decreto-66-2022"), "El Decreto 66/2022 debe publicar su identificador común y el anterior.");
+check([...cantabriaInfant, ...cantabriaPrimary].every((item) => item.fuentes[0]?.id === cantabriaEarlyYearsDecree?.id), "Infantil y Primaria de Cantabria deben enlazar por ID con el Decreto 66/2022 del catálogo.");
 const cantabriaValues = cantabriaPrimary.find((item) => item.codigo === "EVCE");
 check(cantabriaValues?.cursos.length === 1 && cantabriaValues.cursos[0].curso === 5 && cantabriaValues.ciclos.length === 0, "Valores de Cantabria debe representarse únicamente en 5.º de Primaria.");
 check(cantabriaPrimary.filter((item) => item.codigo !== "EVCE").every((item) => item.ciclos.map((cycle) => cycle.ciclo).join(",") === "1,2,3" && item.cursos.length === 0), "Las otras seis áreas deben conservar los tres ciclos de Primaria.");
@@ -49,7 +52,10 @@ check(cantabriaBaccalaureate.length === 53 && cantabriaBaccalaureate.every((item
 check(cantabriaBaccalaureate.reduce((sum, item) => sum + item.estadisticas.competencias, 0) === 321 && cantabriaBaccalaureate.reduce((sum, item) => sum + item.estadisticas.desarrollos, 0) === 67 && cantabriaBaccalaureate.reduce((sum, item) => sum + item.estadisticas.criterios, 0) === 1037 && cantabriaBaccalaureate.reduce((sum, item) => sum + item.estadisticas.saberes, 0) === 2016, "Los recuentos de Bachillerato de Cantabria no coinciden con el cotejo.");
 check(catalog.incidencias.filter((item) => item.id.startsWith("CB-BACH-")).length === 34 && catalog.incidencias.filter((item) => item.id.startsWith("CB-BACH-")).every((item) => item.revisada), "Las 34 decisiones de Bachillerato de Cantabria deben estar confirmadas.");
 check(cantabriaBaccalaureate.find((item) => item.codigo === "SLEI")?.cursos[0].curso === 1 && cantabriaBaccalaureate.find((item) => item.codigo === "SLEII")?.cursos[0].curso === 2, "Segunda Lengua Extranjera debe conservar sus dos currículos publicados de Bachillerato.");
-check(cantabriaBaccalaureate.find((item) => item.codigo === "DEVAS")?.vigencia.entradaEnVigor === "2024-06-20" && cantabriaBaccalaureate.find((item) => item.codigo === "TDA")?.fuentes[0].id === "es-cb-eso-bachillerato-orden-edu-21-2025", "Las nuevas optativas deben conservar las fuentes y fechas de las órdenes correspondientes.");
+const cantabriaDevas = cantabriaBaccalaureate.find((item) => item.codigo === "DEVAS");
+check(cantabriaDevas?.vigencia.entradaEnVigor === "2024-06-20" && cantabriaDevas.fuentes[0]?.id === "es-cb-bachillerato-orden-edu-30-2024", "DEVAS debe conservar la fuente curricular y su fecha de entrada en vigor.");
+check(cantabriaDevas?.fuentes.some((item) => item.id === "es-cb-eso-bachillerato-orden-edu-21-2025" && item.paginasMateria?.desde === 16 && item.paginasMateria?.hasta === 16), "DEVAS debe enlazar la disposición que regula la exención.");
+check(cantabriaBaccalaureate.find((item) => item.codigo === "TDA")?.fuentes[0].id === "es-cb-eso-bachillerato-orden-edu-21-2025", "Tecnificación Deportiva Avanzada debe conservar la fuente curricular de ESPADE.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "infantil").length === 3, "El catálogo de Aragón no contiene sus 3 áreas de Infantil.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "infantil").length === 3, "El catálogo de Asturias no contiene sus 3 áreas de Infantil.");
 check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "infantil" && item.revision?.estado === "revisado").length === 3, "El catálogo de Illes Balears no contiene sus 3 áreas de Infantil revisadas.");
@@ -146,7 +152,26 @@ check(
 );
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "bachillerato").length === 59, "El catálogo de Aragón no contiene sus 59 currículos de Bachillerato.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "bachillerato").length === 48, "El catálogo de Asturias no contiene sus 48 currículos desarrollados de Bachillerato.");
-check(catalog.materias.filter((item) => item.etapa === "cfgb").length === 10, "El catálogo de CFGB no contiene 10 ámbitos territoriales.");
+check(catalog.materias.filter((item) => item.etapa === "cfgb").length === 12, "El catálogo de CFGB no contiene 12 ámbitos territoriales.");
+const cantabriaBasic = catalog.materias.filter((item) => item.territorio === "es-cb" && item.etapa === "cfgb");
+check(cantabriaBasic.length === 2 && cantabriaBasic.every((item) => item.revision?.estado === "revisado" && item.schemaVersion === "0.9.0"), "Los dos ámbitos de Cantabria deben estar revisados en el formato 0.9.0.");
+check(cantabriaBasic.reduce((sum, item) => sum + item.estadisticas.competencias, 0) === 29 && cantabriaBasic.reduce((sum, item) => sum + item.estadisticas.desarrollos, 0) === 6 && cantabriaBasic.reduce((sum, item) => sum + item.estadisticas.criterios, 0) === 200 && cantabriaBasic.reduce((sum, item) => sum + item.estadisticas.saberes, 0) === 636, "Los recuentos de las configuraciones de CFGB de Cantabria no coinciden con el cotejo.");
+check(catalog.incidencias.filter((item) => item.id.startsWith("CB-CFGB-")).length === 12 && catalog.incidencias.filter((item) => item.id.startsWith("CB-CFGB-")).every((item) => item.revisada), "Las doce decisiones de CFGB de Cantabria deben estar confirmadas.");
+for (const matter of cantabriaBasic) {
+  const expectedCodes = matter.codigo === "CA" ? "3163,3164" : "3161,3162";
+  check(matter.cursos.map((item) => item.codigoOficial).join(",") === expectedCodes, "Falta la codificación vigente por curso de CFGB de Cantabria.");
+}
+const cantabriaScience = JSON.parse(await readFile(resolve(dist, "data/es-cb/cfgb/materias/ciencias-aplicadas.json"), "utf8"));
+check(cantabriaScience.desarrollos.length === 4, "Ciencias Aplicadas debe conservar dos cursos para cada configuración publicada.");
+for (const development of cantabriaScience.desarrollos) {
+  const adapted = development.variante?.codigo === "devas";
+  check(["ordinaria", "devas"].includes(development.variante?.codigo) && development.variante.requiereAutorizacion === adapted && development.variante.condicionesAplicacion.es.length > 0 && development.variante.procedencia.fuenteRef === "es-cb-cfgb-orden-edu-47-2024", "No se conservan las condiciones de la variante de Ciencias Aplicadas.");
+  const active = new Set(development.criteriosEvaluacion.map((criterion) => criterion.competenciaEspecificaRef));
+  check(active.size === (adapted ? 16 : 13) && [...active].every((id) => {
+    const number = Number(id.replace("ce-", ""));
+    return number <= 8 || (adapted ? number >= 14 : number >= 9 && number <= 13);
+  }), "Se han mezclado los componentes alternativos de actividad física.");
+}
 check(catalog.materias.filter((item) => item.territorio === "es-cn" && item.etapa === "cfgb" && item.revision?.estado === "revisado").length === 2, "Faltan los dos ámbitos comunes revisados de CFGB de Canarias.");
 check(catalog.incidencias.filter((item) => item.id.startsWith("CN-CFGB-")).length === 10, "Faltan las diez incidencias de CFGB de Canarias.");
 check(catalog.incidencias.filter((item) => item.id.startsWith("CN-CFGB-") && !item.revisada).length === 0, "Las incidencias de CFGB de Canarias deben estar revisadas.");
@@ -182,7 +207,7 @@ check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) 
 check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
 const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
 check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
-check(catalog.incidencias.length === 336, `Se esperaban 336 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 348, `Se esperaban 348 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");

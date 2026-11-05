@@ -13,7 +13,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 
 ## Progreso global
 
-- **Currículos terminados en total:** 607.
+- **Currículos terminados en total:** 609.
 - **Referencias documentadas de Andalucía, Aragón, Asturias e Illes Balears:** 401 (398 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
 - **Currículos terminados en esas cuatro comunidades:** 398 de 398
 - **Currículos pendientes entre los inventariados en esas cuatro comunidades:** 0
@@ -23,7 +23,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 - **Principado de Asturias:** 87 de 87 currículos con desarrollo cerrado; 3 fichas informativas
 - **Illes Balears:** 93 de 93
 - **Canarias:** 109 de 109 JSON revisados de las cinco etapas, incluidas las dos concreciones complementarias del silbo gomero
-- **Cantabria:** Infantil, Primaria, ESO y Bachillerato completados, con 100 JSON revisados, sus 97 decisiones confirmadas y dos fichas de Diversificación por remisión. CFGB conserva sus fuentes recopiladas. El inventario actualizado reúne 102 currículos candidatos
+- **Cantabria:** 102 de 102 JSON revisados de las cinco etapas, con 109 decisiones confirmadas y dos fichas de Diversificación por remisión.
 
 ## Andalucía
 
@@ -855,11 +855,11 @@ Los 109 JSON canarios cumplen el esquema y están revisados, incluidas las dos c
 ### Progreso
 
 - **Fuentes oficiales:** 14 PDF del BOC archivados, con fechas, número de páginas y SHA-256.
-- **Estado:** Infantil, Primaria, ESO y Bachillerato revisados, con 100 JSON: tres de Infantil, siete de Primaria, 37 de ESO y 53 de Bachillerato. CFGB conserva sus fuentes recopiladas.
-- **Inventario actualizado:** 102 currículos candidatos: 3 de Infantil, 7 de Primaria, 37 de ESO, 53 de Bachillerato y 2 ámbitos comunes de CFGB. Se separan las versiones con competencias diferentes de Cultura Clásica, Conflictos Morales y Segunda Lengua Extranjera de Bachillerato.
+- **Estado:** las cinco etapas están revisadas, con 102 JSON curriculares.
+- **Inventario actualizado:** 102 currículos revisados: 3 de Infantil, 7 de Primaria, 37 de ESO, 53 de Bachillerato y 2 ámbitos comunes de CFGB. Se separan las versiones con competencias diferentes de Cultura Clásica, Conflictos Morales y Segunda Lengua Extranjera de Bachillerato.
 - **Diversificación:** dos [fichas por remisión a materias](data/es-cb/eso/ambitos-por-remision.json), documentadas aparte de los currículos cerrados.
-- **Incidencias:** 97 decisiones de Infantil, Primaria, ESO y Bachillerato confirmadas; ninguna pendiente en el [registro de Cantabria](incidencias/es-cb.md).
-- **Siguiente paso:** extraer los ámbitos comunes de CFGB. El [informe de Bachillerato](sources/es-cb/REVISION-BACHILLERATO.md) documenta la revisión y los cambios confirmados de sus 53 JSON.
+- **Incidencias:** 109 decisiones confirmadas, incluidas las 12 de CFGB, en el [registro de Cantabria](incidencias/es-cb.md).
+- **Informes de revisión:** [Bachillerato](sources/es-cb/REVISION-BACHILLERATO.md) y [CFGB](sources/es-cb/REVISION-CFGB.md).
 
 Las páginas son posiciones del PDF completo. Los grupos de cursos publicados se reproducen solo en los cursos de oferta, sin inventar una secuenciación. Segunda Lengua Extranjera tiene dos publicaciones divergentes; por decisión confirmada del usuario, el JSON utiliza el decreto como base única y mantiene ambas fuentes enlazadas.
 
@@ -986,8 +986,10 @@ La Orden EDU/41/2022, artículo 5, remite al currículo de las materias que inte
 
 ### CFGB — ámbitos comunes
 
-- [ ] Ciencias Aplicadas — [PDF, anexo I-C, p. 320](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=320)
-- [ ] Comunicación y Ciencias Sociales — [PDF, anexo I-C, p. 334](sources/es-cb/normativa/eso-bachillerato/2022-07-27-decreto-73-2022-curriculo-eso-bachillerato.pdf#page=334)
+Dos JSON revisados y doce decisiones confirmadas. Ciencias Aplicadas conserva dos configuraciones alternativas, ordinaria y DEVAS, con condiciones explícitas; el contenido publicado se comparte entre los dos cursos sin inventar una secuenciación. [Informe de CFGB](sources/es-cb/REVISION-CFGB.md).
+
+- [x] Ciencias Aplicadas — [JSON](data/es-cb/cfgb/materias/ciencias-aplicadas.json) — [PDF, anexo XXI, p. 586](sources/es-cb/normativa/cfgb/2024-09-30-orden-edu-47-2024-cfgb.pdf#page=586)
+- [x] Comunicación y Ciencias Sociales — [JSON](data/es-cb/cfgb/materias/comunicacion-y-ciencias-sociales.json) — [PDF, anexo XXI, p. 597](sources/es-cb/normativa/cfgb/2024-09-30-orden-edu-47-2024-cfgb.pdf#page=597)
 
 ### Documentación de partida
 
