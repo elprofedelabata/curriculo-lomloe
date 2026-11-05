@@ -1,0 +1,98 @@
+{
+  "territorio": "es-cm",
+  "fecha": "2026-11-05",
+  "estado": "extraccion-en-curso",
+  "criterioAgrupacion": "Este inventario inicial enumera las tres áreas de Infantil y los dos ámbitos comunes de Grado Básico. Los localizadores son posiciones en el PDF. Una página se comparte cuando comienza un currículo después de terminar el anterior. La guía normativa localiza los anexos de Primaria, ESO y Bachillerato.",
+  "curriculos": [
+    {
+      "etapa": "infantil",
+      "nombre": "Crecimiento en Armonía",
+      "estado": "revisado",
+      "ciclos": [
+        1,
+        2
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-infantil-decreto-80-2022",
+          "anexo": "II",
+          "paginaInicio": 19,
+          "paginaFin": 26
+        }
+      ],
+      "jsonPath": "data/es-cm/infantil/materias/crecimiento-en-armonia.json"
+    },
+    {
+      "etapa": "infantil",
+      "nombre": "Descubrimiento y Exploración del Entorno",
+      "estado": "revisado",
+      "ciclos": [
+        1,
+        2
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-infantil-decreto-80-2022",
+          "anexo": "II",
+          "paginaInicio": 26,
+          "paginaFin": 31
+        }
+      ],
+      "jsonPath": "data/es-cm/infantil/materias/descubrimiento-y-exploracion-del-entorno.json"
+    },
+    {
+      "etapa": "infantil",
+      "nombre": "Comunicación y Representación de la Realidad",
+      "estado": "revisado",
+      "ciclos": [
+        1,
+        2
+      ],
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-infantil-decreto-80-2022",
+          "anexo": "II",
+          "paginaInicio": 31,
+          "paginaFin": 39
+        }
+      ],
+      "jsonPath": "data/es-cm/infantil/materias/comunicacion-y-representacion-de-la-realidad.json"
+    },
+    {
+      "etapa": "cfgb",
+      "nombre": "Ciencias Aplicadas",
+      "estado": "localizado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "V",
+          "paginaInicio": 251,
+          "paginaFin": 259
+        },
+        {
+          "fuenteRef": "es-cm-cfgb-decreto-78-2024",
+          "articulo": "undécimo.2.2",
+          "paginaInicio": 8
+        }
+      ]
+    },
+    {
+      "etapa": "cfgb",
+      "nombre": "Comunicación y Ciencias Sociales",
+      "estado": "localizado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "V",
+          "paginaInicio": 259,
+          "paginaFin": 268
+        },
+        {
+          "fuenteRef": "es-cm-cfgb-decreto-78-2024",
+          "articulo": "undécimo.2.2",
+          "paginaInicio": 8
+        }
+      ]
+    }
+  ]
+}

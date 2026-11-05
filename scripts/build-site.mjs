@@ -252,7 +252,7 @@ await writeFile(resolve(dist, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${siteUrl}/</loc></url>\n</urlset>\n`;
 await writeFile(resolve(dist, "sitemap.xml"), sitemap);
 
-console.log(`Sitio estático preparado: ${matters.length} materias, ${stages.length} etapas publicadas y ${incidents.length} incidencias.`);
+console.log(`Sitio estático preparado: ${matters.length} materias, ${stages.length} etapas en el catálogo y ${incidents.length} incidencias.`);
 
 function collectKnowledge(development) {
   const collect = (node) => node.saberes || (node.apartados || []).flatMap(collect);

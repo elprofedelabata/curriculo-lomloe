@@ -10,7 +10,10 @@ const failures = [];
 check(catalog.version === "1.10.0", "Versión inesperada del catálogo.");
 check(catalog.territorios.length === 17, `Se esperaban 17 territorios y hay ${catalog.territorios.length}.`);
 check(catalog.progreso.length === 17, `Se esperaban 17 comunidades y hay ${catalog.progreso.length}.`);
-check(catalog.etapas.length === 30, `Se esperaban 30 etapas territoriales y hay ${catalog.etapas.length}.`);
+check(catalog.etapas.length === 35, `Se esperaban 35 etapas territoriales y hay ${catalog.etapas.length}.`);
+const castillaLaManchaStages = catalog.etapas.filter((item) => item.territorio === "es-cm");
+check(castillaLaManchaStages.length === 5 && castillaLaManchaStages.every((item) => item.fuentes > 0 && (item.codigo === "infantil" ? item.estado === "completo" && item.materias === 3 : item.estado === "fuentes")), "Castilla-La Mancha debe mostrar Infantil completo y las fuentes de las demás etapas.");
+check(catalog.documentosNormativos.filter((item) => item.territorio === "es-cm").length === 12, "Faltan publicaciones del DOCM de Castilla-La Mancha.");
 const cantabriaStages = catalog.etapas.filter((item) => item.territorio === "es-cb");
 check(cantabriaStages.length === 5 && cantabriaStages.every((item) => item.fuentes > 0), "Cantabria debe conservar las fuentes recopiladas de sus cinco etapas.");
 check(cantabriaStages.find((item) => item.codigo === "infantil")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "infantil")?.materias === 3, "Infantil de Cantabria debe mostrar sus tres áreas completadas.");
@@ -19,8 +22,13 @@ check(cantabriaStages.find((item) => item.codigo === "eso")?.estado === "complet
 check(cantabriaStages.find((item) => item.codigo === "bachillerato")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "bachillerato")?.materias === 53, "Bachillerato de Cantabria debe mostrar sus 53 documentos revisados.");
 check(cantabriaStages.find((item) => item.codigo === "cfgb")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "cfgb")?.materias === 2, "CFGB de Cantabria debe mostrar sus dos ámbitos revisados.");
 check(catalog.documentosNormativos.filter((item) => item.territorio === "es-cb").length === 14, "Faltan fuentes oficiales de Cantabria en el catálogo.");
-check(catalog.materias.length === 609, `Se esperaban 609 materias y hay ${catalog.materias.length}.`);
-check(catalog.materias.filter((item) => item.etapa === "infantil").length === 18, "El catálogo de Infantil no contiene 18 áreas territoriales.");
+check(catalog.materias.length === 612, `Se esperaban 612 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.filter((item) => item.etapa === "infantil").length === 21, "El catálogo de Infantil no contiene 21 áreas territoriales.");
+const castillaLaManchaInfant = catalog.materias.filter((item) => item.territorio === "es-cm" && item.etapa === "infantil");
+check(castillaLaManchaInfant.length === 3 && castillaLaManchaInfant.every((item) => item.revision?.estado === "revisado" && item.ciclos.map((cycle) => cycle.ciclo).join(",") === "1,2" && item.fuentes[0]?.id === "es-cm-infantil-decreto-80-2022"), "Infantil de Castilla-La Mancha debe conservar las tres áreas revisadas, ambos ciclos y su fuente.");
+check(castillaLaManchaInfant.reduce((sum, item) => sum + item.estadisticas.competencias, 0) === 12 && castillaLaManchaInfant.reduce((sum, item) => sum + item.estadisticas.criterios, 0) === 90 && castillaLaManchaInfant.reduce((sum, item) => sum + item.estadisticas.saberes, 0) === 174, "Los recuentos de Infantil de Castilla-La Mancha deben coincidir con el cotejo.");
+const castillaLaManchaInfantIncidents = catalog.incidencias.filter((item) => item.id.startsWith("CM-INF-"));
+check(castillaLaManchaInfantIncidents.length === 11 && castillaLaManchaInfantIncidents.every((item) => item.revisada), "Las once decisiones de Infantil de Castilla-La Mancha deben estar confirmadas.");
 const cantabriaInfant = catalog.materias.filter((item) => item.territorio === "es-cb" && item.etapa === "infantil");
 check(cantabriaInfant.length === 3 && cantabriaInfant.every((item) => item.revision?.estado === "revisado"), "Las tres áreas de Infantil de Cantabria deben estar revisadas.");
 check(cantabriaInfant.every((item) => item.ciclos.map((cycle) => cycle.ciclo).join(",") === "1,2" && item.vigencia.entradaEnVigor === null && item.vigencia.aplicableDesdeCurso === "2022/2023"), "Infantil de Cantabria debe conservar ambos ciclos y la vigencia expresada por curso académico.");
@@ -207,7 +215,7 @@ check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) 
 check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
 const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
 check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
-check(catalog.incidencias.length === 348, `Se esperaban 348 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 359, `Se esperaban 359 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");
@@ -358,7 +366,7 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Sitio estático válido: ${catalog.materias.length} materias, ${catalog.etapas.length} etapas publicadas, ${catalog.incidencias.length} incidencias y ${catalog.progreso.length} comunidades.`);
+console.log(`Sitio estático válido: ${catalog.materias.length} materias, ${catalog.etapas.length} etapas en el catálogo, ${catalog.incidencias.length} incidencias y ${catalog.progreso.length} comunidades.`);
 
 function check(condition, message) {
   if (!condition) failures.push(message);

@@ -13,7 +13,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 
 ## Progreso global
 
-- **Currículos terminados en total:** 609.
+- **Currículos terminados en total:** 612.
 - **Referencias documentadas de Andalucía, Aragón, Asturias e Illes Balears:** 401 (398 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
 - **Currículos terminados en esas cuatro comunidades:** 398 de 398
 - **Currículos pendientes entre los inventariados en esas cuatro comunidades:** 0
@@ -24,6 +24,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 - **Illes Balears:** 93 de 93
 - **Canarias:** 109 de 109 JSON revisados de las cinco etapas, incluidas las dos concreciones complementarias del silbo gomero
 - **Cantabria:** 102 de 102 JSON revisados de las cinco etapas, con 109 decisiones confirmadas y dos fichas de Diversificación por remisión.
+- **Castilla-La Mancha:** tres áreas de Infantil revisadas, con 11 decisiones confirmadas. Las fuentes de las cinco etapas están archivadas.
 
 ## Andalucía
 
@@ -996,3 +997,22 @@ Dos JSON revisados y doce decisiones confirmadas. Ciencias Aplicadas conserva do
 - [Catálogo de fuentes oficiales](sources/es-cb/normativa/catalogo.json)
 - [Guía de lectura y alcance de las normas](sources/es-cb/normativa/README.md)
 - [Inventario inicial con localizadores de todas las fuentes](sources/es-cb/inventario.json)
+
+## Castilla-La Mancha
+
+Las cinco etapas tienen sus fuentes de partida recopiladas. La [guía normativa](sources/es-cm/normativa/README.md) localiza los anexos y las modificaciones. El [inventario inicial](sources/es-cm/inventario.json) identifica las áreas de Infantil y los dos ámbitos comunes de Grado Básico.
+
+### Infantil — áreas
+
+Tres JSON cotejados y revisados. El [informe de Infantil](sources/es-cm/REVISION-INFANTIL.md) detalla la extracción y el [registro de Castilla-La Mancha](incidencias/es-cm.md) reúne las 11 decisiones confirmadas.
+
+- [x] Crecimiento en Armonía — [JSON](data/es-cm/infantil/materias/crecimiento-en-armonia.json) — [Decreto 80/2022, anexo II, pp. 19–26](sources/es-cm/normativa/infantil/2022-07-12-decreto-80-2022-curriculo-infantil.pdf#page=19)
+- [x] Descubrimiento y Exploración del Entorno — [JSON](data/es-cm/infantil/materias/descubrimiento-y-exploracion-del-entorno.json) — [Decreto 80/2022, anexo II, pp. 26–31](sources/es-cm/normativa/infantil/2022-07-12-decreto-80-2022-curriculo-infantil.pdf#page=26)
+- [x] Comunicación y Representación de la Realidad — [JSON](data/es-cm/infantil/materias/comunicacion-y-representacion-de-la-realidad.json) — [Decreto 80/2022, anexo II, pp. 31–39](sources/es-cm/normativa/infantil/2022-07-12-decreto-80-2022-curriculo-infantil.pdf#page=31)
+
+### CFGB — ámbitos comunes
+
+- [ ] Ciencias Aplicadas — [Decreto 82/2022, anexo V, pp. 251–259](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=251)
+- [ ] Comunicación y Ciencias Sociales — [Decreto 82/2022, anexo V, pp. 259–268](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=259)
+
+Primaria, ESO y Bachillerato se incorporarán al inventario al desglosar sus anexos por etapa.
