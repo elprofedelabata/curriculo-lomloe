@@ -13,7 +13,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 
 ## Progreso global
 
-- **Currículos terminados en total:** 619.
+- **Currículos terminados en total:** 650.
 - **Referencias documentadas de Andalucía, Aragón, Asturias e Illes Balears:** 401 (398 currículos con desarrollo cerrado y 3 optativas de desarrollo abierto)
 - **Currículos terminados en esas cuatro comunidades:** 398 de 398
 - **Currículos pendientes entre los inventariados en esas cuatro comunidades:** 0
@@ -24,7 +24,7 @@ Las optativas y ámbitos sin desarrollo curricular cerrado se documentan aparte.
 - **Illes Balears:** 93 de 93
 - **Canarias:** 109 de 109 JSON revisados de las cinco etapas, incluidas las dos concreciones complementarias del silbo gomero
 - **Cantabria:** 102 de 102 JSON revisados de las cinco etapas, con 109 decisiones confirmadas y dos fichas de Diversificación por remisión.
-- **Castilla-La Mancha:** tres áreas de Infantil y siete de Primaria revisadas, con 21 decisiones confirmadas. Las fuentes de las cinco etapas están archivadas.
+- **Castilla-La Mancha:** tres áreas de Infantil, siete de Primaria y 31 currículos de ESO revisados, con 32 decisiones confirmadas. Las fuentes de las cinco etapas están archivadas.
 
 ## Andalucía
 
@@ -1000,7 +1000,7 @@ Dos JSON revisados y doce decisiones confirmadas. Ciencias Aplicadas conserva do
 
 ## Castilla-La Mancha
 
-Las cinco etapas tienen sus fuentes de partida recopiladas. La [guía normativa](sources/es-cm/normativa/README.md) localiza los anexos y las modificaciones. El [inventario](sources/es-cm/inventario.json) identifica las áreas de Infantil y Primaria y los dos ámbitos comunes de Grado Básico.
+Las cinco etapas tienen sus fuentes de partida recopiladas. La [guía normativa](sources/es-cm/normativa/README.md) localiza los anexos y las modificaciones. El [inventario](sources/es-cm/inventario.json) identifica las áreas de Infantil y Primaria, los currículos de ESO y los dos ámbitos comunes de Grado Básico.
 
 ### Infantil — áreas
 
@@ -1022,9 +1022,45 @@ Siete JSON cotejados y revisados. El [informe de Primaria](sources/es-cm/REVISIO
 - [x] Lengua Extranjera — [JSON](data/es-cm/primaria/materias/lengua-extranjera.json) — [Decreto 81/2022, anexo II, pp. 79–89](sources/es-cm/normativa/primaria/2022-07-12-decreto-81-2022-curriculo-primaria.pdf#page=79)
 - [x] Matemáticas — [JSON](data/es-cm/primaria/materias/matematicas.json) — [Decreto 81/2022, anexo II, pp. 90–104](sources/es-cm/normativa/primaria/2022-07-12-decreto-81-2022-curriculo-primaria.pdf#page=90)
 
+### ESO — materias y ámbitos de Diversificación
+
+Los 31 currículos están extraídos, cotejados y revisados. El [informe de ESO](sources/es-cm/REVISION-ESO.md) recoge el alcance y el [registro de Castilla-La Mancha](incidencias/es-cm.md#eso--decisiones-revisadas) reúne las once decisiones confirmadas.
+
+- [x] Artes Escénicas, Danza y Folclore — [JSON](data/es-cm/eso/materias/artes-escenicas-danza-y-folclore.json) — [PDF, Decreto 82/2022, anexo II, pp. 34–38](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=34)
+- [x] Biología y Geología — [JSON](data/es-cm/eso/materias/biologia-y-geologia.json) — [PDF, Decreto 82/2022, anexo II, pp. 39–47](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=39)
+- [x] Cultura Científica — [JSON](data/es-cm/eso/materias/cultura-cientifica.json) — [PDF, Decreto 82/2022, anexo II, pp. 48–52](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=48)
+- [x] Cultura Clásica — [JSON](data/es-cm/eso/materias/cultura-clasica.json) — [PDF, Decreto 82/2022, anexo II, pp. 53–59](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=53)
+- [x] Desarrollo Digital — [JSON](data/es-cm/eso/materias/desarrollo-digital.json) — [PDF, Decreto 82/2022, anexo II, pp. 60–64](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=60)
+- [x] Digitalización — [JSON](data/es-cm/eso/materias/digitalizacion.json) — [PDF, Decreto 82/2022, anexo II, pp. 65–69](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=65)
+- [x] Economía y Emprendimiento — [JSON](data/es-cm/eso/materias/economia-y-emprendimiento.json) — [PDF, Decreto 82/2022, anexo II, pp. 70–76](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=70)
+- [x] Educación Física — [JSON](data/es-cm/eso/materias/educacion-fisica.json) — [PDF, Decreto 82/2022, anexo II, pp. 77–87](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=77)
+- [x] Educación en Valores Cívicos y Éticos — [JSON](data/es-cm/eso/materias/educacion-en-valores-civicos-y-eticos.json) — [PDF, Decreto 82/2022, anexo II, pp. 88–93](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=88)
+- [x] Educación Plástica, Visual y Audiovisual — [JSON](data/es-cm/eso/materias/educacion-plastica-visual-y-audiovisual.json) — [PDF, Decreto 82/2022, anexo II, pp. 94–99](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=94)
+- [x] Emprendimiento, Sostenibilidad y Consumo Responsable — [JSON](data/es-cm/eso/materias/emprendimiento-sostenibilidad-y-consumo-responsable.json) — [PDF, Decreto 82/2022, anexo II, pp. 100–104](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=100)
+- [x] Expresión Artística — [JSON](data/es-cm/eso/materias/expresion-artistica.json) — [PDF, Decreto 82/2022, anexo II, pp. 105–109](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=105)
+- [x] Filosofía — [JSON](data/es-cm/eso/materias/filosofia.json) — [PDF, Decreto 82/2022, anexo II, pp. 110–113](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=110)
+- [x] Física y Química — [JSON](data/es-cm/eso/materias/fisica-y-quimica.json) — [PDF, Decreto 82/2022, anexo II, pp. 114–122](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=114)
+- [x] Formación y Orientación Personal y Profesional — [JSON](data/es-cm/eso/materias/formacion-y-orientacion-personal-y-profesional.json) — [PDF, Decreto 82/2022, anexo II, pp. 123–128](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=123)
+- [x] Geografía e Historia — [JSON](data/es-cm/eso/materias/geografia-e-historia.json) — [PDF, Decreto 82/2022, anexo II, pp. 129–142](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=129)
+- [x] Latín — [JSON](data/es-cm/eso/materias/latin.json) — [PDF, Decreto 82/2022, anexo II, pp. 143–148](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=143)
+- [x] Lengua Castellana y Literatura — [JSON](data/es-cm/eso/materias/lengua-castellana-y-literatura.json) — [PDF, Decreto 82/2022, anexo II, pp. 149–163](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=149)
+- [x] Lengua Extranjera — [JSON](data/es-cm/eso/materias/lengua-extranjera.json) — [PDF, Decreto 82/2022, anexo II, pp. 164–174](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=164)
+- [x] Matemáticas — [JSON](data/es-cm/eso/materias/matematicas.json) — [PDF, Decreto 82/2022, anexo II, pp. 175–196](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=175)
+- [x] Música Activa, Movimiento y Folclore — [JSON](data/es-cm/eso/materias/musica-activa-movimiento-y-folclore.json) — [PDF, Decreto 82/2022, anexo II, pp. 197–201](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=197)
+- [x] Música — [JSON](data/es-cm/eso/materias/musica.json) — [PDF, Decreto 82/2022, anexo II, pp. 202–207](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=202)
+- [x] Proyectos de Robótica — [JSON](data/es-cm/eso/materias/proyectos-de-robotica.json) — [PDF, Decreto 82/2022, anexo II, pp. 208–212](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=208)
+- [x] Proyectos de Artes Plásticas y Visuales — [JSON](data/es-cm/eso/materias/proyectos-de-artes-plasticas-y-visuales.json) — [PDF, Decreto 82/2022, anexo II, pp. 213–216](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=213)
+- [x] Segunda Lengua Extranjera — [JSON](data/es-cm/eso/materias/segunda-lengua-extranjera.json) — [PDF, Decreto 82/2022, anexo II, pp. 217–227](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=217)
+- [x] Taller de Emprendimiento y Finanzas Personales — [JSON](data/es-cm/eso/materias/taller-de-emprendimiento-y-finanzas-personales.json) — [PDF, Decreto 82/2022, anexo II, pp. 228–232](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=228)
+- [x] Tecnología — [JSON](data/es-cm/eso/materias/tecnologia.json) — [PDF, Decreto 82/2022, anexo II, pp. 233–238](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=233)
+- [x] Tecnología y Digitalización — [JSON](data/es-cm/eso/materias/tecnologia-y-digitalizacion.json) — [PDF, Decreto 82/2022, anexo II, pp. 239–245](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=239)
+- [x] Unión Europea — [JSON](data/es-cm/eso/materias/union-europea.json) — [PDF, Decreto 31/2024, anexo II, pp. 9–13](sources/es-cm/normativa/eso/2024-06-25-decreto-31-2024-modificacion-eso.pdf#page=9)
+- [x] Ámbito lingüístico y social — [JSON](data/es-cm/eso/materias/ambito-linguistico-y-social-diversificacion.json) — [PDF, Orden 166/2022, anexo I, pp. 9–18](sources/es-cm/normativa/eso/2022-09-02-orden-166-2022-diversificacion-curricular.pdf#page=9)
+- [x] Ámbito científico-tecnológico — [JSON](data/es-cm/eso/materias/ambito-cientifico-tecnologico-diversificacion.json) — [PDF, Orden 166/2022, anexo I, pp. 18–26](sources/es-cm/normativa/eso/2022-09-02-orden-166-2022-diversificacion-curricular.pdf#page=18)
+
 ### CFGB — ámbitos comunes
 
 - [ ] Ciencias Aplicadas — [Decreto 82/2022, anexo V, pp. 251–259](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=251)
 - [ ] Comunicación y Ciencias Sociales — [Decreto 82/2022, anexo V, pp. 259–268](sources/es-cm/normativa/eso/2022-07-12-decreto-82-2022-curriculo-eso-cfgb.pdf#page=259)
 
-ESO y Bachillerato se incorporarán al inventario al desglosar sus anexos por etapa.
+Bachillerato se incorporará al inventario al desglosar su anexo.

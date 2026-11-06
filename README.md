@@ -1,6 +1,6 @@
 # Currículo LOMLOE en JSON
 
-Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 619 JSON curriculares revisados, repartidos entre Andalucía (102), Aragón (116), el Principado de Asturias (87), Illes Balears (93), Canarias (109), Cantabria (102) y Castilla-La Mancha (10). Canarias incluye las dos concreciones de Lengua para el silbo gomero de Primaria y ESO. Tres optativas asturianas de Bachillerato, cuyo desarrollo curricular queda abierto en el decreto, se documentan mediante fichas informativas separadas de los JSON curriculares. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
+Datos estructurados y reutilizables del currículo LOMLOE. Actualmente incluye 650 JSON curriculares revisados, repartidos entre Andalucía (102), Aragón (116), el Principado de Asturias (87), Illes Balears (93), Canarias (109), Cantabria (102) y Castilla-La Mancha (41). Canarias incluye las dos concreciones de Lengua para el silbo gomero de Primaria y ESO. Tres optativas asturianas de Bachillerato, cuyo desarrollo curricular queda abierto en el decreto, se documentan mediante fichas informativas separadas de los JSON curriculares. El avance se detalla en la [checklist](CHECKLIST.md) y las discrepancias detectadas durante el cotejo se reúnen en el [registro de incidencias](INCIDENCIAS.md).
 
 ## Progreso del proyecto
 
@@ -14,7 +14,7 @@ El objetivo es convertir a JSON los currículos oficiales de **Infantil, Primari
 | Illes Balears | ✅ 3/3 | ✅ 8/8 | ✅ 27/27 | ✅ 53/53 | ✅ 2/2 |
 | Canarias | ✅ 3/3 | ✅ 10/10 | ✅ 27/27 | ✅ 67/67 | ✅ 2/2 |
 | Cantabria | ✅ 3/3 | ✅ 7/7 | ✅ 37/37 | ✅ 53/53 | ✅ 2/2 |
-| Castilla-La Mancha | ✅ 3/3 | ✅ 7/7 | 📚 | 📚 | 📚 |
+| Castilla-La Mancha | ✅ 3/3 | ✅ 7/7 | ✅ 31/31 | 📚 | 📚 |
 | Castilla y León | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Cataluña | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Comunitat Valenciana | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -39,6 +39,8 @@ Cantabria tiene recopilados los [14 PDF oficiales de partida](sources/es-cb/norm
 Castilla-La Mancha tiene las [fuentes oficiales de las cinco etapas](sources/es-cm/normativa/README.md) archivadas. Las tres áreas de Infantil están extraídas, cotejadas y revisadas, con 12 competencias específicas, 90 criterios y 174 saberes entre ambos ciclos. El [informe de Infantil](sources/es-cm/REVISION-INFANTIL.md) detalla el cotejo y el [registro de Castilla-La Mancha](incidencias/es-cm.md) recoge las 11 decisiones confirmadas y aplicadas. El [inventario inicial](sources/es-cm/inventario.json) localiza también los dos ámbitos comunes de Grado Básico.
 
 Las siete áreas de Primaria están revisadas, con 46 competencias específicas, 305 criterios y 634 saberes. El [informe de Primaria](sources/es-cm/REVISION-PRIMARIA.md) detalla el cotejo. Las diez decisiones confirmadas y aplicadas figuran en el [registro de Castilla-La Mancha](incidencias/es-cm.md#primaria--decisiones-revisadas).
+
+En ESO están revisados los 31 JSON, que corresponden a 29 materias y dos ámbitos de Diversificación con currículo propio. El [informe de ESO](sources/es-cm/REVISION-ESO.md) detalla la cobertura y el [registro de Castilla-La Mancha](incidencias/es-cm.md#eso--decisiones-revisadas) reúne las once decisiones confirmadas y aplicadas.
 
 En Asturias hay además [tres optativas de Bachillerato con desarrollo abierto](data/es-as/bachillerato/optativas-abiertas.json): se inventarían y muestran como fichas informativas, sin inventar competencias, criterios o saberes comunes.
 

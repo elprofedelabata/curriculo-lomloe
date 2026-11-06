@@ -12,7 +12,7 @@ Cada comunidad autónoma mantiene su propio archivo para que la revisión pueda 
 | Illes Balears | [Consultar incidencias](incidencias/es-ib.md) | 17 | 0 |
 | Canarias | [Consultar incidencias](incidencias/es-cn.md) | 21 | 0 |
 | Cantabria | [Consultar incidencias](incidencias/es-cb.md) | 109 | 0 |
-| Castilla-La Mancha | [Consultar incidencias](incidencias/es-cm.md) | 21 | 0 |
+| Castilla-La Mancha | [Consultar incidencias](incidencias/es-cm.md) | 32 | 0 |
 
 ## Convenciones generales
 

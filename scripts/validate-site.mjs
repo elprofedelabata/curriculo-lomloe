@@ -15,15 +15,15 @@ const castillaLaManchaStages = catalog.etapas.filter((item) => item.territorio =
 const castillaLaManchaProgress = {
   infantil: ["completo", 3],
   primaria: ["completo", 7],
-  eso: ["fuentes", 0],
+  eso: ["completo", 31],
   bachillerato: ["fuentes", 0],
   cfgb: ["fuentes", 0],
 };
 check(castillaLaManchaStages.length === 5 && castillaLaManchaStages.every((item) => {
   const [estado, materias] = castillaLaManchaProgress[item.codigo] ?? [];
   return item.fuentes > 0 && item.estado === estado && item.materias === materias;
-}), "Castilla-La Mancha debe mostrar Infantil y Primaria completos y las fuentes de las demás etapas.");
-check(catalog.documentosNormativos.filter((item) => item.territorio === "es-cm").length === 12, "Faltan publicaciones del DOCM de Castilla-La Mancha.");
+}), "Castilla-La Mancha debe mostrar Infantil, Primaria y ESO completos y las fuentes de Bachillerato y Grado Básico.");
+check(catalog.documentosNormativos.filter((item) => item.territorio === "es-cm").length === 13, "Faltan publicaciones del DOCM de Castilla-La Mancha.");
 const cantabriaStages = catalog.etapas.filter((item) => item.territorio === "es-cb");
 check(cantabriaStages.length === 5 && cantabriaStages.every((item) => item.fuentes > 0), "Cantabria debe conservar las fuentes recopiladas de sus cinco etapas.");
 check(cantabriaStages.find((item) => item.codigo === "infantil")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "infantil")?.materias === 3, "Infantil de Cantabria debe mostrar sus tres áreas completadas.");
@@ -32,7 +32,7 @@ check(cantabriaStages.find((item) => item.codigo === "eso")?.estado === "complet
 check(cantabriaStages.find((item) => item.codigo === "bachillerato")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "bachillerato")?.materias === 53, "Bachillerato de Cantabria debe mostrar sus 53 documentos revisados.");
 check(cantabriaStages.find((item) => item.codigo === "cfgb")?.estado === "completo" && cantabriaStages.find((item) => item.codigo === "cfgb")?.materias === 2, "CFGB de Cantabria debe mostrar sus dos ámbitos revisados.");
 check(catalog.documentosNormativos.filter((item) => item.territorio === "es-cb").length === 14, "Faltan fuentes oficiales de Cantabria en el catálogo.");
-check(catalog.materias.length === 619, `Se esperaban 619 materias y hay ${catalog.materias.length}.`);
+check(catalog.materias.length === 650, `Se esperaban 650 materias y hay ${catalog.materias.length}.`);
 check(catalog.materias.filter((item) => item.etapa === "infantil").length === 21, "El catálogo de Infantil no contiene 21 áreas territoriales.");
 const castillaLaManchaInfant = catalog.materias.filter((item) => item.territorio === "es-cm" && item.etapa === "infantil");
 check(castillaLaManchaInfant.length === 3 && castillaLaManchaInfant.every((item) => item.revision?.estado === "revisado" && item.ciclos.map((cycle) => cycle.ciclo).join(",") === "1,2" && item.fuentes[0]?.id === "es-cm-infantil-decreto-80-2022"), "Infantil de Castilla-La Mancha debe conservar las tres áreas revisadas, ambos ciclos y su fuente.");
@@ -50,6 +50,15 @@ const castillaLaManchaLanguage = castillaLaManchaPrimary.find((item) => item.cod
 check(castillaLaManchaLanguage?.fuentes.map(({ id }) => id).join(",") === "es-cm-primaria-decreto-81-2022,es-cm-infantil-primaria-orden-75-2023,es-cm-infantil-primaria-correccion-orden-75-2023", "Lengua Extranjera debe enlazar el currículo común y las dos publicaciones sobre la segunda lengua.");
 const castillaLaManchaPrimaryIncidents = catalog.incidencias.filter((item) => item.id.startsWith("CM-PRIM-"));
 check(castillaLaManchaPrimaryIncidents.length === 10 && castillaLaManchaPrimaryIncidents.every((item) => item.revisada), "Las diez decisiones de Primaria de Castilla-La Mancha deben estar confirmadas.");
+const castillaLaManchaSecondary = catalog.materias.filter((item) => item.territorio === "es-cm" && item.etapa === "eso");
+check(castillaLaManchaSecondary.length === 31 && castillaLaManchaSecondary.every((item) => item.revision?.estado === "revisado"), "ESO de Castilla-La Mancha debe contener 31 currículos revisados.");
+const castillaLaManchaSecondaryCounts = { competencias: 182, criterios: 1050, saberes: 1996, desarrollos: 61 };
+check(Object.entries(castillaLaManchaSecondaryCounts).every(([key, total]) => castillaLaManchaSecondary.reduce((sum, item) => sum + item.estadisticas[key], 0) === total), "Los recuentos de ESO de Castilla-La Mancha deben coincidir con el cotejo.");
+check(catalog.documentosNormativos.some((item) => item.id === "es-cm-eso-orden-166-2022" && item.etapas.includes("eso")), "Debe figurar la orden de Diversificación de Castilla-La Mancha.");
+const castillaLaManchaDiversification = castillaLaManchaSecondary.filter((item) => item.fuentes[0]?.id === "es-cm-eso-orden-166-2022");
+check(castillaLaManchaDiversification.length === 2 && castillaLaManchaDiversification.every((item) => item.cursos.map(({ curso, caracter }) => `${curso}-${caracter}`).join(",") === "3-ambito,4-ambito"), "Deben figurar los dos ámbitos de Diversificación con desarrollo en 3.º y 4.º.");
+const castillaLaManchaSecondaryIncidents = catalog.incidencias.filter((item) => item.id.startsWith("CM-ESO-"));
+check(castillaLaManchaSecondaryIncidents.length === 11 && castillaLaManchaSecondaryIncidents.every((item) => item.revisada), "Las once decisiones de ESO de Castilla-La Mancha deben figurar como revisadas.");
 const cantabriaInfant = catalog.materias.filter((item) => item.territorio === "es-cb" && item.etapa === "infantil");
 check(cantabriaInfant.length === 3 && cantabriaInfant.every((item) => item.revision?.estado === "revisado"), "Las tres áreas de Infantil de Cantabria deben estar revisadas.");
 check(cantabriaInfant.every((item) => item.ciclos.map((cycle) => cycle.ciclo).join(",") === "1,2" && item.vigencia.entradaEnVigor === null && item.vigencia.aplicableDesdeCurso === "2022/2023"), "Infantil de Cantabria debe conservar ambos ciclos y la vigencia expresada por curso académico.");
@@ -134,7 +143,7 @@ check(balearValuesKnowledge.filter((item) => item.cursoOrientativo?.includes(5))
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "primaria").length === 14, "El catálogo de Aragón no contiene sus 14 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "primaria").length === 10, "El catálogo de Asturias no contiene sus 10 currículos de Primaria.");
 check(catalog.materias.filter((item) => item.territorio === "es-as" && item.etapa === "eso").length === 24, "El catálogo de Asturias no contiene sus 24 currículos de ESO.");
-check(catalog.materias.filter((item) => item.etapa === "eso").length === 185, "El catálogo de ESO no contiene 185 documentos curriculares territoriales.");
+check(catalog.materias.filter((item) => item.etapa === "eso").length === 216, "El catálogo de ESO no contiene 216 documentos curriculares territoriales.");
 check(catalog.materias.filter((item) => item.territorio === "es-cn" && item.etapa === "eso" && item.revision?.estado === "revisado").length === 27, "El catálogo de Canarias no contiene sus 23 materias, 3 ámbitos de ESO y concreción del silbo revisados.");
 check(catalog.materias.filter((item) => item.territorio === "es-ib" && item.etapa === "eso" && item.revision?.estado === "revisado").length === 27, "El catálogo de Illes Balears no contiene sus 27 materias de ESO revisadas.");
 check(catalog.materias.filter((item) => item.territorio === "es-ar" && item.etapa === "eso").length === 38, "El catálogo de Aragón no contiene sus 38 currículos de ESO.");
@@ -236,7 +245,7 @@ check(catalog.optativasAbiertas.every((item) => !catalog.materias.some((matter) 
 check(catalog.etapas.find((item) => item.territorio === "es-as" && item.codigo === "bachillerato")?.optativasAbiertas === 3, "La etapa de Bachillerato de Asturias no refleja sus tres optativas abiertas.");
 const asturiasProgress = catalog.progreso.find((item) => item.territorio === "es-as");
 check(asturiasProgress?.etapas.bachillerato.estado === "completo" && asturiasProgress.etapas.bachillerato.etiqueta === "48/48", "Los 48 currículos estructurables de Bachillerato de Asturias deben figurar como completos.");
-check(catalog.incidencias.length === 369, `Se esperaban 369 incidencias y hay ${catalog.incidencias.length}.`);
+check(catalog.incidencias.length === 380, `Se esperaban 380 incidencias y hay ${catalog.incidencias.length}.`);
 check(catalog.incidencias.every((item) => typeof item.revisada === "boolean"), "Hay incidencias sin estado de revisión válido.");
 check(new Set(catalog.materias.map((item) => item.id)).size === catalog.materias.length, "Hay ID de materia duplicados.");
 check(new Set(catalog.incidencias.map((item) => item.id)).size === catalog.incidencias.length, "Hay ID de incidencia duplicados.");

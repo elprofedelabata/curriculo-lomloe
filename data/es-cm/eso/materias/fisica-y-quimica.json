@@ -1,0 +1,2059 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cm.eso.fisica-y-quimica",
+  "territorio": "es-cm",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "FYQ",
+    "nombre": {
+      "es": "Física y Química"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 3,
+        "caracter": "obligatoria"
+      },
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-07-15",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cm-eso-cfgb-decreto-82-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "134",
+      "fechaPublicacion": "2022-07-14",
+      "cve": "2022/6659",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 114,
+        "hasta": 122
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cm-eso-cfgb-decreto-31-2024",
+      "tipo": "decreto",
+      "titulo": "Decreto 31/2024, de 25 de junio, por el que se modifica el Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha y el Decreto 220/2023, de 29 de agosto, por el que se regula la asignación de materias optativas en Educación Secundaria Obligatoria y en Bachillerato a las especialidades de distintos cuerpos de personal funcionario docente en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "126",
+      "fechaPublicacion": "2024-07-02",
+      "cve": "2024/5244",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 13,
+        "hasta": 14
+      },
+      "anexo": "IV"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La formación integral del alumnado requiere de una alfabetización científica en la etapa de la Educación Secundaria como continuidad a los aprendizajes relacionados con las ciencias de la naturaleza en Educación Primaria, pero con un nivel de profundización mayor en las diferentes áreas de conocimiento de la ciencia. En esta alfabetización científica, la materia de Física y Química contribuye a que el alumnado comprenda el funcionamiento del universo y las leyes que lo gobiernan, y proporciona los conocimientos, destrezas y actitudes de la ciencia que le permiten desenvolverse con criterio fundamentado en un mundo en continuo desarrollo científico, tecnológico, económico y social, promoviendo acciones y conductas que provoquen cambios hacia un mundo más justo e igualitario.",
+      "El currículo de la materia de Física y Química contribuye al desarrollo de las competencias clave y de los objetivos de etapa. Para ello, los descriptores de las distintas competencias clave reflejadas en el Perfil de salida del alumnado al término de la enseñanza básica y los objetivos de etapa se concretan en las competencias específicas de la materia de Física y Química. Estas competencias específicas justifican el resto de los elementos del currículo de la materia y contribuyen a que el alumnado sea capaz de desarrollar el pensamiento científico para enfrentarse a los posibles problemas de la sociedad que lo rodea y disfrutar de un conocimiento más profundo del mundo.",
+      "La evaluación de las competencias específicas se realiza teniendo en cuenta los criterios de evaluación, que están enfocados en el desempeño de los conocimientos, destrezas y actitudes asociados al pensamiento científico competencial.",
+      "Los saberes básicos de esta materia contemplan conocimientos, destrezas y actitudes que se encuentran estructurados en los que tradicionalmente han sido los grandes bloques de conocimiento de la Física y la Química: «La materia» y «La energía»,",
+      "«La interacción» y «El cambio». Además, este currículo propone la existencia de un bloque de saberes básicos comunes que hace referencia a las metodologías de la ciencia y a su importancia en el desarrollo de estas áreas de conocimiento. En este bloque, denominado «Las destrezas científicas básicas», se establece además la relación de las ciencias experimentales con una de sus herramientas más potentes, las matemáticas, que ofrecen un lenguaje de comunicación formal y que incluyen los conocimientos, destrezas y actitudes previos del alumnado y los que se adquieren a lo largo de esta etapa educativa. Se incide aquí en el papel destacado de las mujeres a lo largo de la historia de la ciencia como forma de ponerlo en valor y fomentar nuevas vocaciones femeninas hacia el campo de las ciencias experimentales y la tecnología.",
+      "El bloque de «La materia» engloba los saberes básicos sobre la constitución interna de las sustancias, lo que incluye la descripción de la estructura de los elementos y de los compuestos químicos y las propiedades macroscópicas y microscópicas de la materia como base para profundizar en estos contenidos en cursos posteriores.",
+      "Con el bloque: «La energía» el alumnado profundiza en los conocimientos, destrezas y actitudes que adquirió en la Educación Primaria, como las fuentes de energía y sus usos prácticos o los aspectos básicos acerca de las formas de energía. Se incluyen, además, saberes relacionados con el desarrollo social y económico del mundo real y sus implicaciones medioambientales.",
+      "«La interacción» contiene los saberes acerca de los efectos principales de las interacciones fundamentales de la naturaleza y el estudio básico de las principales fuerzas del mundo natural, así como sus aplicaciones prácticas en campos tales como la astronomía, el deporte, la ingeniería, la arquitectura o el diseño.",
+      "Por último, el bloque denominado: «El cambio» aborda las principales transformaciones físicas y químicas de los sistemas materiales y naturales, así como los ejemplos más frecuentes del entorno y sus aplicaciones y contribuciones a la creación de un mundo mejor.",
+      "Todos los elementos curriculares están relacionados entre sí, formando un todo que dota al currículo de esta materia de un sentido integrado y holístico. Así, la materia de Física y Química se plantea a partir del uso de las metodologías propias de la ciencia, abordadas a través del trabajo cooperativo y la colaboración interdisciplinar y su relación con el desarrollo socioeconómico, y enfocadas a la formación de alumnos y alumnas competentes y comprometidos con los retos del siglo XXI y los Objetivos de Desarrollo Sostenible. En este sentido, las situaciones de aprendizaje que se planteen para la materia deben partir de un enfoque constructivo, crítico y emprendedor.",
+      "La construcción de la ciencia y el desarrollo del pensamiento científico durante todas las etapas del desarrollo del alumnado parten del planteamiento de cuestiones científicas basadas en la observación directa o indirecta del mundo en situaciones y contextos habituales, en su intento de explicación a partir del conocimiento, de la búsqueda de evidencias y de la indagación y en la correcta interpretación de la información que a diario llega al público en diferentes formatos y a partir de diferentes fuentes. Por eso, el enfoque que se le dé a esta materia a lo largo de esta etapa educativa debe incluir un tratamiento experimental y práctico que amplíe la experiencia del alumnado más allá de lo académico y le permita hacer conexiones con sus situaciones cotidianas, lo que contribuirá de forma significativa a que desarrolle las destrezas características de la ciencia. De esta manera se pretende potenciar la creación de vocaciones científicas para conseguir que haya un número mayor de estudiantes que opten por continuar su formación en itinerarios científicos en las etapas educativas posteriores y proporcionar, a su vez, una completa base científica para aquellos estudiantes que deseen cursar itinerarios no científicos."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Comprender y relacionar los motivos por los que ocurren los principales fenómenos fisicoquímicos del entorno, explicándolos en términos de las leyes y teorías científicas adecuadas, para resolver problemas con el fin de aplicarlas para mejorar la realidad cercana y la calidad de vida humana."
+      },
+      "descripcion": {
+        "es": [
+          "La esencia del pensamiento científico es comprender cuáles son los porqués de los fenómenos que ocurren en el medio natural para tratar de explicarlos a través de las leyes físicas y químicas adecuadas. Comprenderlos implica entender las causas que los originan y su naturaleza, permitiendo al alumnado actuar con sentido crítico para mejorar, en la medida de lo posible, la realidad cercana a través de la ciencia.",
+          "El desarrollo de esta competencia específica conlleva hacerse preguntas para comprender cómo es la naturaleza del entorno, cuáles son las interacciones que se producen entre los distintos sistemas materiales y cuáles son las causas y las consecuencias de las mismas. Esta comprensión dota al alumnado de fundamentos críticos en la toma de decisiones, activa los procesos de resolución de problemas y, a su vez, posibilita la creación de nuevo conocimiento científico a través de la interpretación de fenómenos, el uso de herramientas científicas y el análisis de los resultados que se obtienen. Todos estos procesos están relacionados con el resto de competencias específicas y se engloban en el desarrollo del pensamiento científico, cuestión especialmente importante en la formación integral de personas competentes. Por tanto, para el desarrollo de esta competencia, el individuo requiere un conocimiento de las formas y procedimientos estándar que se utilizan en la investigación científica y su relación con el mundo natural."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          115
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando hipótesis para explicarlas y demostrando dichas hipótesis a través de la experimentación científica, la indagación y la búsqueda de evidencias, para desarrollar los razonamientos propios del pensamiento científico y mejorar las destrezas en el uso de las metodologías científicas."
+      },
+      "descripcion": {
+        "es": [
+          "Una característica inherente a la ciencia y al desarrollo del pensamiento científico en la adolescencia es la curiosidad por conocer y describir los fenómenos naturales. Dotar al alumnado de competencias científicas implica trabajar con las metodologías propias de la ciencia y reconocer su importancia en la sociedad. El alumnado que desarrolla esta competencia debe observar, formular hipótesis y aplicar la experimentación, la indagación y la búsqueda de evidencias para comprobarlas y predecir posibles cambios.",
+          "Utilizar el bagaje propio de los conocimientos que el alumnado adquiere a medida que progresa en su formación básica y contar con una completa colección de recursos científicos, tales como las técnicas de laboratorio o de tratamiento y selección de la información, suponen un apoyo fundamental para la mejora de esta competencia. El alumnado que desarrolla esta competencia emplea los mecanismos del pensamiento científico para interaccionar con la realidad cotidiana y analizar, razonada y críticamente, la información que proviene de las observaciones de su entorno, o que recibe por cualquier otro medio, y expresarla y argumentarla en términos científicos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CE1",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          115
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Manejar con soltura las reglas y normas básicas de la física y la química en lo referente al lenguaje de la Iupac, al lenguaje matemático, al empleo de unidades de medida correctas, al uso seguro del laboratorio y a la interpretación y producción de datos e información en diferentes formatos y fuentes, para reconocer el carácter universal y transversal del lenguaje científico y la necesidad de una comunicación fiable en investigación y ciencia entre diferentes países y culturas."
+      },
+      "descripcion": {
+        "es": [
+          "La interpretación y la transmisión de información con corrección juegan un papel muy importante en la construcción del pensamiento científico, pues otorgan al alumnado la capacidad de comunicarse en el lenguaje universal de la ciencia, más allá de las fronteras geográficas y culturales del mundo. Con el desarrollo de esta competencia se pretende que el alumnado se familiarice con los flujos de información multidireccionales característicos de las disciplinas científicas y con las normas que toda la comunidad científica reconoce como universales para establecer comunicaciones efectivas englobadas en un entorno que asegure la salud y el desarrollo medioambiental sostenible. Entre los distintos formatos y fuentes, el alumnado debe ser capaz de interpretar y producir datos en forma de textos, enunciados, tablas, gráficas, informes, manuales, diagramas, fórmulas, esquemas, modelos, símbolos, etc. Además, esta competencia requiere que el alumnado evalúe la calidad de los datos, así como que reconozca la importancia de la investigación previa a un estudio científico.",
+          "Con esta competencia específica se desea fomentar la adquisición de conocimientos,destrezas y actitudes relacionadas con el carácter interdisciplinar de la ciencia, la aplicación de normas, la interrelación de variables, la argumentación, la valoración de la importancia de utilizar un lenguaje universal, la valoración de la diversidad, el respeto hacia las normas y acuerdos establecidos, hacia uno mismo, hacia los demás y hacia el medio ambiente, etc., que son fundamentales en los ámbitos científicos por formar parte de un entorno social y comunitario más amplio."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM4",
+        "STEM5",
+        "CD3",
+        "CPSAA2",
+        "CC1",
+        "CCEC2",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          115,
+          116
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social, mediante la consulta de información, la creación de materiales y la comunicación efectiva en los diferentes entornos de aprendizaje."
+      },
+      "descripcion": {
+        "es": [
+          "Los recursos, tanto tradicionales como digitales, adquieren un papel crucial en el proceso de enseñanza y aprendizaje en general, y en la adquisición de competencias en particular, pues un recurso bien seleccionado facilita el desarrollo de procesos cognitivos de nivel superior y propicia la comprensión, la creatividad y el desarrollo personal y social del alumnado. La importancia de los recursos, no solo utilizados para la consulta de información sino también para otros fines como la creación de materiales didácticos o la comunicación efectiva con otros miembros de su entorno de aprendizaje, dota al alumnado de herramientas para adaptarse a una sociedad que actualmente demanda personas integradas y comprometidas con su entorno.",
+          "Es por este motivo por lo que esta competencia específica también pretende que el alumno o alumna maneje con soltura recursos y técnicas variadas de colaboración y cooperación, que analice su entorno y localice en él ciertas necesidades que le permitan idear, diseñar y fabricar productos que ofrezcan un valor para uno mismo y para los demás."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          116
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento entre iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para comprender la importancia de la ciencia en la mejora de la sociedad, las aplicaciones y repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible del medio ambiente."
+      },
+      "descripcion": {
+        "es": [
+          "Las disciplinas científicas se caracterizan por conformar un todo de saberes integrados e interrelacionados entre sí. Del mismo modo, las personas dedicadas a la ciencia desarrollan destrezas de trabajo en equipo, pues la colaboración, la empatía, la asertividad, la garantía de la equidad entre mujeres y hombres y la cooperación son la base de la construcción del conocimiento científico en toda sociedad. El alumnado competente estará habituado a las formas de trabajo y a las técnicas más habituales del conjunto de las disciplinas científicas, pues esa es la forma de conseguir, a través del emprendimiento, integrarse en una sociedad que evoluciona. El trabajo en equipo sirve para unir puntos de vista diferentes y crear modelos de investigación unificados que forman parte del progreso de la ciencia.",
+          "El desarrollo de esta competencia específica crea un vínculo de compromiso entre el alumno o alumna y su equipo, así como con el entorno que los rodea, lo que le habilita para entender cuáles son las situaciones y los problemas más importantes de la sociedad actual y cómo mejoraría, cómo actuar para la mejora de la salud propia y comunitaria y cuáles son los estilos de vida que le permiten actuar de forma sostenible para la conservación del medio ambiente desde un punto de vista científico y tecnológico."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP3",
+        "STEM3",
+        "STEM5",
+        "CD3",
+        "CPSAA3",
+        "CC3",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          116,
+          117
+        ]
+      }
+    },
+    {
+      "id": "ce-6",
+      "codigoOficial": "6",
+      "enunciado": {
+        "es": "Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y evolución, en la que no solo participan las personas dedicadas a ella, sino que también requiere de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el avance tecnológico, económico, ambiental y social."
+      },
+      "descripcion": {
+        "es": [
+          "Para completar el desarrollo competencial de la materia de Física y Química, el alumno o alumna debe asumir que la ciencia no es un proceso finalizado, sino que está en una continua construcción recíproca con la tecnología y la sociedad. La búsqueda de nuevas explicaciones, la mejora de procedimientos, los nuevos descubrimientos científicos, etc. influyen sobre la sociedad, y conocer de forma global los impactos que la ciencia produce sobre ella es fundamental en la elección del camino correcto para el desarrollo. En esta línea, el alumnado competente debe tener en cuenta valores como la importancia de los avances científicos por y para una sociedad demandante, los límites de la ciencia, las cuestiones éticas y la confianza en los científicos y en su actividad.",
+          "Todo esto forma parte de una conciencia social en la que no solo interviene la comunidad científica, sino que requiere de la participación de toda la sociedad puesto que implica un avance individual y social conjunto."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CPSAA4",
+        "CC4",
+        "CCEC1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          117
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar, comprender y explicar los fenómenos fisicoquímicos cotidianos más relevantes a partir de los principios, teorías y leyes científicas adecuadas, expresándolos, de manera argumentada, utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver los problemas fisicoquímicos planteados utilizando las leyes y teorías científicas adecuadas, razonando los procedimientos utilizados para encontrar las soluciones y expresando adecuadamente los resultados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir en el entorno inmediato situaciones problemáticas reales de índole científica y emprender iniciativas en las que la ciencia, y en particular la física y la química, pueden contribuir a su solución, analizando críticamente su impacto en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear las metodologías propias de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones a las que se pueda dar respuesta a través de la indagación, la deducción, el trabajo experimental y el razonamiento lógico-matemático, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar, de acuerdo con la naturaleza de las cuestiones que se traten, la mejor manera de comprobar o refutar las hipótesis formuladas, diseñando estrategias de indagación y búsqueda de evidencias que permitan obtener conclusiones y respuestas ajustadas a la naturaleza de la pregunta formulada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas conocidas al formular cuestiones e hipótesis, siendo coherente con el conocimiento científico existente y diseñando los procedimientos experimentales o deductivos necesarios para resolverlas o comprobarlas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear datos en diferentes formatos para interpretar y comunicar información relativa a un proceso fisicoquímico concreto, relacionando entre sí lo que cada uno de ellos contiene, y extrayendo en cada caso lo más relevante para la resolución de un problema."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar adecuadamente las reglas básicas de la física y la química, incluyendo el uso de unidades de medida, las herramientas matemáticas y las reglas de nomenclatura, consiguiendo una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Poner en práctica las normas de uso de los espacios específicos de la ciencia, como el laboratorio de física y química, asegurando la salud propia y colectiva, la conservación sostenible del medio ambiente y el cuidado de las instalaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo y la interacción con otros miembros de la comunidad educativa, con respeto hacia docentes y estudiantes y analizando críticamente las aportaciones de cada participante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma adecuada con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando con criterio las fuentes más fiables y desechando las menos adecuadas y mejorando el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas, emprendiendo actividades de cooperación como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emprender, de forma guiada y de acuerdo a la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, que la ciencia es un proceso en permanente construcción y que existen repercusiones mutuas de la ciencia actual con la tecnología, la sociedad y el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-2-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar en el entorno las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad, entendiendo la capacidad de la ciencia para darles solución sostenible a través de la implicación de todos los ciudadanos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las destrezas científicas básicas"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.2.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Metodologías de la investigación científica: identificación y formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las mismas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo experimental y proyectos de investigación: estrategias en la resolución de problemas y en el desarrollo de investigaciones mediante la indagación, la deducción, la búsqueda de evidencias y el razonamiento lógico-matemático, haciendo inferencias válidas de las observaciones y obteniendo conclusiones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales: materiales, sustancias y herramientas tecnológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.A.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso de cada espacio, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en las redes y el respeto hacia el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.A.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje científico: unidades del Sistema Internacional y sus símbolos. Herramientas matemáticas básicas en diferentes escenarios científicos y de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.A.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de interpretación y producción de información científica utilizando diferentes formatos y diferentes medios: desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.A.07",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos y actuales de la física y la química en el avance y la mejora de la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La materia"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.2.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Teoría cinético-molecular: aplicación a observaciones sobre la materia explicando sus propiedades, los estados de agregación, los cambios de estado y la formación de mezclas y disoluciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Experimentos relacionados con los sistemas materiales: conocimiento y descripción de sus propiedades, su composición y su clasificación. Técnicas de separación de mezclas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura atómica: desarrollo histórico de los modelos atómicos, existencia, formación y propiedades de los isótopos y ordenación de los elementos en la tabla periódica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales compuestos químicos: su formación y sus propiedades físicas y químicas, valoración de sus aplicaciones. Masa atómica y masa molecular."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.B.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nomenclatura: participación de un lenguaje científico común y universal formulando y nombrando sustancias simples, iones monoatómicos y compuestos binarios mediante las reglas de nomenclatura de la Iupac."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La energía"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.2.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía: formulación de cuestiones e hipótesis sobre la energía, propiedades y manifestaciones que la describan como la causa de todos los procesos de cambio."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño y comprobación experimental de hipótesis relacionadas con el uso doméstico e industrial de la energía en sus distintas formas y las transformaciones entre ellas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elaboración fundamentada de hipótesis sobre el medio ambiente y la sostenibilidad a partir de las diferencias entre fuentes de energía renovables y no renovables. Valoración de la producción de energía eólica en Castilla-La Mancha."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.C.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Efectos del calor sobre la materia: análisis de los efectos y aplicación en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.C.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Naturaleza eléctrica de la materia: electrización de los cuerpos, circuitos eléctricos y la obtención de energía eléctrica. Concienciación sobre la necesidad del ahorro energético y la conservación sostenible del medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "La interacción"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.2.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Predicción de movimientos sencillos a partir de los conceptos de la cinemática, formulando hipótesis comprobables sobre valores futuros de estas magnitudes, validándolas a través del cálculo numérico, la interpretación de gráficas o el trabajo experimental."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las fuerzas como agentes de cambio: relación de los efectos de las fuerzas, tanto en el estado de movimiento o de reposo de un cuerpo como produciendo deformaciones en los sistemas sobre los que actúan."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de las leyes de Newton: observación de situaciones cotidianas o de laboratorio que permiten entender cómo se comportan los sistemas materiales ante la acción de las fuerzas y predecir los efectos de estas en situaciones cotidianas y de seguridad vial."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fenómenos gravitatorios, eléctricos y magnéticos: experimentos sencillos que evidencian la relación con las fuerzas de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "El cambio"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.2.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los sistemas materiales: análisis de los diferentes tipos de cambios que experimentan, relacionando las causas que los producen con las consecuencias que tienen."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Interpretación macroscópica y microscópica de las reacciones químicas: explicación de las relaciones de la química con el medio ambiente, la tecnología y la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ley de conservación de la masa y de la Iey de las proporciones definidas: aplicación de estas leyes como evidencias experimentales que permiten validar el modelo atómico-molecular de la materia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.2.E.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Factores que afectan a las reacciones químicas: predicción cualitativa de la evolución de las reacciones, entendiendo su importancia en la resolución de problemas actuales por parte de la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 3,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-3-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar, comprender y explicar los fenómenos fisicoquímicos cotidianos más relevantes a partir de los principios, teorías y leyes científicas adecuadas, expresándolos, de manera argumentada, utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver los problemas fisicoquímicos planteados utilizando las leyes y teorías científicas adecuadas, razonando los procedimientos utilizados para encontrar las soluciones y expresando adecuadamente los resultados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir en el entorno inmediato situaciones problemáticas reales de índole científica y emprender iniciativas en las que la ciencia, y en particular la física y la química, pueden contribuir a su solución, analizando críticamente su impacto en la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear las metodologías propias de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones a las que se pueda dar respuesta a través de la indagación, la deducción, el trabajo experimental y el razonamiento lógico-matemático, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Seleccionar, de acuerdo con la naturaleza de las cuestiones que se traten, la mejor manera de comprobar o refutar las hipótesis formuladas, diseñando estrategias de indagación y búsqueda de evidencias que permitan obtener conclusiones y respuestas ajustadas a la naturaleza de la pregunta formulada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              117
+            ]
+          }
+        },
+        {
+          "id": "cri-3-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas conocidas al formular cuestiones e hipótesis, siendo coherente con el conocimiento científico existente y diseñando los procedimientos experimentales o deductivos necesarios para resolverlas o comprobarlas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear datos en diferentes formatos para interpretar y comunicar información relativa a un proceso fisicoquímico concreto, relacionando entre sí lo que cada uno de ellos contiene, y extrayendo en cada caso lo más relevante para la resolución de un problema."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar adecuadamente las reglas básicas de la física y la química, incluyendo el uso de unidades de medida, las herramientas matemáticas y las reglas de nomenclatura, consiguiendo una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Poner en práctica las normas de uso de los espacios específicos de la ciencia, como el laboratorio de física y química, asegurando la salud propia y colectiva, la conservación sostenible del medio ambiente y el cuidado de las instalaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo y la interacción con otros miembros de la comunidad educativa, con respeto hacia docentes y estudiantes y analizando críticamente las aportaciones de cada participante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma adecuada con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando con criterio las fuentes más fiables y desechando las menos adecuadas y mejorando el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas, emprendiendo actividades de cooperación como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emprender, de forma guiada y de acuerdo a la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, que la ciencia es un proceso en permanente construcción y que existen repercusiones mutuas de la ciencia actual con la tecnología, la sociedad y el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        },
+        {
+          "id": "cri-3-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar en el entorno las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad, entendiendo la capacidad de la ciencia para darles solución sostenible a través de la implicación de todos los ciudadanos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              118
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las destrezas científicas básicas"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.3.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Metodologías de la investigación científica: identificación y formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las mismas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo experimental y proyectos de investigación: estrategias en la resolución de problemas y en el desarrollo de investigaciones mediante la indagación, la deducción, la búsqueda de evidencias y el razonamiento lógico-matemático, haciendo inferencias válidas de las observaciones y obteniendo conclusiones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales: materiales, sustancias y herramientas tecnológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.A.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso de cada espacio, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en las redes y el respeto hacia el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  118
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.A.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje científico: unidades del Sistema Internacional y sus símbolos. Herramientas matemáticas básicas en diferentes escenarios científicos y de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.A.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de interpretación y producción de información científica utilizando diferentes formatos y diferentes medios: desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.A.07",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos y actuales de la física y la química en el avance y la mejora de la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La materia"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.3.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Teoría cinético-molecular: aplicación a observaciones sobre la materia explicando sus propiedades, los estados de agregación, los cambios de estado y la formación de mezclas y disoluciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Experimentos relacionados con los sistemas materiales: conocimiento y descripción de sus propiedades, su composición y su clasificación. Técnicas de separación de mezclas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura atómica: desarrollo histórico de los modelos atómicos, existencia, formación y propiedades de los isótopos y ordenación de los elementos en la tabla periódica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales compuestos químicos: su formación y sus propiedades físicas y químicas, valoración de sus aplicaciones. Masa atómica y masa molecular."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.B.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nomenclatura: participación de un lenguaje científico común y universal formulando y nombrando sustancias simples, iones monoatómicos y compuestos binarios mediante las reglas de nomenclatura de la Iupac."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La energía"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.3.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía: formulación de cuestiones e hipótesis sobre la energía, propiedades y manifestaciones que la describan como la causa de todos los procesos de cambio."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño y comprobación experimental de hipótesis relacionadas con el uso doméstico e industrial de la energía en sus distintas formas y las transformaciones entre ellas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elaboración fundamentada de hipótesis sobre el medio ambiente y la sostenibilidad a partir de las diferencias entre fuentes de energía renovables y no renovables. Valoración de la producción de energía eólica en Castilla-La Mancha."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.C.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Efectos del calor sobre la materia: análisis de los efectos y aplicación en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.C.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Naturaleza eléctrica de la materia: electrización de los cuerpos, circuitos eléctricos y la obtención de energía eléctrica. Concienciación sobre la necesidad del ahorro energético y la conservación sostenible del medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "La interacción"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.3.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Predicción de movimientos sencillos a partir de los conceptos de la cinemática, formulando hipótesis comprobables sobre valores futuros de estas magnitudes, validándolas a través del cálculo numérico, la interpretación de gráficas o el trabajo experimental."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Las fuerzas como agentes de cambio: relación de los efectos de las fuerzas, tanto en el estado de movimiento o de reposo de un cuerpo como produciendo deformaciones en los sistemas sobre los que actúan."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de las leyes de Newton: observación de situaciones cotidianas o de laboratorio que permiten entender cómo se comportan los sistemas materiales ante la acción de las fuerzas y predecir los efectos de estas en situaciones cotidianas y de seguridad vial."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fenómenos gravitatorios, eléctricos y magnéticos: experimentos sencillos que evidencian la relación con las fuerzas de la naturaleza."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "El cambio"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.3.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Los sistemas materiales: análisis de los diferentes tipos de cambios que experimentan, relacionando las causas que los producen con las consecuencias que tienen."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Interpretación macroscópica y microscópica de las reacciones químicas: explicación de las relaciones de la química con el medio ambiente, la tecnología y la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ley de conservación de la masa y de la Iey de las proporciones definidas: aplicación de estas leyes como evidencias experimentales que permiten validar el modelo atómico-molecular de la materia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            },
+            {
+              "id": "FYQ.3.E.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Factores que afectan a las reacciones químicas: predicción cualitativa de la evolución de las reacciones, entendiendo su importancia en la resolución de problemas actuales por parte de la ciencia."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  119
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender y explicar con rigor los fenómenos fisicoquímicos cotidianos a partir de los principios, teorías y leyes científicas adecuadas, expresándolos de manera argumentada, utilizando diversidad de soportes y medios de comunicación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Resolver los problemas fisicoquímicos planteados mediante las leyes y teorías científicas adecuadas, razonando los procedimientos utilizados para encontrar las soluciones y expresando los resultados con corrección y precisión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer y describir situaciones problemáticas reales de índole científica y emprender iniciativas colaborativas en las que la ciencia, y en particular la física y la química, pueden contribuir a su solución, analizando críticamente su impacto en la sociedad y en el medio ambiente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Emplear las metodologías propias de la ciencia en la identificación y descripción de fenómenos científicos a partir de situaciones tanto observadas en el mundo natural como planteadas a través de enunciados con información textual, gráfica o numérica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Predecir, para las cuestiones planteadas, respuestas que se puedan comprobar con las herramientas y conocimientos adquiridos, tanto de forma experimental como deductiva, aplicando el razonamiento lógico-matemático en su proceso de validación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar las leyes y teorías científicas más importantes para validar hipótesis de manera informada y coherente con el conocimiento científico existente, diseñando los procedimientos experimentales o deductivos necesarios para resolverlas y analizando los resultados críticamente."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Emplear fuentes variadas fiables y seguras para seleccionar, interpretar, organizar y comunicar información relativa a un proceso fisicoquímico concreto, relacionando entre sí lo que cada una de ellas contiene, extrayendo en cada caso lo más relevante para la resolución de un problema y desechando todo lo que sea irrelevante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar adecuadamente las reglas básicas de la física y la química, incluyendo el uso correcto de varios sistemas de unidades, las herramientas matemáticas necesarias y las reglas de nomenclatura avanzadas, consiguiendo una comunicación efectiva con toda la comunidad científica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, como el laboratorio de física y química, asegurando la salud propia y colectiva, la conservación sostenible del medio ambiente y el cuidado por las instalaciones."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar de forma eficiente recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo y la interacción con otros miembros de la comunidad educativa, de forma rigurosa y respetuosa y analizando críticamente las aportaciones de cada participante."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Trabajar de forma versátil con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando y empleando con criterio las fuentes y herramientas más fiables, desechando las menos adecuadas y mejorando el aprendizaje propio y colectivo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Establecer interacciones constructivas y coeducativas, emprendiendo actividades de cooperación e iniciando el uso de las estrategias propias del trabajo colaborativo, como forma de construir un medio de trabajo eficiente en la ciencia."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              120
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Emprender, de forma autónoma y de acuerdo a la metodología adecuada, proyectos científicos que involucren al alumnado en la mejora de la sociedad y que creen valor para el individuo y para la comunidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              121
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-1",
+          "codigoOficial": "6.1",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Reconocer y valorar, a través del análisis histórico de los avances científicos logrados por mujeres y hombres, así como de situaciones y contextos actuales (líneas de investigación, instituciones científicas, etc.), que la ciencia es un proceso en permanente construcción y que esta tiene repercusiones e implicaciones importantes sobre la sociedad actual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              121
+            ]
+          }
+        },
+        {
+          "id": "cri-4-6-2",
+          "codigoOficial": "6.2",
+          "competenciaEspecificaRef": "ce-6",
+          "texto": {
+            "es": "Detectar las necesidades tecnológicas, ambientales, económicas y sociales más importantes que demanda la sociedad, entendiendo la capacidad de la ciencia para darles solución sostenible a través de la implicación de la ciudadanía."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              121
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Las destrezas científicas básicas"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.4.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo experimental y proyectos de investigación: estrategias en la resolución de problemas y el tratamiento del error mediante la indagación, la deducción, la búsqueda de evidencias y el razonamiento lógico-matemático, haciendo inferencias válidas de las observaciones y obteniendo conclusiones que vayan más allá de las condiciones experimentales para aplicarlas a nuevos escenarios."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales: materiales, sustancias y herramientas tecnológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Normas de uso de cada espacio, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en las redes y el respeto hacia el medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.A.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El lenguaje científico: manejo adecuado de distintos sistemas de unidades y sus símbolos. Herramientas matemáticas adecuadas en diferentes escenarios científicos y de aprendizaje."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.A.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estrategias de interpretación y producción de información científica en diferentes formatos y a partir de diferentes medios: desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.A.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos y actuales de la física y la química para el avance y la mejora de la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "La materia"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.4.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas materiales: resolución de problemas y situaciones de aprendizaje diversas sobre las disoluciones y los gases, entre otros sistemas materiales significativos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Modelos atómicos: desarrollo histórico de los principales modelos atómicos clásicos y cuánticos y descripción de las partículas subatómicas, estableciendo su relación con los avances de la física y la química."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estructura electrónica de los átomos: configuración electrónica de un átomo y su relación con la posición del mismo en la tabla periódica y con sus propiedades fisicoquímicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Compuestos químicos: su formación, propiedades físicas y químicas y valoración de su utilidad e importancia en otros campos como la ingeniería o el deporte."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.B.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cuantificación de la cantidad de materia: cálculo del número de moles de sistemas materiales de diferente naturaleza, manejando con soltura las diferentes formas de medida y expresión de la misma en el entorno científico."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.B.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Nomenclatura inorgánica: denominación de sustancias simples, iones y compuestos químicos binarios y ternarios mediante las normas de la Iupac."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.B.07",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción a la nomenclatura orgánica: denominación de compuestos orgánicos monofuncionales a partir de las normas de la Iupac como base para entender la gran variedad de compuestos del entorno basados en el carbono."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La energía"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.4.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía: formulación y comprobación de hipótesis sobre las distintas formas y aplicaciones de la energía, a partir de sus propiedades y del principio de conservación, como base para la experimentación y la resolución de problemas relacionados con la energía mecánica en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Transferencias de energía: el trabajo y el calor como formas de transferencia de energía entre sistemas relacionados con las fuerzas o la diferencia de temperatura. La luz y el sonido como ondas que transfieren energía."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  121
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La energía en nuestro mundo: estimación de la energía consumida en la vida cotidiana mediante la búsqueda de información contrastada, la experimentación y el razonamiento científico, comprendiendo la importancia de la energía en la sociedad, su producción y su uso responsable."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "La interacción"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.4.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Predicción y comprobación, utilizando la experimentación y el razonamiento matemático, de las principales magnitudes, ecuaciones y gráficas que describen el movimiento de un cuerpo, relacionándolo con situaciones cotidianas y con la mejora de la calidad de vida."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La fuerza como agente de cambios en los cuerpos: principio fundamental de la Física que se aplica a otros campos como el diseño, el deporte o la ingeniería."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Carácter vectorial de las fuerzas: uso del álgebra vectorial básica para la realización gráfica y numérica de operaciones con fuerzas y su aplicación a la resolución de problemas relacionados con sistemas sometidos a conjuntos de fuerzas, valorando su importancia en situaciones cotidianas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales fuerzas del entorno cotidiano: reconocimiento del peso, la normal, el rozamiento, la tensión o el empuje, y su uso en la explicación de fenómenos físicos en distintos escenarios."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.D.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ley de la gravitación universal: atracción entre los cuerpos que componen el universo. Concepto de peso."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.D.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuerzas y presión en los fluidos: efectos de las fuerzas y la presión sobre los líquidos y los gases, estudiando los principios fundamentales que las describen."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "El cambio"
+          },
+          "saberes": [
+            {
+              "id": "FYQ.4.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ecuaciones químicas: ajuste de reacciones químicas y realización de predicciones cualitativas y cuantitativas basadas en la estequiometría, relacionándolas con procesos fisicoquímicos de la industria, el medioambiente y la sociedad."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Descripción cualitativa de reacciones químicas de interés: reacciones de combustión, neutralización y procesos electroquímicos sencillos, valorando las implicaciones que tienen en la tecnología, la sociedad o el medioambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            },
+            {
+              "id": "FYQ.4.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Factores que influyen en la velocidad de las reacciones químicas: comprensión de cómo ocurre la reordenación de los átomos aplicando modelos como la teoría de colisiones y realización de predicciones en los procesos químicos cotidianos más importantes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  122
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-06",
+    "metodo": "Extracción de texto y coordenadas del PDF y contraste con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos. Las letras de bloque proceden del decreto.",
+      "Los descriptores operativos se conservan por competencia específica. El anexo presenta por separado los criterios y los saberes.",
+      "La oferta por cursos se contrasta con el horario del anexo IV en la redacción del Decreto 31/2024."
+    ]
+  }
+}

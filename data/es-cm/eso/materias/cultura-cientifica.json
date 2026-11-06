@@ -1,0 +1,782 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cm.eso.cultura-cientifica",
+  "territorio": "es-cm",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "CCI",
+    "nombre": {
+      "es": "Cultura Científica"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-07-15",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cm-eso-cfgb-decreto-82-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "134",
+      "fechaPublicacion": "2022-07-14",
+      "cve": "2022/6659",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 48,
+        "hasta": 52
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cm-eso-cfgb-decreto-31-2024",
+      "tipo": "decreto",
+      "titulo": "Decreto 31/2024, de 25 de junio, por el que se modifica el Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha y el Decreto 220/2023, de 29 de agosto, por el que se regula la asignación de materias optativas en Educación Secundaria Obligatoria y en Bachillerato a las especialidades de distintos cuerpos de personal funcionario docente en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "126",
+      "fechaPublicacion": "2024-07-02",
+      "cve": "2024/5244",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 13,
+        "hasta": 14
+      },
+      "anexo": "IV"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Cultura Científica es una materia que podrá cursar el alumnado de 4º de ESO como acercamiento al mundo científico. Pretende, por tanto, profundizar en los saberes básicos relacionados con estas disciplinas, para fortalecer las destrezas y el pensamiento científicos, reforzando el compromiso para adoptar un modelo de desarrollo sostenible. La materia se orienta a la consecución y mejora de las cinco competencias específicas, propias de la materia, que concretan los descriptores operativos para la etapa, derivados, a su vez, de las ocho competencias clave, que constituyen el eje vertebrador del currículo. Estas competencias específicas pueden resumirse en: interpretar, transmitir información científica y argumentar sobre ella; localizar y evaluar críticamente información científica; planificar y desarrollar proyectos de investigación, siguiendo el método científico; resolver problemas relacionados con las ciencias; promover iniciativas relacionadas con la salud y la sostenibilidad y analizar el registro geológico. La adquisición de las competencias específicas de esta materia y el aprendizaje de sus saberes básicos contribuyen al desarrollo de las competencias clave, imprescindibles para el crecimiento emocional del alumnado y para su futura integración social y profesional, así como para satisfacer varios de los objetivos de la etapa. Además, esta adquisición resulta esencial para la continuación de estudios académicos o el ejercicio de determinadas profesiones, relacionados con las ciencias.",
+      "Cultura Científica favorece el compromiso responsable del alumnado con la sociedad, al promover los esfuerzos contra el cambio climático, para lograr un modelo de desarrollo sostenible (competencias STEM y ciudadana) que contribuirá a mantener nuestra calidad de vida y a la preservación de nuestro patrimonio natural y cultural (competencia en conciencia y expresión culturales). Esta materia estimulará también la vocación científica en el alumnado, especialmente en las alumnas, para contribuir a mitigar el escaso número de mujeres que ocupan puestos de responsabilidad en investigación, fomentando así la igualdad efectiva de oportunidades entre ambos sexos (competencias STEM y personal, social y de aprender a aprender).",
+      "Asimismo, trabajando esta materia, se afianzarán los hábitos de lectura y estudio en el alumnado. Al tratarse de una disciplina científica, juega un importante papel en ella la comunicación oral y escrita, no solo en castellano sino también, con frecuencia, en otras lenguas (competencias STEM, en comunicación lingüística y plurilingüe).",
+      "Además, desde Cultura Científica se estimulará que el alumnado realice investigaciones sobre distintas temáticas científicas, para lo que se utilizarán, como herramientas básicas, las tecnologías digitales (competencias STEM y digital).",
+      "Del mismo modo, esta materia busca que las alumnas y alumnos diseñen y participen en el desarrollo de proyectos científicos, para realizar investigaciones tanto de campo, como de laboratorio, utilizando la metodología e instrumentos propios de las ciencias, lo cual contribuye a despertar en ellos el espíritu emprendedor (competencias STEM, emprendedora y personal, social y aprender a aprender).",
+      "Con respecto a los saberes básicos, esta materia presenta los siguientes bloques: «Procedimientos de trabajo», centrado en el desarrollo práctico, a través de un proyecto científico, de las destrezas y el pensamiento propios de la ciencia; «El Universo», se centra en el estudio de las teorías más relevantes sobre el origen del Universo, las hipótesis sobre el origen de la vida en la Tierra y las principales investigaciones en el campo de la astrobiología; «La Biosfera», en él se estudian los componentes de los ecosistemas y su funcionamiento; «Medio ambiente y sostenibilidad», donde se detectan los principales problemas medioambientales relacionándolos con el cambio climático y las fuentes de energía, llegando a un desarrollo sostenible como sobreprotección del medioambiente; «Calidad de vida», estudia las causas y consecuencias de las enfermedades, fomentando hábitos de vida saludables.",
+      "Todos estos saberes deben ser trabajados de forma competencial, estimulando, durante el proceso de enseñanza-aprendizaje que lleva a su adquisición, el desarrollo de las competencias específicas y, por tanto, de las competencias clave.",
+      "Los criterios de evaluación son otro de los elementos curriculares básicos, puesto que permiten valorar la adquisición y desarrollo de las competencias. Estos orientan, de forma flexible, al docente, conectando las competencias específicas con los saberes básicos.",
+      "Al tratarse de una materia puramente científica, se recomienda abordarla de una manera práctica, basada en la resolución de problemas y en la realización de proyectos e investigaciones, fomentando la colaboración y no solo el trabajo individual. Además, es conveniente conectarla, de forma significativa, tanto con la realidad del alumnado como con otras disciplinas vinculadas a las ciencias, en un enfoque interdisciplinar, a través de situaciones de aprendizaje o actividades competenciales.",
+      "En conclusión, Cultura Científica contribuye, a través de sus competencias específicas y saberes básicos, a un mayor grado de desarrollo de las competencias clave. Su fin último es mejorar la formación científica y la comprensión del mundo natural por parte del alumnado y así reforzar su compromiso por el bien común y su adaptación a la inestabilidad y al cambio. Con todo ello se busca incrementar su calidad de vida presente y futura, para conseguir, a través del sistema educativo, una sociedad más justa y ecuánime."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Trasmitir información y datos científicos, interpretándolos y argumentando sobre ellos, mediante diferentes formatos, analizando los conceptos y procesos de las ciencias, para forjar una opinión fundamentada sobre el proceso científico."
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo científico es un proceso que, rara vez, es fruto del trabajo de sujetos aislados y que requiere, por tanto, del intercambio de información y de la cooperación entre individuos, organizaciones e incluso países. Compartir información es una forma de acelerar el progreso humano, al extender y diversificar los pilares sobre los que se sustenta.",
+          "Además, todo proceso de investigación científica debe comenzar con la recopilación y análisis crítico de las publicaciones en el área de estudio construyéndose los nuevos conocimientos sobre los cimientos de los ya existentes.",
+          "Asimismo, el avance vertiginoso de la ciencia y de la tecnología es el motor de importantes cambios sociales cada vez más frecuentes y cuyo impacto es también más perceptible. Por ello, la participación activa del alumnado en la sociedad exige, de manera creciente, la comprensión de los últimos descubrimientos y avances científicos y tecnológicos, para interpretar y evaluar críticamente, a la luz de estos, la información que inunda los medios de comunicación, con el fin de extraer conclusiones propias, tomar decisiones coherentes y establecer interacciones comunicativas constructivas, utilizando la argumentación de forma fundamentada, respetuosa y flexible, para cambiar las propias concepciones a la vista de los datos y posturas aportados por otras personas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          49
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Identificar y seleccionar información que proceda de distintas fuentes, contrastando su veracidad, organizándola y evaluándola críticamente, para descubrir la importancia de la precisión y la veracidad de la información científica, su alcance y sus limitaciones."
+      },
+      "descripcion": {
+        "es": [
+          "La investigación científica, la participación activa en la sociedad y el desarrollo profesional y personal de un individuo conllevan, con frecuencia, la adquisición de nuevos saberes y competencias, que suelen partir de la búsqueda, selección y recopilación de información relevante, obtenida en fuentes diversas, para establecer las bases cognitivas de dicho aprendizaje.",
+          "Además, en la sociedad actual existe un continuo bombardeo de información, que no siempre refleja la realidad. Los datos con base científica se encuentran, en ocasiones, entremezclados con bulos, hechos infundados y creencias pseudocientíficas. Es, por tanto, imprescindible desarrollar el sentido crítico y las destrezas necesarias para conocer, evaluar y clasificar la información. Por ello, esta competencia específica prepara al alumnado para su autonomía profesional y personal futuras y para su contribución positiva dentro de una sociedad democrática."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          49
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Planificar y desarrollar proyectos de investigación, siguiendo metodologías propias de la ciencia, incluidas, cuando se considere necesario, aquellas basadas en la cooperación, para indagar en aspectos relacionados con las ciencias."
+      },
+      "descripcion": {
+        "es": [
+          "El método científico es el sistema de trabajo utilizado para dar una respuesta precisa y efectiva a cuestiones y problemas relacionados con la naturaleza y la sociedad. Estos constituyen el motor de nuestro avance social y económico, lo que los convierte en un aprendizaje imprescindible para la ciudadanía del mañana. Los procesos que componen el trabajo científico cobran sentido cuando se integran en un proyecto relacionado con la realidad del alumnado o su entorno.",
+          "El desarrollo de un proyecto requiere de iniciativa, actitud crítica, visión de conjunto, capacidad de planificación y argumentación, junto con una movilización de recursos materiales y personales entre otros factores, lo que permite al alumnado cultivar su autoconocimiento y confianza ante la resolución de problemas, adaptándose a los recursos disponibles y a sus propias limitaciones e incertidumbres, al afrontar así los distintos retos planteados.",
+          "Asimismo, la creación y participación en proyectos de tipo científico proporciona al alumnado oportunidades de trabajar destrezas que pueden ser de gran utilidad, no solo dentro del ámbito científico, sino también en el de su desarrollo personal, profesional y social. Esta competencia específica es el crisol en el que se entremezclan todos los elementos de la competencia STEM y muchos de otras competencias clave. Por esto, es imprescindible ofrecer al alumnado la oportunidad creativa y de crecimiento que aporta esta modalidad de trabajo, impulsando la igualdad de oportunidades entre los hombres y las mujeres y fomentando las vocaciones científicas desde una perspectiva de género."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          49,
+          50
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Utilizar el razonamiento y el pensamiento computacional, analizando críticamente las respuestas y soluciones, incluyendo, si fuera necesario, la reformulación del procedimiento, para resolver problemas o explicar procesos de la vida cotidiana."
+      },
+      "descripcion": {
+        "es": [
+          "Las ciencias son disciplinas empíricas, pero, con frecuencia, recurren al razonamiento lógico y a la metodología matemática para crear modelos, resolver cuestiones y/o problemas, además de para validar los resultados o soluciones obtenidas. Tanto el planteamiento de hipótesis, como la interpretación de datos y resultados, junto con el diseño experimental requieren la aplicación del pensamiento lógico-formal.",
+          "Asimismo, es frecuente que en las ciencias empíricas se obtengan evidencias indirectas de la realidad, que deben interpretarse, según la lógica, para establecer modelos de trabajo, utilizando la resolución de problemas como método didáctico de preferencia.",
+          "Cabe destacar que potenciar esta competencia específica supone desarrollar en el alumnado destrezas aplicables en diferentes situaciones de la vida. Por ejemplo, la actitud crítica se basa, en gran parte, en la capacidad de razonar utilizando datos o información conocidos y constituye, a su vez, un mecanismo de protección contra las pseudociencias o los saberes populares infundados."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM2",
+        "CD5",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "CCEC4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          50
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, basándose en los fundamentos de las ciencias biológicas y de la tierra, para promover y adoptar hábitos que eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva."
+      },
+      "descripcion": {
+        "es": [
+          "El bienestar, la salud y el desarrollo económico de la especie humana se sustentan, por un lado, en recursos naturales, como el suelo fértil o el agua dulce y, por otro, en diferentes grupos de seres vivos, como los insectos polinizadores, las bacterias nitrificantes y el plancton marino, sin los cuales algunos procesos esenciales, como la obtención de alimentos, se verían seriamente comprometidos. Por desgracia, algunos recursos naturales no siempre son renovables y otros son utilizados de manera que su tasa de consumo supera, con creces, su tasa de renovación. Además, la destrucción de hábitats, alteración del clima global y utilización de sustancias xenobióticas están reduciendo la biodiversidad de forma que, en los últimos cincuenta años, han desaparecido dos tercios de la fauna salvaje del planeta. Todas estas alteraciones podrían poner en peligro la estabilidad de la sociedad humana tal y como la conocemos.",
+          "Afortunadamente, determinadas acciones pueden contribuir a mejorar el estado del medio ambiente y también de nuestra salud, a corto, medio y largo plazo. Por todo ello, es esencial, por un lado, que el alumnado conozca el funcionamiento de su propio cuerpo, desterrando ideas preconcebidas y estereotipos sexistas, y, por otro, comprenda y argumente, a la luz de las evidencias científicas, que el desarrollo sostenible es un objetivo urgente, sinónimo de bienestar, salud y progreso económico de la sociedad. El objetivo final es conseguir, a través del sistema educativo, una ciudadanía que desarrolle el sentido crítico necesario para poder protegerse de todos aquellos hábitos perjudiciales presentes, actualmente, en los países desarrollados, como pueden ser: el consumismo, el sedentarismo, la dieta con alto contenido en grasas y azúcares, las adicciones tecnológicas o los comportamientos impulsivos, entre otros, con la finalidad de evitarlos para potenciar la salud y la calidad de vida."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          50,
+          51
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar conceptos y procesos de las ciencias, interpretando información en diferentes formatos (modelos, gráficos, tablas, diagramas, fórmulas, esquemas, símbolos o páginas web, entre otros) manteniendo una actitud crítica, obteniendo conclusiones y formando opiniones propias fundamentadas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Facilitar la comprensión y el análisis, tanto de opiniones propias fundamentadas como de informaciones científicas, transmitiéndolas de forma clara y rigurosa, mediante la terminología y el formato adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos y contenidos digitales, entre otros)."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Analizar y explicar fenómenos científicos, representándolos mediante el diseño y la realización de modelos y diagramas, utilizando, cuando sea necesario, los pasos del diseño de ingeniería: identificación del problema, exploración, diseño, creación, evaluación y mejora."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Resolver cuestiones y profundizar en aspectos científicos, localizando, seleccionando, organizando y analizando críticamente la información de distintas fuentes, citándolas con el debido respeto por la propiedad intelectual."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Contrastar la veracidad de la información disponible, utilizando fuentes fiables, adoptando una actitud crítica y escéptica hacia informaciones sin una base científica, como pseudociencias, teorías conspiratorias, creencias infundadas y bulos, entre otras."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Plantear preguntas e hipótesis sobre fenómenos científicos que puedan ser respondidas o contrastadas y realizar predicciones sobre ellos, utilizando métodos científicos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Diseñar, realizar experimentos e interpretar los resultados obtenidos en un proyecto de investigación, utilizando herramientas matemáticas y tecnológicas cuando sea necesario."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Establecer colaboraciones, que se consideren necesarias y eficaces, en las distintas fases del proyecto científico, valorando la importancia del trabajo cooperativo en la investigación, respetando la diversidad, la igualdad de género y favoreciendo la inclusión."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-4",
+          "codigoOficial": "3.4",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Presentar, de forma clara y rigurosa, la información y las conclusiones obtenidas mediante la experimentación y observación de campo, utilizando el formato adecuado (tablas, gráficos, informes, entre otros) y herramientas digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-5",
+          "codigoOficial": "3.5",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Valorar tanto la contribución que realiza la ciencia a la sociedad, como la labor de las personas dedicadas a ella, especialmente en Castilla-La Mancha, destacando, además, el papel de la mujer, y entendiendo la investigación científica como una labor colectiva e interdisciplinar en constante evolución, que se ve condicionada por el contexto político y por los recursos económicos que se le dedican."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Resolver problemas o explicar procesos científicos, utilizando conocimientos, datos e informaciones aportados, junto con el razonamiento lógico, el pensamiento computacional o recursos digitales."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              51
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Analizar críticamente la solución de problemas sobre fenómenos científicos, prestando especial atención a los que afectan a nuestro entorno de Castilla-La Mancha, cambiando los procedimientos utilizados o las conclusiones extraídas, si dicha solución no fuese viable o se considerase necesario modificarla ante nuevos datos aportados con posterioridad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              52
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Identificar los posibles riesgos naturales (pérdidas de biodiversidad, alteraciones del suelo, y fenómenos meteorológicos extremos, entre otros) potenciados por determinadas acciones humanas sobre una zona geográfica, especialmente los que puedan afectar a Castilla-La Mancha, teniendo en cuenta sus características litológicas, relieve y vegetación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              52
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Conocer los elementos y el funcionamiento básico del sistema inmunitario humano y su aplicación en la prevención y el tratamiento de las enfermedades infecciosas y no infecciosas más frecuentes, identificando algunos de sus indicadores, causas y tratamientos más comunes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              52
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Proponer y adoptar, hábitos saludables, analizando las acciones propias y ajenas, como pueden ser: la alimentación, la inclusión no discriminatoria, el descanso, la exposición a las pantallas, entre otras, con actitud crítica, desterrando ideas preconcebidas, estereotipos sexistas y basándose en fundamentos de la fisiología."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              52
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Procedimientos de trabajo"
+          },
+          "saberes": [
+            {
+              "id": "CCI.4.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Métodos de trabajo. Método científico."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Búsqueda, tratamiento y transmisión de la información científica, mediante el uso de diferentes fuentes."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Reflexión científica y toma de decisiones con contenido científico y tecnológico ante situaciones personales, sociales y globales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "El Universo"
+          },
+          "saberes": [
+            {
+              "id": "CCI.4.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Evolución de las ideas sobre el universo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Origen, composición y estructura del universo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Origen, estructura del sistema solar y evolución de las estrellas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Condiciones para el origen de la vida."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "La biosfera"
+          },
+          "saberes": [
+            {
+              "id": "CCI.4.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Ecosistema: definición, componentes"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Relaciones interespecíficas e intraespecíficas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cadenas, redes y pirámides tróficas"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.C.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sucesiones ecológicas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Medio ambiente y sostenibilidad"
+          },
+          "saberes": [
+            {
+              "id": "CCI.4.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Principales problemas medioambientales: causas, consecuencias y soluciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cambio climático actual: análisis crítico de los datos que lo evidencian."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fuentes de energías convencionales y alternativas. La pila de hidrógeno."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El desarrollo sostenible como principio rector de los tratados internacionales sobre protección del medio ambiente."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.D.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Campañas de sensibilización medioambiental en el entorno próximo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Calidad de vida"
+          },
+          "saberes": [
+            {
+              "id": "CCI.4.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Salud y enfermedad: evolución histórica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Enfermedades infecciosas y no infecciosas más importantes: desarrollo, tratamientos y prevención."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistema inmunológico humano: elementos y funcionamiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.E.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Consumo de drogas: prevención y consecuencias."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            },
+            {
+              "id": "CCI.4.E.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Estilos de vida y la salud."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  52
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-06",
+    "metodo": "Extracción de texto y coordenadas del PDF y contraste con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos. Las letras de bloque proceden del decreto.",
+      "Los descriptores operativos se conservan por competencia específica. El anexo presenta por separado los criterios y los saberes.",
+      "La oferta por cursos se contrasta con el horario del anexo IV en la redacción del Decreto 31/2024."
+    ]
+  }
+}

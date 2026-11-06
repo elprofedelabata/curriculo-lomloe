@@ -1,0 +1,822 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cm.eso.taller-de-emprendimiento-y-finanzas-personales",
+  "territorio": "es-cm",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "TEFP",
+    "nombre": {
+      "es": "Taller de Emprendimiento y Finanzas Personales"
+    },
+    "cursos": [
+      {
+        "curso": 1,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-07-15",
+    "aplicableDesdeCurso": "2022/2023",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cm-eso-cfgb-decreto-82-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "134",
+      "fechaPublicacion": "2022-07-14",
+      "cve": "2022/6659",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 228,
+        "hasta": 232
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cm-eso-cfgb-decreto-31-2024",
+      "tipo": "decreto",
+      "titulo": "Decreto 31/2024, de 25 de junio, por el que se modifica el Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha y el Decreto 220/2023, de 29 de agosto, por el que se regula la asignación de materias optativas en Educación Secundaria Obligatoria y en Bachillerato a las especialidades de distintos cuerpos de personal funcionario docente en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "126",
+      "fechaPublicacion": "2024-07-02",
+      "cve": "2024/5244",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 13,
+        "hasta": 14
+      },
+      "anexo": "IV"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "El Taller de Emprendimiento y Finanzas Personales se enmarca dentro del conjunto de materias de la etapa de Educación Secundaria Obligatoria que persiguen que nuestro alumnado alcance capacidades relacionadas con la creatividad y el espíritu innovador, la valoración de las ideas como motor para detectar oportunidades de negocios viables y sostenibles, además de con el desarrollo de una cultura financiera básica que les permita actuar con sentido crítico y responsabilidad. Pretende desarrollar el espíritu emprendedor de los jóvenes, con la intención de contribuir a la construcción de una sociedad cuyos ciudadanos estén preparados para responder a los retos que plantea un entorno cada vez más global, cambiante y complejo.",
+      "En la actualidad, la economía y las finanzas, además de dar a conocer los elementos y las reglas que explican los acontecimientos económicos y las consecuencias que se derivan de las decisiones financieras, proyectan valores relacionados con, entre otros, la solidaridad entre las personas, la importancia de la sostenibilidad, o la gestión de los recursos y de la desigualdad, valores que son imprescindibles para el desarrollo de Castilla-La Mancha. En este sentido, juega un papel importante la presencia de la persona emprendedora que integra, por un lado, una formación económica y financiera básicas y, por otro, una actitud de búsqueda de oportunidades e ideas que contribuyan a satisfacer las necesidades detectadas en su entorno personal y social.",
+      "La finalidad educativa de la materia de Taller de Emprendimiento y Finanzas Personales está en consonancia con la Recomendación del Consejo da la Unión Europea, de 22 de mayo de 2018, relativa a las competencias clave para el aprendizaje permanente, que refiere la necesidad de introducir en la educación herramientas que permitan lograr que lo aprendido se pueda aplicar en tiempo real y genere ideas, teorías, productos y conocimientos novedosos. Esa misma aspiración se recoge en la Ley Orgánica 3/2020 por la que se modifica la Ley Orgánica de Educación (conocida como Lomloe) que incluye la competencia emprendedora y el sentido de iniciativa como una de las claves del sistema educativo.",
+      "El currículo de esta materia se diseña tomando como referentes los descriptores operativos, que concretan el desarrollo competencial esperado, conforme establece el Perfil de salida del alumnado al término de la enseñanza básica. Asimismo, se diseña con la vista puesta en los objetivos fijados para la etapa de Enseñanza Secundaria Obligatoria, contribuyendo a desarrollar en el alumnado «el espíritu emprendedor y la confianza en sí mismo, la participación y el sentido crítico, la iniciativa personal, y la capacidad para aprender a aprender, planificar, tomar decisiones y asumir responsabilidades».",
+      "Se desarrolla a partir de aprendizajes significativos, funcionales y de interés para el alumnado, orientados a la adquisición de unas competencias específicas que tratan, en primer lugar, de promover un espíritu proactivo, que ha de cristalizar en una cultura de emprendimiento personal ágil e innovadora. Para ello, es necesario que el alumnado realice un análisis preciso de sí mismo y, con base en este autoconocimiento, adquiera formación y desarrolle habilidades personales, así como estrategias básicas necesarias para afrontar retos, gestionar la incertidumbre y tomar decisiones adecuadas en sus propias finanzas. En segundo lugar, las competencias específicas definidas para esta materia, ayudan a que el alumnado comprenda que la persona emprendedora debe abrirse camino en un contexto global, cuyos elementos se relacionan entre sí. Esto requiere explorar el entorno desde una perspectiva económica, para identificar necesidades y oportunidades que puedan surgir, encontrar los recursos humanos, materiales, inmateriales y digitales necesarios, para aplicarlos en la realización de un proyecto básico, personal y con visión emprendedora.",
+      "Existe también una vinculación directa entre las competencias específicas de esta materia y los principios pedagógicos de la Educación Primaria, en los que se explicita la potenciación del aprendizaje significativo, para el desarrollo de las competencias que promuevan la autonomía y la reflexión. Además, existe continuidad entre esta materia y el abordaje, en la etapa de Educación Primaria y en el primer curso de la Educación Secundaria Obligatoria, de todas las competencias clave y, de forma particular, de la competencia emprendedora y de la competencia personal, social y de aprender a aprender. Ambas se complementan aportando elementos que permiten definir el carácter de la persona emprendedora, favoreciendo, por un lado, una adquisición básica de conocimientos relacionados con la planificación, gestión y ejecución de proyectos emprendedores, junto con los de economía personal y, por otro, potenciando el desarrollo de destrezas y actitudes para afrontar la incertidumbre, gestionar los conflictos, reflexionar de forma crítica, adoptar decisiones éticas, colaborar en equipo y negociar.",
+      "Esta materia, que tiene claramente una continuidad, complemento y ampliación en la materia de segundo de la ESO: Emprendimiento Sostenibilidad y Consumo Responsable, se propone como optativa en primer curso de esta etapa, con la finalidad de introducir, de forma básica, al alumnado en el autoconocimiento, en el mundo económico y empresarial y en la gestión de sus finanzas personales. Por tanto, permitirá la consecución por parte del alumnado de habilidades esenciales de planificación, investigación y búsqueda, organización, gestión y toma de decisiones, de participación, de capacidad de liderazgo y delegación; además, iniciará al alumno o alumna en el pensamiento crítico y el sentido de la responsabilidad, en la evaluación y asunción de riesgos; por último, promoverá actitudes relacionadas con la creatividad, la iniciativa, el autoconocimiento, la autonomía, la autoestima, el interés, el esfuerzo, la motivación y la determinación en el cumplimento de los objetivos marcados.",
+      "Los criterios de evaluación establecidos van dirigidos a comprobar el grado de adquisición de las competencias específicas en un momento determinado de su proceso de aprendizaje, esto es, el nivel de desempeño cognitivo, instrumental y actitudinal que puede ser aplicado en situaciones o actividades del ámbito personal, social y académico con una futura proyección profesional.",
+      "Los saberes básicos que contribuyen a adquirir las competencias específicas se organizan en tres bloques:",
+      "El primer bloque de saberes: «Introducción a la economía y a las finanzas personales», persigue iniciar al alumnado en el mundo de la economía y la denominada cultura financiera, es decir, en la adquisición de un conocimiento sobre los conceptos básicos de la economía y de los distintos productos financieros, además de sobre sus riesgos, de manera que, como consumidores, puedan tomar decisiones informadas en el ámbito económico y financiero, siendo conscientes de sus deberes y derechos, valoren la importancia del ahorro, siendo, además, conscientes de la necesidad de planificar las decisiones de naturaleza económica y financiera. El alumnado, asimismo, tomará contacto con los documentos económicos más habituales de una economía familiar, como facturas, contratos de compraventa, de suministro, de seguro, de alquiler y algún impuesto, entre otros.",
+      "En el segundo: «Autoconocimiento, responsabilidad, creatividad y trabajo en equipo», el alumnado adquirirá, gracias a un proceso reflexivo, un conocimiento básico sobre sus propias capacidades, se iniciará en el proceso de toma de decisiones y deberá asumir con responsabilidad los resultados obtenidos, tanto del trabajo individual como del trabajo cooperativo. Las actuaciones en el proceso enseñanza-aprendizaje irán encaminadas hacia el fomento de la creatividad y del espíritu innovador, valorando su importancia en el desarrollo de la sociedad.",
+      "El tercero: «Emprendimiento y proyecto empresarial», comenzará con la identificación por parte del alumnado del concepto de iniciativa emprendedora, continuará con la distinción de los tipos de emprendedores y su vínculo con la innovación y el bienestar social; después, se incluyen aspectos básicos relacionados con el reconocimiento del papel del empresario y de la empresa como fuentes de creación de riqueza, junto con el análisis de la aportación social que realizan. Para continuar, también se iniciará al alumnado en el planteamiento de alternativas de negocio, aplicando técnicas de generación de ideas, terminando con la planificación y desarrollo de un plan de empresa sencillo.",
+      "Finalmente, en cuanto a la programación de esta materia, se propone la concreción curricular de la misma desde una perspectiva teórico-práctica, aplicando los saberes al desarrollo de un proyecto emprendedor básico y personal, en cada una de sus fases. De este modo, los aprendizajes se construirán en y desde la acción. El alumnado ideará, gestionará recursos, desarrollará un proyecto personal y tomará decisiones en un ambiente flexible y abierto, que le permita desplegar sus aptitudes y potenciar sus destrezas y actitudes emprendedoras, trabajando individualmente o en equipo. Esta dinámica de trabajo genera una cultura creativa, colaborativa y de participación."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar algunos conceptos económicos y financieros básicos, además de planificar las finanzas personales, diferenciando entre inversión, préstamo y gasto de dinero, razonando por qué se pagan o reciben intereses y quiénes son los agentes financieros principales de nuestro sistema, comprendiendo el diferente nivel de riesgo aparejado a cada una de las alternativas, para así poder tomar decisiones racionales respecto al ahorro y la inversión."
+      },
+      "descripcion": {
+        "es": [
+          "Esta materia de Taller de Emprendimiento y Finanzas Personales contribuye a que nuestros jóvenes puedan disponer de conocimientos, así como de herramientas y estrategias, para llevar a cabo decisiones financieras personales como tener un fondo de emergencia, planificar el ahorro familiar presente y futuro y, sobre todo, estar formados ante operaciones de alto riesgo, como, por ejemplo, los préstamos rápidos que podrían cobrar intereses de usura, tarjetas revolving, inversiones en bolsa arriesgadas o con poco fundamento, compra de monedas virtuales, como las criptomonedas o los peligros del mundo del juego y las apuestas."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "CD1",
+        "CD4",
+        "CC3",
+        "CE2"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          229,
+          230
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Producir e interpretar documentos cotidianos, relacionados con actos de consumo, trabajo y negocios, comprendiéndolos y empleándolos adecuadamente, para poder considerarlos en la toma de decisiones racionales, necesarias en nuestra sociedad, así como para dirigirse adecuadamente a las administraciones públicas y a las que velan por los derechos de los consumidores."
+      },
+      "descripcion": {
+        "es": [
+          "Los ciudadanos realizamos a diario transacciones financieras, como abrir una cuenta corriente, usar una tarjeta de débito o crédito, alquilar y asegurar la vivienda o el vehículo, realizar una transferencia bancaria tradicional o utilizar aplicaciones móviles como bizum. Es fundamental que el alumnado adquiera conocimientos financieros para poder gestionar adecuadamente aquellas situaciones que, a lo largo de toda su vida, estén vinculadas con este tipo de productos; en concreto, podemos mencionar decisiones como contratar un préstamo personal o hipotecario, adquirir un vehículo con renting o comprar una vivienda de precio tasado. Es importante que los alumnos presenten la formación necesaria para poder desenvolverse adecuadamente ante este tipo de cuestiones, que llegarán a formar parte de su vida futura, para que estos conocimientos les faciliten adoptar decisiones con sentido crítico y responsable.",
+          "Junto a esto, en una sociedad de consumo como la nuestra, es imprescindible que nuestros alumnos y alumnas sean conocedores de los mecanismos básicos que pueden emplear para hacer valer sus derechos como consumidores; contribuirá a esta finalidad esencial el conocimiento de los variados mecanismos existentes, tanto en las administraciones públicas como en las distintas asociaciones de consumidores, para defenderse de una posible vulneración de sus derechos en este aspecto."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD5",
+        "CPSAA1",
+        "CPSAA5",
+        "CE3",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          230
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Analizar y desarrollar las cualidades individuales y sociales del alumnado que impulsan la iniciativa emprendedora, favoreciendo el trabajo cooperativo y la toma de decisiones, para desarrollar aptitudes y habilidades esenciales, que les permitan encontrar nuevas oportunidades, en el entorno social y económico más próximo."
+      },
+      "descripcion": {
+        "es": [
+          "El desarrollo de esta materia debe fomentar en el alumnado tanto el autoconocimiento como la autoestima, además de contribuir a despertar una actitud de superación, mejora y perfeccionamiento; esto conlleva que, necesariamente, cada alumno/a debe aceptarse y saberse único e inmerso en un proceso de continua superación y enriquecimiento personal. Se pretende que el alumnado desarrolle su inteligencia emocional intrapersonal, generando una actitud de seguridad y confianza en sus propias cualidades. Así pues, esta materia debe ayudar al alumnado no solo a asumir los cambios físicos, síquicos y sociales que experimenta en esta etapa de su vida, la del paso de la niñez a la edad adulta, sino también a conocer y controlar sus propios procesos de aprendizaje.",
+          "La adquisición de esta competencia específica se considera esencial, ya que el desarrollo de cualquier proyecto de emprendimiento, debe estar basado en la adquisición del autoconocimiento necesario para, una vez determinadas cuáles son las propias cualidades, debilidades y fortalezas., poder incidir sobre ellas, desarrollando aquellas necesarias para impulsar su iniciativa emprendedora."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CCL3",
+        "CD1",
+        "CPSAA2",
+        "CPSAA4",
+        "CC3",
+        "CC4",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          230
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Desarrollar la capacidad de comunicarse y negociar con los demás, resolviendo, de manera adecuada, los conflictos que puedan surgir, valorando el planteamiento de propuestas personales y de grupo, ejerciendo el liderazgo de una manera positiva y organizando el trabajo común para llevar a cabo, de manera eficaz, los trabajos colaborativos."
+      },
+      "descripcion": {
+        "es": [
+          "El taller de Emprendimiento y Finanzas Personales debe promover en el alumnado el desarrollo la inteligencia emocional interpersonal, que facilite su participación en actividades grupales y de trabajo en equipo, favoreciendo estrategias de comunicación asertivas, basadas en el respeto hacia uno mismo y hacia los demás, generando una actitud de empatía y proactividad. Se favorecerá que el alumnado pueda desarrollar su autoconocimiento y sus capacidades, no solo para motivarse a sí mismo, sino también a los demás e influirles positivamente, mediante el desarrollo de un trabajo colaborativo."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CPSAA2",
+        "CPSAA3",
+        "CC1",
+        "CC2",
+        "CE2",
+        "CCEC3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          230,
+          231
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Proponer proyectos de negocio adecuados al entorno externo de la empresa, aplicando técnicas empresariales innovadoras, desarrollando la creatividad y valorando el papel del emprendimiento como elemento que favorece el desarrollo social y económico, para promover iniciativas emprendedoras tanto sociales como económicas."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia emprendedora se refiere a la capacidad de actuar con arreglo a oportunidades e ideas y transformarlas en valores para otros. Se basa en la creatividad, el pensamiento crítico y la resolución de problemas, en tomar la iniciativa, en la perseverancia y en la habilidad de trabajar de manera colaborativa en la planificación y la gestión de proyectos de valor financiero, social o cultural.",
+          "Se estudiará el papel del emprendimiento que es determinante para conseguir una transformación social que va mucho más allá de lo económico, reconociendo la función social que desempeñan las empresas y valorando, al mismo tiempo, la importancia de un comportamiento ético, incorporando un planteamiento de concienciación y de actitud crítica ante prácticas ilícitas, a la vez que se transmiten los valores de equidad y solidaridad que subyacen en nuestra sociedad.",
+          "Se pretende dar a conocer el perfil y el papel del emprendedor como miembro de una ciudadanía global, que trabaja con un fin social, de acuerdo con los valores democráticos, de igualdad y de respeto al medio ambiente, teniendo en cuenta, además, que la empresa no debe atender solo al beneficio privado, sino también al de la sociedad. Estos saberes están encaminados a que nuestros jóvenes se conozcan a sí mismos, fortalezcan sus capacidades tanto de liderazgo como de autonomía y mejoren sus aptitudes para el trabajo en equipo, destacando el valor social del emprendimiento y la innovación como motor de progreso social."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "CP3",
+        "STEM3",
+        "CD1",
+        "CD3",
+        "CC3",
+        "CC4",
+        "CE1",
+        "CE2",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          231
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 1,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-1-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Comprender conceptos económicos básicos, interpretando la problemática económica de su entorno y valorando la importancia de la intervención del sector público, fundamentalmente en la corrección de desigualdades."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              231
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Conocer y valorar la importancia del dinero en la sociedad y en la vida de cada persona, identificando los distintos intermediarios financieros y sus principales servicios, razonando su utilidad y generando una actitud crítica, siendo conscientes del problema de la información asimétrica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              231
+            ]
+          }
+        },
+        {
+          "id": "cri-1-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Valorar el impacto de la planificación y la importancia del ahorro, sabiendo elaborar y gestionar, de forma adecuada, un presupuesto de ingresos y gastos personales a corto, medio y largo plazo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              231
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Entender la importancia del respeto a los derechos de los consumidores, identificando las distintas posibilidades de preservarlos y conociendo la posibilidad de recurrir a las organizaciones que, en los distintos ámbitos, desde el local al internacional, velan por la preservación de dichos derechos y pueden prestar asistencia ante una vulneración de los mismos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              231
+            ]
+          }
+        },
+        {
+          "id": "cri-1-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar documentos relacionados con operaciones habituales de consumo, trabajo y negocios, así como conocer los trámites habituales en las relaciones con las administraciones públicas, cumplimentándolos y tramitándolos, tanto de forma manual como telemática."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              231
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Identificar las fortalezas y debilidades personales, relacionándolas con los diferentes ámbitos del desarrollo personal y la vida diaria."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              231
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Afrontar y resolver, de forma adecuada, los problemas planteados, empleando, sus propios recursos personales y seleccionando otros, tanto materiales como humanos, idóneos para su correcta resolución."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              231
+            ]
+          }
+        },
+        {
+          "id": "cri-1-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Analizar los resultados alcanzados, desarrollando una actitud de superación, mejora y perfeccionamiento."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              231
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Comprender la importancia del trabajo en equipo, desarrollando las habilidades sociales, personales, comunicativas y de inteligencia personal necesarias, para poder realizar actividades de trabajo cooperativo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              232
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Desarrollar una actitud flexible en la resolución de conflictos, proponiendo diferentes alternativas e intentando alcanzar acuerdos, mediante la negociación."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              232
+            ]
+          }
+        },
+        {
+          "id": "cri-1-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Ejercer el liderazgo de una manera positiva, demostrando iniciativa y respeto, expresando con claridad no solo sus ideas, sino también recogiendo y argumentando las de los otros miembros del equipo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              232
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Entender y reconocer las cualidades personales y sociales de la persona emprendedora, relacionando el papel del emprendimiento con la innovación y el bienestar social."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              232
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Reconocer la función social que desempeñan las empresas y valorar la importancia de su comportamiento ético, proponiendo iniciativas emprendedoras que reduzcan el impacto social y medioambiental."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              232
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-3",
+          "codigoOficial": "5.3",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Elaborar proyectos de emprendimiento sencillos que partan de la investigación del entorno e incluyan un plan de comercialización, valorando la utilidad de las iniciativas empresariales para la sociedad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              232
+            ]
+          }
+        },
+        {
+          "id": "cri-1-5-4",
+          "codigoOficial": "5.4",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Seleccionar fuentes de información fiables, contrastando y justificando su veracidad y adoptando una actitud crítica."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              232
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Introducción a la economía y a las finanzas personales"
+          },
+          "saberes": [
+            {
+              "id": "TEFP.1.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Definición de economía. Factores productivos. Sectores económicos"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Indicadores económicos básicos: el interés, la inflación y la tasa de desempleo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Economía pública. Déficit y deuda pública. Fraude y economía sumergida"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El dinero. El sistema financiero."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Instrumentos de pago. Tarjetas de débito y de crédito. Préstamos y créditos"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El riesgo de los productos financieros."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.07",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La gestión de ingresos y gastos en las finanzas personales. Importancia del ahorro."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.08",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Consumo responsable. Derechos del consumidor."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.09",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Publicidad y promociones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.10",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El peligro del juego y las apuestas"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.A.11",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Documentos de economía familiar"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Autoconocimiento, responsabilidad, creatividad y trabajo en equipo"
+          },
+          "saberes": [
+            {
+              "id": "TEFP.1.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autonomía e Iniciativa personal."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Autoconocimiento: fortalezas y debilidades personales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Inteligencia emocional."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Dinámicas para el fomento de la creatividad y el espíritu innovador."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.B.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Habilidades de comunicación"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.B.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Trabajo cooperativo: asunción de funciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Emprendimiento y proyecto empresarial"
+          },
+          "saberes": [
+            {
+              "id": "TEFP.1.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El emprendedor y sus cualidades. Tipos de emprendedor."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El valor social del emprendimiento."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de estímulo para el desarrollo de ideas emprendedoras."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.C.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El empresario y la empresa como fuente de creación de riqueza."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.C.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tipos de empresas. Entorno empresarial. La investigación de mercado."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.C.06",
+              "codigoOficial": null,
+              "texto": {
+                "es": "La responsabilidad social corporativa y la cultura empresarial."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.C.07",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El proyecto de empresa: concepto, estructura y planificación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            },
+            {
+              "id": "TEFP.1.C.08",
+              "codigoOficial": null,
+              "texto": {
+                "es": "El plan de marketing."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  232
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-06",
+    "metodo": "Extracción de texto y coordenadas del PDF y contraste con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos. Las letras de bloque proceden del decreto.",
+      "Los descriptores operativos se conservan por competencia específica. El anexo presenta por separado los criterios y los saberes.",
+      "La oferta por cursos se contrasta con el horario del anexo IV en la redacción del Decreto 31/2024."
+    ]
+  }
+}

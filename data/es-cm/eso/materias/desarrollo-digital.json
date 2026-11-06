@@ -1,0 +1,625 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cm.eso.desarrollo-digital",
+  "territorio": "es-cm",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "DD",
+    "nombre": {
+      "es": "Desarrollo Digital"
+    },
+    "cursos": [
+      {
+        "curso": 2,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-07-15",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cm-eso-cfgb-decreto-82-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "134",
+      "fechaPublicacion": "2022-07-14",
+      "cve": "2022/6659",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 60,
+        "hasta": 64
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cm-eso-cfgb-decreto-31-2024",
+      "tipo": "decreto",
+      "titulo": "Decreto 31/2024, de 25 de junio, por el que se modifica el Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha y el Decreto 220/2023, de 29 de agosto, por el que se regula la asignación de materias optativas en Educación Secundaria Obligatoria y en Bachillerato a las especialidades de distintos cuerpos de personal funcionario docente en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "126",
+      "fechaPublicacion": "2024-07-02",
+      "cve": "2024/5244",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 8,
+        "hasta": 14
+      }
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "Las nuevas generaciones han nacido en un mundo digital y, por ello, muestran múltiples destrezas en el uso de diferentes dispositivos electrónicos, como teléfonos móviles y tabletas. Sin embargo, realizar una generalización de estas destrezas supone ignorar las desigualdades existentes entre los diferentes individuos, con respecto a diferentes variables, como pueden ser su distinto nivel socioeconómico y cultural, entre otras. A esto tenemos que añadir que muchas herramientas digitales se diseñan para ser intuitivas y fáciles de utilizar, lo que puede generar conocimientos muy superficiales y rudimentarios. Para evitar estos problemas, es necesario promover entre los jóvenes una educación digital igualitaria, también en lo concerniente a posibles estereotipos de género, que, además, permita usos más complejos y relevantes, que lleguen incluso a contemplar la generación de aportaciones novedosas para favorecer el desarrollo digital de nuestra sociedad.",
+      "La materia de Desarrollo Digital pretende introducir al alumnado en el uso crítico, consciente e informado del amplio abanico de herramientas digitales empleadas actualmente, de forma cotidiana, en multitud de sectores de nuestra sociedad. El objetivo principal es que nuestro alumnado pueda participar, activamente, en el mundo digital, de manera segura, ética y responsable, reflexionando de forma consciente sobre sus derechos, obligaciones y posibilidades, mediante el desarrollo de ciertas destrezas de naturaleza cognitiva y procedimental a la vez que actitudinal que esta materia pretende aportarles.",
+      "Esta materia optativa facilita el aprovechamiento práctico del conocimiento digital y presenta un carácter instrumental e interdisciplinar que contribuye a la consecución del perfil de salida del alumnado al término de la Educación Básica y a la adquisición de los objetivos de la etapa. Responde al desafío de analizar, de manera crítica, las aportaciones y oportunidades que ofrece la sociedad digital. Para ello, en esta materia se aborda el desarrollo de elementos esenciales como el uso de los entornos virtuales para la comunicación y el intercambio de información, la búsqueda y selección de información de una forma eficaz y crítica, la utilización de las diferentes herramientas digitales disponibles para la producción y difusión de contenidos, junto con las técnicas básicas para desarrollar nuevas herramientas y resolver problemas de la vida cotidiana. Todo ello orientado a poder ejercer una ciudadanía digital crítica, activa, ética y comprometida, fomentando los valores de respeto mutuo y trabajo en equipo.",
+      "Las competencias específicas de Desarrollo Digital están estrechamente relacionadas con los ejes estructurales que vertebran la materia y que condicionan el proceso de enseñanza-aprendizaje de la misma. La aplicación de la resolución de problemas mediante el desarrollo del pensamiento computacional, la incorporación de las tecnologías digitales en los procesos de aprendizaje, la naturaleza interdisciplinar propia de la materia, su aportación a la consecución de los Objetivos de Desarrollo Sostenible y su conexión con el mundo real, así como el fomento de actitudes como la creatividad, la cooperación, el desarrollo tecnológico sostenible o el emprendimiento, son algunos de los elementos esenciales que la conforman.",
+      "Los criterios de evaluación, como indicadores que sirven para valorar el grado de desarrollo de las competencias específicas y están enfocados a que el alumnado reflexione sobre su propia práctica, adoptando hábitos saludables, sostenibles y seguros, a la vez que críticos frente a posibles prácticas inadecuadas. Este enfoque competencial conduce al desarrollo de conocimientos, destrezas y actitudes que fomentan diferentes formas de organización del trabajo en equipo, ante la diversidad de situaciones de aprendizaje que intervienen en la materia.",
+      "El desarrollo de esta materia implica la transferencia de conocimientos de otras disciplinas, conocimientos que quedan recogidos en bloques de saberes básicos interrelacionados y que se presentan diferenciados entre sí para dar especial relevancia a la resolución de problemas, la digitalización y el desarrollo sostenible. Tales saberes no deben entenderse de manera aislada y su tratamiento debe ser integral. Su presentación no supone una forma de abordar los saberes básicos en el aula, sino una estructura que ayuda a la comprensión del conjunto de conocimientos, destrezas y actitudes que se pretende que el alumnado adquiera y movilice a lo largo de la etapa. Supone una ocasión para mostrar cómo los saberes pueden actuar como motor de desarrollo para hacer frente a las incertidumbres que genera el progreso tecnológico y la vida en una sociedad cada vez más digitalizada. Por otro lado, el uso de herramientas digitales permite al alumnado el trabajo en equipo, la aplicación práctica de los conocimientos adquiridos y el desarrollo de proyectos multidisciplinares.",
+      "La materia se organiza en cuatro bloques interrelacionados de saberes básicos:",
+      "El primero: «Uso de entornos virtuales en el aula», pretende introducir a los alumnos en el uso crítico, complejo e informado de herramientas que faciliten su aprendizaje y promuevan su desarrollo social y profesional. Existen multitud de entornos que se utilizan en diferentes modalidades de aprendizaje, tanto presencial como a distancia (on-line); en la comunidad autónoma de Castilla-La Mancha se ha apostado por desarrollar uno de ellos: la plataforma Educamos CLM, utilizada por los alumnos durante los primeros cursos de la Educación Secundaria Obligatoria.",
+      "El segundo bloque: «Búsquedas en Internet», tiene como objetivo fundamental conocer las herramientas óptimas de búsqueda de información de cualquier índole, lo que resulta imprescindible dada la complejidad y cantidad de contenidos disponibles actualmente en Internet. Otro aspecto de vital importancia en estos momentos es la verificación y el contraste, con una actitud crítica, de la información obtenida, siendo conscientes de la importancia de que sea fiable y evitando riesgos como el acceso a informaciones falsas o manipuladas.",
+      "El bloque: «Diseño y producción digital», sirve para que los alumnos sean capaces de producir y gestionar información digital en sus diferentes formatos, tanto en dispositivos electrónicos individuales como a través de la red. Actualmente, la información se puede producir y manipular en multitud de formatos, que incluyen, entre otros, textos, imágenes, sonidos y vídeos.",
+      "Por último, el bloque: «Programación creativa», pretende introducir los conceptos básicos de elaboración de un programa de ordenador, fomentando la iniciativa, la creatividad y la resolución de problemas, de una forma ordenada, crítica y eficiente. De esta manera, el alumnado dispondrá de herramientas para desarrollar el dominio de las técnicas de funcionamiento de las nuevas tecnologías y su empleo en la resolución de problemas de su vida cotidiana, evitando las desigualdades y los estereotipos.",
+      "El carácter esencialmente práctico de Desarrollo Digital y el enfoque competencial del currículo requieren metodologías específicas, junto con el uso de estrategias que favorezcan la aplicación de distintas técnicas de trabajo adecuadas a la diversidad de situaciones de aprendizaje que intervienen en la materia. Se debe promover la participación de alumnos y alumnas con una visión integral de la disciplina, resaltando su esfera social ante los desafíos y retos tecnológicos que plantea nuestra sociedad para reducir la brecha digital y de género, prestando especial atención a la desaparición de estereotipos que dificultan la adquisición de competencias digitales en condiciones de igualdad."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Realizar una configuración avanzada del entorno personal digital de aprendizaje, a través de plataformas digitales y entornos virtuales, interactuando con los demás y aprovechando los recursos del ámbito digital, para construir conocimiento de forma colaborativa."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia al uso de plataformas digitales virtuales para mejorar la gestión del trabajo en el aula y la comunicación entre los distintos miembros de la comunidad educativa. En un mundo donde predomina la conexión y el intercambio de información a través de Internet, la pandemia sufrida por la infección por COVID-19, ha puesto de manifiesto la necesidad de revisión de la presencialidad, tanto en el propio sistema educativo como en el entorno laboral, planteándose la necesidad de evolucionar hacia formas mixtas, que permitan, por ejemplo, que el alumnado pueda acceder a los contenidos en línea en cualquier momento o que sea capaz de enviar tareas realizadas desde la localización en que se halle, además de facilitar, por otro lado, que exista una comunicación más fluida y por diferentes vías entre los distintos miembros de la comunidad educativa.",
+          "Se pretende que el alumnado pueda perfeccionar el uso de las herramientas digitales virtuales, que cada vez tienen más peso en ámbitos como el social, el laboral y el educativo. En este último, la Comunidad de Castilla-La Mancha ha realizado un gran esfuerzo técnico para disponer de la plataforma EducamosCLM, que pone a disposición de la comunidad educativa una serie de herramientas que facilitan y optimizan el trabajo diario en el aula.",
+          "La adaptación del alumnado al trabajo en estos entornos virtuales no solamente pretende servir de apoyo a su aprendizaje, sino que también debe prepararlos para un futuro entorno laboral donde el teletrabajo ya no sea una excepción. Su adaptación a estas herramientas es vital para su desarrollo intelectual, para desarrollar su capacidad de socialización y para poder acceder a ese enorme mercado laboral, sin límites de fronteras, que este tipo de recursos técnicos han hecho surgir."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CD2",
+        "CD3",
+        "CD4",
+        "CPSAA5"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          61
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Seleccionar información y contenidos digitales reutilizables, de forma crítica e informada, atendiendo a criterios de validez, calidad, actualidad y fiabilidad, además de respetando la propiedad intelectual, para desarrollar una ciudadanía digital activa y responsable."
+      },
+      "descripcion": {
+        "es": [
+          "La competencia hace referencia a la capacidad de obtener información de diferentes fuentes de Internet, contrastarla y asegurar su veracidad. Internet es actualmente una enorme fuente de información, accesible para toda la sociedad, pero tiene sus inconvenientes. Por un lado, requiere una serie de conocimientos previos: sobre sus parámetros de configuración o para el uso de sus herramientas especializadas, por ejemplo. Por otro lado, no toda la información que hay disponible en esta red es correcta y veraz, por lo que se hace imprescindible contrastarla con diferentes fuentes e identificar cuáles de ellas son lo suficientemente fiables.",
+          "Esta competencia engloba aspectos técnicos sobre los diferentes parámetros de configuración que se pueden especificar en los diferentes buscadores de Internet, aborda los métodos empleados para identificar fuentes fiables de información, diferenciándolas de las que ofrecen información falsa, incluyendo, además, técnicas que permiten contrastar la información obtenida de diversas fuentes."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CD1",
+        "CD3",
+        "CD4",
+        "CPSAA2",
+        "CPSAA4"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          61,
+          62
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Utilizar, con destreza y solvencia, el entorno personal digital de aprendizaje, seleccionando y configurando las herramientas informáticas más adecuadas, en función de las tareas y necesidades de aprendizaje, para crear contenidos digitales y compartirlos."
+      },
+      "descripcion": {
+        "es": [
+          "Los sistemas digitales ofrecen, hoy en día, una enorme variedad de herramientas que permiten manejar diferentes tipos de información, tanto de forma individual como colaborativa. La enorme variedad de formatos de información disponibles ofrece a los usuarios infinitas posibilidades para la publicación de sus contenidos, además del acceso a otros que pueden incluir una gran variedad de información, ya sea en forma de textos, imágenes, diagramas, gráficos, sonidos, animaciones, vídeos, etc. Además, los sistemas digitales ofrecen multitud de formatos de archivos en los que almacenar y publicar esos contenidos.",
+          "Esta competencia pretende afianzar al alumnado en el uso, con destreza y solvencia, de las herramientas digitales básicas que permiten editar contenidos de texto, imagen, sonido y vídeo. Estas herramientas no solamente pueden estar disponibles en un equipo aislado, sino que también pueden ser accesibles en línea, a través de Internet, lo que facilita enormemente su creación simultánea por equipos de usuarios, de forma colaborativa."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA3",
+        "CPSAA5"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          62
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Crear aplicaciones informáticas sencillas y soluciones tecnológicas originales y sostenibles, desarrollando algoritmos mediante herramientas digitales, para resolver problemas concretos o responder a retos propuestos."
+      },
+      "descripcion": {
+        "es": [
+          "Las nuevas tecnologías forman parte integral de la vida cotidiana presente y futura, lo que provoca que la programación sea un conocimiento esencial, que permite interactuar en un mundo gobernado de forma creciente por los sistemas digitales. Enseñar programación básica persigue no solo introducir a los alumnos en conceptos abstractos, sino que, además, entiendan que los sistemas informáticos simplemente ejecutan instrucciones transmitidas por los seres humanos. En consecuencia, no se pretende generar un conocimiento meramente técnico, sino que las nuevas generaciones puedan participar en el mundo digital de manera segura y responsable, siendo conscientes de sus derechos, obligaciones y posibilidades. Aspiramos a que puedan apropiarse del conocimiento y manejo de las nuevas tecnologías, para facilitarles el poder desenvolverse en el mundo digital con la finalidad de ser capaces de resolver problemas de su vida cotidiana.",
+          "Evidentemente, el mero hecho de haber nacido en un mundo altamente digitalizado no es sinónimo de saber utilizar las nuevas tecnologías; estas, en general, suelen ser, actualmente, bastante intuitivas, lo que supone que los jóvenes que las utilizan tengan con frecuencia unos conocimientos sobre ellas bastante rudimentarios. Conocer cómo funcionan y cómo deben utilizarse para generar nuevos contenidos convierte a los individuos en creadores y no solamente en meros consumidores. Además, el conocimiento de estas tecnologías facilita que los individuos, independientemente de su género, raza o condición social, se sientan incentivados en su estudio y desarrollo profesional futuro. La iniciación en el aprendizaje de la programación hace que los individuos se ejerciten en habilidades como la creatividad, la resolución de problemas, la abstracción, la recursividad, la iteración, el proceso ensayo- error y los métodos de aprendizaje colaborativo, entre otros. Además, les proporciona un mecanismo de reflexión acerca de su propio pensamiento y sobre su proceso de aprendizaje.",
+          "Esta materia proporciona conocimientos básicos sobre el uso de un entorno de programación, resolviendo cuestiones como la definición de programa, la secuencia en la que es ejecutado por una máquina y las instrucciones de control que permiten cambiar este orden de ejecución o repetir instrucciones un número determinado de veces."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "CD2",
+        "CD5",
+        "CPSAA3",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          62,
+          63
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 2,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-2-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Identificar los métodos de acceso a un entorno virtual de aprendizaje, utilizando contraseñas seguras y realizando su recuperación, en caso de ser necesario."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Reconocer las opciones básicas y avanzadas en la configuración del entorno personal digital de aprendizaje, haciendo uso de ellas para acceder a los contenidos y a las tareas, entre otras finalidades."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-1-3",
+          "codigoOficial": "1.3",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Interactuar en el entorno virtual, comunicándose con el resto de usuarios de una forma activa, eficaz y respetuosa."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Conocer las herramientas que permiten realizar búsquedas en Internet y sus parámetros de configuración, identificando las más adecuadas para obtener diferentes tipos de información y comparando los resultados obtenidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Identificar las diferentes fuentes de información disponibles en Internet, diferenciando las más fiables y seleccionando las que son más útiles."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Valorar la autenticidad de la información obtenida en Internet, contrastándola con otras fuentes y ofreciendo herramientas que permitan corroborar su veracidad."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer el uso de las herramientas digitales óptimas que permitan crear contenidos y presentaciones que incluyan, entre otros, textos, imágenes y sonidos, reconociendo los formatos más utilizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Utilizar herramientas que permitan la edición de imágenes, retocando sus parámetros básicos para ajustar su tamaño, calidad y otros defectos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-3-3",
+          "codigoOficial": "3.3",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Realizar edición básica de vídeos, conociendo y aplicando distintas herramientas y los formatos más utilizados."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Conocer el entorno de programación y las herramientas visuales disponibles, ofreciendo las opciones necesarias para crear un programa y ejecutarlo."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Identificar el orden en el que se ejecuta un programa, comprendiendo las instrucciones condicionales y repetitivas que permiten cambiar dicho orden."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "cri-2-4-3",
+          "codigoOficial": "4.3",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar programas sencillos que resuelvan tareas simples, desarrollando estrategias de colaboración para el trabajo en equipo y comparando diferentes soluciones para un mismo problema."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              63
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Uso de entornos virtuales en el aula"
+          },
+          "saberes": [
+            {
+              "id": "DD.2.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Presentación del entorno. Seguridad de las contraseñas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Acceso a los contenidos de las aulas virtuales."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Actividades, tareas y otros recursos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.A.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Comunicaciones y mensajería."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Búsquedas en Internet"
+          },
+          "saberes": [
+            {
+              "id": "DD.2.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Motores de búsqueda."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Configuraciones avanzadas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.B.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Credibilidad y contraste de la información."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.B.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Propiedad intelectual en el ámbito digital."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Diseño y producción digital"
+          },
+          "saberes": [
+            {
+              "id": "DD.2.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Procesadores de textos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Elaboración de presentaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Programas de edición de imagen, sonido y vídeo."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Programación creativa"
+          },
+          "saberes": [
+            {
+              "id": "DD.2.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Introducción a la programación. Entornos y herramientas de programación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Tipos de instrucciones en un programa. Secuencia de ejecución."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Cambio en la ejecución de un programa: sentencias condicionales y repetitivas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sentencias para el manejo de imágenes, sonidos y animación de objetos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            },
+            {
+              "id": "DD.2.D.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Colaboración en el desarrollo de proyectos de programación."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  64
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-06",
+    "metodo": "Extracción de texto y coordenadas del PDF y contraste con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos. Las letras de bloque proceden del decreto.",
+      "Los descriptores operativos se conservan por competencia específica. El anexo presenta por separado los criterios y los saberes.",
+      "La oferta por cursos se contrasta con el horario del anexo IV en la redacción del Decreto 31/2024.",
+      "Se incorporan los párrafos de las competencias específicas 3 y 4 sustituidos por el Decreto 31/2024."
+    ]
+  }
+}

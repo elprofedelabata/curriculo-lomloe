@@ -1,8 +1,8 @@
 {
   "territorio": "es-cm",
-  "fecha": "2026-11-05",
+  "fecha": "2026-11-06",
   "estado": "extraccion-en-curso",
-  "criterioAgrupacion": "Este inventario enumera las áreas de Infantil y Primaria y los dos ámbitos comunes de Grado Básico. Los localizadores son posiciones en el PDF. Una página se comparte cuando comienza un currículo después de terminar el anterior. La guía normativa localiza los anexos de ESO y Bachillerato.",
+  "criterioAgrupacion": "El inventario enumera las áreas de Infantil y Primaria, las materias y los dos ámbitos con currículo propio de ESO, y los dos ámbitos comunes de Grado Básico. Los localizadores son posiciones en el PDF. Una página se comparte cuando comienza un currículo después de terminar el anterior. El informe de ESO documenta las optativas de centro y el ámbito práctico por remisión. La guía normativa localiza los anexos de Bachillerato.",
   "curriculos": [
     {
       "etapa": "infantil",
@@ -198,6 +198,754 @@
         }
       ],
       "jsonPath": "data/es-cm/primaria/materias/matematicas.json"
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Artes Escénicas, Danza y Folclore",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 34,
+          "paginaFin": 38
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-correccion-decreto-82-2022",
+          "paginaInicio": 1,
+          "paginaFin": 1
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "cursos": [
+        4
+      ],
+      "jsonPath": "data/es-cm/eso/materias/artes-escenicas-danza-y-folclore.json"
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Biología y Geología",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 39,
+          "paginaFin": 47
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-correccion-decreto-82-2022",
+          "paginaInicio": 1,
+          "paginaFin": 1
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "cursos": [
+        1,
+        3,
+        4
+      ],
+      "jsonPath": "data/es-cm/eso/materias/biologia-y-geologia.json"
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Cultura Científica",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 48,
+          "paginaFin": 52
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "cursos": [
+        4
+      ],
+      "jsonPath": "data/es-cm/eso/materias/cultura-cientifica.json"
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Cultura Clásica",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 53,
+          "paginaFin": 59
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "cursos": [
+        2,
+        4
+      ],
+      "jsonPath": "data/es-cm/eso/materias/cultura-clasica.json"
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Desarrollo Digital",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 60,
+          "paginaFin": 64
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "paginaInicio": 8,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/desarrollo-digital.json",
+      "cursos": [
+        2
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Digitalización",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 65,
+          "paginaFin": 69
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/digitalizacion.json",
+      "cursos": [
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Economía y Emprendimiento",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 70,
+          "paginaFin": 76
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/economia-y-emprendimiento.json",
+      "cursos": [
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Educación Física",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 77,
+          "paginaFin": 87
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/educacion-fisica.json",
+      "cursos": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Educación en Valores Cívicos y Éticos",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 88,
+          "paginaFin": 93
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/educacion-en-valores-civicos-y-eticos.json",
+      "cursos": [
+        2
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Educación Plástica, Visual y Audiovisual",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 94,
+          "paginaFin": 99
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/educacion-plastica-visual-y-audiovisual.json",
+      "cursos": [
+        2,
+        3
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Emprendimiento, Sostenibilidad y Consumo Responsable",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 100,
+          "paginaFin": 104
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-correccion-decreto-82-2022",
+          "paginaInicio": 1,
+          "paginaFin": 1
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/emprendimiento-sostenibilidad-y-consumo-responsable.json",
+      "cursos": [
+        3
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Expresión Artística",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 105,
+          "paginaFin": 109
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/expresion-artistica.json",
+      "cursos": [
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Filosofía",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 110,
+          "paginaFin": 113
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/filosofia.json",
+      "cursos": [
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Física y Química",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 114,
+          "paginaFin": 122
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/fisica-y-quimica.json",
+      "cursos": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Formación y Orientación Personal y Profesional",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 123,
+          "paginaFin": 128
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/formacion-y-orientacion-personal-y-profesional.json",
+      "cursos": [
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Geografía e Historia",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 129,
+          "paginaFin": 142
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/geografia-e-historia.json",
+      "cursos": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Latín",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 143,
+          "paginaFin": 148
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/latin.json",
+      "cursos": [
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Lengua Castellana y Literatura",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 149,
+          "paginaFin": 163
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/lengua-castellana-y-literatura.json",
+      "cursos": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Lengua Extranjera",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 164,
+          "paginaFin": 174
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/lengua-extranjera.json",
+      "cursos": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Matemáticas",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 175,
+          "paginaFin": 196
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/matematicas.json",
+      "cursos": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Música Activa, Movimiento y Folclore",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 197,
+          "paginaFin": 201
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-correccion-decreto-82-2022",
+          "paginaInicio": 1,
+          "paginaFin": 1
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/musica-activa-movimiento-y-folclore.json",
+      "cursos": [
+        3
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Música",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 202,
+          "paginaFin": 207
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/musica.json",
+      "cursos": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Proyectos de Robótica",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 208,
+          "paginaFin": 212
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/proyectos-de-robotica.json",
+      "cursos": [
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Proyectos de Artes Plásticas y Visuales",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 213,
+          "paginaFin": 216
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-correccion-decreto-82-2022",
+          "paginaInicio": 1,
+          "paginaFin": 1
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/proyectos-de-artes-plasticas-y-visuales.json",
+      "cursos": [
+        1
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Segunda Lengua Extranjera",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 217,
+          "paginaFin": 227
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/segunda-lengua-extranjera.json",
+      "cursos": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Taller de Emprendimiento y Finanzas Personales",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 228,
+          "paginaFin": 232
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/taller-de-emprendimiento-y-finanzas-personales.json",
+      "cursos": [
+        1
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Tecnología",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 233,
+          "paginaFin": 238
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/tecnologia.json",
+      "cursos": [
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Tecnología y Digitalización",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+          "anexo": "II",
+          "paginaInicio": 239,
+          "paginaFin": 245
+        },
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "IV",
+          "paginaInicio": 13,
+          "paginaFin": 14
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/tecnologia-y-digitalizacion.json",
+      "cursos": [
+        1,
+        3
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Unión Europea",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-cfgb-decreto-31-2024",
+          "anexo": "II",
+          "paginaInicio": 9,
+          "paginaFin": 13
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/union-europea.json",
+      "cursos": [
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Ámbito lingüístico y social",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-orden-166-2022",
+          "anexo": "I",
+          "paginaInicio": 9,
+          "paginaFin": 18
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/ambito-linguistico-y-social-diversificacion.json",
+      "cursos": [
+        3,
+        4
+      ]
+    },
+    {
+      "etapa": "eso",
+      "nombre": "Ámbito científico-tecnológico",
+      "estado": "revisado",
+      "localizadores": [
+        {
+          "fuenteRef": "es-cm-eso-orden-166-2022",
+          "anexo": "I",
+          "paginaInicio": 18,
+          "paginaFin": 26
+        }
+      ],
+      "jsonPath": "data/es-cm/eso/materias/ambito-cientifico-tecnologico-diversificacion.json",
+      "cursos": [
+        3,
+        4
+      ]
     },
     {
       "etapa": "cfgb",

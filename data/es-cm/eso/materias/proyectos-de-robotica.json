@@ -1,0 +1,741 @@
+{
+  "$schema": "../../../../schemas/materia.schema.json",
+  "schemaVersion": "0.8.0",
+  "id": "es-cm.eso.proyectos-de-robotica",
+  "territorio": "es-cm",
+  "etapa": "eso",
+  "materia": {
+    "codigo": "PR",
+    "nombre": {
+      "es": "Proyectos de Robótica"
+    },
+    "cursos": [
+      {
+        "curso": 4,
+        "caracter": "optativa"
+      }
+    ]
+  },
+  "vigencia": {
+    "entradaEnVigor": "2022-07-15",
+    "aplicableDesdeCurso": "2023/2024",
+    "hasta": null,
+    "estado": "vigente"
+  },
+  "fuentes": [
+    {
+      "id": "es-cm-eso-cfgb-decreto-82-2022",
+      "tipo": "decreto",
+      "titulo": "Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "134",
+      "fechaPublicacion": "2022-07-14",
+      "cve": "2022/6659",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2022/07/12/82/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 208,
+        "hasta": 212
+      },
+      "anexo": "II"
+    },
+    {
+      "id": "es-cm-eso-cfgb-decreto-31-2024",
+      "tipo": "decreto",
+      "titulo": "Decreto 31/2024, de 25 de junio, por el que se modifica el Decreto 82/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria en la comunidad autónoma de Castilla-La Mancha y el Decreto 220/2023, de 29 de agosto, por el que se regula la asignación de materias optativas en Educación Secundaria Obligatoria y en Bachillerato a las especialidades de distintos cuerpos de personal funcionario docente en la comunidad autónoma de Castilla-La Mancha.",
+      "publicacion": "Diario Oficial de Castilla-La Mancha",
+      "numero": "126",
+      "fechaPublicacion": "2024-07-02",
+      "cve": "2024/5244",
+      "urlOficial": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "urlVerificacion": "https://docm.jccm.es/docm/eli/es-cm/d/2024/06/25/31/dof/spa/pdf",
+      "paginasMateria": {
+        "desde": 13,
+        "hasta": 14
+      },
+      "anexo": "IV"
+    }
+  ],
+  "introduccion": {
+    "es": [
+      "La evolución tecnológica que se está produciendo en el siglo actual, en concreto en el sector de la robótica, hace necesaria la incorporación y el desarrollo de conocimientos relacionados con el pensamiento computacional y su aplicación en los sistemas automáticos y robots. Además, la aparición y el rápido crecimiento, en estos últimos años, de aplicaciones prácticas basadas en tecnologías emergentes, como, por ejemplo, el internet de las cosas, hace que este sector de la robótica esté adquiriendo especial relevancia actualmente. El campo de la tecnología y, en concreto, la robótica, están íntimamente relacionados con el entorno del alumnado: ordenador, internet, comunicaciones, aplicaciones, simuladores, domótica, robots industriales y domésticos, entre otros.",
+      "La materia de Proyectos de Robótica contribuye a dar respuesta a las necesidades que presenta el alumnado ante situaciones que requieren una solución mediante la comprensión, la programación y la puesta en funcionamiento de un sistema automático o robot, problemas que actualmente son cada vez más comunes en la sociedad en la que vivimos. El desarrollo de esta materia persigue que los alumnos y las alumnas puedan usar criterios técnicos, científicos y sostenibles, valorar la repercusión de la robótica, en general, en la sociedad y trabajar de manera activa, en colaboración con otros, respetando la opinión de los demás y fomentando la participación del alumnado en igualdad.",
+      "Esta materia pretende proporcionar al alumnado experiencias relacionadas con la programación, los robots, los sistemas de control automático y los entornos de desarrollo rápido de prototipos o sistemas de fabricación a medida, facilitándole la comprensión de todos los aspectos que son necesarios para resolver un problema tecnológico real, desde su análisis hasta la solución definitiva. Este proceso incluye: la elaboración de un programa informático que controle el funcionamiento de un sistema automático o un robot, su diseño, su fabricación, montaje y la experimentación con él. Todo ello con el fin de realizar los ajustes necesarios en el control y el funcionamiento del mismo, para que el robot proporcione la solución definitiva al problema inicial.",
+      "El carácter interdisciplinar de la materia contribuye no solo a la adquisición de los objetivos de etapa, sino también a garantizar el desarrollo de las competencias clave, previsto en el Perfil de salida del alumnado, al término de la educación básica. En el desarrollo de la materia se favorecen los procesos cognitivos que se requieren para resolver un problema, integrando conocimientos relacionados con las tecnologías de la información y la comunicación, las matemáticas, las ciencias experimentales y contenidos técnicos. Proyectos de Robótica desarrolla aspectos relacionados, en mayor o menor medida, con todas las competencias clave de la etapa.",
+      "Las competencias específicas recogen la finalidad última de la materia y determinan el proceso de enseñanza-aprendizaje de la misma. Algunos de los elementos esenciales que conforman la naturaleza transversal propia de la materia son: el pensamiento computacional, el montaje de sistemas automáticos y robots, el fomento de actitudes como el trabajo en equipo, la creatividad, el compromiso con un desarrollo tecnológico sostenible, además del desarrollo de la capacidad de emprendimiento y la incorporación de las tecnologías digitales. Por sus características, la materia presenta un enfoque competencial, destacando la resolución de problemas interdisciplinares como eje vertebrador.",
+      "Los criterios de evaluación establecidos van dirigidos a comprobar el grado de adquisición de las competencias específicas en un momento determinado de su proceso de aprendizaje, esto es, el nivel de desempeño cognitivo, instrumental y actitudinal que pueda ser aplicado en situaciones o actividades del ámbito personal, social y académico con una futura proyección profesional.",
+      "Los saberes básicos de esta materia se organizan en torno a seis bloques interrelacionados:",
+      "El primero: «Proceso de resolución de problemas», es un bloque en el que se persigue, basándose en el desarrollo de proyectos, un aprendizaje centrado en el estudio del entorno doméstico e industrial como estrategia para la investigación, diseño y fabricación de soluciones a problemas planteados.",
+      "Mediante el segundo bloque: «Diseño 3D y fabricación digital», se pretende un acercamiento, cada vez más necesario, a procesos de fabricación digitales propios de la industria, partiendo del conocimiento y manejo de programas CAD.",
+      "En el bloque: «Electrónica analógica y digital aplicadas a la robótica», se presenta la identificación, estudio y funcionamiento de componentes electrónicos como una parte importante para la resolución de problemas en la realización de proyectos.",
+      "En el cuarto bloque: «Pensamiento computacional», se establecen las bases para programar aplicaciones en ordenadores y dispositivos móviles, mediante el aprendizaje y uso de algoritmos, diagramas de flujo, variables, estructuras de repetición, secuenciales y condicionales orientados al control de robots.",
+      "En el bloque denominado: «Automatización y robótica», confluyen los conocimientos y contenidos del resto de los bloques de saberes, pues es necesario utilizarlos en la realización y construcción de un sistema automático o robot. Se aprenden los elementos básicos de estos sistemas cuando se diseña, proyecta y construye ayudándose de plataformas de software y hardware, siguiendo el método de proyectos. Además, la integración de las telecomunicaciones en los sistemas de control abre la puerta al internet de las cosas y permite su uso en aplicaciones prácticas, pudiendo dar respuesta a necesidades tanto individuales como colectivas.",
+      "En el último bloque: «Desarrollo sostenible en la robótica», se analiza y valora, de manera crítica, el impacto ecosocial de la selección de materiales, del diseño de procesos y de los sistemas automáticos y robots, en el entorno que nos rodea. Se investiga también la inteligencia artificial y su contribución a la mejora de la sostenibilidad.",
+      "El planteamiento de la materia, basada en el desarrollo de proyectos técnicos, favorece el trabajo activo y colaborativo, la implicación del alumnado y la construcción de su propio aprendizaje. La investigación, el diseño, la experimentación, la fabricación, junto con la comprobación y evaluación del resultado son fases que se deben ir desarrollando para la obtención del objeto final. Para ello, resulta fundamental disponer de un espacio donde llevar a cabo los proyectos, de una manera competencial y práctica, con dispositivos informáticos para simular y programar, además de recursos materiales para construir con sistemas de impresión 3D y otras herramientas de fabricación digital.",
+      "La materia de Proyectos de Robótica, optativa en el último curso de la etapa de Educación Secundaria Obligatoria, da continuidad a la materia de Tecnología y Digitalización de cursos anteriores, refuerza y amplía conocimientos en el alumnado que opte por cursar Tecnología en 4º ESO, preparándolos también para su posible incorporación al mundo laboral o para continuar sus estudios, especialmente si deciden cursar tanto la modalidad de Bachillerato de Ciencias e Ingeniería como si optan por elegir entre una amplia variedad de ciclos formativos relacionados con esta materia."
+    ]
+  },
+  "competenciasEspecificas": [
+    {
+      "id": "ce-1",
+      "codigoOficial": "1",
+      "enunciado": {
+        "es": "Identificar, plantear y resolver problemas tecnológicos, mediante la realización de proyectos, adecuados a las necesidades del entorno, haciendo uso de sistemas de control automáticos, con creatividad, interés y de forma colaborativa, para idear soluciones funcionales, sostenibles e innovadoras."
+      },
+      "descripcion": {
+        "es": [
+          "Esta competencia hace referencia a la metodología principal empleada en esta materia: el proceso de resolución de problemas. Este método tiene como principal característica el trabajo en equipo para afrontar el desafío de resolver problemas tecnológicos. Es necesario, por tanto, que el grupo sepa escuchar, con respeto, las diferentes opiniones, además de adoptar las decisiones de forma consensuada y mostrando una actitud flexible que permita avanzar. Es importante, también, mantener una actitud activa durante el proceso y trabajar de forma colaborativa.",
+          "Los problemas tecnológicos planteados deben de ser solucionables mediante el diseño y construcción de sistemas de control automáticos, además de estar vinculados, en lo posible, con el centro y su entorno, empleando como herramientas para desarrollarlos, los conocimientos adquiridos de programación y robótica. Además, se buscarán soluciones funcionales, innovadoras, eficientes y sostenibles a dichos problemas, de una forma gradual, a medida que los conocimientos adquiridos lo permitan."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM1",
+        "STEM3",
+        "CD3",
+        "CPSAA3",
+        "CE1",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          209
+        ]
+      }
+    },
+    {
+      "id": "ce-2",
+      "codigoOficial": "2",
+      "enunciado": {
+        "es": "Obtener soluciones automatizadas, destinadas a la construcción de sistemas automáticos y robots, aplicando conocimientos de estructuras, mecanismos, electricidad y electrónica, haciendo uso del pensamiento computacional, el diseño 3D y la fabricación digital, para generar productos que solucionen una necesidad o problema, de forma creativa."
+      },
+      "descripcion": {
+        "es": [
+          "La realización de sistemas automáticos y robots implica tener conocimientos de diferentes campos, especialmente de los de tipo eléctrico, electrónico e informático. Este último aporta el pensamiento computacional para usar lenguajes de programación, que se emplea en el diseño de sistemas automáticos y robots. Además, también serían necesarios conocimientos de otras especialidades: estructuras, mecanismos, neumática, entre otros, dependiendo de la naturaleza del problema que se quiera resolver.",
+          "En el proceso de obtención de soluciones automatizadas se realizarán las fases de diseño y construcción, para poder garantizar su funcionalidad; en dichas fases se han de emplear los materiales y componentes adecuados, cumpliendo las normas de seguridad y salud en el uso de las herramientas. La simulación de una situación real, mediante el uso de herramientas digitales, se considera conveniente, opción muy válida, por ejemplo, cuando existan limitaciones que imposibiliten la realización práctica de la solución elegida.",
+          "Se recomienda el uso de la Impresora 3D como recurso de fabricación de piezas empleadas en la construcción, con la finalidad de conocer este tipo de diseño y el funcionamiento de herramientas digitales propias de estos dispositivos."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          209,
+          210
+        ]
+      }
+    },
+    {
+      "id": "ce-3",
+      "codigoOficial": "3",
+      "enunciado": {
+        "es": "Conocer y utilizar lenguajes de programación en diferentes entornos, aplicando los principios del pensamiento computacional y realizando algoritmos que posibiliten diseñar sistemas de control, para solucionar problemas concretos o responder a retos propuestos con interés y creatividad."
+      },
+      "descripcion": {
+        "es": [
+          "En el diseño de sistemas automáticos o robots es imprescindible usar un lenguaje de programación, para indicar las instrucciones que debe seguir la tarjeta electrónica integrada en el sistema. Cada lenguaje de programación tiene un entorno de trabajo con sus propias normas e instrucciones, que se deben conocer para programar adecuadamente, ya sea por bloques o por código, eligiendo el que se considere más acorde con el nivel del alumnado.",
+          "Se persigue que, de forma gradual, el alumnado aprenda a programar, usando los principios de pensamiento computacional, además de los elementos de programación básicos, tales como: el uso de variables, operaciones, sentencias condicionales, funciones, etc. Con esta competencia específica se define no solo que el alumnado sea capaz de programar correctamente, sino también que lo haga de la forma más adecuada y eficiente."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL2",
+        "CP2",
+        "STEM1",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          210
+        ]
+      }
+    },
+    {
+      "id": "ce-4",
+      "codigoOficial": "4",
+      "enunciado": {
+        "es": "Emplear herramientas digitales de simulación de circuitos, procesos y sistemas, analizando su funcionamiento, además de las diferentes posibilidades y soluciones que puedan plantear, para comprender diferentes situaciones y resolverlas de forma práctica y eficiente."
+      },
+      "descripcion": {
+        "es": [
+          "Uno de los principales objetivos de la materia es diseñar y construir sistemas automáticos o robots. El uso de herramientas digitales para simular procesos es uno de los recursos utilizables para mejorar la comprensión y el análisis de su funcionamiento, ya que facilitan el aprendizaje de conceptos y del funcionamiento de dispositivos, al simular situaciones que no se puedan realizar físicamente por diferentes motivos. Estas herramientas para simular diferentes situaciones permiten mostrar los conocimientos adquiridos y, además, puede ser un buen punto de partida para introducir otros que puedan resolver los problemas planteados, encontrando mejores soluciones, más funcionales y eficientes.",
+          "Localizar e investigar nuevas herramientas informáticas de simulación, además de aprender su funcionamiento, es una tarea esencial para el alumnado."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "STEM2",
+        "CD2",
+        "CD5",
+        "CPSAA4",
+        "CE3"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          210
+        ]
+      }
+    },
+    {
+      "id": "ce-5",
+      "codigoOficial": "5",
+      "enunciado": {
+        "es": "Investigar y descubrir las posibilidades que nos brindan las diferentes tecnologías emergentes en relación con el desarrollo sostenible, utilizando distintas fuentes de información, preferiblemente digitales y aplicando dichas tecnologías en el desarrollo de soluciones de automatización de procesos, más eficientes, sociales y ecológicas para fomentar un espíritu crítico y ético."
+      },
+      "descripcion": {
+        "es": [
+          "El surgimiento de nuevas tecnologías, como: el internet de las cosas, inteligencia artificial, big data, etc. y su desarrollo vertiginoso, debido a las múltiples aplicaciones que se les están encontrando, exige un esfuerzo constante de actualización. En general, estas tecnologías han mejorado múltiples sistemas automáticos y robots, haciéndolos más funcionales y eficientes, por lo que resulta necesario que el alumnado se inicie en su conocimiento, buscando y recogiendo información sobre ellas en fuentes fiables y realizando, en lo posible, alguna práctica o proyecto para su mejor comprensión.",
+          "Es necesario, además estudiar y analizar las consecuencias del uso de estas tecnologías para poder utilizarlas de una manera que beneficie a la sociedad en su conjunto y preserve el medioambiente."
+        ]
+      },
+      "descriptoresOperativosRefs": [
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CPSAA4",
+        "CC3",
+        "CE1"
+      ],
+      "procedencia": {
+        "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+        "paginas": [
+          210,
+          211
+        ]
+      }
+    }
+  ],
+  "desarrollos": [
+    {
+      "curso": 4,
+      "criteriosEvaluacion": [
+        {
+          "id": "cri-4-1-1",
+          "codigoOficial": "1.1",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Trabajar activamente, de forma colaborativa, con motivación e interés, en la ideación, planificación y realización de proyectos, mostrando actitudes de respeto y tolerancia hacia los demás y sus opiniones e ideas."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-1-2",
+          "codigoOficial": "1.2",
+          "competenciaEspecificaRef": "ce-1",
+          "texto": {
+            "es": "Diseñar y planificar soluciones para problemas surgidos a partir de las necesidades y posibilidades del centro y del entorno, ideando sistemas de control automáticos funcionales, sostenibles e innovadores, aplicando los conocimientos de programación y robótica adquiridos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-1",
+          "codigoOficial": "2.1",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Obtener soluciones técnicas y constructivas en el desarrollo de sistemas automáticos y robots, aplicando los fundamentos de estructuras, mecanismos, electricidad y electrónica, así como otros conocimientos interdisciplinares."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-2",
+          "codigoOficial": "2.2",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Diseñar y construir piezas u objetos que formen parte de la solución a un problema, aplicando herramientas de diseño asistido por ordenador, fabricándolos con ayuda de una impresora 3D e incorporándolos al sistema final."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-3",
+          "codigoOficial": "2.3",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Construir, controlar y simular sistemas automáticos y robots que sean capaces de realizar tareas de forma autónoma, buscando la solución más adecuada, haciendo una selección de los materiales y componentes necesarios, además de respetando las normas de seguridad y salud en su construcción."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-2-4",
+          "codigoOficial": "2.4",
+          "competenciaEspecificaRef": "ce-2",
+          "texto": {
+            "es": "Aplicar el pensamiento computacional en la robótica, como herramienta de solución y mejora a problemas planteados, valorando su repercusión en el entorno."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-1",
+          "codigoOficial": "3.1",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Conocer y usar, de forma correcta, el entorno o entornos de programación en el control de los sistemas automáticos programados, conociendo sus normas de funcionamiento y su aplicación en prototipos diseñados o sistemas físicos construidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-3-2",
+          "codigoOficial": "3.2",
+          "competenciaEspecificaRef": "ce-3",
+          "texto": {
+            "es": "Resolver problemas mediante sistemas de control programado de forma adecuada y eficiente, entendiendo y aplicando los principios del pensamiento computacional y usando los elementos básicos de programación aprendidos."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-1",
+          "codigoOficial": "4.1",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Utilizar adecuadamente herramientas digitales de simulación de circuitos y sistemas, investigando en fuentes de información adecuadas, aprendiendo su funcionamiento y valorando la necesidad de su uso."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-4-2",
+          "codigoOficial": "4.2",
+          "competenciaEspecificaRef": "ce-4",
+          "texto": {
+            "es": "Diseñar y comprender las simulaciones realizadas con herramientas digitales, afianzando los conocimientos adquiridos y posibilitando el desarrollo de otros nuevos, buscando soluciones prácticas y eficientes."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-1",
+          "codigoOficial": "5.1",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Buscar y localizar documentación sobre las nuevas tecnologías emergentes utilizando diversas fuentes, seleccionándola adecuadamente y obteniendo información fiable y contrastada."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        },
+        {
+          "id": "cri-4-5-2",
+          "codigoOficial": "5.2",
+          "competenciaEspecificaRef": "ce-5",
+          "texto": {
+            "es": "Investigar e identificar, con sentido crítico y ético, las alternativas que ofrece el uso de las tecnologías emergentes en el desarrollo de soluciones de automatización de procesos, analizando las repercusiones en el entorno que nos rodea."
+          },
+          "saberesBasicosRefs": [],
+          "procedencia": {
+            "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+            "paginas": [
+              211
+            ]
+          }
+        }
+      ],
+      "bloquesSaberes": [
+        {
+          "codigo": "A",
+          "nombre": {
+            "es": "Proceso de resolución de problemas"
+          },
+          "saberes": [
+            {
+              "id": "PR.4.A.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas o estrategias de generación de ideas para la resolución de problemas cotidianos, mediante la programación y su aplicación en sistemas automáticos y robots."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.A.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Proyectos colaborativos y cooperativos que resuelvan necesidades del centro y el entorno."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.A.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Motivación e interés en la resolución de problemas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.A.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Herramientas digitales de programación y simulación que faciliten la comprensión de sistemas robóticos y ayuden a la resolución de problemas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "B",
+          "nombre": {
+            "es": "Diseño 3D y fabricación digital"
+          },
+          "saberes": [
+            {
+              "id": "PR.4.B.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Uso de programas CAD en 3D para el diseño y fabricación de piezas aplicadas a proyectos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.B.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Técnicas de fabricación digital: impresión 3D y corte."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "C",
+          "nombre": {
+            "es": "Electrónica analógica y digital aplicadas a la robótica"
+          },
+          "saberes": [
+            {
+              "id": "PR.4.C.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Señales analógica y digital en robótica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.C.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Electrónica analógica y digital: componentes aplicados a la robótica y su funcionamiento. Simbología"
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.C.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Análisis, montaje y simulación de circuitos sencillos con componentes analógicos y digitales aplicados a la robótica."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "D",
+          "nombre": {
+            "es": "Pensamiento computacional: programación de sistemas técnicos"
+          },
+          "saberes": [
+            {
+              "id": "PR.4.D.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Programación por bloques y con código."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.D.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Algoritmos, diagramas de flujo. -Elementos básicos de programación. Variables: tipos. Operadores aritméticos y lógicos. Estructuras de decisión: bucles y condicionales. Funciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.D.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Aplicación de plataformas de control en la experimentación con prototipos diseñados."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.D.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Programación de aplicaciones en dispositivos móviles."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "E",
+          "nombre": {
+            "es": "Automatización y robótica"
+          },
+          "saberes": [
+            {
+              "id": "PR.4.E.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sensores y actuadores básicos. Características técnicas y funcionamiento. Aplicaciones prácticas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.E.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Componentes de un robot. Grados de libertad (articulaciones), movimientos y sistemas de posicionamiento para robot."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.E.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Diseño, construcción y control de robots y/o sistemas automáticos sencillos, de manera física."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.E.04",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Iniciación a la inteligencia artificial y big data: aplicaciones."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.E.05",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sistemas de comunicación en plataformas de control: alámbrica e inalámbricas. Internet de las cosas. Aplicaciones prácticas."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "F",
+          "nombre": {
+            "es": "Desarrollo sostenible en la robótica"
+          },
+          "saberes": [
+            {
+              "id": "PR.4.F.01",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Sostenibilidad en la selección de materiales y en el diseño de procesos y sistemas automáticos y robóticos."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.F.02",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Fabricación sostenible mediante robots: reducción tanto de los materiales empleados como del consumo energético."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            },
+            {
+              "id": "PR.4.F.03",
+              "codigoOficial": null,
+              "texto": {
+                "es": "Contribución de la inteligencia artificial al desarrollo sostenible."
+              },
+              "procedencia": {
+                "fuenteRef": "es-cm-eso-cfgb-decreto-82-2022",
+                "paginas": [
+                  212
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "estado": "revisado",
+    "fuenteComprobada": true,
+    "fechaUltimaRevision": "2026-11-06",
+    "metodo": "Extracción de texto y coordenadas del PDF y contraste con Poppler.",
+    "notas": [
+      "La abreviatura de materia y los identificadores de saberes son internos. Las letras de bloque proceden del decreto.",
+      "Los descriptores operativos se conservan por competencia específica. El anexo presenta por separado los criterios y los saberes.",
+      "La oferta por cursos se contrasta con el horario del anexo IV en la redacción del Decreto 31/2024."
+    ]
+  }
+}
